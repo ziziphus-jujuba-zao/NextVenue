@@ -1,0 +1,14 @@
+{
+  "name": "@nextvenue/core",
+  "version": "0.0.0",
+  "author": "Zayier Xie <zayierxie@gmail.com>",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
+}

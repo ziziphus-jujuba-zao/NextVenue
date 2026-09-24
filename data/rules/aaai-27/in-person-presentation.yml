@@ -1,0 +1,26 @@
+id: aaai-27/in-person-presentation
+edition: aaai-27
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？可以线上报告吗？
+answer: required
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+  note_zh: camera-ready 提交时须确认承诺现场报告
+summary_zh: 必须。至少一位作者要按线下价注册，并在 AAAI-27（2027 年 2/16–2/23，蒙特利尔）现场报告，没有线上报告选项；不注册或不报告的论文会在出版前被移出论文集。
+detail_zh: camera-ready 提交时须确认承诺现场报告；如遇特殊情况无法到场，须立即通知 AAAI，不通知的论文不会收入论文集。官方没有说通知之后会如何处理。作者注册截止日期在作者页面上尚未公布。
+quotes:
+  - src: aaai-27-author-policies
+    text: "At least one author is required to present that paper in person and therefore register for the conference at the in-person rate."
+  - src: aaai-27-author-policies
+    text: "All presentations must be done in-person. There will be no remote presentation option."
+  - src: aaai-27-publication-attendance
+    text: "Conference registration and presentation are required for a paper to be included in the proceedings. Papers that do not meet these requirements will be removed before publication."
+  - src: aaai-27-author-policies
+    text: "If exceptional circumstances arise that prevent the authors from presenting the paper in person, I will notify AAAI immediately. I acknowledge that if I do not notify AAAI about exceptional circumstances, then the paper will not be included in the proceedings"
+effect:
+  kind: requires
+  target: in_person_presentation
+last_checked: 2026-09-24

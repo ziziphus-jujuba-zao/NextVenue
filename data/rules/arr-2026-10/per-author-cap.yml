@@ -1,0 +1,27 @@
+id: arr-2026-10/per-author-cap
+edition: arr-2026-10
+family: cap
+question_zh: 一位作者每轮能投超过 20 篇，或以一作身份投超过 5 篇吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: paper
+  note_zh: 按每一轮 ARR 计数，10 月轮起生效
+summary_zh: 不能。从 10 月轮起，每位作者每轮最多挂名 20 篇投稿，其中以一作或共同一作身份最多 5 篇；10/12 AoE（北京时间 10/13 19:59）前请和合作者核对各自的挂名数。
+detail_zh: 上限来自 sustainable reviewing policy，只适用于 ARR 主审稿轮，不含 demo 和 industry track。已快照的官方页面没有写超出上限会怎样处理（例如哪几篇被拒）；完整政策是 PDF，本项目暂时无法快照，未核对。
+changed_from_prev_zh: 新规。sustainable reviewing policy 写的是这一上限“are introduced”（新引入），从 2026 年 10 月轮起适用。
+quotes:
+  - src: arr-2026-10-sustainable-reviewing
+    text: "Additionally, per-author quotas are introduced, where authors are capped at 20 total submissions and 5 first-author (including shared first-author) submissions per cycle."
+  - src: arr-2026-10-cfp
+    text: "There are now caps on maximum submissions by a single author (20) and first or joint-first authors (5), and penalties for system abuse including systematic spamming and account manipulation."
+  - src: arr-2026-10-sustainable-reviewing
+    text: "No, this is only for the ‘main’ ARR review cycles. Demo and industry tracks are run separately, and may choose their own approaches."
+effect:
+  kind: cap
+  target: submissions_per_author
+  limit: 20
+  first_author_limit: 5
+  per: cycle
+last_checked: 2026-09-24

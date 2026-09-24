@@ -1,0 +1,64 @@
+Skip to content
+ACL Rolling Review A reviewing service of the ACL community Menu
+Call for papers Dates Guidelines
+Authors Common submission problems Reviewers Area Chairs Senior Area Chairs Conference/Workshop Organizers Track selection Responsible NLP ARR service qualifications
+Blogs ARR Team Reports
+Statistics Changelog Future plans
+Search OpenReview ↗
+
+ACL Rolling Review
+
+Dates and Venues
+
+Reviewing Schedule
+
+ARR followed 8-week review cycles from October 2022 through February 2025. After extensive deliberation and community feedback, the ACL Peer Review Committee recommended moving to 10-week cycles, beginning with the May 2025 cycle. Submission deadlines are now set individually for each cycle rather than fixed to a particular day of the month; please refer to the schedule below for current dates. The full committee report is available in the admin wiki.
+
+Under the 10-week schedule, ARR generally runs five cycles per year, allowing more reasonable timelines for review tasks, author responses, and platform maintenance. Cycles can begin on Mondays and follow a more consistent schedule with fewer weekend conflicts. Because the transition occurred partway through 2025, ARR ran four cycles that year.
+
+This table lists all the key dates, by which the authors may need to take action, for the upcoming cycles following the new schedule:
+
+Cycle          Submission   Reviewer registration   Reviews due   Author Response              Meta-reviews release date   Cycle End
+March 2026     March 16     March 18                April 20      April 28-May 4               May 21                      May 24
+May 2026       May 25       May 27                  July 2        July 8-July 14               July 30                     August 2
+August 2026    August 3     August 5                September 7   September 14-September 24*   October 8                   October 11
+October 2026   October 12   October 14              November 16   November 24-November 30      December 17                 December 20
+
+*Note: in August 2026 cycle, the author response period is split into 3 phases, where the initial author response is due on September 19. Please see the instructions emailed to the authors.
+
+Note that in addition to submission and author response dates, the following action points are now listed, as non-compliance may result in desk rejection or sanctions (see more details at https://aclrollingreview.org/incentives2025):
+
+ * Reviewer registration deadline for ALL authors. The registration link will be active in the author console immediately upon paper submission. ALL authors must register. Not all authors will receive assignments, but non-compliant papers may be desk rejected.
+ * Review submission deadline. The ‘highly irresponsible’ reviewers who didn’t submit on time without a warning, or submit unacceptable work, may become ineligible to commit their work to the upcoming conference or (re-)submit in the next ARR cycle.
+ * Meta-review deadline. The ‘highly irresponsible’ meta-reviewers who didn’t submit on time without a warning, or submit unacceptable work, may become ineligible to commit their work to the upcoming conference or (re-)submit in the next ARR cycle.
+
+Submission to Participating Venues
+
+Any paper that is not desk rejected will receive reviews. Once authors have reviews they may choose to revise and resubmit for another round of reviews, or commit their paper and reviews to a publication venue.
+
+The upcoming publication venues participating in ARR are listed below. If you represent a publication venue and would like to be added to this list, please see this page.
+
+Venue         Final ARR Submission Date   Commitment Date
+EMNLP 2026    May 25, 2026                August 2, 2026
+AACL 2026     May 25, 2026                August 2, 2026
+EACL 2027     August 3, 2026              October 11, 2026
+NAACL 2027    October 12, 2026            December 23, 2026
+COLING 2027   October 12, 2026            December 23, 2026
+ACL 2027      January, 2027
+
+ACL Rolling Review
+
+A peer review platform for the Association for Computational Linguistics.
+
+For contributors
+
+Authors Reviewers Area Chairs
+
+Resources
+
+Dates & venues Call for papers ARR Team
+
+Contact
+
+support@aclrollingreview.org Bluesky Twitter
+© 2026 ACL Rolling Review Serving the international computational linguistics community

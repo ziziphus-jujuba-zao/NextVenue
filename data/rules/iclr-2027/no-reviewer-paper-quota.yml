@@ -1,0 +1,28 @@
+id: iclr-2027/no-reviewer-paper-quota
+edition: iclr-2027
+family: cap
+question_zh: 每位作者能参与超过 1 篇“没有任何作者具备互审资格”的论文吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: abstract
+  until: paper
+  note_zh: 资格按 9/18 摘要截止时已录用的论文判断；正文截止时仍超额则随机 desk reject
+summary_zh: 不能。如果一篇论文的所有作者都不具备互审资格（按 9/18 摘要截止时已录用的论文判断），每位作者最多只能参与 1 篇这样的论文；超额的处理和 20 篇上限相同，到 9/25 AoE（北京时间 9/26 19:59）仍超额会被随机 desk reject。
+detail_zh: 这是 2027 新规。合格发表的会议和期刊列表见“每篇投稿须有作者审稿”卡；只有 NeurIPS 2026 录用论文的人不算合格。资格按 OpenReview 资料判断，资料不实可导致 desk reject。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Each author may appear as a co-author on at most one paper in which no author is an eligible reciprocal reviewer."
+  - src: iclr-2027-author-guidelines
+    text: "Eligibiity is determined by papers accepted for publication by the abstract deadline. In particular, if your only qualifying publication is an accepted NeurIPS 2026 publication, you are not a qualified reciprocal reviewer."
+  - src: iclr-2027-author-guidelines
+    text: "Submissions in excess of either quota will be flagged during the abstract submission period. If they are still exceeded at the time of full paper submissions, we will randomly desk-reject excess submissions until every author is under quota."
+  - src: iclr-2027-author-guidelines
+    text: "Eligibility will be determined based on OpenReview profiles. Incorrect information on your profile will be grounds for desk rejection."
+effect:
+  kind: cap
+  target: no_reviewer_papers_per_author
+  limit: 1
+  penalty: random_desk_reject
+last_checked: 2026-09-24

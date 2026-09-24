@@ -1,0 +1,45 @@
+{
+  "name": "nextvenue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "NextVenue（投稿下一站）: submission rules, policy watch and decision support for CS/AI conferences — every answer backed by a verbatim official quote.",
+  "author": "Zayier Xie <zayierxie@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "snapshot": "tsx scripts/snapshot.ts",
+    "validate": "tsx scripts/validate.ts",
+    "check:quotes": "tsx scripts/check-quotes.ts",
+    "build": "tsx scripts/build.ts",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "check:all": "pnpm typecheck && pnpm validate && pnpm check:quotes && pnpm test && pnpm build"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.1",
+    "@nextvenue/core": "workspace:*"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "html-to-text": "^10.0.1",
+    "yaml": "^2.9.1"
+  },
+  "packageManager": "pnpm@10.34.5",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziziphus-jujuba-zao/NextVenue.git"
+  }
+}

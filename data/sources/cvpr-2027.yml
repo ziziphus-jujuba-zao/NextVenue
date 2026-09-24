@@ -1,0 +1,63 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cvpr-2027
+sources:
+  - id: cvpr-2027-cfp
+    url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+    title: CVPR 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T12:10:32Z
+    http_status: 200
+    snapshot: b298ff4dcfa84723c1a33f19e09efc869a663f1cf090cc9bde7b39993f4ea0df
+  - id: cvpr-2027-dates
+    url: https://cvpr.thecvf.com/Conferences/2027/Dates
+    title: CVPR 2027 Dates
+    kind: dates
+    fetched_at: 2026-09-24T12:10:33Z
+    http_status: 200
+    snapshot: b6eba2b113fbf56e429318acec2e958ddb523d585340948545b8e4ed19bd7ff8
+  - id: cvpr-2027-author-guidelines
+    url: https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines
+    title: CVPR 2027 Author Guidelines
+    kind: author_guide
+    fetched_at: 2026-09-24T12:10:34Z
+    http_status: 404
+    note_zh: 2026-09-24 仍为 404，尚未发布；作者名单、上限、一稿多投细则等暂沿用 2026 作者指南。
+  - id: cvpr-2026-author-guidelines
+    url: https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines
+    title: CVPR 2026 Author Guidelines
+    kind: author_guide
+    fetched_at: 2026-09-24T12:10:35Z
+    http_status: 200
+    snapshot: 50cb248d0c89bfff14c2d54ad378f2843a1e9e4b5eb5a960ef95062a5ae0d8fc
+    note_zh: 上一届作者指南，用于 2027 尚未公布的沿用规则。
+  - id: cvpr-2026-reviewer-guidelines
+    url: https://cvpr.thecvf.com/Conferences/2026/ReviewerGuidelines
+    title: CVPR 2026 Reviewer Guidelines
+    kind: policy
+    fetched_at: 2026-09-24T12:10:58Z
+    http_status: 200
+    snapshot: a4b6dba8e07fb697543261c6387f234408e3c2bcc9b0f8a300aa6117b3df3914
+    note_zh: 上一届审稿指南，含审稿人 desk reject 处罚和补充材料不得含修正版论文的规定。
+  - id: cvpr-2026-cfp
+    url: https://cvpr.thecvf.com/Conferences/2026/CallForPapers
+    title: CVPR 2026 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T12:10:59Z
+    http_status: 200
+    snapshot: 32bff41d304050ea3d4b37871eb0d375aa504ca8598925c70bfb152611b3f449
+    note_zh: 上一届 CFP，用于对比 2026 一稿多投窗口的写法。
+  - id: cvpr-2027-reviewer-guidelines
+    url: https://cvpr.thecvf.com/Conferences/2027/ReviewerGuidelines
+    title: CVPR 2027 Reviewer Guidelines
+    kind: policy
+    fetched_at: 2026-09-24T12:11:00Z
+    http_status: 404
+    note_zh: 2026-09-24 仍为 404，尚未发布；审稿人处罚与补充材料限制暂沿用 2026 审稿指南。
+  - id: cvpr-2027-home
+    url: https://cvpr.thecvf.com/Conferences/2027
+    title: CVPR 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T12:11:45Z
+    http_status: 200
+    snapshot: b5a7ccc59aeac0e6490f370d46e9c71aa75fd0f661648655b67504f9c5825d4d
+    note_zh: 会议地点（Seattle WA）和会期。

@@ -1,0 +1,30 @@
+id: arr-2026-10/withdrawal-48h
+edition: arr-2026-10
+family: withdrawal
+question_zh: 截止后撤稿有什么后果？什么时候撤会影响下一轮重投？
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: paper
+  until: meta_reviews
+  note_zh: 截止后 48 小时即 10/14 AoE；拿到 meta-review 后论文已不算在审，无需撤稿
+summary_zh: 随时可以撤，但在截止后超过 48 小时撤稿，即 10/14 AoE（北京时间 10/15 19:59）以后，这篇论文下一轮不能重投，要到再下一轮。拿到 meta-review 后论文就不算在审了，可以直接投别处或 commit，不需要撤稿。
+detail_zh: 如果撤的是一篇重投稿，它之前的版本也一并视为撤回，不恢复就不能再重投或 commit。只要收到过一份审稿意见，就不能撤了当新论文再投，必须按重投规则声明前一版本。收到录用并提交 camera-ready 后就不能再撤。
+quotes:
+  - src: arr-2026-10-cfp
+    text: "Authors may withdraw their submission at any time. However, a submission that is withdrawn more than 48 hours after the submission deadline may not be resubmitted until the second subsequent ARR cycle."
+  - src: arr-2026-10-cfp
+    text: "If a withdrawn submission is a resubmission, its earlier version(s) are also considered withdrawn and may not be resubmitted or committed without restoring."
+  - src: arr-2026-10-cfp
+    text: "Once the submission receives the ARR meta-review, it is no longer considered under review, and can be submitted or committed elsewhere with no restrictions."
+  - src: arr-2026-10-cfp
+    text: "Once a paper receives even one review at ARR, it cannot be simply withdrawn and submitted again as a new publication."
+  - src: arr-2026-10-authors
+    text: "If you receive a decision of acceptance, by submitting the camera-ready, you accept the publication offer, and the paper can no longer be withdrawn."
+effect:
+  kind: withdraw
+  after: paper
+  offset_hours: 48
+  consequence: skip_next_cycle
+last_checked: 2026-09-24

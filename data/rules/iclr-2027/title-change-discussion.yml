@@ -1,0 +1,21 @@
+id: iclr-2027/title-change-discussion
+edition: iclr-2027
+family: content_edit
+question_zh: 讨论期（11/5–11/18）上传修订版时能改标题吗？
+answer: contradictory
+verification: human
+conf: high
+applies:
+  from: reviews_out
+  until: discussion
+  note_zh: 11/5 审稿发布到 11/18 讨论期结束
+summary_zh: 作者指南自相矛盾：一处写正文截止后直到讨论期结束 11/18 AoE（北京时间 11/19 19:59）都不能改标题，讨论期 FAQ 却说 rebuttal 期间可以改标题、摘要和正文。
+detail_zh: 讨论期修改正文没有矛盾，审稿时间线和 FAQ 都允许（修订规则见“讨论期修订”卡）；讨论期改摘要只有这条 FAQ 提到。按 FAQ 修改时，官方要求把改动清楚告知审稿人和 AC。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "No changes to title are permitted after the submission deadline until the end of the discussion period."
+    reading_zh: 按指南 “Author order” 一节：正文截止后直到讨论期结束，标题都不能改
+  - src: iclr-2027-author-guidelines
+    text: "Yes, you can change the title, abstract, and the paper’s content, including supplementary materials. But make sure any modifications are clearly communicated to the reviewers and the area chair, so that they can efficiently review the modified version of your paper."
+    reading_zh: 按讨论期 FAQ “Can we change the title of a paper during the rebuttal?”：rebuttal 期间可以改标题，但要告知审稿人和 AC
+last_checked: 2026-09-24

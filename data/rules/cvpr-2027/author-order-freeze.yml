@@ -1,0 +1,27 @@
+id: cvpr-2027/author-order-freeze
+edition: cvpr-2027
+family: author_list
+question_zh: 正文截止（11/16）后还能调整作者顺序吗，录用后呢？
+answer: contradictory
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: paper
+  note_zh: 正文截止前可以自由调整顺序；两处原文的分歧只在正文截止之后，尤其是录用后
+summary_zh: 2027 作者指南尚未公布，以下为 2026 规则：作者顺序可以改到 11/16 AoE（北京时间 11/17 19:59），之后原则上冻结。录用后能否调序，2026 指南前后矛盾：冲突责任一节说录用后也不能改，FAQ 说只有特殊情况下“可能会考虑”。
+detail_zh: 两段原文都在 2026 作者指南同一页。正文截止到录用之间，两处都没有给出调序的途径。
+quotes:
+  - src: cvpr-2026-author-guidelines
+    text: "You can also reorder the author list until the paper submission deadline."
+    reading_zh: 两处一致的部分：正文截止前可以自由调整作者顺序
+  - src: cvpr-2026-author-guidelines
+    text: "The order of the author list is considered final after the paper submission deadline (Nov 13 2025) and no changes are allowed thereafter, including for accepted papers."
+    reading_zh: 按冲突责任一节：正文截止后顺序完全冻结，录用后也不能改
+  - src: cvpr-2026-author-guidelines
+    text: "Changes to the authorship order following acceptance may be considered, but only in special circumstances."
+    reading_zh: 按作者 FAQ：录用后调整顺序只在特殊情况下“可能会被考虑”，原文没有说明怎么申请，也不保证批准
+effect:
+  kind: lock
+  target: author_order
+last_checked: 2026-09-24

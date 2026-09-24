@@ -1,0 +1,28 @@
+id: cvpr-2027/openreview-profile
+edition: cvpr-2027
+family: profile
+question_zh: 所有作者都必须有完整的 OpenReview profile 吗？没完成会怎样？
+answer: required
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  until: paper_registration
+  note_zh: 2027 未公布 profile 截止日；2026 规则多处要求在论文注册截止前完成（另一处写的截止更晚）
+summary_zh: 必须。2027 CFP 已确认每位共同作者都要有最新的 OpenReview profile 才能投稿；截止时间和处罚沿用 2026 规则（2027 作者指南尚未公布）：须在摘要（即论文注册）截止前完成，对应 2027 的 11/10 AoE（北京时间 11/11 19:59），有作者没完成的论文会被 desk reject（2026 指南另一处写了更晚的 profile 截止日，见详情）。
+detail_zh: 没有机构邮箱新建的 profile 需要人工审核，最长两周；按 11/10 倒推两周，这类合作者应在 10/27 前建好账号。2026 作者指南冲突责任一段先说所有作者须在摘要截止（Nov 06 2025）前有有效 profile，紧接着又写 profile 须在 Nov 16 2025 的“Open Review Profile deadline”前完成或更新，晚于当年正文截止；2027 Dates 页和 CFP 都没有列出 profile 截止日。
+quotes:
+  - src: cvpr-2027-cfp
+    text: "An up-to-date OpenReview profile for all co-authors is required to submit a paper. Note that new profiles created without an institutional email will go through a moderation process which can take up to two weeks."
+  - src: cvpr-2026-author-guidelines
+    text: "Anyone who plans to submit a paper as an author or a co-author will need to create (or update) their OpenReview profile by the abstract submission deadline. Complete OpenReview profiles are required for better assignment and conflict detection."
+  - src: cvpr-2026-author-guidelines
+    text: "Papers with authors who have not completed their profiles will be desk-rejected."
+  - src: cvpr-2026-author-guidelines
+    text: "Moreover, all authors of a paper must have a valid OpenReview profile by the abstract submission deadline (Nov 06 2025) to avoid desk rejection."
+  - src: cvpr-2026-author-guidelines
+    text: "Profiles need to be completed and/or updated by the Open Review Profile deadline (Nov 16 2025)."
+effect:
+  kind: requires
+  target: openreview_profile
+last_checked: 2026-09-24

@@ -1,0 +1,28 @@
+id: cvpr-2027/author-membership-freeze
+edition: cvpr-2027
+family: author_list
+question_zh: 论文注册截止（11/10）后还能新建投稿、增加或删除作者吗？
+answer: not_allowed
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: paper_registration
+  note_zh: 注册截止后任何阶段（含录用后）都不能新建投稿或增删作者；顺序能改到什么时候见“作者顺序”卡
+summary_zh: 2027 作者指南尚未公布，以下为 2026 规则：必须在 11/10 AoE（北京时间 11/11 19:59）前在 OpenReview 建好投稿、填标题摘要并加齐全部作者，之后不能再新建投稿，也不能增删作者，录用后同样不行。官方把截止后改作者名单列为“不给任何例外”的事项。
+detail_zh: 2027 CFP 已确认 11/10 的注册截止是固定日期、不延期。作者顺序可以改到 11/16 正文截止（见“作者顺序”卡）。2026 作者指南冲突责任一节把摘要截止写成 Nov 06 2025，而同年 CFP 写的是 Nov 07，2027 以 Dates 页的 11/10 为准。
+quotes:
+  - src: cvpr-2027-cfp
+    text: "Paper Registration Deadline*:       Nov 10, 2026 AOE"
+  - src: cvpr-2026-author-guidelines
+    text: "A. Until the abstract submission deadline, you need to create a submission in OpenReview, add a title and an abstract for your paper, add all your co-authors (and make sure that their OpenReview profiles and forms are complete)."
+  - src: cvpr-2026-author-guidelines
+    text: "However, after the abstract submission (i.e., paper registration) deadline, you can no longer create new paper submissions or add/delete authors of your submission(s)."
+  - src: cvpr-2026-author-guidelines
+    text: "A. NO. After the abstract registration deadline, the author list is considered final."
+  - src: cvpr-2026-author-guidelines
+    text: "There will be no exceptions or accommodations for: * Late submissions; * Misconfigured author or co-author accounts on OpenReview; and/or * Changes to the author lists after the abstract submission deadline."
+effect:
+  kind: lock
+  target: author_membership
+last_checked: 2026-09-24

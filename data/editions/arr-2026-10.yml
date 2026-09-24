@@ -1,0 +1,78 @@
+id: arr-2026-10
+series: arr
+name: ARR 2026 年 10 月轮
+year: 2026
+kind: arr_cycle
+milestones:
+  - type: paper
+    at: 2026-10-12T23:59
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-naacl-2027-cfp
+    quote: "ARR submission deadline (long & short papers) October 12, 2026"
+    note_zh: ARR 日期页同样写 October 12，但没写时区；AoE 取自 NAACL 2027 页面（“All deadlines are 11:59 p.m. UTC -12h (anywhere on earth)”）。投稿表单 9/28 开放（ARR qualifications 页）。
+  - type: reviewer_registration
+    label_zh: service contributor 注册表单截止
+    at: 2026-10-12T23:59
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-naacl-2027-cfp
+    quote: "Reviewer registration deadline for ALL authors October 12, 2026"
+    note_zh: 两处官方页面不一致，按规则取最早的日期。NAACL 2027 页面写 October 12（沿用“for ALL authors”的旧措辞）；ARR 日期页写 October 14，ARR CFP 写“截止后 48 小时内”，即 10/14 AoE。见“service contributor 注册截止”卡。
+  - type: profile_deadline
+    label_zh: 全体作者 OpenReview profile 完成截止
+    at: 2026-10-19T23:59
+    tz: AoE
+    status: estimated
+    src: arr-2026-10-cfp
+    quote: "The profile registration for all authors must be finished 1 week after submission deadline at the latest."
+    note_zh: 官方只写“投稿截止后 1 周内”，没有单独公布日期；按 10/12 AoE 加 7 天推算。
+  - type: reviewing
+    label_zh: 审稿截止（service contributor 须按时交审稿）
+    at: 2026-11-16
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-dates
+    quote: "October 2026 October 12 October 14 November 16 November 24-November 30 December 17 December 20"
+    note_zh: ARR 日期页没写时区，暂按 AoE。
+  - type: author_response
+    start: 2026-11-24
+    end: 2026-11-30
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-dates
+    quote: "October 2026 October 12 October 14 November 16 November 24-November 30 December 17 December 20"
+    note_zh: ARR 日期页没写时区，暂按 AoE。
+  - type: meta_reviews
+    at: 2026-12-18
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-naacl-2027-cfp
+    quote: "Meta-reviews released December 18, 2026"
+    note_zh: 两处不一致，按规则取较晚的日期。NAACL 2027 页面写 December 18；ARR 日期页写 December 17。NAACL 页面的 AoE 说明针对截止日期，这里的时区是沿用。
+  - type: commitment
+    label_zh: NAACL 2027 / COLING 2027 commit 截止
+    at: 2026-12-23T23:59
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-naacl-2027-cfp
+    quote: "NAACL commitment deadline December 23, 2026"
+    note_zh: ARR 日期页也把 NAACL 2027 和 COLING 2027 的 commit 日期列为 December 23, 2026。NAACL 的 commit 入口只在截止前两周开放；commit 时要选定主会（NAACL 或 COLING），之后不能改。COLING 2027 页面未快照，COLING 的 commit 时区沿用 NAACL 页面的 AoE。
+  - type: notification
+    label_zh: NAACL 2027 录用通知
+    at: 2027-02-10
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-naacl-2027-cfp
+    quote: "Notification of acceptance (long & short papers) February 10, 2027"
+    note_zh: 只是 NAACL 2027 的日期；COLING 2027 的日期未收录。NAACL 页面的 AoE 说明针对截止日期，通知日的时区是沿用。
+  - type: camera_ready
+    label_zh: NAACL 2027 camera-ready 截止
+    at: 2027-03-03T23:59
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-naacl-2027-cfp
+    quote: "Camera-ready papers due (long & short) March 3, 2027"
+    note_zh: 只是 NAACL 2027 的日期；COLING 2027 的日期未收录。
+last_checked: 2026-09-24
+note_zh: 这一轮是 sustainable reviewing policy（2026-09-11 发布）实施的第一轮，对应 NAACL 2027 和 COLING 2027。截至 9/24，OpenReview 上还查不到 10 月轮的投稿入口（API 返回 404）；ARR 作者指南页自注现行版本只适用到 8 月轮，与新政策冲突时以 CFP 和 checklist 为准。

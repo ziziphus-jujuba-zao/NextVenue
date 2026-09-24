@@ -1,0 +1,24 @@
+id: iclr-2027/author-order
+edition: iclr-2027
+family: author_list
+question_zh: 作者顺序最晚能改到什么时候？
+answer: contradictory
+verification: human
+conf: high
+applies:
+  from: abstract
+  until: discussion
+  note_zh: 摘要截止后到正文截止前可以改，各处一致；正文截止后到讨论期结束能否再改，官方说法矛盾
+summary_zh: 正文截止 9/25 AoE（北京时间 9/26 19:59）前可以调整作者顺序，这一点各处一致；之后能否在讨论期（11/5–11/18）再改，作者指南前后说法矛盾，只有 9/25 前调整是各处都允许的。
+detail_zh: 增删作者在 9/18 摘要截止后已不允许（见“作者名单冻结”卡）。讨论期 FAQ 那句是在回答“rebuttal 期间能否改标题”时顺带说的。2027 指南没有 camera-ready 阶段调整顺序的说明。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Author order may be edited after the abstract deadline, but new authors cannot be added or removed. No changes to authors are permitted after the submission deadline."
+    reading_zh: 按指南 “Author order” 一节：正文截止（9/25）后作者信息不能再有任何改动，顺序也不能改
+  - src: iclr-2027-author-guidelines
+    text: "Note that the order of authors can be changed if the contribution among the authors changes but this is allowed only until the submission deadline."
+    reading_zh: 按投稿 FAQ：调整顺序只允许到正文截止
+  - src: iclr-2027-author-guidelines
+    text: "The set of authors cannot be changed, but the order can be changed."
+    reading_zh: 按讨论期 FAQ（问题是 rebuttal 期间能否改标题）：讨论期内作者集合不能变，但顺序可以改
+last_checked: 2026-09-24

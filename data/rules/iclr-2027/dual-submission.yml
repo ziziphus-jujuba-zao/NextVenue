@@ -1,0 +1,25 @@
+id: iclr-2027/dual-submission
+edition: iclr-2027
+family: dual_submission
+question_zh: 论文在 ICLR 审稿期间，能同时投其他会议或期刊吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: paper
+  until: notification
+  note_zh: 整个审稿期都执行
+summary_zh: 不能。与已发表、已录用或同时投往其他会议/期刊的版本相同或实质相似的投稿违反双投政策，整个审稿期都执行；arXiv 和没有论文集的 workshop 不算。
+detail_zh: 12/16 出结果后，未录用的论文视为非存档，可以改投别处（见“公开与去匿名”卡）。撤稿后是否还受这条限制，指南没有单独说明。指南 FAQ 说重复投稿检查只针对完整投稿（该 FAQ 针对的是摘要阶段论文仍在 NeurIPS 审稿的情况，摘要阶段已于 9/18 结束）。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Submissions that are identical (or substantially similar) to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to this or other conferences or journals, are not allowed and violate our dual submission policy."
+  - src: iclr-2027-author-guidelines
+    text: "The policy is enforced during the whole reviewing process period."
+  - src: iclr-2027-author-guidelines
+    text: "However, papers that cite previous related work by the authors and papers that have appeared on non-peer reviewed websites (like arXiv) or that have been presented at workshops (i.e., venues that do not have publication proceedings) do not violate the policy."
+  - src: iclr-2027-author-guidelines
+    text: "We will only do duplicate-submission checks for full submissions."
+effect:
+  kind: exclusive
+last_checked: 2026-09-24

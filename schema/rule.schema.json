@@ -1,0 +1,244 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rule.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: MIT",
+  "title": "One rule card: a single question about one edition, answered with verbatim official quotes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "edition",
+    "family",
+    "question_zh",
+    "answer",
+    "verification",
+    "conf",
+    "summary_zh",
+    "quotes",
+    "last_checked"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*/[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "family": {
+      "enum": [
+        "author_list",
+        "content_edit",
+        "submission",
+        "cap",
+        "reciprocal_reviewing",
+        "profile",
+        "dual_submission",
+        "withdrawal",
+        "visibility",
+        "rebuttal",
+        "llm_policy",
+        "format",
+        "presentation",
+        "resubmission",
+        "other"
+      ]
+    },
+    "question_zh": {
+      "type": "string",
+      "minLength": 4
+    },
+    "answer": {
+      "enum": [
+        "required",
+        "allowed",
+        "not_allowed",
+        "conditional",
+        "unspecified",
+        "not_required",
+        "contradictory"
+      ]
+    },
+    "verification": {
+      "enum": [
+        "human",
+        "correspondence",
+        "upstream",
+        "inherited",
+        "machine"
+      ]
+    },
+    "conf": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "applies": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "from": {
+          "$ref": "#/definitions/milestoneType"
+        },
+        "until": {
+          "$ref": "#/definitions/milestoneType"
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "summary_zh": {
+      "type": "string",
+      "minLength": 4
+    },
+    "detail_zh": {
+      "type": "string"
+    },
+    "quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "src",
+          "text"
+        ],
+        "properties": {
+          "src": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 8
+          },
+          "reading_zh": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "checked_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "inherited_from": {
+      "type": "string"
+    },
+    "changed_from_prev_zh": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "lock",
+            "cap",
+            "exclusive",
+            "withdraw",
+            "requires"
+          ]
+        }
+      }
+    },
+    "last_checked": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "answer": {
+            "const": "unspecified"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "checked_sources"
+        ]
+      },
+      "else": {
+        "properties": {
+          "quotes": {
+            "type": "array",
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "answer": {
+            "const": "contradictory"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "quotes": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "required": [
+                "src",
+                "text",
+                "reading_zh"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "verification": {
+            "const": "inherited"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "inherited_from"
+        ]
+      }
+    }
+  ],
+  "definitions": {
+    "milestoneType": {
+      "enum": [
+        "abstract",
+        "paper_registration",
+        "paper",
+        "supplementary",
+        "profile_deadline",
+        "reviewer_registration",
+        "reviewing",
+        "phase1_notification",
+        "reviews_out",
+        "author_response",
+        "discussion",
+        "meta_reviews",
+        "commitment",
+        "notification",
+        "camera_ready",
+        "author_registration",
+        "conference"
+      ]
+    }
+  }
+}

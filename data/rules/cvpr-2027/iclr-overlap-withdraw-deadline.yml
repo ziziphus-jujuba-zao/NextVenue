@@ -1,0 +1,35 @@
+id: cvpr-2027/iclr-overlap-withdraw-deadline
+edition: cvpr-2027
+family: dual_submission
+question_zh: 论文还在 ICLR 2027 审稿中，想转投 CVPR 2027，必须在 11/10 CVPR 论文注册前撤掉 ICLR，还是在 11/16 正文截止前撤就行？
+answer: contradictory
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: paper_registration
+  until: paper
+  note_zh: 适用于 ICLR 2027 尚未出最终结果（12/16）时就想转投 CVPR 2027 的论文
+summary_zh: 官方说法矛盾：按 CVPR 2026 作者指南（“注册”与“投稿”并列）要在 CVPR 论文注册截止 11/10 AoE（北京时间 11/11 19:59）前撤掉 ICLR，按 2027 CFP 写的审稿期则最晚在正文截止 11/16 AoE（北京时间 11/17 19:59）前撤，卡片不替你选。ICLR 正文截止后撤稿不可逆：论文会公开留在 OpenReview 的 withdrawn papers 区，作者立即去匿名。
+detail_zh: ICLR 2027 在 11/5 发审稿意见，按严格读法看完审稿后约有 5 天决定，按字面读法约 11 天。2026 年也存在同样的张力：2026 CFP 的审稿期同样从正文截止日算起（November 13, 2025 – February 20, 2026，原文见“一稿多投窗口”卡），而同年作者指南写的是“registering or submitting”。2027 作者指南发布后需要重新核对；在那之前，能给出确定答案的只有 CVPR PC 的书面答复。两种读法一致的是：最晚在 11/16 AoE 向 CVPR 正式投稿之前，论文必须已经从 ICLR 撤下。
+quotes:
+  - src: cvpr-2026-author-guidelines
+    text: "By registering or submitting a manuscript to CVPR, the authors acknowledge that it has not been previously published or accepted for publication in substantially similar form in any peer-reviewed venue, including journal, conference or workshop, or archival forum. Furthermore, no publication substantially similar in content (defined as having 20 percent or more overlap) has been or will be registered or submitted to this or another conference, workshop, or journal during the review period."
+    reading_zh: 严格读法（11/10）：2026 作者指南把在 CVPR“注册”和“投稿”并列，也禁止相似论文在别处“registered or submitted”。按此理解，11/10 在 CVPR 注册时论文就不应再在 ICLR 审稿中，须在 11/10 AoE 前撤掉 ICLR。这是 2026 原文，2027 作者指南尚未发布。
+  - src: cvpr-2027-cfp
+    text: "By submitting to CVPR, authors confirm that no substantially similar paper has been or will be submitted to another conference or workshop during the review period (November 16, 2026 – February 22, 2027)."
+    reading_zh: 字面读法（11/16）：2027 CFP 只说“投稿”，并把审稿期写为从 11/16 开始。按此理解，11/10 只做注册不构成一稿多投，在 11/16 AoE 正文截止前撤掉 ICLR 即可。
+  - src: iclr-2027-author-guidelines
+    text: "Submissions that are identical (or substantially similar) to versions that have been previously published, or accepted for publication, or that have been submitted in parallel to this or other conferences or journals, are not allowed and violate our dual submission policy."
+    reading_zh: ICLR 一侧的规定，两种读法都受它约束：ICLR 不允许论文同时投往其他会议，所以论文在 CVPR 正式投稿时不能还在 ICLR 审稿中。ICLR 是否把 CVPR 的论文注册也算作并行投稿，原文没有说。
+  - src: iclr-2027-author-guidelines
+    text: "However, note that after the paper submission deadline, if an author chooses to withdraw a submission, it will remain hosted by OpenReview in a publicly visible \"withdrawn papers\" section."
+    reading_zh: 两种读法都要承担的后果：ICLR 正文截止（9/25）后撤稿，论文会继续留在 OpenReview 公开的 withdrawn papers 区。
+  - src: iclr-2027-author-guidelines
+    text: "Withdrawn papers will be de-anonymized immediately."
+    reading_zh: 撤稿即刻去匿名、公开作者名单；两种读法相差的 6 天，决定了看完 ICLR 审稿后还有多少时间考虑。
+effect:
+  kind: withdraw
+  target: other_venue_under_review
+  readings: [paper_registration, paper]
+last_checked: 2026-09-24

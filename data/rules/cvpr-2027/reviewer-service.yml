@@ -1,0 +1,25 @@
+id: cvpr-2027/reviewer-service
+edition: cvpr-2027
+family: reciprocal_reviewing
+question_zh: 投稿的作者都必须给 CVPR 2027 审稿吗？
+answer: required
+verification: human
+conf: high
+applies:
+  from: paper
+  note_zh: 被 PC 邀请时生效；审稿时间表 2027 尚未公布
+summary_zh: 必须。所有作者被 PC 邀请时都要担任审稿人、AC 或 SAC；只有事先向 PC 说明并获批准的特殊情况才能豁免。
+detail_zh: 2027 作者指南和审稿指南都还是 404，豁免怎么申请、谁自动豁免尚未公布。2026 作者指南的做法是作者自动进入审稿人池，新入行或领域外的作者会被豁免，申请豁免要填 Help Desk 上的表单；2027 是否沿用未知。审稿迟交或不负责的后果见“审稿人处罚”卡。
+quotes:
+  - src: cvpr-2027-cfp
+    text: "Mandatory Reviewer Service.  All authors commit to serve as reviewers, area chairs, or senior area chairs when invited by the program chairs. Exceptions are granted only for truly exceptional circumstances that must be:"
+  - src: cvpr-2027-cfp
+    text: "Disclosed to the program chairs in advance * Approved by the program chairs as valid reasons for exemption"
+  - src: cvpr-2026-author-guidelines
+    text: "Authors will be automatically added to the reviewer pool unless they are exempted."
+  - src: cvpr-2026-author-guidelines
+    text: "Authors who are new to or outside the computer vision community will be exempted. To request an exemption, please complete the form available at Help Desk."
+effect:
+  kind: requires
+  target: reviewer_service
+last_checked: 2026-09-24

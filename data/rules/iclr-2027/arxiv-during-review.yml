@@ -1,0 +1,24 @@
+id: iclr-2027/arxiv-during-review
+edition: iclr-2027
+family: dual_submission
+question_zh: 审稿期间能把论文挂到 arXiv 上吗？
+answer: allowed
+verification: human
+conf: high
+applies:
+  from: paper
+  until: notification
+summary_zh: 可以。审稿期间允许发 arXiv，几乎相同的 arXiv 版本不算破坏匿名，只要投稿里不明确提到它；引用自己的相关 arXiv 论文要用第三人称。
+detail_zh: 正文或补充材料暴露作者身份的投稿会被 desk reject。2027 官方页面（作者指南、CFP、AI 政策、政策博客）都没有提到社交媒体宣传的规定。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Submission of the paper to archival repositories such as arXiv is allowed during the review period."
+  - src: iclr-2027-author-guidelines
+    text: "Q. I have a nearly identical version on arxiv. Does this violate the anonymity policy?"
+  - src: iclr-2027-author-guidelines
+    text: "No, so long as you do not refer to it explicitly."
+  - src: iclr-2027-author-guidelines
+    text: "Note that related arxiv papers by the same authors do not break anonymity; if cited, these should be cited in third person."
+  - src: iclr-2027-author-guidelines
+    text: "Any paper where author identity is revealed in either the main text or the supplementary material will be desk rejected."
+last_checked: 2026-09-24

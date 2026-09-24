@@ -1,0 +1,27 @@
+id: arr-2026-10/metadata-grace-period
+edition: arr-2026-10
+family: content_edit
+question_zh: 投稿截止后还有改元数据的宽限期吗？哪些能改、哪些不能改？
+answer: conditional
+verification: inherited
+inherited_from: arr-2026-08
+conf: low
+applies:
+  from: paper
+  note_zh: 10 月轮是否有宽限期未确认；PDF 和作者名单无论如何都在截止时定稿
+summary_zh: 10 月轮投稿表单尚未发布，CFP 和 checklist 也没提宽限期；以下为 8 月轮表单里沿用的说明，原文写的是 2025 年 7 月轮的试验：截止后多给两天改元数据，主 PDF 和作者名单除外。10 月轮是否延续未确认，PDF 和作者名单请按 10/12 AoE（北京时间 10/13 19:59）定稿。
+detail_zh: 8 月轮表单里这段文字仍写着“In July 2025 cycle we experiment”，唯一给出的日期是 2025 年 7 月 30 日，没有写 8 月轮自己的宽限期截止日，也没有写明适用于之后哪些轮次；ARR changelog 也只在 2025 年 7 月记了“Grace period for fixing metadata issues”。表单还写，宽限期结束后元数据定稿，按常规 desk reject 规则检查（例如漏报重投、Responsible NLP checklist 填错）。截止前投稿的所有内容都可以随时编辑（作者指南）。
+quotes:
+  - src: arr-2026-10-authors
+    text: "You may edit all aspects of your submission up until the deadline."
+  - src: arr-2026-08-openreview-submission-invitation
+    text: "In July 2025 cycle we experiment with giving the authors two extra days to edit the metadata after the submission deadline (until July 30 EoD AoE)."
+  - src: arr-2026-08-openreview-submission-invitation
+    text: "All fields except the main paper pdf and the author list will remain editable. After that grace period the submission metadata is final and subject to the regular desk rejection rules (see https://aclrollingreview.org/authorchecklist for a list of common issues)."
+  - src: arr-2026-10-changelog
+    text: "Grace period for fixing metadata issues after submission (leads: Freda)"
+checked_sources: [arr-2026-10-cfp, arr-2026-10-author-checklist, arr-2026-10-submission-form, arr-2026-10-openreview-submission-invitation]
+effect:
+  kind: lock
+  target: pdf
+last_checked: 2026-09-24

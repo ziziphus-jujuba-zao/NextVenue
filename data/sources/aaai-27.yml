@@ -1,0 +1,74 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aaai-27
+sources:
+  - id: aaai-27-cfp
+    url: https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+    title: AAAI-27 Main Technical Track Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T12:10:44Z
+    http_status: 200
+    snapshot: 186fd1d74a6bea613328dcfe3d9e56225194a0f3f85954c3b2b5beb5dd121b30
+  - id: aaai-27-submission-instructions
+    url: https://aaai.org/conference/aaai/aaai-27/submission-instructions/
+    title: AAAI-27 Submission Instructions
+    kind: author_guide
+    fetched_at: 2026-09-24T12:10:44Z
+    http_status: 200
+    snapshot: 68a770c7225ed6e9edcdb81cf680e84c4922ac27be9b1a368e731f41eeda1942
+  - id: aaai-27-author-policies
+    url: https://aaai.org/conference/aaai/aaai-27/policies-for-aaai-27-authors/
+    title: Policies for AAAI-27 Authors
+    kind: policy
+    fetched_at: 2026-09-24T12:10:45Z
+    http_status: 200
+    snapshot: b4b1825ff68388a85228f488acd2a9dc08a33ed983523e085c5598a93dbcde60
+  - id: aaai-27-paper-modification
+    url: https://aaai.org/conference/aaai/aaai-27/paper-modification-guidelines/
+    title: AAAI-27 Paper Modification Guidelines
+    kind: author_guide
+    fetched_at: 2026-09-24T12:10:46Z
+    http_status: 200
+    snapshot: f781824dbc83aa38ee803d05df84c28a595cd7081c0904d99a69eda6b70f1960
+  - id: aaai-27-review-process
+    url: https://aaai.org/conference/aaai/aaai-27/review-process/
+    title: AAAI-27 Review Process
+    kind: author_guide
+    fetched_at: 2026-09-24T12:10:50Z
+    http_status: 200
+    snapshot: 5681ca843cbff875613cf54b0130c5e3fdc0db0c3477200686986a1c8a5f1afa
+  - id: aaai-27-publication-attendance
+    url: https://aaai.org/conference/aaai/aaai-27/paper-publication-and-conference-attendance/
+    title: AAAI-27 Paper Publication and Conference Attendance
+    kind: policy
+    fetched_at: 2026-09-24T12:10:51Z
+    http_status: 200
+    snapshot: 38d4664cf7163dc4de43ac4bcd2a4230332458e5ecba7ba99f64415837a7b1ec
+  - id: aaai-26-faq-authors-rebuttal
+    url: https://aaai.org/conference/aaai/aaai-26/aaai-26-faq-for-authors-rebuttal/
+    title: AAAI-26 FAQ for Authors (Rebuttal)
+    kind: faq
+    note_zh: 上一届页面，只用于沿用 author feedback 的格式规则（verification inherited）。
+    fetched_at: 2026-09-24T12:10:56Z
+    http_status: 200
+    snapshot: da665bbec7a808b801c2a2e24a3502ab5f6b242e34fa63eaf448126dc556fb18
+  - id: aaai-27-faq-authors-rebuttal
+    url: https://aaai.org/conference/aaai/aaai-27/aaai-27-faq-for-authors-rebuttal/
+    title: AAAI-27 FAQ for Authors (Rebuttal) — probed URL
+    kind: faq
+    note_zh: 按 AAAI-26 同名页面的 URL 规律推测的地址；2026-09-24 返回 404，已抓取的 AAAI-27 页面（含导航菜单）中也没有 rebuttal FAQ 的链接，视为尚未发布。
+    fetched_at: 2026-09-24T12:10:57Z
+    http_status: 404
+  - id: aaai-27-aisi-call
+    url: https://aaai.org/conference/aaai/aaai-27/aisi-call/
+    title: AAAI-27 Special Track on AI for Social Impact Call
+    kind: cfp
+    fetched_at: 2026-09-24T12:12:39Z
+    http_status: 200
+    snapshot: 7c9850ac610c215871af347a91271ae2e8f010fa7448007cd8bbfab16e658b7e
+  - id: aaai-27-aia-call
+    url: https://aaai.org/conference/aaai/aaai-27/aia-call/
+    title: AAAI-27 Special Track on AI Alignment Call
+    kind: cfp
+    fetched_at: 2026-09-24T12:12:40Z
+    http_status: 200
+    snapshot: 947c1a7021a4a46d4831b5f99c79cb34fee414ddde35214ce50c6730b7da4409

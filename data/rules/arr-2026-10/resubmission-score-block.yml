@@ -1,0 +1,26 @@
+id: arr-2026-10/resubmission-score-block
+edition: arr-2026-10
+family: resubmission
+question_zh: meta-review 分数低会限制重投吗？1.5 分和 1 分分别怎样？
+answer: contradictory
+verification: human
+conf: high
+applies:
+  from: meta_reviews
+  note_zh: 看的是前一版本的 meta-review 分数
+summary_zh: 1.5 分：下一轮不能重投，至少要隔一轮（CFP 和 checklist 一致）。1 分：CFP 重投政策写永远不能重投、checklist 写不应再重投，但 CFP 同页另一段又写 6 个月内未经大改就重投的“可能”被 desk reject，官方说法不一致；meta-review 发布（ARR 日期页写 12/17，NAACL 页面写 12/18）后按分数核对。
+detail_zh: 同一篇论文有两份 meta-review 且建议不同时，只要至少一份允许下一轮重投，就可以重投。重投必须附前一版本链接和修改说明，没有声明前一版本的会被 desk reject。
+quotes:
+  - src: arr-2026-10-cfp
+    text: "Prior versions with the meta-review score of 1.5 cannot be resubmitted in the next cycle, and those with score of 1 can never be resubmitted."
+    reading_zh: 按 CFP 重投政策：1.5 分下一轮不能重投；1 分永远不能重投
+  - src: arr-2026-10-author-checklist
+    text: "If the paper had been previously reviewed at ARR and received a meta-review score of 1.5, it can only be resubmitted after skipping at least one cycle. Score of 1 means it should not be resubmitted at all."
+    reading_zh: 按 checklist：1.5 分至少隔一轮；1 分不应再重投
+  - src: arr-2026-10-cfp
+    text: "Submissions that had previously received very low evaluation from reviewers and a meta-review score of 1 generally need a wholesale revision that can be expected to take a lot of time. We reserve the right to desk reject such resubmissions if they are sent back to ARR within 6 months of the original submission without such a revision."
+    reading_zh: 按 CFP 同页另一段：1 分论文经过大改后似乎仍可重投，只是 6 个月内未大改就重投的可能被 desk reject
+  - src: arr-2026-10-authors
+    text: "For the purposes of ARR process, you are allowed to resubmit in the next cycle if you got at least one meta-review with the recommendation that allows you to do so."
+    reading_zh: 按作者指南 FAQ：有两份建议不同的 meta-review 时，只要一份允许就能下一轮重投
+last_checked: 2026-09-24

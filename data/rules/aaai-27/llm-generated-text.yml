@@ -1,0 +1,19 @@
+id: aaai-27/llm-generated-text
+edition: aaai-27
+family: llm_policy
+question_zh: 论文里能用 LLM 生成的文字吗？能用 LLM 润色吗？
+answer: conditional
+verification: human
+conf: high
+summary_zh: 可以用 LLM 编辑、润色自己写的文字，但论文不能包含 LLM 生成的文本，除非它作为实验分析的一部分呈现；AI 系统不能列为作者，也不能作为可引用的来源。
+detail_zh: CFP 总体上允许审慎使用生成式 AI 工具准备稿件，但作者对全部内容负责；抄袭、引用不存在的参考文献等违规会受处罚。
+quotes:
+  - src: aaai-27-author-policies
+    text: "Papers that include text generated from a large-scale language model (LLM) such as ChatGPT are prohibited unless the produced text is presented as a part of the paper’s experimental analysis. Note that this policy does not prohibit authors from using LLMs for editing or polishing author-written text."
+  - src: aaai-27-author-policies
+    text: "any AI system, including Generative Models such as Chat-GPT, BARD, or DALL-E, do not satisfy the criteria for authorship of papers published by AAAI and, as such, also cannot be used as a citable source in papers published by AAAI."
+  - src: aaai-27-cfp
+    text: "Authors may judiciously use generative AI tools, such as large language models and image generators, in preparing their scholarly manuscripts. However, authors remain fully responsible for all submitted material, which must comply with the AAAI Code of Professional Ethics and Conduct and the AAAI Publications Policies and Guidelines."
+  - src: aaai-27-cfp
+    text: "Any instances of plagiarism (for example, unattributed or reproduced text), non-existent references, or other violations of the Code will be subject to appropriate sanctions."
+last_checked: 2026-09-24

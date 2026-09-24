@@ -1,0 +1,72 @@
+id: aaai-27
+series: aaai
+name: AAAI-27
+year: 2027
+kind: conference
+location: { city: Montréal, country: Canada }
+dates: { start: 2027-02-16, end: 2027-02-23 }
+milestones:
+  - type: abstract
+    at: 2026-07-21T23:59
+    tz: AoE
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "July 21, 2026 Abstracts due at 11:59 PM UTC-12"
+  - type: paper
+    at: 2026-07-28T23:59
+    tz: AoE
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "July 28, 2026 Full papers due at 11:59 PM UTC-12"
+  - type: supplementary
+    at: 2026-07-31T23:59
+    tz: AoE
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "July 31, 2026 Supplementary material and code due by 11:59 PM UTC-12"
+  - type: phase1_notification
+    at: 2026-09-24
+    tz: AoE
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "September 24, 2026 Notification of Phase 1 rejections"
+    note_zh: 官方只给日期、未给时刻；时间表注明所有截止按 AoE（UTC-12）计。Phase 1 被拒的论文此时即可看到审稿意见（含 AI 生成的审稿）。
+  - type: author_response
+    label_zh: Author feedback（仅 Phase 2 论文）
+    start: 2026-10-19
+    end: 2026-10-25
+    tz: AoE
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "October 19-25, 2026 Author feedback window"
+    note_zh: 主技术 track 的窗口（AISI 特殊 track 的时间表写的是同一窗口）；官方只给日期、未给开关时刻。AI Alignment 特殊 track 另有日程（其征稿页写 10/27–11/2）。
+  - type: discussion
+    tz: AoE
+    status: tba
+    note_zh: 审稿流程页只说 PC 与 SPC 会结合 author feedback 进行讨论，未给日期。
+  - type: notification
+    at: 2026-11-30
+    tz: AoE
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "November 30, 2026 Notification of final acceptance or rejection"
+    note_zh: 主技术 track；审稿流程页也写 11/30 公布最终结果。官方未给时刻。
+  - type: camera_ready
+    at: 2026-12-14T23:59
+    tz: AoE
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "December 14, 2026 Submission of camera-ready files"
+    note_zh: 主技术 track；官方只给日期，按时间表“所有截止均为 AoE”的说明记为当天 23:59 AoE。
+  - type: author_registration
+    tz: AoE
+    status: tba
+    note_zh: 官方要求至少一位作者注册并现场报告，否则论文不进论文集，但作者注册截止日期未在作者页面公布。
+  - type: conference
+    start: 2027-02-16
+    end: 2027-02-23
+    tz: America/Toronto
+    status: confirmed
+    src: aaai-27-cfp
+    quote: "February 16-23, 2027 AAAI-27 Conference"
+last_checked: 2026-09-24

@@ -1,0 +1,355 @@
+Skip to content
+ACL Rolling Review A reviewing service of the ACL community Menu
+Call for papers Dates Guidelines
+Authors Common submission problems Reviewers Area Chairs Senior Area Chairs Conference/Workshop Organizers Track selection Responsible NLP ARR service qualifications
+Blogs ARR Team Reports
+Statistics Changelog Future plans
+Search OpenReview ↗
+
+Guidance
+
+Authors Guidelines
+
+On this page
+ * Step 0: Is ARR right for your paper?
+ * Step 1: Submit your paper for ARR review
+ * Step 2: Respond to reviews
+   * Author response
+   * 🆕 Review issue reporting
+ * Step 3: Receive the final reviews and choose next step
+   * Consider your options
+   * 🆕 Meta-review issue reporting
+ * Step 4: Resubmit for another round of review (optional)
+ * Step 5: Commitment
+ * Step 6: Camera-ready
+ * Frequently Asked Questions
+   * ARR Process
+   * ARR submission standards
+   * Commitment
+   * Anonymity
+   * Contributing to the Paper and Review Dataset
+
+On this page
+
+ * Step 0: Is ARR right for your paper?
+ * Step 1: Submit your paper for ARR review
+ * Step 2: Respond to reviews
+   * Author response
+   * 🆕 Review issue reporting
+ * Step 3: Receive the final reviews and choose next step
+   * Consider your options
+   * 🆕 Meta-review issue reporting
+ * Step 4: Resubmit for another round of review (optional)
+ * Step 5: Commitment
+ * Step 6: Camera-ready
+ * Frequently Asked Questions
+   * ARR Process
+   * ARR submission standards
+   * Commitment
+   * Anonymity
+   * Contributing to the Paper and Review Dataset
+
+Important changes!
+
+The current version of these guidelines will apply until August’26 review cycle, and will be updated afterwards to match the sustainable reviewing policy. The CFP and author submission checklist have already been updated. Read the full announcement.
+
+Step 0: Is ARR right for your paper?
+
+ARR provides reviews—and only reviews—for submissions. The reviews will not be specific to a conference/venue, but the standards expected by reviewers are those of a traditional direct submission as a long or short main conference paper to ACL (or the other major conferences operated by the ACL). Refer to the the CFP for the scope and requirements to the submissions.
+
+Some caveats:
+
+ * System demonstrations should NOT be submitted to ARR. Conferences typically have a separate review process for them with different policies (e.g., different paper lengths and single-blind submissions). If you do submit a paper to ARR that describes a system, it will be reviewed as a normal main conference paper and your reviews will only be eligible for commitment to venues listed on our venues page (which does not include system demonstration tracks at conferences).
+ * If you intend to send your paper to a workshop or to a more specialized conference like CoNLL, *SEM, INLG, etc., check whether it is listed on the venues page. If not, there may be venue-specific review processes.
+ * Some venues are hybrid, meaning they will consider ARR-reviewed papers as well as direct submissions.
+
+Step 1: Submit your paper for ARR review
+
+ARR has recurring submission deadlines: see dates and venues. Deadlines are firm. You are encouraged to have a look at the submission form and responsible NLP checklist, which list all the questions you will be asked during submission. To help the authors avoid desk rejection, we also prepared a list of common problems to check, and a list of track keywords to help select the right track. Starting in May 2025, all submitting authors have to also sign up as reviewers (deadline: 48h after the submission deadline)
+
+The submission must adhere to the formatting in the submission templates, which is available as an Overleaf template.
+
+Submissions are made in OpenReview. Here is the list of submission points for 2024. In case of system instability it is recommended to submit at least one hour before the deadline. All authors will receive a confirmation email upon submission. You may edit all aspects of your submission up until the deadline.
+
+At the time of submission you may opt to have ARR publish your paper as an anonymous preprint. These will remain anonymous during and after the review process. If you wish to remove an anonymous preprint, please contact the ARR editors (see the ARR Team).
+
+As soon as you have submitted your paper, and until you receive the meta-review, it will be considered under review by ARR. You may not submit the paper elsewhere during this period.
+
+You may withdraw your submission during this period (before it receives a meta-review), but if you do so more than 48 hours after the submission deadline, your paper will be ineligible for resubmission in the next cycle. To withdraw, log into OpenReview, select your submission and then click on the “trash can” icon in the top right.
+
+In many cases authors withdraw papers after they receive meta-reviews; this is completely unnecessary, since at that point the paper is not under review anymore and may be submitted elsewhere without any restrictions on dual submissions. Please make sure you actually need to withdraw the paper. Note that withdrawal has consequences: any earlier reviewed versions also become ineligible for commitment, and it will not be possible to resubmit to ARR without restoring the withdrawn submission. And if the authors received even one review for it – it would still count as a resubmission, which needs to be disclosed and accompanied with an explanation of revisions.
+
+A submission may be desk rejected if it does not adhere to the CFP (e.g. if it is not in scope, if it violates technical submission requirements, etc.) Sometimes a violation is not immediately obvious, but does get noticed later in the cycle. Due to that, desk rejection can occur at any point in the review cycle, even after receiving initial reviews or even a meta-review. To help the authors avoid desk rejections, we compiled a list of common problems to check before submission.
+
+Important changes!
+
+ACL has adopted sustainable reviewing policy, which will apply from October 2026. Submissions will now be capped to reviewer capacity. Submissions will only guaranteed review if they bring a qualified service contributor (who can serve for 2 submissions max, and is responsible for finding qualified replacements in case of any emergencies). There are now caps on maximum submissions by a single author (20) and first or joint-first authors (5), and penalties for system abuse including systematic spamming and account manipulation. All authors and service contributors MUST have OpenReview profiles with accurate affiliation history, career status, emails, ORCID and, where applicatble, DBLP and ACL Anthology links. Violations will lead to desk rejection. Read the full announcement.
+
+Step 2: Respond to reviews
+
+Author response
+
+Once the main reviews are available you will have an opportunity to submit an author response by adding an ‘Official Comment’ to the reviews. This is not mandatory. This section describes the purpose of author response, it is up to you to decide whether it is beneficial in your case. The exact timing varies by cycle and is listed on the dates and venues page.
+
+The purpose of author response at ARR is different from that at conferences. At a conference, an author’s response is directly tied to an accept/reject decision, and therefore the authors often try to argue with the reviewers to accept their paper. On the other hand, ARR is only a reviewing platform and its reviewer do not have a direct say in the decision-making. Moreover, while conferences are a stateless system, in ARR, an author can always resubmit their paper in the next cycle after improving the paper and can request for the same or a different set of reviewers.
+
+Due to these differences, the ARR author response also has different goals than a typical conference author response, and in some cases different workflows are more appropriate. Some examples follow:
+
+ * If a review raises criticisms that are based on minor misunderstandings or factual inaccuracies, the author response can and should focus on this.
+ * If a reviewer makes significant clarity-related objections, it might be best to revise and resubmit (see step 4).
+ * If a reviewer has strong (and, in your opinion, unfair) objections about your paper, it might be prudent to resubmit and request a different set of reviewers in the next iteration. You will need to motivate this in the revision notes (see step 4). If you choose to try to convince them, you are welcome to cite ARR reviewer guidelines.
+
+Your response will immediately be visible to the reviewers. If a reviewer responds to your response, it will be possible to have a back-and-forth conversation using the ‘Official Comment’ button. Similar to the spirit of the first author response, the goal of the back-and-forth conversation is also to clarify any further misunderstandings; repeatedly arguing your point of view to a strongly opinionated reviewer will not be helpful and is not recommended. If you believe that the reviewer is violating the reviewer guidelines, you can refer to specific points from the guidelines. If the final version of reviews still have that violation, you will be able to flag this in review issue report later.
+
+It is unreasonable to expect ACs to read very long discussions with reviewers: their guidelines ask them to read at least 2 author responses per review thread, but they will probably not read more. So please keep your discussion focused on the main issues that significantly impact the assessment. It is also not reasonable to directly ask reviewers to raise scores.
+
+All back-and-forth comments can be made until a final deadline, after which the area chairs will write their meta-review. The meta-review will be written taking your response and subsequent discussion into account. Note that the area chairs will not consider long back-and-forth discussions with reviewers, they are asked to consider a maximum of 2 author responses per review thread. Your paper’s review is considered complete as soon as you receive the meta-review, and you are free to commit it to a venue that accepts ARR reviews, submit it to some other venue, or resubmit it to ARR in the next cycle.
+
+Q: What should I do if the reviewer does not respond? The reviewers are not obligated to respond to author comments: they are only asked to update their review in light of any factual misunderstandings that have been clarified and to correct their review to address any identified violations of the reviewer guidelines. ARR already sends reminders to respond to all reviewers. Some authors also send a lot of their own reminders to non-responsive reviewers; if the reviewer is not responsive, this is not likely to help, but it will likely annoy the ACs. This is not recommended. You can flag non-response in the review issue report form later.
+
+Q: Can I report new experimental results in a response? For ARR, it is OK to present new experimental results that are in direct response to a reviewer’s question – these experiments should be minor add-ons to existing experiments, such as a new ablation, or a different hyperparameter setting, or a comparison with a different baseline. However, you are not allowed to submit unsolicited new results or fresh results that would indicate substantial additional work after the paper submission (e.g., results of new improved models).
+
+Q: Can I include links or images? Your response must be text-only, and no external links are allowed. The paper will be desk-rejected if this is violated.
+
+Q: What if I respond to a reviewer’s concerns with a clarification and they don’t acknowledge it? The reviewers are volunteers, and do not always respond. If they don’t, you can now flag this in the review issue report.
+
+Q: Is it a good idea to press reviewers to raise their scores if I believe my response addressed their concerns? If they don’t, is that grounds for a confidential comment to the AC? You can ask politely to change the evaluation if your response addressed the reviewer’s concern, but pressing them is probably not a good idea. Also, the reviewer may simply not be convinced by your arguments, and hence no, it’s not automatically grounds for flagging the issue to the AC.
+
+Q: How can I leave a confidential comment for the AC? If it is about a review issue, please flag this in the review issue report. This is what the AC guidelines specify as something they should check. Otherwise you can use the forum functionality on openreview: simply leave a comment on the review and select the intended chair(s) (not authors) as the intended audience.
+
+🆕 Review issue reporting
+
+After the author discussion period ends, there is a brief period for the reviewers to finish updating their reviews. The exact timing is communicated in the cycle emails. Then you will have the possibility to report review issues. It is a form of “official comment” on a review that you will see in OpenReview interface (screenshot below).
+
+The purpose of this form is to enable authors to notify the ACs about specific types of common review issues. Our list builds on the mechanism used by ACL’23. There’s a report on the statistics of various review issues in that conference, see section 5.3.
+
+Our list is further expanded to 12 issue types, marked as I1-12 (see screenshots below). Furthermore, most of these issues (except I5,I8-9,I11-12) are explicitly referenced in the ARR reviewer guidelines, so that you could easily search in the document and find the relevant section. For example, if you believe that a review has an issue of type I7, you can simply search the reviewer guidelines document for “I7” to find the relevant section(s) quickly.
+
+The review issue reporting mechanism should be used only in the cases when the reviewer has not done due diligence. It is generally not in the authors’ interest to try to present scientific disagreements as a case of reviewer misconduct, or try to litigate minor issues that would likely not make much difference in the assessment of the paper. When flagging any issues with the reviews, the authors should provide a justification.
+
+The meta-review form now contains checkboxes for the ACs to specify whether any reported review issues were taken into account in the meta-review, or the AC found the complaint unreasonable.
+
+Starting from December 2024, there is a similar form for reporting serious issues with meta-reviews (see below).
+
+Step 3: Receive the final reviews and choose next step
+
+Consider your options
+
+Once the final reviews (including the meta-review) are delivered, you will know how the paper has been evaluated. There will be at least 3 reviews and a meta-review. Each review will provide text and scores conveying the reviewer’s impressions of the paper and suggestions for improvement. The meta-review will give an overall impression from the Area Chair’s perspective and indicate whether the paper would benefit from revision or whether it might merit publication in its current form.
+
+You have several choices for the next step of the paper:
+
+ * Quickly address reviewer feedback, and submit a revision to the next ARR review deadline (~1 week). → Step 4
+ * Spend more time on revisions and submit to a subsequent ARR deadline (2+ months). → Step 4
+ * Commit the reviews to an ARR venue for a decision on acceptance. → Step 5
+ * Submit for direct (i.e. non-ARR) review by a venue. If you are submitting to a venue that has both direct submissions and ARR submissions, see their policies for how to go from ARR reviewing to being directly reviewed. Note that venues may have other restrictions: for example, TACL requires a 9 month gap between submission to ARR and submission to TACL.
+
+These options are mutually exclusive: you cannot submit a revision and in parallel commit to a venue, for example. See the CFP for the rules on dual submissions.
+
+Considerations:
+
+ * Reviewer feedback and scores do not directly indicate whether the paper will be accepted if committed to a venue. In general, it is expected that reviews that are very positive on the whole will most likely lead to acceptance, and reviews that are negative on the whole will most likely lead to rejection. There are no guarantees, however: the program committee members making the acceptance/rejection decision will consider the totality of the reviews and pool of committed papers while drawing on their own expertise and editorial preferences. See sec. 7 of ACL’23 report for analysis of the effect of reviews, meta-reviews, and SAC recommendations on the final decision.
+ * Different venues (e.g., main conferences vs. workshops) that consider ARR-reviewed papers may have different qualitative thresholds and editorial priorities for acceptance.
+
+Q: A review we received was amazingly helpful, how can I reach out to the reviewer for collaboration?
+
+A: Reach out to the ARR editors (editors@aclrollingreview.org), specifying the forum link and the reviewer ID. We will reach out on your behalf, and if the reviewer agrees, put you in touch with them.
+
+🆕 Meta-review issue reporting
+
+Starting from December 2024, it is possible to report issues with meta-reviews. This mechanism is meant for reporting procedural issues or serious violations of ARR policies to the senior area chairs and program chairs. It is not in the interest of the authors to use this mechanism for trying to argue against a reasonable difference of perspectives on the merits of the paper. This is more likely to get the chairs annoyed with you, than to make them reconsider the core points of the meta-review.
+
+Please see the list of issues that can be reported through the meta-review issue report form below. Note that for MI3, the report should be backed up by references to the specific guidelines/policies.
+
+Q: If a metareview mentions weaknesses/suggestions raised by reviewers but does not explicitly acknowledge the author responses regarding those suggestions, should this be flagged?
+
+A: Generally, meta-reviewers are summarizing the discussion, and cannot be expected to mention every detail of either reviews or author response (especially if it is too long). They may also skip the mention of the response if they do not believe it to satisfactorily address the issue. In such cases, triggering more work and interaction between chairs is more likely to get them annoyed with you, rather than help your case.
+
+The recommended length of the discussion at ARR is maximum 2 author responses per review thread. The ACs are not obligated to read more than that. If there is an author response that is within that length, and that conclusively resolves an issue on which evaluation hinges, but neither reviewers nor AC noticed it: please flag it (MI5), explain the issue and provide a link to the comment.
+
+Q: what will happen if I raise a meta-review issue report?
+
+A: Both review and meta-review issue reports are meant to signal a problem to the higher-up chairs. They do not trigger a revision process. The senior area chairs will see these reports together with the rest of the forum materials, when they consider the specific papers for acceptance. If the commitment site provides an option to submit a response to the meta-review, you can also mention any meta-review issue reports there.
+
+Q: what if I get two meta-reviews with different recommendations?
+
+A: For the purposes of ARR process, you are allowed to resubmit in the next cycle if you got at least one meta-review with the recommendation that allows you to do so. For the purposes of decision-making at the commitment stage, the SACs will make their decisions based on all available information (unless one meta-review is of unacceptably low quality). We re-iterate that decisions are not made only on scores even when there is only one meta-review, and a ‘high’ AC recommendation does not guarantee acceptance.
+
+Step 4: Resubmit for another round of review (optional)
+
+If you can see ways to markedly improve your paper or are unhappy with your reviews, consider revising it and resubmitting to a subsequent ARR review cycle.
+
+What do I need to resubmit? You submit the same information as Step 1, as well as:
+
+ * The link to your previous submission (e.g., https://openreview.net/forum?id=abcd1234)
+ * An explanation of revisions that responds to reviews from the previous round
+ * A preference regarding reviewers: same or all new
+ * A preference regarding the meta-reviewer: same or new
+
+What is an ‘explanation of revisions?’ The explanation of revisions should summarize the changes made and include a point-by-point response indicating how you have addressed each weakness and suggestion listed by each reviewer (or your justifications for not doing some of the revisions). It should be submitted as a pdf file, and the same file may include a color-coded version of the paper, to make it easier for the reviewers and ACs to see what changed in the new version. If you choose to do that, please use different colors for content that is actually new vs content that was moved from other parts of the paper.
+
+A revision does not have to accept every suggestion of every reviewer. Reviewers understand that there are limitations on what can be accomplished in a single paper. We recommend engaging with reviewers’ constructive feedback in the explanation of revisions. Even if you request new reviewers, they will have access to reviews from previous rounds after submitting their own reviews, so ignoring good advice is not recommended.
+
+How often can I resubmit? You can resubmit a paper as many times as you like (though expect diminishing returns after the first couple of rounds). The submission requirements are the same as first-round review (4-page limit for short papers, 8 pages for long papers).
+
+If my paper was accepted for publication in one venue, can I resubmit to another? Yes, as long as you do not accept the publication offer. If the paper gets published, then it is final.
+
+When does it qualify as a new submission? If the paper is presented as a new submission, it must be on a sufficiently different topic that any prior reviews no longer apply. Simply reframing the paper, further improving the methods, adding more baselines or analysis does not count. A paper that has been previously submitted but fails to acknowledge the previous version will be desk rejected.
+
+When should I ask for new reviewers?
+
+If you felt the previous-round reviews were constructive, consider asking for the same reviewers. If you satisfactorily addressed their concerns in the revision, they will likely improve their evaluation of the paper.
+
+ * ARR will attempt to reassign the same reviewers if requested. Because of availability constraints, it is still possible that you will receive some new reviewers.
+ * Repeat reviewers (as well as those substituting for the previous reviewers if unavailable) are instructed to focus on whether the revisions adequately address the weaknesses previously identified, and are discouraged from raising new issues unless the revisions resulted in contradictory findings or questionable results not present in the previous round of reviews.
+
+If you felt the previous-round reviews reflected a lack of expertise or engagement with the topic of your paper, consider asking for new reviewers.
+
+ * Generally we accept such requests, but the expectation is that papers have been revised based on the earlier reviews and it is up to the discretion of the area chairs or editors in chief whether the request is granted. This request is not considered a mark against the paper. (We understand that a certain amount of subjectivity is present in reviewing and want to give papers a fair shot at brand new reviews.)
+ * New reviewers will not see the prior reviews initially (unless the authors requested to keep the old reviewers, but only). Only after they submit their own review will they have access to the prior reviews (new in August 2023). Note that new reviewers are instructed to form their own view of the paper rather than to focus primarily on the revisions.
+ * In the (rare) cases where there was a very low-quality review that the authors flagged, the ACs have the option to recommend that a specific review is removed from view.
+
+Once you have submitted the revision, you return to Step 2 above.
+
+Step 5: Commitment
+
+Once the paper has received complete reviews (including a meta-review), and is no longer under review by ARR, it is eligible for submission to a venue for a decision on acceptance. This submission is called commitment.
+
+Commitment occurs through a submission form set up by the PCs of the venue (e.g., in Softconf, OpenReview, or a Microsoft / Google Form). The form asks for information about the paper, including the ARR URL for the paper (e.g., https://openreview.net/forum?id=abcd1234 where abcd1234 is a random string unique to your paper). After the commitment deadline, ARR provides the reviews to the venue and they make a decision. The venue will contact authors directly to notify you of accept/reject decisions.
+
+Different venues have different commitment deadlines, and therefore, different commitment periods when the paper is under consideration by a venue. ARR does not place any restrictions on committing to multiple venues simultaneously, or committing to one venue and submitting for direct review at another venue. However, venues typically do not permit these types of dual commitments / submissions.
+
+The commitment phase ends when the paper is no longer under consideration by any venue—either due to withdrawal or due to receiving a decision of acceptance or rejection.
+
+If you receive a decision of acceptance, by submitting the camera-ready, you accept the publication offer, and the paper can no longer be withdrawn. If your paper is rejected, or you do not want to accept the offer you received, you can withdraw and go back to Step 3. There are no guarantees that the outcome will be better at another venue. A paper accepted by one venue may be rejected by another, and revisions may not necessarily increase your chances at another venue.
+
+Q: If the venue provides an optional “response to the meta-review” field, how should it be used?
+
+That field is optional, and it is up to you to decide whether to use it, based on your situation and submission history. Here are some possibilities:
+
+ * summarizing the revision history
+ * outlining what changes suggested by reviewers/AC you commit to for the camera-ready
+ * if there was a serious procedural issue with the meta-review that you had submitted a confidential comment about, please summarize the issue and link to that comment (see Step 3) It is not in your interest to try to use this mechanism for litigating minor issues, or for presenting a one-sided view of the discussion.
+ * iff the meta-review raises a new issue that none of the reviewers brought up, you can respond to it. Please mark it clearly and be brief, e.g.
+   New issue raised only in the meta-review:’ <issue>.
+   Author response: <response>.
+
+Q: Are ACs allowed to raise new issues in the meta-review, that reviewers didn’t raise?
+A: ARR AC guidelines are now public and you can read them here. Yes, ACs can bring up new issues when they strongly believe that there is something serious that the reviewers missed.
+
+Q: Will there be any negative consequences for the paper if it is committed and then rejected?
+No, you can still resubmit a revised version in a subsequent cycle. You just cannot simultaneously have the paper under commitment and in a new round of review.
+
+Step 6: Camera-ready
+
+Once the paper is accepted by a venue, the final step is to prepare and submit the camera-ready version. ARR is not involved in that process. You should consult the instructions from the venue for what is involved.
+
+Questions about the preparation and submission of camera-ready papers should be directed to the Program Chairs of the venue you have committed to.
+
+Questions about when the proceedings will appear on the ACL Anthology should be directed to the venue’s Publication Chairs.
+
+----------------------------------------
+
+Frequently Asked Questions
+
+ARR Process
+
+Q: How to Submit on OpenReview?
+
+See this guide.
+
+Q: Since reviews follow the paper when it is resubmitted, isn’t there a risk that getting unlucky with reviewers in the first round will doom the paper?
+
+For a resubmission (Step 4), authors have the option to request new reviewers, ensuring the paper gets a fresh look. While the old reviews will still be associated with the paper, to avoid anchoring biases, a new reviewer will only have access to them after submitting their own review. Moreover, authors have the opportunity to respond to any problems that they perceive with the previous-round reviews.
+We also implemented two new mechanisms that could help with this this: the review issue flagging mechanism allows authors to report specific issues with a justification. If Area Chairs agree that some review is of unacceptably low quality, the AC form now also has an option to recommend such reviews to be removed from the forum.
+
+Q: Does ARR import reviews from other publication venues?
+
+No, ARR is a self-contained review system and all reviews are done within ARR. We do not import reviews that were done by other venues.
+
+Q: I have further questions about ARR submission. Who should I contact?
+
+Please contact: support at aclrollingreview.org
+
+Q: What are the qualification requirements for authors nominated to review?
+
+See the “reviewing requirements” section of the CFP.
+
+ARR submission standards
+
+Q: do dissertations count as prior publications?
+
+University dissertations and theses do not count as prior publications for the purposes of ARR submissions.
+
+Q: What should I put in the limitations section? {#limitations}
+
+Generally, the limitations section should focus on the soundness of the study, and answer the question: what are the methodological caveats that the reader should be aware of when interpreting the reported findings? For instance, were the models, languages or data selected as a convenience sample? Could the reported results be affected by some confounding factor (e.g LLM test data contamination)?
+
+There may also be practical limitations: e.g. a proposed method could work well, but be highly compute-intensive, which is important to know for those who may consider adopting it.
+
+In NLP literature, authors also commonly list the directions of generalizability of their results that they have not tested (languages, domains, tasks, datasets, model families, model sizes, etc.). However, any study is necessarily finite, and there cannot be any guidelines for how many languages, models, datasets etc are ‘enough’ for a given claim. Furthermore, this implies that the goal is always a ‘universal’ model that can do everything. A more practical approach is to consider the scope of the claims and state clearly what was done (e.g. what kinds of models/datasets/languages etc were tested), where (within the target scope) there is a reasonable expectation that the reported findings may not hold (in which case small, targeted discussions of future work may be appropriate). See the reviewer guidelines for common review issues in requesting extra experiments, the results of which would not affect the soundness of presented findings.
+
+Limitations section is overall not the place to discuss future work substantively, or any other content that should be part of the main paper.
+
+Q: What are the rules for related work?
+
+As per CFP, the main text of the paper must be self-contained, and reviewers are not expected to read the supplementary materials. Any material necessary to assess the novelty, claims and implications of the study (including related work, technical clarifications, discussion), should likewise be part of the main paper.
+
+This does not mean that there has to be a separate section titled ‘related work’; sometimes it is discussed in other sections. However, the paper is still expected to provide the reader with the necessary background, and position its contribution with respect to relevant work. If substantive parts of related work are needed to contextualize the contribution, but are placed exclusively in the appendices – this will be viewed as an attempt to circumvent the content page count, and result in desk rejection.
+
+Commitment
+
+Q: Why does ARR not provide a decision with reviews?
+
+ARR implements the review stage but not the final acceptance recommendation/decision stage of traditional conference reviewing. Separating the two allows us to return the full set of reviews to authors faster and give authors more choice of what to do next with the paper (Step 3), including the option to revise and resubmit.
+
+For EACL 2024, ACL 2024, and NAACL 2024, note that deadlines are structured such that reviews after the submission deadline cycle can be be immediately committed for consideration by the conference — in which case the total time from submission to decision will be ~3 months, which is similar to the traditional conference review process (if not shorter).
+
+Q: If my paper was revised, but I got more favorable reviews in the first round, can I commit the first rather than the second version?
+
+Yes, this has long been allowed at ARR. However, you need to provide a link to the later submission, and a justification for why the second round of reviews was problematic. Presumably there were some serious issues with reviews or meta-review violating our revise-and-resubmit instructions for [reviewers]](/reviewerguidelines#how-to-review-resubmissions) or ACs.
+
+Anonymity
+
+Q: What are the requirements of the anonymity policy for authors?
+
+ARR follows the ACL Policies for Review and Citation. Submissions must be properly anonymized as detailed in CFP. See here for some common issues.
+
+Please read: Confidential comments in Open Review are visible to ACs, SACs, and PCs. Because authors are anonymous to ACs and SACs, do not include author names or any identifying details in confidential comments.
+
+Beginning with the February 15, 2024 ARR deadlines, there is no anonymity period or limitation on posting or discussing non-anonymous preprints while the work is under peer review. See CFP and here for more information on the incentives for anonymous submissions and their implementation at ARR.
+
+Q: what counts as a preprint?
+
+The ‘preprint’ question in ARR submission form focuses on the possibility of deanonymization, rather than any specific publication channel such as arXiv. So e.g. withdrawn publications from other conferences also count as preprints, as long as they reveal the authors’ names.
+
+Contributing to the Paper and Review Dataset
+
+Q: The submission form has a question asking if I agree for the anonymized metadata associated with my submission to be included in a publicly available dataset. What is this?
+
+The ACL Exec has approved the creation of an opt-in corpus of submissions and reviews. This corpus is being assembled by a group separate from the ARR editorial team. The review meta-data associated with your submission, i.e. scores, anonymous reviewer identifiers etc., will only be included if both you and the reviewers agree. Submission and review texts are not included in this consent and are handled separately (currently, this data is not processed or collected).
+
+Q: How can I donate my paper draft with associated review reports?
+
+At ARR you can donate your peer review reports to an open public dataset of peer reviews and paper drafts (see our blogpost on the data collection for all details). As an author, you will be contacted by email including detailed instructions after your paper is accepted at a *ACL conference. In the forum of your accepted paper, you can find a new button “License Agreement”; after clicking this button, you decide which data to contribute and sign the license agreement digitally. Only one of the authors has to do this on behalf of all co-authors.
+
+Q: Is this the same as the EMNLP 2023 review release?
+
+No, the EMNLP 2023 data release includes all accepted papers and opt-in rejected papers. The ARR data collection is entirely voluntary for all papers and requires consent from both authors and reviewers. Note, ARR papers committed to EMNLP 2023 will not be released as part of the EMNLP data release.
+
+ACL Rolling Review
+
+A peer review platform for the Association for Computational Linguistics.
+
+For contributors
+
+Authors Reviewers Area Chairs
+
+Resources
+
+Dates & venues Call for papers ARR Team
+
+Contact
+
+support@aclrollingreview.org Bluesky Twitter
+© 2026 ACL Rolling Review Serving the international computational linguistics community

@@ -1,0 +1,23 @@
+id: arr-2026-10/limitations-section
+edition: arr-2026-10
+family: format
+question_zh: 必须有 Limitations 一节吗？没有会怎样？
+answer: required
+verification: human
+conf: high
+applies:
+  until: paper
+  note_zh: 长文和短文都适用
+summary_zh: 必须。长文和短文都要有一节标题为“Limitations”的局限性讨论，放在正文结尾、参考文献之前，不计页数；缺这一节会被 desk reject。
+detail_zh: 这一节只能讨论正文工作的局限，不能放新方法、新实验、新图或新分析，否则也可能被 desk reject（属于滥用页数限制）。可选的伦理一节建议命名为“Ethical considerations”，同样不计页数。
+quotes:
+  - src: arr-2026-10-cfp
+    text: "Authors are required to discuss the limitations of their work in a dedicated section titled “Limitations”. This section should be included at the end of the paper, before the references, and it will not count toward the page limit."
+  - src: arr-2026-10-cfp
+    text: "Papers without a limitations section will be desk rejected."
+  - src: arr-2026-10-cfp
+    text: "We reserve the right to desk reject the submissions that use this section to introduce more content that should have been part of the main paper."
+effect:
+  kind: requires
+  target: limitations_section
+last_checked: 2026-09-24

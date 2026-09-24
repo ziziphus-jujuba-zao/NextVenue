@@ -1,0 +1,29 @@
+id: iclr-2027/coauthor-openreview-profile
+edition: iclr-2027
+family: profile
+question_zh: 所有合作者都必须有 OpenReview 账号吗？最晚什么时候？
+answer: required
+verification: human
+conf: medium
+applies:
+  until: paper
+  note_zh: FAQ 以 9/25 正文截止为 desk reject 界限；表单写“投稿前”，另一条 FAQ 请在摘要截止前备好
+summary_zh: 必须。FAQ 写明只要所有作者在正文截止 9/25 AoE（北京时间 9/26 19:59）前有 OpenReview 账号，论文就不会因此被 desk reject；不用机构邮箱新建的账号审核最长要两周，用机构邮箱注册则自动激活。
+detail_zh: 其他两处要求更早：投稿表单要求所有作者“投稿前”就有 profile，作者指南 FAQ 也请大家在摘要截止前确保每位作者都有 profile。2027 表单的作者栏只接受 OpenReview profile ID（校验提示 “must be a valid profile ID”），所以 FAQ 里“合作者建账号后确认投稿邮箱即可关联”的说法可能是往年留下的；这不能用来增删作者。作者须保持资料最新，互审资格按 profile 判断。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "No. As long as ALL authors have OR account before the full paper deadline, the paper will not be desk-rejected."
+  - src: iclr-2027-author-guidelines
+    text: "New profiles created without an institutional email will go through a moderation process that can take up to two weeks. New profiles created with an institutional email will be activated automatically."
+  - src: iclr-2027-openreview-submission-form
+    text: "All authors must have an OpenReview profile prior to submitting a paper."
+  - src: iclr-2027-author-guidelines
+    text: "Please coordinate among the authors and make sure that everyone has an OpenReview profile before the abstract submission deadline."
+  - src: iclr-2027-openreview-submission-form
+    text: "must be a valid profile ID"
+  - src: iclr-2027-author-guidelines
+    text: "The author can create an OpenReview profile and confirm the email address used in submission."
+effect:
+  kind: requires
+  target: all_authors_openreview_profile
+last_checked: 2026-09-24

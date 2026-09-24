@@ -1,0 +1,26 @@
+id: iclr-2027/author-quota-20
+edition: iclr-2027
+family: cap
+question_zh: 一位作者能挂名超过 20 篇 ICLR 2027 投稿吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: abstract
+  until: paper
+  note_zh: 摘要阶段标记超额，正文截止时仍超额则随机 desk reject
+summary_zh: 不能。每人最多挂名 20 篇；超额的投稿在摘要阶段会被标记，如果到正文截止 9/25 AoE（北京时间 9/26 19:59）仍然超额，官方会随机 desk reject 超出的论文，直到每位作者都不超额。
+detail_zh: 这是 2027 新规。摘要截止后作者名单已冻结，不能增删作者（见“作者名单冻结”卡）。投稿表单警告，为规避上限注册重复 OpenReview 账号违反 OpenReview 使用条款，可能导致本人所有论文被 desk reject，并被 OpenReview 封禁 6 个月或更久。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "No author may appear as a co-author on more than 20 papers."
+  - src: iclr-2027-author-guidelines
+    text: "Submissions in excess of either quota will be flagged during the abstract submission period. If they are still exceeded at the time of full paper submissions, we will randomly desk-reject excess submissions until every author is under quota."
+  - src: iclr-2027-openreview-submission-form
+    text: "Creating duplicate profiles is a violation of OpenReview terms of use, and can result in desk rejection of all your papers and suspension from OpenReview for 6 months or more."
+effect:
+  kind: cap
+  target: papers_per_author
+  limit: 20
+  penalty: random_desk_reject
+last_checked: 2026-09-24

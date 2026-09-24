@@ -1,0 +1,35 @@
+id: arr-2026-10/author-membership-freeze
+edition: arr-2026-10
+family: author_list
+question_zh: 投稿后还能增加或删除作者吗？
+answer: conditional
+verification: human
+conf: medium
+applies:
+  from: paper
+  note_zh: 加人在本轮内任何阶段都不行（commit、camera-ready 也不行）；删人只能走 ACL 作者变更流程
+summary_zh: 加人不行：ARR CFP 写明投稿后作者名单不能改，NAACL commit 时也不能增删，ACL 作者变更政策规定截止后不能加作者。删人不能自行改，唯一途径是按 ACL 政策由作者发起申请，并经 PC、editor 或 ACL 出版伦理委员会（PEC）明确批准。
+detail_zh: 想加作者，只能在之后某一轮重投时加，并在“Justification for author changes”字段写明理由。重投时删作者两处写法不一致：ARR CFP 说除极少数情况外不能删，删人还要同时删掉此人贡献的内容；ACL 政策则把重投当作新投稿，允许任何作者变更。删人的批准条件之一是被删作者同意，或通知后 7 天内没有合作者反对。截止前能否改名单也有两种写法：ARR 作者指南说截止前可以编辑投稿的所有内容，ACL 政策也允许截止前任意变更，但 CFP 和 checklist 写的是“提交后”不能改，最稳妥是第一次提交前就把名单定好。
+quotes:
+  - src: arr-2026-10-cfp
+    text: "Please notice that once the paper has been submitted, no changes to the list of authors are allowed."
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "Authors may not be added (3(a)), and the first author may not be changed."
+  - src: arr-2026-10-naacl-2027-cfp
+    text: "During the commitment phase, it is not allowed to modify the author list (i.e., addition/deletion of authors is not allowed)."
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "3(b): Author removal is allowed only under strict constraints (see below)"
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "The change is initiated by one of the authors."
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "The change requires explicit approval from the program chairs, editor, or ACL Publication Ethics Committee (PEC)."
+  - src: arr-2026-10-cfp
+    text: "If the authors want to add an author as part of a resubmission, they may do so with a (brief) justification; except in extremely rare circumstances, authors may not be removed."
+  - src: arr-2026-10-cfp
+    text: "If there are any changes in the the set of authors, it should be motivated by stating the contributions of any new authors, and author removals should be supported by the removal of content they contributed, per ACL authorship criteria."
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "Re-submissions, such as those made after a rejection, major revision request, or after the expiration of an ARR commitment, are treated as new submissions for the purposes of authorship and may include any alterations under 3(a)–3(k)."
+effect:
+  kind: lock
+  target: author_membership
+last_checked: 2026-09-24

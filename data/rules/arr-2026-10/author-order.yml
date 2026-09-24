@@ -1,0 +1,33 @@
+id: arr-2026-10/author-order
+edition: arr-2026-10
+family: author_list
+question_zh: 投稿后还能调整作者顺序吗？commit 到 NAACL 时能改吗？
+answer: contradictory
+verification: human
+conf: high
+applies:
+  from: paper
+  until: camera_ready
+  note_zh: 分歧集中在 commit 期（截至 12/23）；会议最终决定之后到 camera-ready 前，ACL 政策允许调序（一作除外）
+summary_zh: 官方说法不一致：ARR checklist 说投稿后顺序不能改；NAACL 2027 说 commit 时可以改顺序；ACL 作者变更政策把从本轮截止到会议最终决定（含 commit 期）都算审稿期，这期间不允许调序，而且一作在截止后任何时候都不能换。投稿前把顺序定好就不会碰到这个分歧；确需在 commit 时调序，先向 NAACL PC 书面确认。
+detail_zh: 按 ACL 政策，会议作出最终决定后到 camera-ready 截止前可以调整一作以外的顺序，camera-ready 截止后不能再调。NAACL commit 问题的联系邮箱见 NAACL 2027 征稿页。
+quotes:
+  - src: arr-2026-10-author-checklist
+    text: "All authors are included and in the final order. No changes to author list or author order will be allowed after submission."
+    reading_zh: 按 ARR checklist：提交后不能再改作者顺序；没有写例外，按字面 commit 时也不能改
+  - src: arr-2026-10-naacl-2027-cfp
+    text: "During the commitment phase, it is not allowed to modify the author list (i.e., addition/deletion of authors is not allowed). However, modification of author order is possible."
+    reading_zh: 按 NAACL 2027：commit 时不能增删作者，但可以调整顺序
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "For papers submitted through the ACL Rolling Review (ARR) process, the review period begins at the submission deadline for the paper’s ARR cycle and ends with the final decision by a venue."
+    reading_zh: 按 ACL 政策：从 10/12 截止到 NAACL/COLING 作出最终决定都算审稿期，commit 期也在其中
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "All other changes are not permitted during this stage."
+    reading_zh: 按 ACL 政策：审稿期只允许换通讯作者、改姓名和通讯作者邮箱、受限删人，调顺序不在允许之列，所以 commit 时不能调序
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "Under this policy, the first author position cannot change after the submission deadline."
+    reading_zh: 按 ACL 政策：截止后任何阶段都不能换一作，即使 NAACL 允许调序也不包括换一作
+  - src: arr-2026-10-acl-authorship-changes-policy
+    text: "e. Between the final decision and camera ready: The following changes are permitted: * 3(b): Remove an author * 3(c): Change corresponding author * 3(e): Rearranging author order"
+    reading_zh: 按 ACL 政策：会议最终决定后到 camera-ready 前可以调整顺序（一作除外）
+last_checked: 2026-09-24

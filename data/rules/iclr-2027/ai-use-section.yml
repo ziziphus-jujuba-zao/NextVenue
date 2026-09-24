@@ -1,0 +1,27 @@
+id: iclr-2027/ai-use-section
+edition: iclr-2027
+family: llm_policy
+question_zh: 论文里必须写一节 AI 使用说明吗？
+answer: required
+verification: human
+conf: high
+applies:
+  until: paper
+  note_zh: 9/25 正文截止时提交的论文里就要有这一节
+summary_zh: 必须。每篇论文都要有一节 AI 使用披露（不计页数），投稿表单里也要填 AI 使用情况；表单写明不这样做可能被 desk reject，而正文截止 9/25 AoE（北京时间 9/26 19:59）后到 11/5 不能改 PDF，所以提交的版本里就要有这一节。
+detail_zh: 必须披露的用途包括生成合成数据、提出数学命题、协助写证明、提出或改进假设、设计实验、实现方法、翻译、清洗数据、解释结果等；润色文字、查找文献、制作图表、写或改代码、起草部分章节等属于建议披露。ICLR 模板里有示例写法，不必完全照抄。LLM 产生的严重失实、抄袭或歪曲内容算作者违反 Code of Ethics，可能导致 desk reject。CFP 提到今年有关于 AI 使用的新政策；本站没有保存 2026 页面，无法逐条对比哪些是新增。
+quotes:
+  - src: iclr-2027-ai-policy-authors
+    text: "Additionally, we require authors to disclose AI use in a mandatory section in their paper (this section will not be counted towards the page limit)."
+  - src: iclr-2027-openreview-submission-form
+    text: "Authors are required to disclose AI use in a mandatory section in their paper, per ICLR 2027 policy"
+  - src: iclr-2027-openreview-submission-form
+    text: "Failing to do so can lead to desk rejection."
+  - src: iclr-2027-ai-policy-authors
+    text: "Consequently, a substantial falsehood, instance of plagiarism, or misrepresentation produced by an LLM would be considered a Code of Ethics violation on the part of the paper’s authors, and might lead to desk rejection of the paper."
+  - src: iclr-2027-cfp
+    text: "Please read these instructions carefully, as we have new policies this year regarding co-authorship, reciprocal reviewing, and the use of AI."
+effect:
+  kind: requires
+  target: ai_use_section
+last_checked: 2026-09-24

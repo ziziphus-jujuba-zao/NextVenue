@@ -1,0 +1,20 @@
+id: cvpr-2027/dual-submission-scope
+edition: cvpr-2027
+family: dual_submission
+question_zh: 什么算一稿多投？期刊、workshop 论文和 arXiv 算吗？
+answer: conditional
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  note_zh: 本卡只回答“什么算”。起止时间见“一稿多投窗口”卡（2027 CFP：11/16 至 2/22）；11/10 论文注册时是否已受限，官方说法不一，见“ICLR 在审论文转投”卡
+summary_zh: 2027 作者指南尚未公布，以下为 2026 规则：与其他工作重叠 20% 及以上即算实质相似，范围包括会议、workshop 和期刊，违规会被拒稿并通报对方；arXiv 预印本和大学技术报告不算发表，但超过 4 页（不含参考文献）的同行评审 workshop 论文算发表，即使没有进论文集。
+detail_zh: 2027 CFP 的一稿多投句子只点名会议和 workshop，没有提期刊；2026 作者指南把期刊也算在内。需要引用自己另投他处的同期论文时，2026 要求把它的匿名版放进补充材料、在文中引用，并说明两者的实质区别。
+quotes:
+  - src: cvpr-2026-author-guidelines
+    text: "Furthermore, no publication substantially similar in content (defined as having 20 percent or more overlap) has been or will be registered or submitted to this or another conference, workshop, or journal during the review period. Violation of any of these conditions will lead to rejection, and will be reported to the other venue to which the submission was sent."
+  - src: cvpr-2026-author-guidelines
+    text: "Under the above definition, arXiv preprints and university technical reports are not considered as publications. However, peer-reviewed workshop papers are considered as publications if their length is more than four pages (excluding references), even if they do not appear in a proceedings."
+  - src: cvpr-2026-author-guidelines
+    text: "If you need to cite any of your own papers that are being submitted concurrently to another venue, you should (1) include anonymized versions of those papers in the supplementary material; (2) cite these anonymized papers; and (3) argue in the body of your paper why your CVPR submission is non-trivially different from these concurrent submissions."
+last_checked: 2026-09-24

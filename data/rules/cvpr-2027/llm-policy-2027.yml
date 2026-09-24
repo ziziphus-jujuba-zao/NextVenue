@@ -1,0 +1,19 @@
+id: cvpr-2027/llm-policy-2027
+edition: cvpr-2027
+family: llm_policy
+question_zh: CVPR 2027 对作者使用 LLM 有什么规定？
+answer: unspecified
+verification: human
+conf: high
+applies:
+  until: paper
+  note_zh: CFP 承诺在正文截止（11/16）前更新
+summary_zh: 2027 规定尚未公布：CFP 只说 CVPR 2027 会在部分会议和审稿环节使用 LLM，具体范围、允许的用途和相关指南仍在制定，将在正文截止 11/16 AoE（北京时间 11/17 19:59）前更新。在更新前，不要把 2026 的作者 LLM 规则当作 2027 的确定规定。
+detail_zh: 2027 作者指南和审稿指南仍是 404。论文里藏给审稿人或 LLM 的指令按 2026 规则会被 desk reject，见“提示注入”卡。
+quotes:
+  - src: cvpr-2027-cfp
+    text: "CVPR 2027 will make use of large language models (LLMs) in selected parts of the conference and reviewing process. The exact scope, permitted uses, and associated guidelines are currently being finalized."
+  - src: cvpr-2027-cfp
+    text: "This section will be updated with further details before the submission deadline."
+checked_sources: [cvpr-2027-cfp, cvpr-2027-author-guidelines, cvpr-2027-reviewer-guidelines, cvpr-2027-dates]
+last_checked: 2026-09-24

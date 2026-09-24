@@ -1,0 +1,21 @@
+id: iclr-2027/title-abstract-edit
+edition: iclr-2027
+family: content_edit
+question_zh: 摘要截止后、正文截止前，还能改标题和摘要吗？
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: abstract
+  until: paper
+  note_zh: 9/18 摘要截止后到 9/25 正文截止前
+summary_zh: 可以改，但只能改到正文截止 9/25 AoE（北京时间 9/26 19:59），而且改完必须和 9/18 注册的摘要保持接近；如果读起来像另一篇论文，论文会被拒。
+detail_zh: 摘要在正文截止前就会用于审稿人竞标，所以注册时的摘要必须真实反映论文内容（见“占位摘要”卡）。正文截止后到 11/5 出审稿前不能做任何修改；讨论期能否改标题见“讨论期改标题”卡。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "However, titles and abstracts may be edited before the submission deadline."
+  - src: iclr-2027-author-guidelines
+    text: "Yes, titles can be edited up to the paper submission deadline."
+  - src: iclr-2027-author-guidelines
+    text: "It is ok to revise the title and abstract for your full paper submission so long as the revised version stays close to your original abstract submission; The revised version shouldn’t read like a different paper compared to your original abstract submission. If so, the paper will be rejected."
+last_checked: 2026-09-24

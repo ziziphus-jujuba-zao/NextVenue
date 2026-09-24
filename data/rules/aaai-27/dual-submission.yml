@@ -1,0 +1,26 @@
+id: aaai-27/dual-submission
+edition: aaai-27
+family: dual_submission
+question_zh: 投了 AAAI-27 之后，能把同一工作投到别的会议或期刊吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: paper
+  until: notification
+  note_zh: 直到收到 AAAI-27 的决定或撤稿为止
+summary_zh: 不能。在收到 AAAI-27 的决定或撤回 AAAI-27 投稿之前，不能把相同或实质相似的工作投到其他存档会议或期刊；arXiv 等预印本和非存档 workshop 不受此限。
+detail_zh: 最终结果 11/30 公布。官方没有单独说明 9/24 的 Phase 1 拒稿通知是否算“收到 AAAI-27 的决定”，按字面理解它也是 AAAI-27 作出的拒稿决定。撤稿不可恢复（见“撤稿”卡）。违反一稿多投政策的投稿可被直接拒稿，且这一决定是最终的；涉及其他存档会议或期刊时，官方可能通知对方的组织方。
+quotes:
+  - src: aaai-27-submission-instructions
+    text: "After submitting to AAAI-27, authors may not submit the same or substantially similar work to another archival conference or journal until they have received a decision from AAAI-27 or have withdrawn their AAAI-27 submission."
+  - src: aaai-27-submission-instructions
+    text: "AAAI-27 will not consider any paper that, by the paper submission deadline, is under review, accepted for publication, or previously published in another archival conference or journal. Preprint servers (such as arXiv) and non-archival workshops are permitted."
+  - src: aaai-27-submission-instructions
+    text: "If they concludes that the submissions have excessive technical overlap or otherwise violate the multiple-submission policy, the AAAI-27 submission(s) may be summarily rejected."
+  - src: aaai-27-submission-instructions
+    text: "In cases involving another archival conference or journal, the organizers of that venue may also be informed. As with all summary rejection decisions, these determinations are final."
+effect:
+  kind: exclusive
+  scope: archival
+last_checked: 2026-09-24

@@ -1,0 +1,79 @@
+id: iclr-2027
+series: iclr
+name: ICLR 2027
+year: 2027
+kind: conference
+location:
+  city: San Francisco
+  country: USA
+dates:
+  start: 2027-04-26
+  end: 2027-04-30
+ranks:
+  ccf: A
+  ccf_edition: 7
+milestones:
+  - type: abstract
+    at: 2026-09-18T23:59
+    tz: AoE
+    status: confirmed
+    src: iclr-2027-dates
+    quote: "Abstract Deadline Sep 18 '26 (Anywhere on Earth)"
+  - type: paper
+    at: 2026-09-25T23:59
+    tz: AoE
+    status: confirmed
+    src: iclr-2027-dates
+    quote: "Paper Deadline Sep 25 '26 (Anywhere on Earth)"
+  - type: reviewing
+    label_zh: 审稿人写审稿（作者兼审稿人适用）
+    start: 2026-10-01
+    end: 2026-10-21
+    tz: AoE
+    status: estimated
+    src: iclr-2027-reviewer-guide
+    quote: "Write a constructive, thorough and timely review (September Oct 1 - Oct 21)"
+    note_zh: Reviewer Guide 注明日程 "subject to minor changes"，且未写时区；CFP 的 "all times are UTC-12h" 只针对 CFP 列出的日期，审稿期不在其中，这里记为 AoE 只是沿用同一约定。原文写作 "September Oct 1 - Oct 21"，这里按 10/1–10/21 记录。
+  - type: reviews_out
+    at: 2026-11-05
+    tz: AoE
+    status: confirmed
+    src: iclr-2027-dates
+    quote: "Reviews Released Nov 05 '26"
+    note_zh: Dates 页这一项只有日期、没写时区；CFP 写明 “all times are UTC-12h”，故记为 AoE。当天几点发布官方没写。
+  - type: discussion
+    label_zh: 作者-审稿人讨论期
+    start: 2026-11-05
+    end: 2026-11-18
+    tz: AoE
+    status: confirmed
+    src: iclr-2027-dates
+    quote: "Author- Reviewer Discussion Ends Nov 18 '26"
+    note_zh: Dates 页这一项只有日期、没写时区；CFP 写明 “all times are UTC-12h”，故记为 AoE，结束时刻按当天 23:59 AoE 计。
+  - type: meta_reviews
+    label_zh: 审稿人-AC 内部讨论与 meta-review
+    start: 2026-11-19
+    end: 2026-12-16
+    tz: AoE
+    status: confirmed
+    src: iclr-2027-dates
+    quote: "Reviewer- A C Discussion and Meta-reviewing Ends Dec 16 '26"
+    note_zh: Dates 页这一项只有日期、没写时区；CFP 写明 “all times are UTC-12h”，故记为 AoE，结束时刻按当天 23:59 AoE 计。
+  - type: notification
+    at: 2026-12-16
+    tz: AoE
+    status: confirmed
+    src: iclr-2027-dates
+    quote: "Final Decisions Dec 16 '26"
+    note_zh: Dates 页这一项只有日期、没写时区；CFP 写明 “all times are UTC-12h”，故记为 AoE。当天几点发布官方没写。
+  - type: conference
+    label_zh: 正会 4/26–28，workshop 4/29–30
+    start: 2027-04-26
+    end: 2027-04-30
+    tz: America/Los_Angeles
+    status: confirmed
+    src: iclr-2027-home
+    quote: "April 26-30, 2027"
+    note_zh: Dates 页写正会 "April 26 - 28"、workshop "April 29 - 30"，但同页仍有 "(location and dates to be announced)" 字样。
+last_checked: 2026-09-24
+note_zh: 地点：OpenReview 会议主页写 "San Francisco, CA, USA"；iclr.cc 主页只写 "California"，Dates 页仍写 "location and dates to be announced"。

@@ -1,0 +1,5 @@
+# Copyright (c) 2026 Zayier Xie
+# SPDX-License-Identifier: MIT
+
+packages:
+  - "packages/*"

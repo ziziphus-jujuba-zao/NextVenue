@@ -1,0 +1,24 @@
+id: iclr-2027/public-deanonymized
+edition: iclr-2027
+family: visibility
+question_zh: 投稿和审稿意见会公开吗？被拒的论文会显示作者吗？
+answer: required
+verification: human
+conf: high
+applies:
+  from: paper
+  note_zh: 审稿开始时论文公开（匿名），11/5 起审稿意见匿名公开，12/16 出结果后全部去匿名
+summary_zh: 会，所有作者须在投稿表单里确认知晓：论文从审稿开始就公开（匿名），12/16 出结果后所有投稿（录用、被拒、撤稿）连同审稿意见一起公开并显示作者。被拒论文可以改投别处，但 OpenReview 会一直保留 ICLR 版本、审稿意见和评论。
+detail_zh: 审稿意见 11/5 发布时就是匿名公开的。正文截止后撤稿的论文不等到 12/16，撤稿时立即去匿名（见“撤稿”卡）。审稿期间 OpenReview 提供的 BibTeX 不列作者。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "All submitted papers (accepted, rejected or withdrawn) will be deanonymized after the notification. The submissions and reviews will be released to the public."
+  - src: iclr-2027-openreview-submission-form
+    text: "I and all co-authors of this work understand that all papers submitted to ICLR become public at the beginning of the review process, and both accepted and rejected papers will be de-anonymized at the end of the review process."
+  - src: iclr-2027-cfp
+    text: "Because of the open nature of ICLR’s review process, all submissions (even rejected and withdrawn submissions) will remain public with authors’ names attached to them."
+  - src: iclr-2027-author-guidelines
+    text: "Papers that are not accepted will be considered non-archival, and may be submitted elsewhere (modified or not), although the OpenReview site will maintain the reviews, the comments, and links to the versions submitted to ICLR."
+  - src: iclr-2027-author-guidelines
+    text: "Official reviews are anonymous and publicly visible in OpenReview."
+last_checked: 2026-09-24

@@ -1,0 +1,16 @@
+id: aaai-27/withdrawal-final
+edition: aaai-27
+family: withdrawal
+question_zh: 撤稿之后还能恢复吗？
+answer: not_allowed
+verification: human
+conf: high
+summary_zh: 不能。AAAI-27 的撤稿是最终决定，一旦撤稿就不会恢复，这篇论文也就退出了 AAAI-27 的评审。
+detail_zh: 撤稿或收到 AAAI-27 的决定之后，才可以把同一工作投到别的存档会议或期刊（见“一稿多投”卡）。官方页面没有说撤稿后论文或审稿意见是否公开。
+quotes:
+  - src: aaai-27-paper-modification
+    text: "Paper withdrawals are final and will not be reverted."
+effect:
+  kind: withdraw
+  reversible: false
+last_checked: 2026-09-24

@@ -1,0 +1,29 @@
+id: aaai-27/llm-duplicates-prompt-injection
+edition: aaai-27
+family: llm_policy
+question_zh: 用 LLM 改写出近似重复的论文并行投稿，或对审稿系统做 prompt injection，会怎样？
+answer: not_allowed
+verification: human
+conf: high
+summary_zh: 不允许。两者都被 AAAI 列为可处罚的伦理违规，处罚从 desk reject 到多年禁止参加 AAAI 会议；为规避篇数上限的隐蔽重投或 shotgun 投稿同样在列。
+detail_zh: 投稿说明的一稿多投政策还点名列出不应提交的情形，包括只做表面改动的重复投稿、把一个贡献切成多篇（thin slicing）以及混淆过的重复稿；PC 认定违反该政策的投稿可被直接拒稿（summary reject）。
+quotes:
+  - src: aaai-27-cfp
+    text: "Examples of punishable ethics violations include"
+  - src: aaai-27-cfp
+    text: "parallel near-duplicate submissions (variants rewritten via LLM or cosmetic rewrites to obtain “multiple lottery tickets”)"
+  - src: aaai-27-cfp
+    text: "prompt-injection attacks on the AAAI review system (attempt to cause LLM or system to leak, bias, reassign, or reveal content)"
+  - src: aaai-27-cfp
+    text: "other forms of covert resubmission or “shotgun” submissions with intent to circumvent limits on number of submissions"
+  - src: aaai-27-cfp
+    text: "The violations subcommittee has been empowered to impose penalties ranging from desk rejection of papers to multi-year bans from participation in AAAI conferences including but not limited to the offending authors or area chairs."
+  - src: aaai-27-submission-instructions
+    text: "Submitting the same paper with cosmetic changes."
+  - src: aaai-27-submission-instructions
+    text: "“Thin slicing” a single contribution into multiple minimally different papers."
+  - src: aaai-27-submission-instructions
+    text: "Submitting obfuscated duplicates or “alternative universe” versions of substantially the same work."
+  - src: aaai-27-submission-instructions
+    text: "If they concludes that the submissions have excessive technical overlap or otherwise violate the multiple-submission policy, the AAAI-27 submission(s) may be summarily rejected."
+last_checked: 2026-09-24

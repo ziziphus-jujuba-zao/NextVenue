@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "edition.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: MIT",
+  "title": "One edition of a venue (or one ARR cycle) and its timeline",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "series",
+    "name",
+    "year",
+    "kind",
+    "milestones",
+    "last_checked"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "series": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2000,
+      "maximum": 2100
+    },
+    "kind": {
+      "enum": [
+        "conference",
+        "arr_cycle"
+      ]
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "end": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      }
+    },
+    "ranks": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ccf": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "N"
+          ]
+        },
+        "ccf_edition": {
+          "type": "integer"
+        },
+        "core": {
+          "type": "string"
+        }
+      }
+    },
+    "milestones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "tz",
+          "status"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "abstract",
+              "paper_registration",
+              "paper",
+              "supplementary",
+              "profile_deadline",
+              "reviewer_registration",
+              "reviewing",
+              "phase1_notification",
+              "reviews_out",
+              "author_response",
+              "discussion",
+              "meta_reviews",
+              "commitment",
+              "notification",
+              "camera_ready",
+              "author_registration",
+              "conference"
+            ]
+          },
+          "label_zh": {
+            "type": "string"
+          },
+          "at": {
+            "$ref": "#/definitions/local"
+          },
+          "start": {
+            "$ref": "#/definitions/local"
+          },
+          "end": {
+            "$ref": "#/definitions/local"
+          },
+          "tz": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "estimated",
+              "tba"
+            ]
+          },
+          "src": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note_zh": {
+            "type": "string"
+          }
+        },
+        "if": {
+          "properties": {
+            "status": {
+              "const": "tba"
+            }
+          }
+        },
+        "then": true,
+        "else": {
+          "anyOf": [
+            {
+              "required": [
+                "at"
+              ]
+            },
+            {
+              "required": [
+                "start",
+                "end"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "last_checked": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "note_zh": {
+      "type": "string"
+    }
+  },
+  "definitions": {
+    "local": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2})?$"
+    }
+  }
+}

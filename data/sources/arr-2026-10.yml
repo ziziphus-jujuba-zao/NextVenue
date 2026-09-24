@@ -1,0 +1,101 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: arr-2026-10
+sources:
+  - id: arr-2026-10-cfp
+    url: https://aclrollingreview.org/cfp
+    title: ARR Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T12:10:34Z
+    http_status: 200
+    snapshot: 68413050ec6b38bab790c11893864152c200a3d3fc06b0e45b31a1fd88441b7e
+  - id: arr-2026-10-authors
+    url: https://aclrollingreview.org/authors
+    title: ARR Author Guidelines
+    kind: author_guide
+    fetched_at: 2026-09-24T12:10:34Z
+    http_status: 200
+    snapshot: 265e56c2aaccc378c35a3dd436943131292e206c026b77c27c9073f970faf1dc
+    note_zh: "页面自注：现行版本只适用到 2026 年 8 月轮，之后按 sustainable reviewing policy 更新；Step 1 仍是“所有作者都要注册审稿”的旧规，以 CFP 和 checklist 为准。"
+  - id: arr-2026-10-dates
+    url: https://aclrollingreview.org/dates
+    title: ARR Dates and Venues
+    kind: dates
+    fetched_at: 2026-09-24T12:10:35Z
+    http_status: 200
+    snapshot: 4371e9c55e62a94fdf79fc41503fffd58a56ae01af12c6f1337d9b4cd8702ad6
+    note_zh: "表格没有写时区；表下说明仍是“ALL authors 注册审稿”的旧政策措辞。10 月轮 meta-review 写 December 17，NAACL 页面写 December 18。"
+  - id: arr-2026-10-sustainable-reviewing
+    url: https://aclrollingreview.org/sustainable-reviewing-2026
+    title: ARR Sustainable Reviewing Policy 2026
+    kind: policy
+    fetched_at: 2026-09-24T12:10:35Z
+    http_status: 200
+    snapshot: 0b418daffea7ea4e64f4bb60ce11b6dcdc9020ebedb2ef20c6519b81f45e92bf
+    note_zh: "2026-09-11 发布。页面写“NAACL and COLING 2026”，指的是 10/12 截止的这一轮（NAACL/COLING 2027）。完整政策是 PDF（https://www.aclweb.org/portal/sites/default/files/ACL%20sustainable%20reviewing%20policy_2026.pdf），快照工具暂不支持 PDF，未收录。"
+  - id: arr-2026-10-qualifications
+    url: https://aclrollingreview.org/qualifications
+    title: ARR Service Qualifications
+    kind: policy
+    fetched_at: 2026-09-24T12:11:50Z
+    http_status: 200
+    snapshot: e693653087686d7785f056f41542d5ea48a4803867bca45f44e674d52c8d577a
+    note_zh: "service contributor 资格标准；称 10 月轮投稿表单 9/28 开放。"
+  - id: arr-2026-10-author-checklist
+    url: https://aclrollingreview.org/authorchecklist
+    title: ARR Author Submission Checklist
+    kind: author_guide
+    fetched_at: 2026-09-24T12:11:50Z
+    http_status: 200
+    snapshot: 988b279982316dcdb9b1c42b4f24fac556360a7a48e998904950e512275423f2
+  - id: arr-2026-10-submission-form
+    url: https://aclrollingreview.org/submissionform
+    title: ARR Submission Form Fields
+    kind: form
+    fetched_at: 2026-09-24T12:11:51Z
+    http_status: 200
+    snapshot: 00fef40a11f87da42a32d837b264fa376d7e03614cf01f1a0c0a8ad1ff87e434
+  - id: arr-2026-10-changelog
+    url: https://aclrollingreview.org/changelog
+    title: ARR Changelog
+    kind: other
+    fetched_at: 2026-09-24T12:11:52Z
+    http_status: 200
+    snapshot: 8c41e2bf39890e1923ebe5711640b556fb7a80eb02b25a8471a414a5d9ffdf77
+  - id: arr-2026-10-naacl-2027-cfp
+    url: https://2027.naacl.org/calls/main_conference_papers/
+    title: NAACL 2027 Call for Main Conference Papers
+    kind: cfp
+    fetched_at: 2026-09-24T12:11:52Z
+    http_status: 200
+    snapshot: 57db3b1930c41536075f74c02c23953932982121f9b220cc3de3b43c8bd0333f
+    note_zh: "页面写所有截止均为 AoE；service contributor 注册截止写 October 12（仍用“Reviewer registration deadline for ALL authors”的旧措辞），与 ARR 的 October 14 不一致。"
+  - id: arr-2026-10-naacl-2027-faq
+    url: https://2027.naacl.org/faq/
+    title: NAACL 2027 FAQ
+    kind: faq
+    fetched_at: 2026-09-24T12:11:53Z
+    http_status: 200
+    snapshot: f7e959c3ba5989f1dae184c938c0b8d65b1219f60eca70b94871d6e4e2a74c78
+  - id: arr-2026-10-acl-authorship-changes-policy
+    url: https://www.aclweb.org/adminwiki/index.php/Authorship_Changes_Policy_for_ACL_Venue_Papers
+    title: ACL Authorship Changes Policy for ACL Venue Papers
+    kind: policy
+    fetched_at: 2026-09-24T12:11:54Z
+    http_status: 200
+    snapshot: cce4f13b4b66404e3549dd300ac52ec37f81371072c2a6eb67d9ba1bc37d50f3
+    note_zh: "2025-09-22 批准，2025-10-06 发布。用 curl 访问返回 418，快照工具抓取成功。"
+  - id: arr-2026-10-openreview-submission-invitation
+    url: https://api2.openreview.net/invitations?id=aclweb.org/ACL/ARR/2026/October/-/Submission
+    title: "OpenReview: ARR October 2026 Submission invitation (API)"
+    kind: form
+    fetched_at: 2026-09-24T12:11:54Z
+    http_status: 404
+    note_zh: "2026-09-24 返回 404：10 月轮投稿入口尚未在 OpenReview 发布（qualifications 页称表单 9/28 开放）。"
+  - id: arr-2026-08-openreview-submission-invitation
+    url: https://api2.openreview.net/invitations?id=aclweb.org/ACL/ARR/2026/August/-/Submission&expired=true
+    title: "OpenReview: ARR August 2026 Submission invitation (API, expired)"
+    kind: form
+    fetched_at: 2026-09-24T12:12:45Z
+    http_status: 200
+    snapshot: 944587e08d4932cf00e777f51c5c1b3386fd52b6b457cac9c1a40b56946fe111
+    note_zh: "上一轮（2026 年 8 月轮）的 OpenReview 投稿表单 JSON，用作元数据宽限期卡的沿用依据；宽限期文字仍写“In July 2025 cycle we experiment…”。"

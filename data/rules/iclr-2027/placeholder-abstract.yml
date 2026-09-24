@@ -1,0 +1,23 @@
+id: iclr-2027/placeholder-abstract
+edition: iclr-2027
+family: submission
+question_zh: 能先交占位摘要，摘要截止后再补内容吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  until: abstract
+  note_zh: 针对 9/18 摘要截止时提交的摘要
+summary_zh: 不能。9/18 AoE（北京时间 9/19 19:59）摘要截止时提交的摘要必须真实反映论文内容，占位摘要和重复摘要都会被删除。
+detail_zh: 摘要会在正文截止前用于审稿人竞标。摘要截止后到 9/25 的修改也必须和原摘要保持接近（见“标题和摘要修改”卡）。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Abstracts submitted by the abstract submission deadline must be genuine; placeholder or duplicate abstracts will be removed."
+  - src: iclr-2027-author-guidelines
+    text: "It is key that authors submit genuine and informative abstracts that reflect the content of the full submission, as abstracts will be used in reviewer bidding before the final paper submission deadline."
+  - src: iclr-2027-author-guidelines
+    text: "No. All placeholder abstract submissions will be deleted."
+effect:
+  kind: requires
+  target: genuine_abstract
+last_checked: 2026-09-24

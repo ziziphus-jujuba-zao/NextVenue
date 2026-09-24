@@ -1,0 +1,31 @@
+id: iclr-2027/reciprocal-reviewer-per-paper
+edition: iclr-2027
+family: reciprocal_reviewing
+question_zh: 每篇投稿都必须有一位作者注册当审稿人吗？
+answer: required
+verification: human
+conf: high
+applies:
+  from: abstract
+  until: discussion
+  note_zh: 互审作者和豁免申请在 9/18 摘要截止时锁定
+summary_zh: 必须。每篇投稿至少要有一位合格作者注册、审至少 3 篇论文，没有任何作者注册为审稿人会导致该论文被 desk reject（PC 可个案给例外）；表单里指定的互审作者和豁免申请在 9/18 摘要截止后已不能修改。
+detail_zh: 合格指在以下会议或期刊至少有一篇正式录用论文：ICLR、NeurIPS、ICML、UAI、AISTATS、JMLR、TMLR（含 Datasets & Benchmarks）；ACL、EMNLP、EACL、NAACL、IJCNLP-AACL、CL、TACL（含 Findings）；COLM；CVPR、ICCV、ECCV、PAMI、3DV（含 Findings）；AAAI、IJCAI、JAIR；ICRA、IROS、RSS、CoRL；KDD；COLT。只算主会论文，position、tiny、blog、demo、industry、workshop 论文不算。若没有作者合格可以豁免，但受“每人 1 篇”上限约束。指南说摘要截止后会通知所有作者注册审稿人。表单的措辞较宽松，写的是 “may result in a desk rejection at the discretion of the Program Chairs”。Reviewer Guide FAQ 说已登记为互审作者但没收到审稿邀请的，论文不会因此被 desk reject；但同一组 FAQ 里另一条仍写 “ICLR 2026”，该页另一处还把正文截止写成 9/16，这条 FAQ 可能是去年留下的，请以 OpenReview 上的实际通知为准。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "In addition, all submissions must have at least one author who is registered to review at least 3 papers."
+  - src: iclr-2027-author-guidelines
+    text: "All authors will be notified to register as reviewers after the abstract deadline."
+  - src: iclr-2027-author-guidelines
+    text: "If none of the authors are registered as a reviewer, it will result in desk rejection for the paper. The program chairs may grant exceptions on a case-by-case basis."
+  - src: iclr-2027-author-guidelines
+    text: "If none of the authors are qualified under this definition, then they are exempt from this requirement: we encourage submissions from researchers new to ICLR!"
+  - src: iclr-2027-openreview-submission-form
+    text: "Note that this field cannot be changed after the abstract deadline."
+  - src: iclr-2027-reviewer-guide
+    text: "Even if you haven't, your paper is not in danger of desk rejection"
+effect:
+  kind: requires
+  target: reciprocal_reviewer_per_paper
+  reviews: 3
+last_checked: 2026-09-24

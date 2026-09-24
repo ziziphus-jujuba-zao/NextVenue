@@ -1,0 +1,309 @@
+* Skip to main content
+
+AAAI
+
+Association for the Advancement of Artificial Intelligence
+
+Menu
+
+ * *
+
+   * AAAI
+
+     Association for the Advancement of Artificial Intelligence
+
+Menu
+ *
+ * About AAAI
+   * News
+   * Officers and Committees
+   * Staff
+   * Bylaws
+   * Awards
+     * Fellows Program
+     * Classic Paper Award
+     * Dissertation Award
+     * Distinguished Service Award
+     * Allen Newell Award
+     * Outstanding Paper Award
+     * AI for Humanity Award
+     * Feigenbaum Prize
+     * Patrick Henry Winston Outstanding Educator Award
+     * Engelmore Award
+     * AAAI ISEF Awards
+     * Senior Member Status
+     * Conference Awards
+   * Partnerships
+   * Resources
+   * Mailing Lists
+   * Past Presidential Addresses
+   * AAAI 2025 Presidential Panel on the Future of AI Research
+   * Presidential Panel on Long-Term AI Futures
+   * Past Policy Reports
+     * The Role of Intelligent Systems in the National Information Infrastructure (1995)
+     * A Report to ARPA on Twenty-First Century Intelligent Systems (1994)
+   * Logos
+ * Ethics & Plurality
+ * Conferences & Symposia
+   * AAAI Conference
+   * AIES AAAI/ACM
+   * AIIDE
+   * EAAI
+   * HCOMP
+   * IAAI
+   * ICWSM
+   * Spring Symposia
+   * Summer Symposia
+   * Fall Symposia
+   * Code of Conduct for Conferences and Events
+ * Publications
+   * AI Magazine
+   * Conference Proceedings
+   * AAAI Publication Policies & Guidelines
+   * Request to Reproduce Copyrighted Materials
+   * Contribute
+   * Order Proceedings
+ * AI Magazine
+ * Membership
+   * Member Login
+   * Chapters
+   * AAAI-x 2026 Events
+   * Call for Proposals: AAAI-Sponsored “AIx” Pop-Up Events Worldwide
+   * AAAI Educational AI Videos Award
+
+ * ----------------------------------------
+
+ * AI Jobs
+ * AITopics
+ * Contact
+
+ * ----------------------------------------
+
+ * Twitter
+ * Facebook
+ * LinkedIn
+
+Home / Conferences / AAAI Conference on Artificial Intelligence / AAAI-27 /
+
+July 20, 2026
+
+The 41st Annual AAAI Conference on Artificial Intelligence
+
+February 16 – February 23, 2027 | Montréal, Canada
+
+ * AAAI-27
+ * EAAI-27
+ * IAAI-27
+ * Attend
+   * Accommodations and Travel
+   * Student Scholar Volunteer Program
+   * Registration Information
+   * Visa Letters of Invitation
+ * Calls
+   * Main Technical Track
+   * Special Track on AI Alignment
+   * Special Track on AI for Social Impact
+   * Bridge Program
+   * Demonstration Program
+   * Doctoral Consortium
+   * EAAI-27
+   * IAAI-27
+   * Journal Track
+   * New Faculty Highlights
+   * Student Abstract and Poster Program
+   * Senior Member Presentation Track
+   * Tutorial and Lab Program
+   * Undergraduate Consortium
+   * Workshops
+ * Sponsors
+   * Become a Sponsor
+ * Conference Organizers
+
+AAAI-27 Author Kit
+
+AIA Timetable for Authors
+
+Note: all deadlines are “anywhere on earth” (UTC-12)
+
+August 14, 2026
+Abstracts due at 11:59 PM UTC-12
+
+August 21, 2026
+Full papers due at 11:59 PM UTC-12
+
+August 24, 2026
+Supplementary material and code due by 11:59 PM UTC-12
+
+October 27-November 2, 2026
+Author feedback window
+
+November 30, 2026
+Notification of final acceptance or rejection
+
+December 14, 2026
+Submission of camera-ready files
+
+February 16-23, 2027
+AAAI-26 Conference
+
+Note: Deadlines are track-specific and may differ from those for other tracks.
+
+Call for the Special Track on AI Alignment
+
+Submission Site
+
+AAAI-27 is pleased to continue our special track focused on AI Alignment. This track recognizes that as we begin to build more and more capable AI systems, it becomes crucial to ensure that the goals and actions of such systems are aligned with human values. To accomplish this, we need to understand the risks of these systems and research methods to mitigate these risks. These questions arise at the frontier of capability, and also in the systems that are already widely deployed. The track covers many different aspects of AI Alignment, including but not limited to the following topics:
+
+ * Value alignment and reward modeling: How do we accurately model a diverse set of human preferences, and ensure that AI systems are aligned to these same preferences? How do choices across the training pipeline, from pretraining data through post-training, determine which alignment properties persist under later capabilities training, fine-tuning, and distillation?
+ * Scalable oversight and control: How can we effectively supervise, monitor and control increasingly capable AI systems? How do we ensure that such systems behave according to predefined safety considerations? What visibility and accountability should apply to systems that developers deploy internally?
+ * Robustness and security: How do we create AI systems that maintain important alignment and/or safety properties in new or adversarial environments? How are safety properties stripped away by jailbreaks, prompt injection, tampering with safeguards, or poisoning of alignment procedures, and how do we mitigate this?
+ * Interpretability: How can interpretability support effective auditing and monitoring? What role does interpretability play in the development cycle? How can we understand and explain the operations of AI models to a diverse set of stakeholders?
+ * Governance: How do we collectively manage the development and deployment of AI models to ensure broad societal benefits and fairly distributed societal risks? What technical analysis and tooling supports effective governance, including evaluations, safeguards, access controls, third-party assessment, audit, and incident reporting?
+ * Recursive self-improvement and automated AI research: How can we control and monitor systems that may surpass human intelligence and capabilities? How do we oversee systems that conduct AI research, including safety research, and how would we recognize that such oversight is failing?
+ * Evaluation: How can we evaluate the safety of models and the effectiveness of alignment techniques? How do we know that an evaluation measures what it claims to measure? What happens to measurement when systems recognize that they are being tested?
+ * Pluralistic alignment and participation: How can we engage impacted individuals and communities in shaping alignment targets for AI systems? How should systems behave when those values conflict? What evaluations would credibly establish that they do?
+ * Human-AI interaction and alignment: How do interactions between humans and AI systems shape alignment? How can we design and evaluate these interactions to support human values, intentions, and oversight as AI systems become more capable? How do we measure persuasion, manipulation, sycophancy, and emotional reliance?
+ * Multi-agent and societal-scale alignment: How does alignment change when many AI systems, and mixed human-AI organizations, act together? How do we model or measure the cumulative effects of widespread deployment on institutions, labor, epistemics, and human influence?
+
+The goal of this track at AAAI-27 is to bring these problems to the forefront of the academic and research communities, highlighting these challenges as fundamental research questions on the same level as more traditional AI capabilities research.
+
+This page outlines the specific track focus of the AI Alignment Track, as well as review criteria unique to this track. The logistical submission process of the track will mirror those of the main AAAI-27 conference, and more information can be found in the main AAAI-27 Call for Papers.
+
+Submissions to this special track will follow the regular AAAI technical paper submission procedure but the authors need to select the AI Alignment (AIA) special track. There will be no transfer of papers between the AAAI-27 main track and the AI Alignment track; therefore, authors will need to decide to which track they want to submit their paper. If you have already submitted to the main track, please withdraw that submission and create a new submission for the special track.
+
+Papers submitted to this track will be evaluated using the following criteria, which are similar but slightly different from the criteria used for main track submissions.
+
+ * Relevance to AI Alignment: Does the paper address a problem central to the challenge of developing safe and secure AI systems, aligned with human values?
+ * Engagement with existing literature: Does the paper situate itself within the field of AI Alignment, highlighting previous approaches to the problem and relevant methods that have been developed by researchers to address the problem?
+ * Methodological or analysis novelty: Does the paper present a new method or bring a new perspective/analysis to the topic?
+ * Quality of evaluation: Is the method or approach evaluated sufficiently to prove its utility to better achieving or understanding the objective of AI Alignment?
+ * Empirical and infrastructural contribution: Does the paper contribute a rigorous measurement, study, dataset, benchmark, or tool that the community can build on, and, where human participants are involved, is the study designed appropriately?
+
+Submission Limit
+
+Submissions are limited to 7 pages of main content, with a maximum total length of 9 pages. Any pages beyond page 7 are reserved exclusively for references.
+Authors may submit supplementary material, but please note that reviewers are not required to review this material. Any material critical to the evaluation of the paper should be included in the main body of the paper.
+
+Questions and Suggestions
+
+Concerning author instructions should be sent to workflowchairs@aaai.zendesk.com and for conference registration, write to aaai27@aaai.org. For topics specific to the AI Alignment track, please contact the chairs of the AI Alignment track at aaai27aialignment@aaai.org.
+
+New OpenReview profiles created without an institutional email go through a moderation process that can take up to two weeks, if authors have an issue, please contact the chairs right away at aaai27aialignment@aaai.org.
+
+Dylan Hadfield-Menell (Massachusetts Institute of Technology, USA)
+
+Mitchell Gordon (Massachusetts Institute of Technology, USA)
+
+AI Alignment Keywords
+
+ * AIA: Value Alignment
+ * AIA: Preference Modeling
+ * AIA: Pretraining and Data Interventions
+ * AIA: Scalable Oversight
+ * AIA: Corrigibility and Controllability
+ * AIA: AI Control and Monitoring
+ * AIA: Robustness
+ * AIA: Prompt Injection and Agent Security
+ * AIA: Safety Constraints
+ * AIA: Interpretability
+ * AIA: Auditing and Assurance
+ * AIA: Governance
+ * AIA: Recursive Self-Improvement
+ * AIA: Evaluation
+ * AIA: Evaluation Validity
+ * AIA: Human-AI Interaction
+ * AIA: Manipulation and Sycophancy
+ * AIA: Pluralistic Alignment
+ * AIA: Participation
+ * AIA: Multi-Agent Systems
+ * AIA: Societal-Scale Effects
+ * AIA: Other
+
+Timeline
+
+Abstract Submission Deadline: August 14, 2026.
+Paper Submission Deadline: August 21, 2026.
+Supplementary Materials and Code: August 24, 2026.
+Author Feedback: October 27–November 2, 2026.
+Final notification: November 30, 2026.
+Camera-ready: December 14, 2026
+Conference: February 16–23, 2027
+
+Contact
+
+For general inquiries: workflowchairs@aaai.zendesk.com
+To contact the chairs: aaai27aialignment@aaai.org
+
+----------------------------------------
+
+Categories: AAAI Conference
+
+We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
+Cookie SettingsAccept All
+Manage consent
+Close
+
+Privacy Overview
+
+This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.
+Necessary
+Necessary
+Always Enabled
+Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+
+Cookie                               Duration    Description
+cookielawinfo-checkbox-analytics     11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Analytics".
+cookielawinfo-checkbox-functional    11 months   The cookie is set by GDPR cookie consent to record the user
+                                                 consent for the cookies in the category "Functional".
+cookielawinfo-checkbox-necessary     11 months   This cookie is set by GDPR Cookie Consent plugin. The
+                                                 cookies is used to store the user consent for the cookies in
+                                                 the category "Necessary".
+cookielawinfo-checkbox-others        11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Other.
+cookielawinfo-checkbox-performance   11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Performance".
+viewed_cookie_policy                 11 months   The cookie is set by the GDPR Cookie Consent plugin and is
+                                                 used to store whether or not user has consented to the use
+                                                 of cookies. It does not store any personal data.
+
+Functional
+Functional
+Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+Performance
+Performance
+Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+Analytics
+Analytics
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+Advertisement
+Advertisement
+Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+Others
+Others
+Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+SAVE & ACCEPT
+
+We are using cookies to give you the best experience on our website.
+
+You can find out more about which cookies we are using or switch them off in settings.
+
+Accept
+Close GDPR Cookie Settings
+ * Privacy Overview
+ * Strictly Necessary Cookies
+
+Powered by  GDPR Cookie Compliance
+Privacy Overview
+
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+
+Strictly Necessary Cookies
+
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+
+Enable or Disable Cookies Enabled Disabled
+Enable All Save Settings

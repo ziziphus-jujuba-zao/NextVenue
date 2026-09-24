@@ -1,0 +1,22 @@
+id: iclr-2027/registration-accepted
+edition: iclr-2027
+family: presentation
+question_zh: 论文录用后必须有作者注册参会吗？
+answer: required
+verification: human
+conf: high
+applies:
+  from: notification
+summary_zh: 必须。录用论文至少要有一位作者持 “Conference and Workshops” 注册，学生作者用学生注册即可，一人有多篇论文只需一份注册；是否必须线下参会和注册截止时间，2027 作者指南还没有写。
+detail_zh: camera-ready 上传说明会在 2027 年 2 月中旬通过邮件发出，页数上限 10 页。会议 2027 年 4/26–30 举行。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: 'Yes, if you have an accepted paper, one of the authors of your paper must have a "Conference and Workshops" registration.'
+  - src: iclr-2027-author-guidelines
+    text: "If the author is a student they only need a student registration. If an author has multiple papers they only need one registration."
+  - src: iclr-2027-author-guidelines
+    text: "An email with instructions for uploading camera-ready submissions will go out mid-February 2027."
+effect:
+  kind: requires
+  target: author_registration
+last_checked: 2026-09-24

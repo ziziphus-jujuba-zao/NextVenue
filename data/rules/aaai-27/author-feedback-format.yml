@@ -1,0 +1,29 @@
+id: aaai-27/author-feedback-format
+edition: aaai-27
+family: rebuttal
+question_zh: author feedback（rebuttal）什么时候写？有什么长度和内容限制？
+answer: conditional
+verification: inherited
+inherited_from: aaai-26
+conf: medium
+applies:
+  from: author_response
+  until: author_response
+  note_zh: 只有进入 Phase 2 的论文才有 author feedback
+summary_zh: AAAI-27 的 author feedback 细则尚未公布，以下为 AAAI-26 规则：对所有审稿只能提交一份不超过 2500 字符的回复，不能包含 URL，也不应提供新结果。AAAI-27 的窗口已确定为 10/19–10/25，只有进入 Phase 2 的论文才有（官网注明截止均按 AoE；若按 10/25 23:59 AoE 计，即北京时间 10/26 19:59）。
+detail_zh: 按 AAAI-26 FAQ，回复可以用 markdown 文本，检测到含 URL 的回复可能被扣下（withheld）；可以说明为什么某些实验不必要，但不要补新实验结果。AAAI-27 CFP 写明可以回应所有审稿意见，包括 AI 生成的审稿。按 AAAI-26 页面的 URL 规律推测的 AAAI-27 FAQ 地址在 2026-09-24 返回 404。
+quotes:
+  - src: aaai-27-review-process
+    text: "A single author feedback phase will give authors of papers from Phase 2 an opportunity to address questions or factual mistakes in reviews (from both phases), running from October 19-25, 2026."
+  - src: aaai-27-cfp
+    text: "Authors may address their response to all of the provided reviews, including the AI-generated review."
+  - src: aaai-26-faq-authors-rebuttal
+    text: "Yes, you must respond to all reviews with a single rebuttal of 2500 characters maximum."
+  - src: aaai-26-faq-authors-rebuttal
+    text: "Authors can provide any text (markdown formatting is okay) that fits within the length limit. The response must not include any URLs — responses detected to contain URLs may be withheld."
+  - src: aaai-26-faq-authors-rebuttal
+    text: "Authors should not provide new results during the rebuttal, even if the reviewers asked for them."
+  - src: aaai-26-faq-authors-rebuttal
+    text: "Clarifying why some experiments are not needed, or why additional results are not critical for the paper is acceptable though."
+checked_sources: [aaai-27-faq-authors-rebuttal, aaai-27-review-process, aaai-27-cfp]
+last_checked: 2026-09-24

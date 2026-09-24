@@ -1,0 +1,38 @@
+id: arr-2026-10/service-contributor
+edition: arr-2026-10
+family: reciprocal_reviewing
+question_zh: 每篇投稿都要指定 service contributor 吗？一个人能给几篇当？没有会怎样？
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: paper
+  until: meta_reviews
+  note_zh: 投稿时指定；contributor 要按时完成整轮审稿或 AC 工作
+summary_zh: 不指定也能投，但 10 月轮起只有指定了一名合格 service contributor（担任审稿人、AC 或更高职务）的投稿才保证送审；没有的进抽签，没抽中的直接 desk reject。一个人每轮最多给 2 篇当 contributor。
+detail_zh: contributor 通常是作者之一，也可以提名非作者，但此人要熟悉这篇论文并担保它达到顶会可录用的水平。博士生要在 CL 主要会议、Findings 或认可的相关会议上至少有 2 篇论文（不必一作）、总共至少 3 篇才自动合格；不自动合格的人可以在合格审稿人带领下当 secondary reviewer，但不能单独当 contributor，有足够审稿记录的可以申请人工审核（qualifications 页）。同一个 contributor 被挂在超过 2 篇上时，会随机只保留 2 篇，其余进抽签。contributor 遇到紧急情况必须按时申报并提供合格、愿意接手的替补，否则本轮他当 contributor 或挂名作者的所有投稿都会被 desk reject。
+changed_from_prev_zh: 新规。此前（2025 年 5 月起）是所有投稿作者都要注册审稿；现在改为每篇指定 contributor。CFP 写明确保 contributor 能履职是作者的责任，“Exceptions will no longer apply.”
+quotes:
+  - src: arr-2026-10-cfp
+    text: "The review service will henceworth be capped to the available capacity. The review of submissions not contributing to the service pool will be subject to a lottery."
+  - src: arr-2026-10-cfp
+    text: "Submissions will only be guaranteed review if they contribute a qualified service contributor (serving as a reviewer, chair or in senior roles). Any individual can be the designated service contributor on max 2 submissions (which corresponds to max 10 reviews as a reviewer or 16 meta-reviews as an area chair)."
+  - src: arr-2026-10-cfp
+    text: "In case of over-commitment, the submissions with the same over-committed contributor will be randomly subset to allowed max capacity, and the remainder will be added to the lottery pool. Submissions not selected for review via lottery will be desk rejected."
+  - src: arr-2026-10-cfp
+    text: "The designated service contributors will typically be selected among the authors of the submission, but it is possible to nominate other researchers. However, the designated contributor must be familiar with the submission, and confirm that it is at the expected quality level: ready for consideration for acceptance at a top-tier conference."
+  - src: arr-2026-10-qualifications
+    text: "Doctoral students (but not bachelor and master students), as well as industry researchers with at least a Masters degree, automatically qualify if they have at least 2 publications (not necessarily first-author) in major CL events, Findings or major related venues, and a total of >= 3 publications in total."
+  - src: arr-2026-10-qualifications
+    text: "Those who do not automatically qualify by these criteria can serve as secondary reviewers, mentored by a qualified primary reviewer, but cannot be designated service contributors by themselves."
+  - src: arr-2026-10-qualifications
+    text: "Those who do not formally qualify under the above publication criteria, but satisfy the degree requirements and have substantially equivalent experience, may apply with documentation of their expertise and review experience for case-by-case consideration (e.g. with records from other venues where they served)."
+  - src: arr-2026-10-sustainable-reviewing
+    text: "One qualified individual can serve on maximum two submissions (per ARR cycle, regardless of the commitment venue)."
+  - src: arr-2026-10-author-checklist
+    text: "Should unforeseen circumstances interfere with the designated service contributor’s duties, they must notify the chairs via the emergency declaration form and provide a qualified, willing replacement on time. Otherwise, any submissions in this cycle for which they are serving or are a co-author will be desk rejected."
+effect:
+  kind: requires
+  target: service_contributor
+  max_submissions_per_contributor: 2
+last_checked: 2026-09-24

@@ -1,0 +1,30 @@
+id: aaai-27/author-membership-freeze
+edition: aaai-27
+family: author_list
+question_zh: 摘要截止（7/21）后还能增加或删除作者吗？
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: paper
+  until: camera_ready
+  note_zh: 7/21 摘要截止到 7/28 正文截止之间仍可增删作者、调整顺序；从 7/28 正文截止起冻结，camera-ready 阶段也不能增删
+summary_zh: 可以，但只到 7/28 AoE（北京时间 7/29 19:59）正文截止：7/21 摘要截止后到 7/28 之间仍可增删作者、调整顺序。此后作者名单冻结，官方不受理窗口外更正作者信息的请求，也不开例外。
+detail_zh: 投稿说明的上限一节另有一句“投稿后不能加作者”，并让读者参见下文的作者变更政策；下文和论文修改指南都把截止点定在 7/28 正文截止。camera-ready 阶段同样不能增删作者（见“camera-ready 作者”卡）。
+quotes:
+  - src: aaai-27-paper-modification
+    text: "After the July 21 abstract deadline and until the July 28 paper submission deadline, the following items can be changed"
+  - src: aaai-27-paper-modification
+    text: "list of authors"
+  - src: aaai-27-submission-instructions
+    text: "authors may not be added to papers following submission (see below for policies about author changes)"
+  - src: aaai-27-submission-instructions
+    text: "MODIFICATIONS TO SUBMISSIONS ARE ONLY ALLOWED UNTIL THE FULL PAPER DEADLINE (July 28 for Phase 1 submissions). No exceptions will be granted."
+  - src: aaai-27-paper-modification
+    text: "We will not accommodate requests to update or correct submitted materials outside the defined modification windows."
+  - src: aaai-27-paper-modification
+    text: "This includes, but is not limited to, replacing incorrectly uploaded files or correcting author information."
+effect:
+  kind: lock
+  target: author_membership
+last_checked: 2026-09-24

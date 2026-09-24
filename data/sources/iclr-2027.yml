@@ -1,0 +1,78 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iclr-2027
+sources:
+  - id: iclr-2027-author-guidelines
+    url: https://iclr.cc/Conferences/2027/AuthorGuidelines
+    title: ICLR 2027 Author Guidelines
+    kind: author_guide
+    fetched_at: 2026-09-24T12:07:30Z
+    http_status: 200
+    snapshot: 5fd877ad5b1236aad456864ecfc984c7ad62b9890caeff6e8322474af3048ae4
+  - id: iclr-2027-dates
+    url: https://iclr.cc/Conferences/2027/Dates
+    title: ICLR 2027 Dates
+    kind: dates
+    fetched_at: 2026-09-24T12:07:32Z
+    http_status: 200
+    snapshot: f00ee2e3a15194605e096fa607bc61f8a03e15f878ef002371ee016d06d185ee
+  - id: iclr-2027-cfp
+    url: https://iclr.cc/Conferences/2027/CallForPapers
+    title: ICLR 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T12:10:32Z
+    http_status: 200
+    snapshot: 2414d6431b8375a681150d5b82772c56d17d7abb980f180de7e9db475640e091
+  - id: iclr-2027-blog-submission-policies
+    url: https://blog.iclr.cc/2026/09/02/submission-policies-for-iclr-2027/
+    title: "ICLR Blog: Submission Policies for ICLR 2027 (2026-09-02)"
+    kind: blog
+    fetched_at: 2026-09-24T12:10:33Z
+    http_status: 200
+    snapshot: 573a1b02e50d423c6cae476364a868588d966812e192e15ee64b33db7a882f26
+    note_zh: PC 博客，解释 20 篇上限和新作者 1 篇上限的理由。文中 “No ICLR 2026 author may appear on more than 20 submissions.” 的 2026 应为笔误，上下文都在讲 2027；规则以作者指南为准。
+  - id: iclr-2027-ai-policy-authors
+    url: https://iclr.cc/Conferences/2027/AIPolicyForAuthors
+    title: ICLR 2027 AI Policy for Authors
+    kind: policy
+    fetched_at: 2026-09-24T12:10:34Z
+    http_status: 200
+    snapshot: 2de91fef3b82baafc031dbf4382204e46d73c51070fd673adffd85fbe9dd5e5a
+  - id: iclr-2027-home
+    url: https://iclr.cc/Conferences/2027
+    title: ICLR 2027 Homepage
+    kind: other
+    fetched_at: 2026-09-24T12:10:35Z
+    http_status: 200
+    snapshot: 0d3a45e34d85f39b04f1274d56d076dd1e607bdc939003699e7d6324c80de83b
+    note_zh: 主页地点只写 “California”，日期 “April 26-30, 2027”。
+  - id: iclr-2027-ai-policy-reviewers
+    url: https://iclr.cc/Conferences/2027/AIPolicyForReviewers
+    title: ICLR 2027 AI Policy for Reviewers
+    kind: policy
+    fetched_at: 2026-09-24T12:11:15Z
+    http_status: 200
+    snapshot: 9158112b7389643fd13014bfc40a46372860e590f64157818361f1f5be7dd665
+  - id: iclr-2027-reviewer-guide
+    url: https://iclr.cc/Conferences/2027/ReviewerGuidelines
+    title: ICLR 2027 Reviewer Guide
+    kind: other
+    fetched_at: 2026-09-24T12:11:22Z
+    http_status: 200
+    snapshot: cbcafbcc6b31c77d37ce9dc1444d75d56ba08300b659370afa22ffc870bbb41c
+    note_zh: 日程注明 “subject to minor changes”。页面有沿用旧版的文字：FAQ 写 “full paper deadline is September 16”（实际是 9/25），另一条 FAQ 仍写 “ICLR 2026”。
+  - id: iclr-2027-openreview-submission-form
+    url: https://api2.openreview.net/invitations?id=ICLR.cc/2027/Conference/-/Submission&expired=true
+    title: ICLR 2027 OpenReview submission form (Submission invitation, API)
+    kind: form
+    fetched_at: 2026-09-24T12:13:27Z
+    http_status: 200
+    snapshot: 8d86f2aa7829f0cbaf063ca63015b26d679365cb23b728c519fa83eeb1dd72db
+    note_zh: OpenReview API 返回的 JSON，是已于摘要截止关闭的投稿表单（字段说明、勾选声明）。摘要截止后各篇论文自己的修改表单没有公开读取。
+  - id: iclr-2027-openreview-venue
+    url: https://api2.openreview.net/groups?id=ICLR.cc/2027/Conference
+    title: ICLR 2027 OpenReview venue group (API)
+    kind: other
+    fetched_at: 2026-09-24T12:13:28Z
+    http_status: 200
+    snapshot: 93d1ade40ae0d51e57a1ca70c3961b77af930335f2599207e45474f127b30f60
+    note_zh: OpenReview API 返回的会议主页 JSON，location 字段写 “San Francisco, CA, USA”。

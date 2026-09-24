@@ -1,0 +1,25 @@
+id: iclr-2027/discussion-revisions
+edition: iclr-2027
+family: rebuttal
+question_zh: 讨论期能上传修订版 PDF 吗？页数上限多少？
+answer: allowed
+verification: human
+conf: high
+applies:
+  from: reviews_out
+  until: discussion
+  note_zh: 11/5 审稿发布到 11/18 讨论期结束
+summary_zh: 可以。11/5 审稿发布后到讨论期结束 11/18 AoE（北京时间 11/19 19:59），可以多次上传修订版，正文上限放宽到 10 页；修订版会用 pdfdiff 和原稿对比，与原稿差别过大的改动，AC 和审稿人可以不予考虑。
+detail_zh: 审稿人和 AC 不必看每一版修订，需要作者自己说明改了什么。回复以 OpenReview 评论的形式发布，每条评论有字数限制（具体字数官方未写），条数不限。讨论期作者集合不能变。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Authors can also revise their paper until the end of the public discussion period (Nov 18)."
+  - src: iclr-2027-author-guidelines
+    text: "If such a revision is made, a pdfdiff will be applied to compare new changes to the paper against the original submission. Area chairs and reviewers reserve the right to ignore changes that are significantly different from the original paper."
+  - src: iclr-2027-author-guidelines
+    text: "During the discussion/rebuttal phase and for the camera ready, the page limit will be increased to 10 pages to allow for new results/discussions."
+  - src: iclr-2027-author-guidelines
+    text: "You can upload revisions until the discussion period ends, but reviewers and area chairs are not required to look at every revision."
+  - src: iclr-2027-author-guidelines
+    text: "There is a word limit for each comment, but there is no limit on the number of comments ."
+last_checked: 2026-09-24

@@ -1,0 +1,255 @@
+Skip to yearly menu bar Skip to main content
+
+Main Navigation
+
+ * CVPR
+   * Code of Conduct
+
+     ----------------------------------------
+
+   * Create Profile
+
+     ----------------------------------------
+
+   * Privacy Policy
+
+     ----------------------------------------
+
+   * Contact CVPR
+
+     ----------------------------------------
+
+   * HELP/FAQ
+
+     ----------------------------------------
+
+   * Reset / Forgot Password
+ * My Stuff
+ * Reset Password
+
+Login
+ * Select Year: (2026)
+   * 2027
+
+     ----------------------------------------
+
+   * 2026
+
+     ----------------------------------------
+
+   * 2025
+
+     ----------------------------------------
+
+   * 2024
+
+     ----------------------------------------
+
+   * 2023
+ * Dates
+ * Calls
+   * Call for Papers
+
+     ----------------------------------------
+
+   * Call for Workshops
+
+     ----------------------------------------
+
+   * Call for Tutorials
+
+     ----------------------------------------
+
+   * Call for Art
+
+     ----------------------------------------
+
+   * Call for Demos
+
+     ----------------------------------------
+
+   * Call for Broadening Participation
+
+     ----------------------------------------
+
+   * Call for Doctoral Consortium Participation
+
+     ----------------------------------------
+
+   * Call for Musical Performance
+ * Guides
+   * Liability Waiver
+
+     ----------------------------------------
+
+   * Complete Your OpenReview Profile
+
+     ----------------------------------------
+
+   * Author Guidelines
+
+     ----------------------------------------
+
+   * Reviewer Guidelines
+
+     ----------------------------------------
+
+   * Author Compute Reporting
+     * Author Compute Reporting Form
+
+       ----------------------------------------
+
+     * Author Compute Clarification
+
+     ----------------------------------------
+
+   * SAC Guides
+
+     ----------------------------------------
+
+   * AC Guides
+
+     ----------------------------------------
+
+   * Reviewer Training Material
+
+     ----------------------------------------
+
+   * YouTube Video and Poster Upload
+
+     ----------------------------------------
+
+   * Poster Printing
+ * Attend
+   * Code of Conduct
+
+     ----------------------------------------
+
+   * Register
+
+     ----------------------------------------
+
+   * Book Hotel
+
+     ----------------------------------------
+
+   * Visiting Denver
+ * Expo
+   * Sponsors
+
+     ----------------------------------------
+
+   * Exhibitor Information
+
+     ----------------------------------------
+
+   * Expo Schedule
+
+     ----------------------------------------
+
+   * Exhibitor List and Floorplan
+ * Media
+   * Media Center
+
+     ----------------------------------------
+
+   * Get Media Pass
+
+     ----------------------------------------
+
+   * News and Resources
+
+     ----------------------------------------
+
+   * Media Partners
+ * Organization
+   * Organizing Committee
+
+     ----------------------------------------
+
+   * Program Committee
+ * Conference Site
+
+CVPR 2026 Call for Papers
+
+Papers in the main technical program must describe high-quality, original research. Topics of interest cover all aspects of computer vision and pattern recognition including, but not limited to:
+
+ * 3D from multi-view and sensors                    * Multimodal learning
+ * 3D from single images                             * Optimization methods (other than deep learning)
+ * Adversarial attack and defense                    * Photogrammetry and remote sensing
+ * Autonomous driving                                * Physics-based vision and shape-from-X
+ * Biometrics                                        * Recognition: Categorization, detection, retrieval
+ * Computational imaging                             * Representation learning
+ * Computer vision for social good                   * Computer Vision for Robotics
+ * Computer vision theory                            * Scene analysis and understanding
+ * Datasets and evaluation                           * Segmentation, grouping and shape analysis
+ * Deep learning architectures and techniques        * Self-, semi-, meta- and unsupervised learning
+ * Document analysis and understanding               * Transfer/ low-shot/ continual/ long-tail learning
+ * Efficient and scalable vision                     * Transparency, fairness, accountability, privacy and
+ * Embodied vision: Active agents, simulation          ethics in vision
+ * Event-based cameras                               * Video: Action and event understanding
+ * Explainable computer vision                       * Video: Low-level analysis, motion, and tracking
+ * Humans: Face, body, pose, gesture, movement       * Vision + graphics
+ * Image and video synthesis and generation          * Vision, language, and reasoning
+ * Low-level vision                                  * Vision applications and systems
+ * Machine learning (other than deep learning)
+ * Medical and biological vision, cell microscopy
+
+Important Dates
+
+Abstract Submission Deadline*:      Nov 07, 2025 AOE
+Paper Submission Deadline*:         Nov 13, 2025 AOE
+Supplementary Materials Deadline:   Nov 20, 2025 AOE
+Reviews Released:                   January 22, 2026
+Rebuttal Period:                    January 22-29, 2026
+Final Decisions:                    February 20, 2026
+
+* Date is fixed, no extension will be given
+
+AOE = Anywhere On Earth
+
+Paper Submission
+
+All submissions will be handled electronically via the OpenReview conference submission website https://openreview.net/group?id=thecvf.com/CVPR/2026/Conference. All authors must agree to the policies stipulated below. The submission deadline is November 13, 2025, 11:59pm Anywhere on Earth (UTC-12) and will not be changed. Supplementary materials can be submitted until November 20, 2025, 11:59pm Anywhere on Earth (UTC-12).
+
+An up-to-date OpenReview profile for all co-authors is required to submit a paper. Note that new profiles created without an institutional email will go through a moderation process which can take up to two weeks. New profiles created with an institutional email will be activated automatically.
+
+Submission Requirements and Policies
+
+Dual Submission Policy.  By submitting to CVPR, authors confirm that no substantially similar paper has been or will be submitted to another conference or workshop during the review period (November 13, 2025 – February 20, 2026). For complete dual submission guidelines and prior work policies, see the Author Guidelines on the conference website.
+
+Review Process Agreement.  By submitting a paper, authors agree to participate in the review process and understand that OpenReview will automatically match manuscripts to appropriate reviewers and area chairs based on expertise.
+
+Mandatory Reviewer Service.  All authors commit to serve as reviewers, area chairs, or senior area chairs when invited by the program chairs. Exceptions are granted only for truly exceptional circumstances that must be:
+
+ * Disclosed to the program chairs in advance
+ * Approved by the program chairs as valid reasons for exemption
+
+This policy follows PAMI Technical Committee guidelines and recent conference practices.
+
+IEEE submission policies: https://conferences.ieeeauthorcenter.ieee.org/author-ethics/guidelines-and-policies/submission-policies/
+
+Publication and Patent Disclosure
+
+All accepted papers will be publicly released by the Computer Vision Foundation (CVF) two weeks before the conference. Authors considering patent applications should note that the paper's official public disclosure date is whichever occurs first:
+
+ * Two weeks before the conference, or
+ * When authors make the paper publicly available themselves
+
+More information about CVF: https://www.thecvf.com
+
+Successful Page Load
+
+Contact Us
+
+CVPR Help Desk
+
+Please contact us with questions about the following topics:
+
+Author - Paper Submission, Author - Open Review Issues, Author - Camera-Ready Paper, Registration - General, Registration - Cancellation, Childcare/Guests, Expo/Guests, Lodging, Visa Letter, Reviewer - Open Review Issues, Reviewer - General Issues, Area Chair Issues,
+
+Website and Invitation Letter Help
+
+Use the website help link for issues including login, inactive accounts, invitation letters papers not associated with a registration.
+
+Useful links

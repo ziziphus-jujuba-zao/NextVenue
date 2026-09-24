@@ -1,0 +1,22 @@
+id: cvpr-2027/per-author-cap
+edition: cvpr-2027
+family: cap
+question_zh: 同一位作者能投超过 25 篇吗？
+answer: not_allowed
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: paper_registration
+  note_zh: 按注册的论文数计算
+summary_zh: 2027 作者指南尚未公布，2027 CFP 也没有提上限，以下为 2026 规则：每位作者最多 25 篇，注册超过 25 篇时，超出部分会被 desk reject。
+detail_zh: 2026 原文按“注册”（registers）的篇数计算，所以上限在 11/10 论文注册截止时就已经起作用，而不是等到正文截止。
+quotes:
+  - src: cvpr-2026-author-guidelines
+    text: "Each author is limited to a maximum of 25 paper submissions. If an author registers more than 25 papers, the Program Chairs (PCs) will desk-reject any submissions exceeding this limit."
+checked_sources: [cvpr-2027-cfp, cvpr-2027-author-guidelines]
+effect:
+  kind: cap
+  target: per_author_submissions
+  limit: 25
+last_checked: 2026-09-24

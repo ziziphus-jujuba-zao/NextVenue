@@ -1,0 +1,27 @@
+id: arr-2026-10/contributor-registration-deadline
+edition: arr-2026-10
+family: reciprocal_reviewing
+question_zh: service contributor 的注册表单什么时候截止？
+answer: contradictory
+verification: human
+conf: high
+applies:
+  from: paper
+  until: reviewer_registration
+  note_zh: 注册链接在论文提交后立即出现在 contributor 的 OpenReview console 里
+summary_zh: 官方说法不一致：ARR 的 CFP 和日期页是截止后 48 小时，即 10/14 AoE（北京时间 10/15 19:59）；NAACL 2027 页面写的是 10/12 AoE（北京时间 10/13 19:59），和投稿截止同一天。时间线按最早的 10/12 排；contributor 没按时交注册表单的论文会进抽签。
+detail_zh: ARR 日期页表下说明和 NAACL 页面还写着“所有作者都要注册”，这是 2025 年旧政策的措辞；新 CFP、checklist 和 sustainable reviewing policy 写的是由指定的 service contributor 交注册表单。
+quotes:
+  - src: arr-2026-10-cfp
+    text: "After nomination, they must complete a registration form within 48 hours after the submission deadline. The registration link will be available in their console immediately after paper submission."
+    reading_zh: 按 ARR CFP：投稿截止（10/12 AoE）后 48 小时内，即 10/14 AoE
+  - src: arr-2026-10-dates
+    text: "October 2026 October 12 October 14 November 16 November 24-November 30 December 17 December 20"
+    reading_zh: 按 ARR 日期页：10 月轮“Reviewer registration”一栏是 October 14
+  - src: arr-2026-10-naacl-2027-cfp
+    text: "Reviewer registration deadline for ALL authors October 12, 2026"
+    reading_zh: 按 NAACL 2027 页面：注册截止是 10/12 AoE，与投稿截止同一天，措辞仍是“所有作者”
+  - src: arr-2026-10-sustainable-reviewing
+    text: "The same applies to the cases where the named service contributor fails to submit the registration form 48h after submission deadline at the latest."
+    reading_zh: 按 sustainable reviewing policy：最晚截止后 48 小时，逾期的论文和没有 contributor 的论文一样进抽签
+last_checked: 2026-09-24

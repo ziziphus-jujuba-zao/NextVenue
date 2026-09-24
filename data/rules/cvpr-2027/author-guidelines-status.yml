@@ -1,0 +1,16 @@
+id: cvpr-2027/author-guidelines-status
+edition: cvpr-2027
+family: other
+question_zh: CVPR 2027 作者指南发布了吗？哪些规则还是沿用 2026 的？
+answer: unspecified
+verification: human
+conf: high
+summary_zh: 尚未发布：9/24 检查时 CVPR 2027 作者指南和审稿指南都返回 404，但 CFP 让作者去作者指南看完整的一稿多投规则。本站 CVPR 2027 的作者增删、作者顺序、25 篇上限、profile 截止与处罚、审稿人处罚、一稿多投范围、补充材料限制、提示注入，以及“ICLR 在审论文转投”卡的严格读法，都沿用 2026 规则，指南发布后会逐条重新核对。
+detail_zh: 已由 2027 官方页面确认的规则只有：各截止日期（Dates 页和 CFP）、审稿期一稿多投窗口、所有作者须担任审稿人、所有共同作者须有最新 OpenReview profile、LLM 规则仍在制定，以及 9/15 之后上线的论文一般算同期工作（CFP，本站暂未单独做卡）。
+quotes:
+  - src: cvpr-2027-cfp
+    text: "For complete dual submission guidelines and prior work policies, see the Author Guidelines on the conference website."
+  - src: cvpr-2027-cfp
+    text: 'For the purpose of the reviewing process, papers that appeared online after September 15th, 2026 will generally be considered "contemporaneous" in the sense that the submission will not be rejected on the basis of the comparison to contemporaneous work.'
+checked_sources: [cvpr-2027-author-guidelines, cvpr-2027-reviewer-guidelines, cvpr-2027-cfp, cvpr-2027-dates]
+last_checked: 2026-09-24

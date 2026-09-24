@@ -1,0 +1,22 @@
+id: aaai-27/topics-locked
+edition: aaai-27
+family: content_edit
+question_zh: 摘要截止后还能改 primary topic 和 secondary topics 吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: abstract
+  note_zh: 从 7/21 摘要截止起一直锁到审稿流程结束
+summary_zh: 不能。primary topic 和 secondary topics 在 7/21 AoE（北京时间 7/22 19:59）摘要截止后锁定，直到审稿流程结束都不能改；提名的互审审稿人（reciprocal reviewer）同样锁定。
+quotes:
+  - src: aaai-27-paper-modification
+    text: "After the July 21 abstract deadline and until the end of review process the following items cannot be changed:"
+  - src: aaai-27-paper-modification
+    text: "paper topics (primary and secondaries)"
+  - src: aaai-27-paper-modification
+    text: "nominated reciprocal reviewer"
+effect:
+  kind: lock
+  target: topics
+last_checked: 2026-09-24

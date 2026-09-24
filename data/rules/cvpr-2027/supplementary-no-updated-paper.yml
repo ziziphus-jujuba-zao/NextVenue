@@ -1,0 +1,23 @@
+id: cvpr-2027/supplementary-no-updated-paper
+edition: cvpr-2027
+family: content_edit
+question_zh: 补充材料截止（11/23）前，能在补充材料里放修改后的论文或改进后的结果吗？
+answer: not_allowed
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: paper
+  until: supplementary
+  note_zh: 正文 11/16 截止后到补充材料 11/23 截止之间最容易踩
+summary_zh: 2027 规则尚未公布，以下为 2026 规则：补充材料里不能放更新或修正过的论文 PDF，也不能放用改进后的方法（例如继续调参或训练）得到的结果。补充材料可以放视频、证明、额外图表、更详细的实验分析，或投往其他会议的同期论文。
+detail_zh: 这条禁令出现在 2026 审稿指南里，该页说它出自作者指南，但 2026 作者指南页面上并没有这句话；审稿人发现违规会报告给 AC。补充材料截止为 11/24 北京时间 19:59（11/23 AoE）。
+quotes:
+  - src: cvpr-2026-reviewer-guidelines
+    text: "According to the Author Guidelines, the supplementary material MAY NOT include results obtained with an improved version of the method (e.g., following additional parameter tuning or training), or an updated or corrected version of the submission PDF. If you find that the supplementary material violates these guidelines, please contact the Area Chair."
+  - src: cvpr-2026-author-guidelines
+    text: "Supplementary material may include videos, proofs, additional figures or tables, more detailed analysis of experiments presented in the paper, or a concurrent submission to another conference."
+effect:
+  kind: lock
+  target: paper_content
+last_checked: 2026-09-24

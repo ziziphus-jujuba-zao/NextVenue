@@ -1,0 +1,23 @@
+id: iclr-2027/author-membership-freeze
+edition: iclr-2027
+family: author_list
+question_zh: 摘要截止后还能增加或删除作者吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: abstract
+  note_zh: 摘要截止后任何阶段都不能增删作者
+summary_zh: 不能。作者名单在摘要截止时冻结，增加和删除都不行；官方写明“没有任何例外”，也不要发邮件申请。
+detail_zh: 作者顺序至少可以改到正文截止，讨论期能否再改官方说法矛盾（见“作者顺序”卡）。讨论期 FAQ 同样写明作者集合不能变。合作者缺 OpenReview 账号不能靠删人解决，见“合作者 OpenReview 账号”卡。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Please note that no authors can be added or removed after the abstract submission deadline (author order can be changed after the abstract submission deadline up to the full paper deadline)."
+  - src: iclr-2027-author-guidelines
+    text: "No. You cannot add or remove authors after the abstract submission deadline: we make no exceptions whatsoever, so please don't send an email"
+  - src: iclr-2027-author-guidelines
+    text: "The set of authors cannot be changed, but the order can be changed."
+effect:
+  kind: lock
+  target: author_membership
+last_checked: 2026-09-24

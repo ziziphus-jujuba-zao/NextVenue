@@ -1,0 +1,24 @@
+id: iclr-2027/edit-freeze-until-reviews
+edition: iclr-2027
+family: content_edit
+question_zh: 正文截止后到审稿发布前，还能改论文 PDF 或补充材料吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: paper
+  until: reviews_out
+  note_zh: 9/25 AoE 正文截止后到 11/5 审稿发布
+summary_zh: 不能。正文截止 9/25 AoE（北京时间 9/26 19:59）后到 11/5 审稿发布前，论文和补充材料都不能做任何修改，改错字、传错版本也不行；补充材料和正文同一个截止时间。
+detail_zh: 官方写明不做个别修改，也请不要为此发邮件。11/5–11/18 讨论期可以重新上传修订版（见“讨论期修订”卡）。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Submissions can be edited on OpenReview until the submission deadline, following which edits are not allowed till the release of the reviews."
+  - src: iclr-2027-author-guidelines
+    text: "No. Unfortunately, no edits to the paper can be made after the submission deadline, no matter how small."
+  - src: iclr-2027-author-guidelines
+    text: "The deadline is the same for the full paper and for the supplementary materials."
+effect:
+  kind: lock
+  target: submission_content
+last_checked: 2026-09-24

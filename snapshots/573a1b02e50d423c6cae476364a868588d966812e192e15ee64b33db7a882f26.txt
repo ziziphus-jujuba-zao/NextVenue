@@ -1,0 +1,117 @@
+Skip to content
+
+Menu
+
+Search
+ * 2026 Conference
+
+Close Menu
+September 2 2026
+
+Submission policies for ICLR 2027
+
+ICLR 2027 Program Chairs ICLR 2027
+
+ICLR Program Chairs: Jacob Andreas, Guy Van den Broeck, Andrej Risteski, Stella Yu
+
+One of the big changes we’ve made at ICLR this year is a set of policies that effectively “rate-limit” submissions—a 20-paper limit for all authors, and a 1-paper limit for submissions by “new authors” (defined as people who have never published at a major AI / ML / CV / robotics / NLP conference). We know that community members have strong feelings (both positive and negative!) about this new policy, so we wanted to share a little bit about the thinking that went into it.
+
+What are we trying to accomplish?
+
+To start with the most basic question: why does ICLR put papers through peer review at all? Why subject papers to expert judgment in the first place, rather than letting anyone who wants to present set up a poster?
+
+ * The most important function of reviewing is to help the research community separate signal from noise. The volume of machine learning research taking place is far too much for any individual to review—we need some procedure for identifying which findings should rise to the level of broad attention.
+
+ * An additional important function is to improve the quality of work. We want to create positive incentives for people to make their findings as robust & comprehensive as possible before they’re presented to others to read. If the resulting work still has shortcomings, the review process provides a mechanism for communicating and addressing them.
+
+ * As AI is increasingly a subject of public and media attention, peer review also serves to communicate credibility to non-experts, who may not be able to assess the technical merit of the research itself but must still make policy, business, and even personal decisions affected by research findings.
+
+ * Finally, peer review has an important role in helping institutions decide how to allocate resources (jobs, tenure, grant money, compute, etc.). The true impact of a given piece of research is often visible only with years of hindsight, but the stamp of publication still provides an intermediate quality signal that is useful for many of these institutional processes.
+
+Notably, when we review a paper we’re really judging it on two orthogonal axes: correctness (are the paper’s main claims accompanied by convincing evidence?) and significance (is the paper’s finding new, unexpected, and important?). The first criterion is mostly objective (but in practice can require a huge amount of work to verify); the second is entirely subjective, and research communities are defined by their collective taste in problems and solutions. Current peer review mechanisms have evolved over centuries to better provide both, and ICLR itself has a long track record of innovative reviewing practices—including public discussion, the ability to update manuscripts during the review phase, and the fact that even rejected papers become public (and de-anonymized) at the end of the review process.
+
+Reviewing in the AI era
+
+Why make changes now? The fundamental challenge with expert review is that it requires a lot of experts. Researchers at the very beginning of their careers (who we want to train and welcome into the field) may lack the expertise to identify common mistakes in experimental design, or evaluate the significance and novelty of a paper’s findings. A stable field, in which the overall number of researchers is roughly constant, should expect to reach some equilibrium state where there are enough qualified reviewers for every paper. But in a very rapidly growing field (with many more newcomers than experts) there may simply not be enough eyes to look at all the work that people want to publish.
+
+Sure enough, machine learning research is growing:
+
+[Figure from Kim, Lee and Lee, ICML 2025]
+
+Much of this growth predates the existence of AI tools capable enough to play a substantive role in the research process. But now the barrier to entry for generating something that looks like a research publication has become much lower—modern AI systems can generate paper-shaped objects even for users who are unfamiliar with the related work and writing conventions for a given area, and who are unable to understand or verify any of a paper’s main claims. Even when they’re correct, current AI systems seem to have poor taste in research questions (see the COLM chairs’ post on “theoryslop” and “slopterpretability”). As academic and industry jobs become more competitive, not only newcomers but many established researchers feel pressure to use these tools to generate a much higher volume of publications than we can possibly review. (A closely related challenge is reviewers delegating their responsibilities to AI—we’ll have another blog post on this soon!)
+
+Our approach
+
+We seek to trade off the following objectives: (1) providing opportunities for “newcomers” (whether new in their research careers overall, or new to the field of ML), (2) incentivize high-quality work, and (3) focusing precious reviewer attention on work that is likely to make an impact.
+
+This year our strategy for doing so involves three pieces:
+
+The deanonymization policy
+
+Since the beginning of ICLR’s “open review” experiment, it has always been the case that all papers become de-anonymized at the end of the review process.
+
+While this is not a new policy, we think it’s especially valuable in the AI era—if authors are going to ask someone to put time into reviewing their paper, they should be willing to publicly associate themselves with that paper regardless of the outcome of the review process. The current mechanism allows authors to do so while still offering double-blind reviewing.
+
+The one-limit paper for new authors
+
+ICLR 2027 authors are permitted at most one publication in which no author is a qualified reciprocal reviewer.
+
+Venues across the ML world have observed that much of the rapid rise in paper submission, especially in the last year, comes from papers on which no author is qualified to review. Most conferences haven’t published data about this, but at ICLR 2026 about 20% of submissions had no reciprocal reviewer (computed by comparing the author lists to the final PC list). Within this set of “no-reviewer” submissions, about 15% are sole-author papers, and about 40% have authors who submitted multiple “no-reviewer” papers. Based on communication with other venues we expect these numbers to be much higher for ICLR 2027.
+
+Last year, a quarter of “no-reviewer” submissions were desk-rejected. Even among those papers that went to full review, they were accepted at about half the rate of submissions with authors on the program committee. Thus papers in this group are much less likely to be accepted than the average ICLR submission (and many of them clearly do involve low-quality / AI-generated content). A the same time, many were excellent papers and accepted to the conference!
+
+In applying a rate limit to submissions from this group, our goal is not to gate-keep based on academic qualifications—we want to make sure that all papers have a chance at fair reviewing, and expect that this policy will help all authors (including first-time submitters).
+
+The 20-paper limit for all authors
+
+No ICLR 2026 author may appear on more than 20 submissions.
+
+The main purpose of this mechanism is to avoid (1) excessive spamming of the conference with slop papers, and (2) people using co-authorship to circumvent the new submitter policy at a very large scale (more on this below).
+
+We especially want to clarify that “20 papers” does not represent a reasonable number of submissions! We personally find it difficult to imagine how one author could contribute meaningfully to 20 papers, and think this number could have defensibly been chosen to be much smaller. But we are sensitive to the fact that many submitters belong to large research groups, and don’t always have control over which papers their PI expects to be a co-author on; we felt that it would potentially put junior submitters at risk to impose more aggressive constraints on short notice.
+
+We note also that fewer than 0.2% of authors submitted more than 20 papers last year. Many of these authors had acceptance rates substantially below the conference as a whole, and no author had more than 20 papers accepted. So we hope that this policy incentivizes even prolific labs to send their most complete work to ICLR.
+
+Tradeoffs
+
+It is important to acknowledge that these mechanisms aren’t Pareto improvements over the old reviewing system, and we know there will be individual submitters who may be more constrained than last year (e.g. established interdisciplinary researchers that have published outside the reciprocal reviewing list, junior researchers with a backlog of high-quality papers that are being resubmitted due to low-quality reviews in previous cycles).
+
+We also acknowledge that it creates an incentive for qualified reciprocal reviewers to peddle “gift authorships” on work they didn’t contribute to. We are actively monitoring for evidence of such arrangements, and if you learn of one we encourage you to send an email to program-chairs@iclr.cc. We trust that if you are a senior researcher who is approached with such a request, you will not agree to it.
+
+Our current belief is that all these costs are outweighed by the burden that will be imposed on the vast majority of submitters under the status quo, and that these measures the quality of the program and the review experience for both new and established authors.
+
+What’s next
+
+We view these changes as part of a long history of experimental reviewing practices at ICLR. We are also glad to see other venues trying different experimental policies—e.g. AAAI’s 2-stage process and the numerous new mechanisms being pursued by TMLR. We plan to share data about the outcomes of these experiments with other conferences (and since ICLR review data is all public, encourage you to perform your own analyses and do the same!). We expect that policies will continue to change for future iterations of the conference.
+
+Even in the era of AI-assisted research, we believe that research ultimately serves human understanding, and that we will never give up our role in deciding whether a given result is understandable and important. This is going to be a community effort, and as always we value your feedback.
+
+Announcing the ICLR 2026 Outstanding Papers Making Google’s Paper Assistant Tool (PAT) available to ICLR submitters
+
+Related Posts
+
+ICLR 2027
+
+Making Google’s Paper Assistant Tool (PAT) available to ICLR submitters
+
+Recent Posts
+
+ * Making Google’s Paper Assistant Tool (PAT) available to ICLR submitters September 10, 2026
+ * Submission policies for ICLR 2027 September 2, 2026
+ * Announcing the ICLR 2026 Outstanding Papers April 23, 2026
+ * Announcing the Test of Time Awards from ICLR 2016 April 22, 2026
+ * Announcing the ICLR 2026 keynotes April 17, 2026
+ * A Retrospective on the ICLR 2026 Review Process March 31, 2026
+ * Workshops at ICLR 2026 January 13, 2026
+ * ICLR’s Commitment to OpenReview December 17, 2025
+ * ICLR 2026 Response to Security Incident December 3, 2025
+ * ICLR 2026 Response to LLM-Generated Papers and Reviews November 19, 2025
+ * Policies on Large Language Model Usage at ICLR 2026 August 26, 2025
+ * ICLR 2025 Mentoring Chats April 23, 2025
+
+Recent Comments
+
+Back To Top
+ICLR Blog
+© ICLR Blog 2026
+Powered by WordPress • Themify WordPress Themes

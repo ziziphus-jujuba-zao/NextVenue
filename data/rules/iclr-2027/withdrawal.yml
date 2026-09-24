@@ -1,0 +1,28 @@
+id: iclr-2027/withdrawal
+edition: iclr-2027
+family: withdrawal
+question_zh: 撤稿在正文截止前后有什么区别？撤了会公开吗？
+answer: conditional
+verification: human
+conf: high
+applies:
+  until: notification
+  note_zh: 以 9/25 AoE 正文截止为界；12/16 出结果前都可以撤
+summary_zh: 12/16 出结果前随时可以撤稿。9/25 AoE（北京时间 9/26 19:59）正文截止前撤稿，论文会从 OpenReview 删除；截止后撤稿，论文会公开留在 “withdrawn papers” 区，并立即去匿名、显示作者。
+detail_zh: 撤稿（withdraw）只是退出评审，论文不会消失：投稿表单要求作者确认，审稿开始后论文不能删除、隐藏或收回（retract）。撤稿政策一节称投稿 “considered archival for scientific purposes”、不能删除；出结果一节又说未录用论文 “considered non-archival”、可以改投别处（见“公开与去匿名”卡），两处“存档”的含义官方没有解释。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "Authors have the right to withdraw papers from consideration at any time until an accept or reject decision has been announced."
+  - src: iclr-2027-author-guidelines
+    text: "Before the paper submission deadline, if an author withdraws the paper it will be deleted from the OpenReview hosting site."
+  - src: iclr-2027-author-guidelines
+    text: 'However, note that after the paper submission deadline, if an author chooses to withdraw a submission, it will remain hosted by OpenReview in a publicly visible "withdrawn papers" section.'
+  - src: iclr-2027-author-guidelines
+    text: "Withdrawn papers will be de-anonymized immediately. Papers submitted are considered archival for scientific purposes, and cannot be deleted."
+  - src: iclr-2027-openreview-submission-form
+    text: "We acknowledge that papers cannot be deleted, hidden, or retracted once reviewing begins."
+effect:
+  kind: withdraw
+  before_paper_deadline: deleted
+  after_paper_deadline: public_deanonymized_immediately
+last_checked: 2026-09-24

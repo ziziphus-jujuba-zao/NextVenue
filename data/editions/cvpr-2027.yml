@@ -1,0 +1,70 @@
+id: cvpr-2027
+series: cvpr
+name: CVPR 2027
+year: 2027
+kind: conference
+location:
+  city: Seattle
+  country: USA
+dates:
+  start: 2027-06-20
+  end: 2027-06-25
+ranks:
+  ccf: A
+milestones:
+  - type: paper_registration
+    at: 2026-11-10T23:59
+    tz: AoE
+    status: confirmed
+    src: cvpr-2027-dates
+    quote: "Paper Registration Deadline Nov 10 '26 (Anywhere on Earth)"
+    note_zh: 北京时间 11/11 19:59。CFP 注明该日期固定、不延期。2026 届叫 Abstract Submission Deadline；按 2026 规则作者名单在此冻结，2027 作者指南尚未公布（见“作者增删”卡）。
+  - type: profile_deadline
+    tz: AoE
+    status: tba
+    src: cvpr-2027-cfp
+    note_zh: 2027 Dates 页和 CFP 都没有列出 OpenReview profile 截止日。2026 作者指南前后不一：一处要求在摘要（论文注册）截止前完成，另一处写 profile 截止为 Nov 16 2025（晚于当年正文截止），见“OpenReview profile”卡。
+  - type: paper
+    at: 2026-11-16T23:59
+    tz: AoE
+    status: confirmed
+    src: cvpr-2027-dates
+    quote: "Submission Deadline Nov 16 '26 (Anywhere on Earth)"
+    note_zh: 北京时间 11/17 19:59。CFP 注明该日期固定、不延期；也是 2027 一稿多投审稿期的起点。
+  - type: supplementary
+    at: 2026-11-23T23:59
+    tz: AoE
+    status: confirmed
+    src: cvpr-2027-dates
+    quote: "Supplementary Materials Deadline Nov 23 '26 (Anywhere on Earth)"
+    note_zh: 北京时间 11/24 19:59。
+  - type: reviews_out
+    at: 2027-01-25
+    tz: AoE
+    status: confirmed
+    src: cvpr-2027-dates
+    quote: "Reviews Released Jan 25 '27 (Anywhere on Earth)"
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2027-01-25
+    end: 2027-02-01T23:59
+    tz: AoE
+    status: confirmed
+    src: cvpr-2027-cfp
+    quote: "Rebuttal Period: January 25 - February 1, 2027 AOE"
+    note_zh: 只有 CFP 写了 rebuttal 期，Dates 页没有列出。截止为北京时间 2/2 19:59。
+  - type: notification
+    at: 2027-02-25
+    tz: AoE
+    status: confirmed
+    src: cvpr-2027-dates
+    quote: "Final Decisions Feb 25 '27 (Anywhere on Earth)"
+  - type: conference
+    start: 2027-06-20
+    end: 2027-06-25
+    tz: America/Los_Angeles
+    status: confirmed
+    src: cvpr-2027-home
+    quote: "June 20–25, 2027"
+    note_zh: 官网首页写会期 6/20–25、地点西雅图；Dates 页细分为 6/20–21 workshop 和 tutorial、6/22–25 主会。
+last_checked: 2026-09-24

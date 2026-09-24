@@ -1,0 +1,23 @@
+id: iclr-2027/reviewer-llm-policy
+edition: iclr-2027
+family: llm_policy
+question_zh: 作者兼审稿人写审稿时用 LLM 出了问题，会连累自己的论文吗？
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: reviewing
+  until: meta_reviews
+  note_zh: 适用于同时担任审稿人（或 AC）的作者
+summary_zh: 可能会。审稿允许有限度地用 AI 辅助但必须披露；审稿中出现 LLM 编造、失实或质量低的内容，按未履行互审义务处理，后果可能包括 desk reject 该审稿人署名的全部论文。
+detail_zh: 用 LLM 生成或修改审稿任何部分时，须在附带文本框里提交自己原始的评审意见和全部 LLM 交互记录，这份初稿不会给作者看。另一种后果是限制今后向会议投稿。
+quotes:
+  - src: iclr-2027-ai-policy-reviewers
+    text: "We permit limited and responsible use of AI tools to assist human writing of peer reviews and meta-reviews."
+  - src: iclr-2027-ai-policy-reviewers
+    text: "Any LLM-generated falsehoods, hallucinations, or misrepresentations in reviews, or reviews that are otherwise low quality, are subject to disciplinary action as a failure to fulfill the reciprocal reviewing requirement."
+  - src: iclr-2027-ai-policy-reviewers
+    text: "Consequences may include desk-rejecting all papers authored by the (meta) reviewer or restrictions on submission to future conferences."
+  - src: iclr-2027-ai-policy-reviewers
+    text: "If you use LLMs to generate or edit any portion of your (meta) reviews, you will be required to report your original, self-written paper assessment, and any LM interactions, in an accompanying textbox."
+last_checked: 2026-09-24

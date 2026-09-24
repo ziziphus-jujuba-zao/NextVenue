@@ -1,0 +1,204 @@
+Skip to yearly menu bar Skip to main content
+
+Main Navigation
+
+ * ICLR
+   * Help/FAQ
+
+     ----------------------------------------
+
+   * Contact ICLR
+
+     ----------------------------------------
+
+   * Create Profile
+
+     ----------------------------------------
+
+   * Code of Conduct
+
+     ----------------------------------------
+
+   * Journal To Conference Track
+
+     ----------------------------------------
+
+   * Diversity & Inclusion
+
+     ----------------------------------------
+
+   * Proceedings at OpenReview
+
+     ----------------------------------------
+
+   * Future Meetings
+
+     ----------------------------------------
+
+   * Press
+
+     ----------------------------------------
+
+   * Exhibitor Information
+
+     ----------------------------------------
+
+   * ICLR Blog
+
+     ----------------------------------------
+
+   * ICLR Twitter
+
+     ----------------------------------------
+
+   * About ICLR
+
+     ----------------------------------------
+
+   * Downloads
+
+     ----------------------------------------
+
+   * Privacy Policy
+
+     ----------------------------------------
+
+   * Reset Password
+ * My Stuff
+
+Login
+ * Select Year: (2027)
+   * 2027
+
+     ----------------------------------------
+
+   * 2026
+
+     ----------------------------------------
+
+   * 2025
+
+     ----------------------------------------
+
+   * 2024
+
+     ----------------------------------------
+
+   * 2023
+
+     ----------------------------------------
+
+   * 2022
+
+     ----------------------------------------
+
+   * 2021
+
+     ----------------------------------------
+
+   * 2020
+
+     ----------------------------------------
+
+   * 2019
+
+     ----------------------------------------
+
+   * 2018
+
+     ----------------------------------------
+
+   * 2017
+
+     ----------------------------------------
+
+   * 2016
+
+     ----------------------------------------
+
+   * 2015
+
+     ----------------------------------------
+
+   * 2014
+
+     ----------------------------------------
+
+   * 2013
+ * Dates
+ * Calls
+   * Call for Papers
+
+     ----------------------------------------
+
+   * Call for Workshops
+   *     Workshop Proposal Guide
+
+     ----------------------------------------
+
+   * Call For Blog Posts
+ * Guides
+   * Author Guide
+
+     ----------------------------------------
+
+   * Area Chair Guide
+
+     ----------------------------------------
+
+   * Senior Area Chair Guide
+
+     ----------------------------------------
+
+   * Reviewer Guide
+
+     ----------------------------------------
+
+   * AI Policy for Reviewers
+
+     ----------------------------------------
+
+   * AI Policy for Authors
+ * Organization
+   * Board
+
+Policy on LLM use for writing reviews or meta reviews
+
+We permit limited and responsible use of AI tools to assist human writing of peer reviews and meta-reviews.
+
+However, it is mandatory to disclose use of AI tools. The reviewing form would solicit this information. If you use LLMs to generate or edit any portion of your (meta) reviews, you will be required to report your original, self-written paper assessment, and any LM interactions, in an accompanying textbox. (In doing so, consider skipping the LLM and submitting your original text directly! We, and the authors, are much more interested in your unedited thoughts than what an LLM has to say.)
+
+Any LLM-generated falsehoods, hallucinations, or misrepresentations in reviews, or reviews that are otherwise low quality, are subject to disciplinary action as a failure to fulfill the reciprocal reviewing requirement. Any use of AI tools to populate the initial self-report, or substantial mismatches between the content of the original self-report and final reviews, will also be considered misrepresentations. We reserve the right to use both AI detection tools and original self-reports to identify errors resulting from inappropriate LM usage. Consequences may include desk-rejecting all papers authored by the (meta) reviewer or restrictions on submission to future conferences.
+
+FAQs:
+
+Q: Will my initial unpolished reviews be shown to the authors?
+
+No. It may be used by the senior area chairs and program chairs to ensure the quality and integrity of the reviewing process.
+
+Q: What if I polish my reviews iteratively using a multi-turn conversation?
+
+We request reviewers to share their input to the LLM across all turns.
+
+Successful Page Load
+
+ICLR uses cookies for essential functions only. We do not   Accept
+sell your personal information. Our Privacy Policy »
+
+The ICLR Logo above may be used on presentations. Right-click and choose download. It is a vector graphic and may be used at any scale.
+
+Useful links
+
+ * About ICLR
+ * Sponsor / Exhibitor Information
+ * Press
+
+Contact
+
+2710 E Corridor Dr, Appleton WI 54913
+
+Email
+
+Phone: +1-920-268-4789
+
+ICLR Proceedings at OpenReview

@@ -1,0 +1,30 @@
+id: iclr-2027/reviewer-duty-3-papers
+edition: iclr-2027
+family: reciprocal_reviewing
+question_zh: 挂名 3 篇及以上的作者必须审稿吗？
+answer: required
+verification: human
+conf: high
+applies:
+  from: reviewing
+  until: discussion
+  note_zh: 审稿期 10/1–10/21（Reviewer Guide，可能微调）；须在 rebuttal 阶段前交出完整、高质量的审稿
+summary_zh: 必须。挂名 3 篇及以上的作者至少要审 6 篇论文（担任 ICLR 2027 AC、SAC 或其他组委会主席的除外）；到 rebuttal 阶段仍没交出完整、高质量审稿的，本人的投稿可能被 desk reject。
+detail_zh: Reviewer Guide 列出的写审稿时间是 10/1–10/21，并注明可能微调。作者兼审稿人（及其合作者）要交齐所有分配的审稿，才能在 rebuttal 期看到自己论文的审稿意见；迟交的在交齐前一直看不到，官方括注“up to two days before the end of the authors rebuttal period”，没有进一步解释。这条适用于所有作者兼审稿人，不只挂名 3 篇以上的作者。低质量审稿经 AC 警告后仍不修改的，本人论文可能被 desk reject。审稿中用 LLM 的规则见“审稿 LLM 政策”卡。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "All authors who are on 3 or more papers must serve as a reviewer for at least 6 papers. Authors in this category that fail to produce complete, high-quality reviews by the rebuttal stage may have their paper submissions desk rejected."
+  - src: iclr-2027-author-guidelines
+    text: "Authors are exempt from the reviewing requirement if they are serving as an AC, SAC, or another organizing chair for ICLR 2027."
+  - src: iclr-2027-reviewer-guide
+    text: "Reviewers who are also authors (and their co‑authors) will not see the reviews of their own submission(s) during the rebuttal period until they have completed all of their assigned reviews."
+  - src: iclr-2027-reviewer-guide
+    text: "If reviews are late, the reviewers (and their co-authors) will lose access to the reviews of their own papers until completion of their professional reviews (up to two days before the end of the authors rebuttal period)."
+  - src: iclr-2027-reviewer-guide
+    text: "Reviewers who do not respond to these warnings will be liable to having their own papers desk rejected."
+effect:
+  kind: requires
+  target: reviews_by_prolific_author
+  min_papers: 3
+  reviews: 6
+last_checked: 2026-09-24

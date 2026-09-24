@@ -1,0 +1,38 @@
+id: aaai-27/title-abstract-edit-window
+edition: aaai-27
+family: content_edit
+question_zh: 摘要截止后还能改标题和摘要吗？能改到什么程度？
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: paper
+  until: notification
+  note_zh: 7/21 到 7/28 之间可编辑标题、TL;DR 和摘要，但不能实质改动；7/28 起到出结果前不能再改（7/28 到 7/31 只能改补充材料）
+summary_zh: 7/21 摘要截止到 7/28 AoE（北京时间 7/29 19:59）之间可以编辑标题、TL;DR 和摘要，但不能实质改动；如果 PC 认定改动后描述的是性质不同的研究，论文会不经审稿直接被拒。
+detail_zh: 7/28 之后到 7/31 只能改补充材料，7/31 之后到出结果前什么都不能改。录用后可在 camera-ready 提交网站申请改标题（见“camera-ready 作者”卡）。摘要注册时应填写完整标题和完整摘要；用占位标题或摘要（或留空）的投稿会被删除，作者也不能再提交正文。
+quotes:
+  - src: aaai-27-paper-modification
+    text: "After the July 21 abstract deadline and until the July 28 paper submission deadline, the following items can be changed"
+  - src: aaai-27-paper-modification
+    text: "and the following items can be edited, but should not be substantively changed:"
+  - src: aaai-27-paper-modification
+    text: "title of the paper"
+  - src: aaai-27-paper-modification
+    text: "abstract of the paper"
+  - src: aaai-27-paper-modification
+    text: "If the Program Chairs determine that an abstract or title has been changed to the extent that it describes research that is qualitatively different, the paper will be rejected without review."
+  - src: aaai-27-submission-instructions
+    text: "The Program Chairs also reserve the right to reject papers without review if they change their abstracts substantially between the abstract and final deadlines."
+  - src: aaai-27-paper-modification
+    text: "After the July 28 paper submission deadline, and until the July 31 supplementary material deadline, the following items can be changed:"
+  - src: aaai-27-paper-modification
+    text: "supplementary materials"
+  - src: aaai-27-paper-modification
+    text: "After the July 31 deadline and before notification NOTHING can be changed."
+  - src: aaai-27-paper-modification
+    text: "Submissions that have “placeholder” titles (e.g., test or xyz) or abstracts (or none at all) will be deleted. Authors of such vacuous submissions will be notified that their abstract has been deleted and will not be allowed to submit a full paper."
+effect:
+  kind: lock
+  target: title_abstract
+last_checked: 2026-09-24

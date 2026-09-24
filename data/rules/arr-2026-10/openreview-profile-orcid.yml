@@ -1,0 +1,31 @@
+id: arr-2026-10/openreview-profile-orcid
+edition: arr-2026-10
+family: profile
+question_zh: 所有作者都必须有完整的 OpenReview profile 和 ORCID 吗？什么时候前完成？
+answer: required
+verification: human
+conf: high
+applies:
+  until: profile_deadline
+  note_zh: 官方写“投稿截止后 1 周内”；service contributor 的 profile 也要完整
+summary_zh: 必须。10 月轮起每位作者都要有完整的 OpenReview profile（含 ORCID、任职经历、邮箱、利益冲突，有论文的还要 DBLP/ACL Anthology 链接），只用邮箱登记合作者已经不够；最晚在投稿截止后 1 周完成（按 10/12 AoE 推算为 10/19 AoE，北京时间 10/20 19:59），违反会被 desk reject。
+detail_zh: profile 不依赖投稿表单，现在就可以注册和更新；ARR 建议尽早让所有合作者建好账号，sustainable reviewing 页还写了只用邮箱登记“将不再可能”，所以最好在 10/12 投稿前就让每位合作者建好 profile。已经送审的论文，之后发现有作者没完成 profile，也可能在任何阶段被 desk reject。
+changed_from_prev_zh: 新规。以前可以只用邮箱添加部分合作者。
+quotes:
+  - src: arr-2026-10-cfp
+    text: "Starting in October 2026, all authors must have complete OpenReview profiles (adding co-authors only by email is no longer sufficient). The profiles must include ORCIDs, affiliation history, emails, any conflicts of interest, and (for those with prior publications) - also DBLP/Anthology links."
+  - src: arr-2026-10-cfp
+    text: "The profile registration for all authors must be finished 1 week after submission deadline at the latest."
+  - src: arr-2026-10-cfp
+    text: "All authors and service contributors MUST have OpenReview profiles with accurate affiliation history, career status, emails, ORCID and, where applicatble, DBLP and ACL Anthology links. Violations will lead to desk rejection."
+  - src: arr-2026-10-sustainable-reviewing
+    text: "It was previously possible for some co-authors to only be registered by email, but this will no longer be possible."
+  - src: arr-2026-10-sustainable-reviewing
+    text: "The OpenReview profiles can be registered and updated before the official submission form opens."
+  - src: arr-2026-10-cfp
+    text: "Note that the submission that contributed to the reviewing pool and was assigned for reviewing may still be desk rejected at any point in the process for formatting, authors failing to complete their OpenReview profiles, or any other violation."
+effect:
+  kind: requires
+  target: openreview_profile
+  due: profile_deadline
+last_checked: 2026-09-24

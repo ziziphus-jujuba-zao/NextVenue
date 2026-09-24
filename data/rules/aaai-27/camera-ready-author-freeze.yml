@@ -1,0 +1,22 @@
+id: aaai-27/camera-ready-author-freeze
+edition: aaai-27
+family: author_list
+question_zh: 录用后准备 camera-ready 时，能增加或删除作者吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: notification
+  until: camera_ready
+  note_zh: camera-ready 提交期间（截止 12/14）；截止后只有出版方要求时才会改动
+summary_zh: 不能。camera-ready 阶段（截止 12/14 AoE，北京时间 12/15 19:59）在任何情况下都不能增删作者；标题可以通过 camera-ready 提交网站申请修改。
+detail_zh: 页面只写了不能增删作者，没有提到 camera-ready 阶段能否调整作者顺序。camera-ready 截止之后，只有出版方要求时才会改动。
+quotes:
+  - src: aaai-27-paper-modification
+    text: "During camera-ready submission (deadline December 14), authors may request to modify their paper title through the camera-ready submission site. Note that authors cannot be added or deleted under any circumstances."
+  - src: aaai-27-paper-modification
+    text: "After the camera-ready deadline changes can only be made at the request of the publisher."
+effect:
+  kind: lock
+  target: author_membership
+last_checked: 2026-09-24

@@ -1,0 +1,111 @@
+Skip to content
+ACL Rolling Review A reviewing service of the ACL community Menu
+Call for papers Dates Guidelines
+Authors Common submission problems Reviewers Area Chairs Senior Area Chairs Conference/Workshop Organizers Track selection Responsible NLP ARR service qualifications
+Blogs ARR Team Reports
+Statistics Changelog Future plans
+Search OpenReview ↗
+
+ACL Rolling Review
+
+ARR service qualifications
+
+The most recent service qualifications at ARR are based on the sustainable reviewing policy, and supercede the earlier qualifications criteria.
+
+Work in progress!
+
+⚠️ This policy is new, and ARR is still working out the implementation details. We also receive a lot of questions. We will be posting any relevant clarifications and FAQ here and in the sustainable reviewing policy page (https://aclrollingreview.org/sustainable-reviewing-2026).
+
+Reviewer qualifications
+
+The updated reviewer qualifications are as follows:
+
+ * Those who have obtained their PhDs and/or have senior academic positions (postdoc/faculty), automatically qualify if they have at least 2 publications in major CL venues, Findings of the ACL, or other major relevant venues (see below).
+ * Doctoral students (but not bachelor and master students), as well as industry researchers with at least a Masters degree, automatically qualify if they have at least 2 publications (not necessarily first-author) in major CL events, Findings or major related venues, and a total of >= 3 publications in total.
+ * Those who do not automatically qualify by these criteria can serve as secondary reviewers, mentored by a qualified primary reviewer, but cannot be designated service contributors by themselves.
+
+Venues considered ‘major CL’ are: ACL, CL, COLING, CoNLL, EACL, EMNLP, HLT, IJCNLP / AACL, LREC, NAACL, TACL, *SEM.
+
+For some of ARR tracks, other major relevant venues we recognize include:
+
+ * Computational Social Science and Cultural Analytics: ICWSM
+ * Discourse and Pragmatics: Journal of Pragmatics
+ * Ethics, Bias, and Fairness: FAccT, AEIS
+ * Human-computer Interaction: CHI
+ * Information Retrieval: ECIR, SIGIR
+ * Linguistic Theories, Cognitive Modeling, and Psycholinguistics: Cognition, Journal of Memory and Language, Journal of Child Language, Language Learning, Cognitive Science, Language Acquisition
+ * Machine learning: AAAI, COLM, CVPR, ECCV, ICCV, ICLR, ICML, IJCAI, JAIR, JMLR, NeurIPS, TMLR, TPAMI, WWW
+ * Multilingualism and Cross-Lingual NLP: Linguistic Typology, International Journal of Multilingualism
+ * NLP and Code Models: ICSE, FSE, ASE
+ * Phonology, Morphology, and Word Segmentation: Journal of Phonetics, the Journal of the International Phonetic Association
+ * Semantics: Lexical and Sentence-Level: Linguistics & Philosophy, Journal of Semantics
+ * Speech Recognition, Text-to-Speech and Spoken Language Understanding: Interspeech, ICASSP
+ * Syntax: Tagging, Chunking and Parsing: Linguistic Inquiry, Natural Language & Linguistic Theory
+
+General linguistics venues relevant to multiple ARR tracks: SCiL, Language, Glossa, Applied Linguistics, Constructions and Frames, Journal of Logic, Language and Information, Journal of Linguistics
+
+ARR is working on a way to ensure that the reviewers with expertise relevant to specific tracks would be assigned within those tracks.
+
+What about <another venue>?
+
+Venues considered major may be expanded over time and additional qualification criteria may be added over time as appropriate. The following conditions should be satisfied:
+
+ * the venue should be highly selective and ‘major’ in a given research area
+ * the focus of the venue clearly aligns with an existing ARR track: simply having publications that use NLP/ML methodology is not sufficient
+ * the publications should be indexed in DBLP
+
+If you believe we are missing important venues relevant to ARR tracks, please apply through this form.
+
+ARR will consider the recommendations, and update this page with any further venues that were selected for addition. This process should be expected to take several weeks.
+
+Venues we considered and did not accept: Applied Intelligence (Springer), IEEE International Conference on Image Processing, Knowledge-Based Systems (Elsevier), ACM SIGMOD, IEEE ICDE, EDBT
+
+AC qualifications
+
+The ARR area chairs must qualify as reviewers, and additionally:
+
+ * Either a completed PhD, or a main conference *CL publication from more than 5 years ago
+ * 2 papers in major CL venues or Findings
+ * 4 additional papers in either major CL events or major relevant venues
+ * Extensive reviewing experience
+
+How to check if I am qualified?
+
+The ARR submission form opens two weeks in advance (available from September 28 for October’26 review cycle). ARR team is currently working on an automated tool to check reviewer qualifications and streamline applications for manual verification. This tool will be announced separately as soon as possible, and linked from the submission form.
+
+How to apply for manual verification?
+
+⚠️ The manual verification process focuses on reviewing experience, and does NOT consider publications. If you believe that you should qualify because of publications in unlisted venues, please apply for including that venue as described above.
+
+Those who do not formally qualify under the above publication criteria, but satisfy the degree requirements and have substantially equivalent experience, may apply with documentation of their expertise and review experience for case-by-case consideration (e.g. with records from other venues where they served). In particular, those who have been sufficiently mentored as secondary reviewers in ARR cycles may be accepted as reviewers, even if they do not meet the strict publication thresholds, on a case-by-case basis.
+
+The current criteria for manual verification are based on documentation of at least 10 high quality reviews, from ARR or the “major venues” on ARR’s current list. The number of publications a candidate has, and whether or not they’ve already worked for ARR are irrelevant (other than that they may provide evidence for the required number of reviews). The candidates who do not have a Masters degree (including those in Masters+PhD programs), as well as those who served as secondary reviewers at ARR, need to enclose a recommendation letter from the supervisor who mentored them in reviewing.
+
+You can apply for manual verification through this form. Since this process is manual, ARR does not guarantee that all applications will be processed quickly, especially if there is a big surge in applications close to the submission deadline.
+
+⚠️ Important: Reviewing experience from workshops or unlisted venues will not be accepted. Many workshops are relevant and high-quality events, but ARR does not have the resources for verifying what kind of review process they may run.
+
+How do I become qualified through secondary reviewer?
+
+For the junior researchers who do not yet qualify under the required combination of either reviewing-based criteria or publications + educational qualifications, but would like to become qualified for ARR service: we recommend working with a qualified researcher who would mentor you as a secondary reviewer, taking responsibility for the quality of your reviews and then providing a recommendation. Since secondary reviewing is capped to 5 reviews per individual in a given cycle, it is possible to become qualified in this way after serving in 2 ARR cycles.
+
+It does not matter what institution the mentor is from, as long as they are mentoring you and are themselves qualified. It is possible to become qualified in this way without the Masters degree. The secondary reviewer contributions are recorded in the reviewing form by the supervisor: https://aclrollingreview.org/reviewerguidelines#secondary-reviewer
+
+We hope to establish a program for helping independent researchers to find such mentors, but currently ARR cannot provide this yet.
+
+ACL Rolling Review
+
+A peer review platform for the Association for Computational Linguistics.
+
+For contributors
+
+Authors Reviewers Area Chairs
+
+Resources
+
+Dates & venues Call for papers ARR Team
+
+Contact
+
+support@aclrollingreview.org Bluesky Twitter
+© 2026 ACL Rolling Review Serving the international computational linguistics community

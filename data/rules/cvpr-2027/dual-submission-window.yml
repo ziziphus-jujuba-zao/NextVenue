@@ -1,0 +1,25 @@
+id: cvpr-2027/dual-submission-window
+edition: cvpr-2027
+family: dual_submission
+question_zh: CVPR 2027 审稿期间，能把实质相似的论文同时投到别的会议或 workshop 吗？
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: paper
+  until: notification
+  note_zh: 2027 CFP 写明的审稿期为 11/16 至 2/22，比 2/25 出最终结果早 3 天；时间线没有 2/22 这个节点，这里的“至出结果”比原文多出 3 天
+summary_zh: 不能。投 CVPR 2027 即确认，在 11/16 至 2027 年 2/22 的审稿期内，实质相似的论文没有、也不会投到其他会议或 workshop。
+detail_zh: CFP 说完整的一稿多投规则见作者指南，但 2027 作者指南目前仍是 404；什么算“实质相似”、期刊是否在内，见“一稿多投范围”卡（2026 规则）。11/10 在 CVPR 注册时论文是否就不能还在别处审稿，2026 作者指南（写的是“registering or submitting”）和 2027 CFP（只说 submitting，审稿期从 11/16 起）写法不同，见“ICLR 在审论文转投”卡。
+quotes:
+  - src: cvpr-2027-cfp
+    text: "By submitting to CVPR, authors confirm that no substantially similar paper has been or will be submitted to another conference or workshop during the review period (November 16, 2026 – February 22, 2027)."
+  - src: cvpr-2027-cfp
+    text: "For complete dual submission guidelines and prior work policies, see the Author Guidelines on the conference website."
+  - src: cvpr-2026-cfp
+    text: "By submitting to CVPR, authors confirm that no substantially similar paper has been or will be submitted to another conference or workshop during the review period (November 13, 2025 – February 20, 2026)."
+changed_from_prev_zh: 2026 CFP 写的审稿期同样从正文截止日开始（2025/11/13 至 2026/2/20），2027 顺延为 11/16 至 2/22。
+effect:
+  kind: exclusive
+  target: substantially_similar_submissions
+last_checked: 2026-09-24

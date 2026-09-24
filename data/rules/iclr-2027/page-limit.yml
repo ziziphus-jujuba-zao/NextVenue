@@ -1,0 +1,28 @@
+id: iclr-2027/page-limit
+edition: iclr-2027
+family: format
+question_zh: 投稿时正文必须控制在 9 页以内吗？
+answer: required
+verification: human
+conf: high
+applies:
+  until: paper
+  note_zh: 9/25 正文截止时提交的版本；讨论期和 camera-ready 放宽到 10 页
+summary_zh: 必须。9/25 AoE（北京时间 9/26 19:59）提交的版本正文不能超过 9 页，严格执行，超页直接 desk reject；参考文献和参考文献之后的附录不计页，附录页数不限。
+detail_zh: 必需的 AI 使用说明、可选的伦理声明（不超过 1 页）、可选的可复现性声明和致谢也不计页。讨论期修订版和 camera-ready 上限为 10 页。官方请作者使用 ICLR 2027 的 LaTeX 样式文件（“please use”）。审稿人不必读附录。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: "At the time of submission, the main text should be 9 pages or fewer."
+  - src: iclr-2027-author-guidelines
+    text: "This limit will be strictly enforced. Papers with main text beyond the page limit will be desk-rejected."
+  - src: iclr-2027-author-guidelines
+    text: "The list of references does not count towards the page limit, and unlimited additional pages are allowed for the bibliography/references."
+  - src: iclr-2027-author-guidelines
+    text: "Authors may use as many pages of appendices (after the bibliography) as they wish, but reviewers are not required to read the appendix."
+  - src: iclr-2027-author-guidelines
+    text: "The optional ethics statement will not count toward the page limit, but should not be more than 1 page."
+effect:
+  kind: cap
+  target: main_text_pages
+  limit: 9
+last_checked: 2026-09-24

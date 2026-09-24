@@ -1,0 +1,231 @@
+Authorship Changes Policy for ACL Venue Papers
+
+From Admin Wiki
+
+Jump to navigation Jump to search
+
+The author list for a submission should include all (and only) individuals who made substantial contributions to the presented work. Any changes to the author list must follow the guidelines outlined below.
+
+Contents
+
+ * 1 0. Definitions
+ * 2 1. Role of authors and contributors
+ * 3 2. Responsibilities and obligations of corresponding authors
+ * 4 3. Categories of Authorship Alteration
+ * 5 4. Protocols for Authorship Alterations
+   * 5.1 a. Timeline
+   * 5.2 b. Before the submission deadline:
+   * 5.3 c. After the submission deadline:
+   * 5.4 d. During the review process:
+   * 5.5 e. Between the final decision and camera ready:
+   * 5.6 f. After the camera-ready deadline:
+   * 5.7 g. Clarification on Re-submissions:
+   * 5.8 h. Alteration constraints
+ * 6 5. Effect, interpretation and recourse
+
+0. Definitions
+
+Submission deadline The official cut-off time at which a manuscript (or re-submission) must be uploaded to be considered for review.
+
+Review process (for conference submissions) The interval beginning at the submission deadline and ending at the final decision (acceptance or rejection by the venue).
+
+Final decision The programme-chair or journal-editor outcome on a manuscript (accept, reject, assign to venue). For papers routed through ACL Rolling Review (ARR), the final-decision date is the venue-assignment decision.
+
+Camera-ready The last date by which the accepted paper, formatted to venue specifications, must be delivered for publication. “Post camera-ready” refers to any time after this date.
+
+Resubmission A manuscript submitted again as a new entry after (a) rejection, (b) a “major revisions” outcome, or (c) expiry of an ARR commitment window. Resubmissions reset authorship alteration rules as described in Section 4.
+
+ARR commitment The six-month period during which an ARR-reviewed paper can be committed to a venue without re-review.
+
+First author The author listed first on the manuscript; typically the primary contributor. Under this policy, the first author position cannot change after the submission deadline.
+
+Corresponding author A designated author responsible for all communication with the venue. A manuscript must keep at least one and no more than two corresponding authors at all times.
+
+Top-level domain (TLD) +1 The final segment of an Internet domain name (e.g., .edu, .ac.uk, .org) plus the domain immediately below. Email-address changes that keep the same TLD+1 (3-g) are treated differently from those that introduce a new TLD+1 (3-h).
+
+1. Role of authors and contributors
+
+Referring to the ICMJE's criteria for authorship (https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html), ACL adopts the following criteria:
+
+ * Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work;
+ * Drafting the work, providing and processing training and testing data and reviewing it critically for important intellectual content;
+ * Final approval of the version to be published;
+ * Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
+
+2. Responsibilities and obligations of corresponding authors
+
+The corresponding authors are primarily responsible for communicating with the conference when there are multiple authors involved in a paper. Each submission must clearly designate the corresponding authors (mandatory for conference submissions through the submission system). A submission usually has one corresponding author, with a maximum of two. For papers not submitted through the submission system, such as a workshop in very exceptional circumstances, the first author will be assumed as the corresponding author.
+
+The corresponding author has the following responsibilities and obligations:
+
+ 1. Reaching a consensus among all co-authors regarding their name placement before submitting the paper.
+ 2. Ensuring that each co-author updates their personal information and publication data on the designated platform or system of the conference as required. This ensures fair anonymous reviews by the Program Committee without any COI issues. Failure to do so may affect the fairness of the committee's selection of papers, resulting in desk rejection upon discovery of inaccurate authorship information.
+ 3. Maintaining well consistent communication with the conference organizers throughout the manuscript submission, review, and publication stages, while adhering to all conference administrative requirements. The conference organizers include but not limited to Program Committee Chairs, (Senior) Area Chairs, Publication Chairs and other conference organizers related to paper review, rebuttal, publication and other processes.
+ 4. Seeking opinions from all co-authors before submitting the camera-ready paper to ensure there are no objections.
+ 5. Responding to post-publication inquiries about the work. In case of allegations of plagiarism, the corresponding author and co-authors must cooperate with the ACL Executive Board or committee related to suspected plagiarism investigation.
+
+3. Categories of Authorship Alteration
+
+ * a. Incorporating new authors.
+ * b. Removing existing authors.
+ * c. Switching the corresponding author.
+ * d. Switching the first author.
+ * e. Rearranging the current author sequence apart from first author.
+ * f. Changing author name.
+ * g. Changing/adding email for corresponding authors (same or new top-level domain +1)
+ * h. Changing or adding author email address (new top-level domain +1)
+ * i. Adding author affiliation
+ * j. Removing author affiliation
+ * k. Rectifying errors in author names and their information, including spelling errors caused by code corruption.
+
+4. Protocols for Authorship Alterations
+
+a. Timeline
+
+For papers submitted through the ACL Rolling Review (ARR) process, the review period begins at the submission deadline for the paper’s ARR cycle and ends with the final decision by a venue.
+
+ * Submission deadline: The deadline for the paper’s ARR cycle
+ * Review process: The period from the submission deadline until the final decision
+ * Final decision: The venue’s acceptance decision following the commitment deadline
+ * Commitment deadline: The date by which authors must commit their reviewed paper to a specific venue.
+ * Camera-ready deadline: The final deadline set by the venue for submitting the accepted paper.
+
+b. Before the submission deadline:
+
+All changes listed in Section 3 (3(a)–3(k)) are permitted.
+
+c. After the submission deadline:
+
+Authors may not be added (3(a)), and the first author may not be changed.
+
+d. During the review process:
+
+Only the following changes are allowed to allow for reliable communication:
+
+ * 3(c): Corresponding author
+ * 3(f) and 3(k): Changing the author name
+ * 3(g): Changing or adding email address (corresponding authors only)
+
+In addition:
+
+ * 3(b): Author removal is allowed only under strict constraints (see below)
+
+All other changes are not permitted during this stage.
+
+e. Between the final decision and camera ready:
+
+The following changes are permitted:
+
+ * 3(b): Remove an author
+ * 3(c): Change corresponding author
+ * 3(e): Rearranging author order
+ * 3(f) and 3(k): Change in author name
+ * 3(g): Update email for corresponding author
+ * 3(i) and (j): Update affiliation
+
+However:
+
+ * Authors may not be added (3(a))
+ * The first author may not be changed (3(d)).
+
+f. After the camera-ready deadline:
+
+Only the following changes are permitted:
+
+ * 3(b): Remove an author
+ * 3(c): Change corresponding author
+ * 3(f) and 3(k): Updating author name
+ * 3(g): Updating corresponding author email
+ * 3(j): Update affiliation
+ * All other alterations are not allowed after the camera-ready deadline.
+
+g. Clarification on Re-submissions:
+
+Re-submissions, such as those made after a rejection, major revision request, or after the expiration of an ARR commitment, are treated as new submissions for the purposes of authorship and may include any alterations under 3(a)–3(k). In these cases, we encourage authors to justify the authorship changes through a confidential comment to the editor as part of their submission form. The alteration constraints (Sections 8–10) apply only after the initial review process has begun.
+
+h. Alteration constraints
+
+3(b) Removal of authors
+
+Removing an author is allowed under the following conditions:
+
+ * The change is initiated by one of the authors.
+ * The change requires explicit approval from the program chairs, editor, or ACL Publication Ethics Committee (PEC).
+
+Approval will only be granted if:
+
+ 1. The chairs/editor/PEC are satisfied that:
+    1. The removal is appropriate, and
+    2. It does not violate the authorship criteria outlined in Section 1.
+ 2. One of the following conditions is met:
+    1. The author to be removed consents, or
+    2. No co-authors object to the removal within a reasonable time (i.e., seven days after notification).
+
+Removed authors may appeal via the ACL Publication Ethics Committee.
+
+3(c) Changing the corresponding author
+
+A paper must have at least one and no more than two corresponding authors at any time.
+
+3(f) Legal Name Changes
+
+Name changes under 3(f) are permissible only under the ACL Name Change Policy.
+
+5. Effect, interpretation and recourse
+
+The policy applies from the date it is approved by the ACL Executive. The authority to interpret this policy belongs to the ACL Publication Ethics Committee and the ACL Executive Board. In case of any disputes or requests for exceptions, appeals are to be filed with the ACL Publication Ethics Committee, which will follow its process for review Process for ACL Publication Ethics Review.
+
+----------------------------------------
+
+This policy version proposed 2025.06, approved 2025.09.22, published 2025.10.06
+
+Retrieved from "https://www.aclweb.org/adminwiki/index.php?title=Authorship_Changes_Policy_for_ACL_Venue_Papers&oldid=76768"
+
+Navigation menu
+
+Personal tools
+
+ * Log in
+ * Request account
+ * Dark mode
+
+Namespaces
+
+ * Page
+ * Discussion
+
+English
+
+Views
+
+ * Read
+ * View source
+ * View history
+
+More
+
+Search
+
+Navigation
+
+ * Main page
+ * Recent changes
+ * Random page
+ * Help about MediaWiki
+
+Tools
+
+ * What links here
+ * Related changes
+ * Special pages
+ * Printable version
+ * Permanent link
+ * Page information
+
+ * This page was last edited on 7 October 2025, at 14:46.
+
+ * Privacy policy
+ * About Admin Wiki
+ * Disclaimers
+
+ *

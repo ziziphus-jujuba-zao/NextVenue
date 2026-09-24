@@ -1,0 +1,25 @@
+id: aaai-27/submission-cap
+edition: aaai-27
+family: cap
+question_zh: 每位作者最多能挂名几篇投稿？哪些 track 不计入？
+answer: contradictory
+verification: human
+conf: medium
+applies:
+  from: abstract
+  note_zh: 官方未说明按哪个时点统计篇数
+summary_zh: 两个官方页面都写每人 10 篇，但范围说法不一：投稿说明写的是 technical track 投稿合计不超过 10 篇，并明确排除 AI Alignment 和 AI for Social Impact 两个特殊 track；主技术 track 的 CFP 只写“最多出现在 10 篇 AAAI-27 投稿中”，没有写这个排除。
+detail_zh: 两个特殊 track 的征稿页都没有提到每位作者的篇数上限。CFP 把为规避篇数上限的隐蔽重投或 shotgun 投稿列为可处罚的伦理违规（见“LLM 近似重复稿与 prompt injection”卡）。
+quotes:
+  - src: aaai-27-submission-instructions
+    text: "Each individual author is limited to no more than a combined limit of 10 submissions to the AAAI-27 technical track (excluding AI Alignment and AI for Social Impact tracks)"
+    reading_zh: 按投稿说明：只有 technical track 的投稿计入 10 篇，AI Alignment 和 AISI 两个特殊 track 的投稿不计入
+  - src: aaai-27-cfp
+    text: "Authors may be listed on at most 10 AAAI-27 submissions."
+    reading_zh: 按 CFP 字面：出现在 AAAI-27 投稿中的篇数合计不超过 10 篇，这句话没有排除特殊 track（该页是主技术 track 的征稿通知）
+checked_sources: [aaai-27-aisi-call, aaai-27-aia-call]
+effect:
+  kind: cap
+  target: submissions_per_author
+  limit: 10
+last_checked: 2026-09-24
