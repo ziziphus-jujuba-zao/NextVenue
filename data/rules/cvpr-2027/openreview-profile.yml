@@ -2,6 +2,7 @@ id: cvpr-2027/openreview-profile
 edition: cvpr-2027
 family: profile
 question_zh: 所有作者都必须有完整的 OpenReview profile 吗？没完成会怎样？
+short_zh: 作者 OpenReview 资料
 answer: required
 verification: inherited
 inherited_from: cvpr-2026

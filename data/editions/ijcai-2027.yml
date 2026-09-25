@@ -1,0 +1,57 @@
+id: ijcai-2027
+series: ijcai
+name: IJCAI 2027
+year: 2027
+kind: conference
+topics: [ai, ml]
+derived_from: ijcai-2026
+location: { city: Kyoto, country: Japan }
+dates: { start: 2027-08-07, end: 2027-08-17 }
+milestones:
+  - type: abstract
+    at: 2027-01-12T23:59
+    tz: AoE
+    status: estimated
+    src: ijcai-2026-dates
+    quote: "January 12th . Abstract submission deadline"
+    note_zh: 推算值：IJCAI-ECAI 2026 主 track 摘要截止为 2026-01-12 23:59 AoE，顺延一年。
+  - type: paper
+    at: 2027-01-19T23:59
+    tz: AoE
+    status: estimated
+    src: ijcai-2026-dates
+    quote: "January 19th. Full paper submission deadline"
+    note_zh: 推算值：IJCAI-ECAI 2026 主 track 正文截止为 2026-01-19 23:59 AoE，顺延一年。
+  - type: phase1_notification
+    at: 2027-03-04
+    tz: AoE
+    status: estimated
+    src: ijcai-2026-dates
+    quote: "March 4th. Phase I notification"
+    note_zh: 推算值：IJCAI-ECAI 2026 Phase I 通知为 2026-03-04，顺延一年。
+  - type: notification
+    at: 2027-04-29
+    tz: AoE
+    status: estimated
+    src: ijcai-2026-dates
+    quote: "April 29th. Paper Notification"
+    note_zh: 推算值：IJCAI-ECAI 2026 出结果为 2026-04-29，顺延一年。
+  - type: conference
+    label_zh: 京都会场
+    start: 2027-08-07
+    end: 2027-08-13
+    tz: Asia/Tokyo
+    status: confirmed
+    src: ijcai-2027-future-conferences
+    quote: "The third IJCAI-27 will be held in Kyoto, Japan from August 7th until August 13th, 2027 and in Hengqin, China from August 15th until August 17th, 2027."
+    note_zh: IJCAI 官网 Future Conferences 页公布：京都 8/7–13、横琴 8/15–17 两地举办。
+  - type: conference
+    label_zh: 横琴会场
+    start: 2027-08-15
+    end: 2027-08-17
+    tz: Asia/Shanghai
+    status: confirmed
+    src: ijcai-2027-future-conferences
+    quote: "The third IJCAI-27 will be held in Kyoto, Japan from August 7th until August 13th, 2027 and in Hengqin, China from August 15th until August 17th, 2027."
+last_checked: 2026-09-25
+note_zh: 截稿和出结果按 IJCAI-ECAI 2026 官网主 track 日期顺延：摘要 1/12、正文 1/19、Phase I 通知 3/4、出结果 4/29（均为 23:59 AoE）。会期和地点是官方已公布的：京都 8/7–13、横琴 8/15–17（location 只写了京都）。2026-09-25 查询时 2027.ijcai.org 需要登录（HTTP 401），征稿尚未发布。

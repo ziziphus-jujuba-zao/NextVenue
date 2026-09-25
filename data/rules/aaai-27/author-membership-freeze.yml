@@ -2,6 +2,7 @@ id: aaai-27/author-membership-freeze
 edition: aaai-27
 family: author_list
 question_zh: 摘要截止（7/21）后还能增加或删除作者吗？
+short_zh: 摘要截止后增删作者
 answer: conditional
 verification: human
 conf: high

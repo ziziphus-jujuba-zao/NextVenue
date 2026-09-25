@@ -2,6 +2,7 @@ id: iclr-2027/reviewer-duty-3-papers
 edition: iclr-2027
 family: reciprocal_reviewing
 question_zh: 挂名 3 篇及以上的作者必须审稿吗？
+short_zh: 挂名 3 篇须审 6 篇
 answer: required
 verification: human
 conf: high

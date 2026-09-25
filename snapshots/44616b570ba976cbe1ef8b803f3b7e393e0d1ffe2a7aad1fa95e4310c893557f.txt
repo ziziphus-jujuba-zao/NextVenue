@@ -1,0 +1,150 @@
+Skip to content
+ * HOME
+ * PROGRAM
+   * Program at a glance
+   * Invited keynotes
+   * Accepted Workshops
+   * Accepted Tutorials
+ * SUBMIT
+   * Full Research Papers
+   * Short Research Papers
+   * Applied Research Papers
+   * Resource Papers
+   * Demonstration Papers
+   * Tutorials
+   * Workshops
+   * AnalytiCup Competition Proposals
+   * PhD Symposium
+   * Industry Day Talks
+   * Important dates
+ * ATTEND
+   * Registration
+   * Fees
+   * Venues and transportation
+     * Venues
+     * How to Reach Rome
+     * Local Transportation
+   * VISA Letter
+   * Social Program
+   * Student Travel Awards
+   * Accomodations
+   * Practical Information
+ * POLICIES
+   * Policies and Information
+ * ORGANIZERS
+   * Organization Chairs
+   * Scientific Chairs
+ * SUPPORTERS
+   * Sponsors
+   * Endorsements
+   * Become a sponsor
+
+Full Research Papersriccardo2026-08-12T09:06:21+02:00
+Information
+Important dates
+
+Call for Full Research Papers
+
+The 35th ACM International Conference on Information and Knowledge Management (CIKM 2026)
+
+CIKM 2026 will be held in the historic city of Rome, Italy. This premier international conference provides a vibrant forum for researchers and practitioners to exchange ideas and present cutting-edge research in information retrieval, knowledge management, and databases. We invite submissions of original, high-quality research papers on all topics related to the acquisition, organisation, storage, retrieval, and analysis of information and knowledge.
+
+The full research papers track is the venue for presenting core technical contributions to the fields covered by CIKM. Submissions are expected to present innovative, significant, and reproducible research.
+
+Submit here
+
+Important Information
+
+Authors of each submission to CIKM 2026 are required to nominate at least one of the authors of each submission, for reviewing some papers. This can be done in EasyChair when submitting the paper.
+Note that failure to nominate a reviewer among the authors will lead to desk rejection of the paper.
+Should you have any questions about this, please contact the PC chairs at: cikm2026-pc@easychair.org
+
+SUBMISSION INFORMATION
+
+Topics of Interest
+
+We encourage submissions of high-quality research papers on the general areas of artificial intelligence, data science, databases, information retrieval, and knowledge management. Topics of interest include:
+
+ * Data Acquisition and Processing: IoT data, data quality, data privacy, mitigating biases, data wrangling, data exploration, data preparation, valuation, and tradin
+ * Data Integration and Aggregation: semantic processing, data provenance, data linkage, data fusion, knowledge graphs, data warehousing, data lakes, privacy and security, modeling, information credibility, AI-generated content detection and provenance)
+ * Efficient Data Processing: serverless computing, data-intensive computing, database systems, indexing and compression, architectures, distributed data systems, dataspaces, customized hardware
+ * Special Data Processing: multilingual text, sequential, stream, time series, spatio-temporal, (knowledge) graph, multimedia, scientific, and social media data
+ * Analytics and Machine Learning: OLAP, data mining, machine learning and AI, scalable analysis algorithms, algorithmic biases, event detection and tracking, interpretability and explainability
+ * Foundation Models and Neural Information Processing: large language models, graph neural networks, domain adaptation, transfer learning, in-context learning, fine-tuning and alignment, network architectures, neural ranking, neural recommendation, and neural prediction
+ * Agentic AI for Information and Knowledge Tasks: tool use, planning, multi-agent systems, autonomous retrieval and decision-making, agentic workflows, orchestration of knowledge-intensive processes
+ * Information Access and Retrieval: retrieval-augmented generation (RAG), retrieval models, query processing, question answering and dialogue systems, open-ended question answering, conversational information seeking, generation of knowledge graphs from unstructured data, personalization, recommender systems, filtering systems
+ * Trustworthy and Responsible AI: fairness, accountability, ethics, explainability, safety, alignment, robustness, hallucination detection and mitigation, factuality and grounding, attribution, responsible deployment
+ * Users and Interfaces for Information Systems: user behavior analysis, user interface design, perception of biases, interactive information retrieval, interactive analysis, spoken interfaces, human-AI collaboration, co-pilot paradigms, human-in-the-loop systems
+ * Evaluation: performance studies, benchmarks, online and offline evaluation, best practices, evaluation of generative and LLM-based systems, human evaluation protocols, LLM-as-judge, reproducibility
+ * Crowdsourcing: task assignment, worker reliability, optimization, trustworthiness, transparency, crowdsourcing in the era of large language models
+ * Mining Multi-Modal Content: natural language processing, speech recognition, computer vision, content understanding, knowledge extraction, knowledge representations, multi-modal foundation models
+ * Data Presentation: visualization, summarization, readability, VR/AR, speech input/output
+ * Generative AI for Data and Knowledge Management: GenAI for structured and unstructured data processing, GenAI for data synthesis and simulation, GenAI for information summarization, content creation, and visualization, synthetic data generation, and quality
+ * Resource-Efficient AI: model compression, quantization, distillation, distributed learning, inference optimization, on-device models, leveraging edge computing to reduce computational overhead
+
+Applications: urban systems, biomedical and health informatics, legal informatics, crisis informatics, computational social science, data-enabled discovery, social networks, education, business
+
+Submission Guidelines
+
+Submissions must be original work not previously published or concurrently submitted to another conference or journal.
+
+ * Length and Format: Full research papers must not exceed 10 pages, including all figures, tables, and appendices, plus up to 2 additional pages exclusively for references. Submissions must adhere to the ACM Master Article Submission Templates (2-column format). Overlength papers will be rejected without review.
+ * Anonymity: CIKM follows a double-blind review process. Authors must anonymise their submissions. Do not include author names, affiliations, or any identifying information in the paper. Self-citations should be handled in the third person.
+ * Submission System: All submissions must be made electronically via the EasyChair system. The submission site will be available in due course.
+ * Reproducibility: Authors are strongly encouraged to make their data and code available to reviewers.
+
+Submission Template
+
+All papers for this track have to follow the template as indicated here: https://www.acm.org/publications/proceedings-template
+
+Submission System
+
+All papers for this track are to be submitted via EasyChair, selecting “ CIKM 2026 Full Research Track” track at the following link. https://easychair.org/my/conference?conf=cikm26
+
+Program Committee Co-Chairs
+
+cikm2026-pc@easychair.org
+
+ * Ioana Manolescu (Inria and Institut Polytechnique de Paris, France)
+ * Jiaxin Mao (Renmin University of China, China)
+ * Vanessa Murdock (Amazon Research, USA)
+ * Fabrizio Silvestri (University of Rome “La Sapienza”, Italy)
+
+IMPORTANT DATES
+
+Please note the following critical deadlines for full research paper submissions. All deadlines are 11:59 PM Anywhere on Earth (AoE) time.
+
+ * May 16, 2026 – Abstract Submission Deadline
+
+ * May 23, 2026 – Full Paper Submission Deadline
+
+ * August 7, 2026 – Notification of Acceptance
+
+ * August 23, 2026 – Camera-Ready Submission Deadline
+
+We strongly encourage authors to submit their abstracts well in advance of the full paper submission deadline to facilitate paper assignment and help organize the review process.
+
+REVIEW SCHEDULE
+
+Paper Assignment & Bidding         May 26, 2026     June 2, 2026
+Primary Review Period              June 2, 2026     June 30, 2026
+Reviewer Discussion Phase          June 30, 2026    July 10, 2026
+SPC Meta-Review Period             July 10, 2026    July 20, 2026
+Final PC Chairs Decision Meeting   July 20, 2026    August 5, 2026
+Notification of Acceptance         August 7, 2026
+
+Contacts
+
+Phone: +39 0639725540
+Email: cikm2026@grupposymposia.it
+
+POLICIES
+
+CSR
+Privacy Policy
+
+© Symposia Srl   |   All Rights Reserved   |   Privacy Policy | v. 2.1.18
+FacebookXInstagramPinterest
+Page load link
+
+Go to Top

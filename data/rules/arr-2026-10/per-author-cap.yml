@@ -2,6 +2,7 @@ id: arr-2026-10/per-author-cap
 edition: arr-2026-10
 family: cap
 question_zh: 一位作者每轮能投超过 20 篇，或以一作身份投超过 5 篇吗？
+short_zh: 每轮 20 篇、一作 5 篇
 answer: not_allowed
 verification: human
 conf: high

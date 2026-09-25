@@ -2,6 +2,7 @@ id: aaai-27/camera-ready-author-freeze
 edition: aaai-27
 family: author_list
 question_zh: 录用后准备 camera-ready 时，能增加或删除作者吗？
+short_zh: 定稿时增删作者
 answer: not_allowed
 verification: human
 conf: high

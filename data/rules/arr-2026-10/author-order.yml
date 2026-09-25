@@ -2,6 +2,7 @@ id: arr-2026-10/author-order
 edition: arr-2026-10
 family: author_list
 question_zh: 投稿后还能调整作者顺序吗？commit 到 NAACL 时能改吗？
+short_zh: 调整作者顺序
 answer: contradictory
 verification: human
 conf: high

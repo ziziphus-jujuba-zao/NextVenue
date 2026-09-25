@@ -2,6 +2,7 @@ id: iclr-2027/title-abstract-edit
 edition: iclr-2027
 family: content_edit
 question_zh: 摘要截止后、正文截止前，还能改标题和摘要吗？
+short_zh: 改标题和摘要
 answer: conditional
 verification: human
 conf: high

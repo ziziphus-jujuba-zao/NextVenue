@@ -2,6 +2,7 @@ id: aaai-27/author-feedback-format
 edition: aaai-27
 family: rebuttal
 question_zh: author feedback（rebuttal）什么时候写？有什么长度和内容限制？
+short_zh: 作者回复格式
 answer: conditional
 verification: inherited
 inherited_from: aaai-26

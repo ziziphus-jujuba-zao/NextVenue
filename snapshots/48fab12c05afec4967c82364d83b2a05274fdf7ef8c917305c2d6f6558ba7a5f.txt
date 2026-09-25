@@ -1,0 +1,13 @@
+Submit
+
+Expected 2027 submission tracks and calls
+
+Based on recent SIGIR editions, the 2027 site should expose dedicated pages for each major submission path, not only one general call. The items below are included as 2027 placeholders so those pages can be populated once the organizing committee finalizes the details.
+
+Tracks overview Full papers Short papers Resource & reproducibility Demonstrations Perspectives Tutorials Workshops Doctoral Consortium SIRIP / industry Theme days
+
+Tracks overview
+
+Placeholder: add the 2027 tracks page summarizing all submission categories and where each contribution type belongs.
+
+↑

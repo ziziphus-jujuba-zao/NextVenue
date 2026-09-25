@@ -2,6 +2,7 @@ id: iclr-2027/author-membership-freeze
 edition: iclr-2027
 family: author_list
 question_zh: 摘要截止后还能增加或删除作者吗？
+short_zh: 摘要截止后增删作者
 answer: not_allowed
 verification: human
 conf: high

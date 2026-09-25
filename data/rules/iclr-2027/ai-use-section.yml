@@ -2,6 +2,7 @@ id: iclr-2027/ai-use-section
 edition: iclr-2027
 family: llm_policy
 question_zh: 论文里必须写一节 AI 使用说明吗？
+short_zh: AI 使用说明一节
 answer: required
 verification: human
 conf: high

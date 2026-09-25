@@ -1,0 +1,18 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aaai-28
+sources:
+  - id: aaai-28-home
+    url: https://aaai.org/conference/aaai/aaai-28/
+    title: AAAI-28 Home
+    kind: other
+    fetched_at: 2026-09-24T23:04:07Z
+    http_status: 404
+    note_zh: 按 AAAI-27 页面的 URL 规律推测的地址；2026-09-25 返回 404，AAAI-28 尚未公布。推算依据是 aaai-27 sources 文件里的 aaai-27-cfp。
+  - id: aaai-28-future-conferences
+    url: https://aaai.org/conference/aaai/
+    title: "AAAI Conference: Future Conferences"
+    kind: other
+    fetched_at: 2026-09-24T23:04:08Z
+    http_status: 200
+    snapshot: b2a5564821ad37a10dd9252c78134042915a6a6b454acb232b3fb1a5b0694a6b
+    note_zh: AAAI 会议总页，Future Conferences 只列了 AAAI-27（蒙特利尔 2027-02-16–23），没有 AAAI-28。

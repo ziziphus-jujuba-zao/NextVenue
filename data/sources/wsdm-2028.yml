@@ -1,0 +1,18 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: wsdm-2028
+sources:
+  - id: wsdm-2028-series-home
+    url: https://www.wsdm-conference.org/
+    title: WSDM Conference Series Home
+    kind: other
+    fetched_at: 2026-09-24T23:03:20Z
+    http_status: 200
+    snapshot: 64c83693ff7a578cf0d7d2619f6e22d725c67f546305597543ee49b01f82a13c
+    note_zh: "WSDM 系列主页，写 “Call for Proposals: WSDM 2028 in the Americas (available soon)”，2028 承办地尚未确定。"
+  - id: wsdm-2028-home
+    url: https://wsdm-conference.org/2028/
+    title: WSDM 2028 Home — probed URL
+    kind: other
+    fetched_at: 2026-09-24T23:03:21Z
+    http_status: 404
+    note_zh: 按 2027 官网 URL 规律推测的地址；2026-09-25 返回 404，WSDM 2028 尚未公布。

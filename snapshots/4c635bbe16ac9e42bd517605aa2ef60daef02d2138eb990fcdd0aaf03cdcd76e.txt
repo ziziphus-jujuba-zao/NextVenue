@@ -1,0 +1,41 @@
+Navigation
+ * Home
+ * Conferences
+   * Future Conferences
+   * Past Conferences
+ * Proceedings
+   * IJCAI 2026 Proceedings
+   * All Proceedings
+ * Awards
+ * Trustees/officers
+   * Current trustees
+   * Trustees Elect
+   * IJCAI Secretariat
+   * IJCAI Sponsorship and Publicity Officers
+   * IJCAI Team
+   * Local Arrangements Chairs
+   * Former Trustees serving on the Executive Committee
+   * Other Former Officers
+ * AI Journal
+ * About
+   * About IJCAI
+   * Contact Information
+
+Future Conferences
+
+Pursuant to IJCAI By-laws, agreements between IJCAI and other international AI Organizations and local arrangements' contracts, IJCAI Conferences are solely run by the Conference Committee, which consists of the Conference Chair (Chairperson), Program Chair, Local Arrangements Committee Chair, IJCAI Executive Secretary&Director and IJCAI Secretary-Treasurer.
+The third IJCAI-27 will be held in Kyoto, Japan from August 7th until August 13th, 2027 and in Hengqin, China from August 15th until August 17th, 2027. Hosts of IJCAI-2028, IJCAI-2029  and IJCAI-ECAI-30 will be announced at preceding conferences. We look forward to seeing you there!
+
+Sarit Kraus, Professor at the Bar-Illan University, Israel will be the IJCAI-27 Conference Chair.
+Bo An, Professor at the Nanyang Technological University, Singapore will be the IJCAI-27 Program Chair.
+
+Craig Boutilier, Principal Scientist at Google, USA will be the IJCAI-28 Conference Chair.
+Michael Thielscher, Professor at the University of New South Wales, Australia will be the IJCAI-28 Program Chair.
+
+Ronen Brafman, Professor at the Ben Gurion University of the Negev, Israel will be the IJCAI-29 Conference Chair.
+Pascal Van Hentenryck, Professor at the Georgia Institute of Technology, USA will be the IJCAI-29 Program Chair.
+
+Ana Paiva, Professor at the University of Lisbon, Portugal will be the IJCAI-ECAI-30 Conference Chair.
+Min-Ling Zhang, Professor at the Southeast University, China will be the IJCAI-ECAI-30 Program Chair.
+
+Copyright © 2026,

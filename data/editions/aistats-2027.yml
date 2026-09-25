@@ -1,0 +1,61 @@
+id: aistats-2027
+series: aistats
+name: AISTATS 2027
+year: 2027
+kind: conference
+topics: [ml, ai]
+location: { city: Montréal, country: Canada }
+dates: { start: 2027-05-03, end: 2027-05-06 }
+milestones:
+  - type: abstract
+    at: 2026-09-29T23:59
+    tz: AoE
+    status: confirmed
+    src: aistats-2027-dates
+    quote: "Abstract submission deadline: September 29, 2026"
+    note_zh: Key Dates 页写明“所有日期均为 AoE、当天结束”，并注明日期可能调整。北京时间 9/30 19:59。
+  - type: paper
+    at: 2026-10-06T23:59
+    tz: AoE
+    status: confirmed
+    src: aistats-2027-dates
+    quote: "Paper submission deadline: October 6, 2026"
+    note_zh: 北京时间 10/7 19:59。补充材料须在正文截止前一并提交，没有单独的补充材料截止（见 CFP）。
+  - type: reviews_out
+    at: 2026-11-16
+    tz: AoE
+    status: confirmed
+    src: aistats-2027-dates
+    quote: "Reviews released: November 16, 2026"
+    note_zh: CFP 称 AI 审稿会在同一天随人工审稿一起发给作者，rebuttal 期从这天开始。
+  - type: discussion
+    label_zh: 作者-审稿人讨论期
+    start: 2026-11-23
+    end: 2026-12-03
+    tz: AoE
+    status: confirmed
+    src: aistats-2027-cfp
+    quote: "Author–reviewer discussion period Monday, November 23 – Thursday, December 3, 2026"
+    note_zh: CFP 的 Key Dates 表头写明“All deadlines are at 23:59 Anywhere on Earth (AoE)”，结束按 12/3 23:59 AoE 计。会议官方站（virtual.aistats.org）Dates 页日期相同（11/23 开始、12/3 结束），但没标时区。CFP 称 rebuttal 期从 11/16 出审稿当天开始；11/16 到 11/23 之间的安排官方没有细说。
+  - type: notification
+    at: 2027-01-20
+    tz: AoE
+    status: confirmed
+    src: aistats-2027-dates
+    quote: "Paper decision notifications: January 20, 2027"
+    note_zh: 官方只给日期、未给时刻。
+  - type: camera_ready
+    tz: AoE
+    status: tba
+    src: aistats-2027-dates
+    note_zh: Key Dates 页列了 Camera-ready deadline，但日期留空。
+  - type: conference
+    start: 2027-05-03
+    end: 2027-05-06
+    tz: America/Toronto
+    status: confirmed
+    src: aistats-2027-dates
+    quote: "Conference dates: May 3, 2027 - May 6, 2027"
+    note_zh: 地点蒙特利尔（aistats.org 主页和会议官方站主页都这样写）。会议官方站 Dates 页称主会与 workshop 日的具体安排尚未确定。
+last_checked: 2026-09-25
+note_zh: aistats.org 主页称会议官方站 virtual.aistats.org 是最新信息的主要来源；两处日期一致。投稿走 OpenReview，9/15 起开放。

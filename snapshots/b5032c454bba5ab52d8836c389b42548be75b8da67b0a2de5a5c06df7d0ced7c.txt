@@ -1,0 +1,21 @@
+Policies
+
+Conference policies, author guidance, and FAQ placeholders
+
+Pre-print and anonymity policy
+
+Placeholder: add the 2027 pre-print, anonymity, and review policy for submissions, aligned with the official call pages.
+
+In-person or hybrid policy
+
+Placeholder: add presenter attendance requirements, integration rules, and any remote participation conditions.
+
+Author FAQ
+
+Placeholder: add a consolidated FAQ covering submissions, registration, attendance, visas, presentations, and student support.
+
+ACM-wide policies
+
+SIGIR 2027 should link out to ACM policies on authorship, use of AI, plagiarism, harassment, and privacy alongside its own conference-specific rules.
+
+↑

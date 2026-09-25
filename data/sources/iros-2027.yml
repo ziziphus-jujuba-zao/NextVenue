@@ -1,0 +1,27 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iros-2027
+sources:
+  - id: iros-2027-home
+    url: https://2027.ieee-iros.org/
+    title: IROS 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T23:04:04Z
+    http_status: 200
+    snapshot: 4df3e103508de5ec0ff64df397b77ffac372899f93f782c497adc9732950eb16
+    note_zh: 目前只有会期（9/26–10/1）、地点（佛罗伦萨 Fortezza da Basso）和主题，没有征稿页或重要日期。
+  - id: iros-2026-dates
+    url: https://2026.ieee-iros.org/about/important-dates/
+    title: IROS 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:04:05Z
+    http_status: 200
+    snapshot: 872105082b6402f1c9481f923591653ae2ba3cdc7397edcd010d42c47b2e525e
+    note_zh: 上一届日期页，用作 IROS 2027 日期推算依据。只写日期、没写时区。
+  - id: iros-2026-cfp
+    url: https://2026.ieee-iros.org/contribute/call-for-papers/
+    title: IROS 2026 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T23:04:05Z
+    http_status: 200
+    snapshot: c89d14e11ffe4b93c8990dce458e625e9225a01ae7c88403466964a08c196b0a
+    note_zh: 上一届 CFP。视频附件截止写“March 5, 2026 (23:59 PST)”，与日期页的 March 7 不一致；这是页面里唯一写明时区的地方。

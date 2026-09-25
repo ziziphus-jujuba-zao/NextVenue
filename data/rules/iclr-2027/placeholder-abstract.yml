@@ -2,6 +2,7 @@ id: iclr-2027/placeholder-abstract
 edition: iclr-2027
 family: submission
 question_zh: 能先交占位摘要，摘要截止后再补内容吗？
+short_zh: 先交占位摘要
 answer: not_allowed
 verification: human
 conf: high

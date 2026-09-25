@@ -1,0 +1,56 @@
+id: kdd-2027
+series: kdd
+name: KDD 2027
+year: 2027
+kind: conference
+topics: [dm, ml]
+derived_from: kdd-2026
+location: { city: San Jose, country: USA }
+dates: { start: 2027-08-01, end: 2027-08-05 }
+milestones:
+  - type: abstract
+    label_zh: 2 月轮（第二轮）摘要截止
+    at: 2027-02-01T23:59
+    tz: AoE
+    status: estimated
+    src: kdd-2026-research-cfp
+    note_zh: KDD 2027 官网尚未公布 2 月轮日期；按 KDD 2026 第二轮（Cycle 2）官网日期 2026-02-01 顺延。
+  - type: paper
+    label_zh: 2 月轮（第二轮）正文截止
+    at: 2027-02-08T23:59
+    tz: AoE
+    status: estimated
+    src: kdd-2026-research-cfp
+    note_zh: 按 KDD 2026 第二轮官网日期 2026-02-08 顺延。
+  - type: author_response
+    label_zh: 2 月轮 rebuttal
+    start: 2027-04-04
+    end: 2027-04-17T23:59
+    tz: AoE
+    status: estimated
+    src: kdd-2026-research-cfp
+    note_zh: 按 KDD 2026 第二轮官网 rebuttal 期 2026-04-04–04-17 顺延。同一页面第一轮 CFP 末尾的“anticipated dates”写的是 Apr 4-18，这里按第二轮 CFP 正文的 Apr 4-17（截止类取较早者）。
+  - type: notification
+    label_zh: 2 月轮出结果
+    at: 2027-05-16
+    tz: AoE
+    status: estimated
+    src: kdd-2026-research-cfp
+    note_zh: 按 KDD 2026 第二轮官网日期 2026-05-16 顺延。KDD 2027 FAQ 对 2 月轮通知日只写“[exact date to be confirmed], 2027”。
+  - type: camera_ready
+    label_zh: 2 月轮 camera-ready
+    at: 2027-06-01T23:59
+    tz: AoE
+    status: estimated
+    src: kdd-2026-research-cfp
+    note_zh: 按 KDD 2026 第二轮官网日期 2026-06-01 顺延。
+  - type: conference
+    start: 2027-08-01
+    end: 2027-08-05
+    tz: America/Los_Angeles
+    status: confirmed
+    src: kdd-2027-home
+    quote: "August 1–5, 2027"
+    note_zh: 官网首页写会期 8/1–5、地点 San Jose McEnery Convention Center；两轮录用论文同场报告（FAQ）。
+last_checked: 2026-09-25
+note_zh: 这条只收录 Research Track 的 2 月轮（第二轮）。第一轮（官网 FAQ 叫 August Cycle）摘要 2026-07-19、正文 2026-07-26、rebuttal 2026-09-29–10-13、出结果 2026-11-14，已截止。KDD 2027 官网目前只有第一轮的征稿，2 月轮日期未公布，按 KDD 2026 第二轮官网日期顺延：摘要 2/1、正文 2/8、rebuttal 4/4–4/17、出结果 5/16、camera-ready 6/1，均为 AoE。FAQ 写明第一轮被 Reject 的稿件不能投 2 月轮（要等 KDD 2028 第一轮），只有得到 Resubmit 的稿件能以修改稿投 2 月轮；新稿件两轮都可以投。按 KDD 2027 CFP 对上一轮的同类规定类推，2 月轮被 Reject 的稿件也不能投紧接着的 KDD 2028 第一轮（见 kdd-2028）。

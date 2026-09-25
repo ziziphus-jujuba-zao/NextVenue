@@ -1,0 +1,42 @@
+id: cikm-2027
+series: cikm
+name: CIKM 2027
+year: 2027
+kind: conference
+topics: [dm]
+derived_from: cikm-2026
+location: { city: Sydney, country: Australia }
+milestones:
+  - type: abstract
+    at: 2027-05-16T23:59
+    tz: AoE
+    status: estimated
+    src: cikm-2026-dates
+    note_zh: 按 CIKM 2026 官网日期 2026-05-16 顺延。
+  - type: paper
+    at: 2027-05-23T23:59
+    tz: AoE
+    status: estimated
+    src: cikm-2026-dates
+    note_zh: 按 CIKM 2026 官网日期 2026-05-23 顺延。
+  - type: notification
+    at: 2027-08-07
+    tz: AoE
+    status: estimated
+    src: cikm-2026-dates
+    note_zh: 按 CIKM 2026 官网日期 2026-08-07 顺延。
+  - type: camera_ready
+    at: 2027-08-23T23:59
+    tz: AoE
+    status: estimated
+    src: cikm-2026-dates
+    note_zh: 按 CIKM 2026 官网日期 2026-08-23 顺延。
+  - type: conference
+    start: 2027-11-09
+    end: 2027-11-11
+    tz: Australia/Sydney
+    status: estimated
+    src: cikm-2026-dates
+    note_zh: 按 CIKM 2026 主会 2026-11-09–11 顺延；CIKM 2027 会期未公布。
+last_checked: 2026-09-25
+note_zh: CIKM 2027 官网尚未上线；CIKM 系列主页写 “CIKM 2027 will be held in Sydney, Australia”，会期未公布。按 CIKM 2026 官网日期（Full Research Papers）顺延：摘要 5/16、正文 5/23、出结果 8/7、camera-ready 8/23（均为 AoE）；主会按 CIKM 2026 罗马主会 11/9–11 顺延，时区按已公布的举办地悉尼记。

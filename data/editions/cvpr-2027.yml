@@ -3,6 +3,7 @@ series: cvpr
 name: CVPR 2027
 year: 2027
 kind: conference
+topics: [cv]
 location:
   city: Seattle
   country: USA

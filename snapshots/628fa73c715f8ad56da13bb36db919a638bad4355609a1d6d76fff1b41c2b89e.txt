@@ -1,0 +1,206 @@
+* Calls
+ * Committee
+ * Participant Information
+ * Program
+
+Toggle menu
+
+ * Call for
+   * Papers
+      * Overview
+      * Important Dates
+      * Paper Integrity Policies at EACL
+      * Paper Submission Information
+      * Mandatory Reviewing Workload
+      * AI Reviewing Experiment (opt-in)
+      * Submission Topics
+      * EACL 2027 Special Theme: The Human in Language
+      * Two Stage Review: Submission to ARR, Commitment to EACL
+      * Paper Submission Details
+      * Presentation at the Conference
+      * Contact Information
+
+   * Industry Track
+   * System Demonstrations
+   * Tutorials
+   * Workshops
+   * Student Research Workshop
+
+EACL 2027 Call for Papers
+
+Overview
+
+EACL 2027 invites the submission of long and short papers featuring substantial, original, and unpublished research on Natural Language Processing. EACL 2027 has a goal of curating a diverse technical program. In addition to traditional research results, papers may contribute negative findings, survey an area, announce the creation of a new resource, argue a position, report novel linguistic insights derived using existing computational techniques, and reproduce (or fail to reproduce) previous results. We also introduce the Special Theme The Human in Language, which we hope will stimulate exciting research contributions.
+
+As in recent years, some of the presentations at the conference will be of papers accepted by the Transactions of the ACL (TACL) and the Computational Linguistics (CL) journals.
+
+Important Dates
+
+Event                                                 Date
+ARR submission deadline (long & short papers)         Aug 3, 2026
+Reviewer registration deadline for ALL authors        Aug 5, 2026
+Author response period                                Sept 14-19, 2026
+Reviewer engagement and Author-reviewer discussion    Sept 20-24, 2026
+Meta review released                                  October 8, 2026
+EACL 2027 commitment deadline                         October 11, 2026
+Notification of acceptance (long & short papers)      November 12, 2026
+Camera-ready papers due (long & short)                November 26, 2026
+Main Conference (dates for Workshops/Tutorials TBD)   9-14 March, 2027
+
+Note: All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).
+
+Important change: For this cycle, author response and author-reviewer discussion are two separate stages. In the first (Sept 14-19, 2026), authors will take the time to respond to the reviewers; reviewers will not be engaged at this stage. In the second (Sept 20-24, 2026), reviewers and authors will engage in any necessary discussion and reviewers will be able to finalise their reviews. Further details will be provided in due time.
+
+Following the ACL and ARR policies, there is no anonymity period requirement.
+
+Paper Integrity Policies at EACL
+
+Update: EACL Paper Integrity Policy
+
+There is growing concern in our community regarding unethical paper submissions that overwhelm community resources, including but not limited to, thinly sliced contributions, submissions with hallucinated citations, and entirely AI-generated papers (AI writing assistance is permitted). EACL will take actions against such submissions, as well as submissions that violate the ACL Policy on Publication Ethics. Such submissions may be desk rejected, and all authors involved in the submission may be ineligible to commit their paper(s) to EACL 2027 and EACL 2028. Commitment to other *CL conferences during this period might also be forbidden.
+
+Paper Submission Information
+
+Dual submissions are not allowed! Please check the ARR Call for Papers for details. Papers must be submitted, at latest, by the ARR 2026 August cycle. Papers that have received reviews and a meta-review from ARR (whether from the ARR 2026 August cycle or an earlier ARR cycle) may be committed to EACL via the commitment link.
+
+Mandatory Reviewing Workload
+
+All authors are expected to sign up to review, or serve as an Area Chair or Senior Area Chair, with assignments subsequently based on qualifications. After submission, all authors must complete the author registration form by Aug 5, 2026 EoD AoE. If you receive assignments, your reviews must be completed by September 7, or your meta-reviews - by October 2. In case of any emergencies, the chairs should be warned via the emergency declaration form. Exemptions to this policy are detailed in the ARR Author Reviewer Exemption Policy Page.
+
+Highly irresponsible reviewers may be ineligible to (re-)submit or commit their work during the next ARR cycle. The submitting authors should (a) make sure that all other authors are aware of this policy, and (b) check that everybody on their team(s) submits their (meta-)reviews on time and in accordance with the guidelines. You can read additional details on the definition of highly irresponsible reviewers and the corresponding ARR policy here: https://aclrollingreview.org/incentives2025
+
+AI Reviewing Experiment (opt-in)
+
+The Program Committee plans on running an opt-in AI Reviewing Experiment to collect feedback from authors on the utility of AI Reviewers in the review process. The AI Reviews for opted-in submissions will not inform any part of the conference decision process. We will run this experiment under IRB approval, using open-weights models running on in-house compute resources, or closed models that guarantee zero-data retention.
+
+Submission Topics
+
+EACL 2027 aims to have a broad technical program. Relevant topics for the conference include, but are not limited to, the following areas:
+
+ * Clinical and Biomedical Applications
+ * Computational Social Science and Cultural Analytics
+ * Dialogue and Interactive Systems
+ * Discourse and Pragmatics
+ * Efficient Methods for NLP
+ * Ethics, Bias, and Fairness
+ * Generation
+ * Human-Centered NLP and Human-AI Interaction
+ * Information Extraction
+ * Information Retrieval and Text Mining
+ * Interpretability and Analysis of Models for NLP
+ * Language Modeling
+ * LLM Agents
+ * Linguistic Theories, Cognitive Modeling, and Psycholinguistics
+ * Machine Learning for NLP
+ * Machine Translation
+ * Multilingualism and Cross-Lingual NLP
+ * Multimodality and Language Grounding to Vision, Robotics and Beyond
+ * NLP Applications
+ * NLP and Code Models
+ * NLP and Symbolic Reasoning
+ * Phonology, Morphology, and Word Segmentation
+ * Question Answering
+ * Resources and Evaluation
+ * Semantics: Lexical and Sentence-Level
+ * Sentiment Analysis, Stylistic Analysis, and Argument Mining
+ * Speech Recognition, Text-to-Speech and Spoken Language Understanding
+ * Summarization
+ * Syntax: Tagging, Chunking and Parsing
+ * Special Theme: The Human in Language
+
+EACL 2027 Special Theme: The Human in Language
+
+Natural language processing has historically been grounded in the scientific study of human language. Linguistics, psycholinguistics, cognitive science, sociolinguistics, and related disciplines have shaped many of the core concepts underlying NLP, including syntax, semantics, discourse, pragmatics, language acquisition, and communication. Yet, as modern NLP increasingly shifts toward large-scale end-to-end learning and benchmark-driven evaluation, the connection between language technologies and the broader scientific understanding of human language is often becoming less explicit.
+
+The EACL 2027 special theme, The Human in Language, invites papers that explore how the human sciences of language can inform and shape NLP research across the full research cycle: model development, representation learning, data collection and annotation, evaluation, interpretability, interaction, and deployment. We particularly encourage work that brings linguistic and cognitive insights into the design and analysis of NLP systems, develops evaluation methodologies grounded in human language behavior and communication, and revisits foundational questions about what language technologies should model and optimize for.
+
+At the same time, we also welcome work that uses NLP methods and contemporary language models to advance the scientific study of language, cognition, communication, and the brain. However, the central focus of the track is on strengthening the role of language sciences as a source of scientific grounding, methodological guidance, and conceptual insight for NLP itself.
+
+Relevant topics include, but are not limited to:
+
+ * Linguistically informed NLP
+
+   For example, incorporating linguistic structure, compositionality, pragmatics, discourse, multilinguality, or theories of meaning into model architectures, representations, prompting strategies, or training objectives.
+
+ * Human-centered evaluation and annotation
+
+   For example, evaluation methodologies grounded in human communication and cognition; human-informed task design; annotation frameworks derived from linguistic or psycholinguistic theory; communicative grounding; and evaluation beyond benchmark-centric notions of performance.
+
+ * Language models and the scientific study of language
+
+   For example, using NLP models as tools for studying linguistic phenomena, language acquisition, psycholinguistics, discourse, communication, and social interaction; and understanding where current models align with or diverge from human language behavior.
+
+ * Language, the brain, and neuroscience
+
+   For example, computational models of language processing in the brain; neural and behavioral alignment studies; multimodal studies of language understanding; and NLP methods for studying cognition and communication in naturalistic settings.
+
+ * Language, interaction, and society
+
+   For example, conversational alignment, communication in social contexts, language and identity, language and emotion, behavioral modeling through language, and the role of language technologies in human-centered applications.
+
+ * Foundations of language and meaning
+
+   For example, representation of meaning in humans and machines; pragmatics, reference, grounding, ambiguity, context dependence, and philosophical perspectives on language and communication.
+
+This special theme is intended to complement the broad scope of EACL while highlighting the continuing importance of language itself, not merely as large-scale training data, but as a deeply human phenomenon central to communication, cognition, and society. We encourage submissions that combine methodological rigor with broader scientific insight, and that help strengthen the dialogue between NLP and the scientific study of human language.
+
+Two Stage Review: Submission to ARR, Commitment to EACL
+
+EACL 2027 will use ACL Rolling Review (ARR) as a reviewing system, but final decisions will be made by the conference. Both submissions of articles for review and commitment of reviewed articles to the conference will be performed via the Open Review platform. Specifically, authors will follow a two-step process:
+
+ * Authors submit articles to ARR, where submissions receive reviews and meta-reviews from ARR reviewers and action editors;
+ * Authors commit their reviewed articles to a publication venue (e.g., EACL 2027), where Senior Area Chairs and Program Chairs make acceptance decisions from the ARR reviews and meta-reviews.
+
+Authorship during commitment. During the commitment phase, it is not allowed to modify the author list (i.e., addition/deletion of authors is not allowed). However, modification of author order is possible.
+
+EACL 2027 has chosen this approach in coordination with *CL 2027 conferences, which are adopting the same procedure and a coordinated submission plan to allow maximum flexibility during their submission periods for the authors. At each cycle, after a paper has been fully reviewed, authors have the option to commit their paper to a conference, or revise and resubmit for another round of reviews.
+
+The reviewing process will continue to be double-blind. Reviewers will not see authors, nor will authors see reviewers and reviews on ARR will not be made publicly visible. However, authors will be given the option through ARR to make their anonymized submitted articles publicly visible.
+
+Paper Submission Details
+
+Both long and short paper submissions should follow all of the ARR submission requirements, including:
+
+ * Long Papers (8 pages) and Short Papers (4 pages)
+ * Instructions for Two-Way Anonymized Review
+ * Authorship
+ * Citation and Comparison
+ * Multiple Submission Policy, Resubmission Policy, and Withdrawal Policy
+ * ACL’s Publication Ethics Policy, and ARR’s Ethics Policy including the responsible NLP research checklist
+ * ACL’s Disclosure Policy
+ * Limitations
+ * Writing Assistance
+ * Paper Submission and Templates
+ * Optional Supplementary Materials
+
+Final versions of accepted papers will be given one additional page of content (up to 9 pages for long papers, up to 5 pages for short papers) to address reviewers’ comments.
+
+Presentation at the Conference
+
+All accepted papers must be presented at the conference to appear in the proceedings. The conference will include both in-person and virtual presentation options. Papers without at least one presenting author registered by the early registration deadline may be subject to rejection. Long and short papers will be presented orally or as posters as determined by the program committee. While short papers will be distinguished from long papers in the proceedings, there will be no distinction in the proceedings between papers presented orally and papers presented as posters.
+
+Contact Information
+
+General Chair:
+
+ * Isabelle Augenstein, University of Copenhagen
+
+Program Chairs:
+
+ * Malvina Nissim, University of Groningen
+ * Roi Reichart, Technion – Israel Institute of Technology
+ * Sara Tonelli, Fondazione Bruno Kessler
+
+For questions related to paper submission, and the review process in general, email: editors@aclrollingreview.org
+
+For questions about commitment and post review related topics, email: eacl2027-pcs@googlegroups.com
+
+ * Follow:
+ * Twitter
+ * Bluesky
+ * Facebook
+ * LinkedIn
+ * GitHub
+ * Feed
+
+© 2027 EACL. Powered by Jekyll & Minimal Mistakes.

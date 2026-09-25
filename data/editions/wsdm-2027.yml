@@ -1,0 +1,44 @@
+id: wsdm-2027
+series: wsdm
+name: WSDM 2027
+year: 2027
+kind: conference
+topics: [dm]
+location: { city: Hong Kong, country: China }
+dates: { start: 2027-02-15, end: 2027-02-19 }
+milestones:
+  - type: abstract
+    at: 2026-08-17T23:59
+    tz: AoE
+    status: confirmed
+    src: wsdm-2027-cfp
+    quote: "Abstract deadline*Aug 17, 2026"
+    note_zh: 官网写所有截止为 11:59 pm AoE；摘要截止后不能增删作者。
+  - type: paper
+    at: 2026-08-24T23:59
+    tz: AoE
+    status: confirmed
+    src: wsdm-2027-cfp
+    quote: "Paper submission deadlineAug 24, 2026"
+  - type: notification
+    at: 2026-11-02
+    tz: AoE
+    status: confirmed
+    src: wsdm-2027-cfp
+    quote: "NotificationNov 2, 2026"
+    note_zh: 官方只给日期、未给时刻。未进主会的论文会在同一审稿流程里考虑 Findings track。
+  - type: camera_ready
+    tz: AoE
+    status: tba
+    src: wsdm-2027-cfp
+    note_zh: 官网写 “Camera-readyTBD”。
+  - type: conference
+    start: 2027-02-15
+    end: 2027-02-19
+    tz: Asia/Hong_Kong
+    status: confirmed
+    src: wsdm-2027-home
+    quote: "Date: February 15–19, 2027"
+    note_zh: 地点为香港旺角 Cordis 酒店。
+last_checked: 2026-09-25
+note_zh: 长文投稿已于 2026-08-24 截止（CFP 页写 “Full paper submissions are closed.”），这条只用于已投稿件查看出结果日期。下一届见 wsdm-2028。

@@ -1,0 +1,35 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: wacv-2027
+sources:
+  - id: wacv-2027-dates
+    url: https://wacv.thecvf.com/Conferences/2027/Dates
+    title: WACV 2027 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:02:54Z
+    http_status: 200
+    snapshot: d62969cc7c2d7d1879a226348f07d9f700d2b9e236e2ebd35e352b7d19eeadcd
+    note_zh: 两轮投稿的完整日程，均注明 Anywhere on Earth。Round 1 出审稿与初步决定写 Aug 09，与 CFP 和作者指南的 August 7 不一致。
+  - id: wacv-2027-cfp
+    url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    title: WACV 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T23:02:55Z
+    http_status: 200
+    snapshot: 1279ffd78af51c88619853d13ea01c1fea650507d1790c52ab7f59b5ab1e4d0e
+    note_zh: CFP 的 Deadlines 一节，注明 "All deadline dates are Anywhere on Earth"。Round 1 出审稿写 August 7th（Dates 页为 Aug 09）。
+  - id: wacv-2027-author-guidelines
+    url: https://wacv.thecvf.com/Conferences/2027/AuthorGuides
+    title: WACV 2027 Author Guidelines
+    kind: author_guide
+    fetched_at: 2026-09-24T23:02:56Z
+    http_status: 200
+    snapshot: 77556f2c59df17a26c29b891a461c36841735a239c86146e4b87d5d8b0eb8bab
+    note_zh: 作者指南（页面路径是 AuthorGuides，AuthorGuidelines 为 404）：两轮审稿流程、Round 1 三种决定、作者注册截止 11/2。Round 1 出审稿同样写 August 7。
+  - id: wacv-2027-home
+    url: https://wacv.thecvf.com/Conferences/2027
+    title: WACV 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T23:02:57Z
+    http_status: 200
+    snapshot: 34e1f1cf1f84d28143000db6fd0b653ea3d4be3443b9b95e2781b55032c90352
+    note_zh: 官网首页：地点 Disney Springs, Buena Vista, FL，会期 1/4–8（1/4–5 workshop，1/6–8 主会）。

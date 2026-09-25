@@ -48,6 +48,12 @@
       "type": "string",
       "minLength": 4
     },
+    "short_zh": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 16,
+      "description": "≤16 字的短标签，用于手机列表行"
+    },
     "answer": {
       "enum": [
         "required",

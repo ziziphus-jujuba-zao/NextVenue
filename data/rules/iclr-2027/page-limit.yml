@@ -2,6 +2,7 @@ id: iclr-2027/page-limit
 edition: iclr-2027
 family: format
 question_zh: 投稿时正文必须控制在 9 页以内吗？
+short_zh: 正文 9 页上限
 answer: required
 verification: human
 conf: high

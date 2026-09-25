@@ -5,7 +5,7 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "lib": ["ES2022", "DOM"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "types": ["node"],
     "strict": true,
     "noUncheckedIndexedAccess": true,
@@ -16,5 +16,5 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["packages/*/src", "packages/*/test", "scripts"]
+  "include": ["packages/*/src", "packages/*/test", "scripts", "apps/mobile"]
 }

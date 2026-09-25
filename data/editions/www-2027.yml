@@ -1,0 +1,60 @@
+id: www-2027
+series: www
+name: The Web Conference 2027 (WWW 2027)
+year: 2027
+kind: conference
+topics: [dm]
+location: { city: Dublin, country: Ireland }
+dates: { start: 2027-05-10, end: 2027-05-14 }
+milestones:
+  - type: abstract
+    at: 2026-10-18T23:59
+    tz: AoE
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "Abstract Submission Deadline 18 October 2026"
+    note_zh: Research 与 Industry track 长文。Important Dates 页同样写 18 October 2026，并注明所有截止为 11:59 PM AoE。
+  - type: paper
+    at: 2026-10-25T23:59
+    tz: AoE
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "Full Paper Submission Deadline 25 October 2026"
+  - type: reviews_out
+    at: 2026-12-15
+    tz: AoE
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "Results Release 15 December 2026"
+    note_zh: 官方只给日期、未给时刻。
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2026-12-15
+    end: 2026-12-20T23:59
+    tz: AoE
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "Research & Industry Track Paper Rebuttal Period 15-20 December 2026"
+    note_zh: 官方只给日期；CFP 写明作者只能单次回复，不与审稿人来回讨论。
+  - type: notification
+    at: 2027-01-04
+    tz: AoE
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "Notification 04 January 2027"
+    note_zh: 官方只给日期、未给时刻。
+  - type: camera_ready
+    at: 2027-01-31T23:59
+    tz: AoE
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "Research & Industry Track Paper Final Version Deadline 31 January 2027"
+  - type: conference
+    start: 2027-05-10
+    end: 2027-05-14
+    tz: Europe/Dublin
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "ACM Web Conference in Dublin 10-14 May 2027"
+last_checked: 2026-09-25
+note_zh: 这里是 Research 与 Industry track 长文的时间线。短文另有日程：摘要 2026-11-09、正文 11-16、出结果 2027-01-04（同一 CFP 页）。

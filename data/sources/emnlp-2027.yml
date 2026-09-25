@@ -1,0 +1,19 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: emnlp-2027
+sources:
+  - id: emnlp-2026-dates
+    url: https://2026.emnlp.org/
+    title: EMNLP 2026 Home (Important Dates)
+    kind: dates
+    note_zh: 上一届（EMNLP 2026）官网首页的 Important Dates，用作 EMNLP 2027 推算依据。作者回复写 July 7 - July 13，ARR 日期页对 2026 年 5 月轮写 July 8-July 14。2026-09-25 时 2027.emnlp.org 域名无法解析，快照工具无法记录。
+    fetched_at: 2026-09-24T23:02:22Z
+    http_status: 200
+    snapshot: b6fbbad5d565ada9eccddbbddd9faa3b561d6a23d3ce5cd06ee82d8078065960
+  - id: emnlp-2026-cfp
+    url: https://2026.emnlp.org/calls/main_conference_papers/
+    title: EMNLP 2026 Call for Main Conference Papers
+    kind: cfp
+    note_zh: "上一届（EMNLP 2026）CFP，日期与官网首页一致；写明 ARR 2026 年 5 月轮同时对应 EMNLP 和 AACL，投稿时须声明要 commit 的会议。"
+    fetched_at: 2026-09-24T23:07:44Z
+    http_status: 200
+    snapshot: 7be2233e62f9a8fd06625d23ee6a17a2708f3f08d4275bec77191113a209ad64

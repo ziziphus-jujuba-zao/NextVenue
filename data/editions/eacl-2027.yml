@@ -1,0 +1,70 @@
+id: eacl-2027
+series: eacl
+name: EACL 2027
+year: 2027
+kind: conference
+topics: [nlp]
+location: { city: Athens, country: Greece }
+dates: { start: 2027-03-09, end: 2027-03-14 }
+milestones:
+  - type: paper
+    label_zh: ARR 投稿截止（2026 年 8 月轮）
+    at: 2026-08-03T23:59
+    tz: AoE
+    status: confirmed
+    src: eacl-2027-cfp
+    quote: "ARR submission deadline (long & short papers) Aug 3, 2026"
+    note_zh: 投稿到 ARR 2026 年 8 月轮，已截止。更早轮次已拿到审稿和 meta-review 的稿件仍可在 commit 截止前 commit 到 EACL 2027。
+  - type: author_response
+    start: 2026-09-14
+    end: 2026-09-19
+    tz: AoE
+    status: confirmed
+    src: eacl-2027-cfp
+    quote: "Author response period Sept 14-19, 2026"
+    note_zh: 这一轮作者回复和讨论分两段：先由作者回复（审稿人不参与），再进入讨论。
+  - type: discussion
+    label_zh: 审稿人参与与作者-审稿人讨论
+    start: 2026-09-20
+    end: 2026-09-24
+    tz: AoE
+    status: confirmed
+    src: eacl-2027-cfp
+    quote: "Reviewer engagement and Author-reviewer discussion Sept 20-24, 2026"
+  - type: meta_reviews
+    at: 2026-10-08
+    tz: AoE
+    status: confirmed
+    src: eacl-2027-cfp
+    quote: "Meta review released October 8, 2026"
+    note_zh: ARR 日期页对 8 月轮也写 October 8。
+  - type: commitment
+    at: 2026-10-11T23:59
+    tz: AoE
+    status: confirmed
+    src: eacl-2027-cfp
+    quote: "EACL 2027 commitment deadline October 11, 2026"
+    note_zh: ARR 日期页也把 EACL 2027 的 commit 日期列为 October 11, 2026。
+  - type: notification
+    at: 2026-11-12
+    tz: AoE
+    status: confirmed
+    src: eacl-2027-cfp
+    quote: "Notification of acceptance (long & short papers) November 12, 2026"
+    note_zh: 官方只给日期、未给时刻；页面的 AoE 说明针对截止日期，这里沿用。
+  - type: camera_ready
+    at: 2026-11-26T23:59
+    tz: AoE
+    status: confirmed
+    src: eacl-2027-cfp
+    quote: "Camera-ready papers due (long & short) November 26, 2026"
+  - type: conference
+    start: 2027-03-09
+    end: 2027-03-14
+    tz: Europe/Athens
+    status: confirmed
+    src: eacl-2027-home
+    quote: "EACL 2027 will proudly be hosted in the historic and vibrant city of Athens, Greece, from March 9–14, 2027."
+    note_zh: CFP 写主会 “9-14 March, 2027”，workshop 和 tutorial 日期待定。
+last_checked: 2026-09-25
+note_zh: 经 ACL Rolling Review 投稿：ARR 2026 年 8 月轮（8/3 截止）出审稿和 meta-review，再 commit 到 EACL 2027 决定录用。投稿已截止，commit 截止 10/11 仍未到。

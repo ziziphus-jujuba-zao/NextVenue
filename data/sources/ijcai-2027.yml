@@ -1,0 +1,26 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ijcai-2027
+sources:
+  - id: ijcai-2027-future-conferences
+    url: https://www.ijcai.org/future_conferences
+    title: IJCAI Future Conferences
+    kind: other
+    fetched_at: 2026-09-24T23:04:03Z
+    http_status: 200
+    snapshot: 4c635bbe16ac9e42bd517605aa2ef60daef02d2138eb990fcdd0aaf03cdcd76e
+    note_zh: 公布 IJCAI-27 两地举办：京都 8/7–13、横琴 8/15–17。
+  - id: ijcai-2027-home
+    url: https://2027.ijcai.org/
+    title: IJCAI 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T23:04:04Z
+    http_status: 401
+    note_zh: 2026-09-25 返回 401（需要登录），会议网站尚未公开，征稿未发布。
+  - id: ijcai-2026-dates
+    url: https://2026.ijcai.org/important-dates
+    title: IJCAI-ECAI 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:04:07Z
+    http_status: 200
+    snapshot: 2d0fdd05ba387688882e56309bf78e9d53561ab66d10b6d5026106d8b2d3d905
+    note_zh: 上一届（IJCAI-ECAI 2026）日期页，作为 ijcai-2027 推算日期的依据（主 track 摘要 1/12、正文 1/19、Phase I 3/4、出结果 4/29，均 23:59 AoE）。

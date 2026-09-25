@@ -2,6 +2,7 @@ id: iclr-2027/reviewer-llm-policy
 edition: iclr-2027
 family: llm_policy
 question_zh: 作者兼审稿人写审稿时用 LLM 出了问题，会连累自己的论文吗？
+short_zh: 审稿用 LLM 的后果
 answer: conditional
 verification: human
 conf: high

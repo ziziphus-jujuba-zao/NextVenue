@@ -1,0 +1,224 @@
+Skip to content
+KDD 2027
+
+KDD 2027 | San Jose
+
+ * Calls
+   * Research Track: Call for Papers
+   * Applied Data Science (ADS) Track: Call for Papers
+   * Datasets and Benchmarks Track: Call for Papers
+   * AI for Sciences Track: Call for Papers
+ * Program
+ * Attending
+   * Registration
+   * Hotel Information
+ * KDD Cup
+ * Sponsors
+ * Organizers
+   * Organizing Commitee
+ * FAQ
+
+ * Calls
+   * Research Track: Call for Papers
+   * Applied Data Science (ADS) Track: Call for Papers
+   * Datasets and Benchmarks Track: Call for Papers
+   * AI for Sciences Track: Call for Papers
+ * Program
+ * Attending
+   * Registration
+   * Hotel Information
+ * KDD Cup
+ * Sponsors
+ * Organizers
+   * Organizing Commitee
+ * FAQ
+
+Research Track: Call for Papers
+
+KDD is the premier Data Science and AI conference with a Research track, an Applied Data Science Track, a Datasets & Benchmarks Track, and an AI for Sciences Track. The conference will take place in August 2027 in San Jose, California. KDD has two submission cycles per year. This call details the CFP for the first cycle and invites submissions for the Research Track. Authors should pay special attention to which track is most appropriate; papers may only be submitted to a single track and there are no transfers between tracks.
+
+The important dates for the KDD 2027 First Cycle are:
+
+ * Abstract Deadline: July 19, 2026
+
+ * Paper Deadline: July 26, 2026
+
+ * Author Rebuttal Period: September 29-October 13, 2026
+
+ * Notification: November 14, 2026
+
+All deadlines are end-of-day in the Anywhere on Earth (AoE) time zone.
+
+Submission Site
+
+We will use OpenReview to manage the submissions and reviewing. Submissions will not be made public on OpenReview during the reviewing period.
+
+All listed authors must have an up-to-date OpenReview profile. Here is information on how to create an OpenReview profile. Note OpenReview’s moderation policy for newly created profiles:
+
+ * New profiles created without an institutional email will go through a moderation process that can take up to two weeks.
+
+ * New profiles created with an institutional email will be activated automatically.
+
+The OpenReview profile will be used to handle conflict of interest and paper matching. An incomplete OpenReview profile is sufficient ground for desk rejection.
+
+To be considered complete, each author profile must be properly attributed with the following mandatory fields: current and past institutional affiliation (going back at least 5 years), homepage, DBLP (if there is prior publication), ORCID, Advisors and Recent Publications (if any). In addition, other fields such as Google Scholar, LinkedIn, Semantic Scholar, Advisees and Other Relations should be entered wherever applicable.
+
+Abstracts and papers can be submitted through OpenReview at this link: KDD 2027 Research Track (First Cycle) | OpenReview
+
+Scope
+
+For the Research track, we invite submission of papers describing innovative research on all aspects of knowledge discovery, data science and AI, ranging from theoretical foundations to novel models and algorithms for applied problems in science, business, medicine, and engineering. Visionary papers on new and emerging topics are also welcome, as are application-oriented papers that make innovative technical contributions to research. Topics of interest include, but are not limited to:
+
+ * Foundations of Knowledge Discovery and Data Science. Submissions are invited to discuss core models, algorithms, and theoretical insights for knowledge discovery. Topics may include data-driven learning and structured knowledge extraction, including supervised, unsupervised, semi-supervised, and self-supervised learning, classification, regression, clustering, and dimensionality reduction; model selection and optimization; probabilistic and statistical methods (e.g., Bayesian inference, graphical models); matrix and tensor methods; structured and relational learning from data.
+
+ * Modern AI and Big Data. Submissions are invited to elaborate on the intersection of AI and massive data repositories. Topics may include deep representation learning, meta-learning, in-context learning, prompt engineering, continual learning, few-shot adaptation, reinforcement learning, generation, and reasoning, including generative models (e.g., GANs, VAEs), large language models (LLMs), multimodal foundation and frontier models operating on big data; AI’s role in emergent reasoning, automated insight generation, knowledge graph construction, hypothesis generation, neural-symbolic integration, and deriving novel concepts from large complex data.
+
+ * Trustworthy and Responsible Data Science. Submissions are invited to feature techniques and frameworks that ensure responsible data use, management, and analysis. Topics may include data security, data privacy, data transparency, accountability in data-driven systems, privacy-preserving learning, adversarial robustness, interpretability and explainability of models, decision support visualization, fairness in data mining, ethical data processing, algorithmic auditing, and frameworks for responsible AI development and deployment.
+
+ * Systems for Data Science and Scalable AI. Submissions that detail new architectures, systems, and infrastructures for large-scale data analysis and machine learning (e.g., distributed computing, federated learning, cloud-based systems) are invited. Topics may include efficient approaches to support high-volume data analysis, streaming, sampling, and summarization, data integration, transformation, and cleaning at scale, and data mining and machine learning for systems—machine learning for database management, learning device placement, orchestration, and scheduling of computational and data workflows.
+
+ * Data Science Applications. Submissions are invited for innovative data science and artificial intelligence (AI) applications. Topics may include methods for analyzing social science, and legal data, as well as time series, text, graphs, Internet of Things (IoT) data, and more. We also welcome contributions on recommender systems. New directions that push the boundaries of data science applications are of particular interest, such as quantum data science, including algorithms and information-theoretic approaches for quantum machine learning and data processing in quantum systems.
+
+For additional application domains from the physical and biological sciences and biomedical applications, we’d like to draw attention to the AI for Sciences track at KDD2027! Applications with strong relationships and applications to physical, biological and biomedical science domains are encouraged to consider this track.
+
+Papers that describe general methodologies that may apply in science as well as other KDD domains should continue to submit to the research track.
+
+Survey papers that seek to provide a comprehensive understanding of the current state of research on a specific topic, rather than to contribute a novel intellectual contribution, is out of scope.
+
+Submission Guidelines
+
+Deadlines. The submission deadlines are strict and no extensions, regardless of circumstances, will be allowed.
+
+No placeholder abstracts. Placeholder or dummy abstracts are forbidden. Large changes to the title and abstract may result in a desk rejection.
+
+Authorship. The ACM has an authorship policy stating who can be considered an author in a submission as well as the use of generative AI tools. Every person named as the author of a paper must have contributed substantially to the work described in the paper and/or to the writing of the paper and must take responsibility for the entire content of a paper.
+
+Maximum authorship. In the research track, the number of submissions allowed per author is limited to 7 (seven) maximum per cycle.
+
+If more than 7 papers are submitted with the same person listed as an author, the additional papers submitted after the first 7 by submission id, will be desk-rejected.
+
+Authorship changes. The full list of author names, including the ordering, must be finalized by the abstract submission deadline. There cannot be any addition, removal, or reordering of authors after the abstract submission deadline.
+
+Anonymity. The review process for the research track will be double-blind. The submitted document should omit any author names, affiliations, or other identifying information. This may include, but is not restricted to acknowledgments, self-citations, references to prior work by the author(s), and so on. Please use the third-person to refer to your own prior work. You may explicitly refer in the paper to organizations that provided datasets, hosted experiments, or deployed solutions and tools.
+
+Formatting Requirements. Submissions must be in English, in double-column format, and must adhere to the ACM template and format (also available in Overleaf); Word users may use the Word Interim Template. The recommended setting for LaTeX is:
+
+\documentclass[sigconf,anonymous,review]{acmart}
+
+Submissions must be a single PDF file: 8 (eight) content pages as main paper, followed by references and an optional Appendix that has no page limits. The Appendix must follow the same format as the body of the paper. The Appendix can contain details on reproducibility, proofs, pseudo-code, etc. The first 8 pages should be self-contained, since reviewers are not required to read past that. Note that different limits will apply to camera-ready (see below).
+
+Papers in violation of these formatting requirements will be desk-rejected.
+
+Originality and Concurrent Submissions. Submissions must present original work—this means that papers under review at or published/accepted to any peer-reviewed conference/journal with published proceedings cannot be submitted. Submissions that have been previously presented orally, as posters or abstracts-only, or in non-archival venues with no formal proceedings, including workshops or PhD symposia without proceedings, are allowed. Authors may submit anonymized work that is already available as a preprint (e.g., on arXiv or SSRN) without citing it. The ACM has a strict policy against plagiarism, misrepresentation, and falsification that applies to all publications.
+
+Resubmission Guidelines. A paper that receives a Resubmit decision during the 2026 Cycle 2 period may submit a revised version to the KDD 2027 (Cycle 1) deadline. A paper that was either rejected or withdrawn after receiving its reviews during the 2026 second cycle deadline should not submit a revision, and should not be re-submitted as a fresh submission to the KDD 2027 (Cycle 1) deadline. Please also refer to the FAQ for Resubmission.
+
+Resubmission must be indicated upon submission, along with the OpenReview forum id of the previous submission. The resubmission should also include a one-page summary of changes as the first page of the submitted PDF. While this summary page will not be counted in the limit of 8 content pages, exceeding the first page will be considered a violation.
+
+The reviewers/AC/SAC will have visibility of the previous submission and reviews. We anticipate that Resubmit papers that address the previously noted concerns appropriately would have a higher acceptance rate than fresh submissions, owing to the former’s selectivity and potential improvements.
+
+Correspondingly, some of the new submissions to the July 2026 deadline may receive a Resubmit decision for the February 2027 deadline.
+
+Serving as Reviewer. To ensure that all papers receive a sufficient number of high quality reviewers, there is a requirement for authors to contribute to reviewing.
+
+ * Every submission must nominate at least one author who is a qualified reviewer (i.e., authors with at least three papers in KDD or other related conferences). Only if no qualified reviewer exists in the author list, nominate the best-qualified author for consideration by the PC chairs.
+
+ * Any author listed on 3 or more papers may be automatically signed up as a reviewer unless they are already serving as a reviewer, AC, or SAC.
+
+Either case above constitutes an acceptance and a commitment to carry out the regular reviewing load responsibly.
+
+Authors who are also reviewers will not see the reviews of their own submission(s) unless they have completed all assigned reviews. If reviews are late, the reviewers and their co-authors will lose access to the reviews of their own papers until completion of their professional reviews.
+
+Ethical Use of Data and Informed Consent. Authors are encouraged to include a section on the ethical use of data and/or informed consent of research subjects in their paper, when appropriate. You and your co-authors are subject to all ACM Publications Policies, including ACM’s Publications Policy on Research Involving Human Participants and Subjects (posted in 2021). Please ensure all authors are familiar with these policies.
+
+Please consult the regulations of your institution(s) indicating when a review by an Institutional Ethics Review Board (IRB) is needed. Note that submitting your research for approval by such may not always be sufficient. Even if such research has been approved by your IRB, the program committee might raise additional concerns about the ethical implications of the work and include these concerns in its review.
+
+Submissions that do not follow these guidelines or do not view or print properly, will be desk-rejected.
+
+Reviewing Process
+
+Reviewing. Each submission will receive at least three independent reviews, overseen by an Area Chair (AC). If any author of a submission, who is also a reviewer, does not carry out the reviewing task in a proper and timely manner, no author of that submission will see the reviews of that submission during the rebuttal stage.
+
+Any use of generative AI tools during the reviewing process must be disclosed in the review form. In particular, verbatim uploading of any passage from the paper being reviewed to any generative AI tool is forbidden.
+
+Rebuttal. Authors will have the chance to provide a response to each review during the rebuttal period. The ACs will consider the authors’ response to the points raised by the reviewers, as well as discussion among reviewers, to inform acceptance decisions.
+
+Withdrawal. Authors may use the withdrawal button on OpenReview at any time. If withdrawal is made after reviews have been revealed to authors, the paper will face a 12-month waiting period before it could be submitted to KDD again.
+
+Decision. A range of factors including technical merit, originality, potential impact, quality of execution, quality of presentation, related work, reproducibility of results, and ethics, will be used by the ACs to make a recommendation. The PC Chairs will make the final decisions.
+
+Transparency. By submitting paper(s) to KDD 2027, the authors agree that the original submission, reviews, meta-reviews, and discussions will be made public in OpenReview for all accepted papers.
+
+Conflict of Interest (COI) Policy
+
+All authors and reviewers must declare conflicts of interest in OpenReview. A domain conflict (entered in Education & Career History) must be declared for employment at the same institution or company, regardless of geography/location, currently or in the last 12 months. A personal conflict should be declared when the following associations exist:
+
+ * candidate for employment at the same institution or company
+
+ * co-author on book/paper or co-PI on a funded grant/research proposal in the last 24 months
+
+ * active collaborator
+
+ * family relationship or close personal relationship
+
+ * graduate advisee/advisor relationship, regardless of time elapsed since graduation
+
+ * deep personal animosity
+
+In general, we expect authors, PC, the organizing committee, and other volunteers to adhere to ACM’s Conflict of Interest Policy as well as the ACM’s Code of Ethics and Professional Conduct.
+
+Any transgression that falls short of ethical standards will be investigated and may face disciplinary actions. Such transgressions include, but are not limited to, falsification, dual submission, collusion, pressuring any member of the program committee. Convicted misconduct may result in a 3-year ban from SIGKDD events for all the authors.
+
+To assess and be able to exclude CFP violations, authors must give consent to the SIGKDD to process and share their submission and other relevant data pertaining to the submission such as authors’ names, affiliations, and email addresses to related conference organizations. Any and all data will be processed by only the respective Program Chairs and the Ethics Committee Members.
+
+Publication and Presentation Policies
+
+Publication. All accepted papers will be allowed the same maximum page length in the proceedings (12 pages, of which 9 are content pages), which will be published by ACM and will be accessible via the ACM Digital Library. That is, while we allow one more content page for accepted papers to incorporate reviewer feedback and enhance the quality of their papers, we limit the references and Appendix to only 3 pages. Accepted papers will require a further revision to meet the requirements of the camera-ready format required by ACM. Camera-ready versions of accepted papers can and should include all information to identify authors, and should acknowledge any funding received that directly supported the presented research. The rights retained by authors who transfer copyright to ACM can be found here.
+
+Reproducibility. In their submission, authors may refer to an anonymized GitHub repository, though not strictly required, it is highly recommended. After the submission deadline, there will be no further opportunity to share this with reviewers during the review process, as rebuttals and discussions will not allow hyperlinks.
+
+Upon acceptance, authors are strongly encouraged to make their code and data publicly available. We are promoting the use of the “Artifacts Available” badge in ACM Digital Library. If you release any code, dataset, or similar artifact to accompany your paper, and host it in a publicly available, archival repository for research artifacts that provides a Document Object Identifier (DOI), you are welcome to apply for this badge.
+
+There will be two rounds of applications for the badge:
+
+ * Upon submission, authors can pledge that they will make their artifacts available upon publication. This pledge will be revealed to reviewers, who may consider this commitment positively. An accepted paper that later reneges on its pledge may have its acceptance retracted.
+
+ * Upon acceptance, authors who have not made such a pledge during submission, would still be welcome to apply for this badge during the camera-ready preparations.
+
+An artifact evaluation committee will check the artifacts of all accepted papers for availability and relatedness to the paper after the acceptance notification.
+
+Registration. To be included in the proceedings, every accepted paper must be covered by a distinct conference registration, e.g., two multi-authored papers require two registrations, even if they have overlapping authors. This registration must be Full Conference (5-day) registration, at the standard (non-student) in-person rate, payment of which must be completed by the specified deadline. This registration requirement applies universally, regardless of attendance or presentation mode.
+
+Presentation. Every accepted paper must be presented at the conference. Only a portion of accepted papers will be selected to present orally at the conference. No-show papers may be withdrawn from the conference program and proceedings where it applies.
+
+Official Publication Date. The official publication date is the date the proceedings are made available in the ACM Digital Library. This date for KDD 2027 will be confirmed at a later stage. The official publication date affects the deadline for any patent filings related to published work.
+
+Important update on ACM’s open access publishing model for 2027 ACM Conferences!
+
+All ACM publications, including those from ACM-sponsored conferences, are 100% Open Access. Authors have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With approximately 3,000 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 76%).
+
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy. Please keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+
+To support authors and institutions as they continue to adapt to ACM’s Open Access publishing model, the ACM Council has approved subsidized APC rates for calendar year 2027, allowing more time for institutions to join ACM Open. The subsidy will offer:
+
+ * $500 APC for ACM/SIG members
+
+ * $750 APC for non-members
+
+This represents a 29% discount off current APC list pricing, funded directly by ACM. Authors are encouraged to help advocate for their institutions to join ACM Open during this transition period.
+
+This temporary subsidized pricing will apply to all conferences scheduled for 2027.
+
+Program Committee Co-Chairs
+
+Email: kdd27-research-chairs@acm.org
+
+James Caverlee (Texas A&M University)
+
+Jingrui He (University of Illinois Urbana-Champaign)
+
+Xiangliang Zhang (University of Notre Dame)
+
+KDD 2027 | San Jose
+
+All rights reserved

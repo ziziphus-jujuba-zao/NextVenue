@@ -2,6 +2,7 @@ id: arr-2026-10/resubmission-score-block
 edition: arr-2026-10
 family: resubmission
 question_zh: meta-review 分数低会限制重投吗？1.5 分和 1 分分别怎样？
+short_zh: 低分后重投
 answer: contradictory
 verification: human
 conf: high

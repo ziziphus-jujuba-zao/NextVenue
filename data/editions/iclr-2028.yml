@@ -1,0 +1,42 @@
+id: iclr-2028
+series: iclr
+name: ICLR 2028
+year: 2028
+kind: conference
+topics: [ml, ai]
+derived_from: iclr-2027
+ranks:
+  ccf: A
+  ccf_edition: 7
+milestones:
+  - type: abstract
+    at: 2027-09-18T23:59
+    tz: AoE
+    status: estimated
+    src: iclr-2027-dates
+    quote: "Abstract Deadline Sep 18 '26 (Anywhere on Earth)"
+    note_zh: 推算值：ICLR 2027 官网摘要截止为 2026-09-18 AoE，顺延一年。
+  - type: paper
+    at: 2027-09-25T23:59
+    tz: AoE
+    status: estimated
+    src: iclr-2027-dates
+    quote: "Paper Deadline Sep 25 '26 (Anywhere on Earth)"
+    note_zh: 推算值：ICLR 2027 官网正文截止为 2026-09-25 AoE，顺延一年。
+  - type: notification
+    at: 2027-12-16
+    tz: AoE
+    status: estimated
+    src: iclr-2027-dates
+    quote: "Final Decisions Dec 16 '26"
+    note_zh: 推算值：ICLR 2027 官网出结果为 2026-12-16，顺延一年；时区沿用 ICLR 2027 CFP 的 UTC-12 约定。
+  - type: conference
+    start: 2028-04-26
+    end: 2028-04-30
+    tz: AoE
+    status: estimated
+    src: iclr-2027-home
+    quote: "April 26-30, 2027"
+    note_zh: 推算值：按 ICLR 2027 会期 4/26–30（含 workshop）顺延一年。ICLR 2028 的地点未公布，时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: 按 ICLR 2027 官网日期顺延：摘要 9/18、正文 9/25、出结果 12/16（均为 AoE），会期按 2027 的 4/26–30。2026-09-25 查询时 ICLR 2028 页面仍为 404，官网 Future Meetings 页也没有 2028 的信息。CCF 等级沿用 iclr-2027 的记录。

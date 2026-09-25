@@ -2,6 +2,7 @@ id: cvpr-2027/author-order-freeze
 edition: cvpr-2027
 family: author_list
 question_zh: 正文截止（11/16）后还能调整作者顺序吗，录用后呢？
+short_zh: 调整作者顺序
 answer: contradictory
 verification: inherited
 inherited_from: cvpr-2026

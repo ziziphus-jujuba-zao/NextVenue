@@ -1,0 +1,19 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: rss-2027
+sources:
+  - id: rss-2027-home
+    url: https://roboticsconference.org/
+    title: RSS 2027 Home (Call for Participation)
+    kind: cfp
+    fetched_at: 2026-09-24T23:04:08Z
+    http_status: 200
+    snapshot: 9f0d3dd4eeac16cbe1e6a13c3b1a60fba6a2316906c50d90de10adaf9f17eb21
+    note_zh: 已公布会期 7/6–11 和地点雅典；时间线各项日期都是 TBA，时区列已写 11:59pm AoE。
+  - id: rss-2026-dates
+    url: https://roboticsconference.org/2026/information/cfp/
+    title: RSS 2026 Call for Papers (Important Dates)
+    kind: cfp
+    fetched_at: 2026-09-24T23:04:09Z
+    http_status: 200
+    snapshot: 4c3b137e25883603800d6494bf7699a3894bf31679d64f4d3db3594e9ac86a0c
+    note_zh: 上一届 CFP 的时间线，用作 RSS 2027 日期推算依据。

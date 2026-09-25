@@ -1,0 +1,39 @@
+id: aistats-2028
+series: aistats
+name: AISTATS 2028
+year: 2028
+kind: conference
+topics: [ml, ai]
+derived_from: aistats-2027
+milestones:
+  - type: abstract
+    at: 2027-09-29T23:59
+    tz: AoE
+    status: estimated
+    src: aistats-2027-dates
+    quote: "Abstract submission deadline: September 29, 2026"
+    note_zh: 推算值：AISTATS 2027 官网摘要截止为 2026-09-29 AoE，顺延一年。
+  - type: paper
+    at: 2027-10-06T23:59
+    tz: AoE
+    status: estimated
+    src: aistats-2027-dates
+    quote: "Paper submission deadline: October 6, 2026"
+    note_zh: 推算值：AISTATS 2027 官网正文截止为 2026-10-06 AoE，顺延一年。
+  - type: notification
+    at: 2028-01-20
+    tz: AoE
+    status: estimated
+    src: aistats-2027-dates
+    quote: "Paper decision notifications: January 20, 2027"
+    note_zh: 推算值：AISTATS 2027 官网出结果为 2027-01-20，顺延一年。
+  - type: conference
+    start: 2028-05-03
+    end: 2028-05-06
+    tz: AoE
+    status: estimated
+    src: aistats-2027-dates
+    quote: "Conference dates: May 3, 2027 - May 6, 2027"
+    note_zh: 推算值：按 AISTATS 2027 会期 5/3–6 顺延一年。AISTATS 2028 地点未公布，时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: 按 AISTATS 2027 官网日期顺延：摘要 9/29、正文 10/6、出结果 1/20（均为 AoE），会期按 2027 的 5/3–6。2026-09-25 查询时 aistats.org/aistats2028/ 仍为 404。

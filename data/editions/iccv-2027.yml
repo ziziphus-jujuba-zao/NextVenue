@@ -1,0 +1,55 @@
+id: iccv-2027
+series: iccv
+name: ICCV 2027
+year: 2027
+kind: conference
+topics: [cv]
+derived_from: iccv-2025
+location: { city: Hong Kong, country: China }
+dates: { start: 2027-10-02, end: 2027-10-08 }
+milestones:
+  - type: paper_registration
+    at: 2027-03-03T23:59
+    tz: AoE
+    status: estimated
+    src: iccv-2025-dates
+    quote: "Paper Registration Deadline Mar 03 '25 11:59 PM HST"
+    note_zh: 2027 征稿和截止日期尚未公布（CFP 页 404）。按 ICCV 2025 官网日期顺延两年（ICCV 两年一届）：2025 为 3/3 23:59 HST。2025 用夏威夷时间是因为当届在檀香山举办；2027 在香港，时区未公布，暂按 AoE。
+  - type: paper
+    at: 2027-03-07T23:59
+    tz: AoE
+    status: estimated
+    src: iccv-2025-dates
+    quote: "Submission and Supplementary Materials Deadline Mar 07 '25 11:59 PM HST"
+    note_zh: 按 ICCV 2025 顺延：2025 正文和补充材料同一天截止（3/7 23:59 HST），所以这里不单列补充材料截止。
+  - type: reviews_out
+    at: 2027-05-09
+    tz: AoE
+    status: estimated
+    src: iccv-2025-dates
+    quote: "Reviews Released to Authors May 09 '25 11:59 PM HST"
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2027-05-09
+    end: 2027-05-16T23:59
+    tz: AoE
+    status: estimated
+    src: iccv-2025-dates
+    quote: "Author Rebuttals Due May 16 '25 11:59 PM HST"
+    note_zh: 按 ICCV 2025 顺延：2025 为出审稿（5/9）后到 5/16 23:59 HST。
+  - type: notification
+    at: 2027-06-25
+    tz: AoE
+    status: estimated
+    src: iccv-2025-dates
+    quote: "Main Conference Paper Decisions Jun 25 '25 11:59 PM HST"
+  - type: conference
+    start: 2027-10-02
+    end: 2027-10-08
+    tz: Asia/Hong_Kong
+    status: confirmed
+    src: iccv-2027-home
+    quote: "October 2–8, 2027"
+    note_zh: ICCV 官网首页和 CVF 官网都写 10/2–8、香港，场馆未定。ICCV 2027 Dates 页仍写 "Tue. Oct 19th through Sat the 23rd, 2027"、场馆名空缺，看起来是沿用 2025 模板，未采用。
+last_checked: 2026-09-25
+note_zh: 按 ICCV 2025 官网日期顺延（ICCV 两年一届，上一届是 2025，故顺延两年）：论文注册 3/3、正文（含补充材料）3/7、出审稿 5/9、rebuttal 截止 5/16、出结果 6/25，2025 均为 23:59 HST；2027 时区未公布，暂按 AoE。会期 10/2–8 和地点香港已由官网公布。

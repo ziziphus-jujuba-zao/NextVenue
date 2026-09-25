@@ -2,6 +2,7 @@ id: iclr-2027/edit-freeze-until-reviews
 edition: iclr-2027
 family: content_edit
 question_zh: 正文截止后到审稿发布前，还能改论文 PDF 或补充材料吗？
+short_zh: 截稿后改 PDF
 answer: not_allowed
 verification: human
 conf: high

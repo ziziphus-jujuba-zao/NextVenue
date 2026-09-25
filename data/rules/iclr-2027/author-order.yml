@@ -2,6 +2,7 @@ id: iclr-2027/author-order
 edition: iclr-2027
 family: author_list
 question_zh: 作者顺序最晚能改到什么时候？
+short_zh: 调整作者顺序
 answer: contradictory
 verification: human
 conf: high

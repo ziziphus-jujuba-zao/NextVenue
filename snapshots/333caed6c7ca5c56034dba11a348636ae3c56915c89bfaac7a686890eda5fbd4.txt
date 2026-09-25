@@ -1,0 +1,42 @@
+* Skip to primary navigation
+ * Skip to content
+ * Skip to footer
+
+ACL 2027
+ * Program
+ * Committees
+
+Toggle menu
+
+The 65th Annual Meeting of the Association for Computational Linguistics
+
+Kyoto, Japan
+August 17–22, 2027
+
+Photo by Max Iijima
+
+Welcome!
+
+The 65th Annual Meeting of the Association for Computational Linguistics (ACL 2027) will take place in Kyoto, Japan from August 17–22, 2027.
+
+News
+
+July 3, 2026   The official ACL 2027 website is launched.
+
+Important Dates
+
+ARR submission deadline            TBA
+Commitment deadline for ACL 2027   TBA
+Notification of acceptance         TBA
+Camera-ready deadline              TBA
+Overall conference                 TBA
+
+All deadlines are 11.59 pm UTC -12h (anywhere on earth).
+
+ * Follow:
+ * Twitter
+ * Bluesky
+ * GitHub
+ * Feed
+
+© ACL 2027. Powered by Jekyll & Minimal Mistakes.

@@ -1,0 +1,46 @@
+id: kdd-2028
+series: kdd
+name: KDD 2028
+year: 2028
+kind: conference
+topics: [dm, ml]
+derived_from: kdd-2027
+milestones:
+  - type: abstract
+    label_zh: 第一轮摘要截止
+    at: 2027-07-19T23:59
+    tz: AoE
+    status: estimated
+    src: kdd-2027-research-cfp
+    note_zh: 按 KDD 2027 第一轮官网日期 2026-07-19 顺延。
+  - type: paper
+    label_zh: 第一轮正文截止
+    at: 2027-07-26T23:59
+    tz: AoE
+    status: estimated
+    src: kdd-2027-research-cfp
+    note_zh: 按 KDD 2027 第一轮官网日期 2026-07-26 顺延。
+  - type: author_response
+    label_zh: 第一轮 rebuttal
+    start: 2027-09-29
+    end: 2027-10-13T23:59
+    tz: AoE
+    status: estimated
+    src: kdd-2027-research-cfp
+    note_zh: 按 KDD 2027 第一轮官网 rebuttal 期 2026-09-29–10-13 顺延。
+  - type: notification
+    label_zh: 第一轮出结果
+    at: 2027-11-14
+    tz: AoE
+    status: estimated
+    src: kdd-2027-research-cfp
+    note_zh: 按 KDD 2027 第一轮官网日期 2026-11-14 顺延。
+  - type: conference
+    start: 2028-08-01
+    end: 2028-08-05
+    tz: AoE
+    status: estimated
+    src: kdd-2027-home
+    note_zh: 按 KDD 2027 会期 2027-08-01–05 顺延；KDD 2028 地点和会期均未公布，时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: KDD 2028 官网尚未上线。这条只收录第一轮（2027 年 7 月截止），按 KDD 2027 第一轮官网日期顺延：摘要 7/19、正文 7/26、rebuttal 9/29–10/13、出结果 11/14，均为 AoE。第二轮（约 2028 年 2 月）未收录。KDD 2027 CFP 的 Resubmission Guidelines 写明：2026 第二轮被 Reject 或看过审稿后撤稿的稿件，不能以修改稿或新稿投紧接着的 KDD 2027 第一轮；照此类推，KDD 2027 2 月轮被拒的稿件不能投这一轮，KDD 2028 的具体规定尚未公布。

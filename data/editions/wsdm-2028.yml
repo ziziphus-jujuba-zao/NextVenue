@@ -1,0 +1,35 @@
+id: wsdm-2028
+series: wsdm
+name: WSDM 2028
+year: 2028
+kind: conference
+topics: [dm]
+derived_from: wsdm-2027
+milestones:
+  - type: abstract
+    at: 2027-08-17T23:59
+    tz: AoE
+    status: estimated
+    src: wsdm-2027-cfp
+    note_zh: 按 WSDM 2027 官网日期 2026-08-17 顺延。
+  - type: paper
+    at: 2027-08-24T23:59
+    tz: AoE
+    status: estimated
+    src: wsdm-2027-cfp
+    note_zh: 按 WSDM 2027 官网日期 2026-08-24 顺延。
+  - type: notification
+    at: 2027-11-02
+    tz: AoE
+    status: estimated
+    src: wsdm-2027-cfp
+    note_zh: 按 WSDM 2027 官网日期 2026-11-02 顺延。
+  - type: conference
+    start: 2028-02-15
+    end: 2028-02-19
+    tz: AoE
+    status: estimated
+    src: wsdm-2027-home
+    note_zh: 按 WSDM 2027 会期 2027-02-15–19 顺延；地点和会期均未公布，时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: "WSDM 2028 尚未公布：wsdm-conference.org/2028/ 返回 404，系列主页只写 “Call for Proposals: WSDM 2028 in the Americas (available soon)”，即承办地尚在征集，只知道在美洲。按 WSDM 2027 官网日期顺延：摘要 8/17、正文 8/24、出结果 11/2，均为 AoE。"

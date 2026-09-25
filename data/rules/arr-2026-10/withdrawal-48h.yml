@@ -2,6 +2,7 @@ id: arr-2026-10/withdrawal-48h
 edition: arr-2026-10
 family: withdrawal
 question_zh: 截止后撤稿有什么后果？什么时候撤会影响下一轮重投？
+short_zh: 截止 48 小时后撤稿
 answer: conditional
 verification: human
 conf: high

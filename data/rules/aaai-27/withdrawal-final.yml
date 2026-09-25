@@ -2,6 +2,7 @@ id: aaai-27/withdrawal-final
 edition: aaai-27
 family: withdrawal
 question_zh: 撤稿之后还能恢复吗？
+short_zh: 撤稿后恢复
 answer: not_allowed
 verification: human
 conf: high

@@ -1,0 +1,42 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: corl-2027
+sources:
+  - id: corl-2026-dates
+    url: https://www.corl.org/contributions/instruction-for-authors
+    title: CoRL 2026 Instruction for Authors (with Key Dates)
+    kind: author_guide
+    fetched_at: 2026-09-24T23:04:06Z
+    http_status: 200
+    snapshot: 4798e184d3e840046e5469c427edeba4d34b0eb104ad6c9d37bfe767a5231e8e
+    note_zh: "上一届作者须知。页面 Key Dates 表由内嵌脚本渲染，文本快照里没有表格内容；2026-09-25 查看脚本数据为：摘要 5/25、正文 5/28、补充材料 6/4、出审稿 8/4、rebuttal 截止 8/11、出结果 9/4、camera-ready 10/12（均 23:59 AoE）。快照里能直接核对的只有“Thursday (5/28) EOD”和 camera-ready 10/12。"
+  - id: corl-2026-rebuttal
+    url: https://www.corl.org/contributions/instruction-for-rebuttal
+    title: CoRL 2026 Instruction for Rebuttal
+    kind: author_guide
+    fetched_at: 2026-09-24T23:04:06Z
+    http_status: 200
+    snapshot: 606856b94dde882f4def31346d597a244d3a4551abffa2695c99dcf1da6bb4d6
+    note_zh: 上一届 rebuttal 须知，写明 rebuttal 截止 8/11 11:59 PM AoE。
+  - id: corl-2026-openreview-venue
+    url: https://api2.openreview.net/groups?id=robot-learning.org/CoRL/2026/Conference
+    title: CoRL 2026 OpenReview venue group (API)
+    kind: other
+    fetched_at: 2026-09-24T23:04:07Z
+    http_status: 200
+    snapshot: 47727a8b8a9f8084eca0f648ec3ce88387d241791a5fa2c2edb577a461a9e9c3
+    note_zh: OpenReview API 返回的 JSON。date 字段按 UTC 写摘要 5/26 11:59、正文 5/29 11:59，即 AoE 5/25、5/28 23:59。
+  - id: corl-2026-home
+    url: https://www.corl.org/
+    title: CoRL 2026 Home (corl.org)
+    kind: other
+    fetched_at: 2026-09-24T23:04:07Z
+    http_status: 200
+    snapshot: 4d456e90f0a0053fd8b3c760c6c8648fb037d59574ca66f44a62b0dd866fa005
+    note_zh: corl.org 目前仍是 2026 届主页：会期 11/9–12（主会 11/9–11，workshop 11/12），地点 Austin。以后会换成 2027 届内容。
+  - id: corl-2027-openreview-venue
+    url: https://api2.openreview.net/groups?id=robot-learning.org/CoRL/2027/Conference
+    title: CoRL 2027 OpenReview venue group (API)
+    kind: other
+    fetched_at: 2026-09-24T23:04:08Z
+    http_status: 404
+    note_zh: 2026-09-25 返回 404：OpenReview 上还没有 CoRL 2027 的会议组。

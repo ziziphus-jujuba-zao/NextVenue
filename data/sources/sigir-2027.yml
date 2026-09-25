@@ -1,0 +1,27 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: sigir-2027
+sources:
+  - id: sigir-2027-home
+    url: https://sigir2027.org/
+    title: SIGIR 2027 Home (Important Dates)
+    kind: dates
+    fetched_at: 2026-09-24T23:01:03Z
+    http_status: 200
+    snapshot: 6899cef9679752cf424a0838eca2d8de7277915c32974129a0125449f9ac4ada
+    note_zh: 长文日期只出现在首页 Important dates（小标题 “Confirmed milestones and organizer placeholders”），没写时区。正文写会期 July 18-24, 2027，网页标题写 July 19-24, 2027。
+  - id: sigir-2027-submit-tracks
+    url: https://sigir2027.org/pages/submit-tracks.html
+    title: SIGIR 2027 Submission Tracks
+    kind: cfp
+    fetched_at: 2026-09-24T23:01:04Z
+    http_status: 200
+    snapshot: 48fab12c05afec4967c82364d83b2a05274fdf7ef8c917305c2d6f6558ba7a5f
+    note_zh: 2026-09-25 仍是占位页，正式 CFP 未发布。
+  - id: sigir-2027-policies
+    url: https://sigir2027.org/pages/policies.html
+    title: SIGIR 2027 Policies
+    kind: policy
+    fetched_at: 2026-09-24T23:01:04Z
+    http_status: 200
+    snapshot: b5032c454bba5ab52d8836c389b42548be75b8da67b0a2de5a5c06df7d0ced7c
+    note_zh: 2026-09-25 仍是占位页。

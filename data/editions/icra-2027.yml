@@ -1,0 +1,56 @@
+id: icra-2027
+series: icra
+name: ICRA 2027
+year: 2027
+kind: conference
+topics: [robotics]
+location: { city: Seoul, country: South Korea }
+dates: { start: 2027-05-24, end: 2027-05-28 }
+milestones:
+  - type: paper
+    at: 2026-09-16T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icra-2027-deadline-extension
+    quote: "The new submission deadline is September 16, 2026, at 23:59 PST."
+    note_zh: 原定 9/15，9/16 官网公告延期 24 小时；RAS 页面仍写 15 September 2026。官方写“PST”，但 9 月在夏令时内，按 America/Los_Angeles（PDT）记，即北京时间 9/17 14:59。ICRA 没有单独的摘要截止。
+  - type: supplementary
+    label_zh: 视频附件第二个上传窗口
+    start: 2026-09-18T00:00
+    end: 2026-09-22T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icra-2027-video-period
+    quote: "The accompanying video submission period is September 18–22, 2026, 23:59 PST."
+    note_zh: 第一个窗口是 8/5–9/9；9/10–16 不能上传视频。只能在这两个窗口内随初次投稿提交，之后不再接受。官方写“PST”，按 America/Los_Angeles 记。
+  - type: notification
+    at: 2027-01-31
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icra-2027-cfp
+    quote: "Notification of acceptance/rejection: January 31, 2027 (Sun)"
+    note_zh: 官方只给日期、未给时刻；RAS 页面同为 31 January 2027。时区沿用 RAS 页面“All deadlines are 11:59 PM Pacific time”的约定。
+  - type: author_registration
+    at: 2027-03-05
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icra-2027-cfp
+    quote: "Author registration deadline: March 5, 2027 (Fri)"
+    note_zh: 官方只给日期、未给时刻，时区沿用 Pacific time。
+  - type: camera_ready
+    at: 2027-03-06T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icra-2027-dates
+    quote: "Submission of final papers 6 March 2027"
+    note_zh: '只有 RAS 页面写了终稿截止；ICRA 官网 CFP 只写 PaperPlaza 2/6 开放终稿提交（“Paperplaza opens for final submission: February 6, 2027”）。RAS 页面写明截止均为 11:59 PM Pacific time。'
+  - type: conference
+    start: 2027-05-24
+    end: 2027-05-28
+    tz: Asia/Seoul
+    status: confirmed
+    src: icra-2027-cfp
+    quote: "will take place in Seoul, Republic of Korea on May 24-28, 2027."
+    note_zh: 地点是首尔 Coex（官网首页）。
+last_checked: 2026-09-25
+note_zh: 正文截止已过；出结果 2027-01-31。IEEE RAS 页面写明 ICRA 2027 所有截止均为 11:59 PM Pacific time。

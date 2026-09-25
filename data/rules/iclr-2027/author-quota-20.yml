@@ -2,6 +2,7 @@ id: iclr-2027/author-quota-20
 edition: iclr-2027
 family: cap
 question_zh: 一位作者能挂名超过 20 篇 ICLR 2027 投稿吗？
+short_zh: 每人上限 20 篇
 answer: not_allowed
 verification: human
 conf: high

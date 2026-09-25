@@ -74,6 +74,10 @@ export interface Edition {
   name: string;
   year: number;
   kind: 'conference' | 'arr_cycle';
+  /** Research-area tags used to suggest venues by topic. */
+  topics?: ('ml' | 'cv' | 'nlp' | 'robotics' | 'dm' | 'ai')[];
+  /** For editions whose dates are projected from a previous edition. */
+  derived_from?: string;
   location?: { city?: string; country?: string };
   dates?: { start: string; end: string };
   ranks?: { ccf?: 'A' | 'B' | 'C' | 'N'; ccf_edition?: number; core?: string };
@@ -127,6 +131,8 @@ export interface RuleCard {
   edition: string;
   family: Family;
   question_zh: string;
+  /** Short label (≤16 chars) for list rows on small screens. */
+  short_zh?: string;
   answer: Answer;
   verification: Verification;
   conf: 'high' | 'medium' | 'low';

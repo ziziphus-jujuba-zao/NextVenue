@@ -37,6 +37,25 @@
         "arr_cycle"
       ]
     },
+    "topics": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "ml",
+          "cv",
+          "nlp",
+          "robotics",
+          "dm",
+          "ai"
+        ]
+      },
+      "uniqueItems": true,
+      "description": "研究方向标签，用于按主题推荐会议"
+    },
+    "derived_from": {
+      "type": "string",
+      "description": "整届日期按往年推算时，填推算依据的那一届 id（例如 neurips-2026）"
+    },
     "location": {
       "type": "object",
       "additionalProperties": false,

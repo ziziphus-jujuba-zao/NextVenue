@@ -1,0 +1,56 @@
+id: cvpr-2028
+series: cvpr
+name: CVPR 2028
+year: 2028
+kind: conference
+topics: [cv]
+derived_from: cvpr-2027
+milestones:
+  - type: paper_registration
+    at: 2027-11-10T23:59
+    tz: AoE
+    status: estimated
+    src: cvpr-2027-dates
+    quote: "Paper Registration Deadline Nov 10 '26 (Anywhere on Earth)"
+  - type: paper
+    at: 2027-11-16T23:59
+    tz: AoE
+    status: estimated
+    src: cvpr-2027-dates
+    quote: "Submission Deadline Nov 16 '26 (Anywhere on Earth)"
+  - type: supplementary
+    at: 2027-11-23T23:59
+    tz: AoE
+    status: estimated
+    src: cvpr-2027-dates
+    quote: "Supplementary Materials Deadline Nov 23 '26 (Anywhere on Earth)"
+  - type: reviews_out
+    at: 2028-01-25
+    tz: AoE
+    status: estimated
+    src: cvpr-2027-dates
+    quote: "Reviews Released Jan 25 '27 (Anywhere on Earth)"
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2028-01-25
+    end: 2028-02-01T23:59
+    tz: AoE
+    status: estimated
+    src: cvpr-2027-cfp
+    quote: "Rebuttal Period: January 25 - February 1, 2027 AOE"
+  - type: notification
+    at: 2028-02-25
+    tz: AoE
+    status: estimated
+    src: cvpr-2027-dates
+    quote: "Final Decisions Feb 25 '27 (Anywhere on Earth)"
+  - type: conference
+    start: 2028-06-20
+    end: 2028-06-25
+    tz: AoE
+    status: estimated
+    src: cvpr-2027-home
+    quote: "June 20–25, 2027"
+    note_zh: 按 CVPR 2027 会期 6/20–25 顺延；2028 地点未公布，时区暂按 AoE。实际会期通常按星期安排，可能相差几天。
+last_checked: 2026-09-25
+note_zh: 按 CVPR 2027 官网日期顺延：论文注册 11/10、正文 11/16、补充材料 11/23（均为 2026 年）、出审稿 1/25、rebuttal 1/25–2/1、出结果 2/25（均为 2027 年，AoE）；会期 6/20–25。CVPR 2028 官网页面 2026-09-25 仍为 404，地点和日期均未公布。

@@ -2,6 +2,7 @@ id: iclr-2027/registration-accepted
 edition: iclr-2027
 family: presentation
 question_zh: 论文录用后必须有作者注册参会吗？
+short_zh: 录用后注册参会
 answer: required
 verification: human
 conf: high

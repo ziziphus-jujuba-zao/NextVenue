@@ -1,0 +1,63 @@
+Search this site
+
+Embedded Files
+
+Skip to main content
+
+Skip to navigation
+
+CoRL 2026
+ * Home
+ * Announcements
+ *
+   Program
+    * Early Career Keynotes
+    * Workshops
+    * Keynotes
+    * Special Panel
+
+ *
+   Attending
+    * Inclusion at CoRL
+    * Hotel
+    * Registration
+
+ *
+   Contributions
+    * Call for Early Career Keynotes
+    * Call for Papers
+    * Call for Workshops
+    * Instruction for Authors
+    * Instruction for Rebuttal
+    * Call for Demos
+    * Instruction for Reviewers
+
+ * Organizing Committee
+ * Sponsorship
+ * About CoRL
+ * CoRL 2025
+
+CoRL 2026
+
+Instruction for Rebuttal
+
+ 1. New this year: 1-page rebuttal template
+
+ 2. The primary purpose of the rebuttal is to correct any factual inaccuracies in the reviews and to provide clarifications or additional details specifically requested by the reviewers.
+
+ 3. This year, we are providing a rebuttal template for standardization. All content (including references) must fit in one page. Please do not change the font size or spacing; rebuttals that do not adhere to the provided template will be desk rejected.
+
+ 4. The rebuttal must remain anonymous. Do not include any external links (e.g., videos, code, websites).
+
+ 5. You will not be able to respond to individual reviewers on OpenReview, nor can you update your paper during the rebuttal process. However, if your paper is accepted, you will have an opportunity to incorporate reviewer and Area Chair feedback into the camera-ready version.
+
+ 6. The deadline to submit your rebuttal is August 11, 2026, 11:59 PM (AoE). To submit your rebuttal, click the “Rebuttal” button on your paper’s OpenReview page, upload your PDF, and submit the form.
+
+Report abuse
+
+Page details
+Page updated
+Report abuse
+This site uses cookies from Google to deliver its services and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.
+Learn more
+Got it

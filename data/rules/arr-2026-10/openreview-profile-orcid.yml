@@ -2,6 +2,7 @@ id: arr-2026-10/openreview-profile-orcid
 edition: arr-2026-10
 family: profile
 question_zh: 所有作者都必须有完整的 OpenReview profile 和 ORCID 吗？什么时候前完成？
+short_zh: 完整资料和 ORCID
 answer: required
 verification: human
 conf: high

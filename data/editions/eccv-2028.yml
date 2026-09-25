@@ -1,0 +1,58 @@
+id: eccv-2028
+series: eccv
+name: ECCV 2028
+year: 2028
+kind: conference
+topics: [cv]
+derived_from: eccv-2026
+milestones:
+  - type: paper_registration
+    at: 2028-02-26T22:00
+    tz: UTC
+    status: estimated
+    src: eccv-2026-dates
+    quote: "Paper registration deadline Feb 26 '26 10:00 PM UTC"
+    note_zh: 按 ECCV 2026 官网日期顺延两年（ECCV 两年一届），时刻沿用 2026 的 22:00 UTC。
+  - type: paper
+    at: 2028-03-05T22:00
+    tz: UTC
+    status: estimated
+    src: eccv-2026-dates
+    quote: "Main Conference Submission Deadline Mar 05 '26 10:00 PM UTC"
+  - type: supplementary
+    at: 2028-03-12T22:00
+    tz: UTC
+    status: estimated
+    src: eccv-2026-dates
+    quote: "Supplemental materials deadline Mar 12 '26 10:00 PM UTC"
+  - type: reviews_out
+    at: 2028-05-02
+    tz: AoE
+    status: estimated
+    src: eccv-2026-dates
+    quote: "Reviews released to authors May 02 '26"
+    note_zh: 2026 官网只写日期、没写时刻和时区，这里按当天 23:59 AoE 记。
+  - type: author_response
+    label_zh: Rebuttal 截止
+    at: 2028-05-11T21:00
+    tz: UTC
+    status: estimated
+    src: eccv-2026-dates
+    quote: "Rebuttal deadline May 11 '26 09:00 PM UTC"
+  - type: notification
+    at: 2028-06-17
+    tz: AoE
+    status: estimated
+    src: eccv-2026-dates
+    quote: "Final decisions Jun 17 '26"
+    note_zh: 2026 官网只写日期、没写时刻和时区，这里按当天 23:59 AoE 记。
+  - type: conference
+    start: 2028-09-08
+    end: 2028-09-12
+    tz: AoE
+    status: estimated
+    src: eccv-2026-home
+    quote: "September 8 – 12th, 2026"
+    note_zh: 按 ECCV 2026 会期 9/8–12 顺延；2028 地点未公布，时区暂按 AoE。实际会期通常按星期安排，可能相差几天。
+last_checked: 2026-09-25
+note_zh: 按 ECCV 2026 官网日期顺延（ECCV 两年一届，上一届是 2026，故顺延两年）：论文注册 2/26、正文 3/5、补充材料 3/12（均为 22:00 UTC）、出审稿 5/2、rebuttal 截止 5/11 21:00 UTC、出结果 6/17、会期 9/8–12。ECCV 2028 官网页面 2026-09-25 仍为 404，地点和日期均未公布。

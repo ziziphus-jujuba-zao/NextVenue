@@ -1,0 +1,166 @@
+Home
+Program
+Overview
+WSDM Cup
+Calls
+Call for Full Papers Call for Short Papers Call for Demonstrations Call for Workshops Call for Tutorials Call for Industry Day Talks Call for Doctoral Consortium Call for WSDM Cup Proposals
+Organizers
+Sponsoring
+Venue & Travel
+Venue and Hotels Visa What to do in HK
+
+WSDM 2027
+
+Home
+Program
+Overview
+WSDM Cup
+Calls
+Call for Full Papers Call for Short Papers Call for Demonstrations Call for Workshops Call for Tutorials Call for Industry Day Talks Call for Doctoral Consortium Call for WSDM Cup Proposals
+Organizers
+Sponsoring
+Venue & Travel
+Venue and Hotels Visa What to do in HK
+
+The WSDM 2027 @ Hong Kong
+
+The 20th ACM International Conference on Web Search and Data Mining
+
+Date: February 15–19, 2027
+
+Location: Cordis, Hong Kong, 555 Shanghai St, Mong Kok
+
+Contact: wsdm2027@gmail.com
+
+Registration is open!
+
+We are happy to announce that registration for WSDM 2027 is now open – join us in person to present your work and engage with the community!
+
+GO TO REGISTRATION
+
+WSDM (pronounced "wisdom") is one of the premier conferences on web-inspired research involving search and data mining. WSDM is a highly selective conference that includes invited talks, as well as refereed full papers. WSDM publishes original, high-quality papers related to search and data mining on the Web and the Social Web, with an emphasis on practical yet principled novel models of search and data mining, algorithm design and analysis, economic implications, and in-depth experimental analysis of accuracy and performance.
+
+Keynote Speakers
+
+Bowen Zhou
+
+Director & Chief Scientist of Shanghai AI Lab, Chair Professor at Tsinghua University
+
+Lars Backstrom
+
+Vice President of Meta
+
+Jimmy Huang
+
+Fellow of Canadian Academy of Engineering; Tier 1 York Research Chair Professor, York University
+
+Jingrui He
+
+Professor, University of Illinois Urbana-Champaign
+
+Calls for Participation
+
+Contribute to WSDM 2027 through papers, proposals, and talks. Explore the calls below, ordered by submission deadline.
+
+ * Tutorial Proposals
+
+   Share methods and insights through an in-depth tutorial.
+
+   Submission deadline October 6, 2026 Notification: Nov 5, 2026
+   View details →
+
+ * Workshop Proposals
+
+   Organize a workshop on an emerging research direction.
+
+   Submission deadline October 10, 2026 Notification: Oct 15, 2026
+   View details →
+
+ * Demonstration Papers
+
+   Showcase working systems and interactive research prototypes.
+
+   Submission deadline October 15, 2026 Notification: Nov 21, 2026
+   View details →
+
+ * WSDM Cup Proposals
+
+   Propose a data challenge for the WSDM community.
+
+   Submission deadline October 20, 2026 Notification: Oct 27, 2026 Tentative
+   View details →
+
+ * Industry Day Talks
+
+   Share industrial perspectives and real-world challenges.
+
+   Submission deadline October 30, 2026 Notification: Nov 27, 2026
+   View details →
+
+ * Doctoral Consortium
+
+   Present your doctoral research and receive feedback.
+
+   Submission deadline November 12, 2026 Notification: Dec 2, 2026
+   View details →
+
+ * Short Papers
+
+   Present focused contributions in web search and data mining.
+
+   Submission deadline November 17, 2026 Notification: Dec 18, 2026
+   View details →
+
+All deadlines are 11:59 pm Anywhere on Earth (AoE). WSDM Cup dates are tentative; see the individual calls for details and updates.
+
+For Authors
+
+Full Paper Notifications
+
+November 2, 2026
+
+Findings of WSDM 2027
+
+Main-track submissions are also considered for Findings through the same review process. No separate submission is required.
+
+About the Findings track →
+
+General Chairs
+
+Xiao Huang
+
+The Hong Kong Polytechnic University
+
+Hongxia Yang
+
+The Hong Kong Polytechnic University
+
+Yang Song
+
+Meta
+
+Program Chairs
+
+Xia Hu
+
+Shanghai AI Lab
+
+James Caverlee
+
+Texas A&M University
+
+Yi Chang
+
+Jilin University
+
+View all organizers →
+
+Questions about WSDM 2027?
+
+Get in touch with the organizing team.
+
+wsdm2027@gmail.com
+
+© 2027 WSDM 2027. All rights reserved.
+
+Back to top ↑

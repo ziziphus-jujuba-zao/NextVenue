@@ -1,0 +1,11 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icra-2028
+sources:
+  - id: icra-2028-ras-venues
+    url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/icra-venues-and-archive/
+    title: "IEEE RAS: ICRA Venues and Archive"
+    kind: other
+    fetched_at: 2026-09-24T23:04:04Z
+    http_status: 200
+    snapshot: fee019a8cb8704283dfd3be25a1ceb3217731ca7b81507b818f2097604d51e32
+    note_zh: 主办学会 IEEE RAS 的历届与未来 ICRA 列表：ICRA 2028 在巴西里约热内卢，5/15–19。截至 2026-09-25，2028.ieee-icra.org 域名无法解析，ICRA 2028 尚无官网和征稿页。

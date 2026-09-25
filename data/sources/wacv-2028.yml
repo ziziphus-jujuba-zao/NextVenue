@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: wacv-2028
+sources:
+  - id: wacv-2028-home
+    url: https://wacv.thecvf.com/Conferences/2028
+    title: WACV 2028 Home
+    kind: other
+    fetched_at: 2026-09-24T23:02:58Z
+    http_status: 404
+    note_zh: 2026-09-25 为 404，WACV 2028 尚未公布；时间线按 WACV 2027 官网日期（见 wacv-2027-dates）顺延推算。

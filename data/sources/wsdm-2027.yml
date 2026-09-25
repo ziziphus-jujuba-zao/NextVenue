@@ -1,0 +1,18 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: wsdm-2027
+sources:
+  - id: wsdm-2027-cfp
+    url: https://wsdm-conference.org/2027/cffp.html
+    title: WSDM 2027 Call for Full Papers
+    kind: cfp
+    fetched_at: 2026-09-24T23:00:35Z
+    http_status: 200
+    snapshot: b645bef50427333cef73a3f0a805ae95d648460d91752af5fd7a38151e930074
+    note_zh: 长文投稿已关闭；camera-ready 写 TBD。也用作 wsdm-2028 的推算依据。
+  - id: wsdm-2027-home
+    url: https://wsdm-conference.org/2027/
+    title: WSDM 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T23:00:36Z
+    http_status: 200
+    snapshot: 24add15cc6301ff6c776e3f1c2480d75d34f6b406269ee355a43c4168c69f937

@@ -1,0 +1,162 @@
+Search this site
+
+Embedded Files
+
+Skip to main content
+
+Skip to navigation
+
+CoRL 2026
+ * Home
+ * Announcements
+ *
+   Program
+    * Early Career Keynotes
+    * Workshops
+    * Keynotes
+    * Special Panel
+
+ *
+   Attending
+    * Inclusion at CoRL
+    * Hotel
+    * Registration
+
+ *
+   Contributions
+    * Call for Early Career Keynotes
+    * Call for Papers
+    * Call for Workshops
+    * Instruction for Authors
+    * Instruction for Rebuttal
+    * Call for Demos
+    * Instruction for Reviewers
+
+ * Organizing Committee
+ * Sponsorship
+ * About CoRL
+ * CoRL 2025
+
+CoRL 2026
+
+Instruction for Authors
+
+New This Year (details see below)
+Paper Submission Requirements and Instructions
+Submission Policy
+Reciprocal Reviewing Requirement
+Rebuttal Process
+Concurrent/contemporaneous Work
+Camera Ready Paper Submission
+Key Dates
+
+New This Year (details see below)
+
+ 1. An additional 9th page for camera-ready submissions to incorporate reviewer feedback (initial submission is 8 pages).
+
+Paper Submission Requirements and Instructions
+
+CoRL is double-blind, which means all papers must be anonymized. The accepted papers and reviews will be publicly accessible and de-anonymized after decisions are announced. Our aim is to have at least two reviewers per paper. Accepted papers will appear in the Proceedings of Machine Learning Research (formerly JMLR Workshop and Conference Proceedings).
+
+Please keep in mind that the deadlines are final, and we cannot make any accommodations for missing the abstract deadline or paper deadline. Authors may update the title and abstract on OpenReview after the abstract submission deadline. However, authors cannot be added or removed after this deadline, as this information is required to facilitate reviewer assignments. If you need to request an exception, please email our OpenReview Chair Carlo Sferrazza (csferrazza@berkeley.edu).
+
+ * Papers may be submitted through OpenReview via the link here (https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference). All submissions should comply with the format and length indicated below:
+
+ * Page limit will be 8 pages for the main paper. Acknowledgments, References, and Appendix (optional) will not count towards the page limit. Please note that reviewers are not required to read the Appendix. The Appendix can be included with the main paper or with the Supplement.
+
+ * Please use the LaTeX template: here (https://drive.google.com/file/d/1R9irIW0ImqeDHh5g8Ukm2XGy91sWxOsQ/view?usp=drive_link ).
+
+ * Authors are encouraged to submit a supplementary file containing further details, which the reviewers may decide to consult.
+
+ * Authors are highly encouraged to submit a video not exceeding 250 MB (strict) and not more than 3 minutes in length (suggested), providing an overview of the work.
+
+ * All supplementary materials will be submitted through OpenReview as a single zip file.
+
+ * All accepted papers will be presented in poster sessions, while selected papers will be invited for an oral spotlight presentation.
+
+ * All submissions should include a Limitations section (counted toward the 8-page limit), explicitly describing limiting assumptions, failure modes, and other limitations of the results and experiments, and how these might be addressed in the future.
+
+ * Authors are strongly encouraged to include all relevant details in the main paper and the appendix to ensure that future researchers can reproduce the methodology and results.
+
+Submission Policy
+
+We will not accept papers that are identical or substantially similar to papers that have previously been published or accepted for publication in an archival venue, nor papers submitted in parallel to other conferences or archival venues. Archival venues include conferences and journals with formally published proceedings, but do not include non-archival workshops. Submission is permitted for papers that have previously appeared only as a technical report, e.g., in arXiv.
+
+Dual submission policy: Dual submission is not allowed by default. Submissions that are simultaneously under review at another archival venue will be desk-rejected without review. However, we recognize that some conferences may have decision timelines that slightly overlap with our review period (e.g., ICML decisions on May 1st). In such cases, authors must notify the Publication Chair before submission and clearly indicate the overlapping venue and relevant dates. Approval for such exceptions will be granted on a case-by-case basis. Failure to disclose dual submission may result in rejection and may be reported to both venues.
+
+Generative AI policies: We understand that generative AI is a useful tool in the paper writing process. In order to ensure that the use of generative AI does not pose an undue burden on the review process, we are implementing the following policies this year:
+
+ 1. Papers that contain citations to references that do not exist will be desk-rejected after review by the Program Committee.
+
+ 2. Authors must take full responsibility for the content in submitted papers. LLMs or other generative AI tools do not qualify for authorship. During the paper submission process, authors will be asked to briefly disclose how generative AI tools were used for research and paper writing.
+
+ 3. Authors who submit multiple versions of substantially the same paper (e.g., different papers with the same method, but slightly different ablations, baselines, or algorithmic variations) will face desk rejection of all papers they have submitted, and potentially also be prevented from submitting papers to future iterations of the conference. We are aware that generative AI tools have been used for this purpose in recent conferences, and we will implement checks to flag such papers.
+
+With these policies, we aim to strike a balance between beneficial uses of generative AI (e.g., help with paper editing, figures, literature review, or brainstorming) and uses that degrade the overall quality and integrity of the peer-review process.
+
+CoRL 2026 has partnered with GPTZero to detect references that do not exist in academic databases in all submitted papers. Please refer to GPTZero's technical report regarding the system for details. All flagged citations were manually checked by Area Chairs, Senior Area Chairs, and Program Chairs before recommending desk rejection of papers.
+
+Reciprocal Reviewing Requirement
+
+Qualified authors are required to review for CoRL, according to the policies below.
+
+ * All submissions must include at least one author who agrees to serve as a CoRL reviewer. They are qualified if they have at least one accepted publication at a previous robotics (CoRL/ ICRA/ IROS/ RSS) or learning conference (ICLR/ NeurIPS/ ICML) or equivalent journal. If none of the authors are qualified under this definition or all authors are exempt (e.g., serving as AC or SAC), then they are exempt from this requirement.  The abstract submission form will allow submitters to designate an author to fulfill this requirement or to indicate that the submission is exempt from the requirement.
+
+ * Additionally, every author with 3 or more submissions must agree to serve as a reviewer. Authors are exempt from the review requirement if they serve as an AC, an SAC, or another organizing chair for CoRL 2026.
+
+ * Submissions that do not meet this reciprocal review requirement may be desk-rejected. Additionally, reviewers who fail to adequately participate in the review process (e.g., not submitting reviews on time or submitting highly insufficient or inappropriate reviews) may have their own submissions desk rejected. The program chairs may grant exceptions on a case-by-case basis.
+
+Rebuttal Process
+
+In order to focus reviewer effort, papers that do not receive at least one score of weak accept or above from either a reviewer or the Area Chair will be candidates for first-round rejection without rebuttal. Senior Area Chairs and Program Chairs will review all such candidates before any decision is finalized.
+
+Authors of all other papers are invited to submit a 1-page rebuttal in pdf by the rebuttal deadline. You will not be able to give individual responses to the reviewer on OpenReview, nor will you be able to update the paper during the rebuttal process. The rebuttal should be focused on addressing any factual errors in the review.
+
+All rebuttals will be reviewed by the reviewer, the original AC, and, if applicable, external reviewers. The AC reserves the right to invite new reviewers if needed. The results of the current review(s) will be shared with the new reviewers in such cases.
+
+Concurrent/contemporaneous Work
+
+We consider papers contemporaneous if they are published within the last 4 months, so authors do not need to compare their own work to that paper. Authors are encouraged to cite and discuss all relevant papers, but they may be excused for not knowing about papers not published in peer-reviewed conference proceedings or journals, which include papers exclusively available on arXiv.
+
+Camera Ready Paper Submission
+
+New this year — additional page for incorporating reviewer feedback
+
+Congratulations again on getting your paper accepted to CoRL 2026!  The camera-ready version of your paper is due by Oct 12, 2026 (23:59 Anywhere on Earth). Please submit your camera-ready PDF and signed permission form through OpenReview.
+
+Here are the instructions for preparing and submitting your camera-ready paper:
+
+1. The camera-ready paper should follow the template: 9-page main text + acknowledgment + references + appendix (optional). Note that this year, we are allowing an additional page to accommodate feedback from the review process. The appendix should be included at the end of the camera-ready PDF, rather than as a separate file. The template is available here. Please make sure to use “\usepackage[final]{corl_2026}.
+
+2. One important note: PMLR does not allow videos to be submitted as supplementary material.  If you have videos, code, datasets, and other supplementary materials, please host them on your own (e.g., YouTube, GitHub, etc). You should provide, in the main text of your paper, a link to this material or a link to your project website.
+
+3. Please sign the permission form for publication in PMLR (form available here). Please rename the pdf to <paperid_firstname_lastname>.pdf.
+
+Please ensure:
+
+1.    Paper length: 9 pages main text + Acknowledgement + References + Appendix (optional)
+
+2.    The author list is NOT anonymous.
+
+3.    Footer on the 1st page: "10th Conference on Robot Learning (CoRL 2026), Austin, Texas, USA."
+
+4.    Text density, fonts, and spacing should be the same as the provided template on the website.
+
+5.    The margin should be the same as the provided template on the website.
+
+6.    The OpenReview title is the same as the PDF title.
+
+Please contact Yoonchang Sung (yoonchang.sung@ntu.edu.sg) if you have any questions.
+
+Key Dates
+
+Please note that the paper submission deadline is Thursday (5/28) EOD rather than Friday! We hope you enjoy your weekend after the deadline ;)
+
+Report abuse
+
+Page details
+Page updated
+Report abuse
+This site uses cookies from Google to deliver its services and to analyze traffic. Information about your use of this site is shared with Google. By using this site, you agree to its use of cookies.
+Learn more
+Got it

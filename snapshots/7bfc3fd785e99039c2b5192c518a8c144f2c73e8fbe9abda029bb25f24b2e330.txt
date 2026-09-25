@@ -1,0 +1,72 @@
+Skip to content
+ * About
+ * Important Dates
+ * Programme
+ * Organisation
+   * Organising Committee
+   * Scientific Committee
+   * Research Track Chairs
+ * Calls
+   * Research Track Papers
+   * Tutorials
+   * Workshops
+   * Demos
+   * Seoul Test of Time Award
+   * Industry
+ * Sponsors
+ * Attending
+   * Venues
+
+Since its inception in 1989, the World Wide Web has transformed the way we live, work, and connect. For more than three decades, The Web Conference has been the stage for groundbreaking innovations that have shaped the Internet as we know it. Seminal contributions first presented here include the Anatomy of a Large-Scale Web Search Engine in 1998, which prefigured Google; the EigenTrust algorithm in 2003; and the YAGO knowledge base in 2007 (see past recipients of the Test of Time Award).
+
+Each year, the conference brings together scholars, researchers, policymakers, practitioners, and users with a shared mission: to imagine and build the future of the Web.
+
+The Web Conference (formerly known as the International World Wide Web Conference, abbreviated WWW) has been the premier annual forum for presenting and discussing advances in research, development, standards, and applications shaping the future of the Web.
+
+The 2027 ACM Web Conference will take place in Dublin, Ireland and will feature a high-quality program including research sessions, posters and demonstrations, a PhD symposium, workshops, tutorials, an industry track for practitioners, as well as thought-provoking keynote speakers, panels, special tracks.
+
+New & Updates
+
+16 September 2026
+
+Tutorial proposal submission deadline has been extended to 19 October 2026.
+
+15 September 2026
+
+Call for Workshop proposal has been updated with the submission link to OpenReview. The proposal submission deadline is 28 September 2026.
+
+31 August 2026
+
+Call for Nominations for the Seoul Test of Time Award is now open on EasyChair. The submission deadline is 14 October, 2026. Details here.
+
+28 August 2026
+
+Full paper submissions are now open on OpenReview. Abstract deadline is 18 October, 2026 & submission deadline is 25 October, 2026. Details here.
+
+Short paper submissions are now open on OpenReview. Abstract deadline is 09 November, 2026 & submission deadline is 16 November, 2026. Details here.
+
+ * About
+ * Important Dates
+ * Programme
+ * Organisation
+   * Organising Committee
+   * Scientific Committee
+   * Research Track Chairs
+ * Calls
+   * Research Track Papers
+   * Tutorials
+   * Workshops
+   * Demos
+   * Seoul Test of Time Award
+   * Industry
+ * Sponsors
+ * Attending
+   * Venues
+
+ * Privacy Policy
+ * ACM Code of Ethics
+ * ACM Policy Against Harassment
+
+ * Facebook
+ * Twitter
+ * LinkedIn

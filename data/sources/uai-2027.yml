@@ -1,0 +1,18 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: uai-2027
+sources:
+  - id: uai-2027-home
+    url: https://www.auai.org/uai2027/
+    title: UAI 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T23:04:02Z
+    http_status: 404
+    note_zh: 2026-09-25 为 404；AUAI 主页也还没有 UAI 2027 的消息。
+  - id: uai-2026-dates
+    url: https://www.auai.org/uai2026/important_dates
+    title: UAI 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:04:02Z
+    http_status: 200
+    snapshot: b0d223f4615d31456ba1df6fbd1d8dd21a57961b26a429b0bf87aa21072b2095
+    note_zh: 上一届日期页，作为 uai-2027 推算日期的依据（正文 2/25、出结果 6/1，均 23:59 AoE；无单独摘要截止）。

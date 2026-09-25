@@ -1,0 +1,189 @@
+* Skip to main content
+ * Skip to primary sidebar
+
+AAAI
+
+Association for the Advancement of Artificial Intelligence
+
+Menu
+
+ * *
+
+   * AAAI
+
+     Association for the Advancement of Artificial Intelligence
+
+Menu
+ *
+ * About AAAI
+   * News
+   * Officers and Committees
+   * Staff
+   * Bylaws
+   * Awards
+     * Fellows Program
+     * Classic Paper Award
+     * Dissertation Award
+     * Distinguished Service Award
+     * Allen Newell Award
+     * Outstanding Paper Award
+     * AI for Humanity Award
+     * Feigenbaum Prize
+     * Patrick Henry Winston Outstanding Educator Award
+     * Engelmore Award
+     * AAAI ISEF Awards
+     * Senior Member Status
+     * Conference Awards
+   * Partnerships
+   * Resources
+   * Mailing Lists
+   * Past Presidential Addresses
+   * AAAI 2025 Presidential Panel on the Future of AI Research
+   * Presidential Panel on Long-Term AI Futures
+   * Past Policy Reports
+     * The Role of Intelligent Systems in the National Information Infrastructure (1995)
+     * A Report to ARPA on Twenty-First Century Intelligent Systems (1994)
+   * Logos
+ * Ethics & Plurality
+ * Conferences & Symposia
+   * AAAI Conference
+   * AIES AAAI/ACM
+   * AIIDE
+   * EAAI
+   * HCOMP
+   * IAAI
+   * ICWSM
+   * Spring Symposia
+   * Summer Symposia
+   * Fall Symposia
+   * Code of Conduct for Conferences and Events
+ * Publications
+   * AI Magazine
+   * Conference Proceedings
+   * AAAI Publication Policies & Guidelines
+   * Request to Reproduce Copyrighted Materials
+   * Contribute
+   * Order Proceedings
+ * AI Magazine
+ * Membership
+   * Member Login
+   * Chapters
+   * AAAI-x 2026 Events
+   * Call for Proposals: AAAI-Sponsored “AIx” Pop-Up Events Worldwide
+   * AAAI Educational AI Videos Award
+
+ * ----------------------------------------
+
+ * AI Jobs
+ * AITopics
+ * Contact
+
+ * ----------------------------------------
+
+ * Twitter
+ * Facebook
+ * LinkedIn
+
+Home / Conferences /
+
+AAAI Conference on Artificial Intelligence
+
+January 29, 2023
+
+Sponsored by the Association for the Advancement of Artificial Intelligence
+
+The AAAI Conference on Artificial Intelligence promotes theoretical and applied AI research as well as intellectual interchange among researchers and practitioners. The technical program features substantial, original research and practices. Conference panel discussions and invited presentations identify significant social, philosophical, and economic issues influencing AI’s development throughout the world.
+
+----------------------------------------
+
+Future Conferences
+
+The Forty-first Conference on Artificial Intelligence will be held in Montréal, Québec, Canada from February 16-23, 2027.
+
+----------------------------------------
+
+Past Conferences
+
+For information about past AAAI Conferences, please consult the following pages.
+
+| AAAI-26 | AAAI-25 | AAAI-24 | AAAI-23 | AAAI-22 | AAAI-21 | AAAI-20 | AAAI-19 | AAAI-18 | AAAI-17 | AAAI-16 | AAAI-15 | AAAI-14 | AAAI-13 | AAAI-12 | AAAI-11 | AAAI-10 | AAAI-08 | AAAI-07 | AAAI-06 | AAAI-05 | AAAI-04 | AAAI-02 | AAAI-00 | AAAI-99 | AAAI-98 | AAAI-97 | AAAI-96 | AAAI-94 | AAAI-93 | AAAI-92 | AAAI-91 | AAAI-90 | AAAI-88 | AAAI-87 | AAAI-86 | AAAI-84 | AAAI-83 | AAAI-82 | AAAI-80 |
+
+----------------------------------------
+
+Proceedings of the AAAI Conference on Artificial Intelligence
+
+| 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2015 | 2014 | 2013 | 2012 | 2011 | 2010 | 2008 | 2007 | 2006 | 2005 | 2004 | 2002 | 2000 | 1999 | 1998 | 1997 | 1996 | 1994 | 1993 | 1992 | 1991 | 1990 | 1988 | 1987 | 1986 | 1984 | 1983 | 1982 | 1980 |
+
+Categories: AAAI Conference
+
+Primary Sidebar
+
+We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
+Cookie SettingsAccept All
+Manage consent
+Close
+
+Privacy Overview
+
+This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.
+Necessary
+Necessary
+Always Enabled
+Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+
+Cookie                               Duration    Description
+cookielawinfo-checkbox-analytics     11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Analytics".
+cookielawinfo-checkbox-functional    11 months   The cookie is set by GDPR cookie consent to record the user
+                                                 consent for the cookies in the category "Functional".
+cookielawinfo-checkbox-necessary     11 months   This cookie is set by GDPR Cookie Consent plugin. The
+                                                 cookies is used to store the user consent for the cookies in
+                                                 the category "Necessary".
+cookielawinfo-checkbox-others        11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Other.
+cookielawinfo-checkbox-performance   11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Performance".
+viewed_cookie_policy                 11 months   The cookie is set by the GDPR Cookie Consent plugin and is
+                                                 used to store whether or not user has consented to the use
+                                                 of cookies. It does not store any personal data.
+
+Functional
+Functional
+Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+Performance
+Performance
+Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+Analytics
+Analytics
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+Advertisement
+Advertisement
+Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+Others
+Others
+Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+SAVE & ACCEPT
+
+We are using cookies to give you the best experience on our website.
+
+You can find out more about which cookies we are using or switch them off in settings.
+
+Accept
+Close GDPR Cookie Settings
+ * Privacy Overview
+ * Strictly Necessary Cookies
+
+Powered by  GDPR Cookie Compliance
+Privacy Overview
+
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+
+Strictly Necessary Cookies
+
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+
+Enable or Disable Cookies Enabled Disabled
+Enable All Save Settings

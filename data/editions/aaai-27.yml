@@ -3,6 +3,7 @@ series: aaai
 name: AAAI-27
 year: 2027
 kind: conference
+topics: [ai, ml]
 location: { city: Montréal, country: Canada }
 dates: { start: 2027-02-16, end: 2027-02-23 }
 milestones:

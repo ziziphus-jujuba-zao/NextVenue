@@ -1,0 +1,41 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icml-2027
+sources:
+  - id: icml-2027-dates
+    url: https://icml.cc/Conferences/2027/Dates
+    title: ICML 2027 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:03:40Z
+    http_status: 404
+    note_zh: 2026-09-25 仍为 404：ICML 2027 日期尚未公布，时间线按 2026 顺延。
+  - id: icml-2027-cfp
+    url: https://icml.cc/Conferences/2027/CallForPapers
+    title: ICML 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T23:03:42Z
+    http_status: 404
+    note_zh: 2026-09-25 仍为 404：ICML 2027 征稿尚未发布。
+  - id: icml-2026-dates
+    url: https://icml.cc/Conferences/2026/Dates
+    title: ICML 2026 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:03:43Z
+    http_status: 200
+    snapshot: 6321c2cf49bc1fd4cf3a947a0370525a8cd455178772217132697a48f14548ce
+    note_zh: 上一届日期页，作为 icml-2027 推算日期的依据（摘要 1/23、正文 1/28、出结果 4/30，均 AoE）。
+  - id: icml-2026-home
+    url: https://icml.cc/Conferences/2026
+    title: ICML 2026 Home
+    kind: other
+    fetched_at: 2026-09-24T23:03:45Z
+    http_status: 200
+    snapshot: d3a423ad6ca4aa70752b7591843ee6f09847a408465fd0e6113e38333f96ef43
+    note_zh: 上一届主页，含 2026 会期 7/6–11（首尔）；icml.cc 主页当前仍是 2026 内容。
+  - id: icml-2027-future-meetings
+    url: https://icml.cc/Conferences/FutureMeetings
+    title: ICML Future Meetings
+    kind: other
+    fetched_at: 2026-09-24T23:03:46Z
+    http_status: 200
+    snapshot: cf6a37d41fb304de8dfa4d0271de9488738600b8aec5faa3cbeac7cdb6a12c17
+    note_zh: 2027 只写 “South America”，未给城市和日期。

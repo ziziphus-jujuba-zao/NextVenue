@@ -28,8 +28,10 @@ pnpm install
 pnpm validate        # 校验数据结构
 pnpm check:quotes    # 校验每条原文都在官网快照中
 pnpm test            # 单元测试
-pnpm build           # 生成 dist/site/index.html
+pnpm build           # 生成 dist/bundle.json、手机 App（dist/site/index.html）和桌面版规则页（dist/site/all-rules.html）
 ```
+
+手机 App 是一个离线可用的单页（数据内联在页面里，`file://` 直接打开也能用），源码在 [apps/mobile](apps/mobile)，设计规格见 [docs/MOBILE_SPEC.md](docs/MOBILE_SPEC.md)。测试用参数：`?now=2026-09-25T21:00%2B08:00` 固定当前时间，`?theme=dark|light`，`?prefs=neurips,iclr,icml|acl,emnlp` 设投稿偏好（`|` 前是首选，后是备选），`?topics=ml,nlp` 设方向，`?demo=1` 加两篇示例论文，`?reset=1` 清空本机数据（旧的 `?follow=all` 仍可用）。`pnpm shots` 用 Chrome 按真实手机尺寸截图到 dist/shots；`pnpm icons`（macOS）从 SVG 重新生成 PNG 图标。
 
 ## 参与贡献
 
@@ -40,6 +42,7 @@ pnpm build           # 生成 dist/site/index.html
 | 文件 | 内容 |
 |---|---|
 | [docs/ROADMAP.md](docs/ROADMAP.md) | 路线图（以此为准） |
+| [docs/MOBILE_SPEC.md](docs/MOBILE_SPEC.md) | 手机 App 设计规格 |
 | [docs/DATA_GUIDE.md](docs/DATA_GUIDE.md) | 规则数据编写指南 |
 | [docs/VENUE_RULES.md](docs/VENUE_RULES.md) | 12 个会议的规则调研（规则卡的原始材料） |
 | [docs/DESIGN.md](docs/DESIGN.md) | 架构设计 |

@@ -2,6 +2,7 @@ id: iclr-2027/public-deanonymized
 edition: iclr-2027
 family: visibility
 question_zh: 投稿和审稿意见会公开吗？被拒的论文会显示作者吗？
+short_zh: 论文和审稿公开
 answer: required
 verification: human
 conf: high

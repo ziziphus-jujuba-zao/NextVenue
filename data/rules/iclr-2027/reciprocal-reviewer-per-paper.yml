@@ -2,6 +2,7 @@ id: iclr-2027/reciprocal-reviewer-per-paper
 edition: iclr-2027
 family: reciprocal_reviewing
 question_zh: 每篇投稿都必须有一位作者注册当审稿人吗？
+short_zh: 每篇须有作者审稿
 answer: required
 verification: human
 conf: high

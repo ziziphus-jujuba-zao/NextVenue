@@ -10,6 +10,9 @@ import { basename, dirname, join } from 'node:path';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { isValidTimeZone, loadRepoData, snapshotPath, toInstant } from '@nextvenue/core';
+import { applyCopy, lintCopy, staleCopy } from '../apps/mobile/copy.ts';
+import { toAppData } from './app-data.ts';
+import { buildBundle } from './bundle.ts';
 import { ROOT, editionFilter, green, parseArgs, red, yellow } from './lib.ts';
 
 const args = parseArgs(process.argv.slice(2));
@@ -105,6 +108,17 @@ for (const { file, value: r } of data.rules) {
   for (const s of r.checked_sources ?? []) if (!sourceIds.has(s)) err(file, `checked source ${s} not found`);
   if (r.inherited_from && !r.inherited_from.match(/^[a-z0-9-]+$/)) err(file, `bad inherited_from`);
   if (r.verification === 'inherited' && r.conf === 'high') warn(file, 'inherited rule marked conf: high');
+}
+
+// App wording (apps/mobile/copy.ts) over the built data: list labels name the
+// action, never the answer word; overrides still match the data; no official
+// (AoE) day is left next to the Beijing times the app shows.
+if (!errors.length && !args.edition) {
+  const slim = toAppData(buildBundle());
+  for (const s of staleCopy(slim)) err('apps/mobile/copy.ts', `stale override: ${s}`);
+  const lint = lintCopy(applyCopy(slim));
+  for (const e of lint.errors) err('apps/mobile/copy.ts', e);
+  for (const w of lint.warnings) warn('apps/mobile/copy.ts', w);
 }
 
 for (const w of warnings) console.log(yellow(`warn  ${w}`));

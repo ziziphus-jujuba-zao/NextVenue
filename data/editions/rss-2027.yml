@@ -1,0 +1,71 @@
+id: rss-2027
+series: rss
+name: RSS 2027
+year: 2027
+kind: conference
+topics: [robotics]
+derived_from: rss-2026
+location: { city: Athens, country: Greece }
+dates: { start: 2027-07-06, end: 2027-07-11 }
+milestones:
+  - type: abstract
+    label_zh: 摘要/标题截止
+    at: 2027-01-23T23:59
+    tz: AoE
+    status: estimated
+    src: rss-2026-dates
+    quote: "January 23, 2026 11:59pm AoE Abstract/Title Submission Deadline"
+    note_zh: 预计。按 RSS 2026 的摘要/标题截止 2026-01-23 顺延一年。
+  - type: paper
+    at: 2027-01-30T23:59
+    tz: AoE
+    status: estimated
+    src: rss-2026-dates
+    quote: "January 30, 2026 11:59pm AoE Paper Submission Deadline"
+    note_zh: 预计。按 RSS 2026 的正文截止 2026-01-30 顺延一年。
+  - type: supplementary
+    at: 2027-02-06T23:59
+    tz: AoE
+    status: estimated
+    src: rss-2026-dates
+    quote: "February 6, 2026 11:59pm AoE Supplementary Material Submission Deadline"
+    note_zh: 预计。按 RSS 2026 的补充材料截止 2026-02-06 顺延一年。
+  - type: reviews_out
+    at: 2027-03-20T23:59
+    tz: AoE
+    status: estimated
+    src: rss-2026-dates
+    quote: "March 20, 2026 11:59pm AoE Reviews Released and Rebuttal Invitations"
+    note_zh: 预计。按 RSS 2026 的出审稿日 2026-03-20 顺延一年。
+  - type: author_response
+    label_zh: rebuttal 截止
+    at: 2027-03-27T23:59
+    tz: AoE
+    status: estimated
+    src: rss-2026-dates
+    quote: "March 27, 2026 11:59pm AoE Rebuttal Submission Deadline"
+    note_zh: 预计。按 RSS 2026 的 rebuttal 截止 2026-03-27 顺延一年。
+  - type: notification
+    at: 2027-04-27T23:59
+    tz: AoE
+    status: estimated
+    src: rss-2026-dates
+    quote: "April 27, 2026 11:59pm AoE Paper Acceptance Notification"
+    note_zh: 预计。按 RSS 2026 的出结果日 2026-04-27 顺延一年。
+  - type: camera_ready
+    at: 2027-05-11T23:59
+    tz: AoE
+    status: estimated
+    src: rss-2026-dates
+    quote: "May 11, 2026 11:59pm AoE Final Camera Ready Paper Submission"
+    note_zh: 预计。按 RSS 2026 的终稿截止 2026-05-11 顺延一年。
+  - type: conference
+    start: 2027-07-06
+    end: 2027-07-11
+    tz: Europe/Athens
+    status: confirmed
+    src: rss-2027-home
+    quote: "to be held in Athens, Greece from July 6–11, 2027."
+    note_zh: 具体场馆官方尚未公布。
+last_checked: 2026-09-25
+note_zh: 按 RSS 2026 官网日期顺延：摘要 1/23、正文 1/30、补充材料 2/6、出审稿 3/20、rebuttal 3/27、出结果 4/27、终稿 5/11（均 23:59 AoE）。RSS 2027 官网已公布会期 7/6–11 和地点雅典，时间线各项仍是 TBA（时区已写明 11:59pm AoE）。2027 会期比 2026 届（7/13 开始）早一周，实际截止可能相应提前。

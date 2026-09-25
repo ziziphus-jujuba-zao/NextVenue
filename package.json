@@ -13,7 +13,9 @@
     "snapshot": "tsx scripts/snapshot.ts",
     "validate": "tsx scripts/validate.ts",
     "check:quotes": "tsx scripts/check-quotes.ts",
-    "build": "tsx scripts/build.ts",
+    "build": "tsx scripts/build.ts && tsx scripts/build-app.ts",
+    "icons": "tsx scripts/make-icons.ts",
+    "shots": "tsx scripts/app-shots.ts",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "check:all": "pnpm typecheck && pnpm validate && pnpm check:quotes && pnpm test && pnpm build"

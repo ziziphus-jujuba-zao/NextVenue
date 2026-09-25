@@ -2,6 +2,7 @@ id: arr-2026-10/metadata-grace-period
 edition: arr-2026-10
 family: content_edit
 question_zh: 投稿截止后还有改元数据的宽限期吗？哪些能改、哪些不能改？
+short_zh: 截止后改元数据
 answer: conditional
 verification: inherited
 inherited_from: arr-2026-08

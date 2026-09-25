@@ -1,0 +1,43 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: acl-2027
+sources:
+  - id: acl-2027-home
+    url: https://2027.aclweb.org/
+    title: ACL 2027 Home
+    kind: other
+    note_zh: 会期 8/17–22、地点京都已公布；Important Dates 各项（ARR 投稿、commit、出结果、camera-ready）仍全部写 TBA，并注明所有截止为 AoE。
+    fetched_at: 2026-09-24T23:02:20Z
+    http_status: 200
+    snapshot: 333caed6c7ca5c56034dba11a348636ae3c56915c89bfaac7a686890eda5fbd4
+  - id: acl-2027-cfp
+    url: https://2027.aclweb.org/calls/main_conference_papers/
+    title: ACL 2027 Call for Main Conference Papers
+    kind: cfp
+    note_zh: 2026-09-25 页面只有 “Coming soon!”，CFP 尚未发布。
+    fetched_at: 2026-09-24T23:02:21Z
+    http_status: 200
+    snapshot: 859e09cf5cd5e9f164441cb704c03a54655637df59206b377c59e7b7dd9184e4
+  - id: acl-2027-arr-dates
+    url: https://aclrollingreview.org/dates
+    title: ARR Dates and Venues
+    kind: dates
+    note_zh: ARR 日期页的参会表把 ACL 2027 的 Final ARR Submission Date 写为 “January, 2027”（未给具体日期，commit 日期空白）；与 arr-2026-10-dates 为同一快照。
+    fetched_at: 2026-09-24T23:02:21Z
+    http_status: 200
+    snapshot: 4371e9c55e62a94fdf79fc41503fffd58a56ae01af12c6f1337d9b4cd8702ad6
+  - id: acl-2026-dates
+    url: https://2026.aclweb.org/
+    title: ACL 2026 Home (Important Dates)
+    kind: dates
+    note_zh: 上一届（ACL 2026）官网首页的 Important Dates，用作 ACL 2027 推算依据。
+    fetched_at: 2026-09-24T23:02:21Z
+    http_status: 200
+    snapshot: e9d668e1efaa4f3eaddaa076149ce5cb892f83480213aceaf70279cd2cca2a4b
+  - id: acl-2026-cfp
+    url: https://2026.aclweb.org/calls/main_conference_papers/
+    title: ACL 2026 Call for Main Conference Papers
+    kind: cfp
+    note_zh: "上一届（ACL 2026）CFP，日期与官网首页一致；写明可投 ARR 2025 年 10 月轮和 2026 年 1 月轮，更早轮次已有审稿的稿件也可 commit。"
+    fetched_at: 2026-09-24T23:07:44Z
+    http_status: 200
+    snapshot: 41584595ef8d032ffe51d1fd2b5c375fbf3a979e84c35199b28254e489423fd9

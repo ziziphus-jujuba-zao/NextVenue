@@ -2,6 +2,7 @@ id: cvpr-2027/dual-submission-scope
 edition: cvpr-2027
 family: dual_submission
 question_zh: 什么算一稿多投？期刊、workshop 论文和 arXiv 算吗？
+short_zh: 什么算一稿多投
 answer: conditional
 verification: inherited
 inherited_from: cvpr-2026

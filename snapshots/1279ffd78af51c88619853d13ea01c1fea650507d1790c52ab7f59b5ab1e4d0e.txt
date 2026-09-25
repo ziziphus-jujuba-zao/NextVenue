@@ -1,0 +1,182 @@
+Skip to yearly menu bar Skip to main content
+
+Main Navigation
+
+ * WACV
+   * Contact Us
+ * My Stuff
+ * Create Profile
+ * Reset Password
+
+Login
+ * Select Year: (2027)
+   * 2027
+
+     ----------------------------------------
+
+   * 2026
+ * Dates
+ * Calls
+   * WACV 2027 Call for Papers
+
+     ----------------------------------------
+
+   * WACV 2027 Call For Tutorials
+
+     ----------------------------------------
+
+   * WACV 2027 Call for Workshops
+ * Attend
+   * Venue & Hotel Information
+ * Author & Reviewer Guides
+   * Complete Your Open Review Profile
+
+     ----------------------------------------
+
+   * Author Guidelines
+
+     ----------------------------------------
+
+   * Liability Waiver
+
+     ----------------------------------------
+
+   * Reviewer Guidelines
+
+     ----------------------------------------
+
+   * Area Chair Guidelines
+
+     ----------------------------------------
+
+   * Senior Area Chair Guidelines
+
+     ----------------------------------------
+
+   * Liability Waiver
+ * Expo
+   * Prospectus
+ * Organization
+   * Organizing Committee
+
+WACV 2027 Call for Papers
+
+IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) provides a forum for computer vision researchers working on practical applications and innovative algorithms to share their latest developments.
+
+Applications Track
+
+WACV 2027 solicits high-quality, original submissions describing research in computer vision, with a particular emphasis on systems and applications with significant, interesting vision components.
+
+Application areas include, but are not limited to:
+
+ * Agriculture
+ * Animals and Insects
+ * Arts, games, and social media
+ * Autonomous driving
+ * Biomedical, healthcare, and medicine
+ * Commercial and retail
+ * Education
+ * Embedded sensing and real-time techniques
+ * Environmental monitoring, climate change, and ecology
+ * Food science and nutrition
+ * Psychology and cognitive science
+ * Remote sensing
+ * Robotics
+ * Smartphones and end-user devices
+ * Social good
+ * Structural engineering and civil engineering
+ * Virtual and augmented reality
+ * Visualization
+
+Algorithms Track
+
+Authors are also encouraged to submit more traditional computer vision algorithms papers. Topics of interest include, but are not limited to:
+
+ * 3D computer vision
+ * Adversarial learning, adversarial attack, and defense methods
+ * Biometrics, face, gesture, and body pose
+ * Computational photography
+ * Generative models for image, video, 3D, etc.
+ * Explainable, fair, accountable, privacy-preserving, and ethical computer vision
+ * Image recognition and understanding (object detection, categorization, segmentation, scene modeling, visual reasoning)
+ * Low-level and physics-based vision
+ * Machine learning architectures, formulations, and algorithms (including transfer, low-shot, semi-, self-, and unsupervised learning)
+ * Video recognition and understanding (tracking, action recognition, etc.)
+ * Vision + language and/or other modalities
+ * Foundation models for downstream vision tasks
+
+Evaluations & Datasets Track
+
+Authors are also encouraged to submit papers to the Evaluations & Datasets (E&D) Track. These submissions must advance the science and practice of evaluation in computer vision including the development and use of datasets and other resources. Topics of interest include, but are not limited to:
+
+ * Analysis of strengths, limitations, or failure modes of existing benchmarks or evaluation practices
+ * Study benchmark saturation or overfitting and their impact on scientific conclusions
+ * Compare evaluation designs and demonstrate how different assumptions lead to different results or conclusions
+ * Provide rigorous reproduction, auditing, and stress-testing of prior evaluations
+ * Propose new evaluation protocols, practices, or methodologies
+ * Conduct human- or interaction-centered evaluations (e.g., user studies, red-teaming)
+ * Introduce datasets and clearly explain their scope, assumptions, limitations, and how they are intended to support or shape evaluative claims across the computer vision lifecycle
+ * Contribute tools, analyses, or frameworks that improve how evaluative claims are constructed or interpreted
+ * Present negative results, critical analyses, and use-case-inspired evaluations
+ * New datasets and dataset collections
+ * Audits of existing datasets
+ * Benchmarks on new or existing datasets, benchmarking tools, and methodologies
+ * Systematic analyses of systems on novel datasets
+
+----------------------------------------
+
+All submissions will be handled electronically through OpenReview: https://openreview.net/group?id=thecvf.com/WACV/2027/Conference_Round_1#tab-recent-activity
+
+Papers can be submitted to either the Evaluation & Datasets, Applications, or Algorithms tracks, which will have different review criteria. Applications papers will be evaluated on systems-level innovation, novelty of the domain and comparative assessment. Algorithms papers will be evaluated according to the standard conference criteria including algorithmic novelty and quantified evaluation against current, alternative approaches.
+
+Authors should follow the Author Guidelines and use the WACV 2027 Author Kit (Templates to be provided), when preparing their papers for review.
+
+The Author Guidelines contains additional information on submission, ethics, plagiarism, the review process, the publishing process, and use of LLMs.
+
+Deadlines
+
+(All deadline dates are Anywhere on Earth)
+
+Round 1
+
+ * Paper enrollment: June 19th, 2026
+ * Paper submission: June 26th, 2026
+ * Supplementary material submission: June 28th, 2026
+ * Reviews and Decisions released to authors: August 7th, 2026
+ * Rebuttal and Revision submission: August 28th, 2026
+ * Final Decisions released to authors: October 9th, 2026
+
+Round 2
+
+ * New paper enrollment: August 21st, 2026
+ * Paper submission: August 28th, 2026
+ * Supplementary material submission: August 30th, 2026
+ * Reviews and Final Decisions released to authors: October 9th, 2026
+
+Both Rounds
+
+ * Camera ready submission: November 2nd, 2026
+
+For additional questions, contact the WACV 2027 Program Chairs through the WACV Help Desk. Please make sure to include your OpenReview ID in any communication.
+
+Successful Page Load
+
+Contact Us
+
+WACV Help Desk
+
+Please contact us with questions about the following topics:
+
+Author - Paper Submission, Author - Open Review Issues, Author - Camera-Ready Paper, Registration - General, Registration - Cancellation, Childcare/Guests, Expo/Guests, Lodging, Visa Letter, Reviewer - Open Review Issues, Reviewer - General Issues, Area Chair Issues,
+
+Useful links
+
+----------------------------------------
+
+ * WACV Proceedings
+ * Code of Conduct
+
+----------------------------------------
+
+   IEEE Computer Society
+   The Computer Vision Foundation

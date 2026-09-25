@@ -2,6 +2,7 @@ id: iclr-2027/coauthor-openreview-profile
 edition: iclr-2027
 family: profile
 question_zh: 所有合作者都必须有 OpenReview 账号吗？最晚什么时候？
+short_zh: 合作者 OpenReview
 answer: required
 verification: human
 conf: medium

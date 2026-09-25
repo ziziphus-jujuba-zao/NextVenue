@@ -1,0 +1,43 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icra-2027
+sources:
+  - id: icra-2027-cfp
+    url: https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+    title: ICRA 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T23:03:53Z
+    http_status: 200
+    snapshot: 3ad79f4f81f9f06a92f29084332c2f5be5a77d00e1f7795ed25ce018205b1948
+    note_zh: "Important Dates 已改为延期后的 9/16（23:59 PST）；只写 PaperPlaza 2/6 开放终稿提交，没写终稿截止日。页面 FAQ 仍写“There is no plan to extend the paper submission deadline.”，是延期前的旧文字。"
+  - id: icra-2027-deadline-extension
+    url: https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/
+    title: "ICRA 2027 announcement: Call for Papers Submission Deadline Extended (2026-09-16)"
+    kind: blog
+    fetched_at: 2026-09-24T23:03:54Z
+    http_status: 200
+    snapshot: 44b44d3321eadc8f352ca6a694c6bddb964b6c65c7d98fa291fd340ce04ac188
+    note_zh: 官网公告：正文截止延期 24 小时，由原定 9/15 改为 9/16 23:59 PST。
+  - id: icra-2027-video-period
+    url: https://2027.ieee-icra.org/announcements/call-for-papers-accompanying-video-submission-period-updated/
+    title: "ICRA 2027 announcement: Accompanying Video Submission Period Updated (2026-09-17)"
+    kind: blog
+    fetched_at: 2026-09-24T23:03:54Z
+    http_status: 200
+    snapshot: 996348a937969d73001a2016e3724d84b14531a8d6bcade304d81e6095028caa
+    note_zh: 官网公告：视频附件第二个上传窗口调整为 9/18–22（23:59 PST）。
+  - id: icra-2027-home
+    url: https://2027.ieee-icra.org/
+    title: ICRA 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T23:03:54Z
+    http_status: 200
+    snapshot: a7a477f6f4679fe9d1f4b3618c83773dbab5678adadfeb033d4145005fd7ef69
+    note_zh: 会期 5/24–28，地点首尔 Coex。
+  - id: icra-2027-dates
+    url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
+    title: "IEEE RAS: ICRA 2027 Important Dates"
+    kind: dates
+    fetched_at: 2026-09-24T23:03:55Z
+    http_status: 200
+    snapshot: d337a337f3a0a7218537effca3392b351c8b75c431fff68696480e81a89ab3f1
+    note_zh: "主办学会 IEEE RAS 的 ICRA 页面，写明“All deadlines are 11:59 PM Pacific time.”。正文截止仍写延期前的 15 September 2026；终稿提交写 6 March 2027，ICRA 官网没有这一项。"

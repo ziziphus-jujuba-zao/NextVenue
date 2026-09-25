@@ -1,0 +1,26 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: neurips-2027
+sources:
+  - id: neurips-2027-dates
+    url: https://neurips.cc/Conferences/2027/Dates
+    title: NeurIPS 2027 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:03:36Z
+    http_status: 404
+    note_zh: 2026-09-25 仍为 404：NeurIPS 2027 日期尚未公布，时间线按 2026 顺延。
+  - id: neurips-2026-dates
+    url: https://neurips.cc/Conferences/2026/Dates
+    title: NeurIPS 2026 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:03:38Z
+    http_status: 200
+    snapshot: eeb7291204819b1c233fe80cb4c87945115a242015acd20eca2d6886b20b799a
+    note_zh: 上一届日期页，作为 neurips-2027 推算日期的依据（摘要 5/4、正文 5/6、出结果 9/24，均 AoE）。
+  - id: neurips-2027-future-meetings
+    url: https://neurips.cc/Conferences/FutureMeetings
+    title: NeurIPS Future Meetings
+    kind: other
+    fetched_at: 2026-09-24T23:03:39Z
+    http_status: 200
+    snapshot: 0a464ad6617ee9d4d4f304920bc58f70481bee58c5830a3f6ca489aad913580f
+    note_zh: 2027 只写 “Europe”，未给城市和日期；2026 行写悉尼 12/6–12（原文拼作 “Austraila”）。

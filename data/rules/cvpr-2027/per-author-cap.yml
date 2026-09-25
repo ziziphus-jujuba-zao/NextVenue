@@ -2,6 +2,7 @@ id: cvpr-2027/per-author-cap
 edition: cvpr-2027
 family: cap
 question_zh: 同一位作者能投超过 25 篇吗？
+short_zh: 每人上限 25 篇
 answer: not_allowed
 verification: inherited
 inherited_from: cvpr-2026

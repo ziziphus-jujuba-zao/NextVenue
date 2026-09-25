@@ -2,6 +2,7 @@ id: aaai-27/submission-cap
 edition: aaai-27
 family: cap
 question_zh: 每位作者最多能挂名几篇投稿？哪些 track 不计入？
+short_zh: 每人上限 10 篇
 answer: contradictory
 verification: human
 conf: medium

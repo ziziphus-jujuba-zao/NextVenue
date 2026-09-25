@@ -2,6 +2,7 @@ id: cvpr-2027/reviewer-service
 edition: cvpr-2027
 family: reciprocal_reviewing
 question_zh: 投稿的作者都必须给 CVPR 2027 审稿吗？
+short_zh: 作者都要审稿
 answer: required
 verification: human
 conf: high

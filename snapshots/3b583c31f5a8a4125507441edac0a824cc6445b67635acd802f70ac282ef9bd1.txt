@@ -1,0 +1,204 @@
+Skip to content
+KDD 2027
+
+KDD 2027 | San Jose
+
+ * Calls
+   * Research Track: Call for Papers
+   * Applied Data Science (ADS) Track: Call for Papers
+   * Datasets and Benchmarks Track: Call for Papers
+   * AI for Sciences Track: Call for Papers
+ * Program
+ * Attending
+   * Registration
+   * Hotel Information
+ * KDD Cup
+ * Sponsors
+ * Organizers
+   * Organizing Commitee
+ * FAQ
+
+ * Calls
+   * Research Track: Call for Papers
+   * Applied Data Science (ADS) Track: Call for Papers
+   * Datasets and Benchmarks Track: Call for Papers
+   * AI for Sciences Track: Call for Papers
+ * Program
+ * Attending
+   * Registration
+   * Hotel Information
+ * KDD Cup
+ * Sponsors
+ * Organizers
+   * Organizing Commitee
+ * FAQ
+
+FAQs
+
+FAQs for Authors / Paper Submissions Registration FAQs
+
+General
+
+What are the notification dates for papers?
+
+For the August Cycle, notifications would be sent to authors on November 14, 2026.
+
+For the February Cycle, notifications would be sent to authors on [exact date to be confirmed], 2027.
+
+I have a paper accepted at the conference — do I have to register to the conference?
+
+To be included in the proceedings, each accepted paper must be covered by a full or main conference registration at the standard (non-student) in-person rate — the payment for such registration must be completed by the registration deadline ([exact date to be confirmed], 2027).
+
+Can the same manuscript be submitted to both KDD’27 deadlines? That is, is it possible to submit by the August deadline, get a rejection, and then resubmit by the February deadline?
+
+No — the same manuscript cannot be submitted twice to the same track of KDD’27.
+
+Can a paper that received a “Reject” decision at KDD’27 August Cycle, be submitted to KDD’27 February Cycle deadline after significant changes?
+
+No. Only “Resubmit” papers from KDD’27 August Cycle may be submitted to the KDD’27 February Cycle deadline. Rejected papers face a one-year waiting period. You may submit it to the KDD’28 first deadline.
+
+Can a paper that was withdrawn or rejected from one track of KDD’27 (e.g., Research, ADS) be submitted to another track in the following cycle?
+
+Only if the reason for withdrawal or rejection was a misfit with the original track. Whether the submission would be in scope for another track is at the discretion of the receiving program committee.
+
+Can a paper that was withdrawn from the KDD’27 August Cycle be submitted to the KDD’27 February Cycle?
+
+Only if the effective withdrawal date fell before reviews were released to authors on [exact date to be confirmed], 2026. Papers withdrawn after this date face a one-year waiting period and may be submitted to the KDD’28 first deadline.
+
+Can original submissions be sent to either the August or February submission cycles?
+
+Yes. Each cycle will accept both new submissions and resubmissions, but resubmissions can only be sent to the cycle immediately following the “Resubmit” decision. Waiting an additional cycle before resubmitting will cause the paper to be evaluated as a new submission.
+
+Will papers submitted to the August Cycle appear before papers submitted to the February Cycle?
+
+There will be two volumes of the proceedings. Papers accepted by the August Cycle will appear in Vol. 1, while papers accepted by the February Cycle will appear in Vol. 2. However, accepted papers for both cycles will all be presented together in person at the KDD 2027 conference taking place in San Jose in August 2027.
+
+Resubmission
+
+What is the acceptance rate for papers that are resubmitted after receiving a “Resubmit” decision?
+
+There has not been long-term historical data available, as this is a relatively new practice by KDD. For the KDD’27 August Cycle, the Research Track has an acceptance rate of 19% for all papers and 43% considering only resubmission papers. The ADS Track has an acceptance rate of 20% for all papers and 52% considering only resubmission papers.
+
+How will a paper that received a “Resubmit” decision in the previous cycle be treated by the PC of the immediately following cycle?
+
+The reviewers, AC, and SAC of a resubmitted manuscript will have access to the previously submitted manuscript and its reviews. The set of reviewers and ACs that will evaluate the resubmitted manuscript will likely include some who evaluated the previous manuscript.
+
+Can a paper that received a “Resubmit” decision at the KDD’27 August Cycle be submitted not by the KDD’27 February Cycle but, rather, by the KDD’28 first deadline?
+
+A Resubmit paper from the KDD’27 August Cycle is only eligible for resubmission status in the immediately following KDD’27 February Cycle. If submitted later than that, it will be treated as a regular submission.
+
+Am I allowed to submit a “Resubmit” paper to other conferences?
+
+The Resubmit status is an invitation, not an obligation, to submit a revision. Authors may choose to send the paper to another venue. However, there should never be any overlapping time period in which the same or substantially similar manuscripts are under consideration by KDD and another venue.
+
+Am I allowed to change the set or ordering of authors of a “Resubmit” paper?
+
+Yes, you are allowed to change the list of authors of a “Resubmit” paper.
+
+How do I make it known that my paper is a resubmission?
+
+In the paper submission form, specify the OpenReview URL of your previous KDD submission (this URL will look like https://openreview.net/forum?id=<some string>) in the “Paper Link” field. For the KDD’27 February Cycle, the first page of the submitted PDF (not counted in the content limit of 8 pages) must be a “Summary of Changes”; going beyond the first page is considered a violation.
+
+Am I allowed to indicate the changes in the PDF of the submission, either by coloring text differently or listing changes in the appendix?
+
+No. You are only allowed to specify the “Summary of Changes” on the first page. The remaining pages of the PDF should otherwise look like a regular submission.
+
+Can a paper that received a “Resubmit” decision at the KDD’27 August Cycle be submitted not as a resubmission but, rather, as a regular submission to the KDD’27 February Cycle?
+
+Yes. If you indicate “No” for the “Resubmission Flag” and leave the “Paper Link” field empty in the submission form, your submission will be treated as a regular submission. In this case, you forego the opportunity for reviewers to see the previous reviews.
+
+Can a paper that received a “Resubmit” decision at the KDD’27 Applied Data Science Track be resubmitted to the KDD’27 Research Track, or vice versa?
+
+No. We recognize a resubmission only within the same track. If you change tracks, you must submit the paper as a regular submission, which will be processed without referencing the previous reviews.
+
+Am I allowed to include reviews from another conference other than KDD 2027?
+
+No. The KDD 2027 February Cycle only allows resubmission of KDD 2027 August Cycle papers with a Resubmit decision. You are not allowed to include reviews from any other conference in your submission.
+
+Compliance with Policies
+
+How do I indicate conflicts of interest?
+
+Conflicts are detected automatically in OpenReview. For this reason, every author must have a complete profile, which includes (i) Advisors & Other Relations and (ii) Recent Publications, which can be imported from DBLP. An incomplete OpenReview profile is sufficient grounds for desk rejection.
+
+What counts as misconduct?
+
+In general, we expect authors, the program committee, the organizing committee, and other volunteers to adhere to ACM’s Conflict of Interest Policy as well as the ACM Code of Ethics and Professional Conduct. Any transgression that falls short of ethical standards will be investigated and may face disciplinary action. Such transgressions include, but are not limited to, falsification, dual submission, collusion, and pressuring any member of the program committee.
+
+What is the consequence of misconduct?
+
+Convicted papers will be rejected or removed from the proceedings. Convicted individuals, which may include all authors of a convicted paper, will face a three-year ban from SIGKDD events. The ban covers submitting a paper, reviewing, being considered for awards, and related activities.
+
+Registration
+
+I have an accepted paper for the conference. How should I register?
+
+Every accepted ADS and Research paper needs one full conference author registration. To be included in the proceedings, every accepted paper must be covered by a full conference author registration rate, for which payment must be completed by the registration deadline ([exact date to be confirmed], 2027).
+
+If you have any questions about this policy, please contact kdd27-generalchairs@acm.org.
+
+I am a student author of a paper. How should I register?
+
+If you are a student presenting a paper, you must register under the full conference author registration rate.
+
+I have multiple accepted papers. Do I need to register multiple times?
+
+For every accepted paper, there needs to be one unique full conference registration. Do not register multiple times—instead, someone else from your other accepted papers must register.
+
+I cannot attend in person. Can I present my paper virtually?
+
+KDD 2027 is planned to be a fully in-person conference. There will be no virtual component to the conference, and papers cannot be presented virtually. If you cannot attend in person to present, please find a co-author to present for you. At least one author of each accepted paper must register for KDD and present the work in person.
+
+My paper was accepted for a tutorial and/or workshop. Do I need to register for a full-conference registration?
+
+Accepted paper authors for tutorials and workshops do not have to follow the same registration rules as ADS and Research authors. They may register under whichever category best fits them, including the student registration category, as long as they are registered before arriving at the conference.
+
+How do I receive a visa support letter?
+
+Attendees may request a visa support letter through the registration site. When registering, attendees will have the option to indicate that they need a visa support letter. After providing all required information, a visa support letter will be sent by email within 10 business days. Registration must be paid in full before a visa support letter can be issued.
+
+Does a Full Conference pass include access to the Workshops & Tutorials on Sunday and Monday?
+
+Yes. Full Conference registration includes access to workshops and tutorials on Sunday and Monday, as well as main conference sessions on Tuesday, Wednesday, and Thursday.
+
+What does One Day Registration include?
+
+If you register for a one-day registration, you will have the option to select which day or days you would like to attend, up to two days. This includes all sessions, keynotes, special events, and exhibit hall access occurring on the selected day. To attend more than two days, please register for a Full Conference pass.
+
+Can I bring a guest with me? What is included in their registration?
+
+KDD offers a guest pass for $250 that includes access to the Monday and Tuesday poster receptions, the Wednesday evening KDD Celebration event, and the exhibit hall. The link to register a guest is included in your registration confirmation email.
+
+Is childcare being offered at KDD?
+
+At this time, childcare is not confirmed for KDD 2027; however, we are collecting expressions of interest through the registration form. The planning team will provide more information as arrangements are confirmed.
+
+I have a dietary restriction and/or a disability that requires accommodations to attend KDD. What do I do?
+
+During the registration process, you will be able to submit any dietary restrictions or special accommodations you may need. We will do our best to accommodate all requests made by [exact date to be confirmed], 2027. Requests received after this deadline may be difficult to fulfill, depending on the type of request.
+
+What forms of payment are accepted?
+
+Credit cards (Visa, Mastercard, and American Express), wire transfer, and check payment are accepted. To pay by wire transfer or check, complete the registration form and select your preferred method of payment on the Checkout page. Your confirmation email will include a link to your invoice. Wire transfer and check payments are accepted until [exact date to be confirmed], 2027. After that date, all registrations must be paid by credit card.
+
+Can I receive an invoice for my registration?
+
+Yes. To receive an invoice for your registration, complete the online registration form and select Check or Wire Transfer as your payment method. Your confirmation email will include a link to your invoice.
+
+I registered for KDD but I can no longer attend. What are my options?
+
+Cancellation Policy:
+
+Registrants may receive a full refund less a $50 processing fee until [exact date to be confirmed], 2027. No refunds will be granted after [exact date to be confirmed], 2027. Exceptions will be made for anyone whose visa request has been denied. Refunds will be processed using the original form of payment. No-shows will not be refunded. Cancellation requests must be submitted in writing to registration@kdd.org.
+
+Registration Changes & Transfers:
+
+Transfer requests must be made in writing to be processed. Email requests to registration@kdd.org, outline the transfer information, and provide the new attendee’s complete information. Registration transfers will not be accepted after [exact date to be confirmed], 2027.
+
+International Tax Terms and Conditions:
+
+If the registration fee is subject to international tax (VAT), a VAT invoice will be issued after the conclusion of the conference. This applies only to eligible participants based on their location or the conference location and applicable international tax laws. The VAT invoice will be emailed to the address provided following the event. Please ensure your details are accurate at the time of registration to avoid delays. For questions regarding the eligibility of your registration fee for VAT, please contact your ACM liaison.
+
+KDD 2027 | San Jose
+
+All rights reserved

@@ -2,6 +2,7 @@ id: cvpr-2027/reviewer-penalty
 edition: cvpr-2027
 family: reciprocal_reviewing
 question_zh: 作为审稿人迟交审稿或审稿“极不负责”，自己的论文会被 desk reject 吗？
+short_zh: 审稿失职连累论文
 answer: conditional
 verification: inherited
 inherited_from: cvpr-2026

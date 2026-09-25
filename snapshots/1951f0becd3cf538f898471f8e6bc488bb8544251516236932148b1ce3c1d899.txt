@@ -1,0 +1,270 @@
+Skip to yearly menu bar Skip to main content
+
+Main Navigation
+
+ * AISTATS
+   * Code of Conduct
+
+     ----------------------------------------
+
+   * Create Profile
+
+     ----------------------------------------
+
+   * Privacy Policy
+
+     ----------------------------------------
+
+   * Contact AISTATS
+
+     ----------------------------------------
+
+   * Help/FAQ
+ * My Stuff
+
+Login
+ * Select Year: (2027)
+   * 2027
+
+     ----------------------------------------
+
+   * 2026
+
+     ----------------------------------------
+
+   * 2025
+
+     ----------------------------------------
+
+   * 2024
+
+     ----------------------------------------
+
+   * 2023
+
+     ----------------------------------------
+
+   * 2022
+
+     ----------------------------------------
+
+   * 2021
+ * Organization
+   * Code of Conduct
+
+     ----------------------------------------
+
+   * Organizing Committee
+ * Calls
+   * Call For Papers
+   *     Submission FAQ
+   * AC Guidelines
+   * SAC Guidelines
+
+Call for Papers: AISTATS 2027
+
+We invite submissions to the 30th International Conference on Artificial Intelligence and Statistics (AISTATS 2027) and welcome paper submissions at the intersection of artificial intelligence, machine learning, statistics, and related areas. Accepted papers will be presented at the conference to be held in person in Montreal, CANADA, on May 3–6, 2027. At least one author of each accepted paper should intend to register and present the work at the conference. Exceptions may be granted in case of travel emergencies or visa issues.
+
+AISTATS is an interdisciplinary gathering of researchers from computer science, artificial intelligence, machine learning, statistics, and related areas. Since its inception in 1985, the primary goal of AISTATS has been to broaden research in these fields by promoting the exchange of ideas among them. The conference is committed to diversity in all its forms and encourages submissions from authors of underrepresented groups and geographies in ML/AI.
+
+Key Dates
+
+All deadlines are at 23:59 Anywhere on Earth (AoE).
+
+Abstract submission deadline                                  Tuesday, September 29, 2026
+Full paper submission deadline (including all supplementary   Tuesday, October 6, 2026
+material)
+Workshop submission deadline                                  Tuesday, October 20, 2026
+Review period                                                 October 15 – November 5, 2026
+Reviews and AI review released to authors; author rebuttal    Monday, November 16, 2026
+period begins
+Author–reviewer discussion period                             Monday, November 23 – Thursday, December 3, 2026
+Paper decision notifications                                  Wednesday, January 20, 2027
+Camera-ready deadline                                         To be announced
+Conference                                                    May 3–6, 2027
+
+There is no separate supplementary material deadline this year. All supplementary material (appendices, code, data) must be uploaded by the full paper submission deadline.
+
+What Is New in 2027 — Please Read Before Submitting
+
+AISTATS 2027 introduces several changes to its submission and reviewing policies. They are summarized here and detailed in the corresponding sections below.
+
+ 1. Use of AI for research and writing is allowed, but must be disclosed. We recognize that research is now often carried out in hybrid human–AI workflows, from proof sketching to code generation and editing. The use of generative AI tools is therefore not banned. However, (i) every submission must include a mandatory AI Use Statement following the ICLR format (see Use of Generative AI by Authors); (ii) authors bear full responsibility for all content; and (iii) submissions whose writing is unclear, unfocused, or padded — as is typical of insufficiently edited AI-generated text — are candidates for rejection or desk rejection.
+
+ 2. AI review of all submissions. Every submission will receive an AI-generated review targeting factual correctness. This AI review will not be visible to human reviewers while they write their reviews. It will be released to authors at the start of the rebuttal period, and made available to reviewers and area chairs during the discussion phase (see AI Review of Submissions). More details will follow.
+
+ 3. Submission quotas. No author may appear on more than 12 submissions. Authors who do not have an accepted paper at ICLR, ICML, NeurIPS, or AISTATS may appear on at most 3 submissions (see Submission Quotas).
+
+ 4. Authorship is frozen at abstract submission. No author may be added (or removed) after the abstract submission deadline, under any circumstances (see Changes of Title/Abstract/Authorship).
+
+ 5. Confidential reporting (whistleblower) form. Anyone can confidentially report suspected violations of our policies (see Confidential Reporting).
+
+ 6. Citation style. Initial submissions may use either author–year or numeric citations, provided that the chosen style is used consistently throughout the paper. This flexibility is intended to avoid discouraging authors from citing relevant work because of space constraints. Accepted papers must use author–year citations in the camera-ready version to ensure a consistent and reader-friendly style across the published proceedings.
+
+Paper Submission (Proceedings Track)
+
+The proceedings track is the standard AISTATS paper submission track. As in 2026, there will be a separate journal track for papers that have been recently published at select top journals to present those works at AISTATS as a poster; the details of this track will be posted separately.
+
+Papers will be selected for publication via a rigorous double-blind peer-review process. Acceptance rates tend to be around 25%. All accepted papers will be presented at the Conference as posters, with a subset being presented as talks, and will be published in the AISTATS Conference Proceedings, as part of the Journal of Machine Learning Research Workshop and Conference Proceedings series, by the publisher Proceedings of Machine Learning Research (PMLR). Papers for talks and posters are treated equally in publication.
+
+Solicited topics include, but are not limited to:
+
+ * Machine learning methods and algorithms (classification, regression, unsupervised and semi-supervised learning, clustering, logic programming, …)
+ * Probabilistic methods (Bayesian methods, approximate inference, density estimation, tractable probabilistic models, probabilistic programming, …)
+ * Theory of machine learning and statistics (optimization, computational learning theory, decision theory, online learning and bandits, game theory, frequentist statistics, information theory, …)
+ * Deep learning (theory, architectures, generative models, optimization for neural networks, …)
+ * Reinforcement learning (theory of RL, offline/online RL, deep RL, multi-agent RL, …)
+ * Ethical and trustworthy machine learning (causality, fairness, interpretability, privacy, robustness, safety, …)
+ * Applications of machine learning and statistics (including natural language, signal processing, computer vision, physical sciences, social sciences, sustainability and climate, healthcare, …)
+
+Submissions are accepted through OpenReview https://openreview.net/group?id=aistats.org/AISTATS/2027/Conference.
+
+The site will start accepting submissions on September 15, 2026.
+
+All authors must have an up-to-date OpenReview profile (including current affiliation, publication record, and DBLP link where applicable) at the time of abstract submission; this information is used for conflict-of-interest management, reviewer qualification, and submission quotas. Incorrect profile information is grounds for desk rejection.
+
+Submission Quotas
+
+Peer review is the scarcest resource of a conference. Each submission to AISTATS triggers at least three full reviews, a meta-review by an area chair, and a discussion phase: that is several days of expert work, provided for free by the community, for every paper submitted. Over the last few years, the number of submissions to machine learning conferences has grown at an unprecedented rate, and generative AI tools now make it possible to produce far more manuscripts than the community can carefully evaluate. This rapid growth, while exciting, has begun to strain the review system: qualified reviewers are overloaded, expertise is spread thin, and the quality of the feedback is at risk of decreasing. Limiting the number of submissions per author is the most direct way to keep the reviewing load commensurate with the pool of qualified reviewers, and we believe that these limits are necessary to provide a fair and informative review process to all submitters.
+
+AISTATS 2027 therefore adopts submission quotas modeled on the ICLR 2027 policy:
+
+ * No author may appear as a co-author on more than 12 submissions.
+ * Authors who do not have at least one accepted paper at ICLR, ICML, NeurIPS, or AISTATS may appear as a co-author on at most 3 submissions. Eligibility is determined by papers accepted for publication by the abstract submission deadline, as recorded in the author's OpenReview profile.
+ * Exemption of reciprocal reviewing on the basis of "all authors are unqualified" can only be requested for one paper per author. As a consequence, someone not qualified for reviewing can submit at most one single-author paper. Such an author may still appear on other submissions, provided that another co-author is nominated to review or qualifies for a different exemption.
+
+Submissions in excess of either quota will be flagged during the abstract submission period. If they are still exceeded at the time of full paper submission, we will randomly desk-reject excess submissions until every author is under quota.
+
+Update September 24, 2026: update on the quota of exemption of reciprocal reviewing.
+
+Changes of Title/Abstract/Authorship
+
+The author list submitted at the abstract submission deadline is final. No author may be added or removed after the abstract submission deadline, under any circumstances, including after acceptance and during the camera-ready phase. This is to avoid new unforeseen conflicts of interest after the bidding, which will start immediately after the abstract submission deadline, and to enforce the reciprocal reviewing and quota policies. Please make sure that all authors are listed, with correct OpenReview profiles, at the time of abstract submission. The author order can be changed after the paper is accepted.
+
+Submissions violating these rules will be deleted after the paper submission deadline without review. Major changes to the title and abstract after the abstract deadline will also be flagged for desk rejection.
+
+Formatting and Supplementary Material
+
+Submissions are limited to 8 pages (excluding references, the AI Use Statement, the reproducibility checklist, and additional appendices) using the LaTeX style file we will provide on this webpage on this webpage (the page limit will be 9 for camera-ready submissions). The number of pages containing only citations, the AI Use Statement, the reproducibility checklist, and appendices (such as proof details) is not limited. Papers with main text beyond the page limit will be desk-rejected.
+
+Supplementary material. Any additional supplementary material must be submitted by the full paper submission deadline, either as part of the main submission PDF (after the references, the AI Use Statement, and the reproducibility checklist) or separately in a single PDF file or a ZIP file for other formats/more files (such as code or videos). It is the authors' responsibility that any supplementary material does not conflict in content with the main paper (e.g., the separately uploaded additional material is not an updated version of the one appended to the manuscript). There is no separate supplementary material deadline.
+
+Formatting information (including LaTeX style files): https://aistats.org/aistats2027/AISTATS2027PaperPack.zip
+
+Reciprocal Reviewing (Reviewer Nomination)
+
+AISTATS relies on its authors to serve as reviewers: each submission triggers at least three full reviews, and the growth in submissions makes it impossible to maintain review quality without the participation of the authors. Following the ICML 2026 and NeurIPS 2026 policies, the following rules apply to all submissions.
+
+Per-submission requirement. For each submission, the authors must nominate, in the submission form, one of the authors as a reciprocal reviewer for AISTATS 2027. Nominated reviewers must have sufficient expertise in the relevant field: research experience at least equivalent to a second-year PhD student in machine learning, statistics, or a related field, and multiple publications at the top AI/ML conferences, or multiple top journal papers in statistics or related fields.
+
+Exemption. If no author of a submission cannot be nominated, exemptions will be granted on exceptionnal basis. The exemption must be requested and justified through this form https://forms.gle/Wi25nF3227UMzvnF6 ; unjustified exemption requests will be treated as a missing nomination. Exemption of reciprocal reviewing on the basis of "all authors are unqualified" can only be requested for one paper per author. As a consequence, someone not qualified for reviewing can submit at most one single-author paper. Such an author may still appear on other submissions, provided that another co-author is nominated to review or qualifies for a different exemption.
+
+Consequences. Submissions that do not satisfy the per-submission requirement may be desk-rejected. Nominated reviewers who fail to deliver complete, timely, high-quality reviews, or who do not take part in the discussion phase, may have the submission on which they were nominated — and their other submissions — desk-rejected. In addition, authors who are also reviewers will not see the reviews of their own submission(s) until they have completed all of their assigned reviews. Reviews that are evidently produced by an LLM in violation of the reviewer policy count as missing reviews.
+
+Incentives. Reviewers who deliver high-quality, timely reviews will be recognized: the top reviewers, as identified by area chairs, will be publicly acknowledged and receive Top Reviewer awards. All reviewers will have access, during the discussion phase, to the AI factual-correctness review of the papers they review (see below).
+
+Update September 23, 2026: adding the reciprocal reviewing exemption form.
+
+Update September 24, 2026: clarification added regarding the exemption in cases involving non-qualified authors.
+
+AI Review of Submissions
+
+New in 2027: all submissions will go through an AI review, generated by an LLM-based system operated by the conference. The purpose of this review is to help detect factual errors and support the human reviewing process, not to replace it:
+
+ * Scope. The AI review targets factual correctness: incorrect or unsupported claims, errors or gaps in proofs, inconsistencies between the text, tables, and figures, mismatches between the described and reported experimental setup, and misattributed related work. It does not assess significance or novelty, it does not produce a score, and it makes no recommendation.
+ * Not visible to reviewers while reviewing. Human reviewers will not have access to the AI review while writing their own reviews, so that their independent judgement is preserved.
+ * Visible to authors at rebuttal time. The AI review will be released to the authors together with the human reviews at the start of the rebuttal period (November 16, 2026), so that authors can respond to it.
+ * Visible to reviewers and area chairs at discussion time. The AI review, and the authors' response to it, will be made available to reviewers and area chairs during the discussion phase.
+ * Decisions remain human. The AI review is one input among others; all decisions are made by the area chairs, senior area chairs, and program chairs based on the human reviews and discussion.
+ * Confidentiality. Submissions will be processed by a privacy-compliant system under the same confidentiality requirements as the human review process; submissions will not be used to train models.
+
+Further details on the AI review, including the exact format and how authors and reviewers are expected to engage with it, will be posted on the conference website before the submission deadline.
+
+Human reviewers remain bound by the reviewer policy on LLMs: reviewers must not delegate their judgement and critique of a submission to an LLM, must not produce their reviews with an LLM, and must not enter submission content into non-privacy-compliant tools. Violations may lead to sanctions, including the desk rejection of the reviewer's own submissions.
+
+Anonymization Requirements
+
+The AISTATS review process is double-blind. All submissions must be anonymized and may not contain any information that can violate the double-blind reviewing policy, such as the author names or their affiliations, acknowledgements, or links that can infer any author's identity or institution. Self-citations are allowed as long as anonymity is preserved. It is up to the author's discretion how best to preserve anonymity when including self-citations. Possibilities include: leaving out a self-citation, including it but replacing the citation text with "removed for anonymous submission," or leaving the citation as-is (being referred to in third person, like other citations).
+
+We suggest the authors refrain from advertising the preprint on social media or in the press while under submission to AISTATS. Preprints must not be explicitly identified as an AISTATS submission at any time during the review period (i.e., from the abstract submission deadline until the communication of the accept/reject decision). If it is being posted to arXiv (or similar sites), we suggest using a neutral (non-AISTATS) format. Authors are also allowed to give talks on the work(s) submitted to AISTATS during the review, but these talks should not identify papers as AISTATS submissions.
+
+Dual Submissions
+
+Submitted manuscripts should not have been previously published in a journal or in the proceedings of a conference, and should not be under consideration for publication at another conference at any point during the AISTATS review process. Submissions as extended abstracts (4 pages or less) to workshops or non-archival venues (without a proceedings) will not be considered a concurrent submission. Tech reports (on arXiv or similar sites) and short papers in workshops without archival proceedings do not count as prior publication.
+
+Confidentiality
+
+The reviewers and area chairs of your paper will have access to your paper (and supplementary material). In addition, the program chairs and workflow chairs will have access to all papers. Everyone having access to papers is instructed to keep them confidential during the review process and delete them after the final decisions. Submissions are also processed by the conference's AI review system (see AI Review of Submissions), under the same confidentiality requirements.
+
+Reviews will be visible to area chairs, program chairs, and workflow chairs throughout the process. Reviewers will get access to other reviews for a paper during the rebuttal phase, and to the AI review during the discussion phase.
+
+Author names will be visible to program chairs and workflow chairs. Reviewers and area chairs will not know the author names at any stage of the process. Reviewer names are visible to the area chairs, workflow chairs, and program chairs.
+
+Use of Generative AI by Authors
+
+(aligned with ICLR policy -- https://iclr.cc/Conferences/2027/AIPolicyForAuthors )
+
+Policy on LLM use for research and writing papers
+
+We recognize that research is now often carried out in hybrid human–AI workflows: LLMs and other generative AI tools are used at all stages, varying in sophistication from formulating proofs to formatting tables. Consequently, the use of generative AI tools to assist in research or writing is allowed at AISTATS 2027, under the following conditions.
+
+Authors are fully responsible for the content of their submission. This includes any content generated by AI tools. A substantial falsehood, instance of plagiarism, fabricated or misattributed reference, or misrepresentation produced by an LLM is considered scientific misconduct on the part of the paper's authors, and may lead to desk rejection of the paper and to the authors being reported to the AISTATS board. LLMs are not eligible for authorship.
+
+Clarity of writing is a requirement. Reviewers and area chairs are instructed to assess clarity as a first-class criterion. Submissions whose writing is unclear, verbose, repetitive, unfocused, or padded with generic content — as is typical of insufficiently edited AI-generated papers — are candidates for rejection, and may be desk-rejected by the area chairs before review. Submitting low-quality AI-generated content is an abuse of the peer-review process; it may result in the desk rejection of the violating submission or of all submissions by the same authors.
+
+Mandatory AI Use Statement
+
+We ask that authors explicitly state how they used LLMs and other generative AI tools in their submission, both in the paper's text and in the paper submission form. Every submission must include an "AI Use Statement" section, placed before the references (before the reproducibility checklist). This section does not count towards the page limit. A submission without an AI Use Statement will be desk rejected. The AISTATS 2027 paper template includes a boilerplate statement to give authors a sense of the expected level of detail. Authors are not required to follow this format exactly — these disclosures may be a source of useful information to the community about how AI is affecting research workflows, and we encourage authors to provide as much detail as they want. If no generative AI tools were used, the statement should say so.
+
+To guide authors about the nature and extent of reporting, we provide below a list of common research subtasks along with the necessity of disclosing them.
+
+Example AI Use Statement.
+
+" In this work, we used generative AI tools for <tasks with required disclosure>. We have not used generative AI tools for <other tasks with required disclosure>, and <the rest of the required disclosure tasks> are not applicable to this work. Additionally, we used generative AI tools for <tasks with recommended disclosure>. We have reviewed all AI-assisted work. [Elaborate. For example, "we checked LLM-generated research ideas for potential plagiarism through a manual literature survey", "LLM-generated code was verified and tested for correctness by two authors", "all LLM-assisted proofs were checked line by line by the authors", etc.] We take responsibility for the final content of this work, including text, claims, or artifacts produced with the aid of generative AI. "
+
+Required disclosure. Generate synthetic data sets; help develop theoretical models or conceptual frameworks; formulate mathematical claims; provide critical ingredients for proving mathematical claims; assist in the writing of proofs; propose or refine hypotheses; design or provide feedback on research methodology or experiments; implement methods; assist with translation; clean and reformat datasets; support qualitative and thematic data analysis; interpret results.
+
+Recommended disclosure. Formulate questions for surveys or interviews; create or modify scientific figures or images; suggest experimental parameters; create or edit software code; create artifacts; draft parts of a research paper; transcribe recordings of research material; summarize or analyze existing literature; discover research topics or identify gaps; brainstorming; sourcing/searching for information; edit a research paper to improve readability; identify relevant literature; format references; suggest a structure for a research paper; propose a title or keywords for a research paper.
+
+Policy on subversive/hidden LLM prompts
+
+Submitting a paper with a "hidden" prompt (e.g., white text, microscopic fonts, or instructions embedded in metadata or images) is scientific misconduct if that prompt is intended to obtain a favorable review from an LLM. The inclusion of such a prompt is an attempt to subvert the peer-review process, and is all the more serious now that every submission goes through an official AI review. Although AISTATS 2027 human reviewers are forbidden from using LLMs to produce their reviews, this fact does not excuse the attempted subversion. (For an analogous example, consider that an author who tries to bribe a reviewer for a favorable review is engaging in misconduct even though the reviewer is not supposed to accept bribes.)
+
+The AISTATS 2027 organizing committee reserves the right to both reject submitted papers that contain hidden prompts for LLMs and report their authors to the AISTATS board. The committee also reserves the right to retroactively reject papers that were initially accepted but are later found to violate this policy, before the final publication of the AISTATS proceedings.
+
+Confidential Reporting (Whistleblower Form)
+
+AISTATS 2027 provides a confidential reporting form: https://forms.gle/QwxFHmxRjZyNvSWx7. Anyone — authors, reviewers, area chairs, or third parties — can use it to report, confidentially and without deadline, suspected violations of the policies described in this call, including:
+
+ * hidden prompts or other attempts to manipulate human or AI reviews;
+ * undisclosed or misrepresented use of generative AI, or low-quality AI-generated submissions;
+ * plagiarism, fabricated results, or fabricated references;
+ * dual submissions or circumvention of the submission quotas or authorship rules;
+ * collusion between authors and reviewers, bidding manipulation, or breaches of double-blind reviewing or confidentiality;
+ * reviewer misconduct, including LLM-generated reviews.
+
+Reports are handled by the program chairs, in consultation with the AISTATS board where needed. The identity of the reporter is kept confidential, and AISTATS does not tolerate any form of retaliation against reporters. Reports may be submitted anonymously, but including contact details allows us to follow up if clarification is needed. Reports concerning harassment or the Code of Conduct should be submitted through the Code of Conduct reporting channel.
+
+Contact
+
+Questions about this call should be sent to the program chairs at aistats2027+pc@gmail.com. Please also consult the Submission FAQ on the conference website before writing.
+
+Successful Page Load
+
+AISTATS uses cookies for essential functions only. We do not   Accept
+sell your personal information. Our Privacy Policy »
+
+The AISTATS Logo above may be used on presentations. Right-click and choose download. It is a vector graphic and may be used at any scale.
+
+Useful links
+
+ * Create Profile
+ * Reset / Forgot Password
+
+Contact
+
+82799 Kingsboro Lane, Indio CA 92201
+
+Email
+
+AISTATS Proceedings

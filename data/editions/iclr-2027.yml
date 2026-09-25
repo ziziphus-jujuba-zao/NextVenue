@@ -3,6 +3,7 @@ series: iclr
 name: ICLR 2027
 year: 2027
 kind: conference
+topics: [ml, ai]
 location:
   city: San Francisco
   country: USA

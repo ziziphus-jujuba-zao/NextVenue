@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 // Static rules site (v0.0): one page, rendered at build time, no tracking.
-import type { Bundle, BundleEdition, BundleMilestone, BundleRule } from './build.ts';
+import type { Bundle, BundleEdition, BundleMilestone, BundleRule } from './bundle.ts';
 
 const ANSWER_ZH: Record<string, string> = {
   required: '必须',
@@ -187,7 +187,8 @@ export function renderSite(bundle: Bundle): string {
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif}
 main,header.top,footer.bottom{max-width:960px;margin:0 auto;padding:0 16px}
-header.top{padding-top:40px}
+header.top{padding-top:24px}
+.back{margin:0 0 16px;font-size:14px}.back a{color:var(--accent);text-decoration:none}
 h1{font-size:28px;margin:0 0 6px;letter-spacing:.01em}
 h1 .en{font-size:17px;font-weight:500;color:var(--muted);margin-left:6px}
 .tagline{margin:0 0 12px;color:var(--muted)}
@@ -236,6 +237,7 @@ footer.bottom{color:var(--muted);font-size:13px;padding-top:40px;padding-bottom:
 </head>
 <body>
 <header class="top">
+  <p class="back"><a href="./">‹ 返回投稿下一站 App</a></p>
   <h1>投稿下一站 <span class="en">NextVenue</span></h1>
   <p class="tagline">投稿规则卡。摘要截止后能改什么？作者名单什么时候冻结？撤稿会不会公开？每条回答都附官方原文，点击直达官网原句。</p>
   <p class="disclaimer">仅供决策参考，以官网为准。“沿用上一届”表示新一届尚未公布，按上一届规则推断；“官方说法矛盾 †”会并列两种读法，不替你选。最近核对：${esc(lastChecked)}。</p>

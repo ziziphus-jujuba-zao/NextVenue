@@ -2,6 +2,7 @@ id: iclr-2027/no-reviewer-paper-quota
 edition: iclr-2027
 family: cap
 question_zh: 每位作者能参与超过 1 篇“没有任何作者具备互审资格”的论文吗？
+short_zh: 无互审作者的论文
 answer: not_allowed
 verification: human
 conf: high

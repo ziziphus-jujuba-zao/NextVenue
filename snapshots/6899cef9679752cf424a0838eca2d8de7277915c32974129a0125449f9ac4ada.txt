@@ -1,0 +1,116 @@
+50 years of ACM SIGIR
+
+SIGIR 2027 50th International ACM SIGIR Conference on Research and Development in Information Retrieval
+
+July 18-24, 2027 Signia by Hilton San Jose San Jose, California, USA
+
+SIGIR convenes the world's leading researchers and practitioners in information retrieval for a milestone edition in Silicon Valley, bringing together search, ranking, recommendation, and retrieval-augmented AI at the center of the field's next chapter.
+
+View Important Dates Calls for Submissions
+50 Years
+
+San Jose 2027
+
+Silicon Valley hosts SIGIR’s 50th anniversary
+
+A milestone edition centered on information retrieval’s past, present, and next wave.
+
+SIGIR@50 retrospective, gala, alumni, and future-facing programming
+
+Land acknowledgement
+
+SIGIR 2027 convenes within the Thámien Ohlone-speaking tribal territory of the Santa Clara Valley — the unceded ancestral homeland of the Muwekma Ohlone Tribe. We honor and respect the Muwekma Ohlone people, past, present, and emerging, and their enduring connection to this land.
+
+About
+
+The flagship IR conference, at an inflection point for the field
+
+SIGIR is the premier international forum for the presentation of new research results and the demonstration of new systems and techniques in information retrieval. The conference spans papers, demonstrations, tutorials, workshops, doctoral consortium activities, industry participation, and community events.
+
+The 2027 edition marks fifty years of SIGIR and places that milestone in Silicon Valley, where search, recommendation, retrieval-augmented generation, and agentic systems are being shaped in both research and deployment.
+
+SIGIR@50
+
+A once-in-a-generation anniversary program
+
+Look back — the retrospective
+
+ * TBA
+ * TBA
+
+Invest in who carries it forward
+
+ * Travel Grants — named, fully-funded grants that help students and researchers attend the conference (an expansion of SIGIR's existing travel grant program for the anniversary).
+ * Doctoral Consortium and workshop sponsorships, connecting sponsors directly with the next generation of IR researchers.
+
+Important dates
+
+Confirmed milestones and organizer placeholders
+
+July 18-24, 2027
+
+Conference week
+
+SIGIR 2027 at Signia by Hilton San Jose, California, USA.
+
+Jan – Apr 2027
+
+Full paper deadlines
+
+Abstract submission: January 14, 2027
+
+Full paper submission: January 21, 2027
+
+Notification: April 5, 2027
+
+Camera-ready submission: April 30, 2027
+
+Author registration: April 30, 2027
+
+TBA
+
+Short, demo, resource, reproducibility, and perspective papers
+
+Add abstract and submission deadlines.
+
+TBA
+
+Tutorial and workshop proposals
+
+Add proposal deadlines and notification dates.
+
+TBA
+
+Registration milestones
+
+Add author, early, regular, and late registration dates.
+
+Explore
+
+Quick links
+
+Submit
+
+Submission tracks and calls for papers, tutorials, workshops, and more.
+
+Program
+
+Core SIGIR tracks plus anniversary programming and the schedule.
+
+Attend
+
+Venue and travel information, registration, and attendee support.
+
+Sponsorship
+
+Sponsorship chairs and how to reach them about supporting the 50th anniversary.
+
+Policies
+
+Conference policies, author guidance, and FAQ placeholders.
+
+Organizers
+
+General, sponsorship, and local chairs, plus conference contact points.
+
+↑

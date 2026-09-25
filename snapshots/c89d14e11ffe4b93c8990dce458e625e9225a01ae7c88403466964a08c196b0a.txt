@@ -1,0 +1,292 @@
+Skip to content
+ * IEEE.org
+ * IEEE Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+ * IROS 2026
+ * About
+   * Important Dates
+   * Organizing Committee
+   * Press & Media
+   * RAS CARES
+ * Program
+   * Program Guide
+   * Program Overview
+   * Workshops & Tutorials
+   * Competitions
+   * Technical Tours
+   * Society Events
+   * Presenter Instructions
+   * Session Chair Instructions
+ * Attend
+   * Registration
+   * Conference Venue
+   * Accommodations
+   * Travel Information
+   * Visa Information
+   * IROS-SDC Travel Award Program
+   * RAS Member Support
+   * IES Students and Young Professionals Paper Assistance Program (IES-SYPA)
+   * Instructions for speakers who experience travel difficulties and cannot attend
+   * SYP Forum
+   * Volunteer Opportunities
+   * Childcare Services
+ * Contribute
+   * Call for Papers
+   * Call for Workshops & Tutorials
+   * Call for Competitions
+   * Call for Special Sessions
+   * Call for Forums
+   * Call for IROS Award Nominations
+   * Call for Late Breaking Results
+ * Exhibitors & Partners
+   * Confirmed Partners & Exhibitors
+   * Partnership and Exhibit Prospectus
+   * Floor Plan & Exhibitor List
+   * Partnership & Exhibit Application
+ * Contact Us
+
+ * IROS 2026
+ * About
+   * Important Dates
+   * Organizing Committee
+   * Press & Media
+   * RAS CARES
+ * Program
+   * Program Guide
+   * Program Overview
+   * Workshops & Tutorials
+   * Competitions
+   * Technical Tours
+   * Society Events
+   * Presenter Instructions
+   * Session Chair Instructions
+ * Attend
+   * Registration
+   * Conference Venue
+   * Accommodations
+   * Travel Information
+   * Visa Information
+   * IROS-SDC Travel Award Program
+   * RAS Member Support
+   * IES Students and Young Professionals Paper Assistance Program (IES-SYPA)
+   * Instructions for speakers who experience travel difficulties and cannot attend
+   * SYP Forum
+   * Volunteer Opportunities
+   * Childcare Services
+ * Contribute
+   * Call for Papers
+   * Call for Workshops & Tutorials
+   * Call for Competitions
+   * Call for Special Sessions
+   * Call for Forums
+   * Call for IROS Award Nominations
+   * Call for Late Breaking Results
+ * Exhibitors & Partners
+   * Confirmed Partners & Exhibitors
+   * Partnership and Exhibit Prospectus
+   * Floor Plan & Exhibitor List
+   * Partnership & Exhibit Application
+ * Contact Us
+
+Register Now
+
+Call for Papers
+
+Home » Contribute » Call for Papers
+
+The 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) will be held from September 27 through October 1, 2026 at the David Lawrence Convention Center, Pittsburgh, Pennsylvania, USA. IROS is one of the largest and highest-impact robotics research conferences worldwide. It provides an international forum for the international robotics research community to explore frontiers of science and technology in intelligent robots and smart machines. In addition to technical sessions and multi-media presentations, IROS will also include panel discussions, forums, workshops, tutorials, exhibits, and technical tours to enrich the fruitful discussions among conference attendees.
+
+Innovative research results on topics related (but not limited) to the following are invited: robot design, robot kinematics/dynamics/control, system integration, AI in robotics, sensor/actuator networks, distributed and cloud robotics, bio-inspired systems, service robots, robotics in automation, biomedical applications, autonomous vehicles (land, sea, and air), robot perception, manipulation with multifinger hands, micro/nano systems, sensor information, multimodal interface and human robot interaction, and robot vision.
+
+As peer-reviewed archival publications, all accepted papers will be hosted on IEEE Xplore. Prospective authors are invited to submit high-quality papers representing original work. Submissions in all areas of intelligent robots and applications are welcome.
+
+Submit Paper
+
+KEY DATES
+
+March 2, 2026   Deadline for Paper submissions
+                (Submissions may be modified, but not started, through March
+                5)
+March 7, 2026   Deadline for Paper Video submissions
+June 16, 2026   Notification of Paper acceptance
+June 30, 2026   Indicate preference of oral session format
+July 16, 2026   Deadline for Final Paper submissions
+
+PREPARING YOUR SUBMISSION
+
+Papers should be up to eight pages (US letter size) in length. The number of pages includes the references, appendices, etc. This replaces the old 6+2 model, and there is no option to pay for additional pages.
+
+Note
+
+IROS no longer offers an RA-L+IROS submission option. All published papers from RAM and non-evolutionary published RA-L, T-ASE and T-RO papers are eligible for presentation at IROS, during an eligibility time window.
+
+IEEE RAS has also implemented a reviewer/author tracking system in PaperCept from January 1, 2026. Authors are strongly encouraged to provide high-quality reviews for the success of IROS 2026.
+
+Format Guidelines
+
+All papers must be in English and submitted electronically in PDF (up to 6 MB) format via PaperPlaza. To ensure formatting compliance (e.g. margins, fonts and size), use the provided templates:
+
+ * LaTeX Template
+ * MS Word Template
+
+Author names and affiliations should be redacted from the submitted PDF. For LaTeX documents, we suggest using the “censor” package. Please refer to the Rules for the Double-Anonymous Review Process from IEEE Robotics and Automation Society (RAS).
+
+Video Supplement
+
+A 1-minute video (up to 10 MB) can be added to supplement your paper. Videos are not mandatory; rather, it’s an opportunity to augment one’s paper to visibly showcase results. MPG, MPEG or MP4 video formats can be used. One can upload or re-upload the video attachment no later than March 5, 2026 (23:59 PST).
+
+Show and Tell
+
+IROS is testing a new “Show and Tell” option for papers, in which authors of some accepted papers (in addition to their standard presentation and poster) will have the opportunity to present a short, self-supported demonstration of a physical robot (or component). If you would like to be considered for a slot in the Show and Tell track, please check the box to indicate this on PaperCept and provide a brief description of what you would show.
+
+Resubmission of Papers Rejected from ICRA 2026
+
+IROS 2026 has a submission category “ICRA-IROS transfer” for papers that previously were submitted to ICRA 2026, but were not accepted for publication. The submission should include an additional Author Response File (PDF) to clarify how the comments from the AE/Editor and the reviewers were taken into account in the preparation of the revised paper. The papers will undergo a regular review process.
+
+It is authors’ responsibility to not identify themselves in the response file.
+
+Author responses may be full rebuttals, but may also be shorter documents highlighting changes you have made to the paper in response to the reviewer comments. This response gives you as an author the opportunity to aid the reviewers in providing a fair and useful assessment of your paper.
+
+For example, if you believe the reviewer misunderstood the context of your paper, you could update the introduction to more directly situate the reader, and then note in your author response that a question was raised about the context and that you have clarified this point in the introduction.
+
+Review Process
+
+The IROS Conference Paper Review Board rigorously reviews all submissions and then through the IROS 2026 Senior Program Committee, renders acceptance decisions.
+
+The IROS review process is double-anonymous (both reviewers and authors stay anonymous). Therefore, manuscripts should not include author names or their affiliations.
+
+Best Paper Awards in various categories are also selected by their respective committees.
+
+See RAS Review Guideline
+
+Expectation of In-Person Presentations
+
+All papers accepted at the 2026 IROS are to be presented, in person, by the author/co-author or a knowledgeable person on the subject matter.
+
+Guidelines for Generative AI Usage
+
+Generative AI tools and technologies, such as ChatGPT, may not be listed as authors of a paper submitted to IROS 2026. The use of content generated by AI in an article (including but not limited to text, figures, images, and code) must be disclosed in the acknowledgments section.
+
+The AI system used must be identified, and specific sections of the article that use AI-generated content should be specified and accompanied by a brief explanation regarding the manner in which the AI system was used to generate the content.
+
+Information or content contained in or about a manuscript under review shall not be processed through an AI system. Doing so is considered a breach of confidentiality and as such is not permitted.
+
+ * IROS 2026
+ * Sitemap
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms & Disclosures
+
+ * IROS 2026
+ * Sitemap
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms & Disclosures
+
+ * IROS 2026
+ * Sitemap
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms & Disclosures
+
+ * IROS 2026
+ * Sitemap
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms & Disclosures
+
+IROS 2026 is the 2026 edition of the IEEE/RSJ International Conference on Intelligent Robots and Systems annual event.
+
+© Copyright 2026 IEEE – All rights reserved. A not-for-profit organization, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+
+Facebook X-twitter Linkedin Instagram
+
+Cookie Consent
+
+We use cookies to improve your experience on our site. By using our site, you consent to cookies.
+
+PreferencesRejectAccept All
+Powered by (opens in a new window)
+
+Cookie Preferences
+
+×
+
+Manage your cookie preferences below:
+
+Toggle EssentialEssential
+
+Essential cookies enable basic functions and are necessary for the proper function of the website.
+
+Name
+Description
+Duration
+Cookie Preferences
+This cookie is used to store the user's cookie consent preferences.
+30 days
+Toggle StatisticsStatistics
+
+Statistics cookies collect information anonymously. This information helps us understand how visitors use our website.
+
+Toggle Google AnalyticsGoogle Analytics
+
+Google Analytics is a powerful tool that tracks and analyzes website traffic for informed marketing decisions.
+
+Service URL: policies.google.com (opens in a new window)
+
+Name
+Description
+Duration
+__utmb
+Used to distinguish new sessions and visits. This cookie is set when the GA.js javascript library is loaded and there is no existing __utmb cookie. The cookie is updated every time data is sent to the Google Analytics server.
+30 minutes after last activity
+__utmc
+Used only with old Urchin versions of Google Analytics and not with GA.js. Was used to distinguish between new sessions and visits at the end of a session.
+End of session (browser)
+__utmz
+Contains information about the traffic source or campaign that directed user to the website. The cookie is set when the GA.js javascript is loaded and updated when data is sent to the Google Anaytics server
+6 months after last activity
+__utmv
+Contains custom information set by the web developer via the _setCustomVar method in Google Analytics. This cookie is updated every time new data is sent to the Google Analytics server.
+2 years after last activity
+__utmx
+Used to determine whether a user is included in an A / B or Multivariate test.
+18 months
+_ga
+ID used to identify users
+2 years
+_gali
+Used by Google Analytics to determine which links on a page are being clicked
+30 seconds
+_ga_
+ID used to identify users
+2 years
+_gid
+ID used to identify users for 24 hours after last activity
+24 hours
+_gat
+Used to monitor number of Google Analytics server requests when using Google Tag Manager
+1 minute
+_gac_
+Contains information related to marketing campaigns of the user. These are shared with Google AdWords / Google Ads when the Google Ads and Google Analytics accounts are linked together.
+90 days
+__utma
+ID used to identify users and sessions
+2 years after last activity
+__utmt
+Used to monitor number of Google Analytics server requests
+10 minutes
+Toggle Cookie PolicyCookie Policy
+
+You can find more information in our Cookie Policy and Privacy Policy.
+
+Accept AllClose
+Save and Close
+Powered by (opens in a new window)

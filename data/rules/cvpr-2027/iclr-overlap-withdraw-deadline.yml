@@ -2,6 +2,7 @@ id: cvpr-2027/iclr-overlap-withdraw-deadline
 edition: cvpr-2027
 family: dual_submission
 question_zh: 论文还在 ICLR 2027 审稿中，想转投 CVPR 2027，必须在 11/10 CVPR 论文注册前撤掉 ICLR，还是在 11/16 正文截止前撤就行？
+short_zh: ICLR 在审稿件何时撤
 answer: contradictory
 verification: inherited
 inherited_from: cvpr-2026

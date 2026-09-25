@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aistats-2028
+sources:
+  - id: aistats-2028-home
+    url: https://aistats.org/aistats2028/
+    title: AISTATS 2028 Home
+    kind: other
+    fetched_at: 2026-09-24T23:04:01Z
+    http_status: 404
+    note_zh: 2026-09-25 为 404：AISTATS 2028 尚未公布。推算依据是 aistats-2027 sources 文件里的 aistats-2027-dates。

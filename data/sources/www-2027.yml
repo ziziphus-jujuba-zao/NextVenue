@@ -1,0 +1,26 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: www-2027
+sources:
+  - id: www-2027-research-cfp
+    url: https://www2027.thewebconf.org/research-track-papers/
+    title: The Web Conference 2027 Research Track Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T22:59:57Z
+    http_status: 200
+    snapshot: d41de9a88fed4e1bcf27554b328194eb83b61344ca475a64ee4d504f9e48c5c4
+    note_zh: Research 与 Industry track 长文和短文的日期表；所有截止为 AoE。
+  - id: www-2027-home
+    url: https://www2027.thewebconf.org/
+    title: The Web Conference 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T22:59:58Z
+    http_status: 200
+    snapshot: 7bfc3fd785e99039c2b5192c518a8c144f2c73e8fbe9abda029bb25f24b2e330
+  - id: www-2027-dates
+    url: https://www2027.thewebconf.org/important-dates/
+    title: The Web Conference 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:00:12Z
+    http_status: 200
+    snapshot: 1bd6b2b5dde3f87eb997d7b76a71ef6c858a753c21fd9dacad2b8886fbb116fd
+    note_zh: 与 CFP 一致；页首写 “All deadlines are 11:59 PM Anywhere on Earth (AoE) unless otherwise specified”。也用作 www-2028 的推算依据。

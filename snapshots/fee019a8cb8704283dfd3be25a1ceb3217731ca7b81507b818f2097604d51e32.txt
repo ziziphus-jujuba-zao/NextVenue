@@ -1,0 +1,1010 @@
+Skip to content
+ * IEEE.org
+ * IEEE Xplore®
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+
+Join IEEE
+
+Donate
+
+Login
+
+Sign In
+
+ * IEEE.org
+ * IEEE Xplore®
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+
+Join IEEE
+
+Donate
+Login
+
+Sign In
+
+ * About
+
+   About RAS
+
+   IEEE RAS Overview
+
+   Contact RAS
+
+   RAS Commitment to Diversity
+
+   IEEE RAS Code of Conduct
+
+   Branding
+
+   Resource Center
+
+   Governance
+
+   Boards and Committees
+
+   Executive Committee
+
+   Administrative Committee
+
+   IEEE Council Representatives
+
+   News & Events
+
+   Latest News
+
+   Newsletter
+
+   RAS Features
+
+   Events Calendar
+
+    * Events Calendar
+    * Volunteer Resources and Reimbursement
+    * Financial Activities Board
+    * Media Services Board
+    * Science and Technology Watch Board
+ * Members
+
+   About Membership
+
+   Membership Overview
+
+   Members Program
+
+   Young Reviewers Program
+
+   Distinguished Lecturers Program
+
+   Support Program to foster Academic
+   Relationships and eXchange (SPARX)
+
+   Technical Committees
+
+   Technical Committees Overview
+
+   List of Technical Committees
+
+   Technical Committees News
+
+   Join a Technical Committee
+
+   Chapters
+
+   Chapters Overview
+
+   List of RAS Chapters
+
+   Support for Chapters
+
+   General Chapter News
+
+   Chapter Resources
+
+   Groups
+
+   Students
+
+   Industry Professionals
+
+   Young Professionals
+
+   Women in Engineering
+
+   Expanding Collaboration and Engagement Committee
+
+    * Interactive Community Map
+    * IEEE RAS Resources
+    * Become a IEEE RAS Member
+    * Member Activities Board
+    * Technical Activities Board
+ * Conferences
+
+   About Conferences
+
+   Conferences Overview
+
+   Conference Policies
+
+   Conference Activities Board
+
+   RAS Conferences
+
+   Fully Sponsored Conferences
+
+   Financially Co-Sponsored Conferences
+
+   Technically Co-Sponsored Conferences
+
+   Resources
+
+   Resources for Conference Organizers
+
+   Resources for Workshop and Tutorial Organizers
+
+    * Conferences Calendar
+    * ICRA
+    * CASE
+    * IROS
+    * Conference Activities Board
+ * Publications
+
+   About Publications
+
+   Publications Overview
+
+   Subscription Information
+
+   RAS Peer Review
+
+   IEEE Transactions on
+
+   Robotics (T-RO)
+
+   Automation Science and Engineering (T-ASE)
+
+   Haptics (ToH)
+
+   Field Robotics (T-FR)
+
+   Medical Robotics & Bionics (T-MRB)
+
+   Robot Learning (T-RL)
+
+   Soft Robotics (T-SRO)
+
+   Robotics & Automation
+
+   Letters (RA-L)
+
+   Magazine (RA-M)
+
+   Practice  (RA-P)
+
+   Recommendations for authors
+
+   Video Submission Guidelines
+
+   Tips for Making a Good Robot Video
+
+   IEEE Author Center
+
+   Plagiarism and Ethical Issues
+
+   Guidelines for Generative AI Usage
+
+   Rules for the Double-Anonymous Review Process
+
+    * Deadlines
+    * Publication Activities Board
+ * Education
+
+   About Education
+
+   Education Overview
+
+   RAS University
+
+   Opportunities
+
+   Competitions
+
+   Technical Education Program
+
+   Resources
+
+   Pre-College Resources
+
+   Robotics History
+
+   Education Material in Robotics and Automation
+
+    * Students Group
+    * Educational Activities Board
+ * Awards
+
+   About Awards
+
+   Awards Overview
+
+   IEEE Awards
+
+   Technical Field Award (TFA)
+
+   IEEE Fellow
+
+   RAS Awards
+
+   Society Awards
+
+   Publications Awards
+
+   Conference Awards
+
+    * IEEE Nominations
+ * Industry
+
+   About Industry
+
+   Industry Activities Board Overview
+
+   Data & Roadmaps
+
+   Industry news
+
+   Join Us
+
+   Standards
+
+   Standards Overview
+
+   Approved Standards
+
+   Active Projects
+
+   International Robotics Standards Coordination Effort
+
+   Students Participating in IEEE Robotic Standardization Efforts (SPIRSE)
+
+   Industry Programs
+
+   Entrepreneurship Education
+
+   Industry@Conferences
+
+   Industry Rewards Program
+
+   Academic-Industrial Partnership Grants
+
+    * Careers/Jobs
+    * Young Professionals Group
+    * Industrial Activities Board
+
+ * About
+
+   About RAS
+
+   IEEE RAS Overview
+
+   Contact RAS
+
+   RAS Commitment to Diversity
+
+   IEEE RAS Code of Conduct
+
+   Branding
+
+   Resource Center
+
+   Governance
+
+   Boards and Committees
+
+   Executive Committee
+
+   Administrative Committee
+
+   IEEE Council Representatives
+
+   News & Events
+
+   Latest News
+
+   Newsletter
+
+   RAS Features
+
+   Events Calendar
+
+    * Events Calendar
+    * Volunteer Resources and Reimbursement
+    * Financial Activities Board
+    * Media Services Board
+    * Science and Technology Watch Board
+ * Members
+
+   About Membership
+
+   Membership Overview
+
+   Members Program
+
+   Young Reviewers Program
+
+   Distinguished Lecturers Program
+
+   Support Program to foster Academic
+   Relationships and eXchange (SPARX)
+
+   Technical Committees
+
+   Technical Committees Overview
+
+   List of Technical Committees
+
+   Technical Committees News
+
+   Join a Technical Committee
+
+   Chapters
+
+   Chapters Overview
+
+   List of RAS Chapters
+
+   Support for Chapters
+
+   General Chapter News
+
+   Chapter Resources
+
+   Groups
+
+   Students
+
+   Industry Professionals
+
+   Young Professionals
+
+   Women in Engineering
+
+   Expanding Collaboration and Engagement Committee
+
+    * Interactive Community Map
+    * IEEE RAS Resources
+    * Become a IEEE RAS Member
+    * Member Activities Board
+    * Technical Activities Board
+ * Conferences
+
+   About Conferences
+
+   Conferences Overview
+
+   Conference Policies
+
+   Conference Activities Board
+
+   RAS Conferences
+
+   Fully Sponsored Conferences
+
+   Financially Co-Sponsored Conferences
+
+   Technically Co-Sponsored Conferences
+
+   Resources
+
+   Resources for Conference Organizers
+
+   Resources for Workshop and Tutorial Organizers
+
+    * Conferences Calendar
+    * ICRA
+    * CASE
+    * IROS
+    * Conference Activities Board
+ * Publications
+
+   About Publications
+
+   Publications Overview
+
+   Subscription Information
+
+   RAS Peer Review
+
+   IEEE Transactions on
+
+   Robotics (T-RO)
+
+   Automation Science and Engineering (T-ASE)
+
+   Haptics (ToH)
+
+   Field Robotics (T-FR)
+
+   Medical Robotics & Bionics (T-MRB)
+
+   Robot Learning (T-RL)
+
+   Soft Robotics (T-SRO)
+
+   Robotics & Automation
+
+   Letters (RA-L)
+
+   Magazine (RA-M)
+
+   Practice  (RA-P)
+
+   Recommendations for authors
+
+   Video Submission Guidelines
+
+   Tips for Making a Good Robot Video
+
+   IEEE Author Center
+
+   Plagiarism and Ethical Issues
+
+   Guidelines for Generative AI Usage
+
+   Rules for the Double-Anonymous Review Process
+
+    * Deadlines
+    * Publication Activities Board
+ * Education
+
+   About Education
+
+   Education Overview
+
+   RAS University
+
+   Opportunities
+
+   Competitions
+
+   Technical Education Program
+
+   Resources
+
+   Pre-College Resources
+
+   Robotics History
+
+   Education Material in Robotics and Automation
+
+    * Students Group
+    * Educational Activities Board
+ * Awards
+
+   About Awards
+
+   Awards Overview
+
+   IEEE Awards
+
+   Technical Field Award (TFA)
+
+   IEEE Fellow
+
+   RAS Awards
+
+   Society Awards
+
+   Publications Awards
+
+   Conference Awards
+
+    * IEEE Nominations
+ * Industry
+
+   About Industry
+
+   Industry Activities Board Overview
+
+   Data & Roadmaps
+
+   Industry news
+
+   Join Us
+
+   Standards
+
+   Standards Overview
+
+   Approved Standards
+
+   Active Projects
+
+   International Robotics Standards Coordination Effort
+
+   Students Participating in IEEE Robotic Standardization Efforts (SPIRSE)
+
+   Industry Programs
+
+   Entrepreneurship Education
+
+   Industry@Conferences
+
+   Industry Rewards Program
+
+   Academic-Industrial Partnership Grants
+
+    * Careers/Jobs
+    * Young Professionals Group
+    * Industrial Activities Board
+
+Conferences & Workshops
+
+The IEEE Robotics & Automation technical conferences and workshops offer a unique opportunity to participate in the advancement of the industry’s research base, through interaction with other robotics and automation professionals and engage in expert panel discussions tutorial sessions, short courses, supplier exhibits and social events with the leaders and innovators of the industry.
+
+ * Home
+ * Financially Co-sponsored RAS Conferences
+ * Fully Sponsored Conferences
+ * Technically Co-sponsored RAS Conferences
+
+Home » Conferences & Workshops » Fully Sponsored Conferences » ICRA » ICRA Venues and Archive
+
+ * CASE
+   * CASE Venues and Archive
+   * Conference Paper Review Board
+   * CASE Keywords
+   * CASE Conference Editorial Board
+ * ICRA
+   * ICRA Venues and Archive
+   * ICRA Steering Committee
+   * ICRA Conference Editorial Board
+   * ICRA Conference Editorial Board Awards
+   * Information for ICRA Reviewers
+   * Information for ICRA Associate Editors
+   * Information for ICRA Editors
+   * ICRA Conference Editorial Board Charter
+   * ICRA Keywords
+   * ICRA Handbook/Operations Manual
+   * ICRA Proposal Guidelines
+
+ICRA Venues and Archive
+
+ICRA 2030
+▼
+
+Milan, Italy
+13-17 May, 2030
+General Chair: Jackrit Suthakorn
+Program Chair: Nantida Nillahoot
+
+ICRA 2029
+▼
+
+Milan, Italy
+7-12 May, 2029
+General Chair: Paolo Rocco and Elena De Momi
+Program Chair: Eiichi Yoshida
+
+ICRA 2028
+▼
+
+Rio de Janeiro, Brazil
+15-19 May, 2028
+General Chair: C. J. Taylor, Mario Campos and Fernando Lizarralde
+Program Chair: M. Ani Hsieh, Douglas Guimarães Macharet, Tiago Nasciment, Jun Seo and Jamie Paik
+
+ICRA 2027
+▼
+
+Seoul, South Korea
+24 – 28 May, 2027
+General Chair: Kyujin Cho
+Program Chair: Marcia O’Malley
+
+ICRA 2026
+▼
+
+Vienna, Austria
+1-5 June, 2026
+General Chair: Marcus Vincze
+Program Chair: Tamim Asfour, Dana Kulic, and Ani Hsieh
+
+2025 and before
+▼
+
+ICRA 2025 Atlanta (GA), USA
+
+19 – 23 May 2025
+General Chair: Seth Hutchinson and Nancy Amato
+Program Chair: Seth Hutchinson and Nancy Amato
+Website
+Proceedings
+
+ICRA 2024 Yokohama, Japan
+
+13 – 18 May 2024
+General Chair: Zhidong Wang
+Program Chair: Yasuhisa Hasegawa
+Website
+Proceedings
+
+ICRA 2023 London, United Kingdom
+
+29 May-2 June 2023
+General Chair: Kaspar Althoefer
+Program Chair: Seth Hutchinson
+Website
+Proceedings
+
+ICRA 2022 Philadelphia (PA), USA
+
+23-27 May 2022
+General Chair: Vijay Kumar and George J. Pappas
+Program Chair: Hadas Kress Gazit
+Website
+Proceedings
+
+ICRA 2021 Xi’an, China
+
+30 May -5 June 2021
+General Chair: Max Meng
+Program Chair: Yu Sun
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2020 Paris, France (Virtual Event)
+
+31 May – 31 August 2020
+General Chair: Stéphane Régnier
+Program Chair: Wolfram Burgard
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2019 Montreal, Canada
+
+20-24 May 2019
+General Chair: Greg Dudek
+Program Chair: Jaydev Desai
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2018 Brisbane, Australia
+
+21-26 May 2018
+General Chair: Alex Zelinsky
+Program Chair: Peter Corke
+Website
+Awards Brochure
+YouTube
+Proceedings
+
+ICRA 2017 Singapore
+
+29 May – 2 June 2017
+General Chair: I-Ming Chen
+Program Chair: Yoshihiko Nakamura
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2016 Stockholm, Sweden
+
+16-21 May 2016
+General Chair: Danica Kragic
+Program Chairs: Antonio Bicchi, Alessandro De Luca
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2015 Seattle (WA), USA
+
+26-30 May 2015
+General Chair: Lynne Parker
+Program Chair: Nancy Amato
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2014 Hong Kong, China
+
+31 May – 5 June 2014
+General Chair: Ning Xi
+Program Chair: Bill Hamel
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2013 Karlsruhe, Germany
+
+6-10 May 2013
+General Chair: Rüdiger Dillman
+Program Chair: Markus Vincze
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2012 Minneapolis (MN), USA
+
+14-18 May 2012
+General Chair: Nikos Papanikolopoulos
+Program Chair: Paul Oh
+Website
+Awards Brochure
+Proceedings
+
+ICRA 2011 Shanghai, China
+
+9-13 May 2011
+General Chair: Zexiang Li
+Program Chair: Yuan Fang Zheng
+Awards Brochure
+Proceedings
+
+ICRA 2010 Anchorage (AK), USA
+
+3-8 May 2010
+General Chair: Wesley Snyder
+Program Chair: Vijay Kumar
+Awards Brochure
+Proceedings
+
+ICRA 2009 Kobe, Japan
+
+12-17 May 2009
+General Chair: Kazuhiro Kosuge
+Program Chair: Katsushi Ikeuchi
+Website
+Proceedings
+
+ICRA 2008 Pasadena (CA), USA
+
+19-23 May 2008
+General Chairs: Maja Mataric, Paul Schenker
+Program Chairs: Stefan Schaal, Gaurav S Sukhatme
+Website
+Proceedings
+
+ICRA 2007 Rome, Italy
+
+10-14 April 2007
+General Chairs: Paolo Dario, Alessandro De Luca
+Program Chair: Bruno Siciliano
+Website
+Proceedings
+
+ICRA 2006 Orlando (FL), USA
+
+15-19 May 2006
+General Chairs: Normal Caplan, C.S. George Lee
+Proceedings
+
+ICRA 2005 Barcelona, Spain
+
+18-22 April 2005
+General Chair: Alícia Casals
+Program Chair: Rüdiger Dillmann
+Proceedings
+
+ICRA 2004 New Orleans (LA), USA
+
+26 April – 1 May 2004
+General Chairs: T.J. Tarn, Toshio Fukuda
+Program Chair: Kimon Valavanis
+Proceedings
+
+ICRA 2003 Taipei, China
+
+14-19 September (Delayed from May due to concerns about SARS
+epidemic)
+General Chair: Ren C. Luo
+Program Chair: Li-Chen Fu
+Proceedings
+
+ICRA 2002 Washington (DC), USA
+
+11-15 May 2022
+General Chair: William Hamel
+Program Chair: Anthony A. Maciejewski
+Proceedings
+
+ICRA 2001 Seoul, Korea
+
+21-26 May 2001
+General Chair: Wook Hyun Kwon
+Program Chair: Beom Hee Lee
+Proceedings
+
+ICRA 2000 San Francisco (CA), USA
+
+24-28 April 2000
+General Chair: Brian S. Carlisle
+Program Chair: Oussama Khatib
+Proceedings
+
+ICRA 1999 Detroit (MI), USA
+
+10-15 May 1999
+General Chair: Hadi Akeel
+Proceedings
+
+ICRA 1998 Leuven, Belgium
+
+16-21 May 1998
+General Chair: Georges Giralt
+Proceedings
+
+ICRA 1997 Albuquerque (NM), USA
+
+20-25 April 1997
+General Chair: Ray Harrigan
+Proceedings
+
+ICRA 1996 Minneapolis (MN), USA
+
+ICRA 1995 Nagoya, Japan
+
+21-27 May 1995
+General Chair: Toshio Fukuda
+Proceedings
+
+ICRA 1994 San Diego (CA), USA
+
+8-13 May 1994
+General Chair: William Gruver
+Proceedings
+
+ICRA 1993 Atlanta (GA), USA
+
+2-6 May 1993
+Ceneral Chair: Wayne Book
+Proceedings
+
+ICRA 1992 Nice, France
+
+12-14 May 1992
+General Chair: Giuseppe Menga
+Proceedings
+
+ICRA 1991 Sacramento (CA), USA
+
+9-11 April 1991
+General Chair: T.C. (Steve) Hsia
+Proceedings
+
+ICRA 1990 Cincinnati (OH), USA
+
+13-18 May 1990
+General Chair: Richard A. Volz
+Proceedings
+
+ICRA 1989 Scottsdale (AZ), USA)
+
+14-19 May 1989
+General Chair: George Bekey
+Program Chair: John Hollerbach
+Proceedings
+
+ICRA 1988 Philadelphia (PA), USA
+
+24-29 April 1988
+General Chair: T. Pavlidis
+Proceedings
+
+ICRA 1987 Raleigh (NC), USA
+
+31 March – 3 April 1987
+General Chair: Y.C. ‘Larry’ Ho
+Proceedings
+
+ICRA 1986 San Francisco (CA), USA
+
+7-10 April 1986
+General Chair: Antal (Tony) Bejczy
+Proceedings
+
+ICRA 1985 St Louis (MO), USA
+
+25-28 March 1985
+General Chair: K.S. Fu
+Program Chair: T. Lozano-Perez
+Website
+Proceedings
+
+ICRA 1984 Atlanta (GA), USA
+
+13-15 March 1984
+General Chair: John Jarvis
+Sponsored by Computer Society Technical Com. on Robotics
+Proceedings
+
+Follow us
+
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+
+ * Home
+ * Contact IEEE RAS
+ * Feedback
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms
+
+ * Home
+ * Contact IEEE RAS
+ * Feedback
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms
+
+© Copyright 2026 IEEE — All rights reserved. A public charity organization, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+
+What are you looking for ?
+
+Quick links
+
+Most viewed pages
+
+Featured links
+
+Share this page
+
+×
+ * Facebook
+ * X
+ * LinkedIn
+ * WhatsApp
+
+What are you looking for ?
+
+Quick links
+
+ * Suggestion 1
+ * Suggestion 2
+ * Suggestion 3
+
+Most viewed pages
+
+ * Suggestion 1
+ * Suggestion 2
+ * Suggestion 3
+
+Featured links
+
+ * Suggestion 1
+ * Suggestion 2
+ * Suggestion 3
+
+Search

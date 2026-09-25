@@ -1,0 +1,53 @@
+id: corl-2027
+series: corl
+name: CoRL 2027
+year: 2027
+kind: conference
+topics: [robotics, ml]
+derived_from: corl-2026
+milestones:
+  - type: abstract
+    at: 2027-05-25T23:59
+    tz: AoE
+    status: estimated
+    src: corl-2026-openreview-venue
+    quote: "Abstract Registration: May 26 2026 11:59AM UTC-0"
+    note_zh: 预计。按 CoRL 2026 的摘要截止 2026-05-25 23:59 AoE（OpenReview 写作 UTC 5/26 11:59）顺延一年。
+  - type: paper
+    at: 2027-05-28T23:59
+    tz: AoE
+    status: estimated
+    src: corl-2026-openreview-venue
+    quote: "Submission Deadline: May 29 2026 11:59AM UTC-0"
+    note_zh: 预计。按 CoRL 2026 的正文截止 2026-05-28 23:59 AoE（OpenReview 写作 UTC 5/29 11:59；作者须知写“Thursday (5/28) EOD”）顺延一年。
+  - type: author_response
+    label_zh: rebuttal 截止
+    at: 2027-08-11T23:59
+    tz: AoE
+    status: estimated
+    src: corl-2026-rebuttal
+    quote: "The deadline to submit your rebuttal is August 11, 2026, 11:59 PM (AoE)."
+    note_zh: 预计。按 CoRL 2026 的 rebuttal 截止 2026-08-11 顺延一年。2026 届 8/4 出审稿，未获任何 weak accept 以上评分的论文可能在 rebuttal 前直接被拒。
+  - type: notification
+    at: 2027-09-04
+    tz: AoE
+    status: estimated
+    src: corl-2026-dates
+    note_zh: 预计。按 CoRL 2026 的出结果日 2026-09-04 顺延一年。这个日期在作者须知页的 Key Dates 表里，表格由内嵌脚本渲染，文本快照里没有，所以没有附原句。
+  - type: camera_ready
+    at: 2027-10-12T23:59
+    tz: AoE
+    status: estimated
+    src: corl-2026-dates
+    quote: "The camera-ready version of your paper is due by Oct 12, 2026 (23:59 Anywhere on Earth)."
+    note_zh: 预计。按 CoRL 2026 的 camera-ready 截止 2026-10-12 顺延一年。
+  - type: conference
+    start: 2027-11-09
+    end: 2027-11-12
+    tz: AoE
+    status: estimated
+    src: corl-2026-home
+    quote: "November 9-12, 2026 | Austin, Texas, US"
+    note_zh: 预计。按 CoRL 2026 会期 11/9–12 顺延一年；CoRL 2027 地点未公布，时区暂按 AoE。
+last_checked: 2026-09-25
+note_zh: 按 CoRL 2026 官网日期顺延：摘要 5/25、正文 5/28、rebuttal 截止 8/11、出结果 9/4、camera-ready 10/12（均 23:59 AoE），会期 11/9–12。截至 9/25，CoRL 2027 的日期和地点都未公布，OpenReview 上也还没有 2027 的会议组。

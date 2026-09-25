@@ -2,6 +2,7 @@ id: iclr-2027/withdrawal
 edition: iclr-2027
 family: withdrawal
 question_zh: 撤稿在正文截止前后有什么区别？撤了会公开吗？
+short_zh: 撤稿会不会公开
 answer: conditional
 verification: human
 conf: high

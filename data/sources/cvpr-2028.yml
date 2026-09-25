@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cvpr-2028
+sources:
+  - id: cvpr-2028-home
+    url: https://cvpr.thecvf.com/Conferences/2028
+    title: CVPR 2028 Home
+    kind: other
+    fetched_at: 2026-09-24T23:02:59Z
+    http_status: 404
+    note_zh: 2026-09-25 为 404，CVPR 2028 尚未公布（CVPR 官网 Future Meetings 页也只写 "Coming soon"）；时间线按 CVPR 2027 官网日期（见 cvpr-2027-dates、cvpr-2027-cfp）顺延推算。

@@ -1,0 +1,27 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cikm-2027
+sources:
+  - id: cikm-2026-dates
+    url: https://cikm2026.diag.uniroma1.it/important-dates/
+    title: CIKM 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:01:54Z
+    http_status: 200
+    snapshot: d87a6d96e3a44a9cd550c9fb8ccbfb6b92c63e61d8f940aa2efb8e44d0005fee
+    note_zh: 上一届日期页，用于推算 cikm-2027；所有截止为 AoE。
+  - id: cikm-2026-full-papers-cfp
+    url: https://cikm2026.diag.uniroma1.it/full-research-papers/
+    title: CIKM 2026 Full Research Papers Call
+    kind: cfp
+    fetched_at: 2026-09-24T23:01:55Z
+    http_status: 200
+    snapshot: 44616b570ba976cbe1ef8b803f3b7e393e0d1ffe2a7aad1fa95e4310c893557f
+    note_zh: 上一届长文 CFP，日期与日期页一致。
+  - id: cikm-2027-series-home
+    url: http://www.cikmconference.org/
+    title: CIKM Conference Series Home
+    kind: other
+    fetched_at: 2026-09-24T23:01:56Z
+    http_status: 200
+    snapshot: bfa954e4b9675ca8501d8ed2f0ef82f9bc05f151f76d9fd7bede72852d0641ea
+    note_zh: CIKM 系列主页，写 “CIKM 2027 will be held in Sydney, Australia”，未给会期。

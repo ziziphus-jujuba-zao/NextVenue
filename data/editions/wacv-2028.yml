@@ -1,0 +1,82 @@
+id: wacv-2028
+series: wacv
+name: WACV 2028
+year: 2028
+kind: conference
+topics: [cv]
+derived_from: wacv-2027
+milestones:
+  - type: paper_registration
+    label_zh: Round 1 论文注册
+    at: 2027-06-19T23:59
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 1 Paper Registration Deadline Jun 19 '26 (Anywhere on Earth)"
+  - type: paper
+    label_zh: Round 1 正文
+    at: 2027-06-26T23:59
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 1 Paper Submission Deadline Jun 26 '26 (Anywhere on Earth)"
+  - type: supplementary
+    label_zh: Round 1 补充材料
+    at: 2027-06-28T23:59
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 1 Supplementary Material Jun 28 '26 (Anywhere on Earth)"
+  - type: phase1_notification
+    label_zh: Round 1 审稿意见与初步决定
+    at: 2027-08-09
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 1 Reviews and Decisions To Authors Aug 09 '26 (Anywhere on Earth)"
+    note_zh: WACV 2027 的 Dates 页写 8/9，CFP 和作者指南写 8/7；这里按较晚的 8/9 顺延。
+  - type: paper_registration
+    label_zh: Round 2 新论文注册
+    at: 2027-08-21T23:59
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 2 New Paper Registration Aug 21 '26 (Anywhere on Earth)"
+  - type: paper
+    label_zh: Round 2 正文
+    at: 2027-08-28T23:59
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 2 Paper Submissions Aug 28 '26 (Anywhere on Earth)"
+  - type: author_response
+    label_zh: Round 1 rebuttal 与修改稿
+    at: 2027-08-28T23:59
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 1 Rebuttal and Revision Submission Aug 28 '26 (Anywhere on Earth)"
+  - type: supplementary
+    label_zh: Round 2 补充材料
+    at: 2027-08-30T23:59
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 2 Supplemental Material Aug 30 '26 (Anywhere on Earth)"
+  - type: notification
+    label_zh: 最终结果（Round 1 修改稿与 Round 2 新投稿）
+    at: 2027-10-09
+    tz: AoE
+    status: estimated
+    src: wacv-2027-dates
+    quote: "Round 2 Reviews and Final Decisions to Authors Oct 09 '26 (Anywhere on Earth)"
+  - type: conference
+    start: 2028-01-04
+    end: 2028-01-08
+    tz: AoE
+    status: estimated
+    src: wacv-2027-home
+    quote: "Monday, Jan 4 through Friday, Jan 8, 2027"
+    note_zh: 按 WACV 2027 会期 1/4–8 顺延；2028 地点未公布，时区暂按 AoE。实际会期通常按星期安排，可能相差几天。
+last_checked: 2026-09-25
+note_zh: 按 WACV 2027 官网日期顺延：Round 1 注册 6/19、正文 6/26、出初审 8/9、修改稿与 rebuttal 8/28；Round 2 注册 8/21、正文 8/28；两轮最终结果 10/9（均为 2026 年，AoE）；会期 1/4–8。WACV 2028 官网页面 2026-09-25 仍为 404，实际日期以官网为准。

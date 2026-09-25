@@ -1,0 +1,19 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: eacl-2027
+sources:
+  - id: eacl-2027-cfp
+    url: https://2027.eacl.org/calls/papers/
+    title: EACL 2027 Call for Papers
+    kind: cfp
+    note_zh: "页面写所有截止均为 AoE；作者回复（9/14–19）与讨论（9/20–24）分两段。"
+    fetched_at: 2026-09-24T23:02:25Z
+    http_status: 200
+    snapshot: 628fa73c715f8ad56da13bb36db919a638bad4355609a1d6d76fff1b41c2b89e
+  - id: eacl-2027-home
+    url: https://2027.eacl.org/
+    title: EACL 2027 Home
+    kind: other
+    note_zh: "地点雅典、会期 2027 年 3/9–14。"
+    fetched_at: 2026-09-24T23:02:25Z
+    http_status: 200
+    snapshot: 8ff095b5140d60f17b50256b9e17ba603f850ff08606af03ebd7e1f6c911a58d

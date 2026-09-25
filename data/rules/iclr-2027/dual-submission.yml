@@ -2,6 +2,7 @@ id: iclr-2027/dual-submission
 edition: iclr-2027
 family: dual_submission
 question_zh: 论文在 ICLR 审稿期间，能同时投其他会议或期刊吗？
+short_zh: 同时投别的会或期刊
 answer: not_allowed
 verification: human
 conf: high

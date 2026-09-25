@@ -2,6 +2,7 @@ id: aaai-27/llm-duplicates-prompt-injection
 edition: aaai-27
 family: llm_policy
 question_zh: 用 LLM 改写出近似重复的论文并行投稿，或对审稿系统做 prompt injection，会怎样？
+short_zh: LLM 改写重投、提示注入
 answer: not_allowed
 verification: human
 conf: high

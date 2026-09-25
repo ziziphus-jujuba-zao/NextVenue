@@ -1,0 +1,41 @@
+id: iros-2027
+series: iros
+name: IROS 2027
+year: 2027
+kind: conference
+topics: [robotics]
+derived_from: iros-2026
+location: { city: Florence, country: Italy }
+dates: { start: 2027-09-26, end: 2027-10-01 }
+milestones:
+  - type: paper
+    at: 2027-03-02
+    tz: America/Los_Angeles
+    status: estimated
+    src: iros-2026-dates
+    quote: "March 2, 2026 Deadline for Paper submissions, including Special Sessions (Submissions may be modified, but not started, through March 5)"
+    note_zh: 预计。按 IROS 2026 的正文截止 2026-03-02 顺延一年；2026 届允许已开始的投稿修改到 3/5，但 3/2 之后不能新建投稿。IROS 2026 页面只写日期；同届 CFP 的视频截止写“23:59 PST”，时区按 Pacific Time 记。IROS 没有单独的摘要截止。
+  - type: notification
+    at: 2027-06-16
+    tz: America/Los_Angeles
+    status: estimated
+    src: iros-2026-dates
+    quote: "June 16, 2026 Notification of Paper acceptance"
+    note_zh: 预计。按 IROS 2026 的出结果日 2026-06-16 顺延一年。
+  - type: camera_ready
+    at: 2027-07-16
+    tz: America/Los_Angeles
+    status: estimated
+    src: iros-2026-dates
+    quote: "July 16, 2026 Deadline for Final Paper submissions"
+    note_zh: 预计。按 IROS 2026 的终稿截止 2026-07-16 顺延一年。
+  - type: conference
+    start: 2027-09-26
+    end: 2027-10-01
+    tz: Europe/Rome
+    status: confirmed
+    src: iros-2027-home
+    quote: "September 26 – October 1, 2027"
+    note_zh: 地点是佛罗伦萨 Fortezza da Basso（官网首页）。
+last_checked: 2026-09-25
+note_zh: 按 IROS 2026 官网日期顺延：正文 3/2（可修改到 3/5）、出结果 6/16、终稿 7/16。截至 9/25，IROS 2027 官网只公布了会期和地点，还没有征稿页。

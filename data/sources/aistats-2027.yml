@@ -1,0 +1,35 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aistats-2027
+sources:
+  - id: aistats-2027-dates
+    url: https://aistats.org/aistats2027/dates.html
+    title: AISTATS 2027 Key Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:03:56Z
+    http_status: 200
+    snapshot: bac00519cee9cd1451d21e408c1d4760c74f7a17ce55303289a1ef17705aa37d
+    note_zh: aistats.org 上的 Key Dates 页；写明所有日期均为 AoE、当天结束，日期可能调整；Camera-ready 一项留空。
+  - id: aistats-2027-virtual-dates
+    url: https://virtual.aistats.org/Conferences/2027/Dates
+    title: AISTATS 2027 Dates and Deadlines (virtual site)
+    kind: dates
+    fetched_at: 2026-09-24T23:03:58Z
+    http_status: 200
+    snapshot: e8ac4d124219befa8815df89d5ca0f95a402a0de4cf1cb7be70246e76e7dcaa4
+    note_zh: 会议官方站（aistats.org 主页称其为最新信息的主要来源）的 Dates 页，比 Key Dates 页多了审稿期和讨论期；会期安排写“尚未确定”。
+  - id: aistats-2027-cfp
+    url: https://virtual.aistats.org/Conferences/2027/CallForPapers
+    title: AISTATS 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T23:03:59Z
+    http_status: 200
+    snapshot: 1951f0becd3cf538f898471f8e6bc488bb8544251516236932148b1ce3c1d899
+    note_zh: 征稿页；补充材料随正文截止提交，无单独截止；称出审稿当天（11/16）开始 rebuttal。
+  - id: aistats-2027-home
+    url: https://virtual.aistats.org/Conferences/2027
+    title: AISTATS 2027 Home (virtual site)
+    kind: other
+    fetched_at: 2026-09-24T23:04:00Z
+    http_status: 200
+    snapshot: b539f409e4333425b77ae7d262a350af5f731f6fd8a5550b2a643e77e0bf5f80
+    note_zh: 会议官方站主页：Montreal, Canada，May 3rd - 6th, 2027。

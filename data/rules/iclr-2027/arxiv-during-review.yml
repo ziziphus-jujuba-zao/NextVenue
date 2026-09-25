@@ -2,6 +2,7 @@ id: iclr-2027/arxiv-during-review
 edition: iclr-2027
 family: dual_submission
 question_zh: 审稿期间能把论文挂到 arXiv 上吗？
+short_zh: 审稿期挂 arXiv
 answer: allowed
 verification: human
 conf: high

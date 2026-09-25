@@ -1,0 +1,26 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: eccv-2028
+sources:
+  - id: eccv-2028-home
+    url: https://eccv.ecva.net/Conferences/2028
+    title: ECCV 2028 Home
+    kind: other
+    fetched_at: 2026-09-24T23:03:01Z
+    http_status: 404
+    note_zh: 2026-09-25 为 404，ECCV 2028 尚未公布；ECCV 官网 Future Meetings 页只写 "Coming soon"，ECVA 官网的历届列表也没有 2028。
+  - id: eccv-2026-dates
+    url: https://eccv.ecva.net/Conferences/2026/Dates
+    title: ECCV 2026 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:03:02Z
+    http_status: 200
+    snapshot: a79ccf9f859b1421a2d6d0f8c19b339ac097f70742e5abd5a754bfa208e19d29
+    note_zh: 上一届（ECCV 两年一届）官方日期，用于推算 ECCV 2028。论文截止为 10:00 PM UTC，rebuttal 截止为 09:00 PM UTC；出审稿和出结果只写日期。
+  - id: eccv-2026-home
+    url: https://eccv.ecva.net/Conferences/2026
+    title: ECCV 2026 Home
+    kind: other
+    fetched_at: 2026-09-24T23:03:03Z
+    http_status: 200
+    snapshot: e5c213cdd24a07388a28690426e0f488dcab0b2c93ebecd4e555a3db9c9358d5
+    note_zh: 上一届官网首页：会期 "September 8 – 12th, 2026"，地点 Malmö, Sweden。用于推算 ECCV 2028 会期。

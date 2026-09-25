@@ -1,0 +1,32 @@
+id: uai-2027
+series: uai
+name: UAI 2027
+year: 2027
+kind: conference
+topics: [ml, ai]
+derived_from: uai-2026
+milestones:
+  - type: paper
+    at: 2027-02-25T23:59
+    tz: AoE
+    status: estimated
+    src: uai-2026-dates
+    quote: "Paper submission deadline (incl. supp. material) February 25th, 2026 (23:59 Anywhere on Earth, AoE)"
+    note_zh: 推算值：UAI 2026 官网正文截止（含补充材料）为 2026-02-25 23:59 AoE，顺延一年。UAI 2026 没有单独的摘要截止。
+  - type: notification
+    at: 2027-06-01T23:59
+    tz: AoE
+    status: estimated
+    src: uai-2026-dates
+    quote: "Author notification June 1st, 2026 (23:59 AoE)"
+    note_zh: 推算值：UAI 2026 官网出结果为 2026-06-01 23:59 AoE，顺延一年。
+  - type: conference
+    start: 2027-08-17
+    end: 2027-08-21
+    tz: AoE
+    status: estimated
+    src: uai-2026-dates
+    quote: "Amsterdam, Netherlands | 17-21 August"
+    note_zh: 推算值：按 UAI 2026 会期 8/17–21 顺延一年（引文是 2026 日期页页首，未写年份；同页写 8/17 tutorial、8/18–20 主会、8/21 workshop，阿姆斯特丹）。UAI 2027 地点未公布，时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: 按 UAI 2026 官网日期顺延：正文 2/25（含补充材料，无单独摘要截止）、出结果 6/1（均为 23:59 AoE），会期按 2026 的 8/17–21。2026-09-25 查询时 auai.org/uai2027/ 仍为 404，AUAI 主页也还没有 UAI 2027 的消息。

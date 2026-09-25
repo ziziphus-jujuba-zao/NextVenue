@@ -1,0 +1,234 @@
+Home
+Program
+Overview
+WSDM Cup
+Calls
+Call for Full Papers Call for Short Papers Call for Demonstrations Call for Workshops Call for Tutorials Call for Industry Day Talks Call for Doctoral Consortium Call for WSDM Cup Proposals
+Organizers
+Sponsoring
+Venue & Travel
+Venue and Hotels Visa What to do in HK
+
+WSDM 2027
+
+Home
+Program
+Overview
+WSDM Cup
+Calls
+Call for Full Papers Call for Short Papers Call for Demonstrations Call for Workshops Call for Tutorials Call for Industry Day Talks Call for Doctoral Consortium Call for WSDM Cup Proposals
+Organizers
+Sponsoring
+Venue & Travel
+Venue and Hotels Visa What to do in HK
+
+WSDM 2027 · Hong Kong
+
+Call for Full Papers
+
+Present original research in web search and data mining. Find review, publication, and author information for the full paper track.
+
+Full paper submissions are closed.
+
+Author information ↓Submission guidelines ↓
+
+Review and publication details for submitted papers.
+
+Important dates
+
+NotificationNov 2, 2026
+Camera-readyTBD
+ConferenceFeb 15–19, 2027
+
+All deadlines are 11:59 pm Anywhere on Earth (AoE).
+
+DatesTopicsGuidelinesOpen accessChairs
+Paper lengthUp to 9 pages
+
+References and the ethical consideration section are excluded.
+
+Submission formatAnonymized PDF
+
+English · ACM sigconf format.
+
+Publication tracksMain & Findings
+
+Findings consideration is part of the main-track review process.
+
+Important Dates
+
+Abstract deadline*Aug 17, 2026
+Paper submission deadlineAug 24, 2026
+NotificationNov 2, 2026
+Camera-readyTBD
+ConferenceFeb 15-19, 2027
+
+All deadlines are 11:59 pm Anywhere on Earth (AoE).
+Authorship changes, including additions or removals, will not be permitted after the abstract deadline.
+
+Findings of WSDM
+
+In addition to the main conference track, WSDM 2027 will include a Findings track. This track aims to provide a venue for disseminating solid, well-executed research that may not meet the selectivity criteria of the main conference but is nonetheless valuable to the community. Papers submitted to the main track will be considered for the Findings track through the standard review process. Authors do not need to submit separately to this track.
+
+The Findings track is intended to highlight contributions that:
+ * Address relevant problems in web search and data mining
+ * Demonstrate sound methodology and empirical evaluation
+ * Offer useful insights, resources, or negative results
+ * May be incremental, specialized, or narrower in scope than typical main-track papers
+
+For papers accepted to the Findings track, authors may elect to either commit to publication or withdraw their submission. Papers published in the Findings track will be presented exclusively as posters during the conference.
+
+List of Topics
+
+Papers accepted to WSDM will be published in the ACM Digital Library. We invite submissions on a broad range of topics related to search and data mining on the Web and Social Web. Areas of interest include, but are not limited to, the following topics:
+
+Overview
+
+Web Search
+
+Algorithms for web-scale search; Adversarial search; Search user interfaces and interaction; Distributed search, metasearch, peer-to-peer search; Local and mobile search; Multimedia web search, cross-lingual search; Query analysis and query processing; Search benchmarking and evaluation; Search user behavior and log analysis.
+
+Web Mining and Content Analysis
+
+Crawling and indexing web content; Web recommender systems and algorithms; Agentic recommender systems; Clustering, classification, and summarization of web data; Data, entity, event, and relationship extraction; Knowledge acquisition and automatic construction of knowledge bases; Large-scale graph analysis; Semantic search, faceted search, and knowledge graphs; Scalable algorithms for mining web data; Opinion mining and sentiment analysis; Web traffic and log analysis; Web measurements, web evolution, and web models; Generative web applications;
+
+Foundation Models and Agentic Systems
+
+LLMs and multimodal foundation models for web tasks; Generative question answering and reasoning; Retrieval, indexing, and ranking with foundation models; Evaluation and benchmarking of foundation models in search/mining; Web agents; GUI agents/multi-agent systems in Web search, recommendation, and interactive information retrieval; Continual learning and self-evolution; Memory systems of foundation models; User interfaces and experiences powered by foundation models.
+
+Web of Things, Ubiquitous and Mobile Computing
+
+Geo-location data analysis; Mobility and behavior data mining; Location-based social networks; User activity modeling and exploitation.
+
+Privacy, Fairness, Interpretability
+
+Fairness and accountability in ranking, recommendations and advertising; Explainability in web systems; Model and algorithm transparency; Web search and data mining under privacy constraints; Fairness and interpretability in applications of web mining for social good.
+
+Social Networks
+
+Link prediction and community detection; Social network analysis and graph algorithms; Computational social science; Influence and viral marketing in social networks; Social sensing; Searching social and real-time content; Social network dynamics; Sampling, experiments, and evaluation in social networks; Social media analysis: blogs and friendship networks; Social network analysis, theories, models and applications; Social reputation and trust.
+
+Intelligent Assistants
+
+Voice search, conversational search, and dialog systems; Personal assistants, dialogue models, and conversational interaction; Task-driven search; Zero-query and implicit search.
+
+Crowdsourcing and Human Computation
+
+Collaborative search and question answering; Human-in-the-Loop and Collaborative Human-AI systems.
+
+Information Integrity
+
+Systems and algorithms for monitoring and detection of misinformation and fake news; Prevalence and virality of misinformation; Misinformation sources and origins; Source and content credibility; Detecting and combating spamming, trolling, aggression, dog whistles, and toxic online behaviors; Methods for detecting and mitigating low quality and offensive content, bullying and hate speech, and coordinated behavior; Polarization, extremism and radicalization; Echo chambers and filter bubbles.
+
+Emerging and Creative Applications
+
+Systems and algorithms for urban applications such as smart cities/digital twins; Climate, sustainability, and environmental intelligence systems; Online education systems; Monitoring and prevention of epidemics; Healthcare and clinical decision support; Embodied AI systems interacting with web and real-world environments; AI for Data-rich Science; Scientific Foundation Models.
+
+Submission Guidelines
+
+Submission portal: Microsoft CMT.
+
+Originality of Submissions
+
+Submissions must represent new and original work. Concurrent submissions to other venues are not allowed. Papers that have been published in or accepted to any peer-reviewed journal or conference or workshop with published proceedings, or that are currently under review, or that will be submitted to other meetings or publications while under review, may not be submitted to WSDM 2027. However, submissions that are available online (e.g., on a preprint server such as arXiv) and/or have been previously presented orally or as posters in non peer-reviewed venues with no formal proceedings, are allowed. Additionally, the ACM has a strict policy against plagiarism and self-plagiarism. All prior work must be appropriately cited. Please also see the ACM guide on the use of Generative AI.
+
+Format of Submissions
+
+Manuscripts must be submitted in PDF according to the new ACM format published in ACM guidelines (use documentclass [sigconf,anonymous,review]{acmart}). Submissions should not exceed 9 pages including diagrams, tables, appendices, etc. plus unrestricted space for references and an ethical consideration section (see below). The PDF files must have all non-standard fonts embedded. Submissions must be self-contained and in English. After uploading your submission, please verify the copy stored on the submission site. Submissions that do not follow these guidelines, or do not view or print properly, may be rejected without review. PDF files submitted to WSDM 2027 must be anonymized: the submitted document should not include the author information and should not include citations or discussion of related work that would make the authorship apparent. Explicitly revealing the manuscript authorship will result in rejection without review. Note, however, that it is acceptable to explicitly refer in the manuscript to companies or organizations that provided datasets, hosted experiments, or deployed solutions. The reviewers will be informed that it does not necessarily imply that the authors are currently affiliated with the mentioned organization. To support the identification of reviewers with conflicts of interest, the full author list must be specified at submission time. To support faster dissemination of scientific results, we allow submissions that had earlier versions or code posted on preprint servers such as arXiv.org or GitHub (with the understanding that these materials cannot be anonymous). In such cases, authors should exercise extra care and should not explicitly associate their submission with such publicly posted materials.
+
+Supplementary Material & Reproducibility
+
+Authors may include references to external repositories containing resources and methods, full theoretical proofs and derivations, detailed descriptions of experimental setup, hyperparameter configurations, test datasets, datasets or source code, but should only do so if strict author anonymity can be maintained. Looking at supplementary material is at the discretion of the reviewers, in other words, the paper should be self-contained as much as possible.
+Wherever appropriate, the authors are encouraged to use publicly available test collections and state-of-the-art baselines, and are encouraged to share the experimental results, data, and code with the research community. In their submission, authors may refer to an anonymized GitHub repository, though this is not strictly required.
+
+Authorship
+
+Submitted manuscripts must adhere to the ACM authorship policy. In particular, (i) each author must be the creator or originator of an idea in the work; (ii) each author must make substantial contributions to the work; and (iii) each author must be accountable for the work that was done and its presentation in a publication. The policy was recently updated to govern the use of generative AI tools in authoring papers.
+If an author submits numerous manuscripts to the same conference, it is less likely that one has materially contributed to all such submissions. To this end, we limit the number of full paper submissions per author to 10 maximum. If more than 10 full paper manuscripts are submitted with the same person listed as an author, the additional manuscripts submitted after the initial 10, will be rejected without review.
+
+Review Process
+
+Each manuscript will be reviewed by at least three PC members and a senior PC member. The acceptance decisions will take into account manuscript novelty, technical depth, elegance, practical or theoretical impact, and presentation. WSDM 2027 will use a combination of single-blind reviewing and double-blind reviewing. The manuscripts will be double-blind to regular PC members and Senior PC members, but the metadata (including authorship) of the manuscripts will be available to Associate Chairs to check for undisclosed conflicts of interest and to help assure the integrity of the review process. Note that papers not related to the conference main theme and topics will be desk-rejected without review.
+
+ACM Instructions for Authors
+
+By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all ACM Publications Policies , including ACM's new Publications Policy on Research Involving Human Participants and Subjects. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy.
+Please ensure that you and your co-authors obtain an ORCID ID, so you can complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start and we have recently made a commitment to collect ORCID IDs from all of our published authors. ORCID IDs are required for all authors. We are committed to improve author discoverability, ensure proper attribution and contribute to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
+
+Ethical Considerations
+
+Submitted manuscripts should include a section on the ethical implications of the proposed research. This section will not be counted toward the nine-page limit, and should be placed before the references. In this section, authors are asked to reflect and discuss the potential negative societal impact of their work, as they consider appropriate. Examples of negative societal impact include fairness considerations, privacy considerations, security considerations, safety considerations, misuse of the technology by malicious actors, as well as possible harms that could arise even when the technology is being used as intended and functioning correctly. If there are negative societal impacts, authors should discuss appropriate mitigation strategies.
+
+Acceptance
+
+For each accepted paper (including main, findings, and short tracks), at least one author must register for the conference (with either a 3-day or 5-day registration) and present the paper at the conference in person. Every accepted paper must be individually covered by a 3-day or 5-day conference registration. A single registration may cover multiple papers by paying an additional paper presentation fee for each additional paper, regardless of whether it is a full or short paper. WSDM 2027 will be an in-person conference, with no provisions for remote presentations. If authors are unable to present their work for any reason, they are expected to find a proxy to present the work on their behalf. The organizers reserve the right to remove any paper that is not presented during the conference from the proceedings.
+
+Conflict of Interest (COI) Policy
+
+All authors and reviewers must declare conflicts of interest in CMT. A domain conflict (entered in Education & Career History) must be declared for employment at the same institution or company, regardless of geography/location, currently or in the last 12 months. A personal conflict should be declared when the following associations exist:
+– candidate for employment at the same institution or company
+– received an honorarium, stipend, or grant from the institution or company within the last 12 months (except where of a modest nature, such as reimbursement of seminar expenses, honorarium for examination of a thesis, and so on).
+– co-author on book or paper in the last 24 months
+– co-principal investigator on a funded grant or research proposal in the last 24 months
+– actively working on any project together
+– family relationship or close personal relationship
+– graduate advisee/advisor relationship, regardless of time elapsed since graduation
+– deep personal animosity
+
+In general, we expect authors, PC, the organizing committee, and other volunteers to adhere to ACM’s Conflict of Interest Policy as well as the ACM’s Code of Ethics and Professional Conduct.
+
+Violations of Originality, Dual Submission or Conflicts of Interest
+
+Submitted manuscripts that do not meet the length, formatting or originality requirements, or are concurrently submitted to two venues (including manuscripts with significant overlap), are subject to desk rejection without review. At the discretion of the PC Chairs and the Steering Committee, egregious violations (including plagiarism) may lead to additional penalties such as a temporary or permanent ban from the venue and sponsoring SIGs venues, as well as an escalation to the ACM Committee on Professional Ethics (COPE). Likewise, failure of an author to disclose all COIs, or cases of a referee providing a review on a paper for which they have an undisclosed COI, may lead to similar penalties. You are encouraged to contact the PC Chairs if you have questions as to the originality conditions, dual submission, or conflict of interest policy.
+
+Acknowledgment
+
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+
+ACM Open Access Policy Update for 2027
+
+Starting in 2027, ACM will continue its fully Open Access publishing model. All ACM publications, including those from ACM-sponsored conferences, are 100% Open Access. Authors have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With approximately 3,000 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 76%).
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy. Please keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+To support authors and institutions as they continue to adapt to ACM's Open Access publishing model, the ACM Council has approved subsidized APC rates for calendar year 2027, allowing more time for institutions to join ACM Open. Please note that 2027 will be the final year of this subsidy.
+
+The subsidized rates for 2027 will be:
+
+- $500 APC for ACM/SIG members
+- $750 for non-members
+
+These subsidized rates are funded directly by ACM. See the official APC pricing for current rates and eligibility. Authors are encouraged to help advocate for their institutions to join ACM Open during this final transition period.
+This temporary subsidized pricing applies to all conferences scheduled for 2027.
+
+Program Chairs and Associate Program Chairs
+
+Associate Program Chairs
+
+Raymond Wong
+
+Hong Kong University of Science and Technology
+
+Ninghao Liu
+
+The Hong Kong Polytechnic University
+
+Jing Shao
+
+Shanghai AI Lab/Shanghai Jiao Tong University
+
+Program Chairs
+
+Xia Hu
+
+Shanghai AI Lab
+
+James Caverlee
+
+Texas A&M University
+
+Yi Chang
+
+Jilin University
+
+© 2027 WSDM 2027. All rights reserved.
+
+Back to top ↑

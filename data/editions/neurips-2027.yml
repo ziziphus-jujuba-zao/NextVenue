@@ -1,0 +1,39 @@
+id: neurips-2027
+series: neurips
+name: NeurIPS 2027
+year: 2027
+kind: conference
+topics: [ml, ai]
+derived_from: neurips-2026
+milestones:
+  - type: abstract
+    at: 2027-05-04T23:59
+    tz: AoE
+    status: estimated
+    src: neurips-2026-dates
+    quote: "Paper Abstract Submission Deadline May 04 '26 (Anywhere on Earth)"
+    note_zh: 推算值：NeurIPS 2026 官网摘要截止为 2026-05-04 AoE，顺延一年。
+  - type: paper
+    at: 2027-05-06T23:59
+    tz: AoE
+    status: estimated
+    src: neurips-2026-dates
+    quote: "Full Paper Submission Deadline May 06 '26 (Anywhere on Earth)"
+    note_zh: 推算值：NeurIPS 2026 官网正文截止为 2026-05-06 AoE，顺延一年。
+  - type: notification
+    at: 2027-09-24
+    tz: AoE
+    status: estimated
+    src: neurips-2026-dates
+    quote: "Paper Author Notifications Sep 24 '26 (Anywhere on Earth)"
+    note_zh: 推算值：NeurIPS 2026 官网出结果为 2026-09-24 AoE，顺延一年；官方只给日期、未给时刻。
+  - type: conference
+    start: 2027-12-06
+    end: 2027-12-12
+    tz: AoE
+    status: estimated
+    src: neurips-2027-future-meetings
+    quote: "2026 -- Sydney Austraila Dec 6th - 12th"
+    note_zh: 推算值：按 NeurIPS 2026 悉尼主会场会期 12/6–12 顺延一年。官网 Future Meetings 页对 2027 只写“Europe”，城市和日期都未公布，时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: 按 NeurIPS 2026 官网日期顺延：摘要 5/4、正文 5/6、出结果 9/24（均为 AoE），会期按 2026 悉尼主会场 12/6–12。2026-09-25 查询时 NeurIPS 2027 Dates 页仍为 404，征稿尚未发布；官网只说 2027 年在欧洲举办。

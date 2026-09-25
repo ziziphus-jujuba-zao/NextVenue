@@ -2,6 +2,7 @@ id: cvpr-2027/supplementary-no-updated-paper
 edition: cvpr-2027
 family: content_edit
 question_zh: 补充材料截止（11/23）前，能在补充材料里放修改后的论文或改进后的结果吗？
+short_zh: 补充材料放新版论文
 answer: not_allowed
 verification: inherited
 inherited_from: cvpr-2026

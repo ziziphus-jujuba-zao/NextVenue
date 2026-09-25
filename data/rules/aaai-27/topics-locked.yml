@@ -2,6 +2,7 @@ id: aaai-27/topics-locked
 edition: aaai-27
 family: content_edit
 question_zh: 摘要截止后还能改 primary topic 和 secondary topics 吗？
+short_zh: 改主题（topic）
 answer: not_allowed
 verification: human
 conf: high

@@ -1,0 +1,267 @@
+Skip to content
+
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+IEEE RAS Website
+Join IEEE
+Search
+
+ * Home
+ * About
+   * Chairs & Boards
+   * RAS CARES
+   * Contact
+   * Brand Identity and Guidelines
+ * Program
+ * Attend
+   * Registration Information
+   * Travel Information
+   * Visa Information
+   * Venue / Conference Center
+   * Visit Seoul
+ * Contribute
+   * Call for Papers – Submission Closed
+   * Call for Workshops & Tutorials
+   * Call for Competition – Submission Closed
+   * Call for Arts in Robotics
+   * PPT Template Available for Download
+ * Partners
+   * Confirmed Partners and Exhibitors
+   * Partnership & Exhibitor Information
+ * Media
+
+ * Home
+ * About
+   * Chairs & Boards
+   * RAS CARES
+   * Contact
+   * Brand Identity and Guidelines
+ * Program
+ * Attend
+   * Registration Information
+   * Travel Information
+   * Visa Information
+   * Venue / Conference Center
+   * Visit Seoul
+ * Contribute
+   * Call for Papers – Submission Closed
+   * Call for Workshops & Tutorials
+   * Call for Competition – Submission Closed
+   * Call for Arts in Robotics
+   * PPT Template Available for Download
+ * Partners
+   * Confirmed Partners and Exhibitors
+   * Partnership & Exhibitor Information
+ * Media
+
+Call for Papers – Submission Closed
+
+Home > Contribute > Call for Papers – Submission Closed
+
+Call for Papers
+
+2027 IEEE Conference on Robotics and Automation (ICRA 2027) will take place in Seoul,
+Republic of Korea on May 24-28, 2027.
+
+Being the flagship conference of the IEEE Robotics and Automation Society, ICRA will bring together the world’s top researchers and leading companies to share ideas and advances in Robotics and Automation. The conference will include plenary sessions, contributed paper sessions, workshops and tutorial sessions, forums, exhibitions, and robot competitions.
+
+Important Dates:
+
+ * Paper submission deadline: September 16, 2026 (23:59 PST) (via Paperplaza)
+    * Submission Deadline Extended
+
+ * Submission of accompanying videos: Open (1) Aug 5-Sep 9, 2026, and (2) Sep 18-22, 2026 (23:59 PST).
+ * Notification of acceptance/rejection: January 31, 2027 (Sun)
+ * Paperplaza opens for final submission: February 6, 2027 (Fri)
+ * Author registration deadline:  March 5, 2027 (Fri)
+ * Early Registration deadline:  March 31, 2027 (Wed)
+ * Deadline Standard Registration deadline: May 14, 2027 (Fri)
+
+Please note:
+
+ICRA 2027 will be an on-site conference. There will be no option to present a paper online.
+If there is no on-site presenter, the paper will be considered as no-show and skipped.
+
+If your paper is found to be in violation of IEEE-RAS AI use policies and is subsequently disqualified or withdrawn from the conference program, your registration fees will NOT be refunded.
+
+Preparing your Submission
+
+The page limit is 8 pages for the complete paper (text, figures, tables, acknowledgement, bibliography/references). Papers exceeding the 8 page limit at the time of submission will be returned without review. All papers must be submitted in PDF and must follow the ICRA double column format. ICRA applies the double anonymous review process as defined by RAS: Rules for the Double-Anonymous Review Process – IEEE Robotics and Automation Society Website. Information and templates are available here.
+
+SUBMISSION OF ACCOMPANYING VIDEOS
+
+We strongly encourage authors to submit a video clip to complement the paper submission. Please note that a video that was NOT submitted with the initial submission of an ICRA paper (during the two submission windows), will NOT be accepted at a later date.
+
+Video uploads will be unavailable between 10 September and 16 September 2026, to allow the unhindered uploading/updating of the PDF manuscripts of contributed papers during that period.
+
+Detailed Video submission guidelines for contributed ICRA papers:
+
+ * File size: up to 20MB
+ * Format (only one of the following should be used): mpeg, mp4, mpg
+ * Maximum duration: 180 sec.
+ * Minimum height: 480
+ * Minimum frame rate (fps): 20
+ * Scan type: Progressive
+
+RESUBMISSION OF PAPERS REJECTED FROM IROS 2026
+
+ICRA 2027 offers a submission category “IROS-ICRA transfer” for papers that previously were submitted to IROS 2026 but were not accepted for publication. The submission should include an additional Author Response File (PDF) to clarify how the comments from the AE/Editor and the reviewers were taken into account in the preparation of the revised paper. The papers will undergo a regular review process.
+
+It is authors’ responsibility to not identify themselves in the response file.
+
+It is also the authors’ responsibility to download reviewers’ comments for the rejected paper and make it a part of author responses.
+
+PRESENTATION OF ACCEPTED RAS JOURNAL PAPERS
+
+Authors of accepted papers from the RAS sponsored conferences RAM, RA-L, T-ASE, T-RO, T-RL, T-FR, RA-P, and ToH are automatically offered the option to present their paper at a RAS conference upon notification of final acceptance. Paperplaza supports direct transfer of papers from T-RO, RA-M, RA-L, and T-RL to ICRA 2027. For transfer of papers from other journals the paper must be manually uploaded to ICRA under the submission category “external journal submission”. For this a submission code is required, which can be obtained from the journal. Please, check the webpage of the journals for further information and eligibility time windows: RAS sponsored publications. The deadline for transfer of journal papers to ICRA 2027 is 31st December 2026.
+
+For Authors: Guidelines regarding the use and disclosure of AI tools
+
+If your paper is found to be in violation of IEEE-RAS AI use policies and is subsequently disqualified or withdrawn from the conference program, your registration fees will NOT be refunded.
+
+Generative AI tools and technologies, such as ChatGPT, may not be listed as authors of a paper submitted to ICRA 2027. The use of content generated by AI in an article (including but not limited to text, figures, images, and code) must be disclosed in the acknowledgments section. The AI system used must be identified, and specific sections of the article that use AI-generated content should be specified and accompanied by a brief explanation regarding the manner in which the AI system was used to generate the content. The use of AI systems for editing and grammar enhancement is common practice and, as such, is generally outside the intent of the above policy.
+
+Information or content contained in or about a manuscript under review shall not be processed through an AI system. Doing so is considered a breach of confidentiality and as such is not permitted.
+
+Note for authors who require a CC BY open access license
+
+Please note that some authors (such as those funded by UKRI) require a “Creative Commons Attribution Only License – Open Access” (CC BY) license for their papers. If you require a CC BY license for your paper, please follow the guidelines described under option 2 on the following website: https://open.ieee.org/ieee-compliance-with-ukri/
+
+FAQ
+
+What is this year’s motto? Which topic areas are covered by the conference?
+
+Traditionally, ICRA covers all areas of robotics research. In order to find out if your paper will fit to the conference, you may want to check the ICRA keywords. You can find the complete list of ICRA keywords here: Keywords – IEEE Robotics and Automation Society (ieee-ras.org)
+
+When you submit a paper, you should select at least three keywords from this list.
+
+Is the ICRA review process single-blind or double-blind?
+
+The ICRA review process is double-anonymous (both reviewers and authors stay anonymous). Therefore, manuscripts should exclude the authors and their affiliations. However, when all the co-authors must be entered in Paperplaza at the time of first submission. The author information will be visible to the editors and AEs only, but not to reviewers.
+
+You can find templates here: Important Information for Manuscript Preparation (papercept.net)
+
+Can I add supplementary material in the paper or as an attachment?
+
+The allowed paper length is 8 pages, meaning 8 pages for the complete paper content, including all material, acknowledgments, and references. Any supplementary material must fit within the 8 regular pages. A video attachment is possible.
+
+Will there be an extension to the paper submission deadline?
+
+There is no plan to extend the paper submission deadline.
+
+Can I add weblinks in the paper?
+
+You can include URLs (not links embedded in the pdf), but you should not expect that reviewers will look at those links, or that they will influence the review process. Beyond the submitted paper and the (optional) supplementary video, reviewers are not required to look at any other material when writing their reviews.
+
+Please find more information of the PDF requirements on  Compliance (papercept.net).
+
+Is it allowed to submit a paper that previously was published at a workshop or on a preprint server (e.g. arxiv)?
+
+IEEE supports the evolutionary publication paradigm of workshop papers being improved to conference papers, which are then improved to journal papers. Therefore, papers, which previously have been published at a workshop without formal/peer reviewed proceedings, can be submitted to ICRA. Similarly, papers, which have been uploaded on a preprint server (e.g. arxiv) and are not submitted simultaneously to any other conference or journal, can be submitted to ICRA.
+
+However, if your workshop paper has a DOI, this would be considered as an archival publication equivalent to a conference paper. Such papers cannot be submitted.
+
+How can I transfer an accepted paper from T-ASE/T-FR/RA-P /ToH for presentation at ICRA?
+
+If you want to transfer an accepted paper from one of the journals T-ASE, T-FR, RA-P, or ToH to ICRA, the paper should be submitted in paperplaza in the submission category “External journal submission” of ICRA. Do not submit it as a regular ICRA paper! For the paper upload, you will need to enter a code, which can be obtained from the Editor-In-Chief of the journal.
+
+Notice that papers from T-RO, RA-M,RA-L, and T-RL follow a different process and do not require a code. Authors of accepted papers will receive an email from PaperCept regarding the transfer of their paper to a conference at which they wish to present their paper.
+
+The deadline for all transfers of journal papers to ICRA 2027 is 31 December 2026.
+
+Organizer and Speaker Registration
+
+All conference organizers and speakers attending in person must register to access workshops and tutorials.
+
+ICRA 2025 offers a workshop/tutorial-only registration option, allowing organizers and speakers to register exclusively for the sessions they are participating in, instead of registering for the full conference. Please refer to the ICRA registration page for this purpose.
+
+Student Registration
+
+All onsite student attendees (for workshops/tutorials) must register either for the workshops or for the entire conference to gain access.
+
+Student members are eligible for discounted registration fees, as detailed on the ICRA 2025 website.
+
+Coffee and Lunch Breaks
+
+ * Morning break: 10:00 AM – 11:00 AM
+ * Afternoon break: 3:00 PM – 4:00 PM
+
+Workshop/tutorial organizers are recommended to schedule their breaks within these time slots.
+
+Please note: ICRA 2025 does not provide lunch during workshop days. The designated lunch break is from 12:30 PM to 1:30 PM.
+
+Workshop and Tutorial Timing
+
+ * Full-day workshops: 8:30 AM – 5:30 PM
+ * Half-day tutorials:
+   * Morning session: 8:30 AM – 12:30 PM
+   * Afternoon session: 1:30 PM – 5:30 PM
+
+Remote Attendance
+
+Presenters and attendees who are unable to attend in person may participate remotely.
+
+Workshop organizers must create and provide the necessary streaming links for their sessions. Please note:
+
+ * Conference internet may be unreliable, though fewer connectivity issues are expected during workshop days due to lower usage.
+ * If you plan to stream your workshop, you are responsible for handling the setup.
+
+Additional Information
+
+ * There is no minimum number of registrants required for a workshop to proceed. Workshops will NOT be canceled due to low registration.
+ * We will soon provide workshop organizers with details on:
+   * Standard room setups and AV equipment
+   * A request form for special requirements
+   * An estimated number of posters needed
+
+Latest Announcements
+
+ * September 17, 2026
+
+Call for Papers Accompanying Video Submission Period Updated!
+
+READ MORE
+
+ * September 16, 2026
+
+Call for Papers Submission Deadline Extended!
+
+READ MORE
+
+ * September 15, 2026
+
+Call for Arts in Robotics
+
+READ MORE
+
+View All
+
+Brought to you by:
+
+Follow Us On social:
+
+Facebook X-twitter Linkedin Instagram
+
+#ICRA2027
+
+Join IEEE RAS
+
+ * Home
+ * More Sites
+ * Contact & Support
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms & Disclosures
+
+ * Home
+ * More Sites
+ * Contact & Support
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms & Disclosures
+
+© Copyright 2027 IEEE – All rights reserved. A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.

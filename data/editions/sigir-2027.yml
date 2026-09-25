@@ -1,0 +1,52 @@
+id: sigir-2027
+series: sigir
+name: SIGIR 2027
+year: 2027
+kind: conference
+topics: [dm]
+location: { city: San Jose, country: USA }
+dates: { start: 2027-07-18, end: 2027-07-24 }
+milestones:
+  - type: abstract
+    at: 2027-01-14T23:59
+    tz: AoE
+    status: confirmed
+    src: sigir-2027-home
+    quote: "Abstract submission: January 14, 2027"
+    note_zh: 官网首页 Important dates 列出的长文日期；页面没写时区，SIGIR 惯例是 AoE，暂按 AoE。
+  - type: paper
+    at: 2027-01-21T23:59
+    tz: AoE
+    status: confirmed
+    src: sigir-2027-home
+    quote: "Full paper submission: January 21, 2027"
+    note_zh: 页面没写时区，暂按 AoE。
+  - type: notification
+    at: 2027-04-05
+    tz: AoE
+    status: confirmed
+    src: sigir-2027-home
+    quote: "Notification: April 5, 2027"
+    note_zh: 官方只给日期、未给时刻和时区。
+  - type: camera_ready
+    at: 2027-04-30T23:59
+    tz: AoE
+    status: confirmed
+    src: sigir-2027-home
+    quote: "Camera-ready submission: April 30, 2027"
+  - type: author_registration
+    at: 2027-04-30T23:59
+    tz: AoE
+    status: confirmed
+    src: sigir-2027-home
+    quote: "Author registration: April 30, 2027"
+  - type: conference
+    start: 2027-07-18
+    end: 2027-07-24
+    tz: America/Los_Angeles
+    status: confirmed
+    src: sigir-2027-home
+    quote: "July 18-24, 2027"
+    note_zh: 首页正文写 7/18–24（Signia by Hilton San Jose）；但网页标题（浏览器标签）写 “July 19-24, 2027”，两处不一致，这里按正文。
+last_checked: 2026-09-25
+note_zh: 第 50 届 SIGIR。长文日期只出现在官网首页的 Important dates（小标题为 “Confirmed milestones and organizer placeholders”）；征稿页和政策页目前还是占位文字，正式 CFP 未发布，时区未写。短文、资源、复现、demo、perspective 等其他 track 的日期均为 TBA。

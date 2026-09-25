@@ -1,0 +1,49 @@
+id: colm-2027
+series: colm
+name: COLM 2027
+year: 2027
+kind: conference
+topics: [nlp, ml]
+derived_from: colm-2026
+milestones:
+  - type: abstract
+    at: 2027-03-26T23:59
+    tz: AoE
+    status: estimated
+    src: colm-2026-dates
+    quote: "Abstract Submission Deadline Mar 26 '26 (Anywhere on Earth)"
+    note_zh: 按 COLM 2026 日期顺延。
+  - type: paper
+    at: 2027-03-31T23:59
+    tz: AoE
+    status: estimated
+    src: colm-2026-dates
+    quote: "Full Paper Submission Deadline Mar 31 '26 (Anywhere on Earth)"
+    note_zh: 按 COLM 2026 日期顺延。
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2027-05-22
+    end: 2027-06-08
+    tz: America/Los_Angeles
+    status: estimated
+    src: colm-2026-dates
+    quote: "Rebuttal Period Begins May 22 '26 Rebuttal Period Ends Jun 08 '26"
+    note_zh: 按 COLM 2026 日期顺延（CFP 写 “May 22 to June 8, 2026”）。2026 日期页这两项没标 AoE，表头写日期列为 America/Los_Angeles；CFP 写所有截止为 AoE。截止类按规则取较早的，即 America/Los_Angeles。
+  - type: notification
+    at: 2027-07-08
+    tz: AoE
+    status: estimated
+    src: colm-2026-dates
+    quote: "Paper Decision Notifications Jul 08 '26"
+    note_zh: 按 COLM 2026 日期顺延，官方未给时刻。2026 日期页这一项没标 AoE（表头写日期列为 America/Los_Angeles），CFP 写所有截止为 AoE；结果类节点按规则取较晚的 AoE。
+  - type: conference
+    label_zh: 主会 10/6–8，workshop 10/9
+    start: 2027-10-06
+    end: 2027-10-09
+    tz: AoE
+    status: estimated
+    src: colm-2026-cfp
+    quote: "Conference dates: October 6-9, 2026"
+    note_zh: 按 COLM 2026 会期顺延。2027 地点未公布（COLM 2026 官网首页写 2026 在旧金山 Hilton Union Square），时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: 按 COLM 2026 官网日期顺延：摘要 3/26、正文 3/31、rebuttal 5/22–6/8、出结果 7/8、会期 10/6–9。2026-09-25 时 COLM 2027 日期页（colm.cc/Conferences/2027/Dates）返回 404，官网年份菜单只有 2026。COLM 不走 ARR，直接在 OpenReview 投稿。

@@ -2,6 +2,7 @@ id: cvpr-2027/llm-policy-2027
 edition: cvpr-2027
 family: llm_policy
 question_zh: CVPR 2027 对作者使用 LLM 有什么规定？
+short_zh: LLM 使用规定
 answer: unspecified
 verification: human
 conf: high

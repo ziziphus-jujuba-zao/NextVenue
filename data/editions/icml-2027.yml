@@ -1,0 +1,39 @@
+id: icml-2027
+series: icml
+name: ICML 2027
+year: 2027
+kind: conference
+topics: [ml, ai]
+derived_from: icml-2026
+milestones:
+  - type: abstract
+    at: 2027-01-23T23:59
+    tz: AoE
+    status: estimated
+    src: icml-2026-dates
+    quote: "Abstract Submission Deadline Jan 23 '26 (Anywhere on Earth)"
+    note_zh: 推算值：ICML 2026 官网摘要截止为 2026-01-23 AoE，顺延一年。
+  - type: paper
+    at: 2027-01-28T23:59
+    tz: AoE
+    status: estimated
+    src: icml-2026-dates
+    quote: "Full Paper Submission Deadline Jan 28 '26 (Anywhere on Earth)"
+    note_zh: 推算值：ICML 2026 官网正文截止为 2026-01-28 AoE，顺延一年。
+  - type: notification
+    at: 2027-04-30
+    tz: AoE
+    status: estimated
+    src: icml-2026-dates
+    quote: "Author Notification Apr 30 '26 (Anywhere on Earth)"
+    note_zh: 推算值：ICML 2026 官网出结果为 2026-04-30 AoE，顺延一年；官方只给日期、未给时刻。
+  - type: conference
+    start: 2027-07-06
+    end: 2027-07-11
+    tz: AoE
+    status: estimated
+    src: icml-2026-home
+    quote: "ICML 2026 dates and location confirmed: July 6–11, 2026"
+    note_zh: 推算值：按 ICML 2026 会期 7/6–11（首尔，含 tutorial 和 workshop）顺延一年。官网 Future Meetings 页对 2027 只写“South America”，城市和日期都未公布，时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: 按 ICML 2026 官网日期顺延：摘要 1/23、正文 1/28、出结果 4/30（均为 AoE），会期按 2026 的 7/6–11。2026-09-25 查询时 ICML 2027 的 Dates 页和 Call for Papers 页都是 404，征稿尚未发布；官网只说 2027 年在南美举办。

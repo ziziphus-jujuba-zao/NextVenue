@@ -2,6 +2,7 @@ id: cvpr-2027/dual-submission-window
 edition: cvpr-2027
 family: dual_submission
 question_zh: CVPR 2027 审稿期间，能把实质相似的论文同时投到别的会议或 workshop 吗？
+short_zh: 审稿期投别的会
 answer: not_allowed
 verification: human
 conf: high

@@ -1,0 +1,78 @@
+* Calls
+ * Committee
+ * Participant Information
+ * Program
+
+Toggle menu
+
+The 20th Conference of the European Chapter
+of the Association for Computational Linguistics
+Athens, Greece
+March 9-14, 2027
+
+Credits: Katartia Creative, from Pexels
+
+Welcome!
+
+Welcome to the 20th Conference of the European Chapter of the Association for Computational Linguistics (EACL). EACL 2027 will proudly be hosted in the historic and vibrant city of Athens, Greece, from March 9–14, 2027.
+
+As the flagship European conference in the field of computational linguistics, EACL brings together an international community of researchers and practitioners covering a broad spectrum of computational approaches to natural language. We look forward to gathering together to share ideas, present cutting-edge research, and forge scientific connections.
+
+Important Dates
+
+ * ARR submission deadline (long & short papers): August 3, 2026
+ * Conference: March 9–14, 2027
+
+Note: All deadlines are 11:59PM UTC-12:00 (“anywhere on Earth”).
+
+News
+
+Got any questions?
+
+Check the contact directory for the right email address.
+
+Joint Call for Tutorial Proposals
+
+The Joint Call for Tutorial Proposals 2027 has been published. Please note that this is a joint call for EACL, NAACL, and COLING. Check it out for important dates and submission guidelines.
+
+Student Research Workshop Call for Papers
+
+The Student Research Workshop Call for Papers has been published. Check it out for important dates and submission guidelines.
+
+System Demonstrations Call for Papers
+
+The System Demonstrations Call for Papers has been published. Check it out for important dates and submission guidelines.
+
+Joint Call for Workshops Proposals
+
+The Joint Call for Workshops Proposals 2027 has been published. Please note that this is a joint call for EACL, COLING, NAACL, ACL, and EMNLP, and it will be the only one for this conference cycle. Check it out for important dates and submission guidelines.
+
+Industry Track Call for Papers
+
+The Industry Track Call for Papers has been published. Check it out for important dates and submission guidelines.
+
+Keynote speakers announced!
+
+We are thrilled to announce that Sara Hooker, Mor Geva, and Uri Hasson will be our keynote speakers for EACL 2027! Find out more on the Keynote Speakers page.
+
+Call for Papers
+
+The Call for Papers has been published. Check it out for important dates and submission guidelines.
+
+We're live!
+
+The EACL 2027 website is now officially live. Please check back regularly for updates concerning the conference, important dates, calls for papers, venue specifics, and more.
+
+EACL 2027 Anti-Harassment Policy
+
+EACL 2027 adheres to the ACL’s code of ethics, ACL’s anti-harassment policy, and ACL’s code of conduct. Violations of the code of ethics as well as complaints raised under the anti-harassment policy should be brought to the Professional Conduct Committee, who can be reached during the conference via the PCC channel in RocketChat, or you may also contact any current member of the EACL Executive Board. Please be assured that if you approach the PCC or EACL board members, your concerns will be kept in strict confidence, and we will consult with you on any actions taken.
+
+ * Follow:
+ * Twitter
+ * Bluesky
+ * Facebook
+ * LinkedIn
+ * GitHub
+ * Feed
+
+© 2027 EACL. Powered by Jekyll & Minimal Mistakes.

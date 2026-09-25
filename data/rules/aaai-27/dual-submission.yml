@@ -2,6 +2,7 @@ id: aaai-27/dual-submission
 edition: aaai-27
 family: dual_submission
 question_zh: 投了 AAAI-27 之后，能把同一工作投到别的会议或期刊吗？
+short_zh: 同时投别的会或期刊
 answer: not_allowed
 verification: human
 conf: high

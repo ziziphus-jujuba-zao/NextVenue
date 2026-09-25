@@ -1,0 +1,42 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iccv-2027
+sources:
+  - id: iccv-2027-home
+    url: https://iccv.thecvf.com/Conferences/2027
+    title: ICCV 2027 Home
+    kind: other
+    fetched_at: 2026-09-24T23:02:48Z
+    http_status: 200
+    snapshot: f0179c469985c036a8457b3c2a4abd84621bf0749c4399a71989d80d7a442f13
+    note_zh: 官网首页：会期 "October 2–8, 2027"，地点香港（"Hong Kong, CN"），场馆写 "Venue coming soon"。2026-09-25 首页没有任何投稿日期。
+  - id: iccv-2027-dates
+    url: https://iccv.thecvf.com/Conferences/2027/Dates
+    title: ICCV 2027 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:02:49Z
+    http_status: 200
+    snapshot: a25b49146f1a10e25bc9ae3b25630ba0a5cc837710b65543e4d6dbcbbd109e1e
+    note_zh: 2026-09-25 页面只有一句会期 "Tue. Oct 19th through Sat the 23rd, 2027 at the ."，与首页和 CVF 官网的 10/2–8 不符、场馆名空缺，看起来是沿用 2025 模板（ICCV 2025 会期正是 10/19–23）；页面没有任何投稿截止日期。
+  - id: iccv-2027-cfp
+    url: https://iccv.thecvf.com/Conferences/2027/CallForPapers
+    title: ICCV 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-24T23:02:50Z
+    http_status: 404
+    note_zh: 2026-09-25 仍为 404，ICCV 2027 征稿和截止日期尚未发布。
+  - id: iccv-2027-cvf-home
+    url: https://www.thecvf.com/
+    title: "CVF Home: Upcoming CVF Sponsored Conferences"
+    kind: other
+    fetched_at: 2026-09-24T23:02:51Z
+    http_status: 200
+    snapshot: 430b512577d318f367cf74911dd5f1e2daee718ae59018aa957ed2bd3473cc19
+    note_zh: CVF 官网置顶帖 "Upcoming CVF Sponsored Conferences"，写 ICCV 2027 为 10/2–8、香港，与 ICCV 官网首页一致。
+  - id: iccv-2025-dates
+    url: https://iccv.thecvf.com/Conferences/2025/Dates
+    title: ICCV 2025 Dates
+    kind: dates
+    fetched_at: 2026-09-24T23:02:52Z
+    http_status: 200
+    snapshot: 3efbc2353ea58035206854b213dac277d2415ea6e4362f3b5ffeb5e484902615
+    note_zh: 上一届（ICCV 两年一届）官方日期，用于推算 ICCV 2027 的截止日期。2025 的论文截止均按夏威夷时间（HST）11:59 PM，因当届在檀香山举办。

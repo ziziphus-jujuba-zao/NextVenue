@@ -2,6 +2,7 @@ id: iclr-2027/discussion-revisions
 edition: iclr-2027
 family: rebuttal
 question_zh: 讨论期能上传修订版 PDF 吗？页数上限多少？
+short_zh: 讨论期上传修订版
 answer: allowed
 verification: human
 conf: high

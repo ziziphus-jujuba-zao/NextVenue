@@ -2,6 +2,7 @@ id: cvpr-2027/prompt-injection
 edition: cvpr-2027
 family: llm_policy
 question_zh: 论文里藏给审稿人或 LLM 看的指令（prompt injection）会怎样？
+short_zh: 论文里藏提示词
 answer: not_allowed
 verification: inherited
 inherited_from: cvpr-2026

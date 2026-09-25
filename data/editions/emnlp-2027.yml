@@ -1,0 +1,63 @@
+id: emnlp-2027
+series: emnlp
+name: EMNLP 2027
+year: 2027
+kind: conference
+topics: [nlp]
+derived_from: emnlp-2026
+milestones:
+  - type: paper
+    label_zh: ARR 投稿截止（预计 2027 年 5 月轮）
+    at: 2027-05-25T23:59
+    tz: AoE
+    status: estimated
+    src: emnlp-2026-dates
+    quote: "ARR submission deadline (long & short papers) May 25, 2026"
+    note_zh: 按 EMNLP 2026 的 ARR 2026 年 5 月轮截止日顺延。ARR 尚未公布 2027 年各轮日期，也未把 EMNLP 2027 列入参会表。EMNLP 2026 官网写所有截止为 AoE。
+  - type: author_response
+    label_zh: 作者回复与作者-审稿人讨论
+    start: 2027-07-07
+    end: 2027-07-13
+    tz: AoE
+    status: estimated
+    src: emnlp-2026-dates
+    quote: "Author response and author-reviewer discussion July 7 - July 13, 2026"
+    note_zh: 按 EMNLP 2026 官网顺延；ARR 日期页对 2026 年 5 月轮写的是 July 8-July 14。
+  - type: meta_reviews
+    at: 2027-07-30
+    tz: AoE
+    status: estimated
+    src: emnlp-2026-dates
+    quote: "Meta review released July 30, 2026"
+    note_zh: 按 EMNLP 2026 日期顺延。
+  - type: commitment
+    at: 2027-08-02T23:59
+    tz: AoE
+    status: estimated
+    src: emnlp-2026-dates
+    quote: "EMNLP commitment deadline August 2, 2026"
+    note_zh: 按 EMNLP 2026 日期顺延。
+  - type: notification
+    at: 2027-08-20
+    tz: AoE
+    status: estimated
+    src: emnlp-2026-dates
+    quote: "Notification of acceptance (long & short papers) August 20, 2026"
+    note_zh: 按 EMNLP 2026 日期顺延。
+  - type: camera_ready
+    at: 2027-08-30T23:59
+    tz: AoE
+    status: estimated
+    src: emnlp-2026-dates
+    quote: "Camera-ready papers due (long & short) August 30, 2026"
+    note_zh: 按 EMNLP 2026 日期顺延。
+  - type: conference
+    start: 2027-10-24
+    end: 2027-10-29
+    tz: AoE
+    status: estimated
+    src: emnlp-2026-dates
+    quote: "Main Conference (dates for Workshops/Tutorials TBD) October 24 - 29, 2026"
+    note_zh: 按 EMNLP 2026 会期顺延。2027 地点未公布（2026 在布达佩斯），时区暂记 AoE。
+last_checked: 2026-09-25
+note_zh: 按 EMNLP 2026 官网日期顺延：ARR 投稿 5/25、作者回复 7/7–7/13、meta-review 7/30、commit 8/2、出结果 8/20、camera-ready 8/30、会期 10/24–29。假设仍由 ARR 5 月轮供稿（EMNLP 2026 对应 ARR 2026 年 5 月轮；EMNLP 2026 CFP 要求 5 月轮投稿时就声明 commit 到 EMNLP 还是 AACL，2027 是否沿用未知）。2026-09-25 时 2027.emnlp.org 域名无法解析，官网未上线。

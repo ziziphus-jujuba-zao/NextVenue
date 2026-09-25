@@ -1,0 +1,63 @@
+id: naacl-2027
+series: naacl
+name: NAACL 2027
+year: 2027
+kind: conference
+topics: [nlp]
+location: { city: San Francisco, country: USA }
+dates: { start: 2027-06-01, end: 2027-06-05 }
+milestones:
+  - type: paper
+    label_zh: ARR 投稿截止（2026 年 10 月轮）
+    at: 2026-10-12T23:59
+    tz: AoE
+    status: confirmed
+    src: naacl-2027-cfp
+    quote: "ARR submission deadline (long & short papers) October 12, 2026"
+    note_zh: 投稿到 ARR 2026 年 10 月轮（见 arr-2026-10），NAACL 2027 与 COLING 2027 共用这一轮。页面写所有截止均为 AoE。更早轮次已拿到审稿和 meta-review 的稿件也可以直接 commit。
+  - type: author_response
+    label_zh: ARR 作者回复期
+    start: 2026-11-24
+    end: 2026-11-30
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-dates
+    quote: "October 2026 October 12 October 14 November 16 November 24-November 30 December 17 December 20"
+    note_zh: NAACL 页面没列这一项，取自 ARR 日期页（10 月轮），该页没写时区，暂按 AoE。
+  - type: meta_reviews
+    at: 2026-12-18
+    tz: AoE
+    status: confirmed
+    src: naacl-2027-cfp
+    quote: "Meta-reviews released December 18, 2026"
+    note_zh: 两处不一致，按规则取较晚的日期。NAACL 2027 页面写 December 18；ARR 日期页写 December 17。
+  - type: commitment
+    at: 2026-12-23T23:59
+    tz: AoE
+    status: confirmed
+    src: naacl-2027-cfp
+    quote: "NAACL commitment deadline December 23, 2026"
+    note_zh: commit 入口只在截止前两周开放。commit 时要选定主会（NAACL 或 COLING），之后不能改；ARR 日期页也把 NAACL 2027 的 commit 日期列为 December 23, 2026。
+  - type: notification
+    at: 2027-02-10
+    tz: AoE
+    status: confirmed
+    src: naacl-2027-cfp
+    quote: "Notification of acceptance (long & short papers) February 10, 2027"
+    note_zh: 官方只给日期、未给时刻；页面的 AoE 说明针对截止日期，这里沿用。
+  - type: camera_ready
+    at: 2027-03-03T23:59
+    tz: AoE
+    status: confirmed
+    src: naacl-2027-cfp
+    quote: "Camera-ready papers due (long & short) March 3, 2027"
+  - type: conference
+    start: 2027-06-01
+    end: 2027-06-05
+    tz: America/Los_Angeles
+    status: confirmed
+    src: naacl-2027-cfp
+    quote: "Conference dates June 1–5, 2027"
+    note_zh: 官网首页和 CFP 都写 6/1–5 在旧金山举行。
+last_checked: 2026-09-25
+note_zh: 经 ACL Rolling Review 投稿：ARR 2026 年 10 月轮（10/12 截止）出审稿和 meta-review，再 commit 到 NAACL 2027 决定录用。

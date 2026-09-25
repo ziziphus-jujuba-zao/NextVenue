@@ -2,6 +2,7 @@ id: aaai-27/title-abstract-edit-window
 edition: aaai-27
 family: content_edit
 question_zh: 摘要截止后还能改标题和摘要吗？能改到什么程度？
+short_zh: 改标题和摘要
 answer: conditional
 verification: human
 conf: high

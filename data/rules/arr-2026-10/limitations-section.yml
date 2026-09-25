@@ -2,6 +2,7 @@ id: arr-2026-10/limitations-section
 edition: arr-2026-10
 family: format
 question_zh: 必须有 Limitations 一节吗？没有会怎样？
+short_zh: Limitations 一节
 answer: required
 verification: human
 conf: high

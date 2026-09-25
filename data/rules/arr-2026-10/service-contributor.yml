@@ -2,6 +2,7 @@ id: arr-2026-10/service-contributor
 edition: arr-2026-10
 family: reciprocal_reviewing
 question_zh: 每篇投稿都要指定 service contributor 吗？一个人能给几篇当？没有会怎样？
+short_zh: 指定 contributor
 answer: conditional
 verification: human
 conf: high

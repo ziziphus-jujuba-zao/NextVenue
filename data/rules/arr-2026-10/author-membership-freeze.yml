@@ -2,6 +2,7 @@ id: arr-2026-10/author-membership-freeze
 edition: arr-2026-10
 family: author_list
 question_zh: 投稿后还能增加或删除作者吗？
+short_zh: 投稿后增删作者
 answer: conditional
 verification: human
 conf: medium

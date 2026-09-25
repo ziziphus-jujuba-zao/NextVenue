@@ -2,6 +2,7 @@ id: aaai-27/llm-generated-text
 edition: aaai-27
 family: llm_policy
 question_zh: 论文里能用 LLM 生成的文字吗？能用 LLM 润色吗？
+short_zh: 论文用 LLM 生成文字
 answer: conditional
 verification: human
 conf: high

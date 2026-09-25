@@ -2,6 +2,7 @@ id: aaai-27/in-person-presentation
 edition: aaai-27
 family: presentation
 question_zh: 论文录用后必须有作者到现场报告吗？可以线上报告吗？
+short_zh: 必须现场报告
 answer: required
 verification: human
 conf: high
