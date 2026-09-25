@@ -1,0 +1,203 @@
+Skip to main content
+Toggle mobile menu
+ * Home
+ * For Authors
+   * Papers
+   * Posters
+   * Interactive Demos
+   * Panels
+   * Workshops
+   * Meet-Ups
+   * Student Research
+     Competition (SRC)
+ * Blog
+ * Digital Experience Competition
+ * Organizing Committee
+
+ * Home
+ * For Authors
+   * Papers
+   * Posters
+   * Interactive Demos
+   * Panels
+   * Workshops
+   * Meet-Ups
+   * Student Research
+     Competition (SRC)
+ * Blog
+ * Digital Experience Competition
+ * Organizing Committee
+
+ACM CHI 2027
+
+Pittsburgh, 10–14 May, 2027
+
+Home » Authors » Papers
+
+Papers
+
+Papers
+
+Paper submission deadline 10 September 2026, Anywhere on Earth
+00 Days
+00 Hours
+00 Minutes
+00 Seconds
+The papers submission deadline has passed.
+ * Submission Details
+ * Important Dates
+ * Message from the Papers Chairs
+ * ACM Open
+ * ACM Selection Process Category
+ * Publication Policies & Requirements
+   * Metadata Integrity
+   * Policy on Use of Artificial Intelligence
+   * Policy on Research Involving Human Participants and Subjects
+   * Accessibility
+ * Preparing and Submitting a Paper
+   * Step 1. Write Your Paper
+   * Step 2. Prepare Supplementary Materials (Optional)
+   * Step 3. Complete Submission
+ * Review Responsibility
+ * Upon Acceptance of the Submission
+ * At the Conference
+
+Submission Details
+
+ * Revise and Resubmit: CHI 2027 Papers will continue with a revise-and-resubmit phase for papers above a certain threshold, allowing authors to respond to reviewer feedback and improve their papers as part of our review cycle.
+ * Paper Length: Submissions between 5000 and 8000 words are encouraged. Submissions above 12000 words will be desk-rejected if their excessive length is not justified. Submissions under 5000 words are considered short papers. Concise and succinct writing is strongly encouraged. Abstracts on all submissions must be 150 words or fewer.
+ * Review Responsibility: Please note that all authors are asked to review under the Full Paper Review Responsibility Policy.
+ * All authors are required to have an ORCID and the DBLP field on their profile has to be filled in (either with their profile URL or n/a if they don’t have one).
+
+Important Dates
+
+All times are in Anywhere on Earth (AoE) time zone. When the deadline is day D, the last time to submit is when D ends AoE. Check your local time in AoE.
+
+ * Thursday, August 13, 2026: Submission site open
+ * Note that there is no abstract deadline.
+ * Thursday, September 10, 2026: Paper submission deadline, including videos and supplementary materials
+ * Thursday, November 5, 2026: Reviews released
+ * Thursday, November 5–Thursday, December 3, 2026: Revise papers
+ * Thursday, December 3, 2026: Resubmission deadline
+ * Thursday, December 17, 2026: Final notification
+ * Thursday, January 7, 2027: E-Rights completion deadline
+ * Thursday, January 14, 2027: TAPS upload deadline (Author must upload their final paper source to TAPS for processing)
+ * Thursday, February 18, 2027: Publication-Ready deadline (Authors upload final TAPS-approved version to PCS, including supplemental materials and optional video previews)
+ * Thursday, March 4, 2027: Conference registration deadline
+ * Thursday, March 4, 2027: Video presentation deadline
+
+Note: All deadlines include a 24-hour grace period in which submissions can still be edited. This period is provided solely for contingency and should not be treated as an extension. No support will be available, and authors should not contact the chairs regarding submission issues once the official deadline has passed.
+
+Message from the Papers Chairs
+
+CHI Papers present excellent original research from all Human-Computer Interaction (HCI) areas. CHI Papers are widely read and cited worldwide and broadly influence the development of HCI theory, methods, and practice.
+
+Authors are invited to present accepted papers at the CHI Conference. Accepted manuscripts appear in the Proceedings of the ACM Conference on Human Factors in Computing Systems, which appears in the ACM Digital Library.
+
+Accepted papers may come from any area of HCI activity: academia or industry; science, engineering, or craft; analysis or design. Acceptance is highly competitive: accepted papers will excel in originality, significance, validity, research quality, and presentation clarity. We are looking forward to seeing your best work!
+
+ACM Open
+
+All CHI 2027 papers will be published under ACM Open.
+
+Starting January 1, 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). Note: the corresponding author’s institutional email in the ACM eRights form will determine whether or not an APC is required to be paid.
+
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy. Keep in mind that waivers are rare and are granted based on specific criteria set by ACM. APC for 2027 is $500 for ACM/SIG members and $750 for non-members.
+
+For authors who are unable to cover their APCs, we would like to direct them to the financial hardship waiver program, which might cover the APC cost for authors in need.
+
+ACM Selection Process Category
+
+Refereed. Please refer to Guidelines and Criteria for Evaluation of Submissions for ACM Publications
+
+Publication Policies & Requirements
+
+Authors must review ACM’s publications policies. Please read this separate page for them.
+
+Metadata Integrity
+
+The metadata is crucial to the integrity of the review process and author representation. Therefore, the paper submission deadline is a hard deadline for listing all author names; there are no exceptions. Please refer to this SIGCHI blog post for further information. Changes to the order of authors are allowed only during the Publication-Ready submission phase. If any of the authors need to be added or removed after the paper submission deadline, the authors will need to withdraw their submissions/papers. The affiliations entered in PCS during submissions are final. Affiliations used for submission must stay on the paper per ACM policy, only a secondary affiliation can be added. Title changes are only permitted only if specifically requested by the paper chair team.
+
+Policy on Use of Artificial Intelligence
+
+Authors must follow the ACM policy on the use of artificial intelligence, such as large language models, in the creation of academic work. Please review the ACM Policy on Authorship before using these tools.
+
+Policy on Research Involving Human Participants and Subjects
+
+Any research in submitted manuscripts involving human subjects must comply with the ethics review requirements applicable to the authors’ research environment. As research environments vary considerably concerning their requirements, authors are asked to submit a short note to reviewers that provides this context. Please also see the 2021 ACM Publications policy on research involving humans before submitting.
+
+Accessibility
+
+Accessible submissions are essential for reviewers and are good practice. Authors are expected to follow SIGCHI’s Guide to an Accessible Submission. If you have any questions or concerns about creating accessible submissions, please contact the Accessibility Chairs at access@chi2027.acm.org early in the writing process (the closer to the deadline, the less time the team will have to respond to individual requests).
+
+Preparing and Submitting a Paper
+
+Step 1. Write Your Paper
+
+ * Your submission must be original; it cannot have been published or be under concurrent review elsewhere. If you make multiple submissions to CHI 2027 Papers, they must be distinct from each other. Please refer to the Guide to a Successful Paper Submission.
+ * Please ensure you use the correct template; a single-column format must be used for the reviewing phase. Use of different templates or formats may result in desk rejection.
+ * Your submission must be anonymized; please ensure that your submission conforms to the Anonymization Policy. Papers that violate the anonymization policy, including within the supplemental materials or external links to datasets, code repositories, etc., will be desk-rejected.
+ * Concise and succinct writing is strongly encouraged in any submission. Short submissions with a length of 5,000 words or fewer are strongly welcomed. These papers will go through exactly the same review process, although reviewers will be encouraged to ensure that evaluation expectations are commensurate with length and contribution size.
+ * Authors are encouraged to submit a paper of length proportional to its contribution. The average length of CHI papers is approximately 7,000–8,000 words, excluding references, figure/table captions, and appendices. Abstract must be 150 words or fewer. Submissions above 12,000 words (two standard deviations above the average) will be desk-rejected, except in circumstances where the authors can provide a strong justification. Submissions that are clearly incomplete research papers (e.g., abstracts, work-in-progress, entire theses, and extensive journal articles) will be desk-rejected. Papers where the length is incommensurate with contributions will be desk-rejected.
+ * Your paper must be stand-alone. You may use appendices and/or supplementary materials to share additional information about your work. Still, all important information to understand the contributions of your work must be in the main paper PDF. Heavy reliance on appendices and/or supplementary materials can be grounds for rejection, including desk rejection.
+ * If you have any concurrent submissions to CHI or other venues that are closely related – i.e., are based on the same study, artifact, or dataset – you must include an anonymized version of that submission to the concurrent submissions field. Failure to do so will result in desk rejection. The same rule applies if your submission is built directly on work currently under review at other venues. Please see ACM guide on prior and simultaneous submissions.
+ * Research Quality: Papers must include enough detail that the research can be reviewed for research quality, given the norms and expectations of CHI (e.g., design papers will be judged as rigorous according to the expectations of design research within HCI). Papers that are clearly not situated in relevant literature to allow evaluation of the proposed contributions, with grossly insufficient methodological details or grossly insufficient data may be desk rejected.
+ * Reproducibility: Where relevant, authors are strongly encouraged to provide supplementary materials to support practices around research reproducibility as much as possible. Please refer to the requirements for supplementary materials below.
+ * Accessibility: Accessible submissions are essential for reviewers and are good practice. Authors are expected to follow SIGCHI’s Guide to an Accessible Submission. If you have any questions or concerns about creating accessible submissions, please contact the Accessibility Chairs at access@chi2027.acm.org early in the writing process (the closer to the deadline, the less time the team will have to respond to individual requests). Papers flagged as inaccessible by a reviewer will have to be reassigned. Note that we strive to match the best reviewer to each paper – the best reviewers for the work may not be able to review an inaccessible submission.
+ * Inclusivity: Authors should ensure their work and writing are as inclusive as possible; where this is not possible, it should be acknowledged. For example, authors should use gender-inclusive language when developing their papers (see, e.g., HCI Guidelines for Gender Equity and Inclusivity) and consider what communities their work is – and is not – supporting, as well as their geographical context.
+ * Questions regarding the submission templates can be addressed by the Publications Chairs at publications@chi2027.acm.org. All additional questions regarding the paper submission process should be directed to the Papers Chairs at papers@chi2027.acm.org.
+
+Step 2. Prepare Supplementary Materials (Optional)
+
+ * All video figures and supplementary material must be anonymized throughout the review process. Non-anonymized supplemental materials will result in desk rejection of the entire submission.
+ * Video figures (optional) do not have a specified time limit for the duration, although we recommend staying within 5 minutes. Details are available in the Guide to Submitting a Video.
+ * Other supplementary material may include survey text, experimental protocols, source code, and data, all of which can help reviewers assess your work and allow other researchers to replicate it. Any non-video supplementary material should be submitted as a single .zip file, including a README file with a description of the materials.
+ * Reviewers should be able to access the paper’s contribution solely from the main submission file. That is, the paper submission must stand on its own without the supplementary material.
+
+Step 3. Complete Submission
+
+ * Make your submission. Authors may submit and edit their materials via the Precision Conference Submission Portal until the applicable deadline.
+ * Listed authors cannot be changed after the paper submission deadline. No new authors can be added during the revise-and-resubmit period or for the Publication-Ready version. Making changes to the author list can be used to manipulate a paper’s selected reviewers, introduce conflicts with previously assigned reviewers, and engage in unethical publication practices. Thus, please make sure a) that you have added all authors, including yourself, and b) that your PCS account email address is valid. There are no exceptions.
+ * Paper Deadline: Authors must submit the PDF of their paper and related form data before this deadline. No extensions will be granted. Any submissions showing ‘incomplete’ after the deadline will be deleted.
+ * Video and Supplementary Material Deadline: As described above, authors can submit optional video figures and any other optional supplementary materials before the deadline.
+ * Select descriptors that communicate the expertise required to evaluate your paper.
+
+Details on the review process itself are described in the Papers Review Process.
+
+The list of Subcommunity Chairs and Associate Chairs is also available in the Program Committee.
+
+Review Responsibility
+
+Everyone is welcome to submit. We expect all qualified authors to also be willing to serve as reviewers for the conference in line with the Minimum Qualifications for Peer Review. For this, we introduce the CHI Review Responsibility Policy (RRP). By submitting to CHI, all authors agree to the RRP, and as such, four authors will need to be put forward (or fewer authors put forward multiple times) to account for the reviewer load each submission creates.
+
+Upon Acceptance of the Submission
+
+Contact authors of accepted papers will receive detailed instructions on preparing and submitting the final version by the Publication-Ready Deadline. If the authors cannot meet these requirements by the Publication-Ready deadline, paper chairs may remove the paper from the program.
+
+Please read the publication-ready author instructions. The Publication-Ready version has to follow the LaTeX and Word templates from ACM. Should you need technical assistance, please direct your technical query to publications@chi2027.acm.org.
+
+CHI 2027 papers will be published under ACM Open Access and APC eligible. Reading ACM Open Access Publication for more details. Responsibility for obtaining permission to use video, audio, or pictures of identifiable people or proprietary content rests with the author, not the ACM or the CHI conference.
+
+AUTHORS TAKE NOTE: The official publication date is when the proceedings are made available in the ACM Digital Library. This date may be up to two weeks before the first day of the conference. The official publication date may affect the deadline for any patent filings related to published work. For those rare conferences whose proceedings are published in the ACM Digital Library after the conference, the official publication date remains the first day of the conference.
+
+At the Conference
+
+At least one author of an accepted submission must register by the registration deadline. If authors fail to register for the conference, their accepted work will be withdrawn from the ACM Digital Library.
+
+If authors of accepted papers do not want to attend CHI in-person, they can opt to upload a video presentation (a presentation video of your accepted work) by the video presentation deadline. See technical requirements for video content at CHI for guidance when preparing a video presentation. Accepted authors will receive the details of video presentations separately.
+
+For authors who choose to present their work at CHI in-person, further instructions regarding the presentation of the work will be shared closer to the conference dates. Presenters can expect an HDMI cable and are responsible for presenting their slides using the connector provided.
+
+Accepted contributions may be scheduled at any time during the conference. Authors should ensure their availability, as individual scheduling requests cannot be accommodated.
+
+Accepted papers will be distributed in the CHI Conference Proceedings and will be available in the ACM Digital Library. The optional video presentations of accepted papers will be archived in the ACM Digital Library and YouTube.
+
+Papers Chairs:
+
+Anna Cox, Erin Solovey, Regan Mandryk, Thomas Kosch, Petra Isenberg, and Tony Tang
+
+papers@chi2027.acm.org
+
+© 2027 • ACM SIGCHI • ACM Privacy Policy
+
+Powered by WordPress / Academica WordPress Theme by WPZOOM

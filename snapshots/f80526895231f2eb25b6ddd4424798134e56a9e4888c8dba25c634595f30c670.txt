@@ -1,0 +1,303 @@
+メインコンテンツへ移動
+
+Center for Advanced Intelligence Project
+
+Access Japanese
+
+Main menu
+
+ * About AIP
+ * Laboratories
+ * Videos
+ * Program Codes
+ * Events
+ * News
+ * Opportunities
+ * * Access
+   * 日本語
+ *
+
+single.php
+TOP News 26 papers have been accepted at ICML 2021
+
+News
+
+TOP News 26 papers have been accepted at ICML 2021
+template-parts/content-post.php
+Information Facebook Share X Share
+
+26 papers have been accepted at ICML 2021
+
+May 21, 2021 15:49
+
+Update: May 21, June 7, July 21
+
+26 papers have been accepted at the International Conference on Machine Learning (ICML) 2021, a major conference on Artificial Intelligence (July 18-24, 2021, Online). For more details, please refer to the link below.
+
+[Website] https://icml.cc/Conferences/2021
+
+[Accepted Papers] https://icml.cc/Conferences/2021/AcceptedPapersInitial
+
+RIKEN AIP is the No.1 in Japan.
+RIKEN AIP has had 26 papers* accepted at the ICML 2021 which is the highest in Japan.
+(There are 1184 accepted papers from 5513 submissions, leading to a 21.4 percent acceptance rate)
+Also, Director of AIP center, Masashi Sugiyama who has had 14 papers* accepted which is the highest in the conference.
+
+*As of July 20, 2021 according to a survey by RIKEN AIP.
+
+Long talk (2 papers)
+
+ * Confidence Scores Make Instance-dependent Label-noise Learning Possible
+   Antonin Berthon (ENS & RIKEN AIP)+
+   Bo Han (RIKEN AIP) Gang Niu (RIKEN AIP)
+   Tongliang Liu (The University of Sydney)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Learning Noise Transition Matrix from Only Noisy Labels via Total Variation Regularization
+   Yivan Zhang (The University of Tokyo / RIKEN AIP)
+   Gang Niu (RIKEN AIP)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+
+Short talk (24 papers)
+
+ * Active Learning for Distributionally Robust Level-Set Estimation.
+   Yu Inatsu (Nagoya Institute of Technology)
+   Shogo Iwazaki (Nagoya Institute of Technology)
+   Ichiro Takeuchi (Nagoya Institute of Technology / RIKEN AIP)
+ * Bias-Variance Reduced Local SGD for Less Heterogeneous Federated Learning
+   Tomoya Murata (NTT DATA Mathematical Systems Inc. / The University of Tokyo)
+   Taiji Suzuki (The University of Tokyo / RIKEN AIP)
+
+ * Binary Classification from Multiple Unlabeled Datasets via Surrogate Set Classification
+   Shida Lei (The University of Tokyo)
+   Nan Lu (The University of Tokyo/RIKEN AIP)
+   Gang Niu (RIKEN AIP)
+   Issei Sato (The university of Tokyo/RIKEN)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * CIFS: Improving Adversarial Robustness of CNNs via Channel-wise Importance-based Feature Selection Hanshu Yan (NUS)
+   Jingfeng Zhang (RIKEN AIP)
+   Gang Niu (RIKEN AIP)
+   Jiashi Feng (NUS)
+   Vincent Tan (NUS)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Classification with Rejection Based on Cost-sensitive Classification
+   Nontawat Charoenphakdee (The University of Tokyo / RIKEN AIP)
+   Zhenghang Cui (The University of Tokyo / RIKEN AIP)
+   Yivan Zhang (The University of Tokyo / RIKEN AIP)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Class2Simi: A Noise Reduction Perspective on Learning with Noisy Labels
+   Songhua Wu ( The University of Sydney )
+   Xiaobo Xia ( The University of Sydney )
+   Tongliang Liu ( The University of Sydney )
+   Bo Han ( HKBU / RIKEN )
+   Mingming Gong ( University of Melbourne )
+   Nannan Wang ( Xidian University )
+   Haifeng Liu ( Brain-Inspired Technology Co., Ltd. )
+   Gang Niu ( RIKEN )
+ * Large-Margin Contrastive Learning with Distance Polarization Regularizer
+   Shuo Chen (RIKEN AIP)
+   Gang Niu (RIKEN AIP)
+   Chen Gong (Nanjing University of Science and Technology )
+   Jun Li (Nanjing University of Science and Technology )
+   Jian Yang (Nanjing University of Science and Technology )
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo )
+ * Learning Diverse-Structured Networks for Adversarial Robustness
+   Xuefeng Du (Unversity of Wisconsin, Madison)
+   Jingfeng Zhang (RIKEN AIP)
+   Bo Han (RIKEN AIP)
+   Tongliang Liu (The University of Sydney)
+   Yu Rong (Tencent AI Lab)
+   Gang Niu (RIKEN AIP)
+   Junzhou Huang (University of Texas at Arlington)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Learning from Similarity-Confidence Data
+   Yuzhou Cao (China Agricultural University)
+   Lei Feng (Chongqing University)+
+   Yitian Xu (China Agricultural University)
+   Bo An (Nanyang Technological University)
+   Gang Niu (RIKEN AIP)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Lower-bounded proper losses for weakly supervised classification
+   Shuhei Yoshida (NEC / RIKEN AIP)
+   Takashi Takenouchi (Future University Hakodate/RIKEN AIP)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Maximum Mean Discrepancy is Aware of Adversarial Attacks
+   Ruize Gao (Hong Kong Baptist University )
+   Feng Liu (University of Technology Sydney)+
+   Jingfeng Zhang (RIKEN AIP)
+   Bo Han (RIKEN AIP)
+   Tongliang Liu ( The University of Sydney )
+   Gang Niu (RIKEN AIP)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Mediated uncoupled learning: Learning functions without direct input-output correspondences
+   Ikko Yamane (Université Paris Dauphine – PSL/RIKEN AIP)
+   Junya Honda (Kyoto University / RIKEN AIP)
+   Florian Yger (Université Paris-Dauphine )
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo )
+ * More Powerful and General Selective Inference for Stepwise Feature Selection using Homotopy Method.
+   Kazuya Sugiyama (Nagoya Institute of Technology)
+   Vo Nguyen Le Duy (Nagoya Institute of Technology / RIKEN AIP)
+   Ichiro Takeuchi (Nagoya Institute of Technology / RIKEN AIP)
+ * Non-exponentially weighted aggregation: regret bounds for unbounded loss functions
+   Pierre Alquier (RIKEN AIP)
+ * On Learnability via Gradient Method for Two-Layer ReLU Neural Networks in Teacher-Student Setting
+   Shunta Akiyama (The University of Tokyo)
+   Taiji Suzuki (The University of Tokyo / RIKEN AIP)
+ * Optimal Transport Kernels for Sequential and Parallel Neural Architecture Search
+   Vu Nguyen (Amazon)*
+   Tam Le (RIKEN AIP)*
+   Makoto Yamada (Kyoto University/RIKEN AIP)
+   Michael A Osborne (The University of Oxford
+   (*: equal contribution)
+ * Pointwise Binary Classification with Pairwise Confidence Comparisons
+   Lei Feng (Chongqing University)+
+   Senlin Shu (Southwest University)
+   Nan Lu (The University of Tokyo/RIKEN)
+   Bo Han (RIKEN AIP)
+   Miao Xu (University of Queensland)
+   Gang Niu (RIKEN AIP)
+   Bo An (Nanyang Technological University)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Positive-Negative Momentum: Manipulating Stochastic Gradient Noise to Improve Generalization
+   Zeke Xie (The University of Tokyo/RIKEN AIP)
+   Li Yuan (National Univerisity of Singapore)
+   Zhanxing Zhu (Peking University)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * Post-selection inference with HSIC-Lasso
+   Tobias Freidling (University of Cambridge)
+   Benjamin Poignard (Osaka University/RIKEN AIP)
+   Héctor Climente-González (RIKEN AIP)
+   Makoto Yamada (Kyoto University/RIKEN AIP
+ * Provably End-to-end Label-noise Learning without Anchor Points
+   Xuefeng Li (University of New South Wales)
+   Tongliang Liu (The University of Sydney)
+   Bo Han (RIKEN AIP)
+   Gang Niu (RIKEN AIP)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo )
+ * Quantitative Understanding of VAE as a Non-linearly Scaled Isometric Embedding
+   Akira Nakagawa (Fujitsu Laboratories Ltd.)
+   Keizo Kato (Fujitsu Laboratories Ltd.)
+   Taiji Suzuki (The University of Tokyo / RIKEN AIP)
+ * Scalable Marginal Likelihood Estimation for Model Selection in Deep Learning
+   Alexander Immer (ETH and Max-Planck)+
+   Matthias Bauer (Max-Planck and University of Cambridge)+
+   Vincent Fortuin (ETH)
+   Gunnar Rätsch (ETH and Max-Planck)
+   Mohammad Emtiyaz Khan (RIKEN AIP)
+
+ * Supervised Tree-Wasserstein Distance
+   Yuki Takezawa (Kyoto University/RIKEN AIP)
+   Ryoma Sato (Kyoto University/RIKEN AIP)
+   Makoto Yamada (Kyoto University/RIKEN AIP)
+
+ * Tractable structured natural gradient descent using local parameterizations
+   Wu Lin (UBC)
+   Frank Nielsen (Sony)
+   Mohammad Emtiyaz Khan (RIKEN AIP)
+   Mark Schmidt (UBC)
+
++Past interns of RIKEN AIP
+
+Related Laboratories
+
+last updated on April 1, 2026 11:13Laboratory
+Imperfect Information Learning Team
+last updated on June 19, 2025 14:26Laboratory
+High-Dimensional Statistical Modeling Team (2017/3--2022/3)
+last updated on April 6, 2026 15:41Laboratory
+Deep Learning Theory Team
+last updated on April 14, 2026 09:30Laboratory
+Adaptive Bayesian Intelligence Team
+last updated on April 9, 2026 11:20Laboratory
+Data-Driven Experimental Design Team
+Previous pageNext page
+
+Videos
+
+ * Latest video
+
+   TrustML Young Scientist Seminar #103 2026/4/27
+   Talk by Prof. Huaxiu Yao (University of North Carolina at Chapel Hill)
+   Show details
+
+Videos
+
+Calendar
+
+Sep 2026
+
+Sunday   Monday   Tuesday   Wednesday                             Thursday   Friday   Saturday
+                  1st       2nd                                   3rd        4th      5th
+6th      7th      8th       Link to the event page for the 9th    10th       11th     12th
+13th     14th     15th      16th                                  17th       18th     19th
+20th     21th     22th      23th                                  24th       25th     26th
+27th     28th     29th      Link to the event page for the 30th
+
+Events Calender
+Request for Donations: Support for Future AI Talent Request for Donations: Support for Gender Diversity and Development of Female AI Researchers
+
+Sub menu
+
+ * Contact us
+ * Sitemap
+ * For AIP Internal Use Only
+
+External Links
+
+ * RIKEN
+ * Center for Advanced Intelligence Project (RIKEN)
+ * MEXT
+ * NICT
+ * AIST
+ * AIP Network Lab.
+ * AI Japan R&D Network
+
+YouTube AIP RIKEN
+RIKEN
+Center for Advanced Intelligence Project
+
+Nihonbashi 1-chome Mitsui Building, 15th floor,
+
+1-4-1 Nihonbashi,Chuo-ku, Tokyo
+
+103-0027, Japan
+
+e-mail: aip-koho [at]riken.jp *Please replace "[at]" with "@".
+
+ * About AIP
+ * Laboratories
+ * News
+ * Events
+ * Opportunities
+ * Access
+ * Contact us
+ * Sitemap
+
+Copyright © RIKEN, Japan. All rights reserved.
+
+Cookieについて/Privacy Overview
+
+本ウェブサイトは、利便性、品質維持・向上を目的に、Cookieを使用しております。詳しくはプライバシーポリシーをご覧ください。
+
+This website uses cookies for the purpose of maintaining and improving convenience and quality. For details, please see
+Privacy Policy.
+
+設定/Settings同意する/Accept同意しない/Reject
+
+Manage consent
+Close
+
+Cookieについて / Privacy Overview
+
+本ウェブサイトでは、利便性向上を目的にCookieを使用しております。Webサイトの基本的な機能に不可欠なCookieは、ブラウザに保存されます。またウェブサイトへのアクセス状況を分析するため、サードパーティの必須ではないCookieも使用しています。必須ではないCookieは、ユーザーの同意がある場合にのみブラウザに保存されます。必須ではないCookieをオプトアウトすることも可能ですが、それによりウェブサイトの閲覧に影響を与える可能性があります。
+
+This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.
+必須のCookie/Necessary
+必須のCookie/Necessary
+Always Enabled
+ウェブサイトを正常に機能させるのに必要なCookieです。ウェブサイトの基本的な機能やセキュリティ機能を確保するためのCookieのみがこれに含まれます。これらのCookieが個人情報を保存することはありません。 Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+必須ではないCookie/Non-necessary
+必須ではないCookie/Non-necessary
+ウェブサイトを機能させるために必須ではないCookieです。アクセス状況を分析するためのCookieです。ユーザーの同意が得られた場合のみCookieを保存します。 Cookies that are not required for a website to function. Cookies are used to analyze access status. Cookies are stored only when the user's consent has been obtained.
+SAVE & ACCEPT
+
+Scroll to the top of page.

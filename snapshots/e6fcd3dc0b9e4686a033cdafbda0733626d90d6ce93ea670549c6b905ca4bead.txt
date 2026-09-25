@@ -1,0 +1,83 @@
+Sitemap
+
+Open in app
+
+Sign up
+
+Sign in
+
+Write
+
+Sign up
+
+Sign in
+
+The ICLR 2021 Review Process and Accepted Papers
+
+ICLR
+
+3 min read
+·
+Jan 28, 2021
+
+--
+
+Listen
+
+Share
+
+By ICLR 2021 Senior Program Chair Katja Hofmann (Microsoft Research Cambridge) and Program Co-Chairs Naila Murray (Facebook), Alice Oh (KAIST), Ivan Titov (U. Edinburgh)
+
+Acceptance notifications for ICLR 2021 were released on January 12. Out of the 2997 full submissions that were received, a total of 860 have been accepted for presentation at the conference. Our heartfelt congratulations to all authors! We thank all authors for submitting their work to ICLR, and hope that even if your work was not accepted at this time, you will consider joining the exciting conference ahead.
+
+The accepted contributions will make up an exciting academic program. The word cloud shown in the figure gives you a first glimpse of the range of topics covered. All accepted submissions will be presented as virtual posters. In addition, 114 accepted submissions have been selected for Spotlight presentations, and 53 will be presented in longer Oral presentations. The full list of accepted papers can be found on Open Review, listed by presentation type: Oral, Spotlight, and Poster presentations.
+
+Press enter or click to view image in full size
+
+Word cloud of the keywords associated with all accepted ICLR 2021 submissions. Generated using https://www.wordclouds.com/.
+
+A lot of work has happened behind the stage between the paper submission in October and acceptance notifications in January. None of this would have been possible without the dedication and energy of all those involved. We are deeply grateful to all authors, reviewers, area chairs, and the amazing team at open review for making it all happen. In numbers: we recruited 4086 reviewers and emergency reviewers who contributed a total of just over 11,500 reviews. The discussion and decision process was guided by 450 area chairs and emergency area chairs.
+
+This year’s discussion and rebuttal phase proceeded in stages, starting with a broad public and author discussion, and closing with a focused discussion between area chairs and reviewers. The aim of this staged discussion was to ensure area chairs had all relevant information by the time they needed to finalize decisions and meta review. The following statistics give a sense of the scale of discussion during the review and rebuttal phase. Note that just over 300 submissions were withdrawn during this phase, and the statistics only consider the submissions that were active at the end of the rebuttal process but before acceptance notification. Authors of 84% of active submissions updated their manuscripts after reviews were released, and the authors of 93% of active submissions sent rebuttal messages that were visible to the reviewers. For the same set of active submissions, 75% had at least one review that was updated during the rebuttal phase. 46% of active submissions had a public discussion, and 61% of active submissions had a private discussion between reviewers and/or area chairs. Members of the public (other than authors, reviewers and area chairs) were able to contribute comments during the first discussion stage, and 142 submissions received a total of 186 public comments. The discussion continues, as public comments on all submissions have now been re-enabled.
+
+A common question from authors is to what extent the rebuttal process influences reviews. We can shed some light on this based on the following data. We identified the reviews that were updated after reviews had been released to authors on November 10, and compared ratings before and after updates. We found that 32% of all reviews were updated at least once during the rebuttal phase. Of these, scores increased for 54%, decreased for 9%, and remained unchanged for 37% of all updated reviews.
+
+The organizing team is ramping up preparations for the virtual conference on May 4–8, and we are excited about the fantastic program you’ll get to enjoy. We will share details over the coming months — one of the next announcements will be about our keynote speakers.
+
+Stay tuned!
+
+Iclr
+Iclr 2021
+
+--
+
+--
+
+Written by ICLR
+
+697 followers
+·1 following
+
+International Conference on Learning Representations
+
+No responses yet
+
+Help
+
+Status
+
+About
+
+Careers
+
+Press
+
+Blog
+
+Privacy
+
+Rules
+
+Terms
+
+Text to speech

@@ -1,0 +1,12 @@
+id: ecr
+acronym: ECR
+full_name: European Congress of Radiology
+aliases:
+  - ESR Congress
+directions: [med/imaging]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 欧洲放射学会（ESR）年会，往届都在每年 2–3 月于维也纳举办
+data_level: curated
+note_zh: 只收摘要（正文不超过 280 词），另有晚到摘要轮次；录用后报告人必须注册。

@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sai-2027
+series: sai
+name: SAI 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/SAI
+  conf_id: computing27
+  link: https://saiconference.com/Computing
+  place: London, United Kingdom
+  date: July 8-9, 2027
+  timezone: AoE
+location:
+  city: London
+  country: United Kingdom
+  country_code: GB
+dates:
+  start: 2027-07-08
+  end: 2027-07-09
+milestones:
+  - type: paper
+    at: 2026-10-01T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-07-08
+    end: 2027-07-09
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

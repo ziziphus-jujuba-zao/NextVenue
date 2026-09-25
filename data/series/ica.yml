@@ -1,0 +1,13 @@
+id: ica
+acronym: ICA
+full_name: International Communication Association Annual Conference
+name_zh: 国际传播学会年会
+aliases:
+  - ICA Annual Conference
+directions: [soc/comm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 5–6 月举办
+data_level: curated
+note_zh: 传播与媒介研究规模最大的年会之一，投全文论文（按分会投稿，同行评审）。

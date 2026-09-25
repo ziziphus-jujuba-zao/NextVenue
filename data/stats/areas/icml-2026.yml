@@ -1,0 +1,14 @@
+# ICML 2026 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: icml
+year: 2026
+kind: share_of_accepted
+precision: exact
+track_zh: 全部录用论文（含 Position 赛道），按领域
+source_url: https://bsky.app/profile/icmlconf.bsky.social/post/3mq2wl2t7mk2e
+quote: LLMs made up 17.6% of all accepted papers.
+quote_check: manual
+note_zh: 官方图上还有第 2 到 15 名，但只能从一张现场照片上读，没有核实，不显示
+checked: 2026-09-25
+rows:
+  - area: "deep learning: large language models"
+    share_pct: 17.6

@@ -1,0 +1,12 @@
+id: etaps
+acronym: ETAPS
+full_name: European Joint Conferences on Theory and Practice of Software
+directions: [cs/se, cs/theory]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份。
+dblp: conf/etaps
+ccfddl: SE/ETAPS
+data_level: curated
+note_zh: 联合会议，2027 年的成员会议是 ESOP、FoSSaCS、TACAS 和新设的 iFS（由 iFM 与 FASE 合并而来）。CCF 第七版把 ETAPS 整体列为第 4 类 B。TACAS 另有自己的系列（tacas）。

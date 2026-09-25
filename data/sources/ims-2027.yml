@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ims-2027
+sources:
+  - id: ims-2027-cfp
+    url: https://ims-ieee.org/sites/ims/files/ims2027-call-for-papers_16september2026.pdf
+    title: IMS2027 Call for Papers (PDF, 16 September 2026)
+    kind: cfp
+    fetched_at: 2026-09-25T15:49:30Z
+    http_status: 200
+    snapshot: 3e6c61ef74c5463b962cfe99d22754177fb187fb3d84dd99725adb9b6df398d2
+  - id: ims-2027-author-tools
+    url: https://ims-ieee.org/authortools2027
+    title: IMS2027 Author Tools and Instructions
+    kind: author_guide
+    fetched_at: 2026-09-25T15:51:21Z
+    http_status: 200
+    snapshot: f231b60a70ea831a7d4c7c1d1c7c32f1694a75c6be88bf4af9e94031421e2b5e
+  - id: ims-2027-home
+    url: https://ims-ieee.org/
+    title: IMS2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:51:22Z
+    http_status: 200
+    snapshot: cd2c89c15c0cd437bf6a6d1655ea5dff1b919dd054fa4019fb3f3a759bc1781b

@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-eacl
+sources:
+  - id: eacl-2023-front-matter
+    url: https://aclanthology.org/2023.eacl-main.0.pdf
+    title: EACL 2023 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:15:04Z
+    http_status: 200
+    snapshot: 1fec9395d3baf620e29d53fef2a1faab4b5307297d1c1028e5e18c74537a705e
+  - id: eacl-2024-front-matter
+    url: https://aclanthology.org/2024.eacl-long.0.pdf
+    title: EACL 2024 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:15:06Z
+    http_status: 200
+    snapshot: d0f2ac3dcd9733d032aae03f86ea43d9513c07b85821334a938d86db7fc57088
+  - id: eacl-2026-front-matter
+    url: https://aclanthology.org/2026.eacl-long.0.pdf
+    title: EACL 2026 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:15:09Z
+    http_status: 200
+    snapshot: 3926513850966de5157d61e0b26eec7853ba7de1d98d9860d4fdead1c38ade5e

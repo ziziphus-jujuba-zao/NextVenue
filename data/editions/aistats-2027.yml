@@ -3,8 +3,8 @@ series: aistats
 name: AISTATS 2027
 year: 2027
 kind: conference
-topics: [ml, ai]
-location: { city: Montréal, country: Canada }
+data_level: curated
+location: { city: Montréal, country: Canada, country_code: CA }
 dates: { start: 2027-05-03, end: 2027-05-06 }
 milestones:
   - type: abstract
@@ -56,6 +56,29 @@ milestones:
     status: confirmed
     src: aistats-2027-dates
     quote: "Conference dates: May 3, 2027 - May 6, 2027"
-    note_zh: 地点蒙特利尔（aistats.org 主页和会议官方站主页都这样写）。会议官方站 Dates 页称主会与 workshop 日的具体安排尚未确定。
+    note_zh: 地点蒙特利尔（aistats.org 主页和会议官方站主页都这样写）。会议官方站 Dates 页称主会与 workshop 日的具体安排尚未确定；aistats.org 主页写会有一天 workshop 日，日期没给。
+logistics:
+  venue:
+    status: tba
+    checked_sources: [aistats-2027-org-home, aistats-2027-home]
+    note_zh: 只写了在蒙特利尔举办，场馆没公布。
+  fees:
+    - status: tba
+      checked_sources: [aistats-2027-pricing]
+      note_zh: 价格页写“Pricing is not yet available for this conference”。
+  coverage:
+    status: tba
+    checked_sources: [aistats-2027-cfp, aistats-2027-pricing]
+    note_zh: 只写了每篇录用论文至少一位作者应注册并报告，一份注册覆盖几篇没写。
+  visa_letter:
+    status: tba
+    checked_sources: [aistats-2027-home, aistats-2027-org-home, aistats-2027-pricing]
+  hotels:
+    status: tba
+    checked_sources: [aistats-2027-home, aistats-2027-org-home]
+  poster:
+    status: tba
+    checked_sources: [aistats-2027-cfp]
+    note_zh: 所有录用论文都以海报形式报告（部分另做口头报告），海报尺寸没公布。
 last_checked: 2026-09-25
 note_zh: aistats.org 主页称会议官方站 virtual.aistats.org 是最新信息的主要来源；两处日期一致。投稿走 OpenReview，9/15 起开放。

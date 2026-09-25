@@ -1,0 +1,161 @@
+Call for Technical Papers
+
+Scope
+
+ACM Multimedia is the premier conference in multimedia, a research field that discusses emerging computing methods from a perspective in which each medium, e.g. images, text, audio — is a strong component of the complete, integrated exchange of information. The multimedia community has a tradition of being able to handle big data, pioneering in large-scale evaluations and dataset creations, and maintaining a distinctive capacity to address novel applications and cutting-edge industrial challenges. As such, the conference openly embraces new intellectual angles from both industry and academia and welcomes submissions from related fields, such as data science, HCI, and signal processing.
+
+ACM Multimedia 2026 calls for research papers presenting novel theoretical and algorithmic solutions to address problems across multimedia and related application fields. We also welcome bold, forward-looking ideas supported by early but promising results, particularly in areas involving multimodal AI, such as multi-agent systems and real-time human-machine collaboration. Submissions may span any of the conference’s core topics:
+
+ * Art and Culture
+ * Data Systems Management and Indexing
+ * Embodied and Immersive Multimedia
+ * Emotional and Social Signals
+ * Interactions and Quality of Experience
+ * Multimedia Applications
+ * Multimodal Fusion
+ * Multimedia Generative and Foundation Models
+ * Multimedia Interpretability and Explainability
+ * Multimedia and Language
+ * Multimedia Search and Recommendation
+ * Multimedia Reasoning
+ * New Forms of Media Content
+ * Responsible Multimedia
+ * Summarization, Analytics, and Storytelling
+ * Transport and Delivery
+
+Multimedia/multimodality Policy for Paper Submissions
+
+As the volume of submissions to the MM conference continues to grow annually, the SIGMM community seeks to distinguish itself from other communities such as NeurIPS, CVPR, and ECCV. Our focus lies in promoting research that is inherently multimedia or multimodal in nature. While papers that involve unimedia/unimodal processing will not necessarily be rejected, papers that make multimedia/multimodal research contributions will be preferred for publication in the conference proceedings. Out-of-scope submissions may be desk-rejected.
+
+Submission Information
+
+Dates
+
+Submit your Regular Paper via OpenReview.
+
+ * Abstract submission: March 25th, 2026.
+ * Regular paper submission: April 1st, 2026.
+ * Supplementary materials submission: April 8th, 2026.
+ * Notification to authors: July 7th, 2026.
+
+Please note: The submission deadline is at 23:59 of the stated deadline date Anywhere on Earth (AoE). The full list of Important Dates can be found at the following link address: https://2026.acmmm.org/site/important-dates.html.
+
+OpenReview Platform
+
+ACM MM’26 uses OpenReview for paper submission and peer review. Submissions are private during the review period, and authors interact with reviewers through the platform. After the process concludes, the final reviews and, when applicable, author responses, are made publicly available on OpenReview.
+
+All listed authors must have an up-to-date OpenReview profile. It is important to create it as soon as possible, given OpenReview’s moderation policy for newly created profiles:
+
+ * New profiles created without an institutional email will go through a moderation process that can take up to two weeks.
+ * New profiles created with an institutional email will (normally) be activated automatically.
+
+The OpenReview profile will be used to handle conflicts of interest and paper matching. To be considered complete, each author profile must be properly attributed with the following mandatory fields: current and past institutional affiliation (going back at least 5 years), homepage, DBLP (if there is prior publication), ORCID, Advisors and Recent Publications (if any). In addition, other fields such as Google Scholar, LinkedIn, Semantic Scholar, Advisees and Other Relations should be entered wherever applicable. An incomplete OpenReview profile of any co-author is sufficient ground for a desk rejection.
+
+Important: Please note that by submitting papers authors automatically volunteer to review other ACM MM’26 papers. Authors who do not accept to review papers or do not follow the review guidelines may have their paper Desk rejected. We refer the authors to the Desk rejection policy.
+
+Rebuttal
+
+After receiving the reviews, the authors may optionally submit a rebuttal in OpenReview to address the reviewers’ comments. The rebuttal must maintain anonymity. It cannot include links to external material such as code, videos, etc.
+
+Author Instructions
+
+All detailed instructions on how to prepare and submit your paper are in the Author Instructions page and at the end of this page: https://2026.acmmm.org/site/author-instructions.html.
+
+Desk rejection Criteria
+
+Common to all tracks of ACM Multimedia
+
+Item                       Description
+Incomplete submission      Submission has no PDF, or broken PDF.
+Bad formatting/ template   Wrong template, over length or under length (more than a few
+                           lines).
+Bad metadata format        The title, abstract or author names have characters that are
+                           not alphanumeric or basic punctuation. Letters can have
+                           accents. Graphic characters such as emojis are not allowed.
+                           Latex code is not allowed either.
+Out of scope               Clear out of scope regarding the themes and subjects.
+ACM code of conduct        The authors breached ACM code of conduct and policies.
+                           (https://www.acm.org/publications/policies/plagiarism-overview;
+                           https://www.acm.org/code-of-ethics)
+Dual submission            In between the Submission Deadline of the ACM Multimedia
+                           track and the associated official notification, the
+                           submitted contributions cannot be under-review or with
+                           pending decisions at other venues. This extends also to dual
+                           submissions to ACM Multimedia, even to different tracks of
+                           ACM Multimedia. Contributions identified as dual submissions
+                           will be desk-rejected.
+Plagiarism                 Submissions that are substantially similar to published
+                           articles will be desk rejected. Technical reports versions
+                           of the paper (university or arxiv reports), are not
+                           considered plagiarism (see ArXiV/Archive Policy below).
+
+Specific to the Main Technical Track of ACM Multimedia
+
+Item                                              Description
+Exceeding # submissions / author                  Authors submitting more than 10 papers will see their 11th,
+                                                  12th, etc. submissions (in submission ID order)
+                                                  desk-rejected. Independently of whether or not one of the
+                                                  first 10 submissions is desk rejected for another reason.
+                                                  The limit of 10 submissions applies jointly to the Technical
+                                                  Track, the Brave New Ideas Track, and the Datasets Track.
+Responsible review                                One or more of the co-authors did not submit the review on
+                                                  time, or the submitted review is of insufficient quality (at
+                                                  the discretion of the Program Chairs). This implies a
+                                                  limited number (r=4) of reviews per reviewer.
+Clear evidence of AI generated review             The Program co-Chairs are allowed to desk-reject the papers
+                                                  of author-reviewers if they consider there is enough
+                                                  evidence that the submitted reviews are AI-generated
+                                                  reviews. The use of AI tools to polish and enhance the
+                                                  language of the review text is authorised. Such
+                                                  desk-rejections are actionable at the discretion of the
+                                                  Program co-Chairs.
+Hidden prompt to condition automatic AI reviews   The paper contains an obvious prompt (explicit or hidden) to
+                                                  condition or trigger automatic AI reviews.
+
+Additional Information
+
+Length
+
+Submitted papers may consist of 6 to 8 pages. Up to 2 additional pages may be added for references. The reference pages must only contain references. Overlength papers will be desk-rejected without review. Optionally, you may upload supplementary material that complements your submission (50Mb limit). All the content other than that in the main paper should be added in the separate supplementary material section. We do not allow appendixes that follow right after the main paper in the main submission file.
+
+Blinding
+
+Paper submissions must conform with the “double-blind” review policy. This means that the authors will not know the names of the reviewers of their papers, and reviewers will not know the names of the authors. Please prepare your paper in a way that preserves anonymity of the authors. Papers without appropriate blinding will be rejected without review. For example, when preparing your manuscript:
+
+ * Do not put the authors’ names under the title.
+ * Avoid using phrases such as “our previous work” when referring to earlier publications by the authors.
+ * Remove information that may identify the authors in the acknowledgments (e.g., co-workers and grant IDs).
+ * Check supplemental material (e.g., titles in the video clips, or supplementary documents) for information that may identify the authors’ identities.
+ * Avoid providing links to websites that identify the authors.
+
+For reviewer assignment, the technical program chairs may employ local LLM instances or similar technologies to process your submissions. No information will be shared with third parties.
+
+Originality
+
+Papers submitted to ACM Multimedia must be the original work of the authors. They may not be simultaneously under review elsewhere (conference or journal). Publications that have been peer-reviewed and have appeared at other conferences or workshops may not be submitted to ACM Multimedia (see also the arXiv/Archive policy below). Authors should be aware that ACM has a strict policy with regard to plagiarism and self-plagiarism (https://www.acm.org/publications/policies/plagiarism). The authors’ prior work must be cited appropriately.
+
+Author List
+
+Please ensure that you submit your papers with the full and final list of authors in the correct order. The author list registered for each submission is not allowed to change in any way after the abstract submission deadline. Note that this rule regards the identity of authors, but typos can be fixed.
+
+Paper Title
+
+As per MM Policy, paper titles should remain the same between submission and the camera-ready version. Changing the title and abstract of a submission is possible until the final regular paper deadline, although it is advised against making substantial changes.
+
+Proofreading
+
+Please proofread your submission carefully. It is essential that the language used in the paper is clear and correct so that it is easily understandable. (Either US English or UK English spelling conventions are acceptable.)
+
+ArXiv/Archive Policy
+
+In accordance with ACM guidelines, all SIGMM-sponsored conferences adhere to the following policy regarding arXiv papers:
+
+> We define a publication as a written piece documenting scientific work that was submitted for review by peers for either acceptance or rejection, and, after review, has been accepted. Documentation of scientific work that is published in a not-for-profit archive without any form of peer-review (departmental Technical Report, arXiv.org, etc.) is not considered a publication. However, this definition of publication does include peer-reviewed workshop papers, even if they do not appear in formal proceedings. Any submission to ACM Multimedia must not have substantial overlap with prior publications or other work currently undergoing peer review anywhere. Note that documents published on website archives are subject to change. Citing such documents is discouraged. Furthermore, ACM Multimedia will review the documents formally submitted and any additional information in a web archive version will not affect the review.
+
+Authors Advocate
+
+Authors who can factually demonstrate that they have received a sub-standard review, or that a reviewer has made an entirely false statement, are welcome to send a mediation request to the ACM MM 2026 Author’s Advocate. The Author’s Advocate operates independently from the Technical Program Committee. More information can be found at https://2026.acmmm.org/site/author-advocate-mediation.html.
+
+Contacts
+
+For any questions, please contact the Technical Program Chairs: pc-mm26@acmmm.org.

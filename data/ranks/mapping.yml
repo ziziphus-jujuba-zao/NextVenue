@@ -1,0 +1,89 @@
+# 系列 → 目录条目的手工对应。其余靠自动匹配（dblp 键、全称、缩写 + 相近全称），
+# 匹配不了或有歧义的都列在 pnpm ranks:report 里，没有标签，直到这里写明。
+#
+# links：手工挂上。series 是 data/series/ 里的系列 id，entry 是 data/ranks/<list>.yml 里条目的 id。
+#   - note_zh 必填：为什么要手工挂（改名、合并、撞名、目录笔误……）。
+#   - qualifier_zh：跟在等级后面显示，例如"CAA A（GNC 分会）"。
+#   - year：只用于按届收录的目录（科协），写被收录的那一届的年份。
+#   系列文件还没有时，这条先等着（validate 只提示），系列文件建好后自动生效。
+# not：永远不挂，即使名字对得上。note_zh 写清楚两边各是什么会。
+links:
+  - series: hscc
+    list: ccf7
+    entry: hscc
+    note_zh: 2027 年起 HSCC 与 ICCPS 合并为 HSCC+ICCPS（ACM/IEEE International Conference on Cyber-Physical and Autonomous Systems）；CCF 第七版仍写 HSCC，第 6 类 B，PDF 第 42 页。
+  - series: ccc-control
+    list: cast2025
+    entry: '314'
+    year: 2025
+    note_zh: 科协 2025 目录第 314 条“第44届中国控制会议”，只属于 2025 年那一届。
+  - series: cac
+    list: cast2025
+    entry: '440'
+    year: 2025
+    note_zh: 科协 2025 目录第 440 条“2025中国自动化大会”（英文只写 CAC 2025），只属于 2025 年那一届。
+  # ---- 2026-09-25 导入 ccfddl 全部系列后，按 pnpm ranks:report 手工处理的对应（详见 docs/RANK_MATCHING.md）----
+  - series: sigspatial
+    list: ccf7
+    entry: sigspatial
+    note_zh: CCF 第七版第 10 类 C 写作“SIGSPATIAL：ACM Special Interest Group on Spatial Information”（PDF 第 72 页），用学会名指它的年会 ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems（目录链接指向 dblp 的 sigspatial）。ccfddl 也标 CCF C。
+  - series: apweb-waim
+    list: ccf7
+    entry: apweb
+    note_zh: APWeb 和 WAIM 从 2017 年起合办为 APWeb-WAIM（Joint International Conference on Web and Big Data），dblp 收在 conf/apweb。CCF 第七版仍分列 APWeb（C）和 WAIM（C），都在第 5 类第 37 页；两条同为 C，这里只挂 APWeb 一条。这是对应关系的解读，不是目录原文。
+  - series: apweb-waim
+    list: caai2024
+    entry: apweb
+    note_zh: CAAI 2024 分列 APWeb（C）和 WAIM（C），都在“知识工程与数据挖掘”类；两会从 2017 年起合办为 APWeb-WAIM，两条同为 C，这里只挂 APWeb 一条。这是对应关系的解读，不是目录原文。
+  - series: ijcnlp
+    list: caai2024
+    entry: aaclijcnlp
+    note_zh: CAAI 2024 条目写作“AACL/IJCNLP”（C，语言与语音处理），指 AACL 与 IJCNLP 这一个会；PDF 里全称折断在“International Joint Conference on Natural”。ccfddl 的 IJCNLP 系列就是它（2025 届 IJCNLP-AACL 在孟买，2026 届官网是 2026.aaclnet.org）。
+  - series: iss
+    list: caai2024
+    entry: its
+    note_zh: CAAI 2024 仍写旧名 ITS（ACM International Conference on Interactive Tabletops and Surfaces，B）。这个会 2016 年起改名 ISS（Interactive Surfaces and Spaces），dblp 键 conf/tabletop 没变，CCF 第七版已写 ISS。
+  - series: prcv
+    list: cast2025
+    entry: '417'
+    year: 2025
+    note_zh: 科协 2025 目录第 417 条“第八届中国模式识别与计算机视觉大会 PRCV 2025”（中国图象图形学学会），只属于 2025 年那一届。
+  - series: internetware
+    list: cast2025
+    entry: '385'
+    year: 2025
+    note_zh: 科协 2025 目录第 385 条“国际网构软件大会”（International Conference on Internetware，中国计算机学会申报），只属于 2025 年那一届。Internetware 只有这一个系列，CCF 第七版写作 Asia-Pacific Symposium on Internetware（C）。
+  - series: etaps
+    list: ccf7
+    entry: etaps
+    note_zh: CCF 第七版第 4 类 B“ETAPS：European Joint Conferences on Theory and Practice of Software”（PDF 第 28 页），就是联合会议本身。因为 TACAS 也挂在这一条上，这里写明，免得自动匹配把它当成被别的系列占用。
+  - series: tacas
+    list: ccf7
+    entry: etaps
+    qualifier_zh: ETAPS 成员会
+    note_zh: CCF 第七版没有单独列 TACAS，只列联合会议 ETAPS（第 4 类 B，PDF 第 28 页）；TACAS 每年作为 ETAPS 的成员会议举办，论文收在 ETAPS 的论文集里，所以显示“CCF B（ETAPS 成员会）”。这是对应关系的解读，不是目录原文。
+not:
+  - series: its-wc
+    list: caai2024
+    entry: its
+    note_zh: CAAI 的 ITS 是 ACM Interactive Tabletops and Surfaces（人机交互），不是 ITS World Congress（智能交通世界大会）。
+  - series: ccc-control
+    list: ccf7
+    entry: ccc
+    note_zh: CCF 的 CCC 是 Conference on Computational Complexity（计算复杂性），不是中国控制会议；中国控制会议没有 CCF 等级。
+  - series: esa-ecology
+    list: ccf7
+    entry: esa
+    note_zh: CCF 的 ESA 是 European Symposium on Algorithms（算法，系列 esa），不是美国生态学会年会（Ecological Society of America）。
+  - series: ccs
+    list: cast2025
+    entry: '377'
+    note_zh: 科协 2025 目录第 377 条 CCS 是中国电子学会的“2025网络空间安全学术大会”（Conference on Cyberspace Security），不是 ACM CCS。
+  - series: 3dv
+    list: cast2025
+    entry: '416'
+    note_zh: 科协 2025 目录第 416 条是中国图象图形学学会的“第四届中国三维视觉大会（3DV 2025）”，不是 International Conference on 3D Vision。
+  - series: ats-conference
+    list: ccf7
+    entry: ats
+    note_zh: CCF 的 ATS 是 IEEE Asian Test Symposium（测试，系列 ats），不是美国胸科学会国际会议（American Thoracic Society）。

@@ -1,0 +1,11 @@
+id: cac
+acronym: CAC
+full_name: China Automation Congress
+name_zh: 中国自动化大会
+directions: [eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 10–11 月，国内
+data_level: curated
+note_zh: 中国自动化学会主办；科协 2025 目录收录的是 2025 年那一届。

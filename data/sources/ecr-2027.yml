@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ecr-2027
+sources:
+  - id: ecr-2027-abstract-submission
+    url: https://www.myesr.org/congress/submit/abstract-submission/
+    title: ECR 2027 Abstract Submission
+    kind: cfp
+    fetched_at: 2026-09-25T15:51:21Z
+    http_status: 200
+    snapshot: c31218edee1979033ba9500ce2b72935f8eda9194da55069fc8a97a0fd4e2072
+  - id: ecr-2027-congress
+    url: https://www.myesr.org/congress/
+    title: ECR 2027 Congress Home
+    kind: other
+    fetched_at: 2026-09-25T15:51:30Z
+    http_status: 200
+    snapshot: 10ea4698d18f39a302b7ea4649c4477396b88d155fa13c9a507c6edcd8ef6731

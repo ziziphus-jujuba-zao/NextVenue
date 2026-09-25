@@ -3,7 +3,7 @@ series: icml
 name: ICML 2027
 year: 2027
 kind: conference
-topics: [ml, ai]
+data_level: curated
 derived_from: icml-2026
 milestones:
   - type: abstract

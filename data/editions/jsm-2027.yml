@@ -1,0 +1,41 @@
+id: jsm-2027
+series: jsm
+name: JSM 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: jsm-2027-home
+  quote: "Contributed Session Abstract Submission: December 1, 2026 – February 1, 2027"
+location: { city: Chicago, country: USA, country_code: US }
+dates: { start: 2027-08-08, end: 2027-08-12 }
+milestones:
+  - type: abstract
+    start: 2026-12-01
+    end: 2027-02-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: jsm-2027-home
+    quote: "Contributed Session Abstract Submission: December 1, 2026 – February 1, 2027"
+    note_zh: 个人投稿（contributed）走这一轮。官网没写时刻和时区，按北京时间 2/1 23:59 算。
+  - type: registration_open
+    at: 2027-04-29T11:00
+    tz: America/New_York
+    status: confirmed
+    src: jsm-2027-home
+    quote: "Registration & Housing Open: April 29, 2027 – 11:00 a.m. EDT"
+  - type: early_registration
+    status: tba
+    tz: America/Chicago
+    note_zh: 注册 4/29 才开放，早鸟截止日未公布。
+  - type: conference
+    start: 2027-08-08
+    end: 2027-08-12
+    tz: America/Chicago
+    status: confirmed
+    src: jsm-meetings-page
+    quote: "2027 JSM, August 8 – 12, 2027, Chicago, Illinois"
+last_checked: 2026-09-25
+note_zh: 组整场主题分会（topic-contributed）的提案另有一轮，11/17–12/10；邀请分会提案 9/23 已截止。

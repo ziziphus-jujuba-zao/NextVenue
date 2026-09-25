@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: asbmb-2027
+sources:
+  - id: asbmb-2027-general-info
+    url: https://www.asbmb.org/annual-meeting/general-information
+    title: ASBMB 2027 General Information
+    kind: other
+    fetched_at: 2026-09-25T16:22:22Z
+    http_status: 200
+    snapshot: 3582c976be9db42054983880785ad768ae1a33662cc4eaef5251e1d51582645e
+  - id: asbmb-2027-abstracts
+    url: https://www.asbmb.org/annual-meeting/abstracts
+    title: ASBMB 2027 Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T16:22:22Z
+    http_status: 200
+    snapshot: 1d6e86294f37f8b781274ca08e91713b0ebaf522ef0e6d77d933fc35c883bd3a

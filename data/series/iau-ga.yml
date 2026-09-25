@@ -1,0 +1,13 @@
+id: iau-ga
+acronym: IAU GA
+full_name: International Astronomical Union General Assembly
+name_zh: 国际天文学联合会大会
+aliases:
+  - IAU General Assembly
+directions: [phys/astro]
+periodicity:
+  cycle: triennial
+  basis: observed
+  note_zh: 通常三年一届：2018 维也纳、2022 釜山（因疫情推迟一年）、2024 开普敦、2027 罗马
+data_level: curated
+note_zh: 投口头或海报摘要；另有晚到海报轮次和 IAU 资助（grant）。

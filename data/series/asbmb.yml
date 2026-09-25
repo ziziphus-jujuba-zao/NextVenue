@@ -1,0 +1,13 @@
+id: asbmb
+acronym: ASBMB
+full_name: American Society for Biochemistry and Molecular Biology Annual Meeting
+name_zh: 美国生物化学与分子生物学学会年会
+aliases:
+  - ASBMB Annual Meeting
+directions: [life/cellmol]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 3–4 月举办
+data_level: curated
+note_zh: 只收摘要，分提前决定（early decision）、常规和晚到三轮；提前决定轮专为需要早办签证的国际作者设。

@@ -1,0 +1,13 @@
+id: ndss
+acronym: NDSS
+full_name: Network and Distributed System Security Symposium
+aliases: [Network and Distributed System Security (NDSS) Symposium]
+directions: [cs/security]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/ndss
+ccfddl: SC/NDSS
+data_level: curated
+note_zh: 一年两轮投稿（夏季轮、秋季轮），论文集由互联网协会（ISOC）出版。

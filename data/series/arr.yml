@@ -1,0 +1,6 @@
+id: arr
+acronym: ARR
+full_name: ACL Rolling Review
+directions: [cs/nlp]
+data_level: curated
+note_zh: ACL 系会议（ACL、EMNLP、NAACL、EACL）共用的审稿轮次，不是会议。

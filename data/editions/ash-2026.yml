@@ -1,0 +1,51 @@
+id: ash-2026
+series: ash
+name: ASH 2026
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: ash-2026-abstracts
+  quote: "Abstracts submitted for oral and poster presentation at the ASH annual meeting represent important, novel research in the field"
+  note_zh: 投稿形式是摘要，经同行评审后分为口头报告和海报。
+location: { city: New Orleans, country: USA, country_code: US }
+dates: { start: 2026-12-12, end: 2026-12-15 }
+milestones:
+  - type: abstract
+    at: 2026-08-04T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: ash-2026-home
+    quote: "August 4, 2026, at 11:59 p.m. Pacific time Abstract Submission Deadline"
+  - type: early_registration
+    at: 2026-10-21T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: ash-2026-home
+    quote: "October 21, 2026, at 11:59 p.m. Pacific time Advance Registration Discount Ends"
+  - type: abstract
+    label_zh: 晚到摘要（Late-Breaking）截止
+    start: 2026-10-14
+    end: 2026-10-28T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: ash-2026-abstracts
+    quote: "Call for late-breaking abstract submissions October 14-28, 2026, 11:59 p.m. Pacific time"
+    note_zh: 10/14 开放提交。晚到摘要只收重要的新结果，和常规摘要不是同一个评审口径。
+  - type: poster
+    label_zh: 海报材料提交截止
+    at: 2026-11-16T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: ash-2026-abstracts
+    quote: "Abstract poster presentation materials due November 16, 2026, 11:59 p.m. Pacific time"
+  - type: conference
+    start: 2026-12-12
+    end: 2026-12-15
+    tz: America/Chicago
+    status: confirmed
+    src: ash-2026-home
+    quote: "The 68th ASH Annual Meeting will be held in person at the Ernest N. Morial Convention Center in New Orleans, Louisiana, and virtually from December 12-15, 2026."
+last_checked: 2026-09-25
+note_zh: 常规摘要 8/4 已截止；现在还能投的是晚到摘要（10/14–10/28）。会议线下在新奥尔良，同时线上举办。

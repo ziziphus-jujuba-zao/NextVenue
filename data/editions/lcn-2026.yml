@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: lcn-2026
+series: lcn
+name: LCN 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/LCN
+  conf_id: lcn26
+  link: https://www.ieeelcn.org/
+  place: Coimbra, Portugal
+  date: October 7-9, 2026
+  timezone: AoE
+location:
+  city: Coimbra
+  country: Portugal
+  country_code: PT
+dates:
+  start: 2026-10-07
+  end: 2026-10-09
+milestones:
+  - type: paper
+    at: 2026-05-04T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-10-07
+    end: 2026-10-09
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

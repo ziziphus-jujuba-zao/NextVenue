@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aera-2027
+sources:
+  - id: aera-2027-home
+    url: https://www.aera.net/Events-Meetings/Annual-Meeting/2027-Annual-Meeting
+    title: AERA 2027 Annual Meeting
+    kind: other
+    fetched_at: 2026-09-25T16:18:10Z
+    http_status: 200
+    snapshot: b5059a39bbcb9ee541c2be2469a2196f841823f765b54833c4bd882dc57adf1e
+  - id: aera-2027-call
+    url: https://www.aera.net/Portals/38/2027%20AM%20Call%20for%20Submissions_updated_7_9.pdf
+    title: AERA 2027 Annual Meeting Call for Submissions (PDF)
+    kind: cfp
+    fetched_at: 2026-09-25T16:18:16Z
+    http_status: 200
+    snapshot: f932cb8493f2218ea26bdd3a0490e08f34156c5ae909f31fb5197ea26f3bb585
+  - id: aera-annual-meeting
+    url: https://www.aera.net/Events-Meetings/Annual-Meeting
+    title: AERA Annual Meeting
+    kind: other
+    fetched_at: 2026-09-25T16:18:37Z
+    http_status: 200
+    snapshot: 502b98d7531cb85c0e391c2c8d53076756191a16af0d814938c5455baf713442

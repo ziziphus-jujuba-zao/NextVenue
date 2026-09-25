@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: osm-2028
+sources:
+  - id: osm-2028-aslo-meetings
+    url: https://www.aslo.org/meetings/
+    title: ASLO Meetings
+    kind: other
+    fetched_at: 2026-09-25T18:22:41Z
+    http_status: 200
+    snapshot: 351ae8705abbff4b4a113929831647e2f9bb9cd4c2ec09dd194e1e03d899e117

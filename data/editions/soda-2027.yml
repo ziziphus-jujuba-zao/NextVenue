@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: soda-2027
+series: soda
+name: SODA 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CT/SODA
+  conf_id: soda27
+  link: https://www.siam.org/conferences-events/siam-conferences/soda27/
+  place: Philadelphia, Pennsylvania, USA
+  date: January 24-27, 2027
+  timezone: UTC-12
+location:
+  city: Philadelphia
+  country: USA
+  country_code: US
+dates:
+  start: 2027-01-24
+  end: 2027-01-27
+milestones:
+  - type: paper
+    at: 2026-07-09T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2027-01-24
+    end: 2027-01-27
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

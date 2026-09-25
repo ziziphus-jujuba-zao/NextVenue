@@ -1,0 +1,29 @@
+id: lics-2027
+series: lics
+name: LICS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Montreal, country: Canada, country_code: CA }
+dates: { start: 2027-06-21, end: 2027-06-24 }
+milestones:
+  - type: abstract
+    tz: AoE
+    status: tba
+    note_zh: 官网还没公布截止日期（“Further information will appear here in due course.”）。
+  - type: paper
+    tz: AoE
+    status: tba
+    note_zh: 官网还没公布。
+  - type: notification
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-06-21
+    end: 2027-06-24
+    tz: America/Toronto
+    status: confirmed
+    src: lics-2027-home
+    quote: "LICS 2027 will be hosted in Montreal, Canada during 21–24 June 2027, with workshops on 19–20 June."
+last_checked: 2026-09-25
+note_zh: 第 42 届 LICS，2027 年在蒙特利尔单独举办（2026 年在 FLoC 内）。官网目前只公布了会期、地点和程序委员会主席，截止日期未公布。

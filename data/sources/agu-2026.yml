@@ -1,0 +1,19 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: agu-2026
+sources:
+  - id: agu-2026-press-registration
+    url: https://news.agu.org/press-release/press-registration-open-for-2026-agu-annual-meeting/
+    title: AGU26 press registration open (AGU press release)
+    kind: blog
+    fetched_at: 2026-09-25T16:11:49Z
+    http_status: 200
+    snapshot: e104ab145c70bbb46b7e144a48f75ba7a65c4276d7ec7dd38283e06a36ecc7e1
+  - id: agu-2026-home
+    url: https://www.agu.org/annual-meeting
+    mirror_url: https://web.archive.org/web/20260921120503id_/https://www.agu.org/annual-meeting
+    title: AGU26 Annual Meeting (Internet Archive copy)
+    kind: other
+    fetched_at: 2026-09-25T16:13:58Z
+    http_status: 200
+    snapshot: dbe066bc028894790c351ad230cf455c971d880c3e55923b00daca315eb03c73
+    note_zh: agu.org 拒绝本项目的抓取程序（HTTP 403），快照取自 Internet Archive 2026-09-21 存下的同一页面；投稿系统（confex）要登录才能看投稿指南。

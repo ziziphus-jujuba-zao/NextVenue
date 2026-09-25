@@ -1,0 +1,13 @@
+id: asplos
+acronym: ASPLOS
+full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems
+aliases: [International Conference on Architectural Support for Programming Languages and Operating Systems]
+directions: [cs/systems]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/asplos
+ccfddl: DS/ASPLOS
+data_level: curated
+note_zh: 一年两轮投稿（4 月轮、9 月轮），有大修（Major Revision）环节。

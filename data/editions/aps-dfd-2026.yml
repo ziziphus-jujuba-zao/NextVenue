@@ -1,0 +1,48 @@
+id: aps-dfd-2026
+series: aps-dfd
+name: APS DFD 2026
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: aps-dfd-2026-about
+  quote: "Physics research abstracts are submitted each year across 40+ topics ranging from biological fluid dynamics to vortex dynamics and flows, from drops to flow instability, and much more."
+location: { city: Orlando, country: USA, country_code: US }
+dates: { start: 2026-11-22, end: 2026-11-24 }
+milestones:
+  - type: abstract
+    start: 2026-06-03
+    end: 2026-07-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-dfd-2026-about
+    quote: "The call for abstracts will run from June 3, 2026, to July 31, 2026."
+    note_zh: 已截止。官网没写时区。
+  - type: early_registration
+    start: 2026-07-06
+    end: 2026-09-28
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-dfd-2026-registration
+    quote: "Early bird rates: July 6 - Sept. 28"
+    note_zh: 所有报告人都必须注册。官网没写时区，按北京时间当天结束算。
+  - type: refund_cutoff
+    at: 2026-10-30
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-dfd-2026-registration
+    quote: "Cancellations must be received in writing by Oct. 30, 2026."
+    note_zh: 取消都要扣 $50 手续费。官网没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2026-11-22
+    end: 2026-11-24
+    tz: America/New_York
+    status: confirmed
+    src: aps-dfd-2026-about
+    quote: "November 22-24, 2026 APS DFD Annual Meeting 2026"
+last_checked: 2026-09-25
+note_zh: 第 79 届，奥兰多 Orange County Convention Center。

@@ -1,0 +1,119 @@
+# 申根区（法国、匈牙利、希腊、意大利、罗马尼亚等）：中国大陆普通护照赴申根国家开会。
+# 格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。规则用欧盟委员会的通用说明；递交入口按法国写（NeurIPS 2026 巴黎会场），
+# 其他国家向各自使领馆申请，链接见欧盟页面。france-visas.gouv.fr 对抓取返回 403，法国入口链接取自中国领事服务网的原文。
+id: schengen
+name_zh: 申根区
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: required
+  visa_zh: 申根短期签证（C 类，180 天内最多停留 90 天）
+  conditions_zh: 向主要目的国的使领馆申请：去几个国家的，向停留最久的国家申请；停留一样长的，向第一个入境国申请。
+  conf: high
+  src: visa-schengen-cs-mfa-fr
+  quote: "中国内地居民赴法需提前办理签证，按目的地可分为申根签证（可前往所有申根国家）和国别签证"
+apply:
+  - label_zh: 法国：在线填写签证申请表（France-Visas）
+    url: https://france-visas.gouv.fr/zh/web/france-visas/accueil
+  - label_zh: 法国：预约签证中心（TLScontact）
+    url: https://visas-fr.tlscontact.com/visa/cn
+fees:
+  - item: visa
+    amount: 90
+    currency: EUR
+    src: visa-schengen-eu-apply
+    quote: "€90 for adults"
+    note_zh: 通过签证中心递交的，可能另收服务费。
+window:
+  earliest:
+    n: 6
+    unit: month
+    src: visa-schengen-eu-apply
+    quote: "no earlier than 6 months beforehand"
+  latest:
+    n: 15
+    unit: day
+    src: visa-schengen-eu-apply
+    quote: "You must submit your application to the consulate at least 15 days before your intended journey"
+facts:
+  - id: where_to_apply
+    label_zh: 向哪国申请
+    text_zh: 去几个申根国家的，向停留最久的国家的使领馆申请；停留一样长的，向第一个入境国申请。
+    src: visa-schengen-eu-apply
+    quote: "Visiting more than 1 Schengen countries: apply at the consulate of the country where you will spend the longest time."
+  - id: fee_waiver_researchers
+    label_zh: 研究人员免签证费
+    text_zh: 按欧盟指令 2016/801 第 3 条第 2 款定义的研究人员，为开展研究或参加学术研讨会、会议出行，免签证费。
+    src: visa-schengen-de-fee-waiver
+    quote: "Researchers as defined in Article 3 (2) of EU Directive 2016/801 during travel to carry out a research activity or to participate in a scientific seminar or a conference"
+  - id: fee_waiver_nonprofit
+    label_zh: 非营利组织代表免签证费
+    text_zh: 25 岁及以下、参加非营利组织举办的研讨会或会议的非营利组织代表，也免签证费。
+    src: visa-schengen-de-fee-waiver
+    quote: "Representatives of non-profit organisations aged 25 years or less participating in seminars, conferences, sports, cultural or educational events organised by non-profit organisations"
+  - id: service_fee
+    label_zh: 签证中心服务费
+    text_zh: 通过签证中心递交的，除签证费外可能另收服务费。
+    src: visa-schengen-eu-apply
+    quote: "An additional fee may apply if you go through visa service centres, which collect applications on behalf of consulates in some cases."
+  - id: fingerprints
+    label_zh: 指纹
+    text_zh: 递交申请时采集指纹。
+    src: visa-schengen-eu-apply
+    quote: "Your fingerprints will be collected when you submit your application"
+  - id: passport_validity
+    label_zh: 护照有效期
+    text_zh: 护照有效期要比离开申根区的日期晚至少 3 个月。
+    src: visa-schengen-eu-apply
+    quote: "The passport's expiry date should be at least 3 months after the date of your departure from the Schengen area."
+  - id: insurance
+    label_zh: 医疗保险
+    text_zh: 要有覆盖急诊、住院和遣返（含身故）的医疗保险。保额以所申请国家使领馆的要求为准。
+    src: visa-schengen-eu-apply
+    quote: "Medical insurance covering emergency medical care, hospitalisation and repatriation (including in the event of death)."
+lead:
+  kind: processing_time
+  official:
+    value: 15
+    unit: day
+    max: 45
+    src: visa-schengen-eu-apply
+    quote: "The normal processing time for a visa application is 15 days."
+  as_of:
+    date: 2025-12-02
+    src: visa-schengen-eu-apply
+    quote: "2 December 2025"
+    note_zh: 欧盟委员会页面的更新日期。
+  caveat:
+    src: visa-schengen-eu-apply
+    quote: "This period may be extended to up to 45 days if a more detailed examination of the application and/or additional documents are required."
+  app_buffer:
+    weeks: 6
+    basis: assumption
+    note_zh: 本应用的默认缓冲：官方处理时间可能延长到 45 天（比 15 天多 30 天），再留约 2 周预约签证中心和寄回护照，合计约 8 周。用户可以改。
+documents:
+  - item_zh: 护照（有效期比离开申根区晚至少 3 个月）
+    src: visa-schengen-eu-apply
+    quote: "A valid passport."
+  - item_zh: 签证申请表
+    src: visa-schengen-eu-apply
+    quote: "A visa application form."
+  - item_zh: 符合 ICAO 标准的照片
+    src: visa-schengen-eu-apply
+    quote: "A photo in compliance with ICAO standards."
+  - item_zh: 医疗保险（覆盖急诊、住院和遣返）
+    src: visa-schengen-eu-apply
+    quote: "Medical insurance covering emergency medical care, hospitalisation and repatriation"
+  - item_zh: 出行目的、资金、住宿和回国意向的证明材料
+    src: visa-schengen-eu-apply
+    quote: "Supporting documents relating to the purpose of your stay, evidence of financial means and accommodation during your stay, and evidence of your intention to return to your home country after your stay."
+notices: []
+transit: []
+links:
+  - label_zh: 欧盟 · 申请申根签证（含各国签证网站）
+    url: https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en
+  - label_zh: 法国签证官网 France-Visas
+    url: https://france-visas.gouv.fr/
+  - label_zh: 中国领事服务网 · 法国
+    url: https://cs.mfa.gov.cn/zggmcg/ljmdd/oz_652287/fg_653219/
+note_zh: 使领馆可能要求补充材料。以所申请国家使领馆的最新通知为准。

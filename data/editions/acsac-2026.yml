@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: acsac-2026
+series: acsac
+name: ACSAC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/ACSAC
+  conf_id: acsac26
+  link: https://www.acsac.org/
+  place: Los Angeles, California, USA
+  date: December 7-11, 2026
+  timezone: UTC-12
+location:
+  city: Los Angeles
+  country: USA
+  country_code: US
+dates:
+  start: 2026-12-07
+  end: 2026-12-11
+milestones:
+  - type: paper
+    at: 2026-05-26T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2026-12-07
+    end: 2026-12-11
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,57 @@
+id: jmm-2027
+series: jmm
+name: JMM 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: jmm-2027-cfp
+  quote: "You may present an unlimited amount of distinctively different abstracts in multiple special sessions."
+  note_zh: 专题分会不限篇数；contributed paper 每人只能报告一篇。
+location: { city: Chicago, country: USA, country_code: US }
+dates: { start: 2027-01-12, end: 2027-01-15 }
+milestones:
+  - type: abstract
+    at: 2026-09-15T23:59
+    tz: America/New_York
+    status: confirmed
+    src: jmm-2027-cfp
+    quote: "Deadline for New Submissions: Tuesday, September 15, 2026 11:59PM Eastern Time."
+  - type: abstract
+    label_zh: PME 本科生海报与报告截止
+    at: 2026-09-29
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: jmm-2027-cfp
+    quote: "Final deadline for the PME poster session and PME contributed paper session is Tuesday, September 29, 2026."
+    note_zh: 只给本科生（Pi Mu Epsilon 项目）。这句没写时刻和时区，按北京时间当天 23:59 算。
+  - type: financial_aid
+    label_zh: 研究生旅费资助申请截止
+    at: 2026-10-17
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: jmm-2027-cfp
+    quote: "2027 JMM Travel Grant applications are open until October 17 for partial support to the JMM for graduate students."
+    note_zh: 只给研究生的部分资助。官网没写时区，按北京时间算。
+  - type: notification
+    status: tba
+    tz: America/New_York
+    src: jmm-2027-cfp
+    quote: "Notifications of Acceptance & Rejection will be sent in late October."
+    note_zh: 官网只说 10 月下旬发，没有具体日期。
+  - type: early_registration
+    status: tba
+    tz: America/Chicago
+    note_zh: 注册页在 jointmathematicsmeetings.org，拒绝本项目的抓取程序，存档里也没有早鸟截止日。
+  - type: conference
+    start: 2027-01-12
+    end: 2027-01-15
+    tz: America/Chicago
+    status: confirmed
+    src: jmm-2027-home
+    quote: "January 12–15, 2027 | McCormick Place, Lakeside Center and South Building | Chicago, IL"
+last_checked: 2026-09-25
+note_zh: 摘要 9/15 已截止。官网 FAQ 写 2027 届会有线上参会方式，细节未公布。会议酒店协议价要在 2026-12-31 前预订。

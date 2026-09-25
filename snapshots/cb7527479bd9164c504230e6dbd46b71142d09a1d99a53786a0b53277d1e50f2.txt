@@ -1,0 +1,1986 @@
+M ATCHING PAPERS AND R EVIEWERS AT L ARGE C ONFERENCES
+A P REPRINT
+
+arXiv:2202.12273v4 [cs.AI] 5 Aug 2022
+
+Kevin Leyton-Brown
+Department of Computer Science
+University of British Columbia
+Vancouver, Canada
+kevinlb@cs.ubc.ca
+
+Mausam
+Department of Computer Science and Engineering
+Indian Institute of Technology Delhi
+New Delhi, India
+mausam@cse.iitd.ac.in
+
+Yatin Nandwani∗
+Department of Computer Science and Engineering
+Indian Institute of Technology Delhi
+New Delhi, India
+yatin.nandwani@cse.iitd.ac.in
+Chris Cameron
+Department of Computer Science
+University of British Columbia
+Vancouver, Canada
+cchris13@cs.ubc.ca
+
+Hedayat Zarkoob∗
+Department of Computer Science
+University of British Columbia
+Vancouver, Canada
+hzarkoob@cs.ubc.ca
+
+Neil Newman
+Department of Computer Science
+University of British Columbia
+Vancouver, Canada
+newmanne@cs.ubc.ca
+
+Dinesh Raghu
+IBM Research
+New Delhi, India
+diraghu1@in.ibm.com
+
+A BSTRACT
+Peer-reviewed conferences, the main publication venues in CS, rely critically on matching highly
+qualified reviewers for each paper. Because of the growing scale of these conferences, the tight
+timelines on which they operate, and a recent surge in explicitly dishonest behavior, there is now no
+alternative to performing this matching in an automated way. This paper studies a novel reviewer–
+paper matching approach that was recently deployed in the 35th AAAI Conference on Artificial
+Intelligence (AAAI 2021), and has since been adopted (wholly or partially) by other conferences
+including ICML 2022, AAAI 2022, and IJCAI 2022. This approach has three main elements: (1)
+collecting and processing input data to identify problematic matches and generate reviewer–paper
+scores; (2) formulating and solving an optimization problem to find good reviewer–paper matchings;
+and (3) a two-phase reviewing process that shifts reviewing resources away from papers likely to be
+rejected and towards papers closer to the decision boundary. This paper also describes an evaluation
+of these innovations based on an extensive post-hoc analysis on real data—including a comparison
+with the matching algorithm used in AAAI’s previous (2020) iteration—and supplements this with
+additional numerical experimentation.2
+∗
+
+Joint student lead authors.
+Writing this paper and conducting the experimental analysis described herein took almost a full year beyond the conclusion of
+AAAI 2021. Nevertheless, this paper is grounded in our experiences as Program Chairs (Mausam, Kevin), Workflow Chairs (Hedayat,
+Dinesh) and Associate Workflow Chairs (Yatin, Chris, Neil) at AAAI 2021. Many other people contributed to the the conference’s
+design and operation. Notably, Qiang Yang was Conference Chair; Gabriele Röger and Yan Liu were Associate Program Chairs,
+and Guangneng Hu was a Workflow Chair; all contributed to the design and planning process throughout the year preceding the
+conference. Even more concretely impacting the content of this paper, Gabi provided draft text on filtering manipulative bids that we
+adapted into Section 2.2, and Yan made contributions to the MIP formulation described in Section 3. Keshav Sai Kolluru helped in
+the analysis of the bids, and Shantanu Agarwal helped in coding Subject Area Matching Score (section 2.3.1). The CMT support
+team provided invaluable real-time service and development during the conference which made our introduction of two-phase
+reviewing process feasible. Carol Hamilton and the AAAI Office provided innumerable forms of behind-the-scenes support. The
+AAAI 2021 conference and executive committees supported us in experimenting with our unconventional ideas for the conference.
+Finally, an organization as large as AAAI operates only through the efforts of literally thousands of volunteers in myriad roles; we
+thank all of them for their continued service to the community.
+2
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+Keywords Reviewer-paper matching · Two-phase reviewing process · Conference organization
+
+1
+
+Introduction
+
+Submissions to prominent AI conferences have grown steadily in recent years. The AAAI Conference on Artificial
+Intelligence (AAAI) received fewer than 1,000 submissions in each of its first 33 years (1980–2012); fewer than 2,000
+submissions annually until 2015; and fewer than 4,000 submissions annually until 2018. AAAI 2021 received over 9,000
+submissions! Program committees have grown to keep pace with submissions; nearly 10,000 reviewers were involved
+in the 2021 conference. Given the scale and the tight timeline on which such large conferences operate—roughly three
+months between paper submission and author notification—it is becoming an increasingly challenging problem to
+assign reviewers2 to papers about which they can provide high-quality reviews. Some key subproblems are estimating
+how qualified a given reviewer is to review a particular paper; tractably finding good matchings; determining which
+papers can be rejected without full review; and identifying reviewers who have bid, reviewed, or scored papers in an
+attempt to manipulate outcomes.
+We addressed these challenges with a novel automated pipeline for reviewer–paper matching at AAAI 2021. Our
+pipeline consists of three main elements: (1) collecting and processing input data to identify problematic matches and
+generating reviewer–paper scores; (2) formulating and solving a constrained matching problem; and (3) splitting the
+reviewing process into two phases to better allocate reviewing resources towards borderline papers. We briefly describe
+each of these in turn (and then devote a full section to each in what follows). Code for our pipeline is available at
+https://github.com/ChrisCameron1/LargeConferenceMatching.
+Data Collection and Processing. Program Chairs need to transform a reviewer’s profile into an estimate of how
+qualified that reviewer is to review each paper. Profiles can be as detailed as Program Chairs are creative, containing
+features such as past email addresses, DBLP/Semantic Scholar profiles, self-reported reviewing proficiency via a
+bidding phase, self-declared conflicts of interest (COIs), and texts of previously written papers. A key question that
+conference organizers need to answer is how to process this data and transform it into a numerical score assessing the
+quality of every plausible reviewer–paper pair. Two notable examples of such numerical scores are TPMS [Charlin and
+Zemel, 2013] and ACL scores [Neubig et al., 2020]. Both of these scores are computed based on textual similarity
+between a submitted paper and reviewer’s prior publications. However, they are not always available; TPMS scores
+can only be computed for reviewers whose prior publications are known and ACL scores can only be computed for
+reviewers whose past publication abstracts are accessible, e.g., via a known Semantic Scholar profile. In AAAI 2021,
+we computed TPMS and ACL scores for all applicable reviewer–paper pairs. We also knew reviewers’ and papers’
+primary and secondary subject areas and received explicit bids from reviewers. We aggregated all of our data to obtain
+final reviewer–paper scores that were between 0 and 1 and whose values were unbiased by missing data. We refer to the
+resulting scoring function as aggscore.
+Input data is only as useful as it is trustworthy: a rising concern for large scale conferences is that participants may
+self-report information to direct their submission to a specific reviewer or to ensure they review a specific paper [Jecmen
+et al., 2020]. To that end, we constructed relationship graphs based on each user’s publication history to identify
+unreported conflicts (which, of course, also arose via mistakes or oversights from non-malicious users). We also
+developed a set of heuristics to identify suspicious patterns of self-reported conflicts and of bidding for papers to review.
+In both cases, we erred on the side of being cautious, forbidding all such suspicious assignments.
+Formulating a Constrained Matching Problem. Once scores have been assigned, the next key problem is to come
+up with an actual assignment. We formulated this problem as a Mixed-Integer Programming (MIP) problem. We are far
+from the first to use a MIP formulation for reviewer–paper matching [Flach et al., 2010, Garg et al., 2010, Tang et al.,
+2010, Lian et al., 2018, Taylor, 2008, Kobren et al., 2019, Charlin and Zemel, 2013, Charlin et al., 2011]. However, we
+went well beyond the vanilla “find a score maximizing assignment” formulation by including additional (soft) desiderata.
+For example, we penalized assigning coauthors to review the same paper, rewarded geographic diversity in assignments,
+and penalized assignments where reviewers each bid positively on each other’s papers. These soft constraints served
+both to ensure that each paper was reviewed by an intellectually diverse set of reviewers and to make potential collusion
+rings (reviewers conspiring to review each other’s papers) [Littman, 2021] harder to sustain. Separately, we introduced
+2
+
+Modern conference reviewing is often divided into four hierarchical roles, though terminology can vary. At AAAI, Program
+Committee members (PCs) review submissions; Senior Program Committee members (SPCs) facilitate discussions among PCs and
+write meta-reviews; Area Chairs (ACs) oversee the review process, communicate with SPCs about final decisions, and recommend
+accept/reject decisions; Program Chairs design and oversee the whole review process and make final decisions for each submission.
+In this paper, we sometimes use the term reviewer to refer exclusively to PCs; in other cases, we refer to PCs, SPCs, and ACs.
+Distinctions between the two cases should nevertheless be clear from the context.
+
+2
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+a seniority constraint to encourage our matching algorithm to distribute experienced reviewers across papers. We show
+in our experimental analysis that despite the mentioned advantages, these soft constraints only marginally impacted the
+mean aggregate score, and hence did not significantly degrade average match quality.
+To ensure that the resulting MIP formulation could be solved within a reasonable amount of time, we sparsified our
+space of possible assignments by creating variables representing the possibility of assigning a given paper to a given
+reviewer only when the pairing had a sufficiently high score; we then used column generation as necessary to identify
+further candidate reviewers for hard-to-match papers. Our coauthorship constraints were too large to specify in memory,
+and so we similarly leveraged row generation (i.e., we identified an initial solution without coauthorship constraints and
+then iteratively added individual violated constraints and reran the optimization). See Figure 1 for how the information
+flows through our reviewer assignment system.
+Two-Phase Reviewer Assignment. The quality of papers submitted to conferences like AAAI 2021 varies vastly.
+Reviews are signals of quality, but can be very noisy. This was perhaps most convincingly demonstrated via an
+influential NeurIPS experiment [Lawrence and Cortes, 2014], which split reviewing between two independent Program
+Committees. The experiment found that while the strongest and weakest papers could be reliably identified, many
+papers close to the decision boundary were accepted by one Program Committee and rejected by the other. This finding
+invites the idea of obtaining additional reviews for papers close to the decision boundary to reduce variance, and points
+out that one way to obtain this additional reviewing capacity is to reduce the reviewing load allocated to papers far
+below threshold.
+One commonly used approach in journals
+which has also been adopted by recent AI conferences such as IJCAI 2020 [Bessiere, 2020]
+summarily rejects some fraction of papers
+without full reviews (based, e.g., on quick
+perusal of each paper by one or more Area
+Chairs). However, this approach can be difficult to implement fairly (Area Chairs may
+not have strong opinions after a quick perusal; some papers will be missed; and such
+an approach would still impose a huge workload across 9,000 submissions). Even when it
+works well, the approach still leads to poorly
+explained decisions that many authors find
+frustrating (a quick perusal does not result in
+a detailed justification for the decision or suggestions about how work can be improved).
+
+Data Sources
+DBLP
+Snapshot
+
+Semantic
+Scholar
+
+Paper Info
+Authors’ Info
+
+Reviewer Info
+Affiliations
+
+Seniority
+
+Subject Areas
+
+Geographic Info
+
+Subject Areas
+Abstract
+Declared Conflicts
+Bids
+
+Data Processing (Sec. 2.1, 2.2, 2.3)
+
+AggScore Calculation
+TPMS
+ACL Score
+Score
+
+Filtering Malicious Data
+COI System (Sec. 2.1)
+
+Filter Bids
+(Sec. 2.2)
+
+SAM Score
+
+AggScore
+(Sec. 2.3)
+
+MIP Formulation (Sec. 3.1, 3.2, 3.3)
+Objective: Maximize Aggscore
+
+We used an alternative to summary rejecSoft Constraints:
+tion, which we refer to as Two-Phase ReSeniority Balance
+No COI
+viewing. This approach has various historNo 2-cycles
+Geographic Diversity
+ical antecedents; we defer a survey of those
+to Section 4. Roughly, instead of assigning,
+Co-reviewer Diversity
+Number of Reviewers
+say, three reviews to each paper, we initially
+Reviewer Load
+only assign two. If the two reviews agree
+that a paper should be rejected, the paper is
+Complete MIP (too big to solve)
+indeed rejected without further reviews. A
+Solving the MIP (Sec. 3.4)
+Variables for
+second phase of review assignments allocate
+promising
+matches
+two additional reviews to the papers that reColumn Generation (Sec. 3.4.1)
+MIP Solver
+(if needed)
+main. This approach redirects reviews to borRow Generation (Sec. 3.4.2)
+Add
+violated
+derline papers while also giving meaningful
+constraints
+feedback (two full reviews) to authors of reIncumbent Matching
+jected Phase 1 papers, and avoids the overhead of a separate summary rejection phase
+Final Paper-Reviewer Matching
+by treating all papers in the same way. It also
+has various other benefits. Notably, it gives Figure 1: Schematic diagram showing the flow of information in our
+Program Chairs a second opportunity to as- system.
+sign additional reviewers for papers identified
+as problematic or for which Phase 1 review3
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+ers went missing; and also facilitates mechanisms like AAAI’s “NeurIPS/EMNLP FastTrack", in which high-scoring
+rejected papers from sister conferences with late notification dates are allowed to proceed directly to Phase 2, with their
+reviews from the sister conference taking the place of Phase 1 reviews.
+We also describe the impact of these for AAAI 2021. 2,615 papers (37%)3 received two high-confidence reviews
+recommending rejection and so were rejected in Phase 1, which gave us a surplus of 2,615 reviews (relative to AAAI’s
+previous practice of assigning 3 reviews to every paper) to spread among the remaining papers in Phase 2 and FastTrack
+submissions. In AAAI 2021, the FastTrack received 778 abstract submissions and 688 full paper submissions, out of
+which 268 were ultimately accepted. A key question is whether the rejected papers in Phase 1 would ultimately have
+been accepted if they received four full reviews. We devote Section 5 to an extensive real-data analysis that investigates
+such questions, but for this one (examined in detail in Section 5.3.1) we give a brief synopsis here. We identified
+an (inadvertent) natural experiment: when papers did not receive two full, high-confidence reviews in Phase 1, we
+promoted them to Phase 2 regardless of their scores and assigned additional reviewers. By subsampling pairs of reviews
+from the larger set that these papers eventually received, we estimate that there was only a 2.9% probability that a Phase
+1 rejected paper would eventually have been accepted to AAAI 2021.
+The remainder of this paper is organized as follows. We begin by describing the details of our approach for data
+collection and processing in Section 2. Then, we present our mixed-integer programming formulation of the reviewer–
+paper matching problem in Section 3. We describe our Two-Phase reviewing scheme in Section 4. Section 5 consists
+of an exhaustive experimental analysis of data from AAAI 2021 in which we deployed these methods. Finally,
+we summarize our contributions in Section 6. We note that much related work has studied different aspects of the
+reviewer–paper matching problem. To streamline exposition, we discuss related work in each corresponding section.
+
+2
+
+Data collection and processing
+
+In this section, we describe the techniques we designed for collecting and processing raw data about reviewers and
+papers into an aggregated score for reviewer–paper matching.
+2.1
+
+Calculating Conflicts of Interests
+
+A conflict of interest (COI) exists between a reviewer and a paper if the reviewer has a relationship with one or more of
+the paper’s authors that gives them a personal interest in the paper’s acceptance or rejection. For example, most of us
+would struggle to provide a fully unbiased opinion about a paper authored by a former supervisor. Clearly, reviewers
+should not be matched to papers with which they have a COI.
+2.1.1
+
+Filtering Manipulative Conflicts
+
+Existing reviewer–paper matching systems detect COIs by asking authors and reviewers to disclose all of their current
+and past affiliations as well as to declare any additional explicit conflicts. This creates the possibility for a malicious
+author to provide very long lists of potential conflicts, either in an attempt to lead the system to choose a desired
+reviewer or simply to avoid expert assessment of their work. We identified COI declarations as suspicious if they
+satisfied any of the following criteria: (1) a user listed an unusually large number of email domains as affiliations (8 or
+more); (2) a user listed an unusually large number of non co-authors as COIs (15 or more); (3) a user self-reported an
+unusually large number of COIs for which the corresponding reported users did not self-report a reciprocal COI (10
+or more). We manually examined all such cases and removed all self-declared COIs that did not appear justified on
+inspecting the user’s publicly available profile. The exact parameters listed above were chosen empirically to capture
+only extreme behavior: the three conditions respectively captured only (1) 1.1% of users who reported more than a one
+conflict domain; (2) 0.14% of users who self-reported at least one conflict; and (3) 0.44% of users with at least one
+asymmetric conflict. In some cases, we observed evidence of quite egregious behavior: one user reported 35 conflict
+domains; another reported 57 asymmetric conflicts.
+2.1.2
+
+Predicting Unreported Conflicts of Interest
+
+Many conference management systems ask users to self-report information such as email domain names for organizations
+with which the user is currently or was formerly associated. Unfortunately, such user-provided information is often
+incomplete. Users can purposefully withhold information; they can forget to include a past affiliation; and even if they
+remember every one, they can mistype a domain or fail to report all of their organization’s aliases (e.g., iitd.ac.in vs
+3
+
+Out of 9071 abstract submissions in Phase 1, only 7133 were accompanied by a full paper, out of which 37% were rejected in
+Phase 1.
+
+4
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+cse.iitd.ac.in). We performed domain normalization and data cleaning (e.g., identifying common domain prefixes and
+suffixes, like .cse, .edu, and .ac, and unifying different aliases of the same organization), but obviously it cannot detect
+unreported or incorrect information.
+We thus augmented user-reported conflicts with additional conflicts based on coauthorship information. We required
+authors and reviewers to supply DBLP profiles and downloaded the full DBLP database,4 allowing us to identify
+coauthorship relations without the need to disambiguate similar names. We augmented this database with the current
+conference submissions and built a weighted coauthorship graph, with nodes corresponding to authors, edges existing
+between pairs of coauthors, and weights representing the number of publications coauthored by the pair.
+One way to prevent COIs would be to prohibit a reviewer from reviewing a paper submitted by a previous coauthor.
+However, we considered this treatment too strict as it entirely forbids cross reviewing between authors who may not
+have interacted in years. (Instead, in Section 3.1, we describe softer ways in which we discouraged our algorithm
+from selecting such matchings.) We thus considered a reviewer rj to have a COI with paper pi if any of the following
+conditions were satisfied for some author a of pi :
+1. rj coauthored a current conference submission with a;
+2. rj coauthored a published paper with a over the previous 5 years; or
+3. rj and a coauthored more than 6 published papers over any time period.
+We further added conflicts between reviewer rj and papers by an author a when we inferred that a supervised rj or
+that both rj and a were students of the same supervisor. We note that advisor–advisee relationships between users are
+unknown; hence we need to extract them from the coauthorship graph. We inferred that a was one of rj ’s supervisors if
+all of the following conditions held:
+1. a began publishing considerably earlier than rj (at least 5 years);
+2. a published at least 10 more papers than rj ; and
+3. a coauthored many of rj ’s early papers (at least 3 out of the first 10).
+These inferences did not need to be perfect: each COI simply prevented a particular reviewer–paper matching, and a
+few false positive COIs were unlikely to be harmful. Indeed, as we show later in Figure 4 (Section 5.1), most papers
+had a large number of highly qualified reviewers, indicating that occasionally forbidding one of them was unlikely to
+materially affect the quality of the matching.
+We observe that we are not the first to use DBLP to infer COIs; Long et al. [2013] describe methods for inferring
+coauthor, colleague, advisor–advisee, and competitor relationships. Like us, they used DBLP data to identify coauthor
+relationships. However, they relied on users’ public web pages to identify colleague and advisor–advisee relationships.
+We did not consider the latter approach feasible given the large scale of AAAI 2021.
+2.2
+
+Filtering Manipulative Bids
+
+Bids carry important information about reviewers’ preferences that can significantly affect reviewers’ satisfaction with
+an assignment. Unfortunately, reviewers can also maliciously submit bids with the aim of affecting a paper’s chances of
+being accepted or rejected [Noothigattu et al., 2021, Wu et al., 2021]. Most past conferences have tried to detect such
+misbehavior via Area Chair (AC) oversight, spot checking of discussions, and whistle-blower reports. However, such
+approaches are labor intensive and scale poorly to huge conferences.
+A recent paper [Jecmen et al., 2020] proposed alleviating this issue by using a randomized algorithm for the reviewer
+assignment problem, decreasing the impact of malicious behavior by controlling the probability that certain (suspicious)
+reviewers or pairs of reviewers are matched to a paper. However, such randomization can impose significant costs in
+terms of match quality. We nevertheless strongly agree with Jecmen et al. that malicious behavior is better prevented at
+the matching phase than detected afterwards. We found that the vast majority of papers at AAAI 2021 received a large
+number of bids by qualified reviewers. As was the case for COIs, the abundance of qualified reviewers allowed us to
+relatively harmlessly suppress a few potentially suspicious matches even in the likely event that many of them were
+false positives. At AAAI 2021, bidders could express their level of enthusiasm as not willing, in a pinch, willing, and
+eager. To reduce the risk of making problematic assignments, we downgraded or suppressed a reviewer’s bids when
+they appeared suspicious, which could happen in a number of ways.
+First, a reviewer might place only a few bids to manipulate the likelihood that they would be assigned particular papers
+(in the most extreme example, bidding positively on only a single paper). To mitigate this risk, we discarded all of a
+4
+
+The full DBLP database is publicly available at http://dblp.uni-trier.de/xml/dblp.xml.gz.
+
+5
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+Program Committee (PC) member’s bidding information if they placed fewer than 9 positive bids overall (counting
+in-a-pinch bids as half). We did something similar at other levels of enthusiasm: if a bidder placed fewer than 4
+eager bids, we transformed them into willing bids; then we transformed fewer than 4 willing bids into in-a-pinch. We
+performed a similar procedure for Senior Program Committee (SPC) members, setting a higher threshold of 10 to reflect
+the higher number of required positive bids.
+Second, a reviewer could increase their chances of being assigned a particular paper by bidding negatively on many
+other papers for which they were qualified. We therefore discarded all not willing bids of PCs and SPCs if the number
+of not willing bids exceeded six times the number of willing and eager bids.
+Third, and most complex, collusion rings are arrangements under which two or more reviewers agree to positively
+review each other’s papers, a dismaying phenomenon that is reportedly on the rise [Littman, 2021]. We define two
+criteria to judge whether a bid by a reviewer r on a paper p is consistent with participation in a collusion ring: (1) at
+least 40% of r’s positive bids are on papers authored by a specific author of p; (2) there exists some author r∗ of p such
+that both r and r∗ bid positively on each other’s papers. Specifically, the sum of the number of r’s positive bids on
+papers authored by r∗ and the number of r∗ ’s positive bids on papers authored by r is at least 60% of the total number
+of positive bids by r and r∗ . For both (1) and (2) above, we considered eager and willing bids as positive. These criteria
+are not perfect; e.g., (1) can occur in small subcommunities where a few researchers focus on a given topic, and (2) can
+wrongly flag reviewers with a few submissions (e.g., two authors with one paper each bid on each other’s paper). We
+were willing to tolerate some false positives (for the same reasons outlined above), but aimed to reduce their number
+by requiring a substantial pattern of suspicious bidding across all of a reviewer’s bids. In the assignment process we
+discarded all of a reviewer’s bids when either (1) or (2) indicate the reviewer’s participation in a collusion ring.
+We conducted an extensive manual examination of bids, using various heuristic criteria. In all cases that we judged
+problematic, our method had already eliminated the appropriate bids.
+2.3
+
+Scoring Matches
+
+A key question in automated reviewer–paper matching is quantifying the value of matching a reviewer rj with a
+submitted paper pi , which we denote as sij . It is critical to get this right.5 In brief, we considered a match to be good if
+the reviewer both had expertise in the paper’s subject matter and was interested in the paper. We assessed expertise
+by aggregating three complementary signals: Toronto Paper Matching System (TPMS) scores; ACL matching scores;
+and degree of match between the paper’s primary and secondary subject area keywords and those of the reviewers.
+We assessed degree of interest via bids, assuming a baseline level of interest for papers about which a reviewer was
+predicted to have expertise and for which the reviewer did not submit any explicit (positive or negative) bid.
+Much existing work has leveraged similar signals, much of which is focused on automatically discovering latent topics
+of a submission and comparing it with latent topics of a set of papers authored by a given reviewer [Mimno and
+McCallum, 2007, Long et al., 2013, Anjum et al., 2019, Kobren et al., 2019, Wieting et al., 2019]. Three further lines of
+related work deserve detailed discussion, since we either extended them [Conry et al., 2009] or leveraged them directly
+[Charlin and Zemel, 2013, Neubig et al., 2020].
+First, Conry et al. [2009] proposed a score based on the primary and secondary subject areas of the paper and that of the
+reviewer. The fundamental idea was to embed both reviewers and papers into a discrete vector space with each discrete
+dimension quantifying the affinity of either the reviewer or the paper to the corresponding topic.
+Second, the TPMS score [Charlin and Zemel, 2013] is computed based on the similarity between the text of a submitted
+paper and a reviewer’s prior publications. The similarity is quantified by the dot product between a paper vector and a
+reviewer vector. The paper vector is constructed using the topic proportions in the text of the submitted paper identified
+by Latent Dirichlet Allocation (LDA) [Blei et al., 2003]. The reviewer vector is computed by taking an average of the
+topic proportions in each of the reviewer’s prior publications. TPMS scores can only be computed for reviewers whose
+prior publications are known.
+Third, the ACL matching score [Neubig et al., 2020] compares abstracts of a submitted paper and the abstracts of
+a reviewer’s prior publications in a dense vector space. The abstract representation is computed by averaging the
+embeddings of subwords generated by the SentencePiece tokenizer [Kudo and Richardson, 2018]. A score is then
+computed for each of the reviewer’s prior publications with respect to the paper. The top three scores are aggregated
+to compute the ACL score. ACL scores can only be computed for reviewers whose past publication abstracts are
+accessible, e.g., via a known Semantic Scholar profile.
+5
+
+Indeed, a few readers may remember that our initial matching at AAAI 2021 had to be changed, and the reason was that we
+accidentally miscalibrated our scoring function. Based on the emails we received, reviewers definitely noticed!
+
+6
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+The rest of this section is organized as follows. We first describe how we computed Subject Area Matching (SAM)
+scores, a continuous extension of discrete affinity scores. Then, we describe how we normalized raw TPMS, ACL
+and SAM scores to make sure that they have the same scale. We then explain how we merged these scores to make
+them robust to missing data. This was a real concern because we needed to rely on reviewers to manually provide the
+information required to compute these scores, and around 40% of the reviewers had at least once missing entry. Next,
+we explain how we adjusted these scores to take into account reviewers’ bids. Finally, we describe an approach for
+pruning low-scoring matches, which we used to avoid the possibility of wildly inappropriate matches.
+
+2.3.1
+
+Subject Area Matching Score (SAM)
+
+We scored the keyword match between papers and reviewers via an extension of the affinity scoring idea described
+earlier [Conry et al., 2009], which embeds each reviewer and paper in a vector space. Our approach went beyond
+explicitly specified subject areas by learning correlations between different keywords. This is important because the
+approach of Conry et al. [2009] assigns a weight of 0 to keywords that are not specified explicitly, even when these
+have a strong degree of semantic similarity with a keyword that is specified. For example, keywords “Humans and
+AI -> Human-Agent Negotiation" and “Game Theory and Economic Paradigms -> Negotiation and Contract-Based
+Systems" were highly correlated at AAAI 2021, and thus it might be inaccurate to assign a weight of 1 to only one of
+the two when the other is absent.
+In AAAI 2021, authors described their submissions via one primary keyword and a variable number of secondary
+keywords; likewise reviewers characterized their area(s) of expertise. Let Ψ = {ψ1 , · · · ψNψ } be the set of subject areas.
+We represent each paper pi using two vectors based on their associated subject areas: a primary vector ip ∈ {0, 1}Nψ
+and secondary vector is ∈ {0, 1}Nψ . ip is a one hot vector that represents the primary subject area and ip is a multi hot
+vector that represents the secondary subject areas. We represent each reviewer rj using a vector j ∈ [0, 1]Nψ . We set the
+dimensions corresponding to the reviewer’s primary subject area to 1 and the reviewer’s secondary subject areas to 0.5.
+Constructing a sparse vector representation using just the primary and secondary areas will fail to capture reviewer’s
+expertise in semantically similar areas that were not explicitly mentioned. To alleviate this problem, we convert the
+sparse j vector to a dense vector by inferring the reviewer’s expertise in subject areas other than primary and secondary.
+Let ψ 0 ∈ Ψ be a subject area which is neither in reviewer’s primary or secondary areas. We first identify multiple
+sources that can help us infer the expertise value jψ0 ∈ [0, 1] for ψ 0 . We then infer an expertise value using each source
+one at a time and aggregate them. We now discuss each source and how we infer the expertise value using them.
+Co-occurrence: Given that a reviewer is an expert in ψ, we compute conditional expertise in ψ 0 as Pe (ψ 0 |ψ) =
+n(ψ, ψ 0 )/n(ψ), where n(ψ, ψ 0 ) is the number of reviewers and papers with both ψ and ψ 0 in their subject areas and
+n(ψ) is the number of reviewers and papers with ψ in their subject area. The intuition behind this approximation is two
+fold: (1) Pe uses the current trend to capture correlation among the subject areas and (2) the asymmetry in Pe ensures
+expertise in a specialized area can indicate expertise in that generic areas but not vice-versa. Given a reviewer’s subject
+area ψ, the expertise value of ψ 0 is ρ ∗ Pe (ψ 0 |ψ). ρ is set to 1 when ψ is a primary area and 0.5 when ψ is a secondary
+area. We consider the primary and the secondary areas as different sources and compute a expertise value for each
+source separately.
+Paper Subject Areas: The subject areas of papers submitted by j (if any) that are not already in the reviewer’s subject
+areas are set to a value (0.2) lower than the one used for secondary areas. This helps capture expertise of reviewers in
+areas they just started exploring.
+Common Parent: Each subject area ψ can be expressed as parent(ψ) → child(ψ). For example, in NLP → Dialog
+Systems, NLP is the parent and Dialog Systems is the child. Each parent can have multiple children. Given a reviewer’s
+subject area ψ, we assign a score of ρ ∗ 0.4 to ψ 0 if parent(ψ 0 ) is same as parent(ψ) and 0 otherwise. ρ is same as the
+one used for co-occurrence computation.
+For each subject area ψ 0 , we compute the expertise value from different sources, aggregate them using the max operator
+and assign it to jψ0 . The max operator helps pick the source that best models ψ 0 . Finally, we compute the Subject Area
+Matching (SAM) score using sparse paper vectors (ip and is ) for paper pi and dense reviewer vector j for reviewer rj
+i ·j+λ·Sorted(is ◦j)
+as SAM(i, j) = p
+, where the operator ◦ indicates Hadamard product, the function Sorted(x) sorts the
+Z
+PM
+elements in x in decreasing order and λ = [0.5, 0.52 , · · · , 0.5Nψ ]. The normalizer Z = 1 + m=1 0.5m , where M is
+the number of non-zero values in is . The scoring function ensures (1) paper’s primary area contributes more than all the
+secondary areas, (2) the more the number of secondary areas match, the higher the score, and (3) papers do not get
+penalized for providing fewer (or zero) secondary areas.
+7
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+Some intuitive properties of SAM scores are: it considers the primary keyword to be more important than all of the
+secondary keywords; gives each individual keyword less weight when more keywords are listed; and imputes additional
+keywords (with lower weights) for reviewers based on keyword co-occurrence patterns across the whole conference.
+2.3.2
+
+Normalizing Scores
+
+We wanted all final scores to lie in the range [0, 1] so that we could use consistent units to set the parameters that
+penalize violations of soft constraints (e.g., we might penalize violation of a soft constraint by 0.1 units, meaning that
+we would accept a match that scored 0.09 units worse in order to preserve the constraint, but not a match that scored
+0.11 units worse). Since we computed the three component scores (TPMS, ACL and SAM) independently, and since
+we observed a huge discrepancy between the numerical range of the three raw scores, we first normalized them each
+individually before taking their weighted average as the final matching score.
+To do so, for each score, we independently and randomly selected many (paper, reviewer) pairs. A Program Chair
+manually examined each pair (reading the paper’s abstract and the reviewer’s profiles) and annotated each pair (pi , rj ) as
+yij ∈ {1, 0.75, 0.5, 0}, corresponding to excellent, good, in-a-pinch, and bad matches respectively. We then performed
+a linear regression mapping the raw score component to yij and clipped the resulting function to the range [0, 1].
+2.3.3
+
+Aggregating Scores
+
+Our next task was to aggregate scores into a single number between 0 and 1, in a way that was robust to missing TPMS
+and ACL scores. We decided to give more weight to keyword-based scores than either of the automatically inferred
+scores (TPMS and ACL), since keyword scores were computed using information provided explicitly by authors and
+reviewers. When both TPMS and ACL were present, we summed TPMS + ACL + 2 * SAM and then renormalized;
+when only one of TPMS and ACL were present, we summed the available score and SAM score and renormalized;
+when only SAM score was present we used it as the base aggregated score:
+1
+TPMS + 14 ACL + 12 SAM if all data is present
+
+
+ 14
+ACL + 12 SAM
+if TPMS is missing
+Base Aggregated Score = 21
+1
+
+TPMS + 2 SAM
+if ACL is missing
+
+2
+SAM
+if both ACL and TPMS are missing
+2.3.4
+
+Accounting for bids
+
+Given this score capturing reviewer expertise, we still needed to account for reviewer interest as expressed through
+bidding to obtain a final result we called aggscore. We computed aggscore by upweighting/downweighting the base
+aggregated score based on the bid. Our approach to combine expertise and interests does not allow bids to override the
+base aggregated scores. We achieved this by computing aggscore as follows:
+aggscore = (Base aggregated score)bidscore
+We used bidscores as 20, 1, 0.67, 0.4, 0.25 corresponding to not-willing, not-entered, in-a-pinch, willing, and eager
+bids, respectively. Observe that this procedure maintained scores in the range between 0 and 1; exponents greater than 1
+(for not-willing) reduced scores while exponents less than 1 (for in-a-pinch, willing, and eager) increased scores. Our
+use of an exponent of 1 for papers that received no explicit bid left those scores unchanged. Observe also that our use of
+exponentiation (as compared e.g., to adding a constant and renormalizing) meant that reviewers could not influence the
+system to give them papers for which they were manifestly unqualified, whereas the presence or absence of a bid could
+make a significant difference to the scores of sufficiently qualified reviewers.
+2.3.5
+
+Cleaning up low scoring matches
+
+Finally, we observed that while high ACL or TPMS scores indicated good matches, their assignment of low values
+carried much less signal than low SAM scores. Hence, when aggscore was less than 0.15, we used the minimum of
+0.15 and the SAM score exponentiated by the reviewer’s bid. This transformation ensured that whenever a low-scoring
+match was selected, it was at least from the same subject area. This avoided the possibility of wildly inappropriate
+matches and helped reviewers see some rationale for our decisions to assign poorly matching papers.
+
+3
+
+Formulating the Review Assignment problem
+
+We formulated the problem of maximizing our scoring function subject to our set of both hard and soft constraints as a
+Mixed-Integer Programming (MIP) problem. It is quite natural to formulate the reviewer–paper matching problem
+8
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+as one of maximizing an aggregate weighted matching score subject to reviewer and paper capacity constraints and
+avoiding COIs, and much past work has done so [Flach et al., 2010, Garg et al., 2010, Tang et al., 2010, Lian et al., 2018,
+Taylor, 2008, Kobren et al., 2019, Charlin and Zemel, 2013, Charlin et al., 2011]. Indeed, with only COI and capacity
+constraints, this formulation corresponds to a network flow problem and is thus solvable in polynomial time [Taylor,
+2008]. Unfortunately, that formulation can yield an inequitable distribution of work across reviewers and of scores
+across papers. To address this, Stelmakh et al. [2019] and Kobren et al. [2019] focused on finding more balanced
+matchings. Specifically, instead of the common objective of maximizing the aggregate weighted matching score,
+Stelmakh et al. [2019] look into finding matches that maximize the minimum matching score across all papers. Because
+the resulting optimization problem is NP-hard, they design an approximation algorithm, which finds a suboptimal
+solution by solving a series of network flow problems. Kobren et al.—like us—aim to maximize an aggregate weighted
+matching score, but took a somewhat different approach. Specifically, they augmented an Integer Linear Program
+with lower and upper bounds on the assignments per reviewer and also added local fairness constraints to ensure
+that the total matching score for each paper would exceed a threshold; they propose an approximation algorithm that
+relaxes integrality constraints to solve their assignment problem. Our own approach uses slack variables to soften hard
+constraints instead of relaxing the integer constraints, resulting in a mixed-integer program. We also introduce a wide
+range of additional constraints. We now describe our approach in more detail.
+3.1
+
+Constraining Matches
+
+It would not suffice simply to identify a score-maximizing matching: the best reviewers could be given hundreds of
+papers; different papers could receive very different treatment, leading to an unfair assignment. For example, a paper
+may get assigned all junior reviewers from one research group. We thus imposed various constraints on reviewer–paper
+matchings.
+Constraint 1 (COI). No reviewer should be assigned to a paper with which they are in conflict.
+Constraint 2 (Number of Reviewers). Each paper must receive a specified number of reviews.
+Historically, this number of reviews has been three at AAAI and many other AI conferences. In our two-phase reviewing
+system (see Section 4) we solved the reviewer–paper matching problem separately in each of our phases, assigning two
+reviewers for each paper in Phase 1, and adding additional reviewers in Phase 2 such that each paper not rejected in
+Phase 1 got at least four reviews across the two phases. (That is, we added extra reviewers in Phase 2 when reviewers
+didn’t submit their reviews at the end of Phase 1.)
+Constraint 3 (Reviewer Load). The number of papers assigned to any reviewer should not exceed some maximum.
+At AAAI 2021 we had a hard limit of three papers per reviewer per phase, and (as we will discuss later) penalized
+matchings that assigned more than two papers per reviewer in a given phase.
+Constraint 4 (Seniority). Each paper is assigned at least one experienced reviewer.
+Our goals were: (1) to ensure that experienced reviewers were distributed fairly across papers; (2) to reduce variance
+in reviews; and (3) to ensure that each discussion had at least one experienced participant, to promote the training of
+novice reviewers.
+A second set of constraints served both to ensure that each paper is reviewed by an intellectually diverse set of reviewers
+and to make collusion rings harder to sustain. Collusion is only possible amongst reviewers who can somehow
+communicate with one another. By preventing pairs of co-authors from reviewing the same papers, preventing arbitrary
+pairs of reviewers from bidding to review each other’s papers, and by choosing reviewers from as diverse a set of
+geographic regions as possible, we limited opportunities for gaming the system.
+Constraint 5 (Coauthorship Distance). No two reviewers assigned to the same paper have small distance in the
+coauthorship graph.
+Constraint 6 (Geographic Diversity). No two reviewers assigned to the same paper belong to the same geographic
+region.
+Constraint 7 (No 2-Cycles). No pair of reviewers who both bid positively on each other’s papers may review each
+other’s submissions.
+It would not have been desirable to satisfy these constraints at all costs. For many papers, it was easy to find qualified
+reviewers satisfying all of these constraints; however, for others imposing all of these constraints would dramatically
+have degraded reviewer quality or even made it impossible to find the required number of reviewers. For example,
+qualified reviewers often bid on each other’s papers without harboring malicious intent. Out of caution, we adopted the
+principle of finding matchings that avoided such cases when reasonable alternatives were present, but were willing to
+9
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+relax the principle otherwise. We therefore expressed all but COI, Number of Reviewers, and PC’s Reviewer Load as soft
+constraints. More specifically, for each constraint we identified a constant expressing its importance and penalized the
+objective function by this constant each time the constraint was violated for a reviewer–paper pair. Observe that the task
+of identifying these constants was dramatically simplified by our decision to normalize our scoring function between
+0 (worst possible reviewer–paper matching) and 1 (best possible matching). For example, expressing a coauthorship
+distance penalty of 0.1 would mean that we would prefer to accept a reviewer–paper matching scoring up to 0.1 points
+lower in exchange for satisfying the constraint.
+3.2
+
+MIP Problem Formulation
+
+We now formally specify our mixed-integer program. Let us denote the set of N papers by P, the set of Program
+Committee members (PCs) by PC, the set of SPCs (Senior Program Committee members) by SPC, and the set of Area
+Chairs (ACs) by AC. We define the set of reviewers to be R = PC ∪ SPC ∪ AC and use the term reviewer to refer to
+any of a PC, SPC or AC.
+Our goal is to assign γpc PCs, γspc SPCs, and γac ACs to each paper pi , for 1 ≤ i ≤ N , such that the total reviewer–paper
+matching score is maximized subject to a set of constraints denoted by C. Our overall objective function not only
+includes the total matching score, but also various penalties via the slack variables, due to violation of corresponding
+hard constraints. We initialize the overall objective function O as the total matching score and then keep on adding
+terms to it as we relax the various constraints in the next section. We create binary variables xij that denote whether
+paper pi is assigned to reviewer rj .6 We can write:
+X
+Initial Objective: Omatch =
+sij xij .
+(1)
+i∈P,j∈R
+
+Recall that sij ∈ [0, 1] is the aggscore, the matching score between reviewer rj and paper pi as discussed in Section 2.3.
+Next, we formulate all the (soft) constraints in C as described earlier.
+Formulation of Constraints in C
+
+3.3
+
+Constraint 1 (COI): Let coiij = 1, if there exists a conflict of interest between reviewer j and any of the authors of the
+paper i, and 0 otherwise. Reviewer j cannot review paper i if coiij = 1:
+xij = 0, for each i ∈ P, j ∈ R, such that coiij = 1.
+
+(2)
+
+Constraint 2 (Number of reviewers): For each paper pi , we need to ensure that it gets the desired number of reviewers:
+X
+X
+X
+xij = γpc ;
+xij = γspc ;
+xij = γac
+j∈PC
+
+j∈SPC
+
+j∈AC
+
+With the equality constraints above, the MIP may become infeasible. Hence, we replace it with inequality constraints:
+X
+X
+X
+xij ≤ γpc ;
+xij ≤ γspc ;
+xij ≤ γac
+(3)
+j∈PC
+
+j∈SPC
+
+j∈AC
+
+These constraints would be tight for a maximization problem where each match contributes positively to the objective.
+Note that it is possible to have a case in which conditional on the rest of the assignment, the only remaining matches do
+not positively contribute to the objective function. In such a case, the optimizer will not assign those papers their full
+capacity of reviewers since such assignments would be of poor quality. We manually reviewed such cases.
+Constraint 3 (Reviewer Load): The total number of papers assigned to a reviewer j should not exceed their capacity
+cj ∈ Z+ :
+X
+xij ≤ cj , ∀j ∈ PC
+(4)
+i∈P
+
+X
+
+xij ≤ cj , ∀j ∈ SPC ∪ AC
+
+i∈P
+6
+
+In Phase 2, we set xij = 1 if rj was already assigned to pi in Phase 1 to ensure that the matching from Phase 2 is a superset of
+Phase 1 matching. The capacity limits on reviewers were increased accordingly.
+
+10
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+Just ensuring the above upper bound may lead to an inequitable assignment of papers to reviewers, especially ACs and
+SPCs, many of whom may end up with no assignment at all. To resolve this, one option is to add a lower bound lj on
+the number of papers assigned to ACs and SPCs, as suggested by Kobren et al. [2019]:
+X
+xij ≥ lj , ∀j ∈ SPC ∪ AC.
+i∈P
+
+However, the lower bound constraint only ensures that no SPC or AC is unassigned, rather than preventing skewed
+matchings. To promote an equitable distribution of papers amongst reviewers, we introduce W intermediate capacity
+levels. For each w ∈ {1, 2, . . . , W }, we define cjw to be the intermediate capacity for reviewer j and set cj1 = lj and
+cjW = cj . For ACs and SPCs, we replace the hard capacity constraints with a sequence of soft capacity constraints,
+one for each capacity level w. These constraints promote equitable distribution of papers as additional penalties are
+incurred each time an assignment crosses a new capacity level, making it very expensive to overload an individual.
+To do so, we introduce new slack variables, scap
+jw ≥ 0, ∀j ∈ SPC ∪ AC, ∀w ∈ {1 . . . W }, each of which relax the
+capacity cjw to scap
++
+c
+,
+but
+penalize
+the
+objective
+by pcap
+w (typej ) for each additional assignment above cjw , where
+jw
+jw
+typej denotes the reviewer category (SPC or AC). Then, for each w ∈ {1 . . . W }:
+X
+xij ≤ scap
+(5)
+jw + cjw , ∀j ∈ SPC ∪ AC and ∀w ∈ {1 . . . W };
+i∈P
+
+Ocap =
+
+X
+
+X
+
+cap
+pcap
+w (typej )sjw .
+
+(6)
+
+w∈W j∈SPC∪AC
+
+Constraint 4 (Seniority): We first assign seniorityj ∈ {0, 1, 2, 3} to each reviewer j, such that 3 is the senior-most
+category and 0 is the junior-most category. In AAAI 2021, we chose to assign seniority levels as follows: Reviewers who
+had previously reviewed for at least 3 relevant conferences7 or had published 10 or more papers in relevant conferences
+were assigned seniority level 3. Remaining reviewers having between 4 and 9 published papers were assigned seniority
+level 2. Remaining reviewers having 2 to 4 papers or with experience reviewing at one or two previous conferences
+were assigned seniority level 1. All other reviewers were assigned a seniority level of 0.
+We then reward each paper for maximizing its seniority level, up to some maximum reward. We introduce slack
+variables, ssen
+i ≥ 0 ∀i ∈ P.
+X
+ssen
+seniorityj xij , ∀i ∈ P
+(7)
+i ≤
+j∈PC
+
+ssen
+i ≤ TargetSeniority, ∀i ∈ P
+ssen
+i ≥ MinSeniority, ∀i ∈ P
+X
+Osen =
+Rewardsen ssen
+i
+
+(8)
+(9)
+(10)
+
+i∈P
+
+Note that setting MinSeniority greater than 0 can result in possible infeasibility (i.e., it may not be possible to assign a
+minimum level of seniority simultaneously to every paper). Setting MinSeniority = 0 keeps the constraint soft. Papers
+are rewarded for seniority up to a maximum seniority level given by TargetSeniority. Setting this target allows us to
+express a preference for spreading seniority out over many papers rather than concentrating it on a few papers, as the
+objective only gets a bonus for the first TargetSeniority units of seniority per paper.
+Constraint 5 (Coauthorship Distance): This set of constraints penalizes the assignment of pairs of reviewers who have
+ever coauthored a paper together to the same paper. This reduces the chances of papers’ reviewers knowing each other,
+promoting review diversity. To do so, for each pair of reviewers in V = {(j, j 0 )|j < j 0 , j, j 0 ∈ PC ∪ SPC}, we define
+a new variable cadjj 0 ≥ 0 such that it takes the value of 1 if there exists a common paper assigned to both j and j 0 , and
+0 otherwise. We exclude ACs from this set of constraints as they are few in number, highly trusted, and are not directly
+involved in discussions with the PCs. The following constraints define cadjj 0 :
+cadjj 0 ≥ 0, ∀j, j 0 ∈ V ;
+
+(11)
+0
+
+cadjj 0 ≥ xij + xij 0 − 1, ∀i ∈ P and ∀j, j ∈ V.
+
+(12)
+
+7
+Reviewers were asked: “How many times have you been part of the Program Committee (as PC/SPC/AC, etc) of AAAI, IJCAI,
+NeurIPS, ACL, SIGIR, WWW, RSS, NAACL, KDD, IROS, ICRA, ICML, ICCV, EMNLP, EC, CVPR, AAMAS, HCOMP, HRI,
+ICAPS, ICDM, ICLR, ICWSM, IUI, KR, SAT, WSDM, UAI, AISTATS, COLT, CORL, CP, CPAIOR, ECAI, or ECML in the past?”
+
+11
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+Next, let djj 0 denote the edge distance between two reviewers j and j 0 in a coauthorship graph with reviewers as nodes.
+An edge exists between j and j 0 iff they have ever published a paper together (based on DBLP data, as described
+in Section 2.1.2). To discourage coauthors being reviewers of the same paper, we add a penalty that is bigger when
+coauthorship distance is small:
+X
+Oco =
+pco (djj 0 )cadjj 0 .
+(13)
+(j,j 0 )∈V
+
+pco (d) is the penalty coefficient, which depends on coauthorship edge distance d. We set |pco (1)| > |pco (2)| > 0 and
+pco (d) = 0, ∀d ≥ 3.
+Constraint 6 (Geographic Diversity): For each paper i, let variable regi count the number of distinct geographic regions
+of its assigned PCs and SPC. We inferred regions based on academic affiliations and email addresses provided by the
+reviewers. To encourage assignment of reviewers from different geographic regions, we add a reward proportional to
+regi in the overall objective function so that regi is maximized. To count regi , we need to introduce auxiliary indicator
+variables, vir ≤ 1, that take the value of 1 only if paper i is assigned at least 1 reviewer from region r ∈ Regions. Let
+tjr indicate if reviewer j belongs to region r or not. The following expressions define the overall regional constraints
+for each paper.
+X
+regi ≤
+vir , ∀i ∈ P
+(14)
+r∈Regions
+
+vir ≤
+
+X
+
+tjr xij , ∀r ∈ Regions and ∀i ∈ P
+
+(15)
+
+j∈PC∪SPC
+
+vir ≤ 1, ∀r ∈ Regions and ∀i ∈ P
+X
+Oreg =
+Rewardreg regi
+
+(16)
+(17)
+
+i∈P
+
+Constraint 7 (No 2-Cycles): These constraints aim to avoid scenarios where two reviewers both bid positively on
+each other’s papers and are assigned these papers to review. Similar to Constraint 5 (Coauthorship Distance) and 6
+(Geographic Diversity), we exclude ACs from this constraint for similar reasons. We first identify all such bidding
+cycles, where reviewer j bids positively on paper i authored by reviewer j 0 and j 0 bids positively on paper i0 authored by
+reviewer j, with j, j 0 ∈ PC ∪ SPC. Denote such a bidding cycle by a 4-tuple (j, j 0 , i, i0 ), and the set of all such cycles
+as CY . We then aim to avoid any of the assignments in the bidding cycle (j, j 0 , i, i0 ). We introduce slack variables,
+cy
+scy
+jj 0 ii0 ≥ 0, for each bidding cycle, and add a penalty p in Equation (19) for every assignment that belongs to a bidding
+cycle.8
+0
+0
+xij ≤ scy
+jj 0 ii0 , ∀j, j , i, i ∈ CY
+X
+Ocy =
+pcy scy
+jj 0 ii0
+
+(18)
+(19)
+
+j,j 0 ,i,i0 ∈CY
+
+Finally, our overall assignment problem can be stated as:
+max O = Omatch + Ocap + Osen + Oco + Oreg + Ocy
+subject to C.
+3.4
+
+Solving the Review Assignment problem
+
+Given our formulation, instantiating a variable xij for each possible (reviewer j, paper i) combination, along with all of
+the associated slack variables and constraints, would lead to a MIP too large to store in memory, let alone to solve. We
+therefore applied column (variable) generation, only creating variables for a subset of all possible assignments and
+employed row (constraint) generation.
+8
+
+In the conference and this paper’s experiments, we used an alternate formulation of the constraint which only penalized bidding
+0
+cycles that led to assignment cycles. In this formulation, slack variables scy
+jj 0 were created for each pair of reviewers (j, j ) involved
+cy
+in a bidding cycle, and the constraint was enforced with xij + xi0 j 0 ≤ (1 + sjj 0 ). We present the above formulation instead because,
+on reflection, we recommend penalizing both halves of a cycle separately.
+
+12
+
+Matching Papers and Reviewers at Large Conferences
+
+3.4.1
+
+A P REPRINT
+
+Generation of Assignment Variables
+
+We only created xij variables that were likely to be relevant (thereby restricting the space of possible assignments;
+implicitly, non-generated variables are set to 0). There was little point in considering variables that correspond to (i, j)
+pairs with low matching scores, as these would represent poor matches. In rare cases, this may result in papers receiving
+fewer than the desired number of reviews. When the MIP is infeasible in this way, one can iterate (perform column
+generation) by generating more matching variables for the corresponding papers. However, at AAAI we assigned
+matches to such papers manually, as the algorithm is unlikely to do much better than a random assignment when given
+only low-scoring alternatives. We did not create variables for any reviewer–paper pair (i, j) with sij < 0.15.9
+We created variables as follows: for each paper, we created a variable for the k highest scoring PC, SPC, and AC
+reviewers. Similarly, for each PC/SPC/AC member, we created a variable (if it did not exist already) for their highest
+scoring k/5k/10k papers. k can be iteratively expanded as time allows (perhaps in a targeted way, such as increasing
+k for underutilized reviewers) until the dense matrix is recovered. However, our MIP was computationally feasible
+at high enough k that further increases to k offered only negligible improvements, so we did not iteratively perform
+column generation.
+3.4.2
+
+Generation of Coauthor Constraints
+
+Even given our reduced k, there were too many coauthor constraints to include (the number scales with the product of
+the number of xij variables and the number of reviewers). Instead, we started solving the problem with no coauthor
+constraints. After reaching an initial solution, we identified violated coauthor constraints and added them explicitly
+to the MIP. We repeated this process until we were satisfied with the number of violated constraints; in practice the
+number of violations plateaued after eight iterations. Pseudocode is given as Algorithm 1.
+Algorithm 1: Assignment Variable Sparsification and Constraint Generation
+1: Let Vmaster contain all coauthor constraints
+2: Let Xk be the set of xij variables obtained by sampling a constant multiple of the top k papers for every reviewer and top k
+reviewers for every paper
+3: i ← 0
+4: Vi ← {} {Store of violated coauthor constraints up to iteration i, initially empty}
+5: while True do
+6:
+Solve the MIP defined by Xk and Vi . Store the solution in X∗
+7:
+Identify all new coauthor violations Vnew in X∗ using Vmaster
+8:
+if Vnew is empty or time has run out then
+9:
+Return X∗
+10:
+end if
+11:
+Vi+1 ← Vi ∪ Vnew
+12:
+i←i+1
+13: end while
+
+Lastly, to reduce computation time, we did not attempt to find an optimal solution to the MIP. Instead, we set an absolute
+MIP-gap tolerance of 20. Since aggscore is on a scale between 0 and 1 and we make on the order of tens of thousands
+of assignments, being suboptimal by at most 20 objective function units is relatively benign. The result was that we
+found a very nearly optimal solution much more quickly.
+
+4
+
+Two-Phase Reviewer Assignment
+
+The quality of papers submitted to large conferences such as AAAI 2021 varies vastly. An influential experiment by
+organizers of the 2014 NeurIPS conference [Lawrence and Cortes, 2014] split reviewing between two independent
+Program Committees and had them both review 10% of submissions. It found that the strongest papers (a small set)
+and the weakest papers (a much larger set) could be reliably identified, but that many papers close to the decision
+boundary were accepted by one Program Committee and rejected by the other. In the years since, conference organizers
+have sought to reallocate reviewing resources from papers that are nearly certain to be rejected to papers that have a
+realistic chance of acceptance, to improve review quality for the latter group. A popular approach is to employ simple
+9
+We note that this suggests a refinement to the bidding procedure: it is only necessary to show reviewers papers for which a
+sufficiently positive bid could bring their score above the threshold. This could result in large time savings for reviewers in the
+bidding phase, as it can be hard to sift through an entire conference worth of papers.
+
+13
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+heuristics designed to detect low-quality papers, a process known as “summary rejection” or “desk rejection”. For
+example, in IJCAI 2020, Area Chairs were asked to spend a short amount of time skimming each paper to decide
+whether it deserved a more careful review [Bessiere, 2020]. Neurips 2020 employed a similar system: over three
+weeks, Area Chairs skimmed over 9,000 papers to identify obvious rejects and senior Area Chairs cross-checked these
+choices; 11% of submissions received summary rejects [Yuan, 2020]. Given the size of AI conferences, such summary
+rejection procedures are time consuming for Area Chairs. Furthermore, they are likely to be noisy and also may reflect
+unconscious biases against superficial properties of a paper, meaning that they may not be reliable enough to eliminate
+more than a relatively small fraction of papers. Finally, they tend to be unpopular with authors, who dislike having their
+paper rejected via an opaque process that produces no reviews. For these reasons, NeurIPS decided not to employ such
+an approach in 2021 on the basis of negative feedback received in 2020.
+We advocate an alternative early-rejection approach that simultaneously concentrates the conference’s reviewing budget
+on papers close to the decision boundary; provides meaningful feedback to authors of early-rejected papers; and
+early-rejects few papers that could ultimately have been accepted (see our evaluation below). The key idea is to break
+reviewing into two phases. In Phase 1 each paper is assigned 2 reviewers. Papers that receive two sufficiently-highconfidence reviews recommending rejection are rejected at this stage, with the authors immediately receiving these
+full reviews and being offered no opportunity for rebuttal. The process then proceeds to Phase 2, where two or more
+additional reviewers are assigned to each of the papers that remain. After the second round of reviews, rebuttals are
+solicited from authors and reviewers from both phases are asked to read rebuttals and each other’s reviews, to engage in
+a discussion mediated by SPCs and ACs, and ultimately to revise their reviews accordingly. Program Chairs then make
+decisions based on recommendations from ACs.
+The key rationale for this system is that, given the low acceptance rates at AI conferences, papers for which the first two
+reviews are both confident and negative have a very low chance of eventual acceptance. Because reviews are much
+more careful than quick perusals by ACs, this system is also able to reject a larger fraction of papers than the summary
+rejection approaches employed by IJCAI, NeurIPS, and other conferences. The resulting reviewing resources can be
+devoted to papers with a larger chance of acceptance, reducing variance in these recommendations. In the experimental
+section below, we offer evidence both that papers rejected in Phase 1 were indeed likely to be rejected if given more
+reviews, and that additional reviews performed in Phase 2 indeed reduced variance in confidence-weighted average
+scores.
+It is also worth mentioning three additional benefits of the Two-Phase approach. First, inevitably some reviewers fail to
+complete their assignments, others report low confidence, and still others point out a need for additional reviews by
+specialists in particular topics. When this occurs in Phase 1, new reviewers can be found without needing to resort to
+ad hoc, manual approaches that scale badly to large conferences. Second, the existence of a second reviewer–paper
+matching period at the beginning of Phase 2 makes it possible to fast-track high-quality rejected submissions from
+another conference, using their previous reviews and some numerical constraint on their average scores to take the
+place of the reviews that would have been obtained in Phase 1. We deployed such a “fast-track” in AAAI 2021 for
+papers that received NeurIPS and EMNLP reviews that scored them roughly in the top half of submissions. Third,
+many authors appreciate receiving rejection notifications quickly so that they can resubmit their work to another venue
+without waiting for the whole review process to conclude.
+Finally, we note two key drawbacks of Two-Phase reviewing: reviewers have to be chased twice, increasing workload
+for Program Chairs, ACs, and SPCs; and authors rejected in Phase 1 have no opportunity to rebut reviews that they
+consider erroneous.
+While we designed our Two-Phase reviewing system independently, we have since learned that various versions of the
+idea were previously implemented at several other CS conferences. To the best of our knowledge, the first conference
+that split reviewing into two phases was ICML 2009 [Bottou and Littman, 2009]. According to the program chairs, the
+motivation was not increasing the number of reviews assigned to strong papers, as it was for us, but rather a concern that
+papers would be rejected by reviewers who did not fully understand them, due to exponential growth in submissions
+that had led to a pool of papers larger than the pool of trusted reviewers. ICML09’s system differed from ours in at
+least two key ways: in Phase 1, authors in ICML 2009 were asked to indicate a preference for an Area Chair who
+would oversee their paper in Phase 2 and help to choose reviewers; papers were allowed to submit a rebuttal in response
+to Phase 1 reviews. Two-Phase reviewing was discontinued at ICML in 2011, apparently because the highly manual
+process became both logistically unwieldy and excessively time consuming as the conference continued to grow.
+We are aware of two other (non-AI) conferences that also employed Two-Phase reviewing: ASPLOS, and OOPSLA
+[Adve and Hoe, 2010, Lopes, 2014]. Notably, in OOPSLA13 [Lopes, 2014], authors of accepted Phase 1 papers
+were asked to revise their papers based on Phase 1 reviews; Phase 2 reviews then assessed the revised versions.
+ASPLOS21 [Kozyrakis and Berger, 2021] required authors to submit a two-page extended abstract in Phase 1; about
+55% of the papers were then promoted to Phase 2 and asked to submit a full paper. In addition to these conferences,
+14
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+Boehm et al. [2021] describe a Two-Phase reviewing process for PLDI conferences, in which Phase 1 decisions are
+made based on at least three reviews and authors of the papers that are candidates for Phase 1 rejection are invited to
+submit author responses before a final decision is made for their papers. The author response period for the rest of the
+papers happens at the end of Phase 2.
+AAAI 2021’s successful deployment of Two-Phase reviewing has already begun to show some impact of its own. On
+the practical side, our Two-Phase design was maintained by AAAI 2022 and was newly adopted by both IJCAI 2022
+and ICML 2022. The design has also received academic study. A recent paper by Jecmen et al. [2021] investigated how
+reviewers should be divided across the two phases to maximize the overall matching score in a conference, showing
+that the problem is NP-Hard and empirically verifying that a simplified random-split strategy of randomly reserving
+reviewers for Phase 2 gives a near-optimal assignment on real conference data.
+
+5
+
+Evaluations
+
+5.1
+
+Analysis of Match Quality
+
+We deployed the reviewer–paper matching approach described above for the AAAI 2021 conference. In this section,
+we analyze a dataset of 6,729 submissions10 , the specific reviewer matching we obtained for them, and the resulting
+paper reviews from 8,072 reviewers in the main conference’s PC11 . Unfortunately, we are unable to release the data
+used for any analyses because data about a conference review process is inherently sensitive, but we summarize our
+findings in what follows. We used the following parameters12 (see Section 3.2 for definitions): Rewardreg = 0.1,
+|Regions| = 5, pcy = −0.05, pco (1) = −0.3, pco (2) = −0.2, Rewardsen = 4, TargetSeniority = 4, MinSeniority = 0.
+In Phase 1, we set reviewer capacities to 3 for PCs, and set γpc = 2, γspc = γac = 1; we increased PC capacity to
+4, and set γpc = 4, γspc = γac = 0 in Phase 2. We only made assignments to SPCs and ACs in Phase 1 except for
+the fast track papers for which we set γspc = γac = 1. We set reviewer capacities to 24 and 60 for SPCs and ACs
+respectively. We set W = 5 with cj· = [8, 12, 16, 20, 24]∀j ∈ SPC and cj· = [20, 30, 40, 50, 60] for j ∈ AC, with
+cap
+pcap
+w (·) = −0.05, 1 ≤ w ≤ (W − 1) and a very high penalty of −0.5 for pW (·) for both SPCs and ACs, so that the
+system never assigned beyond cjW = cj .
+We begin by asking whether we made good matches in the real conference. Before we begin our analysis, we note
+that evaluating match quality is conceptually tricky. Of course, the gold standard is to ask Area Chairs to manually
+ensure that matchings make sense; it is also possible to monitor social media for outrage [Lawrence, 2014]. Our focus
+here was to go beyond such subjective measures, performing a data-driven and quantitative evaluation along as many
+dimensions as possible. What follows is, to our knowledge, the most comprehensive post-hoc evaluation of a Computer
+Science conference’s match quality. (Indeed, we note that such analyses are usually limited only to the graphs that
+appear in Program Chairs’ presentations at conference business meetings. Of course, the confidentiality of reviewing
+data typically prevents others from conducting further, in-depth analyses.)
+5.1.1
+
+Did our scoring function capture reviewer expertise?
+
+First, we investigated whether reviewers actually bid on papers for which we assigned them high “expertise” scores,
+leveraging the fact that reviewers tend to bid positively on papers that they are capable of reviewing. Considering
+the set of reviewers who submitted at least one bid, we looked at all matched reviewer–paper pairs that we assigned
+base scores (i.e., aggscores before taking bids into account) greater than 0.75. We found that 29% of these pairs were
+accompanied by eager bids, 38% willing, and 3% in a pinch (the remainder no bids). We see this as evidence that
+high base scores indeed correlated with high match quality. However, we acknowledge that the bidding interface is a
+possible confounding factor here—e.g., users could view papers in descending order of their TPMS scores (one of the
+inputs to aggscore).
+10
+
+For this analysis we removed papers that were withdrawn, desk rejected, or rejected as dual submissions. We also excluded all
+papers from the AI for Social Impact track as these papers were matched via a somewhat different process. We included papers that
+were only submitted in the second phase.
+11
+In AAAI 2021, Program Chairs, ACs, and SPCs manually assigned about 4.5% of the final reviewer assignment. In fact, many
+of these were suggested by area chairs in Phase 2 based on the reviews in Phase 1. In our evaluations, we only considered matches
+that were automatically assigned to avoid confounding factors of manual matches.
+12
+The values of these parameters express tradeoffs between violating a constraint and match quality, and hence induce the
+reviewer–paper matching problem’s objective function. There is no “right” way to set them: they reflect Program Chairs’ subjective
+answers to questions like the value of having senior reviewers allocated to each paper and the risk of authors forming bidding
+cycles. This paper does not experimentally investigate these parameter settings, but we note that other conference organizers could
+conceivably want to set them differently.
+
+15
+
+Matching Papers and Reviewers at Large Conferences
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Percentage
+
+30
+20
+10
+0
+
+1
+
+2
+
+3
+
+4
+
+Confidence
+
+A P REPRINT
+
+Figure 2: Paper score distribution by confidence of reviewer. More confident reviewers gave fewer 5s and 6s.
+
+1.0
+
+Aggscore
+
+0.8
+0.6
+0.4
+0.2
+0.0
+
+1
+
+2
+
+3
+
+Confidence
+
+4
+
+Figure 3: Reported confidence of an eventual review vs. predicted aggscore for all reviewer–paper pairs matched at
+AAAI 2021.
+Second, we observe that the distribution of overall scores given by reviewers to papers (which ranged between 1 and 10)
+noticeably changed as a function of self-reported confidence.13 Figure 2 shows that more confident reviewers tended to
+give more informative paper scores (fewer borderline 5 and 6 scores). Given that higher confidence reviews were more
+informative, we examined the relationship between our scoring function and reported reviewer confidence. Figure 3
+shows that our scoring function was positively correlated with confidence: as confidence increased, so did the 25th,
+50th, and 75th percentile of scores.
+5.1.2
+
+Assuming that our scoring function predicted review quality, how close did we come on average to
+assigning the best possible reviewer to each paper?
+
+We considered the ordinal ranking of reviewers assigned to each paper in terms of aggscore, where rank 1 corresponds
+to the reviewer with the highest aggscore for that paper. We then looked at the mean reviewer ranking for each paper
+with respect to the ranks of all of the paper’s reviewers. The first / second / third quartiles of mean reviewer rankings
+across all papers were 7 / 12 / 28. This shows that papers were often assigned very highly qualified reviewers; note that
+these averages are taken across all of a paper’s reviewers (median 4) and that a single reviewer with a poor rank is able
+to cause the average ranking to grow large.
+5.1.3
+
+Was our aggscore computation stable under missing data?
+
+Recall that aggscore, our paper-reviewer matching score, is a combination of three constituent scores: TPMS, ACL, and
+SAM (see Section 2.3.3). At AAAI 2021 these constituent scores were available for 60.25%, 96.64%, and 100% of
+13
+
+Confidence levels could be reported as “Reviewer made an educated guess”, “Reviewer is broadly knowledgeable, but not an
+expert in the area”, “Reviewer is knowledgeable in the area of the paper”, or “Reviewer is an expert in the specific topic of the paper”.
+
+16
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+papers respectively. Here we evaluate the stability of our aggscores in cases where ACL and TPMS scores were missing.
+We began with all “qualified” (paper, reviewer) pairs (sij ≥ 0.15) for which all of the three scores were available. We
+then computed two proxy aggregate scores, representing the scores we would have computed if either of the TPMS or
+ACL scores had been missing.
+The standard deviation of the changes in aggscores caused by missing data were 0.049 and 0.048 respectively, whereas
+the mean standard deviation of the complete-data score for a given paper was 0.127. Since the variance of the differences
+between the hidden data aggscores and the full-data aggscores was much smaller than the average variance in aggscores
+across reviewers for a paper, the aggscore was still likely to have made a similar assessment of reviewer–paper pairings
+even in the presence of missing data.
+5.1.4
+
+How many conflicts were identified by our COI detection?
+
+Let us denote self-reported conflict domains, explicitly stated conflicts, and conflicts between coauthors of papers
+submitted to AAAI 2021 as ‘trivial conflicts’. Out of the total 2, 674, 372 conflicts we found at AAAI 2021, 96.4%
+were trivial. Of the remaining 3.6% conflicts, 2.8% were due to unreported coauthorship relationships we verified via
+DBLP. The remaining 0.8% of conflicts were between predicted student–supervisor pairs or predicted students of the
+same supervisor. Overall, our system added at least one nontrivial conflict to a large majority (78.8%) of submissions.
+5.2
+
+Analysis of MIP Solving
+
+We now turn to an evaluation of our matching algorithm (described in Section 3), including a comparison to the matching
+algorithm used at AAAI 2020, the previous year’s conference. For our experiments, we created a full conference
+dataset containing all submitted AAAI 2021 papers and reviewers analyzed above. We augmented the dataset to include
+all additional reviewers who were not ultimately assigned any reviews at AAAI 2021, bringing the total number of
+reviewers up to 8,964. Except where otherwise noted, we evaluated our algorithm in terms of the single-phase matching
+problem, as this allows us to focus on matching quality and facilitates comparison with prior work. In the same spirit,
+we required each paper to be assigned four reviews (γpc = 4) and set a limit of five reviews per reviewer (cj = 5). We
+ran row generation (as described in Section 3.4.2) for 10 iterations. We ran all of our experiments on a 16-core machine
+with Intel Silver 4216 Cascade Lake 2.1GHz processors and 96 GB RAM. For MIP solving, we used CPLEX version
+12.9.0.0 with default parameters.
+We note a subtlety that arises when comparing different assignments. Recall that we used an inequality instead of a
+hard constraint on the number of matches each paper receives, allowing the MIP to assign fewer than γpc reviewers to a
+paper. This can occur for papers for which there are no qualified reviewers or only very poor matches conditional on the
+rest of the assignment. A consequence is that we can find ourselves needing to make comparisons across assignments in
+which different numbers of reviewer–paper matches exist. In these cases, we padded all matchings with reviewer–paper
+matches that contributed nothing to the objective function, as though we had matched the paper to a reviewer having an
+aggscore of 0 who imposed neither rewards or penalties via soft constraints. Such zero-contribution matches accounted
+for at most 1% of the total reviews in any of our matchings reported below. While in reality we addressed all such cases
+at AAAI 2021 manually, we note that many AAAI 2021 reviewers were ultimately assigned zero papers, meaning that a
+large pool of available and unused reviewers did exist.
+5.2.1
+
+How did our algorithm compare to the algorithm used in the previous iteration of the conference?
+
+We compared our matching algorithm to the method used in the conference’s previous iteration (AAAI 2020), a
+flow-based matching algorithm. Rather than simple capacity constraints, each paper and reviewer had a number of
+weighted slots that linearly scaled the contribution of each assignment to prioritize each paper getting some good
+reviewers and each reviewer getting some good papers. Based on advice from the previous Program Chairs, we set
+the paper slot weights to be 8/4/1/1 and reviewer slot weights to be 8/2/1/1/1. Their reviewer–paper scoring function
+differed from ours in two main ways: (1) it did not use ACL scores, and (2) bids scaled scores multiplicatively rather
+than exponentially. Beyond the scoring function, their matching algorithm did not attempt to satisfy any soft constraints.
+Nevertheless, we investigated how effective last year’s approach was at limiting soft constraint violations despite not
+optimizing for them (i.e., we tested how frequently these violations occurred organically at the optimum of a simpler
+matching problem). We ran both algorithms and evaluated the number of soft constraint violations compared to our
+approach. For reference, we also performed a similar experiment that compared our AAAI 2021 algorithm to a version
+of the same algorithm that omitted all soft constraints. We summarize the results in Table 1, reporting the percent
+reduction in the number of: (a) papers without a senior reviewer (Constraint 4); (b) coauthor violations (Constraint 5);
+(c) papers with reviewers from the same region (Constraint 6); and (d) cycle violations (Constraint 7). We observed
+that AAAI 2020’s approach led to substantially more violations of three of the four soft constraints. Most notably,
+17
+
+Matching Papers and Reviewers at Large Conferences
+
+Soft constraint
+
+A P REPRINT
+
+Baseline (no soft constraints)
+
+AAAI 2020
+
+56.1
+88.1
+24.1
+84.6
+
+9.5
+76.8
+23.3
+-90.9
+
+Constraint 4 (Seniority)
+Constraint 5 (Coauthorship Distance)
+Constraint 6 (Geographic Diversity)
+Constraint 7 (No 2-Cycles)
+
+Table 1: Percent reduction of soft constraint violations using our approach relative to (1) our approach without soft
+constraints and (2) last year’s matching algorithm for a simulation of a single-phase version of AAAI 2021.
+Soft constraint
+
+% Aggscore reduction
+
+Constraint 4 (Seniority)
+Constraint 5 (Coauthorship Distance)
+Constraint 6 (Geographic Diversity)
+Constraint 7 (No 2-Cycles)
+
+0.05
+1.17
+0.85
+0.01
+
+All constraints
+
+2.04
+
+Table 2: Percent reduction in aggscore when each soft constraint was turned on individually relative to a base MIP
+having no soft constraints. The final row displays the reduction when all soft constraints were present.
+
+our algorithm assigned to the same paper 76.8% fewer pairs (118 compared to 509) of reviewers who were previous
+coauthors . Conversely, our approach led to a 90% increase in the number of violations of our no-2-cycles constraint,
+prohibiting pairs of reviewers who bid positively on each other’s submissions from being assigned to each other’s
+papers. However, such matchings were quite rare overall (22 for AAAI 2020 and 42 for our approach out of 26,916
+reviewer–paper matchings in total). We believe that the AAAI 2020 method led to fewer 2-cycles because their scoring
+function weighs positive bids less heavily than ours does and therefore is less likely to match reviewers to papers where
+a reviewer bid positively. When using our scoring function, we were able to reduce 2-cycle violations by 84% using our
+soft constraint over the baseline version with no soft constraints.
+Our algorithm had approximately the same memory footprint as the flow-based approach (96 GB vs 95 GB) despite the
+additional soft constraints that our method considered: the flow-based method creates an edge for every reviewer–paper
+pair whereas we only created variables for a subset of qualified reviewers. In terms of runtime, running our algorithm
+with 10 iterations of row generation required 52.0 wall-clock hours compared to 0.8 needed for the AAAI 2020 approach.
+Note that our approach is anytime: it can terminate after any number of iterations of row generation. One iteration of
+our algorithm took 0.9 wall-clock hours and five iterations took 7.3 wall-clock hours. We were willing to devote a few
+days to computation, so we find these numbers reasonable. Nevertheless, in what follows we identify some ways to
+reduce runtimes without sacrificing much in performance (e.g., 5× speedup via decomposing the matching into two
+stages; 1.7× speedup via reducing k to further sparsify the constraint matrix).
+5.2.2
+
+What did introducing soft constraints cost us in matching aggscore?
+
+Table 2 shows that for the most part, with our specific settings of the soft constraint parameters, we were able to have
+our cake and eat it too. With all of our soft constraints turned on, we only lost 2.04% mean aggscore. With each
+soft constraint turned on individually, the Coauthorship Distance and Geographic Diversity constraints reduced mean
+aggscore the most (1.17% and 0.85% respectively) while the Seniority and No 2-Cycles constraints reduced mean
+aggscore the least (0.05% and 0.01% respectively). The sum of the aggscore reductions across matchings where each
+soft constraint was turned on individually was 2.08% (sum of first four rows in Table 2), very similar to the 2.04%
+reduction in mean aggscore when all constraints were turned on simultaneously. This suggests that there was very little
+complementarity across different constraints (e.g., when we reduced Coauthorship Distance violations, we rarely also
+increased Geographic Diversity as a side effect).
+5.2.3
+
+How well did the row generation of coauthorship distance constraints perform?
+
+Ideally we would evaluate the performance of the row generation of coauthorship distance constraints by comparing
+performance after each number of iterations to the performance of the optimal approach that held all rows of the
+constraint matrix in memory. Unfortunately, we were unable to compute the optimal objective value (OPT) for our
+dataset: this is why we needed row generation in the first place! Nevertheless, we can compare to an upper bound on
+OPT. Since each additional coauthorship constraint can only penalize the objective function, the optimal value of the
+18
+
+Matching Papers and Reviewers at Large Conferences
+
+Fraction of Papers
+
+1.0
+
+Fraction of Papers
+
+1.0
+
+A P REPRINT
+
+0.8
+
+0.8
+
+0.6
+
+0.6
+
+0.4
+
+0.4
+
+0.2
+
+0.2
+
+0.0 0
+
+1000
+
+2000
+
+3000
+
+0.0 0
+
+4000
+
+Number of Qualified Reviewers
+
+100
+
+200
+
+Number of Qualified Reviewers
+
+Figure 4: ECDF of the number of “qualified” reviewers for each paper (i.e., reviewers with sij ≥ 0.15), considering
+both all reviewers (Left) and only reviewers who also made a positive bid for the paper (Right). The median paper had
+1446 qualified reviewers and 43 qualified reviewers who also placed a positive bid.
+
+objective function (without coauthorship penalty from ungenerated constraints) can only weakly decrease as these soft
+constraints are added. Therefore, the objective value we observe after the last iteration of row generation is an upper
+bound on OPT. After 10 iterations, we closed the gap between the initial solution before row generation (obtained with
+V0 in Algorithm 1) and the upper bound on OPT by 77.5%.
+5.2.4
+
+How did the choice of our column generation parameter k impact the objective?
+
+Recall that to reduce the size of our MIP, we created variables only for the most-promising paper–reviewer pairs: for
+each reviewer, we sampled the k best-scoring papers, and for every paper, we sampled the k best-scoring reviewers. We
+then filtered out any paper–reviewer pairs scoring below a threshold, keeping only qualified reviewers. We set k = 50
+when creating the match for AAAI 2021. Figure 4 shows that after this filtering, the median paper had ≈1,500 qualified
+reviewers. Expanding to include variables for all possible qualified assignments (unbounded k) would have required
+much more memory than was available via our computing resources.
+We investigated the impact of k on the quality of the resulting matching. Running our algorithm with a much smaller
+k value (k = 10), we observed only a 1.8% loss in the objective but a 1.7 times speedup in performing 10 iterations
+of row generation, as compared to k = 50. Increasing k to 100 had a negligible impact on the objective (0.04%). We
+consider it unlikely that significant additional gains would be achieved by even further increases to k.
+5.2.5
+
+What were the tradeoffs between objective value and computational savings with multiple phases?
+
+In a two-phase conference, about half of the total reviews are assigned in each phase, so the Phase 1 and Phase 2 MIPs
+have half as many free variables as the MIP for a corresponding single-phase conference. We should expect solving the
+two smaller problems to be much faster than solving the larger one, since the running time of MIP solvers tends to
+scale superlinearly with problem size. However, of course, the solution obtained by solving two phases optimally in
+succession will yield weakly lower objective value than the optimal solution to the single-phase problem. For example,
+imagine that each stage assigns two reviews per paper and that for some paper, there are only four qualified reviewers.
+The two-phase algorithm will not consider that it may need to save two qualified reviewers for the second phase, and
+may assign these highly specialized reviewers elsewhere, consuming their capacity. We thus empirically evaluated
+loss in objective value due to running a two-phase version of our conference. In these experiments, we assigned two
+reviewers per paper in Phase 1, fixed those assignments, and then assigned two more reviewers per paper in Phase 2.
+We found that the resulting matching had objective value only 0.02% lower, as compared to the single-phase conference.
+On the other hand, decomposing the problem in this way led to a 5× speedup.
+It occurred to us that this approach of incrementally building up a MIP solution reviewer by reviewer did not require
+that the conference actually did perform two-phase reviewing. For example, a single-phase conference could use this
+same two-phase strategy simply to speedup MIP solving, which could make a significant computational difference for
+conferences significantly larger than AAAI 2021. To investigate this idea, we evaluated a four-phase approach that
+assigned one reviewer per paper, fixed those assignments, and repeated four times until each paper had four reviewers.
+As before, we observed very encouraging results: the objective value decreased by only 0.33% relative to a single-phase
+conference, whereas MIP solving was accelerated by 28× (see Table 3)!
+19
+
+Matching Papers and Reviewers at Large Conferences
+
+Number of phases
+
+Objective reduction
+
+Speed up
+
+0.02%
+0.33%
+
+5.4×
+28.1×
+
+2
+4
+
+A P REPRINT
+
+105
+103
+101
+
+1
+10 10
+1
+
+102
+
+103
+
+Number of iterations
+
+Wall time (seconds)
+
+Table 3: Sacrifice in objective function vs. computational savings of multi-phase conferences relative to single-phase
+conference.
+
+10
+8
+6
+4
+2
+
+Number of papers
+
+Figure 5: Running time vs. conference size (number of papers); points represent (conference, iteration) pairs.
+5.2.6
+
+How did our algorithm scale?
+
+To understand how our algorithm’s performance depended on the size of the conference, we generated 77 synthetic
+conferences of different sizes by subsampling papers and reviewers (without replacement) from our dataset. In an
+attempt to maximize the realism of the structure of our simulated conferences, we constructed them based on related
+keywords. At AAAI 2021, keywords were divided into top-level categories (e.g., Machine Learning) and bottom-level
+categories (e.g., Learning Theory); papers and reviewers could select one top-level and multiple bottom-level keywords.
+Our generator works as follows. We begin with an initial bottom-level keyword and then initialize our conference
+to contain all papers associated with that keyword and a set of reviewers associated with the corresponding top-level
+keyword proportional to the fraction of papers belonging to the bottom-level keyword within that top-level area. We
+store a set of keywords associated with our conference as the generator runs. In each iteration, we add to our set of
+keywords the keyword belonging to most papers in our current set of papers that is not yet part of our tracked set of
+keywords. Papers corresponding to this keyword and additional reviewers are then added accordingly. Every time
+the number of papers grew by a constant factor, we created a new synthetic conference containing the current set of
+papers and reviewers and added it to our set of samples. For diversity, we ran our generator on three trajectories, each
+seeded with a different keyword: one from game theory, one from computer vision, and one from constraint satisfaction,
+because each of these areas involves a substantially distinct set of reviewers and authors and each has its own dedicated
+conferences. We also included the full AAAI 2021 dataset as our final datapoint, giving us a total of 78 simulated
+conferences.
+We then turned to studying how our row generation approach scaled. Figure 5 shows cumulative wall-clock time for
+each (conference, iteration) point. Points are coloured by iteration. For conferences with fewer than 1,000 papers, we
+could always complete 10 iterations in less than an hour. Interestingly, the smallest conferences were harder to optimize
+than medium-sized conferences. We speculate that this occurred because some soft constraints (e.g., coauthor / cycle
+constraints) were harder to satisfy when the set of papers and reviewers were more densely connected. Running time
+appeared to scale exponentially as the number of papers grew beyond 1,000, with the biggest size taking a few hours
+per iteration.
+5.2.7
+
+How did our results on optimality and aggscore reduction translate to our generated conferences?
+
+Figure 6 shows ECDFs of how much of the gap we closed between the initial solution before row generation and the
+upper bound on OPT described earlier in Section 5.2.3. After just one iteration of row generation, we closed at least
+25% of the gap for 80% of the generated conferences. After 10 iterations, we closed 75% of the gap for over 90%
+of conferences. The trend in which these ECDFs become closer and closer together after successive iterations led us
+20
+
+Matching Papers and Reviewers at Large Conferences
+
+Number of iterations
+
+Fraction of conferences
+
+1.0
+0.8
+0.6
+0.4
+0.2
+0.00.00 0.25 0.50 0.75 1.00
+
+A P REPRINT
+
+10
+8
+6
+4
+2
+
+Fraction of gap closed
+
+Figure 6: ECDF of % of gap closed (relative to our upper bound) between the first and k th iteration of row generation.
+
+Fraction of conferences
+
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+
+0.02
+
+0.03
+
+0.04
+
+Fraction aggscore reduction
+
+0.05
+
+Figure 7: ECDF of the fractional reduction in mean aggscore upon adding soft constraints.
+to believe that we were approaching optimality, and that much of the remaining gap after 10 iterations was due to
+looseness in our upper bound on OPT.
+Similar to the results previously reported about our full conference in Section 5.2.2, we observed that introducing
+soft constraints led to only small reductions in aggscore across our 77 variable-sized conferences. For 60% of these
+conferences, we lost less than 2% in aggscore; at worst, we lost 5%. Figure 7 shows an ECDF of the reduction in
+aggscore across all the generated conferences.
+5.3
+5.3.1
+
+Evaluation of Two-Phase Reviewing
+How prevalent were false negatives?
+
+The risk we were most concerned about arising from our Two-Phase design was the possibility that papers rejected in
+Phase 1 might have been accepted if they had received additional reviews, an opportunity for rebuttal, and/or discussion;
+we call such papers “false negatives”. The cleanest way to estimate the probability with which we falsely rejected such
+papers in Phase 1 would have been for us to conduct a randomized experiment: randomly promoting some fraction of
+papers that would otherwise have been rejected in Phase 1 and observing the result. We did not perform this experiment,
+but the real data provides a very similar natural experiment. Specifically, we promoted papers to Phase 2 without
+considering their scores in two cases: (1) when one or more reviews were missing; and (2) when their reviewers had
+low confidence. In total, 231 papers were promoted in this manner, 16 of which were eventually accepted. Each of
+these papers eventually received four or more high-confidence reviews, allowing us to calculate the probability that two
+randomly selected reviews would have met the criteria for Phase 1 rejection. This allowed us to estimate what fraction
+21
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+of Phase 1 rejections might eventually have been accepted. In our data this probability was 2.9%, suggesting that Phase
+1 rejections included very few false negatives.
+5.3.2
+
+Did Phase 1 reviewers participate in discussion after Phase 2?
+
+There was a relatively long delay between the end of Phase 1 and the start of the discussion period (in our case, almost a
+month), leading to some public speculation that Phase 1 reviewers might have tended to be less active in the discussion
+phase [e.g., Kambhampati, 2021]. We found little evidence of such a trend: Phase 2 papers received a discussion post
+from 55% of Phase 1 reviewers and likewise 55% of Phase 2 reviewers. We did find that reviewers who reviewed only
+in Phase 1 (who were responsible for a relatively small fraction of reviews overall) had a slightly smaller (52%) rate of
+participation in the discussion. We further note that Two-Phase reviewing is not the only possible explanation for this
+small discrepancy: e.g., this group may also have contained a smaller fraction of highly qualified reviewers.
+5.3.3
+
+How many additional reviews were gained?
+
+AAAI 2021 received 7,133 full paper submissions to the first phase. We were able to reject 2,615 (about 37%) of
+the submitted papers in Phase 1, leaving us with a surplus of 2,615 reviews (relative to AAAI’s previous practice of
+assigning 3 reviews to each paper) to spread amongst the remaining papers. This contributed towards assigning at least
+four reviewers to every main track paper in Phase 2 and at least 3 reviews to the 737 fast track submissions, out of
+which 721 submissions received more than 4 reviews.
+5.3.4
+
+How important was it to have additional reviews?
+
+For every Phase 2 paper, we sampled every subset of 3 reviews that it might have received if a subset of the same
+reviewers had been assigned in a single-phase conference and calculated the confidence-weighted average score that the
+paper would have received in this scenario. (Confidence ranged between 1 (low) and 4 (high); corresponding weights
+were 0.25, 0.5, 0.75, and 1.) We plot the result in Figure 8. Each point corresponds to a 3-review scenario for a single
+paper. The x axis gives the paper’s score in the AAAI 2021 conference (where it received more than 3 reviews); the
+y axis gives the spectrum of 3-review scores. The decision boundary for acceptance fell around 6.4, though many
+papers below this threshold were accepted and many above this threshold were rejected. Nevertheless, variance in the
+score is a good proxy for variance in reviewer support for the paper. Figure 8 shows that for papers that are close to
+the decision boundary, the weighted average score could vary by up to 2 points around the threshold depending on
+which 3-reviewers were picked, implying that decisions for these papers could be very uncertain with only 3 reviewers.
+Therefore, we conclude that the additional reviews enabled by two-phase reviewing helped Program Chairs to make
+more confident decisions, specially about papers that are close to the decision boundary.
+5.3.5
+
+Did the adoption of Two-Phase reviewing result in a higher bar for acceptance by ACs/SPCs?
+
+One concern that has been publicly raised about two-phase reviewing is that it might depress acceptance rates because
+ACs and SPCs may aim to accept the same fraction of Phase 2 papers as in previous years, not considering the large
+fraction of papers already rejected in Phase 1 [e.g., Walsh, 2022]. Our analysis of AC/SPC recommendations shows that
+this was not the case in AAAI 2021. ACs submitted 3,825 ratings on a scale of Reject, Lean Reject, Lean Accept, Weak
+Accept, Accept, and Best Paper. Considering the last four scores as recommendations for acceptance, we found that
+ACs recommended accepting 37.6% of Phase 2 papers, corresponding to an overall acceptance rate of 22.2%. Similarly,
+SPCs submitted 3,873 ratings on a scale from 1 to 9.14 Considering scores above 5 as accept recommendations, SPCs
+recommended accepting 37.5% of Phase 2 papers, corresponding to an overall acceptance rate of 22.3%. Both of
+these percentages were higher than the conference’s actual acceptance rate of 21% and almost the same as the average
+acceptance rate of 22.9% over the last 5 years [OpenResearch, 2021]. We therefore see no evidence to support the claim
+that introducing two-phase reviewing leads to lower overall acceptance rates.
+5.3.6
+
+Did reviewers behave differently in Phase 2?
+
+In AAAI 2021, Phase 2 reviews tended to be (slightly) more negative than Phase 1 reviews, with Phase 1 pre-rebuttal
+scores averaging 0.29 higher than Phase 2 pre-rebuttal scores on the 10-point scale (see Figure 9 for an ECDF). We
+used the Wilcoxon signed-rank test [Rey and Neuhäuser, 2011] to check whether pairs of Phase 1 and Phase 2 reviews
+given to the same paper came from the same distribution (null hypothesis) or whether Phase 2 reviews tended to be
+14
+The text prompts given for each score were as follows: (1) Trivial, wrong, or known; (2) Strong reject: will fight to get it
+rejected; (3) Clear reject; (4) Reject; (5) Below threshold of acceptance; (6) Above threshold of acceptance; (7) Accept; (8) Clear
+Accept (Top 50% accepted papers (est.)); and (9) Accept: will fight to get it accepted.
+
+22
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+1000
+0
+9
+100
+
+Three Review Score
+
+8
+50
+7
+0
+6
+5
+4
+3
+2
+3
+
+4
+
+5
+
+6
+
+7
+
+Conference Score
+
+8
+
+9
+
+0
+
+1000
+
+Figure 8: Confidence-weighted average scores for Phase 2 papers based on all reviews vs. all combinations of 3 reviews.
+Marginal densities are plotted on the sidelines.
+
+Fraction of Reviews
+
+1.0
+0.8
+
+Phase 1 reviews
+Phase 2 reviews
+
+0.6
+0.4
+0.2
+0.0
+
+2
+
+4
+
+6
+Review score
+
+8
+
+10
+
+Figure 9: ECDF of the review scores by review phase. Phase 2 reviews tend to be more negative than Phase 1 reviews.
+more negative (alternative hypothesis). We ran the test with a significance level of 0.01 on a dataset whose entries were
+every possible combination of a Phase 1 review score and a Phase 2 review score for the same paper. (Thus, we only
+considered papers which were reviewed in Phase 2.) We used pre-rebuttal scores to make sure that reviewers’ scores
+were not influenced by reading author responses and other reviews, after which review scores tended to become more
+correlated). Over 6160 pairs of scores in our dataset, the test had a p-value of 7.57 × e−69 , causing us to reject the null
+hypothesis that reviewing was identical across phases.
+There are various reasons why reviewers might have been more negative in Phase 2: they may have applied a higher
+standard, knowing this was the final reviewing round; they may have changed their perceptions about quality thresholds
+23
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+after their experiences reviewing in Phase 1; more qualified reviewers might have been identified in Phase 2 and these
+reviewers may have had more critical views.
+However, a fourth explanation occurred to us, which the data can tell us something about: reviewers may have behaved
+exactly as they did in Phase 1, but the change in scores might have arisen due to selection bias arising from the
+Two-Phase structure. To see how this might have happened, imagine that each reviewer’s score is an unbiased sample
+from a Gaussian centered on the “true score” of the paper. While reviewing in this model is unbiased on expectation,
+performing reviewing in two phases adds bias. That is, if both reviewers in Phase 1 draw samples above the paper’s true
+score, the paper will get more reviews in Phase 2, which on expectation will be more negative. Conversely, if both
+reviewers in Phase 1 draw samples well below the paper’s true score, we’d again expect additional reviews to revert to
+the mean, but we will not see those additional reviews because the paper will be rejected in Phase 1. This asymmetry
+means that we should expect reviews in the second phase to be more negative on average for purely statistical reasons;
+observing such bias is not necessarily cause for alarm.
+To investigate the impact of this selection bias effect, we considered a refined dataset of papers that had at most 1
+negative review (review score of 5 or below), and hence would not have been rejected in Phase 1 regardless of the order
+in which their reviewers were chosen; there turned out to be 1583 papers. We again ran the Wilcoxon signed-rank test
+comparing Phase 1 scores to Phase 2 scores and obtained a p-value of 0.57: we did not have enough evidence to reject
+the null hypothesis that the distributions of Phase 1 scores and Phase 2 scores were the same. This indicates that these
+papers were unlikely to have been promoted from Phase 1 purely due to noise.
+We now turn to a more quantitative analysis. To see how much of the 0.29-point average score gap between reviews
+in the two phases could plausibly be explained by selection bias, we needed to estimate the variability of reviewers’
+process of scoring papers. We thus constructed a simple statistical model of our setting. We assumed that each paper p
+has a true score sp ∈ R which is drawn from a Gaussian distribution N (µs , σs2 ) where µs and σs2 indicate our prior
+belief on the average and variance of true scores. When asked to review paper p, reviewer r draws an unbiased sample
+opr from a normal distribution N (sp , σ 2 ) around sp , the true score of paper p, and with the variance of σ 2 . We note that
+when we use thousands of observations to fit a handful of parameters, priors are overwhelmed and hyperparameter
+choices become nearly irrelevant. Nevertheless, performing Bayesian inference requires the selection of priors. We
+therefore estimated µs = 5 and σs2 = 1 as the empirical mean and variance of overall paper scores and assumed that the
+prior over σ1 was Gamma(ατ , βτ ), setting ατ = βτ = 1.
+We used Gibbs sampling to estimate σ for reviewers and sp for every p. After taking the average over the Gibbs samples,
+our inference estimated σ to be 1.3. We then ran a simulation in which we used our graphical model to generate 6,723
+true paper scores15 from N (5, 1) and review scores that followed the noise model defined by orp ∼ N (sp , 1.32 ). We
+then simulated Phase 2 by filtering out any paper that received two reject recommendations (received two review scores
+below 4.5) from its first two sampled review scores (in Phase 1). Considering the remaining (Phase 2) papers in our
+synthetic experiment, we observed that Phase 1 reviews were 0.18 higher than Phase 2 reviews on average. Overall, this
+(simplistic) analysis explains about two thirds of the gap that we saw in our real data. We conclude that selection bias
+likely made reviewing in the two phases appear more different than it really was, but that it is furthermore plausible that
+reviewers did behave at least somewhat differently in the two phases.
+
+6
+
+Conclusion
+
+This paper has presented a novel method for reviewer–paper matching that is scalable to large conferences and more
+robust to malicious behavior. Our formulation is based on a mixed-integer program that combines a scoring function
+(which itself combines three match scores and reviewer bids) with various soft constraints encouraging the optimizer
+to pick, for each paper, a set of reviewers that is geographically diverse, includes at least one senior reviewer, and
+does not include co-authors. Several preprocessing steps predict new conflicts of interest alongside known ones, and
+reviewer bids are also processed to undermine malicious bids. A Two-Phase reviewing scheme uses available reviewing
+resources more efficiently by allocating fewer reviews to papers that have low acceptance probability. We performed
+extensive evaluation and post-hoc analysis to demonstrate the value of our methods. We have publicly released our
+reviewer–paper matching software for further use by other conferences, and indeed this software is already in use
+at ICML 2022. Furthermore, the two-phase reviewing methodology and various other novel elements of the design
+described here have been adopted by AAAI 2022 and IJCAI 2022.
+15
+6,723 is the total number of papers in our database that were either rejected or accepted based on their reviews in Phase 1 or
+Phase 2—i.e., excluding papers that left the system for other reasons, such as being withdrawn by their authors or being desk rejected
+because of double submission, violation of author anonymity, exceeding page limits, etc.
+
+24
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+References
+Laurent Charlin and Richard S Zemel. The Toronto Paper Matching System : An automated paper-reviewer assignment
+system. 2013.
+Graham Neubig, John Wieting, Arya McCarthy, Amanda Stent, Natalie Schluter, and Trevor Cohn. ACL reviewer
+matching code. https://github.com/acl-org/reviewer-paper-matching, 2020.
+Steven Jecmen, Hanrui Zhang, Ryan Liu, Nihar B Shah, Vincent Conitzer, and Fei Fang. Mitigating manipulation in peer review via randomized reviewer assignments. In Advances in Neural Information Processing
+Systems (NeurIPS), volume 33, pages 12533–12545, 2020. URL https://proceedings.neurips.cc/paper/2020/file/
+93fb39474c51b8a82a68413e2a5ae17a-Paper.pdf.
+Peter A Flach, Sebastian Spiegler, Bruno Golénia, Simon Price, John Guiver, Ralf Herbrich, Thore Graepel, and
+Mohammed J Zaki. Novel tools to streamline the conference review process: Experiences from SIGKDD’09. ACM
+SIGKDD Explorations Newsletter, 11(2):63–67, 2010.
+Naveen Garg, Telikepalli Kavitha, Amit Kumar, Kurt Mehlhorn, and Julián Mestre. Assigning papers to referees. Algorithmica, 58(1):119–136, 2010. doi: 10.1007/s00453-009-9386-0. URL https://doi.org/10.1007/s00453-009-9386-0.
+Wenbin Tang, Jie Tang, and Chenhao Tan. Expertise matching via constraint-based optimization. In IEEE/WIC/ACM
+International Conference on Web Intelligence, pages 34–41, 2010. doi: 10.1109/WI-IAT.2010.133. URL https:
+//doi.org/10.1109/WI-IAT.2010.133.
+Jing Wu Lian, Nicholas Mattei, Renee Noble, and Toby Walsh. The conference paper assignment problem: Using order
+weighted averages to assign indivisible goods. In AAAI Conference on Artificial Intelligence, pages 1138–1145, 2018.
+URL https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17396.
+Camillo J Taylor. On the optimal assignment of conference papers to reviewers. 2008.
+Ari Kobren, Barna Saha, and Andrew McCallum. Paper matching with local fairness constraints. In ACM SIGKDD
+International Conference on Knowledge Discovery & Data Mining, KDD, pages 1247–1257, 2019. doi: 10.1145/
+3292500.3330899. URL https://doi.org/10.1145/3292500.3330899.
+Laurent Charlin, Richard Zemel, and Craig Boutilier. A framework for optimizing paper matching. In Proceedings of
+the Twenty-Seventh Conference on Uncertainty in Artificial Intelligence, pages 86–95, 2011.
+Michael L Littman.
+Collusion rings threaten the integrity of computer science research.
+Communications of the ACM, 64(6):43–44, 2021.
+URL https://cacm.acm.org/magazines/2021/6/
+252840-collusion-rings-threaten-the-integrity-of-computer-science-research/fulltext.
+Neil Lawrence and Corinna Cortes.
+the-nips-experiment/, 2014.
+
+The NIPS experiment.
+
+http://inverseprobability.com/2014/12/16/
+
+Christian Bessiere. [IJCAI-PRICAI 2020] discussions about summary reject. http://www.lirmm.fr/~bessiere/Site/
+Media/SR-clarification, 2020.
+Cheng Long, Raymond Chi-Wing Wong, Yu Peng, and Liangliang Ye. On good and fair paper-reviewer assignment. In
+IEEE International Conference on Data Mining, pages 1145–1150, 2013.
+Ritesh Noothigattu, Nihar B Shah, and Ariel Procaccia. Loss functions, axioms, and peer review. Journal of Artificial
+Intelligence Research, 70:1481–1515, 2021.
+Ruihan Wu, Chuan Guo, Felix Wu, Rahul Kidambi, Laurens Van Der Maaten, and Kilian Weinberger. Making paper
+reviewing robust to bid manipulation attacks. In International Conference on Machine Learning, pages 11240–11250.
+PMLR, 2021.
+David M. Mimno and Andrew McCallum. Expertise modeling for matching papers with reviewers. In ACM SIGKDD
+International Conference on Knowledge Discovery and Data Mining, pages 500–509, 2007. doi: 10.1145/1281192.
+1281247. URL https://doi.org/10.1145/1281192.1281247.
+Omer Anjum, Hongyu Gong, Suma Bhat, Wen-Mei Hwu, and Jinjun Xiong. PaRe: A paper-reviewer matching approach
+using a common topic space. In Empirical Methods in Natural Language Processing, pages 518–528, 2019. doi:
+10.18653/v1/D19-1049. URL https://doi.org/10.18653/v1/D19-1049.
+John Wieting, Kevin Gimpel, Graham Neubig, and Taylor Berg-Kirkpatrick. Simple and effective paraphrastic similarity
+from parallel translations. In Conference of the Association for Computational Linguistics, ACL, pages 4602–4608,
+2019. doi: 10.18653/v1/p19-1453. URL https://doi.org/10.18653/v1/p19-1453.
+Don Conry, Yehuda Koren, and Naren Ramakrishnan. Recommender systems for the conference paper assignment
+problem. In ACM conference on Recommender systems, pages 357–360, 2009.
+25
+
+Matching Papers and Reviewers at Large Conferences
+
+A P REPRINT
+
+David M Blei, Andrew Y Ng, and Michael I Jordan. Latent dirichlet allocation. Journal of Machine Learning Research,
+3:993–1022, 2003.
+Taku Kudo and John Richardson. SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. In Proceedings of the 2018 Conference on Empirical Methods in Natural
+Language Processing: System Demonstrations, pages 66–71, Brussels, Belgium, November 2018. Association for
+Computational Linguistics. doi: 10.18653/v1/D18-2012. URL https://aclanthology.org/D18-2012.
+Ivan Stelmakh, Nihar B Shah, and Aarti Singh. PeerReview4All: Fair and accurate reviewer assignment in peer review.
+In Algorithmic Learning Theory, pages 828–856. PMLR, 2019.
+Yuan Yuan. Poorly-explained NeurIPS 2020 desk-rejects peeve ML researchers. https://syncedreview.com/2020/07/16/
+poorly-explained-neurips-2020-desk-rejects-peeve-ml-researchers/, 2020.
+Leon Bottou and Michael Littman. ICML 2009’s call for paper. https://icml.cc/Conferences/2009/cfp.html, 2009.
+Vikram S. Adve and James C. Hoe. ASPLOS XV: Proceedings of the fifteenth international conference on architectural
+support for programming languages and operating systems. https://dl.acm.org/doi/proceedings/10.1145/1736020,
+2010.
+Cristina V. Lopes. The oopsla two-phase review process. SIGPLAN Not., 49(4S):27–32, jul 2014. ISSN 0362-1340.
+doi: 10.1145/2641638.2641648. URL https://doi.org/10.1145/2641638.2641648.
+Christos Kozyrakis and Emery Berger. Using extended abstracts to improve peer review. https://www.sigarch.org/
+using-extended-abstracts-to-improve-peer-review/, 2021.
+Hans Boehm, Jack Davidson, Kathleen Fisher, Cormac Flanagan, Jeffrey S. Foster, Jeremy Gibbons, Mary Hall, Graham
+Hutton, David Padua, Frank Tip, Jan Vitek, Philip Wadler, Keshav Pingali, Michael O’Boyle, Steve Blackburn, and
+Emery Berger. Practices of PLDI. https://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf, 2021.
+Steven Jecmen, Hanrui Zhang, Ryan Liu, Fei Fang, Vincent Conitzer, and Nihar B Shah. Near-optimal reviewer splitting
+in two-phase paper reviewing and conference experiment design, 2021. URL https://arxiv.org/abs/2108.06371.
+Neil Lawrence.
+Paper allocation for NIPS, Jun 2014.
+URL https://inverseprobability.com/2014/06/28/
+paper-allocation-for-nips.
+Subbarao Kambhampati.
+[Twitter 2021] tweet about two-phase.
+https://twitter.com/rao2z/status/
+1466408324908216320?s=20, 2021.
+Toby Walsh. [Twitter 2022] tweet about two-phase. https://twitter.com/TobyWalsh/status/1497058084384276484,
+2022.
+OpenResearch. AAAI acceptance rate. https://www.openresearch.org/wiki/AAAI, 2021.
+Denise Rey and Markus Neuhäuser. Wilcoxon-Signed-Rank Test, pages 1658–1659. Springer Berlin Heidelberg, Berlin,
+Heidelberg, 2011. ISBN 978-3-642-04898-2. doi: 10.1007/978-3-642-04898-2_616. URL https://doi.org/10.1007/
+978-3-642-04898-2_616.
+
+26
+
+

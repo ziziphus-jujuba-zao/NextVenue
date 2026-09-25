@@ -1,0 +1,14 @@
+id: aaai-27/visa-refund
+edition: aaai-27
+family: refund
+question_zh: 拒签或签证没下来，注册费能退吗？
+short_zh: 拒签退注册费
+answer: unspecified
+verification: human
+conf: high
+summary_zh: 官方没说。注册页和邀请函页都没有拒签退款的专门条款，只有普通退款：北京时间 1/11 12:59 前书面申请，扣 $100 手续费。邀请函页写明 AAAI 不能保证或干预签证结果。
+quotes:
+  - src: aaai-27-visa-letters
+    text: "Please note that AAAI cannot guarantee or intervene with the obtaining of any visas or other travel documentation required for entry into Montréal."
+checked_sources: [aaai-27-registration, aaai-27-visa-letters, aaai-27-publication-attendance, aaai-27-author-policies]
+last_checked: 2026-09-25

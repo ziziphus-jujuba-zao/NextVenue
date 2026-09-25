@@ -1,0 +1,44 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: mmasia-2026
+series: mmasia
+name: MMAsia 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/MMAsia
+  conf_id: mmasia26
+  link: https://www.mmasia2026.org/
+  place: VinUniversity, Hanoi, Vietnam
+  date: December 15-18, 2026
+  timezone: AoE
+location:
+  city: VinUniversity
+  country: Vietnam
+  country_code: VN
+dates:
+  start: 2026-12-15
+  end: 2026-12-18
+milestones:
+  - type: paper
+    at: 2026-08-14T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Regular Paper
+  - type: paper
+    at: 2026-08-21T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Special Session Paper
+  - type: paper
+    at: 2026-09-01T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Demo / Industry Submission
+  - type: conference
+    start: 2026-12-15
+    end: 2026-12-18
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

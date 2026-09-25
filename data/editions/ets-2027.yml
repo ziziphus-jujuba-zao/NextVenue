@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ets-2027
+series: ets
+name: ETS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ETS
+  conf_id: ets2027
+  link: https://www.ets2027.co.uk/
+  place: London, UK
+  date: May 24-28, 2027
+  timezone: AoE
+location:
+  city: London
+  country: UK
+  country_code: GB
+dates:
+  start: 2027-05-24
+  end: 2027-05-28
+milestones:
+  - type: abstract
+    tz: AoE
+    status: tba
+    note_zh: "ccfddl: Official CFP lists Dec 8 / Dec 15, 2026; exact time and timezone are not specified"
+  - type: paper
+    tz: AoE
+    status: tba
+    note_zh: "ccfddl: Official CFP lists Dec 8 / Dec 15, 2026; exact time and timezone are not specified"
+  - type: conference
+    start: 2027-05-24
+    end: 2027-05-28
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

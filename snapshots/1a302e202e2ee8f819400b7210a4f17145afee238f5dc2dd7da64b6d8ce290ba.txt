@@ -1,0 +1,414 @@
+ECOOP 2027
+Mon 28 June - Fri 2 July 2027 Turin, Italy
+Toggle navigation
+ * Tracks
+    * ECOOP 2027
+    * Technical Papers
+    * Workshops
+
+    * Workshops
+    * DEBT Future Debugging Techniques
+    * PLF+PLAID Decentralized Local-First Software
+    * VORTEX Runtime Monitoring
+ * Organization
+    * ECOOP 2027 Committees
+    * Organizing Committee
+    * Track Committees
+    * Technical Papers
+    * Workshops
+    * Contributors
+    * People Index
+
+    * Workshops
+    * DEBT Future Debugging Techniques
+      * Organizing Committee
+      * Program Committee
+      * Steering Committee
+    * PLF+PLAID Decentralized Local-First Software
+      * Organizing Committee
+    * VORTEX Runtime Monitoring
+      * Organizing Committee
+ * Search
+ * Series
+   * Series
+   *
+   * ECOOP 2027
+   * ECOOP 2026
+   * ECOOP 2025
+   * ECOOP 2024
+   * ECOOP 2023
+   * ECOOP 2022
+   * ECOOP 2021
+   * ECOOP 2020
+   * ECOOP 2019
+   * ECOOP 2018
+   * ECOOP 2017
+   * ECOOP 2016
+   * ECOOP 2015
+   *
+   * 2014: Uppsala
+   * 2013: Montpellier
+   * 2012: Beijing
+   * 2011: Lancaster
+   * 2010: Maribor
+   * 2009: Genova
+   * 2008: Cyprus
+   * 2007: Berlin
+   * 2006: Nice
+   * 2005: Glasgow
+
+ * Sign in
+ * Sign up
+
+ECOOP 2027 (series) /
+
+Technical PapersECOOP 2027
+
+ * Call for Papers
+
+Call for Papers
+
+ECOOP is a conference about programming originally focused on object orientation, but now including all practical and theoretical investigations of programming languages, systems and environments. ECOOP solicits innovative solutions to real problems as well as evaluations of existing solutions.
+
+Changes Compared to ECOOP 2026
+
+ * Authors must follow the ACM policy on AI usage.
+ * Authors should submit anonymous supplementary material with their paper, reviewers may take the presence or absence of suitable supplementary material into account when assessing a paper submission.
+ * Authors must agree to the Reserve Reviewer policy.
+ * Revised journal-first and journal-last schemes offer more value to authors.
+
+Paper Categories
+
+Authors are asked to pick one of the following categories:
+
+ * Research. The most traditional category for papers that advance the state of the art.
+ * Replication. An empirical evaluation that reconstructs a published experiment in a different context in order to validate the results of that earlier work.
+ * Experience. Applications of known PL techniques in practice as well as tools. Industry papers will be reviewed by practitioners. We welcome negative results that may provide inspiration for future research.
+ * Pearls/Brave New Ideas. Articles that either explain a known idea in an elegant way or unconventional papers introducing ideas that may take some time to substantiate. These papers may be short.
+
+Submissions
+
+Submitted papers must adhere to the SIGPLAN Republication Policy and the ACM Policy on Plagiarism. Particularly, submissions must not have been published, or have major overlap with previous work. Authors should bring simultaneously submitted related papers to the attention of all relevant program chairs. If the program chairs deem the related papers to be simultaneous duplicate submissions, the authors should be asked to withdraw all but one of the submissions. If the degree of similarity is unclear, the program committees should evaluate the submissions on the assumption that all other simultaneous related submissions will be accepted. In case of doubt, contact the program chairs.
+
+Proceedings will be published in open access by Dagstuhl LIPIcs in the Dagstuhl LIPIcs LaTeX-style template. To reduce friction when resubmitting, ACM’s PACMPL and TOPLAS formatted papers can be submitted as such (with the understanding that if accepted, they will need to be reformatted and reduced to the page limit).
+
+ECOOP uses double-anonymous reviewing. Authors’ identities are only revealed if a paper is accepted. Papers must omit author names and institutions, and use the third person when referencing the authors’ own work. Nothing should be done in the name of anonymity that weakens the submission; see the Double-Anonymous FAQ. If in doubt, contact the program chairs.
+
+There is no page limit on submissions, but authors must understand that reviewers have a fixed time budget for each paper, so the length of the feedback is likely to be unaffected by length. Brevity is a virtue. Authors also have to consider that the camera-ready version must be (at most) 25 pages in LIPIcs format (not including references).
+
+Authors will be given a four-day period to read and respond to the reviews of their papers before the program committee meeting. Responses have no length limit.
+
+ECOOP will continue to have two deadlines for submissions. Papers submitted in each round can be (a) accepted, (b) rejected, or (c) asked for revisions. Rejected papers that are submitted to the immediate next round can be desk-rejected if they do not sufficiently differ from the previous submission. Revisions can be submitted at any later round. The program chairs aim to assign the same reviewers to the revision as those that have reviewed the original submission.
+
+AI Usage
+
+ECOOP follows the ACM Policy on AI Usage. Quoting from the ACM policy, the use of such tools is permitted, subject to the following requirements:
+
+ * That these systems do not plagiarize, misrepresent, or falsify content in submissions.
+ * That the resulting submission in its totality is an accurate representation of the authors’ underlying work and novel intellectual contributions and is not primarily the result of the tool’s generative capabilities.
+ * That the authors accept responsibility for the veracity and correctness of all material in their submission, including any computer-generated material.
+
+Reviewers are expected to write reviews themselves and should not use AI-based tools under any condition. Even for more benign tasks (such as writing the paper’s summary and meta review) AI tools should not be used. The paper, the supplementary material, all reviews, the author response, and PC discussion are confidential and should not be shared with AI tools.
+
+Artifacts as Supplementary Material
+
+To support replication of experiments, authors of accepted papers are invited to submit artifacts separately to the Artifact Evaluation Committee. Authors will be asked at paper submission time whether they intend to also submit an artifact if the paper is accepted.
+
+An artifact that substantially supports the claims of a paper should be included as supplementary material with the paper submission. An artifact as supplementary material must be anonymized, but it need not be as polished as expected for Artifact Evaluation, which is concerned with packaging and re-usability as well as supporting the claims of the paper. Supplementary material is not a requirement, and the shape and value of an artifact as supplementary material will vary among papers. Reviewers may take the presence or absence of suitable supplementary material into account when assessing a paper submission.
+
+Reserve Reviewer Policy
+
+In the event that ECOOP receives many more submissions than anticipated, we reserve the option to ask up to one author of each submitted paper to participate as reviewer. Should we need to exercise this option, the program chairs will select an author to ask taking into account seniority and recent service to the ECOOP community broadly. The program chairs will take extenuating circumstances into account, but authors will otherwise be expected to contribute to the review process in the unlikely case that additional reviewers are needed.
+
+Journal First
+
+We are investigating a more flexible Journal First (JF) arrangement compared to earlier editions of ECOOP. More details about JF will appear on this page in due time.
+
+Journal After
+
+Authors of accepted papers are invited to submit an extended version of their ECOOP paper to TOPLAS. Publication in TOPLAS will allow authors to tell a more complete story about the contributions of their paper. Following TOPLAS policy the extended version should contain at least 30% new material: this could involve new technical contributions, but also a significantly improved exposition. The reviewing of the extended version will be handled fully by the TOPLAS editorial board. The ECOOP program chairs will communicate reviewer information to TOPLAS with the aim that the extended version of a paper will be reviewed by a combination of the original reviewers plus some new reviewers.
+
+Important Dates AoE (UTC-12h)
+
+Thu 19 Nov 2026
+Round 1 submissions
+Mon 11 - Fri 15 Jan 2027
+Round 1 Author response period
+Thu 28 Jan 2027
+Round 1 Notification
+Thu 11 Feb 2027
+Round 2 Submissions
+Mon 22 - Fri 26 Mar 2027
+Round 2 Author response period
+Thu 8 Apr 2027
+Round 2 Notification
+
+Programme Committee
+
+ * Matthew FlattCo-chair
+
+   University of Utah
+
+   United States
+
+ * Robbert KrebbersCo-chair
+
+   Radboud University Nijmegen
+
+   Netherlands
+
+ * CF Bolz-Tereick
+
+   Germany
+
+ * Ugo de'Liguoro
+
+   Università di Torino
+
+ * João F. Ferreira
+
+   Faculty of Engineering, University of Porto & INESC-ID
+
+   Portugal
+
+ * Marco Gaboardi
+
+   Boston University
+
+   United States
+
+ * Ali Ghanbari
+
+   Auburn University
+
+   United States
+
+ * Paola Giannini
+
+   University of Eastern Piedmont
+
+   Italy
+
+ * Milos Gligoric
+
+   The University of Texas at Austin
+
+   United States
+
+ * Hannah Gommerstadt
+
+   Vassar College
+
+ * Kiran Gopinathan
+
+   Basis
+
+   United States
+
+ * Philipp Haller
+
+   KTH Royal Institute of Technology
+
+   Sweden
+
+ * Einar Broch Johnsen
+
+   University of Oslo
+
+   Norway
+
+ * Paulette Koronkevich
+
+   University of British Columbia
+
+ * Vasileios Koutavas
+
+   Trinity College Dublin
+
+   Ireland
+
+ * Shriram Krishnamurthi
+
+   Brown University
+
+   United States
+
+ * Nico Lehmann
+
+   University of Chile
+
+   Chile
+
+ * Ondřej Lhoták
+
+   University of Waterloo
+
+   Canada
+
+ * Sam Lindley
+
+   University of Edinburgh
+
+   United Kingdom
+
+ * Crista Lopes
+
+   University of California Irvine
+
+   United States
+
+ * Ana Milanova
+
+   Rensselaer Polytechnic Institute
+
+ * Todd Millstein
+
+   University of California at Los Angeles
+
+   United States
+
+ * Antoine Miné
+
+   Sorbonne Université
+
+   France
+
+ * Cameron Moy
+
+   Northeastern University
+
+   United States
+
+ * Lionel Parreaux
+
+   HKUST (The Hong Kong University of Science and Technology)
+
+   Hong Kong SAR China
+
+ * Yun Peng
+
+   Fudan University
+
+   China
+
+ * Joe Gibbs Politz
+
+   University of California at San Diego
+
+   United States
+
+ * Jorge A. Pérez
+
+   University of Groningen
+
+   Netherlands
+
+ * Tom Schrijvers
+
+   KU Leuven
+
+   Belgium
+
+ * Marco Servetto
+
+   Victoria University of Wellington
+
+   New Zealand
+
+ * Yannis Smaragdakis
+
+   University of Athens
+
+   Greece
+
+ * Yulei Sui
+
+   University of New South Wales
+
+   Australia
+
+ * Amin Timany
+
+   Aarhus University
+
+   Denmark
+
+ * Ben L. Titzer
+
+   Carnegie Mellon University
+
+   United States
+
+ * Petr Tuma
+
+   Charles University
+
+   Czechia
+
+ * Emilio Tuosto
+
+   Gran Sasso Science Institute, L'Aquila, Italy
+
+   Italy
+
+ * Caterina Urban
+
+   Inria - École Normale Supérieure
+
+   France
+
+ * Viktor Vafeiadis
+
+   MPI-SWS
+
+   Germany
+
+ * David Van Horn
+
+   University of Maryland
+
+   United States
+
+ * Vesal Vojdani
+
+   University of Tartu
+
+   Estonia
+
+ * Michael Vollmer
+
+   University of Kent
+
+   United Kingdom
+
+ * Yuting Wang
+
+   Shanghai Jiao Tong University
+
+   China
+
+xFri 25 Sep 17:48
+
+ECOOP 2027
+
+contact form
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+Technical Papers
+Workshops
+
+Workshops
+
+DEBT 2027
+PLF+PLAID 2027
+VORTEX 2027
+
+Attending
+
+Sign Up

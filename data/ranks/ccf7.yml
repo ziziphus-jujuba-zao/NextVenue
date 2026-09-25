@@ -1,0 +1,3945 @@
+# 中国计算机学会推荐国际学术会议和期刊目录（第七版）· 会议部分 — 386 条。由 scripts/import-rank-list.ts 从官方 PDF 的逐条抽取稿生成；改动请重新生成，不要手改条目。
+# 许可：目录没有公开许可。界面只显示“CCF A/B/C（第七版）”、所属类别和官方链接，不转载 PDF，不整表展示。
+id: ccf7
+label_zh: CCF
+name_zh: 中国计算机学会推荐国际学术会议和期刊目录（第七版）· 会议部分
+name_en: CCF Recommended List of International Conferences and Journals, 7th edition (conferences)
+issuer_zh: 中国计算机学会
+issuer_en: China Computer Federation (CCF)
+kind: society
+edition: "7"
+edition_zh: 第七版
+released: 2026-03-31
+note_zh: 2026-04-09 修正一处勘误。ccf.org.cn 各分类网页截至 2026-09-25 仍是第六版数据，以 PDF 为准。只有正式论文（full/regular paper）算在目录内。
+official_url: https://www.ccf.org.cn/Academic_Evaluation/By_category/
+document:
+  url: https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F
+  sha256: 271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3
+  pages: 72
+tiers:
+  - A
+  - B
+  - C
+tier_meaning_zh:
+  A: 国际上极少数的顶级刊物和会议
+  B: 国际上著名和非常重要的会议、刊物
+  C: 国际学术界所认可的重要会议、刊物
+attach: series
+license:
+  display: tier_and_citation
+  note_zh: 目录没有公开许可。界面只显示“CCF A/B/C（第七版）”、所属类别和官方链接，不转载 PDF，不整表展示。
+disclaimer_zh: 本目录…其目的不是作为学术评价的依据，而仅作为CCF的推荐建议供业界参考…如果由于将此《目录》作为学术评价的依据而引起纠纷，本学会不承担任何责任。
+categories:
+  - id: "1"
+    name_zh: 计算机体系结构/并行与分布计算/存储系统
+    name_en: Computer Architecture / Parallel & Distributed Computing / Storage Systems
+    code: ARCH_DCP_SS
+  - id: "2"
+    name_zh: 计算机网络
+    name_en: Computer Networks
+    code: CN
+  - id: "3"
+    name_zh: 网络与信息安全
+    name_en: Network & Information Security
+    code: NIS
+  - id: "4"
+    name_zh: 软件工程/系统软件/程序设计语言
+    name_en: Software Engineering / System Software / Programming Languages
+    code: TCSE_SS_PDL
+  - id: "5"
+    name_zh: 数据库/数据挖掘/内容检索
+    name_en: Databases / Data Mining / Information Retrieval
+    code: DM_CS
+  - id: "6"
+    name_zh: 计算机科学理论
+    name_en: Theoretical Computer Science
+    code: TCS
+  - id: "7"
+    name_zh: 计算机图形学与多媒体
+    name_en: Computer Graphics & Multimedia
+    code: CGAndMT
+  - id: "8"
+    name_zh: 人工智能
+    name_en: Artificial Intelligence
+    code: AI
+  - id: "9"
+    name_zh: 人机交互与普适计算
+    name_en: Human-Computer Interaction & Pervasive Computing
+    code: HCIAndPC
+  - id: "10"
+    name_zh: 交叉/综合/新兴
+    name_en: Interdisciplinary / Comprehensive / Emerging
+    code: Cross_Compre_Emerging
+verified:
+  date: 2026-09-25
+  method_zh: 从 ccf.org.cn 官方地址下载 PDF（sha256 与本文件一致），逐条按缩写和等级核对 386 条；5 条缩写在 PDF 里折行的人工核对。
+counts:
+  total: 386
+  by_tier:
+    A: 58
+    B: 132
+    C: 196
+entries:
+  - id: ppopp
+    acronym: PPoPP
+    full_name: ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:ppopp
+      - name:symposium principles practice parallel programming
+      - dblp:conf/ppopp
+  - id: fast
+    acronym: FAST
+    full_name: USENIX Conference on File and Storage Technologies
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:fast
+      - name:usenix conference file storage technologies
+      - dblp:conf/fast
+  - id: dac
+    acronym: DAC
+    full_name: Design Automation Conference
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:dac
+      - name:design automation conference
+      - dblp:conf/dac
+  - id: hpca
+    acronym: HPCA
+    full_name: IEEE International Symposium on High Performance Computer Architecture
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:hpca
+      - name:international symposium high performance computer architecture
+      - dblp:conf/hpca
+  - id: micro
+    acronym: MICRO
+    full_name: IEEE/ACM International Symposium on Microarchitecture
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:micro
+      - dblp:conf/micro
+  - id: sc
+    acronym: SC
+    full_name: International Conference for High Performance Computing, Networking, Storage, and Analysis
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:sc
+      - name:international conference high performance computing networking storage analysis
+      - dblp:conf/sc
+  - id: asplos
+    acronym: ASPLOS
+    full_name: International Conference on Architectural Support for Programming Languages and Operating Systems
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:asplos
+      - name:international conference architectural support programming languages operating systems
+      - dblp:conf/asplos
+  - id: isca
+    acronym: ISCA
+    full_name: International Symposium on Computer Architecture
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:isca
+      - name:international symposium computer architecture
+      - dblp:conf/isca
+  - id: sigopsatc
+    acronym: ACM SIGOPS ATC
+    full_name: ACM SIGOPS Annual Technical Conference
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:sigopsatc
+      - acronym:usenixatc
+      - dblp:conf/usenix
+    note: former acronym USENIX ATC
+  - id: eurosys
+    acronym: EuroSys
+    full_name: European Conference on Computer Systems
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:eurosys
+      - name:european conference computer systems
+      - dblp:conf/eurosys
+  - id: hpdc
+    acronym: HPDC
+    full_name: The International ACM Symposium on High-Performance Parallel and Distributed Computing
+    tier: A
+    category: "1"
+    page: 5
+    match_keys:
+      - acronym:hpdc
+      - name:international symposium high performance parallel distributed computing
+      - dblp:conf/hpdc
+  - id: sigcomm
+    acronym: SIGCOMM
+    full_name: ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication
+    tier: A
+    category: "2"
+    page: 13
+    match_keys:
+      - acronym:sigcomm
+      - name:international conference applications technologies architectures protocols computer communication
+      - dblp:conf/sigcomm
+  - id: mobicom
+    acronym: MobiCom
+    full_name: ACM International Conference on Mobile Computing and Networking
+    tier: A
+    category: "2"
+    page: 13
+    match_keys:
+      - acronym:mobicom
+      - name:international conference mobile computing networking
+      - dblp:conf/mobicom
+  - id: infocom
+    acronym: INFOCOM
+    full_name: IEEE International Conference on Computer Communications
+    tier: A
+    category: "2"
+    page: 13
+    match_keys:
+      - acronym:infocom
+      - name:international conference computer communications
+      - dblp:conf/infocom
+  - id: nsdi
+    acronym: NSDI
+    full_name: Symposium on Network System Design and Implementation
+    tier: A
+    category: "2"
+    page: 13
+    match_keys:
+      - acronym:nsdi
+      - name:symposium network system design implementation
+      - dblp:conf/nsdi
+  - id: ccs
+    acronym: CCS
+    full_name: ACM Conference on Computer and Communications Security
+    tier: A
+    category: "3"
+    page: 20
+    match_keys:
+      - acronym:ccs
+      - name:conference computer communications security
+      - dblp:conf/ccs
+  - id: eurocrypt
+    acronym: EUROCRYPT
+    full_name: International Conference on the Theory and Applications of Cryptographic Techniques
+    tier: A
+    category: "3"
+    page: 20
+    match_keys:
+      - acronym:eurocrypt
+      - name:international conference theory applications cryptographic techniques
+      - dblp:conf/eurocrypt
+  - id: sp
+    acronym: S&P
+    full_name: IEEE Symposium on Security and Privacy
+    tier: A
+    category: "3"
+    page: 20
+    match_keys:
+      - acronym:sp
+      - name:symposium security privacy
+      - dblp:conf/sp
+  - id: crypto
+    acronym: CRYPTO
+    full_name: International Cryptology Conference
+    tier: A
+    category: "3"
+    page: 20
+    match_keys:
+      - acronym:crypto
+      - dblp:conf/crypto
+  - id: usenixsecurity
+    acronym: USENIX Security
+    full_name: USENIX Security Symposium
+    tier: A
+    category: "3"
+    page: 20
+    match_keys:
+      - acronym:usenixsecurity
+      - name:usenix security symposium
+      - dblp:conf/uss
+  - id: ndss
+    acronym: NDSS
+    full_name: Network and Distributed System Security Symposium
+    tier: A
+    category: "3"
+    page: 20
+    match_keys:
+      - acronym:ndss
+      - name:network distributed system security symposium
+      - dblp:conf/ndss
+  - id: pldi
+    acronym: PLDI
+    full_name: ACM SIGPLAN Conference on Programming Language Design and Implementation
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:pldi
+      - name:conference programming language design implementation
+      - dblp:conf/pldi
+  - id: popl
+    acronym: POPL
+    full_name: ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:popl
+      - name:symposium principles programming languages
+      - dblp:conf/popl
+  - id: fse-4
+    acronym: FSE
+    full_name: ACM International Conference on the Foundations of Software Engineering
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:fse
+      - name:international conference foundations software engineering
+      - dblp:conf/sigsoft
+  - id: sosp
+    acronym: SOSP
+    full_name: ACM Symposium on Operating Systems Principles
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:sosp
+      - name:symposium operating systems principles
+      - dblp:conf/sosp
+  - id: oopsla
+    acronym: OOPSLA
+    full_name: Conference on Object-Oriented Programming Systems, Languages, and Applications
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:oopsla
+      - name:conference object oriented programming systems languages applications
+      - dblp:conf/oopsla
+  - id: ase
+    acronym: ASE
+    full_name: International Conference on Automated Software Engineering
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:ase
+      - name:international conference automated software engineering
+      - dblp:conf/kbse
+  - id: icse
+    acronym: ICSE
+    full_name: International Conference on Software Engineering
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:icse
+      - name:international conference software engineering
+      - dblp:conf/icse
+  - id: issta
+    acronym: ISSTA
+    full_name: International Symposium on Software Testing and Analysis
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:issta
+      - name:international symposium software testing analysis
+      - dblp:conf/issta
+  - id: osdi
+    acronym: OSDI
+    full_name: USENIX Symposium on Operating Systems Design and Implementation
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:osdi
+      - name:usenix symposium operating systems design implementation
+      - dblp:conf/osdi
+  - id: fm
+    acronym: FM
+    full_name: International Symposium on Formal Methods
+    tier: A
+    category: "4"
+    page: 27
+    match_keys:
+      - acronym:fm
+      - name:international symposium formal methods
+      - dblp:conf/fm
+  - id: sigmod
+    acronym: SIGMOD
+    full_name: ACM SIGMOD Conference
+    tier: A
+    category: "5"
+    page: 35
+    match_keys:
+      - acronym:sigmod
+      - dblp:conf/sigmod
+  - id: sigkdd
+    acronym: SIGKDD
+    full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+    tier: A
+    category: "5"
+    page: 35
+    match_keys:
+      - acronym:sigkdd
+      - name:conference knowledge discovery data mining
+      - dblp:conf/kdd
+  - id: icde
+    acronym: ICDE
+    full_name: IEEE International Conference on Data Engineering
+    tier: A
+    category: "5"
+    page: 35
+    match_keys:
+      - acronym:icde
+      - name:international conference data engineering
+      - dblp:conf/icde
+  - id: sigir
+    acronym: SIGIR
+    full_name: International ACM SIGIR Conference on Research and Development in Information Retrieval
+    tier: A
+    category: "5"
+    page: 35
+    match_keys:
+      - acronym:sigir
+      - name:international conference research development information retrieval
+      - dblp:conf/sigir
+  - id: vldb
+    acronym: VLDB
+    full_name: International Conference on Very Large Data Bases
+    tier: A
+    category: "5"
+    page: 35
+    match_keys:
+      - acronym:vldb
+      - name:international conference very large data bases
+      - dblp:conf/vldb
+  - id: stoc
+    acronym: STOC
+    full_name: ACM Symposium on the Theory of Computing
+    tier: A
+    category: "6"
+    page: 41
+    match_keys:
+      - acronym:stoc
+      - name:symposium theory computing
+      - dblp:conf/stoc
+  - id: soda
+    acronym: SODA
+    full_name: ACM-SIAM Symposium on Discrete Algorithms
+    tier: A
+    category: "6"
+    page: 41
+    match_keys:
+      - acronym:soda
+      - name:siam symposium discrete algorithms
+      - dblp:conf/soda
+  - id: cav
+    acronym: CAV
+    full_name: International Conference on Computer Aided Verification
+    tier: A
+    category: "6"
+    page: 41
+    match_keys:
+      - acronym:cav
+      - name:international conference computer aided verification
+      - dblp:conf/cav
+  - id: focs
+    acronym: FOCS
+    full_name: IEEE Annual Symposium on Foundations of Computer Science
+    tier: A
+    category: "6"
+    page: 41
+    match_keys:
+      - acronym:focs
+      - name:annual symposium foundations computer science
+      - dblp:conf/focs
+  - id: lics
+    acronym: LICS
+    full_name: ACM/IEEE Symposium on Logic in Computer Science
+    tier: A
+    category: "6"
+    page: 41
+    match_keys:
+      - acronym:lics
+      - name:symposium logic computer science
+      - dblp:conf/lics
+  - id: mm
+    acronym: ACM MM
+    full_name: ACM International Conference on Multimedia
+    tier: A
+    category: "7"
+    page: 47
+    match_keys:
+      - acronym:mm
+      - dblp:conf/mm
+  - id: siggraph
+    acronym: SIGGRAPH
+    full_name: ACM Special Interest Group on Computer Graphics
+    tier: A
+    category: "7"
+    page: 47
+    match_keys:
+      - acronym:siggraph
+      - name:special interest group computer graphics
+      - dblp:conf/siggraph
+  - id: vr
+    acronym: VR
+    full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
+    tier: A
+    category: "7"
+    page: 47
+    match_keys:
+      - acronym:vr
+      - name:conference virtual reality 3d user interfaces
+      - name:virtual reality
+      - dblp:conf/vr
+    note: former name IEEE Virtual Reality
+  - id: vis
+    acronym: IEEE VIS
+    full_name: IEEE Visualization Conference
+    tier: A
+    category: "7"
+    page: 47
+    match_keys:
+      - acronym:vis
+      - dblp:conf/visualization
+  - id: aaai
+    acronym: AAAI
+    full_name: AAAI Conference on Artificial Intelligence
+    tier: A
+    category: "8"
+    page: 57
+    match_keys:
+      - acronym:aaai
+      - name:aaai conference artificial intelligence
+      - dblp:conf/aaai
+  - id: neurips
+    acronym: NeurIPS
+    full_name: Conference on Neural Information Processing Systems
+    tier: A
+    category: "8"
+    page: 57
+    match_keys:
+      - acronym:neurips
+      - name:conference neural information processing systems
+      - dblp:conf/nips
+  - id: acl
+    acronym: ACL
+    full_name: Annual Meeting of the Association for Computational Linguistics
+    tier: A
+    category: "8"
+    page: 57
+    match_keys:
+      - acronym:acl
+      - name:annual meeting association computational linguistics
+      - dblp:conf/acl
+  - id: cvpr
+    acronym: CVPR
+    full_name: IEEE/CVF Computer Vision and Pattern Recognition Conference
+    tier: A
+    category: "8"
+    page: 57
+    match_keys:
+      - acronym:cvpr
+      - name:computer vision pattern recognition conference
+      - dblp:conf/cvpr
+  - id: iccv
+    acronym: ICCV
+    full_name: International Conference on Computer Vision
+    tier: A
+    category: "8"
+    page: 57
+    match_keys:
+      - acronym:iccv
+      - name:international conference computer vision
+      - dblp:conf/iccv
+  - id: icml
+    acronym: ICML
+    full_name: International Conference on Machine Learning
+    tier: A
+    category: "8"
+    page: 57
+    match_keys:
+      - acronym:icml
+      - name:international conference machine learning
+      - dblp:conf/icml
+  - id: iclr
+    acronym: ICLR
+    full_name: International Conference on Learning Representations
+    tier: A
+    category: "8"
+    page: 57
+    match_keys:
+      - acronym:iclr
+      - name:international conference learning representations
+      - dblp:conf/iclr
+  - id: cscw
+    acronym: CSCW
+    full_name: ACM Conference On Computer-Supported Cooperative Work And Social Computing
+    tier: A
+    category: "9"
+    page: 64
+    match_keys:
+      - acronym:cscw
+      - name:conference computer supported cooperative work social computing
+      - dblp:conf/cscw
+  - id: chi
+    acronym: CHI
+    full_name: ACM Conference on Human Factors in Computing Systems
+    tier: A
+    category: "9"
+    page: 64
+    match_keys:
+      - acronym:chi
+      - name:conference human factors computing systems
+      - dblp:conf/chi
+  - id: ubicomp
+    acronym: UbiComp
+    full_name: ACM international joint conference on Pervasive and Ubiquitous Computing
+    tier: A
+    category: "9"
+    page: 64
+    match_keys:
+      - acronym:ubicomp
+      - acronym:ubicompimwut
+      - name:international joint conference pervasive ubiquitous computing
+      - dblp:conf/huc
+    note: former acronym UbiComp/IMWUT
+  - id: uist
+    acronym: UIST
+    full_name: ACM Symposium on User Interface Software and Technology
+    tier: A
+    category: "9"
+    page: 64
+    match_keys:
+      - acronym:uist
+      - name:symposium user interface software technology
+      - dblp:conf/uist
+  - id: www
+    acronym: WWW
+    full_name: The Web Conference
+    tier: A
+    category: "10"
+    page: 70
+    match_keys:
+      - acronym:www
+      - name:international world wide web conference
+      - dblp:conf/www
+    note: former name International World Wide Web Conference
+  - id: rtss
+    acronym: RTSS
+    full_name: IEEE Real-Time Systems Symposium
+    tier: A
+    category: "10"
+    page: 70
+    match_keys:
+      - acronym:rtss
+      - name:real time systems symposium
+      - dblp:conf/rtss
+  - id: socc
+    acronym: SoCC
+    full_name: ACM Symposium on Cloud Computing
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:socc
+      - name:symposium cloud computing
+      - dblp:conf/cloud
+  - id: spaa
+    acronym: SPAA
+    full_name: ACM Symposium on Parallelism in Algorithms and Architectures
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:spaa
+      - name:symposium parallelism algorithms architectures
+      - dblp:conf/spaa
+  - id: podc
+    acronym: PODC
+    full_name: ACM Symposium on Principles of Distributed Computing
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:podc
+      - name:symposium principles distributed computing
+      - dblp:conf/podc
+  - id: fpga
+    acronym: FPGA
+    full_name: ACM/SIGDA International Symposium on Field-Programmable Gate Arrays
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:fpga
+      - name:international symposium field programmable gate arrays
+      - dblp:conf/fpga
+  - id: cgo
+    acronym: CGO
+    full_name: The International Symposium on Code Generation and Optimization
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:cgo
+      - name:international symposium code generation optimization
+      - dblp:conf/cgo
+  - id: date
+    acronym: DATE
+    full_name: Design, Automation & Test in Europe
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:date
+      - name:design automation test europe
+      - dblp:conf/date
+  - id: hotchips
+    acronym: HOT CHIPS
+    full_name: "Hot Chips: A Symposium on High Performance Chips"
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:hotchips
+      - name:hot chips symposium high performance chips
+      - dblp:conf/hotchips
+  - id: cluster
+    acronym: CLUSTER
+    full_name: IEEE International Conference on Cluster Computing
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:cluster
+      - name:international conference cluster computing
+      - dblp:conf/cluster
+  - id: iccd
+    acronym: ICCD
+    full_name: International Conference on Computer Design
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:iccd
+      - name:international conference computer design
+      - dblp:conf/iccd
+  - id: iccad
+    acronym: ICCAD
+    full_name: International Conference on Computer-Aided Design
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:iccad
+      - name:international conference computer aided design
+      - dblp:conf/iccad
+  - id: icdcs
+    acronym: ICDCS
+    full_name: IEEE International Conference on Distributed Computing Systems
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:icdcs
+      - name:international conference distributed computing systems
+      - dblp:conf/icdcs
+  - id: codesisss
+    acronym: CODES+ISSS
+    full_name: International Conference on Hardware/Software Co-design and System Synthesis
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:codesisss
+      - name:international conference hardware software co design system synthesis
+      - dblp:conf/codesisss
+  - id: hipeac
+    acronym: HiPEAC
+    full_name: International Conference on High Performance and Embedded Architectures and Compilers
+    tier: B
+    category: "1"
+    page: 6
+    match_keys:
+      - acronym:hipeac
+      - name:international conference high performance embedded architectures compilers
+      - dblp:conf/hipeac
+  - id: sigmetrics
+    acronym: SIGMETRICS
+    full_name: International Conference on Measurement and Modeling of Computer Systems
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:sigmetrics
+      - name:international conference measurement modeling computer systems
+      - dblp:conf/sigmetrics
+  - id: pact
+    acronym: PACT
+    full_name: International Conference on Parallel Architectures and Compilation Techniques
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:pact
+      - name:international conference parallel architectures compilation techniques
+      - dblp:conf/ieeepact
+  - id: icpp
+    acronym: ICPP
+    full_name: International Conference on Parallel Processing
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:icpp
+      - name:international conference parallel processing
+      - dblp:conf/icpp
+  - id: ics
+    acronym: ICS
+    full_name: International Conference on Supercomputing
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:ics
+      - dblp:conf/ics
+  - id: vee
+    acronym: VEE
+    full_name: International Conference on Virtual Execution Environments
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:vee
+      - name:international conference virtual execution environments
+      - dblp:conf/vee
+  - id: ipdps
+    acronym: IPDPS
+    full_name: IEEE International Parallel & Distributed Processing Symposium
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:ipdps
+      - name:international parallel distributed processing symposium
+      - dblp:conf/ipps
+  - id: performance
+    acronym: Performance
+    full_name: International Symposium on Computer Performance, Modeling, Measurements and Evaluation
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:performance
+      - name:international symposium computer performance modeling measurements evaluation
+      - dblp:conf/performance
+  - id: itc
+    acronym: ITC
+    full_name: International Test Conference
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:itc
+      - dblp:conf/itc
+  - id: lisa
+    acronym: LISA
+    full_name: Large Installation System Administration Conference
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:lisa
+      - name:large installation system administration conference
+      - dblp:conf/lisa
+  - id: msst
+    acronym: MSST
+    full_name: Mass Storage Systems and Technologies
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:msst
+      - name:mass storage systems technologies
+      - dblp:conf/mss
+  - id: rtas
+    acronym: RTAS
+    full_name: IEEE Real-Time and Embedded Technology and Applications Symposium
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:rtas
+      - name:real time embedded technology applications symposium
+      - dblp:conf/rtas
+  - id: europar
+    acronym: Euro-Par
+    full_name: European Conference on Parallel and Distributed Computing
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:europar
+      - name:european conference parallel distributed computing
+      - dblp:conf/europar
+  - id: iscas
+    acronym: ISCAS
+    full_name: IEEE International Symposium on Circuits and Systems
+    tier: B
+    category: "1"
+    page: 7
+    match_keys:
+      - acronym:iscas
+      - name:international symposium circuits systems
+      - dblp:conf/iscas
+  - id: sensys
+    acronym: SenSys
+    full_name: ACM Conference on Embedded Networked Sensor Systems
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:sensys
+      - name:conference embedded networked sensor systems
+      - dblp:conf/sensys
+  - id: conext
+    acronym: CoNEXT
+    full_name: ACM International Conference on Emerging Networking Experiments and Technologies
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:conext
+      - name:international conference emerging networking experiments technologies
+      - dblp:conf/conext
+  - id: secon
+    acronym: SECON
+    full_name: IEEE International Conference on Sensing, Communication, and Networking
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:secon
+      - name:international conference sensing communication networking
+      - dblp:conf/secon
+  - id: ipsn
+    acronym: IPSN
+    full_name: International Conference on Information Processing in Sensor Networks
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:ipsn
+      - name:international conference information processing sensor networks
+      - dblp:conf/ipsn
+  - id: mobisys
+    acronym: MobiSys
+    full_name: ACM International Conference on Mobile Systems, Applications, and Services
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:mobisys
+      - name:international conference mobile systems applications services
+      - dblp:conf/mobisys
+  - id: icnp
+    acronym: ICNP
+    full_name: IEEE International Conference on Network Protocols
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:icnp
+      - name:international conference network protocols
+      - dblp:conf/icnp
+  - id: mobihoc
+    acronym: MobiHoc
+    full_name: International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:mobihoc
+      - name:international symposium theory algorithmic foundations protocol design mobile networks mobile computing
+      - dblp:conf/mobihoc
+  - id: nossdav
+    acronym: NOSSDAV
+    full_name: International Workshop on Network and Operating System Support for Digital Audio and Video
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:nossdav
+      - name:international workshop network operating system support digital audio video
+      - dblp:conf/nossdav
+  - id: iwqos
+    acronym: IWQoS
+    full_name: IEEE/ACM International Workshop on Quality of Service
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:iwqos
+      - name:international workshop quality service
+      - dblp:conf/iwqos
+  - id: imc
+    acronym: IMC
+    full_name: ACM Internet Measurement Conference
+    tier: B
+    category: "2"
+    page: 14
+    match_keys:
+      - acronym:imc
+      - name:internet measurement conference
+      - dblp:conf/imc
+  - id: acsac
+    acronym: ACSAC
+    full_name: Annual Computer Security Applications Conference
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:acsac
+      - name:annual computer security applications conference
+      - dblp:conf/acsac
+  - id: asiacrypt
+    acronym: ASIACRYPT
+    full_name: Annual International Conference on the Theory and Application of Cryptology and Information Security
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:asiacrypt
+      - name:annual international conference theory application cryptology information security
+      - dblp:conf/asiacrypt
+  - id: esorics
+    acronym: ESORICS
+    full_name: European Symposium on Research in Computer Security
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:esorics
+      - name:european symposium research computer security
+      - dblp:conf/esorics
+  - id: fse-3
+    acronym: FSE
+    full_name: Fast Software Encryption
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:fse
+      - name:fast software encryption
+      - dblp:conf/fse
+  - id: csfw
+    acronym: CSFW
+    full_name: IEEE Computer Security Foundations Workshop
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:csfw
+      - name:computer security foundations workshop
+      - dblp:conf/csfw
+  - id: srds
+    acronym: SRDS
+    full_name: IEEE International Symposium on Reliable Distributed Systems
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:srds
+      - name:international symposium reliable distributed systems
+      - dblp:conf/srds
+  - id: ches
+    acronym: CHES
+    full_name: International Conference on Cryptographic Hardware and Embedded Systems
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:ches
+      - name:international conference cryptographic hardware embedded systems
+      - dblp:conf/ches
+  - id: dsn
+    acronym: DSN
+    full_name: International Conference on Dependable Systems and Networks
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:dsn
+      - name:international conference dependable systems networks
+      - dblp:conf/dsn
+  - id: raid
+    acronym: RAID
+    full_name: International Symposium on Recent Advances in Intrusion Detection
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:raid
+      - name:international symposium recent advances intrusion detection
+      - dblp:conf/raid
+  - id: pkc
+    acronym: PKC
+    full_name: International Workshop on Practice and Theory in Public Key Cryptography
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:pkc
+      - name:international workshop practice theory public key cryptography
+      - dblp:conf/pkc
+  - id: tcc
+    acronym: TCC
+    full_name: Theory of Cryptography Conference
+    tier: B
+    category: "3"
+    page: 21
+    match_keys:
+      - acronym:tcc
+      - name:theory cryptography conference
+      - dblp:conf/tcc
+  - id: ecoop
+    acronym: ECOOP
+    full_name: European Conference on Object-Oriented Programming
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:ecoop
+      - name:european conference object oriented programming
+      - dblp:conf/ecoop
+  - id: etaps
+    acronym: ETAPS
+    full_name: European Joint Conferences on Theory and Practice of Software
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:etaps
+      - name:european joint conferences theory practice software
+      - dblp:conf/etaps
+  - id: icpc
+    acronym: ICPC
+    full_name: IEEE International Conference on Program Comprehension
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:icpc
+      - name:international conference program comprehension
+      - dblp:conf/iwpc
+  - id: re
+    acronym: RE
+    full_name: IEEE International Requirements Engineering Conference
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:re
+      - name:international requirements engineering conference
+      - dblp:conf/re
+  - id: caise
+    acronym: CAiSE
+    full_name: International Conference on Advanced Information Systems Engineering
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:caise
+      - name:international conference advanced information systems engineering
+      - dblp:conf/caise
+  - id: icfp
+    acronym: ICFP
+    full_name: ACM SIGPLAN International Conference on Function Programming
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:icfp
+      - name:international conference function programming
+      - dblp:conf/icfp
+  - id: lctes
+    acronym: LCTES
+    full_name: ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:lctes
+      - name:international conference languages compilers tools embedded systems
+      - dblp:conf/lctrts
+  - id: models
+    acronym: MoDELS
+    full_name: ACM/IEEE International Conference on Model Driven Engineering Languages and Systems
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:models
+      - name:international conference model driven engineering languages systems
+      - dblp:conf/models
+  - id: cp
+    acronym: CP
+    full_name: International Conference on Principles and Practice of Constraint Programming
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:cp
+      - name:international conference principles practice constraint programming
+      - dblp:conf/cp
+  - id: icsoc
+    acronym: ICSOC
+    full_name: International Conference on Service Oriented Computing
+    tier: B
+    category: "4"
+    page: 28
+    match_keys:
+      - acronym:icsoc
+      - name:international conference service oriented computing
+      - dblp:conf/icsoc
+  - id: saner
+    acronym: SANER
+    full_name: IEEE International Conference on Software Analysis, Evolution, and Reengineering
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:saner
+      - name:international conference software analysis evolution reengineering
+      - dblp:conf/wcre
+  - id: icsme
+    acronym: ICSME
+    full_name: International Conference on Software Maintenance and Evolution
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:icsme
+      - name:international conference software maintenance evolution
+      - dblp:conf/icsm
+  - id: vmcai
+    acronym: VMCAI
+    full_name: International Conference on Verification, Model Checking and Abstract Interpretation
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:vmcai
+      - name:international conference verification model checking abstract interpretation
+      - dblp:conf/vmcai
+  - id: icws
+    acronym: ICWS
+    full_name: IEEE International Conference on Web Services
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:icws
+      - name:international conference web services
+      - dblp:conf/icws
+  - id: middleware
+    acronym: Middleware
+    full_name: International Middleware Conference
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:middleware
+      - dblp:conf/middleware
+  - id: sas
+    acronym: SAS
+    full_name: International Static Analysis Symposium
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:sas
+      - name:international static analysis symposium
+      - dblp:conf/sas
+  - id: esem
+    acronym: ESEM
+    full_name: International Symposium on Empirical Software Engineering and Measurement
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:esem
+      - name:international symposium empirical software engineering measurement
+      - dblp:conf/esem
+  - id: issre
+    acronym: ISSRE
+    full_name: IEEE International Symposium on Software Reliability Engineering
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:issre
+      - name:international symposium software reliability engineering
+      - dblp:conf/issre
+  - id: hotos
+    acronym: HotOS
+    full_name: USENIX Workshop on Hot Topics in Operating Systems
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:hotos
+      - name:usenix workshop hot topics operating systems
+      - dblp:conf/hotos
+  - id: cc
+    acronym: CC
+    full_name: International Conference on Compiler Construction
+    tier: B
+    category: "4"
+    page: 29
+    match_keys:
+      - acronym:cc
+      - name:international conference compiler construction
+      - dblp:conf/cc
+  - id: cikm
+    acronym: CIKM
+    full_name: ACM International Conference on Information and Knowledge Management
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:cikm
+      - name:international conference information knowledge management
+      - dblp:conf/cikm
+  - id: wsdm
+    acronym: WSDM
+    full_name: ACM International Conference on Web Search and Data Mining
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:wsdm
+      - name:international conference web search data mining
+      - dblp:conf/wsdm
+  - id: pods
+    acronym: PODS
+    full_name: ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:pods
+      - name:symposium principles database systems
+      - dblp:conf/pods
+  - id: dasfaa
+    acronym: DASFAA
+    full_name: International Conference on Database Systems for Advanced Applications
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:dasfaa
+      - name:international conference database systems advanced applications
+      - dblp:conf/dasfaa
+  - id: ecmlpkdd
+    acronym: ECML-PKDD
+    full_name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:ecmlpkdd
+      - name:european conference machine learning principles practice knowledge discovery databases
+      - dblp:conf/ecml
+      - dblp:conf/pkdd
+    note: Official PDF lists two dblp URLs (ecml, pkdd).
+  - id: iswc
+    acronym: ISWC
+    full_name: IEEE International Semantic Web Conference
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:iswc
+      - name:international semantic web conference
+      - dblp:conf/semweb
+  - id: icdm
+    acronym: ICDM
+    full_name: IEEE International Conference on Data Mining
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:icdm
+      - name:international conference data mining
+      - dblp:conf/icdm
+  - id: icdt
+    acronym: ICDT
+    full_name: International Conference on Database Theory
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:icdt
+      - name:international conference database theory
+      - dblp:conf/icdt
+  - id: edbt
+    acronym: EDBT
+    full_name: International Conference on Extending Database Technology
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:edbt
+      - name:international conference extending database technology
+      - dblp:conf/edbt
+  - id: cidr
+    acronym: CIDR
+    full_name: Conference on Innovative Data Systems Research
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:cidr
+      - name:conference innovative data systems research
+      - dblp:conf/cidr
+  - id: sdm
+    acronym: SDM
+    full_name: SIAM International Conference on Data Mining
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:sdm
+      - name:siam international conference data mining
+      - dblp:conf/sdm
+  - id: recsys
+    acronym: RecSys
+    full_name: ACM Conference on Recommender Systems
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:recsys
+      - name:conference recommender systems
+      - dblp:conf/recsys
+  - id: wise
+    acronym: WISE
+    full_name: Web Information Systems Engineering Conference
+    tier: B
+    category: "5"
+    page: 36
+    match_keys:
+      - acronym:wise
+      - name:web information systems engineering conference
+      - dblp:conf/wise
+  - id: socg
+    acronym: SoCG
+    full_name: International Symposium on Computational Geometry
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:socg
+      - name:international symposium computational geometry
+      - dblp:conf/compgeom
+  - id: esa
+    acronym: ESA
+    full_name: European Symposium on Algorithms
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:esa
+      - name:european symposium algorithms
+      - dblp:conf/esa
+  - id: ccc
+    acronym: CCC
+    full_name: Conference on Computational Complexity
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:ccc
+      - name:conference computational complexity
+      - dblp:conf/coco
+  - id: icalp
+    acronym: ICALP
+    full_name: International Colloquium on Automata, Languages and Programming
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:icalp
+      - name:international colloquium automata languages programming
+      - dblp:conf/icalp
+  - id: cade
+    acronym: CADE
+    full_name: Conference on Automated Deduction
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:cade
+      - name:conference automated deduction
+      - dblp:conf/cade
+  - id: concur
+    acronym: CONCUR
+    full_name: International Conference on Concurrency Theory
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:concur
+      - name:international conference concurrency theory
+      - dblp:conf/concur
+  - id: hscc
+    acronym: HSCC
+    full_name: "International Conference on Hybrid Systems: Computation and Control"
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:hscc
+      - name:international conference hybrid systems computation control
+      - dblp:conf/hybrid
+  - id: sat
+    acronym: SAT
+    full_name: International Conference on Theory and Applications of Satisfiability Testing
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:sat
+      - name:international conference theory applications satisfiability testing
+      - dblp:conf/sat
+  - id: cocoon
+    acronym: COCOON
+    full_name: International Computing and Combinatorics Conference
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:cocoon
+      - name:international computing combinatorics conference
+      - dblp:conf/cocoon
+  - id: fmcad
+    acronym: FMCAD
+    full_name: Formal Methods in Computer-Aided Design
+    tier: B
+    category: "6"
+    page: 42
+    match_keys:
+      - acronym:fmcad
+      - name:formal methods computer aided design
+      - dblp:conf/fmcad
+  - id: icmr
+    acronym: ICMR
+    full_name: ACM SIGMM International Conference on Multimedia Retrieval
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:icmr
+      - name:international conference multimedia retrieval
+      - dblp:conf/mir
+  - id: i3d
+    acronym: I3D
+    full_name: ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:i3d
+      - name:symposium interactive 3d graphics games
+      - dblp:conf/si3d
+  - id: sca
+    acronym: SCA
+    full_name: ACM SIGGRAPH/Eurographics Symposium on Computer Animation
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:sca
+      - name:eurographics symposium computer animation
+      - dblp:conf/sca
+  - id: dcc
+    acronym: DCC
+    full_name: Data Compression Conference
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:dcc
+      - name:data compression conference
+      - dblp:conf/dcc
+  - id: eurographics
+    acronym: Eurographics
+    full_name: Annual Conference of the European Association for Computer Graphics
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:eurographics
+      - name:annual conference european association computer graphics
+      - dblp:conf/eurographics
+  - id: eurovis
+    acronym: EuroVis
+    full_name: Eurographics Conference on Visualization
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:eurovis
+      - name:eurographics conference visualization
+      - dblp:conf/vissym
+  - id: sgp
+    acronym: SGP
+    full_name: Eurographics Symposium on Geometry Processing
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:sgp
+      - name:eurographics symposium geometry processing
+      - dblp:conf/sgp
+  - id: egsr
+    acronym: EGSR
+    full_name: Eurographics Symposium on Rendering
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:egsr
+      - name:eurographics symposium rendering
+      - dblp:conf/rt
+  - id: icassp
+    acronym: ICASSP
+    full_name: IEEE International Conference on Acoustics, Speech and Signal Processing
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:icassp
+      - name:international conference acoustics speech processing
+      - dblp:conf/icassp
+  - id: icme
+    acronym: ICME
+    full_name: IEEE International Conference on Multimedia & Expo
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:icme
+      - name:international conference multimedia expo
+      - dblp:conf/icmcs
+  - id: ismar
+    acronym: ISMAR
+    full_name: International Symposium on Mixed and Augmented Reality
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:ismar
+      - name:international symposium mixed augmented reality
+      - dblp:conf/ismar
+  - id: pg
+    acronym: PG
+    full_name: Pacific Conference on Computer Graphics and Applications
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:pg
+      - name:pacific conference computer graphics applications
+      - dblp:conf/pg
+  - id: spm
+    acronym: SPM
+    full_name: Symposium on Solid and Physical Modeling
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:spm
+      - name:symposium solid physical modeling
+      - dblp:conf/sma
+  - id: interspeech
+    acronym: INTERSPEECH
+    full_name: Conference of the International Speech Communication Association
+    tier: B
+    category: "7"
+    page: 48
+    match_keys:
+      - acronym:interspeech
+      - name:conference international speech communication association
+      - dblp:conf/interspeech
+  - id: colt
+    acronym: COLT
+    full_name: Annual Conference on Computational Learning Theory
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:colt
+      - name:annual conference computational learning theory
+      - dblp:conf/colt
+  - id: emnlp
+    acronym: EMNLP
+    full_name: Conference on Empirical Methods in Natural Language Processing
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:emnlp
+      - name:conference empirical methods natural language processing
+      - dblp:conf/emnlp
+  - id: ecai
+    acronym: ECAI
+    full_name: European Conference on Artificial Intelligence
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:ecai
+      - name:european conference artificial intelligence
+      - dblp:conf/ecai
+  - id: eccv
+    acronym: ECCV
+    full_name: European Conference on Computer Vision
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:eccv
+      - name:european conference computer vision
+      - dblp:conf/eccv
+  - id: icra
+    acronym: ICRA
+    full_name: IEEE International Conference on Robotics and Automation
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:icra
+      - name:international conference robotics automation
+      - dblp:conf/icra
+  - id: icaps
+    acronym: ICAPS
+    full_name: International Conference on Automated Planning and Scheduling
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:icaps
+      - name:international conference automated planning scheduling
+      - dblp:conf/icaps
+  - id: iccbr
+    acronym: ICCBR
+    full_name: International Conference on Case-Based Reasoning
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:iccbr
+      - name:international conference case based reasoning
+      - dblp:conf/iccbr
+  - id: coling
+    acronym: COLING
+    full_name: International Conference on Computational Linguistics
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:coling
+      - name:international conference computational linguistics
+      - dblp:conf/coling
+  - id: kr
+    acronym: KR
+    full_name: International Conference on Principles of Knowledge Representation and Reasoning
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:kr
+      - name:international conference principles knowledge representation reasoning
+      - dblp:conf/kr
+  - id: uai
+    acronym: UAI
+    full_name: Conference on Uncertainty in Artificial Intelligence
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:uai
+      - name:conference uncertainty artificial intelligence
+      - dblp:conf/uai
+  - id: aamas
+    acronym: AAMAS
+    full_name: International Joint Conference on Autonomous Agents and Multi-agent Systems
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:aamas
+      - name:international joint conference autonomous agents multi agent systems
+      - dblp:conf/ifaamas
+  - id: ppsn
+    acronym: PPSN
+    full_name: Parallel Problem Solving from Nature
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:ppsn
+      - name:parallel problem solving from nature
+      - dblp:conf/ppsn
+  - id: naacl
+    acronym: NAACL
+    full_name: North American Chapter of the Association for Computational Linguistics
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:naacl
+      - name:north american chapter association computational linguistics
+      - dblp:conf/naacl
+  - id: ijcai
+    acronym: IJCAI
+    full_name: International Joint Conference on Artificial Intelligence
+    tier: B
+    category: "8"
+    page: 58
+    match_keys:
+      - acronym:ijcai
+      - name:international joint conference artificial intelligence
+      - dblp:conf/ijcai
+  - id: group
+    acronym: GROUP
+    full_name: ACM International Conference on Supporting Group Work
+    tier: B
+    category: "9"
+    page: 65
+    match_keys:
+      - acronym:group
+      - name:international conference supporting group work
+      - dblp:conf/group
+  - id: iui
+    acronym: IUI
+    full_name: ACM International Conference on Intelligent User Interfaces
+    tier: B
+    category: "9"
+    page: 65
+    match_keys:
+      - acronym:iui
+      - name:international conference intelligent user interfaces
+      - dblp:conf/iui
+  - id: iss
+    acronym: ISS
+    full_name: ACM International Conference on Interactive Surfaces and Spaces
+    tier: B
+    category: "9"
+    page: 65
+    match_keys:
+      - acronym:iss
+      - name:international conference interactive surfaces spaces
+      - dblp:conf/tabletop
+  - id: ecscw
+    acronym: ECSCW
+    full_name: European Conference on Computer Supported Cooperative Work
+    tier: B
+    category: "9"
+    page: 65
+    match_keys:
+      - acronym:ecscw
+      - name:european conference computer supported cooperative work
+      - dblp:conf/ecscw
+  - id: percom
+    acronym: PERCOM
+    full_name: IEEE International Conference on Pervasive Computing and Communications
+    tier: B
+    category: "9"
+    page: 65
+    match_keys:
+      - acronym:percom
+      - name:international conference pervasive computing communications
+      - dblp:conf/percom
+  - id: mobilehci
+    acronym: MobileHCI
+    full_name: ACM International Conference on Mobile Human-Computer Interaction
+    tier: B
+    category: "9"
+    page: 65
+    match_keys:
+      - acronym:mobilehci
+      - name:international conference mobile human computer interaction
+      - dblp:conf/mhci
+  - id: icwsm
+    acronym: ICWSM
+    full_name: The International AAAI Conference on Web and Social Media
+    tier: B
+    category: "9"
+    page: 65
+    match_keys:
+      - acronym:icwsm
+      - name:international aaai conference web social media
+      - dblp:conf/icwsm
+  - id: cogsci
+    acronym: CogSci
+    full_name: Annual Meeting of the Cognitive Science Society
+    tier: B
+    category: "10"
+    page: 71
+    match_keys:
+      - acronym:cogsci
+      - name:annual meeting cognitive science society
+      - dblp:conf/cogsci
+  - id: bibm
+    acronym: BIBM
+    full_name: IEEE International Conference on Bioinformatics and Biomedicine
+    tier: B
+    category: "10"
+    page: 71
+    match_keys:
+      - acronym:bibm
+      - name:international conference bioinformatics biomedicine
+      - dblp:conf/bibm
+  - id: emsoft
+    acronym: EMSOFT
+    full_name: International Conference on Embedded Software
+    tier: B
+    category: "10"
+    page: 71
+    match_keys:
+      - acronym:emsoft
+      - name:international conference embedded software
+      - dblp:conf/emsoft
+  - id: ismb
+    acronym: ISMB
+    full_name: International conference on Intelligent Systems for Molecular Biology
+    tier: B
+    category: "10"
+    page: 71
+    match_keys:
+      - acronym:ismb
+      - name:international conference intelligent systems molecular biology
+      - dblp:conf/ismb
+  - id: recomb
+    acronym: RECOMB
+    full_name: Annual International Conference on Research in Computational Molecular Biology
+    tier: B
+    category: "10"
+    page: 71
+    match_keys:
+      - acronym:recomb
+      - name:annual international conference research computational molecular biology
+      - dblp:conf/recomb
+  - id: miccai
+    acronym: MICCAI
+    full_name: International Conference on Medical Image Computing and Computer-Assisted Intervention
+    tier: B
+    category: "10"
+    page: 71
+    match_keys:
+      - acronym:miccai
+      - name:international conference medical image computing computer assisted intervention
+      - dblp:conf/miccai
+  - id: wine
+    acronym: WINE
+    full_name: Conference on Web and Internet Economics
+    tier: B
+    category: "10"
+    page: 71
+    match_keys:
+      - acronym:wine
+      - name:conference web internet economics
+      - dblp:conf/wine
+  - id: cf
+    acronym: CF
+    full_name: ACM International Conference on Computing Frontiers
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:cf
+      - name:international conference computing frontiers
+      - dblp:conf/cf
+  - id: systor
+    acronym: SYSTOR
+    full_name: ACM International Systems and Storage Conference
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:systor
+      - name:international systems storage conference
+      - dblp:conf/systor
+  - id: nocs
+    acronym: NOCS
+    full_name: ACM/IEEE International Symposium on Networks-on-Chip
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:nocs
+      - name:international symposium networks chip
+      - dblp:conf/nocs
+  - id: asap
+    acronym: ASAP
+    full_name: IEEE International Conference on Application-Specific Systems, Architectures, and Processors
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:asap
+      - name:international conference application specific systems architectures processors
+      - dblp:conf/asap
+  - id: aspdac
+    acronym: ASP-DAC
+    full_name: Asia and South Pacific Design Automation Conference
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:aspdac
+      - name:asia south pacific design automation conference
+      - dblp:conf/aspdac
+  - id: ets
+    acronym: ETS
+    full_name: IEEE European Test Symposium
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:ets
+      - name:european test symposium
+      - dblp:conf/ets
+  - id: fpl
+    acronym: FPL
+    full_name: International Conference on Field-Programmable Logic and Applications
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:fpl
+      - name:international conference field programmable logic applications
+      - dblp:conf/fpl
+  - id: fccm
+    acronym: FCCM
+    full_name: IEEE Symposium on Field-Programmable Custom Computing Machines
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:fccm
+      - name:symposium field programmable custom computing machines
+      - dblp:conf/fccm
+  - id: glsvlsi
+    acronym: GLSVLSI
+    full_name: Great Lakes Symposium on VLSI
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:glsvlsi
+      - name:great lakes symposium vlsi
+      - dblp:conf/glvlsi
+  - id: ats
+    acronym: ATS
+    full_name: IEEE Asian Test Symposium
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:ats
+      - name:asian test symposium
+      - dblp:conf/ats
+  - id: hpcc
+    acronym: HPCC
+    full_name: IEEE International Conference on High Performance Computing and Communications
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:hpcc
+      - name:international conference high performance computing communications
+      - dblp:conf/hpcc
+  - id: hipc
+    acronym: HiPC
+    full_name: IEEE International Conference on High Performance Computing, Data and Analytics
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:hipc
+      - name:international conference high performance computing data analytics
+      - dblp:conf/hipc
+  - id: mascots
+    acronym: MASCOTS
+    full_name: International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems
+    tier: C
+    category: "1"
+    page: 8
+    match_keys:
+      - acronym:mascots
+      - name:international symposium modeling analysis simulation computer telecommunication systems
+      - dblp:conf/mascots
+  - id: ispa
+    acronym: ISPA
+    full_name: IEEE International Symposium on Parallel and Distributed Processing with Applications
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:ispa
+      - name:international symposium parallel distributed processing applications
+      - dblp:conf/ispa
+  - id: ccgrid
+    acronym: CCGRID
+    full_name: IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:ccgrid
+      - name:international symposium cluster cloud grid computing
+      - dblp:conf/ccgrid
+  - id: npc
+    acronym: NPC
+    full_name: IFIP International Conference on Network and Parallel Computing
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:npc
+      - name:ifip international conference network parallel computing
+      - dblp:conf/npc
+  - id: ica3pp
+    acronym: ICA3PP
+    full_name: International Conference on Algorithms and Architectures for Parallel Processing
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:ica3pp
+      - name:international conference algorithms architectures parallel processing
+      - dblp:conf/ica3pp
+  - id: cases
+    acronym: CASES
+    full_name: International Conference on Compilers, Architectures, and Synthesis for Embedded Systems
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:cases
+      - name:international conference compilers architectures synthesis embedded systems
+      - dblp:conf/cases
+  - id: fpt
+    acronym: FPT
+    full_name: International Conference on Field-Programmable Technology
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:fpt
+      - name:international conference field programmable technology
+      - dblp:conf/fpt
+  - id: icpads
+    acronym: ICPADS
+    full_name: International Conference on Parallel and Distributed Systems
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:icpads
+      - name:international conference parallel distributed systems
+      - dblp:conf/icpads
+  - id: islped
+    acronym: ISLPED
+    full_name: International Symposium on Low Power Electronics and Design
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:islped
+      - name:international symposium low power electronics design
+      - dblp:conf/islped
+  - id: ispd
+    acronym: ISPD
+    full_name: International Symposium on Physical Design
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:ispd
+      - name:international symposium physical design
+      - dblp:conf/ispd
+  - id: hoti
+    acronym: HOTI
+    full_name: IEEE Symposium on High-Performance Interconnects
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:hoti
+      - name:symposium high performance interconnects
+      - dblp:conf/hoti
+  - id: vts
+    acronym: VTS
+    full_name: IEEE VLSI Test Symposium
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:vts
+      - name:vlsi test symposium
+      - dblp:conf/vts
+  - id: itcasia
+    acronym: ITC-Asia
+    full_name: International Test Conference in Asia
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:itcasia
+      - name:international test conference asia
+      - dblp:conf/itc-asia
+  - id: sec-1
+    acronym: SEC
+    full_name: ACM/IEEE Symposium on Edge Computing
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:sec
+      - name:symposium edge computing
+      - dblp:conf/ieeesec
+  - id: nas
+    acronym: NAS
+    full_name: International Conference on Networking, Architecture and Storages
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:nas
+      - name:international conference networking architecture storages
+      - dblp:conf/nas
+  - id: hotstorage
+    acronym: HotStorage
+    full_name: HotStorage
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:hotstorage
+      - dblp:conf/hotstorage
+    note: Full-name column in official PDF reads just 'HotStorage' (USENIX Workshop on Hot Topics in Storage and File Systems).
+  - id: appt
+    acronym: APPT
+    full_name: International Symposium on Advanced Parallel Processing Technology
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:appt
+      - name:international symposium advanced parallel processing technology
+      - dblp:conf/appt
+  - id: jcc
+    acronym: JCC
+    full_name: International Conference on JointCloud Computing
+    tier: C
+    category: "1"
+    page: 9
+    match_keys:
+      - acronym:jcc
+      - name:international conference jointcloud computing
+    note: Official PDF gives no URL for JCC; no dblp link in list. UNVERIFIED dblp key.
+  - id: ancs
+    acronym: ANCS
+    full_name: ACM/IEEE Symposium on Architectures for Networking and Communication Systems
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:ancs
+      - name:symposium architectures networking communication systems
+      - dblp:conf/ancs
+  - id: apnoms
+    acronym: APNOMS
+    full_name: Asia-Pacific Network Operations and Management Symposium
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:apnoms
+      - name:asia pacific network operations management symposium
+      - dblp:conf/apnoms
+  - id: forte
+    acronym: FORTE
+    full_name: International Conference on Formal Techniques for Distributed Objects, Components, and Systems
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:forte
+      - name:international conference formal techniques distributed objects components systems
+      - dblp:conf/forte
+  - id: lcn
+    acronym: LCN
+    full_name: IEEE Conference on Local Computer Networks
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:lcn
+      - name:conference local computer networks
+      - dblp:conf/lcn
+  - id: globecom
+    acronym: GLOBECOM
+    full_name: IEEE Global Communications Conference
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:globecom
+      - name:global communications conference
+      - dblp:conf/globecom
+  - id: icc
+    acronym: ICC
+    full_name: IEEE International Conference on Communications
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:icc
+      - dblp:conf/icc
+  - id: icccn
+    acronym: ICCCN
+    full_name: IEEE International Conference on Computer Communications and Networks
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:icccn
+      - name:international conference computer communications networks
+      - dblp:conf/icccn
+  - id: mass
+    acronym: MASS
+    full_name: IEEE International Conference on Mobile Adhoc and Sensor Systems
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:mass
+      - name:international conference mobile adhoc sensor systems
+      - dblp:conf/mass
+  - id: p2p
+    acronym: P2P
+    full_name: IEEE International Conference on Peer-to-Peer Computing
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:p2p
+      - name:international conference peer peer computing
+      - dblp:conf/p2p
+  - id: ipccc
+    acronym: IPCCC
+    full_name: IEEE International Performance Computing and Communications Conference
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:ipccc
+      - name:international performance computing communications conference
+      - dblp:conf/ipccc
+  - id: wowmom
+    acronym: WoWMoM
+    full_name: IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:wowmom
+      - name:international symposium world wireless mobile multimedia networks
+      - dblp:conf/wowmom
+  - id: iscc
+    acronym: ISCC
+    full_name: IEEE Symposium on Computers and Communications
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:iscc
+      - name:symposium computers communications
+      - dblp:conf/iscc
+  - id: wcnc
+    acronym: WCNC
+    full_name: IEEE Wireless Communications and Networking Conference
+    tier: C
+    category: "2"
+    page: 15
+    match_keys:
+      - acronym:wcnc
+      - name:wireless communications networking conference
+      - dblp:conf/wcnc
+  - id: networking
+    acronym: Networking
+    full_name: IFIP International Conferences on Networking
+    tier: C
+    category: "2"
+    page: 16
+    match_keys:
+      - acronym:networking
+      - name:ifip international conferences networking
+      - dblp:conf/networking
+  - id: im
+    acronym: IM
+    full_name: IFIP/IEEE International Symposium on Integrated Network Management
+    tier: C
+    category: "2"
+    page: 16
+    match_keys:
+      - acronym:im
+      - name:ifip international symposium integrated network management
+      - dblp:conf/im
+  - id: msn
+    acronym: MSN
+    full_name: International Conference on Mobility, Sensing and Networking
+    tier: C
+    category: "2"
+    page: 16
+    match_keys:
+      - acronym:msn
+      - name:international conference mobility sensing networking
+      - dblp:conf/msn
+  - id: mswim
+    acronym: MSWiM
+    full_name: International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems
+    tier: C
+    category: "2"
+    page: 16
+    match_keys:
+      - acronym:mswim
+      - name:international conference modeling analysis simulation wireless mobile systems
+      - dblp:conf/mswim
+  - id: wasa
+    acronym: WASA
+    full_name: The International Conference on Wireless Artificial Intelligent Computing Systems and Applications
+    tier: C
+    category: "2"
+    page: 16
+    match_keys:
+      - acronym:wasa
+      - name:international conference wireless artificial intelligent computing systems applications
+      - dblp:conf/wasa
+  - id: hotnets
+    acronym: HotNets
+    full_name: ACM The Workshop on Hot Topics in Networks
+    tier: C
+    category: "2"
+    page: 16
+    match_keys:
+      - acronym:hotnets
+      - name:workshop hot topics networks
+      - dblp:conf/hotnets
+  - id: apnet
+    acronym: APNet
+    full_name: Asia-Pacific Workshop on Networking
+    tier: C
+    category: "2"
+    page: 16
+    match_keys:
+      - acronym:apnet
+      - name:asia pacific workshop networking
+      - dblp:conf/apnet
+  - id: wisec
+    acronym: WiSec
+    full_name: ACM Conference on Security and Privacy in Wireless and Mobile Networks
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:wisec
+      - name:conference security privacy wireless mobile networks
+      - dblp:conf/wisec
+  - id: sacmat
+    acronym: SACMAT
+    full_name: ACM Symposium on Access Control Models and Technologies
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:sacmat
+      - name:symposium access control models technologies
+      - dblp:conf/sacmat
+  - id: drm
+    acronym: DRM
+    full_name: ACM Workshop on Digital Rights Management
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:drm
+      - name:workshop digital rights management
+      - dblp:conf/drm
+  - id: ihmmsec
+    acronym: IH&MMSec
+    full_name: ACM Workshop on Information Hiding and Multimedia Security
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:ihmmsec
+      - name:workshop information hiding multimedia security
+      - dblp:conf/ih
+  - id: acns
+    acronym: ACNS
+    full_name: International Conference on Applied Cryptography and Network Security
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:acns
+      - name:international conference applied cryptography network security
+      - dblp:conf/acns
+  - id: asiaccs
+    acronym: AsiaCCS
+    full_name: ACM Asia Conference on Computer and Communications Security
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:asiaccs
+      - name:asia conference computer communications security
+      - dblp:conf/ccs
+  - id: acisp
+    acronym: ACISP
+    full_name: Australasia Conference on Information Security and Privacy
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:acisp
+      - name:australasia conference information security privacy
+      - dblp:conf/acisp
+  - id: ctrsa
+    acronym: CT-RSA
+    full_name: The Cryptographer's Track at RSA Conference
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:ctrsa
+      - name:cryptographer s track rsa conference
+      - dblp:conf/ctrsa
+  - id: dimva
+    acronym: DIMVA
+    full_name: Conference on Detection of Intrusions and Malware & Vulnerability Assessment
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:dimva
+      - name:conference detection intrusions malware vulnerability assessment
+      - dblp:conf/dimva
+  - id: dfrws
+    acronym: DFRWS
+    full_name: Digital Forensic Research Workshop
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:dfrws
+      - name:digital forensic research workshop
+      - dblp:conf/dfrws
+  - id: fc
+    acronym: FC
+    full_name: Financial Cryptography and Data Security
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:fc
+      - name:financial cryptography data security
+      - dblp:conf/fc
+  - id: trustcom
+    acronym: TrustCom
+    full_name: IEEE International Conference on Trust, Security and Privacy in Computing and Communications
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:trustcom
+      - name:international conference trust security privacy computing communications
+      - dblp:conf/trustcom
+  - id: sec-3
+    acronym: SEC
+    full_name: IFIP International Information Security Conference
+    tier: C
+    category: "3"
+    page: 22
+    match_keys:
+      - acronym:sec
+      - name:ifip international information security conference
+      - dblp:conf/sec
+  - id: wg119
+    acronym: IFIP WG 11.9
+    full_name: IFIP Working Group 11.9 International Conference on Digital Forensics
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:wg119
+      - name:ifip working group 11 9 international conference digital forensics
+      - dblp:conf/ifip11-9
+  - id: isc
+    acronym: ISC
+    full_name: Information Security Conference
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:isc
+      - name:information security conference
+      - dblp:conf/isw
+  - id: icdf2c
+    acronym: ICDF2C
+    full_name: International Conference on Digital Forensics & Cyber Crime
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:icdf2c
+      - name:international conference digital forensics cyber crime
+      - dblp:conf/icdf2c
+  - id: icics
+    acronym: ICICS
+    full_name: International Conference on Information and Communications Security
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:icics
+      - name:international conference information communications security
+      - dblp:conf/icics
+  - id: securecomm
+    acronym: SecureComm
+    full_name: International Conference on Security and Privacy in Communication Networks
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:securecomm
+      - name:international conference security privacy communication networks
+      - dblp:conf/securecomm
+  - id: nspw
+    acronym: NSPW
+    full_name: New Security Paradigms Workshop
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:nspw
+      - name:new security paradigms workshop
+      - dblp:conf/nspw
+  - id: pam
+    acronym: PAM
+    full_name: Passive and Active Measurement Conference
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:pam
+      - name:passive active measurement conference
+      - dblp:conf/pam
+  - id: pets
+    acronym: PETS
+    full_name: Privacy Enhancing Technologies Symposium
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:pets
+      - name:privacy enhancing technologies symposium
+      - dblp:conf/pet
+  - id: sac
+    acronym: SAC
+    full_name: Selected Areas in Cryptography
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:sac
+      - name:selected areas cryptography
+      - dblp:conf/sacrypt
+  - id: soups
+    acronym: SOUPS
+    full_name: Symposium On Usable Privacy and Security
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:soups
+      - name:symposium usable privacy security
+      - dblp:conf/soups
+  - id: hotsec
+    acronym: HotSec
+    full_name: USENIX Workshop on Hot Topics in Security
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:hotsec
+      - name:usenix workshop hot topics security
+  - id: eurosp
+    acronym: EuroS&P
+    full_name: IEEE European Symposium on Security and Privacy
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:eurosp
+      - name:european symposium security privacy
+      - dblp:conf/eurosp
+  - id: inscrypt
+    acronym: Inscrypt
+    full_name: International Conference on Information Security and Cryptology
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:inscrypt
+      - name:international conference information security cryptology
+      - dblp:conf/cisc
+  - id: codaspy
+    acronym: CODASPY
+    full_name: Conference on Data and Application Security and Privacy
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:codaspy
+      - name:conference data application security privacy
+      - dblp:conf/codaspy
+  - id: blocksys
+    acronym: BlockSys
+    full_name: International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:blocksys
+      - name:international conference blockchain artificial intelligence trustworthy systems
+      - dblp:conf/blocksys
+  - id: cscloud
+    acronym: CSCloud
+    full_name: International Conference on Cyber Security and Cloud Computing
+    tier: C
+    category: "3"
+    page: 23
+    match_keys:
+      - acronym:cscloud
+      - name:international conference cyber security cloud computing
+      - dblp:conf/cscloud
+  - id: pepm
+    acronym: PEPM
+    full_name: ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:pepm
+      - name:workshop partial evaluation program manipulation
+      - dblp:conf/pepm
+  - id: paste
+    acronym: PASTE
+    full_name: ACM SIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:paste
+      - name:workshop program analysis software tools engineering
+      - dblp:conf/paste
+  - id: aplas
+    acronym: APLAS
+    full_name: Asian Symposium on Programming Languages and Systems
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:aplas
+      - name:asian symposium programming languages systems
+      - dblp:conf/aplas
+  - id: apsec
+    acronym: APSEC
+    full_name: Asia-Pacific Software Engineering Conference
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:apsec
+      - name:asia pacific software engineering conference
+      - dblp:conf/apsec
+  - id: ease
+    acronym: EASE
+    full_name: International Conference on Evaluation and Assessment in Software Engineering
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:ease
+      - name:international conference evaluation assessment software engineering
+      - dblp:conf/ease
+  - id: iceccs
+    acronym: ICECCS
+    full_name: International Conference on Engineering of Complex Computer Systems
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:iceccs
+      - name:international conference engineering complex computer systems
+      - dblp:conf/iceccs
+  - id: icst
+    acronym: ICST
+    full_name: IEEE International Conference on Software Testing, Verification and Validation
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:icst
+      - name:international conference software testing verification validation
+      - dblp:conf/icst
+  - id: ispass
+    acronym: ISPASS
+    full_name: IEEE International Symposium on Performance Analysis of Systems and Software
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:ispass
+      - name:international symposium performance analysis systems software
+      - dblp:conf/ispass
+  - id: scam
+    acronym: SCAM
+    full_name: IEEE International Working Conference on Source Code Analysis and Manipulation
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:scam
+      - name:international working conference source code analysis manipulation
+      - dblp:conf/scam
+  - id: compsac
+    acronym: COMPSAC
+    full_name: International Computer Software and Applications Conference
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:compsac
+      - name:international computer software applications conference
+      - dblp:conf/compsac
+  - id: icfem
+    acronym: ICFEM
+    full_name: International Conference on Formal Engineering Methods
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:icfem
+      - name:international conference formal engineering methods
+      - dblp:conf/icfem
+  - id: sse
+    acronym: SSE
+    full_name: IEEE International Conference on Software Services Engineering
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:sse
+      - name:international conference software services engineering
+      - dblp:conf/ieeescc
+  - id: icssp
+    acronym: ICSSP
+    full_name: International Conference on Software and System Process
+    tier: C
+    category: "4"
+    page: 30
+    match_keys:
+      - acronym:icssp
+      - name:international conference software system process
+      - dblp:conf/ispw
+  - id: seke
+    acronym: SEKE
+    full_name: International Conference on Software Engineering and Knowledge Engineering
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:seke
+      - name:international conference software engineering knowledge engineering
+      - dblp:conf/seke
+  - id: qrs
+    acronym: QRS
+    full_name: International Conference on Software Quality, Reliability and Security
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:qrs
+      - name:international conference software quality reliability security
+      - dblp:conf/qrs
+  - id: icsr
+    acronym: ICSR
+    full_name: International Conference on Software Reuse
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:icsr
+      - name:international conference software reuse
+      - dblp:conf/icsr
+  - id: icwe
+    acronym: ICWE
+    full_name: International Conference on Web Engineering
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:icwe
+      - name:international conference web engineering
+      - dblp:conf/icwe
+  - id: spin
+    acronym: SPIN
+    full_name: International Symposium on Model Checking of Software
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:spin
+      - name:international symposium model checking software
+      - dblp:conf/spin
+  - id: atva
+    acronym: ATVA
+    full_name: International Symposium on Automated Technology for Verification and Analysis
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:atva
+      - name:international symposium automated technology verification analysis
+      - dblp:conf/atva
+  - id: lopstr
+    acronym: LOPSTR
+    full_name: International Symposium on Logic-based Program Synthesis and Transformation
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:lopstr
+      - name:international symposium logic based program synthesis transformation
+      - dblp:conf/lopstr
+  - id: tase
+    acronym: TASE
+    full_name: Theoretical Aspects of Software Engineering Conference
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:tase
+      - name:theoretical aspects software engineering conference
+      - dblp:conf/tase
+  - id: msr
+    acronym: MSR
+    full_name: Mining Software Repositories
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:msr
+      - name:mining software repositories
+      - dblp:conf/msr
+  - id: refsq
+    acronym: REFSQ
+    full_name: "Requirements Engineering: Foundation for Software Quality"
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:refsq
+      - name:requirements engineering foundation software quality
+      - dblp:conf/refsq
+  - id: wicsa
+    acronym: WICSA
+    full_name: Working IEEE/IFIP Conference on Software Architecture
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:wicsa
+      - name:working ifip conference software architecture
+      - dblp:conf/wicsa
+  - id: internetware
+    acronym: Internetware
+    full_name: Asia-Pacific Symposium on Internetware
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:internetware
+      - name:asia pacific symposium internetware
+      - dblp:conf/internetware
+  - id: rv
+    acronym: RV
+    full_name: International Conference on Runtime Verification
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:rv
+      - name:international conference runtime verification
+      - dblp:conf/rv
+  - id: memocode
+    acronym: MEMOCODE
+    full_name: International Conference on Formal Methods and Models for Co-Design
+    tier: C
+    category: "4"
+    page: 31
+    match_keys:
+      - acronym:memocode
+      - name:international conference formal methods models co design
+      - dblp:conf/memocode
+  - id: apweb
+    acronym: APWeb
+    full_name: Asia Pacific Web Conference
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:apweb
+      - name:asia pacific web conference
+      - dblp:conf/apweb
+  - id: dexa
+    acronym: DEXA
+    full_name: International Conference on Database and Expert System Applications
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:dexa
+      - name:international conference database expert system applications
+      - dblp:conf/dexa
+  - id: ecir
+    acronym: ECIR
+    full_name: European Conference on Information Retrieval
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:ecir
+      - name:european conference information retrieval
+      - dblp:conf/ecir
+  - id: eswc
+    acronym: ESWC
+    full_name: Extended Semantic Web Conference
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:eswc
+      - name:extended semantic web conference
+      - dblp:conf/esws
+  - id: webdb
+    acronym: WebDB
+    full_name: International Workshop on Web and Databases
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:webdb
+      - name:international workshop web databases
+      - dblp:conf/webdb
+  - id: er
+    acronym: ER
+    full_name: International Conference on Conceptual Modeling
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:er
+      - name:international conference conceptual modeling
+      - dblp:conf/er
+  - id: mdm
+    acronym: MDM
+    full_name: International Conference on Mobile Data Management
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:mdm
+      - name:international conference mobile data management
+      - dblp:conf/mdm
+  - id: ssdbm
+    acronym: SSDBM
+    full_name: International Conference on Scientific and Statistical Database Management
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:ssdbm
+      - name:international conference scientific statistical database management
+      - dblp:conf/ssdbm
+  - id: waim
+    acronym: WAIM
+    full_name: International Conference on Web Age Information Management
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:waim
+      - name:international conference web age information management
+      - dblp:conf/waim
+  - id: sstd
+    acronym: SSTD
+    full_name: International Symposium on Spatial and Temporal Databases
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:sstd
+      - name:international symposium spatial temporal databases
+      - dblp:conf/ssd
+  - id: pakdd
+    acronym: PAKDD
+    full_name: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:pakdd
+      - name:pacific asia conference knowledge discovery data mining
+      - dblp:conf/pakdd
+  - id: adma
+    acronym: ADMA
+    full_name: International Conference on Advanced Data Mining and Applications
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:adma
+      - name:international conference advanced data mining applications
+      - dblp:conf/adma
+  - id: wisa
+    acronym: WISA
+    full_name: Web Information Systems and Applications
+    tier: C
+    category: "5"
+    page: 37
+    match_keys:
+      - acronym:wisa
+      - name:web information systems applications
+      - dblp:conf/ieeewisa
+  - id: csl
+    acronym: CSL
+    full_name: Computer Science Logic
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:csl
+      - name:computer science logic
+      - dblp:conf/csl
+  - id: fsttcs
+    acronym: FSTTCS
+    full_name: Foundations of Software Technology and Theoretical Computer Science
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:fsttcs
+      - name:foundations software technology theoretical computer science
+      - dblp:conf/fsttcs
+  - id: dsaa
+    acronym: DSAA
+    full_name: IEEE International Conference on Data Science and Advanced Analytics
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:dsaa
+      - name:international conference data science advanced analytics
+      - dblp:conf/dsaa
+  - id: ictac
+    acronym: ICTAC
+    full_name: International Colloquium on Theoretical Aspects of Computing
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:ictac
+      - name:international colloquium theoretical aspects computing
+      - dblp:conf/ictac
+  - id: ipco
+    acronym: IPCO
+    full_name: International Conference on Integer Programming and Combinatorial Optimization
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:ipco
+      - name:international conference integer programming combinatorial optimization
+      - dblp:conf/ipco
+  - id: fscd
+    acronym: FSCD
+    full_name: International Conference on Formal Structures for Computation and Deduction
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:fscd
+      - acronym:rta
+      - name:international conference formal structures computation deduction
+      - dblp:conf/rta
+    note: former acronym RTA
+  - id: isaac
+    acronym: ISAAC
+    full_name: International Symposium on Algorithms and Computation
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:isaac
+      - name:international symposium algorithms computation
+      - dblp:conf/isaac
+  - id: mfcs
+    acronym: MFCS
+    full_name: International Conference on Mathematical Foundations of Computer Science
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:mfcs
+      - name:international conference mathematical foundations computer science
+      - dblp:conf/mfcs
+  - id: stacs
+    acronym: STACS
+    full_name: Symposium on Theoretical Aspects of Computer Science
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:stacs
+      - name:symposium theoretical aspects computer science
+      - dblp:conf/stacs
+  - id: setta
+    acronym: SETTA
+    full_name: "International Symposium on Software Engineering: Theories, Tools, and Applications"
+    tier: C
+    category: "6"
+    page: 43
+    match_keys:
+      - acronym:setta
+      - name:international symposium software engineering theories tools applications
+      - dblp:conf/setta
+  - id: vrst
+    acronym: VRST
+    full_name: ACM Symposium on Virtual Reality Software and Technology
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:vrst
+      - name:symposium virtual reality software technology
+      - dblp:conf/vrst
+  - id: casaxr
+    acronym: CASAXR
+    full_name: International Conference on Computer Animation, Social Agents, and Extended Reality
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:casaxr
+      - acronym:casa
+      - name:international conference computer animation social agents extended reality
+      - name:international conference computer animation social agents
+      - dblp:conf/ca
+    note: former acronym CASA; former name International Conference on Computer Animation and Social Agents
+  - id: cgi
+    acronym: CGI
+    full_name: Computer Graphics International
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:cgi
+      - name:computer graphics international
+      - dblp:conf/cgi
+  - id: gmp
+    acronym: GMP
+    full_name: Geometric Modeling and Processing
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:gmp
+      - name:geometric modeling processing
+      - dblp:conf/gmp
+  - id: pacificvis
+    acronym: PacificVis
+    full_name: IEEE Pacific Visualization Symposium
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:pacificvis
+      - name:pacific visualization symposium
+      - dblp:conf/apvis
+  - id: 3dv
+    acronym: 3DV
+    full_name: International Conference on 3D Vision
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:3dv
+      - name:international conference 3d vision
+      - dblp:conf/3dim
+  - id: cadgraphics
+    acronym: CAD/Graphics
+    full_name: International Conference on Computer-Aided Design and Computer Graphics Processing
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:cadgraphics
+      - name:international conference computer aided design computer graphics processing
+      - dblp:conf/cadgraphics
+  - id: icip
+    acronym: ICIP
+    full_name: IEEE International Conference on Image Processing
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:icip
+      - name:international conference image processing
+      - dblp:conf/icip
+  - id: mmm
+    acronym: MMM
+    full_name: International Conference on Multimedia Modeling
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:mmm
+      - name:international conference multimedia modeling
+      - dblp:conf/mmm
+  - id: mmasia
+    acronym: MMAsia
+    full_name: ACM Multimedia Asia
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:mmasia
+      - name:multimedia asia
+      - dblp:conf/mmasia
+  - id: smi
+    acronym: SMI
+    full_name: Shape Modeling International
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:smi
+      - name:shape modeling international
+      - dblp:conf/smi
+  - id: cvm
+    acronym: CVM
+    full_name: Computational Visual Media
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:cvm
+      - name:computational visual media
+      - dblp:conf/cvm
+  - id: prcv
+    acronym: PRCV
+    full_name: Chinese Conference on Pattern Recognition and Computer Vision
+    tier: C
+    category: "7"
+    page: 49
+    match_keys:
+      - acronym:prcv
+      - name:chinese conference pattern recognition computer vision
+      - dblp:conf/prcv
+  - id: icig
+    acronym: ICIG
+    full_name: International Conference on Image and Graphics
+    tier: C
+    category: "7"
+    page: 50
+    match_keys:
+      - acronym:icig
+      - name:international conference image graphics
+      - dblp:conf/icig
+  - id: ncmmsc
+    acronym: NCMMSC
+    full_name: National Conference on Man-Machine Speech Communication
+    tier: C
+    category: "7"
+    page: 50
+    match_keys:
+      - acronym:ncmmsc
+      - name:national conference man machine speech communication
+    note: Official PDF link is a dblp search URL, not a venue page.
+  - id: asru
+    acronym: ASRU
+    full_name: Automatic Speech Recognition and Understanding Workshop
+    tier: C
+    category: "7"
+    page: 50
+    match_keys:
+      - acronym:asru
+      - name:automatic speech recognition understanding workshop
+      - dblp:conf/asru
+  - id: slt
+    acronym: SLT
+    full_name: Spoken Language Technology
+    tier: C
+    category: "7"
+    page: 50
+    match_keys:
+      - acronym:slt
+      - name:spoken language technology
+      - dblp:conf/slt
+  - id: aistats
+    acronym: AISTATS
+    full_name: International Conference on Artificial Intelligence and Statistics
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:aistats
+      - name:international conference artificial intelligence statistics
+      - dblp:conf/aistats
+  - id: accv
+    acronym: ACCV
+    full_name: Asian Conference on Computer Vision
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:accv
+      - name:asian conference computer vision
+      - dblp:conf/accv
+  - id: acml
+    acronym: ACML
+    full_name: Asian Conference on Machine Learning
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:acml
+      - name:asian conference machine learning
+      - dblp:conf/acml
+  - id: bmvc
+    acronym: BMVC
+    full_name: British Machine Vision Conference
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:bmvc
+      - name:british machine vision conference
+      - dblp:conf/bmvc
+  - id: nlpcc
+    acronym: NLPCC
+    full_name: CCF International Conference on Natural Language Processing and Chinese Computing
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:nlpcc
+      - name:ccf international conference natural language processing chinese computing
+      - dblp:conf/nlpcc
+  - id: conll
+    acronym: CoNLL
+    full_name: Conference on Computational Natural Language Learning
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:conll
+      - name:conference computational natural language learning
+      - dblp:conf/conll
+  - id: gecco
+    acronym: GECCO
+    full_name: Genetic and Evolutionary Computation Conference
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:gecco
+      - name:genetic evolutionary computation conference
+      - dblp:conf/gecco
+  - id: ictai
+    acronym: ICTAI
+    full_name: IEEE International Conference on Tools with Artificial Intelligence
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:ictai
+      - name:international conference tools artificial intelligence
+      - dblp:conf/ictai
+  - id: iros
+    acronym: IROS
+    full_name: IEEE\RSJ International Conference on Intelligent Robots and Systems
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:iros
+      - name:international conference intelligent robots systems
+      - dblp:conf/iros
+  - id: alt
+    acronym: ALT
+    full_name: International Conference on Algorithmic Learning Theory
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:alt
+      - name:international conference algorithmic learning theory
+      - dblp:conf/alt
+  - id: icann
+    acronym: ICANN
+    full_name: International Conference on Artificial Neural Networks
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:icann
+      - name:international conference artificial neural networks
+      - dblp:conf/icann
+  - id: fg
+    acronym: FG
+    full_name: IEEE International Conference on Automatic Face and Gesture Recognition
+    tier: C
+    category: "8"
+    page: 59
+    match_keys:
+      - acronym:fg
+      - name:international conference automatic face gesture recognition
+      - dblp:conf/fgr
+  - id: icdar
+    acronym: ICDAR
+    full_name: International Conference on Document Analysis and Recognition
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:icdar
+      - name:international conference document analysis recognition
+      - dblp:conf/icdar
+  - id: ilp
+    acronym: ILP
+    full_name: International Conference on Inductive Logic Programming
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:ilp
+      - name:international conference inductive logic programming
+      - dblp:conf/ilp
+  - id: ksem
+    acronym: KSEM
+    full_name: International conference on Knowledge Science, Engineering and Management
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:ksem
+      - name:international conference knowledge science engineering management
+      - dblp:conf/ksem
+  - id: iconip
+    acronym: ICONIP
+    full_name: International Conference on Neural Information Processing
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:iconip
+      - name:international conference neural information processing
+      - dblp:conf/iconip
+  - id: icpr
+    acronym: ICPR
+    full_name: International Conference on Pattern Recognition
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:icpr
+      - name:international conference pattern recognition
+      - dblp:conf/icpr
+  - id: ijcb
+    acronym: IJCB
+    full_name: International Joint Conference on Biometrics
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:ijcb
+      - dblp:conf/icb
+  - id: ijcnn
+    acronym: IJCNN
+    full_name: International Joint Conference on Neural Networks
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:ijcnn
+      - name:international joint conference neural networks
+      - dblp:conf/ijcnn
+  - id: pricai
+    acronym: PRICAI
+    full_name: Pacific Rim International Conference on Artificial Intelligence
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:pricai
+      - name:pacific rim international conference artificial intelligence
+      - dblp:conf/pricai
+  - id: cec
+    acronym: IEEE CEC
+    full_name: Congress on Evolutionary Computation
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:cec
+      - name:congress evolutionary computation
+      - dblp:conf/cec
+  - id: dai
+    acronym: DAI
+    full_name: International Conference on Distributed Artificial Intelligence
+    tier: C
+    category: "8"
+    page: 60
+    match_keys:
+      - acronym:dai
+      - name:international conference distributed artificial intelligence
+      - dblp:conf/dai2
+  - id: dis
+    acronym: DIS
+    full_name: ACM SIGCHI Conference on Designing Interactive Systems
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:dis
+      - name:conference designing interactive systems
+      - dblp:conf/acmdis
+  - id: icmi
+    acronym: ICMI
+    full_name: ACM International Conference on Multimodal Interaction
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:icmi
+      - name:international conference multimodal interaction
+      - dblp:conf/icmi
+  - id: assets
+    acronym: ASSETS
+    full_name: International ACM SIGACCESS Conference on Computers and Accessibility
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:assets
+      - name:international conference computers accessibility
+      - dblp:conf/assets
+  - id: gi
+    acronym: GI
+    full_name: Graphics Interface
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:gi
+      - name:graphics interface
+      - dblp:conf/graphicsinterface
+  - id: uic
+    acronym: UIC
+    full_name: IEEE International Conference on Ubiquitous Intelligence and Computing
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:uic
+      - name:international conference ubiquitous intelligence computing
+      - dblp:conf/uic
+  - id: "null"
+    acronym: "null"
+    full_name: IEEE World Haptics Conference
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:null
+      - name:world haptics conference
+      - dblp:conf/haptics
+  - id: interact
+    acronym: INTERACT
+    full_name: International Conference on Human-Computer Interaction of International Federation for Information Processing
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:interact
+      - name:international conference human computer interaction international federation information processing
+      - dblp:conf/interact
+  - id: idc
+    acronym: IDC
+    full_name: ACM Interaction Design and Children
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:idc
+      - name:interaction design children
+      - dblp:conf/acmidc
+  - id: collaboratecom
+    acronym: CollaborateCom
+    full_name: "International Conference on Collaborative Computing: Networking, Applications and Worksharing"
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:collaboratecom
+      - name:international conference collaborative computing networking applications worksharing
+      - dblp:conf/colcom
+  - id: cscwd
+    acronym: CSCWD
+    full_name: International Conference on Computer Supported Cooperative Work in Design
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:cscwd
+      - name:international conference computer supported cooperative work design
+      - dblp:conf/cscwd
+  - id: coopis
+    acronym: CoopIS
+    full_name: International Conference on Cooperative Information Systems
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:coopis
+      - name:international conference cooperative information systems
+      - dblp:conf/coopis
+  - id: mobiquitous
+    acronym: MobiQuitous
+    full_name: "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services"
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:mobiquitous
+      - name:international conference mobile ubiquitous systems computing networking services
+      - dblp:conf/mobiquitous
+  - id: avi
+    acronym: AVI
+    full_name: International Working Conference on Advanced Visual Interfaces
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:avi
+      - name:international working conference advanced visual interfaces
+      - dblp:conf/avi
+  - id: gpc
+    acronym: GPC
+    full_name: Conference on Green, Pervasive and Cloud Computing
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:gpc
+      - name:conference green pervasive cloud computing
+      - dblp:conf/gpc
+  - id: icxr
+    acronym: ICXR
+    full_name: CCF International Conference on Extended Reality
+    tier: C
+    category: "9"
+    page: 66
+    match_keys:
+      - acronym:icxr
+      - name:ccf international conference extended reality
+      - dblp:conf/icxr
+  - id: amia
+    acronym: AMIA
+    full_name: American Medical Informatics Association Annual Symposium
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:amia
+      - name:american medical informatics association annual symposium
+      - dblp:conf/amia
+  - id: apbc
+    acronym: APBC
+    full_name: Asia Pacific Bioinformatics Conference
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:apbc
+      - name:asia pacific bioinformatics conference
+      - dblp:conf/apbc
+  - id: bigdata
+    acronym: IEEE BigData
+    full_name: IEEE International Conference on Big Data
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:bigdata
+      - name:international conference big data
+      - dblp:conf/bigdataconf
+  - id: cloud
+    acronym: IEEE CLOUD
+    full_name: IEEE International Conference on Cloud Computing
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:cloud
+      - name:international conference cloud computing
+      - dblp:conf/ieeecloud
+  - id: smc
+    acronym: SMC
+    full_name: IEEE International Conference on Systems, Man, and Cybernetics
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:smc
+      - name:international conference systems man cybernetics
+      - dblp:conf/smc
+  - id: cosit
+    acronym: COSIT
+    full_name: International Conference on Spatial Information Theory
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:cosit
+      - name:international conference spatial information theory
+      - dblp:conf/cosit
+  - id: isbra
+    acronym: ISBRA
+    full_name: International Symposium on Bioinformatics Research and Applications
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:isbra
+      - name:international symposium bioinformatics research applications
+      - dblp:conf/isbra
+  - id: sagt
+    acronym: SAGT
+    full_name: International Symposium on Algorithmic Game Theory
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:sagt
+      - name:international symposium algorithmic game theory
+      - dblp:conf/sagt
+  - id: sigspatial
+    acronym: SIGSPATIAL
+    full_name: ACM Special Interest Group on Spatial Information
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:sigspatial
+      - name:special interest group spatial information
+      - dblp:journals/sigspatial
+    note: Official PDF link points to dblp journals/sigspatial (ACM SIGSPATIAL GIS conference).
+  - id: icic
+    acronym: ICIC
+    full_name: International Conference on Intelligent Computing
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:icic
+      - name:international conference intelligent computing
+      - dblp:conf/icic
+  - id: icss
+    acronym: ICSS
+    full_name: International Conference on Service Science
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:icss
+      - name:international conference service science
+      - dblp:conf/service
+  - id: aft
+    acronym: AFT
+    full_name: Advances in Financial Technologies
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:aft
+      - name:advances financial technologies
+      - dblp:conf/aft
+  - id: ijtcsfaw
+    acronym: IJTCS-FAW
+    full_name: International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom
+    tier: C
+    category: "10"
+    page: 72
+    match_keys:
+      - acronym:ijtcsfaw
+      - name:international joint conference theoretical computer science frontier algorithmic wisdom
+      - dblp:conf/faw

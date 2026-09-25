@@ -1,0 +1,13 @@
+id: icc
+acronym: ICC
+full_name: IEEE International Conference on Communications
+aliases:
+  - IEEE ICC
+directions: [eng/comm, cs/net]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 5–6 月
+dblp: conf/icc
+ccfddl: NW/ICC
+data_level: curated

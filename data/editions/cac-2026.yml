@@ -1,0 +1,16 @@
+id: cac-2026
+series: cac
+name: CAC 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Beijing, country: China, country_code: CN }
+milestones:
+  - type: conference
+    tz: Asia/Shanghai
+    status: tba
+    src: cac-2026-submission
+    quote: "2026年10月 首都国际会展中心 中国北京市"
+    note_zh: 大会官网只写“2026年10月”、首都国际会展中心（北京），没写具体日期。官网链接的学会公众号文章写 10/30–11/1，但公众号文章本应用拍不到快照，暂不写成确定日期。投稿已截止（官网首页 7/2 的新闻标题是“【CAC2026】再次延期！”）。
+last_checked: 2026-09-25
+note_zh: 2026 中国自动化大会。投稿已截止，只剩开会。科协 2025 目录收录的是 2025 年那一届，这一届不显示“科协”。

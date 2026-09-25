@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: infocom-2027
+sources:
+  - id: infocom-2027-home
+    url: https://infocom2027.ieee-infocom.org/
+    title: INFOCOM 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: aaa69ede381783bda029d23ffdb7cf253190ac4226cb50e0bf9725b3e35eaaf4
+  - id: infocom-2027-cfp
+    url: https://infocom2027.ieee-infocom.org/call-papers
+    title: IEEE INFOCOM 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:21Z
+    http_status: 200
+    snapshot: 33bc42647adffde2fab5ff29ee92f4137449829c87bb7ac4380e32d7f90e39ff

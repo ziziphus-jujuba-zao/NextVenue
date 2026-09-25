@@ -1,0 +1,27 @@
+id: its-wc-2027
+series: its-wc
+name: ITS World Congress 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Birmingham, country: United Kingdom, country_code: GB }
+dates: { start: 2027-10-25, end: 2027-10-29 }
+milestones:
+  - type: paper
+    label_zh: 征稿截止（Call for Contributions）
+    at: 2027-01-22
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: its-wc-2027-home
+    quote: "The Call for Contributions runs from 22 October 2026 – 22 January 2027."
+    note_zh: 2026-10-22 开始征稿。投稿形式（技术论文、报告等）和页数要求要等征稿开放后才公布。官网只给日期、没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-10-25
+    end: 2027-10-29
+    tz: Europe/London
+    status: confirmed
+    src: its-wc-2027-home
+    quote: "25–29 October 2027 · NEC Birmingham"
+    note_zh: 第 33 届，在伯明翰国家展览中心（NEC）举办。
+last_checked: 2026-09-25

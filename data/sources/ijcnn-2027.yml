@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ijcnn-2027
+sources:
+  - id: ijcnn-2027-home
+    url: https://www.ijcnn.org/2027
+    title: IJCNN 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: 965050565be74d294716ec4fe41477975877b07e95f523f3d46b68c533515b6f
+  - id: ijcnn-2027-venue
+    url: https://ijcnn.org/2027/venue
+    title: IJCNN 2027 Venue
+    kind: other
+    fetched_at: 2026-09-25T15:55:22Z
+    http_status: 200
+    snapshot: 81fb5dc37294fa473ad645368cbf7a7e74fc04ee0a439f4c8435cd04a9ae4ef4

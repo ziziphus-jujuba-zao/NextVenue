@@ -1,0 +1,61 @@
+Home
+Logistics
+FSCD
+CADE
+Calls
+Workshops
+Contact us
+Register
+
+FSCD-CADE CALLS PAPERS CADE
+
+Call for Papers: CADE
+
+CADE is the major international forum for presenting research on all aspects of automated deduction. High-quality submissions on the general topic of automated deduction, including logical foundations, theory and principles, applications in and beyond computer science and mathematics, and implementations of automated reasoning systems are solicited. CADE-31 aims to present research that reflects the broad range of interesting and relevant topics in automated deduction.
+
+CADE-31 proceedings will be published in Leibniz International Proceedings in Informatics (LIPIcs) and will be available open access.
+
+SUBMISSION INSTRUCTIONS
+Submissions can be made in two categories:
+* Regular papers. Up to 16 pages in LIPIcs style, excluding references.
+Proofs of theoretical results that do not fit in the page limit may be provided in an appendix. The consideration of appendix material beyond the page limit is left to the discretion of the reviewers. Any appendix may be included in the published version only if the paper, including the appendix, complies with the page limit.
+* Short papers. This includes system descriptions, user experiences, case studies and domain models. Up to 10 pages in LIPIcs style, excluding references.
+
+Submissions must be unpublished and not submitted for publication elsewhere.
+They will be judged on relevance, significance, originality, correctness, and readability. Reviewers may consider material provided in appendices, but submissions must be self-contained within the page limit. If software or data is relevant to a paper, a link that provides access to the software/data must be provided to enable reproduction of results.
+
+The review process will include a feedback/rebuttal period, where authors will have the option to respond to reviewer comments. The Program Committee Chairs may solicit further reviews after the rebuttal period.
+
+Selected accepted papers will be considered by the Program Committee for the CADE Best Paper Award or Best Student Paper Award (provided that at least one author is a student).
+
+Papers must be submitted to https://easychair.org/conferences/?conf=cade31 in the Main Conference track.
+
+All submissions must be formatted in the LIPIcs style, see https://www.dagstuhl.de/en/publishing/series/details/lipics
+
+IMPORTANT DATES
+Abstract deadline: February 15, 2027
+Submission deadline: February 22, 2027
+Rebuttal period: April 26-30, 2027
+Notification: May 17, 2027
+Final version deadline: May 31, 2027
+Conference: Aug 22-25, 2027
+Workshops: Aug 21 and Aug 26, 2027
+
+PROGRAM COMMITTEE CHAIRS
+Cezary Kaliszyk, University of Melbourne
+Martina Seidl, Johannes Kepler University Linz
+
+PROGRAM COMMITTEE
+TBA
+
+CONFERENCE CHAIR
+Herman Geuvers, Radboud University Nijmegen
+
+WORKSHOP CHAIR
+Cynthia Kop, Radboud University Nijmegen
+
+CONTACTS
+All questions about CADE-31 paper submissions should be emailed to the
+Chairs (cade31 AT easychair.org).
+
+All Rights Reserved · Radboud UniversityContact: fscd-cade@science.ru.nl

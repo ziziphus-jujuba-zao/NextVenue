@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "stats.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Past acceptance statistics for one conference series (data/stats/<series>.yml)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["series", "rows"],
+  "properties": {
+    "series": { "type": "string", "pattern": "^[a-z0-9]+$" },
+    "rows": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/row" } },
+    "areas_none": {
+      "type": "array",
+      "description": "年份查过官方渠道、确实没有分领域数据（界面写“官方未公布分领域数据”）",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["years", "checked", "checked_urls"],
+        "properties": {
+          "years": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/year" } },
+          "scope_zh": { "type": "string", "minLength": 2 },
+          "checked": { "$ref": "#/definitions/date" },
+          "checked_urls": { "$ref": "#/definitions/urls" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+    "date": { "type": "string", "format": "date" },
+    "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "urls": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/url" } },
+    "count": { "type": "integer", "minimum": 1 },
+    "srcId": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "quote": { "type": "string", "minLength": 3, "maxLength": 700 },
+    "also": {
+      "type": "object",
+      "description": "另一条官方（或转述）说法；数字都在 quote 里",
+      "additionalProperties": false,
+      "required": ["source_url", "quote", "quote_check"],
+      "properties": {
+        "source_url": { "$ref": "#/definitions/url" },
+        "quote": { "$ref": "#/definitions/quote" },
+        "src": { "$ref": "#/definitions/srcId" },
+        "quote_check": { "enum": ["snapshot", "manual"] },
+        "note_zh": { "type": "string", "minLength": 2 }
+      },
+      "if": { "properties": { "quote_check": { "const": "snapshot" } } },
+      "then": { "required": ["src"] }
+    },
+    "row": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["year", "track", "status", "checked"],
+      "properties": {
+        "year": { "$ref": "#/definitions/year" },
+        "track": { "enum": ["main", "findings", "main_and_findings", "cycle1", "cycle2"] },
+        "track_zh": { "type": "string", "minLength": 1 },
+        "status": {
+          "enum": ["official", "partial", "third_party", "none"],
+          "description": "official：三个数都来自官方；partial：来自官方，但只公布了一部分；third_party：只有第三方转述或 MIT 数据集；none：没有可显示的数字"
+        },
+        "submissions": { "$ref": "#/definitions/count" },
+        "accepted": { "$ref": "#/definitions/count" },
+        "rate": { "type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 100, "description": "百分数，画柱高用" },
+        "rate_text": { "type": "string", "pattern": "^\\d+(\\.\\d+)?%$", "description": "照此显示，官方写几位就几位" },
+        "rate_basis": {
+          "enum": ["stated", "computed", "approx", "estimate"],
+          "description": "stated 官方写的；computed 按官方数字算的（一位小数）；approx 官方写“约”；estimate 官方说是估算"
+        },
+        "definition_zh": { "type": "string", "minLength": 2, "description": "口径：哪个赛道、分母怎么算" },
+        "source_url": { "$ref": "#/definitions/url" },
+        "quote": { "$ref": "#/definitions/quote" },
+        "src": { "$ref": "#/definitions/srcId" },
+        "quote_check": {
+          "enum": ["snapshot", "manual"],
+          "description": "snapshot：CI 在 src 的快照里逐段核对 quote；manual：拍不了快照（X、Bluesky、LinkedIn 等），按 checked 日期人工核对"
+        },
+        "relay_zh": { "type": "string", "minLength": 2, "description": "third_party 必填：谁转述、转述的是什么" },
+        "dataset": { "enum": ["lixin4ever"], "description": "取自 MIT 数据集（见 NOTICE）" },
+        "count_method_zh": { "type": "string", "minLength": 4, "description": "录用数是本应用在官网名单上数出来的：怎么数的" },
+        "count_url": { "$ref": "#/definitions/url" },
+        "mismatch_zh": { "type": "string", "minLength": 4, "description": "官方写的录用率和按官方数字算的对不上时，说明原因" },
+        "note_zh": { "type": "string", "minLength": 2 },
+        "also": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/also" } },
+        "reason": { "enum": ["unpublished", "unlicensed_only", "doubtful"] },
+        "decided": { "$ref": "#/definitions/date" },
+        "checked_urls": { "$ref": "#/definitions/urls" },
+        "checked": { "$ref": "#/definitions/date" }
+      },
+      "dependencies": {
+        "rate": ["rate_text", "rate_basis"],
+        "rate_text": ["rate"],
+        "rate_basis": ["rate"],
+        "count_url": ["count_method_zh"],
+        "dataset": ["relay_zh"]
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "status": { "const": "none" } } },
+          "then": {
+            "required": ["reason", "checked_urls"],
+            "not": {
+              "anyOf": [
+                { "required": ["submissions"] },
+                { "required": ["accepted"] },
+                { "required": ["rate"] },
+                { "required": ["source_url"] },
+                { "required": ["quote"] }
+              ]
+            }
+          },
+          "else": {
+            "required": ["definition_zh", "source_url", "quote_check"],
+            "not": { "anyOf": [{ "required": ["reason"] }, { "required": ["checked_urls"] }] }
+          }
+        },
+        {
+          "if": { "properties": { "status": { "const": "third_party" } } },
+          "then": { "required": ["relay_zh"] },
+          "else": { "not": { "anyOf": [{ "required": ["relay_zh"] }, { "required": ["dataset"] }] } }
+        },
+        {
+          "if": { "properties": { "quote_check": { "const": "snapshot" } }, "required": ["quote_check"] },
+          "then": { "required": ["src"] }
+        }
+      ]
+    }
+  }
+}

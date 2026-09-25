@@ -1,0 +1,60 @@
+id: tacas-2027
+series: tacas
+name: TACAS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Copenhagen, country: Denmark, country_code: DK }
+dates: { start: 2027-04-12, end: 2027-04-15 }
+federated_with:
+  name: ETAPS 2027
+  url: https://etaps.org/2027/
+  with: [etaps]
+  src: etaps-2027-cfp
+  quote: "Submission deadline for ESOP-round 2, iFS, FoSSaCS, TACAS: Thursday, October 15, 2026"
+  note_zh: TACAS 是 ETAPS 的成员会议，与 ESOP、FoSSaCS、iFS 共用一份征稿和同一套日期。
+milestones:
+  - type: paper
+    at: 2026-10-15T23:59
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Submission deadline for ESOP-round 2, iFS, FoSSaCS, TACAS: Thursday, October 15, 2026"
+    note_zh: 官网写所有截止都是 AoE，而且不会延期。没有单独的摘要截止。每位作者最多投 5 篇。
+  - type: supplementary
+    label_zh: 工具论文 artifact 截止（必交）
+    at: 2026-10-29T23:59
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "TACAS mandatory artifact submission deadline (2 weeks after paper submission): Thursday, October 29, 2026"
+    note_zh: 常规工具论文和工具演示论文必须在正文截止两周后交 artifact，评测结果计入录用决定；研究论文和案例论文可以录用后自愿参加 artifact 评测。
+  - type: author_response
+    start: 2026-12-07
+    end: 2026-12-09
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Rebuttal (ESOP-round 2, FoSSaCS, TACAS): December 7-9, 2026"
+  - type: notification
+    at: 2026-12-22
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Paper notification and TACAS mandatory artifact notification: Tuesday, December 22, 2026"
+  - type: camera_ready
+    at: 2027-01-25T23:59
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Paper final version: Monday, January 25, 2027"
+  - type: conference
+    start: 2027-04-12
+    end: 2027-04-15
+    tz: Europe/Copenhagen
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Main Conference: April 12–15, 2027"
+    note_zh: ETAPS 2027 整体是 4/10–15，前两天是卫星活动。
+last_checked: 2026-09-25
+note_zh: 第 33 届 TACAS，在哥本哈根随 ETAPS 2027 举办；程序委员会主席之一是中国科学院的詹乃军。研究论文、案例论文和常规工具论文最长 18 页，工具演示论文 6 页（不含参考文献，都可加附录）；只有常规研究论文双盲。CCF 第七版没有单独列 TACAS，等级标签来自它所属的 ETAPS 条目（第 4 类 B）。

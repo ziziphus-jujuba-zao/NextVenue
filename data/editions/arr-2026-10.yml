@@ -3,7 +3,7 @@ series: arr
 name: ARR 2026 年 10 月轮
 year: 2026
 kind: arr_cycle
-topics: [nlp]
+data_level: curated
 milestones:
   - type: paper
     at: 2026-10-12T23:59

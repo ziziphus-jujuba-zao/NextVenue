@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ecc-2027
+sources:
+  - id: ecc-2027-home
+    url: https://ecc27.euca-ecc.org/
+    title: ECC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:44Z
+    http_status: 200
+    snapshot: 3013f5b50133f0d75abba04b0550322c5cec3e8e22a89b2b940d1c8010b69eb9
+  - id: ecc-2027-cfp
+    url: https://ecc27.euca-ecc.org/call-for-papers/
+    title: ECC 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:17Z
+    http_status: 200
+    snapshot: c08a94e4559d406e0a6aa685e0ccc90d4309fd0dd37cc883cfdbfd50f0991b13

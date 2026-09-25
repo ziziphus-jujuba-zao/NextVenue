@@ -3,8 +3,8 @@ series: naacl
 name: NAACL 2027
 year: 2027
 kind: conference
-topics: [nlp]
-location: { city: San Francisco, country: USA }
+data_level: curated
+location: { city: San Francisco, country: USA, country_code: US }
 dates: { start: 2027-06-01, end: 2027-06-05 }
 milestones:
   - type: paper
@@ -51,6 +51,12 @@ milestones:
     status: confirmed
     src: naacl-2027-cfp
     quote: "Camera-ready papers due (long & short) March 3, 2027"
+  - type: author_registration
+    tz: AoE
+    status: tba
+    src: naacl-2027-cfp
+    quote: "Papers without at least one presenting author registered by the early registration deadline may be subject to rejection."
+    note_zh: 作者注册的截止就是早鸟注册截止，日期待公布（注册页写“Coming soon!”）。
   - type: conference
     start: 2027-06-01
     end: 2027-06-05
@@ -59,5 +65,24 @@ milestones:
     src: naacl-2027-cfp
     quote: "Conference dates June 1–5, 2027"
     note_zh: 官网首页和 CFP 都写 6/1–5 在旧金山举行。
+logistics:
+  venue:
+    status: tba
+    checked_sources: [naacl-2027-venue, naacl-2027-home]
+    note_zh: 场馆页写“Coming soon!”，只知道在旧金山。
+  fees:
+    - status: tba
+      checked_sources: [naacl-2027-registration, naacl-2027-faq]
+      note_zh: 注册页和注册 FAQ 都写“Coming soon!”。
+  coverage:
+    status: tba
+    checked_sources: [naacl-2027-cfp, naacl-2027-registration, naacl-2027-faq]
+  visa_letter:
+    status: tba
+    checked_sources: [naacl-2027-registration, naacl-2027-faq, naacl-2027-home]
+    note_zh: 还没有签证页（/visa/ 返回 404）。
+  hotels:
+    status: tba
+    checked_sources: [naacl-2027-venue]
 last_checked: 2026-09-25
 note_zh: 经 ACL Rolling Review 投稿：ARR 2026 年 10 月轮（10/12 截止）出审稿和 meta-review，再 commit 到 NAACL 2027 决定录用。

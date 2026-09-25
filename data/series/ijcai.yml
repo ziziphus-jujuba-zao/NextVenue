@@ -1,0 +1,11 @@
+id: ijcai
+acronym: IJCAI
+full_name: International Joint Conference on Artificial Intelligence
+directions: [cs/ml]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/ijcai
+ccfddl: AI/IJCAI
+data_level: curated

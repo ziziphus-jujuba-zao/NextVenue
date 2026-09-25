@@ -1,0 +1,11 @@
+id: ccc-control
+acronym: CCC
+full_name: Chinese Control Conference
+name_zh: 中国控制会议
+directions: [eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 7 月下旬，国内
+data_level: curated
+note_zh: 与 CCF 目录的 CCC（Computational Complexity Conference，系列 id ccc）撞缩写，所以本系列 id 加后缀 -control；中国控制会议没有 CCF 等级。

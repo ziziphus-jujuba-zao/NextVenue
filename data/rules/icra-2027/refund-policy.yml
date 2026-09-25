@@ -1,0 +1,26 @@
+id: icra-2027/refund-policy
+edition: icra-2027
+family: refund
+question_zh: 取消注册能退多少钱？
+short_zh: 取消注册退款
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: notification
+  until: refund_cutoff
+summary_zh: 有条件。2027 年 4/9 前书面取消，可以全额退款，但要扣 50 美元手续费；4/9 之后只有特殊情况才退。注册上的姓名可以免费改成别人。
+detail_zh: 官方没写 4/9 按哪个时区，本应用按首尔当天结束算（北京时间 4/9 22:59）。
+quotes:
+  - src: icra-2027-registration
+    text: "Written cancellation will only be accepted until 9 April 2027 for a full refund, less a USD 50 cancellation fee."
+  - src: icra-2027-registration
+    text: "Refunds for cancellations received after 9 April 2027 will only be made in exceptional circumstances."
+  - src: icra-2027-registration
+    text: "The name on the registration can be changed without penalty."
+effect:
+  kind: refund
+  trigger: cancel
+  full_until: refund_cutoff
+  then: none
+last_checked: 2026-09-25

@@ -1,0 +1,96 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: neurips-2026
+sources:
+  - id: neurips-2026-pricing
+    url: https://neurips.cc/Conferences/2026/Pricing
+    title: NeurIPS 2026 Registration Pricing and Refund Policy
+    kind: policy
+    fetched_at: 2026-09-25T10:38:04Z
+    http_status: 200
+    snapshot: 7fb6c91b52b1313e35c20ff0c2bf4a82e284b639499ba93266f447337893f246
+    note_zh: '悉尼和亚特兰大（neurips.cc 注册）的取消和拒签退款政策。价格由页面脚本按所选身份现算，页面文字里没有金额。页面写 "Early pricing ends in on 2026-10-31 22:59 pacific time"，比 Dates 页的 Oct 30 AoE 晚。'
+  - id: neurips-2026-handbook
+    url: https://neurips.cc/Conferences/2026/MainTrackHandbook
+    title: NeurIPS 2026 Main Track Handbook
+    kind: author_guide
+    fetched_at: 2026-09-25T10:38:05Z
+    http_status: 200
+    snapshot: e1a75f8a899fdfe355236e4d4f0400ff1f599f42741b0fd1732f0c1f17e07a7f
+    note_zh: '"Author Registration and Presentation Requirements" 一节：注册、现场报告和撤销录用的规定。'
+  - id: neurips-2026-visa
+    url: https://neurips.cc/Conferences/2026/Visa
+    title: NeurIPS 2026 Visa Information
+    kind: other
+    fetched_at: 2026-09-25T10:38:06Z
+    http_status: 200
+    snapshot: 0c31a54f3b3e455cfabe87c7efc37709ecb8f9823cb50688c23bcff3d161c75c
+  - id: neurips-2026-venue
+    url: https://neurips.cc/Conferences/2026/VenueInformation
+    title: NeurIPS 2026 Venue Information
+    kind: other
+    fetched_at: 2026-09-25T10:38:08Z
+    http_status: 200
+    snapshot: 7654b76cc3ca8a709872257d9e4c229b221e94ec2d69a328e7d382544e9af935
+    note_zh: '面向展商的场馆信息页；三地场馆名称在页首。悉尼的 "Level 4, Exhibition Halls 5–7" 是展区。'
+  - id: neurips-2026-financial-assistance
+    url: https://neurips.cc/Conferences/2026/FinancialAssistance
+    title: NeurIPS 2026 Volunteering and Financial Assistance
+    kind: other
+    fetched_at: 2026-09-25T10:38:09Z
+    http_status: 200
+    snapshot: 38c305ecee586fd7f46aa4c6ec984ae109692a9d984b50c61790c585c0dca5a2
+  - id: neurips-2026-registration
+    url: https://neurips.cc/Register/view-registration
+    title: NeurIPS 2026 Registration
+    kind: form
+    fetched_at: 2026-09-25T10:38:11Z
+    http_status: 200
+    snapshot: b8117bb736c8c608d3952607c67c0becebe33036a22d6226db35e51cb0cbd329
+    note_zh: '悉尼的正会和 workshop 显示 "(Sold Out)"，亚特兰大未售罄（2026-09-25）。'
+  - id: neurips-2026-poster
+    url: https://neurips.cc/Conferences/2026/PosterInstructions
+    title: NeurIPS 2026 Poster Instructions
+    kind: author_guide
+    fetched_at: 2026-09-25T10:38:12Z
+    http_status: 200
+    snapshot: e92d494aa5344240b8bfaf4080c98a77b696e7b3f6efaff7a61e776482eeec39
+    note_zh: '2026-09-25 页面只写 "This page has not yet been updated to 2026"。'
+  - id: neurips-2026-blog-multisite
+    url: https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process/
+    title: "NeurIPS Blog: Navigating NeurIPS 2026 multi-site registration (2026-08-27)"
+    kind: blog
+    fetched_at: 2026-09-25T10:38:13Z
+    http_status: 200
+    snapshot: 3dcc13064a7f0e0dc6470a4fad9d7792392809cbfe01e07dd0762229e2d19e2c
+    note_zh: '官方博客：指定报告作者的保留名额、会场分配和分配后不能改。'
+  - id: neurips-2026-europe-home
+    url: https://neurips-europe.cc/
+    title: NeurIPS 2026 in Paris (Europe satellite) home
+    kind: other
+    fetched_at: 2026-09-25T10:38:13Z
+    http_status: 200
+    snapshot: 42177d38759bffcf3825374fade8017760601f373a220b4ef251697e19792a0f
+    note_zh: '巴黎会场官网首页（Dakini PCO 管理注册）：价格、取消和拒签退款、邀请函都写在这一页。'
+  - id: neurips-2026-europe-registration
+    url: https://neurips-europe.cc/registration-78.php
+    title: NeurIPS 2026 in Paris registration
+    kind: other
+    fetched_at: 2026-09-25T10:38:14Z
+    http_status: 200
+    snapshot: 997fce7f3ce39069223eb986cf202d8ba89865028898b91e8c18ef427eaf90dc
+    note_zh: '巴黎注册入口页，写明一人只能注册一个会场。'
+  - id: neurips-2026-cfp
+    url: https://neurips.cc/Conferences/2026/CallForPapers
+    title: NeurIPS 2026 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T10:38:15Z
+    http_status: 200
+    snapshot: eea61f1ca08018166f9c28c0757d3155d392c555373872d93215da71d119893d
+  - id: neurips-2026-hotels
+    url: https://neurips.cc/Conferences/2026/Hotels
+    title: NeurIPS 2026 Hotels
+    kind: other
+    fetched_at: 2026-09-25T10:38:16Z
+    http_status: 200
+    snapshot: c3acd66d3f7e635f7424748c2365dd9e5ad8635ccfdd942aaeeff7a50a04224a
+    note_zh: '协议酒店页；巴黎会场地址也写在这里。'

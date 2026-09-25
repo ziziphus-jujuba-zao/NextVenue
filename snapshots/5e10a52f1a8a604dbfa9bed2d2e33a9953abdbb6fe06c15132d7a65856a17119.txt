@@ -1,0 +1,55 @@
+2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) | 978-1-6654-9346-8/23/$31.00 ©2023 IEEE | DOI: 10.1109/WACV56688.2023.00005
+
+Message from the General and Program Chairs
+Welcome to Waikoloa, Hawaii and the Winter Conference on Applications of Computer Vision (WACV)
+2023 – the 23rd edition! WACV is the premier venue for research advances in applications of computer
+vision. We gratefully acknowledge the contributions of our corporate supporters: Amazon Science, Iris,
+Google, Kitware, NSF Arkansas EPSCOR, 3dMD, and Grainger.
+WACV 2023 consists of a three-day main conference program and two days of workshops and tutorials.
+We continue to attract a large number of submissions, reaching a record 1,577 valid submissions – over
+40% more than WACV 2022. Despite the large increase in papers, we maintain the WACV tradition of
+giving each paper the opportunity for both a short oral talk as well as a poster presentation. To handle
+the record number of submissions, we relied on 124 Area Chairs and 2,015 reviewers. We are especially
+grateful to around 800 reviewers who were willing to conduct last-minute emergency reviews so that all
+papers received at least 3 reviews. Reviewing was double-blind and used best practices to avoid conflicts
+of interest. After receiving the reviews, the Area Chairs made decisions in triplets so that each paper was
+considered by both multiple reviewers and multiple Area Chairs.
+We continued the WACV tradition of a two-round submission process. The Round 1 deadline in mid-July
+received 921 valid paper submissions. Of these, 199 were accepted, 348 were invited to be revised and
+resubmitted to Round 2, and the remaining were either rejected or withdrawn by the authors. Of the 348
+invited for resubmission (and rereview by the same reviewers), 97 were rejected and 251 were accepted,
+yielding an overall acceptance rate for all papers submitted in Round 1 of 48.9%. Authors could also submit
+new papers directly to Round 2, which had a deadline in late August. New for WACV 2023, Round 2
+featured a rebuttal period so that authors could respond to reviewer comments before the final decisions
+were made. We received 656 new papers in Round 2 of which 191 (29.1%) were accepted.
+Overall, across both rounds, WACV 2023 received a total of 1,577 paper submissions and accepted a total
+of 641 papers, for an overall acceptance rate of 40.6%. These statistics illustrate how WACV’s innovative
+two-round submission process maintains high quality while welcoming as many papers as possible: while
+only 21.6% of papers were accepted in Round 1 and only 29.1% of papers directly submitted to Round 2
+were accepted, the overall acceptance rate is 40.6% because papers that would have been rejected in
+Round 1 had the opportunity to incorporate reviewer feedback, improve, and be resubmitted to Round
+2.
+The paper review process had two tracks, one for Applications papers and one for Algorithms. We
+emphasized to reviewers that while papers in both tracks needed to include original, novel, high-quality
+contributions, Applications track papers did not necessarily require algorithmic novelty. About 80.2% of
+paper submissions were to the Algorithms track and 19.2% to Applications. The acceptance rates across
+the two tracks were similar: 41.5% for Algorithms and 37.5% for Applications.
+We would like to thank everyone involved in making WACV a success, including Diversity, Equity, and
+Inclusion (DEI) Chairs Matthew Brown and Kiana Ehsani, Doctoral Consortium Chair Nathaniel Blanchard,
+Finance Chair Christopher Funk, Publication Chair Eric Mortensen, Publicity Chair Abby Stylianou, Tutorials
+Chairs Michael Maire and Yang Wang, Workflow Chair Sascha Hornauer, Workshop Chairs Adam Czajka
+
+lxviii
+
+and Vito Struc, and Awards Committee members Jianbo Shi (Chair), Georgia Gkioxari, Phillip Isola, Yanxi
+Liu, and Olga Veksler. We are grateful to our two keynote speakers, Bryan Catanzaro and Kate Saenko.
+Special thanks go to our Conference Producer Nicole Finn, who has kept WACV running smoothly for many
+years. Finally, thanks to all of you for attending WACV and making it a success!
+Aloha!
+Program Chairs: David Crandall, Boqing Gong, Yong Jae Lee,
+Richard Souvenir, Stella Yu
+General Chairs: Tamara Berg, Ryan Farrell
+
+lxix
+
+

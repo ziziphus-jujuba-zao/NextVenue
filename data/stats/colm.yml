@@ -1,0 +1,40 @@
+# COLM 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: colm
+rows:
+  - year: 2024
+    track: main
+    status: partial
+    accepted: 299
+    definition_zh: 单一赛道
+    source_url: https://colmweb.org/2024/AcceptedPapers.html
+    quote_check: manual
+    count_method_zh: 官网录用名单共 299 篇（本应用按 OpenReview 链接计数）
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: partial
+    accepted: 418
+    definition_zh: 单一赛道
+    source_url: https://colmweb.org/2025/AcceptedPapers.html
+    quote_check: manual
+    count_method_zh: 官网录用名单共 418 篇（本应用按 OpenReview 链接计数）
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: partial
+    accepted: 856
+    rate: 29
+    rate_text: 29%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://gregdurrett.github.io/colm2026-blog/ai-papers.html
+    quote: Preliminary acceptance rate by rank of paper by AI score, compared to the overall accept rate of 29%.
+    src: colm-2026-pc-blog-ai-papers
+    quote_check: snapshot
+    count_method_zh: 官网录用名单共 856 篇（本应用按标题计数）
+    count_url: https://colm.cc/Conferences/2026/AcceptedPapers
+    note_zh: 29% 出自程序主席博客的图注，可能不是最终值；官方没公布投稿数
+    checked: 2026-09-25

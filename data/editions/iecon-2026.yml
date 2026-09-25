@@ -1,0 +1,42 @@
+id: iecon-2026
+series: iecon
+name: IECON 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Doha, country: Qatar, country_code: QA }
+dates: { start: 2026-10-18, end: 2026-10-21 }
+milestones:
+  - type: paper
+    at: 2026-07-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iecon-2026-home
+    quote: "Regular Paper Submission Due Date 31 July, 2026 (Final deadline)"
+    note_zh: 已截止。
+  - type: notification
+    at: 2026-08-10
+    tz: Asia/Qatar
+    status: confirmed
+    src: iecon-2026-home
+    quote: "Acceptance Notification 10 August, 2026"
+  - type: camera_ready
+    label_zh: 终稿和注册截止
+    at: 2026-09-20
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iecon-2026-home
+    quote: "Final Submission & Registration Due Date 20 September, 2026"
+    note_zh: 已截止。
+  - type: conference
+    start: 2026-10-18
+    end: 2026-10-21
+    tz: Asia/Qatar
+    status: confirmed
+    src: iecon-2026-home
+    quote: "will be held in hybrid mode, taking place in Doha, Qatar, from 18 to 21 October 2026, while also offering online participation and presentation options for attendees worldwide."
+    note_zh: 线下加线上（hybrid），可以线上参会和报告。
+last_checked: 2026-09-25
+note_zh: 投稿和终稿都已截止，只剩开会。IECON 2027 在上海，见 iecon-2027。

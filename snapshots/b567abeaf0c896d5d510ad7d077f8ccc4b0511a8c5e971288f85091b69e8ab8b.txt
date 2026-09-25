@@ -1,0 +1,645 @@
+Skip Navigation
+
+ * Thank you for joining us for SIGGRAPH 2026! We’ll see you 8-12 August 2027 for SIGGRAPH 2027.
+
+[login_reg_status]
+SIGGRAPH 2026
+ * Conference
+   * General Conference Information
+   * Why Attend?
+   * Schedule at a Glance
+   * Visit The Exhibition
+   * Sustainability
+   * SIGGRAPH 2026 Sponsors
+   * Conference Supporters
+ * Schedule
+   * Programs
+   * ACM SIGGRAPH 365
+   * Map
+ * Exhibit
+   * Exhibit at SIGGRAPH
+   * Sponsorship Opportunities
+   * Exhibitor Resources
+   * Donate
+ * Attend
+   * Travel
+   * Hotels
+   * International Visitors
+   * Safety
+ * Volunteer
+   * SIGGRAPH 2026 Committee
+   * Conference Volunteer Opportunities
+   * ACM SIGGRAPH Volunteer Opportunities
+ * Submit
+ * Register
+
+search
+
+Menu
+
+Accelerate Progress
+
+Technical Papers
+
+Technical Papers is the leading forum for presenting high-quality, scholarly research in computer graphics and interactive techniques. As a cornerstone of SIGGRAPH, this program highlights the most respected innovations — advancing the field and influencing the future of technology and creativity.
+
+View Program Content
+
+Attendee Favorites
+
+Top 10 Technical Papers Fast Forward From
+SIGGRAPH 2026
+
+SIGGRAPH 2026 attendees have spoken! During the Technical Papers Fast Forward, participants voted for their favorite presentations — and here are the top 10 picks that captured the most attention, creativity, and innovation this year.
+
+ * Continuity-Enhancing Degree Elevation and Splits
+ * Fast and Exact Winding Numbers for Triangle Meshes
+ * Gabor Fields: Orientation-Selective Level-of-Detail for Volume Rendering
+ * InfiniteDiffusion: Bridging Learned Fidelity and Procedural Utility for Open-World Terrain Generation
+ * Points as Tori: Fast Pointwise Signed Distance for Point Clouds
+ * Differentiable Voxelization of Surface Representations
+ * Differentiable Neutron Transport
+ * Pixal3D: Pixel-Aligned 3D Generation From Images
+ * Photons × Force: Differentiable Radiation Pressure Modeling
+ * Invisible Holographic Window: Full-color 3D Image Reconstruction From Transparent Surface-Relief Computer-Generated
+
+Welcome to SIGGRAPH 2026
+
+Submit to Technical Papers
+
+The SIGGRAPH 2026 Technical Papers program spans areas including but not limited to animation, simulation, imaging, geometry, modeling, rendering, human-computer interaction, VR/AR/MR, haptics, fabrication, robotics, visualization, audio, optics, programming languages, immersive experiences, generative AI, and machine learning for visual computing.
+
+Creating connections and fostering collaborations through computer graphics and interactive techniques starts with you and your contributions to SIGGRAPH 2026. We are excited that you are submitting your paper for consideration.
+
+At SIGGRAPH 2026, the Technical Papers program will have two integrated paper tracks: Journal (ACM Transactions on Graphics) and Conference.
+
+ * Journal Papers are expected to satisfy the ACM Transactions on Graphics (TOG) criteria of excellence established over the years, and present novel, well validated, and comprehensively described research advancing computer graphics and interactive techniques. Papers accepted to the Journal track will be published in the SIGGRAPH 2026 issue of ACM TOG.
+ * Conference Papers are expected to present novel research advancing computer graphics and interactive techniques. However, the evidence supporting these advances might not be as comprehensive as expected for Journal Papers. The length of papers accepted to this track is capped as outlined in the “Journal vs. Conference” table below. Papers accepted to the Conference track will be published in the SIGGRAPH 2026 Conference Proceedings.
+
+At submission time, authors can indicate if their submission should be considered for the Journal track only or whether they want the submission to be considered for both tracks, i.e., as a “dual-track submission.”
+
+The review process, deadline, and papers committee are the same for both tracks. Papers considered for both tracks are first evaluated to determine if the contribution is of sufficient quality for SIGGRAPH. If judged to be of sufficient quality, they are then assessed based on the criteria above to determine the track to be accepted into.
+
+The differences in the submission process for the two options are outlined below.
+
+Journal-Only Submissions
+Dual-Track Submissions
+The submitted work is expected to be novel and advance the state of the art.
+
+Ideas are extensively tried and tested, and the paper is complete and comprehensive.
+
+The work can be less complete (e.g., have shorter validation and fewer comparisons).
+
+No maximum (or minimum) page length.
+
+The submissions are required to adhere to the following length constraints: Papers must be no longer than 7 pages excluding references and figures-only pages. There is no limit on the length of the references. Each paper can have at most two figures-only pages, placed at the end of the submission, after references. Figures-only pages can contain only figures and their captions (i.e., no tables). Authors can include as many figures as they wish within the core 7 pages. Appendices are to be provided as supplemental material and not as part of the paper itself.
+
+ACM OPEN ACCESS – New for 2026!
+
+Starting 1 January 2026, ACM will fully transition to Open Access.
+See “ACM’s New Open Access Publishing Model” below.
+
+Published in ACM Transactions on Graphics (TOG)
+
+If accepted as a Conference Paper: Published in SIGGRAPH Conference Proceedings
+
+If accepted as a Journal Paper: Published in ACM Transactions on Graphics (TOG)
+
+Mirela Ben-Chen
+SIGGRAPH 2026 Technical Papers Chair
+Justin Solomon
+SIGGRAPH 2026 Technical Papers Assistant Chair
+
+Technical Papers Committee
+
+Technical Papers FAQ
+
+Online Submission System
+
+Reviewer Instructions
+
+Anonymity Policy
+
+Expand All
+
+How to Submit
+
+To start, read the information below about how to prepare your submission, including information on formatting, anonymity, and resubmissions. Then log into the Submission Portal, select the “New Submission” tab, and select the Technical Papers submission form. You will be asked for basic information about your submission.
+
+To see what you will need to submit, view the Sample Form (Stage 1). Creating a submission form will assign your submission a paper ID, which must be included in your submitted paper.
+
+Deadlines
+
+All deadlines are 22:00 UTC/GMT unless otherwise noted.
+
+Thursday, 15 January 2026: Submission form deadline
+
+Deadline for creating the submission form with the title, abstract, topic areas and complete list of co-authors. Once the submission form deadline has passed, the list of authors can NO LONGER be edited. Exceptions can be made in special circumstances but are expected to be rare and are at the discretion of the Technical Papers Chair.
+
+No new submissions can be added after the submission form deadline.
+
+Thursday, 22 January 2026: Paper deadline
+
+Deadline for the complete submission, including either the paper PDF or an MD5 checksum (which will be required in lieu of the actual files starting at some point on this day). If you wish to submit supplemental material (additional details or comparisons, movies, code, data, etc.), these files (or their MD5 checksums) must also be uploaded by this date and time. To see what you will need to submit, view the sample form (Stage 2).
+
+Friday, 23 January 2026: Upload and Conflicts deadline
+
+Deadline for uploading all materials if you used MD5 checksums. No new or changed material may be uploaded. Only files matching MD5 checksums submitted the previous day are valid. Furthermore, by this time, each co-author has to specify conflicts of interest and expertise keywords. If no conflicts are specified, the paper will be automatically rejected!
+
+English Review Service
+
+Non-native English speakers may optionally use the English Review Service to help improve the text of submissions. Please note that this process takes time, so plan far ahead to meet the submission deadline.
+
+Back to Top
+
+Review Process
+
+All submitted papers (independent of track) will receive four full reviews, all double-blind, and will be evaluated by the Technical Papers Committee.
+
+When deciding which track a dual-track submission is suitable for, reviewers will be instructed to consider how compelling the evidence supporting the advances presented in the paper is. In particular, they will be instructed to be less demanding about formal completeness, validation, and experimental evaluation when it comes to accepting papers to the Conference track, thereby allowing publication of riskier/earlier-stage work.
+
+Both tracks will continue the SIGGRAPH Technical Papers program from previous years, publishing high-quality, groundbreaking, and impactful research that is presented at SIGGRAPH. Journal Papers will be published in the ACM Transactions on Graphics. Conference Papers will be published in the SIGGRAPH Conference Proceedings in the ACM Digital Library.
+
+Back to Top
+
+Submission Policy
+
+Double Submissions
+
+By submitting a manuscript to the SIGGRAPH Technical Papers program, authors acknowledge that the technical contributions they claim have not been previously published or accepted for publication in another peer-reviewed venue and that no manuscript substantially similar in content is currently under review or will be submitted to any peer-reviewed venue during the SIGGRAPH review period. Violations constitute grounds for immediate rejection. If you wish to submit revised or extended versions of conference or workshop papers, please directly submit to TOG instead of SIGGRAPH.
+
+Plagiarism
+
+A submission to the SIGGRAPH Technical Papers program should describe an original work of the authors. Authors must not use ideas or content originating from others without properly crediting their original sources. Note that such sources are not limited to peer-reviewed publications, but also include patents, textbooks, technical reports, theses, unpublished work posted on arXiv, as well as other posts on the World Wide Web. Failure to comply with this requirement will be considered plagiarism and result in rejection. For more details, please consult the guidance provided by ACM.
+
+Anonymity
+
+The SIGGRAPH review process is double-blind: The committee members and external reviewers do not know the identity of the authors, and the authors do not know the identity of the reviewers. This anonymity is an integral part of an objective and fair review process, so authors are required to take all reasonable measures to preserve their anonymity. Specific instructions for preserving anonymity in your submission are discussed in the Submission Requirements section. Rules on how to preserve anonymity before and after submission when communicating about the work with others are set forth in the SIGGRAPH 2026 anonymity policy. Authors are expected to familiarize themselves with the policy and strictly adhere to it.
+
+Citing and Comparing to Prior Art, Including Prepublications
+
+Authors are expected to cite, discuss differences and novelty, and compare results, if applicable and feasible, with respect to relevant existing publications, provided they have been published in a peer-reviewed venue before the SIGGRAPH submission deadline. This also applies to patents, which undergo a professional reviewing process. While quantitative and qualitative comparisons to published results can be reasonably requested by reviewers, authors are NOT required to compare to methods without published code or data, e.g., by reimplementing the methods.
+
+Prepublications include technical reports, and other non-peer-reviewed publications, especially papers posted on arXiv. With the rapid progress of search engines and the increased perusal of arXiv papers by the scientific community, asking authors to thoroughly compare their work to these prepublications imposes an unreasonable burden: a seemingly relevant report that is incomplete in its disclosure or validation might appear online shortly before the deadline. While peer-reviewed publications are certainly not immune to these shortcomings, they have, at least, been judged sufficiently complete and valid by a group of peers.
+
+Consequently, authors are not required to discuss and compare their work with recent prepublications (arXiv, technical reports, theses, etc.), although they must properly cite those that inspired them (see “Plagiarism” above). We nevertheless encourage authors to mention all related works they are aware of as good academic practice dictates. With new works posted on arXiv on a daily basis, it is increasingly likely that reviewers might point out similarities between the submitted work and online reports that have been missed by the authors. In this case, authors of conditionally accepted papers should be prepared to cite these prepublications in their final revision as concurrent work, without the burden of having to detail how their work compares to or differs from these prepublications.
+
+Citing Own Prior Art
+
+When citing already published work by the same (or an overlapping) group of authors, the citation should refer to that work in the third person, just as it would refer to any other previously published work by a completely different set of authors. For other relevant work from the same author(s) as the submission, we distinguish between two cases: (A) works that have been submitted for publication elsewhere, but have some relevance to and/or overlap with the submission; and (B) largely overlapping prepublications that are available online at the time of submission (arXiv, technical report, thesis, etc.).
+
+ * For case (A), the other work (e.g., tech report, arXiv posting) should be cited anonymously, as well as provided as anonymous supplementary material. The authors must convince the reviewers that the current submission is sufficiently different from the other work, which can be done using an anonymous cover letter that outlines the differences.
+ * For case (B), these earlier or largely similar versions of the submission that are publicly available (on arXiv, as a technical report, etc.) should NOT be cited in the submission, as this would identify the authors. Instead, these prepublications must be listed in the appropriate field of the submission form, titled “Prepublication.” This field is not visible to reviewers.
+
+Ethics
+
+Computer graphics have an increasing societal impact. Authors should be aware of the ACM Code of Ethics and Professional Conduct and adhere to it. Authors should also adhere to the ACM Publications Policy on Research Involving Human Participants and Subjects if human subjects are involved in their research. The Technical Papers Committee will judge each submission solely based on its technical merits and novelty. If a submission that the Technical Papers Committee recommends to accept raises an ethical issue, it will be forwarded to a relevant ACM body for ethics evaluation. This body can recommend changes to the submission or, in extreme cases, rejecting the work. The Technical Papers Chair will make the final decision in these cases.
+
+Use of Generative AI/LLMs
+
+ACM has strict policies on the use of Generative AI tools like LLMs when preparing manuscripts. Please refer to the ACM Policy on Authorship and the Frequently Asked Questions for that policy for more details. In particular, the policy requires authors to disclose any use of Generative AI tools in the submission if they are used to generate new content (i.e., beyond the use of grammar corrections). Furthermore, authors are responsible for any misrepresentation, factual inaccuracy, or plagiarism in their submission. Papers containing citations of non-existent material or obvious factual inaccuracies will be rejected when found, and may be rejected without review.
+
+Lobbying Reviewers
+
+It is strictly prohibited to make any attempt to intervene in the review process. For example, it is inappropriate for an author to contact a committee member or a person they suspect to be a reviewer during the review process and mention the author’s own submission, even if the author does not explicitly ask for a favor. Committee members and reviewers will be asked to report such incidents and subsequently may be marked as conflicted and removed from the review process for that submission. For the most serious interventions, the submission may be rejected without completing the review process.
+
+Back to Top
+
+Submission Requirements
+
+Submission Format
+
+Technical Papers authors should prepare their documents according to the ACM SIGGRAPH publication guidelines. All submissions should be prepared in ACM double-column format. For convenience, we recommend using the provided “acmtog” LaTeX Article Template Style, which is already in the correct format. The other templates (e.g., Word, Overleaf) might need adaptation to obtain double-column format. Please pay particular attention to the citation format for prior ACM SIGGRAPH/SIGGRAPH Asia Conference Papers, as specified in the ACM SIGGRAPH publication guidelines, because the proper format varies depending on the year of publication.
+
+If you use LaTeX, please anonymize your initial submission with the following \documentclass command:
+
+\documentclass[acmtog,anonymous,review]{acmart}
+
+and add your assigned paper ID with:
+
+\acmSubmissionID{paper ID}
+
+Authors who use LaTeX must make certain that any packages they use in their paper are part of The ACM Publishing System (TAPS) list of accepted LaTeX packages. TAPS will refuse submissions that use packages that are not part of this list. Authors can request that packages be added — see the documentation for information on that request process.
+
+Please use the same formatting for both Journal and dual-track submissions. For dual-track submissions, please follow the instructions in the section below regarding paper length and organization. Papers that do not conform to these instructions will not be considered for the conference track and may be desk rejected.
+
+Please ensure that you are using version 2.16 or higher of the “acmart” class; earlier versions of the article template will not produce a valid submission. Download the latest acmart class along with other necessary materials here. A LaTeX submission template is provided for your convenience.
+
+Authors are required to submit fully formatted papers, with graphs, images, and other special areas arranged as intended for final publication, using the ACM SIGGRAPH paper preparation guidelines. Be sure that all pages are numbered and contain your paper’s ID number. You should obtain this paper ID by completing the Online Submission Form before finalizing your paper. If your paper is accepted, you will receive instructions for formatting the final version, which will be different because, among other things, the authors’ names and affiliations will be included, and the pages will not be numbered.
+
+Authors must submit their papers electronically. The only allowable format is Adobe PDF. The supplemental materials (anything except the paper) should also be submitted electronically. See How to Submit for more information. For videos, we strongly encourage MP4, and for still images, we strongly encourage JPG or PNG. If you use another format, you are not guaranteed that reviewers will view them. In preparing videos, please choose a reasonable frame size and rate, but be prepared to submit a higher-resolution video if a section of your video is selected for the Papers Preview section of the Electronic Theater. If your supplemental materials amount to more than 500 MB of data, you are not guaranteed that reviewers will download and view them.
+
+Preserving Anonymity in the Submission
+
+Remove any information from your submission materials (paper, video, images, data, code, etc.) that identifies you, any of the other authors, and any of your institutions or places of work. In addition to not listing your names and affiliations in the paper, please omit acknowledgements (you will be able to add them back upon acceptance). If you are a well-known author with a possibly recognizable voice, do not narrate your video; get someone else to do it. You must reference all relevant work completely, including your own and that of the other authors. The detailed policy on how to cite these papers, including prepublications (arXiv, technical reports, etc.), theses, submitted work, and published work, is described in the “Citing Own Prior Art” section in the Submission Policy. Please read the instructions carefully before submitting your work.
+
+We strongly discourage authors from including any URLs referring to websites that contain vital material for their submissions. We prefer that the code/data is submitted as part of the supplementary material. If this is not possible (e.g., a large data set beyond the capacity of the submission server), you may add a link to a fully anonymized code/data repository that provides a verifiable timestamp before the submission deadline (e.g., a GitHub repository on a branch that is not modified after the deadline). SIGGRAPH reviewers are instructed to ignore URLs in paper submissions unless the information is deemed absolutely necessary for their review. Such decisions are made completely at the reviewers’ discretion. Furthermore, if reviewers discover the identity of authors through such an external link or notice that the material has been modified after the deadline, the paper may be desk-rejected.
+
+Please keep the PDF version anonymous. In particular, under some operating systems the “properties” of a PDF file may contain the creator’s name. Make sure that no submitted files contain any information about the authors in the metadata. Also, Version 7 PDF files allow inclusion of a script that will contact the author each time the file is opened. Do not include this script in your PDF file; if we find it, we will reject your paper without review.
+
+Paper Length
+
+Journal-only submissions have no maximum (or minimum) length. Have a look at previous proceedings to get a sense of the range of paper lengths, where typical lengths are between 8 and 12 pages, not including references, though the variation is large. For Journal Papers that are conditionally accepted, the final paper length may increase when approved by the primary reviewer.
+
+Dual-track submissions are required to adhere to the following length constraints: Papers must be no longer than 7 pages excluding references and figures-only pages. There is no limit on the length of the reference section. Each paper can have at most two figures-only pages, placed at the end of the submission, after references. Figures-only pages can contain only figures and their caption (i.e., no tables). Authors can also include as many figures as they wish within the core 7 pages. Papers should not include appendices in the main document. Any appendix can only be included as supplementary material (as stand alone documents), and not part of the main paper. Papers will not be considered for conference publication if they exceed the page limit, are not submitted using the formatting described in the section “Submission Format,” or appear to alter the format to bypass the page limit. Post-acceptance, authors of papers accepted to the Conference track can add one additional page to the final-format papers to accommodate the author list, author affiliations, copyright, and acknowledgements (no other content should be added, i.e., the anonymous version still needs to fulfill the length requirements discussed before).
+
+The submitted paper should stand on its own, allowing evaluation of the main ideas without reliance on supplemental material. For example, main results and discussion of the method must be in the submission; extra ablation studies, additional comparisons, implementation details, and similar material can be provided in the supplemental material. Animated results may be included as an accompanying video.
+
+For all submissions, clarity of writing is considered vital to a high-quality submission. Papers may be perceived as too long if they are repetitive or verbose or too short if they omit important details or neglect relevant prior art.
+
+Companion Videos
+
+Papers may be accompanied by a video that is five minutes or less in duration. In recent years, well over half of the accepted papers were accompanied by some kind of video material. To the extent possible, accepted papers should stand on their own, with the video providing supplementary information or visual confirmation of results. However, it is fine to refer to the video in the paper, in which case the video should be submitted under Supplementary Materials, part A in the submission form, as described below. A video should not be included in a submission unless substantively similar footage can later publicly appear in the ACM Digital Library. If your paper is accepted and you cannot comply with this requirement because of copyright or permission problems, your paper’s acceptance will be rescinded.
+
+See also the Publication tab below that explains how the publication rights and licensing are handled for the companion videos.
+
+Supplemental Materials
+
+Authors are invited, but not required, to include supplemental materials such as additional implementation details, ablations, comparisons, additional images or videos, related papers, derivations, or results, as well as code and data files (so that reviewers can reproduce results in the paper). These materials will be viewed only at the discretion of the reviewers, who are only obligated to read the paper itself. These materials must be anonymized, so that they can be made available to all reviewers. There are two separate parts in the online submission form for uploading supplementary materials:
+
+A) Anonymous supplemental materials that are considered part of the submission, and that you are committing to provide for the ACM Digital Library if your paper is accepted.
+
+B) Anonymous materials that you are submitting to help in the review process but do not plan to submit to the ACM Digital Library.
+
+For instance, in addition to videos, A) may include some code, and a .zip archive containing result images and some text files, such as detailed user-study results or other appendices associated to your submission. B) may include anonymized versions of related papers from the same authors currently under review or in press elsewhere, together with an anonymous cover letter that outlines the differences between the submission and these other papers. In case of resubmission with reviewer continuity, the cover letter explaining how you took into account previous reviews and listing the improvements in your method should be there, too.
+
+See also the Publication tab below that explains how the publication rights and licensing are handled for the companion videos.
+
+Resubmissions
+
+If your paper is a revision of a paper that has previously been submitted to a SIGGRAPH or SIGGRAPH Asia conference, we recommend (but do not require) that when you fill out the submission form you identify it as a resubmission, and select the option that allows the previous review materials (reviews, reviewer discussions, summaries, etc.) to be made available to the Technical Papers Committee. Please indicate the latest conference that your paper was submitted to and its paper ID at the time. If you choose to use this option, your paper may be assigned to some or all of the previous reviewers, and all reviewers will have access to suitably anonymized versions of the prior review materials. We encourage you to choose this option if you consider the paper to be derived from the previous version, even if the paper has been substantially rewritten and authors have been added. It will result in more consistent reviews and decrease the chance that a new set of reviewers will want completely different changes than those you made in response to the reviews of your earlier submissions. This option also has the added side benefit of reducing the overall burden on the volunteer reviewing community. Note that simply responding to all earlier criticisms will not guarantee acceptance. If you resubmit with reviewer continuity, you should include a cover letter within the anonymous supplementary materials, part B, in order to explain the changes you made to the paper and how you improved your work and its exposition since the last review cycle. If you resubmit without continuity, you may still choose to submit a similar anonymous cover letter to make it easier for recurring reviewers to understand the changes that have been made since the previous submission.
+
+Back to Top
+
+Evaluation
+
+The Technical Papers Committee and a set of external (i.e., tertiary) reviewers, both consisting of recognized experts, will review submitted papers. Then, at the committee meeting, the committee will select the papers to be presented at SIGGRAPH 2026 and published in either a special issue of ACM Transactions on Graphics or in the SIGGRAPH Conference Proceedings in the ACM Digital Library.
+
+The Technical Papers review process will be conducted by (1) the Technical Papers Chair, who was chosen by the SIGGRAPH 2026 Conference Chair and approved by the ACM SIGGRAPH Executive Committee and its Conference Advisory Group; (2) the Assistant Technical Papers Chair, chosen by the Technical Papers Chair; (3) the Technical Papers Advisory Board, consisting of past and future Technical Papers Chairs and other trusted and experienced advisors, chosen by the SIGGRAPH 2026 Technical Papers Chair; (4) the Technical Papers Committee, chosen by the Technical Papers Chair with the assistance of the members of the Technical Papers Advisory Board, and consisting of about 100 people whose expertise spans the entire field. Both Journal-only and dual-track submissions will be reviewed by the same Technical Papers Committee. The Technical Papers Chair will work with the Technical Papers Committee and the tertiary reviewers to evaluate each valid submission.
+
+The Review Process
+
+ 1. After the submission deadline, the Technical Papers Chair and several others selected by the Technical Papers Chair will conduct the paper sort. During this meeting, they assign each paper to two senior reviewers, called the primary and secondary reviewers, who are members of the Technical Papers Committee. All parties participating in the review process enter their conflict of interest data into the submission system ahead of time. The Technical Papers Chair does not make assignments or review papers. Rather, it is the job of the chair to facilitate the process. Papers that are inappropriate may be desk rejected during this assignment process without being sent to any senior reviewers. Papers rejected at this stage would include those that are clearly off topic for SIGGRAPH 2026, discovered to have been published previously or to have been submitted simultaneously to another conference or journal, found to break anonymity or format requirements in the submission, or clearly below the minimum quality standard of a SIGGRAPH paper. For more details, see Submission Policy and Technical Papers FAQ.
+ 2. The two assigned senior reviewers may, upon conferring with each other and the Technical Papers Chair, recommend a paper to be rejected without additional review. A paper will normally be rejected at this stage only if it falls into one of the categories listed in phase one, but this fact was not detected during the paper sort.
+ 3. Each paper is distributed to three or more additional experts, called tertiary reviewers. These reviewers are selected by the primary and the secondary reviewers. The identity of the authors is not revealed to any of the reviewers. The primary and the secondary reviewer are warned by the submission system, Linklings, if their selection of tertiary reviewers would result in a conflict of interest. For each reviewed paper, all tertiary reviewers and the secondary write full reviews. See the Review Form and Reviewer Instructions. While the primary does not write a full review, they will still read the paper, all reviews, and rebuttal and will moderate the discussion between the four reviewers who wrote full reviews. Thus, at least four full reviews are written for each paper that has not been rejected during phases one and two and two senior reviewers will actively monitor the discussion of every paper. In unusual cases, such as when a tertiary reviewer fails to deliver a review on time, papers may receive less than four reviews. However, if a paper receives fewer than four reviews, additional reviewers will be found, possibly from the committee. For more details, see the Review Process section in the Technical Papers FAQ.
+ 4. After all reviews are complete, the review system allows the authors access to the reviews and scores for their papers on 5 March 2026. Then, authors have until 12 March 2026, 22:00 UTC/GMT, to enter rebuttals if they feel the reviewers have made substantive errors or to answer specific questions posed by the reviewers. The rebuttal is confined to 1,000 words in length (plain text) and must be self-contained. For instance, URLs to additional material are not allowed. The rebuttal period is for addressing factual errors in the reviews, not for providing revised text or new results that do not directly address reviewer questions. Any such novel material will be ignored by the reviewers. For more details, see the Rebuttal Process section of the Technical Papers FAQ.
+ 5. Between the end of the rebuttal period and the committee meeting, the senior reviewers will read all the submitted reviews (at least four), as well as the author rebuttals, confer intensively about the paper, and prepare a recommendation for the committee meeting. The three tertiary reviewers will see the author rebuttals and will participate in discussions about the paper. Due to the double-blind review process, the authors must maintain anonymity in their rebuttals. In addition, the tertiary reviewers do not know each other’s identities, so they too must maintain anonymity during the discussion. The preliminary recommendation agreed on at this stage will be either “conditionally accepted” or “rejected.” If an agreement on the recommendation cannot be reached, a third option is to “table” the paper for further review and discussion during the Technical Papers Committee meeting.
+ 6. If a paper is tabled, the senior reviewers will select one or more other members of the Technical Papers Committee to write extra reviews of the paper and be prepared to discuss it in detail at the meeting. The extra reviews will be written during the week before the committee meeting. If consensus still cannot be reached, it is even possible that additional extra reviews will be assigned during the meeting itself. An extra review can also be written by the primary, this can happen at any point during the discussion phase if the Primary has new insights that have not been raised by the other reviews. Any extra paper reviews will be provided to the authors after the meeting.
+ 7. The full Technical Papers Committee meets to finalize conditional acceptance or rejection of each paper. In cases where a consensus on a paper was not reached during the pre-meeting discussion phase, additional committee members may read the paper, and their evaluations will be taken into account in the decision. Submissions will either be accepted as a Journal Paper or a Conference Paper.
+
+Members of the Technical Papers Committee, including the chairs, are not present when papers for which they have conflicts of interest are discussed. Papers are judged solely on their merit, as determined by the reviews. Although the acceptance rate of SIGGRAPH papers has remained stable in the range of ~20-30%, there is no quota for the number of papers that should be accepted by the SIGGRAPH 2026 Technical Papers Committee; this number will arise organically from the actions of the committee.
+
+Possible Outcomes for a Paper
+
+Email notifications of the Technical Papers Committee’s decisions will be sent following the committee meeting (see the Timeline below). The notifications will place each paper in one of the following categories.
+
+ 1. Conditionally accepted Journal Paper for presentation at SIGGRAPH 2026. The committee provides a list of required changes that must be performed to the paper for the work to be published.
+ 2. Conditionally accepted Conference Paper for presentation at SIGGRAPH 2026. The committee provides a list of required changes that must be performed to the paper for the work to be published, limited to changes that are satisfiable within the current page limits.
+ 3. Rejected from SIGGRAPH 2026. Submissions that were deemed not suitable for the conference, or too flawed or incomplete to be accepted, will be rejected. In some cases, the reviewers may find enough merit in the submission that they encourage the authors to consider resubmitting to either ACM Transactions on Graphics or a future SIGGRAPH conference, with reviewer continuity. The review summary includes a set of suggested changes.
+
+Conditionally accepted papers undergo a second reviewing process, in which a member of the Technical Papers Committee verifies that the final version of the paper is acceptable, i.e., that any required changes have been made, and that other changes made by the authors have not compromised the paper in any way. This second and final stage determines the final acceptance status of all papers. The referees’ decisions are final. Papers that do not satisfy the referees in the second stage of reviewing and/or that are not uploaded in final form by the final deadline, together with the original or revised versions of the submitted supplementary material, will be rejected.
+
+One author of the paper, or an author’s designate in the unlikely event that none of the authors could attend the conference, must commit to presenting the paper in person at the SIGGRAPH 2026 conference in Los Angeles, California. New for 2026, we are implementing a deferral policy that allows authors who cannot attend the conference for verifiable reasons to defer their presentation under certain circumstances. See Deferrals below for details.
+
+Back to Top
+
+Upon Acceptance
+
+Notification
+
+Notification of conditional acceptances and rejections will be sent to authors, along with any extra reviews and possibly a list of required changes (see Timeline below). A member of the Technical Papers Committee, typically the primary reviewer, will be assigned as shepherd for the revision cycle.
+
+Title Changes and 50 Word Summary
+
+A few days after notification, any changes to the paper title along with a 50-word description of your paper suitable for the website will be submitted in the “Stage 3 Program Material” form. Note: Changes to the paper title must be approved by your referee.
+
+Revisions
+
+Authors of papers conditionally accepted by the committee must revise their submission for the second round of reviewing and deliver that material to Linklings.
+
+The deadlines for the revised version and camera ready final version of your paper are listed in the Timeline below. During the week between these two dates, the referees and authors will communicate via the bulletin board process about the adequacy of the changes in the revisions. Sometimes, changes are not initially considered adequate, or introduce new problems, so further revision may be required. It is recommended to submit the initial revised version sooner than the deadline to provide more time for iterated revisions. It is hoped that all conditionally accepted papers will be accepted by the end of this process, but this is not guaranteed. When writing successive revisions, the referee’s job is made easier if authors use a different color for the added or revised text in each new version. (Please remember to remove these colors in the final version.) It also helps to describe the changes in the bulletin board post to which the revision is attached.
+
+For Journal Papers, changes to paper length must be approved by the referee, and extensions of more than one page are unlikely to be granted. Papers accepted to the conference program can be extended by one page in the camera-ready version only to accommodate the author list, author affiliations, and acknowledgements (no other content should be added, i.e., the anonymous version still must fulfill the paper length requirements discussed before).
+
+Camera-Ready Final Version
+
+Once the reviewers have approved the paper, authors will finalize the preparation of their camera-ready paper. The camera-ready materials are not uploaded to Linklings, and are handled differently, depending on the paper track, as follows.
+
+Conference Papers
+
+The authors may integrate figures included in the two figures-only pages of the submission into the main text, resulting in a total of at most 10 pages plus references. The authors should deliver the source of the paper to The ACM Production System (or TAPS) for publication. TAPS accepts LaTeX or Word source documents and prepares the formatted PDF and HTML5 versions of one’s article for publication in the ACM Digital Library. Information on preparing and delivering materials to TAPS can be found here.
+
+Journal Papers
+
+The authors of Journal track papers will deliver the source material to Stephen Spencer, Publication Chair, who will deliver it to ACM for publication. This will be done through an email address that will be provided to the corresponding author upon acceptance.
+
+Supplemental Materials Submission (both Conference and Journal)
+
+After the submission of the “publication rights” form (eRights), a link will be provided to the corresponding author to upload the supplemental materials directly to ACM.
+
+See also the Publication tab below that explains how the publication rights and licensing are handled.
+
+In-Person Presentation
+
+For each accepted paper, one author is required to present in-person at SIGGRAPH 2026 in Los Angeles, California, 19-23 July 2026. Following the oral presentations, the author is expected to participate in an interactive discussion poster session where they will have the opportunity to interact with participants in a more intimate setting. Additional information will be provided upon acceptance.
+
+New for 2026, we are implementing a deferral policy that allows authors who cannot attend the conference for verifiable reasons to defer their presentation under certain circumstances. See Deferrals below for details.
+
+Papers Fast Forward Session
+
+For each presented paper (i.e., not deferred), one author is required to participate in the Papers Fast Forward session on-site in Los Angeles, Sunday, 19 July 2026. In addition to the material that is part of your publication, you will be asked to provide a short presentation for the Papers Fast Forward. The authors will be given a short amount of time to summarize the paper and entice attendees to attend their paper presentation during the conference week. The deadline for the Papers Fast Forward pre-recorded video is 8 June 2026. Additional information will be provided upon acceptance.
+
+Presenter Recognition
+
+Contributor Registration Benefit: One author per accepted Paper receives a 25% discount on Full Conference registration.
+
+To present a paper at SIGGRAPH 2026, the author must be registered at the Full Conference registration level.
+
+You will receive an email by early May explaining how to access the registration discount code as well as instructions for registering. The author using the discount code is eligible for the early-bird registration rate regardless of when registration is completed. Any additional authors who will be presenting the paper are required to register at the appropriate registration level for the program, and prevailing registration rates will apply.
+
+Technical Papers Preview Trailer
+
+A Technical Papers Preview Trailer will be prepared from selected parts of the videos accompanying accepted papers. The preview will appear in the Electronic Theater at the conference and may also be used to publicize the Technical Papers program inside and outside the conference, like on the web. If a section of your video is selected, you will be asked to provide a high-quality rendering of that clip. Therefore, if you submit a video accompanying your paper, please keep your raw data available for that purpose.
+
+Back to Top
+
+Publication
+
+Accepted Conference Papers will appear in the conference proceedings, and Journal Papers will be published as a special issue of ACM Transactions on Graphics.
+
+See the ACM Publication Rights & Licensing Policy here.
+
+ACM Rights Management Form
+
+If your work is accepted for presentation at SIGGRAPH 2026, you must complete the ACM Rights Management Form. The form will be sent to the corresponding author per accepted paper. If the corresponding author for an accepted paper is affiliated with an institution that is part of the ACM OPEN program, and their email address is associated with that institution, their paper can be published Open Access without having to pay the APC (see more information under ACM’s New Open Access Publishing Model). If you are the corresponding author for a paper and your institution is part of that program, make sure you are using your institution’s email address and not a personal email address for correspondence.
+
+Third-Party Material
+
+You must have permission from the owner or copyright holder to use any images or video (or provide rationale for using them without permission) that you do not own in your submitted paper or supplementary material. ACM has a clear policy and procedures for handling Third-Party Material.
+
+Supplemental Materials
+
+Any material that supports a paper’s acceptance for publication must be available as part of the final publication. Thus, all material uploaded for review in the “Anonymous Supplementary Materials, Part of Your Official Submission” section of the submission form, including supplementary text, images, and videos, are subject to the ACM copyright policy, and the required permission forms must be completed upon acceptance. If it subsequently becomes apparent that the necessary permissions cannot be given for publication of material that is substantially similar to that submitted for review, acceptance of the paper may be withdrawn. Upon acceptance, authors must deliver final versions of their papers and their supplementary material. The material will be made available in the ACM Digital Library from the paper’s landing page.
+
+ACM’s New Open Access Publishing Model
+
+Important Update on ACM’s New Open Access Publishing Model for 2026 ACM Conferences!
+
+Starting 1 January 2026, ACM will fully transition to Open Access. All ACM publications, including those from ACM-sponsored conferences, will be 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With over 2,600 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 76%).
+
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the Policy on Discretionary APC Waivers. Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+
+Understanding that this change could present financial challenges, ACM has approved a temporary subsidy for 2026 to ease the transition and allow more time for institutions to join ACM Open. The subsidy will offer:
+
+ * $250 APC for ACM/SIG members
+ * $350 for non-members
+
+This represents a 65% discount, funded directly by ACM. Authors are encouraged to help advocate for their institutions to join ACM Open during this transition period.
+
+This temporary subsidized pricing will apply to all conferences scheduled for 2026.
+
+ORCID Mandate
+
+ACM requires that all accepted journal authors register and provide ACM with valid ORCIDs prior to paper publication. Corresponding authors are responsible for collecting these ORCIDs from co-authors and providing them to ACM as part of the ACM eRights selection process. You and your co-authors can create and register your ORCIDs at https://orcid.org/register. ACM only requires you to complete the initial ORCID registration process. However, ACM encourages you to take the additional step to claim ownership of all of your published works via the ORCID site.
+
+Promotional Use
+
+Your representative image and text may be used for promotional purposes. Several SIGGRAPH 2026 programs may prepare preview videos for pre-conference promotion of accepted content, which may include a portion of the video you submitted for review. You have the option to grant or deny us the ability to use the representative image and submitted video for these purposes.
+
+Back to Top
+
+Deferrals
+
+New for 2026!
+
+Authors of papers (conditionally) accepted to SIGGRAPH 2026 may request to defer their in-person presentation to SIGGRAPH Asia 2026 due to systemic hurdles associated with the Los Angeles location, such as access constraints or substantiated safety concerns. See the full details of the new policy here. To be considered for a deferred presentation the request should be submitted by 6 April 2026. Decisions will be announced by 24 April 2026.
+
+Back to Top
+
+Timeline
+
+All deadlines are 22:00 UTC/GMT unless otherwise noted.
+
+15 January 2026
+
+Submission form deadline
+
+One of the authors must start a submission in the online submission system “Linklings” and provide basic information about the paper, including the complete list of authors and abstract.
+
+No new submissions can be added after this deadline.
+
+22 January 2026
+
+Paper deadline
+
+Basic information about your submission such as contact details of the corresponding authors, paper title, paper length, are required. Additionally, the submitted paper in PDF format and a representative image must be uploaded, along with any video, code and data, and other supplemental material if applicable. Alternatively, MD5 checksums may be uploaded in lieu of any of the files involved in the submission.
+
+23 January 2026
+
+Upload deadline
+
+If MD5 checksums were submitted by the Paper deadline (as described above), files that match the checksums can be submitted until this deadline. All authors must enter their complete and valid conflict of interest and research expertise data in Linklings by this deadline.
+
+5 March 2026
+
+Reviews available for authors & rebuttal begins
+
+12 March 2026
+
+Rebuttals due
+
+30 March 2026
+
+Decisions announced
+
+29 April 2026
+
+Revised paper submitted by authors for final review
+
+6 May 2026
+
+Final version deadline
+
+8 June 2026
+
+Pre-recorded Papers Fast Forward video deadline
+
+3 July 2026
+
+Official publication date for both the SIGGRAPH 2026 Conference Papers Proceedings and the Technical Papers TOG Issue (Volume 45, Issue No. 4 of ACM Transactions on Graphics)
+
+Please Note: The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work. (For those rare conferences whose proceedings are published in the ACM Digital Library after the conference is over, the official publication date remains the first day of the conference.)
+
+19 July 2026
+
+Papers Fast Forward Session
+
+19-23 July 2026
+
+SIGGRAPH 2026
+Los Angeles Convention Center
+Los Angeles, California
+
+Back to Top
+
+Technical Papers
+
+Celebrate Research Excellence
+
+Celebrate excellence in computer graphics research. As you prepare to submit to SIGGRAPH 2026 Technical Papers, look back at the research featured at SIGGRAPH 2025.
+
+Join Us
+
+Registration Access
+
+ * FC
+ * FCS
+
+Learn More
+
+Submissions
+
+----------------------------------------
+
+Deadline
+
+Submissions Form
+
+Thu, 15 January 2026
+22:00 +00:00 GMT
+
+Thu, 15 Jan 2026 22:00 +00:00 2026-01-15 22:00
+
+Submission Closed
+
+Convert Time Zone
+
+----------------------------------------
+
+Deadline
+
+Paper Deadline
+
+Thu, 22 January 2026
+22:00 +00:00 GMT
+
+Thu, 22 Jan 2026 22:00 +00:00 2026-01-22 22:00
+
+Submission Closed
+
+Convert Time Zone
+
+----------------------------------------
+
+Deadline
+
+Upload Deadline
+
+Fri, 23 January 2026
+22:00 +00:00 GMT
+
+Fri, 23 Jan 2026 22:00 +00:00 2026-01-23 22:00
+
+Submission Closed
+
+Convert Time Zone
+
+Additional Links
+
+SIGGRAPH 2026 Conditionally Accepted Technical Papers
+
+SIGGRAPH 2026 Technical Papers Committee
+
+Contributor Benefits
+
+Anonymity Policy
+
+Reviewer Instructions & Ethics of Review
+
+Technical Papers Submissions FAQ
+
+English Review Service
+
+Share This Page
+
+Facebook Twitter LinkedIn
+
+Technical Papers Chair
+
+Mirela Ben-Chen
+
+Join Us at SIGGRAPH 2026
+
+Register Submit Exhibit
+
+Save the Date
+
+Conference – 19–23 JUL 2026
+Exhibition – 21-23 JUL 2026
+
+L.A. Convention Center
+
+1201 South Figueroa Street
+Los Angeles, California 90015
+
+Sponsor SIGGRAPH
+
+ * Exhibitor and Sponsor Opportunities
+
+Resources
+
+ * For The Press
+ * For Participants
+
+Directories
+
+ * Sitemap
+ * 2026 Committee
+
+Get in Touch
+
+ * Contact Us
+ * Join Mailing List
+
+ACM Policies & Blog
+
+ * Anti-Harassment
+ * ACM Privacy Policy
+ * ACM SIGGRAPH Blog
+
+#SIGGRAPH2026
+
+ * News & Events
+
+FacebookTwitterInstagramYouTubeLinkedInFlickr
+© 2026 SIGGRAPH. All rights reserved.
+The 53rd International Conference & Exhibition On Computer Graphics & Interactive Techniques
+ * Conference
+   * General Conference Information
+   * Why Attend?
+   * Schedule at a Glance
+   * Visit The Exhibition
+   * Sustainability
+   * SIGGRAPH 2026 Sponsors
+   * Conference Supporters
+ * Schedule
+   * Programs
+   * ACM SIGGRAPH 365
+   * Map
+ * Exhibit
+   * Exhibit at SIGGRAPH
+   * Sponsorship Opportunities
+   * Exhibitor Resources
+   * Donate
+ * Attend
+   * Travel
+   * Hotels
+   * International Visitors
+   * Safety
+ * Volunteer
+   * SIGGRAPH 2026 Committee
+   * Conference Volunteer Opportunities
+   * ACM SIGGRAPH Volunteer Opportunities
+ * Submit
+ * Register
+ * Search Site

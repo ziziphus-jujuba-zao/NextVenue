@@ -1,0 +1,11 @@
+id: uist
+acronym: UIST
+full_name: ACM Symposium on User Interface Software and Technology
+directions: [cs/hci]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/uist
+ccfddl: HI/UIST
+data_level: curated

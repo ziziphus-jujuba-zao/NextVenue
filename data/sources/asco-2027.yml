@@ -1,0 +1,12 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: asco-2027
+sources:
+  - id: asco-2027-home
+    url: https://www.asco.org/annual-meeting
+    mirror_url: https://web.archive.org/web/20260822052111id_/https://www.asco.org/annual-meeting
+    title: 2027 ASCO Annual Meeting (Internet Archive copy)
+    kind: other
+    fetched_at: 2026-09-25T15:56:01Z
+    http_status: 200
+    snapshot: f47b09efbad8a327a936f0436ad2d1ddadfe2fc682d464c7d40e0273c97f3ff8
+    note_zh: asco.org 拒绝本项目的抓取程序（HTTP 403），快照取自 Internet Archive 2026-08-22 存下的同一页面。Dates to Know 页在存档里也是 403，所以摘要截止日没能核对。

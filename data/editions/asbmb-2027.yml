@@ -1,0 +1,56 @@
+id: asbmb-2027
+series: asbmb
+name: ASBMB 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: asbmb-2027-abstracts
+  quote: "Abstracts presented at the 2027 ASBMB Annual Meeting will be published in a virtual supplement of one of ASBMB's family of gold open-access publications."
+location: { city: Boston, country: USA, country_code: US }
+dates: { start: 2027-04-03, end: 2027-04-06 }
+milestones:
+  - type: abstract
+    label_zh: 提前决定（early decision）摘要截止
+    at: 2026-10-30
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: asbmb-2027-abstracts
+    quote: "Submit your abstract by Oct. 30 and you will be notified by Nov. 12."
+    note_zh: 官网专门建议国际作者走这一轮，以便早办签证；11/12 前只通知接收与否，口头还是海报 1 月再定。官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: notification
+    label_zh: 提前决定轮出结果
+    at: 2026-11-12
+    tz: America/New_York
+    tz_assumed: true
+    status: confirmed
+    src: asbmb-2027-abstracts
+    quote: "Nov. 12 Authors of early decision abstracts notified"
+  - type: abstract
+    label_zh: 常规摘要截止
+    at: 2026-12-08
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: asbmb-2027-abstracts
+    quote: "Dec. 8 Regular abstract deadline"
+    note_zh: 旅费资助（travel award）申请也在 9/15 开放。官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: notification
+    label_zh: 常规摘要排程通知
+    at: 2027-01-15
+    tz: America/New_York
+    tz_assumed: true
+    status: confirmed
+    src: asbmb-2027-abstracts
+    quote: "Jan. 15 Regular abstract programming notifications sent"
+  - type: conference
+    start: 2027-04-03
+    end: 2027-04-06
+    tz: America/New_York
+    status: confirmed
+    src: asbmb-2027-general-info
+    quote: "The 2027 ASBMB Annual Meeting will take place April 3–6, 2027, at the John B. Hynes Veterans Memorial Convention Center in Boston, MA."
+last_checked: 2026-09-25
+note_zh: 另有晚到摘要轮（2027-01-06 开放，1/27 截止）。摘要页上的日期没写年份，按 2027 届的时间顺序对应 2026 年 9 月到 2027 年 1 月。

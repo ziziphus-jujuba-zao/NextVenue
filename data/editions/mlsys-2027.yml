@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: mlsys-2027
+series: mlsys
+name: MLSys 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/MLSys
+  conf_id: mlsys27
+  link: https://mlsys.org/
+  place: Bellevue, Washington, USA
+  date: June 21-25, 2027
+  timezone: UTC
+location:
+  city: Bellevue
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-21
+  end: 2027-06-25
+milestones:
+  - type: paper
+    at: 2026-10-30T20:00
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2027-06-21
+    end: 2027-06-25
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

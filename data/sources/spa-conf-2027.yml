@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: spa-conf-2027
+sources:
+  - id: spa-conf-2027-home
+    url: https://spa2027.org/
+    title: SPA 2027 Melbourne
+    kind: other
+    fetched_at: 2026-09-25T18:22:40Z
+    http_status: 200
+    snapshot: 76afa844bda589926d958ccddfa2dd5d638fdaf3100316d56b7c767632401647

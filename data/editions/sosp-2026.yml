@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sosp-2026
+series: sosp
+name: SOSP 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/SOSP
+  conf_id: sosp26
+  link: https://sigops.org/s/conferences/sosp/2026/index.html
+  place: Clarion Congress Hotel Prague, Prague, Czechia
+  date: September 29 - October 2, 2026
+  timezone: AoE
+location:
+  city: Clarion Congress Hotel Prague
+  country: Czechia
+  country_code: CZ
+dates:
+  start: 2026-09-29
+  end: 2026-10-02
+milestones:
+  - type: abstract
+    at: 2026-03-26T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-04-01T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-09-29
+    end: 2026-10-02
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

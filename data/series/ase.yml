@@ -1,0 +1,12 @@
+id: ase
+acronym: ASE
+full_name: IEEE/ACM International Conference on Automated Software Engineering
+aliases: [International Conference on Automated Software Engineering]
+directions: [cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/kbse
+ccfddl: SE/ASE
+data_level: curated

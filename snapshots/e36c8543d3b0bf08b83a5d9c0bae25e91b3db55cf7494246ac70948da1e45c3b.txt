@@ -1,0 +1,172 @@
+メインコンテンツへ移動
+
+Center for Advanced Intelligence Project
+
+Access Japanese
+
+Main menu
+
+ * About AIP
+ * Laboratories
+ * Videos
+ * Program Codes
+ * Events
+ * News
+ * Opportunities
+ * * Access
+   * 日本語
+ *
+
+single.php
+TOP News Five papers were accepted at AAAI-25
+
+News
+
+TOP News Five papers were accepted at AAAI-25
+template-parts/content-post.php
+Information Facebook Share X Share
+
+Five papers were accepted at AAAI-25
+
+December 17, 2024 16:33
+
+Five papers were accepted at AAAI 2025, a top conference on artificial intelligence. For more details, please refer to the link below.
+
+[AAAI-25] https://aaai.org/Conferences/AAAI-25/
+
+[Acceptance rate]
+There are 3,032 accepted papers from 12,957 submissions, leading to a 23.4 percent acceptance rate.
+
+ * Action-Agnostic Point-Level Supervision for Temporal Action Detection
+   Shuhei M Yoshida (NEC)
+   Takashi Shibata (NEC)
+   Makoto Terao (NEC)
+   Takayuki Okatani (Tohoku University/RIKEN AIP)
+   Masashi Sugiyama (RIKEN AIP/The University of Tokyo)
+ * EventPillars: Pillar-based Efficient Representations for Event Data
+   Rui Fan (Xidian University)
+   Weidong Hao(Xidian University)
+   Juntao Guan(Xidian University)
+   Lai Rui(Xidian University)
+   Lin Gu (RIKEN AIP)
+   Tong Wu(Xidian University)
+   Fanhong Zeng(Xidian University)
+   Zhangming Zhu(Xidian University)
+ * Semantic-guided Masked Mutual Learning for Multi-modal Brain Tumor Segmentation with Arbitrary Missing Modalities
+   Guoyan Liang(Zhejiang University)
+   Qin Zhou(East China University of Science and Technology)
+   Zhe Wang(East China University of Science and Technology)
+   Jingyuan Chen(Zhejiang University)
+   Lin Gu(RIKEN AIP)
+   Chang Yao(Zhejiang University)
+   Sai Wu(Zhejiang University)
+   Bingcang Huang(Gongli Hospital of Shanghai Pudong New Area)
+   Kai Chen(Gongli Hospital of Shanghai Pudong New Area)
+ * TdAttenMix: Top-Down Attention Guided Mixup
+   Zhiming Wang (Beihang University)
+   Lin Gu (RIKEN AIP)
+   Feng Lu(Beihang University)
+ * Zeroth-Order Methods for Nonconvex Stochastic Problems with Decision-Dependent Distributions
+   Yuya Hikima (The University of Tokyo)
+   Akiko Takeda (The University of Tokyo / RIKEN AIP)
+
+Related Laboratories
+
+last updated on April 1, 2026 11:13Laboratory
+Imperfect Information Learning Team
+last updated on April 7, 2026 13:25Laboratory
+Continuous Optimization Team
+last updated on April 9, 2026 11:03Laboratory
+Multimodal Visual Intelligence Team
+Previous pageNext page
+
+Videos
+
+ * Latest video
+
+   TrustML Young Scientist Seminar #103 2026/4/27
+   Talk by Prof. Huaxiu Yao (University of North Carolina at Chapel Hill)
+   Show details
+
+Videos
+
+Calendar
+
+Sep 2026
+
+Sunday   Monday   Tuesday   Wednesday                             Thursday   Friday   Saturday
+                  1st       2nd                                   3rd        4th      5th
+6th      7th      8th       Link to the event page for the 9th    10th       11th     12th
+13th     14th     15th      16th                                  17th       18th     19th
+20th     21th     22th      23th                                  24th       25th     26th
+27th     28th     29th      Link to the event page for the 30th
+
+Events Calender
+Request for Donations: Support for Future AI Talent Request for Donations: Support for Gender Diversity and Development of Female AI Researchers
+
+Sub menu
+
+ * Contact us
+ * Sitemap
+ * For AIP Internal Use Only
+
+External Links
+
+ * RIKEN
+ * Center for Advanced Intelligence Project (RIKEN)
+ * MEXT
+ * NICT
+ * AIST
+ * AIP Network Lab.
+ * AI Japan R&D Network
+
+YouTube AIP RIKEN
+RIKEN
+Center for Advanced Intelligence Project
+
+Nihonbashi 1-chome Mitsui Building, 15th floor,
+
+1-4-1 Nihonbashi,Chuo-ku, Tokyo
+
+103-0027, Japan
+
+e-mail: aip-koho [at]riken.jp *Please replace "[at]" with "@".
+
+ * About AIP
+ * Laboratories
+ * News
+ * Events
+ * Opportunities
+ * Access
+ * Contact us
+ * Sitemap
+
+Copyright © RIKEN, Japan. All rights reserved.
+
+Cookieについて/Privacy Overview
+
+本ウェブサイトは、利便性、品質維持・向上を目的に、Cookieを使用しております。詳しくはプライバシーポリシーをご覧ください。
+
+This website uses cookies for the purpose of maintaining and improving convenience and quality. For details, please see
+Privacy Policy.
+
+設定/Settings同意する/Accept同意しない/Reject
+
+Manage consent
+Close
+
+Cookieについて / Privacy Overview
+
+本ウェブサイトでは、利便性向上を目的にCookieを使用しております。Webサイトの基本的な機能に不可欠なCookieは、ブラウザに保存されます。またウェブサイトへのアクセス状況を分析するため、サードパーティの必須ではないCookieも使用しています。必須ではないCookieは、ユーザーの同意がある場合にのみブラウザに保存されます。必須ではないCookieをオプトアウトすることも可能ですが、それによりウェブサイトの閲覧に影響を与える可能性があります。
+
+This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.
+必須のCookie/Necessary
+必須のCookie/Necessary
+Always Enabled
+ウェブサイトを正常に機能させるのに必要なCookieです。ウェブサイトの基本的な機能やセキュリティ機能を確保するためのCookieのみがこれに含まれます。これらのCookieが個人情報を保存することはありません。 Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+必須ではないCookie/Non-necessary
+必須ではないCookie/Non-necessary
+ウェブサイトを機能させるために必須ではないCookieです。アクセス状況を分析するためのCookieです。ユーザーの同意が得られた場合のみCookieを保存します。 Cookies that are not required for a website to function. Cookies are used to analyze access status. Cookies are stored only when the user's consent has been obtained.
+SAVE & ACCEPT
+
+Scroll to the top of page.

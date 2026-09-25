@@ -1,0 +1,14 @@
+id: nam
+acronym: NAM
+full_name: North American Catalysis Society Meeting
+aliases:
+  - NAM30
+  - NACS North American Meeting
+directions: [chem/catalysis, chem/chemeng]
+periodicity:
+  cycle: biennial
+  parity: odd
+  basis: observed
+  note_zh: 北美催化学会（NACS）两年一届的大会，往届都在奇数年 6 月前后举办（NAM29 2025 年亚特兰大）
+data_level: curated
+note_zh: 催化方向的主要大会，NAM29 起主办方预计约 2,000 人。

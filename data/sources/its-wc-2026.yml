@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: its-wc-2026
+sources:
+  - id: its-wc-2026-ertico
+    url: https://www.ertico.com/its-world-congress-2026-gangneung-south-korea
+    title: "ERTICO: ITS World Congress 2026 Gangneung"
+    kind: other
+    fetched_at: 2026-09-25T15:55:27Z
+    http_status: 200
+    snapshot: 6a489d021cbeac097bc4dbf298682d1bceec4848c962a31b0b0ace64aa9702ba

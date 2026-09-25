@@ -1,0 +1,356 @@
+* Skip to main content
+
+AAAI
+
+Association for the Advancement of Artificial Intelligence
+
+Menu
+
+ * *
+
+   * AAAI
+
+     Association for the Advancement of Artificial Intelligence
+
+Menu
+ *
+ * About AAAI
+   * News
+   * Officers and Committees
+   * Staff
+   * Bylaws
+   * Awards
+     * Fellows Program
+     * Classic Paper Award
+     * Dissertation Award
+     * Distinguished Service Award
+     * Allen Newell Award
+     * Outstanding Paper Award
+     * AI for Humanity Award
+     * Feigenbaum Prize
+     * Patrick Henry Winston Outstanding Educator Award
+     * Engelmore Award
+     * AAAI ISEF Awards
+     * Senior Member Status
+     * Conference Awards
+   * Partnerships
+   * Resources
+   * Mailing Lists
+   * Past Presidential Addresses
+   * AAAI 2025 Presidential Panel on the Future of AI Research
+   * Presidential Panel on Long-Term AI Futures
+   * Past Policy Reports
+     * The Role of Intelligent Systems in the National Information Infrastructure (1995)
+     * A Report to ARPA on Twenty-First Century Intelligent Systems (1994)
+   * Logos
+ * Ethics & Plurality
+ * Conferences & Symposia
+   * AAAI Conference
+   * AIES AAAI/ACM
+   * AIIDE
+   * EAAI
+   * HCOMP
+   * IAAI
+   * ICWSM
+   * Spring Symposia
+   * Summer Symposia
+   * Fall Symposia
+   * Code of Conduct for Conferences and Events
+ * Publications
+   * AI Magazine
+   * Conference Proceedings
+   * AAAI Publication Policies & Guidelines
+   * Request to Reproduce Copyrighted Materials
+   * Contribute
+   * Order Proceedings
+ * AI Magazine
+ * Membership
+   * Member Login
+   * Chapters
+   * AAAI-x 2026 Events
+   * Call for Proposals: AAAI-Sponsored “AIx” Pop-Up Events Worldwide
+   * AAAI Educational AI Videos Award
+
+ * ----------------------------------------
+
+ * AI Jobs
+ * AITopics
+ * Contact
+
+ * ----------------------------------------
+
+ * Twitter
+ * Facebook
+ * LinkedIn
+
+Home / Conferences / AAAI Conference on Artificial Intelligence / AAAI-27 /
+
+July 14, 2026
+
+The 41st Annual AAAI Conference on Artificial Intelligence
+
+February 16 – February 23, 2027 | Montréal, Canada
+
+ * AAAI-27
+ * EAAI-27
+ * IAAI-27
+ * Attend
+   * Accommodations and Travel
+   * Student Scholar Volunteer Program
+   * Registration Information
+   * Visa Letters of Invitation
+   * Job Fair
+ * Calls
+   * Main Technical Track
+   * Special Track on AI Alignment
+   * Special Track on AI for Social Impact
+   * Bridge Program
+   * Demonstration Program
+   * Doctoral Consortium
+   * EAAI-27
+   * IAAI-27
+   * Journal Track
+   * New Faculty Highlights
+   * Student Abstract and Poster Program
+   * Senior Member Presentation Track
+   * Tutorial and Lab Program
+   * Undergraduate Consortium
+   * Workshops
+ * Sponsors
+   * Become a Sponsor
+ * Conference Organizers
+
+AAAI-27 Accommodation and Travel Information
+
+Prepare for your Trip
+Getting to Montréal
+Official Montréal Visitor Guide
+
+Advisory Notice: Beware of Phishing Scams Targeting Conference Hotel Bookings
+AAAI has been made aware of recent phishing scams targeting conference attendees. Fraudsters may impersonate event organizers or official travel partners to trick you into booking accommodations through illegitimate channels. These scams could lead to financial loss, personal data breaches, or invalid hotel reservations. Learn more with tips below.
+
+AAAI-27 Conference Hotels
+
+AAAI has reserved a block of rooms at the hotels below at reduced conference rates. Space is limited and attendees are encouraged to make their reservations early.
+
+Why Book Through Us?
+
+By booking your hotel through the official AAAI-27 links below, you’re directly supporting the conference. Your participation helps us meet our room block commitments, which in turn allows us to secure a variety of hotel options with affordable rates and essential meeting space. Every reservation made within our block strengthens AAAI’s ability to continue hosting high-quality, impactful conferences. Thank you for being a vital part of our success!
+
+Cutoff Dates:
+
+Reservation cutoff dates vary by hotel. We strongly encourage attendees to reserve their hotel accommodations early to ensure the best selection and pricing. Room availability and discounted rates cannot be guaranteed after the cutoff dates.
+
+Cancellation Policies:
+
+Hotel cancellation policies vary by property. Please review terms carefully before booking to avoid unexpected fees.
+
+Conference Rates Available:
+
+Le Westin Montréal
+Headquarter Hotel
+Rate: CAD $239
+
+Complimentary Wi-Fi
+
+270 Rue Saint-Antoine Ouest, Montréal, QC H2Y 0A3, Canada
+
+Cutoff Date: January 25, 2027
+
+Booking Link
+
+AC Hotel Old Montréal by Marriott
+Rate: CAD $229
+
+Complimentary Wi-Fi
+
+445 Rue Saint-Jean-Baptiste, Montréal, QC H2Y 2Z7, Canada
+
+Cutoff Date: December 29, 2026
+
+Booking
+Link
+
+DoubleTree by Hilton Montréal
+Rate: CAD $245
+
+Complimentary Wi-Fi
+
+1255 Rue Jeanne-Mance, Montréal, QC H5B 1E5, Canada
+
+Cutoff Date: January 15, 2027
+
+Booking
+Link
+
+Embassy Suites by Hilton Montréal
+Rate: CAD $274
+
+Complimentary Breakfast and Wi-Fi
+
+208 Rue Saint-Antoine O, Montréal, QC H2Y 0A6, Canada
+
+Cutoff Date: January 15, 2027
+
+Booking
+Link
+
+Hampton Inn by Hilton Montréal Downtown
+Rate: CAD $227
+
+Complimentary Breakfast and Wi-Fi
+
+985 Boul. Saint-Laurent, Montréal, QC H2Z 1J4, Canada
+
+Cutoff Date: January 15, 2027
+
+Booking
+Link
+Directions to Conference Hotels
+
+Tips to Identify Scams and Protect Yourself
+
+How to Identify a Scam:
+
+ * Unsolicited Communications: Be cautious of emails, calls, or texts from unknown sources claiming to represent the conference or offering special hotel deals.
+ * Fake Websites: Fraudsters may create fake booking websites that look similar to official ones.
+ * Pressure Tactics: Scammers often use urgent language, such as “limited rooms remaining” or “act immediately,” to rush you into making a decision.
+ * Requests for Sensitive Information: Be wary if asked for unnecessary personal information, like your Social Security Number or additional payment details, beyond what’s required to confirm a booking.
+
+To Protect Yourself:
+
+ * Only book through the links available on this page by the verified hotel partners listed.
+ * Double-check the sender’s email address and ensure it matches the official domain.
+ * Avoid clicking on suspicious links in unsolicited emails or messages. Instead, navigate directly to the official conference or hotel website.
+ * Contact the event organizer if you are unsure about the legitimacy of any communication.
+
+Report Suspicious Activity:
+
+If you suspect a phishing attempt, please report it immediately to aaai27@aaai.org.
+We are committed to ensuring a secure and seamless experience for all attendees. Stay vigilant and safeguard your information.
+
+Preparing for your trip to Montréal
+
+We are excited to welcome you to AAAI-27 at the Palais des congrès de Montréal! Please review the travel and local information below.
+
+Do I Need a Visa to go to Montréal?
+
+Everyone needs the right documents to travel to or transit through Canada: an electronic travel authorization (eTA), a visitor visa, or just a passport.
+
+ * US citizens: Passport Required
+ * Australian, UK, EU citizens: Passport and eTA Required
+ * Other nationalities: Check requirements here
+ * Additional resources found here
+
+Important: Your passport must be valid for at least 6 months beyond your planned departure date.
+
+Click here to learn more about requesting your AAAI Visa Letter of Invitation
+
+Visitor Information for Montréal
+
+For additional travel planning resources, local tips, and up-to-date visitor information, attendees are encouraged to visit https://www.mtl.org/en, Montréal’s official tourism website. The site offers comprehensive guidance on accommodations, transportation, dining, attractions, and practical travel information to help you plan your stay and make the most of your time in Montréal before and after the conference.
+
+Languages Spoken in Montréal
+
+While French is the official language spoken in Montréal, English is widely spoken and used in all signage and public services.
+
+Currency & Payments in Montréal
+
+ * Local Currency: Canadian Dollar (CAD)
+ * Accepted Payment Methods:
+ * Credit/Debit Cards (Visa, Mastercard, AMEX widely accepted)
+ * Contactless payments (Apple Pay, Google Pay, PayNow)
+ * Cash (available at ATMs and exchange counters)
+
+Weather in Montréal in February
+
+Expect cold and snowy weather in February.
+
+ * Temperature: -2°C to 0°C (27°F to 32°F)
+ * Snow: Occasional snowfall is common, with about 4.5 hours of bright sunshine per day. Plan to pack winter boots, a heavy down jacket, and winter accessories.
+
+Getting to the Conference Hotels from Montréal-Pierre Elliott Trudeau International Airport
+
+Transportation options Bus (747, Taxi
+
+ * 747 Express Bus – click here to learn more
+ * Taxi (Fixed Fare Rate)
+   * Arriving or Departing Downtown between 5AM and 11PM: CAD $49.45
+   * Arriving or Departing Downtown between 11PM and 5AM: CAD $56.70
+ * Rideshare apps such as Uber or Lyft (fares vary)
+
+If you have further questions, feel free to contact us at aaai27@aaai.org.
+
+We look forward to seeing you in Montréal!
+
+Categories: AAAI Conference
+
+We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.
+Cookie SettingsAccept All
+Manage consent
+Close
+
+Privacy Overview
+
+This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.
+Necessary
+Necessary
+Always Enabled
+Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+
+Cookie                               Duration    Description
+cookielawinfo-checkbox-analytics     11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Analytics".
+cookielawinfo-checkbox-functional    11 months   The cookie is set by GDPR cookie consent to record the user
+                                                 consent for the cookies in the category "Functional".
+cookielawinfo-checkbox-necessary     11 months   This cookie is set by GDPR Cookie Consent plugin. The
+                                                 cookies is used to store the user consent for the cookies in
+                                                 the category "Necessary".
+cookielawinfo-checkbox-others        11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Other.
+cookielawinfo-checkbox-performance   11 months   This cookie is set by GDPR Cookie Consent plugin. The cookie
+                                                 is used to store the user consent for the cookies in the
+                                                 category "Performance".
+viewed_cookie_policy                 11 months   The cookie is set by the GDPR Cookie Consent plugin and is
+                                                 used to store whether or not user has consented to the use
+                                                 of cookies. It does not store any personal data.
+
+Functional
+Functional
+Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+Performance
+Performance
+Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+Analytics
+Analytics
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+Advertisement
+Advertisement
+Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+Others
+Others
+Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+SAVE & ACCEPT
+
+We are using cookies to give you the best experience on our website.
+
+You can find out more about which cookies we are using or switch them off in settings.
+
+Accept
+Close GDPR Cookie Settings
+ * Privacy Overview
+ * Strictly Necessary Cookies
+
+Powered by  GDPR Cookie Compliance
+Privacy Overview
+
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+
+Strictly Necessary Cookies
+
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+
+Enable or Disable Cookies Enabled Disabled
+Enable All Save Settings

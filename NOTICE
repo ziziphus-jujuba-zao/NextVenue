@@ -1,0 +1,117 @@
+NextVenue (投稿下一站)
+Copyright (c) 2026 Zayier Xie. All rights reserved.
+
+NextVenue and its own data are proprietary (LICENSE, DATA_LICENSE.md). It also
+contains third-party data, listed below with the licence each one is used
+under; that data stays under its own licence.
+
+------------------------------------------------------------------------------
+1. lixin4ever/Conference-Acceptance-Rate (MIT)
+   https://github.com/lixin4ever/Conference-Acceptance-Rate
+   Pinned at commit 6297bb0529e55cec67707f5fc7c22f5a97a865f7.
+
+   Used for: the acceptance counts in data/stats/*.yml rows marked
+   `dataset: lixin4ever` (ICML 2022-2023; AAAI 2020, 2022-2024; IJCAI 2021;
+   UAI 2020, 2025; WSDM 2020; CIKM 2020), only where no official figure was
+   found. The app labels these numbers 第三方 (third party). The dataset does
+   not say where its numbers come from.
+
+   MIT License
+
+   Copyright (c) 2022 LI XIN
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+------------------------------------------------------------------------------
+2. ACL Anthology (CC BY 4.0)
+   https://aclanthology.org/
+   "Materials published in or after 2016 are licensed on a Creative Commons
+   Attribution 4.0 International License."
+   https://creativecommons.org/licenses/by/4.0/
+
+   Used for: data/stats/areas/acl-2023.yml, which reproduces Table 1 of the
+   ACL 2023 program chairs' report ("Number of submissions and acceptance rates
+   per track for direct and ARR submissions to ACL'23", ACL 2023 proceedings
+   front matter, https://aclanthology.org/2023.acl-long.0.pdf, p. xli), and the
+   *ACL figures quoted in data/stats/{acl,emnlp,naacl,eacl}.yml. Changes: the
+   ARR columns of the table are left out.
+
+------------------------------------------------------------------------------
+3. dblp computer science bibliography (CC0 1.0)
+   https://dblp.org/ (Schloss Dagstuhl - Leibniz Center for Informatics)
+
+   Used for: the paper titles counted in data/topics/*.json by
+   scripts/topics/dblp_topics.py. CC0 asks for no attribution; dblp is credited
+   because it asks to be linked as the source.
+
+------------------------------------------------------------------------------
+4. ccfddl/ccf-deadlines (MIT)
+   https://github.com/ccfddl/ccf-deadlines
+   Pinned per import: the commit or file (with its sha256) and the as-of date
+   are recorded in data/upstream/ccfddl.yml.
+
+   Used for: editions with `data_level: upstream` under data/editions/ (dates,
+   deadlines, time zones, places, links), series files with
+   `data_level: upstream` under data/series/, and data/upstream/ccfddl.yml
+   (ccfddl's series titles and descriptions and its CCF, CORE and THCPL
+   values), all written by scripts/import-ccfddl.ts. The app shows these dates
+   with the tag 未核对 (not checked against the venue) and never as verified;
+   its CORE and THCPL values are shown as ccfddl's. Changes: time zones are
+   converted to ours (AoE and fixed offsets kept, PT → America/Los_Angeles),
+   conference dates and places are parsed from free text, seconds are dropped.
+
+   MIT License
+
+   Copyright (c) 2021 CCFDDL
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+------------------------------------------------------------------------------
+5. Official recommendation lists (no open licence; facts only)
+   data/ranks/ccf7.yml   中国计算机学会推荐国际学术会议和期刊目录（第七版）, CCF
+   data/ranks/caai2024.yml 中国人工智能学会推荐国际学术会议目录（2024）, CAAI
+   data/ranks/cast2025.yml 中国科协《重要学术会议目录（2025）》, CAST
+
+   Used for: the rank labels next to venues. Each file records the list's
+   name, edition, release date, official page, the sha256 of the official PDF
+   it was checked against, and the issuer's disclaimer. The app shows a tier
+   with the list's name, edition and link, never the list itself, and the
+   PDFs are not redistributed.
+
+------------------------------------------------------------------------------
+Not used as sources: csconfstats (Xovee/cs-conf-stats), Paper Copilot
+(papercopilot/paperlists), emeryberger/csconferences and
+tranhungnghiep/AI-Conference-Info publish no licence, so none of their data is
+copied here; pnpm validate rejects them as sources.

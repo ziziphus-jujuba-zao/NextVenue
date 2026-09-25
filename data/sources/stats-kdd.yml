@@ -1,0 +1,47 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-kdd
+sources:
+  - id: kdd-2023-research-track-talk
+    url: https://sites.cs.ucsb.edu/~xyan/KDD23-ResearchTrack-Banquet-Talk.pdf
+    title: KDD 2023 Research Track program chairs' banquet talk slides
+    kind: other
+    fetched_at: 2026-09-25T13:16:08Z
+    http_status: 200
+    snapshot: 20297149fda86b9f5e503b1d548912f0e38c2519625ecb024af123065c6fedb3
+    note_zh: KDD 2023 研究赛道程序主席的幻灯片，放在程序主席 Xifeng Yan 的学校主页上。
+  - id: kdd-2021-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3447548
+    mirror_url: https://web.archive.org/web/20240413044143id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3447548
+    title: KDD 2021 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:16:13Z
+    http_status: 200
+    snapshot: 9d603f25875de7477dee77618ade9a076aaafef843abedb93ac5688ef3f66913
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: kdd-2023-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3580305
+    mirror_url: https://web.archive.org/web/20250908031318id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3580305
+    title: KDD 2023 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:16:16Z
+    http_status: 200
+    snapshot: 049212976641f470d9a7d20a3a9c7d1ccf225b2368a451b0d4ae06911a1439ed
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: kdd-2024-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3637528
+    mirror_url: https://web.archive.org/web/20250113175351id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3637528
+    title: KDD 2024 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:16:22Z
+    http_status: 200
+    snapshot: 0a047c168effa3f8d5e2d4e5141c55765b79b997369c3184d9e50a6123c8b6da
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: kdd-2025-v1-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3690624
+    mirror_url: https://web.archive.org/web/20250728092517id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3690624
+    title: KDD 2025 Vol. 1 (August cycle) proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:16:24Z
+    http_status: 200
+    snapshot: c5077aabb8ae2902cbe2e5c566d8e30b33644c1da3c89ac06797cc37145a97a2
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。

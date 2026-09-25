@@ -1,0 +1,235 @@
+Skip Navigation
+
+ * Thank you for joining us for SIGGRAPH 2026! We’ll see you 8-12 August 2027 for SIGGRAPH 2027.
+
+[login_reg_status]
+SIGGRAPH 2026
+ * Conference
+   * General Conference Information
+   * Why Attend?
+   * Schedule at a Glance
+   * Visit The Exhibition
+   * Sustainability
+   * SIGGRAPH 2026 Sponsors
+   * Conference Supporters
+ * Schedule
+   * Programs
+   * ACM SIGGRAPH 365
+   * Map
+ * Exhibit
+   * Exhibit at SIGGRAPH
+   * Sponsorship Opportunities
+   * Exhibitor Resources
+   * Donate
+ * Attend
+   * Travel
+   * Hotels
+   * International Visitors
+   * Safety
+ * Volunteer
+   * SIGGRAPH 2026 Committee
+   * Conference Volunteer Opportunities
+   * ACM SIGGRAPH Volunteer Opportunities
+ * Submit
+ * Register
+
+search
+
+Menu
+
+2026 - 07 - 23  |  Press Releases
+
+SIGGRAPH 2026 Unites Global Computer Graphics Community in Los Angeles With Landmark Keynotes, Inaugural Games Summit, and AI Innovation
+
+Weeklong Conference Celebrates 53 Years of Advancing the State of the Art in Computer Graphics and Interactive Techniques
+
+Media Contact:
+Michelle Ellis
+720.432.8130
+michelle.ellis@siggraph.org
+
+Press Room:
+s2026.siggraph.org/for-the-press/
+
+LOS ANGELES – 23 July 2026 – The 53rd annual SIGGRAPH conference, the world’s premier conference on computer graphics and interactive techniques, brought together thousands of artists, researchers, developers, and industry leaders from around the globe this week at the Los Angeles Convention Center. From an inspiring keynote by legendary Disney Imagineer Lanny Smoot and the debut of the Games Summit to advancements in artificial intelligence (AI), robotics, neural rendering, Gaussian splatting, and immersive storytelling, SIGGRAPH 2026 reaffirmed its role as the global stage where research meets production and ideas shape the future of the field.
+
+SIGGRAPH 2026 welcomed an international audience of more than 9,500 people from 69 countries, alongside a bustling exhibition floor where companies large and small showcased the latest in computer graphics and interactive techniques, products, and services.
+
+“SIGGRAPH 2026 showed what happens when the world’s technical and creative communities share one space. The lines between computer graphics, physics, and AI are blurring, and this week our attendees turned that convergence into new collaborations, research directions, and ways to tell stories,” said SIGGRAPH 2026 Conference Chair Chris Redmann. “From our first Games Summit to a keynote that reminded us invention is a team sport, this conference celebrated the breakthroughs of today while laying the groundwork for the future of our field.”
+
+SIGGRAPH 2026 Opening Session and Keynote: Lanny Smoot
+photo by John Fujii © 2026 ACM SIGGRAPH
+
+A highlight of the week came Monday, 20 July, when Disney Research Fellow and Walt Disney Imagineering inventor Lanny Smoot took the keynote stage with “Inventions, Innovations, and Imagination: Lanny Smoot’s Prolific Path”. Smoot, who holds 107 patents and in 2024 became only the second Disney employee after Walt Disney himself to be inducted into the National Inventors Hall of Fame, traced a career spanning more than 45 years, from Bell Labs breakthroughs to beloved Disney Parks innovations including the HoloTile floor and the extendable lightsaber. His message that successful technical practitioners love to create and want to learn from others resonated with a packed house of attendees at the start of the conference week.
+
+Keynote programming continued throughout the week with three standout sponsored sessions. NVIDIA research and engineering leaders Neil Ashton, Ming-Yu Liu, and Edward Liu explored the next era of graphics through neural rendering, world models, and AI-driven simulation. Bolt Graphics founder Darwesh Singh shared his vision for a GPU architecture built for real-time path tracing, and the research team behind Tripo AI examined how generative 3D is redefining how digital worlds are made.
+
+AI ran through nearly every program at SIGGRAPH 2026, positioned not as a replacement for human creativity but as a creative partner. Technical Papers, Technical Workshops, Courses, and Birds of a Feather sessions connected researchers and production artists on generative workflows, differentiable physics, and world models. NVIDIA dedicated a full day to physical AI, presented 21 papers connecting 3D worlds and robot control, and drew industry-wide conversation with a technical deep dive into DLSS 5 neural rendering.
+
+The inaugural Games Summit brought dedicated programming for game developers to SIGGRAPH. Sessions spanned motion sickness accessibility, destruction systems, performance capture pipelines, and cross-industry collaboration through OpenUSD. Robotics also took center stage across the conference, from research in simulation and motion control to the crowd-favorite Robo Dojo, where attendees guided robots through an immersive training ground on the exhibition floor.
+
+In the Experience Hall, five interactive programs: Spatial Storytelling, the Immersive Pavilion, the Art Gallery, and Emerging Technologies, along with the in-person Hands-On Courses track of the Courses program, had attendees step inside the future of interaction and storytelling. Installations spanned AI-driven art, mixed reality sport, embodied robotics, and spatial narratives of wildfire and memory, while lively discussions on Gaussian splatting explored the future of photorealistic virtual reality.
+
+The Computer Animation Festival, an Academy Award® Qualifying Festival for the “Best in Show” prize, celebrated global storytelling in the Electronic Theater, newly expanded in 2026 to include films longer than 10 minutes, opening the festival to a wider range of filmmakers and formats than ever before. Production Sessions took audiences behind the scenes of “Avatar: Fire and Ash” with Wētā FX and Lightstorm Entertainment, NASA’s “Visualizing the Moon for Artemis II”, Disney and Pixar Animation Studios’ “Hoppers”, and Industrial Light & Magic’s work on “The Mandalorian and Grogu”.
+
+SIGGRAPH 2026 Art Gallery
+photo by Cabe Tejeda © 2026 ACM SIGGRAPH
+
+SIGGRAPH 2026 also celebrated this year’s contributors by honoring some “best of” from various programs, including:
+
+Art Gallery
+Best in Show — “Sternwerk”
+Alvaro Cassinelli, City University of Hong Kong, School of Creative Media; and Tobias Klein, City University of Hong Kong and School of Creative Media
+
+Art Papers
+Best Art Paper — “Resonance: Meditative Neural Rhythms as Collective Spatial Experience”
+
+Ruipeng Wang and Behnaz Farahi, Massachusetts Institute of Technology (MIT) and Critical Matter Group, Media Lab; and Yuxiang Cheng and Zhiyan Xing, Harvard University and Critical Matter Group, Media Lab
+
+Computer Animation Festival: Electronic Theater
+
+Best in Show: “Apart”
+
+Pola Maneli, Social Popcorn Films (South Africa, United States)
+
+Jury’s Choice — “18 Months”
+
+Paulo Garcia and Natalia Gouvea (United States)
+
+Best Student Project — “Beyond Words”
+
+Antoine Barbannaud, Théo Merlet, Cyril Buisson, Damien Poncelet, Anthonin Haüy, Timothé Vergught, Mathis De Sauvecanne, Thémys Cheynel, Lilou Tiprez, Leandro Leijnen, and Romain Gueusset with Creative Seeds (France)
+
+Audience Choice — “Saba”
+
+Liron Topaz and Lirit Rosenzweig-Topaz (United States)
+
+Emerging Technologies
+Best in Show — “EmerFlux: A Two-Layer Liquid Surface Display for Organic Pixel-Based Aesthetic Representation of Information”
+Kaito Shimizu and Toshitaka Amaoka, Meisei University
+
+Audience Choice — “EmoMime: Augmenting Social Behavior and Self-Expression via Wearable Robotic Limbs”
+
+Hideki Shimobayashi, Masaharu Hirose, and Masahiko Inami, RCAST, The University of Tokyo; Tomoya Sasaki, Tokyo University of Science and RCAST, The University of Tokyo; and Arata Horie, RCAST, The University of Tokyo and commissure Inc.
+
+Immersive Pavilion
+Best in Show — “Cosmos Unseen: Black Holes”
+
+Marcus Moresby, Aditi Rajagopal, Bhaumik Patel, and Mark Lynch, Atlantic Studios
+
+Real-Time Live!
+
+Best in Show — “Create Interactive 3D Assets in Seconds!”
+
+Ying-Tian Liu, Yuan-Chen Guo, Yumeng Li, Yu-Lin Tsai, and Yan-Pei Cao, VAST; Hanxiao Wang, Institute of Automation, Chinese Academy of Sciences and VAST; and Yi-Hua Huang, The University of Hong Kong (HKU) and VAST
+
+Audience Choice — “Dissectible Anatomy: Embodied Exploration for Education”
+
+Tim McGraw and Jack Myers, Purdue University
+
+Technical Papers
+Best Paper Awards
+
+“GimmBO: Interactive Generative Image Model Merging via Bayesian Optimization”
+
+Chenxi Liu and Selena Ling, University of Toronto; and Alec Jacobson, University of Toronto and Vector Institute
+
+“Mixwell: Sharp 2D Fluid Brushes for Progressive Physics-Based Mixing”
+
+Doug James, Stanford University; and Ethan James
+
+“Walk on Decomposed Subdomains: A Hybrid Monte Carlo-Deterministic Solver for Elliptic PDEs”
+
+Clément Jambon, Mohammad Sina Nabizadeh, and Mina Konaković Luković, Massachusetts Institute of Technology (MIT)
+
+“Robust Planar Maps for 3D Vectorization”
+
+Robert Fuchs, Carnegie Mellon University; and Keenan Crane, Carnegie Mellon University and Roblox
+
+“Inverse Rendering for Discrete X-Ray Computed Tomography”
+
+Lovro Nuic, Ziyi Zhang, and Wenzel Jakob, Ecole Polytechnique Fédérale de Lausanne; Korbinian Sager, Carl Zeiss AG
+
+Looking ahead, the global computer graphics community will reconvene for SIGGRAPH 2027, the 54th annual conference, taking place 8–12 August 2027 in Anaheim, California, led by SIGGRAPH 2027 Conference Chair and Walt Disney Imagineer Kristy Pron. For the latest conference news and updates, visit siggraph.org.
+
+###
+
+About ACM, ACM SIGGRAPH, and SIGGRAPH 2026
+
+ACM, the Association for Computing Machinery, is the world’s largest educational and scientific computing society, uniting educators, researchers, and professionals to inspire dialogue, share resources, and address the field’s challenges. ACM SIGGRAPH is a special interest group within ACM that serves as an interdisciplinary community for members in research, technology, and applications in computer graphics and interactive techniques. The SIGGRAPH conference is the world’s leading annual interdisciplinary educational experience showcasing the latest in computer graphics and interactive techniques. SIGGRAPH 2026, the 53rd annual conference hosted by ACM SIGGRAPH, will take place live 19–23 July at the Los Angeles Convention Center.
+
+Join Us at SIGGRAPH 2026
+
+Register Submit Exhibit
+
+Save the Date
+
+Conference – 19–23 JUL 2026
+Exhibition – 21-23 JUL 2026
+
+L.A. Convention Center
+
+1201 South Figueroa Street
+Los Angeles, California 90015
+
+Sponsor SIGGRAPH
+
+ * Exhibitor and Sponsor Opportunities
+
+Resources
+
+ * For The Press
+ * For Participants
+
+Directories
+
+ * Sitemap
+ * 2026 Committee
+
+Get in Touch
+
+ * Contact Us
+ * Join Mailing List
+
+ACM Policies & Blog
+
+ * Anti-Harassment
+ * ACM Privacy Policy
+ * ACM SIGGRAPH Blog
+
+#SIGGRAPH2026
+
+ * News & Events
+
+FacebookTwitterInstagramYouTubeLinkedInFlickr
+© 2026 SIGGRAPH. All rights reserved.
+The 53rd International Conference & Exhibition On Computer Graphics & Interactive Techniques
+ * Conference
+   * General Conference Information
+   * Why Attend?
+   * Schedule at a Glance
+   * Visit The Exhibition
+   * Sustainability
+   * SIGGRAPH 2026 Sponsors
+   * Conference Supporters
+ * Schedule
+   * Programs
+   * ACM SIGGRAPH 365
+   * Map
+ * Exhibit
+   * Exhibit at SIGGRAPH
+   * Sponsorship Opportunities
+   * Exhibitor Resources
+   * Donate
+ * Attend
+   * Travel
+   * Hotels
+   * International Visitors
+   * Safety
+ * Volunteer
+   * SIGGRAPH 2026 Committee
+   * Conference Volunteer Opportunities
+   * ACM SIGGRAPH Volunteer Opportunities
+ * Submit
+ * Register
+ * Search Site

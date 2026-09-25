@@ -1,0 +1,13 @@
+id: sp
+acronym: "IEEE S&P"
+full_name: IEEE Symposium on Security and Privacy
+aliases: ["S&P", Oakland]
+directions: [cs/security]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/sp
+ccfddl: "SC/S&P"
+data_level: curated
+note_zh: 一年两轮投稿（2027 届），被拒的论文要等一年才能再投。

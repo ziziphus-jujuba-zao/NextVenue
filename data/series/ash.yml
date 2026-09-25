@@ -1,0 +1,12 @@
+id: ash
+acronym: ASH
+full_name: American Society of Hematology Annual Meeting and Exposition
+aliases:
+  - ASH Annual Meeting
+directions: [med/hematology]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 12 月举办
+data_level: curated
+note_zh: 只收摘要（经同行评审分为口头和海报），另有晚到摘要（Late-Breaking）轮次；线下与线上同时举办。

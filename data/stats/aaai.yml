@@ -1,0 +1,124 @@
+# AAAI 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: aaai
+rows:
+  - year: 2020
+    track: main
+    status: third_party
+    submissions: 7737
+    accepted: 1591
+    rate: 20.6
+    rate_text: 20.6%
+    rate_basis: stated
+    definition_zh: 主技术赛道
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|AAAI'20 | 20.6% (1591/7737) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: partial
+    rate: 21
+    rate_text: 21%
+    rate_basis: stated
+    definition_zh: 主技术赛道
+    source_url: https://arxiv.org/abs/2202.12273
+    quote: AAAI 2021 received over 9,000 submissions! ... Both of these percentages were higher than the conference's actual acceptance rate of 21%
+    src: aaai-2021-pc-paper
+    quote_check: snapshot
+    note_zh: 出自 AAAI-21 程序主席的论文，只给了录用率；篇数只有第三方数据集
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: third_party
+    submissions: 9020
+    accepted: 1349
+    rate: 15
+    rate_text: 15.0%
+    rate_basis: stated
+    definition_zh: 主技术赛道
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|AAAI'22 | 15.0% (1349/9020) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: third_party
+    submissions: 8777
+    accepted: 1721
+    rate: 19.6
+    rate_text: 19.6%
+    rate_basis: stated
+    definition_zh: 主技术赛道
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|AAAI'23 | 19.6% (1721/8777) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: third_party
+    submissions: 9862
+    accepted: 2342
+    rate: 23.75
+    rate_text: 23.75%
+    rate_basis: stated
+    definition_zh: 主技术赛道
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|AAAI'24 | 23.75% (2342/9862) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: third_party
+    submissions: 12957
+    accepted: 3032
+    rate: 23.4
+    rate_text: 23.4%
+    rate_basis: stated
+    definition_zh: 主技术赛道；分母为进入审稿的论文
+    source_url: https://aip.riken.jp/news/202412_aaai25/
+    quote: There are 3,032 accepted papers from 12,957 submissions, leading to a 23.4 percent acceptance rate.
+    src: aaai-2025-riken-news
+    quote_check: snapshot
+    relay_zh: 理化学研究所 AIP 新闻，转述主办方录用通知
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: partial
+    rate: 17.5
+    rate_text: 17.5%
+    rate_basis: approx
+    definition_zh: 主技术赛道；分母为政策审查后仍在审的论文
+    source_url: https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf
+    quote: Main Track Acceptance Rate ... Overall acceptance rate ~17.5%
+    src: aaai-2026-opening-ceremony
+    quote_check: snapshot
+    note_zh: 官方开幕式幻灯片只写了“约 17.5%”；准确篇数只有第三方转述
+    also:
+      - source_url: https://ojs.aaai.org/index.php/AAAI/issue/view/683
+        quote: Nearly 29,000 papers were submitted to the Main Technical Track, with roughly 23,000 remaining under review after policy compliance filtering.
+        src: aaai-2026-proceedings-issue
+        quote_check: snapshot
+        note_zh: 论文集前言给的是约数
+    checked: 2026-09-25
+areas_none:
+  - years:
+      - 2024
+      - 2025
+    scope_zh: 论文集页面只有前言，没有统计
+    checked: 2026-09-25
+    checked_urls:
+      - https://ojs.aaai.org/index.php/AAAI/issue/view/576
+      - https://ojs.aaai.org/index.php/AAAI/issue/view/648

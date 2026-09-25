@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "source-file.schema.json",
-  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: MIT",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
   "title": "Official sources for one edition (managed by `pnpm snapshot`)",
   "type": "object",
   "additionalProperties": false,
@@ -36,6 +36,16 @@
             "type": "string",
             "format": "uri",
             "pattern": "^https?://"
+          },
+          "mirror_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://",
+            "description": "官方原址拒绝抓取（如 403）时，同一机构的镜像地址；快照从这里抓"
+          },
+          "embedded": {
+            "type": "boolean",
+            "description": "页面正文由 JavaScript 从页面自带的数据画出（Nuxt、Next，如 esmo.org）；快照另外收这份数据里的文字（snapshot add --embedded）"
           },
           "title": {
             "type": "string",

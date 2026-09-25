@@ -72,3 +72,34 @@ sources:
     fetched_at: 2026-09-24T12:12:40Z
     http_status: 200
     snapshot: 947c1a7021a4a46d4831b5f99c79cb34fee414ddde35214ce50c6730b7da4409
+  - id: aaai-27-registration
+    url: https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/
+    title: AAAI-27 Registration
+    kind: other
+    fetched_at: 2026-09-25T10:40:34Z
+    http_status: 200
+    snapshot: 0635196f6bd939db9fb21a13741730691b489d18311eedc69a16429685d9739a
+    note_zh: '价格、截止（均为 11:59 PM EST）、退款和作者按线下价注册的要求。'
+  - id: aaai-27-visa-letters
+    url: https://aaai.org/conference/aaai/aaai-27/visa-letters-of-invitation/
+    title: AAAI-27 Visa Letters of Invitation
+    kind: other
+    fetched_at: 2026-09-25T10:40:35Z
+    http_status: 200
+    snapshot: ca964f0b788309db745ca716a1067892ace0b393a1be501a795801a0fb70bb8a
+  - id: aaai-27-ssv
+    url: https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/
+    title: AAAI-27 Student Scholar Volunteer Program
+    kind: other
+    fetched_at: 2026-09-25T10:40:35Z
+    http_status: 200
+    snapshot: bc478992edaed2fa4eba59b3dd0a1546734b8aa7af843bb93931f7108ae7a89c
+    note_zh: '学生志愿者项目：申请时间、结果前不要注册。'
+  - id: aaai-27-accommodation
+    url: https://aaai.org/conference/aaai/aaai-27/accommodation/
+    title: AAAI-27 Accommodation
+    kind: other
+    fetched_at: 2026-09-25T10:40:36Z
+    http_status: 200
+    snapshot: fad4567fc74eab158121cb0b3f37354f0f576ab2ae06b0322b65a9478f60e8e6
+    note_zh: '5 家协议酒店的价格和截止日期；会场名称。'

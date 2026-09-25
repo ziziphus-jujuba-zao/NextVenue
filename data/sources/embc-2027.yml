@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: embc-2027
+sources:
+  - id: embc-2027-dates
+    url: https://embc.embs.org/2027/important-dates/
+    title: EMBC 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:52:38Z
+    http_status: 200
+    snapshot: 66d7be7041a53fe1af863c2aadbe64ad1b0a4d973ae0d5abb32bb6ada10472a8
+  - id: embc-2027-papers
+    url: https://embc.embs.org/2027/papers/
+    title: EMBC 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:28Z
+    http_status: 200
+    snapshot: 4b481a4d312dc0dedfe4599f6bfabf0f0d2f18ad0f6a0f00b97f5c1a4f9ed558
+  - id: embc-2027-home
+    url: https://embc.embs.org/2027/
+    title: EMBC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T16:05:16Z
+    http_status: 200
+    snapshot: 89394608d247321e2c01619b1c658e5525c1291bfb1953c28ffea1e0812b3ee5

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aai-2027
+sources:
+  - id: aai-2027-abstracts
+    url: https://immunology2027.aai.org/abstracts/
+    title: "IMMUNOLOGY2027: Abstracts"
+    kind: dates
+    fetched_at: 2026-09-25T18:20:13Z
+    http_status: 200
+    snapshot: 1e6a32d9a1ca2dbf6e2f429526dc151bb298ec30ddf3701ef560e8d526d34bd2
+  - id: aai-2027-home
+    url: https://immunology2027.aai.org/
+    title: IMMUNOLOGY2027
+    kind: other
+    fetched_at: 2026-09-25T18:20:33Z
+    http_status: 200
+    snapshot: e17a3010dd5dca8568306b8dc1c0f9de4e122c312bb69fffc22e7a8ec02bc0f7

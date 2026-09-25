@@ -1,0 +1,44 @@
+id: vmcai-2027
+series: vmcai
+name: VMCAI 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Mexico City, country: Mexico, country_code: MX }
+dates: { start: 2027-01-11, end: 2027-01-12 }
+milestones:
+  - type: paper_registration
+    at: 2026-09-23T23:59
+    tz: AoE
+    status: confirmed
+    src: vmcai-2027-home
+    quote: "Wed 23 Sep 2026 Paper Registration"
+    note_zh: 论文注册已截止；没注册的论文不能再投这一届。
+  - type: paper
+    at: 2026-09-30T23:59
+    tz: AoE
+    status: confirmed
+    src: vmcai-2027-home
+    quote: "Wed 30 Sep 2026 Paper Submission"
+  - type: notification
+    at: 2026-11-06
+    tz: AoE
+    status: confirmed
+    src: vmcai-2027-home
+    quote: "Fri 6 Nov 2026 Notification"
+  - type: camera_ready
+    at: 2026-11-20T23:59
+    tz: AoE
+    status: confirmed
+    src: vmcai-2027-home
+    quote: "Fri 20 Nov 2026 Camera Ready"
+  - type: conference
+    start: 2027-01-11
+    end: 2027-01-12
+    tz: America/Mexico_City
+    status: confirmed
+    src: vmcai-2027-home
+    quote: "VMCAI 2027 will take place on January 11–12, 2027 as a physical (in-person) event in Mexico City, Mexico, co-located with POPL 2027."
+    note_zh: 会场是 Hilton Mexico City Reforma。每篇录用论文至少一位作者注册并到场报告。
+last_checked: 2026-09-25
+note_zh: 第 28 届 VMCAI，与 POPL 2027 同地举办。官网日期表写 “AoE (UTC-12h)”，表里没有 rebuttal。Artifact 评测和论文审稿同时进行；日期表显示 artifact 注册从 9/18 改到 9/25、提交从 9/23 改到 9/30。

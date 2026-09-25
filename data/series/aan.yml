@@ -1,0 +1,12 @@
+id: aan
+acronym: AAN
+full_name: American Academy of Neurology Annual Meeting
+aliases:
+  - AAN Annual Meeting
+directions: [med/neurology]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 4–5 月举办
+data_level: curated
+note_zh: 只收摘要（每篇收提交费），另有 Late-breaking Science 轮次；录用摘要必须现场报告。

@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: miccai-2026
+series: miccai
+name: MICCAI 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/MICCAI
+  conf_id: miccai26
+  link: https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html
+  place: Strasbourg, France
+  date: September 27 - October 1, 2026
+  timezone: UTC-8
+location:
+  city: Strasbourg
+  country: France
+  country_code: FR
+dates:
+  start: 2026-09-27
+  end: 2026-10-01
+milestones:
+  - type: abstract
+    at: 2026-02-12T23:59
+    tz: UTC-8
+    status: confirmed
+  - type: paper
+    at: 2026-02-26T23:59
+    tz: UTC-8
+    status: confirmed
+  - type: conference
+    start: 2026-09-27
+    end: 2026-10-01
+    tz: UTC-8
+    status: confirmed
+last_checked: 2026-09-25

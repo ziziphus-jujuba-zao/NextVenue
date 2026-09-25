@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: vtc-2027-spring
+sources:
+  - id: vtc-2027-spring-cfp
+    url: https://events.vtsociety.org/vtc2027-spring/call-for-papers-2/
+    title: VTC2027-Spring Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:49:31Z
+    http_status: 200
+    snapshot: b5902631f04bf54644929d58a81cfe8a22b6028e830007b7d7ff676d8d572b09

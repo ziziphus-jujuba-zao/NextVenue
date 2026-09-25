@@ -1,0 +1,1060 @@
+Privacy Notice
+
+When you visit websites, they may store or retrieve data about you using cookies and similar technologies ("cookies"). Cookies may be necessary for the basic functionality of the website as well as other purposes. You have the option of disabling certain types of cookies, though doing so may impact your experience on the website.
+
+Decline Customize Accept
+
+Cookie Settings
+
+More information
+
+Accept selected
+Skip to content
+
+Open menu
+Home
+About
+Committees
+
+The people that made this possible
+
+Conference Sponsors
+
+Our valued sponsors and partners
+
+Conference Archive
+
+The history of DAC
+
+About DAC
+
+About the conference
+
+Sister Conferences
+
+DAC sister conferences
+
+Future DAC Conferences
+
+View upcoming dates and locations
+
+Exhibition
+Exhibits
+
+Become an exhibitor
+
+For Exhibitors
+
+Resources for exhibitors
+
+Exhibit Hall Floor Plan
+
+View map and exhibitor list
+
+Industry Partnership Levels
+
+Elevate Your Brand
+
+Sponsorship Opportunities
+
+A range of promotional opportunities
+
+Attend
+Attend DAC
+
+Why you should attend DAC
+
+International Involvement
+
+Welcoming the International Community at DAC
+
+Venue
+
+The location of the conference
+
+Avoid Hotel Fraud
+
+Important information to protect your trip
+
+Media Center
+Media Center
+
+Information for press
+
+Podcast
+
+Tune in to DAC-CAST
+
+DACtv
+
+Watch past keynotes and more on our channel
+
+Join the Mailing List
+
+Receive DAC updates straight to your inbox
+
+Press Releases
+
+Official news and announcements
+
+Students
+Ph.D. Forum
+
+Premier poster forum for Ph.D. research
+
+DAC Young Fellows
+
+Program for advanced EDA students
+
+University Demonstration at DAC
+
+University researchers showcase EDA projects
+
+Awards
+DAC Under-40 Awards
+
+Recognize up to five young innovators who are movers and shakers in the field of design and automation of electronics
+
+DAC Most Influential Papers Award
+
+Recognizes papers that have demonstrated substantial academic and/or industrial impact since they were published
+
+Women in Technology @ DAC
+
+Information about Women in Technology at DAC
+
+Join Our Mailing List (external link)
+Close menu
+ * Home
+ * About
+    * Committees
+    * Conference Sponsors
+    * Conference Archive
+    * About DAC
+    * Sister Conferences
+    * Future DAC Conferences
+
+ * Exhibition
+    * Exhibits
+    * For Exhibitors
+    * Exhibit Hall Floor Plan
+    * Industry Partnership Levels
+    * Sponsorship Opportunities
+
+ * Attend
+    * Attend DAC
+    * International Involvement
+    * Venue
+    * Avoid Hotel Fraud
+
+ * Media Center
+    * Media Center
+    * Podcast (opens in new tab)
+    * DACtv (opens in new tab)
+    * Join the Mailing List
+    * Press Releases
+
+ * Students
+    * Ph.D. Forum
+    * DAC Young Fellows
+    * University Demonstration at DAC
+
+ * Awards
+    * DAC Under-40 Awards
+    * DAC Most Influential Papers Award
+    * Women in Technology @ DAC
+
+Join Our Mailing List (external link)
+
+Research Manuscript Submissions
+
+Submit research manuscripts to DAC 2027 —the leading conference for EDA and semiconductor innovation, AI, chiplets, low power, and cloud design.
+
+DAC, The Chips to Systems Conference, is the premier event to showcase cutting-edge research achievements in the design and design automation of electronic circuits and systems. Original technical submissions on, but not limited to, the following areas are invited:
+
+AI
+
+Design
+
+EDA
+
+Security
+
+Systems
+
+In addition, DAC is expecting particular interest in the cross-cutting areas of Low Power, Chiplets, 3D-IC, and Quantum Computing.
+
+Acceptance rates for manuscript publication are uniform across all areas, and they have been in the range of 20-25% for the past several years.
+
+Publication in IEEE Xplore and ACM Digital Library is contingent on registration for the conference and presentation at the poster session.
+
+Submission Link Coming Soon (external link) Submission Categories (external link)
+
+Submission Information
+
+Submission Format
+
+Stage One: Abstract Submission
+
+ * A title, abstract (approximately 100 words), and a list of all co-authors must be submitted by November 11, 2026 (5:00pm US Pacific Time). You may also submit the manuscript at this time.
+
+ * A submitter must enter the names, affiliations, countries, and email addresses of ALL co-authors. Conflicts of Interest with TPC members of ALL authors must be identified.
+
+Stage Two: Manuscript Submission
+
+ * The manuscript (up to 6 pages plus an additional 1 page for references only) is due by November 18, 2026 (5:00pm US Pacific Time). Each submitted manuscript must discuss original work that has not been previously published in other indexed research databases. It must not be actively reviewed at another conference or journal at the time of submission.
+
+ * Authors are responsible for ensuring that their manuscript meets the submission rules. There will be no opportunity for resubmission to correct any issues after the November 18, 2026, deadline.
+
+ * Your manuscript will be reviewed as a finished manuscript. Preliminary submissions will be at a disadvantage.
+
+Submission Rules
+
+ * Research manuscripts only submission policy: An individual may not be an author on more than 20 research manuscripts. If an individual exceeds this limit, the first 20 submitted manuscripts (time-based submissions) that include the individual’s name will be reviewed. All other submitted manuscripts over 20, will be rejected immediately. Serious violations will be reported to IEEE and ACM for disciplinary action. DAC Technical Program Committee (TPC) members have additional submission limitations:
+
+   * TPC members are limited to submitting at most five manuscripts, posters, or presentations to their conference program (Research or Engineering Track).
+
+   * In addition, TPC members are not allowed to submit more than three manuscripts to their own sub-committee and may be included in at most one invited submission/presentation.
+
+   * Moreover, no Subcommittee Chair, Subcommittee Co-chair within the TPC shall submit to their own subcommittee.
+
+ * A submitter must enter the names, affiliations, countries, and email addresses of ALL co-authors. The addition of new co-authors or re-ordering of authors will not be permitted after the November 18, 2026 deadline.
+
+ * An abstract of approximately 100 words must clearly state the significant contribution, impact and results of the manuscript.
+
+ * The submission must not disclose the author(s) by their name(s) or affiliation(s) anywhere in the manuscript or abstract. Submissions that reveal the authors’ identities will be desk-rejected and will not be reviewed by the TPC. Any reference to the author(s)' own previous work or affiliations in the bibliographic citations must be cited in the third person. The use of “omitted for blind review” in the bibliography section is not permitted. The authors must make sure that the PDF metadata does not contain the author information.
+
+ * The manuscript must be within 6 pages, excluding references, double-columned, 9 or 10-pt font, in PDF format only, be a readable file and follow the IEEE Templates. The length and content of the submitted version and that of the final version (if accepted) should not be significantly different. All references must be listed in the additional reference page. Only one page of references is allowed. Inclusion of any content other than the references on the reference page will result in the desk rejection of the submission. The manuscript and the reference page must be formatted as a single PDF file.
+
+ * Your draft manuscript must leave enough space to include authors, acknowledgements, and other identifying information for the final version without exceeding the 6-page limit.
+
+ * A submitter is required to check the conflicts of interests (COI) field and the duplicate submission field. See the "Conflict of Interest" section and the "Duplicate Submission" section for further information.
+
+One author of each accepted submission is required to:
+
+ * Prepare and submit the final version of the manuscript for the official conference proceedings.
+
+ * Sign and submit the copyright form.
+
+In addition:
+
+ * One co-author on the paper is required to pay the full conference Speaker Registration Fee; student rates cannot be used. Each accepted paper requires a unique registration.
+
+ * The speaker must present the paper IN-PERSON at the conference. As part of the acceptance confirmation, international authors will be required to identify an alternative presenter who will present the work if there are any issues in obtaining travel visas.
+
+ * The authors of each accepted paper must prepare a poster to be displayed at the conference.
+
+Following IEEE’s policies on authorship, anyone listed as Author on a paper must meet all the following criteria:
+
+ * made a significant intellectual contribution to the theoretical development, system or experimental design, prototype development, and/or the analysis and interpretation of data associated with the work contained in the paper;
+
+ * contributed to drafting the paper or reviewing and/or revising it for intellectual content;
+
+ * approved the final version of the paper as accepted for publication, including references.
+
+Contributors who do not meet all of the above criteria may be included in the Acknowledgment section of the paper. Submissions which fail to follow the above guidelines will be automatically rejected. Serious violations will be reported to IEEE and ACM for disciplinary action.
+
+Duplicate Submissions
+
+DAC adheres to strict rules regarding duplicate submissions. Submissions must be clearly novel and distinct with respect to other submissions to DAC, concurrent submissions to other conferences, and previously published work.
+
+ * All closely related work should be properly referenced. If such related work is authored by one of the co-author(s) of the manuscript in submission, it should be referenced as if it were written by others.
+
+ * Any extended version of the submitted manuscript should not be submitted or under review before the formal notification of the DAC ‘s review decision.
+
+ * If any co-author has any paper that may be perceived as having overlapping contributions and that is simultaneously under review by another venue, such papers must be disclosed in the submission process.
+
+The DAC publication policy does allow for papers published on arXiv to be submitted to DAC. Note, however, that the authors are expected to follow all reasonable efforts to ensure that the DAC submission is compliant with the double-blind review process.
+
+Submissions which fail to follow the above guidelines will be automatically rejected. In serious cases, the authors’ names will be reported to IEEE & ACM and kept in records, as well as sent to the Technical Chair or the Editor of the venue where the duplicate manuscript was submitted; the authors may be banned from publishing at future DAC conferences.
+
+Disclosure Process for Unpublished Work
+
+When submitting to DAC, authors face a dilemma. DAC has a blind review process in which the author’s identity remains anonymous. However, the submission rules compel the authors to cite relevant publications that have already been accepted or are under review by another conference (such as ICCAD, DATE, ASP-DAC, etc.). Disclosing these papers under the citation list reveals the authors’ identities. To circumvent this issue, DAC has implemented a disclosure process.
+
+When submitting a paper, the authors are asked to list each relevant paper that has not yet been published and include the corresponding pdf of the paper. The TPC Chair will be able to check for self-plagiarism and relevance without revealing the author identities to the reviewers. Failure to disclose such papers will be considered as omission of closely related work and subject to the same penalties outlined in the Duplicate Submissions, as discussed in the section.
+
+Submission Categories
+
+Artificial Intelligence (AI)
+
+In addition to the traditional areas of AI models, processor architectures, and platforms, DAC 2027 invites papers on AI frontiers in hardware design including Agentic AI for verification, synthesis, physical design and flow automation, foundation models for EDA, as well as benchmarks, data sets, and model evaluation for EDA. Papers on the impact of emerging GenAI in chip and system design are encouraged. The focus will be in disruptive ideas that address inefficiencies in traditional flows and significantly improve power, performance, and area while reducing the design effort.
+
+AI1. AI/ML Frontiers for Hardware Design
+
+ * AI1.1 Benchmarks, data sets, and model evaluation for EDA
+
+ * AI1.2 Agentic AI for synthesis, physical design, and circuit design
+
+ * AI1.3 Agentic AI for RTL generation and PPA-driven refinement
+
+ * AI1.4 Agentic AI for verification
+
+ * AI1.5 AI-based chip design flow automation
+
+ * AI1.6 Foundation models for EDA
+
+ * AI1.7 AI/ML for hardware architecture design space exploration
+
+AI2. AI/ML Algorithms and Models
+
+ * AI2.1 Hardware-aware ML model development
+
+ * AI2.2 Efficient ML training, inference, and serving
+
+ * AI2.3 Approximation techniques for neural network training and inference
+
+ * AI2.4 Testing, debugging, and monitoring of ML applications
+
+ * AI2.5 Interpretability and explainability for ML models
+
+AI3. AI/ML Application and Systems
+
+ * AI3.1 Application-driven Al/ML learning/models/inferences
+
+ * AI3.2 Application-driven approximations in design for AI/ML
+
+ * AI3.3 Infrastructures for AI (including datasets, implementations)
+
+ * AI3.4 Interpretability and explainability for ML applications
+
+AI4. AI/ML Architecture Design
+
+ * AI4.1 AI/ML accelerator, processing engine design and architecture
+
+ * AI4.2 Application-specific AI/ML architectures
+
+ * AI4.3 Approximation techniques for hardware architecture
+
+AI5. AI/ML Infrastructure and Platform Design
+
+ * AI5.1 Hardware/software codesign and co-optimization
+
+ * AI5.2 Specialized AI/ML system design
+
+ * AI5.3 Architecture-algorithm co-design for ML/AI computing
+
+ * AI5.4 AI/ML system modeling and simulation methodologies
+
+ * AI5.5 Evaluation and measurement of AI/ML systems
+
+Design (DES)
+
+DAC is not only the leading conference in EDA, but also a vibrant hub for sharing cutting-edge progress in chip design technologies. From circuits to architectures, and from established methodologies to emerging frontiers like neuromorphic and quantum computing, DAC brings together diverse communities to exchange knowledge and spark innovation. The exchange helps the EDA community gain deeper insight into the evolving needs of design disciplines and fosters cross-domain collaboration to address shared challenges and opportunities.
+
+DES1. SoC, Heterogeneous, and Reconfigurable Architectures
+
+ * DES1.1 Architectures for stochastic, statistical and approximate computing
+
+ * DES1.2 SoC and heterogeneous multi- and many-core architectures
+
+ * DES1.3 Run-time and design-time reconfigurable processor architectures
+
+ * DES1.4 2.5D/3D heterogeneous integration of compute, memory and communication platforms
+
+ * DES1.5 Fault-tolerant architectures
+
+DES2A. In-memory and Near-memory Computing Circuits
+
+ * DES2A.1 Circuit techniques for near- or in-memory processing
+
+ * DES2A.2 Memory and storage technologies for in-memory and near-memory computing
+
+ * DES2A.3 Emerging technologies for in-memory and near-memory computing
+
+ * DES2A.4 Circuit-Inspired architectures for in/near-memory computing
+
+DES2B. In-memory and Near-memory Computing Architectures, Applications and Systems
+
+ * DES2B.1 Near- or in-memory data management and processing models
+
+ * DES2B.2 Architectures for near- or in-memory processing
+
+ * DES2B.3 Memory and storage architectures for near- or in-memory processing
+
+ * DES2B.4 Data reorganization engines for specific applications
+
+ * DES2B.5 System/architecture interaction, execution model, interfaces
+
+ * DES2B.6 Specialized architectures for key workloads taking advantage of near- and -in-memory processing
+
+DES3. Emerging Models of Computation
+
+ * DES3.1 Biologically-based or biologically-inspired computing systems
+
+ * DES3.2 Design automation for system & synthetic biology
+
+ * DES3.3 Neuromorphic and brain-inspired computing
+
+ * DES3.4 Neuromorphic and brain-inspired circuits
+
+ * DES3.5 Hyperdimensional computing
+
+ * DES3.6 Silicon photonics-based computing
+
+ * DES3.7 Ising machine-based computing
+
+DES4. Digital and Analog Circuits
+
+ * DES4.1 Novel circuits for emerging AI/ML workloads
+
+ * DES4.2 Digital circuits and systems
+
+ * DES4.3 Analog circuits and data converters
+
+ * DES4.4 RF, wireless & wireline circuits and systems
+
+ * DES4.5 Imagers, MEMS, medical, and display circuits
+
+ * DES4.6 Circuits for memory design
+
+ * DES4.7 Power management circuits
+
+ * DES4.8 2.5-D and 3-D integrated circuit designs
+
+ * DES4.9 Circuit design for secure computing
+
+DES5. Emerging Device and Interconnect Technologies
+
+ * DES5.1 New transistor structures
+
+ * DES5.2 Beyond-CMOS devices (e.g., steep-slope devices, spintronics)
+
+ * DES5.3 New process technologies (e.g. superconducting)
+
+ * DES5.4 Emerging interconnect and other nano-technologies
+
+ * DES5.5 Emerging non-volatile memory devices
+
+ * DES5.6 Microfluidic circuits
+
+DES6. Quantum Computing
+
+ * DES6.1 Quantum computing applications and algorithms
+
+ * DES6.2 Quantum computing hardware architecture and design
+
+ * DES6.3 Quantum computing technology
+
+ * DES6.4 EDA for quantum computing systems
+
+Electronic Design Automation (EDA)
+
+As the premier conference in EDA, DAC invites cutting-edge research submissions in all aspects of design automation for circuits, chips, and systems. This includes both traditional optimization and the latest AI/ML-based technologies for automated chip and system design. The focus will be on breakthrough advancements that significantly improve power, performance, and area while reducing design effort and overall time to market.
+
+EDA1. Design Methodologies for System-on-Chip and 3D/2.5D System-in-Package
+
+ * EDA1.1 System-on-Chip (SoC) specification, modeling, analysis, simulation, and verification
+
+ * EDA1.2 Application-specific processor design tools
+
+ * EDA1.3 Design tools for accelerator-rich architectures and heterogeneous multi-cores
+
+ * EDA1.4 Tools for reconfigurable computing
+
+ * EDA1.5 HW/SW co-design, interface synthesis, and co-verification
+
+ * EDA1.6 System-level methods for reliability and aging
+
+ * EDA1.7 3D/2.5D In-Package and On-Chip Communication architecture modeling and analysis
+
+ * EDA1.8 Synthesis and optimization of communication architectures
+
+ * EDA1.9 NoC architectures and design methodologies
+
+ * EDA1.10 Communication architectures using alternative technologies (e.g., nanophotonics, RF)
+
+EDA2. Design Verification and Validation
+
+ * EDA2.1 Functional and transaction-level modeling and validation, coverage and test generation for hardware and embedded systems
+
+ * EDA2.2 Emulation and hardware acceleration
+
+ * EDA2.3 Formal and semi-formal verification and verification technologies
+
+ * EDA2.4 Verification of firmware, software, and hybrid hardware/software systems
+
+ * EDA2.5 AI/ML for functional verification, bug localization and debug
+
+ * EDA2.6 Validation of cognitive systems
+
+ * EDA2.7 Verification on the cloud
+
+EDA3. Timing Analysis and Optimization
+
+ * EDA3.1 Timing analysis and simulation/delay modeling
+
+ * EDA3.2 Signal integrity and noise analysis
+
+ * EDA3.3 Process technology modeling for timing analysis
+
+ * EDA3.4 Timing analysis and optimization for 3D/2.5D
+
+ * EDA3.5 Cell characterization
+
+ * EDA3.6 Parasitic extraction
+
+ * EDA3.7 AI/ML for timing analysis and optimization
+
+EDA4. Power/Thermal Analysis and Optimization
+
+ * EDA4.1 System-level low-power design analysis and management
+
+ * EDA4.2 Architectural power reduction techniques and analysis tools
+
+ * EDA4.3 Low-power circuit design methods and tools
+
+ * EDA4.4 Thermal analysis and management
+
+ * EDA4.5 Power analysis related process technology modeling
+
+ * EDA4.6 Power and thermal analysis and optimization for 3D/2.5D
+
+ * EDA4.7 Power supply network modeling
+
+ * EDA4.8 AI/ML for power/thermal analysis and optimization
+
+EDA5. RTL/Logic Level and High-level Synthesis
+
+ * EDA5.1 Combinational, sequential and asynchronous logic synthesis
+
+ * EDA5.2 Technology mapping, cell-based design and optimization
+
+ * EDA5.3 High-level, behavioral, algorithmic, and architectural synthesis, “C” to gates tools and methods
+
+ * EDA5.4 Synthesis for FPGAs
+
+ * EDA5.5 Synthesis for circuits in emerging device technologies
+
+ * EDA5.6 Synthesis on the cloud
+
+ * EDA5.7 AI/ML techniques for synthesis
+
+EDA6. Analog CAD, Simulation, Verification and Test
+
+ * EDA6.1 Analog, mixed-signal, and RF design methodologies
+
+ * EDA6.2 Automated synthesis, place and route, and optimization of analog designs
+
+ * EDA6.3 Analog, mixed-signal, RF, electromagnetic, substrate noise modeling and simulation
+
+ * EDA6.4 AI/ML for analog design automation
+
+ * EDA6.5 Model order reduction techniques for analog/RF designs
+
+ * EDA6.6 Design automation for photonic interconnect and circuits
+
+EDA7. Physical Design and Verification
+
+ * EDA7.1 Floorplanning, partitioning, placement, and routing
+
+ * EDA7.2 Interconnect and clock network planning and synthesis
+
+ * EDA7.3 Cross-layer placement and routing optimization for timing/power/yield
+
+ * EDA7.4 Physical design of 3D/2.5D IC and package (e.g., TSV, interposer, monolithic)
+
+ * EDA7.5 Layout optimization for optical interconnects
+
+ * EDA7.6 Layout verification
+
+ * EDA7.7 Physical design on the cloud
+
+ * EDA7.8 Physical Design for secure computing
+
+ * EDA7.9 FPGA physical design
+
+ * EDA7.10 Gate sizing and buffering
+
+ * EDA7.11 Power grid layout
+
+ * EDA7.12 AI/ML for physical design and verification
+
+EDA8. Design for Manufacturability and Reliability
+
+ * EDA8.1 System/Design-technology co-optimization (STCO/DTCO)
+
+ * EDA8.2 Standard and custom cell design and optimization
+
+ * EDA8.3 Process technology characterization, extraction, and modeling
+
+ * EDA8.4 Reticle enhancement, lithography-related design optimizations and design rule checking
+
+ * EDA8.5 Design for manufacturability, yield, defect tolerance, cost issues, and DFM impact
+
+ * EDA8.6 Device-, gate, and circuit-level techniques for reliability analysis and optimization (e.g., soft error, aging, etc.)
+
+ * EDA8.7 3D/2.5D manufacturability, yield, and reliability
+
+ * EDA8.8 Post-Layout optimizations
+
+EDA9. Test, Validation and Silicon Lifecycle Management
+
+ * EDA9.1 Fault modeling, ATPG, DFT, BIST, compression
+
+ * EDA9.2 Memory, FPGA, and emerging technology test and reliability
+
+ * EDA9.3 SoC, board- and system-level test
+
+ * EDA9.4 Post-silicon test, optimization, and defect diagnosis
+
+ * EDA9.5 Post-silicon validation and debug
+
+ * EDA9.6 Test for analog/mixed-signal/RF circuits
+
+ * EDA9.7 Silicon lifecycle management and system sustainability
+
+ * EDA9.8 Silicon health monitoring and predictive maintenance
+
+Security (SEC)
+
+The Security track at DAC covers the areas of privacy and security for AI/ML applications as well as AI/ML-based attacks and defenses, alongside hardware security fundamentals like cryptographic primitives, trusted system design, and post-quantum cryptography. Topics also address hardware-based threats and countermeasures, hardware supply chain integrity, and the intersection of AI/ML with hardware security. Additionally, the scope includes embedded architecture and cross-layer security techniques for cyber-physical systems, IoT, and cloud.
+
+SEC1. AI/ML Security/Privacy
+
+ * SEC1.1 Privacy and security for AI/ML applications
+
+ * SEC1.2 AI/ML-based attacks and defenses
+
+ * SEC1.3 Adversarial machine learning attacks and defenses
+
+ * SEC1.4 AI/ML for cyber defense
+
+ * SEC1.5 Fairness for AI/ML applications
+
+SEC2. Hardware Security: Primitives, Architecture, Design & Test
+
+ * SEC2.1 Hardware security primitives for cryptography, key generation, and authentication
+
+ * SEC2.2 Trusted IP and system-on-chip (SoC) design and manufacturing
+
+ * SEC2.3 Emerging technologies (Nanoscale devices, 3D, etc.) and security
+
+ * SEC2.4 Hardware security verification, validation and test
+
+ * SEC2.5 Post-quantum crypto algorithms and implementations
+
+ * SEC2.6 Design automation for security and privacy preserving
+
+ * SEC2.7 Hardware acceleration for trust/security computing, e.g., homomorphic encryption and zero knowledge proof
+
+SEC3. Hardware Security: Attack and Defense
+
+ * SEC3.1 Hardware-enabled side-channel attacks and defenses
+
+ * SEC3.2 Hardware supply chain protection and anti-counterfeiting
+
+ * SEC3.3 Reverse engineering and hardware obfuscation
+
+SEC4. Embedded and Cross-Layer Security
+
+ * SEC4.1 Embedded architecture, software and system-level techniques for security and privacy
+
+ * SEC4.2 Cyber-physical systems, IoT and edge security
+
+ * SEC4.3 Embedded security: metrics, models, verification and validation
+
+ * SEC4.4 Cloud security
+
+ * SEC4.5 Software-driven side-channel attacks and defenses
+
+ * SEC4.6 Privacy preserving computing
+
+Systems (SYS)
+
+System design involves the design, selection, and integration of the right mix of hardware and software components to meet overarching goals such as speed, efficiency, reliability, security, and safety. Today’s systems span a wide range of applications—from mobile devices and medical equipment to automotive, robotics, drones, and industrial systems—making the field both diverse and dynamic. Embedded software plays a crucial role in devices that often aren’t recognized as computers, like thermostats, toys, defibrillators, and anti-lock braking systems, influencing both their operation and perceived quality. The SYS sessions at DAC showcase cutting-edge research in this area and serve as a platform for discussing the complex issues and future strategies for this rapidly evolving discipline.
+
+SYS1. Autonomous Systems, Cyber-Physical Systems and IoT
+
+ * SYS1.1 Autonomous Systems Design Tools and Methodologies
+
+ * SYS1.2 Autonomous Systems Architectures
+
+ * SYS1.3 Autonomous Systems Safety and Reliability
+
+ * SYS1.4 Cyber-physical systems and Internet-of-Things (IoT) platforms
+
+ * SYS1.5 Low-power and energy-efficient design techniques for IoT
+
+ * SYS1.6 Partitioned Edge/hub/cloud processing
+
+ * SYS1.7 Dependable and safety-critical embedded system design
+
+ * SYS1.8 Networking and storage system design
+
+ * SYS1.9 Advanced wireless communication system design
+
+SYS2. System Design Tools, Software, and Methodologies
+
+ * SYS2.1 Embedded software verification methodologies
+
+ * SYS2.2 Embedded operating systems, middleware, runtime support, resource management, and virtual machines
+
+ * SYS2.3 Software techniques for multicores, GPUs, and multithreaded embedded architectures
+
+ * SYS2.4 Compilation strategies, code transformation and parallelization techniques for embedded systems
+
+ * SYS2.5 Domain-specific embedded libraries
+
+ * SYS2.6 Embedded Software Development Case Studies
+
+ * SYS2.7 Embedded system specification, virtual prototyping and simulation
+
+ * SYS2.8 Embedded system synthesis and optimization
+
+ * SYS2.9 Analysis of embedded system QoS metrics - performance, battery life, reliability, etc.
+
+ * SYS2.10 Design methodologies for self-aware, self-adaptive and autonomous embedded systems
+
+ * SYS2.11 Design methodology for mobile, wearable and Internet of Things devices
+
+SYS3. Embedded Memory and Storage Systems
+
+ * SYS3.1 On-chip memory architectures and management: Scratchpads, compiler controlled memories, etc.
+
+ * SYS3.2 Embedded storage systems organization and management
+
+ * SYS3.3 Memory and Storage hierarchies with emerging memory technologies
+
+SYS4. Time-Critical and Fault-Tolerant System Design
+
+ * SYS4.1 Real-time analysis and tool flows
+
+ * SYS4.2 WCET methods and tools for embedded hardware/software systems
+
+ * SYS4.3 Mixed-Criticality system design
+
+ * SYS4.4 Fault-tolerant embedded system design
+
+Submission Selections
+
+Topics
+
+Please select up to two of the following Topic Areas:
+
+Artificial Intelligence (AI)   Security
+Design                         Systems
+Electronic Design Automation
+
+Keywords
+
+Please select up to three of the following Keywords:
+
+AI and Machine Learning                           Formal/Static Methods
+Analog & Mixed-signal Design                      Low Power & Energy Efficiency
+Architecture & System Design                      Logic & High-level Synthesis
+Chiplets, Interconnects and 3D Integration        Manufacturing and Process
+Circuits and Technology                           Physical Design
+Cloud Computing, Compute/Storage Infrastructure   Quantum Computing
+Design Technology Co-optimization                 Safety & Reliability
+Embedded Systems and IoT                          Security & Privacy
+Emerging Technologies                             Test and Design for Test (DFT)
+FPGA Systems                                      Verification & Validation
+
+Industry
+
+If a submission will be relevant to a specific industry or industries, one or more of the following industries may be selected:
+
+Aerospace and Defense   Industrial
+Automotive              Wireless Communications
+Consumer                Wired Communications
+Data Center
+
+Timeline
+
+ * Nov 11, 2026
+   Abstract Submission Deadline (5 PM PST)
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Nov 18, 2026
+   Manuscript Submission Deadline (5 PM PST)
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Feb 22, 2027
+   Accepted Research Manuscript IDs Published on the DAC Website
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Mar 08, 2027
+   Accept/Reject Notifications Sent
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Mar 22, 2027
+   Manuscript Confirmation Due
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Mar 31, 2027
+   Proceedings Manuscript Deadline
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Apr 10, 2027
+   Author Registration Deadline
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Apr 15, 2027
+   Draft Slides Due for Review
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   May 14, 2027
+   Slide Feedback Provided
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   May 21, 2027
+   Final Slides Due
+
+   ----------------------------------------
+
+ * ----------------------------------------
+
+   Jul 11, 2027
+   DAC Begins
+
+Review and Selection Process
+
+The DAC Technical Program Committee (TPC) determines the selection of research manuscripts to be included in the DAC program, as well as how they are integrated into technical sessions within the conference schedule. The TPC is organized into several subcommittees, which focus on the various topic areas that are relevant to the conference. These are reasonably close, but not necessarily identical to the categories in the call for contributions. Manuscripts which are assigned by authors to unfitting categories may be reassigned by the program committee chair and subcommittee chairs to a subcommittee best able to review them.
+
+DAC strives to ensure that there are no conflicts of interest (COI) between authors and reviewers so as to provide a review process that is fair to all the authors. Submitters should report conflict of interests for all co-authors with members of the TPC by the manuscript submission deadline, as discussed in the “Conflict of Interests” section. The TPC Chair may reassign manuscripts to different subcommittees to resolve conflicts of interest with TPC members.
+
+DAC will also compare each submission against a vast database to identify manuscripts which have significant similarity to previously published works. Submissions identified as plagiarized during this process will be rejected. Furthermore, the names of all the authors of the submission will be reported to IEEE and ACM, as well as the TPC Chair or the Editor-in-Chief of the venue where the duplicate was submitted. Further information on duplicate submissions is provided under the "Duplicate Submissions" section.
+
+Then DAC manuscripts undergo a double-blind review process; i.e., the identity of authors and reviewers is only known to the TPC Chair. Each subcommittee will select the best manuscripts submitted. The selection is influenced by the overall number of submissions, the capacity of the DAC schedule, and the number of manuscripts in each area.
+
+The Technical Program Committee and its subcommittees will take into account the following aspects in selecting manuscripts:
+
+ * Quality of the technical contribution (design, solution, methodology) described in the manuscript.
+
+ * Originality of the concepts used and described. Advances over previous approaches should be reflected in the discussion of significant improvements in the results section. Comparisons with other approaches are also important to justify the advancement claimed in the submitted manuscript.
+
+ * Significance of the results obtained, described by measurable quantitative criteria (runtime for tools, optimality of results, time for design process steps, simplification or automation of manual effort, etc.).
+
+ * Degree of experimental evidence to support the claims of the manuscript. Results supported by evidence in industry-strength designs or widely accepted benchmarks with measurable criteria are highly desirable, if not essential.
+
+ * A good discussion of limitations of the approach and concepts, and possible areas for future improvement.
+
+ * The quality of manuscript writing, use of English, organization, and clarity of presentation.
+
+ * Once a manuscript has been accepted, the subcommittee organizes it into an appropriate technical session; sessions are then scheduled throughout the duration of the conference.
+
+Conflict of Interest
+
+To further strengthen the review process, each submitter is asked to identify any Technical Program Committee (TPC) members with whom they have conflict of interests (COI).
+
+An author has a conflict with a member of the TPC if one or more of the situations below holds:
+
+ * Advisor-advisee relation
+
+ * Co-authors of a paper (published and/or under review) in the last 24 months
+
+ * Author and TPC member are from the same institution
+
+ * Co-PIs of a grant in the last 2 years
+
+ * Close personal or family relationship
+
+The submitter should indicate the COIs of all authors with members of the TPC upon submission and make the best effort to ensure their correctness. Failure to do so may lead to desk rejection of the submission. Intentional omission or false assertion of COI information will also lead to desk rejection of the submission.
+
+Copyright Information
+
+Authors of accepted papers must complete the IEEE Copyright Form, which will be emailed to the contact author in March. One copyright form is required for each accepted paper.
+
+ * Any issues/questions authors have regarding the copyright form or IEEE Policy may be addressed to IEEE.
+
+ * Authors and co-authors are subject to all IEEE Publications Policies
+
+Policy on AI/LLMs/ChatGPT
+
+We follow ACM/IEEE policy on AI/LLMs/ChatGPT. In brief, the use of AI software tools (such as ChatGPT, Jasper, AI Write, Lex, for example) is permitted, subject to the following requirements.
+
+ * The use of content generated by LLMs (including, but not limited to, text, figures, images, and code) must be disclosed in a separate section of the paper with the heading “Content Generated by AI”. The LLMs used shall be identified, and specific sections of the paper that use LLM-generated content shall be identified and accompanied by a brief explanation regarding the level at which the AI system was used to generate the content. However, the use of LLMs for editing, grammar enhancement, translation, and knowledge retrieval is common practice and, as such, is generally outside the intent of the above policy. In this case, disclosure as noted above is not required but recommended. Regardless of the ways that LLMs were used in a given paper submission, authors should understand that they accept full responsibility for all the content in the paper, including content generated by LLMs that could be construed as plagiarism or scientific misconduct (e.g., fabrication of facts). LLMs are not eligible for authorship.
+
+ * IEEE’s Publishing Policy can be found here and the Author Rights page can be found here.
+
+ * Any issues/questions authors have regarding the copyright form or IEEE Policy addressed to IEEE.
+
+DAC 2027 will conduct a controlled pilot using a conference-approved, controlled LLM environment with safeguards for confidential paper content. DAC organizers—not individual reviewers—will use the system to generate one report for each paper, only after all human reviews have been submitted and locked. The LLM system will process the DAC submissions but not the human reviews. The report will be available solely as an additional reference during the Program Committee discussion.
+
+ * Human authority: The LLM system will not replace reviewers, score papers, make recommendations, or make acceptance decisions. Reviewers and TPC leadership may agree, disagree, or disregard the report. All decisions will remain human.
+
+ * Data protection: Paper content and generated reports will not be used to train models. The service provider will not retain them after processing. DAC will delete temporary LLM-processing copies and generated reports when the pilot is complete.
+
+Frequently Asked Questions
+
+How should I submit a research manuscript?
+
+Authors are asked to submit their work in two stages. In stage one (Abstract Submission), a title, abstract, and a list of all co-authors must be submitted via the DAC web-submission site. In stage two (Manuscript Submission), the manuscript itself is submitted. Authors are responsible to ensure that their manuscript submission meets all guidelines, and that the PDF is readable. To ensure fairness for all submitters, there will be no grace periods to fix problematic submissions.
+
+The manuscript should stand on its own, with references in the last page. The manuscript must be within 6 pages, excluding references, double-columned, 9 or 10-pt font, in PDF format only, be a readable file and follow the IEEE Template. The length and content of the submitted version and that of the final version (if accepted) should not be significantly different; the draft manuscript must leave enough room to allow for the inclusion of author information, acknowledgements, and other identifying information in the final version. There will be no chance of resubmitting to correct any issues.
+
+How should I submit the conflict of interest (COI) information?
+
+Submitters should report COIs of all co-authors with respect to members of the Technical Program Committee upon submission. However, it is recommended that submitters work on marking COIs as soon as they submit their manuscript's abstract, since this task may require some time, which is often scarce in the final sprint towards the completion of a manuscript's submission. Modifications to marked COIs can be made any time prior to the manuscript deadline.
+
+Authors are asked to mark all the TPC members who have COIs with at least one of the authors at the time of abstract registration. Do not mark any members of the Technical Program Committee as COI where there is no COI.
+
+What if authors failed to identify TPC members with COI?
+
+DAC assumes that authors have no additional COIs with TPC members, beside those that have been declared at the time of manuscript submission. If a manuscript is found to have failed in identifying a COI, during or after the paper selection process, the submitted manuscript will be automatically rejected. Same holds if members of the Technical Program Committee are marked as COI if no COI exists.
+
+Which category should I select when I submit my manuscript?
+
+The Call for Contributions lists several categories; please select the most appropriate primary topic when submitting your abstract. Authors of submissions that cover cross-cutting topics should select a category that is closest to the essential contribution of the submission. Submissions will be asked to select a broad category (e.g., “ EDA2. Design Verification and Validation”). A complete list of available categories and topic areas can be found in the CFP.  Please note that there are separate categories for Artificial Intelligence, Design, Electronic Design Automation, Security, and Systems topics.
+
+If my work is mainly about design, should I submit it to the regular research track or the Engineering Tracks?
+
+The Research track at DAC will include a DESIGN (DES) focus to feature high-quality content on design research, design practices, and design automation for cross-cutting topics.
+
+If you think that your work makes a significant contribution to any of the design related topics, you should consider writing a complete 6-page research manuscript and submit it to the regular research track. On the other hand, if your work is more of a design practice using EDA tools or if you cannot meet the research manuscript deadline, you can consider submitting your work to the Engineering Tracks, which do not require a manuscript and entail no publication.
+
+Six pages only, or is additional 4-page supplemental material allowed?
+
+All submissions to the Research Track are subject to the six-page limit, with one additional page for references only. The manuscript plus one page of references should be formatted as a single PDF file. It is the authors’ responsibility to ensure the readability of the PDF file and submit it by the November 18, 2026 deadline.
+
+The page limit of the submissions is 6+1, not 7. The last page is reserved for references only. Inclusion of any content other than references on the additional reference page will lead to the desk rejection of the submission.
+
+How do I avoid referencing my own work to ensure the integrity of the blind review process?
+
+To satisfy the criteria for a blind review process, the Call for Contributions states that any references to the author(s) own previous work or affiliations in the bibliographic citations must be in the third person. For the blind review process, DO NOT LIST THE NAMES OR AFFILIATIONS OF ANY OF THE AUTHORS ANYWHERE ON THE MANUSCRIPT, except in the references section (if citation to prior work is required).
+
+Example: A. and B. presented a method for listing self-referential citations in [5].
+
+[5] A. A and B. B, How to write a research DAC paper, 2027.
+
+DO NOT use “omitted for blind review” to cite authors’ own papers. Describe all related papers published by you as if they were written by others.
+
+Citation of authors’ unpublished papers is not allowed, including citation of potential double and/or simultaneous submissions. If this situation arises, submitters must follow the disclosure requirements to disclose their (or their co-authors) related work that is under review or accepted for publication.
+
+I submitted a longer version of my manuscript to another conference/journal. Can I still submit it to DAC?
+
+DAC adheres to strict rules regarding double and/or simultaneous submissions. No new technical content should be under review during any time overlapping with DAC's selection and publication of manuscripts. In general, an extended version of the conference paper should be submitted to a journal after the first day of the conference. Your submissions must be clearly distinct from any other submissions under review. Use your judgment. If in doubt, consult with a more senior colleague. Double submissions are unethical, and a serious issue within the ACM & IEEE communities.
+
+Can a paper that has been uploaded to arXiv be submitted to DAC?
+
+The DAC publication policy does allow for papers published on arXiv to be submitted to DAC. Note, however, that the authors are expected to follow all reasonable efforts to ensure that the DAC submission is compliant with the double-blind review process.
+
+How do I disclose a paper under review or an accepted but not published paper?
+
+When submitting a paper, the authors are asked to list all potentially relevant papers that have not yet been published and provide an electronic copy (in pdf format) of those papers. The TPC Chair will be able to check for self-plagiarism and relevance without revealing author identities to the reviewers. Failure to disclose such papers will be considered as omission of closely related work and subject to the same penalties outlined in the "Duplicate Submissions" section.
+
+What makes a good DAC manuscript?
+
+ * Artificial Intelligence (AI) research manuscripts feature advances in the field of AI / Machine Learning (ML) with a focus on design automation and designs at the cross section between AI/ML algorithms/applications and hardware. The scope includes but is not limited to novel AI/ML algorithms, applications, infrastructures, and how to address growing security/privacy concerns of AI/ML.
+
+ * Electronic Design Automation (EDA) research manuscripts have at their core novel algorithms or novel algorithm implementations for important problems facing leading edge electronic design automation. These may address the problem at any level of abstraction (from high-level blocks down to the bare transistor). They can cover both design implementation (for example, physical layout or logic synthesis) and design analysis (for example, signal integrity analysis, rule checking, functional verification, and circuit simulation).
+
+ * Design (DES) research manuscripts feature high-quality contributions on design research, design practices, and design automation for cross-cutting topics, ranging from systems and architectures, particularly specialized solutions to embedded systems, storage and memory structures.
+
+ * Security (SEC) research manuscripts feature contributions on the urgent need to create, analyze, evaluate, and improve the hardware, embedded systems and software base of the contemporary security solutions. This applies across all domains, including financial, healthcare, transportation, and energy.
+
+ * Systems (SYS) research manuscripts cover novel advances in areas such as embedded systems software and hardware, from the very highest levels of system specification (e.g., domain-specific languages and model-based design) to hardware/software implementations of embedded systems, their associated software design tools and architectural platforms, as well as validation, verification, and reliability. Systems topics will also cover modeling, optimization, and exploration of multiple embedded system constraints (e.g., reliability, power, security). Systems  case studies, platforms and design methodologies are also an integral part of these topics.
+
+Can I submit as a Work-in-Progress (WIP) presentation if my paper is not accepted as a research manuscript?
+
+If the TPC subcommittee does not accept your manuscript as a research manuscript at DAC, they will also determine if your submission meets the requirements for a WIP presentation and invite WIP-eligible manuscripts to present during a specific poster session at DAC. Note that WIP presentations papers are not published in the DAC proceedings. Thus, in this situation, you do not need to re-submit your manuscript to the WIP submission site.
+
+View Profile
+
+TPC Chair
+
+Ambar Sarkar
+
+Nvidia
+
+Close
+Loading…
+
+Go to contact
+View Profile
+
+TPC Co-Chair
+
+Jiang Hu
+
+Texas A&M University
+
+Close
+Loading…
+
+Go to contact
+View Profile
+
+TPC Co-Chair
+
+Rajiv Joshi
+
+IBM
+
+Close
+Loading…
+
+Go to contact
+Attend
+ * Attend DAC
+ * Venue
+ * International
+ * Avoid Fraud
+
+Exhibit
+ * Become an Exhibitor
+ * Exhibitor Resources
+ * Partnership Levels
+ * Sponsorship
+ * Exhibitor Forum
+
+Students & Awards
+ * Ph.D. Forum
+ * Young Fellows
+ * University Demo
+ * Under-40 Awards
+ * Influential Papers
+ * Women in Tech
+
+About
+ * About DAC
+ * Committees
+ * Sponsors
+ * Archive
+ * Future Dates
+ * Sister Conferences
+
+Connect
+ * Media Center
+ * News
+ * DACtv
+ * DAC-CAST
+ * Mailing List
+ * Contact Us
+
+Sitemap
+
+© 2026 DAC 2027
+
+This site is created, maintained, and managed by Conference Catalysts, LLC.
+Please feel free to contact us for any assistance.
+
+Change preferences

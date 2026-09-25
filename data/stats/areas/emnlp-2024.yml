@@ -1,0 +1,18 @@
+# EMNLP 2024 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: emnlp
+year: 2024
+kind: theme_track
+precision: exact
+track_zh: 特别主题 track
+source_url: https://aclanthology.org/2024.emnlp-main.0.pdf
+quote: We received 138 submissions to the theme track during the review phase. Among these, 54 papers were accepted to the main conference and a further 42 to Findings of EMNLP.
+src: emnlp-2024-front-matter
+quote_check: snapshot
+note_zh: 官方只公布了特别主题 track，常规 track 没有分领域数字；录用率按官方数字计算
+checked: 2026-09-25
+rows:
+  - area: "Special Theme: Efficiency in Model Algorithms, Training, and Inference"
+    submissions: 138
+    accepted: 54
+    rate: 39.1
+    findings_accepted: 42

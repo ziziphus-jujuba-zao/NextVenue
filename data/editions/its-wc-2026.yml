@@ -1,0 +1,19 @@
+id: its-wc-2026
+series: its-wc
+name: ITS World Congress 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Gangneung, country: South Korea, country_code: KR }
+dates: { start: 2026-10-19, end: 2026-10-23 }
+milestones:
+  - type: conference
+    start: 2026-10-19
+    end: 2026-10-23
+    tz: Asia/Seoul
+    status: confirmed
+    src: its-wc-2026-ertico
+    quote: "to co-organise and develop the Congress Programme for the 32nd ITS World Congress in Gangneung, from October 19-23, 2026."
+    note_zh: 取自共同主办方 ERTICO 的页面；大会官网 2026itsworldcongress.org 是脚本渲染的页面，拍不到文字快照。
+last_checked: 2026-09-25
+note_zh: 第 32 届，投稿早已截止，只剩开会。下一届在英国伯明翰，见 its-wc-2027。

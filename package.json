@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "description": "NextVenue（投稿下一站）: submission rules, policy watch and decision support for CS/AI conferences — every answer backed by a verbatim official quote.",
+  "description": "NextVenue（投稿下一站）: submission deadlines, rules and routes for academic conferences across disciplines, computer science first — every answer backed by a verbatim official quote.",
   "author": "Zayier Xie <zayierxie@gmail.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=20"
   },
@@ -13,6 +13,9 @@
     "snapshot": "tsx scripts/snapshot.ts",
     "validate": "tsx scripts/validate.ts",
     "check:quotes": "tsx scripts/check-quotes.ts",
+    "ranks:import": "tsx scripts/import-rank-list.ts",
+    "ranks:report": "tsx scripts/rank-report.ts",
+    "import:ccfddl": "tsx scripts/import-ccfddl.ts",
     "build": "tsx scripts/build.ts && tsx scripts/build-app.ts",
     "icons": "tsx scripts/make-icons.ts",
     "shots": "tsx scripts/app-shots.ts",

@@ -1,0 +1,45 @@
+id: iedm-2026
+series: iedm
+name: IEDM 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: San Francisco, country: USA, country_code: US }
+dates: { start: 2026-12-12, end: 2026-12-16 }
+submission_type: full_paper
+submission_evidence:
+  src: iedm-2026-submission
+  quote: "Papers must be a 4-page camera-ready paper (2 pages of text and 2 pages of figures)."
+  note_zh: 投稿就是终稿，录用后原样收进 IEDM Technical Digest，不能再改。
+milestones:
+  - type: paper
+    at: 2026-07-19T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: iedm-2026-submission
+    quote: "July 19, 2026 23:59 PDT: Submission Deadline EXTENDED"
+    note_zh: 已截止。late news 论文 8/18 也已截止。
+  - type: notification
+    at: 2026-09-09
+    tz: America/Los_Angeles
+    status: confirmed
+    src: iedm-2026-submission
+    quote: "September 9: Paper Acceptance/Rejection Notifications."
+    note_zh: 已出结果。
+  - type: early_registration
+    at: 2026-11-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iedm-2026-registration
+    quote: "November 10: Last day to register for IEDM at discounted rate. Rates increase on November 11."
+    note_zh: 注册页只给日期、没写时区，按北京时间当天结束算（比按太平洋时间早 16 小时，更保守）。协议酒店（Hilton Union Square）的预订也是 11/10 截止。注册不退款（“There are no registration refunds as all content will be available OnDemand after the conference.”）。
+  - type: conference
+    start: 2026-12-12
+    end: 2026-12-16
+    tz: America/Los_Angeles
+    status: confirmed
+    src: iedm-2026-home
+    quote: "December 12-16, 2026Hilton San Francisco Union Square, San Francisco, CA"
+last_checked: 2026-09-25
+note_zh: 第 72 届。投稿已截止，只剩注册和开会。

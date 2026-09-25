@@ -1,0 +1,55 @@
+2021 IEEE/CVF International Conference on Computer Vision (ICCV) | 978-1-6654-2812-5/21/$31.00 ©2021 IEEE | DOI: 10.1109/ICCV48922.2021.00005
+
+Message from the General and Program Chairs
+Welcome to the 18th IEEE/CVF International Conference of Computer Vision (ICCV 2021),
+which we all hope will be our last fully virtual conference as the world makes its steps to
+recover from the COVID-19 pandemic. ICCV continues to steadily grow as our bi-annual
+international community gathering, showcasing the latest impactful works in the vision
+community. We are sad that we will not be able to host the conference in Montreal as originally
+planned, but are pleased to have the opportunity to bring the community together online.
+In this iteration, the conference received 6152 valid submissions, a 40% increase in
+submissions compared to ICCV 2019. We assigned these papers to a total of 4216 reviewers.
+Of these, 2746 self-reported as experienced (post PhD) and 1462 as student reviewers. In
+total, we released 20195 reviews to papers seeking rebuttals. These reviews were managed
+by 233 active area chairs who checked the reviews for quality and completeness. 5486 papers
+progressed into the discussion phase (11% withdrawn) of which 4550 papers uploaded author
+feedback/rebuttal. Each paper received at least three full reviews, and the acceptance
+decisions were made within AC pairs in consultation with additional expert ACs as necessary.
+Following the best practice of our community, the Program Chairs did not place any restrictions
+on acceptance.
+In total 1612 papers were accepted for presentation at ICCV, and are included in the
+conference proceedings. The acceptance rate of 26% reflects the high standard of ICCV and
+is consistent with the rates of past conferences. Out of all accepted papers, 210 were selected
+for oral presentations based on AC recommendations. All papers have poster presentations.
+Award papers were selected from a pool of 13 papers nominated for the Marr Prize by at least
+one AC and two reviewers; final recommendations were made by an external award
+committee.
+Additionally this year, we introduced a few initiatives to improve the transparency of the
+process and reviewing quality in future conferences. First, we actively shared updates about
+the reviewing process through the conference’s twitter account. Second, during the review
+process we encouraged ACs to add additional reviewers who were better suited to evaluate
+papers in terms of biases, fairness, accountability, transparency and ethical aspects of papers
+when they felt it was needed. Third, we offered a google calendar that allows adapting
+deadlines to authors and reviewers timezones. Third, we collected review ratings from ACs
+which we directly shared with all reviewers, thus closing the feedback loop to reviewers.
+Recognizing that many other online conferences have had problems with low engagement
+during virtual poster presentations, we have put papers into pods consisting of 5 papers.
+Authors of each paper will therefore have both a pod teleconference link and an individual
+teleconference for discussions.
+We would like to thank everyone involved in making ICCV 2021 a reality. This includes the
+organizing committee, workshop and tutorial organizers, area chairs, reviewers, authors,
+invited speakers, panelists, exhibitors, without whom this meeting would not be possible. We
+particularly note the crucial role of Martin Weiss who acted as the program technical chair and
+was of immense help to PCs. We also thank Nicole Finn, Liz Ryan, and C to C Events for their
+
+clxvi
+
+tireless organization of the logistics of the conference, and for their smooth handling of the
+switchover from planning an in-person conference to a virtual one. We thank the ongoing
+financial and advisory support from our primary co-sponsors - the IEEE and the CVF.
+General Chairs: Tamara Berg, James Clark, Yasuyuki Matsushita and Camillo J. Taylor
+Program Chairs: Dima Damen, Tal Hassner, Chris Pal and Yoichi Sato
+
+clxvii
+
+

@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: nam-2027
+sources:
+  - id: nam-2027-nacs-home
+    url: https://nacatsoc.org/
+    title: North American Catalysis Society
+    kind: other
+    fetched_at: 2026-09-25T18:10:15Z
+    http_status: 200
+    snapshot: ffc317221c9161beb06e3531d1772f612cbfccaa7c709254dce61d69ec1741c5

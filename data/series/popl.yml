@@ -1,0 +1,11 @@
+id: popl
+acronym: POPL
+full_name: ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+directions: [cs/se, cs/theory]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每年 1 月开会，论文发表在 PACMPL 期刊的 POPL 期。
+dblp: conf/popl
+ccfddl: SE/POPL
+data_level: curated

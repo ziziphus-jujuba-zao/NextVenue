@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icip-2027
+sources:
+  - id: icip-2027-home
+    url: https://2027.ieeeicip.org/
+    title: ICIP 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: 362a859c2bd7955b5803d4739995054a3080fffa51ac89234b6a6252d6cd412b
+  - id: icip-2026-dates
+    url: https://2026.ieeeicip.org/important-dates/
+    title: ICIP 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:46:21Z
+    http_status: 200
+    snapshot: c53c9cc41772ac00760d865d9f310469d334f518ea7211f6b42a437be854aa40

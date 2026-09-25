@@ -5,7 +5,7 @@ sources:
     url: https://www.ijcai.org/future_conferences
     title: IJCAI Future Conferences
     kind: other
-    fetched_at: 2026-09-24T23:04:03Z
+    fetched_at: 2026-09-25T10:43:22Z
     http_status: 200
     snapshot: 4c635bbe16ac9e42bd517605aa2ef60daef02d2138eb990fcdd0aaf03cdcd76e
     note_zh: 公布 IJCAI-27 两地举办：京都 8/7–13、横琴 8/15–17。
@@ -13,14 +13,38 @@ sources:
     url: https://2027.ijcai.org/
     title: IJCAI 2027 Home
     kind: other
-    fetched_at: 2026-09-24T23:04:04Z
+    fetched_at: 2026-09-25T10:43:23Z
     http_status: 401
     note_zh: 2026-09-25 返回 401（需要登录），会议网站尚未公开，征稿未发布。
   - id: ijcai-2026-dates
     url: https://2026.ijcai.org/important-dates
     title: IJCAI-ECAI 2026 Important Dates
     kind: dates
-    fetched_at: 2026-09-24T23:04:07Z
+    fetched_at: 2026-09-25T10:43:25Z
     http_status: 200
     snapshot: 2d0fdd05ba387688882e56309bf78e9d53561ab66d10b6d5026106d8b2d3d905
     note_zh: 上一届（IJCAI-ECAI 2026）日期页，作为 ijcai-2027 推算日期的依据（主 track 摘要 1/12、正文 1/19、Phase I 3/4、出结果 4/29，均 23:59 AoE）。
+  - id: ijcai-2026-registration
+    url: https://2026.ijcai.org/registration/
+    title: IJCAI-ECAI 2026 Registration (prior year)
+    kind: policy
+    fetched_at: 2026-09-25T10:43:26Z
+    http_status: 200
+    snapshot: 11595aed62dcd646f9c77a1dbb97655261991fbf5f303f6462efa8e484454b53
+    note_zh: 上一届（IJCAI-ECAI 2026）注册页，只作“上届参考”：每篇论文一份全价或 Student with Paper 注册、须到场报告、无线上报告、注册费、取消收 150 美元。
+  - id: ijcai-2026-registration-faq
+    url: https://2026.ijcai.org/registration-faq/
+    title: IJCAI-ECAI 2026 Registration FAQ (prior year)
+    kind: faq
+    fetched_at: 2026-09-25T10:51:06Z
+    http_status: 200
+    snapshot: 35b275fbc4ffb8e2d7e7a72ee69698d9d4c21d44595e857c754955433f7e8480
+    note_zh: 上一届注册 FAQ，只作“上届参考”：一份注册覆盖同一人多篇论文；学生作者付全价；注册不能转让；付费后才给签证邀请函。
+  - id: ijcai-2026-visa
+    url: https://2026.ijcai.org/visa-information/
+    title: IJCAI-ECAI 2026 Visa Information (prior year)
+    kind: other
+    fetched_at: 2026-09-25T10:51:37Z
+    http_status: 200
+    snapshot: 82f1e82972ff4433b4ed167012b2f9ee532a904757edf7ec357b0e4fa2dba34d
+    note_zh: 上一届签证页，只作“上届参考”：申根签证说明，邀请函从注册系统下载；没有拒签退款条款。

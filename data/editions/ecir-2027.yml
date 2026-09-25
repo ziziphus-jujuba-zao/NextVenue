@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ecir-2027
+series: ecir
+name: ECIR 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/ECIR
+  conf_id: ecir27
+  link: https://ecir2027.co.uk/
+  place: Southampton, UK
+  date: March 21-25, 2027
+  timezone: UTC+0
+location:
+  city: Southampton
+  country: UK
+  country_code: GB
+dates:
+  start: 2027-03-21
+  end: 2027-03-25
+milestones:
+  - type: abstract
+    at: 2026-09-21T23:59
+    tz: UTC
+    status: confirmed
+  - type: paper
+    at: 2026-10-05T23:59
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2027-03-21
+    end: 2027-03-25
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

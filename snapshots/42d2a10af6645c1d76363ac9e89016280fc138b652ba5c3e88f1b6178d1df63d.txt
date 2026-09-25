@@ -1,0 +1,85 @@
+Skip to content
+
+Menu
+
+Search
+
+Close Menu
+September 30 2025
+
+Reflections on the 2025 Review Process from the Program Committee Chairs
+
+Communications Chairs 2025 2025 Conference
+
+NeurIPS has grown at an unprecedented pace in recent years, fundamentally reshaping how the conference operates. To provide transparency and share insights into how NeurIPS continues to refine its processes, we—the Program Committee (PC) Chair Team—are publishing this blog post on our experience managing the review process at scale, with support from the Communication Chairs.
+
+NeurIPS has multiple tracks, each with their own chairs and program committees, as well as their own processes and criteria for selecting papers. This year the three tracks that constitute the poster sessions in the main conference  include the Main Program track, Datasets and Benchmarks track and the Position Paper track. While some attempts have been made to align some of these tracks, each track is unique and thus should not adopt the exact same processes. This blog post focuses specifically on the Main Program, but the Datasets and Benchmarks chairs have released a blog post, as have the Position Paper Track chairs.
+
+How the scale of NeurIPS submissions impacts calibration on decision-making
+
+Recruiting SACs, ACs, and Reviewers at Scale
+
+Like most AI conferences, NeurIPS has seen a substantial increase in the number of submissions in the past few years, growing from 9,467 submissions in 2020 to 21,575 in 2025. Critically, this increase in submissions not only is a challenge from the perspective of ensuring that there are enough reviewers, area chairs (ACs), and senior area chairs (SACs) to give papers fair review (thank you to all of the 20,518 reviewers, 1,663 ACs and 199 SACs who work tirelessly to make this happen), but it also introduces effects that make the review process noisier. For example, recruiting has to happen at a larger scale, but this creates a greater possibility that papers might be reviewed and handled by less experienced reviewers/ACs/SACs. For this year, we had to recruit a larger number of ACs from self-nomination forms, so we had a larger number of first-time NeurIPS ACs. Another example is that the NeurIPS community continues to expand in topic breadth over time, with backgrounds ranging from statistical physics to psychology joining the field, and new topics such as  LLMs becoming highly popular as existing fields evolve. This means that the existing pool of reviewers may not be topically qualified to handle these topics – and even experienced reviewers may struggle to cover some topics when the relevant expert communities are still emerging.
+
+Calibration Process
+For this reason, PC chairs need to focus more on calibration of decision-making, doing their best to ensure that the reviewing process remains reliable in the presence of this noise. This year, we relied on a range of signals for this – for example, if there is disagreement between reviewers, or between reviewers and the AC, we often look for consensus between the AC and SAC to calibrate. We found it extremely helpful when ACs actively communicated and provided feedback in this process. Many ACs fought for papers they thought were good even if reviewers disagreed, and often we followed their lead, ending in an accept decision for the paper. Conversely, sometimes ACs flagged significant negative issues with evidence after the rebuttal that reviewers did not catch, and we ask SACs to carefully discuss these issues with the ACs to ensure the evidence is convincing. This then led to reject decisions even when papers had high ratings. We understand and we are truly regretful that this might have severely disappointed some authors. However, we trusted the ACs and SACs to be experienced and professional members of the community whose consensus guards the quality of the program. Finally, we note in some cases decisions had to be reverted for reasons outside of what could be disclosed to the AC. This included situations like the 11 unfortunate cases where one of the co-authors are confirmed to be grossly negligent in their reviews under the our new responsible reviewing policies, in line with practices by CVPR and other sister conferences who have adopted similar policies.
+
+At the same time, we acknowledge that the calibration process is not perfect, and it is impossible for it to be perfect. Calibrating decisions is a constrained optimization process. Everyone involved has limited resources: authors do not have infinite time to comment, and reviewers, ACs, SACs and PCs do not have infinite bandwidth to read and respond. Even if for some individual cases, the decision could be retrospectively improved, we cannot revisit these decisions as if the original constraints driving the decision did not exist. For example, some authors asked why they could not make rebuttals if ACs raised new issues independently of the reviewers, but applying this fairly across reviews would require adding additional weeks to the reviewing timeline, which would derail conference planning due to fixed timeframes.
+
+Upholding Scientific Standards Despite Challenges
+
+Nonetheless, we are optimistic that on balance, NeurIPS decisions were consistent with the standards expected from NeurIPS papers established by prior years. The main track this year received 21,575 valid paper submissions, of which 5,290 were accepted. That is, the main track had an acceptance rate of 24.52%, on par with that of previous years. In general, accepted papers were consistent with reviewer impressions of papers (Figure 1), with the PCs manually reviewing many outliers (but not all, due to time resource constraints.)
+
+Figure 1. A histogram of scores across papers in the main program track, color coded by accept versus reject decisions.
+
+Finally, we want to address the topic of space constraints, since some community members were concerned that papers meeting the NeurIPS standard were rejected for this reason. In principle, space is a constraint we have to be mindful of, as our physical venues can only permit so many papers. We were transparent about this with our SACs and monitored it closely as part of our duty. For the main track, however, as we put our attention on resolving boundary and outlier decisions using the consensus of ACs and SACs during calibration, we reached a comfortably lower number of accepted papers than the capacity of our venue holds. That is, space ultimately played a negligible role compared to scientific merit.
+
+An initiative on responsible reviewing this year
+
+Review processes at NeurIPS are always evolving, and not just because the PC chairs have to keep up with the increased scale of the conference and new contexts – we also want to improve the reviewing process from year-to-year and ensure we help build a sustainable conference process that is responsive to community needs and concerns. For this reason, in addition to our duties directly managing the review process, we often focus on specific areas for improvement from year to year. For this year, we have focused on the topic of responsible reviewing.
+
+Among other initiatives, we announced new policies under the responsible reviewing initiative (see our previous blog post). Towards the goal of improving the quality of reviews, this policy allows PCs and other tracks’ chairs to withhold reviews from authors whose own reviewing obligations were unmet on time. In addition, when the reviewers are grossly negligent during the review process, their co-authored papers need to be desk-rejected. In addition, we paid attention to the issue of collusion rings and fake peer review accounts, which had been hot areas of discussion in the community in previous years. This has led to a lower reliance on bidding, as we could not assume everyone was a good actor in face of evidence some were not. In turn, this led to a greater reliance on the matching system used by OpenReview, which likely introduced different types of noise in reviews this year, increasing our workload in calibration. However, we feel this to be an important trade-off to disrupt these academic integrity challenges.
+
+A call for feedback
+
+Overall, we would like to encourage the community to continue to provide feedback on how to improve the review process at NeurIPS. This feedback is critical for us to understand how the changes we implement from year to year to evolve NeurIPS may affect the community. For example, one new source of noise we observed this year was reviewers increasing their scores just to end back-and-forth discussion with the authors, but being silent or critical in private discussions with the AC, which leads us to believe that increasing levels of author engagement in rebutting their papers is now leading to reviewer fatigue. We encourage the community to raise issues like this with us, so we can factor this into future years’ planning. In particular, we encourage community members to attend the Town Hall, which will be hosted on-site at the conference this year, where they can ask questions and raise comments to the organizers in real-time.
+
+Reflecting on the 2025 Review Process from the Datasets and Benchmarks Chairs Reflecting on the Inaugural NeurIPS Position Paper Track: A Pilot Year Journey
+
+Related Posts
+
+2025 Conference
+
+NeurIPS Datasets & Benchmarks Track: From Art to Science in AI Evaluations
+
+2025 Conference
+
+Reaffirming our Code of Conduct
+
+2025 Conference
+
+Announcing the 2025 Sejnowski-Hinton Prize
+
+Feed
+
+Recent Posts
+
+ * Join Us at NeurIPS 2026: Financial Assistance and Volunteer Applications Are Now Open September 16, 2026
+ * NeurIPS Foundation Announces 2026 Bridging the Future Grants Program Recipients September 8, 2026
+ * NeurIPS Newsletter – August 2026 September 5, 2026
+ * Navigating NeurIPS 2026: A Breakdown of the Multi-Site Registration Process August 27, 2026
+ * Meet the Organizing Team Behind NeurIPS 2026 August 11, 2026
+ * Announcing the NeurIPS 2026 Workshops August 10, 2026
+ * NeurIPS Newsletter – July 2026 July 31, 2026
+ * NeurIPS 2026 Competitions Announced July 28, 2026
+ * NeurIPS Newsletter – June 2026 July 3, 2026
+ * AI-Generated Papers in the NeurIPS 2026 Position Paper Track June 2, 2026
+ * NeurIPS Newsletter – May 2026 May 29, 2026
+ * NeurIPS 2026 Call for Ethics Reviewers May 12, 2026
+
+Recent Comments
+
+Back To Top
+NeurIPS Blog
+© NeurIPS Blog 2026
+Powered by WordPress • Themify WordPress Themes

@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: recomb-2027
+series: recomb
+name: RECOMB 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/RECOMB
+  conf_id: recomb27
+  link: https://recomb.org/recomb2027/
+  place: Toronto, Canada
+  date: May 17-20, 2027
+  timezone: AoE
+location:
+  city: Toronto
+  country: Canada
+  country_code: CA
+dates:
+  start: 2027-05-17
+  end: 2027-05-20
+milestones:
+  - type: abstract
+    at: 2026-10-28T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-11-04T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-05-17
+    end: 2027-05-20
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

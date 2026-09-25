@@ -1,0 +1,13 @@
+id: ada
+acronym: ADA
+full_name: American Diabetes Association Scientific Sessions
+name_zh: 美国糖尿病学会科学年会
+aliases:
+  - ADA Scientific Sessions
+directions: [med/metabolic]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 6 月举办
+data_level: curated
+note_zh: 糖尿病、内分泌与代谢方向规模最大的年会之一，按摘要投稿，另有晚到摘要一轮。

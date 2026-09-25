@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: euvip-2026
+series: euvip
+name: EUVIP 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/EUVIP
+  conf_id: euvip26
+  link: https://euvip2026.github.io/
+  place: Luxembourg, Luxembourg
+  date: September 28 - October 1, 2026
+  timezone: UTC+2
+location:
+  city: Luxembourg
+  country: Luxembourg
+  country_code: LU
+dates:
+  start: 2026-09-28
+  end: 2026-10-01
+milestones:
+  - type: paper
+    at: 2026-06-05T23:59
+    tz: UTC+2
+    status: confirmed
+  - type: conference
+    start: 2026-09-28
+    end: 2026-10-01
+    tz: UTC+2
+    status: confirmed
+last_checked: 2026-09-25

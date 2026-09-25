@@ -1,0 +1,90 @@
+# CoRL 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: corl
+rows:
+  - year: 2020
+    track: main
+    status: partial
+    accepted: 165
+    rate: 34
+    rate_text: 34%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://x.com/corl_conf/status/1319046195080298496
+    quote: 34% acceptance rate with 165 accepted papers.
+    quote_check: manual
+    note_zh: 投稿数只画在官方图表里，没有文字，不显示
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 400
+    accepted: 156
+    rate: 38.25
+    rate_text: 38.25%
+    rate_basis: stated
+    definition_zh: 主赛道
+    source_url: https://x.com/corl_conf/status/1437536538603098113
+    quote: 400 main track submissions, 156 accepted papers inc. 26 orals. ... 38.25% acceptance rate
+    quote_check: manual
+    mismatch_zh: 官方写 38.25%，按官方数字算是 39.0%
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: partial
+    accepted: 197
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v205/
+    quote_check: manual
+    count_method_zh: PMLR v205 论文集共列出 197 篇（本应用计数）
+    note_zh: 官方没有用文字公布投稿数
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: partial
+    accepted: 201
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v229/
+    quote_check: manual
+    count_method_zh: PMLR v229 论文集共列出 201 篇（本应用计数）
+    note_zh: 官方没有用文字公布投稿数
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 671
+    accepted: 264
+    rate: 39.3
+    rate_text: 39.3%
+    rate_basis: computed
+    definition_zh: 单一赛道；分母已去掉明显的桌拒
+    source_url: https://2024.corl.org/
+    quote: Call for Paper - Closed - 671 submissions received for CoRL 2024
+    src: corl-2024-home
+    quote_check: snapshot
+    count_method_zh: PMLR v270 论文集共列出 264 篇（本应用计数）
+    count_url: https://proceedings.mlr.press/v270/
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: partial
+    accepted: 263
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v305/
+    quote_check: manual
+    count_method_zh: PMLR v305 论文集共列出 263 篇（本应用计数）
+    note_zh: 官方没有用文字公布投稿数
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 2094
+    accepted: 687
+    rate: 32.8
+    rate_text: 32.8%
+    rate_basis: stated
+    definition_zh: 单一赛道；分母为有效投稿，不含撤稿和桌拒
+    source_url: https://x.com/corl_conf/status/2095971635593404733
+    quote: CoRL 2026 decisions are out! 687 papers accepted, a 32.8% acceptance rate across 2,094 active submissions.
+    quote_check: manual
+    checked: 2026-09-25

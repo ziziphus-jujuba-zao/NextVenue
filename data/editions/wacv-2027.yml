@@ -3,8 +3,8 @@ series: wacv
 name: WACV 2027
 year: 2027
 kind: conference
-topics: [cv]
-location: { city: Orlando, country: USA }
+data_level: curated
+location: { city: Orlando, country: USA, country_code: US }
 dates: { start: 2027-01-04, end: 2027-01-08 }
 milestones:
   - type: paper_registration
@@ -97,5 +97,59 @@ milestones:
     src: wacv-2027-home
     quote: "Monday, Jan 4 through Friday, Jan 8, 2027"
     note_zh: 1/4–5 workshop，1/6–8 主会。场地 Disney Springs（官网写 Buena Vista, FL；CVF 官网写 Orlando, Florida）。
+logistics:
+  venue:
+    name: Disney Springs, Buena Vista, FL
+    address: tba
+    src: wacv-2027-home
+    quote: "Disney Springs, Buena Vista, FL"
+    note_zh: 官网只写到 Disney Springs 这一片区，具体场馆和地址没公布。
+  fees:
+    - status: tba
+      checked_sources: [wacv-2027-pricing]
+      note_zh: 价格页写“Pricing is not yet available for this conference”。
+      reference:
+        from: wacv-2026
+        currency: USD
+        src: wacv-2026-pricing
+        quote: "Each paper MUST be registered under an ‘Author’ registration type."
+        note_zh: WACV 2026 的线下 / 作者注册价（passport 即全程注册）。早鸟价到 2026 年 1/6 23:59 GMT（官方写 "Jan 06, 2026. (January 6, 2026, 11:59pm GMT)"），之后是标准价。线上注册不能挂论文。
+        tiers:
+          - { id: early }
+          - { id: standard }
+        rows:
+          - { id: member, label_zh: IEEE 或 CVF 会员, for: [academic, industry], member: current, covers_author: true, amounts: [700, 850], quote: "IEEE or CVF member passport $700 $850" }
+          - { id: non_member, label_zh: 非会员, for: [academic, industry], member: none, covers_author: true, amounts: [900, 1050], quote: "Non-member passport $900 $1050" }
+          - { id: student_member, label_zh: IEEE 或 CVF 学生会员, for: [student], member: current, covers_author: true, amounts: [475, 575], quote: "Student IEEE or CVF member passport $475 $575" }
+          - { id: student_non_member, label_zh: 非会员学生, for: [student], member: none, covers_author: true, amounts: [525, 625], quote: "Non-member Student passport $525 $625" }
+  coverage:
+    status: tba
+    checked_sources: [wacv-2027-author-guidelines, wacv-2027-pricing]
+    note_zh: 2027 只写了至少一位作者要按全价线下作者注册价注册，一份注册能挂几篇没写。
+    reference:
+      from: wacv-2026
+      per: author
+      rate: in_person
+      extra_zh: 一份作者注册挂第二篇起，每篇加收 550 美元；线上注册和 workshop 注册不能挂论文。
+      src: wacv-2026-pricing
+      quote: "Additional papers under a registration will be charged at $550 each."
+  visa_letter:
+    status: tba
+    checked_sources: [wacv-2027-home, wacv-2027-pricing]
+    note_zh: 2027 没有签证页（Visa 页面 404），只在帮助台的问题分类里有“Visa Letter”。
+    reference:
+      from: wacv-2026
+      after: registration
+      how_zh: 注册后 15 分钟内收到邮件，按说明登录官网生成邀请函，邀请函用邮件发出。
+      lead: tba
+      url: https://wacv.thecvf.com/Conferences/2026/Pricing2
+      src: wacv-2026-pricing
+      quote: "After you have registered, you should receive an email within 15 minutes with instructions on how to get an invitation letter."
+  hotels:
+    status: tba
+    checked_sources: [wacv-2027-hotels]
+    note_zh: 酒店页列出 Hilton Orlando, Lake Buena Vista，会议价每晚 249 美元起，另加税和每晚 30 美元的度假村费；没写预订截止日。
+  links:
+    - { kind: hotels, url: "https://wacv.thecvf.com/Conferences/2027/Hotels" }
 last_checked: 2026-09-25
 note_zh: 两轮投稿。Round 1 正文 6/26 截止、8/9 出审稿和初步决定（接收/修改后重投/拒稿），修改稿与 rebuttal 8/28 截止；Round 2 正文 8/28 截止，没有 rebuttal。两轮论文都在 10/9 出最终结果。截至 2026-09-25 两轮投稿都已截止，下一次可投的是 WACV 2028（预计）。

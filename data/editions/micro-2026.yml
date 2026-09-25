@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: micro-2026
+series: micro
+name: MICRO 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/MICRO
+  conf_id: micro26
+  link: https://microarch.org/micro59/
+  place: Athens, Greece
+  date: October 31-November 4, 2026
+  timezone: UTC-4
+location:
+  city: Athens
+  country: Greece
+  country_code: GR
+dates:
+  start: 2026-10-31
+  end: 2026-11-04
+milestones:
+  - type: abstract
+    at: 2026-03-31T23:59
+    tz: UTC-4
+    status: confirmed
+  - type: paper
+    at: 2026-04-07T23:59
+    tz: UTC-4
+    status: confirmed
+  - type: conference
+    start: 2026-10-31
+    end: 2026-11-04
+    tz: UTC-4
+    status: confirmed
+last_checked: 2026-09-25

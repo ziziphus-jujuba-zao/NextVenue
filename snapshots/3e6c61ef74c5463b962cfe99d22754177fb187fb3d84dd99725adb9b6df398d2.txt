@@ -1,0 +1,464 @@
+2027 IEEE International
+MTT Symposia
+23–28 May 2027
+San Antonio, TX
+
+Call for Papers
+The IEEE International MTT Symposia (IMS)
+(www.ims-ieee.org) is the Microwave Theory and
+Technology Society’s flagship symposia and the
+world’s largest industry exhibition highlighting
+radio frequency (RF) technology, systems and
+applications. We celebrate the 75th anniversary
+of the MTT Society in 2027 and look forward to
+reflecting on our past, present and future, while
+meeting in San Antonio, Texas.
+
+IMS2027 starts the week with IEEE MTT-S RF
+Integrated Circuits (RFIC) Symposium and
+follows with IEEE MTT-S RF Systems &
+Applications (RFSA) Symposium and IEEE
+MTT-S RF Technology & Techniques (RFTT)
+Symposium. The week concludes with the
+Automatic Radio Frequency Techniques Group
+(ARFTG) Microwave Measurement Conference.
+
+RIde the
+Current
+
+We continue to partner with IEEE and
+co-locate with one of the IEEE Hard Tech
+Venture Summits. Early-stage hardware
+startup founders are connected with resources
+and funding from the Hard Tech innovation
+ecosystem.
+The IMS technical program is in its second
+year of a strategic structural change where
+RFIC, RFSA and RFTT symposia are streamlined
+to allow attendees to focus on topics that
+align with their interests.
+IMS workshops and related events occur
+on Sunday and Monday, IMS Systems and
+Applications workshops (S&A) will take place
+on Thursday.
+We have the distinct pleasure of IMS2027
+occurring during the 75th Anniversary of
+IEEE MTT-S. MTT-S was established in 1952
+to promote the advancement of microwave
+theory and its applications, including RF,
+microwave, millimeter-wave, and terahertz
+technologies. We believe this year’s event
+will allow us to pause and reflect on the
+innovations that have resulted from not only
+the Society’s inception but also the symposia
+that have been occurring since 1957.
+Our theme Ride the Current brings the
+symposia to San Antonio, Texas, for the first
+time. One of the state’s oldest cities, San
+
+Sunday
+
+Monday
+
+IMS Workshops
+
+Tuesday
+
+Wednesday
+
+Welcome one and all to IMS2027!
+IMS2027 General Co-Chairs
+Goutam Chattopadhyay, NASA-Jet Propulsion
+Laboratory, California Institute of Technology
+Rashaunda Henderson, University of Texas at
+Dallas
+A complete roster of IMS2027 leadership
+roles can be found at www.ims-ieee.org.
+
+Thursday
+
+Friday
+
+RFIC Symposium
+RFSA Symposium
+IMS Workshops
+
+RFTT Symposium
+IMS Exhibition
+
+RFIC Plenary &
+Reception
+
+Antonio is home to The Alamo and The River
+Walk. It was established as a mission in 1718
+and is also known for its cultural diversity
+and being home to one of the largest
+concentrations of military bases in the U.S.
+(Military City USA). San Antonio is in the Texas
+Triangle, one of eleven megaregions of the
+United States, located entirely within Texas.
+It contains the state’s five largest cities (San
+Antonio-Austin, Greater Houston and DallasFort Worth) and is home to about two-thirds of
+the state’s population. Historic downtown San
+Antonio is a walkable entertaining area with
+the Alamo Mission and River Walk all nestled
+within a 1.65 square mile area. The symposia
+will be in the Henry B. González Convention
+Center, nestled along the banks of the River
+Walk near local arts, culture, excellent dining
+experiences and historical sites.
+
+RFSA & RFTT
+Plenary Session
+IMS Reception
+
+IMS2027 Week-at-a-Glance Overview
+
+RFSA
+RF Systems Dialogue
+
+IMS Industry-Hosted
+Reception
+
+IMS S&A Workshops
+ARFTG
+
+Paper Submission Deadline: 6 January 2027
+
+23–25 May 2027
+The IEEE MTT-S RF Integrated Circuits (RFIC) Symposium traces its
+roots to the IEEE Microwave and Millimeter-Wave Monolithic Circuits
+Symposium (MMWMC, 1982–1996) and has long been a cornerstone
+of IMS for monolithic integrated circuit innovation. Today, the RFIC
+Symposium remains the premier forum dedicated exclusively to
+presenting the latest advances in RF, millimeter-wave, sub-THz,
+and THz integrated circuits and systems.
+RFIC2027 spans both foundational RFIC building blocks and integrated
+RFIC subsystems. On the building-block side, the symposium features
+power amplifiers, transmitter circuits, front-end modules, low-noise
+amplifiers, oscillators, frequency synthesizers, data converters, mixedsignal circuits, and high-speed interconnects. On the integratedsubsystem side, the symposium focuses on fully integrated solutions
+operating from sub-GHz to THz frequencies, leveraging SiGe, CMOS, SOI,
+and compound-semiconductor technologies, and often incorporating
+on-chip digital processing, calibration, control, and memory subsystems.
+
+The symposium solicits papers describing original work in all areas
+related to RF, mm-Wave, THz, and wireless systems and ICs. Work must
+be demonstrated through IC hardware results and measurements.
+
+The symposium welcomes papers not only on monolithic systems, but also
+on heterogeneously integrated and advanced-packaged implementations
+spanning a broad range of applications. Application areas include 5G/6G
+wireless, radar, satellite communications, sensing, imaging, IoT, wireline
+and optical links, quantum and cryogenic systems, biomedical platforms,
+and AI-assisted RFIC design.
+
+Symposium Chair: Bodhisatwa (Bodhi) Sadhu, IBM Research
+TPC Chair: Debopriyo (Debo) Chowdhury, Broadcom
+TPC Vice Chair: Steven Turner, BAE Systems
+
+Our dedicated track for Industry and Startup papers highlights impactful,
+application-driven innovations, measured commercial technologies, and
+new concepts with strong potential for real-world deployment.
+We look forward to seeing your latest RFIC research in San Antonio in
+May 2027!
+
+A complete roster of RFIC2027 leadership roles and author information
+can be found at www.ims-ieee.org.
+
+RFIC Technical Areas
+RFIC1: Industry and Startups — RFIC and millimeter-wave circuit
+and system design innovations and demonstrations for commercial
+applications, including product-oriented R&D, productization, and
+start-up concepts targeting commercial deployment.
+RFIC2: Sub-D Band Millimeter-wave Circuits — 20-110 GHz circuits
+for wireless communication, including phase shifters, phased arrays,
+beamformers, MIMO transceivers, and other systems for 5G applications.
+RFIC3: D-band Circuits — >110 GHz circuits and SoCs for wireless
+communication, including transceivers, transmitters, and other systems
+for 6G applications.
+RFIC4: Transmitters and Power Amplifiers — RF through millimeter-wave
+and beyond power amplifiers, drivers, modulators, digital transmitters,
+advanced TX circuits, linearization, and efficiency enhancement
+techniques.
+RFIC5: Front-End Circuits — LNAs, mixers, VGAs, T/R switches, integrated
+FEM, amplifiers, filters, and demodulators.
+RFIC6: Wireline, Optical, Mixed-Signal and High-Speed Interconnect
+Circuits — Baseband and RF converters (ADC/DAC), sub-sampling/
+over-sampling circuits, converters for digital beamforming or emerging
+architectures, high-speed electrical links (e.g., SerDes, I/O transceivers, and
+CDRs), silicon photonics and co-packaged optical interconnects, die-to-die
+and chiplet communication interfaces, and short-range millimeter-wave/
+sub-THz wireless links.
+RFIC7: Oscillators and Frequency Synthesizers — RF through millimeterwave to D-band and higher VCOs, injection-locking frequency dividers/
+multipliers, PLLs, DLLs, MDLLs, DDS, LO drivers, and frequency dividers.
+
+RFIC8: Device/Packaging/Modeling and Testing Technologies — RF
+device technology (both silicon and compound semiconductors), MEMs,
+integrated passives, photonic technologies, reliability, packaging,
+modeling and testing, EM modeling/co-simulation, built-in-self-test
+(BIST), 3D ICs, and novel THz solutions.
+RFIC9: Wireless Radios and Systems-on-Chip — Innovative circuit and
+system-on-chip concepts related to software-defined radio, interference
+cancellation, full-duplex, cellular/WiFi, GPS, low-power radio circuits for
+sensors, IoT and biomedical applications, radio architectures suitable for
+energy harvesting, wake-up receivers, etc.
+RFIC10: Radar, Imager, and Sensor — Integrated and vehicular radar,
+imaging, spectroscopy, MEMs-based sensors and actuators, and sensing
+circuits at RF through THz frequencies.
+RFIC11: RFICs in System Context — RFICs driving system-level innovations
+in 5G/6G, radar, imaging, satellite communications, terahertz, quantum
+computing, cryogenic, biomedical, optoelectronic systems and hardware
+security. May include interactive demonstration and presentation of
+complete systems based on new or previously published chips.
+RFIC12: AI‑Assisted RF and RFIC Design — Inverse circuit design, AIgenerated non-intuitive RF topologies, RF passive and active block
+synthesis, surrogate modeling for RFIC design, including EM-aware circuit
+and layout optimization, signal-chain optimization, and AI-driven biasing,
+calibration, and configuration. Emphasis on methodologies demonstrated
+with measured silicon performance or hardware validation, including gains
+in performance, efficiency, or design productivity in RF/millimeter-wave/
+sub-THz circuits.
+
+Paper Submission Deadline: 8 December 2026
+
+24-27 May 2027
+We are excited to announce the second IEEE MTT-S RF Systems &
+Applications (RFSA) Symposium, which will be a part of IMS2027 after its
+successful introduction last year. This symposium is dedicated to fostering
+discussions on emerging topics in microwave systems and applications,
+covering frequencies from MHz to THz. Recognizing the increasing
+importance of these areas, RFSA aims to become a hub for creative
+exchange and groundbreaking ideas in system-level research and
+innovation, closely integrated with circuit-focused research at RFIC
+and component-related research at RFTT.
+RF systems innovation focuses on integrating components and
+subsystems to achieve application goals within the constraints of available
+signal-processing techniques and digital processing hardware. Novel
+application contexts introduce new challenges for hardware and signal
+processing solutions, driving innovation in both communication and
+
+sensing technologies. RFSA invites contributions across a wide
+range of fields, including radars, communications radios, biomedical
+applications, phased arrays, and imagers. RFSA also invites papers
+discussing innovations in emerging applications where microwave
+technology plays a crucial role, such as non-terrestrial communications
+on the move and integrated sensing and communications applications.
+The symposium will feature technical sessions, an interactive forum, S&A
+workshops, panels, and plenary sessions. A highlight of RFSA2027 will
+be the RF System Dialogue, a special event designed to facilitate deep
+interactions between industry and academia, fostering collaboration and
+innovation.
+We invite researchers and industry professionals to contribute their latest
+findings and insights to RFSA2027. Join us in shaping the future of RF
+systems and applications!
+Symposium Chair: Christian Waldschmidt, University of Ulm
+TPC Chair: Jeffrey Nanzer, Michigan State University
+TPC Vice Chair: Olga Boric-Lubecke, University of Hawaii
+A complete roster of RFSA2027 leadership roles and author information
+can be found at www.ims-ieee.org.
+
+RFSA Technical Areas
+RFSA1: Instrumentation and Measurement Techniques — Measurement
+techniques from MHz to THz for materials, linear and nonlinear devices,
+circuits, and systems; calibration and de-embedding techniques,
+measurement uncertainty, and over-the-air measurement methods
+and novel instrumentation.
+RFSA2: Integrated Transceivers and Phased Arrays — Design and
+characterization of complex III-V ICs, silicon ICs, heterogenous systems in
+the RF to millimeter-wave range and including narrowband and wideband
+designs; innovative circuits and sub-systems for communications, radar,
+imaging, and sensing applications; Integrated on-chip and on-package
+antennas and antenna systems.
+RFSA3: Microwave and Terahertz Photonics, THz systems — Photonic
+techniques for the generation, processing, control, and distribution of
+microwave, millimeter-wave, and THz signals, Radio-over-fiber links;
+design and characterization of microwave photonic and THz circuits;
+interaction between microwaves, THz waves, and optical waves; THz and
+quantum for communications, radar, imaging, and sensing applications.
+RFSA4: Wireless Power Transmission — Energy harvesting systems and
+applications, rectifiers, self-biased systems, combined data and power
+transfer systems.
+RFSA5: Sensing and RFID Systems — Short range wireless and RFID
+sensors, gas and fluidic sensors; passive and active tags from HF to
+millimeter-wave frequencies; RFID systems including wearables and ultralow-power.
+RFSA6: Microwave and Millimeter-wave Wireless Subsystems and
+Systems — Microwave/millimeter-wave subsystems such as beamformers;
+microwave and millimeter-wave (<300 GHz) communication systems,
+including 5G/6G, with hardware implementation for terrestrial, vehicular,
+and indoor applications, point-to-point links, cognitive and softwaredefined radios, MIMO, full-duplex technologies, shared and novel
+spectrum use, novel modulation schemes, and channel modeling.
+RFSA7: Radar and Imaging Systems — RF, millimeter-wave, and sub-THz
+radar and imaging systems, automotive radars, sensors for intelligent
+vehicular highway systems, UWB and broadband radar, remote sensing,
+radiometers, passive and active imaging systems, radar detection
+techniques, and related signal processing.
+
+RFSA8: UAV, Airborne and Space Systems — Sub-systems and systems
+for remote sensing for earth observation; positioning, navigation, and
+timing; space exploration, human spaceflight and space transportation;
+satellite communications including 5G/6G applications involving
+aerospace platforms; communication and sensor system for UAVs, high
+altitude platforms, airplanes, and satellites; space domain awareness and
+ground systems; UAV-borne sensing and communications; UAV detection
+and sensing.
+RFSA9: MHz-to-THz Devices, Circuits and Systems for Biological
+and Healthcare Applications — Electromagnetic field interaction at
+molecular, cellular, tissue and living systems levels; devices, circuits, and
+systems for characterizations of biological samples; microwave-enhanced
+chemistry; radar-based physiological sensors and their application;
+instrumentation and systems for biomedical diagnostic and therapeutic
+applications, including MRI and microwave imaging; wireless, wearable,
+and implantable devices for health monitoring.
+RFSA10: AI/ML for RF to Millimeter-wave — AI/ML for RF applications;
+algorithm implementations for solving microwave problems; new design
+strategies and approaches; novel datasets and data augmentation; digital
+twins; AI-based signal processing for sensing and communications;
+calibration, linearization, and system identification; edge AI for RF
+applications; robust and explainable AI for RF systems; hardware for AI.
+RFSA11: Microwave Field-matter Interaction, Material Sensing and High
+Power Applications — Industrial and scientific applications of microwave
+energy (e.g., chemistry, metallurgy, ceramic sintering, plasma generation,
+waste treatment, green materials, energy converters); MHz-to-THz
+sensing (from microwave microscopy to large surface/volume imaging) of
+materials for electronics and energy applications; multiphysics modeling
+of materials processing and characterization.
+RFSA12: Integrated Sensing and Communications — Joint RF-to-THz
+architectures that combine radar/sensing and communications in
+the same hardware; full-duplex and hardware-constrained waveform
+design; signal-integrity and interference limits; phased-array and
+reconfigurable-intelligent-surface front-ends; synchronized, coherent
+multi-perspective sensor networks; AI-assisted signal processing and
+resource management; ISAC-enabled applications such as UAV
+detection, environmental monitoring, and physiological sensing.
+RFSA13: Additional Innovative MHz-to-THz Systems and Applications —
+Submissions that describe innovative contributions in new and emerging
+areas of interest to the MTT community not falling under the above
+categories are encouraged.
+
+Paper Submission Deadline: 8 December 2026
+RFTT continues to focus on key topics in RF technology and techniques,
+including planar, non-planar, and integrated filters and passive circuits;
+MEMS, acoustic, ferrite, ferroelectric, and phase-change components;
+heterogeneous packaging, MCMs, and 3D manufacturing; Si and III-V
+semiconductor device technologies; blocks and circuits up to complete
+receivers and transmitters, including signal generation, modulators,
+and frequency conversion; low-noise amplifiers; power amplifiers and
+linearization techniques; quantum engineering circuits; and sub-THz to
+THz circuits.
+
+24–27 May 2027
+We are pleased to announce the IEEE MTT-S RF Technology & Techniques
+(RFTT) Symposium as part of the IMS for 2027. Following its successful
+introduction in 2026, RFTT will be held for the second time in this format.
+The symposium comprises much of the traditional IMS technical content,
+including microwave passive components, packaging, active devices, discrete
+microwave circuits, computer aided design (CAD), and computational EM,
+representing approximately half of the IMS technical content.
+
+The symposium will continue to feature the technical sessions, interactive
+forum, workshops, panels, plenary sessions and late breaking news
+papers that the community has come to expect. We invite researchers and
+industry professionals to contribute their latest findings and insights to
+RFTT2027. Join us in continuing the long tradition of presenting emerging
+RF technologies and techniques.
+Symposium Chair: Joe Bardin, Google/UMass Amherst
+TPC Chair: Steve Bowers, University of Virginia
+TPC Vice Chair: Jasmin Grosinger, University of Siegen
+A complete roster of RFTT2027 leadership roles and author information
+can be found at www.ims-ieee.org.
+
+RFTT Technical Areas
+RFTT1: Field Analysis, Guided Waves and Computational EM —
+Novel guiding, radiating, and electromagnetic structures; new analytical
+techniques and numerical methods for such structures, and new
+computational EM methods, including EM-coupled multiphysics modeling.
+
+RFTT11: Transmitters, Receivers and TX/RX Building Blocks — RF-to-THz
+full transmitters, receivers and transceiver building blocks, including frontend architectures, channel-select and interface circuitry, and switching
+functions.
+
+RFTT2: Circuit and System CAD — Linear and nonlinear simulation,
+design optimization, behavioral modeling, statistical analysis, space
+mapping, model order reduction, uncertainty quantification, stability
+analysis, non-EM multiphysics simulation, and design automation.
+
+RFTT12: Signal Generation, Modulators and Frequency Conversion —
+Signal sources, oscillators, synthesizers, modulators, mixers, frequency
+multipliers/dividers, and frequency-conversion circuits in silicon and III-V
+processes.
+
+RFTT3: AI-Enabled EM and Circuit Design — Design, optimization, and
+modeling of electromagnetic structures, circuits, and subsystems using
+AI/ML techniques, including inverse design, surrogate and data-driven
+modeling, generative methods, and algorithmic co-optimization across
+EM and active domains.
+
+RFTT13: RF and Millimeter-wave Low Noise Circuits — Microwave
+and millimeter-wave low-noise amplifiers, variable-gain amplifiers —
+LNAs, VGAs, detectors, integrated radiometers, and low-noise circuit
+characterization.
+
+RFTT4: Planar Passive Components and Circuits, Excluding Filters —
+Novel planar transmission-line components; artificial transmission lines,
+metamaterial structures, and high-impedance surfaces; planar couplers,
+dividers/ combiners, multiplexers, resonators, and lumped-element
+approaches.
+RFTT5: Planar Filters — Planar passive filters, including lumped elements,
+silicon or III-V integrated circuits, integrated passive devices (IPDs),
+theoretical filter and multiplexer synthesis methods.
+RFTT6: Non-planar Passive Components, Filters, and Other Devices —
+Transmission line components, resonators, filters and multiplexers based
+on dielectric, waveguide, coaxial, or other non-planar structures.
+RFTT7: Reconfigurable, Integrated and Active Filters, Phase Shifters and
+Couplers — Advances in reconfigurable filters, phase shifters and coupler
+designs and implementations, with features such as tunable bandwidth,
+shape, etc. Realized in various fabrication technologies (IC, PCB, 3D
+printing, etc.)
+RFTT8: Microwave Acoustic, Ferrite, Ferroelectric, Phase-change and
+MEMS Components — Surface and bulk acoustic wave devices including
+FBAR devices, bulk and thin-film ferrite components, ferroelectricbased devices, and phase-change devices and components. RF
+microelectromechanical and micromachined components and subsystems.
+RFTT9: Packaging, MCMs and 3D Manufacturing Technologies —
+Component and subsystem packaging, assembly methods, multi-chip
+modules, wafer stacking, heterogeneous integration and chiplet-based RF
+components and sub-systems, 3D interconnect, and integrated cooling;
+package characterization; novel processes related to inkjet printing, 3D
+printing, or other additive manufacturing techniques.
+RFTT10: Semiconductor Device Technologies and Modeling — RF to THz
+devices on III-V, silicon, and other emerging technologies, including 2D
+devices; MMIC and Si RFIC manufacturing, reliability, failure analysis, yield,
+and cost; linear and nonlinear device modeling (CAD, compact, physicsbased, empirical) including characterization, parameter extraction, and
+validation.
+
+RFTT14: Quantum Computing, Devices, Circuits and Microwave
+Cryogenic Technologies — Microwave and photonic devices and circuits
+for quantum computing and quantum sensing. Devices and circuits using
+microwave and photonics technologies operating at cryogenic
+temperatures.
+RFTT15: HF/VHF/UHF Circuits and Technologies — Advances in passive
+and active circuits (including PAs), components, and technologies that
+operate in the HF, VHF, and UHF frequency ranges (<1 GHz).
+RFTT16: Linearization and Transmitter Techniques for Power Amplifiers
+— Power amplifier behavioral modeling; linearization and pre-distortion
+techniques; envelope-tracking, outphasing, and Doherty transmitters for
+III-V and silicon technologies, MIMO.
+RFTT17: Low-power (<10 W) RF and Microwave Amplifiers, Below 30 GHz
+— Advances in discrete and integrated power amplifier devices and design
+techniques based on Si and III-V devices, demonstrating improved power,
+efficiency, and linearity performance for the microwave band (1-30 GHz).
+RFTT18: High-power (≥10 W) RF and Microwave Amplifiers, Below 30 GHz
+— Advances in discrete and IC power amplifier devices and design
+techniques based on III-V and LD-MOS devices, demonstrating improved
+power, efficiency, and linearity for the microwave band (1-30 GHz); powercombining techniques for SSPA and vacuum electronics.
+RFTT19: Millimeter-wave and THz Power Amplifiers — Advances in
+IC power amplifier circuits, design techniques, and power combining
+based on Si and III-V compound semiconductor devices demonstrating
+improved power, efficiency, and linearity for millimeter-wave and THz
+bands; vacuum electronics for millimeter-wave.
+RFTT20: Millimeter-wave, Terahertz and Photonic Circuits Excluding PAs
+— Monolithic/hybrid ICs in silicon, III-V, and emerging platforms; sources,
+detectors, multipliers, mixers, waveguides, quasi-optics, microwave
+photonic circuits, electronically controlled antennas, reconfigurable
+intelligent surfaces, packaging, integration, and measurement techniques
+for next-generation sensing and communications.
+
+

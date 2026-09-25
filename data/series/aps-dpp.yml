@@ -1,0 +1,13 @@
+id: aps-dpp
+acronym: APS DPP
+full_name: APS Division of Plasma Physics Annual Meeting
+name_zh: 美国物理学会等离子体物理分会年会
+aliases:
+  - DPP
+directions: [phys/plasma]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 往届都在每年 10–11 月举办
+data_level: curated
+note_zh: 等离子体与聚变方向规模最大的年会，按摘要投稿。

@@ -1,0 +1,51 @@
+* Skip to primary navigation
+ * Skip to content
+ * Skip to footer
+
+ * Calls
+   * Main Conference Papers
+   * Industry Track Papers
+   * Tutorials
+   * Workshop Proposals
+ * Committee
+   * Organizing Committee
+ * Sponsors
+ * Participants Info
+ * About COLING
+ * FAQ
+
+Toggle menu
+
+The 32nd International Conference on Computational Linguistics
+
+Macau, China
+
+May 9 – 14, 2027
+
+Welcome!
+
+The 32nd International Conference on Computational Linguistics (COLING 2027) will take place in Macau, China from May 9th to 14th, 2027.
+
+News
+
+September 17, 2026   Call for Industry Track Papers is posted.
+
+September 10, 2026   Call for Tutorial Proposals is posted.
+
+July 29, 2026   Call for Main Conference Papers is posted.
+
+July 28, 2026   Call for Workshop Proposals is posted.
+
+Important Dates
+
+ARR submission deadline         Monday              October 12, 2026
+Commitment after meta-reviews   Wednesday           December 23, 2026
+Notification of acceptance      Wednesday           February 10, 2027
+Virtual Conference              Thursday - Friday   May 6-7, 2027
+Main Conference                 Sunday - Friday     May 9–14, 2027
+
+All deadlines are 11.59 pm UTC -12h (anywhere on earth).
+
+ * Follow:
+
+© 2026 COLING. Powered by Jekyll & Minimal Mistakes.

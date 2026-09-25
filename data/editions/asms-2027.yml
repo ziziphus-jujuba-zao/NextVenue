@@ -1,0 +1,34 @@
+id: asms-2027
+series: asms
+name: ASMS 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: asms-2027-annual-conference
+  quote: "February 5 | Abstract submission deadline. This is a firm deadline, plan accordingly!"
+location: { city: Houston, country: USA, country_code: US }
+dates: { start: 2027-06-06, end: 2027-06-10 }
+milestones:
+  - type: abstract
+    at: 2027-02-05
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: asms-2027-annual-conference
+    quote: "February 5 | Abstract submission deadline. This is a firm deadline, plan accordingly!"
+    note_zh: 官网写明截止不延期；12 月开放提交。页面没写时刻和时区，按北京时间当天 23:59 算。
+  - type: early_registration
+    status: tba
+    tz: America/Chicago
+    note_zh: 年会首页还没有 2027 届的注册日期。
+  - type: conference
+    start: 2027-06-06
+    end: 2027-06-10
+    tz: America/Chicago
+    status: confirmed
+    src: asms-2027-annual-conference
+    quote: "June 6 - 10, 2027 | Short Courses June 5 & 6"
+    note_zh: 第 74 届，会场是休斯敦 George R. Brown Convention Center；短期课程 6/5–6。
+last_checked: 2026-09-25

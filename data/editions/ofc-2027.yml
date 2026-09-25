@@ -1,0 +1,49 @@
+id: ofc-2027
+series: ofc
+name: OFC 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: extended_abstract
+submission_evidence:
+  src: ofc-2027-guidelines
+  quote: "Be sure to confirm page count and paper size requirements for the meeting to which you are submitting. OFC papers are three pages."
+  note_zh: 35 词摘要加 3 页正文一起交，经技术委员会盲审。
+location: { city: Los Angeles, country: USA, country_code: US }
+dates: { start: 2027-03-07, end: 2027-03-11 }
+milestones:
+  - type: paper
+    label_zh: 摘要与 3 页正文截止
+    at: 2026-10-20T12:00
+    tz: America/New_York
+    status: confirmed
+    src: ofc-2027-submit
+    quote: "Abstract and Summary Submission Deadline: Tuesday, 20 October 2026, 12:00 EDT (UTC-04:00)"
+    note_zh: 截止后不能修改。北京时间 10/21 00:00。
+  - type: notification
+    start: 2026-12-14
+    end: 2026-12-18
+    tz: America/New_York
+    tz_assumed: true
+    status: confirmed
+    src: ofc-2027-author-timeline
+    quote: "14 - 18 December 2026 Author Notification Letters Sent"
+    note_zh: 官网只写了 12/14–18 这一周，没写时区。
+  - type: early_registration
+    at: 2027-02-05
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ofc-2027-author-timeline
+    quote: "05 February 2027 Advance Registration Deadline"
+    note_zh: 官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: conference
+    start: 2027-03-07
+    end: 2027-03-11
+    tz: America/Los_Angeles
+    status: confirmed
+    src: ofc-2027-submit
+    quote: "Technical Conference: 07 - 11 March 2027"
+    note_zh: 会场是 Los Angeles Convention Center；展会 3/9–11。
+last_checked: 2026-09-25
+note_zh: 另有 Demo Zone（11/17 截止）和 postdeadline 论文（2027-02-23 截止，只收重大新结果），这里没有单列。

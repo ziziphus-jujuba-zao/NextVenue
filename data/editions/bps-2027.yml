@@ -1,0 +1,52 @@
+id: bps-2027
+series: bps
+name: BPS 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: bps-2027-abstracts
+  quote: "There is a limit of 300 words for the title and body text of your abstract submission and a 25 author limit."
+location: { city: Philadelphia, country: USA, country_code: US }
+dates: { start: 2027-02-20, end: 2027-02-24 }
+milestones:
+  - type: abstract
+    label_zh: 早摘要截止
+    at: 2026-10-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: bps-2027-registration
+    quote: "All early abstracts submitted by October 1, 2026, and accepted by the Program Committee, will be published as a supplement to the Biophysical Journal."
+    note_zh: 官网这句没写时刻和时区，按北京时间当天 23:59 算。已投的早摘要可以修改或撤回到 10/5 23:59（美东）。
+  - type: notification
+    status: tba
+    tz: America/New_York
+    src: bps-2027-abstracts
+    quote: "The Biophysical Society Office will email early abstract scheduling notice to Presenting Authors only in late November 2026."
+    note_zh: 官网只说 11 月下旬发排程通知，只发给报告人，没有具体日期。
+  - type: early_registration
+    at: 2027-01-05T23:59
+    tz: America/New_York
+    status: confirmed
+    src: bps-2027-registration
+    quote: "Early Registration Deadline: January 5, 2027, 11:59 PM, USA Eastern"
+  - type: refund_cutoff
+    label_zh: 退注册截止（扣 $50）
+    at: 2027-01-05T23:59
+    tz: America/New_York
+    status: confirmed
+    src: bps-2027-registration
+    quote: "Refund requests must be received by the Society Office no later than January 5, 2027, 11:59 PM, USA Eastern."
+    note_zh: 退款都要扣 $50 手续费。
+  - type: conference
+    start: 2027-02-20
+    end: 2027-02-24
+    tz: America/New_York
+    status: confirmed
+    src: bps-2027-general-info
+    quote: "February 20-24, 2027"
+    note_zh: 会场是费城的 Pennsylvania Convention Center。
+last_checked: 2026-09-25
+note_zh: 早摘要的提交手续费 $75，不退。晚摘要（late abstract）的截止日这次没在官网页面上找到，未收录。

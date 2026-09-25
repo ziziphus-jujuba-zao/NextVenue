@@ -1,0 +1,10 @@
+id: ccdc
+acronym: CCDC
+full_name: Chinese Control and Decision Conference
+name_zh: 中国控制与决策会议
+directions: [eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 5 月，国内
+data_level: curated

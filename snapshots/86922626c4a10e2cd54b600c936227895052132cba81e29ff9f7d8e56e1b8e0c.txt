@@ -1,0 +1,155 @@
+Skip to content
+RTAS 2027 Call for Papers Submissions Organizing Committee About RTAS
+ * Call for Papers
+ * Submissions
+ * Organizing Committee
+ * About RTAS
+
+LightDark System
+ * Light
+ * Dark
+ * System
+
+Important Dates:
+
+ * Submission deadline:
+
+   Nov 5, 2026
+
+ * Author response:
+
+   Jan 11-15, 2027
+
+ * Notification:
+
+   Jan 28, 2027 (tenative)
+
+ * Brief Presentation deadline:
+
+   Feb 11, 2027
+
+ * Artifact Evaluation deadline:
+
+   Feb 18, 2026
+
+ * Camera-Ready deadline:
+
+   Mar 30, 2027
+
+ * Conference:
+
+   May 17-20, 2027
+
+(All times UTC-12, or "anywhere on earth.")
+
+Table of Contents:
+ * Scope & Core Requirements
+ * Timing Requirements
+ * Innovations Supporting Fundamental Properties of Systems with Timing Requirements
+ * Broadened Application Domains
+ * Technical Tracks
+ * Track 1: Systems and Applications
+ * Track 2: Applied Methodologies and Foundations
+ * Submission Guidelines & Policy
+ * Important Dates
+
+Scroll to top
+
+Call for Papers
+
+33rd IEEE Real-Time and Embedded Technology and Applications Symposium
+A part of CPS-IoT Week | Boulder, Colorado | May 17-20, 2027
+
+RTAS is a premier, top-tier conference focusing on systems with timing requirements. As computing paradigms evolve, the need for predictability, dependability, and efficiency extends far beyond classical hard real-time systems. RTAS 2027 embraces this evolution. We explicitly welcome submissions from broader computing communities—including distributed systems, cloud/edge computing, computer architecture, systems software, computer security, and artificial intelligence—wherever predictability, latency bounds, and timing guarantees are core design objectives.
+
+RTAS 2027 welcomes papers describing applications, case studies, methodologies, tools, algorithms, operating systems, middleware, and hardware innovations that contribute to the state of the art in the design, implementation, validation, verification, and evolution of systems with timing requirements.
+
+Scope & Core Requirements
+
+To be in scope, papers must explicitly consider at least one of the following two properties:
+
+Timing Requirements
+
+The timing requirements of interest are broadly defined. They include not only classical hard real-time constraints, but also soft real-time, probabilistic, quality-of-service (QoS), throughput, or latency requirements. As an example, work that makes a system run faster on average is not in scope; however, work that provides deterministic guarantees, statistical bounds, or predictable performance isolation for system response time or latency (e.g., in AI pipelines, edge microservices, or robotic systems) is in scope. Authors should specifically state the types of timing-related properties addressed by the contribution(s) presented in their paper.
+
+Innovations Supporting Fundamental Properties of Systems with Timing Requirements
+
+Work that supports the design, implementation, verification, validation, or evaluation of predictable, dependable, efficient, or next-generation systems with timing requirements is welcome. Authors should specifically state how their work can be used or built upon to ultimately advance the state of the art in systems with timing requirements.
+
+ * In-Scope Example: Work on verification and automated test case generation of the codebase of an operating system to achieve timing or timing isolation guarantees is in scope. Similarly, work on a compiler that reduces the worst-case execution time (WCET) or provides sound distributions of timing information and timing variability is in scope.
+ * Out-of-Scope Example: A paper on automated test case generation for functional correctness of embedded systems is not in scope, as it does not provide explicit improvements to support systems with timing requirements.
+
+Broadened Application Domains
+
+We encourage submissions spanning a wide array of application domains, ranging from traditional embedded environments to cutting-edge emerging fields. Relevant areas include, but are not limited to:
+
+ * Resource-constrained embedded systems.
+ * Distributed cyber-physical systems (CPS), robotics, autonomous driving stacks, and aerospace systems.
+ * Cloud/edge/fog computing systems, microservice and serverless architectures, and next-generation clouds and data centers.
+ * Internet of Things (IoT), mobile computing, smart grids, and smart cities.
+ * Real-time middleware and frameworks.
+ * Predictable large-scale AI/ML infrastructures, streaming data pipelines, and real-time signal processing.
+ * Sustainable and energy-aware computing systems operating under timing constraints.
+
+RTAS welcomes both papers supported by formal proofs and papers that focus exclusively on empirical validation of timing requirements, e.g., using traces, hardware testbeds, or performance models inferred from data. Research results from fundamental research, (case-driven) applied research, and (pragmatic) industry practice are all in scope.
+
+Technical Tracks
+
+The conference consists of two tracks:
+
+Track 1: Systems and Applications
+
+This track focuses on empirical research pertaining to system- or component-level analysis, optimization, and verification, as well as applications, runtime software, and hardware architectures for systems with timing requirements. We highly encourage submissions from the systems, networking, architecture, and design automation communities exploring timing issues and predictability. Topics relevant to this track include, but are not limited to:
+
+ * Applications: Real-world deployments with timing requirements, such as autonomous systems, large-scale cyber-physical systems, real-time clouds and datacenters.
+ * Software stacks: Real-time and embedded operating systems, hypervisors, virtualization, containerization, middleware, and runtime frameworks.
+ * Hardware architectures: Predictable memory hierarchies, FPGAs, GPUs, neuromorphic platforms, and specialized hardware accelerators.
+ * Networking: Networks with timing requirements, Time-Sensitive Networking (TSN), predictable wireless protocols, and deterministic software-defined networks.
+ * Distributed infrastructures: Microservice technologies, serverless platforms, cloud and edge orchestration, and CPS/IoT infrastructure.
+ * Real-time AI/ML: Predictable AI/ML pipelines, federated learning, real-time inference, and latency-bounded LLM serving systems.
+ * Tools and analysis: Application profiling, WCET and probabilistic timing analysis, timing-aware compilers, developer tools, benchmarks, and real-world case studies.
+
+Track 1 Submission Requirements: Papers submitted to this track should focus on specific systems and implementations. Authors must include a section with experimental results performed on a real implementation or demonstrate applicability to an industrial case study or working system. The experimental evaluation or case study should clearly highlight the key lessons learned. Simulation-based results are acceptable for architectural simulation, or other cases where authors clearly motivate why it is not feasible to develop and evaluate a real system. Papers discussing design and implementation experiences on real industrial systems are especially encouraged.
+
+Empirical survey-based research focused on the real-time systems field is also welcome in this track. This type of research uses surveys, questionnaires, interviews, use cases, or other empirical techniques to obtain information about the past, current, and future state of play in the research, design, development, verification, validation, and deployment of systems with timing requirements.
+
+Track 2: Applied Methodologies and Foundations
+
+This track focuses on fundamental models and analysis techniques applicable to systems with timing requirements. It welcomes contributions that develop rigorous approaches to practical challenges in such systems, including knowledge-based, data-driven, and hybrid models, as well as analytical, statistical, and probabilistic methods. Topics include, but are not limited to:
+
+ * Modeling: Modelling languages, modelling methods, data-driven model learning, model validation and calibration.
+ * Resource management: Scheduling algorithms, multi-resource allocation methods, shared-resource isolation, energy/thermal-aware management, and cross-layer orchestration techniques.
+ * Optimization: System-level optimization, design space exploration, and hardware-software, control-platform, or inference-scheduling co-design techniques.
+ * Verification and validation: Formal verification methods, contract-based design, testing, and validation methodologies.
+
+Track 2 Submission Requirements: Papers must describe the main context or use case for the proposed methods and provide clear motivating examples based on real systems. The system models and any assumptions used in the derivation of the methods must be applicable to real systems and reflect actual needs. Papers must include a section on experimental results, preferably including a case study based on information from a real system. The use of synthetic workloads and models is acceptable if appropriately motivated and used to provide a systematic evaluation.
+
+Submission Guidelines & Policy
+
+ * Double-Anonymous Peer Review: RTAS 2027 follows a double-anonymous peer reviewing process, where author identities and affiliations will not be revealed to reviewers.
+ * Author Rebuttal Phase: Authors will have the opportunity to respond to reviewer comments during a dedicated rebuttal phase before acceptance decisions are made, solely to provide clarifications and correct misconceptions. The response will not allow authors to introduce new material beyond the original submission or promise such material for the camera-ready version.
+ * Artifact Evaluation (AE): There will be an optional Artifact Evaluation process for accepted papers that assesses the reproducibility of the work. Authors are strongly encouraged to submit a repeatability package. GitHub supports the creation of anonymous repositories for conference evaluation.
+ * Generative AI Policy: Authors remain solely responsible for submission accuracy and plagiarism. Generative AI tools may be used to assist with paper preparation (such as language editing or grammar enhancement); however, any AI-generated content—including text, figures, images, or code—must be used responsibly and disclosed transparently in the paper’s Acknowledgments section, detailing the exact sections or research artifacts assisted. All generative AI usage must conform to the IEEE TCRTS Responsible Use of Generative-AI Guideline.
+
+Important Dates
+
+Milestone                                      Date
+Submission Deadline (Firm)                     Thursday, November 5, 2026
+Author Response Period                         Monday, January 11 – Friday, January 15, 2027
+Author Notification (tentative)                Thursday, January 28, 2027
+BP (Brief Presentation) Submission Deadline    Thursday, February 11, 2027
+AE (Artifact Evaluation) Submission Deadline   Thursday, February 18, 2027
+Camera-Ready Submission Deadline               Tuesday, March 30, 2027
+Conference Dates                               Tuesday, May 17 – Friday, May 20, 2027
+
+(All times UTC-12, or “Anywhere on Earth.”)
+
+LightDark System
+ * Light
+ * Dark
+ * System
+
+----------------------------------------
+
+© 2027 RTAS. All rights reserved
+Template by hugo.io Imprint Data Protection Transparency

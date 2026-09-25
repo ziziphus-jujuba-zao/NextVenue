@@ -1,0 +1,11 @@
+id: dac
+acronym: DAC
+full_name: Design Automation Conference
+directions: [cs/systems, eng/eda]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每年 6–7 月在美国举办，截稿在上一年 11 月。
+dblp: conf/dac
+ccfddl: DS/DAC
+data_level: curated

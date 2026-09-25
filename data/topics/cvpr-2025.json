@@ -1,0 +1,315 @@
+{
+ "schema": 1,
+ "edition": "cvpr-2025",
+ "series": "cvpr",
+ "year": 2025,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 CVPR 2025 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/cvpr/cvpr2025"
+  ],
+  "retrieved_at": "2026-09-25T09:49:39Z"
+ },
+ "papers_used": 2871,
+ "official_accepted": {
+  "value": 2872,
+  "source_url": "https://www.computer.org/csdl/proceedings-article/cvpr/2025/436400z382/299bDhaj7A4",
+  "quote": "CVPR 2025 received 13008 valid paper submissions, a 13% increase from last CVPR. ... At the end of this process, 2,872 papers were accepted, for a 22.1% overall acceptance rate.",
+  "src": "cvpr-2025-front-matter",
+  "quote_check": "snapshot"
+ },
+ "coverage": 0.9997,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 562,
+   "share_pct": 19.6,
+   "prev": {
+    "year": 2024,
+    "count": 554,
+    "share_pct": 20.4,
+    "delta_pp": -0.8
+   },
+   "examples": [
+    "PERSE: Personalized 3D Generative Avatars from A Single Portrait.",
+    "Spotting the Unexpected (STU): A 3D LiDAR Dataset for Anomaly Segmentation in Autonomous Driving.",
+    "Point Clouds Meets Physics: Dynamic Acoustic Field Fitting Network for Point Cloud Understanding."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 407,
+   "share_pct": 14.2,
+   "prev": {
+    "year": 2024,
+    "count": 269,
+    "share_pct": 9.9,
+    "delta_pp": 4.3
+   },
+   "examples": [
+    "ICT: Image-Object Cross-Level Trusted Intervention for Mitigating Object Hallucination in Large Vision-Language Models.",
+    "BOLT: Boost Large Vision-Language Model Without Training for Long-form Video Understanding.",
+    "Skip Tuning: Pre-trained Vision-Language Models are Effective and Efficient Adapters Themselves."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "video",
+   "label_zh": "视频",
+   "label_en": "Video",
+   "count": 384,
+   "share_pct": 13.4,
+   "prev": {
+    "year": 2024,
+    "count": 249,
+    "share_pct": 9.2,
+    "delta_pp": 4.2
+   },
+   "examples": [
+    "BOLT: Boost Large Vision-Language Model Without Training for Long-form Video Understanding.",
+    "MMVU: Measuring Expert-Level Multi-Discipline Video Understanding.",
+    "Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 353,
+   "share_pct": 12.3,
+   "prev": {
+    "year": 2024,
+    "count": 322,
+    "share_pct": 11.9,
+    "delta_pp": 0.4
+   },
+   "examples": [
+    "ReDiffDet: Rotation-equivariant Diffusion Model for Oriented Object Detection.",
+    "Spatial-Temporal Graph Diffusion Policy with Kinematic Modeling for Bimanual Robotic Manipulation.",
+    "VerbDiff: Text-Only Diffusion Models with Enhanced Interaction Awareness."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 277,
+   "share_pct": 9.6,
+   "prev": {
+    "year": 2024,
+    "count": 247,
+    "share_pct": 9.1,
+    "delta_pp": 0.5
+   },
+   "examples": [
+    "MovieBench: A Hierarchical Movie Level Dataset for Long Video Generation.",
+    "DoraCycle: Domain-Oriented Adaptation of Unified Generative Model in Multimodal Cycles.",
+    "Exploring Timeline Control for Facial Motion Generation."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 170,
+   "share_pct": 5.9,
+   "prev": {
+    "year": 2024,
+    "count": 116,
+    "share_pct": 4.3,
+    "delta_pp": 1.6
+   },
+   "low_precision": true,
+   "examples": [
+    "Spotting the Unexpected (STU): A 3D LiDAR Dataset for Anomaly Segmentation in Autonomous Driving.",
+    "VISCO: Benchmarking Fine-Grained Critique and Correction Towards Self-Improvement in Visual Reasoning.",
+    "MovieBench: A Hierarchical Movie Level Dataset for Long Video Generation."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "segmentation",
+   "label_zh": "分割",
+   "label_en": "Segmentation",
+   "count": 162,
+   "share_pct": 5.6,
+   "prev": {
+    "year": 2024,
+    "count": 208,
+    "share_pct": 7.7,
+    "delta_pp": -2.1
+   },
+   "examples": [
+    "Spotting the Unexpected (STU): A 3D LiDAR Dataset for Anomaly Segmentation in Autonomous Driving.",
+    "Distilling Spectral Graph for Object-Context Aware Open-Vocabulary Semantic Segmentation.",
+    "Revisiting Audio-Visual Segmentation with Vision-Centric Transformer."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "human",
+   "label_zh": "姿态估计、人体动作与数字人",
+   "label_en": "Pose estimation, human motion & avatars",
+   "count": 161,
+   "share_pct": 5.6,
+   "prev": {
+    "year": 2024,
+    "count": 173,
+    "share_pct": 6.4,
+    "delta_pp": -0.8
+   },
+   "examples": [
+    "PERSE: Personalized 3D Generative Avatars from A Single Portrait.",
+    "WildAvatar: Learning In-the-wild 3D Avatars from the Web.",
+    "Exploring Timeline Control for Facial Motion Generation."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "open_world",
+   "label_zh": "零样本 / 小样本 / 开放词表",
+   "label_en": "Zero/few-shot & open-vocabulary",
+   "count": 152,
+   "share_pct": 5.3,
+   "prev": {
+    "year": 2024,
+    "count": 148,
+    "share_pct": 5.5,
+    "delta_pp": -0.2
+   },
+   "examples": [
+    "Distilling Spectral Graph for Object-Context Aware Open-Vocabulary Semantic Segmentation.",
+    "Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail.",
+    "DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 146,
+   "share_pct": 5.1,
+   "prev": {
+    "year": 2024,
+    "count": 158,
+    "share_pct": 5.8,
+    "delta_pp": -0.7
+   },
+   "examples": [
+    "Revisiting Audio-Visual Segmentation with Vision-Centric Transformer.",
+    "Spiking Transformer with Spatial-Temporal Attention.",
+    "Improving Adversarial Transferability on Vision Transformers via Forward Propagation Refinement."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 143,
+   "share_pct": 5.0,
+   "prev": {
+    "year": 2024,
+    "count": 133,
+    "share_pct": 4.9,
+    "delta_pp": 0.1
+   },
+   "low_precision": true,
+   "examples": [
+    "Stereo Anywhere: Robust Zero-Shot Deep Stereo Matching Even Where Either Stereo or Mono Fail.",
+    "Improving Adversarial Transferability on Vision Transformers via Forward Propagation Refinement.",
+    "Mind the Gap: Detecting Black-box Adversarial Attacks in the Making through Query Update Analysis."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "gs_nerf",
+   "label_zh": "高斯泼溅 / NeRF",
+   "label_en": "Gaussian splatting / NeRF (neural rendering)",
+   "count": 131,
+   "share_pct": 4.6,
+   "prev": {
+    "year": 2024,
+    "count": 119,
+    "share_pct": 4.4,
+    "delta_pp": 0.2
+   },
+   "examples": [
+    "4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models.",
+    "Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives.",
+    "PUP 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 116,
+   "share_pct": 4.0,
+   "prev": {
+    "year": 2024,
+    "count": 127,
+    "share_pct": 4.7,
+    "delta_pp": -0.7
+   },
+   "examples": [
+    "Distilling Spectral Graph for Object-Context Aware Open-Vocabulary Semantic Segmentation.",
+    "Quantization without Tears.",
+    "Exploring Sparse MoE in GANs for Text-conditioned Image Synthesis."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 114,
+   "share_pct": 4.0,
+   "prev": {
+    "year": 2024,
+    "count": 73,
+    "share_pct": 2.7,
+    "delta_pp": 1.3
+   },
+   "examples": [
+    "CountLLM: Towards Generalizable Repetitive Action Counting via Large Language Model.",
+    "Patient-Level Anatomy Meets Scanning-Level Physics: Personalized Federated Low-Dose CT Denoising Empowered by Large Language Model.",
+    "Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "restoration",
+   "label_zh": "底层视觉（复原/超分）",
+   "label_en": "Low-level vision (restoration / super-resolution)",
+   "count": 112,
+   "share_pct": 3.9,
+   "prev": {
+    "year": 2024,
+    "count": 101,
+    "share_pct": 3.7,
+    "delta_pp": 0.2
+   },
+   "examples": [
+    "Multi-Modal Synergistic Implicit Image Enhancement for Efficient Optical Flow Estimation.",
+    "Towards Enhanced Image Inpainting: Mitigating Unwanted Object Insertion and Preserving Color Consistency.",
+    "CoA: Towards Real Image Dehazing via Compression-and-Adaptation."
+   ]
+  }
+ ]
+}

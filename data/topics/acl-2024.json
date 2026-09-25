@@ -1,0 +1,316 @@
+{
+ "schema": 1,
+ "edition": "acl-2024",
+ "series": "acl",
+ "year": 2024,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 ACL 2024 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会长文和短文；Findings、demo、industry、学生研讨会不算",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/acl/acl2024-1",
+   "https://dblp.org/db/conf/acl/acl2024s"
+  ],
+  "retrieved_at": "2026-09-25T09:49:43Z"
+ },
+ "papers_used": 933,
+ "official_accepted": {
+  "value": 940,
+  "source_url": "https://aclanthology.org/2024.acl-long.0.pdf",
+  "quote": "In total, the denominator for the acceptance rate calculation is 4244 + 3 + 160= 4407. Among these, 2931 were committed to ACL. Among the committed papers, 940 were accepted to the Main Conference. The acceptance rate for Main Conference papers is therefore 940 / 4407 = 21.3%.",
+  "src": "acl-2024-front-matter",
+  "quote_check": "snapshot"
+ },
+ "coverage": 0.9926,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 413,
+   "share_pct": 44.3,
+   "prev": {
+    "year": 2023,
+    "count": 144,
+    "share_pct": 13.4,
+    "delta_pp": 30.9
+   },
+   "examples": [
+    "Lightweight reranking for language model generations.",
+    "CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning.",
+    "Not All Countries Celebrate Thanksgiving: On the Cultural Dominance in Large Language Models."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 160,
+   "share_pct": 17.1,
+   "prev": {
+    "year": 2023,
+    "count": 133,
+    "share_pct": 12.4,
+    "delta_pp": 4.7
+   },
+   "low_precision": true,
+   "examples": [
+    "DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Financial Documents.",
+    "KnowledgeFMath: A Knowledge-Intensive Math Reasoning Dataset in Finance Domains.",
+    "API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "multilingual",
+   "label_zh": "多语言 / 机器翻译",
+   "label_en": "Multilingual / machine translation",
+   "count": 100,
+   "share_pct": 10.7,
+   "prev": {
+    "year": 2023,
+    "count": 155,
+    "share_pct": 14.4,
+    "delta_pp": -3.7
+   },
+   "examples": [
+    "Text Embedding Inversion Security for Multilingual Language Models.",
+    "Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models.",
+    "AGB-DE: A Corpus for the Automated Legal Assessment of Clauses in German Consumer Contracts."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 69,
+   "share_pct": 7.4,
+   "prev": {
+    "year": 2023,
+    "count": 64,
+    "share_pct": 6.0,
+    "delta_pp": 1.4
+   },
+   "examples": [
+    "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models.",
+    "Model Composition for Multimodal Large Language Models.",
+    "DocLLM: A Layout-Aware Generative Language Model for Multimodal Document Understanding."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "reasoning",
+   "label_zh": "推理（思维链/数学）",
+   "label_en": "Reasoning (CoT / math)",
+   "count": 69,
+   "share_pct": 7.4,
+   "prev": {
+    "year": 2023,
+    "count": 64,
+    "share_pct": 6.0,
+    "delta_pp": 1.4
+   },
+   "examples": [
+    "TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning.",
+    "CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning.",
+    "DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Financial Documents."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "icl_prompting",
+   "label_zh": "上下文学习 / 提示",
+   "label_en": "In-context learning / prompting",
+   "count": 59,
+   "share_pct": 6.3,
+   "prev": {
+    "year": 2023,
+    "count": 64,
+    "share_pct": 6.0,
+    "delta_pp": 0.3
+   },
+   "examples": [
+    "Conundrums in Cross-Prompt Automated Essay Scoring: Making Sense of the State of the Art.",
+    "Exploring Hybrid Question Answering via Program-based Prompting.",
+    "MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "finetuning",
+   "label_zh": "微调 / 参数高效 / 后训练",
+   "label_en": "Fine-tuning / PEFT / post-training",
+   "count": 52,
+   "share_pct": 5.6,
+   "prev": {
+    "year": 2023,
+    "count": 47,
+    "share_pct": 4.4,
+    "delta_pp": 1.2
+   },
+   "examples": [
+    "INTERS: Unlocking the Power of Large Language Models in Search with Instruction Tuning.",
+    "IAPT: Instance-Aware Prompt Tuning for Large Language Models.",
+    "Advancement in Graph Understanding: A Multimodal Benchmark and Fine-Tuning of Vision-Language Models."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "safety_alignment",
+   "label_zh": "安全与对齐",
+   "label_en": "Safety & alignment",
+   "count": 47,
+   "share_pct": 5.0,
+   "prev": {
+    "year": 2023,
+    "count": 9,
+    "share_pct": 0.8,
+    "delta_pp": 4.2
+   },
+   "examples": [
+    "How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs.",
+    "Investigating Cultural Alignment of Large Language Models.",
+    "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "speech_audio",
+   "label_zh": "语音与音频",
+   "label_en": "Speech & audio",
+   "count": 43,
+   "share_pct": 4.6,
+   "prev": {
+    "year": 2023,
+    "count": 37,
+    "share_pct": 3.4,
+    "delta_pp": 1.2
+   },
+   "examples": [
+    "Speech vs. Transcript: Does It Matter for Human Annotators in Speech Summarization?",
+    "Explainability and Hate Speech: Structured Explanations Make Social Media Moderators Faster.",
+    "M³AV: A Multimodal, Multigenre, and Multipurpose Audio-Visual Academic Lecture Dataset."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 40,
+   "share_pct": 4.3,
+   "prev": {
+    "year": 2023,
+    "count": 34,
+    "share_pct": 3.2,
+    "delta_pp": 1.1
+   },
+   "examples": [
+    "CANDLE: Iterative Conceptualization and Instantiation Distillation from Large Language Models for Commonsense Reasoning.",
+    "NACL: A General and Effective KV Cache Eviction Framework for LLM at Inference Time.",
+    "BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "rag_retrieval",
+   "label_zh": "检索 / 检索增强生成",
+   "label_en": "Retrieval / RAG",
+   "count": 40,
+   "share_pct": 4.3,
+   "prev": {
+    "year": 2023,
+    "count": 37,
+    "share_pct": 3.4,
+    "delta_pp": 0.9
+   },
+   "examples": [
+    "Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation.",
+    "Legal Case Retrieval: A Survey of the State of the Art.",
+    "An Information Bottleneck Perspective for Effective Noise Filtering on Retrieval-Augmented Generation."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 40,
+   "share_pct": 4.3,
+   "prev": {
+    "year": 2023,
+    "count": 54,
+    "share_pct": 5.0,
+    "delta_pp": -0.7
+   },
+   "low_precision": true,
+   "examples": [
+    "Defending Against Alignment-Breaking Attacks via Robustly Aligned LLM.",
+    "Open-Set Semi-Supervised Text Classification via Adversarial Disagreement Maximization.",
+    "Robust Frame-Semantic Models with Lexical Unit Trees and Negative Samples."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "qa",
+   "label_zh": "问答",
+   "label_en": "Question answering",
+   "count": 39,
+   "share_pct": 4.2,
+   "prev": {
+    "year": 2023,
+    "count": 62,
+    "share_pct": 5.8,
+    "delta_pp": -1.6
+   },
+   "examples": [
+    "TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning.",
+    "Exploring Hybrid Question Answering via Program-based Prompting.",
+    "Probing the Multi-turn Planning Capabilities of LLMs via 20 Question Games."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "dialogue",
+   "label_zh": "对话系统",
+   "label_en": "Dialogue / conversational",
+   "count": 38,
+   "share_pct": 4.1,
+   "prev": {
+    "year": 2023,
+    "count": 82,
+    "share_pct": 7.6,
+    "delta_pp": -3.5
+   },
+   "examples": [
+    "On the Multi-turn Instruction Following for Conversational Web Agents.",
+    "Zero-Shot Cross-Domain Dialogue State Tracking via Dual Low-Rank Adaptation.",
+    "Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "knowledge_ie",
+   "label_zh": "知识图谱 / 信息抽取",
+   "label_en": "Knowledge graphs / information extraction",
+   "count": 38,
+   "share_pct": 4.1,
+   "prev": {
+    "year": 2023,
+    "count": 87,
+    "share_pct": 8.1,
+    "delta_pp": -4.0
+   },
+   "examples": [
+    "Hypergraph based Understanding for Document Semantic Entity Recognition.",
+    "MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models.",
+    "SymKGQA: Few-Shot Knowledge Graph Question Answering via Symbolic Program Generation and Execution."
+   ]
+  }
+ ]
+}

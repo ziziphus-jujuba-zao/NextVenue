@@ -1,0 +1,27 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: isca-2027
+series: isca
+name: ISCA 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ISCA
+  conf_id: isca27
+  link: https://www.iscaconf.org/
+  place: Atlanta, Georgia, USA
+  date: TBD
+  timezone: AoE
+location:
+  city: Atlanta
+  country: USA
+  country_code: US
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    tz: AoE
+    status: tba
+last_checked: 2026-09-25

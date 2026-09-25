@@ -1,0 +1,45 @@
+# NeurIPS 2018 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: neurips
+year: 2018
+kind: rate_only
+precision: chart_read
+track_zh: 主会，按作者自选的主领域
+tolerance:
+  pct: 0.3
+source_url: https://neuripsconf.medium.com/what-we-learned-from-neurips-2020-reviewing-process-e24549eea38f
+quote: Next, we compare the acceptance rate in each subject area
+src: neurips-2020-pc-blog
+quote_check: snapshot
+figure_urls:
+  - https://miro.medium.com/v2/resize:fit:1400/0*P0lELqPikywRmHe1
+  - https://miro.medium.com/v2/resize:fit:1400/0*slkawTlAP1u0fVW9
+note_zh: 数字从 NeurIPS 2020 程序主席博客的柱状图上量出，写「约」；2018、2019 年也画在同一张图里
+checked: 2026-09-25
+rows:
+  - area: Algorithms
+    rate: 17.3
+    share_pct: 24.5
+  - area: Deep Learning
+    rate: 17.8
+    share_pct: 23.2
+  - area: Applications
+    rate: 20.3
+    share_pct: 19.7
+  - area: RL and Planning
+    rate: 22.6
+    share_pct: 7.8
+  - area: Theory
+    rate: 27.8
+    share_pct: 7.2
+  - area: Optimization
+    rate: 26.4
+    share_pct: 6.3
+  - area: Probabilistic Methods
+    rate: 29.2
+    share_pct: 7.4
+  - area: Neuroscience and Cognitive Science
+    rate: 20.8
+    share_pct: 3.2
+  - area: Data, Challenges, Implementations, and Software
+    rate: 19.9
+    share_pct: 0.5

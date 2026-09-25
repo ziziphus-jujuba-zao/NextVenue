@@ -1,0 +1,27 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: imc-2027
+series: imc
+name: IMC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/IMC
+  conf_id: imc27
+  link: https://www.sigcomm.org/news/november-2025-sigcomm-newsletter
+  place: Atlanta, GA, USA
+  date: TBD
+  timezone: AoE
+location:
+  city: Atlanta
+  country: USA
+  country_code: US
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    tz: AoE
+    status: tba
+last_checked: 2026-09-25

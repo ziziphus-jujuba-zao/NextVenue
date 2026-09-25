@@ -1,0 +1,13 @@
+id: globecom
+acronym: GLOBECOM
+full_name: IEEE Global Communications Conference
+aliases:
+  - IEEE GLOBECOM
+directions: [eng/comm, cs/net]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 12 月
+dblp: conf/globecom
+ccfddl: NW/GLOBECOM
+data_level: curated

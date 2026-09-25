@@ -1,0 +1,13 @@
+id: fse-se
+acronym: FSE
+full_name: ACM International Conference on the Foundations of Software Engineering
+aliases: [ESEC/FSE, ACM SIGSOFT FSE]
+directions: [cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/sigsoft
+ccfddl: SE/FSE
+data_level: curated
+note_zh: 软件工程的 FSE。系列 id 带 -se，是为了和同名的 Fast Software Encryption（系列 fse，密码学）区分。

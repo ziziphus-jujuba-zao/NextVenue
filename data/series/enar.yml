@@ -1,0 +1,13 @@
+id: enar
+acronym: ENAR
+full_name: ENAR Spring Meeting (Eastern North American Region, International Biometric Society)
+name_zh: 国际生物统计学会东北美分会春季会议
+aliases:
+  - ENAR Spring Meeting
+directions: [math/stats]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 国际生物统计学会东北美分会（ENAR）春季年会，往届都在每年 3 月举办
+data_level: curated
+note_zh: 生物统计的主要年会；投 contributed 摘要，投的时候就要完成注册缴费，否则摘要可能作废。

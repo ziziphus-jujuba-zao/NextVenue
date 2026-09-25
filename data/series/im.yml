@@ -1,0 +1,9 @@
+# 由 CCF 第七版目录条目建立（ccfddl 没有这个会），为了"CCF 目录里的会都能找到"。名称照录目录；方向可以手改。
+id: im
+acronym: IM
+full_name: IFIP/IEEE International Symposium on Integrated Network Management
+directions:
+  - cs/net
+dblp: conf/im
+data_level: curated
+note_zh: 缩写、全称照录 CCF 第七版目录（第 2 类），方向是本项目的分类。还没有收录任何一届的日期。

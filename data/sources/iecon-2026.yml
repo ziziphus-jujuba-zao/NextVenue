@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iecon-2026
+sources:
+  - id: iecon-2026-home
+    url: https://www.iecon2026.org/
+    title: IECON 2026 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:44Z
+    http_status: 200
+    snapshot: dc717fdcad8830d1435fc875daf9ad969995ba325141530177670f66ad1aed4a

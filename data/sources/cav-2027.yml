@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cav-2027
+sources:
+  - id: cav-2027-home
+    url: https://conferences.i-cav.org/2027/
+    title: CAV 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:47:54Z
+    http_status: 200
+    snapshot: 5a6f6cabc2e7e116ab8163002886d34fae0de11f3a771c79b8df19e39201fa81
+  - id: cav-2027-cfp
+    url: https://conferences.i-cav.org/2027/cfp/
+    title: CAV 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:55Z
+    http_status: 200
+    snapshot: c4b63fba478913de2fbf73cc591136a76a8b56e617e7f04e1da25b38ebee2eec

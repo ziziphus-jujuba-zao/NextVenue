@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: vtc-2027-fall
+sources:
+  - id: vts-upcoming-events
+    url: https://vtsociety.org/conferences/all-upcoming-events
+    title: IEEE VTS All Upcoming Events
+    kind: other
+    fetched_at: 2026-09-25T15:49:32Z
+    http_status: 200
+    snapshot: 136e641b583a10329a265c74da71dacf4357f7697ec807fb45bd87d32f157ea0
+  - id: vtc-2027-fall-cfp
+    url: https://events.vtsociety.org/vtc2027-fall/call-for-papers/
+    title: VTC2027-Fall Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:02Z
+    http_status: 200
+    snapshot: 2b38b9206f861cfa8a5378eec8e5f4ce3facc4bcb57a77ad04325985cd4dce0f

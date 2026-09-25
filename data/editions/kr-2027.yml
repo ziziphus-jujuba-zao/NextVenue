@@ -1,0 +1,27 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: kr-2027
+series: kr
+name: KR 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/KR
+  conf_id: krd27
+  link: https://kr.org/
+  place: Buenos Aires, Argentina
+  date: TBD
+  timezone: AoE
+location:
+  city: Buenos Aires
+  country: Argentina
+  country_code: AR
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    tz: AoE
+    status: tba
+last_checked: 2026-09-25

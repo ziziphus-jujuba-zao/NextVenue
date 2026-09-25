@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: rtas-2027
+sources:
+  - id: rtas-2027-home
+    url: https://2027.rtas.org/
+    title: RTAS 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:48:26Z
+    http_status: 200
+    snapshot: b8a7a0b89a018164938316c53146793d2556417b38d28e7358ec87b605ba8ff9
+  - id: rtas-2027-cfp
+    url: https://2027.rtas.org/cfp/
+    title: RTAS 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:27Z
+    http_status: 200
+    snapshot: 86922626c4a10e2cd54b600c936227895052132cba81e29ff9f7d8e56e1b8e0c

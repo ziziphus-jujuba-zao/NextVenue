@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 // Tiny HTML-string helpers and the inline SVG icons.
 
@@ -57,6 +56,19 @@ export const icon = {
     '<path d="M10 2.6 18.2 17H1.8L10 2.6Z" stroke-width="1.7"/><path d="M10 8v4.2" stroke-width="1.9"/><circle cx="10" cy="14.6" r=".4" stroke-width="1.6"/>',
     'warn-i',
   ),
+  /** Magnifier in the venue search box. */
+  search: svg('0 0 16 16', '<circle cx="7" cy="7" r="4.6" stroke-width="1.8"/><path d="M10.4 10.4 14 14" stroke-width="1.8"/>', 'search-i'),
+  /** ✎ edit (the accepted paper's trip line). */
+  pen: svg('0 0 16 16', '<path d="M10.8 2.7 13.3 5.2 5.6 12.9 2.5 13.5 3.1 10.4Z" stroke-width="1.6"/><path d="M9.3 4.2 11.8 6.7" stroke-width="1.6"/>', 'pen-i'),
+  /** ⋯ more (nav bar). */
+  more: raw(
+    '<svg class="more-i" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><circle cx="5.5" cy="12" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="18.5" cy="12" r="1.9"/></svg>',
+  ),
+  /** 出行设置 (a slider panel: settings, not a cog, which reads as system settings). */
+  gear: svg('0 0 20 20', '<path d="M3 6h2.2M9.8 6H17M3 14h7.2M14.8 14H17" stroke-width="1.7"/><circle cx="7.5" cy="6" r="2.2" stroke-width="1.7"/><circle cx="12.5" cy="14" r="2.2" stroke-width="1.7"/>', 'ico20'),
+  /** 📍 where a venue is held (the place block and sheet). */
+  pin: svg('0 0 20 20', '<path d="M10 18.2s-5.8-5.5-5.8-10A5.8 5.8 0 0 1 10 2.4a5.8 5.8 0 0 1 5.8 5.8c0 4.5-5.8 10-5.8 10Z" stroke-width="1.8"/><circle cx="10" cy="8.2" r="2.2" stroke-width="1.8"/>', 'pin-i'),
+  cal: svg('0 0 20 20', '<rect x="2.8" y="4" width="14.4" height="13" rx="2.4" stroke-width="1.7"/><path d="M2.8 8.2h14.4M6.6 2.4v3.2M13.4 2.4v3.2" stroke-width="1.7"/>', 'ico20'),
   today: svg('0 0 24 24', '<circle cx="12" cy="12" r="8.6" stroke-width="1.9"/><path d="M12 7.2V12l3.2 2" stroke-width="1.9"/>'),
   venues: svg(
     '0 0 24 24',

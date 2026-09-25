@@ -1,0 +1,1161 @@
+EACL 2024
+
+The 18th Conference of the European Chapter of the
+Association for Computational Linguistics
+
+Proceedings of the Conference, Vol. 1 (Long Papers)
+
+March 17-22, 2024
+
+The EACL organizers gratefully acknowledge the support from the following
+sponsors.
+
+Platinum
+
+Gold
+
+Bronze
+
+D&I Champion
+
+ii
+
+c 2024 Association for Computational Linguistics
+
+Order copies of this and other ACL proceedings from:
+
+Association for Computational Linguistics (ACL)
+317 Sidney Baker St. S
+Suite 400 - 134
+Kerrville, TX 78028
+USA
+Tel: +1-855-225-1962
+acl@aclweb.org
+
+ISBN 979-8-89176-088-2
+
+iii
+
+Message from the General Chair
+Welcome to the 18th Conference of the European Chapter of the Association for Computational Linguistics. EACL is the flagship European conference dedicated to European and international researchers,
+covering a wide spectrum of research in Computational Linguistics and Natural Language Processing.
+Organizing a scientific conference of the prestige and size of EACL is a great honor, a great responsibility,
+and a great challenge. The challenges started right at the beginning. When I accepted the invitation to
+be general chair, even after the program chairs Yvette Graham and Matt Purver accepted, we didn’t
+know where the conference would be located. Eventually, we settled on Malta, a wonderful island in
+the Mediterranean with lovely weather in March. Well, putting it in March was the next challenge as
+the conference dates were moved backwards a couple of times, turning the entire organization of the
+conference into a race against time.
+Another big challenge was the joint effort of all ∗ ACL 2024 conferences to streamline the review process
+by moving it completely to ACL Rolling Review. While there had been some attempts to integrate ARR
+into the conference reviewing process, 2024 will be the year where we see whether it actually works.
+I’d like to thank Yvette and Matt for being so brave to chair the first conference in 2024 adopting ARR
+only. I’d also like to thank the General Chairs of NAACL 2024 and ACL 2024, Katrin Erk and Claire
+Gardent, and their respective PC chairs to join the effort. Without the ARR team this could not have
+worked out, namely the ARR Editors in Chief, Mausam, Viviane Moreira, Vincent Ng, Lilja Øvrelid,
+Thamar Solorio, and Jun Suzuki were indispensable for making this happen.
+For me it started all with Roberto Basili and Preslav Nakov, the 2023 and 2024 Presidents of EACL,
+asking me whether I’d like to serve as general chair for EACL 2024 – thanks for having trusted me to
+manage the organization of the conference. After Yvette Graham and Matt Purver accepted the role of PC
+chairs, I knew that I wouldn’t have to worry anymore about the scientific program. A big thanks to Yvette
+and Matt! Behind the scenes Jennifer Rachford (ACL Event Manager) and her team, in particular Megan
+Haddad and Jon M. Dorsey, made the impossible happen. Jenn does what we scientists are not good
+at, and then a lot more. I don’t know how we could have run EACL 2024 without her. Roberto Basili,
+Preslav Nakov, the EACL board, and David Yarowsky (ACL treasurer) provided me with information,
+advice and feedback whenever I needed it. A great thanks also goes to the EACL 2024 workshop chairs,
+Nafise Moosavi and Zeerak Talat! Because EACL is the first conference in 2024, they spearheaded the
+∗ ACL joint call for workshop proposals. They worked with an extremely tight timeline, created a very
+interesting workshop program and had the organizers of 19 workshops under control. Very impressive,
+Nafise and Zeerak!
+A special thanks goes to Claudia Borg from the University of Malta. Claudia was instrumental for
+the success of the conference dealing with all sorts of local issues. She helped us selecting the venue,
+connected us with local event organizers, was part of the volunteer program, and made sure that visas
+were issued to participants who needed them. Claudia is great!
+And then . . .
+• The tutorial chairs, Sharid Loáicga and Mohsen Mesgar, worked together with the tutorial chairs
+of all ∗ ACL conferences to review tutorial proposals and select some for EACL 2024.
+• The demonstration chairs, Orphée de Clercq and Nikolaos Aletras, created the demo program for
+EACL 2024.
+• The student research workshop chairs, Neele Falk, Sara Papi, and Mike Zhang, along with their
+faculty advisors Parisa Kordjamshidi and Steffen Eger, took care about the next generation of NLP
+researchers.
+iv
+
+• The publication chairs, Gözde Gül Sahin and Danilo Croce, did a tremendous job in getting all the
+papers into a nice shape worthy of the European flagship conference in Computational Linguistics.
+• The handbook chair, Marco Polignano, helped us to navigate through the program so that we
+wouldn’t miss any interesting presentation.
+• The sponsorship chairs, Daniel Dahlmeier and Pasquale Minervini, worked together with the ACL
+sponsorship director Chris Callison-Burch to make EACL 2024 the ends meet in economically
+challenging times.
+• The diversity and inclusion chairs, Hanan Al Darmaki, Sabine Weber, and Maciej Ogrodniczuk,
+ensured that researchers who are not from the global north can join our conference, in person or
+virtually. They also kicked off an amazing set of D&I events at the conference.
+• The publicity chairs, Miryam de Lhoneux, Sungho Jeon, and Yuval Pinter, spread the word – and
+also pictures – through social media platforms.
+• The website chairs, Mladen Karan and Wei Zhao, created a beautiful webpage. They were super
+responsive. Thanks a lot for the good work!
+• The local ambassador, Max Bartolo, provided us with information on Malta early on. Talk to him
+for food options, bars, excursions, fun stuff to do!
+• The ethics chairs, Annemarie Friedrich and Anne Lauscher, helped us to solve difficult ethical
+issues with the papers.
+• The student volunteer chairs, Claudia Borg, Desmond Eliott, and Juntao Yu, went through many
+applications, selected the student volunteers, and assigned them their tasks.
+• The visa chairs Claudia Borg and Yufang Hou helped conference participants to obtain their visas.
+• The Technical Infrastructure Chairs, Wei Liu and Sungho Jeon, enabled us to navigate through the
+program with ease via MiniConf and to discuss via Rocket.Chat.
+• The entire program committee, senior area chairs, area chairs, reviewers, and best paper committee,
+was essential for ensuring our high-quality scientific program.
+• We couldn’t run our conference without our student volunteers. A big thanks to all of them!
+• Finally, I’d like to thank our invited speakers, Mirella Lapata and Hinrich Schütze, and the Karen
+Spärck Jones Award Winner 2023, Hongning Wang, for delivering inspiring keynote speeches.
+The online side of our hybrid conference was provided by Underline (Sol Rosenberg, Damira Mrsic, and
+their team), who also provided us with support for managing the entire conference.
+I would like to thank our sponsors for funding the conference, providing subsidies for students and
+financing the diversity and inclusion initiative.
+Enjoy EACL 2024! Insellimkom,
+
+Michael Strube
+Heidelberg Institute for Theoretical Studies, Heidelberg, Germany
+EACL 2024 General Chair
+v
+
+Message from the Program Chairs
+Welcome to the 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL) to take place in Malta. As with last year, the conference is being held in a hybrid mode,
+with both audiences and presenters able to attend online. Presentation videos, slides and posters will all
+be available online to make the experience as good as possible. However, we’re very happy to see that
+most presenters in oral and poster sessions are opting to be there in-person, so we’re looking forward to
+an interactive and exciting conference.
+
+Submission and Acceptance
+EACL 2024 was the first *ACL Conference to accept all submissions via ACL Rolling Review (ARR).
+This brought some significant advantages: a consistent system across *ACL conferences, as well as the
+experience and assistance of the ARR team, and of course the ability to revise and resubmit papers rather
+than just being rejected out of hand.
+However, this change does make it somewhat more difficult to calculate acceptance rates. Most papers
+committed to EACL 2024 came from the ARR October 2023 cycle, and most papers in that cycle were
+intended for EACL 2024; but some EACL papers came from other ARR cycles; and some papers in the
+October 2023 cycle were intended for other, later conferences rather than EACL. Many authors indicated
+their target when submitting to ARR, but not all; and some change their minds.
+In the end we opted for the following approach: we take the pool of potential candidates as being papers
+in the relevant ARR cycle that either selected EACL as a target, did not select any target conference, or
+selected another target conference but then committed to EACL anyway; together with papers from other
+ARR cycles that committed to EACL. We include those that withdrew after getting reviews, but not those
+that withdrew before or were desk-rejected.
+In total, EACL 2024 ARR October cycle received 1,275 submissions, with a large portion (78%) being
+long as opposed to short papers. 52 papers were desk rejected for various reasons (e.g. breaching the
+ACL anonymity or multiple submission policy, significant formatting violations) and 17 were withdrawn
+by the authors before reviews were received. 474 papers then committed to EACL 2024, of which we
+accepted 226 to the main conference, and a further 163 to the Findings of the ACL. The pool of potential candidates as defined above numbered 1,114 papers, giving an overall acceptance rate of 20.3%
+to the main conference and 14.5% to Findings. This is comparable to other recent *ACL conferences
+(EACL 2023 quoted 24.1% and 17.2% respectively), but it’s hard to compare directly given such a significant change in the submission process. The conference programme also features three papers from
+the Transactions of the Association for Computational Linguistics (TACL) journal, and one from the
+Computational Linguistics (CL) journal.
+
+Presentation Mode
+From the resulting total of 230 papers accepted to the conference, we invited 144 to be presented orally,
+with the others presenting in poster sessions. We made the decision on which papers would be invited for
+oral poster presentations based on several factors: recommendations by Senior Area Chairs (SACs) and
+meta-reviewers about presentation mode and best paper prize potential, grouping of papers into thematic
+sessions, and confirmation from authors that they planned to attend the conference in person. For TACL
+and CL papers, the authors’ preference of presentation mode was used.
+Authors of papers accepted to the Findings of the ACL could opt to present a poster, and 113 (69%) chose
+to do so. We also gave oral paper presenters the option to present a poster, with 37 (25%) choosing to do
+so; this gave a total of 232 posters being presented at the conference. All oral sessions are being held as
+in-person plenary sessions (although with some online presenters), and all poster sessions are in-person
+except one fully virtual poster session.
+vi
+
+Limitations Section
+As in EACL 2023, and now standard practice in ARR, we required inclusion of a Limitations section,
+including all major limitations of the work. As with past events, this is intended to discourage the practice
+of hyping conclusions drawn in work published at EACL, sticking to better scientific practice.
+
+Areas, Programme Committee Structure and Reviewing
+We divided submissions into 24 distinct areas and asked authors to choose the most appropriate area to
+submit their work to. The three areas to receive the largest number of submissions were NLP Applications, Resources and Evaluation, and Interpretability and Analysis of Models for NLP.
+Senior members of the NLP community were directly invited to act as Senior Area Chair (SAC), with
+2–3 SACs per area. Area Chairs (ACs) were then recruited partly from ARR’s existing pool, and partly
+invited directly by SACs to sign up to ARR for the October cycle so they could act as Area Chairs for
+EACL. In the ARR system, ACs assign themselves to areas and can specify a maximum load, ensuring
+that ACs can reduce the number of papers they are responsible for at appropriate times; this results in
+a higher number of ACs than is usual outside of the ARR system. In total, 485 ARR ACs signed up to
+the October cycle 2023, while a total of 5,854 reviewers indicated availability to review in ARR October
+cycle. Three reviewers and one AC were automatically assigned to each paper using ARR’s matching
+algorithm, based on reviewers’ past publications and the maximum load set by reviewers and ACs.
+
+Best Paper Awards
+Following ACL policy, we set up a committee to decide the Best Paper Awards. The committee was given
+28 papers by the Program Chairs to consider, papers that were identified by at least one of the program
+committee, SAC, AC or reviewer as a possible best paper. These papers were anonymized via black out
+of author information, links to code, and acknowledgements sections in the camera ready papers. The
+selected best papers and runners up will be announced at the conference.
+
+Ethics Committee
+We also set up an ethics committee, so that papers flagged by reviewers or ACs as having potential ethical
+concerns could be sent for separate ethics review. A small number of papers were accepted conditional
+on final re-reviewing to check that outstanding concerns were dealt with in the final camera ready paper;
+we’re happy to confirm that all such papers were accepted.
+
+Keynotes
+We are delighted to include 2 Keynote talks in the plenary sessions:
+• Prof. Mirella Lapata: Prompting is *not* all you need! Or why Structure and Representations still
+matter in NLP
+• Prof. Hinrich Schütze: Quality Data for LLMs: Challenges and Opportunities for NLP
+Furthermore, we include a lecture from the winner of this year’s Karen Spärck Jones Award:
+• Prof. Hongning Wang: Human vs. Generative AI in Content Creation Competition: Symbiosis or
+Conflict?
+
+vii
+
+Thank Yous
+EACL 2024 would not have happened without the help and support of the NLP community. So much of
+the event relies on voluntary efforts with people very generously giving their time and energy. We would
+like to acknowledge everyone involved, with a special thanks to:
+• EACL 2024 General Chair, Michael Strube, for leading the overall conference organisation and
+providing advice and support to the PCs and many others through the conference preparations;
+• Our 56 Senior Area Chairs, who did a fantastic job of managing the review process for their
+individual areas;
+• The 485 Area Chairs, who put in an enormous effort in as much as possible ensuring papers were
+given the best consideration by reviewers;
+• All the reviewers, who very generously give up their time to this process;
+• The Best Paper Award Committee, and especially the chair Barbara Plank, with the difficult task
+of choosing winners from the large number considered for this award;
+• Our Ethics Committee, especially the chairs Annemarie Friedrich and Anne Lauscher, for diligently checking and maintaining the high ethical standards we strive for at *ACL conferences;
+• Publicity Chairs, Miryam de Lhoneux, Sungho Jeon and Yuval Pinter, and Website Chairs Mladen
+Karan and Wei Zhao, for managing our communications and fulfilling all requests sent so quickly;
+• Publications Chairs, Danilo Croce and Gözde Gül Şahin, and Handbook Chair Marco Polignano,
+for the many hours dedicated to producing our fine proceedings and handbook;
+• Jordan Zhang for invaluable assistance with building the conference schedule;
+• The ARR team, particularly Thamar Solorio, Lilja Øvrelid and Harold Rubio, for so much support
+and advice during the review process;
+• Damira Mršić from Underline and the ACL’s Jennifer Rachford for their huge efforts to make
+EACL a success both online and on-site.
+Overall, everyone we came into contact with during the process was exceptionally professional and great
+to work with, thank you all for this, it is so important!
+We’re looking forward to a great EACL 2024, we hope you enjoy it and we look forward to seeing you
+there.
+Yvette Graham (Trinity College Dublin)
+Matthew Purver (Queen Mary University of London & Jožef Stefan Institute)
+EACL 2024 Programme Committee Co-Chairs
+
+viii
+
+Message from the Local Chair
+Dear EACL2024 Participants,
+It is with immense joy that I welcome you to the EACL2024 conference, held in the heart of the
+Mediterranean - Malta, an island nation celebrated for its vibrant diversity and intricate history.
+We are brought together by a common passion, that of processing language. We are in a privileged
+position to understand the power of language, that of connecting people. But one of the most fascinating
+aspects of human language is its diversity. Take Maltese as an example: a Semitic language, written
+in Latin script, with mixed influences from Arabic, Italian and English. Since becoming an official
+European language, Maltese has been given more visibility, facilitating the creation of digital resources.
+Yet it is still a low-resource language, ranking lowest amongst all official EU languages.
+In the era of LLMs and GPUs, the opportunity to work with a low-resource language like Maltese is not
+just about finding creative ways of processing the language, but becomes an interesting dive into its roots
+and understanding how history shaped it over time. It goes beyond racing for better accuracy and F1
+scores. Instead, we try to find ways of connecting the language of today with the roots of its past.
+As we embark on this exciting week, I invite you to immerse yourself not only in the groundbreaking
+research and discussions but also in the rich tapestry of Maltese culture and language. Let the diversity
+of Malta inspire you, spark your curiosity, and enrich your experience during your stay.
+I extend my heartfelt gratitude to the local organisation team, particularly Stephanie Abela Tickle and her
+colleagues at Meet360. Their dedication and hard work have been pivotal in bringing this conference to
+life. I also thank my colleagues and students at the University of Malta for their steering work.
+In closing, I hope that EACL2024 will be a source of inspiration and collaboration for all.
+M erh̄ba f 0 M alta!
+Claudia Borg
+University of Malta
+Local Chair, EACL 2024
+
+ix
+
+Organizing Committee
+
+General Chair
+Michael Strube, Heidelberg Institute for Theoretical Studies
+Program Chairs
+Yvette Graham, Trinity College Dublin
+Matthew Purver, Queen Mary University of London & Jožef Stefan Institute
+Workshop Chairs
+Nafise Moosavi, University of Sheffield
+Zeerak Talat, Simon Fraser University
+Tutorial Chairs
+Sharid Loaiciga, University of Gothenburg
+Mohsen Mesgar, Bosch Center for Artificial Intelligence
+Demonstration Chairs
+Nikolaos Aletras, University of Sheffield
+Orphee de Clercq, Ghent University
+Student Research Workshop Chairs
+Neele Falk, University of Stuttgart
+Sara Papi, University of Trento & Fondazione Bruno Kessler
+Mike Zhang, IT University Copenhagen
+Faculty Advisors to Student Research Workshop Chairs
+Steffen Eger, University of Bielefeld
+Parisa Kordjamshidi, Michigan State University
+Publication Chairs
+Danilo Croce, University of Rome Tor Vergata
+Gözde Gül Şahin, Koç University
+Handbook Chair
+Marco Polignano, University of Bari Aldo Moro
+Sponsorship Chairs
+Daniel Dahlmeier, SAP
+x
+
+Pasquale Minervini, University of Edinburgh
+Diversity and Inclusion Chairs
+Hanan Al Darmaki, MBZUAI
+Maciej Ogrodniczuk, Institute of Computer Science, Polish Academy of Sciences
+Sabine Weber, VDI/VDE Innovation
+Publicity Chairs
+Miryam de Lhoneux, KU Leuven
+Sungho Jeon, Heidelberg Institute for Theoretical Studies
+Yuval Pinter, Ben-Gurion University of the Negev
+Website Chairs
+Mladen Karan, Queen Mary University of London
+Wei Zhao, University of Aberdeen
+Local Ambassador
+Max Bartolo, Cohere
+Ethics Chairs
+Annemarie Friedrich, University of Augsburg
+Anne Lauscher, University of Hamburg
+Student Volunteer Chairs
+Claudia Borg, University of Malta
+Desmond Eliott, University of Copenhagen
+Juntao Yu, Queen Mary University of London
+Visa Chairs
+Claudia Borg, University of Malta
+Yufang Hou, IBM Research Ireland
+Megan Haddad, ACL Office
+
+xi
+
+Program Committee
+
+Discourse and Pragmatics
+Yulia Grishina, Amazon Development Center Germany
+Junyi Jessy Li, University of Texas, Austin
+Computational Social Science and Cultural Analytics
+Arkaitz Zubiaga, Queen Mary University of London
+Chloé Clavel, Télécom ParisTech and Télécom Paris
+Dialogue and Interactive Systems
+Milica Gasic, Heinrich Heine University Duesseldorf
+David Traum, University of Southern California
+Summarization
+Maria Liakata, Queen Mary University London
+Mohit Bansal, University of North Carolina at Chapel Hill
+Generation
+Shujian Huang, Nanjing University
+Angela Fan, Facebook
+Marco Guerini, Fondazione Bruno Kessler
+Ethics and NLP
+Saif M. Mohammad, National Research Council Canada
+Cagri Coltekin, University of Tuebingen
+Kai-Wei Chang, University of California
+Efficient/Low-resource methods in NLP
+Dirk Hovy, Bocconi University
+Roi Reichart, Technion, Israel Institute of Technology
+Information Extraction
+Qipeng Guo, Shanghai AI Laboratory
+Rodrigo Agerri, University of the Basque Country
+Information Retrieval and Text Mining
+Zhiyuan Liu, Tsinghua University
+Sophia Ananiadou, University of Manchester
+Eugene Agichtein, Amazon and Emory University
+
+xii
+
+Interpretability and Model Analysis in NLP
+Dieuwke Hupkes, Facebook
+Elena Voita, FAIR at Meta AI and University of Amsterdam
+Resources and Evaluation
+Valerio Basile, University of Turin
+Joel R. Tetreault, Dataminr
+Speech and Multimodality
+Pierre Lison, Norwegian Computing Center
+Boyang Li, Nanyang Technological University
+Language Grounding to Vision, Robotics and Beyond
+Gabriel Skantze, KTH Royal Institute of Technology
+Yonatan Bisk, Meta and Carnegie Mellon University
+Linguistic Theories, Cognitive Modeling and Psycholinguistics
+Raquel Fernández, University of Amsterdam
+Emily Prud’hommeaux, Boston College
+Machine Learning for NLP
+Isabelle Augenstein, University of Copenhagen
+Nikolaos Pappas, AWS AI Labs
+Colin Cherry, Google
+Machine Translation
+François Yvon, Université Pierre et Marie Curie
+Philipp Koehn, Johns Hopkins University
+Multilinguality and Language Diversity
+Goran Glavaš, Julius-Maximilians-Universität Würzburg
+Steven Bird, Charles Darwin University
+Yang Feng, Institute of Computing Technology, Chinese Academy of Sciences
+NLP Applications
+Diarmuid Ó Séaghdha, Apple
+Karin Verspoor, Royal Melbourne Institute of Technology
+Shuai Wang, Amazon
+Question Answering
+Alessandro Moschitti, Amazon Alexa AI
+Yansong Feng, Peking University
+xiii
+
+Wenpeng Yin, Pennsylvania State University
+Semantics - Lexical
+Jose Camacho-Collados, Cardiff University
+Chris Brew, Lexis Nexis
+Semantics - Sentence-level Semantics, Textual Inference and other areas
+Gülşen Eryiğit, Istanbul Technical University
+Tushar Khot, Allen Institute for Artificial Intelligence
+Sentiment Analysis, Stylistic Analysis and Argument Mining
+Xuanjing Huang, Fudan University
+David Vilares, Universidade da Coruña
+Phonology, Morphology, and Word Segmentation
+Ryan Cotterell, Swiss Federal Institute of Technology
+Francis M. Tyers, Indiana University
+Syntax - Tagging, Chunking and Parsing
+Bernd Bohnet, Google Deep Mind
+Miryam De Lhoneux, KU Leuven
+Area Chairs
+Gavin Abercrombie, David Ifeoluwa Adelani, Zeljko Agic, Wasi Uddin Ahmad, Antonios Anastasopoulos, Mark Anderson, Jacob Andreas, Ehsaneddin Asgari, Wilker Aziz, Timothy Baldwin,
+Pierpaolo Basile, Ali Basirat, Jasmijn Bastings, Timo Baumann, Eyal Ben-David, Farah Benamara,
+Alexandra Birch, Eduardo Blanco, Leonid Boytsov, Thomas Brochhagen, Emanuele Bugliarello,
+Wray Buntine, Aoife Cahill, Ruken Cakici, Pengfei Cao, Dallas Card, Tommaso Caselli, Tanmoy
+Chakraborty, Ilias Chalkidis, Angel X Chang, Snigdha Chaturvedi, Kehai Chen, Long Chen, Lu
+Chen, Wenhu Chen, Xiang Chen, Yun-Nung Chen, Zhiyu Chen, Colin Cherry, Eunsol Choi, Leshem Choshen, Monojit Choudhury, Simone Conia, Mathias Creutz, Anna Currey, Raj Dabre, Verna Dankers, Budhaditya Deb, Vera Demberg, Li Dong, Ruihai Dong, Eduard Dragut, Nan Duan,
+Kevin Duh, Greg Durrett, Ondrej Dusek, Julian Martin Eisenschlos, Luis Espinosa-Anke, Allyson Ettinger, Kilian Evang, Alexander Fabbri, Agnieszka Falenska, Meng Fang, Naomi Feldman,
+Xiaocheng Feng, Francis Ferraro, Elisabetta Fersini, Mark Fishel, Matthias Gallé, Siddhant Garg,
+Rob Van Der Goot, Kyle Gorman, Tanya Goyal, Lin Gui, Ivan Habernal, Barry Haddow, Xianpei Han, Peter Hase, Michael Heck, Behnam Hedayatnia, Peter Heeman, Enamul Hoque, Yufang
+Hou, Xuming Hu, Lifu Huang, Kentaro Inui, Kokil Jaidka, Hyeju Jang, Lifeng Jin, Preethi Jyothi,
+Shubhra Kanti Karmaker Santu, Taeuk Kim, Roman Klinger, Mamoru Komachi, Rik KoncelKedziorski, Lingpeng Kong, Julia Kreutzer, Amrith Krishna, Kalpesh Krishna, Wai Lam, Mirella
+Lapata, Staffan Larsson, Mark Last, Ivano Lauriola, Thu Le, Dong-Ho Lee, SangKeun Lee, Heather Lent, Gina-Anne Levow, Chuyuan Li, Junhui Li, Juntao Li, Peng Li, Piji Li, Sujian Li, Yu Li,
+Constantine Lignos, Robert Litschko, Kang Liu, Tingwen Liu, Xuebo Liu, Yang Liu, Zoey Liu,
+Ximing Lu, Anh Tuan Luu, Chenyang Lyu, Ji Ma, Ruotian Ma, Andrea Madotto, Yuning Mao, Lara J. Martin, Bruno Martins, Sérgio Matos, Julian McAuley, Mahnoosh Mehrabani, Ivan Vladimir
+xiv
+
+Meza Ruiz, Margot Mieskes, David R Mortensen, Smaranda Muresan, Thomas Müller, Nona Naderi, Mikio Nakano, Hideki Nakayama, Isar Nejadgholi, Qiang Ning, Maciej Ogrodniczuk, Naoaki
+Okazaki, Manabu Okumura, Joonsuk Park, Yannick Parmentier, Ramakanth Pasunuru, Hao Peng,
+Lis Pereira, Laura Perez-Beltrachini, Maxime Peyrard, Bryan A. Plummer, Maja Popovic, Daniel
+Preotiuc-Pietro, Deepak Ramachandran, Carlos Ramisch, Shauli Ravfogel, Marek Rei, Leonardo
+F. R. Ribeiro, Oleg Rokhlenko, Joseph Le Roux, Alla Rozovskaya, Terry Ruas, Maria Ryskina,
+Maarten Sap, Naomi Saphra, Asad B. Sayeed, Viktor Schlegel, Natalie Schluter, Jingbo Shang,
+Lei Shu, Kevin Small, Yan Song, Yangqiu Song, Aitor Soroa, Sara Stymne, Jinsong Su, Saku
+Sugawara, Alessandro Suglia, Aixin Sun, Kai Sun, Gözde Gül Şahin, Zeerak Talat, Chenhao Tan,
+Tianyi Tang, Harish Tayyar Madabushi, Sara Tonelli, Amine Trabelsi, David Traum, Kewei Tu, Olga Vechtomova, Yannick Versley, Thuy Vu, Dakuo Wang, Longyue Wang, Zhongqing Wang, Taro
+Watanabe, John Frederick Wieting, Kam-Fai Wong, Lijun Wu, Rui Yan, Min Yang, Wei Yang,
+Jin-Ge Yao, Naoki Yoshinaga, Koichiro Yoshino, Jianfei Yu, Mo Yu, Fabio Massimo Zanzotto,
+Weixin Zeng, Biao Zhang, Jiajun Zhang, Meishan Zhang, Ningyu Zhang, Shaolei Zhang, Hai-Tao
+Zheng, Zaixiang Zheng, Jie Zhou, Yi Zhou, Yftah Ziser
+
+Reviewers
+Omri Abend, Giuseppe Abrami, Ibrahim Abu Farha, Tosin Adewumi, Somak Aditya, Stergos D.
+Afantenos, Sumeet Agarwal, Ehsan Aghazadeh, Don Joven Agravante, Ameeta Agrawal, Sweta Agrawal, Alham Fikri Aji, Benjamin Ayoade Ajibade, Nader Akoury, Amal Alabdulkarim,
+Özge Alacam, Firoj Alam, Georgios Alexandridis, Hassan Alhuzali, Alexandre Allauzen, Raghuram Mandyam Annasamy, Luca Anselma, Dimosthenis Antypas, Ramakrishna Appicharla, Negar
+Arabzadeh, Jun Araki, Ignacio Arroyo-Fernández, Ekaterina Artemova, Masayuki Asahara, Akari
+Asai, Daiki Asami, Elliott Ash, Nicholas Asher, Berk Atıl, Abdul Hameed Azeemi
+Vikas Bahirwani, Fan Bai, Jiaxin Bai, Long Bai, Xuefeng Bai, Vevake Balaraman, Naman Bansal,
+Forrest Sheng Bao, Yuwei Bao, Leslie Barrett, Alberto Barrón-Cedeño, Luke Bates, Khuyagbaatar
+Batsuren, Tilman Beck, Wiem Ben Rim, Gábor Berend, Dario Bertero, Prabin Bhandari, Aditya
+Bhargava, Shruti Bhargava, Shaily Bhatt, Arnab Bhattacharya, Rajarshi Bhowmik, Ning Bian,
+Iman Munire Bilal, Su Lin Blodgett, Jelke Bloem, Ben Bogin, Nikolay Bogoychev, Robert Bossy,
+Tom Bourgeade, Laurestine Bradford, Stephanie Brandl, Thomas Brovelli, Yash Parag Butala, Jan
+Buys, Bill Byrne
+Sky CH-Wang, Samuel Cahyawijaya, Pengshan Cai, Jie Cao, Qingqing Cao, Rui Cao, Yixin Cao,
+Yu Cao, Ronald Cardenas, Rémi Cardon, Danilo Carvalho, Camilla Casula, Yekun Chai, Saikat Chakraborty, Hou Pong Chan, Haw-Shiuan Chang, Tyler A. Chang, Aditi Chaudhary, Kushal
+Chawla, Gullal Singh Cheema, Angelica Chen, Bin Chen, Chung-Chi Chen, Guanhua Chen, Guanyi Chen, Hang Chen, Hanjie Chen, Huiyao Chen, Jiawei Chen, Jiayi Chen, Junjie Chen, Kai
+Chen, Maximillian Chen, Pinzhen Chen, Qian Chen, Qianglong Chen, Shan Chen, Sishuo Chen,
+Xiangnan Chen, Xiuying Chen, Xuxi Chen, Yi Chen, Yi-Pei Chen, Yingfa Chen, Yulin Chen, Yulong Chen, Fei Cheng, Hua Cheng, Liying Cheng, Lu Cheng, Emmanuele Chersoni, Cheng-Han
+Chiang, David Chiang, Patricia Chiril, Juhwan Choi, Seungtaek Choi, Prafulla Kumar Choubey,
+Arijit Ghosh Chowdhury, Fenia Christopoulou, Alexandra Chronopoulou, KuanChao Chu, YunWei Chu, Yung-Sung Chuang, Philipp Cimiano, Miruna Clinciu, Iulia Maria Comsa, Anna Corazza, Paul A. Crook, Ruixiang Cui, Shiyao Cui, Yiming Cui, Washington Cunha, Amanda Cercas
+Curry, Tonya Custis, Erion Çano
+Hongliang Dai, Yong Dai, David Dale, Marco Damonte, Souvik Das, Sam Davidson, Ernest Davis, José G. C. De Souza, Steve DeNeefe, Julien Delaunay, David Demeter, Çağatay Demiralp,
+
+xv
+
+Shumin Deng, Yang Deng, Yuntian Deng, Sourabh Dattatray Deoghare, Jwala Dhamala, Maria
+Pia Di Buono, Bosheng Ding, Shuoyang Ding, Saket Dingliwal, Sumanth Doddapaneni, Bo Dong,
+Ning Dong, Xiangjue Dong, Qingyun Dou, Zi-Yi Dou, Antoine Doucet, Lan Du, Mengnan Du,
+Yufeng Du, Yupei Du, Ondrej Dusek, Ritam Dutt
+Aleksandra Edwards, Roxanne El Baff, Mohamed Elgaar, Ahmed Elgohary, Desmond Elliott, Micha Elsner, Ali Emami, Guy Emerson, Elena V. Epure
+Neele Falk, Qingkai Fang, Wei Fang, Nils Feldhus, Dongji Feng, Shutong Feng, Xiachong Feng,
+Yukun Feng, Elisa Ferracane, Besnik Fetahu, Alejandro Figueroa, Matthew Finlayson, Jack FitzGerald, Antske Fokkens, José A.r. Fonollosa, Anette Frank, Kathleen C. Fraser, Dayne Freitag,
+Xingyu Fu
+David Gaddy, Baban Gain, Sudeep Gandhe, Vineet Gandhi, Revanth Gangi Reddy, William Gantt,
+Mingqi Gao, Pengzhi Gao, Songyang Gao, Tianyu Gao, Marcos Garcia, Ankush Garg, Muskan
+Garg, Sarthak Garg, Kiril Gashteovski, Rong Ge, Xiou Ge, Aryo Pradipta Gema, Ariel Gera, Sayan
+Ghosh, Soumitra Ghosh, Sucheta Ghosh, Nathan Godey, Philip John Gorinski, Venkata Subrahmanyan Govindarajan, Thamme Gowda, Kartik Goyal, Morgan A. Gray, Loı̈c Grobol, Niko Grupen,
+Xiaotao Gu, Yu Gu, Yuxian Gu, Yuxuan Gu, Nuno M Guerreiro, Liane Guillou, Camille Guinaudeau, Kalpa Gunaratna, Hao Guo, Shaoru Guo, Shoutao Guo, Xiaobo Guo, Zhen Guo, Prakhar
+Gupta
+Samar Haider, Skyler Hallinan, Injy Hamed, Namgi Han, Viktor Hangya, Shibo Hao, Kazuma
+Hashimoto, Nabil Hathout, Shreya Havaldar, Yoshihiko Hayashi, Timothy J. Hazen, Jianfeng He,
+Jie He, Zhengqi He, Zihao He, Philipp Heinisch, Benjamin Heinzerling, William Barr Held, Nico
+Herbig, Christopher Hidey, Tsutomu Hirao, Tosho Hirasawa, Eran Hirsch, Julia Hirschberg, Cuong
+Hoang, Andrea Horbach, Yifan Hou, David M Howcroft, I-Hung Hsu, Bozhen Hu, Jinyi Hu, Linmei Hu, Yushi Hu, Zhe Hu, Chao-Wei Huang, Danqing Huang, Haojing Huang, Jiani Huang,
+Kuan-Hao Huang, Kung-Hsiang Huang, Min Huang, Quzhe Huang, Ruihong Huang, Siyu Huang,
+Xiaolei Huang, Yufei Huang, Yuxin Huang, Ben Hutchinson, Katharina Hämmerl
+Robert L. Logan IV, Taichi Iki, Dmitry Ilvovsky, Sathish Reddy Indurthi, Go Inoue, Hitoshi Isahara, Md Saiful Islam, Hamish Ivison, Tomoya Iwakura
+Labiba Jahan, Eugene Jang, Myeongjun Erik Jang, Christopher William Jenkins, Soyeong Jeong,
+Rahul Jha, Harsh Jhamtani, Wei Ji, Yuxiang Jia, Chao Jiang, Ming Jiang, Xiaotong Jiang, Yuxin
+Jiang, Ziyue Jiang, Wenxiang Jiao, Di Jin, Lianwen Jin, Qiao Jin, Xiaolong Jin, Xisen Jin, Yiping
+Jin, Zhi Jin, Zhuoran Jin, Shailza Jolly, Martin Josifoski
+Jushi Kai, Mihir Kale, Ryo Kamoi, Jaap Kamps, Hiroshi Kanayama, Alina Karakanta, Marzena
+Karpinska, Zdeněk Kasner, Carina Kauf, Pride Kavumba, Hideto Kazawa, Pei Ke, Frank Keller,
+Casey Kennington, Natthawut Kertkeidkachorn, Santosh Kesiraju, Simran Khanuja, Vivek Khetan, Gyuwan Kim, Jihyuk Kim, Jongho Kim, Kang-Min Kim, Youngwook Kim, Tracy Holloway
+King, Svetlana Kiritchenko, Hirokazu Kiyomaru, Mateusz Klimaszewski, Mare Koit, Alexander
+Koller, Fajri Koto, Venelin Kovatchev, Satyapriya Krishna, Marco Kuhlmann, Sebastian Kula,
+Mayank Kulkarni, Saurabh Kulshreshtha, Florian Kunneman, Jenny Kunz, Tatsuki Kuribayashi,
+Kemal Kurniawan, Andrey Kutuzov, Abdullatif Köksal
+Yucheng LI, Matthieu Labeau, Yuxuan Lai, John P. Lalor, Tsz Kin Lam, Vasileios Lampos, Mirella Lapata, Stefan Larson, Md Tahmid Rahman Laskar, Chia-Hsuan Lee, Dongkyu Lee, Jaeseong
+Lee, Ji-Ung Lee, Joosung Lee, Yongjae Lee, Shuo Lei, Wenqiang Lei, Elisa Leonardelli, Colin
+
+xvi
+
+Leong, Piyawat Lertvittayakumjorn, Martha Lewis, Bryan Li, Chong Li, Diya Li, Dongyuan Li,
+Hao Li, Haonan Li, Haoran Li, Hongshan Li, Hui Li, Irene Li, Jialu Li, Jiaoda Li, Jiazhao Li,
+Jieyu Li, Judith Yue Li, Junyi Li, Linjun Li, Linyang Li, Minghan Li, Qi Li, Qing Li, Qiuchi Li,
+Shuyue Stella Li, Tao Li, Tianyi Li, Wenhao Li, Xiang Lorraine Li, Xiangci Li, Xiao Li, Xiaonan
+Li, Xintong Li, Yanyang Li, Yaoyiran Li, Yinghui Li, Yingya Li, Yitong Li, Yiwei Li, Yuan Li,
+Zhuang Li, Ziyang Li, Zongxi Li, Bin Liang, Bin Liang, Weixin Liang, Xiaobo Liang, Xiaozhuan
+Liang, Xinnian Liang, Yan Liang, Yunlong Liang, Lizi Liao, Qing Liao, Jindřich Libovický, Gilbert Lim, Chu-Cheng Lin, Xiangyu Lin, Xudong Lin, Zhouhan Lin, Zongyu Lin, LinHai LinHai,
+Matthias Lindemann, Tal Linzen, Enrico Liscio, Johann-Mattis List, Marina Litvak, Aiwei Liu,
+Anqi Liu, Boyang Liu, Chen Cecilia Liu, Chi-Liang Liu, Fangyu Liu, Fenglin Liu, Guisheng Liu,
+Minqian Liu, Qian Liu, Siyang Liu, Tianyuan Liu, Wei Liu, Xiao Liu, Yang Janet Liu, Yihong
+Liu, Yixin Liu, Yizhu Liu, Yuanxin Liu, Zhengyuan Liu, Zhiwei Liu, Zitao Liu, Ziyi Liu, Adian
+Liusie, Quanyu Long, Adam Lopez, Jian-Guang Lou, Renze Lou, Di Lu, Jinliang Lu, Kaiji Lu,
+Ning Lu, Qiuhao Lu, Yaojie Lu, Yujie Lu, Dan Luo, Jiaming Luo, Ziyang Luo, Zhiheng Lyu
+Danni Ma, Kaixin Ma, Xueguang Ma, Ziqiao Ma, Mounica Maddela, Brielen Madureira, Khyati
+Mahajan, Adyasha Maharana, Ayush Maheshwari, Fred Mailhot, Krishanu Maity, Chaitanya Malaviya, Ramesh Manuvinakurike, Shaoguang Mao, Zhiming Mao, Piotr Mardziel, Katerina Margatina, Katja Markert, Marcos Martínez Galindo, Claudia Marzi, Matthew Matero, Ved Mathai,
+Sandeep Mathias, Puneet Mathur, Yuichiroh Matsubayashi, Julian McAuley, Sabrina McCallum,
+R. Thomas McCoy, Nikhil Mehta, Clara Meister, Julia Mendelsohn, Xiaojun Meng, Yuanliang
+Meng, Zaiqiao Meng, Wolfgang Menzel, Yisong Miao, Todor Mihaylov, Elena Mikhalkova, Filip Miletić, Simon Mille, David Mimno, Hideya Mino, Niloofar Mireshghallah, Paramita Mirza,
+Pushkar Mishra, Shubham Mittal, Yusuke Miyao, Takashi Miyazaki, Jisoo Mok, Nicholas Monath, Syrielle Montariol, Ibraheem Muhammad Moosa, Jose G Moreno, Makoto Morishita, Robert
+Moro, Luca Moroni, Aida Mostafazadeh Davani, Frank Martin Mtumbuka, Pavankumar Reddy
+Muddireddy, Aaron Mueller, Anjishnu Mukherjee, Saliha Muradoglu
+Sharmila Reddy Nangi, Diane Napolitano, Vivi Nastase, Anandhavelu Natarajan, Mir Tafseer
+Nayeem, Mariana Neves, Lynnette Hui Xian Ng, Kiet Van Nguyen, Minh-Tien Nguyen, Thong
+Nguyen, Ansong Ni, Xuanfan Ni, Garrett Nicolai, Liqiang Nie, Malvina Nikandrou, Dmitry Nikolaev, Jinzhong Ning, Tadashi Nomoto, Damien Nouvel, Michal Novák, Sarana Nutanong
+Alexander O’Connor, Perez Ogayo, Byung-Doh Oh, Minsik Oh, Shinhyeok Oh, Shu Okabe,
+Tsuyoshi Okita, Ethel Chua Joy Ong, Yasumasa Onoe, Naoki Otani, Siru Ouyang, Yawen Ouyang,
+Robert Östling
+Aishwarya Padmakumar, Vishakh Padmakumar, Sebastian Padó, Kuntal Kumar Pal, Chester PalenMichel, Zhufeng Pan, Alexander Panchenko, Chenxi Pang, Liang Pang, Richard Yuanzhe Pang,
+Eunhwan Park, Jungsoo Park, Seo Yeon Park, Youngja Park, Jacob Parnell, Patrick Paroubek, Alicia Parrish, Peyman Passban, Adam Pauls, Silviu Paun, Sachin Pawar, Siddhesh Milind Pawar,
+Pavel Pecina, Bo Peng, Letian Peng, Siyao Peng, Laura Perez-Beltrachini, Dominic Petrak, Pavel
+Petrushkov, Minh-Quang Pham, Francesco Piccinno, Matúš Pikuliak, Tiago Pimentel, Rajesh Piryani, Joan Plepi, Massimo Poesio, Ramesh Poluru, Andrei Popescu-Belis, Maja Popovic, Sravya
+Popuri, Ian Porada, Darshan Deepak Prabhu, Aniket Pramanick, Radityo Eko Prasojo, Rifki Afina
+Putri, Valentina Pyatkin
+Ehsan Qasemi, Jianzhong Qi, Jingyuan Qi, Linlu Qiu, Shang Qu
+Rakesh R Menon, Vipul Raheja, Sunny Rai, Vyas Raina, Hossein Rajaby Faghihi, Sara Rajaee,
+Shihao Ran, Leonardo Ranaldi, Peter A. Rankel, Yanghui Rao, Royi Rassin, Vipul Kumar Ra-
+
+xvii
+
+thore, Mathieu Ravaut, Sravana Reddy, Ehud Reiter, Shadi Rezapour, Ryokan Ri, Leonardo F. R.
+Ribeiro, Caitlin Laura Richter, Darcey Riley, Anthony Rios, Brian Roark, Paul Rodrigues, Dominika Rogozinska, Srikanth Ronanki, Domenic Rosati, Robert Ross, Guy Rotman, Kay Rottmann,
+Dmitri Roussinov, Dongyu Ru, Yu-Ping Ruan, Koustav Rudra, Frank Rudzicz, Mukund Rungta
+Ashish Sabharwal, Mobashir Sadat, Nafis Sadeq, Gaurav Sahu, Oscar Sainz, Tanja Samardzic,
+Abhilasha Sancheti, Danae Sanchez Villegas, Brenda Salenave Santana, Ryohei Sasano, Msvpj Sathvik, Asad B. Sayeed, Shigehiko Schamoni, Tatjana Scheffler, Yves Scherrer, David Schlangen,
+Helmut Schmid, Patrícia Schmidtová, Steven Schockaert, William Schuler, Elliot Schumacher,
+Carolin M. Schuster, Sebastian Schuster, Roy Schwartz, Stefan Schweter, Amit Seker, Saptarshi
+Sengupta, Rico Sennrich, Ovidiu Serban, Sofia Serrano, Silvia Severini, Guokan Shang, Yijia
+Shao, Yunfan Shao, Yutong Shao, Serge Sharoff, Ravi Shekhar, Ming Shen, Qinlan Shen, Qiang
+Sheng, Lei Shi, Zhengxiang Shi, Kazutoshi Shinoda, Milind Shyani, Shijing Si, Suzanna Sia, Anthony Sicilia, A.b. Siddique, Damien Sileo, Patrick Simianer, Edwin Simpson, Apoorva Singh,
+Kairit Sirts, Milena Slavcheva, Jan Snajder, Pia Sommerauer, Haiyue Song, Jiayu Song, Yixiao
+Song, Gerasimos Spanakis, Alexander Spangher, Makesh Narsimhan Sreedhar, Mukund Sridhar,
+Balaji Vasan Srinivasan, Felix Stahlberg, Marija Stanojevic, Katherine Stasaski, Mark Steedman,
+Julius Steen, Mark Stevenson, Niklas Stoehr, Phillip Benjamin Ströbel, Xin Su, Yusheng Su, Shivashankar Subramanian, Katsuhito Sudoh, Alessandro Suglia, Yoshi Suhara, Hanbo Sun, Rui Sun,
+Simeng Sun, Zequn Sun, Zhewei Sun, Zijun Sun, Sarathkrishna Swaminathan, Stan Szpakowicz,
+Jonne Sälevä, Michal Štefánik
+Santosh T.y.s.s, Oyvind Tafjord, Ece Takmaz, Aleš Tamchyna, Minghuan Tan, Qingyu Tan, Yun
+Tang, Zecheng Tang, Zheng Tang, Joshua Tanner, Stephen Eugene Taylor, Hrishikesh Terdalkar,
+Craig Thorburn, Vanessa Toborek, Evgeniia Tokarchuk, Julien Tourille, Khanh Quoc Tran, Khiem
+Vinh Tran, Thy Thy Tran, Tornike Tsereteli, Martin Tutek
+Can Udomcharoenchaikit, Rheeya Uppaal, Asahi Ushio
+Sowmya Vajjala, Jannis Vamvas, Michiel Van Der Meer, Natalia Vanetik, Giorgos Vernikos, Aline
+Villavicencio, Vijay Viswanathan, MinhDuc Vo, Renato Vukovic
+Henning Wachsmuth, David Wadden, Yao Wan, Bang Wang, Bin Wang, Bingqing Wang, Fei
+Wang, Hai Wang, Jiaan Wang, Jiale Wang, Jiayi Wang, Jue Wang, Lingzhi Wang, Peiyi Wang,
+Qingyun Wang, Renzhi Wang, Rui Wang, Ruibo Wang, Runhui Wang, Siyuan Wang, Song Wang,
+Wei Wang, Weiqi Wang, Wen Wang, Xi Wang, Xi Wang, Xiaozhi Wang, Yichen Wang, Yijue
+Wang, Yiwei Wang, Yu Wang, Yue Wang, Zhaowei Wang, Zhaoyang Wang, Zhiruo Wang, Zilong
+Wang, Zuhui Wang, Nigel G. Ward, Leon Weber-Genzel, Albert Webson, Penghui Wei, Victor
+Junqiu Wei, Orion Weller, Matti Wiegmann, Adam Wiemerslage, Rodrigo Wilkens, Steven R.
+Wilson, Shuly Wintner, Guillaume Wisniewski, Lior Wolf, Tak-Lam Wong, Dina Wonsever, Anne
+Wu, Chien-Sheng Wu, Hongqiu Wu, Minghao Wu, Qingyang Wu, Qiyu Wu, Taiqiang Wu, Wei
+Wu, Weiqi Wu, Xiaobao Wu, Xin Wu, Ying Nian Wu
+Chunyang Xiao, Jun Xie, Kaige Xie, Tianbao Xie, Yuqiang Xie, Yuqing Xie, Boyan Xu, Jinan
+Xu, Jitao Xu, Pengyu Xu, Qiongkai Xu, Ruifeng Xu, Wang Xu, Weijie Xu, Xinnuo Xu, Yan Xu,
+Yi Xu, Yige Xu, Yiheng Xu, Zhichao Xu, Zhiyang Xu, Xiaojun Xue
+Tiezheng YU, Shuntaro Yada, Vikas Yadav, Aditya Yadavalli, Jing Nathan Yan, Hitomi Yanaka, Chenghao Yang, Jingfeng Yang, Kejuan Yang, Longfei Yang, Mingming Yang, Nan Yang, Sen
+Yang, Songlin Yang, Xianjun Yang, Xiaocong Yang, Xiaocui Yang, Xiaoyu Yang, Yinfei Yang,
+Yue Yang, Zonglin Yang, Bingsheng Yao, Yuekun Yao, Zijun Yao, Zijun Yao, Zonghai Yao, An-
+
+xviii
+
+drew Yates, Jiacheng Ye, Jingheng Ye, Qinyuan Ye, Rong Ye, Tong Ye, Zihuiwen Ye, Jinyoung
+Yeo, Kayo Yin, Qingyu Yin, Yuwei Yin, Sho Yokoi, Bowen Yu, Dian Yu, Yue Yu, Zhou Yu, Caixia Yuan, Hongyi Yuan, Lifan Yuan, Yu Yuan
+Sina Zarrieß, Vicky Zayats, Albin Zehe, Piotr Zelasko, Weihao Zeng, Zhiyuan Zeng, Chrysoula Zerva, Deniz Zeyrek, Bohan Zhang, Bowen Zhang, Chen Zhang, Hongyu Zhang, Jing Zhang,
+Jipeng Zhang, Kai Zhang, Kai Zhang, Kai Zhang, Lei Zhang, Linhai Zhang, Liwen Zhang, Mian
+Zhang, Ruiqing Zhang, Ruochen Zhang, Tao Zhang, Tianlin Zhang, Tianyi Zhang, Wei Emma
+Zhang, Wen Zhang, Xiang Zhang, Yanzhe Zhang, Yi Zhang, Yian Zhang, Yichi Zhang, Yiming
+Zhang, Yue Zhang, Yuji Zhang, Yunyi Zhang, Yuwei Zhang, Zhe Zhang, Zhisong Zhang, Zhong
+Zhang, Ziheng Zhang, Zixuan Zhang, Guangxiang Zhao, Jiaxu Zhao, Jie Zhao, Kai Zhao, Mengjie
+Zhao, Qinghua Zhao, Runcong Zhao, Ruochen Zhao, Ruoqing Zhao, Wenting Zhao, Yang Zhao,
+Yilun Zhao, Zhenjie Zhao, Yang Zhong, Giulio Zhou, Li Zhou, Mingyang Zhou, Qingyu Zhou,
+Wangchunshu Zhou, Xin Zhou, Yucheng Zhou, Dawei Zhu, Jian Zhu, Qinglin Zhu, Wanrong
+Zhu, Wanzheng Zhu, Wenhao Zhu, Yaoming Zhu, Yilun Zhu, Zining Zhu, Yuan Zhuang, Yuchen
+Zhuang, Caleb Ziems, Yuexian Zou, Amal Zouaq, Vilém Zouhar, Xinyu Zuo, Maike Züfle
+
+Outstanding Reviewers
+Sumeet Agarwal, Sweta Agrawal, Ekaterina Artemova, Forrest Sheng Bao, Gábor Berend, Prabin
+Bhandari, Shruti Bhargava, Sky CH-Wang, Rui Cao, Yixin Cao, Kushal Chawla, Angelica Chen,
+Guanyi Chen, Yulong Chen, Emmanuele Chersoni, Cheng-Han Chiang, David Chiang, Patricia
+Chiril, Iulia Maria Comsa, Souvik Das, Sam Davidson, José G. C. De Souza, Steve DeNeefe,
+Sumanth Doddapaneni, Ritam Dutt, Mohamed Elgaar, Besnik Fetahu, Antske Fokkens, David
+Gaddy, William Gantt, Ankush Garg, Aryo Pradipta Gema, Thamme Gowda, Loı̈c Grobol, Liane
+Guillou, Namgi Han, Kazuma Hashimoto, Shreya Havaldar, Zhengqi He, Benjamin Heinzerling,
+Christopher Hidey, Eran Hirsch, Zhe Hu, Kung-Hsiang Huang, Taichi Iki, Md Saiful Islam, Labiba
+Jahan, Harsh Jhamtani, Jaap Kamps, Marzena Karpinska, Pei Ke, Frank Keller, Jihyuk Kim, Tracy
+Holloway King, Svetlana Kiritchenko, Fajri Koto, Venelin Kovatchev, Mayank Kulkarni, Jenny
+Kunz, Yucheng LI, Tsz Kin Lam, Ji-Ung Lee, Colin Leong, Tianyi Li, Xudong Lin, Tal Linzen,
+Aiwei Liu, Boyang Liu, Fenglin Liu, Tianyuan Liu, Ziqiao Ma, Piotr Mardziel, Matthew Matero,
+Sandeep Mathias, R. Thomas McCoy, Julia Mendelsohn, Zaiqiao Meng, Yisong Miao, Niloofar
+Mireshghallah, Syrielle Montariol, Luca Moroni, Anjishnu Mukherjee, Diane Napolitano, Thong
+Nguyen, Ansong Ni, Garrett Nicolai, Dmitry Nikolaev, Shu Okabe, Richard Yuanzhe Pang, Youngja Park, Sachin Pawar, Letian Peng, Francesco Piccinno, Tiago Pimentel, Joan Plepi, Andrei
+Popescu-Belis, Leonardo Ranaldi, Shadi Rezapour, Darcey Riley, Brian Roark, Domenic Rosati,
+Mukund Rungta, Gaurav Sahu, Oscar Sainz, Tatjana Scheffler, Yves Scherrer, David Schlangen,
+Sebastian Schuster, Rico Sennrich, Sofia Serrano, Silvia Severini, Anthony Sicilia, Damien Sileo,
+Yixiao Song, Felix Stahlberg, Julius Steen, Phillip Benjamin Ströbel, Alessandro Suglia, Sarathkrishna Swaminathan, Stan Szpakowicz, Ece Takmaz, Zecheng Tang, Rheeya Uppaal, Jannis
+Vamvas, MinhDuc Vo, David Wadden, Ruibo Wang, Matti Wiegmann, Steven R. Wilson, Anne
+Wu, Hongqiu Wu, Weiqi Wu, Zhiyang Xu, Jing Nathan Yan, Chenghao Yang, Kayo Yin, Qingyu
+Yin, Albin Zehe, Chen Zhang, Jipeng Zhang, Yian Zhang, Yichi Zhang, Yang Zhong, Mingyang
+Zhou, Wanrong Zhu, Caleb Ziems, Vilém Zouhar
+
+xix
+
+Karen Spärck Jones Award Lecture
+
+Human vs. Generative AI in Content Creation Competition:
+Symbiosis or Conflict?
+Hongning Wang
+Department of Computer Science and Technology, Tsinghua University
+
+Mon, March 18, 2024 – Time: 09:30 – 10:30 – Room: Radisson
+Abstract: The advent of generative AI technology produces transformative impact on the content creation landscape, offering alternative approaches to produce diverse, good-quality content across media,
+thereby reshaping the ecosystems of online content creation and publishing, but also raising concerns
+about market over-saturation and the potential marginalization of human creativity. Our recent work introduces a competition model generalized from the Tullock contest to analyze the tension between human
+creators and generative AI. Our theory and simulations suggest that despite challenges, a stable equilibrium between human and AI-generated content is possible. Our work contributes to understanding the
+competitive dynamics in the content creation industry, offering insights into the future interplay between
+human creativity and technological advancements in generative AI.
+
+Bio: Dr. Hongning Wang is now an associate professor at the Department of Computer Science and
+Technology at Tsinghua University. Prior to that, he was the Copenhaver Associate Professor in the Department of Computer Science at the University of Virginia. He received his PhD degree in computer
+science at the University of Illinois at Champaign-Urbana in 2014. His research generally lies in the
+intersection among machine learning and information retrieval, with a special focus on sequential decision optimization and computational user modeling. His work has generated over 100 research papers
+in top venues in data mining and information retrieval areas. He is a recipient of 2016 National Science
+Foundation CAREER Award, 2020 Google Faculty Research Award, and SIGIR’2019 Best Paper Award.
+
+xx
+
+Keynote Talk
+
+Quality Data for LLMs: Challenges and Opportunities for
+NLP
+Hinrich Schütze
+Center for Information and Language Processing, LMU Munich
+
+Tue, March 19, 2024 – Time: 09:00 – 10:00 – Room: Radisson
+Abstract: That the recent LLM breakthroughs are solely due to scaling is a myth. Many difficult research problems had to be solved to make models like GPT4 and Mixtral possible. One of those difficult
+research problems is data quality. Data quality is a great challenge for NLP researchers with many opportunities for innovation and impact on current generative AI developments. I will focus on two examples
+in my talk: quality data for training a highly multilingual language model and quality data for instruction
+tuning.
+
+Bio: Hinrich Schuetze is Professor at the Center for Information and Language Processing at LMU Munich. His lab is engaged in research on multilinguality, representation learning and linguistic analysis of
+NLP models. His research has been funded by NSF, the German National Science Foundation and the
+European Research Council (ERC Advanced Grant), inter alia. Hinrich is coauthor of two well-known
+textbooks (Foundations of Statistical Natural Language Processing and Introduction to Information Retrieval), a fellow of HessianAI, ELLIS (the European Laboratory for Learning and Intelligent Systems)
+and ACL (Association for Computational Linguistics) and (co-)awardee of several best paper awards and
+the ACL 2023 25-year test of time award.
+
+xxi
+
+Keynote Talk
+
+Prompting is *not* all you need! Or why Structure and
+Representations still matter in NLP
+Mirella Lapata
+School of Informatics, University of Edinburgh
+
+Wed, March 20, 2024 – Time: 14:45 – 15:45 – Room: Radisson
+Abstract: Recent years have witnessed the rise of increasingly larger and more sophisticated language
+models (LMs) capable of performing every task imaginable, sometimes at (super)human level. In this
+talk, I will argue that there is still space for specialist models in today’s NLP landscape. Such models
+can be dramatically more efficient, inclusive, and explainable. I will focus on two examples, opinion
+summarization and crosslingual semantic parsing and show how these two seemingly unrelated tasks can
+be addressed by explicitly learning task-specific representations. I will show how such representations
+can be further structured to allow search and retrieval, evidence-based generation, and cross-lingual alignment. Finally, I will discuss why we need to to use LLMs for what they are good at and remove the
+need for them to do things that can be done much better by smaller models.
+
+Bio: Mirella Lapata is professor of natural language processing in the School of Informatics at the University of Edinburgh. Her research focuses on getting computers to understand, reason with, and generate
+natural language. She is the first recipient (2009) of the British Computer Society and Information Retrieval Specialist Group (BCS/IRSG) Karen Spärck Jones award and a Fellow of the Royal Society of
+Edinburgh, the ACL, and Academia Europaea. Mirella has also received best paper awards in leading
+NLP conferences and has served on the editorial boards of the Journal of Artificial Intelligence Research,
+the Transactions of the ACL, and Computational Linguistics. She was president of SIGDAT (the group
+that organizes EMNLP) in 2018. She has been awarded an ERC consolidator grant, a Royal Society
+Wolfson Research Merit Award, and a UKRI Turing AI World-Leading Researcher Fellowship.
+
+xxii
+
+Table of Contents
+Enhancing Ethical Explanations of Large Language Models through Iterative Symbolic Refinement
+Xin Quan, Marco Valentino, Louise A. Dennis and Andre Freitas . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Multi-Relational Hyperbolic Word Embeddings from Natural Language Definitions
+Marco Valentino, Danilo Carvalho and Andre Freitas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Anisotropy Is Inherent to Self-Attention in Transformers
+Nathan Godey, Éric Villemonte De La Clergerie and Benoı̂t Sagot . . . . . . . . . . . . . . . . . . . . . . . . . 35
+Generating Benchmarks for Factuality Evaluation of Language Models
+Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend,
+Kevin Leyton-Brown, Amnon Shashua and Yoav Shoham . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49
+Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMs
+Simone Balloccu, Patrícia Schmidtová, Mateusz Lango and Ondrej Dusek . . . . . . . . . . . . . . . . . . 67
+Archer: A Human-Labeled Text-to-SQL Dataset with Arithmetic, Commonsense and Hypothetical Reasoning
+Danna Zheng, Mirella Lapata and Jeff Z. Pan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+GEAR: Augmenting Language Models with Generalizable and Efficient Tool Resolution
+Yining Lu, Haoping Yu and Daniel Khashabi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 112
+LLM Comparative Assessment: Zero-shot NLG Evaluation through Pairwise Comparisons using Large
+Language Models
+Adian Liusie, Potsawee Manakul and Mark Gales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 139
+Parameter-Efficient Conversational Recommender System as a Language Processing Task
+Mathieu Ravaut, Hao Zhang, Lu Xu, Aixin Sun and Yong Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . 152
+OpenPI2.0: An Improved Dataset for Entity Tracking in Texts
+Li Zhang, Hainiu Xu, Abhinav Kommula, Chris Callison-Burch and Niket Tandon . . . . . . . . . . 166
+A Comparative Multidimensional Analysis of Empathetic Systems
+Andrew Lee, Jonathan K. Kummerfeld, Larry Ann and Rada Mihalcea . . . . . . . . . . . . . . . . . . . . 179
+Few-Shot Data Synthesis for Open Domain Multi-Hop Question Answering
+Mingda Chen, Xilun Chen and Wen-tau Yih . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 190
+Language Models as Inductive Reasoners
+Zonglin Yang, Li Dong, Xinya Du, Hao Cheng, Erik Cambria, Xiaodong Liu, Jianfeng Gao and
+Furu Wei . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 209
+SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages
+and Dialects
+David Ifeoluwa Adelani, Hannah Liu, Xiaoyu Shen, Nikita Vassilyev, Jesujoba Oluwadara Alabi,
+Yanke Mao, Haonan Gao and En-Shiun Annie Lee . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 226
+FinBPM: A Framework for Portfolio Management-based Financial Investor Behavior Perception Model
+Zhilu Zhang, Procheta Sen, Zimu Wang, Ruoyu Sun, Zhengyong Jiang and Jionglong Su . . . . 246
+Asking the Right Question at the Right Time: Human and Model Uncertainty Guidance to Ask Clarification Questions
+Alberto Testoni and Raquel Fernández . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 258
+xxiii
+
+Like a Good Nearest Neighbor: Practical Content Moderation and Text Classification
+Luke Bates and Iryna Gurevych . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 276
+Zero-shot Sentiment Analysis in Low-Resource Languages Using a Multilingual Sentiment Lexicon
+Fajri Koto, Tilman Beck, Zeerak Talat, Iryna Gurevych and Timothy Baldwin . . . . . . . . . . . . . . 298
+CEAN: Contrastive Event Aggregation Network with LLM-based Augmentation for Event Extraction
+Zihao Meng, Tao Liu, Heng Zhang, Kai Feng and Peng Zhao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 321
+How Transferable are Attribute Controllers on Pretrained Multilingual Translation Models?
+Danni Liu and Jan Niehues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 334
+MultiMUC: Multilingual Template Filling on MUC-4
+William Gantt, Shabnam Behzad, Hannah YoungEun An, Yunmo Chen, Aaron Steven White,
+Benjamin Van Durme and Mahsa Yarmohammadi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+Align and Augment: Generative Data Augmentation for Compositional Generalization
+Francesco Cazzaro, Davide Locatelli and Ariadna Quattoni. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .369
+UNSEE: Unsupervised Non-contrastive Sentence Embeddings
+Ömer Veysel Çağatan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 384
+EXPLORER: Exploration-guided Reasoning for Textual Reinforcement Learning
+Kinjal Basu, Keerthiram Murugesan, Subhajit Chaudhury, Murray Campbell, Kartik Talamadupula and Tim Klinger . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 394
+From Text Segmentation to Smart Chaptering: A Novel Benchmark for Structuring Video Transcriptions
+Fabian Retkowski and Alexander Waibel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 406
+Fréchet Distance for Offline Evaluation of Information Retrieval Systems with Sparse Labels
+Negar Arabzadeh and Charles L. A. Clarke . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 420
+Semantic Sensitivities and Inconsistent Predictions: Measuring the Fragility of NLI Models
+Erik Arakelyan, Zhaoqi Liu and Isabelle Augenstein . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 432
+Exploring the Robustness of Task-oriented Dialogue Systems for Colloquial German Varieties
+Ekaterina Artemova, Verena Blaschke and Barbara Plank . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 445
+PEARL: Prompting Large Language Models to Plan and Execute Actions Over Long Documents
+Simeng Sun, Yang Liu, Shuohang Wang, Dan Iter, Chenguang Zhu and Mohit Iyyer . . . . . . . . 469
+LAraBench: Benchmarking Arabic AI with Large Language Models
+Ahmed Abdelali, Hamdy Mubarak, Shammur Absar Chowdhury, Maram Hasanain, Basel Mousi,
+Sabri Boughorbel, Samir Abdaljalil, Yassine El Kheir, Daniel Izham, Fahim Dalvi, Majd Hawasly, Nizi
+Nazar, Youssef Ibrahim Elshahawy, Ahmed Ali, Nadir Durrani, Natasa Milic-Frayling and Firoj Alam
+487
+SentenceLDA: Discriminative and Robust Document Representation with Sentence Level Topic Model
+Taehun Cha and Donghun Lee . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 521
+Towards Hierarchical Spoken Language Disfluency Modeling
+Jiachen Lian and Gopala Anumanchipalli . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 539
+Finding a Needle in the Adversarial Haystack: A Targeted Paraphrasing Approach For Uncovering
+Edge Cases with Minimal Distribution Distortion
+Aly M. Kassem and Sherif Saad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 552
+
+xxiv
+
+FAIR: Filtering of Automatically Induced Rules
+Divya Jyoti Bajpai, Ayush Maheshwari, Manjesh Kumar Hanawal and Ganesh Ramakrishnan573
+NNOSE: Nearest Neighbor Occupational Skill Extraction
+Mike Zhang, Rob Van Der Goot, Min-Yen Kan and Barbara Plank . . . . . . . . . . . . . . . . . . . . . . . . 589
+GAINER: Graph Machine Learning with Node-specific Radius for Classification of Short Texts and
+Documents
+Naganand Yadati . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 609
+MAFIA: Multi-Adapter Fused Inclusive Language Models
+Prachi Jain, Ashutosh Sathe, Varun Gumma, Kabir Ahuja and Sunayana Sitaram . . . . . . . . . . . 627
+Code-Switched Language Identification is Harder Than You Think
+Laurie Burchell, Alexandra Birch, Robert Peter Thompson and Kenneth Heafield . . . . . . . . . . . 646
+Generation-driven Contrastive Self-training for Zero-shot Text Classification with Instruction-following
+LLM
+Ruohong Zhang, Yau-Shian Wang and Yiming Yang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 659
+Quantifying the Hyperparameter Sensitivity of Neural Networks for Character-level Sequence-to-Sequence
+Tasks
+Adam Wiemerslage, Kyle Gorman and Katharina Von Der Wense . . . . . . . . . . . . . . . . . . . . . . . . . 674
+Examining Gender and Racial Bias in Large Vision–Language Models Using a Novel Dataset of Parallel Images
+Kathleen C. Fraser and Svetlana Kiritchenko . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 690
+ConstraintChecker: A Plugin for Large Language Models to Reason on Commonsense Knowledge Bases
+Quyet V. Do, Tianqing Fang, Shizhe Diao, Zhaowei Wang and Yangqiu Song . . . . . . . . . . . . . . 714
+A* shortest string decoding for non-idempotent semirings
+Kyle Gorman and Cyril Allauzen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 732
+Importance-Aware Data Augmentation for Document-Level Neural Machine Translation
+Minghao Wu, Yufei Wang, George Foster, Lizhen Qu and Gholamreza Haffari . . . . . . . . . . . . . 740
+Lost in Translationese? Reducing Translation Effect Using Abstract Meaning Representation
+Shira Wein and Nathan Schneider . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 753
+Comparing Template-based and Template-free Language Model Probing
+Sagi Shaier, Kevin Bennett, Lawrence Hunter and Katharina Von Der Wense. . . . . . . . . . . . . . .766
+Desiderata For The Context Use Of Question Answering Systems
+Sagi Shaier, Lawrence Hunter and Katharina Von Der Wense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 777
+Scaling up Discovery of Latent Concepts in Deep NLP Models
+Majd Hawasly, Fahim Dalvi and Nadir Durrani . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 793
+AnthroScore: A Computational Linguistic Measure of Anthropomorphism
+Myra Cheng, Kristina Gligoric, Tiziano Piccardi and Dan Jurafsky . . . . . . . . . . . . . . . . . . . . . . . . 807
+Centering the Speech Community
+Steven Bird and Dean Yibarbuk . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 826
+Improving the TENOR of Labeling: Re-evaluating Topic Models for Content Analysis
+Zongxia Li, Andrew Mao, Daniel Kofi Stephens, Pranav Goel, Emily Walpole, Alden Dima, Juan
+Francisco Fung and Jordan Lee Boyd-Graber . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 840
+xxv
+
+Quality Does Matter: A Detailed Look at the Quality and Utility of Web-Mined Parallel Corpora
+Surangika Ranathunga, Nisansa De Silva, Velayuthan Menan, Aloka Fernando and Charitha S.m.
+Rathnayake . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 860
+VOLTAGE: A Versatile Contrastive Learning based OCR Methodology for ultra low-resource scripts
+through Auto Glyph Feature Extraction
+Prawaal Sharma, Poonam Goyal, Vidisha Sharma and Navneet Goyal . . . . . . . . . . . . . . . . . . . . . . 881
+Unsupervised Contrast-Consistent Ranking with Language Models
+Niklas Stoehr, Pengxiang Cheng, Jing Wang, Daniel Preotiuc-Pietro and Rajarshi Bhowmik . 900
+Entity-level Factual Adaptiveness of Fine-tuning based Abstractive Summarization Models
+Jongyoon Song, Nohil Park, Bongkyu Hwang, Jaewoong Yun, Seongho Joe, Youngjune Gwon
+and Sungroh Yoon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 915
+Meme-ingful Analysis: Enhanced Understanding of Cyberbullying in Memes Through Multimodal Explanations
+Prince Jha, Krishanu Maity, Raghav Jain, Apoorv Verma, Sriparna Saha and Pushpak Bhattacharyya . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 930
+LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions
+Minghao Wu, Abdul Waheed, Chiyu Zhang, Muhammad Abdul-Mageed and Alham Fikri Aji944
+Automated Cognate Detection as a Supervised Link Prediction Task with Cognate Transformer
+V.S.D.S.Mahesh Akavarapu and Arnab Bhattacharya . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 965
+Leveraging Multi-lingual Positive Instances in Contrastive Learning to Improve Sentence Embedding
+Kaiyan Zhao, Qiyu Wu, Xin-Qiang Cai and Yoshimasa Tsuruoka . . . . . . . . . . . . . . . . . . . . . . . . . 976
+Moderation in the Wild: Investigating User-Driven Moderation in Online Discussions
+Neele Falk, Eva Maria Vecchi, Iman Jundi and Gabriella Lapesa . . . . . . . . . . . . . . . . . . . . . . . . . . 992
+Cross-Lingual Transfer from Related Languages: Treating Low-Resource Maltese as Multilingual CodeSwitching
+Kurt Micallef, Nizar Habash, Claudia Borg, Fadhl Eryani and Houda Bouamor . . . . . . . . . . . . 1014
+Where Do We Go From Here? Multi-scale Allocentric Relational Inferencefrom Natural Spatial Descriptions
+Tzuf Paz-Argaman, John Palowitch, Sayali Kulkarni, Jason Michael Baldridge and Reut Tsarfaty
+1026
+Bias in Opinion Summarisation from Pre-training to Adaptation: A Case Study in Political Bias
+Nannan Huang, Haytham M. Fayek and Xiuzhen Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1041
+Document Structure in Long Document Transformers
+Jan Buchmann, Max Eichler, Jan-Micha Bodensohn, Ilia Kuznetsov and Iryna Gurevych . . . 1056
+The Role of Data Curation in Image Captioning
+Wenyan Li, Jonas F. Lotz, Chen Qiu and Desmond Elliott . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1074
+Large-Scale Bitext Corpora Provide New Evidence for Cognitive Representations of Spatial Terms
+Peter Viechnicki, Kevin Duh, Anthony Kostacos and Barbara Landau . . . . . . . . . . . . . . . . . . . . 1089
+REFINER: Reasoning Feedback on Intermediate Representations
+Debjit Paul, Mete Ismayilzada, Maxime Peyrard, Beatriz Borges, Antoine Bosselut, Robert West
+and Boi Faltings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1100
+
+xxvi
+
+HumBEL: A Human-in-the-Loop Approach for Evaluating Demographic Factors of Language Models
+in Human-Machine Conversations
+Anthony Sicilia, Jennifer C. Gates and Malihe Alikhani . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1127
+LOCOST: State-Space Models for Long Document Abstractive Summarization
+Florian Le Bronnec, Song Duong, Mathieu Ravaut, Alexandre Allauzen, Nancy F. Chen, Vincent
+Guigue, Alberto Lumbreras, Laure Soulier and Patrick Gallinari . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1144
+A Classification-Guided Approach for Adversarial Attacks against Neural Machine Translation
+Sahar Sadrizadeh, Ljiljana Dolamic and Pascal Frossard . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1160
+Improving Generalization in Semantic Parsing by Increasing Natural Language Variation
+Irina Saparina and Mirella Lapata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1178
+Text-to-Code Generation with Modality-relative Pre-training
+Fenia Christopoulou, Guchun Zhang and Gerasimos Lampouras . . . . . . . . . . . . . . . . . . . . . . . . . 1194
+No Error Left Behind: Multilingual Grammatical Error Correction with Pre-trained Translation Models
+Agnes Luhtaru, Elizaveta Korotkova and Mark Fishel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1209
+Quantifying Stereotypes in Language
+Yang Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1223
+Generation, Distillation and Evaluation of Motivational Interviewing-Style Reflections with a Foundational Language Model
+Andrew Brown, Jiading Zhu, Mohamed Abdelwahab, Alec Dong, Cindy Wang and Jonathan Rose
+1241
+Multi-Reference Benchmarks for Russian Grammatical Error Correction
+Frank Palma Gomez and Alla Rozovskaya . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1253
+Plan-Grounded Large Language Models for Dual Goal Conversational Settings
+Diogo Glória-Silva, Rafael Ferreira, Diogo Tavares, David Semedo and Joao Magalhaes . . . 1271
+“Define Your Terms” : Enhancing Efficient Offensive Speech Classification with Definition
+Huy Nghiem, Umang Gupta and Fred Morstatter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1293
+VlogQA: Task, Dataset, and Baseline Models for Vietnamese Spoken-Based Machine Reading Comprehension
+Thinh Phuoc Ngo, Khoa Tran Anh Dang, Son T. Luu, Kiet Van Nguyen and Ngan Luu-Thuy
+Nguyen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1310
+CEV-LM: Controlled Edit Vector Language Model for Shaping Natural Language Generations
+Samraj Moorjani, Adit Krishnan and Hari Sundaram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1325
+It’s All Relative: Learning Interpretable Models for Scoring Subjective Bias in Documents from Pairwise Comparisons
+Aswin Suresh, Wu Chi Hsuan and Matthias Grossglauser . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1341
+HiGen: Hierarchy-Aware Sequence Generation for Hierarchical Text Classification
+Vidit Jain, Mukund Rungta, Yuchen Zhuang, Yue Yu, Zeyu Wang, Mu Gao, Jeffrey Skolnick and
+Chao Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1354
+M4: Multi-generator, Multi-domain, and Multi-lingual Black-Box Machine-Generated Text Detection
+Yuxia Wang, Jonibek Mansurov, Petar Ivanov, Jinyan Su, Artem Shelmanov, Akim Tsvigun,
+Chenxi Whitehouse, Osama Mohammed Afzal, Tarek Mahmoud, Toru Sasaki, Thomas Arnold, Alham
+Fikri Aji, Nizar Habash, Iryna Gurevych and Preslav Nakov . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1369
+xxvii
+
+A Truly Joint Neural Architecture for Segmentation and Parsing
+Danit Yshaayahu Levi and Reut Tsarfaty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1408
+ViLexNorm: A Lexical Normalization Corpus for Vietnamese Social Media Text
+Thanh-Nhi Nguyen, Thanh-Phong Le and Kiet Van Nguyen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1421
+Diffusion-NAT: Self-Prompting Discrete Diffusion for Non-Autoregressive Text Generation
+Kun Zhou, Yifan Li, Xin Zhao and Ji-Rong Wen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1438
+Unleashing the Power of Discourse-Enhanced Transformers for Propaganda Detection
+Alexander Chernyavskiy, Dmitry Ilvovsky and Preslav Nakov . . . . . . . . . . . . . . . . . . . . . . . . . . . 1452
+Predicting Client Emotions and Therapist Interventions in Psychotherapy Dialogues
+Tobias Mayer, Neha Warikoo, Amir Eliassaf, Dana Atzil-Slonim and Iryna Gurevych . . . . . . 1463
+Who Needs Decoders? Efficient Estimation of Sequence-Level Attributes with Proxies
+Yassir Fathullah, Puria Radmard, Adian Liusie and Mark Gales . . . . . . . . . . . . . . . . . . . . . . . . . . 1478
+3D Rotation and Translation for Hyperbolic Knowledge Graph Embedding
+Yihua Zhu and Hidetoshi Shimodaira . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1497
+Geo-Encoder: A Chunk-Argument Bi-Encoder Framework for Chinese Geographic Re-Ranking
+Yong Cao, Ruixue Ding, Boli Chen, Xianzhi Li, Min Chen, Daniel Hershcovich, Pengjun Xie and
+Fei Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1516
+Style-News: Incorporating Stylized News Generation and Adversarial Verification for Neural Fake News
+Detection
+Wei-Yao Wang, Yu-Chieh Chang and Wen-Chih Peng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1531
+Graph-based Clustering for Detecting Semantic Change Across Time and Languages
+Xianghe Ma, Michael Strube and Wei Zhao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1542
+Translate to Disambiguate: Zero-shot Multilingual Word Sense Disambiguation with Pretrained Language Models
+Haoqiang Kang, Terra Blevins and Luke Zettlemoyer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1562
+Anchor Points: Benchmarking Models with Much Fewer Examples
+Rajan Pathe Vivek, Kawin Ethayarajh, Diyi Yang and Douwe Kiela . . . . . . . . . . . . . . . . . . . . . . 1576
+SCO-VIST: Social Interaction Commonsense Knowledge-based Visual Storytelling
+Eileen Wang, Caren Han and Josiah Poon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1602
+Discovering and Articulating Frames of Communication from Social Media Using Chain-of-Thought
+Reasoning
+Maxwell Weinzierl and Sanda Harabagiu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1617
+VEIL: Vetting Extracted Image Labels from In-the-Wild Captions for Weakly-Supervised Object Detection
+Arushi Rai and Adriana Kovashka . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1632
+WSC+: Enhancing The Winograd Schema Challenge Using Tree-of-Experts
+Pardis Sadat Zahraei and Ali Emami . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1650
+Kardeş-NLU: Transfer to Low-Resource Languages with Big Brother’s Help – A Benchmark and Evaluation for Turkic Languages
+Lütfi Kerem Senel, Benedikt Ebing, Konul Baghirova, Hinrich Schuetze and Goran Glavaš . 1672
+
+xxviii
+
+Chaining Event Spans for Temporal Relation Grounding
+Jongho Kim, Dohyeon Lee, Minsoo Kim and Seung-won Hwang . . . . . . . . . . . . . . . . . . . . . . . . 1689
+Fine-Grained Natural Language Inference Based Faithfulness Evaluation for Diverse Summarisation
+Tasks
+Huajian Zhang, Yumo Xu and Laura Perez-Beltrachini . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1701
+AnaDE1.0: A Novel Data Set for Benchmarking Analogy Detection and Extraction
+Bhavya Bhavya, Shradha Sehgal, Jinjun Xiong and ChengXiang Zhai . . . . . . . . . . . . . . . . . . . . 1723
+A Comprehensive Survey of Sentence Representations: From the BERT Epoch to the CHATGPT Era
+and Beyond
+Abhinav Ramesh Kashyap, Thanh-Tung Nguyen, Viktor Schlegel, Stefan Winkler, See-Kiong Ng
+and Soujanya Poria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1738
+Learning to Retrieve In-Context Examples for Large Language Models
+Liang Wang, Nan Yang and Furu Wei . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1752
+EnCore: Fine-Grained Entity Typing by Pre-Training Entity Encoders on Coreference Chains
+Frank Martin Mtumbuka and Steven Schockaert . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1768
+Unsupervised stance detection for social media discussions: A generic baseline
+Maia Sutter, Antoine Gourru, Amine Trabelsi and Christine Largeron . . . . . . . . . . . . . . . . . . . . 1782
+Putting Context in Context: the Impact of Discussion Structure on Text Classification
+Nicolò Penzo, Antonio Longa, Bruno Lepri, Sara Tonelli and Marco Guerini . . . . . . . . . . . . . . 1793
+Aligning Large and Small Language Models via Chain-of-Thought Reasoning
+Leonardo Ranaldi and Andre Freitas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1812
+Disentangling the Roles of Target-side Transfer and Regularization in Multilingual Machine Translation
+Yan Meng and Christof Monz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1828
+Uncovering Stereotypes in Large Language Models: A Task Complexity-based Approach
+Hari Shrawgi, Prasanjit Rath, Tushar Singhal and Sandipan Dandapat . . . . . . . . . . . . . . . . . . . . 1841
+Rainbow - A Benchmark for Systematic Testing of How Sensitive Visio-Linguistic Models are to Color
+Naming
+Marie Bexte, Andrea Horbach and Torsten Zesch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1858
+CATfOOD: Counterfactual Augmented Training for Improving Out-of-Domain Performance and Calibration
+Rachneet Singh Sachdeva, Martin Tutek and Iryna Gurevych . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1876
+UP5: Unbiased Foundation Model for Fairness-aware Recommendation
+Wenyue Hua, Yingqiang Ge, Shuyuan Xu, Jianchao ji, Zelong Li and Yongfeng Zhang . . . . . 1899
+Human Temporal Inferences Go Beyond Aspectual Class
+Katarzyna Pruś, Mark Steedman and Adam Lopez . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1913
+It is not True that Transformers are Inductive Learners: Probing NLI Models with External Negation
+Michael Sullivan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1924
+Polarized Opinion Detection Improves the Detection of Toxic Language
+John Pavlopoulos and Aristidis Likas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1946
+
+xxix
+
+Improving Acoustic Word Embeddings through Correspondence Training of Self-supervised Speech Representations
+Amit Meghanani and Thomas Hain . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1959
+Investigating Agency of LLMs in Human-AI Collaboration Tasks
+Ashish Sharma, Sudha Rao, Chris Brockett, Akanksha Malhotra, Nebojsa Jojic and Bill Dolan
+1968
+SynthDST: Synthetic Data is All You Need for Few-Shot Dialog State Tracking
+Atharva Kulkarni, Bo-Hsiang Tseng, Joel Ruben Antony Moniz, Dhivya Piraviperumal, Hong Yu
+and Shruti Bhargava . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1988
+Argument Mining as a Text-to-Text Generation Task
+Masayuki Kawarada, Tsutomu Hirao, Wataru Uchida and Masaaki Nagata . . . . . . . . . . . . . . . . 2002
+Answering legal questions from laymen in German civil law system
+Marius Büttner and Ivan Habernal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2015
+An Empirical Analysis of Diversity in Argument Summarization
+Michiel Van Der Meer, Piek Vossen, Catholijn M Jonker and Pradeep Kumar Murukannaiah2028
+What Makes Medical Claims (Un)Verifiable? Analyzing Entity and Relation Properties for Fact Verification
+Amelie Wuehrl, Yarik Menchaca Resendiz, Lara Grimminger and Roman Klinger . . . . . . . . . 2046
+Approximate Attributions for Off-the-Shelf Siamese Transformers
+Lucas Moeller, Dmitry Nikolaev and Sebastian Padó . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2059
+Describing Images Fast and Slow: Quantifying and Predicting the Variation in Human Signals during
+Visuo-Linguistic Processes
+Ece Takmaz, Sandro Pezzelle and Raquel Fernández . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2072
+Tracing the Roots of Facts in Multilingual Language Models: Independent, Shared, and Transferred
+Knowledge
+Xin Zhao, Naoki Yoshinaga and Daisuke Oba . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2088
+Comparing Knowledge Sources for Open-Domain Scientific Claim Verification
+Juraj Vladika and Florian Matthes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2103
+Measuring Uncertainty in Neural Machine Translation with Similarity-Sensitive Entropy
+Julius Cheng and Andreas Vlachos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2115
+LegalLens: Leveraging LLMs for Legal Violation Identification in Unstructured Text
+Dor Bernsohn, Gil Semo, Yaron Vazana, Gila Hayat, Ben Hagag, Joel Niklaus, Rohit Saha and
+Kyryl Truskovskyi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2129
+µPLAN: Summarizing using a Content Plan as Cross-Lingual Bridge
+Fantine Huot, Joshua Maynez, Chris Alberti, Reinald Kim Amplayo, Priyanka Agrawal, Constanza Fierro, Shashi Narayan and Mirella Lapata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2146
+Exploring Data Augmentation in Neural DRS-to-Text Generation
+Muhammad Saad Amin, Luca Anselma and Alessandro Mazzei . . . . . . . . . . . . . . . . . . . . . . . . . 2164
+Think Twice: Measuring the Efficiency of Eliminating Prediction Shortcuts of Question Answering
+Models
+Lukáš Mikula, Michal Štefánik, Marek Petrovič and Petr Sojka . . . . . . . . . . . . . . . . . . . . . . . . . . 2179
+
+xxx
+
+Improving Contrastive Learning in Emotion Recognition in Conversation via Data Augmentation and
+Decoupled Neutral Emotion
+Yujin Kang and Yoon-Sik Cho . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2194
+Neuralign: A Context-Aware, Cross-Lingual and Fully-Neural Sentence Alignment System for Long
+Texts
+Francesco Maria Molfese, Andrei Stefan Bejgu, Simone Tedeschi, Simone Conia and Roberto
+Navigli . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2209
+Explaining Speech Classification Models via Word-Level Audio Segments and Paralinguistic Features
+Eliana Pastor, Alkis Koudounas, Giuseppe Attanasio, Dirk Hovy and Elena Baralis . . . . . . . . 2221
+Zero-Shot End-to-End Spoken Language Understanding via Cross-Modal Selective Self-Training
+Jianfeng He, Julian Salazar, Kaisheng Yao, Haoqi Li and Jason Cai . . . . . . . . . . . . . . . . . . . . . . 2239
+Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models
+Natalie Shapira, Mosh Levy, Seyed Hossein Alavi, Xuhui Zhou, Yejin Choi, Yoav Goldberg,
+Maarten Sap and Vered Shwartz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2257
+NevIR: Negation in Neural Information Retrieval
+Orion Weller, Dawn Lawrie and Benjamin Van Durme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2274
+“According to . . . ”: Prompting Language Models Improves Quoting from Pre-Training Data
+Orion Weller, Marc Marone, Nathaniel Weir, Dawn Lawrie, Daniel Khashabi and Benjamin Van
+Durme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2288
+Accurate and Well-Calibrated ICD Code Assignment Through Attention Over Diverse Label Embeddings
+Goncalo Emanuel Cavaco Gomes, Isabel Pereira Coutinho and Bruno Martins . . . . . . . . . . . . 2302
+Investigating Content Planning for Navigating Trade-offs in Knowledge-Grounded Dialogue
+Kushal Chawla, Hannah Rashkin, Gaurav Singh Tomar and David Reitter . . . . . . . . . . . . . . . . . 2316
+SPUQ: Perturbation-Based Uncertainty Quantification for Large Language Models
+Xiang Gao, Jiaxin Zhang, Lalla Mouatadid and Kamalika Das . . . . . . . . . . . . . . . . . . . . . . . . . . . 2336
+TESS: Text-to-Text Self-Conditioned Simplex Diffusion
+Rabeeh Karimi Mahabadi, Hamish Ivison, Jaesung Tae, James Henderson, Iz Beltagy, Matthew
+E Peters and Arman Cohan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2347
+Advancing Precise Outline-Conditioned Text Generation with Task Duality and Explicit Outline Control
+Yunzhe Li, Qian Chen, Weixiang Yan, Wen Wang, Qinglin Zhang and Hari Sundaram . . . . . 2362
+Localization vs. Semantics: Visual Representations in Unimodal and Multimodal Models
+Zhuowan Li, Cihang Xie, Benjamin Van Durme and Alan Yuille . . . . . . . . . . . . . . . . . . . . . . . . . 2378
+Creating Suspenseful Stories: Iterative Planning with Large Language Models
+Kaige Xie and Mark Riedl . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2391
+Few-Shot Dialogue Summarization via Skeleton-Assisted Prompt Transfer in Prompt Tuning
+Kaige Xie, Tong Yu, Haoliang Wang, Junda Wu, Handong Zhao, Ruiyi Zhang, Kanak Mahadik,
+Ani Nenkova and Mark Riedl . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2408
+Ask, Assess, and Refine: Rectifying Factual Consistency and Hallucination in LLMs with Metric-Guided
+Feedback Learning
+Dongyub Lee, Eunhwan Park, Hodong Lee and Heuiseok Lim . . . . . . . . . . . . . . . . . . . . . . . . . . . 2422
+
+xxxi
+
+Effective Controllable Bias Mitigation for Classification and Retrieval using Gate Adapters
+Shahed Masoudian, Cornelia Volaucnik, Markus Schedl and Navid Rekabsaz . . . . . . . . . . . . . 2434
+STable: Table Generation Framework for Encoder-Decoder Models
+Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela Nowakowska,
+Karolina Szyndler, Dawid Jurkiewicz and Łukasz Garncarek . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2454
+A RelEntLess Benchmark for Modelling Graded Relations between Named Entities
+Asahi Ushio, Jose Camacho-Collados and Steven Schockaert . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2473
+A Multimodal Framework to Detect Target Aware Aggression in Memes
+Shawly Ahsan, Eftekhar Hossain, Omar Sharif, Avishek Das, Mohammed Moshiul Hoque and M.
+Ali Akber Dewan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2487
+Graph Guided Question Answer Generation for Procedural Question-Answering
+Hai X. Pham, Isma Hadji, Xinnuo Xu, Ziedune Degutyte, Jay Rainey, Evangelos Kazakos, Afsaneh Fazly, Georgios Tzimiropoulos and Brais Martinez . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2501
+Contrastive Decoding Reduces Hallucinations in Large Multilingual Machine Translation Models
+Jonas Waldendorf, Barry Haddow and Alexandra Birch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2526
+Leveraging fine-tuned Large Language Models with LoRA for Effective Claim, Claimer, and Claim
+Object Detection
+Sotiris Kotitsas, Panagiotis Kounoudis, Eleni Koutli and Haris Papageorgiou . . . . . . . . . . . . . . 2540
+Should I try multiple optimizers when fine-tuning a pre-trained Transformer for NLP tasks? Should I
+tune their hyperparameters?
+Nefeli Gkouti, Prodromos Malakasiotis, Stavros Toumpis and Ion Androutsopoulos . . . . . . . . 2555
+GUMsley: Evaluating Entity Salience in Summarization for 12 English Genres
+Jessica Lin and Amir Zeldes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2575
+Sensitivity, Performance, Robustness: Deconstructing the Effect of Sociodemographic Prompting
+Tilman Beck, Hendrik Schuff, Anne Lauscher and Iryna Gurevych . . . . . . . . . . . . . . . . . . . . . . . 2589
+Threat Behavior Textual Search by Attention Graph Isomorphism
+Chanwoo Bae, Guanhong Tao, Zhuo Zhang and Xiangyu Zhang . . . . . . . . . . . . . . . . . . . . . . . . . 2616
+Identifying Narrative Content in Podcast Transcripts
+Yosra Abdessamed, Shadi Rezapour and Steven R. Wilson . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2631
+Frequency Explains the Inverse Correlation of Large Language Models’ Size, Training Data Amount,
+and Surprisal’s Fit to Reading Times
+Byung-Doh Oh, Shisen Yue and William Schuler . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2644
+Presentations by the Humans and For the Humans: Harnessing LLMs for Generating Persona-Aware
+Slides from Documents
+Ishani Mondal, Shwetha S, Anandhavelu Natarajan, Aparna Garimella, Sambaran Bandyopadhyay
+and Jordan Lee Boyd-Graber . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2664
+ToPro: Token-Level Prompt Decomposition for Cross-Lingual Sequence Labeling Tasks
+Bolei Ma, Ercong Nie, Shuzhou Yuan, Helmut Schmid, Michael Färber, Frauke Kreuter and
+Hinrich Schuetze . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2685
+Small Language Models Improve Giants by Rewriting Their Outputs
+Giorgos Vernikos, Arthur Brazinskas, Jakub Adamek, Jonathan Mallinson, Aliaksei Severyn and
+Eric Malmi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2703
+xxxii
+
+Unintended Bias Detection and Mitigation in Misogynous Memes
+Gitanjali Kumari, Anubhav Sinha and Asif Ekbal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2719
+A Weak Supervision Approach for Few-Shot Aspect Based Sentiment Analysis
+Robert Vacareanu, Siddharth Varia, Kishaloy Halder, Shuai Wang, Giovanni Paolini, Neha Anna
+John, Miguel Ballesteros and Smaranda Muresan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2734
+Counterfactual Reasoning with Knowledge Graph Embeddings
+Lena Zellinger, Andreas Stephan and Benjamin Roth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2753
+System-Level Natural Language Feedback
+Weizhe Yuan, Kyunghyun Cho and Jason E Weston . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2773
+Syntactic Preposing and Discourse Relations
+Yunfang Dong, Xixian Liao and Bonnie L. Webber . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2790
+Can we obtain significant success in RST discourse parsing by using Large Language Models?
+Aru Maekawa, Tsutomu Hirao, Hidetaka Kamigaito and Manabu Okumura . . . . . . . . . . . . . . . 2803
+Ameli: Enhancing Multimodal Entity Linking with Fine-Grained Attributes
+Barry Menglong Yao, Sijia Wang, Yu Chen, Qifan Wang, Minqian Liu, Zhiyang Xu, Licheng Yu
+and Lifu Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2816
+Generative Dense Retrieval: Memory Can Be a Burden
+Peiwen Yuan, Xinglin Wang, Shaoxiong Feng, Boyuan Pan, Yiwei Li, Heda Wang, Xupeng Miao
+and Kan Li . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2835
+Backward Compatibility During Data Updates by Weight Interpolation
+Raphael Schumann, Elman Mansimov, Yi-An Lai, Nikolaos Pappas, Xibin Gao and Yi Zhang
+2846
+Gradient-Based Language Model Red Teaming
+Nevan Wichers, Carson Denison and Ahmad Beirami . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2862
+Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the
+Multilingual Defining Issues Test
+Aditi Khandelwal, Utkarsh Agarwal, Kumar Tanmay and Monojit Choudhury . . . . . . . . . . . . . 2882
+Analyzing the Evaluation of Cross-Lingual Knowledge Transfer in Multilingual Language Models
+Sara Rajaee and Christof Monz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2895
+Large-Scale Label Interpretation Learning for Few-Shot Named Entity Recognition
+Jonas Golde, Felix Hamborg and Alan Akbik . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2915
+MLCopilot: Unleashing the Power of Large Language Models in Solving Machine Learning Tasks
+Lei Zhang, Yuge Zhang, Kan Ren, Dongsheng Li and Yuqing Yang . . . . . . . . . . . . . . . . . . . . . . 2931
+Text-Guided Image Clustering
+Andreas Stephan, Lukas Miklautz, Kevin Sidak, Jan Philip Wahle, Bela Gipp, Claudia Plant and
+Benjamin Roth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2960
+CCPrefix: Counterfactual Contrastive Prefix-Tuning for Many-Class Classification
+Yang Li, Canran Xu, Guodong Long, Tao Shen, Chongyang Tao and Jing Jiang . . . . . . . . . . . 2977
+
+xxxiii
+
+

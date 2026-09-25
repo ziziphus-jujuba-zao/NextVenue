@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: setac-europe-2027
+sources:
+  - id: setac-europe-2027-event
+    url: https://www.setac.org/discover-events/ems-event-calendar/setac-europe-37th-annual-meeting.html
+    title: SETAC Europe 37th Annual Meeting
+    kind: dates
+    fetched_at: 2026-09-25T18:20:08Z
+    http_status: 200
+    snapshot: f089d463ab6f9d65da584430fafc9810cbdf595c62ce801213fbe6eb295a5a9f

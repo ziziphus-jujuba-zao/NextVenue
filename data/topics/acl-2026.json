@@ -1,0 +1,316 @@
+{
+ "schema": 1,
+ "edition": "acl-2026",
+ "series": "acl",
+ "year": 2026,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 ACL 2026 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会长文和短文；Findings、demo、industry、学生研讨会不算",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/acl/acl2026-1",
+   "https://dblp.org/db/conf/acl/acl2026-2"
+  ],
+  "retrieved_at": "2026-09-25T09:49:47Z"
+ },
+ "papers_used": 2298,
+ "official_accepted": {
+  "value": 2296,
+  "source_url": "https://aclanthology.org/2026.acl-long.0.pdf",
+  "quote": "Acceptance Rate. In total, there are 2,296 papers accepted to the Main Conference and 2,163 papers accepted to Findings. [...] In total, we had 12,148 unique submissions across the October 2025 (1,630) and January 2026 ARR (10,518). The acceptance rate is 18.9% for Main Conference papers and 17.8% for Findings papers.",
+  "src": "acl-2026-front-matter",
+  "quote_check": "snapshot"
+ },
+ "coverage": 1.0009,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 863,
+   "share_pct": 37.6,
+   "prev": {
+    "year": 2025,
+    "count": 729,
+    "share_pct": 42.9,
+    "delta_pp": -5.3
+   },
+   "examples": [
+    "BracketRank: Large Language Model Document Ranking via Reasoning-based Competitive Elimination.",
+    "CaBSALLM: Efficient Context-Aware Batch Annotation of Conversational Streams with Large Language Models.",
+    "How Context Shapes Truth: Geometric Transformations of Statement-level Truth Representations in LLMs."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "reasoning",
+   "label_zh": "推理（思维链/数学）",
+   "label_en": "Reasoning (CoT / math)",
+   "count": 405,
+   "share_pct": 17.6,
+   "prev": {
+    "year": 2025,
+    "count": 150,
+    "share_pct": 8.8,
+    "delta_pp": 8.8
+   },
+   "examples": [
+    "BracketRank: Large Language Model Document Ranking via Reasoning-based Competitive Elimination.",
+    "SHAPE: Stage-aware Hierarchical Advantage via Potential Estimation for LLM Reasoning.",
+    "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 388,
+   "share_pct": 16.9,
+   "prev": {
+    "year": 2025,
+    "count": 315,
+    "share_pct": 18.5,
+    "delta_pp": -1.6
+   },
+   "low_precision": true,
+   "examples": [
+    "FedMental: Evaluating Federated Learning for Mental Health Detection from Social Media Data.",
+    "False Friends or Cognates? A Cross-lingual Semantic Ambiguity Evaluation for Galician, Portuguese and Spanish.",
+    "MORPHOGEN: A Multilingual Benchmark for Evaluating Gender-Aware Morphological Generation."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "agents",
+   "label_zh": "智能体",
+   "label_en": "Agents (LLM / RL / multi-agent)",
+   "count": 286,
+   "share_pct": 12.4,
+   "prev": {
+    "year": 2025,
+    "count": 105,
+    "share_pct": 6.2,
+    "delta_pp": 6.2
+   },
+   "examples": [
+    "Explicit Trait Inference for Multi-Agent Coordination.",
+    "Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective.",
+    "InquireMobile: Teaching VLM-based Mobile Agent to Request Human Assistance via Reinforcement Fine-Tuning."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 221,
+   "share_pct": 9.6,
+   "prev": {
+    "year": 2025,
+    "count": 156,
+    "share_pct": 9.2,
+    "delta_pp": 0.4
+   },
+   "examples": [
+    "InquireMobile: Teaching VLM-based Mobile Agent to Request Human Assistance via Reinforcement Fine-Tuning.",
+    "AraVQA: Building a New Arabic Factoid Visual Question Answering Dataset from Wikipedia.",
+    "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "safety_alignment",
+   "label_zh": "安全与对齐",
+   "label_en": "Safety & alignment",
+   "count": 204,
+   "share_pct": 8.9,
+   "prev": {
+    "year": 2025,
+    "count": 131,
+    "share_pct": 7.7,
+    "delta_pp": 1.2
+   },
+   "examples": [
+    "Emergent Misalignment via In-Context Learning: Narrow in-context examples can produce broadly misaligned LLMs.",
+    "Pref-CTRL: Preference Driven LLM Alignment using Representation Editing.",
+    "Psychological Steering in LLMs: An Evaluation of Effectiveness and Trustworthiness."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "multilingual",
+   "label_zh": "多语言 / 机器翻译",
+   "label_en": "Multilingual / machine translation",
+   "count": 158,
+   "share_pct": 6.9,
+   "prev": {
+    "year": 2025,
+    "count": 152,
+    "share_pct": 8.9,
+    "delta_pp": -2.0
+   },
+   "examples": [
+    "One Tokenizer To Rule Them All: Emergent Language Plasticity via Multilingual Tokenizers.",
+    "False Friends or Cognates? A Cross-lingual Semantic Ambiguity Evaluation for Galician, Portuguese and Spanish.",
+    "Typology-Aware Multilingual Morphosyntactic Parsing with Joint Abstract Node Modeling."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "rl",
+   "label_zh": "强化学习",
+   "label_en": "Reinforcement learning",
+   "count": 158,
+   "share_pct": 6.9,
+   "prev": {
+    "year": 2025,
+    "count": 16,
+    "share_pct": 0.9,
+    "delta_pp": 6.0
+   },
+   "examples": [
+    "Provably Safe Offline-to-Online RL: Decoupling Learning from Data-Driven Safety Enforcement.",
+    "DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing.",
+    "ChipSeek: Optimizing Verilog Generation via EDA-Integrated Reinforcement Learning."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "rag_retrieval",
+   "label_zh": "检索 / 检索增强生成",
+   "label_en": "Retrieval / RAG",
+   "count": 149,
+   "share_pct": 6.5,
+   "prev": {
+    "year": 2025,
+    "count": 104,
+    "share_pct": 6.1,
+    "delta_pp": 0.4
+   },
+   "examples": [
+    "REaR : Retrieve, Expand and Refine for Effective Multitable Retrieval.",
+    "Long Context Modeling with Ranked Memory-Augmented Retrieval.",
+    "FIGMA: Towards FIne-Grained Music retrievAl."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 127,
+   "share_pct": 5.5,
+   "prev": {
+    "year": 2025,
+    "count": 82,
+    "share_pct": 4.8,
+    "delta_pp": 0.7
+   },
+   "examples": [
+    "Interpretable Traces, Unexpected Outcomes: Investigating the Disconnect in Trace-Based Knowledge Distillation.",
+    "Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning.",
+    "Evolutionary Negative Module Pruning for Better LoRA Merging."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 95,
+   "share_pct": 4.1,
+   "prev": {
+    "year": 2025,
+    "count": 69,
+    "share_pct": 4.1,
+    "delta_pp": 0.0
+   },
+   "low_precision": true,
+   "examples": [
+    "Conjunctive Prompt Attacks in Multi-Agent LLM Systems.",
+    "Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models.",
+    "NaturalSloth: Revisiting Denial-of-Service Attacks on Large Language Models."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "speech_audio",
+   "label_zh": "语音与音频",
+   "label_en": "Speech & audio",
+   "count": 84,
+   "share_pct": 3.7,
+   "prev": {
+    "year": 2025,
+    "count": 55,
+    "share_pct": 3.2,
+    "delta_pp": 0.5
+   },
+   "examples": [
+    "FIGMA: Towards FIne-Grained Music retrievAl.",
+    "Can You Make It Sound Like You? Post-Editing LLM-Generated Text for Personal Style.",
+    "PRiSM: Benchmarking Phone Realization in Speech Models."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "finetuning",
+   "label_zh": "微调 / 参数高效 / 后训练",
+   "label_en": "Fine-tuning / PEFT / post-training",
+   "count": 80,
+   "share_pct": 3.5,
+   "prev": {
+    "year": 2025,
+    "count": 78,
+    "share_pct": 4.6,
+    "delta_pp": -1.1
+   },
+   "examples": [
+    "InquireMobile: Teaching VLM-based Mobile Agent to Request Human Assistance via Reinforcement Fine-Tuning.",
+    "Learning Faster with Better Tokens: Parameter-Efficient Vocabulary Adaptation for Specialized Text Summarization.",
+    "Evolutionary Negative Module Pruning for Better LoRA Merging."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "hallucination",
+   "label_zh": "幻觉与事实性",
+   "label_en": "Hallucination & factuality",
+   "count": 80,
+   "share_pct": 3.5,
+   "prev": {
+    "year": 2025,
+    "count": 51,
+    "share_pct": 3.0,
+    "delta_pp": 0.5
+   },
+   "examples": [
+    "Faithful Serum: Mitigating the Faithfulness Gap in Textual Explanations of LLM Decisions via Attribution Guidance.",
+    "ReFEree: Reference-Free and Fine-Grained Method for Evaluating Factual Consistency in Real-World Code Summarization.",
+    "From Proof to Program: Characterizing Tool-Induced Reasoning Hallucinations in Large Language Models."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "dialogue",
+   "label_zh": "对话系统",
+   "label_en": "Dialogue / conversational",
+   "count": 74,
+   "share_pct": 3.2,
+   "prev": {
+    "year": 2025,
+    "count": 55,
+    "share_pct": 3.2,
+    "delta_pp": 0.0
+   },
+   "examples": [
+    "CaBSALLM: Efficient Context-Aware Batch Annotation of Conversational Streams with Large Language Models.",
+    "Multilingual Idioms in Sentences and Conversations Across High-, Medium-, and Low-Resource Languages.",
+    "DRInQ: Evaluating Conversational Implicature with Controlled Context Variation."
+   ]
+  }
+ ]
+}

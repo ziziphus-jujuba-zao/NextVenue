@@ -1,0 +1,11 @@
+id: iv
+acronym: IEEE IV
+full_name: IEEE Intelligent Vehicles Symposium
+aliases:
+  - IV
+directions: [eng/av, eng/transport]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 6 月前后
+data_level: curated

@@ -1,0 +1,124 @@
+# ICML 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: icml
+rows:
+  - year: 2020
+    track: main
+    status: third_party
+    submissions: 4990
+    accepted: 1088
+    rate: 21.8
+    rate_text: 21.8%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://www.vinai.io/an-overview-of-icml-2020s-publications/
+    quote: This year's ICML conference attracted 4990 submissions out of which 1088 were accepted. That's a 21.8% acceptance rate, lower than last year's 22.6%
+    src: icml-2020-vinai-overview
+    quote_check: snapshot
+    relay_zh: VinAI 博客，未注明数字出处
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: third_party
+    submissions: 5513
+    accepted: 1184
+    rate: 21.4
+    rate_text: 21.4%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://aip.riken.jp/news/202105_icml/
+    quote: There are 1184 accepted papers from 5513 submissions, leading to a 21.4 percent acceptance rate
+    src: icml-2021-riken-news
+    quote_check: snapshot
+    relay_zh: 理化学研究所 AIP 新闻，转述主办方录用通知
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: third_party
+    submissions: 5630
+    accepted: 1235
+    rate: 21.9
+    rate_text: 21.9%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|ICML'22 | 21.9% (1235/5630) (118 long talks, 1117 short talks) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: third_party
+    submissions: 6538
+    accepted: 1827
+    rate: 27.9
+    rate_text: 27.9%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|ICML'23 | 27.9% (1827/6538) (158 live orals, 1669 virtual orals with posters) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: partial
+    rate: 27.5
+    rate_text: 27.5%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://media.icml.cc/Conferences/ICML2024/ICML2024_Fact_Sheet.pdf
+    quote: "Papers ○ main conference track: Over 2600 ○ acceptance rate: 27.5%"
+    src: icml-2024-fact-sheet
+    quote_check: snapshot
+    note_zh: 官方只写了录用率和录用“Over 2600”篇；投稿数只有第三方转述，不显示
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: partial
+    accepted: 3260
+    rate: 27
+    rate_text: 27%
+    rate_basis: stated
+    definition_zh: 主会；Position 赛道另算
+    source_url: https://media.icml.cc/Conferences/ICML2025/ICML2025_Fact_Sheet.pdf
+    quote: "Papers Main Track: 3260 Acceptance Rate: 27%"
+    src: icml-2025-fact-sheet
+    quote_check: snapshot
+    note_zh: 官方没公布投稿数（只有第三方转述）
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 23918
+    accepted: 6352
+    rate: 26.6
+    rate_text: 26.6%
+    rate_basis: stated
+    definition_zh: 主会；分母为进入审稿的投稿；Position 赛道另算
+    source_url: https://x.com/icmlconf/status/2049919242862985559
+    quote: Decision notifications are being released on OpenReview. There were 23,918 submissions that entered review, roughly double last year. 6,352 papers were accepted, for an acceptance rate of 26.6%. 536 papers (2.2% of submissions) are "spotlights."
+    quote_check: manual
+    also:
+      - source_url: https://media.icml.cc/Conferences/ICML2026/ICML2026_Fact_Sheet.pdf
+        quote: "Papers Main conference track: 24,661 submissions Accepted papers 6,552"
+        src: icml-2026-fact-sheet
+        quote_check: snapshot
+        note_zh: fact sheet 的数字口径不同（似含 Position 赛道），录用率同样约 26.6%。两个都是官方说法，本应用不替你选
+    checked: 2026-09-25
+areas_none:
+  - years:
+      - 2024
+      - 2025
+    scope_zh: fact sheet 和程序主席博客都只有总数
+    checked: 2026-09-25
+    checked_urls:
+      - https://media.icml.cc/Conferences/ICML2024/ICML2024_Fact_Sheet.pdf
+      - https://media.icml.cc/Conferences/ICML2025/ICML2025_Fact_Sheet.pdf
+      - https://medium.com/feed/@icml2024pc
+      - https://medium.com/feed/@icml2025pc
+      - https://blog.icml.cc/wp-json/wp/v2/posts

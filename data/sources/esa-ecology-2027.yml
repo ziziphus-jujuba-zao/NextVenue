@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: esa-ecology-2027
+sources:
+  - id: esa-ecology-2027-home
+    url: https://esa.org/toronto2027/
+    title: ESA 2027 Annual Meeting, Toronto
+    kind: other
+    fetched_at: 2026-09-25T18:20:14Z
+    http_status: 200
+    snapshot: db6a9fcaa290f30816b473d51252669bb4757a2b23f5d5d9f5c1688c88988a86

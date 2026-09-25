@@ -1,0 +1,17 @@
+id: hscc
+acronym: HSCC+ICCPS
+full_name: ACM/IEEE International Conference on Cyber-Physical and Autonomous Systems
+aliases:
+  - HSCC
+  - ICCPS
+  - "International Conference on Hybrid Systems: Computation and Control"
+  - ACM/IEEE International Conference on Cyber-Physical Systems
+directions: [cs/theory, eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/hybrid
+ccfddl: CT/HSCC
+data_level: curated
+note_zh: 2027 年起 HSCC（第 30 届）与 ICCPS（第 18 届）合并为 HSCC+ICCPS，在 CPS-IoT Week 内举办；CCF 第七版仍列作 HSCC（第 6 类 B）。

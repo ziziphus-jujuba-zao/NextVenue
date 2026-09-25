@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ccc-control-2027
+sources:
+  - id: ccc-2026-home
+    url: http://www.ccc2026.cn/
+    title: CCC 2026 第四十五届中国控制会议
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:27Z
+    http_status: 200
+    snapshot: abaccd438f653f5ba59bae31097aadc4ad0abb93796c9d34e55955901c81d1b6

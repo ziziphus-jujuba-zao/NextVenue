@@ -1,0 +1,68 @@
+# AAAI 2026 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: aaai
+year: 2026
+kind: rate_only
+precision: chart_read
+track_zh: 主技术赛道，按领域
+tolerance:
+  pct: 0.3
+names_mapped: true
+source_url: https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf
+page_zh: 开幕式幻灯片第 44 页
+quote: Overall acceptance rate ~17.5%
+src: aaai-2026-opening-ceremony
+quote_check: snapshot
+total:
+  label_zh: 全会
+  rate: 17.5
+note_zh: 幻灯片上只有领域缩写，全名是本应用对照论文集的赛道名补的；官方没给各领域篇数
+checked: 2026-09-25
+rows:
+  - area: Application Domains
+    label_on_source: APP
+    rate: 17.8
+  - area: Cognitive Modeling & Cognitive Systems
+    label_on_source: CMS
+    rate: 16.2
+  - area: Constraint Satisfaction and Optimization
+    label_on_source: CSO
+    rate: 22.5
+  - area: Computer Vision
+    label_on_source: CV
+    rate: 16.3
+  - area: Data Mining & Knowledge Management
+    label_on_source: DMKM
+    rate: 18.2
+  - area: Game Theory and Economic Paradigms
+    label_on_source: GTEP
+    rate: 31.2
+  - area: Humans and AI
+    label_on_source: HAI
+    rate: 17.8
+  - area: Knowledge Representation and Reasoning
+    label_on_source: KRR
+    rate: 26.5
+  - area: Multiagent Systems
+    label_on_source: MAS
+    rate: 18.3
+  - area: Machine Learning
+    label_on_source: ML
+    rate: 16.5
+  - area: Natural Language Processing
+    label_on_source: NLP
+    rate: 17.9
+  - area: Philosophy and Ethics of AI
+    label_on_source: PEAI
+    rate: 23.5
+  - area: Planning, Routing, and Scheduling
+    label_on_source: PRS
+    rate: 22.9
+  - area: Intelligent Robotics
+    label_on_source: ROB
+    rate: 21
+  - area: Reasoning under Uncertainty
+    label_on_source: RU
+    rate: 27
+  - area: Search and Optimization
+    label_on_source: SO
+    rate: 19

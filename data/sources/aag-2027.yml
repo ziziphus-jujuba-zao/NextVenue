@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aag-2027
+sources:
+  - id: aag-2027-home
+    url: https://www.aag.org/events/aag2027/
+    title: AAG Annual Meeting 2027
+    kind: other
+    fetched_at: 2026-09-25T16:15:49Z
+    http_status: 200
+    snapshot: 783215d300d63df408b2c2781e3d604135fe8ba39770f6d803dcd065012f22f6

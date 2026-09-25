@@ -1,0 +1,26 @@
+id: neurips-2026/refund-policy
+edition: neurips-2026
+family: refund
+question_zh: 取消注册能全额退款吗？
+short_zh: 取消注册退款
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: notification
+  until: refund_cutoff
+summary_zh: 有条件。悉尼和亚特兰大的注册在北京时间 11/4 19:59 前取消可全额退款（官方写 before Nov 04 AoE），巴黎在北京时间 11/5 06:59 前（官方写 by Nov 4 CET）；之后既不能取消也不退款。会议售罄时取消，名额会进入候补池，官方写明你很可能无法再注册。
+detail_zh: Dates 页写 "Last Chance for Registration Refund Nov 04 '26 (Anywhere on Earth)"，Pricing 页写 "before Nov 04"，本应用取较早的读法。退款最多 10 个工作日到账。
+quotes:
+  - src: neurips-2026-pricing
+    text: "Registrations canceled before Nov 04, 2026 AOE will receive a full refund."
+  - src: neurips-2026-pricing
+    text: "Registrations cannot be canceled or refunded after this date. If you cancel your registration when the meeting is sold out, your ticket becomes part of the reserve pool of tickets and you likely will not be able to re-register."
+  - src: neurips-2026-europe-home
+    text: "Registrations canceled by Nov 4, 2026 CET will receive a full refund."
+effect:
+  kind: refund
+  trigger: cancel
+  full_until: refund_cutoff
+  then: none
+last_checked: 2026-09-25

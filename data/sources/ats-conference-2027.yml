@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ats-conference-2027
+sources:
+  - id: ats-conference-2027-home
+    url: https://conference.thoracic.org/
+    title: ATS 2027 International Conference
+    kind: other
+    fetched_at: 2026-09-25T18:22:39Z
+    http_status: 200
+    snapshot: d39cfe3f21a1118f3094e96adc9adc369a982307114fe9c448675de48ae0a64e

@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: models-2026
+series: models
+name: MoDELS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/MoDELS
+  conf_id: models26
+  link: https://conf.researchr.org/home/models-2026
+  place: Málaga, Spain
+  date: October 4-9, 2026
+  timezone: AoE
+location:
+  city: Málaga
+  country: Spain
+  country_code: ES
+dates:
+  start: 2026-10-04
+  end: 2026-10-09
+milestones:
+  - type: abstract
+    at: 2026-03-20T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-03-27T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-10-04
+    end: 2026-10-09
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

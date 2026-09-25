@@ -1,0 +1,72 @@
+id: icde-2027
+series: icde
+name: ICDE 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Copenhagen, country: Denmark, country_code: DK }
+dates: { start: 2027-05-17, end: 2027-05-21 }
+milestones:
+  - type: paper
+    label_zh: Round 1 正文
+    at: 2026-06-11T17:00
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icde-2027-dates
+    quote: "Submission due June 11, 2026 November 11, 2026"
+    note_zh: 已截止。表格同一行是两轮：第一轮 6/11、第二轮 11/11；所有截止都是太平洋时间下午 5 点（“All deadlines are 5:00 p.m. Pacific Time.”）。
+  - type: notification
+    label_zh: Round 1 出结果
+    at: 2026-09-10
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icde-2027-dates
+    quote: "Notification to authors (Accept/Reject) September 10, 2026 February 10, 2027"
+    note_zh: 官网注明出结果日期是大约日期（“Notification dates are approximate.”）。
+  - type: camera_ready
+    label_zh: Round 1 camera-ready
+    at: 2026-10-10T17:00
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icde-2027-dates
+    quote: "Camera-ready copy due October 10, 2026 March 10, 2027"
+  - type: paper
+    label_zh: Round 2 正文
+    at: 2026-11-11T17:00
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icde-2027-dates
+    quote: "Submission due June 11, 2026 November 11, 2026"
+    note_zh: 每轮只有录用或拒稿，没有修改环节。
+  - type: author_response
+    label_zh: Round 2 rebuttal
+    start: 2027-01-08
+    end: 2027-01-15T17:00
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icde-2027-dates
+    quote: "Author Rebuttal Period August 8-15, 2026, January 8-15, 2027"
+  - type: notification
+    label_zh: Round 2 出结果
+    at: 2027-02-10
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icde-2027-dates
+    quote: "Notification to authors (Accept/Reject) September 10, 2026 February 10, 2027"
+    note_zh: 官网注明出结果日期是大约日期。
+  - type: camera_ready
+    label_zh: Round 2 camera-ready
+    at: 2027-03-10T17:00
+    tz: America/Los_Angeles
+    status: confirmed
+    src: icde-2027-dates
+    quote: "Camera-ready copy due October 10, 2026 March 10, 2027"
+  - type: conference
+    start: 2027-05-17
+    end: 2027-05-21
+    tz: Europe/Copenhagen
+    status: confirmed
+    src: icde-2027-home
+    quote: "ICDE 2027 will be held in Copenhagen from May 17 to 21, 2027."
+last_checked: 2026-09-25
+note_zh: 研究赛道两轮投稿，每轮只有录用或拒稿、没有修改环节。第一轮已出结果；第二轮正文 2026-11-11 太平洋时间下午 5 点截止，rebuttal 2027-01-08 至 15，约 2/10 出结果，3/10 交 camera-ready。

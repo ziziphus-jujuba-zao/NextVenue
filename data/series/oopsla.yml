@@ -1,0 +1,13 @@
+id: oopsla
+acronym: OOPSLA
+full_name: Conference on Object-Oriented Programming Systems, Languages, and Applications
+aliases:
+  - SPLASH
+directions: [cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每年两轮投稿，论文发表在 PACMPL 期刊的 OOPSLA 期，在当年的 SPLASH 上报告。
+dblp: conf/oopsla
+ccfddl: SE/OOPSLA
+data_level: curated

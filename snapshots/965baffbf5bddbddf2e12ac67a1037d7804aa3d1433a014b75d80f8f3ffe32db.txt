@@ -1,0 +1,107 @@
+* ETAPS 2027
+   * Call for Papers
+   * Important Dates
+   * Invited Speakers
+   * ESOP 2027
+   * FOSSACS 2027
+   * iFS 2027
+   * TACAS 2027
+   * Satellite Events
+   * Organizers
+ * About
+   * About ETAPS
+   * ETAPS Association
+   * Steering Committee
+   * Sustainability
+   * Scholarships
+   * Artifact Badges
+   * FoPSS Schools
+   * Anti-Harassment Policy
+   * DEI Policy
+   * Disclaimer
+ * Conferences
+   * ESOP
+   * FASE
+   * FoSSaCS
+   * iFS
+   * TACAS
+   * Proceedings
+ * Awards
+   * Best Paper
+   * Test of Time
+   * Doctoral Dissertation
+   * Test-of-Time Tool
+   * Lifetime
+   * ETAPS Fellows
+ * Past Editions
+ * ETAPS Blog
+ * Future Editions
+   * ETAPS 2028
+ * Log in | Join us
+
+Log in | Join us
+April 10–15, 2027
+Copenhagen, Denmark
+
+ETAPS 2027
+International Joint Conferences
+On Theory and Practice of Software
+
+ETAPS 2027 is organised by Aalborg University, IT University of Copenhagen, and University of Copenhagen
+
+Invited Speakers
+
+From critically acclaimed researchers to the world's most outrageous scientists, ETAPS speakers will leave you speechless.
+
+Javier Esparza
+
+Technical University of Munich, Germany
+Unifying Speaker
+
+Dimitra Giannakopoulou
+
+Amazon AWS, USA
+iFS Invited Speaker
+
+Mira Mezini
+
+Technical University of Darmstadt, Germany
+Unifying Speaker
+
+Peter Mueller
+
+ETH Zurich, Switzerland
+ESOP Invited Speaker
+
+Marieke Huisman
+
+University of Twente, The Netherlands
+Invited Tutorial Speaker
+See all speakers
+
+Latest News
+
+Follow us!
+
+About ETAPS
+
+Welcome to the primary forum for academic and industrial researchers working on topics relating to software science. ETAPS, established in 1998, is a confederation of four annual conferences ESOP, FoSSaCS, iFS, and TACAS, accompanied by satellite workshops.
+
+More About ETAPS
+
+ETAPS International Joint Conferences On Theory & Practice Of Software
+
+ETAPS Association
+
+Internal
+
+Responsible for these web pages:
+
+Jan Kofroň
+Faculty of Mathematics and Physics
+Charles University, Czech Republic
+E-mail: firstname.lastname [at] d3s.mff.cuni.cz
+Phone: +420 951 554 285
+
+ETAPS Policies | Disclaimer
+© 2022–2026 ETAPS Association. All rights reserved.

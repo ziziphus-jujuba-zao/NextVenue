@@ -1,0 +1,14 @@
+id: agu
+acronym: AGU
+full_name: AGU Annual Meeting
+name_zh: 美国地球物理联合会年会
+aliases:
+  - AGU Fall Meeting
+  - American Geophysical Union Annual Meeting
+directions: [earth/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国地球物理联合会年会（原名 Fall Meeting），往届都在每年 12 月举办
+data_level: curated
+note_zh: 地球与空间科学规模最大的会议；只收摘要，可选线下或线上报告。agu.org 拒绝本项目的抓取程序，日期只能从 Internet Archive 和 AGU 新闻稿核对。

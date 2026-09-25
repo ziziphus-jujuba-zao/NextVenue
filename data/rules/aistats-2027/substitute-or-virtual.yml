@@ -1,0 +1,20 @@
+id: aistats-2027/substitute-or-virtual
+edition: aistats-2027
+family: presentation
+question_zh: 签证下不来去不了现场，怎么办？
+short_zh: 签证问题申请例外
+answer: conditional
+verification: human
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: 遇到出行紧急情况或签证问题，可以申请不到场的例外，但不保证批准。例外批了以后是线上报告、请人代讲还是只出版，官方没写，要问主办方。
+quotes:
+  - src: aistats-2027-cfp
+    text: "Exceptions may be granted in case of travel emergencies or visa issues."
+effect:
+  kind: fallback
+  substitute: unspecified
+  virtual: unspecified
+last_checked: 2026-09-25

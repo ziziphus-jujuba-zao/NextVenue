@@ -1,0 +1,21 @@
+id: wacv-2027/substitute-or-virtual
+edition: wacv-2027
+family: presentation
+question_zh: 作者去不了现场，能线上报告吗？
+short_zh: 线上报告
+answer: conditional
+verification: inherited
+inherited_from: wacv-2026
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: WACV 2027 还没公布，以下是 WACV 2026 的规则：去不了现场可以线上参会，但论文仍要按线下作者注册价注册付费，并在注册时选择线上参会。2027 作者指南写的“不管用什么形式报告都要按全价线下作者价注册”与此一致。
+detail_zh: 请人代讲，两届都没写。
+quotes:
+  - src: wacv-2026-pricing
+    text: "If circumstances prevent you from attending in person to present your paper, you may attend virtually but you must register and pay for your paper under an in-person registration and please select that you will attend virtually."
+  - src: wacv-2027-author-guidelines
+    text: "at least one of the authors must register for the conference at the full, in-person Author Registration rate no matter the presentation format."
+checked_sources: [wacv-2027-author-guidelines, wacv-2027-pricing, wacv-2027-home]
+last_checked: 2026-09-25

@@ -1,0 +1,23 @@
+id: cvpr-2027/substitute-or-virtual
+edition: cvpr-2027
+family: presentation
+question_zh: 作者去不了现场时，能线上参加吗？
+short_zh: 去不了时线上参加
+answer: conditional
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: 2027 尚未公布，以下为 2026 规则：有条件。因故不能到现场报告的，可以线上参加，但论文仍要按线下作者注册付费，并在注册时选择线上参加。能不能请别人代讲，官方没写；注册可以免费改名。
+quotes:
+  - src: cvpr-2026-pricing
+    text: "If circumstances prevent you from attending in person to present your paper, you may attend virtually but you must register and pay for your paper under an in-person registration and please select that you will attend virtually."
+  - src: cvpr-2026-pricing
+    text: "You are allowed to change the name on the registration without penalty and you can do this by logging into your registration yourself."
+effect:
+  kind: fallback
+  substitute: unspecified
+  virtual: conditional
+last_checked: 2026-09-25

@@ -1,0 +1,32 @@
+id: isscc-2027
+series: isscc
+name: ISSCC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: San Francisco, country: USA, country_code: US }
+dates: { start: 2027-02-14, end: 2027-02-18 }
+milestones:
+  - type: paper
+    at: 2026-09-09T15:00
+    tz: America/New_York
+    status: confirmed
+    src: isscc-2027-paper-submission
+    quote: "submissions must be received by Wednesday, September 9, 2026 · 3:00 PM EDT (19:00 GMT) to be considered by the Program Committee."
+    note_zh: 已截止，投稿系统已关闭。正文最多 5 页，图最多 2 页。只剩 Late Breaking News 通道：10/7 前提交意向，只收量产级的产业论文。
+  - type: notification
+    at: 2026-10-21
+    tz: America/New_York
+    status: confirmed
+    src: isscc-2027-paper-submission
+    quote: "Authors are notified by October 21, 2026"
+    note_zh: 录用分常规论文（报告 20 分钟）和短论文（报告 12 分钟）两种。
+  - type: conference
+    start: 2027-02-14
+    end: 2027-02-18
+    tz: America/Los_Angeles
+    status: confirmed
+    src: isscc-2027-home
+    quote: "ISSCC 2027 will be held February 14-18, 2027 at the San Francisco Marriott Marquis"
+last_checked: 2026-09-25
+note_zh: 10/21 出结果，2 月开会；去美国要办 B1/B2 签证，出结果后马上预约。

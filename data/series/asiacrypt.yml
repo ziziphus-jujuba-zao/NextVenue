@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: asiacrypt
+acronym: ASIACRYPT
+full_name: International Conference on the Theory and Application of Cryptology and Information Security
+directions:
+  - cs/security
+dblp: conf/asiacrypt
+ccfddl: SC/ASIACRYPT
+data_level: upstream

@@ -1,0 +1,31 @@
+id: ismrm-2027
+series: ismrm
+name: ISMRM 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Vancouver, country: Canada, country_code: CA }
+dates: { start: 2027-05-08, end: 2027-05-13 }
+milestones:
+  - type: abstract
+    start: 2026-10-01
+    end: 2026-10-28
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ismrm-2027-home
+    quote: "Accepting Abstracts 01-28 October 2026"
+    note_zh: 官网只写了收摘要的日期 10/1–10/28，没写时区和时刻，按北京时间 10/28 23:59 算。摘要格式和评审方式的 2027 说明还没发布。
+  - type: early_registration
+    status: tba
+    tz: America/Vancouver
+    note_zh: 官网写注册、住宿和重要日期会陆续补到年会页，目前还没有。
+  - type: conference
+    start: 2027-05-08
+    end: 2027-05-13
+    tz: America/Vancouver
+    status: confirmed
+    src: ismrm-2027-home
+    quote: "We look forward to welcoming you to Vancouver, BC, Canada, 08-13 May 2027."
+last_checked: 2026-09-25
+note_zh: 去温哥华要办加拿大访客签证（TRV），中国申请人通常要较长时间，摘要投出后尽早准备。

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aps-psych-2027
+sources:
+  - id: aps-psych-2027-call
+    url: https://www.psychologicalscience.org/conventions/2027-aps-annual-convention/call-for-submissions
+    title: 2027 APS Annual Convention Call for Submissions
+    kind: cfp
+    fetched_at: 2026-09-25T16:21:05Z
+    http_status: 200
+    snapshot: 68cba2621a506b24af9ffa89e6a74c872df45e86e288e3915c8f751b0f6804ae
+  - id: aps-psych-2027-home
+    url: https://www.psychologicalscience.org/conventions/2027-aps-annual-convention
+    title: 2027 APS Annual Convention
+    kind: other
+    fetched_at: 2026-09-25T16:21:15Z
+    http_status: 200
+    snapshot: c4c2295fb01dc4279a380a20aac279f490b241a3886c19d1f9089e3f70546bc4

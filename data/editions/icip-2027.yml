@@ -1,0 +1,22 @@
+id: icip-2027
+series: icip
+name: ICIP 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Singapore, country: Singapore, country_code: SG }
+dates: { start: 2027-11-29, end: 2027-12-03 }
+milestones:
+  - type: paper
+    tz: Asia/Singapore
+    status: tba
+    note_zh: ICIP 2027 官网还没有公布投稿日期。ICIP 2026（9 月在坦佩雷开会）的正文截止是 2026-02-04，但 ICIP 2027 改在 11 月底开会，比 2026 年晚两个多月，不能按上一届顺延，所以不写预计日期。
+  - type: conference
+    start: 2027-11-29
+    end: 2027-12-03
+    tz: Asia/Singapore
+    status: confirmed
+    src: icip-2027-home
+    quote: "Join us 29 November - 3 December 2027 in Singapore"
+last_checked: 2026-09-25
+note_zh: ICIP 2027 于 2027-11-29 至 12-03 在新加坡举行，投稿日期未公布。

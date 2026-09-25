@@ -1,0 +1,26 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-iros
+sources:
+  - id: iros-2020-rsj-report
+    url: https://www.jstage.jst.go.jp/article/jrsj/39/3/39_39_238/_pdf/-char/ja
+    title: Report on IROS 2020, Journal of the Robotics Society of Japan 39(3) (third party)
+    kind: other
+    fetched_at: 2026-09-25T13:15:29Z
+    http_status: 200
+    snapshot: b9e3c9a12fb80b0f4bbdc3fc32b995b2d788cdbbbc5e3f24429d521890085958
+    note_zh: 第三方：日本机器人学会会刊的会议报告。
+  - id: iros-2021-rsj-report
+    url: https://www.jstage.jst.go.jp/article/jrsj/40/5/40_40_414/_pdf
+    title: Report on IROS 2021, Journal of the Robotics Society of Japan 40(5) (third party)
+    kind: other
+    fetched_at: 2026-09-25T13:15:33Z
+    http_status: 200
+    snapshot: 63b161e5157abc89616292c8b11647aed1a0bc5be1e71012f236a67144db2703
+    note_zh: 第三方：日本机器人学会会刊的会议报告。
+  - id: iros-2022-home
+    url: https://iros2022.org/
+    title: IROS 2022 homepage
+    kind: other
+    fetched_at: 2026-09-25T13:15:36Z
+    http_status: 200
+    snapshot: 14e33bea74ea7367bf22fa33ca41984d67bf47b407f3f71e977d1e783222ac44

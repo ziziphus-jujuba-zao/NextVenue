@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cdc-2027
+sources:
+  - id: cdc-2027-home
+    url: https://cdc2027.ieeecss.org/
+    title: CDC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:44Z
+    http_status: 200
+    snapshot: 6fa392526a56b6591b847ae4ff3c6cbd54dac6e848114e776c380a07be36249d

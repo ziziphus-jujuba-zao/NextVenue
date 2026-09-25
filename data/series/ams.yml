@@ -1,0 +1,13 @@
+id: ams
+acronym: AMS Annual
+full_name: American Meteorological Society Annual Meeting
+name_zh: 美国气象学会年会
+aliases:
+  - AMS Annual Meeting
+directions: [earth/atmos]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国气象学会年会，往届都在每年 1 月举办
+data_level: curated
+note_zh: 由几十个专题会议（conference/symposium）组成，按专题投摘要。不是美国数学会（American Mathematical Society）。annual.ametsoc.org 拒绝本项目的抓取程序，日期只能从 Internet Archive 核对。

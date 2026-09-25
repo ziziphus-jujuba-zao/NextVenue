@@ -1,0 +1,101 @@
+# IJCAI 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: ijcai
+rows:
+  - year: 2020
+    track: main
+    status: partial
+    accepted: 592
+    definition_zh: 主赛道
+    source_url: https://www.ijcai.org/proceedings/2020/
+    quote_check: manual
+    count_method_zh: IJCAI-PRICAI 2020 论文集 Main Track 部分共 592 篇（本应用计数）
+    note_zh: 官方只公布了全部赛道的合计，没有主赛道投稿数
+    also:
+      - source_url: https://www.ijcai.org/proceedings/2020/preface.pdf
+        quote: IJCAI-PRICAI-20 received a record number of 5,680 submitted papers ... of which 704 submissions were accepted (12.4%).
+        src: ijcai-2020-preface
+        quote_check: snapshot
+        note_zh: 全部赛道合计，不只是主赛道
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: third_party
+    submissions: 4204
+    accepted: 587
+    rate: 13.9
+    rate_text: 13.9%
+    rate_basis: stated
+    definition_zh: 主赛道
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|IJCAI'21 | 13.9% (587/4204) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 4537
+    accepted: 679
+    rate: 15
+    rate_text: 15%
+    rate_basis: stated
+    definition_zh: 主赛道
+    source_url: https://www.ijcai.org/proceedings/2022/preface.pdf
+    quote: The main track features 679 papers that have carefully been selected from 4537 full paper submissions (an acceptance rate of 15%).
+    src: ijcai-2022-preface
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 4566
+    accepted: 643
+    rate: 14.1
+    rate_text: 14.1%
+    rate_basis: computed
+    definition_zh: 主赛道
+    source_url: https://x.com/IJCAIconf/status/1957803857347490245
+    quote: "#IJCAI2025 saw 1,023 main track papers accepted from 5,806 submissions (17.6% acceptance rate)— up from 791/5,651 in 2024 and 643/4,566 in 2023."
+    quote_check: manual
+    note_zh: 出自 IJCAI 官方账号 2025 年的帖子
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 5651
+    accepted: 791
+    rate: 14
+    rate_text: 14.0%
+    rate_basis: computed
+    definition_zh: 主赛道
+    source_url: https://x.com/IJCAIconf/status/1957803857347490245
+    quote: "#IJCAI2025 saw 1,023 main track papers accepted from 5,806 submissions (17.6% acceptance rate)— up from 791/5,651 in 2024 and 643/4,566 in 2023."
+    quote_check: manual
+    note_zh: 出自 IJCAI 官方账号 2025 年的帖子
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 5806
+    accepted: 1023
+    rate: 17.6
+    rate_text: 17.6%
+    rate_basis: stated
+    definition_zh: 主赛道；特别赛道等另算
+    source_url: https://x.com/IJCAIconf/status/1957803857347490245
+    quote: "#IJCAI2025 saw 1,023 main track papers accepted from 5,806 submissions (17.6% acceptance rate)"
+    quote_check: manual
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: partial
+    accepted: 693
+    definition_zh: 主赛道
+    source_url: https://2026.ijcai.org/accepted-papers/
+    quote: All 972 Main Track 693
+    quote_check: manual
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25

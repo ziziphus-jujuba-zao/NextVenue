@@ -1,0 +1,316 @@
+{
+ "schema": 1,
+ "edition": "acl-2025",
+ "series": "acl",
+ "year": 2025,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 ACL 2025 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会长文和短文；Findings、demo、industry、学生研讨会不算",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/acl/acl2025-1",
+   "https://dblp.org/db/conf/acl/acl2025-2"
+  ],
+  "retrieved_at": "2026-09-25T09:49:45Z"
+ },
+ "papers_used": 1701,
+ "official_accepted": {
+  "value": 1699,
+  "source_url": "https://aclanthology.org/2025.acl-long.0.pdf",
+  "quote": "In total, there are 1,699 papers accepted to the Main Conference and 1,392 papers accepted to Findings. [...] In total, we had 8,360 unique submissions across the December 2024 and February 2025 ARR cycles of which 5,501 papers were committed to ACL. The acceptance rate is 20.3% for the Main Conference papers and a further 16.7% for Findings papers.",
+  "src": "acl-2025-front-matter",
+  "quote_check": "snapshot"
+ },
+ "coverage": 1.0012,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 729,
+   "share_pct": 42.9,
+   "prev": {
+    "year": 2024,
+    "count": 413,
+    "share_pct": 44.3,
+    "delta_pp": -1.4
+   },
+   "examples": [
+    "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models.",
+    "A Training-free LLM-based Approach to General Chinese Character Error Correction.",
+    "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 315,
+   "share_pct": 18.5,
+   "prev": {
+    "year": 2024,
+    "count": 160,
+    "share_pct": 17.1,
+    "delta_pp": 1.4
+   },
+   "low_precision": true,
+   "examples": [
+    "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models.",
+    "AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research.",
+    "A Dual-Perspective NLG Meta-Evaluation Framework with Automatic Benchmark and Better Interpretability."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 156,
+   "share_pct": 9.2,
+   "prev": {
+    "year": 2024,
+    "count": 69,
+    "share_pct": 7.4,
+    "delta_pp": 1.8
+   },
+   "examples": [
+    "Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs.",
+    "CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models.",
+    "EffiVLM-BENCH: A Comprehensive Benchmark for Evaluating Training-Free Acceleration in Large Vision-Language Models."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "multilingual",
+   "label_zh": "多语言 / 机器翻译",
+   "label_en": "Multilingual / machine translation",
+   "count": 152,
+   "share_pct": 8.9,
+   "prev": {
+    "year": 2024,
+    "count": 100,
+    "share_pct": 10.7,
+    "delta_pp": -1.8
+   },
+   "examples": [
+    "A Training-free LLM-based Approach to General Chinese Character Error Correction.",
+    "Registering Source Tokens to Target Language Spaces in Multilingual Neural Machine Translation.",
+    "CCHall: A Novel Benchmark for Joint Cross-Lingual and Cross-Modal Hallucinations Detection in Large Language Models."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "reasoning",
+   "label_zh": "推理（思维链/数学）",
+   "label_en": "Reasoning (CoT / math)",
+   "count": 150,
+   "share_pct": 8.8,
+   "prev": {
+    "year": 2024,
+    "count": 69,
+    "share_pct": 7.4,
+    "delta_pp": 1.4
+   },
+   "examples": [
+    "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification.",
+    "SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs.",
+    "Multi-document Summarization through Multi-document Event Relation Graph Reasoning in LLMs: a case study in Framing Bias Mitigation."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "safety_alignment",
+   "label_zh": "安全与对齐",
+   "label_en": "Safety & alignment",
+   "count": 131,
+   "share_pct": 7.7,
+   "prev": {
+    "year": 2024,
+    "count": 47,
+    "share_pct": 5.0,
+    "delta_pp": 2.7
+   },
+   "examples": [
+    "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-aware Formal Verification.",
+    "Can't See the Forest for the Trees: Benchmarking Multimodal Safety Awareness for Multimodal LLMs.",
+    "AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "agents",
+   "label_zh": "智能体",
+   "label_en": "Agents (LLM / RL / multi-agent)",
+   "count": 105,
+   "share_pct": 6.2,
+   "prev": {
+    "year": 2024,
+    "count": 36,
+    "share_pct": 3.9,
+    "delta_pp": 2.3
+   },
+   "examples": [
+    "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models.",
+    "BELLE: A Bi-Level Multi-Agent Reasoning Framework for Multi-Hop Question Answering.",
+    "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "rag_retrieval",
+   "label_zh": "检索 / 检索增强生成",
+   "label_en": "Retrieval / RAG",
+   "count": 104,
+   "share_pct": 6.1,
+   "prev": {
+    "year": 2024,
+    "count": 40,
+    "share_pct": 4.3,
+    "delta_pp": 1.8
+   },
+   "examples": [
+    "SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model.",
+    "MegaPairs: Massive Data Synthesis for Universal Multimodal Retrieval.",
+    "Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 82,
+   "share_pct": 4.8,
+   "prev": {
+    "year": 2024,
+    "count": 40,
+    "share_pct": 4.3,
+    "delta_pp": 0.5
+   },
+   "examples": [
+    "SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs.",
+    "Flipping Knowledge Distillation: Leveraging Small Models' Expertise to Enhance LLMs in Text Matching.",
+    "AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "finetuning",
+   "label_zh": "微调 / 参数高效 / 后训练",
+   "label_en": "Fine-tuning / PEFT / post-training",
+   "count": 78,
+   "share_pct": 4.6,
+   "prev": {
+    "year": 2024,
+    "count": 52,
+    "share_pct": 5.6,
+    "delta_pp": -1.0
+   },
+   "examples": [
+    "SCAR: Data Selection via Style Consistency-Aware Response Ranking for Efficient Instruction-Tuning of Large Language Models.",
+    "Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning.",
+    "Neural Parameter Search for Slimmer Fine-Tuned Models and Better Transfer."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 69,
+   "share_pct": 4.1,
+   "prev": {
+    "year": 2024,
+    "count": 40,
+    "share_pct": 4.3,
+    "delta_pp": -0.2
+   },
+   "low_precision": true,
+   "examples": [
+    "YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering.",
+    "What Really Matters in Many-Shot Attacks? An Empirical Study of Long-Context Vulnerabilities in LLMs.",
+    "Understanding Large Language Model Vulnerabilities to Social Bias Attacks."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "icl_prompting",
+   "label_zh": "上下文学习 / 提示",
+   "label_en": "In-context learning / prompting",
+   "count": 66,
+   "share_pct": 3.9,
+   "prev": {
+    "year": 2024,
+    "count": 59,
+    "share_pct": 6.3,
+    "delta_pp": -2.4
+   },
+   "examples": [
+    "Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning.",
+    "Leveraging In-Context Learning for Political Bias Testing of LLMs.",
+    "Efficient Universal Goal Hijacking with Semantics-guided Prompt Organization."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "dialogue",
+   "label_zh": "对话系统",
+   "label_en": "Dialogue / conversational",
+   "count": 55,
+   "share_pct": 3.2,
+   "prev": {
+    "year": 2024,
+    "count": 38,
+    "share_pct": 4.1,
+    "delta_pp": -0.9
+   },
+   "examples": [
+    "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents.",
+    "Dialogue-RAG: Enhancing Retrieval for LLMs via Node-Linking Utterance Rewriting.",
+    "Can a Single Model Master Both Multi-turn Conversations and Tool Use? CoALM: A Unified Conversational Agentic Language Model."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "speech_audio",
+   "label_zh": "语音与音频",
+   "label_en": "Speech & audio",
+   "count": 55,
+   "share_pct": 3.2,
+   "prev": {
+    "year": 2024,
+    "count": 43,
+    "share_pct": 4.6,
+    "delta_pp": -1.4
+   },
+   "examples": [
+    "T2A-Feedback: Improving Basic Capabilities of Text-to-Audio Generation via Fine-grained AI Feedback.",
+    "Analyzing and Mitigating Inconsistency in Discrete Speech Tokens for Neural Codec Language Models.",
+    "Decoding on Graphs: Faithful and Sound Reasoning on Knowledge Graphs through Generation of Well-Formed Chains."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "qa",
+   "label_zh": "问答",
+   "label_en": "Question answering",
+   "count": 54,
+   "share_pct": 3.2,
+   "prev": {
+    "year": 2024,
+    "count": 39,
+    "share_pct": 4.2,
+    "delta_pp": -1.0
+   },
+   "examples": [
+    "YESciEval: Robust LLM-as-a-Judge for Scientific Question Answering.",
+    "BELLE: A Bi-Level Multi-Agent Reasoning Framework for Multi-Hop Question Answering.",
+    "CaLMQA: Exploring culturally specific long-form question answering across 23 languages."
+   ]
+  }
+ ]
+}

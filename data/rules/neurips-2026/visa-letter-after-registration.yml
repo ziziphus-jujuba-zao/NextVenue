@@ -1,0 +1,25 @@
+id: neurips-2026/visa-letter-after-registration
+edition: neurips-2026
+family: registration
+question_zh: 签证邀请函要先付费注册才能开吗？
+short_zh: 先注册再开邀请函
+answer: required
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 必须先注册。悉尼和亚特兰大要先在 neurips.cc 买线下注册，再在官网生成邀请函；巴黎要付清注册费才出函，注册时一并申请。只申请了资助、还没注册的，也要先注册才能开邀请函。会议结束后不再出函。
+detail_zh: 去美国（亚特兰大）的，递签后要回到邀请函页面填写签证申请号。官方建议需要签证的尽早注册、尽早递签；按时递签还关系到拒签退款（见"拒签退注册费"卡）。
+quotes:
+  - src: neurips-2026-financial-assistance
+    text: "Only registered participants can receive a Visa Invitation Letter. We cannot make exceptions to this policy."
+  - src: neurips-2026-europe-home
+    text: "You must be fully registered and have paid the relevant registration fee to receive an invitation letter."
+  - src: neurips-2026-visa
+    text: "Generate your visa invitation letter. We do not generate visa letters after the conference has closed"
+effect:
+  kind: requires
+  target: paid_registration
+  before: visa_letter
+last_checked: 2026-09-25

@@ -1,0 +1,173 @@
+SenSys 2027
+
+ * Homepage
+ * Calls
+   * Call for Papers
+
+ * Committees
+   * Organization
+   * Technical Program Committee
+   * TPC self-nomination
+
+SenSys 2027: Call for Papers
+
+We are pleased to announce SenSys 2027: The International Conference on Embedded Artificial Intelligence and Sensing Systems, co-located with CPS-IoT Week.
+
+In 2026, SenSys, IPSN, and IoTDI merged into a single flagship conference, uniting their communities to create the premier forum for research on sensing systems and embedded artificial intelligence (AI). The combined event brings together expertise across sensor networks, embedded systems, mobile and wireless computing, machine learning, cyber-physical systems (CPS), Internet of Things (IoT), and AI-driven applications—fostering new directions and cross-disciplinary impact. SenSys 2027 will continue this tradition.
+
+Accepted regular papers will be published with ACM; accepted demo and poster abstracts will be published with IEEE. All content will be cross-indexed.
+
+Topics of Interest
+
+SenSys 2027 welcomes submissions on original, high-impact research across embedded AI, sensing systems, and CPS/IoT. Topics include, but are not limited to:
+
+ * Algorithms and Information
+
+ * Analytical and theoretical foundations for embedded sensing systems
+ * Coding, compression, and information theory for embedded systems
+ * Collaborative sensing with AI/ML-driven models
+ * Federated learning or neural architecture search (NAS)
+ * Large language models for edge and embedded systems
+ * Processing in sensor networks and embedded systems
+
+ * Applications
+
+ * Augmented and virtual reality
+ * Autonomous vehicles, unmanned aerial vehicles, and drones
+ * Personal, wearable, and other human-centric embedded systems
+ * Smart cities, smart buildings, and industrial IoT
+
+ * Platforms
+
+ * Low-power and novel IoT protocols for 5G/6G and other architectures
+ * New communication paradigms for ubiquitous connectivity
+ * Satellite systems and applications, including CubeSats
+ * Systems for extreme environments (e.g., underwater, aerial, space)
+
+ * Security
+
+ * Decentralization and blockchain for embedded sensing systems
+ * Fairness, equity, and transparency issues in IoT and CPS
+ * Fault-tolerance, dependability, and robustness in embedded platforms
+ * IoT data marketplaces, compression, and semantic summarization
+ * Secure and privacy-sensitive IoT
+
+ * Systems
+
+ * Digital twins and physical AI systems for real-world applications
+ * Edge computing, fog computing, and real-time IoT/CPS systems
+ * Heterogeneous sensor networks and data fusion
+ * IoT and CPS for sustainability
+ * Localization, synchronization, RFID, and RF sensing
+ * Novel sensor technologies, sensing paradigms, and deployments
+
+In addition, SenSys 2027 will accept submissions as a full or short paper on Visions, Experiences, Tools, Datasets, and Benchmarks:
+
+ * Visions, grand challenges, or new directions
+ * Experiences, insights, challenges, and lessons learned from real-world deployments
+ * Benchmarks for evaluating systems, models, algorithms, or tools
+ * Tools, toolkits, or frameworks that advance research in embedded AI and sensing systems
+ * Datasets that support research in embedded AI and sensing systems
+ * Frameworks that advance research in embedded AI and sensing systems
+
+Authors submitting to the second category on visions, experiences, etc., may choose between a full paper (12 pages) or a short paper (6 pages). Short papers will be evaluated on originality, clarity, and potential impact, even without extensive evaluation.
+
+Note that survey and tutorial papers are out of scope for SenSys 2027. All accepted papers will be presented at the conference, and their presentation format will be determined later.
+
+Two-Deadline Submission Model
+
+SenSys 2027 will implement a two-deadline review process. Each deadline is self-contained.
+
+Papers rejected at the first deadline may be submitted to the second only with a substantive revision and a detailed "Response to Reviewers" statement that maps each concern to specific changes (e.g., methods, analysis, experiments, writing). Submissions that are substantially unchanged or lack this statement will be desk-rejected.
+
+Moreover, authors of resubmitted papers should consider the following guidelines:
+
+ * Papers that received borderline or mixed reviews during the first deadline are candidates for potential acceptance in the second deadline after a revision that thoroughly and exhaustively addresses the reviewers’ comments from the first deadline, which likely include the need for new experimental results. Please note that acceptance is not guaranteed; all papers in the second deadline are fully re-reviewed. Therefore, authors should not interpret the reviews of the first deadline in a way similar to major or minor revisions in a journal; resubmissions are treated as new submissions.
+ * Papers that received consistently low scores in the first deadline typically require more extensive rethinking and rewriting and a significantly improved evaluation. These submissions are unlikely to become competitive by the second deadline. Authors should seriously consider whether the reviewers’ comments can be addressed within the limited time between deadlines.
+ * The "Response to Reviewers" should use the same two-column format as the paper, and it should appear at the end of the paper as an appendix. This section should start with (1) the title and paper number of the original submission in the first deadline, and (2) a set of short bullet points highlighting the main improvements, such as new experiments and/or new hardware/software designs. A more detailed response to the reviewers' concerns should be provided after that, clearly indicating each concern,  the reviewer(s) who raised it, and how it is addressed in the resubmission. The "Response to Reviewers" should be no more than 4 pages.
+
+Policy on Previous Submissions
+
+For papers rejected at the first SenSys 2027 deadline and resubmitted to the second deadline, please follow the guidelines above and include the mandatory “Response to Reviewers” statement.
+
+For papers previously rejected at other conferences (e.g., SenSys, MobiSys, MobiCom, NSDI, SIGCOMM, UbiComp, etc.), authors are strongly encouraged, but not required, to provide a description of the major concerns from the reviews of the previous submission and how the authors have addressed them in the current submission. This description should be properly anonymized and should be uploaded via the submission form as a separate document.
+
+Submission Guidelines
+
+ * Original, unpublished work not under review elsewhere.
+ * Full papers: ≤12 pages; short papers (visions, experiences, etc., only): ≤6 pages.
+ * As many additional pages as necessary can be used for references and optional appendices. Reviewers are not required to read appendices or consider them in their review. Authors should thus ensure that the core paper is complete and self-contained.
+ * Two-column, single-spaced, 9-pt font (ACM acmart.cls, sigconf option preferred).
+ * Double-blind review: follow the Anonymity Policy (see below).
+ * Authors must provide conflicts with program committee members as part of the paper registration process; follow the Conflicts of Interest Policy (see below).
+ * Ethical statement required for research with human participants (use generic, non-identifying wording during review).
+ * Registration & attendance: For each accepted paper, one full (non-student) author registration is required, and at least one author must attend and present in person (see Author Attendance & Registration Policy).
+ * Submission site: https://sensys27.hotcrp.com/
+
+Anonymity Policy
+
+All submissions must be fully anonymized; violations will be desk-rejected.
+
+ * No author names, affiliations, emails, or identifying PDF metadata.
+ * No acknowledgments during review (funding sources, centers, collaborators, etc.).
+ * Self-citations in third person; avoid text revealing authorship.
+ * Preprints (e.g., arXiv) allowed; reviewers are instructed not to search for them.
+ * Artifact links must be anonymous (blinded GitHub/GitLab, Zenodo with anonymized authors; no personal/lab/department/company sites; scrub repo/file/video metadata/watermarks).
+ * Human-subjects approvals described generically (e.g., "approved by an institutional review board," without naming the institution).
+
+Conflicts of Interest Policy
+
+Our definition of conflict of interest for SenSys 2027 submissions extends the Conflict of Interest Policy for ACM Publications as follows:
+
+ * You are currently employed at the same institution, have been previously employed at the same institution within the last 24 months, or are going to begin employment at the same institution within the next 12 months.
+ * You have a professional partnership as follows:
+    * Past or present association as thesis advisor or advisee.
+    * Past or present association as a postdoc or postdoc supervisor.
+    * Collaboration on a project, publication, or grant proposal within the past 24 months.
+    * Other clear conflicts as appropriate (e.g., marriage, family member, etc.). In this case, please mark ‘other’ in HotCRP and send a note to the PC chairs.
+
+The PC chairs and members will review conflicts to ensure the integrity of the reviewing process, adding conflicts where necessary and sanity checking cases where conflicts do not appear justified. If there is no basis for PC conflicts provided by authors, those conflicts will be removed. Improperly identifying PC members as a conflict to avoid individual reviewers may lead to your paper being rejected. If you have concerns, please contact the PC chairs.
+
+Author Attendance & Registration Policy
+
+ * In-person presentation required: At least one author of each accepted paper must attend the conference in person and present the work.
+ * One full registration per paper: Each accepted paper requires at least one full (non-student) registration by the camera-ready deadline.
+ * Exceptions: Remote presentation may be approved only in exceptional cases (e.g., visa denial, documented medical issues) at the discretion of the General/Program Chairs.
+ * No-show policy: Papers without a presenting author may be withdrawn from the program and the proceedings.
+
+Open Access Publishing Model
+
+Starting January 1, 2026, ACM has fully transitioned to Open Access. All ACM publications, including those from ACM-sponsored conferences, are 100% Open Access. Authors will have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With over 1,800 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 70-75%).
+
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To determine whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the ACM APC Waivers and Discounts Policy. Keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+
+ACM SIGMOBILE (SIGBED pending) plans to support a small number of accepted publications that require support for Open Access fees. We plan to provide further information regarding this in a later announcement.
+
+Use of Generative AI
+
+Authors should consult the ACM Policy on Authorship when using GenAI. In particular:
+
+“When using Artificial Intelligence to conduct research, including the design and methodology of the research project, creation and selection of data sources, designing experiments, generation and collection of data, coding, implementing models, running simulations, data analysis, testing, validating results, deploying software, archiving data and code for reproducibility, or any other aspects of the research lifecycle that are directly relevant to the conclusions of the research underlying the Work, the specific use(s) of AI tools must be described in detail in the methods section of the Work. This includes the creation of artifacts that are directly relevant to the conclusions of the research, such as code, datasets, and charts or figures that rely on the AI tools.
+
+When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI (as distinct from AI used in the conduct of the research itself, addressed in item 1 above).”
+
+Important Dates
+
+First deadline:
+
+ * Abstract registration deadline: Friday, May 29, 2026 (AoE)
+ * Paper submission deadline: Friday, June 5, 2026 (AoE)
+ * Early notification: Wednesday, July 17, 2026
+ * Review results notification: Monday, August 31, 2026
+
+Second deadline:
+
+ * Abstract registration deadline: Thursday, October 29, 2026 (AoE)
+ * Paper submission deadline: Thursday, November 5, 2026 (AoE)
+ * Early notification: Thursday, December 17, 2026
+ * Review results notification: Thursday, January 28, 2027
+
+Please note that authors of submissions for which there is a consensus on rejection will be notified earlier than the review results notification date.
+
+© SenSys 2026: ACM/IEEE Conference on Embedded Artificial Intelligence and Sensing Systems
+Template by Xiaoying Riley

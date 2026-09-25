@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: china-holidays
+sources:
+  - id: china-holidays-2026
+    url: https://www.gov.cn/zhengce/content/202511/content_7047090.htm
+    title: 国务院办公厅关于2026年部分节假日安排的通知（国办发明电〔2025〕7号）
+    kind: policy
+    fetched_at: 2026-09-25T10:20:42Z
+    http_status: 200
+    snapshot: 79d6f4e1b981cfd4d4d58f8cd9de0576a4e86bb54c05894272fe1e3ebc8b928c
+  - id: china-holidays-law
+    url: https://www.gov.cn/zhengce/content/202411/content_6986380.htm
+    title: 全国年节及纪念日放假办法（2024年11月10日第四次修订，国务院令第795号）
+    kind: policy
+    fetched_at: 2026-09-25T10:20:43Z
+    http_status: 200
+    snapshot: df0ed651a3b4ce3825630af74080b081888e460b0b8527df521a45ebaf629467
+  - id: china-holidays-hko-2027
+    url: https://www.hko.gov.hk/tc/gts/time/calendar/text/files/T2027c.txt
+    title: 香港天文台 2027（丁未 - 肖羊）年公曆與農曆日期對照表
+    kind: other
+    fetched_at: 2026-09-25T10:20:45Z
+    http_status: 200
+    snapshot: 7ce16dc48f65027928c971e9b592877d70455f4687b3adb8df25cf501c9f05e9

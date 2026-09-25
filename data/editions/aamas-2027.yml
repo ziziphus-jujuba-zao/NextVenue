@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: aamas-2027
+series: aamas
+name: AAMAS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/AAMAS
+  conf_id: aamas27
+  link: https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+  place: Hanoi, Vietnam
+  date: May 3-7, 2027
+  timezone: AoE
+location:
+  city: Hanoi
+  country: Vietnam
+  country_code: VN
+dates:
+  start: 2027-05-03
+  end: 2027-05-07
+milestones:
+  - type: abstract
+    at: 2026-10-01T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-10-08T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-05-03
+    end: 2027-05-07
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

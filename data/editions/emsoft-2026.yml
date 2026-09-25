@@ -1,0 +1,70 @@
+id: emsoft-2026
+series: emsoft
+name: EMSOFT 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Barcelona, country: Spain, country_code: ES }
+dates: { start: 2026-10-04, end: 2026-10-09 }
+federated_with:
+  name: ESWEEK 2026
+  url: https://esweek.org/
+  src: esweek-2026-home
+  quote: "By bringing together three leading conferences, (CASES, CODES, EMSOFT), one symposium (MEMOCODE), and several workshops, tutorials, and education classes, ESWEEK allows attendees to benefit from a wide range of topics covering the state of the art in embedded systems research and development."
+milestones:
+  - type: abstract
+    at: 2026-03-23T23:59
+    tz: AoE
+    status: confirmed
+    src: emsoft-2026-cfp
+    quote: "Abstract Submission: March 23, 2026 (AoE)"
+  - type: paper
+    at: 2026-03-30T23:59
+    tz: AoE
+    status: confirmed
+    src: emsoft-2026-cfp
+    quote: "Full Paper Submission: March 30, 2026 (AoE, firm)"
+  - type: author_response
+    label_zh: 互动问答（仅 EMSOFT）
+    start: 2026-04-28
+    end: 2026-05-03
+    tz: AoE
+    status: confirmed
+    src: emsoft-2026-cfp
+    quote: "April 28 - May 3, 2026: Interactive Q&A (only EMSOFT)"
+  - type: phase1_notification
+    label_zh: 第一轮审稿结果
+    at: 2026-05-22
+    tz: AoE
+    status: confirmed
+    src: emsoft-2026-cfp
+    quote: "First round reviews: May 22, 2026"
+  - type: author_response
+    label_zh: 修改稿截止（通过第一轮的论文）
+    at: 2026-06-19T23:59
+    tz: AoE
+    status: confirmed
+    src: emsoft-2026-cfp
+    quote: "Revised Paper Submission: June 19, 2026"
+  - type: notification
+    at: 2026-07-17
+    tz: AoE
+    status: confirmed
+    src: emsoft-2026-cfp
+    quote: "Notification: July 17, 2026"
+  - type: camera_ready
+    at: 2026-08-17T23:59
+    tz: AoE
+    status: confirmed
+    src: emsoft-2026-cfp
+    quote: "Camera-ready Submission: August 17, 2026"
+  - type: conference
+    start: 2026-10-04
+    end: 2026-10-09
+    tz: Europe/Madrid
+    status: confirmed
+    src: esweek-2026-home
+    quote: "OCTOBER 4 - OCTOBER 9, 2026 | BARCELONA, SPAIN"
+    note_zh: ESWEEK 2026 整周的会期。
+last_checked: 2026-09-25
+note_zh: EMSOFT 2026 的期刊轨道两轮审稿：通过第一轮的论文按意见在约两周内交修改稿，第二轮录用的全文发表在 IEEE TCAD。录用论文须有一位作者按全价注册并到场报告。投稿已全部截止；ESWEEK 2027 的地点和截止日期官网还没公布（近两届都是 3 月底截稿）。

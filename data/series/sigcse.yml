@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: sigcse
+acronym: SIGCSE
+full_name: Technical Symposium on Computer Science Education Conference
+directions:
+  - cs/cross
+dblp: conf/sigcse
+ccfddl: MX/SIGCSE
+data_level: upstream

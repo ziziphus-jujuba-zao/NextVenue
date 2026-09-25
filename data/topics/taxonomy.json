@@ -1,0 +1,732 @@
+{
+ "method_version": "0.1.0",
+ "note_zh": "只看标题；一篇论文可以算进几个主题；带条件的写法只在另一个主题也命中时才算。",
+ "low_precision": [
+  "benchmark",
+  "robustness"
+ ],
+ "topics": [
+  {
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "patterns": [
+    "\\bllms?\\b",
+    "\\blarge language models?\\b",
+    "\\b(?<!vision )(?<!visual )(?<!video )(?<!vision and )(?<!image )language models?\\b",
+    "\\blms\\b",
+    "\\bslms?\\b",
+    "\\bchatgpt\\b",
+    "\\bgpt ?[234o]",
+    "\\bllama\\b",
+    "\\bqwen\\b",
+    "\\bdeepseek\\b"
+   ]
+  },
+  {
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "patterns": [
+    "\\bmulti ?modal",
+    "\\bcross ?modal",
+    "\\bomni ?modal",
+    "\\bvision ?(and )?language\\b",
+    "\\bvisual ?language\\b",
+    "\\bvlms?\\b",
+    "\\bmllms?\\b",
+    "\\blvlms?\\b",
+    "\\blmms?\\b",
+    "\\bimage ?text\\b",
+    "\\bvisual question answering\\b",
+    "\\bvqa\\b",
+    "\\bclip\\b",
+    "\\baudio ?visual\\b",
+    "\\bvision ?language ?action\\b",
+    "\\bvlas?\\b"
+   ]
+  },
+  {
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "patterns": [
+    "\\bdiffusion\\b",
+    "\\bscore ?based (generative|models?|diffusion)",
+    "\\bflow matching\\b",
+    "\\brectified flows?\\b",
+    "\\bconsistency models?\\b"
+   ]
+  },
+  {
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "patterns": [
+    "\\btext ?to ?(image|video|3d|speech|audio|motion|music)\\b",
+    "\\b(image|video|3d|4d|motion|scene|audio|music|speech|human|avatar|layout|texture|shape|face|portrait|talking head|world) (generation|synthesis|editing)\\b",
+    "\\bimage editing\\b",
+    "\\bvideo editing\\b",
+    "\\bgenerative models?\\b",
+    "\\bgans?\\b",
+    "\\bgenerative adversarial\\b",
+    "\\bvaes?\\b",
+    "\\bvariational auto ?encoders?\\b",
+    "\\bnormali[sz]ing flows?\\b"
+   ]
+  },
+  {
+   "id": "rl",
+   "label_zh": "强化学习",
+   "label_en": "Reinforcement learning",
+   "patterns": [
+    "\\breinforcement learning\\b",
+    "\\brl\\b",
+    "\\bmarl\\b",
+    "\\brlhf\\b",
+    "\\brlvr\\b",
+    "\\bgrpo\\b",
+    "\\bppo\\b",
+    "\\bq ?learning\\b",
+    "\\bpolicy gradients?\\b",
+    "\\bpolicy optimi[sz]ation\\b",
+    "\\bactor ?critic\\b",
+    "\\boffline rl\\b",
+    "\\bmarkov decision process",
+    "\\bmdps?\\b"
+   ]
+  },
+  {
+   "id": "agents",
+   "label_zh": "智能体",
+   "label_en": "Agents (LLM / RL / multi-agent)",
+   "patterns": [
+    "\\bagents?\\b",
+    "\\bagentic\\b",
+    "\\bmulti ?agent\\b"
+   ]
+  },
+  {
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "patterns": [
+    "\\b3d\\b",
+    "\\b4d\\b",
+    "\\bgaussian splatting\\b",
+    "\\b3dgs\\b",
+    "\\bgaussians\\b",
+    "\\bnerfs?\\b",
+    "\\bneural radiance fields?\\b",
+    "\\bradiance fields?\\b",
+    "\\bpoint clouds?\\b",
+    "\\bnovel view synthesis\\b",
+    "\\bmesh(es)?\\b",
+    "\\bdepth estimation\\b",
+    "\\bmonocular depth\\b",
+    "\\bstereo\\b",
+    "\\bslam\\b",
+    "\\bsurface reconstruction\\b",
+    "\\bstructure from motion\\b",
+    "\\bmulti ?view (stereo|reconstruction|3d|geometry|diffusion|generation|synthesis|consistent|consistency)\\b"
+   ]
+  },
+  {
+   "id": "gs_nerf",
+   "label_zh": "高斯泼溅 / NeRF",
+   "label_en": "Gaussian splatting / NeRF (neural rendering)",
+   "patterns": [
+    "\\bgaussian splatting\\b",
+    "\\b3dgs\\b",
+    "\\bgaussians\\b",
+    "\\bnerfs?\\b",
+    "\\bneural radiance fields?\\b",
+    "\\bradiance fields?\\b",
+    "\\bneural rendering\\b",
+    "\\bnovel view synthesis\\b"
+   ]
+  },
+  {
+   "id": "safety_alignment",
+   "label_zh": "安全与对齐",
+   "label_en": "Safety & alignment",
+   "patterns": [
+    "\\bsafety\\b",
+    "\\bsafe\\b",
+    "\\bjailbreak",
+    "\\bred ?teaming\\b",
+    "\\brlhf\\b",
+    "\\bdpo\\b",
+    "\\bpreference (optimi[sz]ation|learning|alignment|data|feedback)\\b",
+    "\\bharmful\\b",
+    "\\bharmless",
+    "\\bguardrails?\\b",
+    "\\btrustworth",
+    "\\bsuperalignment\\b",
+    "\\bmisalign",
+    "\\breward (model|hacking)",
+    "\\balign(ment|ing|ed)?\\b  [only if topic 'llm' also matches]",
+    "\\balign(ment|ing|ed)?\\b  [only if topic 'multimodal' also matches]",
+    "\\balign(ment|ing|ed)?\\b  [only if topic 'agents' also matches]"
+   ]
+  },
+  {
+   "id": "reasoning",
+   "label_zh": "推理（思维链/数学）",
+   "label_en": "Reasoning (CoT / math)",
+   "patterns": [
+    "\\breasoning\\b",
+    "\\breasoners?\\b",
+    "\\bchain ?of ?thoughts?\\b",
+    "\\bcot\\b",
+    "\\bmath\\b",
+    "\\bmathematical\\b",
+    "\\btheorem proving\\b",
+    "\\bthinking\\b"
+   ]
+  },
+  {
+   "id": "video",
+   "label_zh": "视频",
+   "label_en": "Video",
+   "patterns": [
+    "\\bvideos?\\b"
+   ]
+  },
+  {
+   "id": "graph",
+   "label_zh": "图学习 / GNN",
+   "label_en": "Graphs / GNNs",
+   "patterns": [
+    "\\bgraphs?\\b",
+    "\\bgnns?\\b",
+    "\\bgcns?\\b",
+    "\\bmessage passing\\b",
+    "\\bnode classification\\b",
+    "\\blink prediction\\b",
+    "\\bhypergraphs?\\b"
+   ]
+  },
+  {
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "patterns": [
+    "\\btransformers?\\b",
+    "\\battention\\b",
+    "\\bvits?\\b"
+   ]
+  },
+  {
+   "id": "ssm",
+   "label_zh": "状态空间模型 / Mamba",
+   "label_en": "State-space models / Mamba",
+   "patterns": [
+    "\\bmamba\\b",
+    "\\bstate ?space models?\\b",
+    "\\bssms?\\b",
+    "\\blinear attention\\b"
+   ]
+  },
+  {
+   "id": "rag_retrieval",
+   "label_zh": "检索 / 检索增强生成",
+   "label_en": "Retrieval / RAG",
+   "patterns": [
+    "\\bretrieval\\b",
+    "\\bretrieval ?augmented\\b",
+    "\\brag\\b",
+    "\\bretrievers?\\b"
+   ]
+  },
+  {
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "patterns": [
+    "\\bquantiz",
+    "\\bquantis",
+    "\\bpruning\\b",
+    "\\bprun(e|ed)\\b",
+    "\\bsparsit",
+    "\\b(model|kv|token|context|prompt|network|llm|weight|activation|cache|gradient|vision token|visual token)s? compression\\b",
+    "\\bcompress(ing|ed)? (the )?(llms?|large|models?|neural|kv|tokens?|context|prompts?|networks?|transformers?|weights?)\\b",
+    "\\bsparse (attention|training|moe|models?|networks?|llms?|fine ?tuning|mixture|activation|transformers?|experts?)\\b",
+    "\\b(?<!dataset )(?<!data )distill",
+    "\\bkv ?cache\\b",
+    "\\bspeculative decoding\\b",
+    "\\baccelerat\\w* (\\w+ ){0,2}(llms?|inference|training|decoding|diffusion|generation|sampling|models?|transformers?|attention|serving|reasoning)\\b",
+    "\\btoken (pruning|merging|reduction|compression)\\b",
+    "\\befficient (inference|training|fine ?tuning|llms?|transformers?|attention|serving|decoding|generation|video|reasoning)\\b"
+   ]
+  },
+  {
+   "id": "finetuning",
+   "label_zh": "微调 / 参数高效 / 后训练",
+   "label_en": "Fine-tuning / PEFT / post-training",
+   "patterns": [
+    "\\bfine ?tun",
+    "\\bfinetun",
+    "\\binstruction ?tun",
+    "\\bparameter ?efficient\\b",
+    "\\bpeft\\b",
+    "\\blora\\b",
+    "\\badapters?\\b",
+    "\\bprompt tuning\\b",
+    "\\bpost ?training\\b",
+    "\\bsft\\b"
+   ]
+  },
+  {
+   "id": "icl_prompting",
+   "label_zh": "上下文学习 / 提示",
+   "label_en": "In-context learning / prompting",
+   "patterns": [
+    "\\bin ?context\\b",
+    "\\bicl\\b",
+    "\\bprompt",
+    "\\bfew ?shot prompting\\b"
+   ]
+  },
+  {
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "patterns": [
+    "\\badversarial",
+    "\\brobust",
+    "\\bbackdoor",
+    "\\bpoisoning\\b",
+    "\\battacks?\\b",
+    "\\bcertified\\b"
+   ]
+  },
+  {
+   "id": "privacy",
+   "label_zh": "隐私 / 机器遗忘",
+   "label_en": "Privacy / unlearning",
+   "patterns": [
+    "\\bprivacy\\b",
+    "\\bprivate\\b",
+    "\\bdifferential(ly)? priva",
+    "\\bmembership inference\\b",
+    "\\bunlearning\\b"
+   ]
+  },
+  {
+   "id": "federated",
+   "label_zh": "联邦学习",
+   "label_en": "Federated learning",
+   "patterns": [
+    "\\bfederated\\b"
+   ]
+  },
+  {
+   "id": "interpretability",
+   "label_zh": "可解释性",
+   "label_en": "Interpretability / explainability",
+   "patterns": [
+    "\\binterpretab",
+    "\\bexplainab",
+    "\\bexplanations?\\b",
+    "\\bmechanistic\\b",
+    "\\bsparse auto ?encoders?\\b",
+    "\\bsaes?\\b",
+    "\\bcircuits?\\b",
+    "\\bprobing\\b",
+    "\\bsaliency\\b",
+    "\\bconcept (bottleneck|based|activation)"
+   ]
+  },
+  {
+   "id": "hallucination",
+   "label_zh": "幻觉与事实性",
+   "label_en": "Hallucination & factuality",
+   "patterns": [
+    "\\bhallucinat",
+    "\\bfactual",
+    "\\bfact ?check",
+    "\\bmisinformation\\b",
+    "\\bfaithful"
+   ]
+  },
+  {
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "patterns": [
+    "\\bbenchmark",
+    "\\bdatasets?\\b",
+    "\\bevaluat",
+    "\\bleaderboards?\\b",
+    "\\bcorpus\\b",
+    "\\bcorpora\\b"
+   ]
+  },
+  {
+   "id": "self_supervised",
+   "label_zh": "自监督 / 对比 / 表征学习",
+   "label_en": "Self-supervised / contrastive / representation learning",
+   "patterns": [
+    "\\bself ?supervis",
+    "\\bcontrastive\\b",
+    "\\bmasked (image|auto ?encoders?|modell?ing)\\b",
+    "\\brepresentation learning\\b"
+   ]
+  },
+  {
+   "id": "continual",
+   "label_zh": "持续学习",
+   "label_en": "Continual learning",
+   "patterns": [
+    "\\bcontinual\\b",
+    "\\blifelong\\b",
+    "\\bincremental learning\\b",
+    "\\bclass ?incremental\\b",
+    "\\bcatastrophic forgetting\\b"
+   ]
+  },
+  {
+   "id": "ood",
+   "label_zh": "分布偏移 / 分布外 / 域适应",
+   "label_en": "Distribution shift / OOD / domain adaptation",
+   "patterns": [
+    "\\bout ?of ?distribution\\b",
+    "\\bood\\b",
+    "\\bdomain (adaptation|generali[sz]ation|shifts?)\\b",
+    "\\bdistribution(al)? shifts?\\b",
+    "\\btest ?time (adaptation|training)\\b",
+    "\\bsource ?free\\b",
+    "\\banomal"
+   ]
+  },
+  {
+   "id": "theory_optim",
+   "label_zh": "优化与学习理论",
+   "label_en": "Optimisation & learning theory",
+   "patterns": [
+    "\\bconvergence\\b",
+    "\\bgradient descent\\b",
+    "\\bsgd\\b",
+    "\\bstochastic (optimi[sz]ation|gradients?)\\b",
+    "\\bnon ?convex\\b",
+    "\\bconvex\\b",
+    "\\bgenerali[sz]ation bounds?\\b",
+    "\\bsample complexity\\b",
+    "\\bregret\\b",
+    "\\bminimax\\b",
+    "\\boptimi[sz]ers?\\b",
+    "\\bprovabl",
+    "\\btheor(y|etical)\\b",
+    "\\blower bounds?\\b",
+    "\\bbandits?\\b"
+   ]
+  },
+  {
+   "id": "causal",
+   "label_zh": "因果",
+   "label_en": "Causality",
+   "patterns": [
+    "\\bcausal",
+    "\\bcounterfactual",
+    "\\btreatment effects?\\b",
+    "\\binterventional\\b"
+   ]
+  },
+  {
+   "id": "time_series",
+   "label_zh": "时间序列 / 预测",
+   "label_en": "Time series / forecasting",
+   "patterns": [
+    "\\btime ?series\\b",
+    "\\bforecast",
+    "\\bspatio ?temporal\\b"
+   ]
+  },
+  {
+   "id": "ai4science",
+   "label_zh": "科学智能（分子/蛋白质/PDE）",
+   "label_en": "AI for science (molecules / proteins / PDEs)",
+   "patterns": [
+    "\\bmolecul",
+    "\\bprotein",
+    "\\bdrug\\b",
+    "\\bchemi",
+    "\\bmaterials? (discovery|design|science)\\b",
+    "\\bcrystal",
+    "\\bpdes?\\b",
+    "\\bpartial differential\\b",
+    "\\bneural operators?\\b",
+    "\\bphysics ?informed\\b",
+    "\\bweather\\b",
+    "\\bclimate\\b",
+    "\\bgenom",
+    "\\bsingle ?cell\\b",
+    "\\bdna\\b",
+    "\\brna\\b"
+   ]
+  },
+  {
+   "id": "robotics",
+   "label_zh": "机器人 / 具身智能",
+   "label_en": "Robotics / embodied AI",
+   "patterns": [
+    "\\brobot",
+    "\\bembodied\\b",
+    "\\bmanipulation\\b",
+    "\\bgrasp",
+    "\\blocomotion\\b",
+    "\\bvision ?language ?action\\b",
+    "\\bvlas?\\b",
+    "\\bnavigation\\b",
+    "\\bimitation learning\\b",
+    "\\bhumanoids?\\b",
+    "\\bdexterous\\b"
+   ]
+  },
+  {
+   "id": "driving",
+   "label_zh": "自动驾驶",
+   "label_en": "Autonomous driving",
+   "patterns": [
+    "\\bautonomous driving\\b",
+    "\\bself ?driving\\b",
+    "\\bdriving\\b",
+    "\\bbev\\b",
+    "\\bbird'?s ?eye ?view\\b",
+    "\\blidar\\b",
+    "\\btrajectory prediction\\b",
+    "\\bmotion forecasting\\b",
+    "\\boccupancy\\b",
+    "\\bvehicles?\\b"
+   ]
+  },
+  {
+   "id": "segmentation",
+   "label_zh": "分割",
+   "label_en": "Segmentation",
+   "patterns": [
+    "\\bsegment",
+    "\\bsam\\b",
+    "\\bmatting\\b"
+   ]
+  },
+  {
+   "id": "detection",
+   "label_zh": "目标检测",
+   "label_en": "Object detection",
+   "patterns": [
+    "\\bobject detect",
+    "\\bdetr\\b",
+    "\\byolo",
+    "\\bdetectors?\\b",
+    "\\b(3d|open ?vocabulary|open ?world|oriented|camouflaged|salient|pedestrian|small|monocular|multi ?view) (object )?detection\\b"
+   ]
+  },
+  {
+   "id": "restoration",
+   "label_zh": "底层视觉（复原/超分）",
+   "label_en": "Low-level vision (restoration / super-resolution)",
+   "patterns": [
+    "\\bsuper ?resolution\\b",
+    "\\bdeblur",
+    "\\bderain",
+    "\\bdehaz",
+    "\\brestoration\\b",
+    "\\blow ?light\\b",
+    "\\binpainting\\b",
+    "\\bimage enhancement\\b",
+    "\\b(image|video) denois"
+   ]
+  },
+  {
+   "id": "human",
+   "label_zh": "姿态估计、人体动作与数字人",
+   "label_en": "Pose estimation, human motion & avatars",
+   "patterns": [
+    "\\bposes?\\b",
+    "\\bhuman motion\\b",
+    "\\bmotion generation\\b",
+    "\\bavatars?\\b",
+    "\\bhands?\\b",
+    "\\bgestures?\\b",
+    "\\bhuman ?object interaction\\b",
+    "\\bhuman mesh\\b"
+   ]
+  },
+  {
+   "id": "tracking",
+   "label_zh": "跟踪 / 重识别",
+   "label_en": "Tracking / re-identification",
+   "patterns": [
+    "\\btracking\\b",
+    "\\btrackers?\\b",
+    "\\bre ?identification\\b",
+    "\\bre ?id\\b"
+   ]
+  },
+  {
+   "id": "open_world",
+   "label_zh": "零样本 / 小样本 / 开放词表",
+   "label_en": "Zero/few-shot & open-vocabulary",
+   "patterns": [
+    "\\bopen ?vocabulary\\b",
+    "\\bzero ?shot\\b",
+    "\\bfew ?shot\\b",
+    "\\bopen ?world\\b",
+    "\\bopen ?set\\b"
+   ]
+  },
+  {
+   "id": "speech_audio",
+   "label_zh": "语音与音频",
+   "label_en": "Speech & audio",
+   "patterns": [
+    "\\bspeech\\b",
+    "\\baudio\\b",
+    "\\basr\\b",
+    "\\bspoken\\b",
+    "\\btts\\b",
+    "\\bmusic\\b",
+    "\\bsound\\b",
+    "\\bspeakers?\\b"
+   ]
+  },
+  {
+   "id": "multilingual",
+   "label_zh": "多语言 / 机器翻译",
+   "label_en": "Multilingual / machine translation",
+   "patterns": [
+    "\\bmultilingual\\b",
+    "\\bcross ?lingual\\b",
+    "\\b(?<!image )(?<!video )(?<!domain )(?<!style )(?<!image to image )translation\\b",
+    "\\blow ?resource\\b",
+    "\\bcode ?switch",
+    "\\b(chinese|arabic|african|indic|hindi|japanese|korean|indonesian|vietnamese|bangla|bengali|persian|swahili|urdu|german|french|spanish)\\b"
+   ]
+  },
+  {
+   "id": "code",
+   "label_zh": "代码生成 / 软件",
+   "label_en": "Code generation / software",
+   "patterns": [
+    "\\bcode\\b",
+    "\\bprogram (synthesis|repair|generation)\\b",
+    "\\bprogramming\\b",
+    "\\bsoftware\\b",
+    "\\bsql\\b"
+   ]
+  },
+  {
+   "id": "medical",
+   "label_zh": "医学 / 医疗",
+   "label_en": "Medical / clinical",
+   "patterns": [
+    "\\bmedical\\b",
+    "\\bclinical\\b",
+    "\\bhealth",
+    "\\bpatholog",
+    "\\bradiolog",
+    "\\bmri\\b",
+    "\\bct\\b",
+    "\\bbiomedical\\b",
+    "\\bsurgical\\b",
+    "\\bdiseases?\\b",
+    "\\bcancer\\b",
+    "\\behrs?\\b"
+   ]
+  },
+  {
+   "id": "moe",
+   "label_zh": "混合专家（MoE）",
+   "label_en": "Mixture of experts",
+   "patterns": [
+    "\\bmixture ?of ?experts?\\b",
+    "\\bmoes?\\b"
+   ]
+  },
+  {
+   "id": "uncertainty",
+   "label_zh": "不确定性 / 校准 / 贝叶斯",
+   "label_en": "Uncertainty / calibration / Bayesian",
+   "patterns": [
+    "\\buncertaint",
+    "\\bcalibrat",
+    "\\bconformal\\b",
+    "\\bbayesian\\b"
+   ]
+  },
+  {
+   "id": "knowledge_ie",
+   "label_zh": "知识图谱 / 信息抽取",
+   "label_en": "Knowledge graphs / information extraction",
+   "patterns": [
+    "\\bknowledge graphs?\\b",
+    "\\bknowledge ?bases?\\b",
+    "\\binformation extraction\\b",
+    "\\bentit(y|ies)\\b",
+    "\\brelation extraction\\b",
+    "\\bevent extraction\\b"
+   ]
+  },
+  {
+   "id": "dialogue",
+   "label_zh": "对话系统",
+   "label_en": "Dialogue / conversational",
+   "patterns": [
+    "\\bdialog",
+    "\\bconversation",
+    "\\bchatbots?\\b"
+   ]
+  },
+  {
+   "id": "qa",
+   "label_zh": "问答",
+   "label_en": "Question answering",
+   "patterns": [
+    "\\bquestion answering\\b",
+    "\\bqa\\b",
+    "\\bquestions?\\b"
+   ]
+  },
+  {
+   "id": "summarization",
+   "label_zh": "摘要生成",
+   "label_en": "Summarisation",
+   "patterns": [
+    "\\bsummari[sz]"
+   ]
+  },
+  {
+   "id": "fairness_bias",
+   "label_zh": "公平性与社会偏见",
+   "label_en": "Fairness & social bias",
+   "patterns": [
+    "\\bfairness\\b",
+    "\\bfair\\b",
+    "\\bdebias",
+    "\\bstereotyp",
+    "\\b(social|gender|racial|political|cultural|demographic) bias"
+   ]
+  },
+  {
+   "id": "scaling",
+   "label_zh": "规模定律与测试时计算",
+   "label_en": "Scaling laws & test-time compute",
+   "patterns": [
+    "\\bscaling laws?\\b",
+    "\\btest ?time (scaling|compute)\\b",
+    "\\binference ?time (scaling|compute)\\b",
+    "\\bscaling (up )?(test|inference)"
+   ]
+  },
+  {
+   "id": "world_models",
+   "label_zh": "世界模型",
+   "label_en": "World models",
+   "patterns": [
+    "\\bworld models?\\b"
+   ]
+  }
+ ]
+}

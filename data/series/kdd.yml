@@ -1,0 +1,13 @@
+id: kdd
+acronym: KDD
+full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+aliases: [SIGKDD]
+directions: [cs/dm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/kdd
+ccfddl: DB/SIGKDD
+data_level: curated
+note_zh: 一年两轮投稿（8 月轮、2 月轮）。

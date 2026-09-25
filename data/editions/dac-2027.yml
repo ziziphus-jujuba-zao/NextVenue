@@ -1,0 +1,57 @@
+id: dac-2027
+series: dac
+name: DAC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: San Jose, country: USA, country_code: US }
+dates: { start: 2027-07-11, end: 2027-07-14 }
+milestones:
+  - type: abstract
+    label_zh: 标题、摘要和全部作者截止
+    at: 2026-11-11T17:00
+    tz: America/Los_Angeles
+    status: confirmed
+    src: dac-2027-research-manuscripts
+    quote: "A title, abstract (approximately 100 words), and a list of all co-authors must be submitted by November 11, 2026 (5:00pm US Pacific Time)."
+    note_zh: 官网日期表写 “5 PM PST”，11/11 已过夏令时，即 UTC−8 的 17:00（北京时间 11/12 09:00）。
+  - type: paper
+    at: 2026-11-18T17:00
+    tz: America/Los_Angeles
+    status: confirmed
+    src: dac-2027-research-manuscripts
+    quote: "The manuscript (up to 6 pages plus an additional 1 page for references only) is due by November 18, 2026 (5:00pm US Pacific Time)."
+    note_zh: 官网日期表写 “5 PM PST”（UTC−8）。截止后不能再增加作者或调整作者顺序，也不能重新提交修正。
+  - type: notification
+    at: 2027-03-08
+    tz: America/Los_Angeles
+    status: confirmed
+    src: dac-2027-research-manuscripts
+    quote: "Mar 08, 2027 Accept/Reject Notifications Sent"
+    note_zh: 2/22 官网会先公布录用论文编号（“Accepted Research Manuscript IDs Published on the DAC Website”）。
+  - type: camera_ready
+    at: 2027-03-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: dac-2027-research-manuscripts
+    quote: "Mar 31, 2027 Proceedings Manuscript Deadline"
+    note_zh: 之前 3/22 要先确认稿件（“Manuscript Confirmation Due”）。时间线这一行只给日期、没写时刻（只有摘要和正文截止写了“5 PM PST”），按北京时间当天结束算，比按太平洋夏令时早 15 小时，更保守。
+  - type: author_registration
+    at: 2027-04-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: dac-2027-research-manuscripts
+    quote: "Apr 10, 2027 Author Registration Deadline"
+    note_zh: 每篇录用论文要有一位作者交全价 Speaker Registration，不能用学生价。这一行只给日期、没写时区，按北京时间当天结束算（更保守）。
+  - type: conference
+    start: 2027-07-11
+    end: 2027-07-14
+    tz: America/Los_Angeles
+    status: confirmed
+    src: dac-2027-home
+    quote: "July 11-14, 2027 | San Jose, California"
+    note_zh: 会场是 San Jose Convention Center。
+last_checked: 2026-09-25
+note_zh: 研究论文 6 页正文加 1 页参考文献，双盲；日期表里没有 rebuttal。截至 9/25 投稿链接还是 “Coming Soon”。

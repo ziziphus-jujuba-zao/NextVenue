@@ -1,0 +1,11 @@
+id: itsc
+acronym: ITSC
+full_name: IEEE International Conference on Intelligent Transportation Systems
+aliases:
+  - IEEE ITSC
+directions: [eng/transport, eng/av]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 9–11 月
+data_level: curated

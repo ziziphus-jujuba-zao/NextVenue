@@ -1,0 +1,52 @@
+id: ashrae-2027-winter
+series: ashrae
+name: ASHRAE 2027 Winter Conference
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Chicago, country: USA, country_code: US }
+dates: { start: 2027-01-23, end: 2027-01-27 }
+milestones:
+  - type: abstract
+    label_zh: Conference Paper 摘要截止
+    at: 2026-05-27
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ashrae-2027-winter-cfp
+    quote: "Wednesday May 27, 2026 Conference Paper Abstracts Due"
+    note_zh: 已截止。
+  - type: paper
+    label_zh: Conference Paper 全文截止
+    at: 2026-09-02
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ashrae-2027-winter-cfp
+    quote: "Wednesday September 2, 2026 Conference Papers Due - Submitted for Review"
+    note_zh: 已截止。
+  - type: camera_ready
+    label_zh: 修改稿截止（Conference Paper 和 Technical Paper）
+    at: 2026-10-07
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ashrae-2027-winter-cfp
+    quote: "Wednesday October 7, 2026 Revised Conference Papers, Technical Papers Due"
+    note_zh: 官网只给日期、没写时区，按北京时间当天结束算。
+  - type: notification
+    at: 2026-10-26
+    tz: America/Chicago
+    status: confirmed
+    src: ashrae-2027-winter-cfp
+    quote: "Monday October 26, 2026 Conference Paper Accept/Reject Notifications"
+  - type: conference
+    start: 2027-01-23
+    end: 2027-01-27
+    tz: America/Chicago
+    status: confirmed
+    src: ashrae-2027-winter-cfp
+    quote: "2027 ASHRAE Winter Conference (January 23 - 27, 2027 | Chicago, Illinois, USA)"
+    note_zh: 作者必须到场报告，论文才会发表。
+last_checked: 2026-09-25
+note_zh: 征文页的“说明”一栏里还留着 2019、2021 年的旧日期，以页面上 2027 冬季会的日程表为准。

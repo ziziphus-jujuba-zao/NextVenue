@@ -1,0 +1,99 @@
+# UAI 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: uai
+rows:
+  - year: 2020
+    track: main
+    status: third_party
+    submissions: 515
+    accepted: 142
+    rate: 27.5
+    rate_text: 27.5%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|UAI'20 | 27.5%  (142/515) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 777
+    accepted: 205
+    rate: 26.4
+    rate_text: 26.4%
+    rate_basis: computed
+    definition_zh: 单一赛道；分母含桌拒和撤稿的论文
+    source_url: https://proceedings.mlr.press/v161/campos21a/campos21a.pdf
+    quote: We received 777 full submissions, of which 83 were desk-rejected or withdrawn, and 205 were ultimately accepted.
+    src: uai-2021-pc-preface
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: partial
+    accepted: 230
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v180/
+    quote_check: manual
+    count_method_zh: PMLR v180 论文集共列出 230 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: partial
+    accepted: 243
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v216/
+    quote_check: manual
+    count_method_zh: PMLR v216 论文集共列出 243 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 744
+    accepted: 200
+    rate: 26.9
+    rate_text: 26.9%
+    rate_basis: computed
+    definition_zh: 单一赛道；分母含桌拒和撤稿的论文
+    source_url: https://raw.githubusercontent.com/mlresearch/v244/main/assets/kiyavash24a/kiyavash24a.pdf
+    quote: We received 744 full submissions, of which 29 were desk-rejected and 95 were withdrawn, and 200 were ultimately accepted.
+    src: uai-2024-pc-preface
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: third_party
+    submissions: 750
+    accepted: 230
+    rate: 30.7
+    rate_text: 30.7%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|UAI'25 | 30.7% (230/750) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: third_party
+    submissions: 1087
+    rate: 30.5
+    rate_text: 30.5%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://www.group.ntt/en/topics/2026/08/14/uai2026.html
+    quote: This year, UAI 2026 recorded an acceptance rate of 30.5% out of 1,087 submissions
+    src: uai-2026-ntt-news
+    quote_check: snapshot
+    relay_zh: NTT 新闻稿
+    note_zh: 录用篇数只见于无许可证的聚合站，不显示
+    checked: 2026-09-25

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icme-2027
+sources:
+  - id: icme-2027-ieeecas
+    url: https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme
+    title: "IEEE CASS: 2027 ICME event page"
+    kind: other
+    fetched_at: 2026-09-25T15:46:33Z
+    http_status: 200
+    snapshot: a5b7fe726af9448ad67d72b05ea176cc33ed4d2d2d96f5eaf2c0ec09f537c1ec
+  - id: icme-2026-dates
+    url: https://2026.ieeeicme.org/important-dates/
+    title: ICME 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:46:33Z
+    http_status: 200
+    snapshot: b5146d15a23c6145a2470991c1e19cfe8b985965a0bf7ba8226788d59387d70c

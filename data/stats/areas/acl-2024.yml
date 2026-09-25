@@ -1,0 +1,18 @@
+# ACL 2024 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: acl
+year: 2024
+kind: theme_track
+precision: exact
+track_zh: 特别主题 track
+source_url: https://aclanthology.org/2024.acl-long.0.pdf
+quote: We received 55 submissions to the theme track during the review phase. Among these, 22 papers were accepted to the main conference and a further 16 to Findings of ACL.
+src: acl-2024-front-matter
+quote_check: snapshot
+note_zh: 官方只公布了特别主题 track，常规 track 没有分领域数字；录用率按官方数字计算
+checked: 2026-09-25
+rows:
+  - area: "Special Theme: Open science, open data, and open models for reproducible NLP research"
+    submissions: 55
+    accepted: 22
+    rate: 40
+    findings_accepted: 16

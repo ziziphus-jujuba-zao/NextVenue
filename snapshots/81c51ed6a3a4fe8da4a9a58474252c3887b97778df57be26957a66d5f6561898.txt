@@ -1,0 +1,52 @@
+☰ Navigation
+
+ACM SIGMOD/PODS International Conference on Management of Data   •   June 13-19, 2027   •   Huntington Beach, CA, USA
+
+Welcome
+
+ * Homepage
+
+Organization
+
+ * Organization
+ * SIGMOD PC
+
+ * PODS PC
+
+Participant Information
+
+ * Conference Venue
+
+Conference Program
+
+ * Keynotes
+
+SIGMOD Program
+
+ * Accepted Papers
+
+Calls For Submissions
+
+ * Important Dates
+ * SIGMOD Call for Research Papers
+ * PODS Call for Research Papers
+
+ * SIGMOD Call for Industrial Track Papers
+
+ * SIGMOD Call for Demonstration Proposals
+
+Welcome
+
+Welcome to the home of the 2027 ACM SIGMOD/PODS Conference, to be held at Huntington Beach, California, United States, on June 13 - June 19, 2027.
+
+The Conference. The annual ACM SIGMOD/PODS Conference is a leading international forum for database researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences. The conference includes a fascinating technical program with research and industrial talks, tutorials, demos, and focused workshops. It also hosts a poster session to learn about innovative technology, an industrial exhibition to meet companies and publishers, and a careers-in-industry panel with representatives from leading companies.
+
+SIGMOD/PODS 2027 Anti-Harassment Policy
+
+SIGMOD 2027 adheres to the ACM Policy Against Harassment. Any participant who experiences unacceptable behavior may contact any current member of the SIGMOD Executive Committee and the PODS Executive Committee or DBCares. Please be assured that if you approach us, your concerns will be kept in strict confidence, and we will consult with you on any actions taken.
+
+ACKNOWLEDGMENT
+
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+
+Follow our progress:

@@ -1,0 +1,44 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icsoc-2026
+series: icsoc
+name: ICSOC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/ICSOC
+  conf_id: icsoc26
+  link: https://icsoc2026.it.p.lodz.pl/
+  place: Lodz, Poland
+  date: December 1-4, 2026
+  timezone: AoE
+location:
+  city: Lodz
+  country: Poland
+  country_code: PL
+dates:
+  start: 2026-12-01
+  end: 2026-12-04
+milestones:
+  - type: paper
+    at: 2026-05-10T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Early paper submissions
+  - type: abstract
+    at: 2026-07-12T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Regular and industrial papers
+  - type: paper
+    at: 2026-07-19T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Regular and industrial papers
+  - type: conference
+    start: 2026-12-01
+    end: 2026-12-04
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

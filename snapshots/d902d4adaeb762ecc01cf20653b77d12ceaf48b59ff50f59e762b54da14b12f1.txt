@@ -1,0 +1,240 @@
+Log in
+
+ISCA - International Speech
+Communication Association        ISCA Archive
+
+ * Home
+ * About
+    * Newsroom
+       * Latest News
+       * ISCApad
+       * ISCA President's Message
+       * ISCA News issues
+
+    * Objectives
+    * Structure
+       * Overview
+       * Board
+          * Board Members
+          * Previous Board Members
+          * Portfolio of Board Members
+          * Responsibilities of Board Members
+          * Elections
+
+       * Committees
+       * Advisory Council
+       * General Assembly
+       * Staff
+
+    * Legal Documents
+       * Statutes
+          * Statutes 2023
+          * Statutes 2010
+          * Statutes 1999
+          * Statutes 1998
+
+       * By-laws
+          * By-laws 2025-present
+          * By-laws 2023-2025
+          * By-laws 2022-2023
+          * By-laws 2020-2022
+          * By-laws 2018-2020
+          * By-laws 2017-2018
+          * By-laws 2008-2017
+
+    * History
+       * Early Steps
+       * Previous Boards
+       * ISCA Logo
+
+ * ISCA Opportunities
+    * Job Offers
+    * Reviewing
+    * Training
+       * Training Program
+       * SCOOT
+          * Sound
+          * Signal Processing
+          * Linguistics
+             * Psycholinguistics
+             * Phonetics
+                * Articulatory Phonetics
+                * Acoustic Phonetics
+                * Auditory Phonetics
+
+             * Phonology
+
+          * Speech Technology
+             * Speech Coding
+             * Speech Synthesis
+                * Classic Speech Synthesis
+                * Concatenative Synthesis
+                * HMM-based Synthesis
+                * DNN Synthesis
+
+             * Speech Recognition
+                * DTW
+                * HMMs
+                * ANN-ASR
+
+          * Toolkits
+             * ASR Toolkits
+             * Synthesis Toolkits
+
+          * Databases
+          * SCOOT Overview
+          * Prosodics
+
+       * International Virtual Seminars
+
+    * Resources
+       * Conference and workshop archive
+       * Video Archive
+       * Journals
+       * List of Books
+       * List of Databases
+       * List of Software Tools
+
+ * Events
+    * Overview of Events
+    * Interspeech
+       * About Interspeech
+       * Upcoming Interspeech
+       * Past Interspeech Conferences
+       * Organizing Interspeech Conferences
+       * Interspeech Policy
+
+    * Workshops
+       * Upcoming ISCA Workshops
+       * Upcoming Other Events
+       * Organizing Workshops
+
+    * Organizational Ethics
+       * Code of Ethics for Authors
+       * Code of Conduct for Conference and Workshop Attendees
+       * Code of Conduct for Challenge, Special Session, Tutorial and Workshop Organisers
+       * Code of Conduct for Reviewers and Meta-Reviewers
+
+ * Activities
+    * Overview of Activities
+    * Special Interest Groups
+       * Speech Synthesis - SynSig
+          * SynSIG Homepage
+          * SynSIG History
+          * SynSIG Events
+          * SynSIG Resources
+
+       * Audio Visual Speech - AVISA
+       * Under-resourced Languages - SIGUL
+       * Speaker and Language Characterization - SpLC
+       * Speech Prosody - SProSIG
+       * Discourse and Dialogue - SIGdial
+       * Speech and Language Technology in Education - SLaTE
+          * SIG-SLaTE Homepage
+
+       * Machine Learning - SIGML
+       * Speech and Language in Multimedia - SLIM
+       * Speech and Language Processing for Assistive Technologies - SLPAT
+       * The History of Speech Communication Sciences - SIG-HIST
+       * Child Computer Interaction - SIG-CHILD
+       * Robust Speech Processing - SIG-RoSP
+       * Security and Privacy in Speech Communication - SIG-SPSC
+          * Security and Privacy in Speech Communication (SPSC)
+
+       * Spoken Language Translation - SIG-SLT
+       * Chinese Spoken Language Processing - SIG-CSLP
+       * Association Francophone de la Communication Parlée - AFCP
+       * Associazione Italiana di Scienze della Voce - AISV
+       * Iberian Languages - SIG-IL
+       * Russian Speech Analysis - SIGRU
+       * Speech And Language Technology for Minority Languages - SALTMIL
+       * Indian Language Speech Processing - SIG-ILSP
+       * By-Laws on SIGs
+       * Model Constitution for SIGs
+
+    * Outreach
+       * Distinguished Lecturers
+       * Geographical Outreach
+       * Liaisons
+          * Speech Laboratories
+          * Professional Organisations
+          * Corpora Associations
+
+    * Diversity
+       * WomenNSpeech
+       * LGBTQI*
+
+ * Students and Postdocs
+    * Student Advisory Committee
+    * Postdoc & Early Career Researcher Committee
+
+ * Awards
+    * Grants
+       * How to Claim an ISCA Grant
+
+    * Honours
+       * ISCA Medal for Scientific Achievement
+       * ISCA Service Medal
+       * ISCA Awards
+       * ISCA Fellow Program
+       * ISCA Mid-Career
+       * ISCA Honorary Members
+       * ISCA Distinguished Lecturers
+
+ * Join
+    * Membership Benefits
+    * Membership Schemes and Fees
+    * Become a new member - Renew your membership
+    * Member directory
+
+ * Help
+    * Contact Us
+    * FAQ
+    * ISCA Logos
+
+ * Home
+ * Events
+ * Interspeech
+ * Upcoming Interspeech
+
+ * Interspeech 2026
+
+Sydney, Australia, 28 September - 1 October 2026
+Chairs: Beena Ahmed, Felicity Cox, Helen Meng, Michael Proctor, Vidhyasaharan Sethu
+
+Conference website
+ * Interspeech 2027
+
+São Paulo, Brazil, 29 August - 2 September 2027
+Chairs: Plinio A. Barbosa and Sandra Madureira
+
+Conference website
+
+ * Interspeech 2028
+
+San Antonio, Texas, USA, 3 - 8 September 2028
+Chairs: John Hansen, Berrak Sisman, and Carlos Busso
+
+ * Interspeech 2029
+
+Athens, Greece, 16 - 20 September 2029
+Chairs: Yannis Stylianou, Vassilis Katsouros
+
+ * Interspeech 2030
+
+TBD
+
+ * Interspeech 2031
+
+Granada, Spain, 2 - 6 September 2031
+Chairs: Iván López-Espejo, Helena Moniz, Zoraida Callejas
+
+ Organisation         Events           Membership                Help                   *
+ > Board              > Interspeech    > Join - renew            > Sitemap              *
+ > Legal documents    > Workshops      > Membership directory    > Contact
+ > Logos                                                         > FAQ
+                                                                 > Privacy policy
+
+© Copyright 2024 - ISCA International Speech Communication Association - All right reserved.
+
+Powered by Wild Apricot Membership Software

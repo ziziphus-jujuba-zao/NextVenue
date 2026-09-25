@@ -1,0 +1,46 @@
+id: ecc-2027
+series: ecc
+name: ECC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Brussels, country: Belgium, country_code: BE }
+dates: { start: 2027-07-13, end: 2027-07-16 }
+submission_type: full_paper
+submission_evidence:
+  src: ecc-2027-cfp
+  quote: "For the purpose of review only, manuscripts up to eight (8) pages in the standard two-column ECC conference format will be considered."
+  note_zh: 录用后限 6 页，超出部分按页收费，最多再加 2 页。另有 1–2 页的产业摘要通道（截止 2027-01-31）。
+milestones:
+  - type: paper
+    at: 2026-10-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ecc-2027-cfp
+    quote: "Submission deadline for papers and invited papers October 31, 2026"
+    note_zh: 投稿系统（PaperCept）9/1 已开放。官网只给日期、没写时区，按北京时间当天结束算。
+  - type: notification
+    at: 2027-03-05
+    tz: Europe/Brussels
+    status: confirmed
+    src: ecc-2027-cfp
+    quote: "Acceptance/Rejection notification March 5, 2027"
+  - type: camera_ready
+    at: 2027-04-05
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ecc-2027-cfp
+    quote: "Final submissions deadline April 5, 2027"
+    note_zh: 官网只给日期、没写时区，按北京时间当天结束算。
+  - type: conference
+    label_zh: 7/13 为会前 workshop
+    start: 2027-07-13
+    end: 2027-07-16
+    tz: Europe/Brussels
+    status: confirmed
+    src: ecc-2027-home
+    quote: "13 - 16 July, 2027 Brussels | Belgium"
+    note_zh: 会场在鲁汶大学（UCLouvain）Woluwé 校区。CFP 写会前 workshop 在 7/13（“Pre-conference Workshops will be held at the conference venue on Tuesday, July 13, 2027.”）。
+last_checked: 2026-09-25

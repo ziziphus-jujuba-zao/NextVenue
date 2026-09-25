@@ -1,0 +1,67 @@
+# 巴西：中国大陆普通护照赴巴开会。格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。
+# 现行免签只到 2026-12-31。会期在这之后的（ICML 2027、ICRA 2028 等），按届时规定办理；没有延期的话要办访问签证（VIVIS）。
+id: br
+name_zh: 巴西
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: visa_free
+  visa_zh: 免签入境（每个移民年度累计最多 30 天）
+  conditions_zh: 持普通护照，以旅游、商务、过境等目的短期访问，参加会议在内；累计最多 30 天、不可延期。2026-12-31 之后要看巴西届时的规定。
+  until: 2026-12-31
+  conf: high
+  src: visa-br-embassy-beijing
+  quote: "持中华人民共和国有效普通护照的中国公民，可免签入境巴西进行短期访问。"
+apply:
+  - label_zh: 需要签证时：巴西签证中心预约（巴西驻华使馆指定）
+    url: https://visa.vfsglobal.com/chn/en/bra/apply-visa
+fees:
+  - item: visa
+    status: unverified
+    note_zh: 免签期内不需要签证。访问签证（VIVIS）的费用没有找到可核对的官方原文。
+facts:
+  - id: until
+    label_zh: 免签截止
+    text_zh: 免签政策实行到 2026 年 12 月 31 日。
+    src: visa-br-embassy-beijing
+    quote: "该政策实行至2026年12月31日。"
+  - id: stay
+    label_zh: 停留天数
+    text_zh: 免签最长停留 30 天，不可延期；每个移民年度（首次入境起 12 个月）内可多次入境，但累计不超过 30 天。
+    src: visa-br-embassy-beijing
+    quote: "根据该政策，中国公民可免签停留最长30天，不可延期。"
+  - id: conference
+    label_zh: 开会算在内
+    text_zh: 巴西法令把参加会议、研讨会、大会列为访问（旅游、商务）目的的活动。
+    src: visa-br-embassy-beijing
+    quote: "参加会议、研讨会、大会或聚会"
+  - id: over_30_days
+    label_zh: 超过 30 天或其他目的
+    text_zh: 一个移民年度内要停留超过 30 天，或目的不在免签范围内的，要通过签证中心申请签证。
+    src: visa-br-embassy-beijing
+    quote: "若中国公民拟在单个移民年度内在巴西停留超过30（三十）天，或入境目的不属于上述范畴，则须通过签证中心的预约门户网站申请签证"
+  - id: passport_validity
+    label_zh: 护照有效期
+    text_zh: 免签入境要持中国普通护照（不含旅行证），有效期 6 个月以上。
+    src: visa-br-prc-embassy
+    quote: "应持中国普通护照（不包括旅行证），有效期6个月以上。"
+  - id: ten_year_visa
+    label_zh: 十年多次签证
+    text_zh: 中巴两国自 2024-02-19 起互相给商务、旅游、探亲人员颁发最长 10 年、多次入境、每次停留不超过 90 天的签证。
+    src: visa-br-cs-mfa
+    quote: "中巴两国自2024年2月19日起互为以商务、旅游、探亲为目的的对方国家公民颁发有效期最长10年、可多次入境、每次停留不超过90日的签证"
+lead:
+  status: unverified
+  note_zh: 免签期内不需要签证。之后如要办访问签证，办理时间没有找到可核对的官方原文。
+documents:
+  - item_zh: 入境时可能被查验：酒店预订记录、会议或活动邀请函、返程机票
+    src: visa-br-prc-embassy
+    quote: "巴西边检部门可能查验免签入境游客相关证明材料，如酒店预订记录、会议或活动邀请函、返程机票等"
+notices: []
+transit: []
+links:
+  - label_zh: 巴西驻华使馆 · 中国公民赴巴签证新规
+    url: https://www.gov.br/mre/pt-br/embaixada-pequim/setor-consular-2/novas-regras-de-visto-para-nacionais-chineses-4e2d56fd516c6c118d745df47b7e8bc165b089c4
+  - label_zh: 中国驻巴西使馆 · 免签领事提醒
+    url: https://br.china-embassy.gov.cn/lsfw/lqfw10/202605/t20260510_11907939.htm
+note_zh: 经美国、欧洲或中东转机时，还要看转机国的过境规定。以巴西驻华使领馆最新通知为准。

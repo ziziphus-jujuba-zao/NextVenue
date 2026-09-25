@@ -76,3 +76,25 @@ sources:
     http_status: 200
     snapshot: 93d1ade40ae0d51e57a1ca70c3961b77af930335f2599207e45474f127b30f60
     note_zh: OpenReview API 返回的会议主页 JSON，location 字段写 “San Francisco, CA, USA”。
+  - id: iclr-2027-pricing
+    url: https://iclr.cc/Conferences/2027/Pricing
+    title: ICLR 2027 Registration Pricing
+    kind: policy
+    fetched_at: 2026-09-25T10:41:45Z
+    http_status: 200
+    snapshot: babd5985c73fa48bd991d48b6d375dca52d30d02c3e54691198ce32fb56c6314
+    note_zh: '2026-09-25 页面仍是模板：取消截止和早鸟截止显示 "not found"，没有价格；只有拒签退款一段写了 March 17, 2027。'
+  - id: iclr-2027-visa
+    url: https://iclr.cc/Conferences/2027/Visa
+    title: ICLR 2027 Visa Information
+    kind: other
+    fetched_at: 2026-09-25T10:41:46Z
+    http_status: 404
+    note_zh: '2026-09-25 为 404，签证页尚未发布。'
+  - id: iclr-2027-financial-assistance
+    url: https://iclr.cc/Conferences/2027/FinancialAssistance
+    title: ICLR 2027 Financial Assistance
+    kind: other
+    fetched_at: 2026-09-25T10:41:47Z
+    http_status: 404
+    note_zh: '2026-09-25 为 404，资助页尚未发布。'

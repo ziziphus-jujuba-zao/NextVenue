@@ -1,0 +1,21 @@
+id: www-2027/acm-open-apc
+edition: www-2027
+family: registration
+question_zh: 单位不在 ACM Open 里，录用后要付开放获取出版费（APC）吗？
+short_zh: 付 APC 出版费
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: notification
+  until: camera_ready
+summary_zh: 要看单位。所有作者的单位都不在 ACM Open 名单里时，就要付 APC；2027 年有补贴价：ACM/SIG 会员 500 美元，非会员 750 美元。先到 ACM Open 名单里查一下自己和合作者的单位。
+detail_zh: 页面另一句写的是通讯作者要在参与单位（“the corresponding author must be affiliated with a participating institution”），两句的口径不完全一样，拿不准时问主办方。APC 和注册费是两笔钱；2027 年是补贴的最后一年。
+quotes:
+  - src: www-2027-research-cfp
+    text: "For APC-eligible articles, including research papers, short papers, and survey papers, where none of the authors are currently affiliated with a participating institution, an APC will be required."
+  - src: www-2027-research-cfp
+    text: "Authors whose institutions are not yet participating in ACM Open will pay a discounted rate of $500 (ACM/SIG Members) or $750 (Non-Members)."
+  - src: www-2027-research-cfp
+    text: "To be included in ACM Open, the corresponding author must be affiliated with a participating institution."
+last_checked: 2026-09-25

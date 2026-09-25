@@ -1,0 +1,13 @@
+id: egu
+acronym: EGU
+full_name: European Geosciences Union General Assembly
+name_zh: 欧洲地球科学联合会大会
+aliases:
+  - EGU General Assembly
+directions: [earth/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 欧洲地球科学联合会年会，往届都在每年 4 月于维也纳举办
+data_level: curated
+note_zh: 只收摘要，按分会（session）投；线下与线上混合。

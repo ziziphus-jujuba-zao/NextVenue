@@ -1,0 +1,13 @@
+id: esmo
+acronym: ESMO
+full_name: European Society for Medical Oncology Congress
+aliases:
+  - ESMO Congress
+  - ESMO Annual Congress
+directions: [med/oncology]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 9–10 月于欧洲城市轮换举办
+data_level: curated
+note_zh: 欧洲临床肿瘤年会，只收摘要（常规摘要、Trials in Progress，另有晚到摘要 LBA）。录用摘要刊在 Annals of Oncology 增刊。esmo.org 的页面正文由 JavaScript 画出，快照另外收了页面自带的数据（snapshot add --embedded）。

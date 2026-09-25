@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: uist-2027
+sources:
+  - id: uist-2026-home
+    url: https://uist.acm.org/2026/
+    title: UIST 2026 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:32Z
+    http_status: 200
+    snapshot: f9e4d552138e409ab94d4dd2edb63d2353c8a0428dcc87134a4f16f9b197524e
+  - id: uist-2026-cfp
+    url: https://uist.acm.org/2026/cfp/
+    title: UIST 2026 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:22Z
+    http_status: 200
+    snapshot: 8be7f8716861d870f8ef184c35c2c0f10a6757ecd93eaddf75077010f07dfa0d

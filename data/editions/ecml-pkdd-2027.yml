@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ecml-pkdd-2027
+series: ecml-pkdd
+name: ECML-PKDD 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/ECML-PKDD
+  conf_id: ecmlpkdd2027
+  link: https://ecmlpkdd.org/2027/
+  place: Eindhoven, The Netherlands
+  date: September 20-24, 2027
+  timezone: AoE
+location:
+  city: Eindhoven
+  country: The Netherlands
+  country_code: NL
+dates:
+  start: 2027-09-20
+  end: 2027-09-24
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-09-20
+    end: 2027-09-24
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

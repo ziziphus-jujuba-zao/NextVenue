@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: usenix-security-2027
+sources:
+  - id: usenix-security-2027-cfp
+    url: https://www.usenix.org/conference/usenixsecurity27/call-for-papers
+    title: USENIX Security '27 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:45:55Z
+    http_status: 200
+    snapshot: 13a0cdbd8b9d55c8627d9a3fab39770accca7f30a2b1c27f9a453cde1f0889cb
+  - id: usenix-security-2027-home
+    url: https://www.usenix.org/conference/usenixsecurity27
+    title: USENIX Security '27 Home
+    kind: other
+    fetched_at: 2026-09-25T15:45:57Z
+    http_status: 200
+    snapshot: 0dd81bceb5adb79d26ee87aaa3169f5dd8986e0076ffc57c69e8495035fb814c

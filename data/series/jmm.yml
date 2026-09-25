@@ -1,0 +1,13 @@
+id: jmm
+acronym: JMM
+full_name: Joint Mathematics Meetings
+name_zh: 美国数学联合年会
+aliases:
+  - AMS-MAA Joint Mathematics Meetings
+directions: [math/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国数学会（AMS）、美国数学协会（MAA）等联合举办，往届都在每年 1 月初举办
+data_level: curated
+note_zh: 投摘要（专题分会报告、contributed paper、海报），专题分会另走提案。

@@ -1,0 +1,13 @@
+id: ats-conference
+acronym: ATS
+full_name: American Thoracic Society International Conference
+name_zh: 美国胸科学会国际会议
+aliases:
+  - ATS International Conference
+directions: [med/respiratory]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 5 月举办
+data_level: curated
+note_zh: 呼吸、重症和睡眠医学规模最大的年会之一，按摘要投稿。缩写和 IEEE Asian Test Symposium（系列 ats）相同，系列 id 加了后缀。

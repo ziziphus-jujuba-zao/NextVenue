@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icmi-2026
+series: icmi
+name: ICMI 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/ICMI
+  conf_id: icmi26
+  link: https://icmi.acm.org/2026/
+  place: Napoli, Italy
+  date: Oct 5 - 9, 2026
+  timezone: UTC-7
+location:
+  city: Napoli
+  country: Italy
+  country_code: IT
+dates:
+  start: 2026-10-05
+  end: 2026-10-09
+milestones:
+  - type: abstract
+    at: 2026-04-13T23:59
+    tz: UTC-7
+    status: confirmed
+    note_zh: "ccfddl: Paper deadline extended to Apr 23, 23:59 AoE; normalized to UTC-7"
+  - type: paper
+    at: 2026-04-24T04:59
+    tz: UTC-7
+    status: confirmed
+    note_zh: "ccfddl: Paper deadline extended to Apr 23, 23:59 AoE; normalized to UTC-7"
+  - type: conference
+    start: 2026-10-05
+    end: 2026-10-09
+    tz: UTC-7
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,135 @@
+# KDD 2023 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: kdd
+year: 2023
+kind: rates
+precision: chart_read
+track_zh: 研究赛道，按作者自选的主题
+tolerance:
+  count: 1
+  pct: 0.5
+source_url: https://sites.cs.ucsb.edu/~xyan/KDD23-ResearchTrack-Banquet-Talk.pdf
+page_zh: 程序主席幻灯片第 4 页
+quote: Submission & Acceptance By Topics
+src: kdd-2023-research-track-talk
+quote_check: snapshot
+total:
+  label_zh: 研究赛道合计
+  submissions: 1416
+  accepted: 313
+  rate: 22.1
+gap_note_zh: 图上各主题合计 1,147 篇投稿、301 篇录用，比研究赛道总数少，图里没有包括全部论文
+note_zh: 篇数从柱状图上量出；录用率取图上官方画的录用率折线，写「约」
+checked: 2026-09-25
+rows:
+  - area: Graphs and Networks
+    submissions: 161
+    accepted: 46
+    rate: 28.5
+  - area: Spatiotemporal Data
+    submissions: 60
+    accepted: 14
+    rate: 23.6
+  - area: Classification
+    submissions: 59
+    accepted: 14
+    rate: 23.8
+  - area: Recommendation Systems
+    submissions: 74
+    accepted: 14
+    rate: 18.9
+  - area: Text Mining
+    submissions: 37
+    accepted: 13
+    rate: 35.2
+  - area: Few-shot Learning and Transfer Learning
+    submissions: 36
+    accepted: 13
+    rate: 36.1
+  - area: User Modeling, Web and Commerce
+    submissions: 46
+    accepted: 13
+    rate: 28.5
+  - area: Adversarial Learning and Information Security
+    submissions: 38
+    accepted: 13
+    rate: 33.8
+  - area: Anomaly Detection
+    submissions: 43
+    accepted: 12
+    rate: 28.2
+  - area: Federated Learning and Distributed Learning
+    submissions: 43
+    accepted: 12
+    rate: 28.2
+  - area: Causal and Graphical Models
+    submissions: 35
+    accepted: 11
+    rate: 31.2
+  - area: Knowledge and Ontologies
+    submissions: 33
+    accepted: 11
+    rate: 33.4
+  - area: Optimization
+    submissions: 38
+    accepted: 11
+    rate: 29.1
+  - area: Ethics, Fairness and Privacy
+    submissions: 43
+    accepted: 11
+    rate: 25.5
+  - area: Sequences, Time Series and Streaming Data
+    submissions: 55
+    accepted: 9
+    rate: 16.5
+  - area: KDD for Healthcare
+    submissions: 35
+    accepted: 9
+    rate: 25.8
+  - area: Online Learning and Active Learning
+    submissions: 32
+    accepted: 9
+    rate: 28.3
+  - area: KDD for Science and Education
+    submissions: 30
+    accepted: 9
+    rate: 30.1
+  - area: Data Cleaning, Imputation and Integration
+    submissions: 32
+    accepted: 8
+    rate: 25
+  - area: Large-scale, Scalable and Cloud Computing and Systems
+    submissions: 24
+    accepted: 7
+    rate: 29.1
+  - area: Interdisciplinary Applications
+    submissions: 30
+    accepted: 7
+    rate: 23.4
+  - area: Patterns and Motifs
+    submissions: 29
+    accepted: 6
+    rate: 20.5
+  - area: Images and Videos
+    submissions: 22
+    accepted: 6
+    rate: 26.3
+  - area: KDD for Drug Discovery and Development
+    submissions: 16
+    accepted: 5
+    rate: 31.2
+  - area: Reasoning under Uncertainty
+    submissions: 21
+    accepted: 5
+    rate: 24.5
+  - area: Clustering
+    submissions: 40
+    accepted: 5
+    rate: 12.5
+  - area: KDD for Finance
+    submissions: 20
+    accepted: 4
+    rate: 19.9
+  - area: KDD for Security
+    submissions: 15
+    accepted: 4
+    rate: 26.6

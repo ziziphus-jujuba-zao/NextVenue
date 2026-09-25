@@ -1,0 +1,35 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: mobicom-2027
+series: mobicom
+name: MobiCom 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/MobiCom
+  conf_id: mobicom27
+  link: https://www.sigmobile.org/mobicom/2027/
+  place: TBD
+  date: Oct 18-22, 2027
+  timezone: AoE
+dates:
+  start: 2027-10-18
+  end: 2027-10-22
+milestones:
+  - type: abstract
+    at: 2026-08-26T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Summer Deadlines"
+  - type: paper
+    at: 2026-09-02T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Summer Deadlines"
+  - type: conference
+    start: 2027-10-18
+    end: 2027-10-22
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

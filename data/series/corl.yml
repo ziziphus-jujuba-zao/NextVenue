@@ -1,0 +1,11 @@
+id: corl
+acronym: CoRL
+full_name: Conference on Robot Learning
+directions: [cs/robotics, cs/ml, eng/av]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/corl
+ccfddl: AI/CoRL
+data_level: curated

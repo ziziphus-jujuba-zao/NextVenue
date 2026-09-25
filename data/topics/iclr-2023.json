@@ -1,0 +1,225 @@
+{
+ "schema": 1,
+ "edition": "iclr-2023",
+ "series": "iclr",
+ "year": 2023,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 ICLR 2023 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/iclr/iclr2023"
+  ],
+  "retrieved_at": "2026-09-25T09:49:25Z"
+ },
+ "papers_used": 1573,
+ "official_accepted": {
+  "value": 1574,
+  "source_url": "https://media.iclr.cc/Conferences/ICLR2023/ICLR2023-Fact_Sheet.pdf",
+  "quote": "Record number of abstract submissions - 6,381 4,938 submissions 1,574 accepted papers ... 31% acceptance rate",
+  "src": "iclr-2023-fact-sheet",
+  "quote_check": "snapshot"
+ },
+ "coverage": 0.9994,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "rl",
+   "label_zh": "强化学习",
+   "label_en": "Reinforcement learning",
+   "count": 116,
+   "share_pct": 7.4,
+   "examples": [
+    "RPM: Generalizable Multi-Agent Policies for Multi-Agent Reinforcement Learning.",
+    "MoDem: Accelerating Visual Model-Based Reinforcement Learning with Demonstrations.",
+    "Hybrid RL: Using both offline and online data can make RL efficient."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "self_supervised",
+   "label_zh": "自监督 / 对比 / 表征学习",
+   "label_en": "Self-supervised / contrastive / representation learning",
+   "count": 116,
+   "share_pct": 7.4,
+   "examples": [
+    "Contrastive Alignment of Vision to Language Through Parameter-Efficient Transfer Learning.",
+    "MAST: Masked Augmentation Subspace Training for Generalizable Self-Supervised Priors.",
+    "Contrastive Learning Can Find An Optimal Basis For Approximately View-Invariant Functions."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "graph",
+   "label_zh": "图学习 / GNN",
+   "label_en": "Graphs / GNNs",
+   "count": 115,
+   "share_pct": 7.3,
+   "examples": [
+    "Multimodal Analogical Reasoning over Knowledge Graphs.",
+    "A Message Passing Perspective on Learning Dynamics of Contrastive Learning.",
+    "Learning MLPs on Graphs: A Unified View of Effectiveness, Robustness, and Efficiency."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 109,
+   "share_pct": 6.9,
+   "low_precision": true,
+   "examples": [
+    "Neural Architecture Design and Robustness: A Dataset.",
+    "Diversify and Disambiguate: Out-of-Distribution Robustness via Disagreement.",
+    "Learning MLPs on Graphs: A Unified View of Effectiveness, Robustness, and Efficiency."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "theory_optim",
+   "label_zh": "优化与学习理论",
+   "label_en": "Optimisation & learning theory",
+   "count": 91,
+   "share_pct": 5.8,
+   "examples": [
+    "Lower Bounds on the Depth of Integral ReLU Neural Networks via Lattice Polytopes.",
+    "Learning Probabilistic Topological Representations Using Discrete Morse Theory.",
+    "FLIP: A Provable Defense Framework for Backdoor Mitigation in Federated Learning."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 91,
+   "share_pct": 5.8,
+   "examples": [
+    "Sequential Attention for Feature Selection.",
+    "HiViT: A Simpler and More Efficient Design of Hierarchical Vision Transformer.",
+    "Can CNNs Be More Robust Than Transformers?"
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 69,
+   "share_pct": 4.4,
+   "examples": [
+    "MoDem: Accelerating Visual Model-Based Reinforcement Learning with Demonstrations.",
+    "Augmentation with Projection: Towards an Effective and Efficient Data Augmentation Paradigm for Distillation.",
+    "Dataset Pruning: Reducing Training Data by Examining Generalization Influence."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "ood",
+   "label_zh": "分布偏移 / 分布外 / 域适应",
+   "label_en": "Distribution shift / OOD / domain adaptation",
+   "count": 59,
+   "share_pct": 3.8,
+   "examples": [
+    "Surgical Fine-Tuning Improves Adaptation to Distribution Shifts.",
+    "Diversify and Disambiguate: Out-of-Distribution Robustness via Disagreement.",
+    "Pareto Invariant Risk Minimization: Towards Mitigating the Optimization Dilemma in Out-of-Distribution Generalization."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 54,
+   "share_pct": 3.4,
+   "examples": [
+    "Unified Discrete Diffusion for Simultaneous Vision-Language Generation.",
+    "ChiroDiff: Modelling chirographic data with Diffusion Models.",
+    "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 52,
+   "share_pct": 3.3,
+   "examples": [
+    "Stochastic Multi-Person 3D Motion Forecasting.",
+    "Adversarial Training of Self-supervised Monocular Depth Estimation against Physical-World Attacks.",
+    "Equivariant Shape-Conditioned Generation of 3D Molecules for Ligand-Based Drug Design."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 47,
+   "share_pct": 3.0,
+   "examples": [
+    "PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs.",
+    "Edge Guided GANs with Contrastive Learning for Semantic Image Synthesis.",
+    "Bag of Tricks for Unsupervised Text-to-Speech."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "open_world",
+   "label_zh": "零样本 / 小样本 / 开放词表",
+   "label_en": "Zero/few-shot & open-vocabulary",
+   "count": 46,
+   "share_pct": 2.9,
+   "examples": [
+    "Learning Zero-Shot Cooperation with Humans, Assuming Humans Are Biased.",
+    "Hard-Meta-Dataset++: Towards Understanding Few-Shot Performance on Difficult Tasks.",
+    "The Devil is in the Wrongly-classified Samples: Towards Unified Open-set Recognition."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "ai4science",
+   "label_zh": "科学智能（分子/蛋白质/PDE）",
+   "label_en": "AI for science (molecules / proteins / PDEs)",
+   "count": 45,
+   "share_pct": 2.9,
+   "examples": [
+    "Retrieval-based Controllable Molecule Generation.",
+    "Equivariant Shape-Conditioned Generation of 3D Molecules for Ligand-Based Drug Design.",
+    "Equivariant Energy-Guided SDE for Inverse Molecular Design."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 45,
+   "share_pct": 2.9,
+   "examples": [
+    "Automatic Chain of Thought Prompting in Large Language Models.",
+    "Generate rather than Retrieve: Large Language Models are Strong Context Generators.",
+    "Self-Consistency Improves Chain of Thought Reasoning in Language Models."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 44,
+   "share_pct": 2.8,
+   "low_precision": true,
+   "examples": [
+    "Neural Architecture Design and Robustness: A Dataset.",
+    "A Minimalist Dataset for Systematic Generalization of Perception, Syntax, and Semantics.",
+    "Dataset Pruning: Reducing Training Data by Examining Generalization Influence."
+   ]
+  }
+ ]
+}

@@ -1,8 +1,8 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 // Static rules site (v0.0): one page, rendered at build time, no tracking.
 import type { Bundle, BundleEdition, BundleMilestone, BundleRule } from './bundle.ts';
+import { labelText } from '@nextvenue/core';
 
 const ANSWER_ZH: Record<string, string> = {
   required: '必须',
@@ -38,6 +38,8 @@ const FAMILY_ZH: Record<string, string> = {
   llm_policy: 'LLM 使用',
   format: '格式与页数',
   presentation: '注册与现场报告',
+  registration: '注册与费用',
+  refund: '取消与退款',
   resubmission: '重投',
   other: '其他',
 };
@@ -60,6 +62,19 @@ export const MILESTONE_ZH: Record<string, string> = {
   camera_ready: 'Camera-ready 截止',
   author_registration: '作者注册截止',
   conference: '会议举办',
+  site_preference: '会场意向表截止',
+  site_assignment: '会场分配公布',
+  financial_aid: '资助 / 志愿者申请截止',
+  financial_aid_result: '资助结果公布',
+  registration_open: '注册开放',
+  early_registration: '优惠注册截止',
+  standard_registration: '标准价注册截止',
+  visa_letter: '签证邀请函申请',
+  visa_refund_apply_by: '拒签退款：须在此前递签',
+  refund_cutoff: '全额退款截止',
+  visa_refund_request_by: '拒签退款申请截止',
+  presentation_format_final: '报告形式锁定',
+  poster: '海报材料截止',
 };
 
 const esc = (s: string | undefined | null) =>
@@ -147,7 +162,8 @@ function renderEdition(ed: BundleEdition, rules: BundleRule[]): string {
   const meta = [
     ed.location?.city ? `${ed.location.city}${ed.location.country ? `, ${ed.location.country}` : ''}` : '',
     ed.dates ? `${ed.dates.start} → ${ed.dates.end}` : '',
-    ed.ranks?.ccf ? `CCF ${ed.ranks.ccf}${ed.ranks.ccf_edition ? `（第${ed.ranks.ccf_edition}版）` : ''}` : '',
+    ed.labels.map((l) => `${labelText(l)}${l.upstream ? '（ccfddl）' : ''}`).join(' · '),
+    ed.data_level === 'upstream' ? '日期来自 ccfddl，未核对官网' : '',
   ]
     .filter(Boolean)
     .join(' · ');

@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sigops-atc-2026
+series: sigops-atc
+name: SIGOPS ATC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/SIGOPS ATC
+  conf_id: atc2026
+  link: https://sigops.org/s/conferences/atc/2026/index.html
+  place: Hyatt Hotel, Shatin, Hong Kong, China
+  date: November 15-18, 2026
+  timezone: UTC+0
+location:
+  city: Hyatt Hotel
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-15
+  end: 2026-11-18
+milestones:
+  - type: paper
+    at: 2026-06-11T11:59
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2026-11-15
+    end: 2026-11-18
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: 3dv-2027
+series: 3dv
+name: 3DV 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/3DV
+  conf_id: 3dv2027
+  link: https://3dvconf.github.io/2027/
+  place: Thessaloniki, Greece
+  date: April 6-9, 2027
+  timezone: AoE
+location:
+  city: Thessaloniki
+  country: Greece
+  country_code: GR
+dates:
+  start: 2027-04-06
+  end: 2027-04-09
+milestones:
+  - type: abstract
+    at: 2026-08-28T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Abstract registration and paper submission are both due Aug 28; supplementary material is due Sep 2."
+  - type: paper
+    at: 2026-08-28T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Abstract registration and paper submission are both due Aug 28; supplementary material is due Sep 2."
+  - type: conference
+    start: 2027-04-06
+    end: 2027-04-09
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

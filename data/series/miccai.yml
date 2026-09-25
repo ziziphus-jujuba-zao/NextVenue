@@ -1,0 +1,12 @@
+id: miccai
+acronym: MICCAI
+full_name: International Conference on Medical Image Computing and Computer Assisted Intervention
+directions: [cs/cv, med/imaging, eng/bme]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/miccai
+ccfddl: MX/MICCAI
+data_level: curated
+note_zh: 医学影像计算与计算机辅助介入。2027 年奥克兰，2028 年圣保罗（MICCAI 学会公告）。

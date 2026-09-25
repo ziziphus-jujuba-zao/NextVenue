@@ -1,0 +1,31 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: hscc-2027
+sources:
+  - id: hscc-2027-home
+    url: https://hscc-iccps2027.taylortjohnson.com/
+    title: HSCC+ICCPS 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:47:28Z
+    http_status: 200
+    snapshot: f5c825def14290642b980a22aec54961e540518d83bdd5fc47456bcb53971060
+  - id: hscc-2027-dates
+    url: https://hscc-iccps2027.taylortjohnson.com/dates/
+    title: HSCC+ICCPS 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:47:29Z
+    http_status: 200
+    snapshot: b1412cac3a9ecf12c5b7f66f3773b60dd9798cfe33370c2ff06d0268832b1375
+  - id: hscc-2027-cfp
+    url: https://hscc-iccps2027.taylortjohnson.com/call-for-papers/
+    title: HSCC+ICCPS 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:29Z
+    http_status: 200
+    snapshot: 1e420027db363906b698712967b8ea985ba263a9f34d0e2a2c37afca774e6e53
+  - id: cps-iot-week-2027-home
+    url: https://cps-iot-week-2027.sigbed.org/
+    title: CPS-IoT Week 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:47:30Z
+    http_status: 200
+    snapshot: d7ec61508f67aa2ccba4f29e3da9dc3b051cd9331973ecacd02eb5e9b4d9e64c

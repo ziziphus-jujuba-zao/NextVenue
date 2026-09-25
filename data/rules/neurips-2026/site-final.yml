@@ -1,0 +1,29 @@
+id: neurips-2026/site-final
+edition: neurips-2026
+family: presentation
+question_zh: 会场分配结果出来后，还能换会场或换报告人吗？
+short_zh: 分配后换会场或报告人
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: site_assignment
+  until: conference
+  note_zh: 会场意向表截止前还能改意向和指定报告作者
+summary_zh: 不能。主办方按会场意向表给每篇论文分配报告会场，分配结束后报告人和会场都不能再改；会场满员时随机分配，不保证第一志愿。指定报告作者在分配到的会场有保留名额；已经注册了别的会场的，要先取消（全额退款截止前可全退），再注册分配到的会场。
+detail_zh: 申请了资助的，资助申请截止后所选会场也不能再改，拿到的资助不能换到别的会场。
+quotes:
+  - src: neurips-2026-blog-multisite
+    text: "Please note that due to the massive scale and operational complexity of NeurIPS, no changes to the presenting author or poster location will be permitted once allocations are finalized."
+  - src: neurips-2026-blog-multisite
+    text: "If a site reaches capacity, the available slots will be allocated with a randomized process that takes necessity and preference into account; therefore, top-choice locations cannot be guaranteed."
+  - src: neurips-2026-blog-multisite
+    text: "The designated presenting author will receive guaranteed registration tied exclusively to their allocated poster site."
+  - src: neurips-2026-blog-multisite
+    text: "If the designated author has registered already for a different location than the one designated for their paper, they will have to cancel their registration (and receive a full refund until the deadline of Nov. 4) and register to the designated location (they will have a guaranteed spot)."
+  - src: neurips-2026-financial-assistance
+    text: "YOUR LOCATION SELECTIONS ARE FINAL AFTER THE APPLICATION DEADLINE."
+effect:
+  kind: lock
+  target: presenting_site
+last_checked: 2026-09-25

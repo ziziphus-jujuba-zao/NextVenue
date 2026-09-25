@@ -1,0 +1,96 @@
+PLDI 2027
+Sat 5 - Fri 11 June 2027 Atlanta, Georgia, United States
+Toggle navigation
+ * Attending
+   * Venue: Hyatt Regency Atlanta
+   * Lodging
+   * Travel Information
+   * Sponsorship
+ * Track/Call
+ * Organization
+    * PLDI 2027 Committees
+    * AV Committee
+    * Organizing Committee
+    * Track Committees
+    * PLDI Review Committee
+    * Contributors
+    * People Index
+ * Search
+ * Series
+   * Series
+   *
+   * PLDI 2027
+   * PLDI 2026
+   * PLDI 2025
+   * PLDI 2024
+   * PLDI 2023
+   * PLDI 2022
+   * PLDI 2021
+   * PLDI 2020
+   * PLDI 2019
+   * PLDI 2018
+   * PLDI 2017
+   * PLDI 2016
+   * PLDI 2015
+
+ * Sign in
+ * Sign up
+
+ 1.
+
+Photo by AtlChampion
+
+Atlanta, Georgia, USA
+
+Midtown and Downtown Atlanta
+
+PLDI 2027
+
+Welcome to the home page of the 48th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2027)!
+
+PLDI is the premier forum in the field of programming languages and programming systems research, covering the areas of design, implementation, theory, applications, and performance.
+
+PLDI 2027 will be held at the Hyatt Regency Atlanta in Atlanta, Georgia, USA, from June 5–11, 2027.
+
+PLDI 2027 is part of the Federated Computing Research Conference (FCRC), a week-long event that will bring together PLDI, ISCA, PADS, STOC, SPAA, SIGMETRICS, and other conferences and workshops.
+
+PLDI 2027 Tracks
+PLDI Research Papers
+Important Datesup till Thu 15 Apr 2027
+
+Thu 12 Nov 2026
+PLDI Research Papers Submission deadline
+Tue 16 - Thu 18 Feb 2027
+PLDI Research Papers Author response period
+Thu 4 Mar 2027
+PLDI Research Papers Author notification
+Tue 23 Mar 2027
+PLDI Research Papers Revision deadline
+Thu 1 Apr 2027
+PLDI Research Papers Final acceptance notification
+Thu 15 Apr 2027
+PLDI Research Papers Camera-ready deadline
+All important dates
+
+xFri 25 Sep 17:47
+
+PLDI 2027
+
+contact form
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+PLDI Research Papers
+
+Attending
+
+Venue: Hyatt Regency Atlanta
+Lodging
+Travel Information
+Sponsor PLDI
+Sign Up

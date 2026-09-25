@@ -1,0 +1,14 @@
+id: ecs
+acronym: ECS
+full_name: Meeting of The Electrochemical Society
+name_zh: 电化学学会年会
+aliases:
+  - ECS Meeting
+  - ECS Biannual Meeting
+directions: [chem/electrochem, chem/materials]
+periodicity:
+  cycle: twice_yearly
+  basis: observed
+  note_zh: 按往届举办时间：每年春季（5–6 月）、秋季（10 月）各一届，按届次编号（2027 年春季是第 251 届）
+data_level: curated
+note_zh: 电化学、电池、燃料电池、固态和半导体科学的学会大会，每届 2,000 多个报告。投稿是 750 词以内的摘要，会后可以另投 ECS Transactions 论文。

@@ -1,0 +1,501 @@
+APPROVED
+
+May 17, 2024 |
+RAS AdCom WebEx Meeting - ICRA 2024 Yokohama
+Attendees:
+1. Meeting Called to Order, and Welcome (P Wensing)
+2. Roll Call and Review of Consent Agenda (P Wensing)
+Attendees:
+● 18 Elected Members (Voting Members)
+Class of 2026: Greg Dudek, Barbara Mazzolai, Tetsuya Ogata, Marcia O’Malley,
+Yu Sun, Michael Wang
+Class of 2025: Alin Albu-Schaeffer, Sabine Hauert, Yasuhisa Hirata, Lydia
+Kavraki, Eiichi Yoshida, Hong Zhang
+Class of 2024: Arash Ajoudani, Fumihito Arai, Allison Okamura, Karinne
+Ramirez Amaro, Inna Sharf, Kenji Suzuki
+● 5 Society Officers (Voting Members): Aude Billard, Frank Park, Patrick Wensing,
+Tony Maciejewski, Nancy Amato, Enrica Tricomi
+● 10 Non Voting Members: Darwin Caldwell, Jing Xiao, Andra Keay, Katja Mombaur,
+Bram Vanderborght, Kyujin Cho, Ludovic Righetti, Chad Jenkins, Jen Jen Chung, Seth
+Hutchinson, Helen Wang, Terence Martinez
+● RAS Staff and Guests: Lukrecija Lelong, Kathryn Harrison, Amy Reeder, Kyung Mi
+Bae, Grace Zhao, Nick Milton, Patrick Hanna, Zhidong Wang, Yasuhisa Hasegawa,
+Hugo Rodrigue, Hiromi Mochiyama, Daniel Leidner, Eduardo Bayro-Corrochano,
+Abderrahmane Kheddar, Jasmine Park, Gaurav Sukhatme, Nicholas Roy
+3. Approval of Agenda (Including Consent Agenda and Standing Orders) (P
+Wensing) [Full agenda at: https://agd.ieee.org/mpt/Agenda.aspx?eid=18811]
+Included:
+● Approval of Past Minutes: 25 March 2024
+● Approval of Clarifying Edits to IROS 2023 Bylaws Updates
+● Approval of "The Peter Luh Memorial Best Paper Award for Young Researcher"
+● MSB Financial Motions (3 motions, $50K, $20K, $20K)
+● Budget to Support local organizers’ DEI events at the RAS sponsored
+conferences ($15K)
+● Financial Motion - MAB Events Amendment ($20K)
+● Scholars at Risk Membership ($5K)
+● Budget to Support Travel costs of YP chair to attend major RAS sponsored
+conferences ($12K)
+
+4. State of Society (A Billard)
+● See PDF slides for full presentation details
+● Presented high-level RAS growth and financial status
+● Presented plans for next AdCom in July 2024, and at ICRA@40
+● Gave follow-ups on Reviews/Reviewers (see slides for details)
+● Gave follow-ups on Sustainability (see slides for details)
+5. ICRA 2024 Wrap up (Z Wang)
+● Gave ICRA 2024 Statistics
+○ 3937 submissions
+○ 2337 papers in 285 sessions
+○ Accepted conference papers: 1760 papers (acceptance rate is 44.7%)
+○ RAS journal: 577
+○ Workshops: 73, Tutorials: 6 [146 proposals]
+○ Late breaking results posters: 226 [243 submissions]
+○ Participants (On-site: 6821, Online: 343)
+● Discussed EXPO (80 robots), Exhibits (120 booths), and competitions (11)
+● Lessons Learned
+○ A large number of RA-L papers were withdrawn at the last-minute
+○ VISA support important (1300 people supported)
+○ Raise last-minute registration fee
+○ Special Workshops really active
+● Interim Finances: $5.8 million revenue, with targeted surplus of $353,598
+6. ICRA 2028 ICRA 2028 Proposal Introduction (M. O’Malley)
+● Discussed rules of the presentation process for competing bids
+7. ICRA 2028 Proposal Guadalajara, Mexico (E Bayro-Corrochano)
+● See slides for presentation details
+● Questions and Discussion:
+○ Discussed capacity in terms of rooms and attendees per room
+○ Discussed neeed for a theme of the conference
+○ Discussed how to host 2,000 presentations in a limited time
+■ Similar to template of ICRA 2024
+○ Discussed how to handle participant numbers >= 10,000?
+■ The expo has done 10,000 people before, largest event had
+12,000 people
+8. ICRA 2028 Proposal Anaheim, CA (G Sukhatme)
+● See slides for presentation details
+● Questions and Discussion
+○ Date scheduled for late April, how to adapt the Review schedule?
+■ First proposed early April, can work the review process by that
+deadline
+
+○
+
+○
+
+Discussed student lunch beyond current lunch with leaders
+■ Weave in industry leaders
+■ Show more diverse career paths for students
+■ Hope recruiters will lead students at the lunches
+Discussed the cost of the Exhibitor Industrial Program
+
+9. ICRA 2028 - Evaluation and Vote - Executive Session (M O’Malley)
+● Guadalajara was selected for ICRA 2028
+10. AdCom / ExCom Photo
+11. Break
+12. FAB Report (J Xiao /T Maciejewski)
+● See slides for full presentation details
+● RAS Budget 2023 Summary
+○ Not including investment gain/loss
+■ Revenue from products: $17 mil
+■ Expense: $14 mill
+■ Net: $2.8 million
+○ 50% net surplus is $1.43 million
+■ Can be used for new initiatives in 2024
+● 2024 RAS budget including expected (predicted) surplus
+○ $1.3 million expected surplus
+● Discussed VP budgeting practices for upcoming year
+○ Individual travel reimbursements for board members other than ExCom
+and AdCom members via discretionary spending
+○ No motions for 3 or 4 years
+● New IEEE budgeting Policy for 2025
+○ No spending previous-years operational surplus for 2025
+○ IEEE working on new budgeting process for 2026 and beyond
+○ Planned initiatives result in a net deficit, that deficit cannot exceed 1% of
+reserve balance (would be ~$260K for 2023)
+● Questions and Discussion:
+○ Regrading new budgeting procedures: discussed if previous motions are
+then effectively all gone
+■ Clarified that the intent is for a list of activities in 2025 and list of
+costs, compared to last year
+○ Discussed measures to reduce surplus
+■ Disucssed if it’s good to increase the budget for activities or limit
+activities / revenue
+13. PAB Report (B Vanderborght)
+● See slides for full presentation details
+
+●
+●
+●
+
+●
+●
+●
+●
+
+Presented impact factors, acceptance rates, and publication times for RA-L,
+T-ASE, T-Ro, etc.
+Gave update on new journals IEEE RAP and IEEE T-FR
+Raised possibility of Transactions on Robot (& Automation) Learning
+○ Gauged AdCom’s enthusiasm: Concerns were raised regarding the
+impact on T-Ro and RA-L
+Raised possibility of Soft robotics & Materials journal
+Presented progress on Open Review and Generative AI Guidelines
+Presented budget: Some budget toward goal of making RAM compete with
+Science Robotics
+Questions and discussion
+○ Discussed if there were other robotics journals that didn’t have a publisher
+“home” that RAS could support.
+
+14. CAB Report (D Caldwell)
+● See slides for full presentation details
+● IROS MoU
+○ MoU signed for 2024-2025
+○ Sponsoring Societies: RAS 35%, RSJ 35%, IES 15%, SICE 15%
+● Gave update on data collection for IEEE dispute resolution
+● Gave plans on updated IROS Conference governance
+● Presented stumbling blocks related to IROS governance
+● ICRA@40: CAB passed motion to provide support
+● Raised topics for AdCom feedback
+● Questions and discussion:
+○ Discussed competitions attenance
+○ Discussed plans for documenting ICRA best practices
+15. MSB Report (L Righetti)
+● Presented actions on setting up social media committee for social media strategy
+● Partnering with Spectrum for video capture at ICRA
+● Budgeted up to $100k for website redesign - survey related to re-design is out
+● Looking into providing science communication training
+● Professional copy-writing/graphics design
+○ Several committees have noted the need for this.
+● RAS Google share drive now available
+● Questions and Discussion:
+○ Questions raised whether the science communication for robotics is
+different than science communication training provided at universities.
+Discussed the benefits (to our members and the public) of providing the
+training regardless.
+16. AdCom Discussion
+● Discussed how to reduce surplus
+
+○
+
+●
+●
+●
+●
+
+Conference Surplus: steering committee to adjust instructions to
+conference organizers
+○ Discussed overlength page fees
+■ May be difficult to reduce Overlength page fees as it may be
+coming directly from IEEE Publications
+■ May be needed because each journal has a page budget
+○ Do we want to reduce the budget or increase spending?
+■ Suggestion to expand TAB budget
+■ Suggestion to give conference organizers more startup funds
+■ Suggest to re-invest into more RAS staff or more conference
+organizing staff
+Discussed the possibility of a Science and Technology watch board
+Discussed inclusion of MCE in other conferences for easier support for RAS
+events and activities at those conferences
+Discussed a need to restructure workshops
+Substantial discussion on possibility of new journals
+○ Suggestion to limit proposals to one at a time to prevent some from being
+rejected due to quantity
+○ Suggestion to think about instances where we can stand up journals in
+place of conference proceedings
+○ Sentiment raised that if we don’t create journals on timely topics, other big
+companies will, and that won’t serve our members
+○ Positives raised regarding having specialized journals for subcommunities
+○ Suggestion to partner with other societies (e.g., materials)
+○ Summary: need to clarify is there a need for the journals, more SWOT
+analysis, see finances, will give feedback in later discussion
+
+17. Lunch
+18. IAB Report (A Keay)
+● See slides for full presentation detail
+● Discussed IERA Award (shared with IFR)
+● Pitched idea of IAB Advisory Board
+● Presented Board finances
+● Frequested AdCom feedback
+○ There is a desire for IAB activities at other conferences
+○ Asked for feedback on what factors for broadened industry participation
+are most important
+19. MAB Report (K Mombaur)
+● See slides for full presentation detail
+● Discussed status of IDEAS, Member Support Program, and Support Program to
+foster Academic Relationships and eXchange (SPARX)
+● Topics for AdCom Feedback (QR code to Google form)
+
+●
+●
+
+○ Input on how to implement programs in conferences
+○ Feedback on IDEAS program
+○ Proposals for additional services
+2024: $1.9 million budget: Optimistic that they can spend everything by EOY
+Questions and Discussion:
+○ Sentiment raised that IDEAS program should be expanded
+○ Sentiment raised that we should increase budget for successful program
+that already exist
+
+20. TAB Report (K Cho)
+● See slides for full presentation detail
+● Discussed TABXSAC Dinner, student reps, and ICRA 2024 Welcome Kits
+● TAB Lunch (2nd) outcomes:
+○ TC co chairs voted to boycott endorsement letters
+○ Triennial Review: Now report based - asking to submit specific data
+○ Cluster Chair Solicitation of Robots for Unstructured Environments
+● New TC Proposals
+● Discussed TAB TC Activities Review
+● Discussed budget process for TCs
+● Topics for AdCom Feedback
+○ Discussed TC role in workshops
+■ Discussed using TC chairs to help review and make decisions
+■ Discussed TAB organizing workshops directly
+21. EAB Report (C Jenkins)
+● See slides for full presentation detail
+● Presented 3 main programs
+○ Technical Education Program
+○ Robotics History Project
+○ RAS University (RAS U)
+● Budget: Spending will ramp up throughout the year as the board gets started
+● Discussion
+○ Raised opportunity for board to provide education for younger students
+■ Need an AVP to help with such activities
+○ Noted that Member Services Committee is also excited about the
+Robotics History Project
+22. Governance Updates (P Wensing / J Chung)
+●
+●
+
+See slides for full presentation details
+Policies and procedures last updated in Sept 2016
+○ Target: Updated copy for vote at ICRA@40
+○ Focus on AdHoc Committees, financial process, awards, board
+assignments
+
+●
+●
+
+●
+
+Discussed plans to incorporate formal DEI position in MAB
+CESAR AdHoc Committee:
+○ Active for over 3 years
+○ It’s a great connection point, so would like to transition this to a standing
+committee under the president
+○ Discussion
+■ Discussed outcomes of committee over past 3 years
+■ Discussed intentional work at icra
+■ Discussed that committee doesn’t have oversight or authority but
+come in as needed to promote
+Motion: To transition the Ad Hoc Committee to Explore Synergies in Automation
+and Robotics (CESAR) to a standing committee under the president
+Motion passes
+
+23. Awards Committe (S Hutchinson)
+● Seth presented current and past President’s pins to Aude and Frank
+24. Break
+25. ICRA@40 Updates (F Park)
+● See slides for full presentation details
+● Purpose of ICRA 40 is to celebrate RAS 40th birthday
+● Detailed program and events created by Tamim Asfour and Stefano Stramagioli
+● Challenges: Perception is that it is just another conference but it is celebration
+● Conclusion
+○ Organization is challenge but under control
+○ Any advertisement help is welcome to assist with capacity
+○ Any help with involving industry is welcome
+● Discussion
+○ Concerns raised from a sustainability aspect in terms of this additional
+event
+■ Emphasis placed on the robotics history project, recording talks
+and discussions
+■ Discussed Intellectual sustainability - we should document the
+idas of the past and the present that will shape the future
+○ Discussed the use of surplus to bring younger members to the celebration
+and to advance DEI
+○ Discussed the submission procedure and format
+○ Concern raised that we need PR assistance if we have so much surplus
+and are having this celebration
+26. Long Range Planning Committee (N Amato)
+● See slides for full presentation details
+● Discussed historical past in RAS
+
+○
+○
+
+●
+
+●
+●
+
+Emergency operations last several years
+10+ years had great ideas and finances, but not enough staff to execute
+ideas
+RAS is (finally) positioned to plan for the future
+○ Scaling challenges- stressed publications models, conference
+growth/hybrid options (not everyone can travel, sustainability issues)
+○ Opportunities because of interest in Gen AI, learning
+○ Execute ideas that are in initial stages and evolving
+■ RAS U, career services, DEI
+Proposed Goal: RAS should be Career Services Central for Roboticists
+More Topics
+○ Geographic diversity done well
+○ How to make gender and other aspects as routine
+■ Awards, invited speakers, RAS leadership
+○ Consideration of Ethical and Social Implications
+○ Expansion of RAS topics (AI, learning), alone or partnering
+○ Sustainable Conferences
+
+●
+
+Discussion on Stressed Conference Publication Model
+○ Many agree that current practice is not sustainable and cannot scale
+more
+○ Disucssion about how RA-L to conference became more complicated
+when multiple journals wante dot part of the journal->conference model
+
+●
+
+Stressed Conference Publication Model: Options
+○ Status Quo: ICRA CEB, IROS CEB, CASE CEB, etc.
+■ Pros: familiar
+■ Cons: poor review quality, overload, hard to manage
+○ Abstract Only Conferences (AdCom in January 2024)- no published
+papers with conferences
+■ Pros: fewer papers, fewer reviewers, higher quality papers
+■ Cons: fewer papers, fewer opportunities for people to publish,
+RA-L /T-RO as only option makes bar too high for students
+(conferences good training for students), challenge to justify
+attending conference/funding
+○ New Journal- (RA-L Conference, RAS Proceedings, …) No
+review/resubmit cycle, higher bar
+■ Pros: All papers are journal papers, one review board for multiple
+conferences (special issue for each?) fewer papers reviewed in
+total (no evolutionary option)
+■ Cons: no evolutionary publication option
+○ Discussion:
+■ Noted that the root cause of the issues is that we are growing
+
+■
+
+●
+
+Some disagreement with critiques against the status quo, unsure if
+proposals here addresses all the points causing stress
+● Discussed mostly reviewer recruiting issues and how
+OpenReview my address some of those
+■ Some discussion about abstract-only conferences, but then
+critiques raised about the high bar for direct journal submission
+(e.g., for student training)
+■ Multiple concerns raised that abstract only will lower impact
+factors, which has negative effect on junior members.
+■ Point raised that reviewing conference papers provides training for
+later reviwering journal papers.
+Need community feedback, year away from decision
+
+27. AdCom Discussion Topics
+● Motion from the floor: (J Xiao)
+Motion: To nullify, effective in 2025, the following past financial motions
+(2024-Jan-2, 2023-Jun-1, 2022-Oct-5, 2022-S-May-8, 2021-S-4, 2021-S-3,
+2015-S-7, 2014-F-4, 2014-S-9.9, 2011-S-04) pertaining to travel-related board
+spending.
+Expenses previously covered under these motions are now to be covered via the
+yearly budgets for the RAS Boards. Individual travel reimbursements for board
+members other than ExCom and AdCom members via discretionary spending
+may include travel, conference registration, and lodging for the nights before and
+after required meetings, not to exceed $3,000 in total.
+Discussion:
+○ Discussed whether the reimbursement amount level should match
+AdCom reimbursement. Concern was raised that $3K isn’t enough to
+support international travel.
+○ Clarified that with the current proposed motion, you are only eligible for
+reimbursement for night before and after
+○ Question raised as to why the motion matters if all motions are canceled
+EOY as part of the new budget model.
+Motion withdrawn
+●
+
+Motion from the floor: (P Wensing)
+Motion: remove page charges, effective Aug 1, 2024 for all RAS fully
+sponsored conferences and journals, pending administrative clearance form
+IEEE
+Discussion
+
+■
+■
+■
+■
+
+■
+■
+■
+■
+■
+■
+■
+
+Discussed how extra page charges help make manuscripts shorter.
+Discussed how setting page limits accomplishes the same.
+Discussed how any publication can impose their own page limit.
+Suggestion was raised to move this issue to PAB
+Noted that historically told we should not get rid of page charges because
+it is the only way to make money, but now we have the finances to get rid
+of them..
+Concern raised that this change could lead to bankruptcy.
+Concern raised that IEEE may not allow this chance.
+Multiple suggested/agreed to instead lower the page fees, since this
+would be a drastic change. Analyze more before deciding
+Concern raised that shorter papers are better.
+Concern raised that this would increase reviewer workload
+Administrative note that IEEE pays for the pages no matter what, so this
+would need our journals to have page limits.
+Motion: Lay the main motion on the table.
+Motion passes - The main motion is on the table for further consideration
+at July 2024 AdCom Meeting.
+
+●
+
+Discussion: Workshop Style at ICRA
+○ Proposal: one half-day workshop on last day to avoid low attendance
+○ Discussed need to consolidate workshops with similar topics
+■ Verdict: make a list of pros and cons for routes toward improving
+workshops
+
+●
+
+Discussion: Membership Program
+○ Discussed having two pillars
+■ Fee reduction to everyone
+■ Travel support program
+○ Open Review - working on conference payment system
+
+●
+
+Pitch: Science and Technology Watch Board
+○ Long Range Planning Committee should be reviewing trends of science
+and technology and recommending changes
+■ Not spending time looking at progress in science and technology
+at our conferences
+○ Proposal: Create board composed of 10 faculty members distributed
+across main scientific areas
+■ Follow RAS publications and technical sessions at ICRA
+■ Identify trends
+■ Spot areas that need attention
+■ Advise CAB on selection of themes
+■ Identify areas with high TRL and liaise with IAV
+■ Single out promising young scholars for individual awards
+
+○
+
+Discussion:
+■ Concern raised that 10 people isn’t enough
+■ There is an opportunity to collaborate with EAB and TAB
+■ There was feedback that the members sould be from industry too
+■ Suggestion that travel support be provided to these members
+
+28. New Business
+No new business raised
+29. Announcement: Next in person Adcom Meeting: 27 September 2024, Rotterdam,
+Netherlands
+30. Meeting Adjourned
+
+

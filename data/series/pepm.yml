@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: pepm
+acronym: PEPM
+full_name: ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation
+directions:
+  - cs/se
+dblp: conf/pepm
+ccfddl: SE/PEPM
+data_level: upstream

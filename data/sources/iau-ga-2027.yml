@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iau-ga-2027
+sources:
+  - id: iau-ga-2027-home
+    url: https://iaurome2027.org/
+    title: IAU General Assembly 2027 Rome
+    kind: other
+    fetched_at: 2026-09-25T16:02:40Z
+    http_status: 200
+    snapshot: 90595abb5e37b31b2516a198867efdd9f2ce209be9a57ec7bcc37094efef39c5

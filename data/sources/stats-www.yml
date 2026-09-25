@@ -1,0 +1,37 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-www
+sources:
+  - id: www-2020-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3366423
+    mirror_url: https://web.archive.org/web/20220516091421id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3366423
+    title: The Web Conference 2020 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:16:32Z
+    http_status: 200
+    snapshot: d8292e3f0da22955a753572bab8c10967df6d3decc80bf23a4ff6573b71c1ca2
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: www-2021-sigir-forum-report
+    url: https://sigir.org/wp-content/uploads/2021/09/p13.pdf
+    title: Report on the 30th The Web Conference 2021 (SIGIR Forum 55(1))
+    kind: other
+    fetched_at: 2026-09-25T13:16:34Z
+    http_status: 200
+    snapshot: 8489af84231062a5274841894c67fce6c87ecaf3ffad40e56beced6277aa16b0
+  - id: www-2023-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3543507
+    mirror_url: https://web.archive.org/web/20240417154638id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3543507
+    title: The Web Conference 2023 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:16:39Z
+    http_status: 200
+    snapshot: 7e2e012bff5d532e4b5c3a479255fc9fe76f768ce149ab1a5b33b7dca7a48c7b
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: www-2024-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3589334
+    mirror_url: https://web.archive.org/web/20240606141727id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3589334
+    title: The Web Conference 2024 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:16:43Z
+    http_status: 200
+    snapshot: 555667eeab5c0bb14984cba4414d2bb6a41cc704847c2210b678a7db8f3587e1
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。

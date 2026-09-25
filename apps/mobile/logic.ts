@@ -1,10 +1,10 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 // Pure logic for the mobile app: time formatting, relative time, which
 // milestone comes next, and how rules attach to milestones. No DOM here, so
 // it can be unit-tested.
 
+import { POST_ACCEPT_ONLY } from '../../packages/core/src/types.ts';
 import type { AppEdition, AppMilestone, AppRule, Answer, ResolvedTime } from './types.ts';
 
 // ---------- words ----------
@@ -47,7 +47,63 @@ export const MILESTONE_ZH: Record<string, string> = {
   camera_ready: '终稿截止',
   author_registration: '作者注册截止',
   conference: '会议举办',
+  // After acceptance (MOBILE_SPEC §10); only accepted papers' checklists show these.
+  site_preference: '会场意向表截止',
+  site_assignment: '会场分配公布',
+  financial_aid: '资助申请截止',
+  financial_aid_result: '资助结果公布',
+  registration_open: '注册开放',
+  early_registration: '优惠注册截止',
+  standard_registration: '标准价注册截止',
+  visa_letter: '邀请函申请',
+  visa_refund_apply_by: '拒签退款：递签截止',
+  refund_cutoff: '全额退款截止',
+  visa_refund_request_by: '拒签退款申请截止',
+  presentation_format_final: '报告形式锁定',
+  poster: '海报截止',
 };
+
+/** Only an accepted paper's checklist shows these; 下一步, venue cards and "全部" leave them out (MOBILE_SPEC §10). */
+export const isPostAcceptOnly = (m: { type: string }) => POST_ACCEPT_ONLY.has(m.type as never);
+
+/** Only an abstract is submitted (AACR, SfN, EGU): submission_type abstract. */
+export const isAbstractOnly = (ed: Pick<AppEdition, 'submission_type'>) => ed.submission_type === 'abstract';
+
+/**
+ * The way in is an abstract deadline: an abstract-only meeting, or an
+ * edition whose data holds abstract deadlines and no paper deadline at all
+ * (ADA 2027: regular and late-breaking abstracts; the type is not written
+ * without a quote that says so). The first abstract deadline is its entry.
+ */
+export const isAbstractEntry = (ed: Pick<AppEdition, 'submission_type' | 'milestones'>) =>
+  isAbstractOnly(ed) || (!ed.milestones.some((m) => m.type === 'paper' || m.type === 'paper_registration') && ed.milestones.some((m) => m.type === 'abstract'));
+
+/**
+ * A second call for abstracts at an abstract-only meeting (AACR's and
+ * ESMO's late-breaking abstracts, ECR's Late Breaking): only new results of
+ * note may come in, so it is never a deadline to submit to (§12.3). It is
+ * listed on the timeline and the phase list, and nowhere else: not in 下一步,
+ * 全部, the venue list or a route.
+ */
+export function isLateAbstract(ed: Pick<AppEdition, 'submission_type' | 'milestones'>, m: AppMilestone): boolean {
+  if (!isAbstractEntry(ed) || m.type !== 'abstract') return false;
+  const when = (x: AppMilestone) => {
+    const t = x.status === 'tba' ? undefined : (x.at_resolved ?? x.end_resolved ?? x.start_resolved);
+    return t ? Date.parse(t.utc) : Number.POSITIVE_INFINITY;
+  };
+  const first = ed.milestones.filter((x) => x.type === 'abstract').sort((a, b) => when(a) - when(b))[0];
+  return !!first && first !== m;
+}
+
+/**
+ * Whether the lists show a milestone before acceptance. Post-acceptance
+ * steps stay on the accepted paper's checklist, except the early
+ * registration of an abstract-only meeting: everyone who goes registers,
+ * with or without an abstract, so it is one of its four key dates (摘要截止,
+ * 摘要结果, 优惠注册截止, 会议举办).
+ */
+export const shownBeforeAccept = (ed: Pick<AppEdition, 'submission_type'>, m: { type: string }) =>
+  !isPostAcceptOnly(m) || (isAbstractOnly(ed) && m.type === 'early_registration');
 
 /** Milestones where the author has to act; the Today card prefers these over announcements. */
 export const ACTION_TYPES = new Set([
@@ -63,6 +119,8 @@ export const ACTION_TYPES = new Set([
   'commitment',
   'camera_ready',
   'author_registration',
+  // Listed only for abstract-only meetings (shownBeforeAccept): registering is something to do.
+  'early_registration',
 ]);
 
 export interface Topic {
@@ -77,7 +135,8 @@ export const TOPICS: Topic[] = [
   { id: 'review', name: '审稿与回复', families: ['reciprocal_reviewing', 'rebuttal'] },
   { id: 'withdraw', name: '撤稿与多投', families: ['withdrawal', 'dual_submission', 'visibility', 'resubmission'] },
   { id: 'llm', name: 'LLM', families: ['llm_policy'] },
-  { id: 'other', name: '其他', families: ['presentation', 'submission', 'other'] },
+  { id: 'after', name: '录用后', families: ['presentation', 'registration', 'refund'] },
+  { id: 'other', name: '其他', families: ['submission', 'other'] },
 ];
 
 export function topicOf(family: string): Topic {
@@ -147,23 +206,32 @@ export function fmtDay(t: ResolvedTime, now?: number): string {
   return dayText(shownDate(t), now);
 }
 
-/** "11/5–11/18"; a year is named once: "2027/12/6–12/12". */
+/**
+ * "11/5–11/18"; a year is named once, at the start, when either end needs it
+ * ("2027/7/19–7/23", not "7/19–2027/7/23"); across a new year both ends carry it.
+ */
 function dayRange(s: ResolvedTime, e: ResolvedTime, now?: number): string {
-  const a = fmtDay(s, now);
-  const same = shownDate(s).slice(0, 4) === shownDate(e).slice(0, 4);
-  return `${a}–${same && a.split('/').length === 3 ? md(shownDate(e)) : fmtDay(e, now)}`;
+  const sd = shownDate(s);
+  const ed = shownDate(e);
+  const year = now !== undefined && (needsYear(sd, now) || needsYear(ed, now));
+  const same = sd.slice(0, 4) === ed.slice(0, 4);
+  const withYear = (d: string) => `${d.slice(0, 4)}/${md(d)}`;
+  if (!year) return `${md(sd)}–${md(ed)}`;
+  return `${withYear(sd)}–${same ? md(ed) : withYear(ed)}`;
 }
 
 /**
  * A milestone's time as lists show it. An estimate is last year's date moved
- * on a year, so its weekday and minute mean nothing: "约 5/5", "约 11/5–11/18".
+ * on a year, so its weekday means nothing; its Beijing clock time stays, so
+ * the day matches the official AoE date: "约 5/5 19:59", "约 11/5–11/18".
  */
 export function fmtMilestoneTime(m: AppMilestone, now?: number): string {
   if (m.status === 'tba') return '待公布';
   const s = m.start_resolved;
   const e = m.end_resolved;
   if (m.status === 'estimated') {
-    if (m.at_resolved) return `约 ${fmtDay(m.at_resolved, now)}`;
+    // The weekday of a moved date means nothing, but the clock time does: AoE 5/4 is 5/5 19:59 in Beijing.
+    if (m.at_resolved) return `约 ${fmtDay(m.at_resolved, now)}${hasTime(m.at_resolved.local) ? ` ${hhmm(m.at_resolved.beijing)}` : ''}`;
     if (s && e) return `约 ${dayRange(s, e, now)}`;
     if (s) return `约 ${fmtDay(s, now)} 起`;
     if (e) return `约 ${fmtDay(e, now)} 前`;
@@ -178,17 +246,27 @@ export function fmtMilestoneTime(m: AppMilestone, now?: number): string {
 
 export function tzLabel(tz: string): string {
   if (tz === 'AoE' || tz.startsWith('UTC')) return tz;
+  // "当地时间" would read as the venue's clock to someone going to Sydney.
+  if (tz === 'Asia/Shanghai') return '北京时间';
   if (tz === 'America/Los_Angeles') return '太平洋时间';
   if (tz === 'America/Toronto' || tz === 'America/New_York') return '美东时间';
   return '当地时间';
 }
 
-/** How the venue itself writes the time: "9/25 23:59 AoE", "11/5 AoE", "11/5–11/18 AoE". */
+/** What the app says when the venue wrote no time zone and the app counts in Beijing time (DATA_GUIDE §7.1). */
+export const TZ_ASSUMED = '没写时区，按北京时间算';
+
+/**
+ * How the venue itself writes the time: "9/25 23:59 AoE", "11/5 AoE",
+ * "11/5–11/18 AoE". When the venue wrote no zone the app's assumption is
+ * not passed off as theirs: "10/2（没写时区，按北京时间算）".
+ */
 export function fmtOfficial(m: AppMilestone): string {
   const one = (t: ResolvedTime) => (hasTime(t.local) ? `${md(t.local)} ${hhmm(t.local)}` : md(t.local));
+  const zone = m.tz_assumed ? `（${TZ_ASSUMED}）` : ` ${tzLabel(m.tz)}`;
   if (m.status === 'tba') return '待公布';
-  if (m.at_resolved) return `${one(m.at_resolved)} ${tzLabel(m.tz)}`;
-  if (m.start_resolved && m.end_resolved) return `${one(m.start_resolved)}–${one(m.end_resolved)} ${tzLabel(m.tz)}`;
+  if (m.at_resolved) return `${one(m.at_resolved)}${zone}`;
+  if (m.start_resolved && m.end_resolved) return `${one(m.start_resolved)}–${one(m.end_resolved)}${zone}`;
   return '—';
 }
 
@@ -272,6 +350,42 @@ export function parseNow(param: string | null | undefined): number | undefined {
   return Number.isNaN(t) ? undefined : t;
 }
 
+// ---------- data as shipped ----------
+
+type Slim = { local: string; utc: string; tz?: string; beijing?: string };
+
+/** "2026-09-26 19:59": Beijing wall clock of an instant (China has no DST). */
+export const beijingOf = (utc: string) => new Date(Date.parse(utc) + BEIJING_OFFSET).toISOString().slice(0, 16).replace('T', ' ');
+
+/**
+ * The page ships milestone times without what can be worked out again
+ * (scripts/app-data.ts `slimEditions`): each resolved time keeps its wall
+ * clock and instant; its zone is the milestone's and its Beijing time
+ * follows from the instant. Upstream milestones carry neither their flag
+ * nor the venue link, which the edition has. This puts them back, once, at
+ * start-up, and words an abstract-only meeting's result "摘要结果".
+ */
+export function prepareEditions(editions: AppEdition[]): AppEdition[] {
+  for (const ed of editions) {
+    const up = ed.data_level === 'upstream';
+    const abs = isAbstractOnly(ed);
+    for (const m of ed.milestones) {
+      for (const k of ['at_resolved', 'start_resolved', 'end_resolved'] as const) {
+        const r = m[k] as Slim | undefined;
+        if (!r) continue;
+        r.tz ??= m.tz;
+        r.beijing ??= beijingOf(r.utc);
+      }
+      if (up) {
+        m.upstream = true;
+        m.deep_link ??= ed.upstream?.link;
+      }
+      if (abs && m.type === 'notification' && !m.label_zh) m.label_zh = '摘要结果';
+    }
+  }
+  return editions;
+}
+
 // ---------- milestones ----------
 
 export function textWidth(s: string): number {
@@ -309,6 +423,9 @@ export function seriesName(ed: AppEdition): string {
   if (ed.kind === 'arr_cycle') return 'ARR';
   const paren = /\(([^()]+?)\s+\d{4}\)\s*$/.exec(ed.name);
   if (paren) return paren[1]!;
+  // "VTC2027-Fall", "ECS 2027 Spring", "ASHRAE 2027 Winter Conference": the year sits inside the name.
+  const inner = /^(\D+?)[\s-]?\d{4}(?:[\s-][A-Za-z]+)+$/.exec(ed.name);
+  if (inner) return inner[1]!;
   return ed.name.replace(/[\s-]+\d{2,4}$/, '').trim() || ed.series.toUpperCase();
 }
 
@@ -340,13 +457,23 @@ export function prettyEditionId(id: string): string {
   return id;
 }
 
-export function venueSubtitle(ed: AppEdition, withRank = true): string {
+/** The tag on dates imported from ccfddl (data_level: upstream): they are not checked against the venue. */
+export const UPSTREAM_TAG = '未核对';
+
+/** The one line an upstream venue carries on its page and step sheets (MOBILE_SPEC §12). */
+export const UPSTREAM_NOTE = '数据来自 ccfddl · 未逐条核对官网';
+
+export const isUpstream = (ed: Pick<AppEdition, 'data_level'>) => ed.data_level === 'upstream';
+
+/** Where a date's wording comes from, for the line under a milestone: the venue, or ccfddl for upstream editions. */
+export const officialWord = (ed: Pick<AppEdition, 'data_level'>) => (isUpstream(ed) ? 'ccfddl 写法' : '官网写法');
+
+export function venueSubtitle(ed: AppEdition): string {
   const out: string[] = [];
-  if (ed.location?.city) out.push(ed.location.city);
+  if (ed.place?.city) out.push(ed.place.city);
   const days = conferenceDays(ed);
   if (days) out.push(days.text);
   if (!out.length && ed.kind === 'arr_cycle') out.push('ACL Rolling Review');
-  if (withRank && ed.ranks?.ccf && ed.ranks.ccf !== 'N') out.push(`CCF ${ed.ranks.ccf}`);
   return out.join(' · ');
 }
 
@@ -390,6 +517,7 @@ export function upcoming(editions: AppEdition[], now: number): Upcoming[] {
   const out: Upcoming[] = [];
   for (const edition of editions)
     for (const milestone of edition.milestones) {
+      if (!shownBeforeAccept(edition, milestone) || isLateAbstract(edition, milestone)) continue;
       const b = nextBoundary(milestone, now);
       if (b) out.push({ edition, milestone, ...b });
     }
@@ -398,7 +526,7 @@ export function upcoming(editions: AppEdition[], now: number): Upcoming[] {
 
 export function tbaMilestones(editions: AppEdition[]): { edition: AppEdition; milestone: AppMilestone }[] {
   return editions.flatMap((edition) =>
-    edition.milestones.filter((m) => m.status === 'tba').map((milestone) => ({ edition, milestone })),
+    edition.milestones.filter((m) => m.status === 'tba' && shownBeforeAccept(edition, m) && !isLateAbstract(edition, m)).map((milestone) => ({ edition, milestone })),
   );
 }
 
@@ -437,8 +565,21 @@ export function upcomingRelative(item: Upcoming, now: number): string {
   return rel;
 }
 
-export function milestoneOf(ed: AppEdition, type: string | undefined): AppMilestone | undefined {
-  return type ? ed.milestones.find((m) => m.type === type) : undefined;
+/**
+ * A milestone by its key in links: the type ("paper"), or "type~i" for the
+ * i-th of that type when an edition has several (KDD 2027's 第一轮 and 2 月轮
+ * rebuttal, WACV's Round 1 and Round 2 正文). A plain type is the first one.
+ */
+export function milestoneOf(ed: AppEdition, key: string | undefined): AppMilestone | undefined {
+  if (!key) return undefined;
+  const [type, i] = key.split('~');
+  return ed.milestones.filter((m) => m.type === type)[Number(i ?? 0)];
+}
+
+/** The key of a milestone for links: its type, with "~i" from the second of a type on. */
+export function milestoneKey(ed: AppEdition, m: AppMilestone): string {
+  const i = ed.milestones.filter((x) => x.type === m.type).indexOf(m);
+  return i > 0 ? `${m.type}~${i}` : m.type;
 }
 
 // ---------- rules ----------

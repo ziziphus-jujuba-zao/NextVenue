@@ -1,0 +1,56 @@
+id: aps-summit-2027
+series: aps-summit
+name: APS Global Physics Summit 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: aps-summit-2027-contributed
+  quote: "Abstracts may be submitted either for oral presentations or poster presentations:"
+location: { city: Atlanta, country: USA, country_code: US }
+dates: { start: 2027-04-11, end: 2027-04-16 }
+milestones:
+  - type: abstract
+    start: 2026-09-09
+    end: 2026-10-22
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-summit-2027-abstracts
+    quote: "You must be an APS member to submit. The call for abstracts runs from Sept. 9 to Oct. 22, 2026."
+    note_zh: 官网没写截止时刻和时区，按北京时间 10/22 23:59 算。要先是 APS 会员（或互惠学会会员）才能投。
+  - type: presentation_format_final
+    label_zh: 线下/线上选择锁定
+    at: 2026-10-22
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-summit-2027-contributed
+    quote: "Your selection may be changed until the abstract submission deadline of Oct. 22, 2026. It cannot be changed afterward."
+    note_zh: 投摘要时选线下还是线上报告，摘要截止后不能再改。官网没写时区，按北京时间算。
+  - type: early_registration
+    at: 2027-02-25
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-summit-2027-registration
+    quote: "Early bird rates Sept. 9, 2026 - Feb, 25, 2027"
+    note_zh: 早鸟价 9/9 开始；官网没写时区，按北京时间算。
+  - type: standard_registration
+    at: 2027-04-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-summit-2027-registration
+    quote: "Regular rates Feb. 26, 2027 - Apr. 1, 2027"
+    note_zh: 4/2 起是现场价（late rates）。官网没写时区，按北京时间算。
+  - type: conference
+    start: 2027-04-11
+    end: 2027-04-16
+    tz: America/New_York
+    status: confirmed
+    src: aps-summit-2027-home
+    quote: "Atlanta, GA, and online, April 11-16, 2027"
+last_checked: 2026-09-25
+note_zh: 亚特兰大线下加线上。所有报告人都要注册；每人最多一个技术类口头报告、一个非技术类口头报告和一个海报。

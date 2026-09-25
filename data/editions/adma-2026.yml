@@ -1,0 +1,59 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: adma-2026
+series: adma
+name: ADMA 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/ADMA
+  conf_id: adma26
+  link: https://adma2026.github.io/
+  place: Hong Kong, China
+  date: November 13 - 15, 2026
+  timezone: AoE
+location:
+  city: Hong Kong
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-13
+  end: 2026-11-15
+milestones:
+  - type: paper
+    at: 2026-07-17T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Main Track
+  - type: paper
+    at: 2026-07-31T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Industry Track
+  - type: paper
+    at: 2026-07-31T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Special Session Paper
+  - type: paper
+    at: 2026-08-07T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Short Paper
+  - type: paper
+    at: 2026-09-11T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Poster Paper
+  - type: paper
+    at: 2026-09-11T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Encore Paper
+  - type: conference
+    start: 2026-11-13
+    end: 2026-11-15
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,478 @@
+# 校内出国（境）手续：各校和国家规定的例子，每条带官网原文。
+# 用途：录用后清单"学校审批"一步的"常见要求"，以及"出行设置"里审批天数的说明文字。
+# 这些只是例子，不是默认值，也不是学校模板：各校、各院系、学生和教职工都不一样，界面必须写"以本校最新通知为准"。
+# 只收学校和政府官网；学生自编指南（例如清华 PACMAN）不收。
+last_checked: 2026-09-25
+note_zh: 各校规定不同，而且随时修订。以本校国际合作处、研究生院、财务处的最新通知为准。
+items:
+  # ---------- 审批提前量 ----------
+  - id: sjtu-seiee-student-floor
+    org_zh: 上海交通大学 · 电子信息与电气工程学院
+    who: student
+    topic: approval_lead
+    text_zh: 距离出访日不足 15 个工作日的申请不受理。
+    n: 15
+    unit: workday
+    kind: hard
+    issued: 2021-11-16
+    src: china-admin-sjtu-seiee
+    quote: "不受理距离出访日不足15个工作日的出国（境）申请"
+  - id: sjtu-me-review-time
+    org_zh: 上海交通大学 · 机械与动力工程学院
+    who: all
+    topic: approval_lead
+    text_zh: 校内审批一般要 5–10 个工作日，还要留出办签证的时间。
+    n: 10
+    unit: workday
+    kind: advice
+    src: china-admin-sjtu-me-faq
+    quote: "因公出国（境）校内审批正常需5-10个工作日，且需留充足时间办理签证"
+  - id: sjtu-me-by-country
+    org_zh: 上海交通大学 · 机械与动力工程学院
+    who: all
+    topic: approval_lead
+    text_zh: 去美国建议提前 3 个月申报，其他国家或地区 2 个月，港澳和新加坡 1 个月。
+    kind: advice
+    src: china-admin-sjtu-me-faq
+    quote: "故需提前三个月申报；其他国家或地区一般需提前二个月；赴港澳和新加坡需提前一个月"
+  - id: sustech-staff-lead
+    org_zh: 南方科技大学 · 国际合作部
+    who: staff
+    topic: approval_lead
+    text_zh: 教职工因公临时出国，原则上至少提前 40 个工作日申请。
+    n: 40
+    unit: workday
+    kind: hard
+    src: china-admin-sustech
+    quote: "原则上需至少提前 40个工作日申请"
+  - id: zju-grs-student-lead
+    org_zh: 浙江大学 · 研究生院
+    who: student
+    topic: approval_lead
+    text_zh: 研究生原则上在出发前至少 1 个月办完校内审批。
+    n: 1
+    unit: month
+    kind: hard
+    issued: 2023-11-16
+    src: china-admin-zju-grs
+    quote: "申请人原则上应在派出前至少1个月前完成学校研究生因公出国（境）申请的审批手续"
+  - id: pku-student-no-retro
+    org_zh: 北京大学 · 国际合作部
+    who: student
+    topic: approval_lead
+    text_zh: 出国任务不能补报，手续不能补办。
+    kind: hard
+    src: china-admin-pku-student
+    quote: "出国（境）任务一律不得补报，出国（境）手续一律不得补办"
+  - id: pku-student-two-months
+    org_zh: 北京大学 · 国际合作部
+    who: student
+    topic: approval_lead
+    text_zh: 一般建议行前 2 个月提交申报材料。
+    n: 2
+    unit: month
+    kind: advice
+    src: china-admin-pku-student
+    quote: "出国（境）人员一般建议在行前2个月准备并提交申报材料"
+  - id: pku-staff-two-months
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: approval_lead
+    text_zh: 教职工因公出访，须在行前至少 2 个月准备并提交申报材料。
+    n: 2
+    unit: month
+    kind: hard
+    src: china-admin-pku-staff
+    quote: "申报人（或经办人）须在行前至少2个月准备并提交申报材料"
+    note_zh: 2023 年 2 月修订的教职工办理说明。
+  - id: pku-staff-publicity
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: approval_lead
+    text_zh: 先在所在单位公示，公示一般不少于 5 个工作日，之后才进入学校审批。
+    n: 5
+    unit: workday
+    kind: hard
+    src: china-admin-pku-staff
+    quote: "公示时间一般不少于五个工作日"
+  - id: pku-approval-review
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: approval_lead
+    text_zh: 公示和审批完成后，校内审核、出具任务批件一般还要 10 个工作日。
+    n: 10
+    unit: workday
+    kind: advice
+    issued: 2018-07-10
+    src: china-admin-pku-time-limits
+    quote: "校内审核、审批，出具任务批件及其他外发文，一般需要10个工作日。"
+  - id: pku-staff-visa-by-country
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: approval_lead
+    text_zh: 因公签证：去美国至少提前 3 个月开始办，其他国家一般提前 2 个月。
+    kind: advice
+    src: china-admin-pku-staff
+    quote: "美国需至少提前3个月开始办理，其它国家一般应提前2个月开始办理"
+  - id: pku-extra-visa
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: approval_lead
+    text_zh: 一次出访要办多个国家的签证，每多一个签证，多预留 10–15 个工作日。
+    n: 15
+    unit: workday
+    kind: advice
+    issued: 2018-07-10
+    src: china-admin-pku-time-limits
+    quote: "原则上每增加一个签证按10-15个工作日计算"
+  # ---------- 在外天数、线上参会 ----------
+  - id: sjtu-me-stay-limit
+    org_zh: 上海交通大学 · 机械与动力工程学院
+    who: all
+    topic: stay_limit
+    text_zh: 出访 1 国原则上在外不超过 5 天；参加国际会议超出天数的，要附会议详细日程。
+    n: 5
+    unit: day
+    kind: hard
+    src: china-admin-sjtu-me-faq
+    quote: "原则上出访1国在外停留不超过5天；出访2国不超过8天，出访3国不超过10天。如参加国际会议超出规定天数的，需提供会议详细日程安排"
+  - id: zju-grs-online
+    org_zh: 浙江大学 · 研究生院
+    who: student
+    topic: online_approval
+    text_zh: 线上参加境外举办的国际会议，也要先在学校系统里审批。
+    issued: 2023-11-16
+    src: china-admin-zju-grs
+    quote: "研究生参加线上交流（在境外举行的国际会议、线上课程、学术交流活动等）须提前在学校系统中完成审批"
+  # ---------- 护照 ----------
+  - id: sjtu-me-student-passport
+    org_zh: 上海交通大学 · 机械与动力工程学院
+    who: student
+    topic: passport
+    text_zh: 学生因公出国参加国际会议，用因私护照。
+    src: china-admin-sjtu-me-faq
+    quote: "学生出国参加国际会议办理因公申请持哪种护照？ A：因私护照。"
+  - id: sjtu-me-staff-passport
+    org_zh: 上海交通大学 · 机械与动力工程学院
+    who: staff
+    topic: passport
+    text_zh: 教职工六个月以下的因公出访，用公务普通护照。
+    src: china-admin-sjtu-me-faq
+    quote: "教职工六个月以下因公出访持公务普通护照"
+  - id: pku-official-passport-2018
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: passport
+    text_zh: 办理因公护照一般需要 10 个工作日。
+    n: 10
+    unit: workday
+    kind: advice
+    issued: 2018-07-10
+    src: china-admin-pku-time-limits
+    quote: "办理因公护照一般需要10个工作日。"
+    note_zh: 2023 年修订的教职工说明写的是 5–7 个工作日，见下一条。
+  - id: pku-official-passport-2023
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: passport
+    text_zh: 批件下来后，因公护照送教育部留学服务中心办理，需 5–7 个工作日。
+    n: 7
+    unit: workday
+    kind: advice
+    src: china-admin-pku-staff
+    quote: "因公护照办理需5-7个工作日"
+  - id: pku-exit-certificate
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: passport
+    text_zh: 持因公护照去免签国家或已有电子签证的，也要办出境证，一般需要 10 个工作日。
+    n: 10
+    unit: workday
+    kind: advice
+    issued: 2018-07-10
+    src: china-admin-pku-time-limits
+    quote: "持因公护照前往免签国或已有电子签证等情形，需办理出境证，一般需要10个工作日。"
+  - id: pku-staff-passport-validity
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: passport
+    text_zh: 已有因公护照的，从回国之日算起有效期要大于 180 天。
+    src: china-admin-pku-staff
+    quote: "应确认护照有效期从返回之日算起大于180日"
+  - id: zju-staff-passport-two-weeks
+    org_zh: 浙江大学 · 医学院
+    who: staff
+    topic: passport
+    text_zh: 新办因公护照要带批件到浙江省外办办理，至少预留两周。
+    n: 14
+    unit: day
+    kind: advice
+    issued: 2025-05-27
+    src: china-admin-zju-cmm-staff
+    quote: "请至少预留两周时间用于办理因公护照新证。"
+  - id: zju-staff-visa-provincial
+    org_zh: 浙江大学 · 医学院
+    who: staff
+    topic: passport
+    text_zh: 因公签证必须通过浙江省外办办理。
+    issued: 2025-05-27
+    src: china-admin-zju-cmm-staff
+    quote: "因公签证请务必通过浙江省外办办理"
+  - id: zju-staff-exit-certificate
+    org_zh: 浙江大学 · 医学院
+    who: staff
+    topic: passport
+    text_zh: 去免签或电子签国家和地区的，也要到省外办领取出境证明。
+    issued: 2025-05-27
+    src: china-admin-zju-cmm-staff
+    quote: "前往免签或电子签国家和地区的，请务必至省外办领取出境证明！"
+  - id: sustech-passport-custody
+    org_zh: 南方科技大学 · 国际合作部
+    who: staff
+    topic: passport
+    text_zh: 公务普通护照由学校统一保管，完成出国任务审批后才能领用。
+    src: china-admin-sustech
+    quote: "公务普通护照由国际合作部统一保管，必须按学校规定完成出国任务审批手续后才能领用"
+  - id: mfa-official-passport-holders
+    org_zh: 外交部（中国领事服务网）
+    who: staff
+    topic: passport
+    text_zh: 公务普通护照由外交部或受委托的地方外事部门颁发，发给县处级副职以下公务员和国有企事业单位因公出国人员等。
+    src: china-admin-mfa-official-passport
+    quote: "颁发给中国各级政府部门县处级副职以下公务员和国有企事业单位因公出国人员等"
+  - id: nia-private-passport
+    org_zh: 国家移民管理局
+    who: all
+    topic: passport
+    text_zh: 普通护照（因私护照）在户籍地申请，7 个工作日内签发；跨省异地申请 20 日。
+    n: 7
+    unit: workday
+    src: china-admin-nia-passport
+    quote: "居民在户籍地公安机关出入境管理机构申请普通护照应当自受理申请材料之日起7个工作日内审批签发并制作普通护照。跨省异地申请普通护照的签发时限为20日。"
+  - id: nia-private-passport-urgent
+    org_zh: 国家移民管理局
+    who: all
+    topic: passport
+    text_zh: 紧急出国参加会议谈判等情形可以申请加急，批准后 5 个工作日内签发普通护照。
+    n: 5
+    unit: workday
+    src: china-admin-nia-passport
+    quote: "对批准的，应当在5个工作日内审批签发并制作普通护照。"
+    note_zh: 加急情形原文包括"紧急出国出境参加会议谈判、签订合同"，是否批准由出入境管理机构决定。
+  # ---------- 回国后 ----------
+  - id: sustech-staff-passport-return
+    org_zh: 南方科技大学 · 国际合作部
+    who: staff
+    topic: post_trip
+    text_zh: 回国后 3 个工作日内把护照交回学校。
+    n: 3
+    unit: workday
+    kind: hard
+    src: china-admin-sustech
+    quote: "出访任务结束归国后，须于3个工作日内将护照归还至学校行政服务大厅"
+  - id: sustech-staff-report
+    org_zh: 南方科技大学 · 国际合作部
+    who: staff
+    topic: post_trip
+    text_zh: 出访结束 1 个月内提交出访报告。
+    n: 1
+    unit: month
+    kind: hard
+    src: china-admin-sustech
+    quote: "出访结束1个月之内，出访人需及时总结出访成果，发送出访报告等材料至国际合作部外事专员邮箱"
+  - id: zju-grs-return
+    org_zh: 浙江大学 · 研究生院
+    who: student
+    topic: post_trip
+    text_zh: 回国后两周（14 天）内在学校系统提交回国申请。
+    n: 14
+    unit: day
+    kind: hard
+    issued: 2023-11-16
+    src: china-admin-zju-grs
+    quote: "回国（境）后两周（14天）内登陆学校系统"
+  - id: sjtu-seiee-report-reimburse
+    org_zh: 上海交通大学 · 电子信息与电气工程学院
+    who: student
+    topic: reimburse
+    text_zh: 回国后 1 个月内填写出访总结、办完报销。
+    n: 1
+    unit: month
+    kind: hard
+    issued: 2021-11-16
+    src: china-admin-sjtu-seiee
+    quote: "网上填写出访总结，完成报销手续（回国后1个月内）"
+  - id: sjtu-seiee-dates-within-approval
+    org_zh: 上海交通大学 · 电子信息与电气工程学院
+    who: student
+    topic: reimburse
+    text_zh: 护照上的出入境日期超出批件的行程起止日期，就无法报销。
+    issued: 2021-11-16
+    src: china-admin-sjtu-seiee
+    quote: "护照上的出入境记录日期必须不超出批件上的行程起止日期"
+  - id: sustech-funding-preapproval
+    org_zh: 南方科技大学 · 国际合作部
+    who: staff
+    topic: funding
+    text_zh: 经费来源要在出访前审批。
+    src: china-admin-sustech
+    quote: "经费来源属于前置审批"
+  - id: pku-staff-passport-return
+    org_zh: 北京大学 · 国际合作部
+    who: staff
+    topic: post_trip
+    text_zh: 出访结束后 15 日内，处级（含副处级）干部和机关人员把证件交回国际合作部，其他教职工交本单位保管。
+    n: 15
+    unit: day
+    kind: hard
+    src: china-admin-pku-staff
+    quote: "出访任务结束后15日内，处级（含副处级）干部及学校机关职能部门人员须将证件交回国际合作部保管"
+  - id: zju-staff-passport-return
+    org_zh: 浙江大学 · 医学院
+    who: staff
+    topic: post_trip
+    text_zh: 回国后 7 日内把因公证照交回国际合作处。
+    n: 7
+    unit: day
+    kind: hard
+    issued: 2025-05-27
+    src: china-admin-zju-cmm-staff
+    quote: "请务必于回国（境）后7日内将因公证照归还至国合处。"
+  - id: mfa-official-passport-return
+    org_zh: 外交部（中国领事服务网）
+    who: staff
+    topic: post_trip
+    text_zh: 因公护照集中保管，回国后要尽快交回。
+    src: china-admin-mfa-official-passport
+    quote: "因公出国人员须在回国后尽快交回其所持护照"
+  # ---------- 按批件出行 ----------
+  - id: zju-grs-fixed-dates
+    org_zh: 浙江大学 · 研究生院
+    who: student
+    topic: other
+    text_zh: 国际会议要严格按审批通过的日期出访；日期有变，要退回申请、改好后重新提交。
+    issued: 2023-11-16
+    src: china-admin-zju-grs
+    quote: "国际会议等有限定时间的任务应严格按照审批通过的出访时间进行出访"
+  - id: zju-grs-overstay
+    org_zh: 浙江大学 · 研究生院
+    who: student
+    topic: other
+    text_zh: 未经学校批准、逾期 2 周以上未归的研究生，应予退学。
+    issued: 2023-11-16
+    src: china-admin-zju-grs
+    quote: "出国（境）未经学校批准逾期2周以上未归的，应予退学"
+  # ---------- 资助 ----------
+  - id: tsinghua-sist-fund-amount
+    org_zh: 清华大学 · 信息科学技术学院（登峰基金）
+    who: student
+    topic: funding
+    text_zh: 学院的学生参会基金按会议录用率分档；录用率低于 20% 的，资助注册费、往返旅费和不超过 4 晚住宿，总额不超过 15000 元。
+    issued: 2025-05-29
+    src: china-admin-tsinghua-sist-fund
+    quote: "录用率＜20% ：支持注册费、往返旅费和不超过4晚的住宿费，但经费总额不超过15000元人民币。"
+  - id: tsinghua-sist-fund-lead
+    org_zh: 清华大学 · 信息科学技术学院（登峰基金）
+    who: student
+    topic: funding
+    text_zh: 至少提前 20 天把申请表和材料交到学院办公室。
+    n: 20
+    unit: day
+    kind: hard
+    issued: 2025-05-29
+    src: china-admin-tsinghua-sist-fund
+    quote: "申请者应至少提前20天将申请表及有关材料报送信息学院办公室审理"
+  - id: tsinghua-sist-fund-reimburse
+    org_zh: 清华大学 · 信息科学技术学院（登峰基金）
+    who: student
+    topic: reimburse
+    text_zh: 会议结束后一个月内办理报销审批。
+    n: 1
+    unit: month
+    kind: hard
+    issued: 2025-05-29
+    src: china-admin-tsinghua-sist-fund
+    quote: "会议结束后一个月内，将以下材料报信息学院办公室办理报销审批手续"
+  - id: tsinghua-phd-fund-once
+    org_zh: 清华大学 · 研究生院
+    who: student
+    topic: funding
+    text_zh: 博士生出席国际会议基金，在学期间一般只能获得一次资助。
+    issued: 2026-01-19
+    src: china-admin-tsinghua-phd-fund
+    quote: "博士生在学期间一般只能获得博士生出席国际会议基金一次资助。"
+  - id: sjtu-gs-fund-scope
+    org_zh: 上海交通大学 · 研究生院
+    who: student
+    topic: funding
+    text_zh: 研究生院的参会资助只面向人文社科类研究生；其他学科的学生请看本院系的资助。
+    src: china-admin-sjtu-gs-fund
+    quote: "申请者应为上海交通大学人文社科类全日制在校研究生及荣誉计划博士生"
+  - id: sjtu-gs-fund-before
+    org_zh: 上海交通大学 · 研究生院
+    who: student
+    topic: funding
+    text_zh: 资助要在参会前申请；参会结束后才申请的不受理。
+    kind: hard
+    src: china-admin-sjtu-gs-fund
+    quote: "学生须于参会前发起资助申请。"
+  - id: seu-grad-before
+    org_zh: 东南大学 · 研究生院
+    who: student
+    topic: funding
+    text_zh: 境外参会申请要在出国前完成，会后补交的不予报销。
+    kind: hard
+    issued: 2025-02-27
+    src: china-admin-seu-grad
+    quote: "请在出国前完成申请，会后补交申请不予报销"
+  # ---------- 报销 ----------
+  - id: sysu-fx-rate
+    org_zh: 中山大学 · 财务与国资管理处
+    who: all
+    topic: reimburse
+    text_zh: 外币费用按银行结算单或购汇单上的汇率折算；没有的，按支付当日中国银行现汇卖出价折算。刷卡和购汇凭证要留好。
+    src: china-admin-sysu-fx
+    quote: "银行结算单或购汇单上能显示外币汇率的，则按此汇率换算；未能确定实际外币汇率的，则按实际支付/汇款当日中国银行外汇牌价的现汇卖出价换算。"
+  - id: sysu-fx-per-diem
+    org_zh: 中山大学 · 财务与国资管理处
+    who: all
+    topic: reimburse
+    text_zh: 伙食费、公杂费等包干补助，按回国入境当天中国银行现汇卖出价折算。
+    src: china-admin-sysu-fx
+    quote: "按照回国抵境当日中国银行外汇牌价的现汇卖出价换算报销金额"
+  # ---------- 国家规定（财行〔2013〕516号） ----------
+  - id: fin-2013-516-foreign-airline
+    org_zh: 财政部 外交部（财行〔2013〕516号）
+    who: all
+    topic: reimburse
+    text_zh: 确需乘坐外国航空公司航线的，要事先报单位外事和财务部门批准。
+    src: china-admin-fin-2013-516
+    quote: "由于航班衔接等原因确需选择外国航空公司航线的，应当事先报经单位外事和财务部门审批同意"
+  - id: fin-2013-516-conference-hotel
+    org_zh: 财政部 外交部（财行〔2013〕516号）
+    who: all
+    topic: reimburse
+    text_zh: 会议指定或推荐的酒店超出住宿标准的，要事先报批。
+    src: china-admin-fin-2013-516
+    quote: "超出费用标准的，须事先报经本单位外事和财务部门批准"
+  - id: fin-2013-516-per-diem-days
+    org_zh: 财政部 外交部（财行〔2013〕516号）
+    who: all
+    topic: reimburse
+    text_zh: 伙食费和公杂费的天数，按离开和回到中国国境的日期算。
+    src: china-admin-fin-2013-516
+    quote: "包干天数按离、抵我国国境之日计算"
+  - id: fin-2013-516-registration-receipt
+    org_zh: 财政部 外交部（财行〔2013〕516号）
+    who: all
+    topic: reimburse
+    text_zh: 签证费、会议注册费凭原始票据报销。
+    src: china-admin-fin-2013-516
+    quote: "出国签证费用、防疫费用、国际会议注册费用等凭有效原始票据据实报销"
+  - id: fin-2013-516-audit-documents
+    org_zh: 财政部 外交部（财行〔2013〕516号）
+    who: all
+    topic: reimburse
+    text_zh: 报销时财务要核对任务批件、护照（含签证和出入境记录）复印件和费用明细票据，按批准的人员、天数、路线核销。
+    src: china-admin-fin-2013-516
+    quote: "出国任务批件、护照（包括签证和出入境记录）复印件及有效费用明细票据进行认真审核，严格按照批准的出国团组人员、天数、路线、经费预算及开支标准核销经费"

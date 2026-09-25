@@ -3,7 +3,7 @@ series: sigir
 name: SIGIR 2027
 year: 2027
 kind: conference
-topics: [dm]
+data_level: curated
 location: { city: San Jose, country: USA }
 dates: { start: 2027-07-18, end: 2027-07-24 }
 milestones:

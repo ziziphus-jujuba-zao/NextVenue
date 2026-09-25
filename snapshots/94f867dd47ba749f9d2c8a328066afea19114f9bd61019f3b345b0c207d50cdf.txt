@@ -1,0 +1,80 @@
+Message from the General and Program Chairs
+
+2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) | 979-8-3503-0129-8/23/$31.00 ©2023 IEEE | DOI: 10.1109/CVPR52729.2023.00005
+
+Welcome to the 2023 IEEE/CVF Conference on Computer Vision and
+Pattern Recognition in Vancouver, Canada. As in previous years,
+CVPR is the premier and flagship annual meeting of IEEE/CVF and
+PAMI-TC, where researchers in our community present their latest
+advances in computer vision, pattern recognition, machine learning,
+robotics, and artificial intelligence, both in theory and practice. Our
+program includes invited keynote talks, award paper presentations,
+poster presentations, tutorials, workshops, demos, exhibitions, and
+an amiable social setting, all aimed at providing attendees with an
+exciting and enriching experience.
+This year marks the first time in a while that many pandemic
+restrictions have been lifted, allowing us to come together in person
+again to celebrate the latest advances in our field. For those unable
+to join us physically, we are pleased to offer a virtual component that
+will provide access to conference papers, posters, videos, and talks.
+We hope this virtual option will allow everyone to engage with the
+exciting research being presented.
+CVPR 2023 received 9155 submissions, a 12% increase from the 8161
+submissions to CVPR 2022. The review process was managed by 400+
+area chairs and, new to the process this year, 30 senior area chairs.
+The senior area chairs helped in a number of respects, most
+importantly by adjudicating difficult cases, covering emergencies,
+selecting highlight papers, and selecting the award candidates.
+During the review phase, each paper received at least 3 reviews from
+the pool of 6625 reviewers. As in prior years, after receiving these
+initial reviews, the process continued with an author rebuttal phase,
+discussion among reviewers and ACs, finalizing of reviews, and ACs
+working in triplets to make final accept/reject decisions for each
+paper. At the end of this process, 2359 papers were accepted (25.8%
+acceptance rate). In keeping with the CVPR tradition, the PCs did not
+pre-set any acceptance cap. The resulting acceptance rate reflects
+the community consensus, and is well aligned with past CVPRs.
+
+Of the 2359 accepted papers, 235 (10%) were selected as highlights.
+In addition, 12 (0.5%) papers have been shortlisted as best paper
+award candidates. The final best papers and honorable mentions are
+selected from these 12 papers by an independent award committee
+appointed by the program chairs, which is composed of experienced
+researchers from our community. The award committee is led by an
+award committee chair appointed by the program chairs, who
+moderates the selection process.
+This year, CVPR will be single-track to allow everyone to attend
+everything. The focus will be on a few plenary talks, keynotes and
+panels, and plenty of time for poster sessions, networking, and
+socializing. Every paper will be presented at a poster session. All
+paper award candidates will have an additional plenary oral
+presentation. Every attendee will have access to a personalized
+digital program to easily navigate the ~400 posters in each poster
+session. The virtual platform will host papers, posters, videos, and a
+chat room for every paper. All plenary events will be streamed online
+for all attendees that cannot attend in person.
+We would like to thank everyone involved in making CVPR 2023 a
+success. This includes the organizing committee, area chairs, senior
+area chairs, reviewers, authors, demo session participants, donors,
+exhibitors, and everyone else without whom this meeting would not
+be possible. We also thank Nicole Finn and her C to C Events team for
+organizing the conference logistics, Lee Campbell and the Event
+Hosts team for their work on the website and virtual platform, and
+Mike Weil and Hall Erickson for handling sponsorships and the
+exhibition. Last but not least, we thank all of you for attending CVPR
+2023 and making it one of the top venues for computer vision
+research in the world. We hope that you also have some time to
+explore gorgeous Vancouver during the conference. Enjoy CVPR
+2023. We look forward to meeting you in person!
+Program Chairs: Andreas Geiger, Ross Girshick, Judy Hoffman,
+Vladlen Koltun, and Svetlana Lazebnik
+General Chairs:
+
+CVPR 2023 QR Codes
+
+ccci
+
+Michael S. Brown, Fei-Fei Li,
+Greg Mori, and Yoichi Sato
+
+

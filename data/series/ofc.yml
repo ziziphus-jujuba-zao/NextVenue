@@ -1,0 +1,12 @@
+id: ofc
+acronym: OFC
+full_name: Optical Fiber Communication Conference and Exposition
+aliases:
+  - Optical Fiber Communication Conference
+directions: [phys/optics, eng/comm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 往届都在每年 3 月于美国举办
+data_level: curated
+note_zh: 投 35 词摘要加 3 页正文（summary），盲审；论文收入 IEEE Xplore 和 Optica 出版平台。另有 postdeadline 论文轮次。

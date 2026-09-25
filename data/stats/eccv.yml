@@ -1,0 +1,60 @@
+# ECCV 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: eccv
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 5150
+    accepted: 1360
+    rate: 27
+    rate_text: 27%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿
+    source_url: https://link.springer.com/content/pdf/bfm:978-3-030-58548-8/1
+    quote: The conference received 5,150 valid paper submissions, of which 1,360 were accepted for publication (27%) and, of those, 160 were presented as spotlights (3%) and 104 as orals (2%).
+    quote_check: manual
+    mismatch_zh: 官方写 27%，按官方数字算是 26.4%
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 5804
+    accepted: 1645
+    rate: 28
+    rate_text: 28%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿（去掉桌拒和撤稿）
+    source_url: https://eccv2022.ecva.net/files/2021/12/ECCV_2022_MainConference_ProgramGuide_Final_full.pdf
+    quote: 18310 authors submitted a total of 6773 papers ... In the end, we have 1645 (28%) papers that were accepted for publication, including 157 Orals (2.7%). ... 846 of the submissions were desk-rejected for various reasons. ... Some papers were withdrawn at different stages leaving us with a total 5804 valid submissions.
+    src: eccv-2022-program-guide
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 8585
+    accepted: 2387
+    rate: 27.9
+    rate_text: 27.9%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿
+    source_url: https://eccv2024.ecva.net/media/eccv-2024/Slides/2822.pdf
+    quote: "8,585 valid submissions by 27,546 authors ... Of the submissions: ➢ 2,387 accepted (27.9%) ➢ 200 accepted as orals (2.3%) ... ➢ 173 desk-rejected due to policy violations ➢ 2,410 withdrawn by authors (at various stages of review process)"
+    src: eccv-2024-opening-slides
+    quote_check: snapshot
+    note_zh: 幻灯片把出结果当天的 27.9% 印在最终录用数旁边
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 10473
+    accepted: 2834
+    rate: 27
+    rate_text: 27%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿
+    source_url: https://link.springer.com/content/pdf/bfm:978-3-032-36839-3/1
+    quote: Following the trend of recent years, ECCV 2026 experienced a further 24% increase in submissions. 10,473 valid papers were submitted, compared to 8585 for ECCV 2024 and 5804 for ECCV 2022. Of these, 2834 papers were ultimately accepted for publication, corresponding to an acceptance rate of 27%.
+    quote_check: manual
+    checked: 2026-09-25

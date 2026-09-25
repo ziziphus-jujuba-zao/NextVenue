@@ -1,0 +1,23 @@
+id: iecon-2027
+series: iecon
+name: IECON 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Shanghai, country: China, country_code: CN }
+dates: { start: 2027-10-19, end: 2027-10-22 }
+milestones:
+  - type: paper
+    tz: Asia/Shanghai
+    status: tba
+    note_zh: IECON 2027 的征文和截止日期还没公布；IECON 2026 的论文截止是 2026-07-31（见 iecon-2026）。
+  - type: conference
+    start: 2027-10-19
+    end: 2027-10-22
+    tz: Asia/Shanghai
+    status: confirmed
+    src: ies-conferences
+    quote: "IECON 2027 Shanghai, China, 19-22 October 2027 53rd Annual Conference of the IEEE Industrial Electronics Society"
+    note_zh: 取自 IEEE 工业电子学会（IES）的会议列表；大会官网还没上线。
+last_checked: 2026-09-25
+note_zh: 第 53 届，在上海举办，国内作者不用办签证。

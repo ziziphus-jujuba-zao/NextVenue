@@ -1,0 +1,53 @@
+id: rtas-2027
+series: rtas
+name: RTAS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Boulder, country: USA, country_code: US }
+dates: { start: 2027-05-17, end: 2027-05-20 }
+federated_with:
+  name: CPS-IoT Week 2027
+  url: https://cps-iot-week-2027.sigbed.org/
+  with: [hscc, sensys]
+  src: rtas-2027-cfp
+  quote: "A part of CPS-IoT Week | Boulder, Colorado | May 17-20, 2027"
+milestones:
+  - type: paper
+    at: 2026-11-05T23:59
+    tz: AoE
+    status: confirmed
+    src: rtas-2027-cfp
+    quote: "Submission Deadline (Firm) Thursday, November 5, 2026"
+    note_zh: 官网写 “All times UTC-12, or ‘Anywhere on Earth’”，只给日期，按当天结束（23:59 AoE）算。没有单独的摘要截止；截止不延期。
+  - type: author_response
+    start: 2027-01-11
+    end: 2027-01-15
+    tz: AoE
+    status: confirmed
+    src: rtas-2027-cfp
+    quote: "Author Response Period Monday, January 11 – Friday, January 15, 2027"
+  - type: notification
+    at: 2027-01-28
+    tz: AoE
+    status: confirmed
+    tentative: true
+    src: rtas-2027-cfp
+    quote: "Author Notification (tentative) Thursday, January 28, 2027"
+    note_zh: 官网标注暂定（tentative），日期可能再改；不是本应用推算。
+  - type: camera_ready
+    at: 2027-03-30T23:59
+    tz: AoE
+    status: confirmed
+    src: rtas-2027-cfp
+    quote: "Camera-Ready Submission Deadline Tuesday, March 30, 2027"
+  - type: conference
+    start: 2027-05-17
+    end: 2027-05-20
+    tz: America/Denver
+    status: confirmed
+    src: cps-iot-week-2027-home
+    quote: "Boulder, Colorado, USA, May 17-20, 2027"
+    note_zh: RTAS 征稿页把会期写成 “Tuesday, May 17 – Friday, May 20, 2027”，但 2027-05-17 是周一；日期与 CPS-IoT Week 一致。
+last_checked: 2026-09-25
+note_zh: 第 33 届 RTAS，在 CPS-IoT Week 2027 内举办，与 HSCC+ICCPS、SenSys 共用 11/5 的正文截止。两个 track：Systems and Applications、Applied Methodologies and Foundations。录用前有 rebuttal，只能澄清，不能加新内容。Brief Presentation 2/11、Artifact Evaluation 2/18 截止。

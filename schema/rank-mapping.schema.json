@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rank-mapping.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Explicit links from series to rank-list entries, and pairs that must never be linked (data/ranks/mapping.yml)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["links", "not"],
+  "definitions": {
+    "seriesId": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "entryId": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+  },
+  "properties": {
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["series", "list", "entry", "note_zh"],
+        "properties": {
+          "series": { "$ref": "#/definitions/seriesId" },
+          "list": { "type": "string" },
+          "entry": { "$ref": "#/definitions/entryId" },
+          "year": { "type": "integer", "minimum": 2000, "maximum": 2100, "description": "只用于按届收录的目录（科协）" },
+          "qualifier_zh": { "type": "string", "minLength": 1, "description": "跟在等级后面的限定：GNC 分会" },
+          "note_zh": { "type": "string", "minLength": 1, "description": "为什么要手工挂（撞名、改名、合并……）" }
+        }
+      }
+    },
+    "not": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["series", "list", "entry", "note_zh"],
+        "properties": {
+          "series": { "$ref": "#/definitions/seriesId" },
+          "list": { "type": "string" },
+          "entry": { "$ref": "#/definitions/entryId" },
+          "note_zh": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

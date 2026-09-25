@@ -1,0 +1,20 @@
+id: ifac-wc-2029
+series: ifac-wc
+name: IFAC World Congress 2029
+year: 2029
+kind: conference
+data_level: curated
+location: { city: Amsterdam, country: Netherlands, country_code: NL }
+milestones:
+  - type: paper
+    tz: Asia/Shanghai
+    status: tba
+    note_zh: 没公布。2026 年釜山那一届的常规论文截止在前一年 11 月底，照此 2029 届大约 2028 年 11 月，只作参考。
+  - type: conference
+    tz: Europe/Amsterdam
+    status: tba
+    src: ifac-2026-general-assembly
+    quote: "2029 World Congress to be held in Amsterdam, The Netherlands"
+    note_zh: IFAC 2026 年全体大会决定 2029 年世界大会在阿姆斯特丹举办，会期还没公布；三年一届。
+last_checked: 2026-09-25
+note_zh: 第 24 届 IFAC 世界大会。离投稿还很远，先放在列表里占位。

@@ -1,0 +1,52 @@
+id: ijcnn-2027
+series: ijcnn
+name: IJCNN 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Cape Town, country: South Africa, country_code: ZA }
+dates: { start: 2027-06-14, end: 2027-06-18 }
+submission_type: full_paper
+submission_evidence:
+  src: ijcnn-2027-home
+  quote: "Prospective authors are invited to submit complete papers of no more than six (6) pages in the IEEE two-column conference proceedings format."
+milestones:
+  - type: paper
+    at: 2027-01-31T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ijcnn-2027-home
+    quote: "Jan 31, 2027 Regular Papers Deadline"
+    note_zh: 官网只给日期、没写时区，这里按北京时间当天 23:59 算（比开普敦当地时间和 AoE 都早，更保守）。
+  - type: notification
+    at: 2027-03-15
+    tz: Africa/Johannesburg
+    tz_assumed: true
+    status: confirmed
+    src: ijcnn-2027-home
+    quote: "Mar 15, 2027 Regular Papers Acceptance Notification"
+    note_zh: 官网只给日期、没写时区，按会场所在地开普敦的日期记。
+  - type: camera_ready
+    at: 2027-04-12T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ijcnn-2027-home
+    quote: "Apr 12, 2027 Camera Ready Submissions (All Tracks)"
+    note_zh: 官网只给日期、没写时区，按北京时间当天 23:59 算（更保守）。
+  - type: conference
+    start: 2027-06-14
+    end: 2027-06-18
+    tz: Africa/Johannesburg
+    status: confirmed
+    src: ijcnn-2027-home
+    quote: "June 14 - 18, 2027 | Cape Town, South Africa"
+logistics:
+  venue:
+    name: Cape Town International Convention Centre (CTICC)
+    address: tba
+    src: ijcnn-2027-venue
+    quote: "The Cape Town International Convention Centre (CTICC) will serve as the host venue for the International Joint Conference on Neural Networks (IJCNN) 2027"
+last_checked: 2026-09-25
+note_zh: 正文 2027-01-31 截止，限 6 页（IEEE 双栏），3/15 出结果，4/12 交终稿；会议 6/14–18 在开普敦国际会议中心举行。官网所有日期都没写时区，截止类按北京时间算、结果按开普敦日期记。

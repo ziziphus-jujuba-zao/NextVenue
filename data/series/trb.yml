@@ -1,0 +1,12 @@
+id: trb
+acronym: TRB
+full_name: Transportation Research Board Annual Meeting
+name_zh: 美国交通研究委员会年会
+aliases:
+  - TRB Annual Meeting
+directions: [eng/transport, eng/civil]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 1 月，华盛顿
+data_level: curated

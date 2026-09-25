@@ -1,0 +1,13 @@
+id: vldb
+acronym: VLDB
+full_name: International Conference on Very Large Data Bases
+aliases: [PVLDB]
+directions: [cs/db]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/vldb
+ccfddl: DB/VLDB
+data_level: curated
+note_zh: 研究赛道每月一轮：每月 1 日截止，摘要在上个月 25 日截止（VLDB 2027 官网）。

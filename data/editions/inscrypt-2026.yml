@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: inscrypt-2026
+series: inscrypt
+name: INSCRYPT 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/INSCRYPT
+  conf_id: inscrypt26
+  link: https://inscrypt2026.comp.polyu.edu.hk
+  place: Hong Kong SAR, China
+  date: Nov 07-09, 2026
+  timezone: UTC-8
+location:
+  city: Hong Kong SAR
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-07
+  end: 2026-11-09
+milestones:
+  - type: paper
+    at: 2026-05-08T23:59
+    tz: UTC-8
+    status: confirmed
+    label_zh: 1st Round
+  - type: paper
+    at: 2026-07-01T23:59
+    tz: UTC-8
+    status: confirmed
+    label_zh: 2nd Round
+  - type: conference
+    start: 2026-11-07
+    end: 2026-11-09
+    tz: UTC-8
+    status: confirmed
+last_checked: 2026-09-25

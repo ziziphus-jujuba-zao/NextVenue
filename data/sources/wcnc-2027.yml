@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: wcnc-2027
+sources:
+  - id: wcnc-2027-call-papers
+    url: https://wcnc2027.ieee-wcnc.org/authors/call-papers
+    title: IEEE WCNC 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:12Z
+    http_status: 200
+    snapshot: b59870c311b3fa5a02ad788d6db8693b0b33513345845c2ca6feb598269d2fbd
+  - id: wcnc-2027-home
+    url: https://wcnc2027.ieee-wcnc.org/
+    title: IEEE WCNC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:18Z
+    http_status: 200
+    snapshot: 2c03b8461b35a0c7b50a499298b454d2d4367a36c7c09a57c75d8f011f61bc07

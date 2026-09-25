@@ -1,0 +1,13 @@
+id: icse
+acronym: ICSE
+full_name: IEEE/ACM International Conference on Software Engineering
+aliases: [International Conference on Software Engineering]
+directions: [cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/icse
+ccfddl: SE/ICSE
+data_level: curated
+note_zh: 软件工程旗舰会议；ICSE 2027 只有一轮投稿，有大修（Major Revision）环节。

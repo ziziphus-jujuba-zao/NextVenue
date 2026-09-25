@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icassp-2027
+sources:
+  - id: icassp-2027-cfp
+    url: https://2027.ieeeicassp.org/call-for-papers/
+    title: ICASSP 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:45:53Z
+    http_status: 200
+    snapshot: 8d08db2affacf7dfd1f0ab63d305b9315128d6ba9fe7e6670ef28cb2582263fb
+  - id: icassp-2027-home
+    url: https://2027.ieeeicassp.org/
+    title: ICASSP 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:45:53Z
+    http_status: 200
+    snapshot: eec463c53f5ef1e077dad94dec661c445a2c35db956c1a7b4d40b3e893b297b1

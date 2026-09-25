@@ -1,0 +1,11 @@
+id: wacv
+acronym: WACV
+full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+directions: [cs/cv]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/wacv
+ccfddl: AI/WACV
+data_level: curated

@@ -1,0 +1,50 @@
+id: icassp-2027
+series: icassp
+name: ICASSP 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Toronto, country: Canada, country_code: CA }
+dates: { start: 2027-05-16, end: 2027-05-21 }
+milestones:
+  - type: paper
+    at: 2026-09-23T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: icassp-2027-cfp
+    quote: "Full Paper Submission Deadline September 23, 2026"
+    note_zh: 已截止。官网只给日期、没写时区，这里按北京时间当天 23:59 算（比多伦多当地时间和 AoE 都早，更保守）。
+  - type: notification
+    at: 2027-01-13
+    tz: America/Toronto
+    tz_assumed: true
+    status: confirmed
+    src: icassp-2027-cfp
+    quote: "Paper Acceptance Notification January 13, 2027"
+    note_zh: 官网只给日期、没写时区，按会场所在地多伦多的日期记。
+  - type: camera_ready
+    at: 2027-01-27T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: icassp-2027-cfp
+    quote: "Final Paper Deadline January 27, 2027"
+    note_zh: 官网只给日期、没写时区，按北京时间当天 23:59 算（更保守）。
+  - type: author_registration
+    at: 2027-02-10T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: icassp-2027-cfp
+    quote: "Author Registration Deadline February 10, 2027"
+    note_zh: 官网只给日期、没写时区，按北京时间当天 23:59 算（更保守）。
+  - type: conference
+    start: 2027-05-16
+    end: 2027-05-21
+    tz: America/Toronto
+    status: confirmed
+    src: icassp-2027-home
+    quote: "Join us 16-21 May 2027 in Toronto, Canada"
+last_checked: 2026-09-25
+note_zh: 论文投稿 2026-09-23 已截止，下一次投稿机会是 ICASSP 2028（日期未公布）。CFP 另有两条路：已在 IEEE SPS 或 EURASIP 期刊发表、录用的论文可以来会上报告，材料 2027-01-06 截止（“Published Journal Papers and Letters Due January 6, 2027”），不再审稿、不进论文集；OJSP 期刊专轨与会议同一审稿时间线，投 8+1 页。

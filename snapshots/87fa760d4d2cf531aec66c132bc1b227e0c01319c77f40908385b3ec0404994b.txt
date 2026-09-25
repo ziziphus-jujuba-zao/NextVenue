@@ -1,0 +1,127 @@
+Skip to content
+
+Menu
+
+Search
+
+Close Menu
+November 22 2022
+
+Getting Ready for NeurIPS (3): 2022 Conference Highlights
+
+Communications Chairs 2023 2022 Conference
+
+by the General Chairs, Sanmi Koyejo and Shakir Mohamed
+
+The two weeks of NeurIPS 2022 are close, and we are excited to meet everyone in person in New Orleans during the first week and then to continue our interaction during the virtual week. There is a lot to look forward to, and this post is meant to help navigate the various events and activities. In our previous updates we described the steps we took for safety and facilities, and the overall format of the conference.
+
+Keynotes
+
+A highlight of every NeurIPS are the keynotes from leading academic and industry leaders. This year’s topics are:
+
+ * Are Large Language Models Sentient? David Chalmers
+ * Algorithms On the Bench: Examining Validity of ML Systems in the Public Sphere, Rediet Abebe
+ * Conformal Prediction in 2022, Emmanuel Candès
+ * Interaction-Centric AI, Juho Kim
+ * Blueprint for an AI Bill of Rights Making Automated Systems Work for the American People, Alondra Nelson
+ * The Data-Centric Era: How ML is Becoming an Experimental Science, Isabelle Guyon
+ * The Forward-Forward Algorithm for Training Deep Neural Networks, Geoffrey Hinton
+
+Poster Sessions
+
+The in-person conference prioritizes in-person interaction and discussion, and this is centered around the poster sessions. There are two poster sessions each day of the main conference (Tues/Wed/Thurs). Poster boards have been placed with sufficient space for social distancing, we provide face shields for poster presenters, and we encourage mask-wearing for all attendees.
+
+Posters come from three different streams:
+
+Main Conference track. The main conference has 2,672 accepted papers. In addition to learning from the authors about their work directly, each paper has an individual page on the website where you can find a 5-minute video and a chat channel to discuss the work asynchronously.
+
+Datasets and Benchmark track. The 2nd year of this track saw 163 papers accepted.
+
+Journal Showcase. This year, we introduced a journal-to-conference track, where you can learn about the work of papers accepted into journals in our field. There are 41 papers from JMLR and 33 papers from ReScience in this track.
+
+Affinity Group Workshops and Expo
+
+The first day of the meeting, Monday 28 Nov, includes most of the Affinity Group workshops as well as the Expo.. This day is an opportunity to reconnect and make new connections. If you are attending NeurIPS for the first time, then consider joining the New in ML workshop.
+
+Affinity events. You can find the schedule for the Affinity Groups here. This year’s affinity events include: Global South in AI; Women in ML (in both weeks); North Africans in ML; LatinX in AI; Queer in AI; Black in AI; Indigenous in AI. The joint Affinity Poster Session in the early evening of the 28th is an opportunity for members across the Affinity Groups to showcase their work.
+
+Expo. The Expo is an opportunity to hear about research and work from industry representatives from some of the platinum or gold exhibitors. There are expo talks, demonstrations, and workshops to experience; see the full expo schedule for locations and topics.
+
+Competitions, Socials and Discussions
+
+The evenings (6 PM onwards) of the in-person week provide further activities to get involved in the NeurIPS community. Some of the highlights are:
+
+Competitions. On Tuesday 29 Nov 6pm, connect with other attendees to learn about this year’s competitions. There will be 22 competitions for you to interact with in an exhibition demo-style setup, and there will be pizza, salads and soft-drinks to keep you fed while you visit all the competition stands.
+
+Ethics Review Open Discussion, also on Tuesday 29 Nov at 7pm. If you are interested in talking about ethics review processes and ways to improve them, join this moderated discussion led by the NeurIPS 2022 Ethics Review Chairs.
+
+Town Hall on Wednesday 30 Nov, 6pm. As members of the NeurIPS community, your thoughts on building a stronger NeurIPS community and wider considerations are essential to the health of the conference. Join this moderated discussion hosted by this year’s Communications chairs, and with updates from the NeurIPS board, the general and program chairs, the diversity, inclusion and accessibility chairs, and other members of this year’s organizing committee.
+
+Socials. Find a social to make new connections. This year’s socials are broad and include: the negotiations social, K-Pop in NeurIPS; Women in AI Ignite; Un-Bookclub Haben: The Deafblind Woman Who Conquered Harvard Law; Interdisciplinary ML Mixer; ML&Space Social; Data Excellence; Industry, Academia, and the In-Betweens; Gulf coast AI. Check out the webpage listing all socials here.
+
+Tutorials
+
+Tutorials in 2022 are all virtual and held on Monday 5 December, covering time zones across the world. Catch up with the state-of-the-art across 13 tutorials, covering a broad range of subject areas in machine learning research. There are several times; see the tutorials blog and the website.
+
+Spotlights and Paper Deep Dives
+
+Since few of us can stay attentive for an all-day virtual conference, the virtual conference week keeps content focused to 2 × 2-hours blocks each day.  In these sessions, you will get 1-minute spotlight presentations from authors of accepted papers followed by mini panel discussions, where 2 papers are grouped and discussed together. You get to ask questions through RocketChat.
+
+These two-hour blocks repeat the following structure to fill the two hours:
+
+ * [15mins] 1 min paper spotlights
+ * [15mins] Paper panel with authors of 2 papers.
+
+The times for these sessions: 9–11 AM UTC-8 and 9–11 AM UTC+8. There are 2 or 3 tracks in parallel. Make sure to block the applicable times in your schedule—add this from the website.
+
+Workshops
+
+There are three days of workshops this year: two days during the in-person conference and one during the virtual week. There is a range of workshops; you can see the full list on the website and read more about the workshops on our blog.
+
+What’s Next
+
+We encourage you to join the conference both in-person and online, and register if you have not yet done so. All that’s left is to thank our organizing committees for the dedication they have given. And a special thanks to Mary-Ellen Perry, Lee Campbell, Brad Brockmeyer, Brian Nettleton, Terri Auricchio, Max Wiesner and other members of our logistics and organizing staff, without whom the conference would not be possible—when you bump into them online or in-person, please take a minute to share your thanks.
+
+See you at the conference soon.
+
+P.S. Our best wishes for a weekend ahead full of gratitude and grace. This post was written while listening to Jambalaya. And Tweet and Toot our content to help everyone plan for the two weeks ahead.
+
+Announcing the NeurIPS 2022 Awards Get Ready for the NeurIPS Competition Track
+
+Related Posts
+
+2022 Conference
+
+NeurIPS 2022 – Day 1 Recap
+
+2022 Conference
+
+Get Ready for the NeurIPS 2022 Datasets and Benchmarks Track
+
+2022 Conference
+
+Get Ready for the NeurIPS Competition Track
+
+Feed
+
+Recent Posts
+
+ * Join Us at NeurIPS 2026: Financial Assistance and Volunteer Applications Are Now Open September 16, 2026
+ * NeurIPS Foundation Announces 2026 Bridging the Future Grants Program Recipients September 8, 2026
+ * NeurIPS Newsletter – August 2026 September 5, 2026
+ * Navigating NeurIPS 2026: A Breakdown of the Multi-Site Registration Process August 27, 2026
+ * Meet the Organizing Team Behind NeurIPS 2026 August 11, 2026
+ * Announcing the NeurIPS 2026 Workshops August 10, 2026
+ * NeurIPS Newsletter – July 2026 July 31, 2026
+ * NeurIPS 2026 Competitions Announced July 28, 2026
+ * NeurIPS Newsletter – June 2026 July 3, 2026
+ * AI-Generated Papers in the NeurIPS 2026 Position Paper Track June 2, 2026
+ * NeurIPS Newsletter – May 2026 May 29, 2026
+ * NeurIPS 2026 Call for Ethics Reviewers May 12, 2026
+
+Recent Comments
+
+Back To Top
+NeurIPS Blog
+© NeurIPS Blog 2026
+Powered by WordPress • Themify WordPress Themes

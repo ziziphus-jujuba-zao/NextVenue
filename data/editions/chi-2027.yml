@@ -1,0 +1,67 @@
+id: chi-2027
+series: chi
+name: CHI 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Pittsburgh, country: USA, country_code: US }
+dates: { start: 2027-05-10, end: 2027-05-14 }
+milestones:
+  - type: paper
+    at: 2026-09-10T23:59
+    tz: AoE
+    status: confirmed
+    src: chi-2027-papers
+    quote: "Thursday, September 10, 2026: Paper submission deadline, including videos and supplementary materials"
+    note_zh: 已截止。没有单独的摘要截止（“Note that there is no abstract deadline.”）；作者名单在这一天冻结，之后不能增删作者。页面写所有时间都按 AoE。
+  - type: reviews_out
+    at: 2026-11-05
+    tz: AoE
+    status: confirmed
+    src: chi-2027-papers
+    quote: "Thursday, November 5, 2026: Reviews released"
+    note_zh: 第一轮审稿结果：CFP 写分数达到一定线的论文进入修改重投（revise and resubmit）阶段。
+  - type: author_response
+    label_zh: 修改重投（revise and resubmit）
+    start: 2026-11-05
+    end: 2026-12-03T23:59
+    tz: AoE
+    status: confirmed
+    src: chi-2027-papers
+    quote: "Thursday, November 5–Thursday, December 3, 2026: Revise papers"
+    note_zh: '只适用于进入修改重投的论文；修改稿 12/3 截止（“Thursday, December 3, 2026: Resubmission deadline”）。'
+  - type: notification
+    at: 2026-12-17
+    tz: AoE
+    status: confirmed
+    src: chi-2027-papers
+    quote: "Thursday, December 17, 2026: Final notification"
+  - type: camera_ready
+    at: 2027-02-18T23:59
+    tz: AoE
+    status: confirmed
+    src: chi-2027-papers
+    quote: "Thursday, February 18, 2027: Publication-Ready deadline"
+    note_zh: 之前还有两步：1/7 完成 ACM 版权表（E-Rights），1/14 把终稿源文件交到 TAPS 排版。
+  - type: author_registration
+    at: 2027-03-04T23:59
+    tz: AoE
+    status: confirmed
+    src: chi-2027-papers
+    quote: "Thursday, March 4, 2027: Conference registration deadline"
+    note_zh: '同一天还要交报告视频（“Thursday, March 4, 2027: Video presentation deadline”）。'
+  - type: conference
+    start: 2027-05-10
+    end: 2027-05-14
+    tz: America/New_York
+    status: confirmed
+    src: chi-2027-home
+    quote: "Pittsburgh, 10–14 May, 2027"
+logistics:
+  venue:
+    name: David L. Lawrence Convention Center
+    address: tba
+    src: chi-2027-home
+    quote: "CHI 2027 will take place in the David L. Lawrence Convention Center in downtown Pittsburgh, USA."
+last_checked: 2026-09-25
+note_zh: 论文投稿 2026-09-10 已截止，现在在审稿。11/5 出第一轮审稿意见，进入修改重投的论文 12/3 前交修改稿，12/17 出最终结果。所有截止都按 AoE，并有 24 小时宽限（只用于应急，不算延期）。录用论文按 ACM Open 开放获取，作者单位不在 ACM Open 名单里的要付 APC（2027 年会员 500 美元、非会员 750 美元）。

@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sigspatial-2026
+series: sigspatial
+name: SIGSPATIAL 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/SIGSPATIAL
+  conf_id: sigspatial26
+  link: https://sigspatial2026.sigspatial.org/
+  place: Riverside, CA, USA
+  date: November 3-6, 2026
+  timezone: UTC-7
+location:
+  city: Riverside
+  country: USA
+  country_code: US
+dates:
+  start: 2026-11-03
+  end: 2026-11-06
+milestones:
+  - type: abstract
+    at: 2026-05-29T23:59
+    tz: UTC-7
+    status: confirmed
+    note_zh: "ccfddl: Extended Research Track deadlines"
+  - type: paper
+    at: 2026-06-05T23:59
+    tz: UTC-7
+    status: confirmed
+    note_zh: "ccfddl: Extended Research Track deadlines"
+  - type: conference
+    start: 2026-11-03
+    end: 2026-11-06
+    tz: UTC-7
+    status: confirmed
+last_checked: 2026-09-25

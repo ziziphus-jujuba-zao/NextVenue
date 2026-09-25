@@ -1,0 +1,50 @@
+id: coling-2027
+series: coling
+name: COLING 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Macau, country: China, country_code: MO }
+dates: { start: 2027-05-09, end: 2027-05-14 }
+milestones:
+  - type: paper
+    label_zh: ARR 投稿截止（2026 年 10 月轮）
+    at: 2026-10-12T23:59
+    tz: AoE
+    status: confirmed
+    src: coling-2027-cfp
+    quote: "ARR submission deadline (long & short papers): October 12, 2026"
+    note_zh: 所有论文都要经 ACL Rolling Review 投稿，最晚赶 ARR 2026 年 10 月轮（见 arr-2026-10）；更早轮次已拿到审稿和 meta-review 的稿件也可以直接 commit。首页写所有截止均为 AoE（“All deadlines are 11.59 pm UTC -12h (anywhere on earth).”）。
+  - type: author_response
+    label_zh: ARR 作者回复期
+    start: 2026-11-24
+    end: 2026-11-30
+    tz: AoE
+    status: confirmed
+    src: arr-2026-10-dates
+    quote: "October 2026 October 12 October 14 November 16 November 24-November 30 December 17 December 20"
+    note_zh: COLING 页面没列这一项，取自 ARR 日期页（10 月轮），该页没写时区，暂按 AoE。
+  - type: commitment
+    at: 2026-12-23T23:59
+    tz: AoE
+    status: confirmed
+    src: coling-2027-cfp
+    quote: "Commitment after meta-reviews: December 23, 2026"
+    note_zh: 10 月轮由 COLING 2027 和 NAACL 2027 共用，拿到 meta-review 之后才选 commit 到哪一个会。特别主题（NLP for Linguistics）只能在 commit 时选。
+  - type: notification
+    at: 2027-02-10
+    tz: AoE
+    status: confirmed
+    src: coling-2027-cfp
+    quote: "Notification of acceptance: February 10, 2027"
+    note_zh: 官方只给日期、未给时刻；首页的 AoE 说明针对截止日期，这里沿用。
+  - type: conference
+    start: 2027-05-09
+    end: 2027-05-14
+    tz: Asia/Macau
+    status: confirmed
+    src: coling-2027-cfp
+    quote: "Main Conference (in-person only): May 9–14, 2027"
+    note_zh: '线上报告另在 5/6–7 举行（“Virtual Conference (online presentations): May 6–7, 2027”）；澳门主会只接受现场参会。'
+last_checked: 2026-09-25
+note_zh: COLING 2027 于 2027-05-09 至 14 在澳门举行。只收经 ARR 投稿的论文：最晚投 ARR 2026 年 10 月轮（10/12 AoE），12/23 前 commit，2/10 出结果。长文 8 页、短文 4 页（不含参考文献和附录）。camera-ready 和作者注册日期还没公布。

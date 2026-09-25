@@ -1,0 +1,41 @@
+id: agu-2026
+series: agu
+name: AGU 2026
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: agu-2026-home
+  quote: "Early-October – Abstract acceptance notifications sent to authors. Scientific Program goes live."
+location: { city: San Francisco, country: USA, country_code: US }
+dates: { start: 2026-12-07, end: 2026-12-11 }
+milestones:
+  - type: abstract
+    label_zh: 晚到摘要（Late-breaking）截止
+    at: 2026-09-29
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: agu-2026-home
+    quote: "29 September – Late-breaking abstract submission deadline."
+    note_zh: 常规摘要已截止，这是晚到摘要轮。官网这一行没写时刻和时区，按北京时间当天 23:59 算。
+  - type: notification
+    status: tba
+    tz: America/New_York
+    src: agu-2026-home
+    quote: "Early-October – Abstract acceptance notifications sent to authors. Scientific Program goes live."
+    note_zh: 官网只说 10 月初，没有具体日期。
+  - type: early_registration
+    status: tba
+    tz: America/Los_Angeles
+    note_zh: 注册已开放，官网写可以按早鸟价注册，但早鸟截止日在注册页，agu.org 拦截抓取、存档里也没有，所以没能核对。
+  - type: conference
+    start: 2026-12-07
+    end: 2026-12-11
+    tz: America/Los_Angeles
+    status: confirmed
+    src: agu-2026-press-registration
+    quote: "Press registration is now open for AGU’s 2026 annual meeting in San Francisco, California, 7 to 11 December 2026 at the George R. Moscone Convention Center."
+last_checked: 2026-09-25
+note_zh: 线下为主；口头报告等会后 72 小时内上线回放，海报可以上传到线上展厅，线上报告人可以自己约视频讨论。2026 届不直播任何科学日程。

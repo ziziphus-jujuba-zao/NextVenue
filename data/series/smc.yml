@@ -1,0 +1,13 @@
+id: smc
+acronym: SMC
+full_name: "IEEE International Conference on Systems, Man, and Cybernetics"
+aliases:
+  - IEEE SMC
+directions: [eng/control, cs/cross]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 10 月前后
+dblp: conf/smc
+ccfddl: MX/SMC
+data_level: curated

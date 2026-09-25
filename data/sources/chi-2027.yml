@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: chi-2027
+sources:
+  - id: chi-2027-papers
+    url: https://chi2027.acm.org/authors/papers/
+    title: CHI 2027 Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:45:53Z
+    http_status: 200
+    snapshot: c4f5b7372f100244534bd4c3beeec1cac1007e4a7c647f60c075e85cf10efc2c
+  - id: chi-2027-home
+    url: https://chi2027.acm.org/
+    title: CHI 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:45:54Z
+    http_status: 200
+    snapshot: 8a4ea5c992098f27b2544445d84c6d5f680aebbc1402698e1eba64dbfdc338a1

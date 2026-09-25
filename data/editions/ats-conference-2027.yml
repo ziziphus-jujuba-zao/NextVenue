@@ -1,0 +1,24 @@
+id: ats-conference-2027
+series: ats-conference
+name: ATS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: New Orleans, country: USA, country_code: US }
+dates: { start: 2027-05-14, end: 2027-05-19 }
+milestones:
+  - type: abstract
+    at: 2026-11-04T17:00
+    tz: America/New_York
+    status: confirmed
+    src: ats-conference-2027-home
+    quote: "Call for Abstracts Present your research to a global audience of pulmonary, critical care, and sleep professionals. Deadline: 5 p.m. ET, Wednesday, Nov. 4, 2026"
+  - type: conference
+    start: 2027-05-14
+    end: 2027-05-19
+    tz: America/Chicago
+    status: confirmed
+    src: ats-conference-2027-home
+    quote: "May 14-19, 2027 New Orleans, LA"
+last_checked: 2026-09-25
+note_zh: 出结果和注册日期还没公布。

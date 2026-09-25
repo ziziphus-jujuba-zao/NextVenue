@@ -1,0 +1,50 @@
+# ICCV 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: iccv
+rows:
+  - year: 2021
+    track: main
+    status: official
+    submissions: 6152
+    accepted: 1612
+    rate: 26
+    rate_text: 26%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿
+    source_url: https://www.computer.org/csdl/proceedings-article/iccv/2021/281200z166/1BmGpD8O0b6
+    quote: In this iteration, the conference received 6152 valid submissions, a 40% increase in submissions compared to ICCV 2019. ... In total 1612 papers were accepted for presentation at ICCV, and are included in the conference proceedings. The acceptance rate of 26% reflects the high standard of ICCV
+    src: iccv-2021-front-matter
+    quote_check: snapshot
+    also:
+      - source_url: https://x.com/ICCV_2021/status/1418312157700182020
+        quote: 1617 papers accepted - 25.9% acceptance rate.
+        quote_check: manual
+        note_zh: 出结果当天的说法，没给投稿数
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 8260
+    accepted: 2160
+    rate: 26.15
+    rate_text: 26.15%
+    rate_basis: stated
+    definition_zh: 主会；分母为全部投稿（进入审稿的更少）
+    source_url: https://iccv2023.thecvf.com/program.overview-97.php
+    quote: 195 Oral nominations | 2160 Accepted papers (all papers are posters) | 8088 Papers assigned for review | 8260 Papers submitted | 26.15% Paper acceptance rate
+    src: iccv-2023-program-overview
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 11239
+    accepted: 2699
+    rate: 24
+    rate_text: 24%
+    rate_basis: stated
+    definition_zh: 主会；分母为进入审稿的有效投稿；Findings workshop 不算
+    source_url: https://x.com/ICCVConference/status/1937932919063851077
+    quote: "#ICCV2025 received 11,239 valid submissions that underwent the review process. The program committee recommended 2,699 papers for acceptance, resulting in an acceptance rate of 24%."
+    quote_check: manual
+    checked: 2026-09-25

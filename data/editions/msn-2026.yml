@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: msn-2026
+series: msn
+name: MSN 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/MSN
+  conf_id: msn26
+  link: https://ieee-msn.org/2026
+  place: Ningbo, China
+  date: December 18-20, 2026
+  timezone: UTC-12
+location:
+  city: Ningbo
+  country: China
+  country_code: CN
+dates:
+  start: 2026-12-18
+  end: 2026-12-20
+milestones:
+  - type: paper
+    at: 2026-08-30T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2026-12-18
+    end: 2026-12-20
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

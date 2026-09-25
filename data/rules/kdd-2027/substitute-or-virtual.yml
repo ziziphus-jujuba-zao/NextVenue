@@ -1,0 +1,22 @@
+id: kdd-2027/substitute-or-virtual
+edition: kdd-2027
+family: presentation
+question_zh: 作者去不了现场，能线上报告或请人代讲吗？
+short_zh: 代讲或线上报告
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 不能线上报告；去不了的话，官方让你请一位合作者到现场代为报告。
+quotes:
+  - src: kdd-2027-faq
+    text: "If you cannot attend in person to present, please find a co-author to present for you."
+  - src: kdd-2027-faq
+    text: "There will be no virtual component to the conference, and papers cannot be presented virtually."
+effect:
+  kind: fallback
+  substitute: allowed
+  virtual: not_allowed
+last_checked: 2026-09-25

@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: isbi-2027
+sources:
+  - id: isbi-2027-home
+    url: https://biomedicalimaging.org/2027/
+    title: IEEE ISBI 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T16:07:39Z
+    http_status: 200
+    snapshot: 72d0da97be7913c4f1e5579f50823da51e7bbb51fec16c9e2f398268600758da

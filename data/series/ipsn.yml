@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: ipsn
+acronym: IPSN
+full_name: ACM/IEEE International Conference on Information Processing in Sensor Networks
+directions:
+  - cs/net
+dblp: conf/ipsn
+ccfddl: NW/IPSN
+data_level: upstream

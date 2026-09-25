@@ -1,0 +1,14 @@
+id: ismrm
+acronym: ISMRM
+full_name: ISMRM & ISMRT Annual Meeting & Exhibition
+name_zh: 国际医学磁共振学会年会
+aliases:
+  - International Society for Magnetic Resonance in Medicine Annual Meeting
+  - ISMRM Annual Meeting
+directions: [eng/bme, med/imaging]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 5 月前后举办
+data_level: curated
+note_zh: 磁共振成像的方法、物理和临床；与 MRI 重建等计算机方向交叉多。

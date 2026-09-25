@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: sensys-2027
+sources:
+  - id: sensys-2027-home
+    url: https://sensys.acm.org/2027/
+    title: SenSys 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:48:25Z
+    http_status: 200
+    snapshot: 0a001f2798087781c2f4519d5703537f92000ad692d750745b799ae13353c4b7
+  - id: sensys-2027-cfp
+    url: https://sensys.acm.org/2027/cfp.html
+    title: SenSys 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:26Z
+    http_status: 200
+    snapshot: f5043b17046f2c2535c0cb2bed022fb22b6c5fb04b496858064b51323b77dcf5

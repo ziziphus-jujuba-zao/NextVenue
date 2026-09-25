@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: eurosys-2027
+series: eurosys
+name: EuroSys 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/EuroSys
+  conf_id: eurosys2027
+  link: https://2027.eurosys.org/
+  place: Rabat, Morocco
+  date: April 19-23, 2027
+  timezone: AoE
+location:
+  city: Rabat
+  country: Morocco
+  country_code: MA
+dates:
+  start: 2027-04-19
+  end: 2027-04-23
+milestones:
+  - type: abstract
+    at: 2026-05-07T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Spring Submission Deadline
+  - type: paper
+    at: 2026-05-14T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Spring Submission Deadline
+  - type: abstract
+    at: 2026-09-17T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Fall Submission Deadline
+  - type: paper
+    at: 2026-09-24T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Fall Submission Deadline
+  - type: conference
+    start: 2027-04-19
+    end: 2027-04-23
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

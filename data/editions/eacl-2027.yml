@@ -3,7 +3,7 @@ series: eacl
 name: EACL 2027
 year: 2027
 kind: conference
-topics: [nlp]
+data_level: curated
 location: { city: Athens, country: Greece }
 dates: { start: 2027-03-09, end: 2027-03-14 }
 milestones:

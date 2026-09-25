@@ -1,0 +1,24 @@
+id: aaai-27/substitute-or-virtual
+edition: aaai-27
+family: presentation
+question_zh: 作者去不了现场时，能线上报告或请人代讲吗？
+short_zh: 去不了时线上或代讲
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 不能线上报告：所有报告都必须现场进行，没有远程选项。官方要求至少一位作者到场报告，没有写请非作者代讲的做法。遇到特殊情况去不了，要立即通知 AAAI；不通知的论文不会收入论文集，通知之后怎么处理官方没写。
+quotes:
+  - src: aaai-27-author-policies
+    text: "All presentations must be done in-person. There will be no remote presentation option."
+  - src: aaai-27-author-policies
+    text: "At least one author is required to present that paper in person and therefore register for the conference at the in-person rate."
+  - src: aaai-27-author-policies
+    text: "If exceptional circumstances arise that prevent the authors from presenting the paper in person, I will notify AAAI immediately."
+effect:
+  kind: fallback
+  substitute: unspecified
+  virtual: not_allowed
+last_checked: 2026-09-25

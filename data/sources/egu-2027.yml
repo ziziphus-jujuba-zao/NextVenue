@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: egu-2027
+sources:
+  - id: egu-2027-deadlines
+    url: https://www.egu27.eu/about/deadlines_and_milestones.html
+    title: EGU27 Deadlines and Milestones
+    kind: dates
+    fetched_at: 2026-09-25T16:14:19Z
+    http_status: 200
+    snapshot: 4007358e37c0ea65ddad6dc8969481694bef20bd8de3a92672f821fa1de3cd0e

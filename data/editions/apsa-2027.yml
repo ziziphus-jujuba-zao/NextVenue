@@ -1,0 +1,25 @@
+id: apsa-2027
+series: apsa
+name: APSA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: "Washington, D.C.", country: USA, country_code: US }
+dates: { start: 2027-09-02, end: 2027-09-05 }
+milestones:
+  - type: paper
+    label_zh: 论文与分会提案截止
+    status: tba
+    tz: America/New_York
+    src: apsa-2027-call
+    quote: "The Call for Proposals will open in Fall 2027 – stay tuned!"
+    note_zh: 征稿还没开放，截止日未公布。官网原文写"2027 年秋季开放"，但会议在 2027 年 9 月，应是笔误。
+  - type: conference
+    start: 2027-09-02
+    end: 2027-09-05
+    tz: America/New_York
+    status: confirmed
+    src: apsa-2027-home
+    quote: "September 2–5, 2027 | Washington, D.C."
+last_checked: 2026-09-25
+note_zh: 第 123 届。

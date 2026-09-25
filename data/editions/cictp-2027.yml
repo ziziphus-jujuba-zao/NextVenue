@@ -1,0 +1,73 @@
+id: cictp-2027
+series: cictp
+name: CICTP 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Beijing, country: China, country_code: CN }
+dates: { start: 2027-07-16, end: 2027-07-18 }
+milestones:
+  - type: abstract
+    at: 2026-09-30
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cictp-2027-home
+    quote: "Abstract submission deadline Sep 30, 2026"
+    note_zh: 先交摘要，摘要通过后才能交全文。官网没写时区和时刻，按北京时间当天结束算。
+  - type: phase1_notification
+    label_zh: 摘要录用通知
+    at: 2026-10-05
+    tz: Asia/Shanghai
+    status: confirmed
+    src: cictp-2027-home
+    quote: "Abstract acceptance notification Oct 5, 2026"
+  - type: paper
+    at: 2026-10-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cictp-2027-home
+    quote: "Full-paper submission deadline Oct 31, 2026"
+    note_zh: 官网没写时区，按北京时间当天结束算。
+  - type: notification
+    at: 2026-11-30
+    tz: Asia/Shanghai
+    status: confirmed
+    src: cictp-2027-home
+    quote: "Full-paper acceptance notification Nov 30, 2026"
+  - type: author_registration
+    label_zh: 修改稿和费用截止
+    at: 2026-12-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cictp-2027-home
+    quote: "Revised-paper submission deadline, fee Dec 15, 2026"
+    note_zh: 官网写的是“Revised-paper submission deadline, fee”，即交修改稿并缴费；费用金额还没公布。
+  - type: camera_ready
+    at: 2027-01-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cictp-2027-home
+    quote: "Camera-ready submission deadline Jan 10, 2027"
+    note_zh: 论文 2027-01-31 前送交 ASCE（“Submitted to ASCE deadline Jan 31, 2027”）。
+  - type: standard_registration
+    label_zh: 注册截止
+    at: 2027-05-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cictp-2027-home
+    quote: "Registration deadline May 31, 2027"
+    note_zh: 官网没写时区；会在北京开，按北京时间当天结束算。
+  - type: conference
+    start: 2027-07-16
+    end: 2027-07-18
+    tz: Asia/Shanghai
+    status: confirmed
+    src: cictp-2027-home
+    quote: "will be held from July 16 to 18, 2027, in Beijing, China, and hosted by Tsinghua University."
+    note_zh: 第 27 届，清华大学交通工程系承办。
+last_checked: 2026-09-25

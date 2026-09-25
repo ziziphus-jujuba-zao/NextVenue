@@ -1,0 +1,104 @@
+id: usenix-security-2027
+series: usenix-security
+name: USENIX Security '27
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Denver, country: USA, country_code: US }
+dates: { start: 2027-08-11, end: 2027-08-13 }
+milestones:
+  - type: paper_registration
+    label_zh: 第一轮（Cycle 1）论文注册
+    at: 2026-08-18T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Mandatory registration (fixed title, fixed authors, tentative non-blank abstract, and fixed topics) due: Tuesday, August 18, 2026"
+    note_zh: 注册时标题、作者和主题就定下来，之后不能改。
+  - type: paper
+    label_zh: 第一轮（Cycle 1）正文
+    at: 2026-08-25T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Paper submissions due: Tuesday, August 25, 2026"
+    note_zh: 已截止。
+  - type: author_response
+    label_zh: 第一轮（Cycle 1）rebuttal
+    start: 2026-11-05
+    end: 2026-11-12T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Rebuttal period: Thursday, November 5–12, 2026"
+    note_zh: '10/6 先发提前拒稿通知（“Early reject notification: Tuesday, October 6, 2026”），没被提前拒的论文进入 rebuttal。'
+  - type: notification
+    label_zh: 第一轮（Cycle 1）出结果
+    at: 2026-12-03
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Notification to authors: Thursday, December 3, 2026"
+  - type: camera_ready
+    label_zh: 第一轮（Cycle 1）终稿
+    at: 2027-01-14T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Final papers due: Thursday, January 14, 2027"
+    note_zh: '需要 shepherd 的论文先在 12/15 前通过审批（“Shepherded approval due: Tuesday, December 15, 2026”）。'
+  - type: paper_registration
+    label_zh: 第二轮（Cycle 2）论文注册
+    at: 2027-01-19T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Mandatory registration (fixed title, fixed authors, tentative non-blank abstract, and fixed topics) due: Tuesday, January 19, 2027"
+    note_zh: 注册时标题、作者和主题就定下来，之后不能改。
+  - type: paper
+    label_zh: 第二轮（Cycle 2）正文
+    at: 2027-01-26T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Paper submissions due: Tuesday, January 26, 2027"
+    note_zh: '正文最多 13 页，投稿时必须附 Open Science 附录；每位作者每轮最多投 7 篇。附带的 artifact 1/29 截止（“Submission artifacts due: Friday, January 29, 2027”）。'
+  - type: author_response
+    label_zh: 第二轮（Cycle 2）rebuttal
+    start: 2027-04-08
+    end: 2027-04-15T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Rebuttal period: Thursday, April 8–15, 2027"
+    note_zh: '3/9 先发提前拒稿通知（“Early reject notification: Tuesday, March 9, 2027”）。'
+  - type: notification
+    label_zh: 第二轮（Cycle 2）出结果
+    at: 2027-05-06
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Notification to authors: Thursday, May 6, 2027"
+  - type: camera_ready
+    label_zh: 第二轮（Cycle 2）终稿
+    at: 2027-06-03T23:59
+    tz: AoE
+    status: confirmed
+    src: usenix-security-2027-cfp
+    quote: "Final papers due: Thursday, June 3, 2027"
+    note_zh: '需要 shepherd 的论文先在 5/18 前通过审批（“Shepherded approval due: Tuesday, May 18, 2027”）。'
+  - type: conference
+    start: 2027-08-11
+    end: 2027-08-13
+    tz: America/Denver
+    status: confirmed
+    src: usenix-security-2027-home
+    quote: "The 36th USENIX Security Symposium will take place on August 11–13, 2027, at the Hyatt Regency Denver at Colorado Convention Center in Denver, CO, USA."
+logistics:
+  venue:
+    name: Hyatt Regency Denver at Colorado Convention Center
+    address: tba
+    src: usenix-security-2027-home
+    quote: "at the Hyatt Regency Denver at Colorado Convention Center in Denver, CO, USA."
+last_checked: 2026-09-25
+note_zh: 两轮投稿，所有日期按 AoE（CFP 标题写“Important Information (AoE)”）。第一轮已截止、在审稿中；第二轮论文注册 2027-01-19、正文 1/26、出结果 5/6。两轮录用的论文都进 USENIX Security '27 论文集。

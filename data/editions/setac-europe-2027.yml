@@ -1,0 +1,35 @@
+id: setac-europe-2027
+series: setac-europe
+name: SETAC Europe 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Geneva, country: Switzerland, country_code: CH }
+dates: { start: 2027-04-25, end: 2027-04-29 }
+milestones:
+  - type: abstract
+    at: 2026-11-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: setac-europe-2027-event
+    quote: "10 November: Abstract submission deadline"
+    note_zh: 官网的重要日期表只写"10 November"，这张表是 2027 年 4 月这届的会前日程（9 月底开放摘要），所以是 2026 年 11 月 10 日。官网写明这届会期比往年早，截止也跟着提前。没写时区，按北京时间当天结束算。
+  - type: financial_aid
+    label_zh: 学生资助申请截止
+    at: 2026-11-17
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: setac-europe-2027-event
+    quote: "17 November: Student grants appliaction deadline"
+    note_zh: 官网原文拼写照录。没写年份和时区，年份同上，按北京时间当天结束算。
+  - type: conference
+    start: 2027-04-25
+    end: 2027-04-29
+    tz: Europe/Zurich
+    status: confirmed
+    src: setac-europe-2027-event
+    quote: "25 - 29 April 2027 + Add to calendar Geneva, Switzerland"
+last_checked: 2026-09-25
+note_zh: 第 37 届，日内瓦。

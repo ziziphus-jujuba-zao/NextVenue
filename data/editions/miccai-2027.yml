@@ -1,0 +1,79 @@
+id: miccai-2027
+series: miccai
+name: MICCAI 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: miccai-2026
+location: { city: Auckland, country: New Zealand, country_code: NZ }
+dates: { start: 2027-09-27, end: 2027-10-01 }
+milestones:
+  - type: abstract
+    label_zh: 摘要注册（Intention to Submit）
+    at: 2027-02-12T23:59
+    tz: America/Los_Angeles
+    status: estimated
+    src: miccai-2026-dates
+    quote: "Thursday, February 12, 2026, 23:59 Pacific Time"
+    note_zh: MICCAI 2027 还没有公布投稿日期，按 MICCAI 2026 的摘要注册截止（2/12 太平洋时间 23:59）顺延。
+  - type: paper
+    at: 2027-02-26T23:59
+    tz: America/Los_Angeles
+    status: estimated
+    src: miccai-2026-dates
+    quote: "Thursday, February 26, 2026, 23:59 Pacific Time"
+    note_zh: 按 MICCAI 2026 的正文截止（含补充材料，2/26 太平洋时间 23:59）顺延。
+  - type: phase1_notification
+    label_zh: 提前录用通知与审稿意见
+    at: 2027-05-07
+    tz: America/Los_Angeles
+    status: estimated
+    src: miccai-2026-dates
+    quote: "EOD on May 7, 2026, Pacific Time"
+    note_zh: 按 MICCAI 2026 的日期顺延。这一天发审稿意见，部分论文直接提前录用。
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2027-05-08
+    end: 2027-05-14T23:59
+    tz: America/Los_Angeles
+    status: estimated
+    src: miccai-2026-dates
+    quote: "May 8 -14, 2026"
+    note_zh: 按 MICCAI 2026 的 rebuttal 期 5/8–14 顺延；该项官网没写时区，沿用同页的太平洋时间。
+  - type: notification
+    at: 2027-06-12
+    tz: America/Los_Angeles
+    status: estimated
+    src: miccai-2026-dates
+    quote: "EOD on June 12, 2026, Pacific Time"
+    note_zh: 按 MICCAI 2026 的最终结果日期顺延。
+  - type: camera_ready
+    at: 2027-06-26T23:59
+    tz: America/Los_Angeles
+    status: estimated
+    src: miccai-2026-dates
+    quote: "Friday, June 26, 2026"
+    note_zh: 按 MICCAI 2026 非提前录用论文的 camera-ready 截止 6/26 顺延（提前录用的论文 2026 年是 5/25）；官网没写时区，沿用同页的太平洋时间。
+  - type: author_registration
+    at: 2027-06-26T23:59
+    tz: America/Los_Angeles
+    status: estimated
+    src: miccai-2026-dates
+    quote: "Friday, June 26, 2026"
+    note_zh: 按 MICCAI 2026 的作者注册截止 6/26 顺延（与 camera-ready 同一天）；官网没写时区，沿用同页的太平洋时间。
+  - type: conference
+    start: 2027-09-27
+    end: 2027-10-01
+    tz: Pacific/Auckland
+    status: confirmed
+    src: miccai-2027-home
+    quote: "will be held from September 27th to October 1st, 2027 at the New Zealand International Convention Centre in Auckland."
+    note_zh: MICCAI 学会 2026-02-18 的公告也写 2027-09-27 至 10-01 在奥克兰，是第 30 届。
+logistics:
+  venue:
+    name: New Zealand International Convention Centre
+    address: tba
+    src: miccai-2027-home
+    quote: "at the New Zealand International Convention Centre in Auckland."
+last_checked: 2026-09-25
+note_zh: 会期和地点已由官网确认：2027-09-27 至 10-01，奥克兰新西兰国际会议中心。投稿日期还没公布（2027 年的重要日期页目前打不开），标“预计”的日期按 MICCAI 2026 顺延：摘要注册 2/12、正文 2/26（太平洋时间 23:59）、审稿意见与提前录用 5/7、rebuttal 5/8–14、最终结果 6/12、camera-ready 与作者注册 6/26。MICCAI 2028 在圣保罗（2028-10-16 至 20）。

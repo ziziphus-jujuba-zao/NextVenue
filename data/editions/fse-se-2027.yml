@@ -1,0 +1,54 @@
+id: fse-se-2027
+series: fse-se
+name: FSE 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Shenzhen, country: China, country_code: CN }
+dates: { start: 2027-07-12, end: 2027-07-16 }
+milestones:
+  - type: paper
+    at: 2026-10-02T23:59
+    tz: AoE
+    status: confirmed
+    src: fse-se-2027-papers
+    quote: "Fri 2 Oct 2026 Full paper submission"
+    note_zh: 研究论文只有这一个截止，没有单独的摘要截止；所有日期按 AoE（UTC-12），即北京时间 10/3 19:59。投稿最多 18 页正文加 4 页参考文献，单栏 acmsmall 格式，不合格式直接拒稿。
+  - type: author_response
+    start: 2026-12-14
+    end: 2026-12-18T23:59
+    tz: AoE
+    status: confirmed
+    src: fse-se-2027-papers
+    quote: "Mon 14 - Fri 18 Dec 2026 Author response period"
+  - type: phase1_notification
+    label_zh: 初审结果（录用 / 大修 / 拒稿）
+    at: 2027-01-22
+    tz: AoE
+    status: confirmed
+    src: fse-se-2027-papers
+    quote: "Fri 22 Jan 2027 Initial notification"
+  - type: author_response
+    label_zh: 大修稿截止（仅限 Major Revision）
+    at: 2027-03-05T23:59
+    tz: AoE
+    status: confirmed
+    src: fse-se-2027-papers
+    quote: "Fri 5 Mar 2027 Major revision submission"
+    note_zh: 大修稿最多 20 页正文加 4 页参考文献，要附逐条回复信，由原审稿人复审；回复信也要保持匿名。
+  - type: notification
+    label_zh: 终审结果
+    at: 2027-03-31
+    tz: AoE
+    status: confirmed
+    src: fse-se-2027-papers
+    quote: "Wed 31 Mar 2027 Final notification"
+  - type: conference
+    start: 2027-07-12
+    end: 2027-07-16
+    tz: Asia/Shanghai
+    status: confirmed
+    src: fse-se-2027-papers
+    quote: "Mon 12 - Fri 16 July 2027 Shenzhen, China"
+last_checked: 2026-09-25
+note_zh: FSE 2027 在深圳举办。研究论文 2026-10-02 AoE 截止（北京时间 10/3 19:59），12/14–18 作者回复，2027-01-22 出初审结果（录用、大修或拒稿），大修稿 3/5，3/31 出终审结果。会场在中国大陆，不需要签证。

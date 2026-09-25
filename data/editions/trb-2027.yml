@@ -1,0 +1,48 @@
+id: trb-2027
+series: trb
+name: TRB 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: "Washington, D.C.", country: USA, country_code: US }
+dates: { start: 2027-01-10, end: 2027-01-14 }
+submission_type: full_paper
+submission_evidence:
+  src: trb-2027-paper-review
+  quote: "Full papers are required for all submissions to the Annual Meeting. Submission of an abstract, outline, or summary alone is not acceptable."
+  note_zh: 每篇不超过 20 页（含标题页、结构化摘要、图表和参考文献），不许附录。可以选“只申请报告”或“报告并申请 TRR 期刊”。
+milestones:
+  - type: paper
+    at: 2026-08-01
+    tz: America/New_York
+    status: confirmed
+    src: trb-2027-paper-review
+    quote: "August 1: Submission site closes (Deadline Clock for the exact time of closing)"
+    note_zh: 已截止。官网写具体时刻看投稿系统的倒计时，这里按美国东部时间当天结束记。
+  - type: notification
+    label_zh: 出结果（10 月初）
+    start: 2026-10-01
+    end: 2026-10-10
+    tz: America/New_York
+    status: estimated
+    src: trb-2027-paper-review
+    quote: "Early October: Paper decisions sent"
+    note_zh: 预计。官网只写“10 月初”发结果，没给具体日期；这里按 10/1–10/10 显示。
+  - type: early_registration
+    at: 2026-11-18
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: trb-2027-event
+    quote: "November 18: Early Bird Registration Deadline"
+    note_zh: 官方只给日期、没写时区，按北京时间当天结束算（比按美东时间早 13 小时，更保守）。11/19 到 2027-01-07 是提前注册价（Advance Registration），1/8 起现场注册。
+  - type: conference
+    start: 2027-01-10
+    end: 2027-01-14
+    tz: America/New_York
+    status: confirmed
+    src: trb-2027-event
+    quote: "the 2027 TRB Annual Meeting will be held January 10–14, 2027, at the Walter E. Washington Convention Center and Marriott Marquis in Washington, D.C."
+    note_zh: '第 106 届。录用论文的作者要在 11/20 前决定在线程序里放全文还是只放结构化摘要（“November 20: For accepted papers, this is the deadline for authors to decide whether to post their full paper on TRB’s Annual Meeting Online Program or just the structured abstract.”）。'
+last_checked: 2026-09-25
+note_zh: 投稿已截止，10 月初出结果。去美国要办 B1/B2 签证，出结果后尽早预约。

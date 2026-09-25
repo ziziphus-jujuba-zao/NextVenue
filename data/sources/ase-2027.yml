@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ase-2027
+sources:
+  - id: ase-2026-research
+    url: https://conf.researchr.org/track/ase-2026/ase-2026-research-track
+    title: ASE 2026 Research Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:21Z
+    http_status: 200
+    snapshot: ff08bb038dc73eea441b43f1d44b09892adad53f09aaf5d9efa60fd5a0616888
+  - id: ase-2026-home
+    url: https://conf.researchr.org/home/ase-2026
+    title: ASE 2026 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:32Z
+    http_status: 200
+    snapshot: 17ec4c094ff905a064c2aa8a1c2a1fbe46380cafb69a3551b94ed5684972a036

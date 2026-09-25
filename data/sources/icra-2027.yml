@@ -5,15 +5,15 @@ sources:
     url: https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
     title: ICRA 2027 Call for Papers
     kind: cfp
-    fetched_at: 2026-09-24T23:03:53Z
+    fetched_at: 2026-09-25T10:43:12Z
     http_status: 200
     snapshot: 3ad79f4f81f9f06a92f29084332c2f5be5a77d00e1f7795ed25ce018205b1948
-    note_zh: "Important Dates 已改为延期后的 9/16（23:59 PST）；只写 PaperPlaza 2/6 开放终稿提交，没写终稿截止日。页面 FAQ 仍写“There is no plan to extend the paper submission deadline.”，是延期前的旧文字。"
+    note_zh: Important Dates 已改为延期后的 9/16（23:59 PST）；只写 PaperPlaza 2/6 开放终稿提交，没写终稿截止日。另列作者注册 3/5、早鸟 3/31、标准注册 5/14，并写明不能线上报告。页面 FAQ 仍写“There is no plan to extend the paper submission deadline.”，是延期前的旧文字。
   - id: icra-2027-deadline-extension
     url: https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/
     title: "ICRA 2027 announcement: Call for Papers Submission Deadline Extended (2026-09-16)"
     kind: blog
-    fetched_at: 2026-09-24T23:03:54Z
+    fetched_at: 2026-09-25T10:43:12Z
     http_status: 200
     snapshot: 44b44d3321eadc8f352ca6a694c6bddb964b6c65c7d98fa291fd340ce04ac188
     note_zh: 官网公告：正文截止延期 24 小时，由原定 9/15 改为 9/16 23:59 PST。
@@ -21,7 +21,7 @@ sources:
     url: https://2027.ieee-icra.org/announcements/call-for-papers-accompanying-video-submission-period-updated/
     title: "ICRA 2027 announcement: Accompanying Video Submission Period Updated (2026-09-17)"
     kind: blog
-    fetched_at: 2026-09-24T23:03:54Z
+    fetched_at: 2026-09-25T10:43:12Z
     http_status: 200
     snapshot: 996348a937969d73001a2016e3724d84b14531a8d6bcade304d81e6095028caa
     note_zh: 官网公告：视频附件第二个上传窗口调整为 9/18–22（23:59 PST）。
@@ -29,7 +29,7 @@ sources:
     url: https://2027.ieee-icra.org/
     title: ICRA 2027 Home
     kind: other
-    fetched_at: 2026-09-24T23:03:54Z
+    fetched_at: 2026-09-25T10:43:12Z
     http_status: 200
     snapshot: a7a477f6f4679fe9d1f4b3618c83773dbab5678adadfeb033d4145005fd7ef69
     note_zh: 会期 5/24–28，地点首尔 Coex。
@@ -37,7 +37,39 @@ sources:
     url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
     title: "IEEE RAS: ICRA 2027 Important Dates"
     kind: dates
-    fetched_at: 2026-09-24T23:03:55Z
+    fetched_at: 2026-09-25T10:43:13Z
     http_status: 200
     snapshot: d337a337f3a0a7218537effca3392b351c8b75c431fff68696480e81a89ab3f1
-    note_zh: "主办学会 IEEE RAS 的 ICRA 页面，写明“All deadlines are 11:59 PM Pacific time.”。正文截止仍写延期前的 15 September 2026；终稿提交写 6 March 2027，ICRA 官网没有这一项。"
+    note_zh: 主办学会 IEEE RAS 的 ICRA 页面，写明“All deadlines are 11:59 PM Pacific time.”。正文截止仍写延期前的 15 September 2026；终稿提交写 6 March 2027，ICRA 官网没有这一项。
+  - id: icra-2027-registration
+    url: https://2027.ieee-icra.org/attend/registration-information/
+    title: ICRA 2027 Registration Information
+    kind: policy
+    fetched_at: 2026-09-25T10:43:13Z
+    http_status: 200
+    snapshot: f31c6dfd46e2dd07d1512f1c1e2e8c233980099df23d6cc931bb41a159dd8539
+    note_zh: 注册页：正会费用表（早鸟 / 标准 / 现场三档，含“Paper Uploads”一栏）、取消政策（4/9 前退款扣 50 美元）、至少保留一位作者注册。日程一栏写“Important Dates (TBD)”，注册 2 月初开放。
+  - id: icra-2027-visa
+    url: https://2027.ieee-icra.org/attend/visa-information/
+    title: ICRA 2027 Visa Information
+    kind: policy
+    fetched_at: 2026-09-25T10:43:13Z
+    http_status: 200
+    snapshot: 2013a89ff596600df6d55e1a02b9d75ba409b8b8ec5ef8141865440c2a81e770
+    note_zh: 签证页：邀请函只给已注册并付款的参会者；对中国写得笼统（“May require either a visa or K-ETA depending on nationality”），不采用。
+  - id: icra-2027-venue
+    url: https://2027.ieee-icra.org/attend/venue-conference-center/
+    title: "ICRA 2027 Venue: Conference Center"
+    kind: other
+    fetched_at: 2026-09-25T10:43:13Z
+    http_status: 200
+    snapshot: 58832b6f4032ec7bd87196fa6de46aa0f0edb921c6140a1ea9e8ab11f0947c59
+    note_zh: 会场页：Coex – Convention & Exhibition Center，写有地址。
+  - id: icra-2027-travel
+    url: https://2027.ieee-icra.org/attend/travel-information/
+    title: ICRA 2027 Travel Information
+    kind: other
+    fetched_at: 2026-09-25T10:43:13Z
+    http_status: 200
+    snapshot: af7cebae1e0ffae6470a60e6e611aafcf50f47d454080dc186d404b7641cdc88
+    note_zh: 交通页：只有机场和市内交通，没有协议酒店。

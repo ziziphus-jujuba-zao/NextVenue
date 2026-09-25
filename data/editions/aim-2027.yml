@@ -1,0 +1,22 @@
+id: aim-2027
+series: aim
+name: AIM 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Calgary, country: Canada, country_code: CA }
+dates: { start: 2027-07-12, end: 2027-07-15 }
+milestones:
+  - type: paper
+    tz: Asia/Shanghai
+    status: tba
+    note_zh: AIM 2027 的征文和截止日期还没公布，大会官网也还没找到。
+  - type: conference
+    start: 2027-07-12
+    end: 2027-07-15
+    tz: America/Edmonton
+    status: confirmed
+    src: ies-conferences
+    quote: "AIM 2027 Calgary, Canada, 12-15 July 2027 2027 IEEE International Conference on Advanced Intelligent Mechatronics"
+    note_zh: 取自 IEEE 工业电子学会（IES）的会议列表。
+last_checked: 2026-09-25

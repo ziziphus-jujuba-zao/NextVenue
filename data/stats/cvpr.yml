@@ -1,0 +1,131 @@
+# CVPR 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: cvpr
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 6656
+    accepted: 1470
+    rate: 22.1
+    rate_text: 22.1%
+    rate_basis: computed
+    definition_zh: 主会
+    source_url: https://x.com/greg_mori/status/1231806324033368065
+    quote: "CVPR 2020 paper decisions are now available, 1470 papers accepted: ... A huge thank you to everyone involved -- 198 Area Chairs, 3664 reviewers, and the authors of the 6656 papers."
+    quote_check: manual
+    note_zh: 程序主席用个人账号发布
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 7093
+    accepted: 1661
+    rate: 23.6
+    rate_text: 23.6%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://www.computer.org/csdl/proceedings-article/cvpr/2021/450900z166/1yeJnpNlo0o
+    quote: CVPR continued its rapid growth with a record number of 7093 submissions. The program chairs worked with 280 area chairs and almost 7500 reviewers to select 1661 papers. ... The final acceptance rate is 23.6%, consistent with the high standard of past CVPR conferences.
+    src: cvpr-2021-front-matter
+    quote_check: snapshot
+    mismatch_zh: 官方写 23.6%，按官方数字算是 23.4%，可能用了更小的有效投稿分母
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 8161
+    accepted: 2063
+    rate: 25.28
+    rate_text: 25.28%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://www.computer.org/csdl/proceedings-article/cvpr/2022/694600z223/1H1jihVGB1e
+    quote: CVPR 2022 experienced another surge with a record number of 8161 submissions, amounting to a 15% increase from the 7093 submissions to CVPR 2021. ... 2063 papers have been accepted through a rigorous review process, leading to an overall acceptance rate of 25.28%.
+    src: cvpr-2022-front-matter
+    quote_check: snapshot
+    also:
+      - source_url: https://www.computer.org/press-room/2022-news/record-breaking-2022-cvpr
+        quote: CVPR 2022 experienced a record number of paper submissions - 8,161 - of which only 2,064 were accepted at the conference.
+        src: cvpr-2022-press-release
+        quote_check: snapshot
+        note_zh: IEEE 计算机学会新闻稿写的录用数是 2,064
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 9155
+    accepted: 2359
+    rate: 25.8
+    rate_text: 25.8%
+    rate_basis: stated
+    definition_zh: 主会
+    source_url: https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900z301/1POTbxllic8
+    quote: CVPR 2023 received 9155 submissions, a 12% increase from the 8161 submissions to CVPR 2022. ... At the end of this process, 2359 papers were accepted (25.8% acceptance rate).
+    src: cvpr-2023-front-matter
+    quote_check: snapshot
+    also:
+      - source_url: https://x.com/CVPR/status/1630258226158551048
+        quote: "#CVPR2023 decisions are now available on OpenReview! This year, we received a record number of 9155 submissions (a 12% increase over CVPR 2022), and accepted 2360 papers, for a 25.78% acceptance rate."
+        quote_check: manual
+        note_zh: 出结果当天的说法
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 11532
+    accepted: 2719
+    rate: 23.6
+    rate_text: 23.6%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿
+    source_url: https://www.computer.org/csdl/proceedings-article/cvpr/2024/530000z343/20hLmVNRbY4
+    quote: CVPR 2024 received 11,532 valid paper submissions, a 26% increase from CVPR 2023. ... At the end of this process, 2,719 papers were accepted, for a 23.6% overall acceptance rate.
+    src: cvpr-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 13008
+    accepted: 2872
+    rate: 22.1
+    rate_text: 22.1%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿
+    source_url: https://www.computer.org/csdl/proceedings-article/cvpr/2025/436400z382/299bDhaj7A4
+    quote: CVPR 2025 received 13008 valid paper submissions, a 13% increase from last CVPR. ... At the end of this process, 2,872 papers were accepted, for a 22.1% overall acceptance rate.
+    src: cvpr-2025-front-matter
+    quote_check: snapshot
+    also:
+      - source_url: https://x.com/CVPR/status/1894847804717072459
+        quote: "This year, #CVPR2025 received 13,008 valid submissions that underwent the review process.  The program committee recommended 2878 papers for acceptance, resulting in an acceptance rate of 22.1%."
+        quote_check: manual
+        note_zh: 出结果当天推荐录用的篇数
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 16092
+    accepted: 4090
+    rate: 25.42
+    rate_text: 25.42%
+    rate_basis: stated
+    definition_zh: 主会；分母不含审稿中撤稿和桌拒的论文；推荐去 Findings workshop 的论文不算录用
+    source_url: https://x.com/CVPR/status/2025091165477810319
+    quote: "At #CVPR2026, 16,092 submissions underwent the review process (this number excludes papers withdrawn or desk-rejected during the review process). The program committee recommended 4,090 papers for acceptance, resulting in an acceptance rate of 25.42%."
+    quote_check: manual
+    also:
+      - source_url: https://cvpr.thecvf.com/Conferences/2026/News/Technical_Program
+        quote: CVPR 2026 drew a record number of paper submissions—16,092, a 24% increase over 2025. Through a rigorous peer-review process, about one-quarter were accepted to the program, resulting in 4,089 paper presentations.
+        src: cvpr-2026-technical-program
+        quote_check: snapshot
+        note_zh: 会后新闻稿写的是 4,089 场论文报告
+    checked: 2026-09-25
+areas_none:
+  - years:
+      - 2023
+    scope_zh: 开幕式幻灯片只有总数
+    checked: 2026-09-25
+    checked_urls:
+      - https://cvpr.thecvf.com/media/cvpr-2023/Slides/23313.pdf

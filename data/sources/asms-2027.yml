@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: asms-2027
+sources:
+  - id: asms-2027-annual-conference
+    url: https://www.asms.org/conferences/annual-conference
+    title: ASMS Annual Conference
+    kind: other
+    fetched_at: 2026-09-25T16:07:48Z
+    http_status: 200
+    snapshot: ddf7e0067a194a6da4d03415d8268eef957caa38eee71af14798bbec9905adee

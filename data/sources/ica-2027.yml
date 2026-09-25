@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ica-2027
+sources:
+  - id: ica-2027-cfp
+    url: https://cdn.ymaws.com/www.icahdq.org/resource/resmgr/conference/2027/ica27_cfp.pdf
+    title: ICA 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T18:18:46Z
+    http_status: 200
+    snapshot: 16adfdf576f9545cdf480764ffeefb78b5ffaa25e88649adb019a89310cee76e

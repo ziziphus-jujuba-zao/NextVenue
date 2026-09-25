@@ -1,0 +1,76 @@
+id: etaps-2027
+series: etaps
+name: ETAPS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Copenhagen, country: Denmark, country_code: DK }
+dates: { start: 2027-04-10, end: 2027-04-15 }
+milestones:
+  - type: paper
+    label_zh: ESOP 第一轮正文截止
+    at: 2026-05-28T23:59
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Submission deadline for ESOP-round 1: May 28, 2026"
+  - type: author_response
+    label_zh: ESOP 第一轮 rebuttal
+    start: 2026-07-20
+    end: 2026-07-22
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Rebuttal for ESOP-round 1: July 20-22, 2026"
+  - type: notification
+    label_zh: ESOP 第一轮出结果
+    at: 2026-08-06
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Notification for ESOP-round 1: August 6, 2026"
+  - type: paper
+    label_zh: 正文截止（ESOP 第二轮、FoSSaCS、TACAS、iFS）
+    at: 2026-10-15T23:59
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Submission deadline for ESOP-round 2, iFS, FoSSaCS, TACAS: Thursday, October 15, 2026"
+    note_zh: 官网写所有截止都是 AoE，而且不会延期（“Deadlines are firm and will not be extended.”）。没有单独的摘要截止。
+  - type: supplementary
+    label_zh: TACAS 工具论文 artifact 截止（必交）
+    at: 2026-10-29T23:59
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "TACAS mandatory artifact submission deadline (2 weeks after paper submission): Thursday, October 29, 2026"
+  - type: author_response
+    label_zh: rebuttal（ESOP 第二轮、FoSSaCS、TACAS；iFS 没有）
+    start: 2026-12-07
+    end: 2026-12-09
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Rebuttal (ESOP-round 2, FoSSaCS, TACAS): December 7-9, 2026"
+  - type: notification
+    at: 2026-12-22
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Paper notification and TACAS mandatory artifact notification: Tuesday, December 22, 2026"
+  - type: camera_ready
+    at: 2027-01-25T23:59
+    tz: AoE
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Paper final version: Monday, January 25, 2027"
+  - type: conference
+    start: 2027-04-10
+    end: 2027-04-15
+    tz: Europe/Copenhagen
+    status: confirmed
+    src: etaps-2027-cfp
+    quote: "Copenhagen, Denmark, April 10–15, 2027"
+    note_zh: 4/10–11 是卫星活动，主会 4/12–15。
+last_checked: 2026-09-25
+note_zh: ETAPS 2027 是联合会议，成员会议是 ESOP（两轮投稿）、FoSSaCS、TACAS 和新设的 iFS（由 iFM 与 FASE 合并而来），共用一份征稿。ESOP 第一轮已经结束。同一篇稿件不能同时投给多个 ETAPS 会议；录用后须有一位作者到场报告。TACAS 另有一条（TACAS 2027），日期相同。

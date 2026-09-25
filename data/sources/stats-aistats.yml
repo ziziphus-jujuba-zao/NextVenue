@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-aistats
+sources:
+  - id: aistats-2026-pc-post
+    url: https://www.linkedin.com/posts/asolin_aistats2026-tangier-morocco-activity-7424831733768044544-DjfS
+    title: AISTATS 2026 program chair Arno Solin on LinkedIn
+    kind: blog
+    fetched_at: 2026-09-25T13:12:36Z
+    http_status: 200
+    snapshot: 0100ed4c8a3d3bf4a58aab599e8f05ec4d5218e23303934b879de7cb722d69b5

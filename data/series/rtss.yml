@@ -1,0 +1,13 @@
+id: rtss
+acronym: RTSS
+full_name: IEEE Real-Time Systems Symposium
+aliases:
+  - The IEEE Real-Time Systems Symposium
+directions: [cs/systems]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每年 12 月举办，截稿在 5 月。
+dblp: conf/rtss
+ccfddl: MX/RTSS
+data_level: curated

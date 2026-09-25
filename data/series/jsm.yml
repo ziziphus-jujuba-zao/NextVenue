@@ -1,0 +1,13 @@
+id: jsm
+acronym: JSM
+full_name: Joint Statistical Meetings
+name_zh: 联合统计会议
+aliases:
+  - ASA Joint Statistical Meetings
+directions: [math/stats]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国统计学会（ASA）等多个统计学会联合举办，往届都在每年 8 月初举办
+data_level: curated
+note_zh: 自由投稿走 contributed abstract；主题分会（topic-contributed）和邀请分会另走提案。

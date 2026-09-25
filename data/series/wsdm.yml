@@ -1,0 +1,11 @@
+id: wsdm
+acronym: WSDM
+full_name: ACM International Conference on Web Search and Data Mining
+directions: [cs/dm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/wsdm
+ccfddl: DB/WSDM
+data_level: curated

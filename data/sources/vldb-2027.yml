@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: vldb-2027
+sources:
+  - id: vldb-2027-dates
+    url: https://www.vldb.org/2027/important-dates.html
+    title: VLDB 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:46:14Z
+    http_status: 200
+    snapshot: 45b5ad242aeecc774117e08823e1ee8563c0c168bdad396c7bff2944a6c58ff7
+  - id: vldb-2027-home
+    url: https://www.vldb.org/2027/
+    title: VLDB 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:15Z
+    http_status: 200
+    snapshot: ed6b037bcda41e925860b15d16b34289a1f04e2525ca4e282bed8b0e9de98358

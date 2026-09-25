@@ -1,0 +1,22 @@
+id: esa-ecology-2027
+series: esa-ecology
+name: ESA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Toronto, country: Canada, country_code: CA }
+dates: { start: 2027-07-25, end: 2027-07-30 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/New_York
+    note_zh: 2027 届的摘要截止还没公布。
+  - type: conference
+    start: 2027-07-25
+    end: 2027-07-30
+    tz: America/Toronto
+    status: confirmed
+    src: esa-ecology-2027-home
+    quote: "July 25-30, 2027"
+last_checked: 2026-09-25
+note_zh: 第 112 届，多伦多 Metro Toronto Convention Center。

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "cities.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Chinese names and time zones of the cities venues are held in (data/cities.yml)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["countries", "cities"],
+  "definitions": {
+    "code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "name": { "type": "string", "minLength": 1, "pattern": "^\\S(.*\\S)?$" }
+  },
+  "properties": {
+    "countries": {
+      "type": "object",
+      "description": "ISO 3166-1 alpha-2 → 中文国家或地区名（港澳台写“中国香港”“中国澳门”“中国台湾”）",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[A-Z]{2}$": { "type": "string", "minLength": 1 }
+      }
+    },
+    "cities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "name_zh", "country_code", "tz"],
+        "properties": {
+          "name": { "$ref": "#/definitions/name", "description": "数据里的英文写法" },
+          "name_zh": { "type": "string", "minLength": 1, "pattern": "[\\u4e00-\\u9fff]" },
+          "country_code": { "$ref": "#/definitions/code" },
+          "tz": { "type": "string", "pattern": "^[A-Z][A-Za-z_]+(/[A-Za-z_+-]+)+$", "description": "IANA 时区" },
+          "aliases": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/definitions/name" } },
+          "region": { "type": "boolean", "description": "这个名字也是州名：只在 place 的第一段才当城市" },
+          "state": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/definitions/name" }, "description": "place 里城市后面跟着州名时，州名要在这里" }
+        }
+      }
+    },
+    "unknown": {
+      "type": "array",
+      "uniqueItems": true,
+      "description": "数据里出现、但读不出城市的地名（只有国家或地区）",
+      "items": { "$ref": "#/definitions/name" }
+    }
+  }
+}

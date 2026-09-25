@@ -1,0 +1,13 @@
+id: aps-dfd
+acronym: APS DFD
+full_name: APS Division of Fluid Dynamics Annual Meeting
+name_zh: 美国物理学会流体力学分会年会
+aliases:
+  - DFD
+directions: [phys/fluids]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 往届都在每年 11 月（美国感恩节前）举办
+data_level: curated
+note_zh: 流体力学方向规模最大的年会，按摘要投稿，投稿人须是 APS 会员。

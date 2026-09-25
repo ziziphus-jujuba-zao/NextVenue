@@ -1,0 +1,2898 @@
+FSE 2027
+Mon 12 - Fri 16 July 2027 Shenzhen, China
+Toggle navigation
+ * Attending
+   * Venue: Shenzhen, China
+ * Tracks
+    * FSE 2027
+    * Industry Papers
+    * Research Papers
+    * Software Engineering Education
+    * Workshops
+ * Organization
+    * FSE 2027 Committees
+    * Organizing Committee
+    * Steering Committee
+    * Track Committees
+    * Industry Papers
+    * Research Papers
+    * Software Engineering Education
+    * Workshops
+    * Contributors
+    * People Index
+ * Search
+ * Series
+   * Series
+   *
+   * FSE 2027
+   * FSE 2026
+   * FSE 2025
+   * FSE 2024
+   * ESEC/FSE 2023
+   * ESEC/FSE 2022
+   * ESEC/FSE 2021
+   * ESEC/FSE 2020
+   * ESEC/FSE 2018
+
+ * Sign in
+ * Sign up
+
+FSE 2027 (series) /
+
+Research PapersFSE 2027
+
+ * Call for Papers
+
+Call for Papers
+
+We invite high-quality submissions from both industry and academia, describing original and unpublished results of theoretical, empirical, conceptual, and experimental software engineering research.
+
+Contributions should describe innovative and significant original research. Papers describing groundbreaking approaches to emerging problems are also welcome, as well as replication papers. Submissions that facilitate reproducibility by using available datasets or making the described tools and datasets publicly available are especially encouraged. For a list of specific topics of interest, please see the end of this call.
+
+Tracks
+
+This CFP refers to the Research Track of FSE 2027. For the remaining tracks, please check the specific calls on the website: https://conf.researchr.org/home/fse-2027
+
+How to Submit
+
+The following only applies to the main track of FSE. For the other tracks please see the general formatting instructions.
+
+Submission link: https://fse2027.hotcrp.com/
+
+At the time of submission, each paper should have no more than 18 pages for all text and figures, plus 4 pages for references. Major revisions should have no more than 20 pages for all text and figures, plus 4 pages for references. Papers should use the following templates: Latex or Word (Mac) or Word (Windows). Please consult the ACM proceedings website for more information about the latest versions of the various templates (https://www.acm.org/publications/proceedings-template). Authors using LaTeX should use the sample-acmsmall-conf.tex file (found in the samples folder of the acmart package) with the acmsmall option. We also strongly encourage the use of the review, screen, and anonymous options as well. In summary, you want to use:
+
+\documentclass[acmsmall,screen,review,anonymous]{acmart}
+
+Papers may use either numeric or author-year format for citations. It is a single-column page layout. Submissions that do not comply with the above instructions will be desk rejected without review. Papers must be submitted electronically through the FSE 2027 submission site. The link will be posted when we’re closer to the deadline.
+
+Double-Anonymous Review Process
+
+In order to ensure the fairness of the reviewing process, the FSE 2027 Research Papers Track will employ a double-anonymous review process, where reviewers do not know the identity of authors, and authors do not know the identity of reviewers. The papers submitted must not reveal the authors’ identities in any way:
+
+ * Authors should leave out author names and affiliations from the body of their submission.
+ * Authors should ensure that any citation to related work by themselves is written in third person, that is, “the prior work of XYZ” as opposed to “our prior work”.
+ * Authors should not include URLs to author-revealing sites (tools, datasets). Authors are still encouraged to follow open science principles and submit replication packages, see more details on the open science policy below.
+ * Authors should anonymize organization names that might reveal author affiliations, and instead provide the general characteristics of the organizations involved needed to understand the context of the paper.
+ * Authors are encouraged to avoid including an acknowledgements section in a paper at submission time.
+ * While authors have the right to upload preprints on arXiv or similar sites, they should avoid specifying that the manuscript was submitted to FSE 2027.
+ * Authors should provide a supporting statement on the availability of a replication package (or lack thereof) in their submitted papers in a section named Data Availability after the Conclusion section. This section will not be counted towards your page limit.
+
+The double-anonymous process used is “heavy”, i.e., the paper anonymity will be maintained during all reviewing and discussion periods. In case of major revision, authors must therefore maintain anonymity in their response letter and must provide no additional information that could be author-revealing.
+
+Authors with further questions on double-anonymous reviewing are encouraged to contact the program chairs by email. Papers that do not comply with the double-anonymous review process will be desk-rejected.
+
+Decision Process
+
+Each submission will be reviewed by the program committee. The initial decision can be accept, reject, or major revision. Submissions will be evaluated on the basis of originality, importance of contribution, soundness, evaluation (if relevant), quality of presentation, and appropriate comparison to related work.
+
+Early Rejection. To use reviewing effort effectively, submissions for which the available reviews are consistently negative may be rejected before all planned reviews have been completed. Consequently, some early-rejected submissions may receive fewer than three reviews. An early rejection decision will be made only when the available reviews provide a sufficiently clear basis for rejection.
+
+Major Revision. When the initial decision is major revision, authors will have an opportunity to address all of the reviewers’ requests, including but not limited to those in any available meta-review, during the major revision period. Such requests may include additional experiments or new analyses of existing results; major rewriting of algorithms and explanations; clarifications, better scoping, and improved motivations. The revised submission must be accompanied by a response letter, in which the authors explain how they addressed each concern expressed by the reviewers. The same reviewers who requested major revisions will then assess whether the revised submission adequately addresses their requests.
+
+Submission Policies
+
+The authors must follow the “ACM Policy on Authorship” released September 16, 2025 and its accompanying FAQ, including the following points:
+
+ * “Generative AI tools and technologies, such as ChatGPT, may not be listed as authors of an ACM published Work. The use of generative AI tools and technologies to create content is permitted but must be fully disclosed in the Work. For example, the authors could include the following statement in the Acknowledgments section of the Work: ChatGPT was utilized to generate sections of this Work, including text, tables, graphs, code, data, citations, etc. If you are uncertain ­about the need to disclose the use of a particular tool, err on the side of caution, and include a disclosure in the acknowledgments section of the Work.”
+
+ * “Basic word processing systems that recommend and insert replacement text, perform spelling or grammar checks and corrections, or systems that do language translations are to be considered exceptions to this disclosure requirement and are generally permitted and need not be disclosed in the Work. As the line between Generative AI tools and basic word processing systems like MS-Word or Grammarly becomes blurred, this Policy will be updated.”
+
+Please read the full policy and FAQ.
+
+Papers submitted for consideration to FSE should not have been already published elsewhere and should not be under review or submitted for review elsewhere during the reviewing period. Specifically, authors are required to adhere to the ACM Policy and Procedures on Plagiarism and the ACM Policy on Prior Publication and Simultaneous Submissions.
+
+To prevent double submissions, the chairs might compare the submissions with related conferences that have overlapping review periods. The double submission restriction applies only to refereed journals and conferences, not to unrefereed forums (e.g. arXiv.org). To check for plagiarism issues, the chairs might use external plagiarism detection software.
+
+By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all ACM Publications Policies, including ACM’s new Publications Policy on Research Involving Human Participants and Subjects.
+
+Alleged violations to any of the above policies will be reported to ACM for further investigation and may result in a full retraction of your paper, in addition to other potential penalties, as per the ACM Publications Policies.
+
+Please ensure that you and your co-authors obtain an ORCID ID, so you can complete the publishing process if your paper is accepted. ACM has been involved in ORCID from the start and they have recently made a commitment to collect ORCID IDs from all published authors. ACM is committed to improve author discoverability, ensure proper attribution and contribute to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
+
+The authors of accepted papers are invited and strongly encouraged to attend the conference to present their work. Attendance at the event is not mandatory for publication. Authors also have the option of not presenting their work at the conference, in which case they do not need to register.
+
+Important Dates
+
+Please see the panel on the right for the submission deadline, etc.
+
+The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work. Please also note that the names and list of authors as well as the title in the camera-ready version cannot be modified from the ones in the submitted version unless there is explicit approval from the track chairs.
+
+Open Science Policy
+
+The research track of FSE has introduced an open science policy. Openness in science is key to fostering scientific progress via transparency, reproducibility, and replicability. The steering principle is that all research results should be accessible to the public, if possible, and that empirical studies should be reproducible. In particular, we actively support the adoption of open data and open source principles and encourage all contributing authors to disclose (anonymized and curated) data to increase reproducibility and replicability. Upon submission to the research track, authors are asked to make a replication package available to the program committee (via a link to a private or public repository, or to another suitable data sharing platform) or to comment on why this is not possible or desirable. Furthermore, authors are asked to indicate whether they intend to make their data publicly available upon acceptance. We ask authors to provide a supporting statement on the availability of a replication package (or lack thereof) in their submitted papers in a section named Data Availability after the Conclusion section. This statement will not count towards the page limit for the submission. Be careful that such statements continue to maintain author anonymity.
+
+Authors of accepted papers will be given an opportunity (and encouragement) to submit their data and tools to the separate FSE 2027 artifact evaluation committee.
+
+Topics of Interest
+
+Topics of interest include, but are not limited to:
+
+ * Artificial intelligence and machine learning for software engineering
+ * Autonomic computing
+ * Debugging and fault localization
+ * Dependability, safety, and reliability
+ * Distributed and collaborative software engineering
+ * Embedded software, safety-critical systems, and cyber-physical systems
+ * Empirical software engineering
+ * Human and social aspects of software engineering
+ * Human-computer interaction
+ * Mining software repositories
+ * Mobile development
+ * Model checking
+ * Model-driven engineering
+ * Parallel, distributed, and concurrent systems
+ * Performance engineering
+ * Program analysis
+ * Program comprehension
+ * Program repair
+ * Program synthesis
+ * Programming languages
+ * Recommendation systems
+ * Requirements engineering
+ * Search-based software engineering
+ * Services, components, and cloud
+ * Software architectures
+ * Software engineering education
+ * Software engineering for machine learning and artificial intelligence
+ * Software evolution
+ * Software processes
+ * Software security
+ * Software testing
+ * Software traceability
+ * Symbolic execution
+ * Tools and environments
+
+Policy on the Use of Generative AI Tools
+
+FSE 2027 follows the ACM Policy on Authorship and the Use of Generative AI Tools and Technologies.
+
+ * “When using Artificial Intelligence to conduct research, including the design and methodology of the research project, creation and selection of data sources, designing experiments, generation and collection of data, coding, implementing models, running simulations, data analysis, testing, validating results, deploying software, archiving data and code for reproducibility, or any other aspects of the research lifecycle that are directly relevant to the conclusions of the research underlying the Work, the specific use(s) of AI tools must be described in detail in the methods section of the Work. This includes the creation of artifacts that are directly relevant to the conclusions of the research, such as code, datasets, and charts or figures that rely on the AI tools.”
+
+ * “When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI.”
+
+ * “All named authors on an ACM submission will be held responsible and accountable for any problematic content contained in the submission regardless of the source of that problematic content:”
+
+   * “In the event content integrity issues stemming from the use of AI during authorship are identified prior to publication or posting in the ACM Digital Library, ACM reserves the right to reject submissions in their entirety and impose additional penalties.”
+   * “In the event content integrity issues stemming from the use of AI during authorship are identified after publication or posting in the ACM Digital Library, ACM reserves the right to retract the published Work in its entirety.”
+
+ * The followings is strictly prohibited:
+
+   * fabricated or hallucinated results, citations, or datasets,
+   * plagiarism or unattributed AI-generated content,
+   * unauthorized use of confidential or non-public material,
+   * prompt injection or hidden instructions intended to manipulate reviewers or AI systems. Prompt injection includes hidden or adversarial text designed to influence automated systems or obtain favorable reviews. Violations may result in desk rejection and further action at the discretion of the Program Chairs.
+
+ * Submissions will be checked for fabricated, hallucinated, or unverifiable references. Papers containing confirmed fabricated or hallucinated citations will be desk-rejected without review. Authors are responsible for ensuring that all references are accurate, authentic, and verifiable.
+
+ACM’s Open Access Publishing Model
+
+Accepted papers will be published as open access. Authors have two options: 1) At least one author is from an institution participating in the ACM Open institutional model. 2) Authors from institutions not participating in ACM Open will need to pay an article processing charge (APC) to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of institutions participating in ACM Open and review the APC Waivers and Discounts Policy. To support authors and institutions as they continue to adapt to ACM’s Open Access publishing model, the ACM Council has approved subsidized APC rates for calendar year 2027, which are USD500 APC for ACM/SIG members and USD750 for non-members.
+
+Important Dates AoE (UTC-12h)
+
+Fri 2 Oct 2026
+Full paper submission
+Mon 14 - Fri 18 Dec 2026
+Author response period
+Fri 22 Jan 2027
+Initial notification
+Fri 5 Mar 2027
+Major revision submission
+Wed 31 Mar 2027
+Final notification
+
+Submission Link
+https://fse2027.hotcrp.com/
+Program Committee
+
+ * Michael PradelChair
+
+   CISPA Helmholtz Center for Information Security
+
+   Germany
+
+ * Baishakhi RayChair
+
+   Columbia University
+
+   United States
+
+ * Bram AdamsArea Chair
+
+   Queen's University
+
+   Canada
+
+ * Alberto BacchelliArea Chair
+
+   IfI, University of Zurich
+
+   Switzerland
+
+ * Kelly BlincoeArea Chair
+
+   University of Auckland
+
+   New Zealand
+
+ * Maria ChristakisArea Chair
+
+   TU Wien
+
+   Austria
+
+ * Matthew B DwyerArea Chair
+
+   University of Virginia
+
+ * Dan HaoArea Chair
+
+   Peking University
+
+   China
+
+ * Miryung KimArea Chair
+
+   UCLA and Amazon Web Services
+
+   United States
+
+ * Claire Le GouesArea Chair
+
+   Carnegie Mellon University
+
+ * Yun LinArea Chair
+
+   Shanghai Jiao Tong University
+
+   China
+
+ * Lei MaArea Chair
+
+   The University of Tokyo & University of Alberta
+
+   Japan
+
+ * Shahar MaozArea Chair
+
+   Tel Aviv University
+
+   Israel
+
+ * Henry MucciniArea Chair
+
+   University of L'Aquila, Italy
+
+   Italy
+
+ * Mike PapadakisArea Chair
+
+   University of Luxembourg
+
+   Luxembourg
+
+ * Denys PoshyvanykArea Chair
+
+   William & Mary
+
+ * Abhik RoychoudhuryArea Chair
+
+   National University of Singapore
+
+   Singapore
+
+ * Ting SuArea Chair
+
+   East China Normal University
+
+   China
+
+ * Lin TanArea Chair
+
+   Purdue University
+
+   United States
+
+ * Shin YooArea Chair
+
+   KAIST
+
+   South Korea
+
+ * Lingming ZhangArea Chair
+
+   University of Illinois at Urbana-Champaign
+
+   United States
+
+ * Eduardo Almeida
+
+   Federal University of Bahia (UFBA)
+
+   Brazil
+
+ * Lingfeng Bao
+
+   Zhejiang University
+
+   China
+
+ * Eman Abdullah AlOmar
+
+   Stevens Institute of Technology, USA
+
+   United States
+
+ * Rui Abreu
+
+   Faculty of Engineering of the University of Porto, Portugal
+
+   Portugal
+
+ * Ankit Agrawal
+
+   Northeastern Illinois University
+
+   United States
+
+ * Nazareno Aguirre
+
+   University of Rio Cuarto/CONICET, Argentina, and Guangdong Technion-Israel Institute of Technology, China
+
+   Argentina
+
+ * Iftekhar Ahmed
+
+   University of California at Irvine
+
+   United States
+
+ * Toufique Ahmed
+
+   IBM
+
+   United States
+
+ * Mahmoud Alfadel
+
+   University of Calgary
+
+   Canada
+
+ * Karim Ali
+
+   NYU Abu Dhabi
+
+   United Arab Emirates
+
+ * Gabin An
+
+   Korea University
+
+   South Korea
+
+ * Paolo Arcaini
+
+   Simula Research Laboratory
+
+   Norway
+
+ * Chetan Arora
+
+   Monash University
+
+   Australia
+
+ * Steven Arzt
+
+   Fraunhofer SIT; ATHENE
+
+   Germany
+
+ * Jinsheng Ba
+
+   The Chinese University of Hong Kong, Shenzhen
+
+   China
+
+ * Hamid Bagheri
+
+   University of Nebraska-Lincoln
+
+   United States
+
+ * Guangdong Bai
+
+   City University of Hong Kong
+
+ * Luciano Baresi
+
+   Politecnico di Milano
+
+   Italy
+
+ * Gabriele Bavota
+
+   Software Institute @ Università della Svizzera Italiana
+
+   Switzerland
+
+ * Jonathan Bell
+
+   Northeastern University
+
+   United States
+
+ * Alexandre Bergel
+
+   German Aerospace Center (DLR) Institute for Software Technology
+
+   Germany
+
+ * Cor-Paul Bezemer
+
+   University of Alberta
+
+   Canada
+
+ * Domenico Bianculli
+
+   University of Luxembourg
+
+   Luxembourg
+
+ * Soneya Binta Hossain
+
+   University of Texas at Dallas
+
+   United States
+
+ * Tegawendé F. Bissyandé
+
+   University of Luxembourg
+
+   Luxembourg
+
+ * Kevin Borgolte
+
+   Ruhr University Bochum
+
+   Germany
+
+ * Islem BOUZENIA
+
+   CISPA Helmholtz Center for Information Security
+
+ * Yuriy Brun
+
+   University of Massachusetts
+
+   United States
+
+ * Timofey Bryksin
+
+   JetBrains Research
+
+   Cyprus
+
+ * Lei Bu
+
+   Nanjing University
+
+   China
+
+ * Alexandra Bugariu
+
+   University of Zurich
+
+   Switzerland
+
+ * Tevfik Bultan
+
+   University of California at Santa Barbara
+
+   United States
+
+ * Nimrod Busany
+
+   Traigent
+
+   Israel
+
+ * Jenna L. Butler
+
+   Microsoft Research
+
+ * Marcel Böhme
+
+   CISPA Helmholtz Center for Information Security
+
+   Germany
+
+ * Joanna C. S. Santos
+
+   University of Notre Dame
+
+   United States
+
+ * Haipeng Cai
+
+   University at Buffalo, SUNY
+
+   United States
+
+ * Yan Cai
+
+   Institute of Software at Chinese Academy of Sciences
+
+   China
+
+ * Gül Calikli
+
+   University of Glasgow
+
+   United Kingdom
+
+ * Matteo Camilli
+
+   Politecnico di Milano
+
+   Italy
+
+ * José Campos
+
+   Faculty of Engineering of the University of Porto, Portugal
+
+   Portugal
+
+ * Jialun Cao
+
+   Hong Kong University of Science and Technology
+
+   China
+
+ * Rafael Capilla
+
+   Universidad Rey Juan Carlos
+
+   Spain
+
+ * Nathan Cassee
+
+   University of Victoria
+
+   Canada
+
+ * Gemma Catolino
+
+   University of Salerno
+
+   Italy
+
+ * Sang Kil Cha
+
+   KAIST
+
+   South Korea
+
+ * Stefanos Chaliasos
+
+   UCL & ZKSecurity
+
+ * Bor-Yuh Evan Chang
+
+   University of Colorado Boulder & Amazon
+
+   United States
+
+ * Souti Chattopadhyay
+
+   University of Southern California
+
+   United States
+
+ * Bihuan Chen
+
+   Fudan University
+
+   China
+
+ * Chunyang Chen
+
+   TU Munich
+
+   Germany
+
+ * Jiachi Chen
+
+   Zhejiang University
+
+ * Jocelyn Qiaochu Chen
+
+   University of Alberta
+
+   Canada
+
+ * Junjie Chen
+
+   Tianjin University
+
+   China
+
+ * Kai Chen
+
+   Institute of Information Engineering at Chinese Academy of Sciences; University of Chinese Academy of Sciences
+
+   China
+
+ * Lin Chen
+
+   Nanjing University
+
+   China
+
+ * Simin Chen
+
+   Department of Computer Science, George Mason University
+
+   United States
+
+ * Tao Chen
+
+   University of Birmingham
+
+   United Kingdom
+
+ * Taolue Chen
+
+   Birkbeck, University of London
+
+   United Kingdom
+
+ * Xiao Chen
+
+   The Hong Kong University of Science and Technology
+
+   Hong Kong SAR China
+
+ * Yanju Chen
+
+   University of California, San Diego
+
+   United States
+
+ * Yuqi Chen
+
+   ShanghaiTech University
+
+   China
+
+ * Yuting Chen
+
+   Shanghai Jiao Tong University
+
+   China
+
+ * Zhenbang Chen
+
+   College of Computer, National University of Defense Technology
+
+   China
+
+ * Zhenpeng Chen
+
+   Tsinghua University
+
+   China
+
+ * Zhenyu Chen
+
+   Nanjing University
+
+   China
+
+ * Zhuangbin Chen
+
+   Sun Yat-sen University
+
+   China
+
+ * Xiao Cheng
+
+   Macquarie University
+
+   Australia
+
+ * Shing-Chi Cheung
+
+   Hong Kong University of Science and Technology
+
+   China
+
+ * Sridhar Chimalakonda
+
+   Indian Institute of Technology Tirupati
+
+   India
+
+ * Chun Yong Chong
+
+   Monash University Malaysia
+
+   Malaysia
+
+ * Jürgen Cito
+
+   TU Wien
+
+   Austria
+
+ * David Clark
+
+   University College London
+
+   United Kingdom
+
+ * Michael Coblenz
+
+   University of California, San Diego
+
+   United States
+
+ * Lucas C. Cordeiro
+
+   University of Manchester, UK and Federal University of Amazonas, Brazil
+
+   United Kingdom
+
+ * Steven Costiou
+
+   INRIA Lille
+
+   France
+
+ * Kostadin Damevski
+
+   Virginia Commonwealth University
+
+ * Yingnong Dang
+
+   Microsoft Azure
+
+   United States
+
+ * Ronnie de Souza Santos
+
+   University of Calgary
+
+   Canada
+
+ * Renzo Degiovanni
+
+   Luxembourg Institute of Science and Technology
+
+   Luxembourg
+
+ * Yinlin Deng
+
+   University of Illinois at Urbana-Champaign
+
+   United States
+
+ * Luca Di Grazia
+
+   University of St. Gallen
+
+   Switzerland
+
+ * Antinisca Di Marco
+
+   University of L'Aquila
+
+   Italy
+
+ * Massimiliano Di Penta
+
+   University of Sannio, Italy
+
+   Italy
+
+ * Davide Di Ruscio
+
+   University of L'Aquila
+
+   Italy
+
+ * Danny Dig
+
+   University of Colorado Boulder, JetBrains Research
+
+   United States
+
+ * Yangruibo Ding
+
+   University of California, Los Angeles (UCLA)
+
+   United States
+
+ * Zishuo Ding
+
+   The Hong Kong University of Science and Technology (Guangzhou)
+
+   China
+
+ * Jin Song Dong
+
+   National University of Singapore
+
+ * Naipeng Dong
+
+   The University of Queensland, Australia
+
+   Australia
+
+ * Wensheng Dou
+
+   Institute of Software Chinese Academy of Sciences
+
+   China
+
+ * Gregory J. Duck
+
+   National University of Singapore
+
+   Singapore
+
+ * Saikat Dutta
+
+   Cornell University
+
+   United States
+
+ * Robert Dyer
+
+   University of Nebraska-Lincoln
+
+   United States
+
+ * William Eiers
+
+   Stevens Institute of Technology, USA
+
+   United States
+
+ * Madeline Endres
+
+   University of Massachusetts Amherst
+
+   United States
+
+ * Khashayar Etemadi
+
+   ETH Zurich
+
+ * Karine Even-Mendoza
+
+   King’s College London
+
+   United Kingdom
+
+ * Saad Ezzini
+
+   King Fahd University of Petroleum and Minerals
+
+   Saudi Arabia
+
+ * João F. Ferreira
+
+   Faculty of Engineering, University of Porto & INESC-ID
+
+   Portugal
+
+ * Ming Fan
+
+   Xi'an Jiaotong University
+
+   China
+
+ * Zhiyu Fan
+
+   Microsoft
+
+   United Kingdom
+
+ * Chunrong Fang
+
+   Nanjing University
+
+   China
+
+ * Mattia Fazzini
+
+   University of Minnesota
+
+   United States
+
+ * Sidong Feng
+
+   The Chinese University of Hong Kong, Shenzhen
+
+   China
+
+ * Yang Feng
+
+   Nanjing University
+
+   China
+
+ * Yu Feng
+
+   University of California at Santa Barbara
+
+   United States
+
+ * Antonio Filieri
+
+   AWS and Imperial College London
+
+   United States
+
+ * Farnaz Fotrousi
+
+   Chalmers University of Technology and University of Gothenburg
+
+   Sweden
+
+ * Michael Fu
+
+   The University of Melbourne
+
+   Australia
+
+ * Zhoulai Fu
+
+   SUNY Korea; Virginia Tech; Stony Brook University
+
+   Republic of Korea
+
+ * Davide Fucci
+
+   Blekinge Institute of Technology
+
+   Sweden
+
+ * Tommaso Fulcini
+
+   Politecnico di Torino
+
+   Italy
+
+ * Xiang Gao
+
+   Beihang University
+
+   China
+
+ * Yu Gao
+
+   Institute of Software, Chinese Academy of Sciences
+
+   China
+
+ * Zhipeng Gao
+
+   Shanghai Institute for Advanced Study - Zhejiang University
+
+   China
+
+ * Shweta Garg
+
+   Amazon
+
+ * Paul Gazzillo
+
+   University of Central Florida
+
+   United States
+
+ * Ali Ghanbari
+
+   Auburn University
+
+   United States
+
+ * Yaroslav Golubev
+
+   JetBrains Research
+
+   Serbia
+
+ * Jingzhi Gong
+
+   King's College London
+
+   United Kingdom
+
+ * Divya Gopinath
+
+   NASA Ames (KBR Inc.)
+
+ * Rahul Gopinath
+
+   University of Sydney
+
+   Australia
+
+ * Xiaodong Gu
+
+   Shanghai Jiao Tong University
+
+   China
+
+ * Emanuela Guglielmi
+
+   University of Molise
+
+   Italy
+
+ * Muhammad Ali Gulzar
+
+   Virginia Tech
+
+   United States
+
+ * Mohammad Hamdaqa
+
+   Polytechnique Montreal
+
+   Canada
+
+ * DongGyun Han
+
+   Royal Holloway, University of London
+
+   United Kingdom
+
+ * Foyzul Hassan
+
+   University of Michigan at Dearborn
+
+   United States
+
+ * Fei He
+
+   Tsinghua University
+
+   China
+
+ * Pinjia He
+
+   Chinese University of Hong Kong, Shenzhen
+
+   China
+
+ * Shilin He
+
+   ByteDance
+
+ * Dominik Helm
+
+   University of Stuttgart
+
+   Germany
+
+ * Kihong Heo
+
+   KAIST
+
+   South Korea
+
+ * Ben Hermann
+
+   University of Stuttgart
+
+   Germany
+
+ * Martin Hirzel
+
+   IBM Research
+
+   United States
+
+ * Reid Holmes
+
+   University of British Columbia
+
+   Canada
+
+ * Jeff Huang
+
+   Texas A&M University
+
+   United States
+
+ * Kaifeng Huang
+
+   Tongji University
+
+   China
+
+ * Nargiz Humbatova
+
+   Università della Svizzera italiana
+
+   Switzerland
+
+ * Yintong Huo
+
+   Singapore Management University, Singapore
+
+   Singapore
+
+ * Fuyuki Ishikawa
+
+   National Institute of Informatics
+
+   Japan
+
+ * Reyhaneh Jabbarvand
+
+   University of Illinois at Urbana-Champaign
+
+   United States
+
+ * Victoria Jackson
+
+   University of Southampton
+
+   United Kingdom
+
+ * Gunel Jahangirova
+
+   King's College London
+
+   United Kingdom
+
+ * Zhenlan Ji
+
+   Nara Institute of Science and Technology
+
+   Japan
+
+ * Jiajun Jiang
+
+   Tianjin University
+
+   China
+
+ * Lingxiao Jiang
+
+   Singapore Management University
+
+   Singapore
+
+ * Wenxin Jiang
+
+   Socket
+
+   United States
+
+ * Yanjie Jiang
+
+   Tianjin University
+
+   China
+
+ * Yanyan Jiang
+
+   Nanjing University
+
+   China
+
+ * Yu Jiang
+
+   Tsinghua University
+
+   China
+
+ * Zhen Ming (Jack) Jiang
+
+   York University
+
+ * Hai Jin
+
+   Huazhong University of Science and Technology
+
+   China
+
+ * Wuxia Jin
+
+   Xi'an Jiaotong University
+
+   China
+
+ * Yasutaka Kamei
+
+   Kyushu University
+
+   Japan
+
+ * Eunsuk Kang
+
+   Carnegie Mellon University
+
+   United States
+
+ * Hong Jin Kang
+
+   University of Sydney
+
+   Australia
+
+ * Sungmin Kang
+
+   NUS
+
+   Singapore
+
+ * Georgia Kapitsaki
+
+   University of Cyprus
+
+   Cyprus
+
+ * Yutaro Kashiwa
+
+   Nara Institute of Science and Technology
+
+   Japan
+
+ * Maria Kechagia
+
+   National and Kapodistrian University of Athens
+
+   Greece
+
+ * Martin Kellogg
+
+   New Jersey Institute of Technology
+
+   United States
+
+ * Sarfraz Khurshid
+
+   University of Texas at Austin
+
+   United States
+
+ * Fitsum Kifetew
+
+   Fondazione Bruno Kessler
+
+   Italy
+
+ * Dong Jae Kim
+
+   DePaul University
+
+   United States
+
+ * Mijung Kim
+
+   UNIST
+
+   South Korea
+
+ * Jacques Klein
+
+   University of Luxembourg
+
+   Luxembourg
+
+ * Masanari Kondo
+
+   Kyushu University
+
+   Japan
+
+ * Vladimir Kovalenko
+
+   JetBrains Research
+
+   Netherlands
+
+ * Anne Koziolek
+
+   Karlsruhe Institute of Technology
+
+   Germany
+
+ * Rrezarta Krasniqi
+
+   University of North Carolina at Charlotte
+
+   United States
+
+ * Jacob Krüger
+
+   Eindhoven University of Technology
+
+   Netherlands
+
+ * Hongyu Kuang
+
+   Nanjing University
+
+   China
+
+ * Burcu Kulahcioglu Ozkan
+
+   Delft University of Technology
+
+   Netherlands
+
+ * Maxime Lamothe
+
+   Polytechnique Montreal
+
+   Canada
+
+ * Thanh Le-Cong
+
+   Singapore University of Technology and Design, Singapore
+
+   Singapore
+
+ * Van-Hoang Le
+
+   University of Luxembourg, Luxembourg
+
+   Luxembourg
+
+ * Vu Le
+
+   Microsoft
+
+   United States
+
+ * Seongmin Lee
+
+   UCLA
+
+   United States
+
+ * Owolabi Legunsen
+
+   Cornell University
+
+   United States
+
+ * Yan Lei
+
+   Chongqing University
+
+   China
+
+ * Caroline Lemieux
+
+   University of British Columbia
+
+   Canada
+
+ * Grace Lewis
+
+   Carnegie Mellon Software Engineering Institute
+
+   United States
+
+ * Chuanyi Li
+
+   Nanjing University
+
+   China
+
+ * Jia Li
+
+   Tsinghua University
+
+   China
+
+ * Kaixuan Li
+
+   Nanyang Technological University
+
+   Singapore
+
+ * Lian Li
+
+   Institute of Computing Technology at Chinese Academy of Sciences; University of Chinese Academy of Sciences
+
+   China
+
+ * Shanshan Li
+
+   National University of Defense Technology
+
+   China
+
+ * Shaohua Li
+
+   The Chinese University of Hong Kong
+
+   Hong Kong SAR China
+
+ * Shuqing Li
+
+   The Chinese University of Hong Kong
+
+   Hong Kong SAR China
+
+ * Yuekang Li
+
+   UNSW
+
+   Australia
+
+ * Zhenhao Li
+
+   York University
+
+   Canada
+
+ * Ziyang Li
+
+   Johns Hopkins University
+
+   United States
+
+ * Jingjing Liang
+
+   East China Normal University
+
+   China
+
+ * Lizhi Liao
+
+   University of Guelph
+
+   Canada
+
+ * Chengwei Liu
+
+   Nankai University
+
+   China
+
+ * Fang Liu
+
+   Beihang University
+
+   China
+
+ * Han Liu
+
+   Nankai University
+
+   China
+
+ * Huai Liu
+
+   Swinburne University of Technology
+
+   Australia
+
+ * Kui Liu
+
+   Huawei
+
+   China
+
+ * Mingwei Liu
+
+   Sun Yat-Sen University
+
+   China
+
+ * Ruofan Liu
+
+   National University of Singapore, Singapore
+
+   China
+
+ * Shangqing Liu
+
+   Nanjing University
+
+ * Yang Liu
+
+   Nanyang Technological University
+
+   Singapore
+
+ * Yepang Liu
+
+   Southern University of Science and Technology
+
+   China
+
+ * Zhongxin Liu
+
+   Zhejiang University
+
+   China
+
+ * Francesca Lonetti
+
+   CNR-ISTI
+
+   Italy
+
+ * Yiling Lou
+
+   University of Illinois at Urbana-Champaign
+
+   United States
+
+ * Chuan Luo
+
+   Beihang University
+
+   China
+
+ * Linghui Luo
+
+   University of Hamburg, Germany
+
+   Germany
+
+ * Xiapu Luo
+
+   Hong Kong Polytechnic University
+
+   China
+
+ * Thibaud Lutellier
+
+   University of Alberta
+
+   Canada
+
+ * Jie M. Zhang
+
+   Mistral AI and King's College London
+
+   United Kingdom
+
+ * Fuchen Ma
+
+   Tsinghua University
+
+   China
+
+ * Minghua Ma
+
+   Microsoft
+
+   United States
+
+ * Xutong Ma
+
+   Inria Paris
+
+ * Sam Malek
+
+   University of California at Irvine
+
+   United States
+
+ * Muhammad Numair Mansur
+
+   Amazon Web Services
+
+ * Leonardo Mariani
+
+   University of Milano-Bicocca
+
+   Italy
+
+ * Alberto Martin-Lopez
+
+   Software Institute - USI, Lugano
+
+   Switzerland
+
+ * Ruben Martins
+
+   Carnegie Mellon University
+
+   United States
+
+ * Antonio Mastropaolo
+
+   William and Mary, USA
+
+ * Umang Mathur
+
+   National University of Singapore
+
+   Singapore
+
+ * Sergey Mechatev
+
+   Peking University
+
+ * Ibéria Medeiros
+
+   LaSIGE, Faculdade de Ciências da Universidade de Lisboa
+
+   Portugal
+
+ * Forough Mehralian
+
+   Apple Inc.
+
+   United States
+
+ * Hong Mei
+
+   Peking University
+
+   China
+
+ * Guozhu Meng
+
+   Institute of Information Engineering, Chinese Academy of Sciences
+
+   China
+
+ * Ruijie Meng
+
+   CISPA Helmholtz Center for Information Security
+
+   Germany
+
+ * Tim Menzies
+
+   North Carolina State University
+
+   United States
+
+ * Kristopher Micinski
+
+   Syracuse University
+
+   United States
+
+ * Daniela Micucci
+
+   University of Milano-Bicocca, Italy
+
+   Italy
+
+ * Courtney Miller
+
+   Carnegie Mellon University
+
+ * Dimitris Mitropoulos
+
+   University of Athens
+
+   Greece
+
+ * Naouel Moha
+
+   École de Technologie Supérieure (ETS)
+
+   Canada
+
+ * Facundo Molina
+
+   Complutense University of Madrid
+
+   Spain
+
+ * Federico Mora
+
+   University of Waterloo
+
+   Canada
+
+ * Austin Mordahl
+
+   University of Illinois Chicago
+
+   United States
+
+ * Manish Motwani
+
+   Oregon State University
+
+   United States
+
+ * Mohammad Reza Mousavi
+
+   King's College London
+
+   United Kingdom
+
+ * Sarah Nadi
+
+   New York University Abu Dhabi
+
+   United Arab Emirates
+
+ * Nadia Nahar
+
+   Carnegie Mellon University
+
+   United States
+
+ * Daye Nam
+
+   University of California, Irvine
+
+   United States
+
+ * Yuhong Nan
+
+   Sun Yat-sen University
+
+   China
+
+ * Tien N. Nguyen
+
+   University of Texas at Dallas
+
+   United States
+
+ * Vu Nguyen
+
+   University of Science, VNU-HCM; Katalon LLC.
+
+ * Pengyu Nie
+
+   University of Waterloo
+
+   Canada
+
+ * Feifei Niu
+
+   Graz University of Technology
+
+   Austria
+
+ * Nan Niu
+
+   University of North Florida
+
+   United States
+
+ * Yannic Noller
+
+   Ruhr University Bochum
+
+   Germany
+
+ * Hakjoo Oh
+
+   Korea University
+
+   South Korea
+
+ * Rocco Oliveto
+
+   University of Molise
+
+ * John-Paul Ore
+
+   North Carolina State University
+
+   United States
+
+ * Ali Ouni
+
+   Ecole de Technologie Superieure (ETS)
+
+   Canada
+
+ * Fabio Palomba
+
+   University of Salerno
+
+   Italy
+
+ * Minxue Pan
+
+   Nanjing University
+
+   China
+
+ * Rangeet Pan
+
+   IBM Research
+
+   United States
+
+ * Jihyeok Park
+
+   Korea University
+
+   South Korea
+
+ * Michele Pasqua
+
+   University of Verona
+
+   Italy
+
+ * Fabrizio Pastore
+
+   University of Luxembourg
+
+   Luxembourg
+
+ * Kexin Pei
+
+   The University of Chicago
+
+   United States
+
+ * Yu Pei
+
+   Hong Kong Polytechnic University
+
+   China
+
+ * Chao Peng
+
+   Tencent
+
+   China
+
+ * Xin Peng
+
+   Fudan University
+
+   China
+
+ * Gilles Perrouin
+
+   Fonds de la Recherche Scientifique - FNRS & University of Namur
+
+   Belgium
+
+ * Thuan Pham
+
+   University of Melbourne
+
+   Australia
+
+ * Benjamin C. Pierce
+
+   University of Pennsylvania
+
+   United States
+
+ * Wishnu Prasetya
+
+   Utrecht University
+
+ * Geguang Pu
+
+   East China Normal University, China
+
+   China
+
+ * Rahul Purandare
+
+   University of Nebraska-Lincoln
+
+   United States
+
+ * Binhang Qi
+
+   National University of Singapore
+
+   Singapore
+
+ * Mukund Raghothaman
+
+   University of Southern California
+
+ * Chaiyong Ragkhitwetsagul
+
+   Mahidol University, Thailand
+
+   Thailand
+
+ * Dezhi Ran
+
+   Peking University
+
+   China
+
+ * Germán Regis
+
+   University of Rio Cuarto and CONICET
+
+   Argentina
+
+ * Xiaoxue Ren
+
+   Zhejiang University
+
+   China
+
+ * Vincenzo Riccio
+
+   University of Udine
+
+   Italy
+
+ * Cedric Richter
+
+   University of Luxembourg
+
+   Luxembourg
+
+ * Manuel Rigger
+
+   National University of Singapore
+
+   Singapore
+
+ * Noam Rinetzky
+
+   Tel Aviv University
+
+   Israel
+
+ * Romain Robbes
+
+   CNRS, LaBRI, University of Bordeaux
+
+   France
+
+ * Paige Rodeghero
+
+   Clemson University
+
+   United States
+
+ * Julia Rubin
+
+   The University of British Columbia
+
+   Canada
+
+ * Mehrdad Sabetzadeh
+
+   University of Ottawa
+
+   Canada
+
+ * Caitlin Sadowski
+
+ * June Sallou
+
+   Wageningen University & Research
+
+   Netherlands
+
+ * Guido Salvaneschi
+
+   University of St. Gallen
+
+   Switzerland
+
+ * Italo Santos
+
+   University of Hawai‘i at Mānoa
+
+   United States
+
+ * Mohammed Sayagh
+
+   ETS Montreal, University of Quebec
+
+   Canada
+
+ * Simone Scalabrino
+
+   University of Molise
+
+   Italy
+
+ * Sergio Segura
+
+   SCORE Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
+
+   Spain
+
+ * Alexander Serebrenik
+
+   Eindhoven University of Technology
+
+   Netherlands
+
+ * Agnia Sergeyuk
+
+   JetBrains Research
+
+   Serbia
+
+ * Weiyi Shang
+
+   University of Waterloo
+
+ * Lin Shi
+
+   Beihang University
+
+ * Qingkai Shi
+
+   Nanjing University
+
+   China
+
+ * Xujie Si
+
+   University of Toronto
+
+ * Jeongju Sohn
+
+   Kyungpook National University
+
+   South Korea
+
+ * Fu Song
+
+   Institute of Software at Chinese Academy of Sciences; University of Chinese Academy of Sciences; Nanjing Institute of Software Technology
+
+   China
+
+ * Jiayang Song
+
+   Leiden University
+
+   Netherlands
+
+ * Ezekiel Soremekun
+
+   Singapore University of Technology and Design
+
+   Singapore
+
+ * Thodoris Sotiropoulos
+
+   ETH Zurich
+
+   Switzerland
+
+ * Francesco Sovrano
+
+   USI Lugano, Switzerland
+
+   Switzerland
+
+ * Maria Spichkova
+
+   RMIT University, Australia
+
+   Australia
+
+ * Manu Sridharan
+
+   University of California at Riverside
+
+   United States
+
+ * Igor Steinmacher
+
+   RESHAPE LAB, Northern Arizona University, USA
+
+   United States
+
+ * Andrea Stocco
+
+   Technical University of Munich, fortiss
+
+   Germany
+
+ * Yanqi Su
+
+   The University of Western Australia
+
+   Australia
+
+ * Yuxin Su
+
+   Sun Yat-sen University
+
+   China
+
+ * Yulei Sui
+
+   University of New South Wales
+
+   Australia
+
+ * Allison Sullivan
+
+   University of Texas at Arlington
+
+   United States
+
+ * Jingling Sun
+
+   University of Electronic Science and Technology of China
+
+   China
+
+ * Jun Sun
+
+   Singapore Management University
+
+   Singapore
+
+ * Weisong Sun
+
+   Nanyang Technological University
+
+   Singapore
+
+ * Xiaobing Sun
+
+   Yangzhou University
+
+   China
+
+ * Youcheng Sun
+
+   MBZUAI
+
+   United Arab Emirates
+
+ * Zeyu Sun
+
+   Institute of Software, Chinese Academy of Sciences
+
+ * Joshua Sunshine
+
+   Carnegie Mellon University
+
+   United States
+
+ * xiaoyu sun
+
+   The Australian National University
+
+   Australia
+
+ * Florian Tambon
+
+   University of Luxembourg
+
+   Luxembourg
+
+ * Tian Tan
+
+   Nanjing University
+
+   China
+
+ * Xin Tan
+
+   Beihang University
+
+   China
+
+ * Yiming Tang
+
+   Rochester Institute of Technology
+
+   United States
+
+ * Yutian Tang
+
+   University of Glasgow, United Kingdom
+
+   United Kingdom
+
+ * Valerio Terragni
+
+   University of Auckland
+
+   New Zealand
+
+ * Haoye Tian
+
+   Aalto University
+
+   Finland
+
+ * Yongqiang Tian
+
+   Monash University
+
+   Australia
+
+ * Yuan Tian
+
+   Queen's University, Kingston, Ontario
+
+   Canada
+
+ * Frank Tip
+
+   Northeastern University
+
+   United States
+
+ * Ayse Tosun
+
+   Istanbul Technical University
+
+   Turkey
+
+ * Christoph Treude
+
+   Singapore Management University
+
+   Singapore
+
+ * Michele Tufano
+
+   Google
+
+   United States
+
+ * Rosalia Tufano
+
+   Università della Svizzera Italiana
+
+   Switzerland
+
+ * Alexi Turcotte
+
+   CISPA
+
+   Germany
+
+ * Rachel Tzoref-Brill
+
+   IBM Research
+
+   Israel
+
+ * Gias Uddin
+
+   York University, Canada
+
+   Canada
+
+ * Caterina Urban
+
+   Inria - École Normale Supérieure
+
+   France
+
+ * Michael Vierhauser
+
+   University of Innsbruck
+
+   Austria
+
+ * Stefan Wagner
+
+   Technical University of Munich
+
+   Germany
+
+ * Chengcheng Wan
+
+   East China Normal University, Shanghai Innovation Institute
+
+   China
+
+ * Bo Wang
+
+   Beijing Jiaotong University
+
+   China
+
+ * Chao Wang
+
+   University of Southern California
+
+   United States
+
+ * Chengpeng Wang
+
+   National University of Singapore
+
+   Singapore
+
+ * Chong Wang
+
+   Nanyang Technological University
+
+ * Dong Wang
+
+   Tianjin University
+
+   China
+
+ * Haijun Wang
+
+   Xi'an Jiaotong University
+
+   China
+
+ * Haoyu Wang
+
+   Huazhong University of Science and Technology
+
+   China
+
+ * Ji Wang
+
+   National University of Defense Technology
+
+   China
+
+ * Jingyi Wang
+
+   Zhejiang University
+
+   China
+
+ * Jiyuan Wang
+
+   Tulane University
+
+   United States
+
+ * Kailong Wang
+
+   Huazhong University of Science and Technology
+
+   China
+
+ * Linzhang Wang
+
+   Nanjing University, School of Computer Science (Software Engineering Group)
+
+ * Liu Wang
+
+   Huazhong University of Science and Technology
+
+   China
+
+ * Shangwen Wang
+
+   National University of Defense Technology
+
+   China
+
+ * Shaowei Wang
+
+   University of Manitoba
+
+   Canada
+
+ * Song Wang
+
+   York University
+
+   Canada
+
+ * Wenwen Wang
+
+   University of Georgia
+
+   United States
+
+ * Wenxi Wang
+
+   University of Virgina
+
+   United States
+
+ * Xiaoyin Wang
+
+   University of Texas at San Antonio
+
+ * Yanlin Wang
+
+   Sun Yat-sen University
+
+   China
+
+ * Yuepeng Wang
+
+   Simon Fraser University
+
+   Canada
+
+ * Zan Wang
+
+   Tianjin University
+
+   China
+
+ * Guannan Wei
+
+   Tufts University
+
+   United States
+
+ * Shiyi Wei
+
+   University of Texas at Dallas
+
+   United States
+
+ * Ming Wen
+
+   Huazhong University of Science and Technology
+
+   China
+
+ * Mairieli Wessel
+
+   Radboud University
+
+   Netherlands
+
+ * Laurie Williams
+
+   North Carolina State University
+
+   United States
+
+ * Christian Wimmer
+
+   Amazon
+
+   United States
+
+ * Stefan Winter
+
+   LMU Munich
+
+   Germany
+
+ * Dominik Winterer
+
+   University of Manchester
+
+   United Kingdom
+
+ * Rebekka Wohlrab
+
+   Chalmers University of Technology
+
+   Sweden
+
+ * Trey Woodlief
+
+   Assistant Professor, Computer Science, William & Mary
+
+ * Daoyuan Wu
+
+   Lingnan University
+
+   Hong Kong SAR China
+
+ * Jiajing Wu
+
+   Sun Yat-sen University
+
+   China
+
+ * Rongxin Wu
+
+   Xiamen University
+
+   China
+
+ * Yueming Wu
+
+   Huazhong University of Science and Technology, China
+
+   China
+
+ * Chunqiu Steven Xia
+
+   University of Illinois at Urbana-Champaign
+
+   United States
+
+ * Xin Xia
+
+   Zhejiang University
+
+   China
+
+ * Xusheng Xiao
+
+   Arizona State University
+
+   United States
+
+ * Yan Xiao
+
+   Sun Yat-sen University
+
+   China
+
+ * Xiaofei Xie
+
+   Singapore Management University
+
+   Singapore
+
+ * Xiaoyuan Xie
+
+   Wuhan University
+
+   China
+
+ * Yiheng Xiong
+
+   Singapore Management University
+
+   Singapore
+
+ * Chang Xu
+
+   Nanjing University
+
+   China
+
+ * Xiwei (Sherry) Xu
+
+   Data61, CSIRO
+
+   Australia
+
+ * Jingling Xue
+
+   UNSW
+
+   Australia
+
+ * Aashish Yadavally
+
+   University of Central Florida
+
+   United States
+
+ * Jiwei Yan
+
+   Institute of Software at Chinese Academy of Sciences
+
+   China
+
+ * Meng Yan
+
+   Chongqing University
+
+   China
+
+ * Yanfu Yan
+
+   Zhejiang University
+
+ * Guowei Yang
+
+   University of Queensland
+
+   Australia
+
+ * Jinqiu Yang
+
+   Concordia University
+
+   Canada
+
+ * Lanxin Yang
+
+   Nanjing University
+
+   China
+
+ * Zhou Yang
+
+   University of Alberta; CIFAR AI Chair; Alberta Machine Intelligence Institute
+
+   Canada
+
+ * Peisen Yao
+
+   Zhejiang University
+
+   China
+
+ * He Ye
+
+   University College London (UCL)
+
+   United Kingdom
+
+ * Rahul Yedida
+
+   LexisNexis
+
+ * Jooyong Yi
+
+   UNIST
+
+   South Korea
+
+ * Wei You
+
+   Renmin University of China
+
+   China
+
+ * Guangba  Yu
+
+   The Chinese University of Hong Kong
+
+   Hong Kong SAR China
+
+ * Jiongchi Yu
+
+   Nanyang Technological University
+
+   Singapore
+
+ * Shengcheng Yu
+
+   Technical University of Munich
+
+   Germany
+
+ * Yue Yu
+
+   PengCheng Lab
+
+   China
+
+ * Yuanyuan Yuan
+
+   Tsinghua University
+
+ * Nusrat Zahan
+
+   North Carolina State University
+
+ * Mansooreh Zahedi
+
+   The Univeristy of Melbourne
+
+   Australia
+
+ * Andreas Zeller
+
+   CISPA Helmholtz Center for Information Security
+
+   Germany
+
+ * Chao Zhang
+
+   Tsinghua University
+
+   China
+
+ * Chengyu Zhang
+
+   Loughborough University
+
+   United Kingdom
+
+ * Hongyu Zhang
+
+   Chongqing University
+
+   China
+
+ * Jian Zhang
+
+   Nanyang Technological University
+
+   Singapore
+
+ * Lyuye Zhang
+
+   Nanyang Technological University
+
+   Singapore
+
+ * Qian Zhang
+
+   University of California at Riverside
+
+   United States
+
+ * Qirun Zhang
+
+   Georgia Institute of Technology
+
+   United States
+
+ * Quan Zhang
+
+   East China Normal University
+
+   China
+
+ * Tianyi Zhang
+
+   Purdue University
+
+   United States
+
+ * Ting Zhang
+
+   Monash University
+
+   Australia
+
+ * Wenjie Zhang
+
+   National University of Singapore
+
+ * Xiangyu Zhang
+
+   Purdue University
+
+   United States
+
+ * Xiaoyu Zhang
+
+   Nanyang Technological University, Singapore
+
+   Singapore
+
+ * Xin Zhang
+
+   Peking University
+
+   China
+
+ * Yakun Zhang
+
+   Harbin Institute of Technology (Shenzhen)
+
+   China
+
+ * Yedi Zhang
+
+   National University of Singapore
+
+ * Zhuo Zhang
+
+   Columbia University
+
+ * Ziqi Zhang
+
+   University of Illinois Urbana-Champaign
+
+   China
+
+ * zejun zhang
+
+   Nanjing University
+
+ * Dehai Zhao
+
+   Zhejiang University
+
+   China
+
+ * Yanjie Zhao
+
+   Huazhong University of Science and Technology
+
+   China
+
+ * Xi Zheng
+
+   Macquarie University
+
+   Australia
+
+ * Zibin Zheng
+
+   Sun Yat-sen University
+
+   China
+
+ * Chijin Zhou
+
+   East China Normal University
+
+   China
+
+ * Hao Zhou
+
+   The Hong Kong Polytechnic University
+
+ * Minghui Zhou
+
+   Peking University
+
+   China
+
+ * Shurui Zhou
+
+   University of Toronto
+
+ * Yuming Zhou
+
+   Nanjing University
+
+   China
+
+ * Chenguang Zhu
+
+   Meta AI
+
+   United States
+
+ * Shufang Zhu
+
+   University of Liverpool
+
+   United Kingdom
+
+ * Zhiqiang Zuo
+
+   Nanjing University
+
+   China
+
+xFri 25 Sep 17:45
+
+FSE 2027
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+Industry Papers
+Research Papers
+Software Engineering Education
+Workshops
+
+Attending
+
+Venue: Shenzhen, China
+
+Sign Up

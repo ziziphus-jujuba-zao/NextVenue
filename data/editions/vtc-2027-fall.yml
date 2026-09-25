@@ -1,0 +1,37 @@
+id: vtc-2027-fall
+series: vtc
+name: VTC2027-Fall
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Osaka, country: Japan, country_code: JP }
+dates: { start: 2027-09-27, end: 2027-09-30 }
+submission_type: full_paper
+submission_evidence:
+  src: vtc-2027-fall-cfp
+  quote: "Prospective authors are invited to submit 5-page, original, and unpublished full papers."
+  note_zh: 5 页以内不加钱，最多 7 页，超过 5 页要付页费；投稿不要超过 8 页。
+milestones:
+  - type: paper
+    at: 2027-02-01
+    tz: Asia/Tokyo
+    tz_assumed: true
+    status: confirmed
+    src: vtc-2027-fall-cfp
+    quote: "Regular Paper Submission 1 February 2027"
+    note_zh: 官网只给日期、没写时区。按会场所在地大阪当天结束算（北京时间 2/1 22:59），比按北京时间早 1 小时，更保守。
+  - type: notification
+    at: 2027-04-14
+    tz: Asia/Tokyo
+    status: confirmed
+    src: vtc-2027-fall-cfp
+    quote: "Acceptance Notification 14 April 2027"
+  - type: conference
+    start: 2027-09-27
+    end: 2027-09-30
+    tz: Asia/Tokyo
+    status: confirmed
+    src: vts-upcoming-events
+    quote: "27 Sep 2027 – 30 Sep 2027 Geographic Location Osaka, Japan"
+    note_zh: 第 106 届 VTC，取自 IEEE 车辆技术学会（VTS）的会议列表。
+last_checked: 2026-09-25

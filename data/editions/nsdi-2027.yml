@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: nsdi-2027
+series: nsdi
+name: NSDI 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/NSDI
+  conf_id: nsdi27
+  link: https://www.usenix.org/conference/nsdi27
+  place: Providence, RI, USA
+  date: May 11-13, 2027
+  timezone: UTC-4
+location:
+  city: Providence
+  country: USA
+  country_code: US
+dates:
+  start: 2027-05-11
+  end: 2027-05-13
+milestones:
+  - type: abstract
+    at: 2026-04-16T23:59
+    tz: UTC-4
+    status: confirmed
+    label_zh: Round 1
+  - type: paper
+    at: 2026-04-23T23:59
+    tz: UTC-4
+    status: confirmed
+    label_zh: Round 1
+  - type: abstract
+    at: 2026-09-10T23:59
+    tz: UTC-4
+    status: confirmed
+    label_zh: Round 2
+  - type: paper
+    at: 2026-09-17T23:59
+    tz: UTC-4
+    status: confirmed
+    label_zh: Round 2
+  - type: conference
+    start: 2027-05-11
+    end: 2027-05-13
+    tz: UTC-4
+    status: confirmed
+last_checked: 2026-09-25

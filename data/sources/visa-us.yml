@@ -1,0 +1,81 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-us
+sources:
+  - id: visa-us-visitor
+    url: https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+    mirror_url: https://adoption.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+    title: U.S. Department of State · Visitor Visa
+    kind: policy
+    fetched_at: 2026-09-25T10:57:44Z
+    http_status: 200
+    snapshot: a6d9ecf80b480322fe27ce0e1a9dc82b5ab29b9c8dd0a04539296ece93e22a4a
+    note_zh: 2026-09-25 travel.state.gov 原址对抓取返回 403；快照取自同一国务院网站的 adoption.state.gov 镜像，url 仍写原址。
+  - id: visa-us-wait-times
+    url: https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html
+    mirror_url: https://adoption.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html
+    title: U.S. Department of State · Global Visa Wait Times
+    kind: other
+    fetched_at: 2026-09-25T10:57:45Z
+    http_status: 200
+    snapshot: f725c656cae7eb07796119bb23bb2f05027a01b7b7eb039621209c7bbca41bcb
+    note_zh: 2026-09-25 travel.state.gov 原址对抓取返回 403；快照取自同一国务院网站的 adoption.state.gov 镜像，url 仍写原址。
+  - id: visa-us-fees
+    url: https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html
+    mirror_url: https://adoption.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html
+    title: U.S. Department of State · Fees for Visa Services
+    kind: policy
+    fetched_at: 2026-09-25T10:57:46Z
+    http_status: 200
+    snapshot: 287993b76983d494e321575cde6a043f7311e24cd8659cb47500d76b688afb5d
+    note_zh: 2026-09-25 travel.state.gov 原址对抓取返回 403；快照取自同一国务院网站的 adoption.state.gov 镜像，url 仍写原址。
+  - id: visa-us-admin-processing
+    url: https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/administrative-processing-information.html
+    mirror_url: https://adoption.state.gov/content/travel/en/us-visas/visa-information-resources/administrative-processing-information.html
+    title: U.S. Department of State · Administrative Processing Information
+    kind: policy
+    fetched_at: 2026-09-25T10:57:47Z
+    http_status: 200
+    snapshot: b4f8faf4151bdf5e4be616c50babb148055e5368a399252e1f594121b2292457
+    note_zh: 2026-09-25 travel.state.gov 原址对抓取返回 403；快照取自同一国务院网站的 adoption.state.gov 镜像，url 仍写原址。
+  - id: visa-us-reciprocity-china
+    url: https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/China.html
+    mirror_url: https://adoption.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/China.html
+    title: "U.S. Department of State · Visa Reciprocity: China"
+    kind: policy
+    fetched_at: 2026-09-25T10:57:48Z
+    http_status: 200
+    snapshot: f22bc557582bd4eb01aed0500c7ac56d814c0934023a8ae4cf1067628e88ed6a
+    note_zh: 2026-09-25 travel.state.gov 原址对抓取返回 403；快照取自同一国务院网站的 adoption.state.gov 镜像，url 仍写原址。
+  - id: visa-us-interview-waiver
+    url: https://travel.state.gov/content/travel/en/News/visas-news/interview-waiver-update-sept-18-2025.html
+    mirror_url: https://adoption.state.gov/content/travel/en/News/visas-news/interview-waiver-update-sept-18-2025.html
+    title: U.S. Department of State · Interview Waiver Update September 18, 2025
+    kind: policy
+    fetched_at: 2026-09-25T10:57:49Z
+    http_status: 200
+    snapshot: d23e87d8404ff7956a785354480335b59e0ad7d14d133f6b1e74d3b8c5cad331
+    note_zh: 2026-09-25 travel.state.gov 原址对抓取返回 403；快照取自同一国务院网站的 adoption.state.gov 镜像，url 仍写原址。
+  - id: visa-us-transit
+    url: https://travel.state.gov/content/travel/en/us-visas/other-visa-categories/transit.html
+    mirror_url: https://adoption.state.gov/content/travel/en/us-visas/other-visa-categories/transit.html
+    title: U.S. Department of State · Transit Visa
+    kind: policy
+    fetched_at: 2026-09-25T10:57:50Z
+    http_status: 200
+    snapshot: 1c9df4200534c46e5b65d4ef1e7d85baa0d262fb72dac463e3581d2f50b7981a
+    note_zh: 2026-09-25 travel.state.gov 原址对抓取返回 403；快照取自同一国务院网站的 adoption.state.gov 镜像，url 仍写原址。
+  - id: visa-us-cbp-evus
+    url: https://www.cbp.gov/newsroom/national-media-release/cbp-now-requires-evus-enrollments-chinese-national-10-year-visa
+    title: U.S. CBP · EVUS required for Chinese 10-year visa holders
+    kind: policy
+    fetched_at: 2026-09-25T10:57:51Z
+    http_status: 200
+    snapshot: d24dcc7b14e62cc4ca771e629a01895f818eb897b50f650437a8713413b6d361
+  - id: visa-us-evus-fee-fy2026
+    url: https://www.govinfo.gov/content/pkg/FR-2025-11-19/html/2025-20304.htm
+    title: Federal Register 2025-20304 · DHS fees required by HR-1, FY 2026 adjustments (EVUS)
+    kind: policy
+    fetched_at: 2026-09-25T10:57:51Z
+    http_status: 200
+    snapshot: d40fec6ac9837d2ae80118bb776a342ba57a396830b4eb545afcc24cd37769ab
+    note_zh: 联邦公报原文，快照取自美国政府出版局 govinfo.gov（federalregister.gov 对抓取要求人机验证）。

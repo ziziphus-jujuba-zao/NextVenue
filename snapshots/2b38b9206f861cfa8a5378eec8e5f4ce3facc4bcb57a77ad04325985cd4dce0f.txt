@@ -1,0 +1,101 @@
+Skip to content
+ * IEEE.org
+ * IEEE Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+MENU
+
+VTC2027-Fall Osaka
+
+Email address What would you like to search for?
+
+SEARCH
+ * Home
+ * Authors
+   * Call for Papers
+   * Conference Policies
+   * Student Travel Grants
+ * Program
+   * Industry Tracks
+   * Tutorials
+   * Workshops
+ * Committees
+   * Organizing Committee
+   * Technical Program Committee
+   * VTS Conference Committee
+ * Sponsors
+   * Sponsorship Opportunities
+ * Registration
+ * Venue
+ * About
+
+Home » Call for Papers
+
+Call for Papers
+
+ *
+ *
+ *
+
+VTC2027-Fall in Osaka will feature world-class technical sessions, workshops, and tutorials on, but not limited to, the following technical tracks. Prospective authors are invited to submit 5-page, original, and unpublished full papers. A full paper can be up to 7 pages in length, just note that papers longer than 5 pages will require the purchase of additional page charges at the time of registration and final paper submission. Please do not submit papers longer than 8 pages for review as it is not likely that the paper could be edited to a maximum of 7 pages or less upon acceptance.
+
+vtc27-fall-cfp_web-06
+
+Submit Your Paper
+
+ Important Dates
+
+Workshop Proposal
+Submission
+25 January 2027
+
+Regular Paper
+Submission
+1 February 2027
+
+Tutorial Proposal
+Submission
+3 March 2027
+
+Acceptance
+Notification
+14 April 2027
+
+Topics
+
+1. 6G and Emerging Technologies
+2. AI and Machine Learning for Communications
+3. Antenna Design, RF Design, and Propagation
+4. Electric Vehicles, Vehicular Electronics, and Intelligent Transportation
+5. IoV, IoT, M2M, Sensor Networks, and Related Networking Technologies
+6. Multiple Antennas and Cooperative Communications
+
+7. Non-Terrestrial Networks
+8. Positioning Technologies, Localization, and Navigation
+9. Radio Access Technologies and Heterogeneous Networks
+10. Signal Processing for Wireless Communications
+11. Spectrum Management, Spectrum Sharing, and Green Communications
+12. Vehicular Cooperation and Control, Assisted and Autonomous Driving
+
+Submission Guidelines and Paper Specific Information
+
+A full paper can be up to 7 pages in length, just note that papers longer than 5 pages will require the purchase of additional page charges at the time of registration and final paper submission. Please do not submit papers longer than 8 pages for review as it is not likely that the paper could be edited to a maximum of 7 pages or less upon acceptance.
+
+5-page paper (without overlength charge) and up to 2 additional pages are allowed with the purchase of additional page charges in the amount of $100 USD per additional page at the time of registration and final paper submission.
+
+Final paper submission guidelines can be found here.
+
+Submit Your Paper
+ * Home
+ * Sitemap
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms & Disclosures
+
+© Copyright 2026 IEEE – All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+
+Back to Top

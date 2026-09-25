@@ -1,0 +1,37 @@
+id: ccc-control-2027
+series: ccc-control
+name: CCC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { country: China, country_code: CN }
+milestones:
+  - type: paper
+    at: 2027-03-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: ccc-2026-home
+    quote: "提交论文初稿截止日期：2026年3月10日"
+    note_zh: 预计。按第 45 届（CCC 2026，长沙）的初稿截止 2026-03-10 顺延一年；CCC 2026 的投稿网站 2025-10-01 开通。2027 届官网还没有上线。
+  - type: notification
+    at: 2027-04-10
+    tz: Asia/Shanghai
+    status: estimated
+    src: ccc-2026-home
+    quote: "论文录用通知截止日期：2026年04月10日"
+    note_zh: 预计。按 CCC 2026 的录用通知 2026-04-10 顺延一年。
+  - type: camera_ready
+    at: 2027-05-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: ccc-2026-home
+    quote: "提交论文终稿截止日期：2026年5月10日"
+    note_zh: 预计。按 CCC 2026 的终稿截止 2026-05-10 顺延一年。
+  - type: conference
+    tz: Asia/Shanghai
+    status: tba
+    note_zh: 会期未公布，往届在 7 月下旬。据中国自动化学会控制理论专业委员会（TCCT）公众号的 CCC 2026 闭幕报道，第 46 届在西安、由火箭军工程大学筹办；公众号文章本应用拍不到快照，城市暂不写进 location。
+last_checked: 2026-09-25
+note_zh: 第 46 届中国控制会议。2027 届官网和征文还没有发布，截止日期都按 CCC 2026 推算，只作提醒。

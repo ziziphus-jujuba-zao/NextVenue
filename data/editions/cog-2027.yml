@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: cog-2027
+series: cog
+name: IEEE CoG 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/IEEE CoG
+  conf_id: cog27
+  link: https://cog2027.u-aizu.ac.jp/
+  place: Aizuwakamatsu, Japan
+  date: August 2-5, 2027
+  timezone: AoE
+location:
+  city: Aizuwakamatsu
+  country: Japan
+  country_code: JP
+dates:
+  start: 2027-08-02
+  end: 2027-08-05
+milestones:
+  - type: paper
+    at: 2027-03-01T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Full Technical Paper
+  - type: paper
+    at: 2027-05-15T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Auxiliary Paper
+  - type: conference
+    start: 2027-08-02
+    end: 2027-08-05
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

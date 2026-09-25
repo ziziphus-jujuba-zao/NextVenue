@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icics-2026
+series: icics
+name: ICICS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/ICICS
+  conf_id: icics26
+  link: https://sulab-sever.u-aizu.ac.jp/icics2026/cfp.html
+  place: Fukui, Japan
+  date: October 27-30, 2026
+  timezone: AoE
+location:
+  city: Fukui
+  country: Japan
+  country_code: JP
+dates:
+  start: 2026-10-27
+  end: 2026-10-30
+milestones:
+  - type: paper
+    at: 2026-02-28T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: First round
+  - type: paper
+    at: 2026-05-23T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Second round
+  - type: conference
+    start: 2026-10-27
+    end: 2026-10-30
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

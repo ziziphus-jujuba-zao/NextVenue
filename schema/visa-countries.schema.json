@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "visa-countries.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Country (ISO 3166-1 alpha-2) → visa regime file (data/visa/<id>.yml); none = no visa needed",
+  "type": "object",
+  "additionalProperties": false,
+  "patternProperties": {
+    "^[A-Z]{2}$": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    }
+  }
+}

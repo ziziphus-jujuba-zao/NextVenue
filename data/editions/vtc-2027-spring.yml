@@ -1,0 +1,54 @@
+id: vtc-2027-spring
+series: vtc
+name: VTC2027-Spring
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Hamburg, country: Germany, country_code: DE }
+dates: { start: 2027-06-20, end: 2027-06-23 }
+submission_type: full_paper
+submission_evidence:
+  src: vtc-2027-spring-cfp
+  quote: "Prospective authors are invited to submit 5-page, original, and unpublished full papers."
+  note_zh: 5 页以内不加钱，最多 7 页，第 6、7 页每页 100 美元；投稿不要超过 8 页。
+milestones:
+  - type: paper
+    at: 2026-09-30
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: vtc-2027-spring-cfp
+    quote: "Regular Paper Submission Deadline EXTENDED 30 September 2026"
+    note_zh: 已延期到 9/30。官网只给日期、没写时刻和时区，按北京时间当天结束算，比按德国时间早 6 小时，更保守。
+  - type: notification
+    at: 2026-12-20
+    tz: Europe/Berlin
+    status: confirmed
+    src: vtc-2027-spring-cfp
+    quote: "Acceptance Notification 20 December 2026"
+  - type: camera_ready
+    label_zh: 修改稿截止
+    at: 2027-03-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: vtc-2027-spring-cfp
+    quote: "Paper Revisions Due 15 March 2027"
+    note_zh: 官网写的是 Paper Revisions Due。没写时区，按北京时间当天结束算。
+  - type: early_registration
+    at: 2027-05-09
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: vtc-2027-spring-cfp
+    quote: "Early Bird Registration Ends 9 May 2027"
+    note_zh: 没写时区，按北京时间当天结束算（比按德国时间早 6 小时，更保守）。
+  - type: conference
+    start: 2027-06-20
+    end: 2027-06-23
+    tz: Europe/Berlin
+    status: confirmed
+    src: vts-upcoming-events
+    quote: "20 Jun 2027 – 23 Jun 2027 Geographic Location Hamburg, Germany"
+    note_zh: 取自 IEEE 车辆技术学会（VTS）的会议列表。
+last_checked: 2026-09-25

@@ -3,7 +3,7 @@ series: uai
 name: UAI 2027
 year: 2027
 kind: conference
-topics: [ml, ai]
+data_level: curated
 derived_from: uai-2026
 milestones:
   - type: paper

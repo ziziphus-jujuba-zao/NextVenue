@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 // Text normalization used to compare an official quote with a page snapshot.
 // Both sides go through the same function, so typographic differences

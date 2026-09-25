@@ -1,0 +1,64 @@
+Welcome Message
+2026 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) | 979-8-3315-5511-5/26/$31.00 ©2026 IEEE | DOI: 10.1109/WACV61042.2026.00005
+
+WACV 2026
+
+Welcome to Tucson, Arizona, the home of the Winter Conference on Applications of Computer Vision
+(WACV) for the second year! As the premier venue for advances in applications of computer vision, our
+meeting continues to grow along with the interest in AI and computer vision. We hope that you will enjoy
+the meeting and find time to enjoy Tucson.
+WACV 2026 consists of a three-day main conference program and two days of workshops and tutorials.
+Following the WACV tradition, each day of the main conference includes a keynote presentation, followed
+by oral and poster presentations. There will also be ample opportunity to make new acquaintances and
+socialize with old colleagues during several social events that are part of the program of WACV this year.
+We continue to attract a significant number of submissions, reaching a record 2,550 valid submissions–
+around 4% more than WACV 2025. To handle this number of submissions, we relied on 278 Area Chairs
+and 3,317 reviewers. We are especially grateful to the reviewers who were willing to conduct last-minute
+emergency reviews, ensuring that all papers received at least 3 reviews. The reviewing process was doubleblind and followed best practices to avoid conflicts of interest. After receiving the reviews, the Area Chairs
+made decisions in groups of two, so that each paper was considered by multiple reviewers and multiple
+Area Chairs.
+We continued the WACV tradition of a two-round submission process. By the Round 1 deadline in midJuly, we received 1,372 paper submissions. Of these, 84 were accepted directly after the first round of
+review, and an additional 736 were invited to be revised and resubmitted to Round 2, along with a rebuttal.
+Of the revised papers, 439 were accepted, whereas the rest were either rejected or withdrawn. The overall
+acceptance rate for Round 1 was therefore 38%. Authors could also submit new papers directly to Round
+2, which had a deadline in mid-September. We received 1,178 new submissions in Round 2, of which 309
+(26%) were accepted. Overall, across both rounds WACV received a total of 2,550 paper submissions and
+accepted a total of 832 papers, for an overall acceptance rate of 33%. These statistics illustrate how
+WACV’s innovative two-round submission process allows authors to incorporate reviewer feedback to
+improve their papers (in Round 1), leading to a higher acceptance rate, as well as receiving quick feedback
+for Round 2.
+The paper review process had two tracks: Applications and Algorithms. While papers in both tracks were
+expected to include original, novel, high-quality contributions, papers in the Applications track did not
+necessarily require algorithmic novelty. About 57% of papers were submitted to the Algorithms track, and
+43% were submitted to the Applications track.
+We gratefully acknowledge the contributions of our corporate supporters: Adobe, Encord, Kitware,
+Voxel51, and Edmund Optics Worldwide. We would also like to thank everyone involved in making
+WACV a success, including Tutorials Chairs Marta Gomez Barero and Vishal Patel, Workshop Chairs
+Scott M. McCloskey and Sarah Ostadabbas, Industry/Government Relations Chair Katarina Doctor,
+Ombudsperson Ryan Farrell, Doctoral Consortium Chairs Ehsan Azimi and Aparna Bharati, Demo and
+Exhibits Chairs Joel Brogan and Emanuela Marasco, Participation Broadening Chairs Soma Biswas and
+“YZ” Yezhou Yang, Publication Chair Srirangaraj Setlur, Publicity Chair Abby Stylianou, Finance Chair
+Raghavendra Ramachandra, Website Developer Lee Campbell, Technical Chair Yoshitomo Matsubara, and
+Awards Committee members Richard Souvenir (chair), Terry Boult, Yanxi Liu, Scott McCloskey, and
+Vishal Patel. We are grateful to our three keynote speakers, Ravi Ramamoorthi, Dorin Comaniciu, and
+
+civ
+
+Hilde Kühne. Special thanks go to our Conference Producer Nicole Finn, who has kept WACV running
+smoothly for many years. Finally, thanks to all of you for attending WACV and making it a success!
+As we reflect on the many contributions that made WACV 2026 possible, we also wish to acknowledge
+that we began this journey with three General Chairs, including Margrit Betke, whose guidance helped
+shape the conference from the very start. Sadly, Margrit passed away during the organization effort. She
+was an exceptional scholar and mentor whose influential contributions to computer vision and its real-world
+applications will continue to inspire our community. We will miss her greatly, and we dedicate WACV
+2026 in part to her memory.
+Vitomir Štruc, Rama Chellappa
+
+WACV 2026 General Chairs
+
+Vlad Morariu, Brian Clipp, Naser Damer, Sharon X. Huang
+WACV 2026 Program Chairs
+
+cv
+
+

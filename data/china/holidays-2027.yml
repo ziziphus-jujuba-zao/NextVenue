@@ -1,0 +1,70 @@
+# 2027 年放假安排：国务院办公厅的通知还没发布（2026 年的通知发布于 2025-11-04），以下全部是本应用的估计。
+# 通知发布后，按 holidays-2026.yml 的写法改成 status: confirmed，删掉 basis/method_zh/statutory/evidence。
+year: 2027
+status: estimated
+basis: assumption
+method_zh: >-
+  法定假日按《全国年节及纪念日放假办法》第二条，农历日期取香港天文台的公历农历对照表。
+  春节、劳动节、国庆节按 2026 年通知的放假天数（9 天、5 天、7 天）顺延；其余节日只算法定当天和相连的周末。
+  调休上班日无法预测，一天也不算，所以估计偏保守：多算假期，少算工作日，倒推出来的日期偏早。
+holidays:
+  - name_zh: 元旦
+    start: 2027-01-01
+    end: 2027-01-03
+    statutory: [2027-01-01]
+    evidence:
+      - { src: china-holidays-law, quote: "（一）元旦，放假1天（1月1日）" }
+  - name_zh: 春节
+    start: 2027-02-04
+    end: 2027-02-12
+    statutory: [2027-02-05, 2027-02-06, 2027-02-07, 2027-02-08]
+    note_zh: 除夕 2/5（腊月廿九）、初一 2/6。按 2026 年"腊月二十八至正月初七"的做法估为 2/4–2/12。
+    evidence:
+      - { src: china-holidays-law, quote: "（二）春节，放假4天（农历除夕、正月初一至初三）" }
+      - { src: china-holidays-hko-2027, quote: "2027年2月4日 廿八 星期四 立春 2027年2月5日 廿九 星期五 2027年2月6日 正月 星期六" }
+      - { src: china-holidays-hko-2027, quote: "2027年2月12日 初七 星期五" }
+      - { src: china-holidays-2026, quote: "2月15日（农历腊月二十八、周日）至23日（农历正月初七、周一）放假调休，共9天" }
+  - name_zh: 清明节
+    start: 2027-04-03
+    end: 2027-04-05
+    statutory: [2027-04-05]
+    evidence:
+      - { src: china-holidays-law, quote: "（三）清明节，放假1天（农历清明当日）" }
+      - { src: china-holidays-hko-2027, quote: "2027年4月5日 廿九 星期一 清明" }
+  - name_zh: 劳动节
+    start: 2027-05-01
+    end: 2027-05-05
+    statutory: [2027-05-01, 2027-05-02]
+    note_zh: 5/1、5/2 是周末，按放假办法第六条要在工作日补假。按 2026 年的 5 天估为 5/1–5/5。
+    evidence:
+      - { src: china-holidays-law, quote: "（四）劳动节，放假2天（5月1日、2日）" }
+      - { src: china-holidays-law, quote: "全体公民放假的假日，如果适逢周六、周日，应当在工作日补假" }
+      - { src: china-holidays-2026, quote: "5月1日（周五）至5日（周二）放假调休，共5天" }
+  - name_zh: 端午节
+    start: 2027-06-09
+    end: 2027-06-09
+    statutory: [2027-06-09]
+    evidence:
+      - { src: china-holidays-law, quote: "（五）端午节，放假1天（农历端午当日）" }
+      - { src: china-holidays-hko-2027, quote: "2027年6月5日 五月 星期六" }
+      - { src: china-holidays-hko-2027, quote: "2027年6月9日 初五 星期三" }
+  - name_zh: 中秋节
+    start: 2027-09-15
+    end: 2027-09-15
+    statutory: [2027-09-15]
+    evidence:
+      - { src: china-holidays-law, quote: "（六）中秋节，放假1天（农历中秋当日）" }
+      - { src: china-holidays-hko-2027, quote: "2027年9月1日 八月 星期三" }
+      - { src: china-holidays-hko-2027, quote: "2027年9月15日 十五 星期三" }
+  - name_zh: 国庆节
+    start: 2027-10-01
+    end: 2027-10-07
+    statutory: [2027-10-01, 2027-10-02, 2027-10-03]
+    note_zh: 10/2、10/3 是周末，按放假办法第六条要在工作日补假。按 2026 年的 7 天估为 10/1–10/7。
+    evidence:
+      - { src: china-holidays-law, quote: "（七）国庆节，放假3天（10月1日至3日）" }
+      - { src: china-holidays-law, quote: "全体公民放假的假日，如果适逢周六、周日，应当在工作日补假" }
+      - { src: china-holidays-2026, quote: "10月1日（周四）至7日（周三）放假调休，共7天" }
+workdays: []
+last_checked: 2026-09-25
+note_zh: 调休上班日不预测。2027 年通知发布前，凡是用到 2027 年日期的工作日计算都标"预计"。

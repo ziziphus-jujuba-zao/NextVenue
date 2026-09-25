@@ -1,0 +1,11 @@
+id: its-wc
+acronym: ITS World Congress
+full_name: ITS World Congress
+name_zh: 智能交通世界大会
+directions: [eng/transport, eng/av]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年一届，欧洲、美洲、亚太轮流
+data_level: curated
+note_zh: CAAI 2024 目录 B 类的 ITS 是 ACM Interactive Tabletops and Surfaces，不是本会；本会四个目录都没有收录。

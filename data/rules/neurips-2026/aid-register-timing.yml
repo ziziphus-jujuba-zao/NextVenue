@@ -1,0 +1,21 @@
+id: neurips-2026/aid-register-timing
+edition: neurips-2026
+family: registration
+question_zh: 申请了资助，结果出来前可以先注册吗？
+short_zh: 资助结果前先注册
+answer: allowed
+verification: human
+conf: high
+applies:
+  from: notification
+  until: financial_aid_result
+summary_zh: 可以，官方还建议先注册：名额有限，要签证邀请函也得先注册。之后获得资助的，已交的注册费退回原支付方式。
+detail_zh: 志愿者（只招悉尼和亚特兰大）也是先自费注册，做完两班后退注册费。
+quotes:
+  - src: neurips-2026-financial-assistance
+    text: "Because registration availability may be limited, we recommend registering early rather than waiting for award decisions."
+  - src: neurips-2026-financial-assistance
+    text: "If you previously registered and get an award, your registration fee will be refunded."
+  - src: neurips-2026-financial-assistance
+    text: "However, applicants who require a visa invitation letter must register for NeurIPS before requesting one and should begin the visa process as early as possible."
+last_checked: 2026-09-25

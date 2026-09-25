@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "topics.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Top topics among one edition's accepted papers, from dblp titles (data/topics/<series>-<year>.json, written by scripts/topics/dblp_topics.py)",
+  "description": "按录用篇数排的主题，是本应用的估算。故意不允许任何录用率字段：dblp 只有录用的论文。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "edition",
+    "series",
+    "year",
+    "method_version",
+    "citation_zh",
+    "source",
+    "papers_used",
+    "official_accepted",
+    "coverage",
+    "topics"
+  ],
+  "properties": {
+    "schema": { "const": 1 },
+    "edition": { "type": "string", "pattern": "^[a-z0-9]+-\\d{4}$" },
+    "series": { "type": "string", "pattern": "^[a-z0-9]+$" },
+    "year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+    "method_version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "citation_zh": { "type": "string", "minLength": 10 },
+    "scope_zh": { "type": "string", "minLength": 2, "description": "算了哪些论文，例如“主会；去掉了 Datasets & Benchmarks 赛道”" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "license", "tocs", "retrieved_at"],
+      "properties": {
+        "name": { "const": "dblp" },
+        "license": { "const": "CC0 1.0" },
+        "tocs": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^https://dblp\\.org/db/" }
+        },
+        "retrieved_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "papers_used": { "type": "integer", "minimum": 1 },
+    "official_accepted": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source_url", "quote", "quote_check"],
+      "properties": {
+        "value": { "type": "integer", "minimum": 1 },
+        "source_url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+        "quote": { "type": "string", "minLength": 3 },
+        "src": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "quote_check": { "enum": ["snapshot", "manual"] }
+      },
+      "if": { "properties": { "quote_check": { "const": "snapshot" } } },
+      "then": { "required": ["src"] }
+    },
+    "coverage": { "type": "number", "minimum": 0.98, "maximum": 1.02 },
+    "topics": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rank", "id", "label_zh", "label_en", "count", "share_pct"],
+        "properties": {
+          "rank": { "type": "integer", "minimum": 1, "maximum": 15 },
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "label_zh": { "type": "string", "minLength": 1 },
+          "label_en": { "type": "string", "minLength": 1 },
+          "count": { "type": "integer", "minimum": 1 },
+          "share_pct": { "type": "number", "exclusiveMinimum": 0, "maximum": 100 },
+          "prev": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["year", "count", "share_pct", "delta_pp"],
+            "properties": {
+              "year": { "type": "integer" },
+              "count": { "type": "integer", "minimum": 0 },
+              "share_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+              "delta_pp": { "type": "number" }
+            }
+          },
+          "low_precision": { "const": true, "description": "抽查时误配较多，界面加“*”" },
+          "examples": {
+            "type": "array",
+            "maxItems": 3,
+            "items": { "type": "string", "minLength": 1 },
+            "description": "命中的 3 个 dblp 标题，给“怎么算的”弹层用"
+          }
+        }
+      }
+    }
+  }
+}

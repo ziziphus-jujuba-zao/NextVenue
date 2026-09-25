@@ -1,0 +1,65 @@
+id: cade-2027
+series: cade
+name: CADE 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Nijmegen, country: Netherlands, country_code: NL }
+dates: { start: 2027-08-22, end: 2027-08-25 }
+federated_with:
+  name: FSCD-CADE 2027
+  url: https://fscd-cade.science.ru.nl/
+  with: [fscd]
+  src: fscd-cade-2027-home
+  quote: "In 2027, FSCD and CADE will be co-located in Nijmegen:"
+milestones:
+  - type: abstract
+    at: 2027-02-15T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cade-2027-cfp
+    quote: "Abstract deadline: February 15, 2027"
+    note_zh: 官网只写日期，没写时区和时刻。这里按北京时间当天 23:59 算，比 AoE 或欧洲时间都早，更保守；ccfddl 按 AoE 记。
+  - type: paper
+    at: 2027-02-22T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cade-2027-cfp
+    quote: "Submission deadline: February 22, 2027"
+    note_zh: 官网没写时区，按北京时间当天 23:59 算（更保守）。
+  - type: author_response
+    start: 2027-04-26
+    end: 2027-04-30
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cade-2027-cfp
+    quote: "Rebuttal period: April 26-30, 2027"
+    note_zh: 两个官方页面写法不一：CADE 征稿页写 4/26–30，FSCD-CADE 首页的日期表只写 “April 30th 2027”。这里按征稿页。
+  - type: notification
+    at: 2027-05-17
+    tz: Europe/Amsterdam
+    tz_assumed: true
+    status: confirmed
+    src: cade-2027-cfp
+    quote: "Notification: May 17, 2027"
+    note_zh: 官网只给日期、没写时区。出结果不按北京时间提前算，按会场所在地奈梅亨的日期记。
+  - type: camera_ready
+    at: 2027-05-31T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cade-2027-cfp
+    quote: "Final version deadline: May 31, 2027"
+  - type: conference
+    start: 2027-08-22
+    end: 2027-08-25
+    tz: Europe/Amsterdam
+    status: confirmed
+    src: fscd-cade-2027-home
+    quote: "CADE-31, the 31st International Conference on Automated Deduction, will be held from August 22nd to 25th, with workshops on August 21st and 26th."
+    note_zh: 会场是 Nijmegen-Lent 的 Van der Valk Hotel。FSCD-CADE 2027 整体是 8/21–27。
+last_checked: 2026-09-25
+note_zh: 第 31 届 CADE，与 FSCD 同地举办。常规论文最长 16 页、短文（系统描述、案例等）10 页，LIPIcs 格式，不含参考文献；论文集从这一届起是 LIPIcs（开放获取）。审稿有 rebuttal 环节。投稿系统是 EasyChair（cade31，选 Main Conference track）。官网全程没写时区，所有日期按北京时间当天算。

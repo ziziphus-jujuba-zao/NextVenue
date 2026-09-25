@@ -1,0 +1,27 @@
+id: assa-2028
+series: assa
+name: ASSA 2028
+year: 2028
+kind: conference
+data_level: curated
+derived_from: assa-2027
+location: { city: Atlanta, country: USA, country_code: US }
+dates: { start: 2028-01-07, end: 2028-01-09 }
+milestones:
+  - type: paper
+    label_zh: AEA 个人论文提案截止
+    at: 2027-04-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: assa-2027-conference
+    quote: "The deadline for individual paper proposals was April 1, 2026, and the deadline for complete session proposals was April 15, 2026."
+    note_zh: 预计。2028 届征稿还没发布，按 2027 届的个人论文提案截止 2026-04-01 顺延一年；整场分会提案按同样规律约 4/15。
+  - type: conference
+    start: 2028-01-07
+    end: 2028-01-09
+    tz: America/New_York
+    status: confirmed
+    src: assa-future-meetings
+    quote: "January 7-9, 2028 (Friday, Saturday & Sunday) Atlanta, GA – Atlanta Marriott Marquis"
+last_checked: 2026-09-25

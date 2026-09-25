@@ -1,0 +1,13 @@
+id: aps-summit
+acronym: APS Summit
+full_name: APS Global Physics Summit
+aliases:
+  - Global Physics Summit
+  - APS March Meeting
+directions: [phys/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国物理学会（APS）的年度大会，往届都在每年 3–4 月举办
+data_level: curated
+note_zh: 只收摘要（口头 10 分钟或海报），投稿人须是 APS 或互惠学会会员；可以选线下或线上报告。

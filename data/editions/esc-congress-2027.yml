@@ -1,0 +1,22 @@
+id: esc-congress-2027
+series: esc-congress
+name: ESC Congress 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Milan, country: Italy, country_code: IT }
+dates: { start: 2027-08-27, end: 2027-08-30 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: Europe/Rome
+    note_zh: 2027 届的摘要征集还没公布。
+  - type: conference
+    start: 2027-08-27
+    end: 2027-08-30
+    tz: Europe/Rome
+    status: confirmed
+    src: esc-congress-2027-future-destinations
+    quote: "ESC Congress 2027 Milan, Italy 27 to 30 August"
+last_checked: 2026-09-25
+note_zh: 只核对到会期和城市（ESC 官网的"未来举办地"页）。摘要截止要等官网公布。

@@ -1,0 +1,86 @@
+Skip to content
+HSCC+ICCPS 2027
+HomeCall for PapersAuthorsDatesOrganizersProgram CommitteeProgramAwardsPoliciesHistoryRegistrationVenue
+
+CPS-IoT Week 2027 · Boulder, Colorado
+
+ACM/IEEE International Conference on Cyber-Physical and Autonomous Systems (HSCC+ICCPS) 2027
+
+Foundations, systems, and AI-enabled autonomy in one conference.
+
+Call for papersImportant datesSubmission site
+ConferenceMay 17–20, 2027
+
+Boulder, Colorado
+
+A fully merged conference
+
+The International Conference on Hybrid Systems: Computation and Control (HSCC) and the ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS) shared a unified program and program committee in 2026 while retaining their individual identities and proceedings.
+
+In 2027, that transition becomes the ACM/IEEE International Conference on Cyber-Physical and Autonomous Systems (HSCC+ICCPS): one conference, one coordinated program committee, and ACM proceedings for Regular, Short, and Tool papers across three connected tracks.
+
+HSCC 2027 and ICCPS 2027 carry forward the foundations and systems communities of both conferences while giving AI-enabled autonomy a full place in the program.
+
+Three coordinated tracks
+
+One program, broad coverage
+
+01
+
+Foundations
+
+Fundamental methods for modeling, analysis, design, verification, and control of cyber-physical and hybrid systems, including rigorous theory, algorithms, and computational tools.
+
+02
+
+Systems and Applications
+
+Architectures, implementation, integration, experimental evaluation, and deployment of cyber-physical systems, including generalizable lessons from real applications.
+
+03
+
+AI-enabled Autonomy
+
+Advances in artificial intelligence, machine learning, robotics, vision, control, and formal methods for autonomous systems that sense, decide, and act in the physical world, together with credible evidence of safety, robustness, and responsible operation.
+
+Important dates
+
+Key dates
+
+Submission site opens
+
+September 22, 2026
+
+Abstract registration deadline
+
+October 29, 2026
+
+Paper submission deadline
+
+November 5, 2026
+
+Author response period
+
+January 11–15, 2027
+
+Paper acceptance/rejection notification
+
+January 28, 2027
+
+Artifact-evaluation instructions and committee published
+
+Tentative
+January 29, 2027
+
+See all dates →
+
+Explore HSCC+ICCPS 2027
+
+Information for AuthorsProgramAwardsOrganizers
+HSCC+ICCPS 2027
+
+Official information for the 2027 ACM/IEEE International Conference on Cyber-Physical and Autonomous Systems, held with CPS-IoT Week in Boulder, Colorado.
+
+Follow HSCC on Facebook
+
+Privacy and support: Taylor T. JohnsonPC Invitation ServicePrivacy PolicyTerms of ServiceSubmission SiteCPS-IoT Week 2027Updated September 23, 2026

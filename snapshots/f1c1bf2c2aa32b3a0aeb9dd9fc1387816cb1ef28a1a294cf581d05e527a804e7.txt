@@ -1,0 +1,57 @@
+2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) | 979-8-3315-1083-1/25/$31.00 ©2025 IEEE | DOI: 10.1109/WACV61041.2025.00005
+
+Welcome Message
+WACV 2025
+Welcome to Tucson, Arizona, the home of the Winter Conference on Applications of Computer
+Vision (WACV) for the first time! As the premier venue for advances in applications of computer
+vision, our meeting continues to grow along with the interest in AI and computer vision. For
+WACV 2025, we have incorporated new features and made some changes from previous iterations
+to accommodate this growth. We hope that you will enjoy the meeting and find time to enjoy
+Tucson.
+WACV 2025 consists of a three-day main conference program and two days of workshops and
+tutorials. Following the WACV tradition, each day of the main conference includes a keynote
+presentation, followed by oral and poster presentations. There will also be ample opportunity to
+make new acquaintances and socialize with old colleagues during several social events that are
+part of the program of WACV this year.
+We continue to attract a significant number of submissions, reaching a record 2,458 valid
+submissions – around 20% more than WACV 2024. To handle this record number of submissions,
+we relied on 199 Area Chairs and 2,472 reviewers. We are especially grateful to the reviewers who
+were willing to conduct last-minute emergency reviews, ensuring that all papers received at least
+3 reviews. The reviewing process was double-blind and followed best practices to avoid conflicts
+of interest. After receiving the reviews, the Area Chairs made decisions in groups of two, so that
+each paper was considered by multiple reviewers and multiple Area Chairs.
+We continued the WACV tradition of a two-round submission process. By the Round 1 deadline
+in mid-July, we received 1406 valid paper submissions. Of these, 167 were accepted directly after
+the first round of review, and an additional 710 were invited to be revised and resubmitted to
+Round 2, along with a rebuttal. Of the revised papers, 475 were accepted, whereas the rest were
+either rejected or withdrawn. The overall acceptance rate for Round 1 was therefore 45.7%.
+Authors could also submit new papers directly to Round 2, which had a deadline in early
+September. We received 1,052 submissions in Round 2, of which 288 (27.4%) were accepted.
+Overall, across both rounds WACV received a total of 2,458 paper submissions and accepted a
+total of 930 papers, for an overall acceptance rate of 37.8%. These statistics illustrate how
+WACV’s innovative two-round submission process allows authors to incorporate reviewer
+feedback to improve their papers (in Round 1), leading to a higher acceptance rate, as well as
+receiving quick feedback for Round 2.
+The paper review process had two tracks: Applications and Algorithms. While papers in both
+tracks were expected to include original, novel, high-quality contributions, papers in the
+
+cxiv
+
+Applications track did not necessarily require algorithmic novelty. About 74.5% of papers were
+submitted to the Algorithms track, and 25.5% were submitted to the Applications track.
+We gratefully acknowledge the contributions of our corporate supporters: Adobe, Kitware, IO
+Industries. We would also like to thank everyone involved in making WACV a success, including
+Tutorials Chairs Benjamin S. Riggan and Shuowen Hu, Workshop Chairs Jonghyun Choi and JunCheng Chen, Industry/Government Relations Chair Scott M. Mccloskey, Ombudsperson Richard
+Souvenir, Doctoral Consortium Chairs Hien Van Nguyen and Yuyin Zhou, Demo and Exhibits
+Chair Brian Clipp, Diversity, Equity, and Inclusion (DEI) Chairs Emily Hand and Aparna Bharati,
+Publication Chair Qiang Qiu and Srirangaraj Setlur, Publicity and Social Media Chair Yizhak BenShabat, Finance Chair Nathaniel Blanchard and Awards Committee members Walter Scheirer
+(chair), Anthony Hoogs, Ryan Farrell, Luisa Verdoliva and Gang Hua. We are grateful to our three
+keynote speakers, Hannah Kerner, Alvaro Velasquez and Phillip Isola. Special thanks go to our
+Conference Producer Nicole Finn, who has kept WACV running smoothly for many years. Finally,
+thanks to all of you for attending WACV and making it a success!
+Program Chairs: Soma Biswas, Hadar Averbuch-Elor, Vitomir Štruc, ‘YZ’ Yezhou Yang
+General Chairs: Sharon X. Huang, Peyman Milanfar, Vishal M. Patel
+
+cxv
+
+

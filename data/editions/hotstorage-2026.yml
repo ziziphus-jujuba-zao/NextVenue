@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: hotstorage-2026
+series: hotstorage
+name: HotStorage 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/HotStorage
+  conf_id: hotstorage2026
+  link: https://www.hotstorage.org/2026/
+  place: Prague, Czechia
+  date: September 28-29, 2026
+  timezone: AoE
+location:
+  city: Prague
+  country: Czechia
+  country_code: CZ
+dates:
+  start: 2026-09-28
+  end: 2026-09-29
+milestones:
+  - type: paper
+    at: 2026-06-05T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-09-28
+    end: 2026-09-29
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

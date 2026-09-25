@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ccs-2026
+series: ccs
+name: CCS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/CCS
+  conf_id: ccs26
+  link: https://www.sigsac.org/ccs/CCS2026/
+  place: World Forum, Hague, Netherlands
+  date: November 15-19, 2026
+  timezone: UTC-12
+location:
+  city: World Forum
+  country: Netherlands
+  country_code: NL
+dates:
+  start: 2026-11-15
+  end: 2026-11-19
+milestones:
+  - type: paper
+    at: 2026-01-14T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: First Review Cycle
+  - type: paper
+    at: 2026-04-29T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: Second Review Cycle
+  - type: conference
+    start: 2026-11-15
+    end: 2026-11-19
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

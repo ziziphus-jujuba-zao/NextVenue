@@ -1,0 +1,30 @@
+General Information
+Conference Overview Conference Officers Shadow PC
+Conference Program
+
+Call for Contributions
+Research Track
+Dates & Guidelines
+Important Dates
+
+----------------------------------------
+
+Formatting Guidelines Submission Guidelines
+Sponsorship
+Opportunities
+Participant Information
+
+53rd International Conference on Very Large Data Bases Athens, Greece — Aug 23rd - Aug 27th, 2027
+
+VLDB 2027: Important Dates
+
+All deadlines below are 5 p.m. PT, unless otherwise noted.
+
+                 Chairs                                                Submissions Open      Abstract Submission          Submissions Deadline   Notifications            Camera-Ready Submissions
+Research Track   Katja HoseTU Wien, Austria Matthias BoehmTechnische   20th of every month   25th of the previous month   1st of every month     15th of the next month   Proceedings chairs will contact
+                 Universität Berlin, Germany                           starting March 2026                                until March 2027       following the deadline   the authors with CR instructions
+                                                                                                                                                                          by the 5th of the next month
+                                                                                                                                                                          following the acceptance notification
+
+53rd International Conference on Very Large Data Bases
+Athens, Greece — Aug 23rd - Aug 27th, 2027

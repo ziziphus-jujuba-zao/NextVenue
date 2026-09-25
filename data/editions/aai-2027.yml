@@ -1,0 +1,22 @@
+id: aai-2027
+series: aai
+name: IMMUNOLOGY 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Los Angeles, country: USA, country_code: US }
+dates: { start: 2027-04-30, end: 2027-05-04 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/Los_Angeles
+    note_zh: 摘要 2026-10-06 开放提交；截止日官网还没写。
+  - type: conference
+    start: 2027-04-30
+    end: 2027-05-04
+    tz: America/Los_Angeles
+    status: confirmed
+    src: aai-2027-home
+    quote: "Join us April 30 to May 4 in Los Angeles for IMMUNOLOGY2027™"
+last_checked: 2026-09-25
+note_zh: 摘要开放日见官网摘要页："IMMUNOLOGY2027™ abstracts open for submission on October 6, 2026."

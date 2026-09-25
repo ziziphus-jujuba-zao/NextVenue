@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 import { collapseWhitespace } from './normalize.ts';
 

@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iedm-2026
+sources:
+  - id: iedm-2026-submission
+    url: https://ieee-iedm.org/submission-details/
+    title: IEDM 2026 Submission Details
+    kind: author_guide
+    fetched_at: 2026-09-25T15:49:30Z
+    http_status: 200
+    snapshot: 4ab75ac3afb630159ef6c9bc41ffd13fa06968ff361b4dc3844f649fb1670482
+  - id: iedm-2026-home
+    url: https://ieee-iedm.org/
+    title: IEDM 2026 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:50:52Z
+    http_status: 200
+    snapshot: 32fbd3ce7354f5fd94f8728780d06a6f8d2e3657e2b166c488aba78c5f3b9d2b
+  - id: iedm-2026-registration
+    url: https://ieee-iedm.org/attendee/registration-details/
+    title: IEDM 2026 Registration Details
+    kind: other
+    fetched_at: 2026-09-25T15:50:52Z
+    http_status: 200
+    snapshot: 8283ec096c4eea5217800f93fee1b50ef551baa1ddf10cd1040a923280a65ea9

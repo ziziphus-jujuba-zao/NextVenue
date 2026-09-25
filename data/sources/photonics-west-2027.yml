@@ -1,0 +1,12 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: photonics-west-2027
+sources:
+  - id: photonics-west-2027-home
+    url: https://spie.org/conferences-and-exhibitions/photonics-west
+    mirror_url: https://web.archive.org/web/20260831141057id_/https://spie.org/conferences-and-exhibitions/photonics-west
+    title: SPIE Photonics West 2027 (Internet Archive copy)
+    kind: other
+    fetched_at: 2026-09-25T16:01:40Z
+    http_status: 200
+    snapshot: 301c025700c0bdb615e1b530c3cd7bc49893bcd73b2e8f2e75064e25c55d6cfd
+    note_zh: spie.org 用 Imperva 拦截本项目的抓取程序，快照取自 Internet Archive 2026-08-31 存下的同一页面。Presenters 页（录用通知、稿件截止）没有存档，未核对。

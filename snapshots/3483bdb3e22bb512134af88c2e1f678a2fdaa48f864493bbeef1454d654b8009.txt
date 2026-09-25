@@ -1,0 +1,2431 @@
+February 21–25, 2022
+Virtual Event
+Tempe, AZ, USA
+
+WSDM’22
+Proceedings of the Fifteenth ACM International Conference on
+
+Web Search and Data Mining
+Sponsored by:
+
+ACM SIGIR, ACM SIGKDD, ACM SIGMOD, & ACM SIGWEB
+General Chairs:
+
+K. Selçuk Candan, Arizona State University, USA
+Huan Liu, Arizona State University, USA
+Program Chairs:
+
+Leman Akoğlu, Carnegie Mellon University, USA
+Xin Luna Dong, Meta Platforms (former Facebook), USA
+Jiliang Tang, Michigan State University, USA
+Proceedings Chair:
+
+Parth Nagarkar, New Mexico State University, USA
+
+The Association for Computing Machinery
+th
+
+1601 Broadway, 10 Floor
+New York, NY 10019-7434
+
+Copyright © 2022 by the Association for Computing Machinery, Inc. (ACM). Permission to
+make digital or hard copies of portions of this work for personal or classroom use is granted
+without fee provided that copies are not made or distributed for profit or commercial
+advantage and that copies bear this notice and the full citation on the first page. Copyright
+for components of this work owned by others than ACM must be honored. Abstracting with
+credit is permitted. To copy otherwise, to republish, to post on servers or to redistribute to
+lists, requires prior specific permission and/or a fee. Request permission to republish from:
+permissions@acm.org or Fax +1 (212) 869-0481.
+For other copying of articles that carry a code at the bottom of the first or last page, copying
+is permitted provided that the per-copy fee indicated in the code is paid through
+www.copyright.com.
+
+ISBN: 978-1-4503-9132-0
+Additional copies may be ordered prepaid from:
+ACM Order Department
+PO Box 30777
+New York, NY 10087-0777, USA
+Phone: 1-800-342-6626 (USA and Canada)
++1-212-626-0500 (Global)
+Fax: +1-212-944-1318
+E-mail: acmhelp@acm.org
+Hours of Operation: 8:30 am – 4:30 pm ET
+
+Printed in the USA
+
+Message from the WSDM 2022 Chairs
+We are delighted to welcome you to the 15th ACM International Conference on Web Search and
+Data Mining (WSDM) 2022. While originally scheduled to be held in Tempe, Arizona, the
+conference had to move in late December 2021 to a virtual format. This difficult decision was made
+in light of the surge in Omicron cases, enhanced travel restrictions from various parts of the world,
+and companies scrapping office-return deadlines without setting a new date.
+WSDM (pronounced “wisdom”) is one of the premier conferences on web-inspired research
+involving search and data mining. WSDM publishes original, high-quality papers related to search
+and data mining on the Web and the Social Web, with an emphasis on practical yet principled
+novel models of search and data mining, algorithm design and analysis, economic implications, and
+in-depth experimental analysis of accuracy and performance. This year’s conference hosts an
+exciting technical program, including invited talks, as well as refereed full papers. The conference
+hosts an exciting technical program, including 7 workshops, 7 tutorials, 9 doctoral consortium
+presentations, 14 technical demos, 160 research papers, industry day presentations, smart city day
+presentations, and 3 exciting keynote talks on timely topics:
+
+
+Yejin Choi (University of Washington) - Knowledge is Power: Symbolic Knowledge
+Distillation, Commonsense Morality, and Multimodal Script Knowledge
+
+
+
+George Karypis (Amazon, University of Minnesota) - Graph Neural Network Research at
+AWS AI
+
+
+
+Ricardo Baeza-Yates (Northeastern University) - Ethics Challenges in AI
+
+We are immensely grateful to the many researchers and volunteers who have shaped the
+conference program. In particular, we thank the authors, presenters, and the WSDM’22 program
+committee. We also acknowledge the Executive Committees of the four ACM SIGs, SIGIR,
+SIGKDD, SIGMOD, and SIGWEB, and the members of the WSDM Steering Committee. The
+committee chair Jian Pei deserves special thanks for providing us with his advice at all stages of
+the conference organization.
+We are also grateful to the CMT and EasyChair teams for their extremely prompt and helpful
+support throughout the various aspects of the complex conference reviewing process, as well as to
+Whova and Zoom, which together helped us run a successful virtual international conference. We
+also give our most sincere thanks to the ACM and Sheridan for their immense help in preparing
+the proceedings for publication.
+We thank SIGIR and the National Science Foundation for their student author registration awards.
+We also acknowledge Arizona State University and the conference’s industrial sponsors for their
+invaluable supports.
+We sincerely hope that you will enjoy the conference.
+GENERAL CHAIRS
+
+PROGRAM CHAIRS
+
+K. Selçuk Candan, Arizona State University
+
+Leman Akoğlu, Carnegie Mellon University
+
+Huan Liu, Arizona State University
+
+Luna Dong, Meta Platforms, Inc.
+Jiliang Tang, Michigan State University
+
+iii
+
+Table of Contents
+WSDM 2022 Conference Organization.......................................................................................... xx
+WSDM 2022 Senior Program Committee, Program Committee,
+& Demo Program Committee ............................................................................................................ xxii
+WSDM 2022 Sponsors & Supporters ........................................................................................... xxxii
+Keynote Talks
+
+
+Ethical Challenges in AI ............................................................................................................................... 1
+Ricardo Baeza-Yates (Northeastern University)
+
+
+
+Knowledge is Power: Symbolic Knowledge Distillation, Commonsense Morality,
+& Multimodal Script Knowledge ............................................................................................................... 3
+Yejin Choi (University of Washington & AI2)
+
+
+
+Graph Neural Network Research at AWS AI .......................................................................................... 4
+George Karypis (AWS AI & University of Minnesota - Twin Cities)
+
+Research Papers
+
+
+k-Clustering with Fair Outliers .................................................................................................................. 5
+Matteo Almanza (Sapienza University), Alessandro Epasto (Google Research),
+Alessandro Panconesi (Sapienza University), Giuseppe Re (Sapienza University)
+
+
+
+Wikipedia Reader Navigation: When Synthetic Data Is Enough ..................................................... 16
+Akhil Arora (École Polytechnique Fédérale de Lausanne), Martin Gerlach (Wikimedia Foundation),
+Tiziano Piccardi (École Polytechnique Fédérale de Lausanne), Alberto García-Durán (Atinary Technologies),
+Robert West (École Polytechnique Fédérale de Lausanne)
+
+
+
+Harvesting More Answer Spans from Paragraph beyond Annotation ........................................... 27
+Qiaoben Bao, Jiangjie Chen, Linfang Liu (Fudan University),
+Jingping Liu (East China University of Science and Technology), Jiaqing Liang (Fudan University),
+Yanghua Xiao (Fudan University; Fudan-Aishu Cognitive Intelligence Joint Research Center; & East China
+University of Science & Technology)
+
+
+
+Sampling Multiple Nodes in Large Networks: Beyond Random Walks ......................................... 37
+Omri Ben-Eliezer (Harvard University & Massachusetts Institute of Technology),
+Talya Eden (Boston University & Massachusetts Institute of Technology),
+Joel Oren (Bosch Center for Artificial Intelligence), Dimitris Fotakis (National Technical University of Athens)
+
+
+
+‘It’s on the tip of my tongue’: A new Dataset for Known-Item Retrieval ....................................... 48
+Samarth Bhargav, Georgios Sidiropoulos, Evangelos Kanoulas (University of Amsterdam)
+
+
+
+CAN: Feature Co-Action Network for Click-Through Rate Prediction........................................... 57
+Weijie Bian, Kailun Wu, Lejian Ren, Qi Pi, Yujing Zhang, Can Xiao, Xiang-Rong Sheng,
+Yong-Nan Zhu, Zhangming Chan, Na Mo, Xinchen Luo (Alibaba Group),
+Shiming Xiang (Institute of Automation, Chinese Academy of Sciences),
+Guorui Zhou, Xiaoqiang Zhu, Hongbo Deng (Alibaba Group)
+
+
+
+Towards Understanding and Answering Comparative Questions ................................................... 66
+Alexander Bondarenko, Yamen Ajjour, Valentin Dittmar, Niklas Homann
+(Martin-Luther-Universität Halle-Wittenberg),
+Pavel Braslavski (Ural Federal University & HSE University, Moscow),
+Matthias Hagen (Martin-Luther-Universität Halle-Wittenberg)
+
+
+
+Graph Collaborative Reasoning............................................................................................................... 75
+Hanxiong Chen, Yunqi Li (Rutgers University), Shaoyun Shi (Tsinghua University),
+Shuchang Liu, He Zhu, Yongfeng Zhang (Rutgers University)
+
+v
+
+
+
+A Personalized Cross-Platform Post Style Transfer Method Based on Transformer
+and Bi-Attention Mechanism.................................................................................................................... 85
+Zhuo Chen, Baoxi Liu, Peng Zhang, Tun Lu (Fudan University),
+Hansu Gu (Independent), Ning Gu (Fudan University)
+
+
+
+Modeling Scale-free Graphs with Hyperbolic Geometry for Knowledge-aware
+Recommendation ........................................................................................................................................ 94
+Yankai Chen, Menglin Yang (The Chinese University of Hong Kong),
+Yingxue Zhang, Mengchen Zhao (Huawei Noah’s Ark Lab), Ziqiao Meng (The Chinese University of Hong Kong),
+Jianye Hao (Huawei Noah’s Ark Lab), Irwin King (The Chinese University of Hong Kong)
+
+
+
+Estimating Causal Effects of Multi-Aspect Online Reviews with Multi-Modal Proxies ............ 103
+Lu Cheng (Arizona State University), Ruocheng Guo (City University of Hong Kong),
+Huan Liu (Arizona State University)
+
+
+
+Causal Mediation Analysis with Hidden Confounders ..................................................................... 113
+Lu Cheng (Arizona State University), Ruocheng Guo (City University of Hong Kong),
+Huan Liu (Arizona State University)
+
+
+
+AdaptKT: A Domain Adaptable Method for Knowledge Tracing .................................................. 123
+Song Cheng (University of Science and Technology of China & DingTalk, Alibaba Group),
+Qi Liu, Enhong Chen, Kai Zhang, Zhenya Huang, Yu Yin, Xiaoqing Huang
+(University of Science and Technology of China),
+Yu Su (University of Science and Technology of China & iFLYTEK, Co., Ltd)
+
+
+
+An Adaptive Unified Allocation Framework for Guaranteed Display Advertising.................... 132
+Xiao Cheng (Alibaba Group), Chuanren Liu (The University of Tennessee),
+Liang Dai, Peng Zhang, Zhen Fang, Zhonglin Zu (Alibaba Group)
+
+
+
+The Datasets Dilemma: How Much Do We Really Know About Recommendation
+Datasets? ..................................................................................................................................................... 141
+Jin Yao Chin, Yile Chen, Gao Cong (Nanyang Technological Univesity)
+
+
+
+S-Walk: Accurate and Scalable Session-based Recommendation with Random Walks ........... 150
+Minjin Choi (Sungkyunkwan University), Jinhong Kim (Naver Corp.),
+Joonseok Lee (Google Research & Seoul National University),
+Hyunjung Shim (Yonsei University), Jongwuk Lee (Sungkyunkwan University)
+
+
+
+ANTHEM: Attentive Hyperbolic Entity Model for Product Search ............................................... 161
+Nurendra Choudhary (Virginia Tech), Nikhil Rao (Amazon),
+Sumeet Katariya, Karthik Subbian (Amazon), Chandan K. Reddy (Virginia Tech & Amazon)
+
+
+
+Beyond NED: Fast and Effective Search Space Reduction for Complex Question
+Answering over Knowledge Bases ........................................................................................................ 172
+Philipp Christmann, Rishiraj Saha Roy, Gerhard Weikum (Max Planck Institute for Informatics)
+
+
+
+Towards Robust Graph Neural Networks for Noisy Graphs with Sparse Labels ....................... 181
+Enyan Dai (The Pennsylvania State University),
+Wei Jin, Hui Liu (Michigan State University), Suhang Wang (The Pennsylvania State University)
+
+
+
+Predicting Human Mobility via Graph Convolutional Dual-attentive Networks ...................... 192
+Weizhen Dang, Haibo Wang (Tsinghua University), Shirui Pan (Monash University),
+Pei Zhang (Beijing University of Posts and Telecommunications), Chuan Zhou (Chinese Academy of Sciences),
+Xin Chen, Jilong Wang (Tsinghua University)
+
+
+
+Deep-QPP: A Pairwise Interaction-based Deep Learning Model for Supervised Query
+Performance Prediction ........................................................................................................................... 201
+Suchana Datta (University College Dublin), Debasis Ganguly (University of Glasgow),
+Derek Greene (University College Dublin), Mandar Mitra (Indian Statistical Institute)
+
+
+
+Improving Personalized Search with Dual-Feedback Network...................................................... 210
+Chenlong Deng (Renmin University of China),
+Yujia Zhou (Renmin University of China & Beijing Key Laboratory of Big Data Management and Analysis
+Methods), Zhicheng Dou (Remin University of China)
+
+vi
+
+
+
+Combinatorial Bandits under Strategic Manipulations.................................................................... 219
+Jing Dong, Ke Li (The Chinese University of Hong Kong, Shenzhen), Shuai Li (Shanghai Jiao Tong University),
+Baoxiang Wang (The Chinese University of Hong Kong, Shenzhen)
+
+
+
+Understanding and Improvement of Adversarial Training for Network
+Embedding from an Optimization Perspective .................................................................................. 230
+Lun Du (Microsoft Research Asia), Xu Chen (Peking University), Fei Gao (Beijing Normal University),
+Qiang Fu (Microsoft Research Asia), Kunqing Xie (Peking University),
+Shi Han, Dongmei Zhang (Microsoft Research Asia)
+
+
+
+Semi-supervised Stance Detection of Tweets Via Distant Network Supervision........................ 241
+Subhabrata Dutta (Jadavpur University), Samiya Caur (Indraprastha Institute of Information Technology, Delhi),
+Soumen Chakrabarti (Indian Institute of Technology Bombay),
+Tanmoy Chakraborty (Indraprastha Institute of Information Technology, Delhi)
+
+
+
+External Evaluation of Ranking Models under Extreme Position-Bias ........................................ 252
+Yaron Fairstein, Elad Haramaty, Arnon Lazerson, Liane Lewin-Eytan (Amazon)
+
+
+
+Modeling Users’ Contextualized Page-wise Feedback for Click-Through Rate
+Prediction in E-commerce Search.......................................................................................................... 262
+Zhifang Fan, Dan Ou, Yulong Gu (Alibaba Group), Bairan Fu (Nanjing University),
+Xiang Li, Wentian Bao (Alibaba Group), Xin-Yu Dai (Nanjing University),
+Xiaoyi Zeng, Tao Zhuang, Qingwen Liu (Alibaba Group)
+
+
+
+Variational User Modeling with Slow and Fast Features.................................................................. 271
+Ghazal Fazelnia, Eric Simon, Ian Anderson, Benjamin Carterette, Mounia Lalmas (Spotify)
+
+
+
+How Do You Test a Test? A Multifaceted Examination of Significance Tests ............................. 280
+Nicola Ferro (University of Padova), Mark Sanderson (RMIT University)
+
+
+
+Efficient Graph Convolution for Joint Node Representation Learning and Clustering ........... 289
+Chakib Fettal, Lazhar Labiod, Mohamed Nadif (Université de Paris)
+
+
+
+Leveraging Multi-view Inter-passage Interactions for Neural Document Ranking .................. 298
+Chengzhen Fu, Enrui Hu, Letian Feng (Huawei Technologies Co., Ltd),
+Zhicheng Dou (Renmin University of China), Yantao Jia (Huawei Technologies Co., Ltd),
+Lei Chen (Hong Kong University of Science and Technology),
+Fan Yu, Zhao Cao (Huawei Technologies Co., Ltd)
+
+
+
+HeteroQA: Learning towards Question-and-Answering through Multiple Information
+Sources via Heterogeneous Graph Modeling ..................................................................................... 307
+Shen Gao (Peking University), Yuchi Zhang, Yongliang Wang, Yang Dong (Ant Group),
+Xiuying Chen (King Abdullah University of Science and Technology),
+Dongyan Zhao (Peking University),
+Rui Yan (Renmin University & Beijing Academy of Artificial Intelligence),
+
+
+
+Toward Pareto Efficient Fairness-Utility Trade-off in Recommendation through
+Reinforcement Learning.......................................................................................................................... 316
+Yingqiang Ge (Rutgers University),
+Xiaoting Zhao, Lucia Yu, Saurabh Paul, Diane Hu, Chu-Cheng Hsieh (Etsy Inc.),
+Yongfeng Zhang (Rutgers University)
+
+
+
+Differentially Private Ensemble Classifiers for Data Streams ........................................................ 325
+Lovedeep Gondara, Ke Wang, Ricardo Silva Carvalho (Simon Fraser University)
+
+
+
+Multi-Scale Variational Graph AutoEncoder for Link Prediction .................................................. 334
+Zhihao Guo, Feng Wang, Kaixuan Yao, Jiye Liang, Zhiqiang Wang (Shanxi University)
+
+
+
+Learning Multi-granularity Consecutive User Intent Unit for Session-based
+Recommendation ...................................................................................................................................... 343
+Jiayan Guo (Peking University), Yaming Yang (Microsoft Research Asia),
+Xiangchen Song (Carnegie Mellon University), Yuan Zhang (Peking University),
+Yujing Wang (Microsoft Research Asia), Jing Bai (Microsoft), Yan Zhang (Peking University)
+
+
+
+Outside In: Market-aware Heterogeneous Graph Neural Network
+for Employee Turnover Prediction........................................................................................................ 353
+Jinquan Hang (Peking University), Zheng Dong (Baidu Inc.), Hongke Zhao (Tianjin University),
+Xin Song, Peng Wang, Hengshu Zhu (Baidu Inc.)
+
+vii
+
+
+
+Dy-HIEN: Dynamic Evolution based Deep Hierarchical Intention Network
+for Membership Prediction ..................................................................................................................... 363
+Zhenyun Hao, Jianing Hao, Zhaohui Peng (Shandong University),
+Senzhang Wang (Central South University), Philip S. Yu (University of Illinois at Chicago),
+Xue Wang, Jian Wang (Shandong University)
+
+
+
+Keyword Assisted Embedded Topic Model ......................................................................................... 372
+Bahareh Harandizadeh (University of Southern California),
+J. Hunter Priniski (University of California, Los Angeles), Fred Morstatter (University of Southern California)
+
+
+
+It Is Different When Items Are Older: Debiasing Recommendations When
+Selection Bias and User Preferences Are Dynamic ............................................................................ 381
+Jin Huang (University of Amsterdam), Harrie Oosterhuis (Radboud University),
+Maarten de Rijke (University of Amsterdam)
+
+
+
+POLE: Polarized Embedding for Signed Networks ........................................................................... 390
+Zexi Huang (University of California, Santa Barbara), Arlei Silva (Rice University),
+Ambuj Singh (University of California, Santa Barbara)
+
+
+
+Triangle Graph Interest Network for Click-through Rate Prediction ........................................... 401
+Wensen Jiang (Alibaba Group), Yizhu Jiao, Qingqin Wang (Fudan University),
+Chuanming Liang, Lijie Guo (Alibaba Group), Yao Zhang (Fudan University),
+Zhijun Sun (Alibaba Group), Yun Xiong, Yangyong Zhu (Fudan University)
+
+
+
+On Generalizing Static Node Embedding to Dynamic Settings ..................................................... 410
+Di Jin (University of Michigan), Sungchul Kim, Ryan A. Rossi (Adobe Research),
+Danai Koutra (University of Michigan)
+
+
+
+KGNN: Harnessing Kernel-based Networks for Semi-supervised Graph Classification .......... 421
+Wei Ju, Junwei Yang (Peking University), Meng Qu (Université de Montréal),
+Weiping Song, Jianhao Shen, Ming Zhang (Peking University)
+
+
+
+Leveraging World Events to Predict E-Commerce Consumer Demand under Anomaly ......... 430
+Dan Kalifa, Uriel Singer (Technion), Ido Guy (Ben-Gurion University of the Negev),
+Guy D. Rosin, Kira Radinsky (Technion)
+
+
+
+GAGE: Geometry Preserving Attributed Graph Embeddings ......................................................... 439
+Charilaos I. Kanatsoulis (University of Pennsylvania), Nicholas D. Sidiropoulos (University of Virginia)
+
+
+
+Query Interpretations from Entity-Linked Segmentations ............................................................. 449
+Vaibhav Kasturia (Martin-Luther-Universität Halle-Wittenberg),
+Marcel Gohsen (Bauhaus-Universität Weimar),
+Matthias Hagen (Martin-Luther-Universität Halle-Wittenberg)
+
+
+
+An Unsupervised Detection Framework for Chinese Jargons in the Darknet ............................ 458
+Liang Ke, Xinyu Chen, Haizhou Wang (Sichuan University)
+
+
+
+ConsistSum: Unsupervised Opinion Summarization with the Consistency
+of Aspect, Sentiment and Semantic ....................................................................................................... 467
+Wenjun Ke (Institute of Computing Technology, Chinese Academy of Sciences & University of Chinese
+Academy of Sciences),
+Jinhua Gao, Huawei Shen, Xueqi Cheng (Institute of Computing Technology, Chinese Academy of Sciences)
+
+
+
+Cluster-Aware Heterogeneous Information Network Embedding ................................................ 476
+Rayyan Ahmad Khan, Martin Kleinsteuber (Technical University of Munich & Unite Network SE)
+
+
+
+Doubly Robust Off-Policy Evaluation for Ranking Policies
+under the Cascade Behavior Model ...................................................................................................... 487
+Haruka Kiyohara (Tokyo Institute of Technology), Yuta Saito (Cornell University),
+Tatsuya Matsuhiro (Yahoo Japan Corporation), Yusuke Narita (Yale University),
+Nobuyuki Shimizu, Yasuo Yamamoto (Yahoo Japan Corporation)
+
+
+
+Introducing the Expohedron for Efficient Pareto-optimal Fairness-Utility
+Amortizations in Repeated Rankings ................................................................................................... 498
+Till Kletti, Jean-Michel Renders (Naver Labs Europe),
+Patrick Loiseau (University Grenoble Alpes, Inria, CNRS, Grenoble INP, LIG),
+
+viii
+
+
+
+Multi-Resolution Attention for Personalized Item Search .............................................................. 508
+Furkan Kocayusufoglu, Tao Wu, Anima Singh, Georgios Roumpos, Heng-Tze Cheng,
+Sagar Jain, Ed Chi (Google Inc.), Ambuj Singh (University of California, Santa Barbara)
+
+
+
+Linear, or Non-Linear, That is the Question! ...................................................................................... 517
+Taeyong Kong (Yonsei University), Taeri Kim (Hanyang University),
+Jinsung Jeon, Jeongwhan Choi (Yonsei University), Yeon-Chang Lee (Hanyang University),
+Noseong Park (Yonsei University), Sang-Wook Kim (Hanyang University)
+
+
+
+Efficient Two-stage Label Noise Reduction for Retrieval-based Tasks......................................... 526
+Mengmeng Kuang (Tencent Holdings Ltd.), Weiyan Wang (Hong Kong University of Science and Technology),
+Zhenhong Chen, Lie Kang, Qiang Yan (Tencent Holdings Ltd.)
+
+
+
+Differential Query Semantic Analysis: Discovery of Explicit Interpretable Knowledge
+from E-Com Search Logs ......................................................................................................................... 535
+Sahiti Labhishetty, ChengXiang Zhai (University of Illinois at Urbana-Champaign),
+Min Xie, Lin Gong, Rahul Sharnagat, Satya Chembolu (WalmartLabs)
+
+
+
+Collaborative Curating for Discovery and Expansion of Visual Clusters..................................... 544
+Dung D. Le (VinUniversity), Hady W. Lauw (Singapore Management University)
+
+
+
+A Cooperative Neural Information Retrieval Pipeline with Knowledge Enhanced
+Automatic Query Reformulation........................................................................................................... 553
+Xiangsheng Li (Tsinghua University), Jiaxin Mao (Renmin University of China),
+Weizhi Ma, Zhijing Wu, Yiqun Liu, Min Zhang, Shaoping Ma (Tsinghua University),
+Zhaowei Wang, Xiuqiang He (Huawei Noah’s Ark Lab)
+
+
+
+Unsupervised Cross-Domain Adaptation for Response Selection Using
+Self-Supervised and Adversarial Training ........................................................................................... 562
+Jia Li (Peking University),
+Chongyang Tao, Huang Hu, Can Xu, Yining Chen, Daxin Jiang (Microsoft Corporation)
+
+
+
+RecGURU: Adversarial Learning of Generalized User Representations
+for Cross-Domain Recommendation .................................................................................................... 571
+Chenglin Li, Mingjun Zhao (University of Alberta), Huanming Zhang (Tencent),
+Chenyun Yu (Sun Yat-sen University),
+Lei Cheng, Guoqiang Shu, BeiBei Kong (Tencent), Di Niu (University of Alberta)
+
+
+
+Graph Embedding with Hierarchical Attentive Membership ......................................................... 582
+Lu Lin, Ethan Blaser, Hongning Wang (University of Virginia)
+
+
+
+Surrogate Representation Learning with Isometric Mapping for Gray-box Graph
+Adversarial Attacks ................................................................................................................................... 591
+Zihan Liu (Zhejiang University & Westlake University),
+Yun Luo, Zelin Zang, Stan Z. Li (Westlake University)
+
+
+
+Improving Knowledge Tracing with Collaborative Information ................................................... 599
+Ting Long, Jiarui Qin, Jian Shen, Weinan Zhang (Shanghai Jiao Tong University),
+Wei Xia, Ruiming Tang, Xiuqiang He (Huawei Noah’s Ark Lab),
+Yong Yu (Shanghai Jiao Tong University)
+
+
+
+An Ensemble Model for Combating Label Noise ............................................................................... 608
+Yangdi Lu, Yang Bo, Wenbo He (McMaster University)
+
+
+
+Non-stationary Continuum-armed Bandits for Online Hyperparameter Optimization .......... 618
+Shiyin Lu (Nanjing University),
+Yu-Hang Zhou, Jing-Cheng Shi, Wenya Zhu, Qingtao Yu, Qing-Guo Chen, Qing Da (Alibaba Group),
+Lijun Zhang (Nanjing University)
+
+
+
+The Multi-vehicle Ride-Sharing Problem ............................................................................................ 628
+Kelin Luo (Eindhoven University of Technology & University of Bonn), Chaitanya Agarwal (New York University),
+Syamantak Das (Indraprastha Institute of Information Technology Delhi), Xiangyu Guo (University at Buffalo)
+
+
+
+Ada-GNN: Adapting to Local Patterns for Improving Graph Neural Networks ......................... 638
+Zihan Luo (Huazhong University of Science and Technology), Jianxun Lian (Microsoft Research Asia),
+Hong Huang, Hai Jin (Huazhong University of Science and Technology),
+Xing Xie (Microsoft Research Asia)
+
+ix
+
+
+
+RLMob: Deep Reinforcement Learning for Successive Mobility Prediction ............................... 648
+Ziyan Luo (Mila, McGill University), Congcong Miao (Tsinghua University)
+
+
+
+ComGA:Community-Aware Attributed Graph Anomaly Detection ............................................. 657
+Xuexiong Luo, Jia Wu, Amin Beheshti, Jian Yang (Macquarie University),
+Xiankun Zhang, Yuan Wang (Tianjin University of Science and Technology),
+Shan Xue (Macquarie University)
+
+
+
+VAE++: Variational AutoEncoder for Heterogeneous One-Class Collaborative Filtering ........ 666
+Wanqi Ma, Xiancong Chen, Weike Pan, Zhong Ming (Shenzhen University)
+
+
+
+Adversarial Attack on Graph Neural Networks as An Influence Maximization Problem ........ 675
+Jiaqi Ma, Junwei Deng, Qiaozhu Mei (University of Michigan)
+
+
+
+Diversified Subgraph Query Generation with Group Fairness ...................................................... 686
+Hanchao Ma, Sheng Guan, Christopher Toomey, Yinghui Wu (Case Western Reserve University)
+
+
+
+Learning Fair Node Representations with Graph Counterfactual Fairness ................................. 695
+Jing Ma (University of Virginia), Ruocheng Guo (City University of Hong Kong),
+Mengting Wan, Longqi Yang (Microsoft), Aidong Zhang, Jundong Li (University of Virginia)
+
+
+
+Deep Graph-level Anomaly Detection by Glocal Knowledge Distillation ................................... 704
+Rongrong Ma (University of Technology Sydney), Guansong Pang (Singapore Management University),
+Ling Chen (University of Technology Sydney), Anton van den Hengel (The University of Adelaide)
+
+
+
+Fast Learning of MNL Model from General Partial Rankings
+with Application to Network Formation Modeling ........................................................................... 715
+Jiaqi Ma, Xingjian Zhang, Qiaozhu Mei (University of Michigan)
+
+
+
+Pretraining Multi-modal Representations for Chinese NER Task
+with Cross-Modality Attention .............................................................................................................. 726
+Chengcheng Mai, Mengchuan Qiu, Kaiwen Luo, Ziyan Peng, Jian Liu,
+Chunfeng Yuan, Yihua Huang (Nanjing University)
+
+
+
+Speaker and Time-aware Joint Contextual Learning for Dialogue-act
+Classification in Counselling Conversations ...................................................................................... 735
+Ganeshan Malhotra (BITS Pilani), Abdul Waheed (Maharaja Agrasen Institute of Technology),
+Aseem Srivastava, Md Shad Akhtar, Tanmoy Chakraborty (IIIT-Delhi)
+
+
+
+Learning Relevant Questions for Conversational Product Search
+using Deep Reinforcement Learning .................................................................................................... 746
+Ali Montazeralghaem, James Allan (University of Massachusetts, Amherst)
+
+
+
+MTLTS: A Multi-Task Framework To Obtain Trustworthy Summaries
+From Crisis-Related Microblogs ............................................................................................................ 755
+Rajdeep Mukherjee, Uppada Vishnu, Hari Chandana Peruri,
+Sourangshu Bhattacharya (Indian Institute of Technology Kharagpur), Koustav Rudra (IIT(ISM) Dhanbad),
+Pawan Goyal (Indian Institute of Technology Kharagpur),
+Niloy Ganguly (Indian Institute of Technology Kharagpur & Leibniz University of Hannover)
+
+
+
+Reconfiguration Problems on Submodular Functions ..................................................................... 764
+Naoto Ohsaka, Tatsuya Matsuoka (NEC Corporation)
+
+
+
+Heterogeneous Global Graph Neural Networks for Personalized Session-based
+Recommendation ...................................................................................................................................... 775
+Yitong Pang (Tongji University), Lingfei Wu (JD.COM Silicon Valley Research Center),
+Qi Shen, Yiming Zhang, Zhihua Wei (Tongji University),
+Fangli Xu (Squirrel AI Learning), Ethan Chang (Middlesex School),
+Bo Long (JD.com), Jian Pei (Simon Fraser University)
+
+
+
+Reinforcement Learning over Sentiment-Augmented Knowledge Graphs
+towards Accurate and Explainable Recommendation ...................................................................... 784
+Sung-Jun Park, Dong-Kyu Chae, Hong-Kyun Bae, Sumin Park, Sang-Wook Kim (Hanyang University)
+
+
+
+EvoKG: Jointly Modeling Event Time and Network Structure for Reasoning
+over Temporal Knowledge Graphs ....................................................................................................... 794
+Namyong Park (Carnegie Mellon University), Fuchen Liu (Microsoft), Purvanshi Mehta (Microsoft),
+Dana Cristofor (Microsoft), Christos Faloutsos (Carnegie Mellon University), Yuxiao Dong (Microsoft)
+
+x
+
+
+
+Scope-aware Re-ranking with Gated Attention in Feed ................................................................... 804
+Hao Qian (Ant Group), Qintong Wu (Ant Group), Kai Zhang (University of Science and Technology of China),
+Zhiqiang Zhang (Ant Group), Lihong Gu (Ant Group), Xiaodong Zeng (Ant Group),
+Jun Zhou (Ant Group), Jinjie Gu (Ant Group)
+
+
+
+Contrastive Learning for Representation Degeneration Problem in Sequential
+Recommendation ...................................................................................................................................... 813
+Ruihong Qiu (The University of Queensland), Zi Helen Huang (The University of Queensland),
+Hongzhi Yin (The University of Queensland), Zijian Wang (The University of Queensland)
+
+
+
+A Simple but Effective Bidirectional Framework for Relational Triple Extraction ................... 824
+Feiliang Ren (Northeastern University), Longhui Zhang (Northeastern University),
+Xiaofeng Zhao (Northeastern University), Shujuan Yin (Northeastern University),
+Shilei Liu (Northeastern University), Bochao Li (Northeastern University)
+
+
+
+Time Masking for Temporal Language Models ................................................................................. 833
+Guy D. Rosin (Technion), Ido Guy (Ben-Gurion University of the Negev), Kira Radinsky (Technion)
+
+
+
+On Sampling Collaborative Filtering Datasets ................................................................................... 842
+Noveen Sachdeva (University of California, San Diego), Carole-Jean Wu (Facebook AI Research),
+Julian McAuley (University of California, San Diego)
+
+
+
+Understanding and Mitigating the Effect of Outliers in Fair Ranking ......................................... 861
+Fatemeh Sarvi (University of Amsterdam), Maria Heuss (University of Amsterdam),
+Mohammad Aliannejadi (University of Amsterdam), Sebastian Schelter (University of Amsterdam),
+Maarten de Rijke (University of Amsterdam)
+
+
+
+Enumerating Fair Packages for Group Recommendations ............................................................. 870
+Ryoma Sato (Kyoto University & RIKEN AIP)
+
+
+
+Retrieving Black-box Optimal Images from External Databases ................................................... 879
+Ryoma Sato (Kyoto University)
+
+
+
+Evaluating Mixed-initiative Conversational Search Systems via User Simulation .................... 888
+Ivan Sekulić (Università della Svizzera italiana), Mohammad Aliannejadi (University of Amsterdam),
+Fabio Crestani (Università della Svizzera italiana)
+
+
+
+Diversified Query Generation Guided by Knowledge Graph ......................................................... 897
+Xinyao Shen (Fudan University), Jiangjie Chen (Fudan University),
+Jiaze Chen (ByteDance AI Lab), Chun Zeng (Fudan University),
+Yanghua Xiao (Fudan University & Fudan-Aishu Cognitive Intelligence Joint Research Center)
+
+
+
+Finding a Concise, Precise, and Exhaustive Set of Near Bi-Cliques in Dynamic Graphs .......... 908
+Hyeonjeong Shin, Taehyung Kwon (Korea Advanced Institute of Science and Technology),
+Neil Shah (Snap Inc.), Kijung Shin (Korea Advanced Institute of Science and Technology)
+
+
+
+Using Conjunctions for Faster Disjunctive Top-k Queries .............................................................. 917
+Michał Siedlaczek, Antonio Mallia, Torsten Suel (New York University)
+
+
+
+Attributed Graph Modeling with Vertex Replacement Grammars................................................ 928
+Satyaki Sikdar (University of Notre Dame), Neil Shah (Snap Inc.), Tim Weninger (University of Notre Dame)
+
+
+
+Sequential Modeling with Multiple Attributes for Watchlist Recommendation
+in E-Commerce .......................................................................................................................................... 937
+Uriel Singer (Technion, Israel Institute of Technology),
+Haggai Roitman, Yotam Eshel, Alexander Nus (eBay Research),
+Ido Guy (Ben-Gurion University of the Negev),
+Or Levi, Idan Hasson, Eliyahu Kiperwasser (eBay Research)
+
+
+
+Show Me the Whole World: Towards Entire Item Space Exploration for Interactive
+Personalized Recommendations ............................................................................................................ 947
+Yu Song (Huazhong University of Science and Technology/Meituan Group),
+Shuai Sun (Huazhong University of Science and Technology), Jianxun Lian (Microsoft Research Asia),
+Hong Huang (Huazhong University of Science and Technology), Yu Li (Meituan Group),
+Hai Jin (Huazhong University of Science and Technology), Xing Xie (Microsoft Research Asia)
+
+xi
+
+
+
+Choosing the Best of Both Worlds: Diverse and Novel Recommendations
+through Multi-Objective Reinforcement Learning ........................................................................... 957
+Dusan Stamenkovic (University of Novi Sad), Alexandros Karatzoglou (Google Research),
+Ioannis Arapakis (Telefonica Research), Xin Xin (Shandong University),
+Kleomenis Katevas (Telefonica Research)
+
+
+
+Efficient Reachability Query with Extreme Labeling Filter ............................................................ 966
+Zhixiang Su (Shandong University & Nanyang Technological University),
+Di Wang (Nanyang Technological University),
+Xiaofeng Zhang (Harbin Institute of Technology (Shenzhen)),
+Lizhen Cui (Shandong University), Chunyan Miao (Nanyang Technological University)
+
+
+
+MonLAD: Money Laundering Agents Detection in Transaction Streams .................................... 976
+Xiaobing Sun (Institute of Computing Technology, Chinese Academy of Sciences & University of Chinese Academy
+of Sciences),
+Wenjie Feng (Institute of Data Science, National University of Singapore),
+Shenghua Liu (Institute of Computing Technology, Chinese Academy of Sciences & University of Chinese Academy
+of Sciences),
+Yuyang Xie (Tsinghua University), Siddharth Bhatia, Bryan Hooi (National University of Singapore),
+Wenhan Wang (Tencent Technology Co. Ltd),
+Xueqi Cheng (Institute of Computing Technology, Chinese Academy of Sciences & University of Chinese Academy
+of Sciences)
+
+
+
+Graph Few-shot Class-incremental Learning ..................................................................................... 987
+Zhen Tan, Kaize Ding (Arizona State University), Ruocheng Guo (City University of Hong Kong),
+Huan Liu (Arizona State University)
+
+
+
+Uncovering Causal Effects of Online Short Videos on Consumer Behaviors .............................. 997
+Ziqi Tan, Shengyu Zhang, Nuanxin Hong, Kun Kuang, Yifan Yu (Zhejiang University),
+Jin Yu (Alibaba Group), Zhou Zhao (Zhejiang University), Hongxia Yang (Alibaba Group),
+Shiyuan Pan (Zhejiang University), Jingren Zhou (Alibaba Group), Fei Wu (Zhejiang University)
+
+
+
+Friend Story Ranking with Edge-Contextual Local Graph Convolutions .................................. 1007
+Xianfeng Tang (Amazon), Yozen Liu, Xinran He (Snap Inc.),
+Suhang Wang (The Pennsylvania State University), Neil Shah (Snap Inc.)
+
+
+
+DAME: Domain Adaptation for Matching Entities .......................................................................... 1016
+Mohamed Trabelsi, Jeff Heflin (Lehigh University), Jin Cao (Nokia Bell Labs)
+
+
+
+A New Class of Polynomial Activation Functions of Deep Learning for Precipitation
+Forecasting................................................................................................................................................ 1025
+Jiachuan Wang, Lei Chen, Charles Wang Wai Ng (Hong Kong University of Science and Technology)
+
+
+
+Learning-To-Ensemble by Contextual Rank Aggregation in E-Commerce ............................... 1036
+Xuesi Wang, Guangda Huzhang, Qianying Lin, Qing Da (Alibaba Group)
+
+
+
+Knowledge Enhanced Sports Game Summarization ...................................................................... 1045
+Jiaan Wang (Soochow University), Zhixu Li (Fudan University), Tingyi Zhang (Soochow University),
+Duo Zheng (Beijing University of Posts and Telecommunications),
+Jianfeng Qu, An Liu, Lei Zhao (Soochow University), Zhigang Chen (iFLYTEK Research, Suzhou)
+
+
+
+MtCut: A Multi-Task Framework for Ranked List Truncation ..................................................... 1054
+Dong Wang, Jianxin Li, Tianchen Zhu, Haoyi Zhou, Qishan Zhu, Yuxin Wen,
+Hongming Piao (Beihang University)
+
+
+
+A Sequence-to-Sequence Model for Large-scale Chinese Abbreviation Database
+Construction ............................................................................................................................................. 1063
+Chao Wang (Fudan University), Jingping Liu (East China University of Science and Technology),
+Tianyi Zhuang, Jiahang Li, Juntao Liu (Fudan University),
+Yanghua Xiao (Fudan University & Fudan-Aishu Cognitive Intelligence Joint Research Center),
+Wei Wang (Fudan University), Rui Xie (Meituan)
+
+
+
+Personalized Long-distance Fuel-efficient Route Recommendation
+Through Historical Trajectories Mining ............................................................................................ 1072
+Zhan Wang, Zhaohui Peng (Shandong University), Senzhang Wang (Central South University),
+Qiao Song (Shandong University)
+
+xii
+
+
+
+Hierarchical Imitation Learning via Subgoal Representation Learning for Dynamic
+Treatment Recommendation ................................................................................................................ 1081
+Lu Wang (East China Normal University), Ruiming Tang (Huawei Noah’s Ark Lab),
+Xiaofeng He (East China Normal University), Xiuqiang He (Huawei Noah’s Ark Lab)
+
+
+
+Structure Meets Sequences: Predicting Network of Co-evolving Sequences ............................ 1090
+Yaojing Wang, Yuan Yao, Feng Xu (Nanjing University), Yada Zhu (IBM Research),
+Hanghang Tong (University of Illinois at Urbana-Champaign)
+
+
+
+Scalable Graph Topology Learning via Spectral Densification .................................................... 1099
+Yongyu Wang (Michigan Technological University), Zhiqiang Zhao (Stevens Institute of Technology),
+Zhuo Feng (Stevens Institute of Technology)
+
+
+
+Profiling the Design Space for Graph Neural Networks based Collaborative Filtering ......... 1109
+Zhenyi Wang (Beijing University of Posts and Telecommunications), Huan Zhao (4Paradigm Inc.),
+Chuan Shi (Beijing University of Posts and Telecommunications)
+
+
+
+Contrastive Meta Learning with Behavior Multiplicity for Recommendation ......................... 1120
+Wei Wei (University of Hong Kong & South China University of Technology),
+Chao Huang, Lianghao Xia (University of Hong Kong), Yong Xu (South China University of Technology),
+Jiashu Zhao (Wilfrid Laurier University), Dawei Yin (Baidu Inc.)
+
+
+
+A Cooperative-Competitive Multi-Agent Framework for Auto-bidding
+in Online Advertising ............................................................................................................................. 1129
+Chao Wen (MIIT Key Laboratory of Pattern Analysis and Machine Intelligence & Alibaba Group),
+Miao Xu, Zhilin Zhang (Alibaba Group), Zhenzhe Zheng (Shanghai Jiao Tong University),
+Yuhui Wang (MIIT Key Laboratory of Pattern Analysis and Machine Intelligence),
+Xiangyu Liu, Yu Rong, Dong Xie (Alibaba Group),
+Xiaoyang Tan (MIIT Key Laboratory of Pattern Analysis and Machine Intelligence),
+Chuan Yu, Jian Xu (Alibaba Group), Fan Wu (Shanghai Jiao Tong University),
+Guihai Chen (Shanghai Jiao Tong University), Xiaoqiang Zhu, Bo Zheng (Alibaba Group)
+
+
+
+Crowdsourcing-based Multi-Device Communication Cooperation
+for Mobile High-Quality Video Enhancement.................................................................................. 1140
+Xiaotong Wu (Nanjing Normal University), Lianyong Qi (Qufu Normal University),
+Xiaolong Xu (Nanjing University of Information Science and Technology),
+Shui Yu (University of Technology Sydney), Wanchun Dou (Nanjing University),
+Xuyun Zhang (Macquarie University)
+
+
+
+Improving the Applicability of Knowledge-Enhanced Dialogue Generation
+Systems by Using Heterogeneous Knowledge from Multiple Sources ....................................... 1149
+Sixing Wu, Minghui Wang, Ying Li, Dawei Zhang, Zhonghai Wu (Peking University)
+
+
+
+Towards Unbiased and Robust Causal Ranking for Recommender Systems ............................ 1158
+Teng Xiao, Suhang Wang (The Pennsylvania State University)
+
+
+
+Long Short-Term Temporal Meta-learning in Online Recommendation................................... 1168
+Ruobing Xie, Yalong Wang, Rui Wang, Yuanfu Lu, Yuanhang Zou, Feng Xia,
+Leyu Lin (WeChat, Tencent)
+
+
+
+A Peep into the Future: Adversarial Future Encoding in Recommendation .............................. 1177
+Ruobing Xie, Shaoliang Zhang, Rui Wang, Feng Xia, Leyu Lin (WeChat, Tencent)
+
+
+
+Supervised Advantage Actor-Critic for Recommender Systems .................................................. 1186
+Xin Xin (Shandong University), Alexandros Karatzoglou (Google Research),
+Ioannis Arapakis (Telefonica Research), Joemon M. Jose (University of Glasgow)
+
+
+
+Informed Multi-context Entity Alignment ........................................................................................ 1197
+Kexuan Xin (The University of Queensland), Zequn Sun (Nanjing University),
+Wen Hua (The University of Queensland), Wei Hu (Nanjing University),
+Xiaofang Zhou (Hong Kong University of Science and Technology)
+
+
+
+Identifying Cost-effective Debunkers for Multi-stage Fake News
+Mitigation Campaigns............................................................................................................................ 1206
+Xiaofei Xu, Ke Deng, Xiuzhen Zhang (RMIT University)
+
+xiii
+
+
+
+MAF: A General Matching and Alignment Framework for Multimodal Named Entity
+Recognition .............................................................................................................................................. 1215
+Bo Xu, Shizhou Huang (Donghua University),
+Chaofeng Sha (Fudan University & Shanghai Key Laboratory of Intelligence Processing),
+Hongya Wang (Donghua University)
+
+
+
+Translating Human Mobility Forecasting through Natural Language Generation ................. 1224
+Hao Xue, Flora D. Salim, Yongli Ren (RMIT University), Charles L. A. Clarke (University of Waterloo)
+
+
+
+Lightweight Composite Re-Ranking for Efficient Keyword Search with BERT....................... 1234
+Yingrui Yang, Yifan Qiao, Jinjin Shao, Xifeng Yan, Tao Yang (University of California, Santa Barbara)
+
+
+
+Few-shot Link Prediction in Dynamic Networks ............................................................................. 1245
+Cheng Yang (Beijing University of Posts and Telecommunications & Beijing Key Laboratory of Intelligent
+Telecommunications Software and Multimedia),
+Chunchen Wang (Beijing University of Posts and Telecommunications & Tencent Inc.),
+Yuanfu Lu (Tencent Inc.), Xumeng Gong (Beijing University of Posts and Telecommunication),
+Chuan Shi (Beijing University of Posts and Telecommunications & Beijing Key Laboratory of Intelligent
+Telecommunications Software and Multimedia),
+Wei Wang, Xu Zhang (Tencent Inc.)
+
+
+
+MAVE: A Product Dataset for Multi-source Attribute Value Extraction ..................................... 1256
+Li Yang, Qifan Wang (Google Research), Zac Yu, Anand Kulkarni (Google),
+Sumit Sanghai (Google Research), Bin Shu, Jon Elsas (Google),
+Bhargav Kanagal (Google Research)
+
+
+
+Interpretable Relation Learning on Heterogeneous Graphs ......................................................... 1266
+Qiang Yang, Qiannan Zhang (King Abdullah University of Science and Technology),
+Chuxu Zhang (Brandeis University),
+Xiangliang Zhang (University of Notre Dame & King Abdullah University of Science and Technology)
+
+
+
+Fast Semantic Matching via Flexible Contextualized Interaction ................................................ 1275
+Wenwen Ye, Yiding Liu, Lixin Zou (Baidu Inc.), Hengyi Cai (JD.com),
+Suqi Cheng, Shuaiqiang Wang, Dawei Yin (Baidu Inc.)
+
+
+
+Assessing Algorithmic Biases for Musical Version Identification ................................................ 1284
+Furkan Yesiler, Marius Miron (Pompeu Fabra University), Joan Serrà (Dolby Laboratories),
+Emilia Gómez (Joint Research Centre, European Commission)
+
+
+
+Directed Network Embedding with Virtual Negative Edges ......................................................... 1291
+Hyunsik Yoo, Yeon-Chang Lee (Hanyang University),
+Kijung Shin (Korea Advanced Institute of Science and Technology), Sang-Wook Kim (Hanyang University)
+
+
+
+Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data
+Augmentations......................................................................................................................................... 1300
+Yuning You (Texas A&M University), Tianlong Chen, Zhangyang Wang (University of Texas at Austin),
+Yang Shen (Texas A&M University)
+
+
+
+Sentiment Analysis of Fashion Related Posts in Social Media ...................................................... 1310
+Yifei Yuan, Wai Lam (The Chinese University of Hong Kong)
+
+
+
+Community Trend Prediction on Heterogeneous Graph in E-commerce .................................. 1319
+Jiahao Yuan (East China Normal University), Zhao Li, Pengcheng Zou, Xuan Gao (Alibaba Group),
+Jinwei Pan, Wendi Ji (East China Normal University),
+Xiaoling Wang (East China Normal University & Tongji University)
+
+
+
+Learning Discrete Representations via Constrained Clustering
+for Effective and Efficient Dense Retrieval ....................................................................................... 1328
+Jingtao Zhan (Tsinghua University), Jiaxin Mao (Renmin University of China),
+Yiqun Liu (Tsinghua University), Jiafeng Guo (Institute of Computing Technology, Chinese Academy of Sciences),
+Min Zhang, Shaoping Ma (Tsinghua University)
+
+
+
+Geometric Inductive Matrix Completion: A Hyperbolic Approach
+with Unified Message Passing .............................................................................................................. 1337
+Chengkun Zhang (The University of Sydney),
+Hongxu Chen, Sixiao Zhang, Guandong Xu (University of Technology Sydney),
+Junbin Gao (The University of Sydney)
+
+xiv
+
+
+
+ESC-GAN: Extending Spatial Coverage of Physical Sensors ......................................................... 1347
+Xiyuan Zhang, Ranak Roy Chowdhury, Jingbo Shang, Rajesh Gupta,
+Dezhi Hong (University of California, San Diego)
+
+
+
+MOTIFCLASS: Weakly Supervised Text Classification with Higher-order
+Metadata Information ............................................................................................................................ 1357
+Yu Zhang, Shweta Garg, Yu Meng (University of Illinois at Urbana-Champaign),
+Xiusi Chen (University of California, Los Angeles), Jiawei Han (University of Illinois at Urbana-Champaign)
+
+
+
+Leaving No One Behind: A Multi-Scenario Multi-Task Meta Learning
+Approach for Advertiser Modeling ..................................................................................................... 1368
+Qianqian Zhang, Xinru Liao, Quan Liu, Jian Xu, Bo Zheng (Alibaba Group)
+
+
+
+Learning Concept Prerequisite Relations from Educational Data
+via Multi-Head Attention Variational Graph Auto-Encoders........................................................ 1377
+Juntao Zhang, Nanzhou Lin, Xuelong Zhang, Wei Song, Xiandi Yang, Zhiyong Peng (Wuhan University)
+
+
+
+A GNN-based Multi-task Learning Framework for Personalized Video Search ....................... 1386
+Li Zhang (University of Sheffield), Lei Shi (Baidu Inc.), Jiashu Zhao (Wilfrid Laurier University),
+Juan Yang, Tianshu Lyu, Dawei Yin (Baidu Inc.), Haiping Lu (University of Sheffield)
+
+
+
+GraSP: Optimizing Graph-based Nearest Neighbor Search with Subgraph
+Sampling and Pruning ........................................................................................................................... 1395
+Minjia Zhang, Wenhan Wang, Yuxiong He (Microsoft)
+
+
+
+CMT-Net: A Mutual Transition Aware Framework for Taxicab Pick-ups
+and Drop-offs Co-Prediction ................................................................................................................ 1406
+Yudong Zhang, Binwu Wang, Binwu Shan, Zhengyang Zhou, Yang Wang
+(University of Science and Technology of China)
+
+
+
+PipAttack: Poisoning Federated Recommender Systems for Manipulating
+Item Promotion........................................................................................................................................ 1415
+Shijie Zhang, Hongzhi Yin, Tong Chen, Zi Huang (The University of Queensland),
+Quoc Viet Hung Nguyen (Griffith University), Lizhen Cui (ShanDong University)
+
+
+
+A Counterfactual Modeling Framework for Churn Prediction .................................................... 1424
+Guozhen Zhang, Jinwei Zeng, Zhengyue Zhao, Depeng Jin, Yong Li (Tsinghua University)
+
+
+
+Towards Fair Classifiers Without Sensitive Attributes: Exploring Biases
+in Related Features.................................................................................................................................. 1433
+Tianxiang Zhao, Enyan Dai (The Pennsylvania State University), Kai Shu (Illinois Institute of Technology),
+Suhang Wang (The Pennsylvania State University)
+
+
+
+ST-GSP: Spatial-Temporal Global Semantic Representation Learning
+for Urban Flow Prediction ..................................................................................................................... 1443
+Liang Zhao, Min Gao, Zongwei Wang (Chongqing University)
+
+
+
+Multi-Sparse-Domain Collaborative Recommendation via Enhanced
+Comprehensive Aspect Preference Learning .................................................................................... 1452
+Xiaoyun Zhao, Ning Yang (Sichuan University), Philip S. Yu (University of Illinois at Chicago),
+
+
+
+Joint Learning of E-commerce Search and Recommendation
+with a Unified Graph Neural Network ............................................................................................... 1461
+Kai Zhao, Yukun Zheng, Tao Zhuang, Xiang Li, Xiaoyi Zeng (Alibaba Group)
+
+
+
+AngHNE: Representation Learning for Bipartite Heterogeneous Networks
+with Angular Loss ................................................................................................................................... 1470
+Cangqi Zhou, Hui Chen, Jing Zhang, Qianmu Li (Nanjing University of Science and Technology),
+Dianming Hu (Sensedeal.ai),
+
+
+
+Learning Transferable Node Representations for Attribute Extraction from Web
+Documents ................................................................................................................................................ 1479
+Yichao Zhou, Ying Sheng, Nguyen Vo, Nick Edmonds, Sandeep Tata (Google)
+
+xv
+
+
+
+C²-CRS: Coarse-to-Fine Contrastive Learning for Conversational Recommender System .... 1488
+Yuanhang Zhou, Kun Zhou (Renmin University of China),
+Wayne Xin Zhao (Renmin University of China & Beijing Key Laboratory of Big Data Management and Analysis
+Methods),
+Cheng Wang, Peng Jiang (Kuaishou Inc.), He Hu (Renmin University of China)
+
+
+
+Fighting Mainstream Bias in Recommender Systems via Local Fine Tuning............................ 1497
+Ziwei Zhu, James Caverlee (Texas A&M University)
+
+
+
+Personalized Transfer of User Preferences for Cross-domain Recommendation .................... 1507
+Yongchun Zhu (Institute of Computing Technology, Chinese Academy of Sciences; & University of Chinese
+Academy of Sciences; & Tencent),
+Zhenwei Tang (Institute of Computing Technology, Chinese Academy of Sciences),
+Yudan Liu (Tencent), Fuzhen Zhuang (Beihang University),
+Ruobing Xie, Xu Zhang, Leyu Lin (Tencent),
+Qing He (Institute of Computing Technology, Chinese Academy of Sciences & University of Chinese Academy of
+Sciences),
+
+
+
+DualDE: Dually Distilling Knowledge Graph Embedding for Faster and Cheaper
+Reasoning.................................................................................................................................................. 1516
+Yushan Zhu (Zhejiang University), Wen Zhang (Zhejiang University), Mingyang Chen (Zhejiang University),
+Hui Chen (Alibaba Group), Xu Cheng (Peking University), Wei Zhang (Alibaba Group),
+Huajun Chen (Zhejiang University)
+
+
+
+A Neighborhood-Attention Fine-grained Entity Typing for Knowledge Graph Completion 1525
+Jianhuan Zhuo (Institute of Information Engineering, Chinese Academy of Sciences & University of Chinese
+Academy of Sciences),
+Qiannan Zhu (Renmin University of China & Beijing Key Laboratory of Big Data Management and Analysis
+Methods),
+Yinliang Yue (Institute of Information Engineering, Chinese Academy of Sciences & University of Chinese Academy
+of Sciences),
+Yuhong Zhao (Institute of Information Engineering, Chinese Academy of Sciences),
+Weisi Han (Institute of Information Engineering, Chinese Academy of Sciences)
+
+
+
+Improving Session Search by Modeling Multi-Granularity Historical Query Change ........... 1534
+Xiaochen Zuo (Renmin University of China), Zhicheng Dou (Remin University of China),
+Ji-Rong Wen (Remin University of China)
+
+Doctoral Consortium
+
+
+Improving Text Generation via Neural Discourse Planning ......................................................... 1543
+Alexander Chernyavskiy (National Research University Higher School of Economics)
+
+
+
+Robust Graph Learning for Misbehavior Detection ....................................................................... 1545
+Yingtong Dou (University of Illinois at Chicago)
+
+
+
+GNNs for Node Clustering in Signed and Directed Networks ...................................................... 1547
+Yixuan He (University of Oxford)
+
+
+
+Towards Practical Robustness Evaluation and Robustness Enhancing ...................................... 1549
+Yaxin Li (Michigan State University)
+
+
+
+From Uni-relational to Multi-relational Graph Neural Networks ............................................... 1551
+Juanhui Li (Michigan State University)
+
+
+
+Trustworthy Machine Learning: Fairness and Robustness ............................................................ 1553
+Haochen Liu (Michigan State University)
+
+
+
+Obtaining Robust Models from Imbalanced Data ........................................................................... 1555
+Wentao Wang (Michigan State University)
+
+
+
+Fair Graph Representation Learning with Imbalanced and Biased Data ................................... 1557
+Yu Wang (Vanderbilt University)
+
+
+
+Doctoral Consortium of WSDM’22: Exploring the Bias of Adversarial Defenses .................... 1559
+Han Xu (Michigan State University)
+
+xvi
+
+Demonstrations
+
+
+Quality Assurance of a German COVID-19 Question Answering Systems using
+Component-based Microbenchmarking ............................................................................................ 1561
+Andreas Both, Paul Heinze, Aleksandr Perevalov, Johannes Richard Bartsch, Rostislav Iudin,
+Johannes Rudolf Herkner, Tim Schrader, Jonas Wunsch (Anhalt University of Applied Sciences),
+René Gürth (Informationstechnikzentrum Bund (ITZBund)),
+Ann Kristin Falkenhain (Federal Ministry of the Interior, Building and Community)
+
+
+
+iLFQA: A Platform for Efficient and Accurate Long-Form Question Answering ..................... 1565
+Rhys Butler, Vishnu Dutt Duggirala, Farnoush Banaei-Kashani (University of Colorado Denver)
+
+
+
+Web Search via an Efficient and Effective Brain-Machine Interface .......................................... 1569
+Xuesong Chen, Ziyi Ye, Xiaohui Xie, Yiqun Liu, Xiaorong Gao (Tsinghua University),
+Weihang Su (Beijing University of Posts and Telecommunications),
+Shuqi Zhu, Yike Sun, Min Zhang, Shaoping Ma (Tsinghua University)
+
+
+
+Aligning the Research and Practice of Building Search Applications:
+Elasticsearch and Pyserini ..................................................................................................................... 1573
+Josh Devins, Julie Tibshirani (Elastic NV), Jimmy Lin (University of Waterloo)
+
+
+
+Building Multi-turn Query Interpreters for E-commercial Chatbots
+with Sparse-to-dense Attentive Modeling ......................................................................................... 1577
+Yan Fan, Chengyu Wang, Peng He, Yunhua Hu (Alibaba Group)
+
+
+
+Automating ETL and Mining of Ethereum Blockchain Network ................................................. 1581
+Voon Hou Su, Sourav Sen Gupta, Arijit Khan (Nanyang Technological University)
+
+
+
+a2RegInf: An Interactive System for Maximizing Influence within Arbitrary
+Number of Arbitrary Shaped Query Regions ................................................................................... 1585
+Hui Li, Qiting Yang, Jiangtao Cui (Xidian University)
+
+
+
+Node Co-occurrence based Graph Neural Networks for Knowledge
+Graph Link Prediction............................................................................................................................ 1589
+Dai Quoc Nguyen (Oracle Labs), Vinh Tong (VinAI Research),
+Dinh Phung (Monash University), Dat Quoc Nguyen (VinAI Research)
+
+
+
+PrivacyCheck v3: Empowering Users with Higher-Level Understanding
+of Privacy Policies ................................................................................................................................... 1593
+Razieh Nokhbeh Zaeem, Ahmad Ahbab, Josh Bestor, Hussam H. Djadi, Sunny Kharel, Victor Lai, Nick Wang,
+K. Suzanne Barber (The University of Texas at Austin)
+
+
+
+RGRecSys: A Toolkit for Robustness Evaluation of Recommender Systems ............................ 1597
+Zohreh Ovaisi (University of Illinois at Chicago), Shelby Heinecke (Salesforce Research),
+Jia Li (Salesforce Research), Yongfeng Zhang (Rutgers University),
+Elena Zheleva (University of Illinois at Chicago), Caiming Xiong (Salesforce Research)
+
+
+
+Fair-SRS: A Fair Session-based Recommendation System ............................................................. 1601
+Naime Ranjbar Kermany (Macquarie University and Commonwealth Bank of Australia),
+Jian Yang, Jia Wu (Macquarie University), Luiz Pizzato (Commonwealth Bank of Australia)
+
+
+
+Crowd_Frame: A Simple and Complete Framework to Deploy Complex Crowdsourcing
+Tasks Off-the-shelf.................................................................................................................................. 1605
+Michael Soprano, Kevin Roitero, Francesco Bombassei De Bona, Stefano Mizzaro (University of Udine)
+
+
+
+An Interactive Knowledge Graph Based Platform for COVID-19 Clinical Research............... 1609
+Juntao Su (George Washington University), Edward T. Dougherty (Roger Williams University),
+Shuang Jiang, Fang Jin (George Washington University)
+
+
+
+Personalized Information Retrieval for Touristic Attractions in Augmented Reality ............. 1613
+Felix Yang, Saikishore Kalloori, Ribin Chalumattu, Markus Gross (ETH Zürich)
+
+Tutorial Presentations
+
+
+Search and Discovery in Personal Email Collections ...................................................................... 1617
+Michael Bendersky, Xuanhui Wang, Marc Najork, Donald Metzler (Google Research)
+
+xvii
+
+
+
+Graph Minimally-supervised Learning .............................................................................................. 1620
+Kaize Ding (Arizona State University), Jundong Li (University of Virginia),
+Nitesh Chawla (University of Notre Dame), Huan Liu (Arizona State University)
+
+
+
+Graph Neural Networks for Recommender System ....................................................................... 1623
+Chen Gao (Tsinghua University), Xiang Wang (National University of Singapore),
+Xiangnan He (University of Science and Technology of China), Yong Li (Tsinghua University)
+
+
+
+A Tutorial on Stance Detection ............................................................................................................ 1626
+Dilek Küçük (TÜBİTAK MRC Energy Institute), Fazli Can (Bilkent University)
+
+
+
+Half-Day Tutorial on Combating Online Hate Speech: The Role of Content, Networks,
+Psychology, User Behavior, etc. ........................................................................................................... 1629
+Sarah Masud (Indraprastha Institute of Information Technology, Delhi),
+Pinkesh Pinkesh (Adobe), Amitava Das (Wipro AI), Manish Gupta (Microsoft),
+Preslav Nakov (Qatar Computing Research Institute, HBKU),
+Tanmoy Chakraborty (Indraprastha Institute of Information Technology, Delhi)
+
+
+
+Fact-Checking, Fake News, Propaganda, Media Bias, and the COVID-19 Infodemic .............. 1632
+Preslav Nakov (Qatar Computing Research Institute), Giovanni Da San Martino (University of Padova),
+Firoj Alam (Qatar Computing Research Institute)
+
+
+
+Modern Theoretical Tools for Understanding and Designing Next-generation
+Information Retrieval System .............................................................................................................. 1635
+Da Xu (Walmart Labs), Chuanwei Ruan (Instacart)
+
+Smart City Talks
+
+
+The Pit Stop Problem: How to Plan Your Next Road Trip ............................................................. 1638
+Kostas Kollias (Google Research)
+
+
+
+Predicting Users’ Gender and Age based on Mobile Tasks ............................................................ 1639
+Yuan Tian (University of Nottingham)
+
+
+
+Towards a Cross-domain Semantically Interoperable Ecosystem ............................................... 1640
+Milenko Tosic (VizLore Labs Foundation),
+Fábio André Coelho (Institute for Systems and Computer Engineering, Technology and Science (INESC TEC)),
+Barry Nouwt (Nederlandse Organisatie voor Toegepast Natuurwetenschappelijk Onderzoek (TNO)),
+David Emanuel Rua (Institute for Systems and Computer Engineering, Technology and Science (INESC TEC)),
+Aleksandar Tomcic (VizLore Labs Foundation), Sasa Pesic (VizLore Labs Foundation)
+
+Industry Day Talks
+
+
+Exploration in Recommender Systems .............................................................................................. 1642
+Minmin Chen (Google Research)
+
+
+
+Studying Long-Term User Behaviour Using Dynamic Time Warping for Customer
+Retention ................................................................................................................................................... 1643
+Harsha Gwalani (Twitter)
+
+
+
+AI & Public Data for Humanitarian and Emergency Response .................................................... 1644
+Alejandro Jaimes (Dataminr)
+
+
+
+Scalable Attribute Extraction at Instacart .......................................................................................... 1645
+Shih-Ting Lin (Instacart)
+
+
+
+A Practical Guide to Robust Multimodal Machine Learning and Its Application in
+Education .................................................................................................................................................. 1646
+Zitao Liu (TAL Education Group)
+
+
+
+Mining Frequent Patterns on Knowledge Graphs ........................................................................... 1647
+Lalla Mouatadid (Intuit Futures)
+
+
+
+Near Real Time AI Personalization for Notifications at LinkedIn ............................................... 1648
+Ajith Muralidharan (Linkedin Corporation)
+
+xviii
+
+
+
+Successes and Opportunities in Enterprise AI .................................................................................. 1649
+Vijay K. Narayanan (ServiceNow)
+
+
+
+Experiments with Predictive Long Term Guardrail Metrics ......................................................... 1650
+Sri Sri Perangur (Lyft)
+
+
+
+Challenges in Data Production for AI with Human-in-the-Loop ................................................. 1651
+Dmitry Ustalov (Toloka)
+
+
+
+Rethink e-Commerce Search ................................................................................................................ 1653
+Haixun Wang (Instacart Inc.)
+
+
+
+The Incentives Platform at Lyft ........................................................................................................... 1654
+Alex Wood-Doughty (Lyft), Cameron Bruggeman (Lyft)
+
+
+
+Graph Neural Networks for the Global Economy with Microsoft DeepGraph ........................ 1655
+Jaewon Yang (LinkedIn), Baoxu Shi (LinkedIn), Alex Samylkin (Microsoft)
+
+
+
+How Data Science Powers Energy Production ................................................................................. 1656
+Franziska Bell (BP) -- PENDINIG REMOVAL
+
+
+
+The Rise of Data Observability: Architecting the Future of Data Trust...................................... 1657
+Barr Moses (Monte Carlo, Inc.)
+
+Author Index ............................................................................................................................................. 1658
+
+xix
+
+WSDM’22 Conference Organization
+General Chairs: K. Selcuk Candan, Arizona State University, USA
+
+Huan Liu, Arizona State University, USA
+Program Chairs: Leman Akoglu, Carnegie Mellon University, USA
+
+Xin Luna Dong, Meta Platforms, Inc. (former Facebook), USA
+Jiliang Tang, Michigan State University, USA
+Local Chair: Jia Zou, Arizona State University, USA
+Finance Chair: Maria Luisa Sapino, University of Turin, Italy
+Proceedings Chair: Parth Nagarkar, New Mexico State University, USA
+Tutorial Chairs: Yizhou Sun, University of California, Los Angeles, USA
+
+Feida Zhu, Singapore Management University, Singapore
+Workshop Chairs: Jingrui He, University of Illinois Urbana-Champaign, USA
+
+Dawei Yin, Baidu Inc, China
+Industry Day Chairs: Lei Tang, Lyft, USA
+
+Shaili Jain, Twitter, USA
+Sofus Macskassy, LinkedIn, USA
+Sponsorship Chairs: Hongxia Yang, Alibaba, China
+
+Huiping Cao, New Mexico State University, USA
+Emine Yilmaz, University College London, UK
+Doctoral Consortium Chairs: Meng Jiang, University of Notre Dame, USA
+
+Tyler Derr, Vanderbilt University, USA
+Poster and Demo Chairs: Vagelis Papalexakis, University of California, Riverside, USA
+
+Tijl de Bie, Ghent University, Belgium
+WSDM Cup Chairs: Zitao Liu, TAL Education Group, China
+
+Lei Li, University of California, Santa Barbara, USA
+Neil Shah, Snap, USA
+Smart City Day Chairs: Hua Wei, New Jersey Institute of Technology, USA
+
+Beibei Li, Carnegie Mellon University, USA
+Dragan Boscovic, Arizona State University, USA
+Test of Time Award Chair: Kristina Lerman, University of Southern California, USA
+Best Paper Award Chair: ChengXiang Zhai, University of Illinois Urbana-Champaign, USA
+
+Media and Publicity Chairs: Uraz Yavanoglu, Gazi University, Turkey
+
+Ugur Kursuncu, Georgia State University, USA
+Whova Chair: Yingtong Dou, University of Illinois Chicago, USA
+Registration Chair: Mengnan Du, Texas A&M University, USA
+Student Volunteer Chair: Jia Zou, Arizona State University, USA
+Student Volunteer Leads: Yingtong Dou, University of Illinois Chicago, USA
+
+Mansooreh Karami, Arizona State University, USA
+Kaize Ding, Arizona State University, USA
+Web Chair: Lu Cheng, Arizona State University, USA
+
+WSDM 2022 Senior Program Committee
+Charu Aggarwal, IBM
+Luca Maria Aiello, Yahoo Labs
+Aris Anagnostopoulos, Sapienza University of Rome
+Krisztian Balog,
+Zhifeng Bao, RMIT University
+Ron Bekkerman,
+Paul Bennett, Microsoft Research
+Francesco Bonchi, ISI Foundation, Turin
+Sebastian Bruch, Dataminr
+David Carmel, Amazon
+Ben Carterette, Spotify
+Carlos Castillo, Sapienza University of Rome
+James Caverlee, Texas A&M University
+Yi Chang, Jilin University
+Zhengzhang Chen, NEC Laboratories America, Inc.
+Peng Cui, Tsinghua University
+Gianluca Demartini, University of Queensland
+Tyler Derr, Vanderbilt University
+Wenqi FAN, The Hong Kong Polytechnic University
+Hui Fang, University of Delaware
+Iftah Gamzu, Amazon
+Bart Goethals, Universiteit Antwerpen
+Manuel Gomez Rodriguez, MPI-SWS
+Ido Guy, eBay Research
+Jialong Han, Tencent AI Lab
+Claudia Hauff, Delft University of Technology
+Jiyin He, Signal-AI
+Xiangnan He, University of Science and Technology of
+China
+Liangjie Hong, LinkedIn
+Bryan Hooi, NUS
+Xia Hu, Rice University
+Jimmy Huang, York University, Canada
+Grace Hui Yang, Georgetown University
+Daxin Jiang, Microsoft, Beijing, China
+Joemon M. Jose, University of Glasgow
+Jaap Kamps, University of Amsterdam
+George Karypis, University of Minnesota, Minneapolis
+Emre Kiciman, Microsoft Research
+Danai Koutra, U Michigan
+Mounia Lalmas, Spotify
+Wai Lam, The Chinese University of Hong Kong
+Liane Lewin-Eytan, Amazon
+
+Qing Li, The Hong Kong Polytechnic University
+Shou-De Lin, NTU
+Zitao Liu, TAL Education Group
+Yoelle Maarek, Amazon Research
+Edgar Meij, Bloomberg L.P.
+Yelena Mejova, ISI Foundation
+Alistair Moffat, University of Melbourne
+Alessandro Moschitti, Amazon
+Marc Najork, Google
+Raymond Ng, UBC
+Liqiang Nie, Shandong University
+Kira Radinsky, Ebay
+Zhaochun Ren, Shandong University
+Matteo Riondato, Amherst College
+Mark Sanderson, RMIT University
+Neil Shah, Snap Inc.
+Chuan Shi, Beijing University of Posts and
+Telecommunications
+Karthik Subbian, Amazon
+Jie Tang, Tsinghua University
+Nikolaj Tatti, Aalto University
+Yi Tay, Google
+Hanghang Tong, University of Illinois at UrbanaChampaign
+Panayiotis Tsaparas, University of Ioannina
+Hongning Wang, University of Virginia
+Suhang Wang, Pennsylvania State University
+Gerhard Weikum, Max-Planck-Institut fur Informatik
+Ji-Rong Wen, Renmin University of China
+Robert West, EPFL
+Ryen White, Microsoft Research
+Jia Wu, Macquarie University
+Lingfei Wu, JD.COM Silicon Valley Research Center
+Yinglong Xia, Facebook
+Xing Xie, Microsoft Research Asia
+Makoto Yamada, RIKEN AIP / Kyoto University
+Dawei Yin, Baidu
+Min Zhang, Tsinghua University
+Ming Zhang, Peking University
+Xiangyu Zhao, City University of Hong Kong
+Jiayu Zhou, Michigan State University
+Ke Zhou, University of Nottingham
+
+WSDM 2022 Program Committee
+Wasi U. Ahmad, UCLA
+Qingyao Ai, University of Utah
+Wei Ai, University of Maryland
+Mohammad Akbari, University College London
+Farahnaz Akrami, University of Texas at Arlington
+Firoj Alam, Qatar Computing Research Institute
+Mohammad Aliannejadi, University of Amsterdam
+James Allan, University of Massachusetts Amherst
+Jussara Almeida, UFMG
+Omar Alonso, Microsoft
+Ismail Altingovde, METU
+Gaurav Anand, Etsy
+Xiang Ao, Institute of Computing Technology, CAS
+David Arbour, Adobe Research
+Mozhdeh Ariannezhad, University of Amsterdam
+Akhil Arora, EPFL
+Hosein Azarbonyad, Elsevier
+Leif Azzopardi, University of Strathclyde
+Amitabha Bagchi, IIT Delhi
+Ashraf Bah Rabiou, University of Delaware
+Zhifeng Bao, RMIT University
+Amey Barapatre, Etsy Inc
+Senjuti Basu Roy, New Jersey Institute of Technology
+Roberto Bayardo, Google Research
+Amin Beheshti, Macquarie University
+Klaus Berberich, Saarbruecken University of Applied
+Sciences
+Shlomo Berkovsky, Macquarie University
+Alex Beutel, Google
+Anand Bhaskar, Facebook
+Yuchen Bian, Baidu Research
+Jeremy Blackburn, Binghamton University
+Johan Bollen, Indiana University
+Hamed Bonab, UMass Amherst
+Francesco Bonchi, ISI Foundation, Turin
+Ludovico Boratto, Eurecat, Centre Tecnològic de
+Catalunya
+Ilaria Bordino, UniCredit R&D
+Marco Brambilla, Politecnico di Milano
+Pavel Braslavski, Ural Federal University
+Klaus Broelemann, Schufa Holding AG
+Deng Cai, The Chinese University of Hong Kong
+Fei Cai, National University of Defense Technology
+
+Yi Cai, South China University of Technology
+Zhipeng Cai, Georgia State University
+Jamie Callan, Carnegie Mellon University
+Berkant Barla Cambazoglu, NTENT
+Lei Cao, MIT
+Shilei Cao, Tencent
+Yang Cao, Kyoto University
+Yixuan Cao, Institute of Computing Technology, CAS
+Fabio Casati, U of trento
+Tanmoy Chakraborty, IIIT Delhi, India
+Hau Chan, University of Nebraska-Lincoln
+Praveen Chandar, Spotify
+Raman Chandrasekar, ProQuest
+Sung-En Chang, Northeastern University
+Edgar Chavez, CICESE
+Chaochao Chen, Zhejiang University
+Chen Chen, University of Virginia
+Chung-Chi Chen, National Taiwan University
+Hechang Chen, Jilin University
+Hongshen Chen, JD.com
+Hongxu Chen, University of Technology Sydney
+Hsin-Hsi Chen, National Taiwan University
+Huiyuan Chen, Visa Research
+Jiawei Chen, Univ. of Science and Technology of China
+Jiecao Chen, Indiana University Bloomington
+Junyang Chen, Shenzhen Univeristy
+Liang Chen, Sun Yat-Sen University
+Meng Chen, Shandong University
+Ruey-Cheng Chen, SEEK Ltd
+Tong Chen, The University of Queensland
+Wanyu Chen, National University of Defense
+Technology
+Xiusi Chen, University of California, Los Angeles
+Yi Chen, NJIT
+Zhiyu Chen, Lehigh University
+Zhumin Chen, Shandong University
+Anfeng Cheng, Baidu Inc.
+Lu Cheng, Arizona State University
+Wei Cheng, NEC Laboratories America
+Zhiyong Cheng, Shandong Academy of Sciences
+Max Chevalier, IRIT
+Daejin Choi, Incheon National University
+Farhana Choudhury, The University of Melbourne
+
+Philipp Christmann, MPI for Informatics
+Lingyang Chu, McMaster University
+Zhendong Chu, University of Virginia
+Abu Nowshed Chy, University of Chittagong
+Philipp Cimiano
+Charles Clarke, University of Waterloo
+Francisco Claude, LinkedIn
+Daniel Cohen, University of Massachusetts Amherst
+Alessio Conte, University of Pisa
+Danish Contractor, IBM Research AI
+Tonya Custis, Autodesk
+Enyan Dai, The Pennsylvania State University
+Zhuyun Dai, Carnegie Mellon University
+Brian D. Davison, Lehigh University
+Patrizio Dazzi, CNR
+Abir De, IIT Bombay
+Arjen de Vries, Radboud University Nijmegen
+Elena Demidova, University of Bonn
+Dong Deng, Rutgers Universituy - New Brunswick
+Hongbo Deng, Google
+Huiqi Deng, Sun Yat-sen University
+Yang Deng, The Chinese University of Hong Kong
+Tyler Derr, Vanderbilt University
+Shimin Di, Hong Kong Univ. of Science and Technology
+Luca Di Liello, University of Trento
+Stefan Dietze, GESIS - Leibniz Institute for the Social
+Sciences
+Djellel Difallah, NYU
+Drew Dimmery, Facebook
+Konstantinos Dimopoulos, New York University
+& Amazon
+Jingtao Ding, Tsinghua University
+Kaize Ding, Arizona State University
+Ying Ding, The University of Texas at Austin
+Boxiang Dong, Montclair State University
+Xin Dong, Rutgers University
+Yushun Dong, University of Virginia
+Zhenhua Dong, Huawei Noah's Ark Lab
+Shiri Dori-Hacohen, University of Connecticut
+Yingtong Dou, University of Illinois at Chicago
+Zhicheng Dou, Remin University of China
+Pan Du, Thomson Reuters Labs
+YIJUN DUAN, NAIST
+Adam G. Dunn, The University of Sydney
+Michael D Ekstrand, Boise State University
+Liana Ermakova, Université de Bretagne Occidentale
+
+Dhivya Eswaran, Amazon
+Alex Fabrikant, Google Research
+Michalis Faloutsos, UCR
+Liyue Fan, UNC Charlotte
+Wenqi FAN, The Hong Kong Polytechnic University
+Yixing Fan, Institute of Computing Technology, Chinese
+Academy of Sciences
+Yixiang Fang, The Chinese University of Hong Kong,
+Shenzhen
+Yuan Fang, Singapore Management University
+Hossein Fani, University of Windsor
+Damien Fay, INFOR Logicblox
+Fuli Feng, National University of Singapore
+Kaiyu Feng, NTU
+Nicola Ferro, University of Padova
+Nave Frost, eBay
+Yanjie Fu, University of Central Florida
+Norbert Fuhr, University of Duisburg-Essen
+Matteo Gabburo, Università degli studi di Trento
+Sabrina Gaito, University of Milan
+Luke Gallagher, RMIT University
+Junhao Gan, University of Melbourne
+Chen Gao, Tsinghua University
+Jun Gao, Soochow University
+Liangcai Gao, Peking University
+Shen Gao, Peking University
+Yunjun Gao, Zhejiang University
+Luis Garcia Pueyo, Facebook
+Mariana-Iuliana Georgescu, University of Bucharest
+Aristides Gionis, KTH Royal Institute of Technology
+Lukasz Golab, University of Waterloo
+Marcos Goncalves, Universidade Federal de Minas
+Gerais
+Priya Govindan
+Francesco Guerra, University of Modena e Reggio
+Emilia
+Huan Gui, University of Illinois at Urbana-Champaign
+Francesco Gullo, UniCredit, R&D Dept., IT
+Huifeng Guo, Huawei Noah's Ark Lab
+Ruocheng Guo, City University of Hong Kong
+Yangyang Guo, National University of Singapore
+Manish Gupta, Microsoft,India
+Marina Haikin, Amazon
+Nissim Halabi, Amazon
+Kishaloy Halder, Zalando SE
+Jinyoung Han, Sungkyunkwan University
+
+LEI HAN, The University of Queensland
+Peng Han, USTB
+shuchu han, NEC Labs America
+Dongxiao He, Tianjin University
+Jiayuan He, RMIT University
+Qi He, LinkedIn
+Yixuan He, University of Oxford
+Danula Hettiachchi, RMIT University
+Junyuan Hong, Michigan State University
+Liangjie Hong, LinkedIn
+Yupeng Hou, Renmin University of China
+Binbin Hu, Ant Financial Services Group
+Huang Hu, Microsoft
+Jun Hu, Institute of Automation, Chinese Academy of
+Sciences
+Linmei Hu, Beijing University of Posts and
+Telecommunications
+Sheng Hu, Hokkaido University
+Yuheng Hu, University of Illinois at Chicago
+Binxuan Huang, Amazon
+Chao Huang, University of Notre Dame
+Dong Huang, South China Agricultural University
+Hong Huang, Huazhong University of Science and
+Technology
+Jimmy Huang, York University, Canada
+SHIXUN HUANG, RMIT
+Xiao Huang, The Hong Kong Polytechnic University
+Xin Huang, Hong Kong Baptist University
+Xuanjing Huang, Fudan University, China
+Zhenya Huang, University of Science and Technology of
+China
+Zi Helen Huang, University of Queensland
+Kai Hui, Google Research
+Neil Hurley, University College Dublin
+Muhammad Imran, Qatar Computing Research Institute
+Radu Tudor Ionescu, University of Bucharest
+Murium Iqbal, Etsy
+Rolf Jagerman, Google Research
+Shoaib Jameel, University of Essex
+Amin Javari, The Home Depot
+Olivier Jeunen, University of Antwerp
+Yiling Jia, University of Virginia
+Jiepu Jiang, University of Wisconsin-Madison
+Jyun-Yu Jiang, University of California, Los Angeles
+Meng Jiang, University of Notre Dame
+Zhengbao Jiang, Carnegie Mellon University
+
+Di Jin, University of Michigan
+Di Jin, Tianjin University
+Wei Jin, Michigan State University
+Xiaolong Jin, Institute of Computing Technology, CAS
+Parisa Kaghazgaran, 1986
+Magdalena Kaiser, Max Planck Institute for Informatics
+Panos Kalnis, King Abdullah University of Science and
+Technology
+Jaap Kamps, University of Amsterdam
+Andrey Kan, The University of Adelaide
+Jian Kang, University of Illinois at Urbana-Champaign
+Nattiya Kanhabua, Aalborg University
+Kamalakar Karlapalem, IIIT hyderabad
+Santu Karmaker, Auburn University
+Makoto P. Kato, University of Tsukuba
+Seungbae Kim, University of California, Los Angeles
+Julia Kiseleva, Microsoft Research AI
+Bart Knijnenburg, Clemson University
+Deguang Kong, Yahoo Research
+Weize Kong, Google
+Arnd Christian König, Microsoft
+Bevan Koopman, CSIRO
+Nick Koudas, University of Toronto
+Adit Krishnan, Univ. of Illinois at Urbana-Champaign
+Siddharth Krishnan, University of North Carolina at
+Charlotte
+Udo Kruschwitz, University of Regensburg
+Mayank Kulkarni, Bloomberg
+Srijan Kumar, Georgia Institute of Technology
+Ugur Kursuncu, AI Institute, University of South
+Carolina, USA
+Gilad Kutiel, Amazon
+Branislav Kveton, Amazon
+Susana Ladra, University of A Coruña
+Alberto Laender, Universidade Federal de Minas Gerais
+Renaud Lambiotte, University of Oxford
+Yanyan Lan, Tsinghua University
+Theodoros Lappas, Stevens Institute of Technology
+Matthieu Latapy, LIP6, France
+Arnon Lazerson, Amazon
+Tam Le, RIKEN AIP
+Ya Le, Google
+Jongwuk Lee, Sungkyunkwan University
+Joonseok Lee, Google Research & Seoul National Univ.
+Roy Ka-Wei Lee, Singapore University of Technology
+and Design
+
+Wang-Chien Lee, Pennsylvania State University, USA
+Wenqiang Lei, National University of Singapore
+Xinyu Lei, Michigan State University
+Daniel Lemire, University of Quebec, TELUQ)
+Chang Li, Apple
+Chaozhuo Li, Microsoft Research Asia
+Cheng Li, Google
+Chengkai Li, The University of Texas at Arlington
+Chenliang Li, Wuhan University
+Daifeng Li, Sun Yat-Sen University
+Haifang Li, Baidu Inc.
+Jianxin Li, Deakin University
+Jianxin Li, Beihang University
+Jundong Li, University of Virginia
+Lei Li, University of Queensland
+Ming Li, Zhejiang Normal University
+Pan Li, Purdue University
+Piji Li, Tencent AI Lab
+Qintong Li, Shandong University
+Rong-Hua LI, Beijing Institute of Technology
+Ruiyuan Li, Xidian University; JD Finance
+Shijun Li, Univ. of Science and Technology of China
+Shuai Li, Cambridge University
+Xian Li, Amazon
+Xiangsheng Li, Tsinghua University
+Xin Li, Sogou Inc.
+Yaliang Li, Alibaba Group
+Yang Li, Google
+Yang Li, University of Technology Sydney
+Yuening Li, Texas A&M University
+Zhixu Li, Fudan University
+Defu Lian, Univ. of Science and Technology of China
+Jianxun Lian, MSRA
+Xiang Lian, Kent State University
+Hongru Liang, Nankai University
+Hongwei Liang, Microsoft
+Jianqing Liang, Shanxi University
+Jiongqian LIANG, Google
+Shangsong Liang, Sun Yat-sen University
+Alexander Libov, Amazon
+An Liu, Soochow University
+Bang Liu, University of Alberta
+Bin Liu, West Virginia University
+Chuanren Liu, University of Tennessee
+Fan Liu, Shandong University
+Haochen Liu, Michigan State University
+
+Jinfei Liu, Emory University & Georgia Institute of
+Technology
+Jingjing Liu, M.D. Anderson Cancer Center
+Jiqun Liu, University of Oklahoma
+Lin Liu, University of South Australia
+Meng Liu, Shandong Jianzhu University
+Ninghao Liu, University of Georgia
+Qi Liu, University of Science and Technology of China
+Qing Liu, Hong Kong Baptist University
+Shuchang Liu, Rutgers University
+Tingwen Liu, Institute of Information Engineering, CAS
+Weiwen Liu, Huawei Noah's Ark Lab
+Xiaorui Liu, Michigan State University
+Xin Liu, National Institute of Advanced Industrial
+Science and Technology, AIST)
+Xueyan Liu, Jilin university
+Yanchi Liu, Rutgers University
+Yiding Liu, Baidu Inc.
+Yiqun LIU, Tsinghua University
+Zeyang Liu, University of Nottingham
+Zheng Liu, MSRA
+Zhidan Liu, Shenzhen University
+Zhonghua Liu, Henan Univ. of Science and Technology
+Andreas Lommatzsch, TU Berlin
+Arlei Lopes da Silva, Rice University
+Alexander Löser, Beuth Hochschule für Technik Berlin
+Jian Lou, Xidian University
+Grigorios Loukides, King's College London
+Hongyu Lu, Tencent
+Xiaolu Lu, Microsoft
+Xuan Lu, University of Michigan
+Yadong Lu, Microsoft
+Chen Luo, Amazon
+Cheng Luo, MegaTech.AI
+Hui Luo, RMIT University
+Jiyun Luo, Pinterest
+Ping Luo, Chinese Academy of Sciences
+Xin Luo, Shandong University
+Fuyu Lv, Alibaba
+Tianshu Lyu, Baidu Inc.
+Guixiang Ma, Intel Labs
+Jiaqi Ma, University of Michigan
+Jing Ma, University of Virginia
+Jun Ma, Amazon
+Muyang Ma, Shandong University
+Weizhi Ma, Tsinghua University
+
+Yunshan Ma, National University of Singapore
+Andrew Macfarlane, City, University of London
+Joel Mackenzie, The University of Melbourne
+Maria Maistro, University of Copenhagen
+Sahil Manchanda, IIT Delhi
+Jiaxin Mao, Renmin University of China
+Mirko Marras, EPFL
+Vanessa Martinez, University of Maryland
+Yosi Mass, IBM Research
+Sourav Medya, Northwestern University
+Rishabh Mehrotra, Spotify
+Parth Mehta, Parmonic
+Wagner Meira Jr., UFMG
+Ida Mele, IASI-CNR
+Chuan Meng, University of Amsterdam
+Cristina Menghini, Brown University
+Donald Metzler, Google
+Zoltan Miklos, University of Rennes 1
+Bhaskar Mitra, Microsoft
+Atsushi Miyauchi, University of Tokyo
+Boughanem Mohand, IRIT University Paul Sabatier
+Toulouse
+Mukesh Mohania, IIITD
+Corrado Monti, ISI Foundation
+Jose G Moreno, University of Toulouse
+Sebastian Moreno, Universidad Adolfo Ibanez
+Seung-Hoon Na, Jeonbuk National University
+Parth Nagarkar, NMSU
+Elham Naghizade, RMIT University
+Franco Maria Nardini, ISTI-CNR, Italy
+Wolfgang Nejdl, L3S Research Center
+Jian-Yun Nie, Université de Montréal
+Yifan Nie, University of Montreal
+Xia Ning, OSU
+Di Niu, University of Alberta
+Slava Novgorodov, eBay Research
+Alexandros Ntoulas, Zynga
+Neil O'Hare, Oath
+Vincent Oria, NJIT
+Shirui Pan, Monash University
+Weike Pan, Shenzhen University
+Guansong Pang, University of Adelaide
+liang pang, ICT
+Panagiotis Papadakos, FORTH-ICS
+
+Symeon Papadopoulos, Information Technologies
+Institute / Centre for Research & Technology - Hellas,
+GR
+Manos Papagelis, York University
+Dae Hoon Park, Yahoo Research
+Kunwoo Park, Soongsil University
+Saurabh Paul, Etsy Inc
+HONGBIN PEI, Xian Jiao Tong University
+Leonardo Pellegrina, University of Padova
+Hao Peng, Beihang University
+Matthias Petri, The University of Melbourne
+Giulio Ermanno Pibiri, University of Pisa
+Fabio Pinelli, IMT Lucca
+Lahari Poddar, Amazon
+Nico Potyka, University of Stuttgart
+Animesh Prasad, Amazon
+Giulia Preti, ISI Foundation
+Deepak Puthal, Newcastle University
+Jianzhong Qi, The University of Melbourne
+Buyue Qian, Xi'an Jiaotong University
+Tieyun Qian, Wuhan University
+Chuan Qin, Baidu
+Zhen Qin, Google
+Filip Radlinski, Google
+Davood Rafiei, University of Alberta
+Fiana Raiber, Yahoo Research
+Karthik Raman, Google Research
+Ashwani Rao, Amazon Inc
+Yanghui Rao, Sun Yat-sen University
+Rajeev Rastogi, Amazon
+Ariel Raviv, Yahoo Research
+Simon Razniewski, Max-Planck-Institut für Informatik
+Pengjie Ren, Shandong University
+Ruiyang Ren, Renmin University of China
+Weilong Ren, Kent State University
+Yongli Ren, RMIT University
+Marian-Andrei Rizoiu, University of Technology Sydney
+Haggai Roitman, IBM Research Haifa
+Yu Rong, Tencent AI Lab
+Guy D. Rosin, Technion
+Dwaipayan Roy, Indian Statistical Institute, Kolkata
+Polina Rozenshtein, Aalto University
+Sourav S Bhowmick, Nanyang Technological University
+Rishiraj Saha Roy, Max Planck Institute for Informatics
+Mohammad Saiedur Rahaman, RMIT
+Yuta Saito, Cornell University
+
+Eric Sanjuan, Laboratoire Informatique d'AvignonUniversité d'Avignon
+Aravind Sankar, Univ. of Illinois at Urbana-Champaign
+Badrul Sarwar,
+Ramit Sawhney, IIIT Delhi
+Ralf Schenkel, University of Trier
+Manos Schinas, CERTH
+Lars Schmidt-Thieme, University of Hildesheim
+Jingbo Shang, UC San Diego
+Shuo Shang, KAUST
+Yingxia Shao, BUPT
+Huawei Shen, Institute of Computing Technology, CAS
+Jiaming Shen, Univ. of Illinois at Urbana-Champaign
+Tao Shen, Microsoft
+Chuan Shi, Beijing University of Posts and
+Telecommunications
+Xiaolin Shi, Snap Inc.
+Yue Shi, Facebook
+Kyuseok Shim, Seoul National University
+Kijung Shin, KAIST
+Prashant Shiralkar, Amazon
+Harry Shomer, Michigan State University
+Kai Shu, Illinois Institute of Technology
+Altigran Soares da Silva, Universidade Federal do
+Amazonas
+Ricardo Silva Carvalho, Simon Fraser University
+Uriel Singer, Technion, Israel Institute of Technology
+Kevin Small, Amazon
+Qingquan Song, Texas A&M University
+Shaoxu Song, Tsinghua University
+Wenzhuo Song, Jilin University
+Xuemeng Song, Shandong University
+Francesca Spezzano, Boise State University
+Damiano Spina, RMIT University
+Anna Squicciarini, The Pennsylvania State University
+Efstathios Stamatatos, University of the Aegean
+Kostas Stefanidis, Tampere University
+Markus Strohmaier, RWTH Aachen University
+Ting Su, University of Glasgow
+Kazunari Sugiyama, Kyoto University
+Mahito Sugiyama, National Institute of Informatics
+Fei Sun, Alibaba Group
+Gan Sun, Chinese Academy of Sciences
+Jun Sun, GESIS Leibniz Institut für Sozialwissenschaften
+Leilei Sun, Beihang University
+Li Sun, North China Electicity Power University
+
+Lichao Sun, Lehigh University
+Yizhou Sun, UCLA
+Munira Syed, Procter & Gamble
+Keishi Tajima, Kyoto University
+Yusuke Tanaka, NTT
+Chaogang Tang, China University of Mining and
+Technology
+Liang Tang, Google
+Ruiming Tang, Huawei Noah's Ark Lab
+Xianfeng Tang, Amazon
+Zhiwen Tang, Georgetown University
+Chongyang Tao, Microsoft
+Zhiqiang Tao, Santa Clara University
+Junichi Tatemura, Google
+Mingfei Teng, Amazon
+Yuan Tian, University of Nottingham
+Mitul Tiwari, Passage AI
+Michele Tizzoni, ISI Foundation
+Sofia Tolmach, Amazon
+Gabriele Tolomei, Sapienza University of Rome
+Nicola Tonellotto, University of Pisa
+Liang Tong, NEC Labs America
+Yongxin Tong, Beihang University
+Marwan Torki, Alexandria University
+Ismail Hakki Toroslu, METU
+Salvatore Trani, ISTI, CNR, Italy
+Bayu D Trisedya, The University of Melbourne
+Stratis Tsirtsis, MPI-SWS
+Johan Ugander, Stanford University
+Md Zia Ullah, CNRS
+Kazutoshi Umemoto, The University of Tokyo
+Julián Urbano, Delft University of Technology
+Asaf Valadarsky, Amazon
+Christophe Van Gysel, Apple Inc.
+Ali Vardasbi, University of Amsterdam
+Onur Varol, Northeastern University
+Nikhita Vedula, Ohio State University
+Nate Veldt, Cornell University
+Vishwa Vinay, Adobe Research
+Henning Wachsmuth, Paderborn University
+Huaiyu Wan, Beijing Jiaotong University
+Yao Wan, Huazhong Univ. of Science and Technology
+Chang-Dong Wang, Sun Yat-sen University
+Chong Wang, Thomson Reuters
+Daheng Wang, University of Notre Dame
+Hongzhi Wang, Harbin Institute of Technology
+
+Huazheng Wang, Princeton University
+Ji Wang, National University of Defense Technology
+Jianling Wang, Texas A&M University
+Jim Wang, Macquarie University
+Kai Wang, University of New South Wales
+Ke Wang, SFU
+Lichen Wang, Northeastern University
+Lidan Wang, University of Maryland
+Peifeng Wang, University of Southern California
+Pengfei Wang, Beijing University of Posts and
+Telecommunications
+Pengyang Wang, University of Macau
+Pengyuan Wang, University of Georgia
+Qi Wang, Macquarie University
+Senzhang Wang, Central South University
+Sheng Wang, Wuhan University
+Shuaiqiang Wang, Baidu Inc.
+Tong Wang, Amazon, USA
+Wei Wang, Tsinghua University
+Wenjie Wang, National University of Singapore
+Wentao Wang, Michigan State University
+Xiang Wang, National University of Singapore
+Xiao Wang, Beijing University of Posts and
+Telecommunications
+Xin Wang, Tsinghua University
+Xin Wang, Jilin University
+Xuanhui Wang, Google
+Yang Wang, University of Science and Technology of
+China
+Yiqi Wang, Michigan State University
+Yue Wang, University of North Carolina at Chapel Hill
+Yue Wang, Microsoft
+Zhibo Wang, Zhejiang University
+Zhichun Wang, Beijing Normal University
+zhihong wang, Tsinghua University
+Zhiqiang Wang, Shanxi University
+Zhiwei Wang, Michigan State University
+Zihan Wang, Shandong University
+Ziqi Wang, SmartNews
+Ingmar Weber, Qatar Computing Research Institute
+Hao Wei, Amazon, USA
+Yinwei Wei, National University of Singapore
+Gerhard Weikum, Max-Planck-Institut fur Informatik
+Shi-ting Wen, Zhejiang University
+Zeyi Wen, The University of Western Australia
+Bin Wu, Zhengzhou University
+
+Fangzhao Wu, MSRA
+Jiancan Wu, USTC
+Jun Wu, University of Illinois at Urbana–Champaign
+Le Wu, Hefei University of Technology
+Liang Wu, Airbnb
+Shu Wu, NLPR, China
+Xianchao Wu, NVIDIA
+Yinghui Wu, Case Western Reserve University
+Zhijing Wu, Tsinghua University
+Yikun Xian, Amazon
+Keli Xiao, Stony Brook University
+Yanghua Xiao, Fudan University
+Ning Xie, Amazon
+Ruobing Xie, WeChat Search, Tencent
+Xiaohui Xie, Tsinghua University
+Xike Xie, University of Science and Technology of China
+Xin Xin, Beijing Institute of Technology
+Xin Xin, University of Glasgow
+Hui Xiong, the State University of New Jersey
+Dongkuan Xu, The Pennsylvania State University
+Guandong Xu, University of Technology Sydney
+Han Xu, Michigan State University
+Jian Xu, Alibaba Group
+Kevin S Xu, University of Toledo
+Qiongkai Xu, The Australian National University
+Xiaoran Xu, Hulu Innovation Lab
+Shan Xue, CSIRO
+Takehiro Yamamoto, University of Hyogo
+Cong Yan, University of Washington
+Le Yan, Google
+Cheng Yang, Beijing University of Posts and
+Telecommunications
+Chun-Pai Yang, National Taiwan University
+De-Nian Yang, Academia Sinica
+Fan Yang, Rice University
+Jie Yang, TU Delft
+Jielong Yang, Jilin University
+Liang Yang, Hebei University of Technology
+Liu Yang, Google
+Tao Yang, UC Santa Barbara
+Yang Yang, Nanjing Univ.of Science and Technology
+Yang Yang, Zhejiang University
+Yu Yang, City University of Hong Kong
+Zhenguo Yang, Guangdong University of Technology
+Jing Yao, Renmin University of China
+Lina Yao, University of New South Wales
+
+Andrew Yates, University of Amsterdam and Max
+Planck Institute for Informatics
+Fanghua Ye, University College London
+Teng Ye, University of Michigan, Ann Arbor
+An-Zi Yen, National Taiwan University
+Hongzhi Yin, The University of Queensland
+Jianhua Yin, Shandong University
+Elad Yom-Tov, Microsoft
+Safoora Yousefi, Microsoft
+Changlong Yu, HKUST
+Dongxiao Yu, Shandong University
+Guoxian Yu, Southwest University
+Hai-Tao Yu, University of Tsukuba
+Jeffrey Xu Yu, Chinese University of Hong Kong
+Philip S. Yu, University of Illinois at Chicago
+Ran Yu, University of Bonn
+Wenhao Yu, University of Notre Dame
+Nicholas Yuan, Huawei Cloud
+Ye Yuan, Beijing Institute of Technology
+Nasser Zalmout2, Amazon
+Shuxi Zeng, Duke University
+Jiwei Zh ang, Beijing University of Posts and
+Telecommunications
+Daochen Zha, Rice University
+Jingtao Zhan, Tsinghua University
+Chao Zhang, Georgia Institute of Technology
+Chenwei Zhang, Amazon
+Chuxu Zhang, Brandeis University
+Dan Zhang, Facebook, USA
+Denghui Zhang, Rutgers University
+Detian Zhang, Soochow University
+Dongxiang Zhang, Zhejiang University
+Fan Zhang, Wuhan University
+Feng Zhang, Renmin University of China
+Jing Zhang, Nanjing University of Science and
+Technology
+Jing Zhang, Renmin University of China
+Li Zhang, University of Sheffield
+Mengxuan Zhang, University of Queensland
+Mingyang Zhang, Google AI
+Qi Zhang, Fudan University
+Rongting Zhang, Amazon
+Wei Zhang, East China Normal University
+
+Wenxuan Zhang, The Chinese University of Hong Kong
+Xianli Zhang, Xi'an Jiaotong University
+Xuyun Zhang, Macquarie University
+Chen Zhao, Kitware Inc.
+Hongke Zhao, Tianjin University
+Huan Zhao, 4Paradigm
+Kangfei Zhao, The Chinese University of Hong Kong
+Pengpeng Zhao, Soochow University
+Tianxiang Zhao, Penn State University
+Tong Zhao, University of Notre Dame
+Tong Zhao, Amazon
+Wayne Xin Zhao, Renmin University of China
+Xiang Zhao, National University of Defence Technology
+Xiangyu Zhao, City University of Hong Kong
+Xujiang Zhao, The University of Texas at Dallas
+Yuyue Zhao, Univ. of Science and Technology of China
+Zhou Zhao, Zhejiang University
+Hai Zhen, Institute for Infocomm Research, A*STAR
+Cheng Zheng, Facebook Inc.
+Wen Zheng, University of Nottingham
+Wenqing Zheng, University of Texas at Austin
+Yong Zheng, Illinois Institute of Technology
+Baojian Zhou, Fudan University
+Dawei Zhou, Univ.of Illinois at Urbana-Champaign
+Kun Zhou, Renmin University of China
+Sheng Zhou, Zhejiang University
+Xiaofei Zhou, Institute of Information Engineering,
+Chinese Academy of Sciences & University of Chinese
+Academy of Sciences
+Xinyi Zhou, Syracuse University
+Yujia Zhou, Renmin University of China
+Hengshu Zhu, Baidu Inc.
+Hill Zhu, Florida Atlantic University
+Qiannan Zhu, Renmin University of China
+Xiaofei Zhu, Chongqing University of Technology
+Yadong Zhu, Mobvista
+Yongchun Zhu, Institute of Computing Technology,
+Chinese Academy of Sciences
+Yutao Zhu, Université de Montréal
+Ziwei Zhu, Texas A&M University
+Imed Zitouni, Google
+Lixin Zou, Baidu Inc.
+
+WSDM 2022 Demo Program Committee
+Anna Sapienza, Technical University of Denmark
+Athanasios N. Nikolakopoulos, Amazon
+Bijaya Adhikari, University of Iowa
+Dhivya Eswaran, Amazon
+Diego Silva, Universidade Federal de São Carlos
+Ekta Gujral, University of California, Riverside
+Hemank Lamba, Carnegie Mellon University
+Homa Hosseinmardi, University of Pennsylvania
+Kai Shu, Illinois Institute of Technology
+Kijung Shin, Korea Advanced Institute of Science and Technology
+Lin Li, MIT Lincoln Lab
+Lin Zhang, Univeristy at Albany
+Manoj Chinnakotla, Microsoft
+Mark Heimann, Lawrence Livermore National Laboratory
+Minsuk Kahng, Oregon State University
+Nina Hubig, Clemson University
+Panagiotis Mandros, Max Planck Institute for Informatics
+Shaden Smith, University of Minnesota
+Shenghua Liu, Chinese Academy of Sciences
+Sucheta Soundarajan, Syracuse University
+Xiaowei Jia, University of Pittsburgh
+
+WSDM 2022 Sponsors & Supporters
+
+ACM Sponsors:
+
+Technical Sponsor:
+
+Gold Supporters:
+
+Silver Supporters:
+
+Student
+Registration
+Supporters:
+
+Academic
+Supporter:
+
+

@@ -1,0 +1,27 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: nossdav-2027
+series: nossdav
+name: NOSSDAV 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/NOSSDAV
+  conf_id: nossdav27
+  link: https://nossdav.org/
+  place: Ghent, Belgium
+  date: TBD
+  timezone: AoE
+location:
+  city: Ghent
+  country: Belgium
+  country_code: BE
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    tz: AoE
+    status: tba
+last_checked: 2026-09-25

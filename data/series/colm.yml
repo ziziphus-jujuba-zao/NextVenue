@@ -1,0 +1,12 @@
+id: colm
+acronym: COLM
+full_name: Conference on Language Modeling
+directions: [cs/nlp, cs/ml]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/colm
+ccfddl: AI/COLM
+data_level: curated
+note_zh: 2024 年创办。

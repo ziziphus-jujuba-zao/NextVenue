@@ -1,0 +1,57 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-wacv
+sources:
+  - id: wacv-2020-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/wacv/2020/09093501/1jPbmWXRfgs
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1jPbmWXRfgs/pdf
+    title: "WACV 2020 proceedings: chairs' message"
+    kind: other
+    fetched_at: 2026-09-25T13:13:41Z
+    http_status: 200
+    snapshot: f137f06b194aac31c439c2f84a46d85f4335744770175b4ae7ddc89b493a503f
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: wacv-2022-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/wacv/2022/091500z045/1B13oqe9kfS
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1B13oqe9kfS/pdf
+    title: "WACV 2022 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:13:45Z
+    http_status: 200
+    snapshot: 739fe1e4301ff96f20d4b2e227c0e8edb58878cdd5ac403dd3de35618160f2f9
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: wacv-2023-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/wacv/2023/934600z068/1KxVuRUI6Xu
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1KxVuRUI6Xu/pdf
+    title: "WACV 2023 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:13:47Z
+    http_status: 200
+    snapshot: 5e10a52f1a8a604dbfa9bed2d2e33a9953abdbb6fe06c15132d7a65856a17119
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: wacv-2024-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/wacv/2024/189200z006/1W0eSH2EGm4
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1W0eSH2EGm4/pdf
+    title: "WACV 2024 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:13:50Z
+    http_status: 200
+    snapshot: f8b8362fe248145b76d44a43fc7fac20c92292fec1f292261955124d5e200f9c
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: wacv-2025-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/wacv/2025/108300z114/25KmtPcj0B2
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/25KmtPcj0B2/pdf
+    title: "WACV 2025 proceedings: Welcome Message"
+    kind: other
+    fetched_at: 2026-09-25T13:13:51Z
+    http_status: 200
+    snapshot: f1c1bf2c2aa32b3a0aeb9dd9fc1387816cb1ef28a1a294cf581d05e527a804e7
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: wacv-2026-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/wacv/2026/551100z104/2ggPvkblMis
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/2ggPvkblMis/pdf
+    title: "WACV 2026 proceedings: Welcome Message"
+    kind: other
+    fetched_at: 2026-09-25T13:13:54Z
+    http_status: 200
+    snapshot: d86997e4fe4dfba5f33679cb30f8d7eb62c7bac7f93298b84ed6c5cca9275811
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。

@@ -1,0 +1,120 @@
+* Home
+ * Products
+   * InteriorSense
+   * SurroundSense
+ * CES
+   * CES 2025
+   * CES 2024
+   * CES 2023
+   * CES 2022
+ * About Us
+   * Our story
+   * Our team
+   * Careers
+   * News
+
+07/07/2020 VinAI in the news
+
+An overview of ICML 2020’s publications
+
+ * 39 minutes
+
+ *
+
+Share
+ *
+ *
+ *
+
+> By Khiem Pham, Duong Le, VinAI Research, Vietnam
+
+Every year, after the results of the ICML conference, a series of technology pages and forums will produce analysis and rankings of institutions around the world which have accepted papers at this conference. We have collected data from the ICML’s official website to find out the top 50 institutions as well as the top authors with the most accepted papers. Detailed results are presented as below.
+
+This year’s ICML conference attracted 4990 submissions out of which 1088 were accepted. That’s a 21.8% acceptance rate, lower than last year’s 22.6% (and a lot more submissions). To gather the statistics, we crawled the official website and manually merged different spellings of the same institutions (e.g. University of Pennsylvania vs. Upenn), from which we also separated the industrial from the academic ones. Needless to say, the whole process of determining which institutions should be grouped or which are government-owned or for-profit is quite subjective. For example, we decided to merge Microsoft Research Asia with Microsoft while differentiating Google’s 3 affiliated entities: the original company, Google Brain and Google Deepmind since they each produce a significant number of publications (103, 45 and 54 papers respectively). The 2 of us thus tried our best with the available information from the web.
+
+There are 494 institutions overall, 362 (73.3%) institutions associated with industry and 132 (26.7%) with academia. 587 papers (53.9%) are purely affiliated with academic research while only 90 papers (8.3%) are purely from industrial research organizations and 411 papers (37.8%) are affiliated with both.
+
+The top 50 institutions publishing the most papers overall, academic-only and industry-only can be seen in Figures 1, 2 and 3 respectively. Google places first both in overall and in the industry-only track. Its other 2 affiliations are also in the top 4 industry-only, along with Microsoft at 3rd. The highest-ranking schools are MIT, Stanford University, UC Berkeley which place 2nd, 3rd and  4th overall behind Google. These 3 schools take the top spots in academic-only with CMU following in4th place. Thus, Looking back at the stats from 2019, there hasn’t been much change to the top performing institutions. We can also draw the same conclusion that ICML remains an academic-dominated conference.
+
+The list of top 50 industrial labs consist of all the usual suspects from the elite big-tech companies (e.g., Google, Facebook, IBM,  Amazon, Apple, Uber, Samsung, Huawei, Baidu, Alibaba). The industry-only track however has a much thinner tail (the number of papers drops quickly from top to bottom), with only 9 institutions having 10 or more papers compared to all 50 academic institutions having 10 or more papers. Our lab, VinAI Research from Vietnam (highlighted in red), is an interesting anomaly, having made this list for the first time. With a total of 3 accepted papers, 2 of which are first-authored by residents in VinAI’s residency program, VinAI placed 30th in the industry-only track, and is also the only representative from a developing country (excluding China and Quatar), as well as from the South-East Asia region (Khiem, one of the authors of this post also has a paper accepted). Together with 2 papers at NeurIPS 2019, this is a promising sign that VinAI is growing strong.
+
+We have also compiled the list of top authors (anywhere or last) with the most papers in Figure 4. The top contributing author is Masashi Sugiyama from RIKEN (6th in 2019) with an astonishing 11 papers. The 2nd place is a 3-way tie between Dale Schuurman from Google and University of Alberta (64th in 2019), Michael Jordan from UC Berkeley (1st in 2019) and Michal Valko from Deepmind, each contributing 8 papers. They are also the last authors of most of their papers (this is true for most authors on this list; many are well-established senior researchers).
+
+Although not placed at the top in this chart, Chi Jin from Princeton University has the most papers as first author (3 first author papers over 6 accepted papers) and Alexey Drutsa from Yandex has the most solo papers (2 papers as only-author over 3 accepted papers).
+
+Back to News
+ * 39 minutes
+
+ *
+
+Share
+ *
+ *
+ *
+
+Related post
+
+Achievements blog
+
+VINAI’S DRUNKSENSE WINS 2025 ARTIFICIAL INTELLIGENCE EXCELLENCE AWARD
+
+Hanoi, Vietnam – March 27, 2025 – DrunkSense, an Artificial Intelligence (AI) technology develop(...)
+
+View details
+
+27/03/2025
+
+VinAI in the news
+
+VINAI RETURNS TO CES 2025 WITH CUTTING-EDGE AUTOMOTIVE AI TECHNOLOGIES
+
+Las Vegas, USA, January 2, 2025 – VinAI has announced its participation in the Consumer Electro(...)
+
+View details
+
+03/01/2025
+
+VinAI in the news
+
+2024 Year in review
+
+View details
+
+26/12/2024
+
+Want to see our products in action?
+
+Schedule a demo today and experience it for yourself.
+
+Contact us
+
+Fill out this form to schedule a demo with VinAI
+
+I agre to receive communications from VinAI
+
+About
+
+ * Our story
+ * Our team
+ * Careers
+ * News
+
+Our Products
+
+ * InteriorSenseSurroundSense
+
+VinAI
+
+ * business@vinai.io
+
+ *
+ *
+ *
+ *
+
+ * Contact
+ * Our locations
+ * Terms of use
+ * Privacy Policy
+
+© 2024 VINAI Artificial Intelligence Application and Research JSC

@@ -1,0 +1,92 @@
+Skip to content
+
+Menu
+
+Search
+
+Close Menu
+August 27 2026
+
+Navigating NeurIPS 2026: A Breakdown of the Multi-Site Registration Process
+
+Communication Chairs 2026 2026 Conference
+
+With NeurIPS 2026 adopting a distributed, multi-site format across Sydney, Atlanta, and Paris, managing attendance is a significant logistical challenge. Given the size of the conference, our primary goal is to provide fair access to participants worldwide while allocating registrations across the three venues.
+
+To help clarify the process, here is a breakdown of how registration allocations will work this year for authors, committee members, and the general public.
+
+Let’s start with the question likely to be on everyone’s mind. When will registration open for the general public?
+
+Registration for the Sydney and Atlanta sites will open on Thursday, September 3rd, at 23:00 AEST. The Paris registration system is currently undergoing separate testing by our Paris and EventHost teams, and we will announce its opening date soon.
+
+Please take note of the time zone and try to register as early as possible to secure your spot. We selected this time with the aim of making registration reasonably accessible to as many members of our global community as possible. The following describes the process for registrations for each participant type.
+
+1. Guaranteed Spots for Presenting Authors in the Core Tracks
+
+For the core tracks (Main, Evaluations & Datasets, Position Papers, Journal-to-Conference, and Reproducibility), we guarantee exactly one registration spot per accepted paper. This spot is reserved for the designated author to present the work. Other co-authors need to register on their own as part of the general public (see below).
+
+Prior to the acceptance announcements, the program chairs and our EventHost team will distribute a form to all authors to collect their preferred presenting locations. Within this form, the authors will nominate one of the authors as the designated author to present, together with their preference of location and other details. This data will help us move quickly once decisions are made to assign locations. We realize that it is unusual to start collecting information early, but we also appreciate your support in helping speed up the process for authors of accepted papers to start making travel arrangements.
+
+Please be assured that your location preferences will have absolutely no impact on the chance of your paper being accepted. As we note below, although we will do our best to accommodate the site preferences of authors of accepted papers, we cannot guarantee that everyone will get their top choice.
+
+Shortly after paper decisions are announced, our team will set a deadline for each paper presenter to update the form if needed. Poster locations will then be assigned to best accommodate these preferences. If a site reaches capacity, the available slots will be allocated with a randomized process that takes necessity and preference into account; therefore, top-choice locations cannot be guaranteed. The designated presenting author will receive guaranteed registration tied exclusively to their allocated poster site. Please note that due to the massive scale and operational complexity of NeurIPS, no changes to the presenting author or poster location will be permitted once allocations are finalized.
+
+If the designated author has registered already for a different location than the one designated for their paper, they will have to cancel their registration (and receive a full refund until the  deadline of Nov. 4) and register to the designated location (they will have a guaranteed spot). Note that we expect the designated author to be present at the designated location to present their work.
+
+2. Reserved Allocations for Additional Contributions
+
+NeurIPS thrives on the specialized communities built around its other tracks. Each accepted contribution in one of the Workshops, Competitions, Creative AI, or Education tracks receives one reserved registration allocation for its authors. As with the main tracks, this reservation is tied to the specific site where the contribution is scheduled to be presented.
+
+To make this work, workshop organizers (as well as  competition organizers, Creative AI chairs, and Education chairs) must import their accepted contributions into the NeurIPS website by the  deadlines established by our EventHost team. The guaranteed registration applies only after those contributions have been successfully linked to the  authors’ NeurIPS site accounts. Registration cannot be guaranteed if the relevant organizers or chairs miss the deadline. We will provide further details separately to the organizers, chairs, and authors.
+
+3. Committee Members and Complimentary Passes
+
+Running a multi-site conference of this magnitude requires a massive volunteer effort. To recognize this, NeurIPS will offer complimentary registrations to our organizing team and top-performing members of the program committee (reviewers, Area Chairs, and Senior Area Chairs for the Main, ED, and PP tracks). The registrations are guaranteed and will be processed shortly after the paper-acceptance decisions are announced. If the recipients of these registrations had already previously registered, an automatic refund will be issued.
+
+To provide track support, workshops, competitions, and other tracks (Social/Affinity/Creative AI/Education/Reproducibility) will receive a fixed number of complimentary registrations. These are strategically allocated to ensure the track’s program will be running smoothly and accounted for at their respective sites.
+
+4. General Public Registration
+
+For members of the broader community that do not fall in any of the categories above, registration will be offered on a first-come-first-served basis. Through this blog post, we hope to announce the opening of registration sufficiently in advance to allow  everyone to plan ahead. In addition, we will create a waitlist for those who are unable to secure a place. Given that individuals can wear many hats (for instance, authors, part of the organization committee), and that plans can change, we do expect a reasonable number of additional registration to become available after the registration deadline. We will exclusively rely on the waiting list to fill these additional spots. The waiting lists will be specific to the different locations, and one person can only be on one of the three different waiting lists. Once we have more clarity on the number of additional registration spots available we will contact those selected from the waiting list, offering them the opportunity to register. To promote fairness, we will randomize the order, while still giving some weight to the original position in the waiting list. We therefore strongly recommend that you try to register as soon as possible to maximize your likelihood of attending the conference.
+
+We hope that this experimental process for this year’s first-ever three-site NeurIPS’s conference will promote fairness and increase accessibility. We look forward to hearing feedback from the community to improve the process in future years.
+
+Meet the Organizing Team Behind NeurIPS 2026 NeurIPS Newsletter – August 2026
+
+Related Posts
+
+2026 Conference
+
+Join Us at NeurIPS 2026: Financial Assistance and Volunteer Applications Are Now Open
+
+2026 Conference
+
+NeurIPS Foundation Announces 2026 Bridging the Future Grants Program Recipients
+
+2026 Conference
+
+NeurIPS Newsletter – August 2026
+
+Feed
+
+Recent Posts
+
+ * Join Us at NeurIPS 2026: Financial Assistance and Volunteer Applications Are Now Open September 16, 2026
+ * NeurIPS Foundation Announces 2026 Bridging the Future Grants Program Recipients September 8, 2026
+ * NeurIPS Newsletter – August 2026 September 5, 2026
+ * Navigating NeurIPS 2026: A Breakdown of the Multi-Site Registration Process August 27, 2026
+ * Meet the Organizing Team Behind NeurIPS 2026 August 11, 2026
+ * Announcing the NeurIPS 2026 Workshops August 10, 2026
+ * NeurIPS Newsletter – July 2026 July 31, 2026
+ * NeurIPS 2026 Competitions Announced July 28, 2026
+ * NeurIPS Newsletter – June 2026 July 3, 2026
+ * AI-Generated Papers in the NeurIPS 2026 Position Paper Track June 2, 2026
+ * NeurIPS Newsletter – May 2026 May 29, 2026
+ * NeurIPS 2026 Call for Ethics Reviewers May 12, 2026
+
+Recent Comments
+
+Back To Top
+NeurIPS Blog
+© NeurIPS Blog 2026
+Powered by WordPress • Themify WordPress Themes

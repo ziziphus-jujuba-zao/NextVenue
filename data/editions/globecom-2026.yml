@@ -1,0 +1,51 @@
+id: globecom-2026
+series: globecom
+name: GLOBECOM 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Macau, country: China, country_code: MO }
+dates: { start: 2026-12-07, end: 2026-12-11 }
+milestones:
+  - type: paper
+    at: 2026-05-03
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: globecom-2026-dates
+    quote: "Deadline for Paper Submission 3 May 2026 Firm Deadline!"
+    note_zh: 已截止。
+  - type: notification
+    at: 2026-08-01
+    tz: Asia/Macau
+    status: confirmed
+    src: globecom-2026-dates
+    quote: "Notification Date 1 August 2026"
+  - type: camera_ready
+    label_zh: 终稿和作者注册截止（主会论文）
+    at: 2026-09-08
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: globecom-2026-dates
+    quote: "Final Paper Upload and Registration Deadline (NEW) 8 September 2026"
+    note_zh: 已截止。workshop 论文的作者注册截止是 9/30（“Wednesday, 30 September 2026 (Workshop Papers)”）。
+  - type: early_registration
+    label_zh: 非作者早鸟注册截止
+    at: 2026-11-06
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: globecom-2026-registration
+    quote: "Early Bird Registration Deadline: 6 November (Early Bird)"
+    note_zh: 只适用于非作者注册；作者注册没有早鸟价。官网没写时区，按北京时间当天结束算（澳门与北京同为 UTC+8）。
+  - type: conference
+    start: 2026-12-07
+    end: 2026-12-11
+    tz: Asia/Macau
+    status: confirmed
+    src: globecom-2026-dates
+    quote: "will be held in the vibrant city of Macau, China from 7 to 11 December 2026."
+    note_zh: 在澳门举办，内地居民办往来港澳通行证和签注，不用签证。
+last_checked: 2026-09-25
+note_zh: 主会论文的投稿和终稿都已截止，只剩开会。GLOBECOM 2027 的地点和日期还没有官方公布。

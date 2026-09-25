@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 // The submission route (docs/MOBILE_SPEC.md §9.5) on editions copied from
 // data/editions as of 2026-09-25, so the cases stay realistic but do not
@@ -10,18 +9,25 @@ import { describe, expect, it } from 'vitest';
 import {
   canFollow,
   canMove,
+  cleanDirections,
   cleanPrefs,
+  clashOf,
+  cleanTargets,
   closedToNew,
   daysUntil,
   defaultPrefs,
+  defaultTargets,
   directionsOf,
   entriesOf,
+  firstStepText,
   gapAfter,
   gapText,
   inReview,
   migrateFollows,
   movePick,
   nearestEdition,
+  pickerOrder,
+  seriesState,
   nextOpenEntry,
   parsePrefsParam,
   planRoute,
@@ -31,7 +37,13 @@ import {
   seriesCatalog,
   started,
   stopLine,
+  storedTargets,
+  targetLists,
+  targetPriority,
+  targetRoute,
+  toggleTarget,
   togglePick,
+  unplacedTargets,
   yearCtx,
   type Prefs,
   type Route,
@@ -267,7 +279,7 @@ describe("the owner's example: 首选 NeurIPS, ICLR, ICML; 备选 ACL, EMNLP on 
 });
 
 describe('an NLP-only user', () => {
-  const prefs = defaultPrefs(['nlp'], new Set(seriesCatalog(EDITIONS).map((s) => s.id)));
+  const prefs = defaultPrefs(['cs/nlp'], new Set(seriesCatalog(EDITIONS).map((s) => s.id)));
 
   it('gets ACL, EMNLP, NAACL as default 首选', () => {
     expect(prefs).toEqual({ first: ['acl', 'emnlp', 'naacl'], backup: [] });
@@ -405,9 +417,15 @@ describe('lists show one edition per series', () => {
     expect(names).toMatchObject({ neurips: 'NeurIPS', corl: 'CoRL', iclr: 'ICLR' });
     expect(names.arr).toBeUndefined();
   });
-  it('files general-AI topics under 机器学习', () => {
-    expect(directionsOf({ ...EDITIONS[0]!, topics: ['ai', 'ml'] })).toEqual(['ml']);
-    expect(directionsOf({ ...EDITIONS[0]!, topics: ['robotics', 'ml'] })).toEqual(['ml', 'robotics']);
+  it('files old general-AI topics under 机器学习, and reads taxonomy directions as they are', () => {
+    expect(directionsOf({ ...EDITIONS[0]!, topics: ['ai', 'ml'] })).toEqual(['cs/ml']);
+    expect(directionsOf({ ...EDITIONS[0]!, topics: ['robotics', 'ml'] })).toEqual(['cs/robotics', 'cs/ml']);
+    expect(directionsOf({ ...EDITIONS[0]!, directions: ['cs/theory', 'eng/control'], topics: ['ml'] })).toEqual(['cs/theory', 'eng/control']);
+  });
+  it('reads stored v0.3 directions as taxonomy ids, keeping the order picked', () => {
+    expect(cleanDirections(['nlp', 'ml', 'ai', 'x', 42, 'eng/control'])).toEqual(['cs/nlp', 'cs/ml', 'eng/control']);
+    expect(cleanDirections(['eng/control', 'med/oncology'], new Set(['eng/control']))).toEqual(['eng/control']);
+    expect(cleanDirections('ml')).toEqual([]);
   });
 });
 
@@ -447,15 +465,16 @@ describe('preferences', () => {
     expect(canMove({ first: ['neurips'], backup: [] }, 'neurips', 1)).toBe(false);
   });
 
-  it('prefills 首选 from the first direction only', () => {
-    expect(defaultPrefs(['ml', 'nlp'], known)).toEqual({ first: ['neurips', 'iclr', 'icml'], backup: [] });
+  it('prefills 首选 from the first direction only; directions without usual venues prefill nothing', () => {
+    expect(defaultPrefs(['cs/ml', 'cs/nlp'], known)).toEqual({ first: ['neurips', 'iclr', 'icml'], backup: [] });
+    expect(defaultPrefs(['eng/control', 'cs/ml'], known)).toEqual({ first: [], backup: [] });
   });
 
   it('keeps a new paper on the global preferences unless none of them fits its direction', () => {
     const catalog = seriesCatalog(EDITIONS);
     // An ML paper for the owner keeps ACL and EMNLP as 备选 and follows later changes.
-    expect(prefsForPaper(['ml'], OWNER, catalog, known)).toBeUndefined();
-    expect(prefsForPaper(['robotics'], OWNER, catalog, known)).toEqual({ first: ['icra', 'iros', 'corl'], backup: [] });
+    expect(prefsForPaper(['cs/ml'], OWNER, catalog, known)).toBeUndefined();
+    expect(prefsForPaper(['cs/robotics'], OWNER, catalog, known)).toEqual({ first: ['icra', 'iros', 'corl'], backup: [] });
   });
 
   it('drops unknown or repeated series from stored data', () => {
@@ -467,7 +486,7 @@ describe('preferences', () => {
     const { prefs, directions } = migrateFollows(['iclr-2027', 'arr-2026-10', 'cvpr-2027', 'gone-2025'], EDITIONS, NOW);
     // Soonest deadline a new paper can still make first: ICLR's is ICLR 2028 (2027/9/19).
     expect(prefs).toEqual({ first: ['naacl', 'cvpr', 'iclr'], backup: [] });
-    expect(directions).toEqual(['ml', 'cv', 'nlp']);
+    expect(directions).toEqual(['cs/nlp', 'cs/cv', 'cs/ml']);
   });
 });
 
@@ -478,5 +497,305 @@ describe('正在投', () => {
   it('treats a venue as submitted only once its first step has passed (a migrated CVPR 2027 paper is not)', () => {
     expect(started(edition('cvpr-2027'), NOW)).toBe(false);
     expect(started(edition('iclr-2027'), NOW)).toBe(true);
+  });
+});
+
+describe('目标会议 (each paper picks up to 3)', () => {
+  // AISTATS as in data/editions: 2027 confirmed (abstract 9/29 AoE), 2028 shifted a year.
+  const ALL: AppEdition[] = [
+    ...EDITIONS,
+    ed('aistats-2027', 'AISTATS 2027', ['ml', 'ai'], [
+      m('abstract', '2026-09-29T23:59', C),
+      m('paper', '2026-10-06T23:59', C),
+      m('notification', '2027-01-20', C),
+      conf('2027-05-03', '2027-05-06', C, 'America/Toronto'),
+    ]),
+    ed('aistats-2028', 'AISTATS 2028', ['ml', 'ai'], [
+      m('abstract', '2027-09-29T23:59'),
+      m('paper', '2027-10-06T23:59'),
+      m('notification', '2028-01-20'),
+      conf('2028-05-03', '2028-05-06'),
+    ]),
+    // IJCAI 2027 shifted a year from IJCAI-ECAI 2026.
+    ed('ijcai-2027', 'IJCAI 2027', ['ai', 'ml'], [
+      m('abstract', '2027-01-12T23:59'),
+      m('paper', '2027-01-19T23:59'),
+      m('notification', '2027-04-29'),
+      conf('2027-08-07', '2027-08-13', C, 'Asia/Tokyo'),
+    ]),
+  ];
+  const catalog = seriesCatalog(ALL);
+  const known = new Set(catalog.map((s) => s.id));
+  const series = (id: string) => catalog.find((s) => s.id === id)!;
+  const edition2 = (id: string) => ALL.find((e) => e.id === id)!;
+  const route = (targets: string[], extra: { now?: number; current?: string } = {}) =>
+    targetRoute({ targets, editions: ALL, now: extra.now ?? NOW, current: extra.current });
+
+  describe('priority', () => {
+    it("the owner's example: {ICML, AISTATS, NeurIPS} → 1 NeurIPS, 2 ICML, 3 AISTATS", () => {
+      expect(targetPriority(['icml', 'aistats', 'neurips'], OWNER, catalog, NOW)).toEqual(['neurips', 'icml', 'aistats']);
+    });
+    it('does not depend on the order of the taps', () => {
+      expect(targetPriority(['aistats', 'neurips', 'icml'], OWNER, catalog, NOW)).toEqual(['neurips', 'icml', 'aistats']);
+    });
+    it('puts 备选 of the interest list after its 首选 and before venues outside it', () => {
+      expect(targetPriority(['cvpr', 'emnlp', 'iclr'], OWNER, catalog, NOW)).toEqual(['iclr', 'emnlp', 'cvpr']);
+    });
+    it('orders venues outside the interest list by next open deadline, earliest first', () => {
+      // AISTATS 2027 abstract 9/30, NAACL (ARR) 10/13, CVPR 2027 registration 11/11, ICCV 2027 3/4.
+      expect(targetPriority(['iccv', 'cvpr', 'aistats', 'naacl'], OWNER, catalog, NOW)).toEqual(['aistats', 'naacl', 'cvpr', 'iccv']);
+      // ICLR outside the list counts from ICLR 2028 (2027/9/19): after ICML (2027/1/24).
+      expect(targetPriority(['iclr', 'icml'], { first: [], backup: [] }, catalog, NOW)).toEqual(['icml', 'iclr']);
+    });
+  });
+
+  describe('selection', () => {
+    it('selects and deselects', () => {
+      expect(toggleTarget([], 'icml')).toEqual({ targets: ['icml'], full: false });
+      expect(toggleTarget(['icml', 'neurips'], 'icml')).toEqual({ targets: ['neurips'], full: false });
+    });
+    it('takes at most 3; a 4th pick changes nothing and reports full', () => {
+      const three = ['icml', 'aistats', 'neurips'];
+      const r = toggleTarget(three, 'iclr');
+      expect(r.full).toBe(true);
+      expect(r.targets).toBe(three);
+      // Deselecting one frees the slot.
+      expect(toggleTarget(toggleTarget(three, 'aistats').targets, 'iclr')).toEqual({ targets: ['icml', 'neurips', 'iclr'], full: false });
+    });
+    it('keeps stored targets known, unique and at most 3', () => {
+      expect(cleanTargets(['icml', 'icml', 'nope', 42, 'neurips', 'iclr', 'aistats'], known)).toEqual(['icml', 'neurips', 'iclr']);
+      expect(cleanTargets(undefined, known)).toBeUndefined();
+      expect(cleanTargets([], known)).toEqual([]);
+    });
+  });
+
+  describe('picker lists and the edition a new paper can still enter', () => {
+    it('uses ICLR 2028 for ICLR: ICLR 2027 took its last abstract on 9/19', () => {
+      const e = nextOpenEntry(series('iclr'), NOW)!;
+      expect(e.edition.id).toBe('iclr-2028');
+      expect(e.estimated).toBe(true);
+      expect(firstStepText(e, NOW)).toBe('摘要 约 2027/9/19');
+    });
+    it('words the other rows the same way', () => {
+      expect(firstStepText(nextOpenEntry(series('aistats'), NOW)!, NOW)).toBe('摘要 9/30');
+      // A day in another year carries it, as on the route card ("约 2027/1/24" on both).
+      expect(firstStepText(nextOpenEntry(series('icml'), NOW)!, NOW)).toBe('摘要 约 2027/1/24');
+      expect(firstStepText(nextOpenEntry(series('cvpr'), NOW)!, NOW)).toBe('论文注册 11/11');
+    });
+    it('lists the interest list first in rank order, then the direction by time, then the rest by time', () => {
+      const l = targetLists(OWNER, ['cs/ml'], catalog, NOW);
+      expect(l.interest).toEqual(['neurips', 'iclr', 'icml', 'acl', 'emnlp']);
+      // AISTATS 9/30, IJCAI 2027/1/13, COLM 2027/3/27, CoRL 2027/5/26 (ICLR is in the interest list).
+      expect(l.direction).toEqual(['aistats', 'ijcai', 'colm', 'corl']);
+      expect(l.others[0]).toBe('naacl');
+      expect(l.others).not.toContain('aistats');
+      expect([...l.interest, ...l.direction, ...l.others].sort()).toEqual([...known].sort());
+    });
+  });
+
+  describe('route from the targets only', () => {
+    const ordered = targetPriority(['icml', 'aistats', 'neurips'], OWNER, catalog, NOW);
+    const r = route(ordered);
+
+    it('goes AISTATS 2027 → ICML 2027 → NeurIPS 2027 → AISTATS 2028, each stop tagged with its priority', () => {
+      expect(ids(r)).toEqual(['aistats-2027', 'icml-2027', 'neurips-2027', 'aistats-2028']);
+      expect(r.stops.map((s) => s.pref?.rank)).toEqual([3, 2, 1, 3]);
+    });
+    it('marks AISTATS 2028 as the same target again, a year later', () => {
+      expect(r.stops.map((s) => !!s.repeat)).toEqual([false, false, false, true]);
+    });
+    it('counts prep days from each result day', () => {
+      const [aistats, icml, neurips, aistats2] = r.stops.map((s) => s.entry);
+      expect(gapText(gapAfter(aistats!, icml!)!, icml!)).toBe('没中的话 4 天后交摘要，9 天后交正文');
+      expect(gapText(gapAfter(icml!, neurips!)!, neurips!)).toBe('没中的话 5 天后交摘要，7 天后交正文');
+      expect(gapText(gapAfter(neurips!, aistats2!)!, aistats2!)).toBe('没中的话 6 天后交摘要，13 天后交正文');
+      expect(r.stops.some((s) => s.preFirst)).toBe(false);
+    });
+    it('ignores the global 备选: ACL and EMNLP are neither stops nor inserts', () => {
+      const all = [...r.stops.map((s) => s.entry.edition.series), ...r.inserts.map((x) => x.entry.edition.series)];
+      expect(all).not.toContain('acl');
+      expect(all).not.toContain('emnlp');
+      // With the global preferences EMNLP 2027 would fill the ICML → ICLR gap; with targets it does not.
+      expect(plan({ first: ['iclr', 'icml'], backup: ['acl', 'emnlp'] }).inserts).toHaveLength(1);
+      expect(route(['iclr', 'icml']).inserts).toEqual([]);
+    });
+    it('keeps the abstract-first warning and 已错过 for targets', () => {
+      const own = route(['neurips', 'iclr', 'icml']);
+      expect(ids(own)).toEqual(['icml-2027', 'neurips-2027', 'iclr-2028']);
+      expect(own.stops.map((s) => s.pref?.rank)).toEqual([3, 1, 2]);
+      expect(own.stops[2]!.preFirst).toBe(true);
+      expect(own.missed.map((x) => x.edition.id)).toEqual(['iclr-2027']);
+    });
+    it('places every target of the example', () => {
+      expect(unplacedTargets(r, ordered, catalog, NOW)).toEqual([]);
+    });
+  });
+
+  describe('when targets clash, the higher priority stays', () => {
+    const clash = (picks: string[]) => {
+      const order = targetPriority(picks, OWNER, catalog, NOW);
+      const r = route(order);
+      const u = unplacedTargets(r, order, catalog, NOW);
+      return { order, r, u: u.map((x) => [x.series, x.why, x.clash, x.during?.entry.edition.id, x.during?.pref?.rank]) };
+    };
+    it('{NeurIPS, ICML, ACL}: ICML 2027 → NeurIPS 2027; ACL 2027 would still be under review at the ICML deadline', () => {
+      const { order, r, u } = clash(['neurips', 'icml', 'acl']);
+      expect(order).toEqual(['neurips', 'icml', 'acl']);
+      // By time alone ACL 2027 (1/6) would come first and push ICML (目标 2) off the route.
+      expect(ids(r)).toEqual(['icml-2027', 'neurips-2027']);
+      expect(r.stops.map((s) => s.pref?.rank)).toEqual([2, 1]);
+      expect(u).toEqual([['acl', 'busy', 'covers', 'icml-2027', 2]]);
+    });
+    it('{NeurIPS, ICML, IJCAI}: the same; IJCAI 2027 (1/13) is dropped, not ICML', () => {
+      const { r, u } = clash(['ijcai', 'icml', 'neurips']);
+      expect(ids(r)).toEqual(['icml-2027', 'neurips-2027']);
+      expect(u).toEqual([['ijcai', 'busy', 'covers', 'icml-2027', 2]]);
+    });
+    it('{ICML, ICLR, ACL}: keeps ICLR (1) and ICML (2): ICML 2027 → ICLR 2028', () => {
+      const { order, r, u } = clash(['icml', 'iclr', 'acl']);
+      expect(order).toEqual(['iclr', 'icml', 'acl']);
+      expect(ids(r)).toEqual(['icml-2027', 'iclr-2028']);
+      expect(u.map((x) => x[0])).toEqual(['acl']);
+    });
+    it('still lists the stops by date, and fills in a lower priority where it fits', () => {
+      // {NeurIPS, ICML, AISTATS}: nothing clashes, so the route is the same as by time alone.
+      const { r, u } = clash(['icml', 'aistats', 'neurips']);
+      expect(ids(r)).toEqual(['aistats-2027', 'icml-2027', 'neurips-2027', 'aistats-2028']);
+      expect(u).toEqual([]);
+    });
+    it('keeps the venue the paper is under review at as stop ①, whatever its priority', () => {
+      const r = route(['icml', 'iclr'], { current: 'iclr-2027' });
+      expect(ids(r)).toEqual(['iclr-2027', 'icml-2027', 'iclr-2028']);
+      expect(r.stops[0]!.current).toBe(true);
+    });
+    it('words each clash by where it falls', () => {
+      const e = (id: string) => entriesOf(edition2(id))[0]!;
+      expect(clashOf(e('acl-2027'), e('icml-2027'))).toBe('covers');
+      expect(clashOf(e('colm-2027'), e('icml-2027'))).toBe('inside');
+      expect(clashOf(e('neurips-2027'), e('icml-2027'))).toBeUndefined();
+      expect(clashOf(e('icml-2027'), e('neurips-2027'))).toBeUndefined();
+      // NeurIPS 2027 results 9/24; ICLR 2028's paper deadline is two days later: the abstract-first rule lets it follow…
+      expect(clashOf(e('iclr-2028'), e('neurips-2027'))).toBeUndefined();
+      // …but without it, the result leaves fewer than 7 days.
+      expect(clashOf(e('iclr-2028'), e('neurips-2027'), 7, false)).toBe('short');
+    });
+  });
+
+  describe('priority is fixed when saved', () => {
+    const later = Date.parse('2026-10-01T12:00:00+08:00');
+    it('saved on 9/25, {NeurIPS, AISTATS, IJCAI} stays 1 NeurIPS, 2 AISTATS, 3 IJCAI on 10/1', () => {
+      const saved = targetPriority(['ijcai', 'aistats', 'neurips'], OWNER, catalog, NOW);
+      expect(saved).toEqual(['neurips', 'aistats', 'ijcai']);
+      // On 10/1 AISTATS 2027 has closed; by time alone AISTATS (now 2028) would drop behind IJCAI…
+      expect(targetPriority(saved, OWNER, catalog, later)).toEqual(['neurips', 'ijcai', 'aistats']);
+      // …but the saved order is the base, so nothing moves by itself.
+      expect(targetPriority(saved, OWNER, catalog, later, saved)).toEqual(saved);
+    });
+    it('puts a new pick in by the rule and keeps the saved ones in their order', () => {
+      const saved = ['neurips', 'aistats', 'ijcai'];
+      // 修改: IJCAI off, ICML (interest rank 3) on → before the first saved target the rule puts after it.
+      expect(targetPriority(['neurips', 'aistats', 'icml'], OWNER, catalog, later, saved)).toEqual(['neurips', 'icml', 'aistats']);
+      // A migrated order (CVPR first, although NAACL is ranked above it) is kept too.
+      expect(targetPriority(['cvpr', 'naacl', 'iclr'], OWNER, catalog, NOW, ['cvpr', 'naacl', 'iclr'])).toEqual(['cvpr', 'naacl', 'iclr']);
+    });
+  });
+
+  describe('a target the route cannot place', () => {
+    it('busy: COLM 2027 closes while ICML is under review', () => {
+      const r = route(['icml', 'colm']);
+      expect(ids(r)).toEqual(['icml-2027']);
+      const u = unplacedTargets(r, ['icml', 'colm'], catalog, NOW);
+      expect(u.map((x) => [x.series, x.why, x.next?.edition.id, x.during?.entry.edition.id])).toEqual([['colm', 'busy', 'colm-2027', 'icml-2027']]);
+    });
+    it('later: ECCV 2028 (3/2028) is past the 15-month horizon', () => {
+      const r = route(['cvpr', 'eccv']);
+      expect(ids(r)).toEqual(['cvpr-2027', 'cvpr-2028']);
+      expect(unplacedTargets(r, ['cvpr', 'eccv'], catalog, NOW).map((x) => [x.series, x.why])).toEqual([['eccv', 'later']]);
+    });
+    it('none: no open deadline in the data', () => {
+      const late = Date.parse('2027-12-01T12:00:00+08:00');
+      const r = route(['icml'], { now: late });
+      expect(r.stops).toEqual([]);
+      expect(unplacedTargets(r, ['icml'], catalog, late)).toEqual([{ series: 'icml', why: 'none' }]);
+    });
+  });
+
+  describe('migration of papers saved before targets', () => {
+    it('takes the first 3 of the interest list by rank', () => {
+      expect(defaultTargets(OWNER)).toEqual(['neurips', 'iclr', 'icml']);
+      expect(defaultTargets({ first: ['icml'], backup: ['acl', 'emnlp', 'colm'] })).toEqual(['icml', 'acl', 'emnlp']);
+      expect(defaultTargets({ first: [], backup: [] })).toEqual([]);
+    });
+    it("keeps a v0.1 paper's own venue first", () => {
+      expect(defaultTargets(OWNER, ['cvpr'])).toEqual(['cvpr', 'neurips', 'iclr']);
+      expect(defaultTargets(OWNER, ['iclr'])).toEqual(['iclr', 'neurips', 'icml']);
+    });
+    it('routes a migrated paper exactly as before: ICML → NeurIPS → ICLR 2028', () => {
+      const t = targetPriority(defaultTargets(OWNER), OWNER, catalog, NOW);
+      expect(t).toEqual(['neurips', 'iclr', 'icml']);
+      expect(ids(route(t))).toEqual(ids(plan(OWNER)));
+    });
+    it('reads saved targets as they are: their order is the priority', () => {
+      expect(storedTargets({ targets: ['icml', 'neurips'] }, OWNER, ALL, known)).toEqual(['icml', 'neurips']);
+      expect(storedTargets({ targets: [] }, OWNER, ALL, known)).toEqual([]);
+    });
+    it('gives a v0.2 paper the first 3 of the interest list, or of its own preferences', () => {
+      expect(storedTargets({ id: 'p1', name: '论文 A', dirs: ['ml'] }, OWNER, ALL, known)).toEqual(['neurips', 'iclr', 'icml']);
+      expect(storedTargets({ prefs: { first: ['icra', 'iros'], backup: ['corl'] } }, OWNER, ALL, known)).toEqual(['icra', 'iros', 'corl']);
+    });
+    it('makes the venue a v0.1 paper was filed under target 1, and the route starts there', () => {
+      // v0.1: followed ICLR 2027, ARR October (→ NAACL 2027) and CVPR 2027; the paper was filed under CVPR 2027.
+      const interest = migrateFollows(['iclr-2027', 'arr-2026-10', 'cvpr-2027'], ALL, NOW).prefs;
+      expect(interest.first).toEqual(['naacl', 'cvpr', 'iclr']);
+      const t = storedTargets({ id: 'old1', name: '论文 A', edition: 'cvpr-2027' }, interest, ALL, known);
+      expect(t).toEqual(['cvpr', 'naacl', 'iclr']);
+      const r = route(t);
+      expect(ids(r)).toEqual(['cvpr-2027', 'iclr-2028']);
+      expect(r.stops.map((s) => s.pref?.rank)).toEqual([1, 3]);
+      // NAACL 2027 (ARR October) would still be under review at the CVPR deadline.
+      expect(unplacedTargets(r, t, catalog, NOW).map((x) => [x.series, x.why, x.clash, x.during?.entry.edition.id])).toEqual([
+        ['naacl', 'busy', 'covers', 'cvpr-2027'],
+      ]);
+    });
+  });
+});
+
+describe('series with no edition in the data, and the picker order', () => {
+  const stubs = [{ id: 'crypto', name: 'CRYPTO', directions: ['cs/security'] }, { id: 'iclr', name: 'ICLR', directions: ['cs/ml'] }];
+  const cat = seriesCatalog(EDITIONS, stubs);
+
+  it('lists a series without editions (CRYPTO), never twice one that has editions', () => {
+    const crypto = cat.find((s) => s.id === 'crypto')!;
+    expect(crypto).toEqual({ id: 'crypto', name: 'CRYPTO', directions: ['cs/security'], editions: [] });
+    expect(cat.filter((s) => s.id === 'iclr')).toHaveLength(1);
+    expect(cat.find((s) => s.id === 'iclr')!.editions.length).toBeGreaterThan(0);
+    expect(nextOpenEntry(crypto, NOW)).toBeUndefined();
+    expect(nearestEdition(crypto, NOW)).toBeUndefined();
+  });
+
+  it('tells open, not published yet, passed, and not collected apart', () => {
+    const asco = seriesCatalog([
+      ed('asco-2027', 'ASCO 2027', [], [{ type: 'abstract', tz: 'America/New_York', status: 'tba' }, conf('2027-06-04', '2027-06-08', C, 'America/Chicago')]),
+    ])[0]!;
+    const icra = cat.find((s) => s.id === 'icra')!;
+    expect(seriesState(cat.find((s) => s.id === 'naacl')!, NOW)).toBe('open');
+    expect(seriesState(asco, NOW)).toBe('tba');
+    expect(seriesState(cat.find((s) => s.id === 'crypto')!, NOW)).toBe('none');
+    // ICRA after its 2028 deadline, with nothing later in the data: passed.
+    expect(seriesState(icra, Date.parse('2027-10-01T00:00:00+08:00'))).toBe('closed');
+  });
+
+  it('puts checked venues first, then A before B before C, then the next deadline', () => {
+    const up = (e: AppEdition): AppEdition => ({ ...e, data_level: 'upstream' });
+    const list = seriesCatalog([
+      up(ed('evocop-2027', 'EvoCOP 2027', ['ml'], [m('paper', '2026-11-01T23:59', C), m('notification', '2027-01-10', C)])),
+      up(ed('ecai-2027', 'ECAI 2027', ['ml'], [m('paper', '2027-04-20T23:59', C), m('notification', '2027-07-01', C)])),
+      ed('aaai-28', 'AAAI 2028', ['ml'], [m('paper', '2027-08-01T23:59'), m('notification', '2027-11-10')]),
+      ed('aistats-2027', 'AISTATS 2027', ['ml'], [m('paper', '2026-10-09T23:59', C), m('notification', '2027-01-20', C)]),
+    ]);
+    const tier: Record<string, number> = { evocop: 3, ecai: 1, aaai: 0, aistats: 2 };
+    const order = pickerOrder(list, NOW, (s) => tier[s.id]!).map((s) => s.id);
+    // AAAI (checked, A) before AISTATS (checked, C) though AISTATS is due first; then ECAI (B) before EvoCOP (none).
+    expect(order).toEqual(['aaai', 'aistats', 'ecai', 'evocop']);
   });
 });

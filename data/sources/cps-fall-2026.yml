@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cps-fall-2026
+sources:
+  - id: cps-fall-2026-csu
+    url: https://wl.csu.edu.cn/info/1057/7151.htm
+    title: 中国物理学会2026秋季学术会议（中南大学物理学院通知）
+    kind: other
+    fetched_at: 2026-09-25T16:03:14Z
+    http_status: 200
+    snapshot: 9b01902fb0a3cc609f433baca021827d8023e058145b474056ac78782ea97854
+  - id: cps-home
+    url: https://www.cps-net.org.cn/
+    title: 中国物理学会首页
+    kind: other
+    fetched_at: 2026-09-25T16:03:45Z
+    http_status: 200
+    snapshot: 0dbe3a58360ddf8683ba284dd7e4ea37916b97423677b189b189eb478985f10c

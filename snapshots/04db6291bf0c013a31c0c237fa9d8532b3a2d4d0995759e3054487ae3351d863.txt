@@ -1,0 +1,772 @@
+Call for Papers
+
+Call for Abstracts
+
+251st ECS Meeting (May 30 - June 3, 2027)
+
+See the Call for Papers PDF for detailed information about the symposia, manuscript submission requirements, and financial assistance. Abstracts are due no later than Friday, December 4, 2026 at 11:59 PM Eastern Standard Time.
+
+Time remaining:
+
+ * Important Information and Call for Papers
+ * Deadlines
+ * Author and Presenter Information
+ * Submission Instructions
+ * Meeting Information
+ * ORCID - "Own" your published work: get an ORCID identifier. You are encouraged to create an ORCID ID here before beginning your abstract submission, and then link your record in the abstract system to your record in ORCID during the submission process.
+ * Open Access - It's never too early to think about publishing your work in an ECS Journal. ECS Journals are now Author Choice Open Access, learn more.
+
+Steps and Instructions:
+
+Expand All
+
+ 1. Begin a Submission
+
+    Click the appropriate symposium title below to begin your submission. See the Call for Papers for detailed information about the symposia, manuscript submission requirements, and financial assistance.
+
+ 2. Symposium Selection
+
+    Choose or change the appropriate symposium for your abstract. Do not make a double submission by submitting the same abstract to two different symposia.
+
+    Students: Please note that if you wish to be considered for the Z01 General Student Poster Session competition, you must submit your abstract to the Z01 General Student Poster Session. Abstracts submitted to other symposia are not eligible for participation.
+
+ 3. Presentation Type
+
+    Oral presentations will take place in person at the live meeting. They must be in English. LCD projectors and laptops are provided for all oral presentations. Presenting authors MUST bring their presentations on USB flash drives to use with dedicated laptops located in each technical session room. Speakers requiring additional equipment must make written request to meetings@electrochem.org at least one month prior to the meeting so appropriate arrangements can be made, subject to availability, and at the author's expense.
+
+    Poster presentations must be displayed in English. Posters should be printed in A0 format (84.1cm x 118.9cm or 33.1in x 46.8in) and labeled with the abstract number and day of presentation in the final program. Participants in the Z01 General Student Poster Competition are required to upload a digital poster file in advance of the meeting and be present during the in-person judging session on Tuesday evening. The deadline to upload a digital file for the competition is sent to presenting authors.
+
+ 4. Title
+
+    Enter your title, preferred presentation format (oral, poster), copyright release, and any comments you might have for the organizers. Requested presentation formats cannot be guaranteed and are scheduled at the discretion of the Symposium Organizers.
+
+    The title of your abstract should be in initial capital letters, not all caps: This Example is Prepared in Initial Capital Letters and Is Correct. THIS EXAMPLE IS IN ALL CAPITAL LETTERS AND IS NOT CORRECT.
+
+ 5. Authors
+
+    CAREFULLY enter author name, affiliation, and contact information (email and phone). Author information (including ordering) will be published exactly as you enter it into the system and cannot be changed after the abstract submission deadline date of Friday, December 4, 2026.
+
+ 6. Abstract Text
+
+    The length of your abstract text must be 750 words or less. DO NOT include the abstract title and author name(s) in your abstract text. This information will be appended to your abstract after the submission has been successfully completed. No file upload is needed for your text, you may enter it directly into the website or paste it in from an external source. You may also upload one separate image file containing any necessary figures/tables/equations.
+
+    Image
+    You may also upload one separate image file containing necessary figures/tables/equations. JPG is the only allowed image format. PNG images will not be accepted.
+
+ 7. Confirmation
+
+    You must confirm that ALL information is correct as submitted. All information will be published exactly as you entered it into the system, and cannot be changed after the Abstract Submission Deadline.
+
+ 8. General Instructions
+
+    Presenting authors will be automatically informed of the unique ID numbers and passwords assigned to their abstracts. Abstracts may be viewed and modified at any time between submission and the deadline date of December 4, 2026, using the assigned ID# and password.
+
+ 9. Technical Support
+
+    For help in submitting an abstract online, email Tech Support.
+
+Expand All
+
+Z - GENERAL TOPICS
+
+Z01 - General Student Poster Session
+
+This poster session provides a forum for graduate and undergraduate students to present research results of general interest to ECS. The session’s purpose is to foster and promote work in both electrochemical and solid state science and technology, and to stimulate active student interest and participation in ECS.
+
+Posters accepted for presentation in this session are eligible for General Student Poster Awards. To be considered for awards, student poster authors must (1) upload a digital poster and (2) be present during the in-person judging session. The top three student authors receive cash prizes: $1,500 for first place, $1,000 for second place, and $500 for third place
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+Z02 - Materials, Devices, and Systems for Neuromorphic Computing and Artificial Intelligence Hardware 4
+
+Devices and circuits are evolving to implement brain-inspired neural systems and brain-like energy efficiency in silicon-based computing systems, novel materials processing, and devices and circuits. This symposium addresses the devices for the hardware requirements using nanoscale solid state and electrochemical materials that enable neuromorphic computing and next-generation AI technologies. This includes in-memory computing and implementation of deep neural network circuits. In some instances, materials and device co-design, and device and circuit co-design, are required through extensive simulation and processing for system implementation. Issues like energy efficiency and performance enhancement are required to emulate the brain's connectivity in hardware. The switching devices that replicate the electronic synapse need to reduce the device-to-device or in-device stochasticity. It is also required to understand how these materials/devices (mechanisms) work for neuromorphic applications.
+
+The following are indicative topic areas covered by the symposium:
+
+1) Neuromorphic computing and AI hardware-related materials and devices: New devices, metals, and different switching layer materials are being considered for AI and neuromorphic computing, for example, resistive RAM; ferroelectric RAM, STT-MRAM, and phase-change memory (PCM) are taking the lead to reduce power requirements; materials optimization and development for neuromorphic purposes, such as CMOS-compatible ferroelectrics, multiferroics, etc.
+
+2) Materials and device co-design for AI: DFT and other simulation approaches to build devices with optimal performance with energy efficiency; this can involve transition metal oxides and different layered materials.
+
+3) Processing requirements: Fabrication of these devices is a critical requirement to engineer materials and interfaces.
+
+4) Device and circuit co-design: Fabrication of different resistive switching devices, circuits, and arrays for different applications; device optimization for circuit design requirements.
+
+5) Impact of variability: Analyzing the impact of variability on the performance of crossbar arrays of resistive switching devices for different applications; account for thermal effects on performance (thermal management); optimization of switching layer.
+
+6) Young scientists: The symposium’s Young Investigators Session aims to provide a unique forum for senior PhD students and early-career researchers to present papers related to AI devices and materials. Of interest are new materials and designs; theoretical and experimental aspects of inorganic and organic dielectric materials; growth processes; bulk and interfacial properties; metal-dielectric interface; electric and ionic transport; porous dielectrics; and thin and ultra-thin films.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+Z03 - Artificial Intelligence, Machine Learning, and Data Science Across Electrochemical Systems
+
+Artificial intelligence (AI), machine learning (ML), and data science (DS) are transforming electrochemical science and engineering. From accelerating materials discovery and property prediction to enabling autonomous experimentation and data-driven process optimization, these methods are unlocking new pathways for understanding, designing, and operating electrochemical systems at every scale. This symposium unifies sessions previously distributed across multiple ECS divisions into a single, comprehensive forum that reflects the field's growing recognition that AI, ML, and DS are not tools belonging to any single subdiscipline, but a shared methodological language for electrochemistry as a whole.
+
+This symposium welcomes contributions from researchers developing and applying AI, ML, and DS methods to electrochemical systems across fundamental science and engineering through industrially relevant technology development. Of particular interest are physics-informed and hybrid ML models that integrate mechanistic understanding with data-driven approaches, ML-guided materials and process discovery, high-throughput experimentation platforms integrated with active learning strategies, and autonomous laboratory systems. Contributions that address uncertainty quantification, model interpretability, and robust data management frameworks are also encouraged. Papers may contain theoretical, computational, and/or experimental aspects. Both fundamental and applied contributions are welcome, and all electrochemical systems and chemistries are in scope, including but not limited to batteries, fuel cells, electrolyzers, electrodeposition, corrosion, bioelectrochemical systems, and industrial electrochemical processes.
+
+Topics include but are not limited to:
+
+ 1.  AI/ML for materials discovery and property prediction: ML-guided screening and inverse design of electrochemical materials including electrolytes, electrodes, and catalysts;
+ 2.  Property prediction from experimental and computational data; generative models and foundation models applied to electrochemical materials science; transfer learning strategies;
+ 3.  Battery science and autonomous experimentation: AI/ML for battery materials discovery across anodes, cathodes, electrolytes, and interfaces; battery state estimation, lifetime prediction, and degradation modeling; self-driving and autonomous laboratory platforms; high-throughput data infrastructure and open datasets for battery research;
+ 4.  Physics-informed and hybrid modeling: Physics-informed and hybrid ML-mechanistic models for electrochemical systems; integration of molecular-scale understanding with data-driven approaches; uncertainty quantification and model interpretability; surrogate modeling for multiscale simulation;
+ 5.  Multiscale modeling, simulation, and design: Experimental and theoretical methods for understanding electrochemical system behavior across molecular to macroscopic length scales; ML-accelerated molecular dynamics, DFT, and continuum modeling; novel simulation algorithms with improved computational efficiency; stochastic modeling and process control in electrochemical engineering;
+ 6.  Data-driven electrochemical engineering and process optimization: ML-enhanced digital twins for electrochemical processes and devices; AI-enabled process control, optimization, and scale-up; predictive modeling, performance forecasting, and degradation diagnostics; computer vision and image analysis for characterization and quality control; high-throughput experimentation integrated with active learning;
+ 7.  Industrially relevant applications: AI-accelerated cell and stack design for commercial electrochemical systems; predictive diagnostics and prognostics for deployed systems; data-driven approaches to corrosion prediction and management; process optimization in industrial electrochemical manufacturing; AI-enabled autonomous decision-making in electrochemical production;
+ 8.  Bioelectrochemistry and biohybrid systems: ML and molecular modeling applied to enzyme–electrode interfaces and bioelectrocatalytic systems; data-driven design of redox polymer–enzyme hybrids and bioelectronic materials; AI approaches to elucidating and engineering electron-transfer processes in biological and biohybrid systems;
+ 9.  High-throughput methods and data infrastructure: Robotic synthesis and characterization platforms for electrochemical research; active learning strategies for experimental design; data standards, management frameworks, and open datasets; integration of computational and experimental workflows;
+ 10. Technologies for powering AI, including high-efficiency power generation systems with load-following capability based on SOFC; integrated power and thermal management, including heat utilization and data center cooling; integrated SOFC-based power architecture for DC bus applications; reversible SOFC/SOEC operation for energy storage and hydrogen production; distributed and resilient energy architectures for AI infrastructure; low-emission power solutions for high-density computing; fuel flexibility for data center power applications.
+
+The symposium includes invited speakers and panelists providing historical perspectives, forward-looking tutorials, and research highlights, alongside contributed oral presentations and poster sessions. Tutorial presentations are particularly encouraged to support students and researchers entering this rapidly evolving area. Presentations on industrially significant areas are especially welcome.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+A - BATTERIES AND ENERGY STORAGE
+
+A01 - Innovative Materials and System Designs for Electrochemical Energy Conversion and Storage
+
+This symposium highlights advances in materials, components, and system designs that address key challenges in energy technologies, including but not limited to electrochemical energy technologies. Emphasis is placed on innovations in critical materials and minerals that enable efficient energy conversion, storage, and transmission across technologies such as batteries, fuel cells, electrolyzers, capacitors, and photoelectrochemical systems. Submissions exploring new approaches to modeling, characterization, performance evaluation, and safety assessment are especially encouraged. The program features oral presentations, posters, and invited talks from experts across related fields.
+Deadline for New Submissions: Friday, December 4, 2026
+
+A02 - Whittingham Young Investigator and Student Slam 3
+
+This special symposium is dedicated to students working on energy storage and energy conversion. The Student Slam offers students an opportunity to present flash oral presentations of their work in a 10-minute time slot. All students enrolled at any valid degree-granting institution may submit an abstract describing their presentation. Of particular interest are new materials and designs, performance studies, and modeling of all types of batteries, supercapacitors, and fuel cells, including aqueous, nonaqueous, polymer electrolytes, solid electrolytes, and flow systems.
+Deadline for New Submissions: Friday, December 4, 2026
+
+A03 - Interplay between Temperature and Battery Phenomenon 3
+
+The purpose of this symposium is to bring together researchers investigating interactions between temperature and battery behavior at a range of length scales, time scales, and severity. Batteries generate heat during charge and discharge, requiring the need for thermal management or heat rejection. However, the complex and stochastic electrochemical phenomenon of batteries demands fundamental understanding, instrumentation, and multiphysics modeling for informed thermal management design. Further, growing interest in extreme conditions, like low-temperature environments or fast charging, exacerbate self-heating behaviors, drawing attention to local and global temperature variations. The topics of this symposium include but are not limited to:
+
+ 1. Local phenomenon driven by temperature;
+ 2. Thermal management design;
+ 3. Novel metrology: Instrumentation and calorimetry;
+ 4. Extreme environments and safety implications;
+ 5. Modeling (bridging scales);
+ 6. Emerging chemistries.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+A04 - Past, Present, and Future of Beyond Lithium-Ion Batteries: In Memory of Bruno Scrosati
+
+This symposium is dedicated to the memory of our colleague and friend, Bruno Scrosati, whose passion, insight, and scientific rigor left an enduring impact on the field of electrochemical energy storage. Bruno was not only a visionary in battery research, but also a tireless advocate for innovation who challenged conventional thinking and inspired a generation of scientists. His contributions to The Electrochemical Society and to the advancement of post-lithium energy storage systems continue to shape the direction of the field.
+
+This symposium traces the historical development of rechargeable batteries, beginning with early electrochemical cells, through the rise and dominance of lithium-ion technology, and into the emerging era of next-generation systems often grouped under the umbrella of “beyond lithium-ion batteries.” While lithium-ion batteries have revolutionized portable electronics and electric mobility, their inherent limitations in energy density, thermal stability, raw material availability, and end-of-life sustainability have sparked a critical need for alternative chemistries.
+
+We will explore in detail the present state and future promise of systems such as lithium-sulfur, lithium-air, sodium-ion, magnesium and multivalent-ion batteries, solid-state batteries, and redox flow systems. Particular emphasis will be placed on the underlying electrochemical mechanisms, materials challenges, interfacial phenomena, and scalable manufacturing considerations. Bruno had a special interest in solid-state and sulfur-based chemistries, and the symposium will highlight some of his key contributions to these areas, as well as the ongoing work that builds upon his legacy.
+
+The symposium also reflects on the broader challenges facing the transition to sustainable and secure energy storage, including supply chain resilience, lifecycle assessment, and integration into future energy infrastructures. In doing so, we hope to capture not only the scientific roadmap, but also the spirit of collaboration, curiosity, and persistence that Bruno brought to every endeavor.
+
+By revisiting the past, assessing the present, and looking toward the future, this symposium aims to honor Bruno’s memory with a forward-looking vision—one that continues to push the boundaries of electrochemistry in pursuit of cleaner, safer, and more efficient energy storage technologies.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+A05 - Advanced Materials for Fast Charging and High-Power Energy Systems
+
+The growing demand for fast-charging and high-power energy systems, driven by the rise of electric vehicles, drones, eVTOLs, and portable electronics, calls for innovations in materials science. This symposium explores cutting-edge advances in materials design, synthesis, and characterization to enable next-generation batteries with rapid ion transport, high-energy/power densities, and stable cycling. We invite contributions on novel electrolytes, interfacial engineering, electrode architectures, and scalable manufacturing methods addressing challenges in electrochemical stability, thermal management, and charge performance. The symposium aims to foster interdisciplinary dialogue among researchers, scientists, and engineers from academia, industry, and government institutions. Attendees are encouraged to present experimental results, theoretical insights, and computational modeling studies highlighting breakthroughs in advanced materials and their integration within high-performance energy systems.
+
+Topics of interest include but are not limited to:
+
+ * High ion-conductive electrolytes;
+ * Innovative electrode materials and architectures for rapid charge kinetics;
+ * Thermal and electrochemical stability under high-power conditions;
+ * Advanced characterization techniques for fast charging phenomena;
+ * Integration strategies for optimizing energy systems.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+A06 - Electrolyte & Interphase Engineering in Li/Na Batteries
+
+High-energy-density rechargeable lithium- and sodium-ion batteries have garnered significant attention in response to the growing demand for portable electronics, electric vehicles, and large-scale grid storage systems. Despite their potential, these battery technologies face persistent challenges including limited cycle life, sluggish ion diffusion kinetics, structural instability, safety concerns, and high production costs. To address these issues, researchers are developing advanced materials, innovative battery architectures, and improved manufacturing processes.
+
+Among the critical factors influencing battery performance is the electrolyte–electrode interphase (EEI), which plays a pivotal role in determining cycle life, ion transport kinetics (especially relevant to fast charging), and overall safety. In recent years, substantial progress has been made in rational interphase design and electrolyte solvation engineering to mitigate interfacial degradation and improve long-term stability. Additionally, integrated strategies—such as surface engineering of electrodes and electrolyte formulation—have shown promise in enhancing interfacial compatibility and full-cell performance.
+
+This symposium aims to provide a collaborative platform for researchers and industry professionals to share recent advancements in interfacial science and spark new ideas in electrolyte and interphase engineering. Topics of interest include but are not limited to:
+
+ * Development of novel electrolytes and functional additives;
+ * Interface/interphase formation and modification strategies;
+ * Advanced characterization techniques of interfacial processes;
+ * Theoretical modeling and mechanistic studies of interphases;
+ * Electrolyte-electrode compatibility in full-cell configurations.
+
+We welcome contributions that offer innovative insight into designing robust interphases and electrolytes for high-performance, long-life rechargeable batteries.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+A07 - Turning Materials Innovations to Materials Manufacturing in Batteries
+
+This symposium focuses on the translation of materials into manufacturable electrodes and cells, with emphasis on scalable synthesis routes, process–structure–property control, slurry and coating rheology, drying and densification strategies, interface quality and stability, and in-line metrology, data analytics, and quality assurance. We are interested in all battery materials and cell chemistries, including active and inactive components across different battery chemistries. We particularly encourage pilot line case studies that reveal what survived scale-up and what did not, including lessons on cost models, variability control, reliability testing, and circularity and reuse. Contributions on digital twins, ML-assisted process optimization, and standards and benchmarking that enable reproducible outcomes are welcome. Contributions from other steps of the supply chain are also welcomed, for example, raw materials processing.
+Deadline for New Submissions: Friday, December 4, 2026
+
+A08 - Performance Benchmarking of Solid State Batteries: From Materials, Interfaces to Cell Design
+
+The amount of research focusing on materials and cell design for solid-state batteries (SSB) is exponentially increasing. This proliferation is due to the theoretical gain in specific energy, energy density, energy efficiency, and safety. Even after a decade of intense research into many materials for solid ionic conduction, metal anode development, and cathode processing, a uniform agreement on the best material and interfacial design to scale up SSB is still lacking. One reason is that each material requires particular processing and device assembly strategies for testing, which make direct comparisons between literature results and nontrivial research groups. Running in parallel is the wide range of critical properties that control the ionic/electronic transport that occur across multiple length scales governed by multi-physics (electro-chemo-mechanics) variables. Therefore, there is a great need for efforts to develop and demonstrate practical testing procedures that will catalyze novel, well-informed hypothesis generation/testing and realization of commercial high-energy-dense SSBs.
+
+This symposium focuses on efforts to design and implement benchmarking protocols in the synthesis and processing of materials into SSB. It covers the latest progress in: (1) materials characterization; (2) battery cycling performance; and (3) dendrite suppression.
+
+Topics addressed in this symposium include information benchmarking:
+
+ * Transport analysis;
+ * Robust cell design;
+ * Ion diffusion and charge transfer kinetics in electrode materials and interfaces for SSBs;
+ * Investigations into electro-chemo-mechanics stability at interfaces;
+ * Dendrite suppression;
+ * Computational modeling of transport phenomena in materials and interfaces;
+ * Advanced characterization that aids in benchmark validation.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+B - CARBON NANOSTRUCTURES AND DEVICES
+
+B01 - Carbon Nanostructures for Energy Conversion and Storage
+
+Papers are solicited on recent developments in fundamental and applied studies of energy conversion and storage processes involving carbon nanostructures and other low-dimensional materials. Topics of interest include:
+
+1) Novel synthesis and processing of nanocarbon and low-dimensional functional materials;
+
+2) Characterization of energy generation, transport, and storage mechanisms, and the application of these material systems for solar/thermal/mechanical energy conversion;
+
+3) Energy storage using batteries and supercapacitors;
+
+4) (Photo)electrocatalysis of chemicals and fuels;
+
+5) Functional components in fuel cells.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+B02 - Carbon Nanostructures in Medicine and Biology
+
+Original papers are solicited on all biological and biomedical aspects of fullerenes, metallofullerenes, carbon nanotubes, graphene, and related nanocarbons. Topics include therapeutics, drug delivery, sensors, plant biology, nutrition, and toxicology.
+Deadline for New Submissions: Friday, December 4, 2026
+
+B03 - Carbon Nanotubes – From Fundamentals to Devices
+
+Papers are solicited on experimental and theoretical studies related to the basic chemistry, physics, and materials science of carbon nanotubes, as well as on novel nanotube applications in areas such as electronic devices, sensors, and materials development.
+Deadline for New Submissions: Friday, December 4, 2026
+
+B04 - Nano in Germany
+
+This focused mega-symposium covers science and applications in nanocarbons and other nanoscale materials and presents the contemporary state of the art of this field in Germany. The primary goal of this meeting is to share the most recent results and promote U.S. global scientific cooperation efforts. Papers are solicited on experimental and theoretical studies related to the basic chemistry, physics, materials science, and engineering of nanocarbons, fullerenes, porphyrins, supramolecular, inorganic-organic hybrid and functional materials, nanotubes, graphene, and 2D layered materials, as well as on their novel applications in areas such as energy and catalytic conversion, sensors, medicine and biology, electronic and photonic devices, and materials development.
+Deadline for New Submissions: Friday, December 4, 2026
+
+B05 - Fullerenes, Endohedral Fullerenes, and Molecular Carbon
+
+Original papers are invited in all areas of fullerenes, carbon nanorings, and molecular carbon sciences, including their syntheses, endohedral and/or exohedral functionalizations, characterizations, electrochemistry, photochemistry, photophysics, electron-transfer chemistry, photoelectrochemistry, applications in energy conversion, energy storage, catalysis, sensors, etc., and theoretical studies.
+Deadline for New Submissions: Friday, December 4, 2026
+
+B06 - 2D Layered Materials from Fundamental Science to Applications
+
+The ability to create and manipulate atomic-layer thick materials, commonly known as two-dimensional layered materials (2DLMs), is expected to transform material science and derivative technology. This symposium focuses on the synthesis, chemical and physical characterization, functionalization, manipulation, metrology, and applications of 2DLMs and their nanostructures. Sessions are held on classical 2D materials such as graphene, BN, metal dichalcogenides, and other emerging 2D materials (e.g., silicenes, phosphorenes, etc.). Papers dealing with optical, electronic, and electrochemical applications of such 2DLMs and their composites are welcome.
+Deadline for New Submissions: Friday, December 4, 2026
+
+B07 - Light Energy Conversion with Metal Halide Perovskites, Semiconductor and Nanostructures, Inorganic/Organic Hybrid Materials, and Dynamic Exciton
+
+Metal, semiconductor, organic nanoparticles, and nanostructures play important roles in fuel cells, solar energy conversion, catalysis, and hydrogen production. Recent advances in inorganic/organic hybrid nanostructures, in particular metal halide perovskites and nanomaterials, have led to new understanding of their catalytic, photoelectrochemical, and photovoltaic properties. Papers are invited in the following areas:
+
+ 1.  Metal halide perovskites for light energy conversion;
+ 2.  Synthesis and characterization of metal, semiconductor, and organic nanoparticles and nanostructures;
+ 3.  Their functionalization with chromophores;
+ 4.  Strong photon-molecule coupling fields for chemical reactions;
+ 5.  Bimetallic particle and semiconductor metal composites;
+ 6.  Size-dependent catalytic properties;
+ 7.  Hydrogen evolution and carbon dioxide reduction;
+ 8.  Photochemical, photoelectrochemical, and photovoltaic solar cells and devices;
+ 9.  Photocatalysis and electron and energy transfer processes that are relevant to energy conversions;
+ 10. “Dynamic exciton,” which focuses on manipulating locally excited, charge-transfer, and charge-separated states for energy, synthetic, and biological applications such as organic photovoltaics, light-emitting diodes, and photoredox catalysts, specifically in terms of time-dependent interactions between movement of atomic nucleus (i.e., rotation, vibration, fluctuation, transfer, collective motion) and behavior of electrons and spins.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+B08 - Porphyrins, Phthalocyanines, and Supramolecular Assemblies
+
+This symposium highlights recent advances in porphyrins, phthalocyanines, and their supramolecular assemblies. A wide range of topics is covered to generate interdisciplinary discussions between participants and encourage the exchange of new ideas. We solicit high-quality contributions in areas ranging from the synthesis of challenging porphyrin- and phthalocyanine-based devices to the characterization of electrochemical and physicochemical behavior of new porphyrin and phthalocyanine materials. Submissions are encouraged on the following topics:
+
+ 1. New, challenging multi-porphyrin and phthalocyanine devices;
+ 2. Electronic properties of porphyrin and phthalocyanine arrays;
+ 3. Photoinduced processes in molecular and supramolecular porphyrin and phthalocyanine assemblies;
+ 4. Novel porphyrin- and phthalocyanine-modified electrodes.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+B09 - On-Surface Synthesis of Carbon Nanomaterials
+
+This symposium provides a platform for discussion on recent advances in the “on-surface synthesis of carbon nanomaterials” and their inspection with state-of-the-art scanning probe microscopies and photo-electron spectroscopies. Topics of discussion include among others:
+
+ 1. Growth of nanocarbons on metals and decoupling supports;
+ 2. Novel chemical reactions on surfaces;
+ 3. Photo-induced on-surface synthesis;
+ 4. Expressions of π-magnetism;
+ 5. Emergence of complex quantum phases of matter;
+ 6. Transfer to devices;
+ 7. Electroluminescence;
+ 8. Photoluminescence;
+ 9. Quantum sensing and catalysis.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+C - CORROSION SCIENCE AND TECHNOLOGY
+
+C01 - Corrosion General Session
+
+Oral and poster presentations concerning all aspects of corrosion science and associated phenomena in liquid or gaseous environments are welcome. Experimental investigations, theoretical analyses, descriptions of new techniques for the study of corrosion, and analyses of corrosion products and films are of interest.
+Deadline for New Submissions: Friday, December 4, 2026
+
+D - DIELECTRIC SCIENCE AND MATERIALS
+
+D01 - Dielectrics for Nanosystems 12: Materials Science, Processing, Reliability, and Manufacturing
+
+Advanced semiconductor products that are true representatives of nanoelectronics have reached below 12 nm. Depending on the application, a nanosystem may consist of one or more of the following types of functional components: electronic, optical, magnetic, mechanical, biological, chemical, energy sources, and various types of sensing devices. As long as one or more of these functional devices is in 1–100 nm dimensions, the resultant system can be defined as a nanosystem.
+
+Papers are solicited in all areas of nanoscale dielectrics including:
+
+ * Gate dielectric materials for Si, SiC, SiGe, Ge, ferroelectric, neuromorphic and III‐V semiconductor devices;
+ * Dielectric materials for devices based on nanowires, nanotubes, and graphene;
+ * 2D semiconductors and dielectric materials for high-temperature and energy savings and harvesting applications;
+ * Dielectric materials for sensing devices.
+
+In addition to traditional areas of semiconductor processing, novel topological insulators are of interest, which may lead to new applications of nanosystems. A special session of the symposium highlights advances in data-driven approaches to dielectric materials. In recent years, data-driven materials science has attracted significant attention for its potential to accelerate the discovery of innovative materials. This strategy can be effectively applied to dielectrics: first, a comprehensive database is created through automated calculations; next, virtual screening is performed using machine learning techniques; and finally, high-throughput experimental screening is conducted on the most promising candidates to identify new dielectric materials. In this special session, a complete workflow used for discovering new dielectrics is presented and some recent findings from the organizers' research works is also presented.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+D02 - Plasma Electrochemistry and Catalysis 6
+
+This symposium invites papers dealing with the fundamental uses of plasma discharges in a variety of applications, such as electrochemistry and catalysis. Plasma electrochemistry is becoming an interesting subject with several possibilities for using plasma discharges as electrodes in contact with liquid electrolytes. Plasma electrochemistry is being exploited for nanomaterials processing and helping the electrochemical processing of chemicals and fuels. Similarly, plasmas or excited gas phase is also being pursued synergistically with catalysis. Plasma catalysis and plasma electrochemistry are emerging multidisciplinary fields with converging fields of the gas-solid interface, catalysis, plasma science, and nanomaterials.
+
+Papers of interest deal with various aspects of plasma chemistry, plasma-solid and plasma-electrolyte interface dynamics and applications in CO2 reduction, methane reforming, ammonia formation, and other chemical processing applications. Papers dealing with fundamental concepts involving plasma chemistry and plasma electrochemistry, atmospheric plasma discharges, scale-up studies, and their use in nanomaterials processing are also of interest.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+D03 - Quantum Dot Science and Technology 5
+
+This symposium aims to bring together scientists, researchers, industry engineers, and policy makers from several countries with diverse professional backgrounds to exchange ideas, advance knowledge, and discuss key issues across the full spectrum of fundamental science and applied engineering of quantum dots. Topics of interest include:
+
+ * Growth and processing of epitaxial, lateral, and colloidal quantum dots;
+ * Surface modification and functionalization;
+ * Chemical, mechanical, thermal, magnetic, electrical, and optical property characterizations of quantum dots and their assemblies;
+ * Theoretical and computational modeling;
+ * Device fabrication and measurements for electronics, optics, optoelectronics, spintronics, communications, sensors, and energy generation and storage;
+ * Biological applications.
+
+Also of particular interest are quantum dot technologies that support the emerging areas of memory, logic, and unconventional computing schemes.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+E - ELECTROCHEMICAL/ELECTROLESS DEPOSITION
+
+E01 - Electrodeposition of Difficult-to-Plate Metals and Compounds 2
+
+Electrodeposition is a facile method for fabricating materials and thus finds many applications. From energy storage to semiconductors, and from batteries to corrosion protection, the applications of electrodeposition are boundless. But these applications continually require innovations in the array of materials that electrodeposition can effectively fabricate. In this context, electrodeposition faces numerous hurdles that must be overcome. Controlling materials properties (composition, texture, crystallinity, thickness and thickness distribution, adhesion, surface morphology, etc.) and processing attributes (bath stability, parasitic reactions, etc.) is challenging especially when developing electrodeposition processes for new and emerging applications. This symposium invites contributions detailing efforts to conquer such issues through a variety of approaches including but not limited to:
+
+ * Electrolyte design for compositional control in deposition;
+ * Epitaxial approaches including e-ALD and e-ALE for morphological control;
+ * Novel cell designs for controlling current distributions in electrodeposition;
+ * New additives-assisted processes leveraging surface phenomena, including adsorption, wetting, and potential-dependent behavior;
+ * Challenges specific to electrodeposition in non-aqueous media, including ionic liquids, organic solvents, and deep eutectic solvents;
+ * Electrodeposition in high-temperature molten-salt electrolysis systems;
+ * Modeling-based approaches to design processes for difficult-to-plate metals, including first-principles theory and continuum-based approaches;
+ * Controlling parasitic reactions during electrodeposition, including the effects of pH change during growth;
+ * Instabilities in growth behavior, including formation and suppression of dendrites;
+ * Electrolyte bath instabilities and efforts to monitor and control bath stability;
+ * New alloys and compounds possible via electrodeposition, and applications they may enable;
+ * New developments to enable in situ and in operando monitoring of electrodeposition;
+ * Challenges in primary extractive electrometallurgy of metals such as iron for future sustainability and decarbonization in metals production.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+E02 - Modern Aspects of Electrodeposition
+
+The symposium covers recent advances in fundamental aspects, methods, and applications of electrochemical and electroless growth of epitaxial and polycrystalline thin films, alloys, multilayers, and nanostructures. The symposium brings together researchers from a broad range of areas of electrochemical and engineering science to discuss the current understanding of a link between the fundamental processes and properties of electrodeposited materials and applications.
+Deadline for New Submissions: Friday, December 4, 2026
+
+F - ELECTROCHEMICAL ENGINEERING
+
+F01 - Advances in Industrial Electrochemistry and Electrochemical Engineering
+
+Papers are solicited in areas of industrial electrochemistry and electrochemical engineering that are not covered by other symposia at this meeting. Of particular interest are papers concerning design, operation, testing and/or modeling of industrial electrochemical systems; electrochemical waste treatment technologies; methods for electrosynthesis; electrolytic recovery of process materials; new electrode materials; new electrochemical cell designs; and electrocatalysis. Presentations on industrially significant areas, such as chlor-alkali and fluorine production; manufacture of aluminum and other metals; use of electrochemical methods in pulp and paper bleaching; and generation of environmentally friendly bleaching chemicals and other active oxidants are also encouraged. Papers may contain both theoretical and experimental work, and papers dealing with either area are considered.
+Deadline for New Submissions: Friday, December 4, 2026
+
+F02 - Electrochemical Science and Engineering on the Path from Discovery to Product 5 – with NET Award Address
+
+This symposium includes the presentation of the Industrial Electrochemistry and Electrochemical Engineering Division New Energy Technology (NET) Award.
+
+The path from discovery, invention, and scientific understanding to well-engineered products and processes is complex and involves the integration of a wide range of skills and perspectives. This is particularly true in electrochemical engineering, where the development of viable processes in energy, environment, health care, or information technology requires understanding of molecular mechanisms, tailoring new materials, and integrating data over a wide range of scales to scale-up, designing, and developing manufacturing methods able to produce reliable devices and products at low cost. A clear understanding and creative application of the fundamentals are essential to successfully address these challenges.
+
+The goal of this symposium is to draw together the collective interests of scientists and engineers skilled in moving along the path from ideas to profits. The reduction to routine use of the approaches presented here will define essential engineering methods for emerging electrochemical applications for which increased predictability is of high importance.
+
+Of interest are engineering methods that have emerged from diverse applications such as nano-bio-micro-devices, photovoltaic converters, electrolysis, batteries, biomedical devices, etc. Such methods might include examples of exploratory work that targets the need for detailed fundamental understanding down to the molecular level; methods for early establishment of engineering goals for a proposed product; methods that are able to guide optimal performance in conversion when using renewable, “crude” feeds; examples of manipulating solution chemistry and electrochemical cell materials to meet production realities; methods for guiding discovery of novel materials and predicting their interactions with other cell components; development of process control methods for ensuring quality at the atomic scale; mathematical modeling of continuum and/or stochastic behavior of cell components as well as entire systems including prediction of behavior at multiple scales; estimating unknown parameters, quantifying uncertainty, and linking the pieces to optimize an overall system.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+F03 - Electrochemical Science and Engineering for Liquid Energy and Hydrogen Carriers
+
+This symposium explores advances in fundamental and applied electrochemistry and electrochemical systems to enable economical, efficient, and safe energy and hydrogen storage and release. For example, by using electrochemical methods, electrical power can be directly stored in organic and inorganic carriers as protons (H+) and electrons (e-) at the cathode rather than molecular hydrogen (H2). When hydrogen or power is needed, the carriers are electrochemically dehydrogenated (i.e., oxidized) at the anode to release H+ and e- that can be used for electrochemical reductions, H2 evolution, or power generation at the cathode, thereby eliminating the need for the H2 storage and transportation infrastructure.
+
+The energy and hydrogen carriers can be derived from abundant and naturally occurring compounds such as carbon dioxide (CO2), nitrogen (N2), nitrates (NO3-), and bicarbonates (HCO3-). The energy and hydrogen carriers of interest include but are not limited to alcohols, ammonia, bicarbonates, carboxylic acids, and ketones, as well as aromatic and aliphatic (un-) saturated molecules.
+
+This symposium covers topics including electrochemical reduction (for carrier formation and energy storage), and electrochemical oxidation (for carrier regeneration and energy release). Contributions may address areas including:
+
+ 1. Electrocatalyst synthesis and characterization;
+ 2. Electrolyte design and electrochemical reaction conditions optimization;
+ 3. Mechanistic studies of electrochemical oxidation and reduction reactions;
+ 4. Electrochemical reactor and membrane design and scale-up;
+ 5. Process integration and intensification;
+ 6. Techno-economic analysis and life-cycle assessment;
+
+Experimental, computational, modeling, and simulation studies, as well as process development and scale-up efforts, are solicited. Invited and submitted presentations from industry, national labs, and academia are welcome.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+F04 - Industrial Electrochemistry and Process Intensification
+
+The Electrochemical Society (ECS) invites abstracts for a symposium dedicated to advances in industrial electrochemistry and process intensification, with a particular focus on integrating techno-economic analysis (TEA) and life-cycle analysis (LCA) into process design and evaluation. This symposium provides a forum for researchers, engineers, and practitioners to present work spanning:
+
+ * Electrochemical process intensification: Novel reactor architectures, high-throughput systems, and modular approaches for industrial scale-up.
+ * Techno-economic analysis (TEA): Cost modeling, sensitivity analyses, and case studies illustrating barriers and opportunities for industrial adoption.
+ * Life cycle analysis (LCA): Cradle-to-grave, cradle-to-gate, or cradle-to-cradle assessments/opportunities, baselining process performance with conventional technologies.
+ * Hybrid and integrated process systems: Coupling of electrochemical technologies for separations and reaction engineering/catalysis.
+ * Industrial translation and policy: Demonstration projects and scale-up strategies with emphasis on commercialization.
+
+Contributions are encouraged that not only report experimental advances but also explicitly link findings to economic feasibility and environmental impact. Submissions that combine bench-scale or pilot-scale results with TEA/LCA insights are particularly welcome.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+F05 - Electrochemical Engineering Students – Industry & National Laboratory Connections
+
+This symposium is dedicated to senior graduate students and postdocs seeking industry and national laboratory careers in industrial electrochemistry and electrochemical engineering. The first portion of the symposium consists of flash oral presentations. The second portion of the symposium consists of a panel discussion with industry and national lab professionals. Students or postdocs submitting to this session should be planning to enter the job market in the near future. Abstract submissions should be for the flash oral presentations by students and postdocs. Industry and national lab panelists are invited by the organizers. Industry and national lab volunteers may reach out to the symposium organizers or division leadership.
+Deadline for New Submissions: Friday, December 4, 2026
+
+G - ELECTRONIC MATERIALS AND PROCESSING
+
+G01 - Silicon Compatible Emerging Materials, Processes, and Technologies for Advanced CMOS and Post-CMOS Applications 17
+
+This symposium focuses on the science of advanced materials, processing, devices, architectures, and applications required to enhance the performance of silicon-compatible CMOS and post-CMOS technology. Topics of particular focus relate to analog and digital integrated circuits, non-volatile memory, neuromorphic, spin, and quantum technology. Of special interest are nanostructures and materials to further enable new functionalities thereby augmenting the current computing and hardware paradigm.
+
+Topics of interest include:
+
+1) Materials and processes needed to realize advanced devices for increased performance, while reducing power consumption and cost of ownership. Examples of devices include FinFET, ultrathin body SOI, nanowires, nanosheets, gate-all-around devices, among others that can be synthesized on large-area silicon wafers by epitaxial or other innovative methods. Negative capacitance devices based on binary or ternary oxides, ferroelectric materials and similar processes integrated on silicon are also invited. Synthesis of the new materials as well as unit processes that are essential for the realization of successful device structures are of particular interest, specifically if augmented by novel thin-film deposition (ALD/CVD), dry etch (RIE/ALE), and wet processing techniques. Topics of interest also include high-performance gate stacks, high-mobility channel materials, strain engineering, low-resistivity contacts, source/drain epitaxy for strain, junction formation, low-k dielectrics, and interconnect technology, among others. Process technology contributions describing challenges to fabricate the above advanced structures for applications ranging from high-frequency 5G, artificial intelligence, smart home, and other high-frequency and high-bandwidth applications are also welcome.
+
+2) Materials, processes, devices, and technology for optical, laser, RF, and other nonconventional nanoelectronics devices. This includes advanced power electronics devices, for example, including innovation in SiC and GaN technologies, micro-LED devices, and high-frequency RF devices based on non-Si technologies. Monolithic integration in Si and group-IV alloys, InP- and GaAs-based photonic devices in Si, optical interconnect technology, other optical devices on silicon (lasers, LEDs, detectors amplifiers, etc.) are also invited.
+
+3) Materials, processes, devices, and technology for enabling neuromorphic, spin, and quantum devices. Novel non-volatile memory elements, materials, and devices for neuromorphic computing: Examples include MRAM, RRAM, ferroelectric RAM, and phase change memory, among others. Enhancing technologies such as diffusion barriers, high-k IPD to improve conventional DRAM and 3D NAND, along with enhancements of peripheral devices are also welcome.
+
+4) Materials, processes, and technology to enable heterogeneous integration (HI) specifically relating to 2.5D/3-D through silicon via (TSV) integration, chip-to-chip, chip-to-wafer, wafer-to-wafer, and other packaging innovations. New processing technologies and equipment for synthesis and characterization of the materials and processes are also welcome. Advanced back-end materials and processes to enable chiplet stacking, redistribution layers (RDL) and optical interconnect processes, and other advanced processes.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+G02 - Processes at the Semiconductor Solution Interface 12
+
+This symposium addresses the most recent developments in processes at the semiconductor/solution interface including etching, oxidation, passivation, film growth, electrochemical and photoelectrochemical processes, water splitting, electrochemical surface science, electroluminescence, photoluminescence, surface texturing, and compound semiconductor electrodeposition for photovoltaics, energy conversion, and related topics. It includes both invited and contributed papers on both fundamental and applied topics of both bulk and nanoscale materials.
+
+ 1.  The following areas are of particular interest:
+
+     Chemical, electrochemical and photoelectrochemical etching and surface texturing of III-V, II-VI, and oxide semiconductors;
+ 2.  Surface film growth, multilayer deposition, and surface passivation;
+ 3.  Porous semiconductor formation;
+ 4.  Electroanalytical measurements on both elemental and compound semiconductors including silicon, germanium, both bulk and epitaxial II-VI, III-V, IV-IV, and organic materials in aqueous and non-aqueous electrolytes;
+ 5.  Electronic and optical processes at the semiconductor/solution interface;
+ 6.  Electroluminescence at the semiconductor/solution interface;
+ 7.  Photoluminescence spectroscopy including in situ potential-dependent measurements;
+ 8.  Electrochemical impedance spectroscopy and investigations of flat-band potential;
+ 9.  Combined electrochemical and surface analytical and spectroscopic measurements;
+ 10. Microscopic and surface analytical measurements on chemically and electrochemically modified semiconductor surfaces;
+ 11. Chemical, electrochemical, and photoelectrochemical techniques of device processing including etching, passivation, oxide growth, and metallization;
+ 12. Electrochemical techniques of semiconductor characterization;
+ 13. Nanoscale electrochemical devices;
+ 14. Electrochemical analytical techniques for semiconductor analysis and processing;
+ 15. New developments in semiconductors, and oxide coated electrodes and material systems for water oxidation/splitting, and all methods of analysis and characterization.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+G03 - Organic Semiconductor Materials, Devices, and Processing 11
+
+This is the 11th symposium in this series, and the objective is to link processing and materials studies to devices and technological applications. The symposium covers a wide range of topics related to broadly understood science and technology of organic/polymeric semiconductor materials, processes, devices, and applications. The list of topics of interests includes but is not limited to the following:
+
+ 1.  Chemistry of organic/polymeric semiconductors and their impact on material and device characteristics;
+ 2.  Physical phenomena underlying operation of organic/polymeric semiconductor devices;
+ 3.  Deposition methods: PVD, solution processing, printing, and others;
+ 4.  Substrates: Conductive and non-conductive, mechanically rigid and flexible;
+ 5.  Electronic devices: TFTs, contacts, organic dielectric semiconductor material systems, charge transport, modeling;
+ 6.  Photonic devices: Light emitting diodes, photodiodes, and solar cells;
+ 7.  Display and lighting applications;
+ 8.  Patterning of organic semiconductors to create desired device geometries;
+ 9.  Large-area organic semiconductor electronics and photonics, roll-to-roll processing;
+ 10. Reliability, stability, and reproducibility of device characteristics.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+H - ELECTRONIC AND PHOTONIC DEVICES AND SYSTEMS
+
+H01 - Wide-Bandgap Semiconductor Materials and Devices 28
+
+This symposium focuses on issues pertinent to the development of wide-bandgap and other compound semiconductor materials and devices. All semiconductor materials are of interest, including traditional III-V materials, III-nitrides, II-oxides, SiC, diamond, II-VI, inorganic compound semiconductors, and other emerging materials. Papers on both practical and fundamental issues are solicited. The following technical areas are of particular interest:
+
+Emitters: Light emitting diodes, light emitting transistors, laser diodes, displays, and devices for solid state lighting;
+
+ 1. Detectors including solar cells and avalanche photodiodes;
+ 2. High-temperature, high-power, and high -frequency electronics;
+ 3. Sensor applications;
+ 4. Substrates for material epitaxy;
+ 5. Material characterization: Synthesis, defect structure, and luminescence;
+ 6. Nanoscale materials;
+ 7. Transparent conducting oxide films and devices, including ZnO and IGZO thin film transistors.
+
+The goal of this symposium is to bring together the crystal growth, material processing, circuit design, process monitoring, reliability, and device application communities to review current issues and present state of the art developments in wide-bandgap and compound semiconductor technology. This symposium consists of invited and contributed papers and posters.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+H02 - Advanced CMOS-Compatible Semiconductor Devices 22
+
+The scope of this symposium is to bring together international scientists to discuss recent studies of new devices, circuits, and applications for More-Moore and More-than-Moore technologies including:
+
+ 1.  CMOS compatible devices, circuits and applications of SOI devices, advanced bulk-MOSFETs, multi-gate devices (FinFET, triple gate, nanowire, vertical-FET, nanosheet, forksheet, CFET), junction-less FET, and Tunnel-FET;
+ 2.  Device physics, electrical characterization, and simulation of advanced devices;
+ 3.  Integrated circuits design using advanced devices;
+ 4.  Memory, analog/RF, and high-power device and applications;
+ 5.  Devices with high mobility materials like HEMT, MISHEMT;
+ 6.  Sensor and biosensor (BioFET) devices and applications: Health, environment, and security;
+ 7.  Low-temperature electronics and radiation hardness devices;
+ 8.  Carbon-nanotube and 2D devices and applications;
+ 9.  New micro-electromechanical systems (MEMS) applications;
+ 10. Advanced packaging;
+ 11. Heterogeneous integration.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+H03 - Solid State Electronics and Photonics in Biology and Medicine 13
+
+This symposium is aimed at researchers utilizing the unique electronic and photonic properties of solid-state materials and devices to facilitate the understanding of biomolecular interactions, to study the integration of biomolecules and solid-state materials, and to promote the applications of solid-state devices in biology and in medicine. The symposium aims to overview both state-of-the-art research and technological progress in the area.
+
+Topics include but are not limited to:
+
+ 1.  Interaction between functional materials (nanomaterials) and biomolecules (DNA, RNA, peptide, protein, metabolic molecules);
+ 2.  Solid-state electronic or photonic sensor design and fabrication;
+ 3.  Surface modification and immobilization methods;
+ 4.  Sensor characterization;
+ 5.  Sensor models and signal analysis;
+ 6.  Integrated sensor network and systems;
+ 7.  Various sensor types: Field-effect-transistors, diodes, resistors, surface plasma resonance, surface-enhanced Raman spectroscopy, surface acoustic wave devices, and quartz crystal microbalance;
+ 8.  Multiple sensor arrays;
+ 9.  Portable bioelectronic systems for medical applications (detection, separation, purification, therapy, and image);
+ 10. Single molecule and single cell detection;
+ 11. DNA sequencing;
+ 12. Inter- and intra-biomolecular interactions studied with biosensors;
+ 13. Electrokinetics in micro- or nanofluidic systems and its applications;
+ 14. Biomolecular nanodevices;
+ 15. Nanopore and nanoslit bioelectronics;
+ 16. Electric field effect on biomolecules and cells;
+ 17. Electroporation;
+ 18. Biomolecular devices for energy harvest;
+ 19. Self-powered sensors and systems;
+ 20. AI for sensors;
+ 21. Sensors for extracellular vesicle studies;
+ 22. Sensors for neuron studies;
+ 23. Sensors with CRISPR/Cas; etc.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+I - FUEL CELLS, ELECTROLYZERS, AND ENERGY CONVERSION
+
+I01 - Low Temperature Water Electrolysis (LT-WE) for H2 Production 5
+
+Low-cost hydrogen from renewable energy is now seen as a viable, clean alternative fuel for use in applications including mobility, back-up power, and grid energy storage, as well as a feedstock for fertilizer, steel, cement, and petrochemical upgrading. In a longer term, the large-scale production of hydrogen from water electrolysis is needed for global CO2 reductions toward net-zero emissions. This symposium on low-temperature water electrolysis for H2 production is a new, broad symposium. It brings together the electrochemical community to focus on the technical solutions across the range of technologies including but not limited to polymer electrolyte (acidic) electrolysis; liquid alkaline electrolysis; alkaline membrane electrolysis; membrane-less or bipolar membrane electrolysis; decoupled electrodes; and supporting technologies such as electrochemical hydrogen compression, hydrogen storage, and unitized reversible fuel cells.
+
+Monday morning brings together invited plenary speakers on key advances in low-temperature water electrolysis. Monday afternoon is a panel from the electrolysis industry to provide industrial perspectives. The remainder of the symposium is comprised of parallel sessions covering research topics including new electrocatalysts, membranes, porous transport layers (PTLs), MEA design, stack engineering, and modeling and diagnostic tools which affect the performance, efficiency, cost, and durability of electrolysis systems when integrated with renewable energy sources. Abstracts are welcome on the following topics:
+
+ 1. Electrocatalysts for the HER and OER in acid or alkaline media including non-precious metals and methods to decrease the loading of precious metals (Ir and Pt), approaches to improving their activity and durability, and analytical tools to characterize the electrocatalysts;
+ 2. Membrane and ionomer technologies, such as methods for high durability membranes, progress on PFSA-free membranes and alkaline membranes, and techniques to separate oxidizer and fuel in membrane-less technologies;
+ 3. Electrode and MEA design and optimization that focus on electrode structures, membrane/electrode/PTL interface, advanced electrode and MEA concepts;
+ 4. Stack engineering and operations that will include component integration, sealing technology, heat management, and approaches for rapid or large-scale MEA and stack manufacturing;
+ 5. Modeling and diagnostics of performance loss and durability pertaining to kinetics, mass transport, and Ohmic losses;
+ 6. Advanced concepts and systems for water electrolysis including systems integration approaches to facilitate integration with renewables, gas pressurization, hybrid systems, new uses of hydrogen, and technoeconomic analysis of the environmental impact of hydrogen systems.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+I02 - Renewable Fuels via Artificial Photosynthesis or Heterocatalysis 13
+
+This symposium provides an international and interdisciplinary forum to present the latest research on catalysis toward production of fuels (e.g., hydrogen, ammonia, or other gas/liquid hydrocarbon fuels) by solar energy or electrical energy. Topics of interest include but are not limited to:
+
+Utilization of renewable energy resources such as water, carbon dioxide, nitrogen, or biomass for generation of fuels such as hydrogen, ammonia, and hydrocarbon compounds;
+
+ 1. Generation of fuels with photocatalysts or photoelectrochemical cells (PECs);
+ 2. Generation of fuels with electrocatalysts;
+ 3. Sunlight-driven production of biofuels and bio-hydrogen with enzymes and photoautotrophic microorganisms;
+ 4. Synthesis and characterization of photocatalysts or electrocatalysts;
+ 5. Exploration of new materials for solar energy conversion;
+ 6. Generation of fuels with solar-thermal processes;
+ 7. Simulation and modeling of materials, devices, and systems for solar energy conversion.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+I03 - Materials for Low-Temperature Electrochemical Systems 13
+
+Materials development is critical to the commercialization of electrochemical technologies including batteries, alkaline and proton exchange membrane fuel cells, supercapacitors, and other electrochemical applications/devices. This symposium focuses on both the fundamental and applied aspects of materials for low-temperature electrochemical technologies.
+
+Topics of interest include, but are not restricted to:
+
+ 1. Experimental methods for membrane/ionomer design, synthesis, characterization, and evaluation;
+ 2. Modeling for guiding membrane materials development and for the prediction of membrane material properties;
+ 3. Electrocatalyst design, synthesis, characterization, and performance/durability evaluation for fuel cells, metal-air batteries, etc.;
+ 4. Design, characterization, and evaluation of active materials for batteries and supercapacitors;
+ 5. Electrolytes and separators for batteries.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+I04 - Electrosynthesis of Fuels 10
+
+High-Temperature Energy, Materials, & Processes Division; Energy Technology Division; Industrial Electrochemistry and Electrochemical Engineering Division; Physical and Analytical Electrochemistry Division
+
+Electrosynthesis of fuels provides a powerful means to convert readily available molecules such as CO2, H2O, N2, or conventional energy sources (e.g., natural gas, solid carbon, etc.) into energy-intensive fuels and valuable chemicals through electrochemical reactions. Electrosynthesis of fuels represents an important step toward modernizing the chemical and energy industry, which emphasizes precision, efficiency, and resilience without depending solely on one energy source. This Electrosynthesis of Fuels 10 symposium provides an international forum for the presentation and discussion of the latest developments in electrolysis and related topics. The application of the same cells as fuel cells is of equal importance because reversible cells offer an efficient and flexible solution for large-scale energy storage and conversion within integrated energy systems.
+
+Papers are solicited on topics as follows:
+
+ * Electrolysis cells that convert CO2, H2O, N2, and light alkanes.
+ * Solid oxide fuel cells and protonic ceramic fuel cells based on H2, hydrocarbons, carbon, and ammonia.
+ * New catalysts, materials and cell components and fabrication methods for the electrochemical cells above.
+ * Novel concepts and processes for CO2 conversion and capture.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+I05 - Waste Heat Harvesting Using Electrochemical Methods
+
+This symposium highlights emerging technologies and fundamental advances in the electrochemical conversion of waste heat into electrical energy and other value-added products. With growing demand for energy-efficient solutions in sectors such as data centers and industrial processing, electrochemical systems offer a promising route to recover low-grade and other thermal energy resources that traditional heat engines cannot efficiently utilize. Topics of interest include but are not limited to innovations in thermally regenerative electrochemical cycles, thermally rechargeable batteries, thermoelectrochemical cells, membrane-based separations coupled to electrochemical storage, and hybrid systems that link thermal transport with redox chemistry.
+Deadline for New Submissions: Friday, December 4, 2026
+
+K - ORGANIC AND BIOELECTROCHEMISTRY
+
+K01 - Biological Approaches to Solve Electrochemical Problems
+
+Biological electron transfer encompasses a diverse set of reactions that govern processes ranging from respiration to metabolism. As new tools are developed to engineer biological systems, these reactions can be harnessed and tuned to support electrochemical processes. This symposium is broadly focused on synthetic biology in both prokaryotic and eukaryotic systems that interface with electrochemistry. We invite contributions from all areas of organic and biological electrochemistry that focus on tools to engineer biological systems for electrochemical applications, fundamental learnings from such studies, and applied systems utilizing synthetic biology for electrochemical systems or transformations. Additional topics involving electrogenetics are also encouraged.
+Deadline for New Submissions: Friday, December 4, 2026
+
+K02 - Small Molecule Mechanistic Electrochemistry
+
+Electron transfer reactions involving small molecules are some of the most basic fundamental electrochemical reactions. This symposium is focused on all aspects of mechanistic electrochemistry involving small molecules, and we invite contributions from all areas of organic and biological electrochemistry that focus on such electrochemical studies of small molecules. Topics of interest include electroanalytical methods to elucidate electron transfer mechanisms, research towards fundamental electrochemical understanding of small molecule reactivity, and insights into factors that impact the reaction pathway. Additional topics include catalytic aspects of electrosynthesis.
+Deadline for New Submissions: Friday, December 4, 2026
+
+L - PHYSICAL AND ANALYTICAL ELECTROCHEMISTRY, ELECTROCATALYSIS, AND PHOTOELECTROCHEMISTRY
+
+L01 - Physical and Analytical Electrochemistry, Electrocatalysis, and Photoelectrochemistry General Session and Grahame Award Presentation
+
+In the general session topic areas, this symposium welcomes all papers on any aspect of physical electrochemistry, analytical electrochemistry, electrocatalysis, and photoelectrochemistry that is not covered by topic areas of other specialized symposia offered at this meeting. Contributed papers are programmed in some related order, depending on the titles and contents of the submitted abstracts.
+Deadline for New Submissions: Friday, December 4, 2026
+
+L02 - Electrocatalysis 13: In Honor of Piotr Zelenay
+
+Electrocatalysis is critical for electrochemical energy conversion and storage technologies. This symposium focuses on all areas of fundamental and applied electrocatalysis. Topics include but are not limited to hydrogen oxidation and evolution, oxygen reduction and evolution, CO2 reduction, nitrogen reduction and oxidation, photoelectrocatalysis, small organic molecule oxidation, electrocatalyst characterization and evaluation, theoretical modeling, and simulation electrocatalysis process.
+
+This session features talks in honor of Dr. Piotr Zelenay on the occasion of his retirement from Los Alamos National Laboratory, where he spent nearly three decades contributing to the understanding of electrocatalytic reactions and developing electrocatalysts, most notably for energy conversion reactions.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+L03 - Charge Transfer: Electrons, Protons, and Other Ions 8
+
+Charge transfer is important to both the frontier of fundamental science and, in the long term, solutions for energy generation, conversion, and storage. Applications are diverse and include, to name but a few: hybrid inorganic-polymer composite photovoltaic solar cells; polymer electrolyte membrane fuel cells; and lithium ion and redox flow batteries. Although the charge carrier may be different in these devices, there are common features in all charge transfer events or reactions. This symposium provides a forum to present recent progress in understanding how local and larger aspects determine the nature and energetics of charge transfer and transport in various systems and devices.
+
+Current interest ranges from:
+
+ * Utilization of single or small groups of organic molecules or polymers as components in electronic devices;
+ * Exploitation of semiconductor and metal or metal oxide nanoparticles because of their high surface areas and other size-dependent properties;
+ * Effects of the density and distribution of fixed and/or mobile ions in electrodes and electrolytes.
+
+Papers of interest include both experimental and theoretical studies that may be either applied or fundamental in focus.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+L04 - Electrochemical Studies by Synchrotron and Neutron Techniques 4
+
+Synchrotron and neutron probes illuminate the structure, composition, and dynamics of electrochemical systems central to energy, environmental, and biological technologies. This symposium highlights recent advances in ex situ, in situ, and operando capabilities of these two complementary techniques for the characterization of electrochemical materials, interfaces, and devices. Topics of interest include applications to electroactive materials and electrode–electrolyte interfaces, as well as rigorous methodological developments that improve spatial, temporal, or chemical resolution. The symposium aims to foster dialogue between researchers developing new synchrotron or neutron tools and those applying them to electrochemical problems, consequently deepening fundamental understanding and improving electrochemical systems especially to advance rigor, reproducibility, and data quality in operando measurements.
+Deadline for New Submissions: Friday, December 4, 2026
+
+L05 - Physical and Analytical Electrochemistry Methods for Degradation and Safety
+
+The symposium focuses on innovative physical and analytical electrochemical approaches that advance our understanding of degradation mechanisms and safety phenomena in electrochemical energy systems. Of particular interest are new methods, experimental strategies, and modeling frameworks that provide insight into how materials, interfaces, and devices evolve under operation, stress, and failure conditions. Contributions are invited that develop or apply electrochemical, spectroscopic, microscopic, and hybrid techniques to identify degradation pathways, quantify reaction kinetics, and correlate physicochemical changes with performance and safety.
+
+Topics of interest include but are not limited to novel electrochemical and analytical techniques; in situ and operando diagnostics; degradation modeling; mechanistic studies linking structure, transport, and reactivity; and advanced data analysis for prognostics and lifetime prediction. Applications span batteries, fuel cells, supercapacitors, electrolyzers, and other electrochemical platforms.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+L06 - Electrochemistry of Nitrogen and its Simple Inorganic Compounds: Fundamentals and Potential Applications
+
+The feasibility of performing nitrogen electroreduction reaction, or nitrogen fixation, both in aqueous and non-aqueous solutions, constitutes an attractive prospect to produce ammonia under ambient, or near ambient, conditions. Development of durable, specific, and reasonably efficient, low-cost catalysts remains a great challenge for electrochemical science and technology. Currently, most electrochemical approaches to N2-fixation suffer from slow kinetics due to the difficulty of achieving the appropriate adsorption and activation of dinitrogen leading to cleavage of the strong, triple N≡N bond. Alternatively, the moderate dissociation energy of the N=O bond in nitrate anion (NO3–) makes it an alternative choice to N2 because it promises better kinetics for NH3 production. Experimental conditions, including a choice of solvent and electrolyte, its acidity, as well as the presence of certain cations and anions are of importance as well. In the case of N2-reduction, low yields and possibility of contamination require rigorous procedures and careful analytical approaches. For example, a promising approach to synthesize NH3 involves lithium- or calcium-mediated reduction of nitrogen in organic solvents. Ammonia is not only the second largest chemical produced in the world after sulfuric acid but is also a promising candidate for transporting and storing hydrogen due to its notable energy density. In this respect, the NH3-oxidation electrolysis offers a promising environmentally friendly approach to generate H2 at ambient temperature using suitable catalysts.
+
+The symposium features presentations on research dealing with the fundamental and potentially applied aspects of electrochemical conversions of nitrogen, nitrogen-oxo species, or ammonia, i.e., the processes which are of relevance to various aspects of science and prospective technologies.
+
+The symposium aims to bring together researchers in different areas of electrocatalysis and materials chemistry as well as electrochemical science and technology with the intent to discuss the current state of the art and understanding of the electrochemical fixation and the electrochemistry of nitrogen and its simple inorganic compounds. Experimental and theoretical papers as well as contributions involving simulations and DFT calculations are welcomed in an effort to forge a stronger link between experiential parameters and reaction mechanisms. Additional specific areas covered include the design of electrode materials, new preparative and processing approaches, fabrication of advanced catalytic systems, as well as their characterization, including in situ and ex situ methods, electrochemical properties and performances, and computational modeling.
+
+The symposium includes invited and contributed papers on all aspects of the electrochemistry of N2 and N-compounds. Presentation and discussion of comparative results based on photoelectrochemical and bioelectrochemical approaches are welcome.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+L07 - High Resolution Electrochemical Measurements: Nanoscale Imaging, Single Entities Toward Mechanistic Insights
+
+This symposium focuses on the expanding frontiers of electrochemical microscopy, nanoelectrochemistry, and single-entity electrochemistry, highlighting experimental, theoretical, and instrumental advances that enable electrochemical measurements with high resolution. We welcome contributions that explore how new approaches, such as scanning probe electrochemical microscopy (SECM, SECCM, SICM, EC-STM, AFM-based techniques) and single-entity electrochemical detection, provide unprecedented insights into electrochemical reactivity.
+
+Electrochemical reactivity measurements at the micrometer and sub-micrometer scales are providing new insights into the mechanisms of electrocatalysis, photoelectrocatalysis, and interfacial phenomena in systems ranging from energy materials to biological environments.
+
+Topics of the symposium include but are not limited to:
+
+ * Advances in electrochemical scanning probe methods (SECM, SECCM, SICM, EC-STM, AFM-based probes, hybrid optical-electrochemical techniques);
+ * Single-entity electrochemistry, including nanoparticle collision studies;
+ * Design and fabrication of electrodes, such as nanopipettes, and multifunctional probes;
+ * Imaging integrating electrochemical, spectroscopy, or correlating with electron microscopy;
+ * Mechanistic studies of nanoscale charge transfer, electrocatalysis, and transport;
+ * Computational and theoretical approaches for analyzing or interpreting nanoscale electrochemical data.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+M - SENSORS
+
+M01 - Recent Advances in Sensor Systems for National Priority and Grand Challenges
+
+This symposium provides a forum for the broad discussion of research and development in the field of physical and chemical sensors (gas, liquid, and other types), including molecular recognition surfaces, transduction methods, and integrated and microsensor systems. Topics of interest include but are not limited to:
+
+ 1.  Development of new selective molecular recognition surface and materials;
+ 2.  Sensor and analytical systems for safety and security;
+ 3.  Novel methods for signal amplification and detection;
+ 4.  Sensor arrays for the simultaneous detection of multiple analytes;
+ 5.  Micro total analysis systems (μTAS);
+ 6.  Physics and chemistry of sensors and sensor materials, synthesis/fabrication, and characterization of novel compositions;
+ 7.  Novel sensor concepts, design, modeling, and verification;
+ 8.  Sensor arrays, and electronic noses and tongues;
+ 9.  Physical, chemical, and biological/biomedical sensors and actuators, such as gas, humidity, ion, and molecular sensors, their system integration, and actuating functions;
+ 10. Optical sensors and fiber optic sensors;
+ 11. Wireless sensors;
+ 12. Emerging technologies and applications including nanosensors and sensors leveraging nanotechnology;
+ 13. Harsh environment sensors;
+ 14. Printed and wearable sensors.
+
+All transduction methods are of interest for this symposium (e.g., electrochemical, resistive, capacitive, optical, acoustic, gravimetric, and thermal).
+
+The goal of this symposium is to present the broadest possible coverage of modern physical and chemical sensing progress and to highlight the present state of the art relative to basic and applied areas.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+M02 - Plasmon and Nanophotonics for Photo-(electro)chemical Reactions, Sensing, and Medical Therapy 2
+
+This symposium offers an international and interdisciplinary platform to showcase the latest advancements in plasmonics and nanophotonics as applied to photo-(electro)chemical reactions, sensing, and medical therapies. Topics of interest include but are not limited to:
+
+ 1.  Synthesis and characterization of plasmonic and nanophotonic materials, metamaterials, and nanostructures;
+ 2.  Lithography and fabrication of plasmonic array patterns, metasurfaces, and nanophotonic structures;
+ 3.  Fundamentals of plasmonics;
+ 4.  Plasmon-mediated or photonics-enhanced photochemical, electrochemical reactions, photocatalysis, and photoelectrocatalysis;
+ 5.  Plasmonic and nanophotonic sensors;
+ 6.  Surface-enhanced Raman scattering;
+ 7.  Plasmon-enhanced fluorescence;
+ 8.  Plasmon-mediated optical spectroscopy;
+ 9.  Photothermal, photodynamic, and photoacoustic therapies;
+ 10. Bio-imaging applications.
+
+Deadline for New Submissions: Friday, December 4, 2026
+
+View, Resume, Edit or Withdraw a Submission:
+
+If you have already submitted an abstract you can access it at the User Gateway.
+
+Contact Information
+
+For questions or concerns about submissions, please contact:
+
+Abstracts
+ECS Meetings Team
+ECS ~ The Electrochemical Society
+Tel: 609-737-1902, ext. 108
+Email: abstracts@electrochem.org
+
+Privacy Policy

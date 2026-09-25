@@ -1,0 +1,399 @@
+SIGIR NEWS
+
+ACM SIG IR Annual Business Meeting 2022:
+Secretary’s Notes
+Laura Dietz
+ACM SIGIR
+USA
+secretary SIGIR@acm.org
+
+1
+
+Opening Matters
+
+The 2022 ACM SIG IR Annual Business Meeting took place as a hybrid event during the 45th
+International ACM SIGIR Conference on Research and Development in Information Retrieval
+in Madrid, Spain on July 14, 2022. The business meeting was led by the chair of the SIG IR
+Executive Committee (EC), Vanessa Murdock.
+The chair is thanking the conference organizers of SIGIR 2022 for planning this fantastic event.
+The general chairs are Enrique Amigó, Pablo Castells, Julio Gonzalo. The program chairs are
+Ben Carterette, Shane Culpepper, Gabriella Kazai. Special thanks is directed to the Student
+volunteers.
+This SIGIR conference was held as a hybrid event, with 1049 registered attendees from 47
+countries overall, and 564 attendees on site. Acceptance rates were 20% for full research papers,
+and 25% across all tracks. For the second time, it was co-located with the ACM International
+Conference on Theory in Information Retrieval (ICTIR). Several firsts from the previous conferences were continued, such as Perspective, resource, and industry (SIRIP) tracks, presentations
+of papers from the TOIS journal. For the first time, SIGIR is offering a track for reproducibility
+papers.
+
+2
+
+Best Paper Awards
+
+The best papers at SIGIR 2022, the co-located ICTIR 2022 conference, and the test-of-time awards
+were announced at the SIGIR 2022 banquet.
+
+2.1
+
+Best Paper Awards for ICTIR 2022
+
+At ICTIR 2022, the Best Paper Award went to Reaching the End of Unbiasedness: Uncovering
+Implicit Limitations of Click-Based Learning to Rank by Harrie Oosterhuis.
+The Best Student/Short Paper Award was awarded to Evaluating the Cranfield Paradigm
+for Conversational Search Systems by Xiao Fu, Emine Yilmaz and Aldo Lipani.
+
+ACM SIGIR Forum
+
+1
+
+Vol. 56 No. 2 December 2022
+
+2.2
+
+Best Paper Awards for SIGIR 2022
+
+At SIGIR, the Best Paper Award went to the work A Non-Factoid Question-Answering Taxonomy by Valeriia Bolotova, Vladislav Blinov, Falk Scholer, Bruce Croft and Mark Sanderson.
+The Best Paper Honorable Mention went to Reduce, Reuse, Recycle: Green Information
+Retrieval Research by Harrisen Scells, Shengyao Zhuang and Guido Zuccon.
+The Best Short Paper Award was awarded to Curriculum Learning for Dense Retrieval
+Distillation by Hansi Zeng, Hamed Zamani and Vishwa Vinay.
+With honorable mention to Towards Validating Long-Term User Feedbacks in Interactive Recommendation Systems by Hojoon Lee, Dongyoon Hwang, Kyushik Min and Jaegul Choo.
+
+2.3
+
+SIGIR Test of Time
+
+At SIGIR, the Test of Time Award recognizes research that has had long-lasting influence, including impact on a subarea of information retrieval research, across subareas of information retrieval
+research, and outside of the information retrieval research community. The winning paper is
+selected from the set of full papers presented at the main SIGIR conference 10–12 years before.
+The 2022 ACM SIGIR Test of Time Award went to the SIGIR 2012 paper Modeling the
+impact of short- and long-term behavior on search personalization by Paul Bennett, Ryen White,
+Wei Chu, Susan Dumais, Peter Bailey, Fedor Borisyuk, Xiaoyuan Cui.1
+The 2022 ACM SIGIR Test of Time Honorable Mention went to the SIGIR 2010 paper
+on Uncovering social spammers: social honeypots + machine learning by Kyumin Lee, James
+Caverlee, Steve Webb.2
+The active members of the selection committee were, in alphabetical order: Hannah Bast
+(chair), Pablo Castells, Yiqun Liu, Alistair Moffat, Berthier Ribeiro-Neto, Tetsuya Sakai, and
+Emine Yilmaz.
+
+3
+
+SIG IR Executive Committee
+
+Further appreciation is expressed towards the SIG IR volunteers, which are:
+Awards Chairs: Hannah Bast, Gianluca DeMartini, and Ryen White
+Diversity, Equity and Inclusion (DEI) Chairs: Barbara Poblete, Hussein Suleman, and Suzan
+Verberne
+Women in IR Chair: Nazli Goharian
+SIG IR Historian: Donna Harman
+Information Directors: Nattiya Kanhabua and Guido Zuccon
+SIG IR Forum Editors: Josiane Mothe, Tirthankar Ghosal, and Julián Urbano
+1
+2
+
+https://dl.acm.org/doi/10.1145/2348283.2348312
+https://dl.acm.org/doi/10.1145/1835449.1835522
+
+ACM SIGIR Forum
+
+2
+
+Vol. 56 No. 2 December 2022
+
+Student Affairs Chair: Jiaxin Mao
+Student Travel Grant Chair: Jaime Arguello
+Since several roles are nearing the end of their term, we are looking to fill the roles of SIGIR
+Forum editor and Student Affairs Chair soon. Nominations and self-nominations will be possible;
+questions can be directed to the executive committee. More details will be announced soon.
+The new SIG IR executive committee started its term on July 1st, 2022. We thank the
+outgoing executive committee, i.e., Ben Carterette (Chair), Tetsuya Sakai (Vice Chair), Claudia
+Hauff (Secretary), Min Zhang (Treasurer), and Diane Kelley (Past Chair).
+The new committee is comprised of Vanessa Murdock (Chair), Ryen White (Vice Chair),
+Laura Dietz (Secretary), Carsten Eickhoff (Treasurer), and Ben Carterette (Past Chair). The new
+committee will place particular emphasis on three themes:
+• To increase the diversity among attendees and leadership across topical areas as well as
+ethnicity, gender, and geography.
+• To make participation in conferences more accessible to anyone who cannot travel to be
+there in person. This also requires to improve hybrid conferences with the goal to provide a
+great experience to all participants.
+• To further the field of information retrieval as a FUN(damental) core for human experience ranging from information literacy to societal change. This includes to further IR’s
+interdisciplinary aspects and reach out to complementary research fields.
+The SIG IR Executive committee will hold a town hall at a later date to be determined, to hear
+from the SIG IR community. SIG IR members are welcome to attend, and the meeting will be
+announced via IRList. Join SIG IR at https://sigir.org/general-information/membershi
+p/, and sign up to IRList via https://sigir.org/sig-irlist/. The Executive committee can
+be reached by email sigir-ec@acm.org, and will also monitor the ACM SIG IR slack instance3
+channel #talk-to-sigir-executive-committee.
+
+4
+
+Treasurer’s Report
+
+SIG IR treasurer Carsten Eickhoff presented SIG IR’s finances. Overall, the previous treasurer
+Min Zhang has ensured that our finances are in a healthy state. The available funds fluctuate as
+sponsored events need to be financially supported and profits are returned. This is especially true
+for larger conferences. The income is relatively constant since 2017, but expenses have dropped
+during the pandemic years. In the years before the pandemic, a big part of the yearly expenses
+were student travel grants (more than USD 200,000 across a number of sponsored conferences).
+With less travel and with more conferences being held online, there was less spending, but we
+believe this will return soon to pre-pandemic levels.
+There are currently USD 1.36M available in the account to underwrite conferences and support
+community endeavors (See Figure 1).
+3
+
+acmsigir.slack.com. Get access to slack by emailing Laura Dietz, dietz@cs.unh.edu.
+
+ACM SIGIR Forum
+
+3
+
+Vol. 56 No. 2 December 2022
+
+Figure 1: SIG IR’s finances over recent years. Debit indicates current expenses such as travel grants
+and conference underwriting. Credit indicates the available funds reflecting income growth.
+
+4.1
+
+Expenses
+
+The fiscal year 2022 covers the period from July 1st, 2021 till June 30th, 2022.4 The major
+contributor to expenses are travel grants. While these were reduced during the pandemic, with
+USD 125,000 projected for 2022, we expect these expenses to sharply incline now that students
+are travelling to conferences in-person.
+There are several other posts, such as volunteer meetings and travel, costs for online conferences, publication expenses (e.g. proceedings of the SIGIR conference), awards, and special
+projects (more below). Somewhat new is the post for professional services, which includes the
+professional rebranding of the SIGIR website.
+One of the special projects is the financial support via the “SIG IR & Friends” funding for
+workshops, local research gatherings, etc. Interested parties can apply for financial support online.5
+For fiscal year 2022, USD 9,000 were issued.
+Similarly, SIG IR Chapters can be established whenever there is a strong local base of IR
+researchers that would benefit from local organization. Interested groups can apply to the ACM
+to become a local SIG IR Chapter.
+Additional special projects are DEI grants to increase the diversity among attendees and
+funding for DEI and student socials at conferences.
+
+4.2
+
+Income
+
+Several conferences contribute to our budget as income. For the fiscal year 2022, we gained 85,000
+USD, which is a muted result as the period was dominated by online conferences. Our publication
+incomes via the ACM Digital Library are stable at 138,000 USD. Smaller posts are the kick-back
+4
+5
+
+Numbers being based on projections from March 2022, some conferences have not yet closed their budgets.
+SIG IR & Friends: https://sigir.org/general-information/funding-for-sigir-related-events
+
+ACM SIGIR Forum
+
+4
+
+Vol. 56 No. 2 December 2022
+
+obtained from sold subscriptions, membership dues from our 850 ACM SIG IR members, and
+interest on the bank account.
+
+4.3
+
+Conferences co-funded by SIG IR
+
+The ACM SIG IR special interest group has a stake in several related conferences. This includes
+SIGIR (the conference), CIIR, ICTIR, CIKM (50%, co-funded by SIG WEB), AFIRM (50%, cofunded with SIG KDD), JCDL (34%), and WSDM (25%, co-funded by SIG KDD, SIG WEB, and
+SIG MOD).
+Having a stake in a conference means to both financially support/underwrite it, but also to
+obtain a share of the profits. Usually the SIGIR conference obtains the highest profits, with CIKM
+being second.
+Overall there is a slight decline in SIG IR memberships, but the conference stakes, chapters,
+and events funded via SIG IR & Friends is increasing. Feedback about where more (or less) funds
+should be allocated should be communicated to the treasurer.
+
+5
+
+SIGIR Conferences
+
+Reports from past, future, and potential future conferences are presented.
+
+5.1
+
+SIGIR ’21 recap: Virtual/Montreal
+
+Despite (or because) of being virtual SIGIR ’21 was attended by 973 participants from 46 countries.
+This conference was organized by general chairs Fernando Diaz, Chirag Shah, and Thorsten Suel,
+with program chairs Pablo Castells, Rosie Jones, and Tetsuya Sakai. The conference was run with
+support from Underline, using Zoom and Gather.Town.
+The conference was switched to an online format in the last moment, as the organizers had
+sincerely hoped to offer an in-person conference. The SIGIR 21 conference has several firsts,
+including resource papers and perspectives papers, where the latter are designed to discuss topical
+areas that deserve more attention. An increased amount of DEI efforts were dedicated to financially
+enabling wide-spread participation, including the provision of family care grants. The first Queer
+in AI meeting was held at SIGIR ’21. The inaugural class of the SIGIR Academy was presented
+here. It was that for the first time, SIGIR was co-located with ICTIR.
+The conference yielded as much surplus as its expenses. About the same amount was obtained
+from sponsors.
+
+5.2
+
+SIGIR ’23: Hybrid/Taipei
+
+The next SIGIR conference will be held in Taipei on July 23-27, 2023. General chairs are HsinHsi Chen, Wei-Jou Duh, and Hen-Hsen Huang. Program chairs will be Makoto P. Kato, Josiane
+Mothe, and Barbara Poblete.
+The conference will be held in the Taipei International Convention Center, and is planned to
+be operated in hybrid mode (i.e., in-person and virtual). The conference is supported by the Joint
+ACM SIGIR Forum
+
+5
+
+Vol. 56 No. 2 December 2022
+
+Research Center for AI Technology and All Vista Healthcare, National Taiwan University and the
+Association for Computational Linguistics and Chinese Language Processing.
+
+5.3
+
+SIGIR ’24: Washington
+
+The conference location for 2024 was revealed to be in Washington, DC with General Chairs Sam
+Han, Hongning Wang, and Grace Yang.
+
+5.4
+
+Bids for SIGIR ’25
+
+Bids were encouraged from Europe, the Middle East, or Africa. The following bids were presented:
+• Berlin with chairs Carsten Eickhoff, Robert Jaeschke, and Hannah Bast.
+• Amsterdam with chairs Jaap Kamps, Claudia Hauff, Suzan Verberne, Faegheh Hasibi, and
+Maarten de Rijke.
+• Padua with chairs Nicola Ferro, Maria Maistro, and Gabriella Pasi.
+The bid from Padua was most popular with the audience.
+
+5.5
+
+Sponsored Events
+
+A brief announcement of upcoming sponsored conferences was made.
+• ICTIR 2023 co-located with SIGIR in Taipei.
+• CIKM 2022 Atlanta.
+• CIKM 2023 Berlin.
+• CHIIR 2023 in Boston.
+• WSDM 2023 in Singapore.
+
+5.6
+
+New Conference: SIGIR Asia-Pacific
+
+A new conference will be started with focus on the Asia-Pacific region. The first conference will
+be held in Fall of 2023 in Beijing by chairs Alistair Moffat and Yiqun Liu.
+
+6
+
+Awards
+
+6.1
+
+ACM’s Official Recognition for SIG IR Members
+
+ACM’s most prestigious member grade (ACM Fellow ) recognizes the top 1% of ACM members for
+their outstanding accomplishments in computing and information technology and/or outstanding
+service to ACM and the larger computing community. Recently named ACM Fellows are Evgeniy
+Gabrilovich, Tie-Yan Liu, Jie Tang, and Ryen White.
+New ACM Distinguished Members are Yiqun Liu, Don Metzler, and Ingmar Weber. This
+members’ grade recognizes those ACM members with at least 15 years of professional experience
+
+ACM SIGIR Forum
+
+6
+
+Vol. 56 No. 2 December 2022
+
+and 5 years of continuous Professional Membership who have achieved significant accomplishments
+or have made a significant impact on the computing field.
+
+6.2
+
+SIG IR Academy
+
+The newly formed ACM SIG IR Academy honors and recognizes individuals who have made
+significant, cumulative contributions to the development of the field of IR in research innovation
+and/or service. The 2022 inductees are: Charles L. A. Clarke, William Hersh, Jian-Yun Nie,
+Maarten de Rijke, Jaime Teevan, and Justin Zobel.
+For the Class of 2023 nominations are accepted until December 31, 2022. More information
+can be found at https://sigir.org/awards/sigir-academy/. Nominations and Questions can
+be sent to sigir-academy-award@acm.org.
+
+6.3
+
+New: ACM SIG IR Early Career Researcher (ECR) Awards
+
+A new award is created to recognize the excellence of our early career members. Eligible awardees
+must be within seven years of obtaining a doctoral degree. Awards are granted in the following
+three categories.
+Research: To honor single or cumulative research contributions to the field of IR.
+Community Engagement: To honor community engagement and professional service to the
+community.
+Diversity, Equity, and Inclusion: To honor individuals that are initiating driving, and are
+supporting diversity, equity, and inclusion efforts in the community.
+The ACM SIG IR ECR awards will be selected by a panel of five committee members. The
+processes will follow the ACM policy on diversity and inclusion as well as conflict of interest.
+Nominations and self-nominations across multiple categories are permitted. The award is open
+to anyone who is a current SIG IR member and an active participant. Nomination deadline is December 31st, 2022. Details can be found online6 and will be announced on IRList. Questions should
+be directed to the ACM SIG IR ECR awards committee chair via sigir-ecr-award@acm.org.
+
+7
+
+Audience Comments and Questions
+
+During the last part of the business meeting the floor was opened to the audience. While several points for discussions were already debated on the SIGIR slack channel, a number of new
+suggestions were made and questions were raised:
+• Food options and restrictions. A friendly request to designate a role to work with local
+arrangement/catering to convey a range of food restrictions people have and how buffets
+could be labeled accordingly.
+6
+
+SIG IR ECR Award Nominations https://sigir.org/awards/sigir-ecr-awards/
+
+ACM SIGIR Forum
+
+7
+
+Vol. 56 No. 2 December 2022
+
+• Concerns about COVID 19 spread at conferences. Suggestions for a better communication
+of COVID sensitivities and to consider health as a DEI factor.
+• Perspective papers. Positive comments and applause.
+• Presenters missing during Q&A. Frustration was voiced about speakers with pre-recorded
+videos not being present (for various reasons, including time-zone confusions). There was a
+long discussion that online presenters may have unknown hardships that make it not possible
+to connect to a zoom call in real time in their time zone. We should assume good intent and
+find out what the reasons were so we can address them. It is on the conference organizers
+to reduce the friction for presenters.
+• Pre-recorded videos. Questions were raised about avoiding in-person sessions comprised
+solely of pre-recorded videos. It is noted that some time-zones make participation difficult.
+A suggestion was made to collect and share information about which presentations will be
+pre-recorded.
+• Scheduling issues with ICTIR (and other co-located events). Parallel scheduled sessions,
+forced attendees had to decide between keynotes and technical sessions, and leaving some
+technical sessions with less than desirable number of attendees. Better synchronization
+across co-located parallel events is desirable.
+• Virtual day. The SIGIR virtual day was held the week before the in-person conference, but
+not many people attended. The experience should be improved and better integrated into
+the main event.
+• Long-term vs short-term engagement. A discussion about how conferences (unlike journals)
+are for community building, and how long-term discussions could be further facilitated online. Second screen experiences should not be a lesser kind of engagement, and we should
+leverage existing online options to build a stronger online/offline integration for the SIG IR
+community.
+Additional discussions on the Slack channel evolve around
+• Review Model. Better reviewing guidelines for less frustrating reviews. Rolling Review or
+Journal-style review.
+• What is in scope for IR? Obtaining convergence on which topics are acceptable at IR conferences and communicating this. The goal is to avoid reliance on reviewers on notions but
+to establish criteria with the input from program chairs.
+• Encouraging a consistent manuscript page lengths across conferences.
+• Suggestion to establish a self-nomination process for PC organizing positions
+
+ACM SIGIR Forum
+
+8
+
+Vol. 56 No. 2 December 2022
+
+

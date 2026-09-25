@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sdm-2026
+series: sdm
+name: SDM 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/SDM
+  conf_id: sdm2026
+  link: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+  place: Salt Lake City, Utah, USA
+  date: November 19-20, 2026
+  timezone: AoE
+location:
+  city: Salt Lake City
+  country: USA
+  country_code: US
+dates:
+  start: 2026-11-19
+  end: 2026-11-20
+milestones:
+  - type: abstract
+    at: 2026-04-10T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-04-17T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-11-19
+    end: 2026-11-20
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

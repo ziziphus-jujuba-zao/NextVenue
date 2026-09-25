@@ -1,0 +1,58 @@
+id: interspeech-2027
+series: interspeech
+name: Interspeech 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: São Paulo, country: Brazil, country_code: BR }
+dates: { start: 2027-08-29, end: 2027-09-02 }
+milestones:
+  - type: paper
+    at: 2027-02-09T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: interspeech-2027-dates
+    quote: "09 Feb 2027 Submission deadline Full paper submission closes"
+    note_zh: 官网只给日期、没写时区，这里按北京时间当天 23:59 算（比圣保罗当地时间和 AoE 都早，更保守）。
+  - type: supplementary
+    label_zh: 论文更新截止
+    at: 2027-02-16T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: interspeech-2027-dates
+    quote: "16 Feb 2027 Paper update deadline Final revisions to submitted papers"
+    note_zh: 投稿后还可以修改到这一天。官网没写时区，按北京时间当天 23:59 算。
+  - type: notification
+    at: 2027-06-02
+    tz: America/Sao_Paulo
+    tz_assumed: true
+    status: confirmed
+    src: interspeech-2027-dates
+    quote: "02 Jun 2027 Notification of acceptance Authors notified of review decisions"
+    note_zh: 官网只给日期、没写时区，按会场所在地圣保罗的日期记。
+  - type: camera_ready
+    at: 2027-06-09T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: interspeech-2027-dates
+    quote: "09 Jun 2027 Camera-ready deadline Final manuscript submission for proceedings"
+    note_zh: 官网只给日期、没写时区，按北京时间当天 23:59 算（更保守）。
+  - type: conference
+    start: 2027-08-29
+    end: 2027-09-02
+    tz: America/Sao_Paulo
+    status: confirmed
+    src: interspeech-2027-home
+    quote: "29 August – 2 September 2027 São Paulo, Brazil"
+logistics:
+  venue:
+    name: Mercado Livre Arena Pacaembu
+    address: tba
+    src: interspeech-2027-venue
+    quote: "Mercado Livre Arena Pacaembu is a cultural and sports Complex located in a football stadium (Pacaembu) in the heart of São Paulo."
+    note_zh: 官网页脚的坎皮纳斯地址是承办单位坎皮纳斯大学的通信地址，不是会场。
+last_checked: 2026-09-25
+note_zh: 首次在南美举办，会场在圣保罗 Mercado Livre Arena Pacaembu。正文 2027-02-09 截止，2/16 前还可以更新论文，6/2 出结果，6/9 交终稿。官网所有日期都没写时区，截止类按北京时间算、结果按圣保罗日期记。征稿页（Call for Papers）还标着“Soon”。

@@ -1,0 +1,52 @@
+id: turbo-expo-2027
+series: turbo-expo
+name: Turbo Expo 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Calgary, country: Canada, country_code: CA }
+dates: { start: 2027-06-21, end: 2027-06-25 }
+milestones:
+  - type: abstract
+    at: 2026-10-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: turbo-expo-2027-home
+    quote: "October 15, 2026 Abstract Submission (Papers, Panels, Tutorials)"
+    note_zh: 先交摘要，摘要通过后再交全文。官网只给日期、没写时区，按北京时间当天结束算。
+  - type: phase1_notification
+    label_zh: 摘要录用通知
+    at: 2026-11-05
+    tz: America/Edmonton
+    status: confirmed
+    src: turbo-expo-2027-home
+    quote: "November 05, 2026 Notification of Abstract Acceptance (Papers, Panels, Tutorials)"
+  - type: paper
+    tz: Asia/Shanghai
+    status: tba
+    note_zh: '官网 12/21 这一行写的是“Paper: Submission of Full-Length Paper for Review & Electronic Copyright Process Opens”，看不出是全文截止还是全文提交开放，暂不当作截止日期。'
+  - type: notification
+    at: 2027-02-01
+    tz: America/Edmonton
+    status: confirmed
+    src: turbo-expo-2027-home
+    quote: "February 01, 2027 Paper: Acceptance Notification"
+    note_zh: 需要修改的论文 2/16 前交修改稿，3/8 通知是否接受修改稿。
+  - type: author_registration
+    at: 2027-03-22
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: turbo-expo-2027-home
+    quote: "March 22, 2027 Paper: Author Registration Deadline"
+    note_zh: 版权表 3/18 截止。没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-06-21
+    end: 2027-06-25
+    tz: America/Edmonton
+    status: confirmed
+    src: turbo-expo-2027-home
+    quote: "Make your plans today to join 2,500-plus turbomachinery and propulsion engineering leaders from industry, academia, and government at Turbo Expo in Calgary, Canada, June 21-25, 2027."
+    note_zh: 会场是卡尔加里 BMO Centre，展会 6/22–24。投稿系统有一处写 6/20 开始，以官网活动页为准。
+last_checked: 2026-09-25

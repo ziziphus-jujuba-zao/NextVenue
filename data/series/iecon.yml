@@ -1,0 +1,11 @@
+id: iecon
+acronym: IECON
+full_name: Annual Conference of the IEEE Industrial Electronics Society
+aliases:
+  - IEEE IECON
+directions: [eng/control, eng/power]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 10–11 月
+data_level: curated

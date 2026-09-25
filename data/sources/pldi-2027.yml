@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: pldi-2027
+sources:
+  - id: pldi-2027-home
+    url: https://pldi27.sigplan.org/
+    title: PLDI 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:47:58Z
+    http_status: 200
+    snapshot: 631b0d4ef23eb52d8a4bf1ff2a980d1b7403be2b8db6eda5c4d067778dd50b3f
+  - id: pldi-2027-papers
+    url: https://pldi27.sigplan.org/track/pldi-2027-papers
+    title: PLDI 2027 Research Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:59Z
+    http_status: 200
+    snapshot: c3f8f073c37babd3b623afc9fd2d5f1e877ea0235a27fc8e688147d1cf8e7213

@@ -1,0 +1,13 @@
+id: siggraph
+acronym: SIGGRAPH
+full_name: Special Interest Group on Computer Graphics and Interactive Techniques Conference
+aliases: [ACM SIGGRAPH, ACM SIGGRAPH Annual Conference]
+directions: [cs/graphics]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/siggraph
+ccfddl: CG/ACM SIGGRAPH
+data_level: curated
+note_zh: 技术论文分期刊轨（发表在 ACM TOG）和会议轨，截止日期和审稿相同。

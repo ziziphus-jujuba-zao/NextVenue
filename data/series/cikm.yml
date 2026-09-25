@@ -1,0 +1,11 @@
+id: cikm
+acronym: CIKM
+full_name: ACM International Conference on Information and Knowledge Management
+directions: [cs/dm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/cikm
+ccfddl: DB/CIKM
+data_level: curated

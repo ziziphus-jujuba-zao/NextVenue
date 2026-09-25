@@ -1,11 +1,10 @@
-# Copyright (c) 2026 Zayier Xie
-# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 name: pages
 
+# Manual only: GitHub Pages cannot publish from a private repository on the
+# free plan, and the site is not public yet. Run it by hand once hosting is set.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

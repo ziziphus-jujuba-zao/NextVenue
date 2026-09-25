@@ -1,0 +1,39 @@
+id: isbi-2027
+series: isbi
+name: ISBI 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Lausanne, country: Switzerland, country_code: CH }
+dates: { start: 2027-05-25, end: 2027-05-28 }
+milestones:
+  - type: paper
+    label_zh: 四页论文截止
+    at: 2026-10-26T23:59
+    tz: America/New_York
+    status: confirmed
+    src: isbi-2027-home
+    quote: "Four Page Papers Submission Monday 26 October 2026 Notification Tuesday 12 January 2027 Final Submission Tuesday 26 January 2027"
+    note_zh: 官网写所有截止都是美国东部时间晚 11:59（“All deadlines are 11:59pm USA (EDT)”），即北京时间 10/27 11:59。另有一页摘要通道，2027-02-01 截止。
+  - type: notification
+    at: 2027-01-12
+    tz: America/New_York
+    status: confirmed
+    src: isbi-2027-home
+    quote: "Notification Tuesday 12 January 2027 Final Submission Tuesday 26 January 2027"
+  - type: camera_ready
+    at: 2027-01-26T23:59
+    tz: America/New_York
+    status: confirmed
+    src: isbi-2027-home
+    quote: "Final Submission Tuesday 26 January 2027 One Page Abstracts"
+    note_zh: 官网写 EDT；1 月美国东部实际是冬令时（EST），这里按 America/New_York 记。
+  - type: conference
+    start: 2027-05-25
+    end: 2027-05-28
+    tz: Europe/Zurich
+    status: confirmed
+    src: isbi-2027-home
+    quote: "Lausanne, Switzerland • 25th – 28th May 2027"
+    note_zh: 第 25 届，在洛桑联邦理工学院（EPFL）举办。
+last_checked: 2026-09-25

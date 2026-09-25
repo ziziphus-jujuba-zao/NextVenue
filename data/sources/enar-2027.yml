@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: enar-2027
+sources:
+  - id: enar-2027-contributed
+    url: https://www.enar.org/meetings/spring2027/program/contributed_abstracts.cfm
+    title: ENAR 2027 Spring Meeting Contributed Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T16:10:37Z
+    http_status: 200
+    snapshot: 29a3b5dfd78254db1964959fe91be6a8944820f90ce1070c11ba31ac1e4149a5
+  - id: enar-2027-home
+    url: https://www.enar.org/meetings/spring2027/
+    title: ENAR 2027 Spring Meeting
+    kind: other
+    fetched_at: 2026-09-25T16:10:38Z
+    http_status: 200
+    snapshot: 2b24a9b62cc19f6dca771f761e9aa3b53b92e1ded18df8f9bc4f1d4a9c372e4b

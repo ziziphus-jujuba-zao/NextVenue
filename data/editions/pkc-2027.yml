@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: pkc-2027
+series: pkc
+name: PKC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/PKC
+  conf_id: pkc27
+  link: https://pkc.iacr.org/2027/
+  place: Taipei, Taiwan
+  date: March 1-4, 2027
+  timezone: UTC-12
+location:
+  city: Taipei
+  country: Taiwan
+  country_code: TW
+dates:
+  start: 2027-03-01
+  end: 2027-03-04
+milestones:
+  - type: paper
+    at: 2026-08-16T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2027-03-01
+    end: 2027-03-04
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

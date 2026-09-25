@@ -1,0 +1,12 @@
+id: ashg
+acronym: ASHG
+full_name: American Society of Human Genetics Annual Meeting
+aliases:
+  - ASHG Annual Meeting
+directions: [life/genetics]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 10 月举办
+data_level: curated
+note_zh: 只收摘要，每人只能投并报告 1 篇（合作者身份不限）；另有晚到摘要轮次。

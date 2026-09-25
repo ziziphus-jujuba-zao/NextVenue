@@ -1,0 +1,283 @@
+ASE 2026
+Mon 12 - Fri 16 October 2026 Munich, Germany
+Toggle navigation
+ * Attending
+   * Conference Venue: Holiday Inn Munich – City Center
+   * Dinner: Augustiner Keller
+   * Accommodation
+   * Directions
+   * Visa Support Letters
+   * Code of Conduct
+   * Equity, Diversity, and Inclusion Plan for ASE 2026
+   * Accessibility of Venue/Floor Plan
+   * Travel Support
+   * Registration
+   * Program Overview
+ * Sponsorship
+ * Program
+   * ASE Program
+   * Your Program
+   *
+   * Mon 12 Oct
+   * Tue 13 Oct
+   * Wed 14 Oct
+   * Thu 15 Oct
+   * Fri 16 Oct
+ * Tracks
+    * ASE 2026
+    * Not-in-Person Presentations
+    * Organization
+    * Submission Instructions and Policies
+    * Research Papers
+    * Industry Showcase
+    * Artifact Evaluation
+    * Doctoral Symposium
+    * Journal First
+    * Keynotes
+    * Awards
+    * NIER
+    * New-Faculty Symposium
+    * Posters
+    * Student Research Competition
+    * Student Volunteers
+    * Tools and Datasets
+    * Co-Located Events
+
+    * Workshops
+    * AgenticDev Agentic AI for Software Development
+    * AISM AI in Software Modernization
+    * APR Automated Program Repair
+    * ASYDE Automated & Verifiable Development
+    * ATIQSER Automated Techniques in SE Research
+    * CONFLANG Configuration Languages
+    * CPAchecker
+    * Harness4GenUI Everything Evolves, Something Endures: The 1st Workshop on Harness Engineering for Generative UI
+    * JAWs 2 Journal Ahead Workshop
+    * KLEE Symbolic Execution
+    * LiveWrite Writing Workshop
+    * MAS-GAIN Multi-agent GenAI for ASE
+    * POVC PromptOps & Vibe Coding
+    * RASE Reliable and trustworthy Automated Software Engineering
+    * RSSR Resilient Systems
+      * RSSR
+      * RSSR
+    * SECUTE Software Security Testing
+    * SWGeno Software Genomics
+    * TRUST Trustworthy & Responsible Autonomous Systems
+ * Organization
+    * ASE 2026 Committees
+    * Organizing Committee
+    * Track Committees
+    * Research Papers
+    * Industry Showcase
+      * Program Committee
+      * Emergency Reviewers
+      * Program Committee (2nd Cycle)
+    * Artifact Evaluation
+    * Doctoral Symposium
+    * Journal First
+    * NIER
+    * New-Faculty Symposium
+    * Student Research Competition
+      * Judges
+      * Program Committee
+    * Student Volunteers
+    * Tools and Datasets
+    * Contributors
+    * People Index
+
+    * Workshops
+    * AgenticDev Agentic AI for Software Development
+      * Organizing Committee
+      * Program Committee
+    * AISM AI in Software Modernization
+      * Organizing Committee
+      * Program Committee
+    * APR Automated Program Repair
+      * Organizing Committee
+      * Program Committee
+    * ASYDE Automated & Verifiable Development
+      * Organizing Committee
+      * Program Committee
+    * ATIQSER Automated Techniques in SE Research
+      * Organizing Committee
+      * Program Committee
+    * CONFLANG Configuration Languages
+      * Organizing Committee
+      * Program Committee
+    * CPAchecker
+      * Organizing Committee
+      * Program Committee
+    * Harness4GenUI
+      * Organizing Committee
+      * Program Committee
+    * JAWs 2 Journal Ahead Workshop
+      * Organizing Committee
+      * Program Committee
+    * KLEE Symbolic Execution
+      * Organizing Committee
+      * Program Committee
+    * LiveWrite Writing Workshop
+      * Program Committee
+      * Social media
+      * Organizing Committee
+    * MAS-GAIN Multi-agent GenAI for ASE
+      * Organizing Committee
+      * Program Committee
+    * POVC PromptOps & Vibe Coding
+      * Organizing Committee
+      * Program Committee
+    * RASE Reliable and trustworthy Automated Software Engineering
+      * Organizing Committee
+      * Program Committee
+    * RSSR Resilient Systems
+      * Organizing Committee
+      * Program Committee
+    * SECUTE Software Security Testing
+      * Organizing Committee
+      * Program Committee
+    * SWGeno Software Genomics
+      * Organizing Committee
+      * Program Committee
+    * TRUST Trustworthy & Responsible Autonomous Systems
+      * Organizing Committee
+      * Program Committee
+ * Search
+ * Series
+   * Series
+   *
+   * ASE 2026
+   * ASE 2025
+   * ASE 2024
+   * ASE 2023
+   * ASE 2022
+   * ASE 2021
+   * ASE 2020
+   * ASE 2019
+   * Past Editions
+
+ * Sign in
+ * Sign up
+
+ 1.
+ 2.
+ 3.
+ 4.
+
+Welcome to ASE 2026 in Munich
+
+Munich, Germany
+
+Marienplatz, Munich
+
+Munich, Germany
+
+Nymphenburg Palace, Munich
+
+ASE 2026
+
+Welcome to the 41st IEEE/ACM International Conference on Automated Software Engineering, which will take place in Munich, Germany during October 12–16, 2026.
+
+The ASE conference is the premier research forum for Automated Software Engineering. Each year, it brings together researchers and practitioners from academia and industry to discuss foundations, techniques, and tools for automating the analysis, design, implementation, testing, and maintenance of large software systems.
+
+Registration Open
+
+Please register yourself (Attending -> Registration) and book your hotel room soon.
+
+ASE 2026 Tracks
+Not-in-Person Presentations | Organization | Submission Instructions and Policies | Research Papers | Industry Showcase | Artifact Evaluation | Doctoral Symposium | Journal First | Keynotes | Awards | NIER | New-Faculty Symposium | Posters | Student Research Competition | Student Volunteers | Tools and Datasets | Co-Located Events
+Show all tracks
+Important Datesup till Fri 6 Nov 2026
+
+Mon 12 Oct 2026
+AgenticDev Workshop Day
+Mon 12 Oct 2026
+RSSR Workshop Date
+Mon 12 Oct 2026
+TRUST Workshop Day
+Mon 12 Oct 2026
+Doctoral Symposium Doctoral Forum
+Fri 16 Oct 2026
+SECUTE Workshop Day
+Fri 16 Oct 2026
+LiveWrite Workshop Execution & Drafting Sprint
+Fri 16 Oct 2026
+MAS-GAIN Workshop date
+Fri 6 Nov 2026
+LiveWrite Final Journal Submission (Post-Workshop Polish)
+All important dates
+
+Supporters
+
+   Platinum
+   Platinum
+   Gold
+   Gold
+   In kind
+   Administrative
+   Administrative
+
+xFri 25 Sep 17:46
+
+ASE 2026
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+Not-in-Person Presentations
+Organization
+Submission Instructions and Policies
+Research Papers
+Industry Showcase
+Artifact Evaluation
+Doctoral Symposium
+Journal First
+Keynotes
+Awards
+NIER
+New-Faculty Symposium
+Posters
+Student Research Competition
+Student Volunteers
+Tools and Datasets
+Co-Located Events
+
+Workshops
+
+AgenticDev 2026
+AISM 2026
+APR 2026
+ASYDE 2026
+ATIQSER 2026
+CONFLANG 2026
+CPAchecker 2026
+Harness4GenUI 2026
+JAWs 2
+KLEE 2026
+LiveWrite 2026
+MAS-GAIN 2026
+POVC 2026
+RASE 2026
+RSSR 2026
+SECUTE 2026
+SWGeno 2026
+TRUST 2026
+
+Attending
+
+Conference Venue: Holiday Inn Munich – City Center
+Dinner: Augustiner Keller
+Accommodation
+Directions
+Visa Support Letters
+Code of Conduct
+Equity, Diversity, and Inclusion Plan for ASE 2026
+Accessibility of Venue/Floor Plan
+Travel Support
+Registration
+Program Overview
+Sign Up

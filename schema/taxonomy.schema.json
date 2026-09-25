@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "taxonomy.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Disciplines and their directions (data/taxonomy.yml)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "disciplines", "category_directions"],
+  "definitions": {
+    "directionId": { "type": "string", "pattern": "^[a-z]+/[a-z0-9-]+$" }
+  },
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "note_zh": { "type": "string" },
+    "disciplines": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name_zh", "name_en", "directions"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z]+$" },
+          "name_zh": { "type": "string", "minLength": 1 },
+          "name_en": { "type": "string", "minLength": 1 },
+          "note_zh": { "type": "string" },
+          "see_also": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/directionId" } },
+          "directions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "name_zh", "name_en"],
+              "properties": {
+                "id": { "$ref": "#/definitions/directionId" },
+                "name_zh": { "type": "string", "minLength": 1 },
+                "name_en": { "type": "string", "minLength": 1 },
+                "short_zh": { "type": "string", "minLength": 1, "maxLength": 6 },
+                "legacy": { "type": "array", "uniqueItems": true, "items": { "enum": ["ml", "ai", "cv", "nlp", "robotics", "dm"] } },
+                "note_zh": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "category_directions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["list", "category", "directions"],
+        "properties": {
+          "list": { "type": "string" },
+          "category": { "type": "string" },
+          "ccfddl_sub": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "directions": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/definitions/directionId" } },
+          "note_zh": { "type": "string" }
+        }
+      }
+    }
+  }
+}

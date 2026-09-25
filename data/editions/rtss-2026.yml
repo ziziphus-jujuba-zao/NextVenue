@@ -1,0 +1,52 @@
+id: rtss-2026
+series: rtss
+name: RTSS 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Yokohama, country: Japan, country_code: JP }
+dates: { start: 2026-12-09, end: 2026-12-11 }
+milestones:
+  - type: abstract
+    at: 2026-05-21T23:59
+    tz: AoE
+    status: confirmed
+    src: rtss-2026-dates
+    quote: "Abstract Submission Deadline ● Main Conference May 21 (firm)"
+    note_zh: 官网写 “All deadlines are anywhere on Earth (AoE). All dates are for 2026.”
+  - type: paper
+    at: 2026-05-26T23:59
+    tz: AoE
+    status: confirmed
+    src: rtss-2026-dates
+    quote: "Paper Submission Deadline ● Main Conference May 26 (firm)"
+  - type: author_response
+    start: 2026-07-13
+    end: 2026-07-17
+    tz: AoE
+    status: confirmed
+    src: rtss-2026-dates
+    quote: "Author Response Period ● Main Conference July 13–17"
+  - type: notification
+    at: 2026-07-25
+    tz: AoE
+    status: confirmed
+    src: rtss-2026-dates
+    quote: "Notification ● Main Conference July 25"
+    note_zh: 结果分录用和有条件录用；有条件录用的论文进入 shepherding，9/15 出最终结果。
+  - type: camera_ready
+    at: 2026-09-16T23:59
+    tz: AoE
+    status: confirmed
+    src: rtss-2026-dates
+    quote: "Camera-Ready Deadline ● Main Conference September 16"
+  - type: conference
+    start: 2026-12-09
+    end: 2026-12-11
+    tz: Asia/Tokyo
+    status: confirmed
+    src: rtss-2026-dates
+    quote: "Conference ● Event December 9–11"
+    note_zh: 12/8 是 Hot Topics Day（workshop）。
+last_checked: 2026-09-25
+note_zh: 第 47 届 RTSS，在横滨举办。论文投稿已全部截止：2026 年收到 350 篇（创纪录），录用 32 篇、有条件录用 18 篇。下一届 RTSS 2027 的地点和日期官网还没公布。

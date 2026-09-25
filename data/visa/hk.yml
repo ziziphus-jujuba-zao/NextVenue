@@ -1,0 +1,70 @@
+# 香港：内地居民赴港开会用往来港澳通行证加签注，不是签证。格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。
+# 这里写的是因私证件（公安出入境部门办理）。教职工因公赴港一般走学校的因公港澳通行证渠道，以本校外事部门的要求为准。
+id: hk
+name_zh: 香港
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: required
+  visa_zh: 往来港澳通行证 + 签注（学术交流一般办「其他签注（Q）」）
+  short_zh: 港澳通行证
+  conditions_zh: 每次在港逗留不超过 14 天；个人旅游签注（G）每次只能逗留 7 天。
+  conf: high
+  src: visa-hk-nia-endorsement
+  quote: "因就医、奔丧、探望危重病人、诉讼、应试、处理产业、学术交流等特殊事由申请赴香港或者澳门"
+apply:
+  - label_zh: 国家移民管理局政务服务平台
+    url: https://s.nia.gov.cn/
+fees:
+  - item: permit
+    amount: 60
+    currency: CNY
+    src: visa-hk-nia-endorsement
+    quote: "往来港澳通行证每证60元"
+  - item: endorsement_single
+    amount: 15
+    currency: CNY
+    src: visa-hk-nia-endorsement
+    quote: "往来港澳一次有效签注每件15元"
+facts:
+  - id: other_endorsement_stay
+    label_zh: 其他签注（Q）
+    text_zh: 按事由签发 3 个月一次或二次签注，每次在港逗留不超过 14 天。
+    src: visa-hk-nia-endorsement
+    quote: "可以根据事由签发3个月一次签注、3个月二次签注；有特殊情形确需多次前往香港或者澳门的，可签发3个月多次签注；每次在香港或者澳门逗留不超过14天"
+  - id: tourism_endorsement_stay
+    label_zh: 个人旅游签注（G）
+    text_zh: 个人旅游签注每次在港逗留不超过 7 天；在港超过 7 天的行程不能用它。
+    src: visa-hk-nia-endorsement
+    anchor: "4.个人旅游签注（G）。"
+    quote: "每次在香港逗留不超过7天"
+  - id: talent_endorsement
+    label_zh: 人才签注（R）
+    text_zh: 在北京、上海、粤港澳大湾区工作、符合条件的人才可以办人才签注；科研、文教人才是 3 年多次，每次逗留不超过 30 天。条件见服务指南。
+    src: visa-hk-nia-endorsement
+    quote: "杰出人才签发5年多次签注，科研、文教、卫健人才签发3年多次签注，法律、其他类人才签发1年多次签注；每次在香港或者澳门逗留不超过30天。"
+  - id: issue_time
+    label_zh: 签发时间
+    text_zh: 受理后 7 个工作日内签发，特殊情况可延长到 20 个工作日；在户籍地以外申请的 20 日内签发。
+    src: visa-hk-nia-endorsement
+    quote: "公安机关出入境管理部门受理往来港澳通行证申请后，应当在7个工作日内予以签发；单独受理签注申请后，应当在7个工作日内予以签发。"
+  - id: urgent
+    label_zh: 加急
+    text_zh: 出境参加紧急会议等急事可以申请优先办理。
+    src: visa-hk-nia-endorsement
+    quote: "出境参加紧急会议和谈判、签订合同及留学报到时间临近、行前证件遗失损毁等紧急事由急需申请往来港澳通行证、签注的，公安机关出入境管理部门应当按照急事急办原则，优先审批办理。"
+  - id: permit_validity
+    label_zh: 通行证有效期
+    text_zh: 通行证有效期不足 6 个月，或短于要申请的签注有效期的，要先换证。
+    src: visa-hk-nia-endorsement
+    quote: "往来港澳通行证有效期不足6个月，或者短于拟申请签注有效期的"
+documents:
+  - item_zh: 其他签注：与申请事由相关的材料原件和复印件
+    src: visa-hk-nia-endorsement
+    quote: "因其他特殊事由申请赴香港或者澳门，须交验与申请事由相关的申请材料原件，并提交复印件。"
+notices: []
+transit: []
+links:
+  - label_zh: 往来港澳通行证和签注签发服务指南
+    url: https://s.nia.gov.cn/mps/bszy/wlgaot/sqgowl/201903/t20190313_1002.html
+note_zh: 签发时间是法定时限，不是排队时间，本应用不倒推；主要看学校审批要多久。以出入境管理部门最新通知为准。

@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: gmp-2027
+series: gmp
+name: GMP 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/GMP
+  conf_id: gmp27
+  link: https://gmp-conference-2027.github.io/gmp2027/
+  place: Singapore
+  date: June 21-25, 2027
+  timezone: UTC
+location:
+  city: Singapore
+  country: Singapore
+  country_code: SG
+dates:
+  start: 2027-06-21
+  end: 2027-06-25
+milestones:
+  - type: abstract
+    at: 2026-12-14T23:59
+    tz: UTC
+    status: confirmed
+  - type: paper
+    at: 2026-12-21T23:59
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2027-06-21
+    end: 2027-06-25
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

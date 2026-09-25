@@ -1,0 +1,22 @@
+id: rsna-2027
+series: rsna
+name: RSNA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Chicago, country: USA, country_code: US }
+dates: { start: 2027-11-14, end: 2027-11-18 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/Chicago
+    note_zh: 查过 RSNA 年会页和摘要提交页，2027 届的摘要征集还没公布。
+  - type: conference
+    start: 2027-11-14
+    end: 2027-11-18
+    tz: America/Chicago
+    status: confirmed
+    src: rsna-future-meetings
+    quote: "2027: Nov. 14 to 18 Technical Exhibits close Nov. 17"
+last_checked: 2026-09-25
+note_zh: 2027 届比往年早约两周（11/14–18）。官网只公布了会期。

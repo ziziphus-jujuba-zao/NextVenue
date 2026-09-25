@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icde-2027
+sources:
+  - id: icde-2027-dates
+    url: https://icde2027.github.io/important-dates.html
+    title: ICDE 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:46:08Z
+    http_status: 200
+    snapshot: c58fbe29c190d4941082e778ce0c09cd5edde6b651cbf3a5a51cf4e27e8a0e06
+  - id: icde-2027-home
+    url: https://icde2027.github.io/
+    title: ICDE 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: a14a2edbaac3fd8616655062fb129e9cece53f10983704f5014caec2f549275f

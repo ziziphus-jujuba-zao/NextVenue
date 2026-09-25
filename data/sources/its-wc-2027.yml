@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: its-wc-2027
+sources:
+  - id: its-wc-2027-home
+    url: https://www.2027.itsworldcongress.com/
+    title: ITS World Congress 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:44Z
+    http_status: 200
+    snapshot: f633682a6e9b9d071ae6d0ad885913d2debde925be815e1047e169efa2a52c29

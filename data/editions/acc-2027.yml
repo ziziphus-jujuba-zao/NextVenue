@@ -1,0 +1,47 @@
+id: acc-2027
+series: acc
+name: ACC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Philadelphia, country: USA, country_code: US }
+dates: { start: 2027-07-07, end: 2027-07-09 }
+submission_type: full_paper
+submission_evidence:
+  src: acc-2027-author-info
+  quote: "A contributed paper should provide a complete description of finished work."
+  note_zh: 投稿最多 8 页；录用后 6 页免费，第 7、8 页每页 200 美元。另有 IEEE L-CSS + ACC 联合投稿通道（期刊严格 6 页）。
+milestones:
+  - type: paper
+    at: 2026-10-02
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: acc-2027-dates
+    quote: "ACC Manuscript Submission Friday, September 25, 2026 Friday, October 2, 2026, firm deadline"
+    note_zh: 原定 9/25，延期到 10/2，官网写明是最终截止（firm deadline）。官网只给日期、没写时刻和时区，按北京时间当天结束算，比按美国东部时间早 12 小时，更保守。在 PaperPlaza 提交。L-CSS + ACC 联合投稿 9/11 已截止。
+  - type: notification
+    at: 2027-01-22
+    tz: America/New_York
+    status: confirmed
+    src: acc-2027-dates
+    quote: "Notification of Acceptance/Rejection Friday, January 22, 2027"
+    note_zh: 官方只给日期。
+  - type: camera_ready
+    at: 2027-03-12
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: acc-2027-dates
+    quote: "Final Manuscript Submission Friday, March 12, 2027"
+    note_zh: 官方只给日期、没写时区，按北京时间当天结束算。
+  - type: conference
+    label_zh: 正会 7/7–9，会前 workshop 7/6
+    start: 2027-07-07
+    end: 2027-07-09
+    tz: America/New_York
+    status: confirmed
+    src: acc-2027-home
+    quote: "The 2027 American Control Conference (ACC) will be held Wednesday through Friday, July 7-9, 2027, at the Philadelphia Marriott Downtown."
+    note_zh: 首页写会前 workshop 在 7/6（周二）；2025-10-17 版 CFP PDF 写的是 7/5–6（“The pre-conference workshops will be held Monday through Tuesday, July 5-6, 2027.”），以首页为准。
+last_checked: 2026-09-25

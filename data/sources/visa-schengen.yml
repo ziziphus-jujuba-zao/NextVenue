@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-schengen
+sources:
+  - id: visa-schengen-eu-apply
+    url: https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en
+    title: European Commission · Applying for a Schengen visa
+    kind: policy
+    fetched_at: 2026-09-25T10:58:52Z
+    http_status: 200
+    snapshot: 39827b381cb0a88ffd32c32a04518d14d4fc5fef1fe89caa5c5ab614d615f8c2
+  - id: visa-schengen-de-fee-waiver
+    url: https://www.auswaertiges-amt.de/en/visa-service/215870-215870
+    title: German Federal Foreign Office · Schengen visa fee exemptions
+    kind: policy
+    fetched_at: 2026-09-25T10:58:53Z
+    http_status: 200
+    snapshot: 0abe9de6106644e95eb92e0d943c8279064cc0c6ffce26b3fb54ec8dc785ec87
+  - id: visa-schengen-cs-mfa-fr
+    url: https://cs.mfa.gov.cn/zggmcg/ljmdd/oz_652287/fg_653219/
+    title: 中国领事服务网 · 了解目的地：法国
+    kind: policy
+    fetched_at: 2026-09-25T10:58:54Z
+    http_status: 200
+    snapshot: f70f2b8679b62720dd7cd39a6436380532a3eb000d9d47a65513aa2fdee189fd

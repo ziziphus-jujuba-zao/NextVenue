@@ -1,0 +1,21 @@
+id: kdd-2027/visa-refund
+edition: kdd-2027
+family: refund
+question_zh: 拒签的话，注册费能退吗？
+short_zh: 拒签退款
+answer: allowed
+verification: human
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: 可以。退款截止后一般不退，但签证被拒的人例外。官方只写了“被拒”，没写签证一直没下来怎么办，也没写退多少、要交什么证明。
+detail_zh: 普通取消在截止前全额退款、扣 50 美元手续费；截止日期待公布。取消要写邮件到 registration@kdd.org。
+quotes:
+  - src: kdd-2027-faq
+    text: "No refunds will be granted after [exact date to be confirmed], 2027. Exceptions will be made for anyone whose visa request has been denied."
+effect:
+  kind: refund
+  trigger: visa_denied
+  full_until: refund_cutoff
+last_checked: 2026-09-25

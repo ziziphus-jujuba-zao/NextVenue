@@ -1,0 +1,55 @@
+id: aan-2027
+series: aan
+name: AAN 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: aan-2027-abstracts
+  quote: "Submit your abstract now in all subspecialties and career levels! Abstracts that have previously been presented or published may be included."
+location: { city: "Washington, D.C.", country: USA, country_code: US }
+dates: { start: 2027-05-01, end: 2027-05-05 }
+milestones:
+  - type: abstract
+    at: 2026-10-13T23:59
+    tz: America/Chicago
+    status: confirmed
+    src: aan-2027-abstracts
+    quote: "All abstract submissions are due by 11:59 p.m. CT on Tuesday, October 13, 2026"
+    note_zh: 每篇收不退的提交费；同一天也是随摘要向 Neurology 投全文（同步发表）的截止。
+  - type: profile_deadline
+    label_zh: 作者利益披露截止
+    at: 2026-11-19T23:59
+    tz: America/Chicago
+    status: confirmed
+    src: aan-2027-abstracts
+    quote: "All abstract authors must have an up-to-date complete disclosure statement on file by 11:59 p.m. CT on Thursday, November 19, 2026."
+  - type: notification
+    status: tba
+    tz: America/Chicago
+    src: aan-2027-abstracts
+    quote: "Late January: Abstract notifications sent from AAN@mirasmart.com via email to first authors"
+    note_zh: 官网只说 1 月下旬发给第一作者，没有具体日期。
+  - type: abstract
+    label_zh: 晚到摘要（Late-breaking Science）截止
+    start: 2026-12-01
+    end: 2027-02-10T23:59
+    tz: America/Chicago
+    status: confirmed
+    src: aan-2027-abstracts
+    quote: "February 10: Late-breaking Science abstract submissions due by 11:59 p.m. CT"
+    note_zh: 12/1 开放。只收关键工作在 10 月摘要截止之后完成的重要新结果，病例报告不收。
+  - type: early_registration
+    status: tba
+    tz: America/New_York
+    note_zh: 查过官网摘要页，早注册截止日还没公布；摘要页写明第一作者会收到早注册价的延长码。
+  - type: conference
+    start: 2027-05-01
+    end: 2027-05-05
+    tz: America/New_York
+    status: confirmed
+    src: aan-2027-abstracts
+    quote: "May 1–5: 2027 Annual Meeting in Washington, DC"
+last_checked: 2026-09-25
+note_zh: 录用摘要必须现场报告并注册；每人最多报告 5 篇，其中口头（platform）最多 2 篇。

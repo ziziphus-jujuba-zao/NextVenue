@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iscas-2027
+sources:
+  - id: iscas-2027-cfp
+    url: https://2027.ieee-iscas.org/call-for-papers
+    title: IEEE ISCAS 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:37Z
+    http_status: 200
+    snapshot: 1ce14b0d55e626319082d04744192a1713d4aa2926f16b54f104d5f7f233b0de

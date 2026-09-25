@@ -1,0 +1,34 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ica3pp-2026
+series: ica3pp
+name: ICA3PP 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ICA3PP
+  conf_id: ica3pp26
+  link: https://hpcn.exeter.ac.uk/ica3pp2026/
+  place: Exeter, UK
+  date: October 26-28, 2026
+  timezone: AoE
+location:
+  city: Exeter
+  country: UK
+  country_code: GB
+dates:
+  start: 2026-10-26
+  end: 2026-10-28
+milestones:
+  - type: paper
+    at: 2026-07-25T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Paper Submission Due"
+  - type: conference
+    start: 2026-10-26
+    end: 2026-10-28
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

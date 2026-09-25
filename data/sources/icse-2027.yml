@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icse-2027
+sources:
+  - id: icse-2027-research
+    url: https://conf.researchr.org/track/icse-2027/icse-2027-research-track
+    title: ICSE 2027 Research Track
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: f910f44beb89484c9737f0e0500f055fac4424b7277a86dcb758c00d0a0fce67
+  - id: icse-2027-home
+    url: https://conf.researchr.org/home/icse-2027
+    title: ICSE 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: cfb7c46609d4285095c7ace72bc16c5c982d47a4a248c43164cc56431e88a17a

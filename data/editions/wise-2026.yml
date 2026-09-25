@@ -1,0 +1,34 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: wise-2026
+series: wise
+name: WISE 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/WISE
+  conf_id: wise26
+  link: https://conferences.sigappfr.org/wise2026/
+  place: Venice, Italy
+  date: November 2-5, 2026
+  timezone: AoE
+location:
+  city: Venice
+  country: Italy
+  country_code: IT
+dates:
+  start: 2026-11-02
+  end: 2026-11-05
+milestones:
+  - type: paper
+    at: 2026-06-30T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Extended submission deadline"
+  - type: conference
+    start: 2026-11-02
+    end: 2026-11-05
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

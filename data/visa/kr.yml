@@ -1,0 +1,79 @@
+# 韩国：中国大陆普通护照赴韩开会。格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。
+# 韩国驻华使馆的《签证申请及签发程序》PDF（含各类签证的办理时间）挂在 overseas.mofa.go.kr 的下载链接后面，
+# 该链接要求浏览器 cookie 验证，快照工具取不到，所以办理时间写 unverified。
+# 《签证种类及所需材料》是使馆领事部的文件，由使馆指定的北京签证申请中心（KVAC）转载，快照取自那里。
+id: kr
+name_zh: 韩国
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: required
+  visa_zh: 短期一般签证（C-3-1）
+  conditions_zh: 按韩方在华领区划分递交，原则上在户籍所在地的领区申请。
+  conf: high
+  src: visa-kr-cs-mfa
+  quote: "中国公民赴韩需根据韩方在华领区划分，在韩国驻华使馆领事处或驻上海、青岛、广州、沈阳、成都、西安、武汉、香港总领事馆申请签证（部分符合无签证入境许可条件者除外）。"
+  note_zh: 济州岛免签、团体旅游免签等不适用于个人去首尔等地开会。
+apply:
+  - label_zh: 北京签证申请中心（其他领区见使馆页面）
+    url: https://www.visaforkorea-bj.com/
+fees:
+  - item: visa
+    amount: 280
+    currency: CNY
+    src: visa-kr-shanghai-procedure
+    quote: "单次签证 短期签证 280 元 140 元 120 元"
+    note_zh: 单次、停留 90 天以内的签证费；同一行后两项是加急费 140 元和签证中心手续费 120 元。驻上海总领馆页面发布于 2019-07-13，以使领馆最新通知为准。
+  - item: service_center
+    amount: 120
+    currency: CNY
+    src: visa-kr-kvac-fees
+    quote: "普通：CNY 120元/件"
+    note_zh: 签证申请中心的代办手续费，另外收取。
+facts:
+  - id: district
+    label_zh: 在哪个领区申请
+    text_zh: 原则上在户籍所在地所属的使领馆领区申请，因私护照在该领区的签证申请中心递交。
+    src: visa-kr-shanghai-procedure
+    quote: "签证申请原则上是在户籍地管辖地区的领馆申请"
+  - id: c31_scope
+    label_zh: 适用签证
+    text_zh: 参加各种活动或会议、收集学术资料等短期访问，申请 C-3-1 短期一般签证。
+    src: visa-kr-types
+    quote: "以参加各种活动或会议、文化艺术、宗教"
+  - id: stay
+    label_zh: 停留期和有效期
+    text_zh: 停留 90 天以内，签证有效期三个月。
+    src: visa-kr-types
+    quote: "※ 停留期 90 天以内，有效期三个月"
+  - id: passport_validity
+    label_zh: 护照有效期
+    text_zh: 申请时护照剩余有效期原则上要超过 6 个月 10 天。
+    src: visa-kr-types
+    quote: "所持护照剩余有效期原则上应超过 6个月10日以上"
+lead:
+  status: unverified
+  note_zh: 使馆《签证申请及签发程序》写有各类签证的办理时间（工作日），但文件需要浏览器验证才能下载，本应用未能留存快照，不做倒推。请看使馆页面。
+documents:
+  - item_zh: 基本材料：签证申请表、1 张照片、护照、身份证
+    src: visa-kr-types
+    quote: "【基本材料】签证申请表，1 张照片，护照，身份证"
+  - item_zh: 韩方邀请函（写明邀请事由和归国保证等内容）
+    src: visa-kr-types
+    quote: "1. 邀请函(含邀请事由和归国保证书等内容)"
+  - item_zh: 韩方邀请机构的事业者登录证或固有代码证复印件
+    src: visa-kr-types
+    quote: "2. 事业者登录证(明)或固有代码证复印件"
+  - item_zh: 本人单位的营业执照副本（组织机构代码证）复印件和在职证明
+    src: visa-kr-types
+    quote: "营业执照副本（组织机构代码证）复印件及在职证明"
+notices: []
+transit: []
+links:
+  - label_zh: 韩国驻华使馆 · 签证申请程序
+    url: https://overseas.mofa.go.kr/cn-zh/brd/m_23455/view.do?seq=5
+  - label_zh: 韩国驻华使馆 · 签证种类及所需材料
+    url: https://overseas.mofa.go.kr/cn-zh/brd/m_1201/list.do
+  - label_zh: 韩国签证门户（法务部）
+    url: https://www.visa.go.kr/
+note_zh: 邀请函等韩方材料要提前请主办方准备。以韩国驻华使领馆最新通知为准。

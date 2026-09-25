@@ -1,0 +1,564 @@
+Skip to content
+IEEE.org | IEEE Xplore Digital Library | IEEE Standards | IEEE Spectrum | More Sites
+
+Join IEEE
+
+Search
+
+Skip Navigation
+ * About
+   * Who We Are
+     * About PELS
+     * Society History
+     * PELS Day
+     * IEEE Sister Societies
+     * Sponsorship Opportunities
+     * Collaboration and Engagement
+   * Leadership
+     * Administrative Committee
+     * Other Committees
+     * Governing Documents
+     * Previous Officers
+     * Staff
+   * *
+ * Membership
+   * Members
+     * Become a Member
+     * Member Benefits
+     * Fellows
+     * Senior Members
+     * Student Members
+     * Volunteer
+     * In Memoriam
+   * Groups
+     * Mentorship
+     * Women In Engineering
+     * Young Professionals
+   * Chapters & Resources
+     * Chapters
+     * Chapter Locator
+     * Chair Resources and Tools
+     * Distinguished Lecturer Programs
+     * Industry Internship Scholarship
+   * Career Center
+
+     * A resource that will prepare you for your next opportunity.
+
+       View Career Center
+ * Conferences
+   * About
+     * Overview
+     * Conference Schedule
+   * Resources
+     * Open Calls for Conferences
+     * Information for Organizers
+   * Events and Activities
+
+     * See all PELS-related activities, events, and meetings at conferences.
+
+       View Calendar
+ * Publications
+   * PELS Publications
+     * Overview
+     * Transactions on Power Electronics
+     * Open Journal of Power Electronics
+     * Power Electronics Magazine
+   * Co-Sponsored
+     * Journal of Emerging and Selected Topics in Power Electronics
+     * Transactions on Transportation Electrification
+     * Journal on Wireless Power Technologies
+   * Information for Authors
+     * Information for Authors
+     * Open Calls for Papers
+     * IEEE Author Center
+     * IEEE Author Portal
+   * AI Search
+
+     * Explore a new way to search articles with artificial intelligence.
+
+       View AI Search
+ * Education
+   * About
+     * Overview
+     * Global Relations
+     * Educational Outreach
+     * University Lab Kits
+     * Research Institutions
+     * Resource Center
+   * Digital Media
+     * PELSTube
+     * Webinars
+     * Podcasts
+   * Student Opportunities
+     * PELS Ph.D. Thesis Talk (P3 Talk)
+     * International Future Energy Challenge
+     * Ph.D. Schools
+     * Student Travel Grants
+   * Resources
+
+     * Access lectures, podcasts, webinars, and much more.
+
+       View Resource Center
+ * Technical Operations
+   * Programs
+     * Overview
+     * Industry Engagement
+     * PELS Energy Access Committee
+     * Standards Development
+   * Roadmaps
+     * Power Electronics for Distributed Energy Resources (ITRD)
+     * High-Power Electronics for Modern Energy Grids (ITRG)
+     * Wide Bandgap Power Semiconductors (ITRW)
+   * Technical Committees
+     * * Overview
+       * 1: Control and Modeling of Power Electronics
+       * 2: Power Components, Integration, and Power ICs
+       * 3: Electrical Machines, Drives and Automation
+       * 4: Electrified Transportation Systems
+       * 5: Sustainable Energy Systems
+   * Technical Committees 2
+     * 6: Emerging Power Electronic Technologies
+     * 7: Critical Power and Energy Storage Systems
+     * 8: Electronic Power Grid Systems
+     * 9: Wireless Power Transfer Systems
+     * 10: Design Methodologies and AI Tools
+     * 11: Aerospace Power
+     * 12: Energy Access and Off-Grid Systems
+ * Awards
+   * Awards
+   * IEEE Awards Achievements Service Chapters Publications Students
+      * Medal in Power Engineering
+      * Transportation Technologies Award
+
+      * William E. Newell Power Electronics Award
+
+      * Award for Achievements in Power Electronics Education
+      * Award for Achievement in Power Electronics Standards
+      * Electrical Machines, Drives and Related Automation Technical Achievement Award
+      * Energy Storage Innovation Award
+      * Global Membership Development Award
+      * McMurray Award for Industry Achievements in Power Electronics
+      * Milan M. Jovanović Award for Power Electronics Emerging Technology
+      * Modeling and Control Technical Achievement Award
+
+      * Outstanding Achievement Award in Aerospace Power
+      * Outstanding Achievement Award for Contributions in Electronic Power Grid Technology
+      * R. David Middlebrook Achievement Award
+      * Richard M. Bass Outstanding Young Power Electronics Engineer Award
+      * Sustainable Energy Systems Technical Achievement Award
+      * Technical Achievement Award for Integration and Miniaturization of Switching Power Converters
+      * Vehicle and Transportation Systems Achievement Award
+
+      * Harry A. Owen, Jr. Distinguished Service Award
+
+      * Young Professional Exceptional Service Award
+
+      * Best PELS Chapter
+
+      * Best PELS Student Branch Chapter
+
+      * Journal of Emerging and Selected Topics in Power Electronics Prize Paper
+      * Power Electronics Prize Letter
+      * Transactions on Power Electronics Prize Paper
+
+      * Transactions on Transportation Electrification Prize Paper
+      * Open Journal of Power Electronics Prize Paper
+
+      * Graduate Studies Scholarship and Jan Abraham “Braham” Ferreira Scholarship
+      * Graduate Studies Fellowship and John G. Kassakian Fellowship
+
+      * Joseph John Suozzi INTELEC® Fellowship Award in Power Electronics
+      * PELS Ph.D. Thesis Talk (P3 Talk)
+ * News & Media
+   * News
+
+     * Find out what is happening in PELS.
+
+       View News
+   * Events
+
+     * Discover and register for upcoming events.
+
+       View Calendar
+   * Video Platforms
+
+     * Watch videos that focus on power electronics and PELS activities.
+
+       View Channel on IEEE.TV
+
+       View PELSTube Channel
+
+Close
+Search
+
+Skip Navigation
+ * About
+   * Who We Are
+     * About PELS
+     * Society History
+     * PELS Day
+     * IEEE Sister Societies
+     * Sponsorship Opportunities
+     * Collaboration and Engagement
+   * Leadership
+     * Administrative Committee
+     * Other Committees
+     * Governing Documents
+     * Previous Officers
+     * Staff
+   * *
+ * Membership
+   * Members
+     * Become a Member
+     * Member Benefits
+     * Fellows
+     * Senior Members
+     * Student Members
+     * Volunteer
+     * In Memoriam
+   * Groups
+     * Mentorship
+     * Women In Engineering
+     * Young Professionals
+   * Chapters & Resources
+     * Chapters
+     * Chapter Locator
+     * Chair Resources and Tools
+     * Distinguished Lecturer Programs
+     * Industry Internship Scholarship
+   * Career Center
+
+     * A resource that will prepare you for your next opportunity.
+
+       View Career Center
+ * Conferences
+   * About
+     * Overview
+     * Conference Schedule
+   * Resources
+     * Open Calls for Conferences
+     * Information for Organizers
+   * Events and Activities
+
+     * See all PELS-related activities, events, and meetings at conferences.
+
+       View Calendar
+ * Publications
+   * PELS Publications
+     * Overview
+     * Transactions on Power Electronics
+     * Open Journal of Power Electronics
+     * Power Electronics Magazine
+   * Co-Sponsored
+     * Journal of Emerging and Selected Topics in Power Electronics
+     * Transactions on Transportation Electrification
+     * Journal on Wireless Power Technologies
+   * Information for Authors
+     * Information for Authors
+     * Open Calls for Papers
+     * IEEE Author Center
+     * IEEE Author Portal
+   * AI Search
+
+     * Explore a new way to search articles with artificial intelligence.
+
+       View AI Search
+ * Education
+   * About
+     * Overview
+     * Global Relations
+     * Educational Outreach
+     * University Lab Kits
+     * Research Institutions
+     * Resource Center
+   * Digital Media
+     * PELSTube
+     * Webinars
+     * Podcasts
+   * Student Opportunities
+     * PELS Ph.D. Thesis Talk (P3 Talk)
+     * International Future Energy Challenge
+     * Ph.D. Schools
+     * Student Travel Grants
+   * Resources
+
+     * Access lectures, podcasts, webinars, and much more.
+
+       View Resource Center
+ * Technical Operations
+   * Programs
+     * Overview
+     * Industry Engagement
+     * PELS Energy Access Committee
+     * Standards Development
+   * Roadmaps
+     * Power Electronics for Distributed Energy Resources (ITRD)
+     * High-Power Electronics for Modern Energy Grids (ITRG)
+     * Wide Bandgap Power Semiconductors (ITRW)
+   * Technical Committees
+     * * Overview
+       * 1: Control and Modeling of Power Electronics
+       * 2: Power Components, Integration, and Power ICs
+       * 3: Electrical Machines, Drives and Automation
+       * 4: Electrified Transportation Systems
+       * 5: Sustainable Energy Systems
+   * Technical Committees 2
+     * 6: Emerging Power Electronic Technologies
+     * 7: Critical Power and Energy Storage Systems
+     * 8: Electronic Power Grid Systems
+     * 9: Wireless Power Transfer Systems
+     * 10: Design Methodologies and AI Tools
+     * 11: Aerospace Power
+     * 12: Energy Access and Off-Grid Systems
+ * Awards
+   * Awards
+   * IEEE Awards Achievements Service Chapters Publications Students
+      * Medal in Power Engineering
+      * Transportation Technologies Award
+
+      * William E. Newell Power Electronics Award
+
+      * Award for Achievements in Power Electronics Education
+      * Award for Achievement in Power Electronics Standards
+      * Electrical Machines, Drives and Related Automation Technical Achievement Award
+      * Energy Storage Innovation Award
+      * Global Membership Development Award
+      * McMurray Award for Industry Achievements in Power Electronics
+      * Milan M. Jovanović Award for Power Electronics Emerging Technology
+      * Modeling and Control Technical Achievement Award
+
+      * Outstanding Achievement Award in Aerospace Power
+      * Outstanding Achievement Award for Contributions in Electronic Power Grid Technology
+      * R. David Middlebrook Achievement Award
+      * Richard M. Bass Outstanding Young Power Electronics Engineer Award
+      * Sustainable Energy Systems Technical Achievement Award
+      * Technical Achievement Award for Integration and Miniaturization of Switching Power Converters
+      * Vehicle and Transportation Systems Achievement Award
+
+      * Harry A. Owen, Jr. Distinguished Service Award
+
+      * Young Professional Exceptional Service Award
+
+      * Best PELS Chapter
+
+      * Best PELS Student Branch Chapter
+
+      * Journal of Emerging and Selected Topics in Power Electronics Prize Paper
+      * Power Electronics Prize Letter
+      * Transactions on Power Electronics Prize Paper
+
+      * Transactions on Transportation Electrification Prize Paper
+      * Open Journal of Power Electronics Prize Paper
+
+      * Graduate Studies Scholarship and Jan Abraham “Braham” Ferreira Scholarship
+      * Graduate Studies Fellowship and John G. Kassakian Fellowship
+
+      * Joseph John Suozzi INTELEC® Fellowship Award in Power Electronics
+      * PELS Ph.D. Thesis Talk (P3 Talk)
+ * News & Media
+   * News
+
+     * Find out what is happening in PELS.
+
+       View News
+   * Events
+
+     * Discover and register for upcoming events.
+
+       View Calendar
+   * Video Platforms
+
+     * Watch videos that focus on power electronics and PELS activities.
+
+       View Channel on IEEE.TV
+
+       View PELSTube Channel
+
+Close
+
+Conference Schedule
+
+Home / Conferences / Conference Schedule
+
+Conference Schedule
+
+All Upcoming Events
+
+Below is a full list of upcoming PELS-sponsored events. For more information, please check the event’s website by clicking the event name.
+
+Information for Organizers
+
+View what is involved in organizing a PELS-sponsored conference and available resources.
+
+Learn More
+Filter:   RESULTS ARE FILTERED
+
+Event                                                          Date                        Location                              Sponsorship              Format
+
+2026 IEEE Workshop on Power Electronics for Aerospace          29 – 30 September           Nuremberg, Germany                    Sponsored                In Person
+Applications in Europe (PEASA-Europe)
+
+2026 IEEE Energy Conversion Congress and Exposition (ECCE)     04 – 08 October             Vancouver, British Columbia, Canada   Co-sponsored             In Person
+
+2026 Fourth International Conference on Sustainable Mobility   18 – 21 October             Amman, Jordan                         Technical Co-sponsored   In Person
+Applications, Renewables and Technology (SMART)
+
+2026 IEEE Conference on Energy Conversion (CENCON)             26 – 27 October             Putrajaya, Malaysia                   Technical Co-sponsored   In Person
+
+2026 IEEE 13th Workshop on Wide Bandgap Power Devices and      26 – 28 October             Burlington, Vermont, USA              Co-sponsored             In Person
+Applications (WiPDA)
+
+2026 IEEE International Conference on Electrical Systems for   27 – 30 October             Toulouse, France                      Co-sponsored             In Person
+Aircraft, Railway, Ship Propulsion and Road Vehicles &
+International Transportation Electrification Conference
+(ESARS-ITEC)
+
+2026 XVI International Symposium on Industrial Electronics     04 – 06 November            Banja Luka, Bosnia and Herzegovina    Technical Co-sponsored   Hybrid
+and Applications (INDEL)
+
+2026 IEEE International Power Electronics and Application      05 – 08 November            Suzhou, China                         Co-sponsored             In Person
+Conference and Exposition (PEAC)
+
+2026 IEEE 11th Workshop on the Electronic Grid (eGRID)         09 – 11 November            Seoul, Korea (South)                  Sponsored                In Person
+
+2026 IEEE Design Methodologies Conference (DMC)                18 – 20 November            Aalborg, Denmark                      Sponsored                In Person
+
+2026 IEEE Transportation Electrification Conference and        01 – 04 December            Busan, Korea (South)                  Co-sponsored             In Person
+Expo, Asia-Pacific (ITEC Asia-Pacific)
+
+2026 CPSS & IEEE International Symposium on Energy Storage     07 – 10 December            Hong Kong, Hong Kong                  Co-sponsored             In Person
+and Conversion (ISESC)
+
+2026 IEEE 11th Southern Power Electronics Conference (SPEC)    08 – 11 December            Cartagena, Colombia                   Sponsored                In Person
+
+2026 IEEE International Conference on Power Electronics,       16 – 19 December            Guwahati, India                       Co-sponsored             In Person
+Drives and Energy Systems (PEDES)
+
+2026 27th International Middle East Power Systems Conference   21 – 23 December            Alexandria, Egypt                     Technical Co-sponsored   In Person
+(MEPCON)
+
+2027 IEEE Texas Power and Energy Conference (TPEC)             07 – 09 February            College Station, Texas, USA           Technical Co-sponsored   In Person
+
+2027 IEEE International Workshop on Integrated Power           01 – 03 March               Kitakyushu, Japan                     Co-sponsored             In Person
+Packaging (IWIPP)
+
+2027 Sixth International Conference on Power, Control and      03 – 05 March               Raipur, India                         Technical Co-sponsored   Hybrid
+Computing Technologies (ICPC2T)
+
+2027 IEEE Applied Power Electronics Conference and             07 – 11 March               New Orleans, Louisiana, USA           Co-sponsored             In Person
+Exposition (APEC)
+
+2027 IEEE International Communications Energy Conference       18 – 21 April               Fukuoka, Japan                        Sponsored                In Person
+(INTELEC)
+
+2027 IEEE International Electric Machines & Drives             17 – 20 May                 Milwaukee, Wisconsin, USA             Co-sponsored             In Person
+Conference (IEMDC)
+
+2027 12th International Conference on Power Electronics and    23 – 26 May                 Seoul, Korea (South)                  Co-sponsored             In Person
+ECCE Asia (ICPE 2027 - ECCE Asia)
+
+2027 IEEE South Asia Power Electronics Conference (SAPEC)      03 – 05 June                Mumbai, India                         Sponsored                In Person
+
+2027 IEEE International Conference on Predictive Control of    03 – 06 June                Beijing, China                        Sponsored                In Person
+Electrical Drives and Power Electronics (PRECEDE)
+
+2027 IEEE 12th Workshop on the Electronic Grid (eGRID)         13 – 16 June                Edmonton, Alberta, Canada             Sponsored                In Person
+
+2027 IEEE 18th International Symposium on Power Electronics    13 – 16 June                Edmonton, Alberta, Canada             Sponsored                In Person
+for Distributed Generation Systems (PEDG)
+
+2027 IEEE 27th Workshop on Control and Modeling for Power      13 – 16 June                Austin, Texas, USA                    Sponsored                In Person
+Electronics (COMPEL)
+
+2027 IEEE 39th International Symposium on Power                13 – 17 June                Taipei, Taiwan                        Technical Co-sponsored   In Person
+Semiconductor Devices and ICs (ISPSD)
+
+2027 IEEE Transportation Electrification Conference & Expo     16 – 18 June                Novi, Michigan, USA                   Co-sponsored             In Person
+(ITEC)
+
+2027 IEEE Wireless Power Technology Conference and Expo        18 – 21 June                Chongqing, China                      Co-sponsored             In Person
+(WPTCE)
+
+2027 IEEE Nineth International Conference on DC Microgrids     30 June – 02 July           Christchurch, New Zealand             Sponsored                In Person
+(ICDCM)
+
+2027 IEEE Electric Ship Technologies Symposium (ESTS)          03 – 06 August              Alexandria, Virginia, USA             Co-sponsored             In Person
+
+2027 IEEE Asia Workshop on Wide-Band-Gap Power Devices and     22 – 25 August              Kyoto, Japan                          Sponsored                In Person
+Applications (WiPDA Asia)
+
+2027 Energy Conversion Congress & Expo Europe (ECCE Europe)    30 August – 02 September    Aachen, Germany                       Co-sponsored             In Person
+
+2027 IEEE International Symposium on Sensorless Control for    08 – 10 September           Modena, Italy                         Sponsored                In Person
+Electrical Drives (SLED)
+
+2027 IEEE Energy Conversion Congress & Exposition (ECCE)       12 – 17 September           Providence, Rhode Island, USA         Co-sponsored             In Person
+
+2027 IEEE FutureGrid Conference and Expo (FutureGrid)          04 – 06 October             Denver, Colorado, USA                 Technical Co-sponsored   In Person
+
+2027 IEEE 12th Southern Power Electronics Conference (SPEC)    28 November – 01 December   Rio de Janeiro, Brazil                Co-sponsored             In Person
+
+2027 IEEE Transportation Electrification Conference and        06 – 09 December            Bangkok, Thailand                     Co-sponsored             Hybrid
+Expo, Asia-Pacific (ITEC Asia-Pacific)
+
+2028 IEEE Applied Power Electronics Conference and             05 – 09 March               Phoenix, Arizona, USA                 Co-sponsored             In Person
+Exposition (APEC)
+
+2028 IEEE Energy Conversion Congress and Exposition (ECCE)     21 – 27 October             Las Vegas, Nevada, USA                Co-sponsored             In Person
+
+2029 Energy Conversion Congress & Exposition - Latin America   14 – 18 January             Santiago, Chile                       Co-sponsored             In Person
+& Caribbean (ECCE-LAC)
+
+2029 IEEE Applied Power Electronics Conference and             25 – 29 March               , District of Columbia, USA           Co-sponsored             In Person
+Exposition (APEC)
+
+2030 IEEE Applied Power Electronics Conference and             17 – 21 March               Portland, Oregon, USA                 Co-sponsored             In Person
+Exposition (APEC)
+NO RESULTS
+
+Sign Up To Our Newsletter
+
+Sign up to read about PELS upcoming events, Webinars, Call for Papers and more… delivered to your inbox.
+
+Email Address(Required)
+
+First Name
+
+Last Name
+
+Select Newsletter(Required)
+Select Newsletter *e-NewsletterConferencesProducts
+Privacy Policy(Required)
+I Agree to the IEEE Privacy Policy
+
+Sign Up
+
+We Would Love Your Feedback
+
+Do you have ideas on how to improve our website?  Click here to provide us with your feedback.
+
+Stay connected with IEEE PELS! Follow us on social media or become an IEEE member.
+
+Connect:
+
+Facebook Instagram Linkedin X Logo Black Ieee Collabratec IEEE TV Logo Microphone-alt
+Join IEEE
+ * Home
+ * More Sites
+ * Contact
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms
+
+ * Home
+ * More Sites
+ * Contact
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms
+
+© Copyright 2026 IEEE – All rights reserved. A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.

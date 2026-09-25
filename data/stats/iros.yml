@@ -1,0 +1,104 @@
+# IROS 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: iros
+rows:
+  - year: 2020
+    track: main
+    status: third_party
+    submissions: 2996
+    rate: 47.4
+    rate_text: 47.4%
+    rate_basis: stated
+    definition_zh: 含带 IROS 选项的 RA-L 论文
+    source_url: https://www.jstage.jst.go.jp/article/jrsj/39/3/39_39_238/_pdf/-char/ja
+    quote: 本会での投稿総件数は ... 図 1 に示すように，2,996 件（前年度比 20%増）であった ... 今回の採択率は全体で 47.4%
+    src: iros-2020-rsj-report
+    quote_check: snapshot
+    relay_zh: 日本机器人学会会刊的会议报告
+    note_zh: 没有公布录用篇数
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: third_party
+    submissions: 2821
+    accepted: 1266
+    rate: 45.5
+    rate_text: 45.5%
+    rate_basis: stated
+    definition_zh: 含带 IROS 选项的 RA-L 论文
+    source_url: https://www.jstage.jst.go.jp/article/jrsj/40/5/40_40_414/_pdf
+    quote: 本会での投稿総件数は，2,821 件（前年度比 6%減）であった．採択率は全体で 45.5%であり，1,266 件の採択となった．内訳については 951 件が IROS only の full paper として，315 件が RA-L のオプションとして採択されている．
+    src: iros-2021-rsj-report
+    quote_check: snapshot
+    relay_zh: 日本机器人学会会刊的会议报告
+    mismatch_zh: 报告写 45.5%，按报告里的数字算是 44.9%
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 3579
+    accepted: 1716
+    rate: 47.9
+    rate_text: 47.9%
+    rate_basis: stated
+    definition_zh: 含带 IROS 选项的 RA-L 论文
+    source_url: https://iros2022.org/
+    quote: For this year’s IROS conference, we received a total of 3579 paper submissions, including 2288 regular paper submissions and 1291 submissions to Robotics and Automation Letters (RA-L) with the IROS option, from 57 countries and regions. Upon a careful review of the papers, 1716 papers were accepted into the IROS program representing an acceptance rate of 47.9%.
+    src: iros-2022-home
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: third_party
+    submissions: 2760
+    accepted: 1196
+    rate: 43.3
+    rate_text: 43.3%
+    rate_basis: stated
+    definition_zh: 只算会议论文；期刊转投另算
+    source_url: https://staff.aist.go.jp/k.koide/evidence.html?id=iros2023
+    quote: This year the conference received 2,760 contributed paper submissions from around the world. From the very large number of high-quality papers, we selected 1,196 for publication and presentation, which represents an acceptance rate of 43.3%.
+    quote_check: manual
+    relay_zh: AIST 小出（K. Koide）页面转录的主办方决定邮件
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: third_party
+    submissions: 3344
+    accepted: 1587
+    rate: 47.5
+    rate_text: 47.5%
+    rate_basis: stated
+    definition_zh: 只算会议论文；期刊转投另算
+    source_url: https://staff.aist.go.jp/k.koide/evidence.html?id=iros2024
+    quote: "This year the conference received 3,645 paper submissions from 61 countries/regions: 3,344 as IROS 2024 submission and 301 transferred from the IEEE Journals (TRO, RAL, RAM, TASE). From the very large number of high-quality papers, we selected 1,587 for presentation, which represents an acceptance rate of 47,5%."
+    quote_check: manual
+    relay_zh: AIST 小出（K. Koide）页面转录的主办方决定邮件
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 4306
+    accepted: 1991
+    rate: 46
+    rate_text: 46%
+    rate_basis: stated
+    definition_zh: 只算会议论文；期刊转投另算
+    source_url: https://www.iros25.org/templates/iros2025/doc/IROS2025-Digest.pdf
+    quote: "We are delighted to announce that IROS 2025 received 5,083 submissions from 66 countries and regions, including 4,306 conference papers and 777 journal transfers (from RA-L, RA-P, T-RO, T-FR, T-ASE, RA-M, T-IE, T-II, and T-MECH). Following a rigorous review process led by the IROS Conference Paper Review Board, 1,991 conference papers have been accepted (acceptance rate: 46%)."
+    quote_check: manual
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: third_party
+    submissions: 4348
+    accepted: 1585
+    rate: 36
+    rate_text: 36%
+    rate_basis: stated
+    definition_zh: 会议论文
+    source_url: https://staff.aist.go.jp/k.koide/evidence.html?id=iros2026
+    quote: This year the conference received 4,348 contributed paper submissions. From these papers, we accepted 1,585, which represents an acceptance rate of 36%.
+    quote_check: manual
+    relay_zh: AIST 小出（K. Koide）页面转录的主办方决定邮件
+    checked: 2026-09-25

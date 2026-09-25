@@ -1,0 +1,10 @@
+id: aiaa-scitech
+acronym: AIAA SciTech
+full_name: AIAA SciTech Forum
+directions: [eng/aero, eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 1 月
+data_level: curated
+note_zh: AIAA GNC（导航、制导与控制）会议现在作为 SciTech 的 GNC 分会举办。

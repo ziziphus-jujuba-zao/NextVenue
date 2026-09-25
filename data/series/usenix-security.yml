@@ -1,0 +1,13 @@
+id: usenix-security
+acronym: USENIX Security
+full_name: USENIX Security Symposium
+aliases: [USS]
+directions: [cs/security]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/uss
+ccfddl: SC/USENIX Security
+data_level: curated
+note_zh: 一年两轮投稿（Cycle 1、Cycle 2），两轮录用的论文都进同一届会议。

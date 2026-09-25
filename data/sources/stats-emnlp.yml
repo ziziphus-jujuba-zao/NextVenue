@@ -1,0 +1,52 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-emnlp
+sources:
+  - id: emnlp-2020-front-matter
+    url: https://aclanthology.org/2020.emnlp-main.0.pdf
+    title: EMNLP 2020 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:26Z
+    http_status: 200
+    snapshot: 0f3b1e62120a9a2fa0480dfdf0774bd482918898f6114a7d20c6b0dc6cd5eb38
+  - id: emnlp-2020-findings-front-matter
+    url: https://aclanthology.org/2020.findings-emnlp.0.pdf
+    title: Findings of EMNLP 2020 front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:28Z
+    http_status: 200
+    snapshot: 008bc7146bcd67d9870a0848d08e3152ce2d2e503e92b30e0e321b88a77add6e
+  - id: emnlp-2021-front-matter
+    url: https://aclanthology.org/2021.emnlp-main.0.pdf
+    title: EMNLP 2021 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:30Z
+    http_status: 200
+    snapshot: dc30526096f42fbf1bb11c64c98b537e355bc1b0e003aa54522136ea58dfe048
+  - id: emnlp-2022-front-matter
+    url: https://aclanthology.org/2022.emnlp-main.0.pdf
+    title: EMNLP 2022 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:37Z
+    http_status: 200
+    snapshot: 3434f294e588fb30f41f320602ff7afa9eb9fca7b0e299370f45f1ffb1d71451
+  - id: emnlp-2023-front-matter
+    url: https://aclanthology.org/2023.emnlp-main.0.pdf
+    title: EMNLP 2023 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:41Z
+    http_status: 200
+    snapshot: 9c25e66a93d9b8b87df5429e932d0a8ab8c691ce6dcd1686b08fb40d11244277
+  - id: emnlp-2024-front-matter
+    url: https://aclanthology.org/2024.emnlp-main.0.pdf
+    title: EMNLP 2024 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:44Z
+    http_status: 200
+    snapshot: b7a038280dfc610fb6d15690ca15c6ee256dc0a0ff9472f21fe5599da2e83902
+  - id: emnlp-2025-front-matter
+    url: https://aclanthology.org/2025.emnlp-main.0.pdf
+    title: EMNLP 2025 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:47Z
+    http_status: 200
+    snapshot: aa32ab69b3957f51a6911f87e1ef8ffc39ebf4e6a274f2ca2109226ca3653046

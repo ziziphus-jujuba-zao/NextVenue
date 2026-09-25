@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: acns-2027
+series: acns
+name: ACNS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/ACNS
+  conf_id: acns27
+  link: https://acns2027.isg.rhul.ac.uk/
+  place: Royal Holloway, Egham, UK
+  date: June 28 - July 1, 2027
+  timezone: AoE
+location:
+  city: Royal Holloway
+  country: UK
+  country_code: GB
+dates:
+  start: 2027-06-28
+  end: 2027-07-01
+milestones:
+  - type: paper
+    at: 2026-09-24T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Cycle 1 Submission deadline
+  - type: paper
+    at: 2027-01-21T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Cycle 2 Submission deadline
+  - type: conference
+    start: 2027-06-28
+    end: 2027-07-01
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

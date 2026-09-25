@@ -1,0 +1,12 @@
+id: icip
+acronym: ICIP
+full_name: IEEE International Conference on Image Processing
+aliases: [IEEE ICIP, The IEEE International Conference on Image Processing]
+directions: [cs/cv, cs/speech]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/icip
+ccfddl: CG/ICIP
+data_level: curated

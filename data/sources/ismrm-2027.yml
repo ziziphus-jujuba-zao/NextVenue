@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ismrm-2027
+sources:
+  - id: ismrm-2027-home
+    url: https://www.ismrm.org/27m/
+    title: 2027 ISMRM & ISMRT Annual Meeting
+    kind: cfp
+    fetched_at: 2026-09-25T15:56:56Z
+    http_status: 200
+    snapshot: 6a2e4b0aef092fcbd5e98204518e15773148dcc06a2bbfef4d7021a856b57cff

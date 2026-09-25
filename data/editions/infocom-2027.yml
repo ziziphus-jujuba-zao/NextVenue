@@ -1,0 +1,49 @@
+id: infocom-2027
+series: infocom
+name: INFOCOM 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Honolulu, country: USA, country_code: US }
+dates: { start: 2027-05-24, end: 2027-05-27 }
+milestones:
+  - type: abstract
+    at: 2026-07-24T23:59
+    tz: AoE
+    status: confirmed
+    src: infocom-2027-cfp
+    quote: "Abstract Due: Friday, 24 July 2026 (11:59 p.m. AOE)"
+  - type: paper
+    at: 2026-07-31T23:59
+    tz: AoE
+    status: confirmed
+    src: infocom-2027-cfp
+    quote: "Full Paper Due: Friday, 31 July 2026 (11:59 p.m. AOE)"
+    note_zh: 已截止，现在在审稿。
+  - type: phase1_notification
+    label_zh: 提前拒稿通知
+    at: 2026-10-09
+    tz: Pacific/Honolulu
+    tz_assumed: true
+    status: confirmed
+    src: infocom-2027-cfp
+    quote: "Early-Reject Notification: Friday, 9 October 2026"
+    note_zh: 官网只给日期、没写时区，按会场所在地檀香山的日期记。
+  - type: notification
+    at: 2026-12-08
+    tz: Pacific/Honolulu
+    tz_assumed: true
+    status: confirmed
+    src: infocom-2027-cfp
+    quote: "Acceptance Notification: Tuesday, 8 December 2026"
+    note_zh: 官网只给日期、没写时区，按会场所在地檀香山的日期记。
+  - type: conference
+    start: 2027-05-24
+    end: 2027-05-27
+    tz: Pacific/Honolulu
+    status: confirmed
+    src: infocom-2027-home
+    quote: "Honolulu, HI, USA 24 - 27 May 2027"
+    note_zh: CFP 写线下举办（“This event will be conducted in person”）。
+last_checked: 2026-09-25
+note_zh: 摘要 2026-07-24、正文 7/31（AoE）已截止；10/9 发提前拒稿通知，12/8 出结果。会议 2027-05-24 至 27 在檀香山举行。camera-ready 和作者注册日期还没公布。

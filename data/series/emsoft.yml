@@ -1,0 +1,12 @@
+id: emsoft
+acronym: EMSOFT
+full_name: International Conference on Embedded Software
+directions: [cs/systems, cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每年 9–10 月在 ESWEEK 内举办，截稿在 3 月。
+dblp: conf/emsoft
+ccfddl: MX/EMSOFT
+data_level: curated
+note_zh: ESWEEK（Embedded Systems Week）的三个会议之一（另两个是 CODES 和 CASES）。期刊轨道两轮审稿，录用的全文发表在 IEEE TCAD。

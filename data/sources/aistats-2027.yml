@@ -5,7 +5,7 @@ sources:
     url: https://aistats.org/aistats2027/dates.html
     title: AISTATS 2027 Key Dates
     kind: dates
-    fetched_at: 2026-09-24T23:03:56Z
+    fetched_at: 2026-09-25T10:43:15Z
     http_status: 200
     snapshot: bac00519cee9cd1451d21e408c1d4760c74f7a17ce55303289a1ef17705aa37d
     note_zh: aistats.org 上的 Key Dates 页；写明所有日期均为 AoE、当天结束，日期可能调整；Camera-ready 一项留空。
@@ -13,7 +13,7 @@ sources:
     url: https://virtual.aistats.org/Conferences/2027/Dates
     title: AISTATS 2027 Dates and Deadlines (virtual site)
     kind: dates
-    fetched_at: 2026-09-24T23:03:58Z
+    fetched_at: 2026-09-25T10:43:16Z
     http_status: 200
     snapshot: e8ac4d124219befa8815df89d5ca0f95a402a0de4cf1cb7be70246e76e7dcaa4
     note_zh: 会议官方站（aistats.org 主页称其为最新信息的主要来源）的 Dates 页，比 Key Dates 页多了审稿期和讨论期；会期安排写“尚未确定”。
@@ -21,7 +21,7 @@ sources:
     url: https://virtual.aistats.org/Conferences/2027/CallForPapers
     title: AISTATS 2027 Call for Papers
     kind: cfp
-    fetched_at: 2026-09-24T23:03:59Z
+    fetched_at: 2026-09-25T10:43:16Z
     http_status: 200
     snapshot: 1951f0becd3cf538f898471f8e6bc488bb8544251516236932148b1ce3c1d899
     note_zh: 征稿页；补充材料随正文截止提交，无单独截止；称出审稿当天（11/16）开始 rebuttal。
@@ -29,7 +29,23 @@ sources:
     url: https://virtual.aistats.org/Conferences/2027
     title: AISTATS 2027 Home (virtual site)
     kind: other
-    fetched_at: 2026-09-24T23:04:00Z
+    fetched_at: 2026-09-25T10:43:17Z
     http_status: 200
     snapshot: b539f409e4333425b77ae7d262a350af5f731f6fd8a5550b2a643e77e0bf5f80
     note_zh: 会议官方站主页：Montreal, Canada，May 3rd - 6th, 2027。
+  - id: aistats-2027-pricing
+    url: https://virtual.aistats.org/Conferences/2027/Pricing
+    title: AISTATS 2027 Pricing (virtual site)
+    kind: other
+    fetched_at: 2026-09-25T10:43:17Z
+    http_status: 200
+    snapshot: 3aebd4aaffe68c5a3eb48df9b3927983974772ec1a557bbab79c313788bc6ad5
+    note_zh: 价格页写“Pricing is not yet available for this conference”。
+  - id: aistats-2027-org-home
+    url: https://aistats.org/aistats2027/
+    title: AISTATS 2027 (aistats.org)
+    kind: other
+    fetched_at: 2026-09-25T10:43:17Z
+    http_status: 200
+    snapshot: f8a99f8af334965e328b8341719ae54575e4dbe5b921353008d13585c2d6b912
+    note_zh: aistats.org 上的 2027 主页：在蒙特利尔举办，会有一天 workshop 日；没有场馆和注册信息。

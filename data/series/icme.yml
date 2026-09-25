@@ -1,0 +1,13 @@
+id: icme
+acronym: ICME
+full_name: IEEE International Conference on Multimedia and Expo
+aliases: [IEEE ICME, "The IEEE International Conference on Multimedia & Expo", "IEEE International Conference on Multimedia & Expo"]
+directions: [cs/graphics, cs/cv]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/icmcs
+ccfddl: CG/ICME
+data_level: curated
+note_zh: 由 IEEE CAS、ComSoc、Computer、SP 四个学会共同主办的多媒体会议。

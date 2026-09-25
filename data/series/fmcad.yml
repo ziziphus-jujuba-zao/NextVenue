@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: fmcad
+acronym: FMCAD
+full_name: Formal Methods in Computer-Aided Design
+directions:
+  - cs/theory
+dblp: conf/fmcad
+ccfddl: CT/FMCAD
+data_level: upstream

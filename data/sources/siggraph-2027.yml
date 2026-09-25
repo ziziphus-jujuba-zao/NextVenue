@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: siggraph-2027
+sources:
+  - id: siggraph-2026-papers
+    url: https://s2026.siggraph.org/program/technical-papers/
+    title: SIGGRAPH 2026 Technical Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:43Z
+    http_status: 200
+    snapshot: b567abeaf0c896d5d510ad7d077f8ccc4b0511a8c5e971288f85091b69e8ab8b
+  - id: siggraph-2026-press
+    url: https://s2026.siggraph.org/siggraph-2026-unites-global-computer-graphics-community-in-los-angeles-with-landmark-keynotes-inaugural-games-summit-and-ai-innovation/
+    title: SIGGRAPH 2026 closing press release (announces SIGGRAPH 2027)
+    kind: blog
+    fetched_at: 2026-09-25T15:55:21Z
+    http_status: 200
+    snapshot: 900a19542e7a938ce1216feb8b74fa9b4dcb60fa07673162a5bf01162f1ac9f3

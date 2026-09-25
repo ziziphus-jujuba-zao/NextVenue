@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: codes-isss-2026
+series: codes-isss
+name: CODES+ISSS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/CODES+ISSS
+  conf_id: codesisss26
+  link: https://esweek.org/codes_isss_cfp/
+  place: Barcelona, Spain
+  date: October 4-9, 2026
+  timezone: AoE
+location:
+  city: Barcelona
+  country: Spain
+  country_code: ES
+dates:
+  start: 2026-10-04
+  end: 2026-10-09
+milestones:
+  - type: abstract
+    at: 2026-03-23T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-03-30T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-10-04
+    end: 2026-10-09
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

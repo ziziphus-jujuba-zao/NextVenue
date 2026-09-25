@@ -1,0 +1,187 @@
+# ACL 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: acl
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 3429
+    accepted: 779
+    rate: 22.7
+    rate_text: 22.7%
+    rate_basis: stated
+    definition_zh: 主会（长文和短文）；分母为全部投稿，含桌拒和撤稿
+    source_url: https://aclanthology.org/2020.acl-main.0.pdf
+    quote: After the review process, 779 papers were accepted which includes 571 long papers and 208 short papers. The acceptance rate is 22.7% based on 3,429 submissions. [footnote] Removing the 29 desk rejects and 312 withdrawals, the acceptance rate becomes 25.2%
+    src: acl-2020-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 3350
+    accepted: 710
+    rate: 21.2
+    rate_text: 21.2%
+    rate_basis: stated
+    definition_zh: 主会；分母为全部正式投稿
+    source_url: https://aclanthology.org/2021.acl-long.0.pdf
+    quote: "Acceptance to Main Conference: After the review process, out of the 3,350 full submissions, 710 papers (139 short, 571 long) were accepted into the main conference. With an acceptance rate of 21.2%, ACL-IJCNLP 2021 continues to be a highly competitive conference."
+    src: acl-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: findings
+    status: official
+    submissions: 3350
+    accepted: 493
+    rate: 14.7
+    rate_text: 14.7%
+    rate_basis: computed
+    definition_zh: Findings（受邀篇数）；分母同主会
+    source_url: https://aclanthology.org/2021.acl-long.0.pdf
+    quote: "Out of the 3,350 full submissions, 493 papers were invited to be included in the Findings. Thirty-six papers declined the offer, leading to 457 papers (118 short and 339 long) to be published in the Findings of ACL: ACL-IJCNLP 2021."
+    src: acl-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 3378
+    accepted: 701
+    rate: 20.75
+    rate_text: 20.75%
+    rate_basis: stated
+    definition_zh: 第一次全走 ARR；分母为把 ACL 选为首选会议的 ARR 投稿加承诺到 ACL 的论文
+    source_url: https://aclanthology.org/2022.acl-long.0.pdf
+    quote: After the review process, 701 papers (604 long and 97 short) were accepted into the main conference. [...] (a) (Number of accepted papers at ACL 2022) / (Number of papers that selected ACL 2022 as the preferred venue in ARR or were committed to ACL 2022). For ACL 2022, for the denominator we consider the 3,378 papers as explained above. Thus, the acceptance rate is 701 / 3,378 = 20.75% for the Main conference.
+    src: acl-2022-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: findings
+    status: official
+    submissions: 3378
+    accepted: 361
+    rate: 10.68
+    rate_text: 10.68%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2022.acl-long.0.pdf
+    quote: For ACL 2022, for the denominator we consider the 3,378 papers as explained above. ... A total of 361 papers were offered to be included in the Findings of ACL 2022. Given the two ways of computing acceptance rates described above, this results in a 10.68% acceptance rate in option (a), and 19.82% in option (b).
+    src: acl-2022-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 4864
+    accepted: 1074
+    rate: 22.08
+    rate_text: 22.08%
+    rate_basis: stated
+    definition_zh: 直投和 ARR 承诺合计
+    source_url: https://aclanthology.org/2023.acl-long.0.pdf
+    quote: In total, we considered 4864 (3872 long and 992 short) papers [...] We accepted 910 (23.50%) long and 164 (16.53%) short papers for the main conference [...] To sum long and short papers, ACL 2023 accepted 1074 (22.08%) papers for the conference and 901 (40.60% including the papers for the main conference) papers for Findings.
+    src: acl-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: findings
+    status: official
+    submissions: 4864
+    accepted: 901
+    rate: 18.5
+    rate_text: 18.5%
+    rate_basis: computed
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2023.acl-long.0.pdf
+    quote: In total, we considered 4864 (3872 long and 992 short) papers [...] To sum long and short papers, ACL 2023 accepted 1074 (22.08%) papers for the conference and 901 (40.60% including the papers for the main conference) papers for Findings.
+    src: acl-2023-front-matter
+    quote_check: snapshot
+    note_zh: 官方只写了主会加 Findings 的累计比例，这里的 Findings 比例按官方数字计算
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 4407
+    accepted: 940
+    rate: 21.3
+    rate_text: 21.3%
+    rate_basis: stated
+    definition_zh: ARR；分母不含早期撤稿和桌拒
+    source_url: https://aclanthology.org/2024.acl-long.0.pdf
+    quote: In total, the denominator for the acceptance rate calculation is 4244 + 3 + 160= 4407. Among these, 2931 were committed to ACL. Among the committed papers, 940 were accepted to the Main Conference. The acceptance rate for Main Conference papers is therefore 940 / 4407 = 21.3%.
+    src: acl-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: findings
+    status: official
+    submissions: 4407
+    accepted: 975
+    rate: 22.1
+    rate_text: 22.1%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2024.acl-long.0.pdf
+    quote: A further 975 papers were accepted to Findings of ACL, representing solid work that is has been judged worthy of publication with sufficient substance, quality and novelty. The acceptance rate for Findings of ACL is 975 / 4407 = 22.1%.
+    src: acl-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 8360
+    accepted: 1699
+    rate: 20.3
+    rate_text: 20.3%
+    rate_basis: stated
+    definition_zh: ARR 两轮（2024 年 12 月、2025 年 2 月）的全部独立投稿
+    source_url: https://aclanthology.org/2025.acl-long.0.pdf
+    quote: In total, there are 1,699 papers accepted to the Main Conference and 1,392 papers accepted to Findings. [...] In total, we had 8,360 unique submissions across the December 2024 and February 2025 ARR cycles of which 5,501 papers were committed to ACL. The acceptance rate is 20.3% for the Main Conference papers and a further 16.7% for Findings papers.
+    src: acl-2025-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: findings
+    status: official
+    submissions: 8360
+    accepted: 1392
+    rate: 16.7
+    rate_text: 16.7%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2025.acl-long.0.pdf
+    quote: In total, there are 1,699 papers accepted to the Main Conference and 1,392 papers accepted to Findings. [...] In total, we had 8,360 unique submissions across the December 2024 and February 2025 ARR cycles of which 5,501 papers were committed to ACL. The acceptance rate is 20.3% for the Main Conference papers and a further 16.7% for Findings papers.
+    src: acl-2025-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 12148
+    accepted: 2296
+    rate: 18.9
+    rate_text: 18.9%
+    rate_basis: stated
+    definition_zh: ARR 两轮（2025 年 10 月、2026 年 1 月）的全部独立投稿
+    source_url: https://aclanthology.org/2026.acl-long.0.pdf
+    quote: Acceptance Rate. In total, there are 2,296 papers accepted to the Main Conference and 2,163 papers accepted to Findings. [...] In total, we had 12,148 unique submissions across the October 2025 (1,630) and January 2026 ARR (10,518). The acceptance rate is 18.9% for Main Conference papers and 17.8% for Findings papers.
+    src: acl-2026-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: findings
+    status: official
+    submissions: 12148
+    accepted: 2163
+    rate: 17.8
+    rate_text: 17.8%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2026.acl-long.0.pdf
+    quote: In total, there are 2,296 papers accepted to the Main Conference and 2,163 papers accepted to Findings. [...] In total, we had 12,148 unique submissions across the October 2025 (1,630) and January 2026 ARR (10,518). The acceptance rate is 18.9% for Main Conference papers and 17.8% for Findings papers.
+    src: acl-2026-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25

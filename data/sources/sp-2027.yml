@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: sp-2027
+sources:
+  - id: sp-2027-cfp
+    url: https://sp2027.ieee-security.org/cfpapers.html
+    title: IEEE S&P 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: a1b924367941abb8cd3564c2116d5f960e3f597cc3e71d907d88390bf403b88e
+  - id: sp-2027-home
+    url: https://sp2027.ieee-security.org/index.html
+    title: IEEE S&P 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:10Z
+    http_status: 200
+    snapshot: 7e7410e87b9c61e2219ead63ed7b165a130480b8919cd86815d2c26a6dee5fb5

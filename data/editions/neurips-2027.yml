@@ -3,7 +3,7 @@ series: neurips
 name: NeurIPS 2027
 year: 2027
 kind: conference
-topics: [ml, ai]
+data_level: curated
 derived_from: neurips-2026
 milestones:
   - type: abstract

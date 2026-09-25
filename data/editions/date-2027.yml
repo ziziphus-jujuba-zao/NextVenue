@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: date-2027
+series: date
+name: DATE 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/DATE
+  conf_id: date2027
+  link: https://www.date-conference.com/date-2027-call-papers
+  place: Dresden, Germany
+  date: March 22-24, 2027
+  timezone: AoE
+location:
+  city: Dresden
+  country: Germany
+  country_code: DE
+dates:
+  start: 2027-03-22
+  end: 2027-03-24
+milestones:
+  - type: abstract
+    at: 2026-09-13T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-09-20T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-03-22
+    end: 2027-03-24
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

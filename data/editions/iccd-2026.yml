@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: iccd-2026
+series: iccd
+name: ICCD 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ICCD
+  conf_id: iccd26
+  link: https://www.iccd-conf.com/2026/home.html
+  place: Hong Kong SAR, China
+  date: November 16-18, 2026
+  timezone: AoE
+location:
+  city: Hong Kong SAR
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-16
+  end: 2026-11-18
+milestones:
+  - type: abstract
+    at: 2026-05-29T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: abstract and full paper deadline"
+  - type: paper
+    at: 2026-06-05T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: abstract and full paper deadline"
+  - type: conference
+    start: 2026-11-16
+    end: 2026-11-18
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

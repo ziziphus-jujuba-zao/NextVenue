@@ -1,0 +1,342 @@
+Skip to yearly menu bar Skip to main content
+
+Main Navigation
+
+ * NeurIPS
+   * Help/FAQ
+
+     ----------------------------------------
+
+   * Contact NeurIPS
+
+     ----------------------------------------
+
+   * Create Profile
+
+     ----------------------------------------
+
+   * Code of Ethics
+
+     ----------------------------------------
+
+   * Code of Conduct
+
+     ----------------------------------------
+
+   * Journal To Conference Track
+
+     ----------------------------------------
+
+   * Diversity & Inclusion
+
+     ----------------------------------------
+
+   * Proceedings
+
+     ----------------------------------------
+
+   * Future Meetings
+
+     ----------------------------------------
+
+   * Press
+
+     ----------------------------------------
+
+   * Exhibitor Information
+
+     ----------------------------------------
+
+   * Privacy Policy
+
+     ----------------------------------------
+
+   * Downloads
+ * My Stuff
+
+Login
+ * Select Year: (2026)
+   * 2026
+
+     ----------------------------------------
+
+   * 2025
+
+     ----------------------------------------
+
+   * 2024
+
+     ----------------------------------------
+
+   * 2023
+
+     ----------------------------------------
+
+   * 2022
+
+     ----------------------------------------
+
+   * 2021
+
+     ----------------------------------------
+
+   * 2020
+
+     ----------------------------------------
+
+   * 2019
+
+     ----------------------------------------
+
+   * 2018
+
+     ----------------------------------------
+
+   * 2017
+
+     ----------------------------------------
+
+   * 2016
+
+     ----------------------------------------
+
+   * 2015
+
+     ----------------------------------------
+
+   * 2014
+
+     ----------------------------------------
+
+   * 2013
+
+     ----------------------------------------
+
+   * 2012
+
+     ----------------------------------------
+
+   * 2011
+
+     ----------------------------------------
+
+   * 2010
+
+     ----------------------------------------
+
+   * 2009
+
+     ----------------------------------------
+
+   * 2008
+
+     ----------------------------------------
+
+   * 2007
+
+     ----------------------------------------
+
+   * 2006
+
+     ----------------------------------------
+
+   * Earlier Conferences
+ * Dates
+ * Submit
+   * Call for Papers
+   *     Main Track Handbook
+   *     Reviewing Guidelines
+
+     ----------------------------------------
+
+   * Call for Evaluations & Datasets
+   *     Evaluations and Datasets FAQ
+   *     Reviewing Guidelines
+
+     ----------------------------------------
+
+   * Call for Position Papers
+   * Call for Reproducibility
+   * Call for Tutorials
+
+     ----------------------------------------
+
+   * Call For Competitions
+   *     Competition Track Reviewing Guidelines
+
+     ----------------------------------------
+
+   * Call for Workshops
+   * Call For Affinity Events
+   * Call for Educational Resources
+   * Call For Creative AI
+   * Call for Social Events
+   * Call for Journal Papers
+   * Call for Expo
+
+     ----------------------------------------
+
+   * AI Reviewing Experiment
+ * Attend
+   * Hotels
+
+     ----------------------------------------
+
+   * Visa Information
+
+     ----------------------------------------
+
+   * Volunteering and Financial Assistance
+
+     ----------------------------------------
+
+   * Attending with Children
+ * Organizers
+   * Organizing Committee
+
+     ----------------------------------------
+
+   * NeurIPS Board
+
+     ----------------------------------------
+
+   * NeurIPS Foundation
+ * Exhibitors
+   * 2026 Exhibitors
+
+     ----------------------------------------
+
+   * Portal
+
+     ----------------------------------------
+
+   * EAC Information
+
+Visa Information 2026
+
+NeurIPS 2026 will be held in Sydey Australia December 6-12, Atlanta Georgia USA December 9-13, and Paris France December 9-13
+
+We do not work with any booking agencies, only request your visa letter from this site.
+
+Australia Visas
+
+ * Purchase an in-person registration
+ * Generate your visa invitation letter. We do not generate visa letters after the conference has closed
+ * Submit your application
+
+Visa Options
+
+For attendees who plan on attending NeurIPS 2026 in Sydney there are 3 main visa options. Attendees are strongly advised to apply at least 6 to 8 weeks prior to your intended date of travel.
+
+ 1. Visitor (subclass 600) Business stream visa.
+    1. It is extremely important to include as much information as possible to support their visa applications (see: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/business-visitor-stream#HowTo).  In addition, visa applicants should include the following information:
+    2. Evidence of any international travel outside of their own country (for example, copies of visas and passport pages containing entry and departure stamps)
+    3. Information and evidence of attendance at similar events of this type/nature..
+    4. Business Contact: Use the Contact Information from the visa invitation letter when the visa application asks for your business contact.
+ 2. eVisitor Business stream visa (subclass 651) *
+ 3. Electronic Travel Authority – ETA (subclass 601) *
+
+* Eligibility for an eVisitor visa and ETA are determined by the country that issued your passport.
+
+NeurIPS 2026 exhibitors may also be eligible to apply for the Visitor visa options mentioned above provided they are exhibiting at an event which targets a specific industry, and which does not involve selling goods or services directly to the public
+
+Australia Frequently Asked Questions (FAQs)
+
+Can I cancel my registration if my visa is denied?
+
+Yes; see the details in our cancellation policy.
+
+United States Visas
+
+Find out if you need a visa to travel to the United States.
+
+If you do need a visa to enter the United States, follow the steps below:
+
+ 1. Purchase an in-person registration
+ 2. Generate your visa invitation letter. We do not generate visa letters after the conference has closed
+ 3. Submit your U.S. Visa Application. See the details below.
+ 4. Return to the visa invitation letter page and enter your legal name, the country that issued your passport, and your U.S. visa application number.
+    Failure to complete this step may impact your ability to enter the United States.
+
+Application
+
+For more information about the visa application processes, see: Visit the United States and this information letter.
+
+If you need a visa, apply online through the U.S. Department of State Secure Network.
+
+Make sure you complete all parts of your application. A common reason for visa denial in previous years has been the submission of an incomplete application.
+
+United States Frequently Asked Questions (FAQs)
+
+Can I cancel my registration if my visa is denied?
+
+Yes; see the details in our cancellation policy.
+
+Who should I list as the Point of Contact on the visa application?
+
+Use the contact information for the Neural Information Processing Systems Foundation given in their NeurIPS visa invitation letter.
+
+What should I put as the Purpose of my visit?
+
+Select: Other
+
+When & where should I apply for my visa?
+
+If you require a visa to travel to the United States, we recommend starting the application process as soon as you know that you will attend NeurIPS, as the wait time for the mandatory in-person visa appointment can be highly variable.
+
+What should I bring to my visa interview?
+
+The U.S. Department of State provides guidance on required documentation for a visitor visa interview. Please also check the specific requirements of the embassy or consulate that will conduct your interview.
+
+Beyond required documents, you may be able to provide supplemental supporting documents online and/or in a visa interview, subject to the procedure of the specific embassy or consulate. Supplemental supporting documents should aid in establishing your residence and ties abroad and thus your ability and intent to leave the United States after the visit. Examples of such supporting documents include:
+
+ * Invitation letter: The invitation letter issued to you by NeurIPS, with details of your contributions to NeurIPS.
+ * Travel plan: Complete itinerary of your intended travel, including booking confirmation of a return flight and of accommodation during your stay.
+ * Financial support: Evidence of ability to pay for the trip or confirmation of funding provided for flights, accommodation, food, and incidental costs.
+ * Continuing status: Official documentation to prove you are a student, post-doc, or employee and that you will return to your country/region of residence for continuing studies or employment; evidence of familial ties in your country/region of residence.
+
+If I receive a visa am I guaranteed to be able to enter the United States to attend NeurIPS?
+
+Unfortunately, it is possible that immigration officers at U.S. points of entry may require you to undergo additional screening. Please travel prepared with the same evidence you presented at your visa appointment, including a printed copy of your NeurIPS invitation letter.
+
+Workshop Authors
+
+If you will be submitting a Workshop paper and you will need a visa to attend NeurIPS, we strongly recommend that you:
+
+ 1. Purchase an in-person registration
+ 2. Generate your visa invitation letter
+ 3. Apply for your visa as soon as you can
+
+We offer an extended cancellation deadline if you apply for your visa early. See our cancellation policy for details.
+
+If you wait until you receive confirmation that your workshop paper has been accepted before you apply for your visa, it is very likely that you will not get your visa decision before the conference.
+
+France Visas
+
+ * You can request a France visa letter when you register to attend Paris see here
+ * For Paris visa support contact the Paris registration team using this form
+
+Questions or concerns?
+
+ * Direct questions to the NeurIPS 2026 Visa Support via the NeurIPS Contact page.
+ * For Paris visa support contact the Paris registration team using this form
+
+Successful Page Load
+
+NeurIPS uses cookies for essential functions only. We do not   Accept
+sell your personal information. Our Privacy Policy »
+
+The NeurIPS Logo above may be used on presentations. Right-click and choose download. It is a vector graphic and may be used at any scale.
+
+Useful links
+
+ * Press
+ * Proceedings
+
+Contact
+
+1269 Law St, San Diego CA 92109
+
+Email
+
+NeurIPS Proceedings

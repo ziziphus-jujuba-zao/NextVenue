@@ -1,0 +1,43 @@
+id: cdc-2026
+series: cdc
+name: CDC 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Honolulu, country: USA, country_code: US }
+dates: { start: 2026-12-15, end: 2026-12-18 }
+milestones:
+  - type: paper
+    label_zh: 初稿截止（只投 CDC）
+    at: 2026-03-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cdc-2026-home
+    quote: "March 31, 2026 Initial Submissions CDC only"
+    note_zh: 已截止。L-CSS + CDC 联合投稿是 3/17。官网只给日期、没写时区。
+  - type: notification
+    at: 2026-07-15
+    tz: Pacific/Honolulu
+    status: confirmed
+    src: cdc-2026-home
+    quote: "July 15, 2026 Decision Notification"
+  - type: camera_ready
+    at: 2026-09-18
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cdc-2026-home
+    quote: "September 18, 2026 Final Submission Deadline"
+    note_zh: 已截止。官网只给日期、没写时区。
+  - type: conference
+    label_zh: 正会 12/15–18，workshop 12/14
+    start: 2026-12-15
+    end: 2026-12-18
+    tz: Pacific/Honolulu
+    status: confirmed
+    src: cdc-2026-home
+    quote: "The 65th IEEE Conference on Decision and Control will be held Tuesday through Friday, December 15-18, 2026 at the Hilton Hawaiian Village in Honolulu, Hawaii, USA."
+    note_zh: 会前 workshop 在 12/14（周一）。
+last_checked: 2026-09-25
+note_zh: 投稿和终稿都已截止，只剩开会。下一届 CDC 2027 在里斯本，见 cdc-2027。

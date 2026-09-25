@@ -1,0 +1,46 @@
+id: aiaa-scitech-2027
+series: aiaa-scitech
+name: AIAA SciTech 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Orlando, country: USA, country_code: US }
+dates: { start: 2027-01-11, end: 2027-01-15 }
+submission_type: mixed
+submission_evidence:
+  src: aiaa-scitech-2027-cfp
+  quote: "Paper selection for GNC will be based on a full draft manuscript of the proposed technical paper; abstracts will not be accepted."
+  note_zh: 多数技术委员会按扩展摘要评审；GNC（导航、制导与控制）分会必须交完整草稿，不收摘要。
+milestones:
+  - type: abstract
+    at: 2026-05-21T20:00
+    tz: America/New_York
+    status: confirmed
+    src: aiaa-scitech-2027-cfp
+    quote: "Abstract Submission Deadline | 21 May 2026, 8:00 p.m. ET"
+    note_zh: 已截止。
+  - type: notification
+    at: 2026-08-24
+    tz: America/New_York
+    status: confirmed
+    src: aiaa-scitech-2027-cfp
+    quote: "Author Notifications | 24 August 2026"
+    note_zh: 已出结果。
+  - type: camera_ready
+    label_zh: 终稿截止
+    at: 2026-12-01T20:00
+    tz: America/New_York
+    status: confirmed
+    src: aiaa-scitech-2027-cfp
+    quote: "Manuscript Deadline | 1 December 2026, 8:00 p.m. ET"
+    note_zh: 录用论文交终稿，美国东部时间晚 8 点截止。官网写日期可能调整（“*Dates are subject to change.”）。
+  - type: conference
+    start: 2027-01-11
+    end: 2027-01-15
+    tz: America/New_York
+    status: confirmed
+    src: aiaa-scitech-2027-home
+    quote: "Taking place 11–15 January 2027, the forum is the premier aerospace R&D event of the year"
+    note_zh: 会场是 Hyatt Regency Orlando（“Hyatt Regency Orlando 9801 International Drive Orlando, Florida 32819”，见 Hotel & Travel 页）。
+last_checked: 2026-09-25
+note_zh: 摘要已截止，只剩终稿和开会。航空航天方向涉及出口管制，美国签证审查可能较长。

@@ -1,0 +1,23 @@
+id: naacl-2027/in-person-presentation
+edition: naacl-2027
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？
+short_zh: 到现场报告
+answer: not_required
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 不要求到现场，但必须报告。录用论文要在会上报告才能进论文集，会议同时提供线下和线上两种报告方式。至少一位报告作者要在早鸟注册截止前注册，否则论文可能被拒；早鸟截止日期待公布。
+detail_zh: 口头报告还是海报由程序委员会决定。注册费、注册截止和线上报告怎么安排都还没公布。
+quotes:
+  - src: naacl-2027-cfp
+    text: "All accepted papers must be presented at the conference to appear in the proceedings. The conference will include both in-person and virtual presentation options."
+  - src: naacl-2027-cfp
+    text: "Papers without at least one presenting author registered by the early registration deadline may be subject to rejection."
+effect:
+  kind: fallback
+  substitute: unspecified
+  virtual: allowed
+last_checked: 2026-09-25

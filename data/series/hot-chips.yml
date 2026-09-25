@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: hot-chips
+acronym: Hot Chips
+full_name: "Hot Chips: A Symposium on High Performance Chips"
+directions:
+  - cs/systems
+dblp: conf/hotchips
+ccfddl: DS/Hot Chips
+data_level: upstream

@@ -1,0 +1,161 @@
+Eleventh Annual International Conference on Learning Representations (ICLR)
+First AI Conference in Africa with 1530% higher African registrations
+(Kigali, Rwanda)
+2023 Fact Sheet
+Summary Video
+Invited Talks:
+●
+●
+●
+●
+●
+●
+
+Sofia Crespo, Entanglements, Exploring Artificial Biodiversity
+Girmaw Abebe Tadesse, Understanding Systematic Deviations in Data for Trustworthy AI
+Masashi Sugiyama, Importance-Weighting Approach to Distribution Shift Adaption
+Elaine Nsoesie, AI, History and Equity
+Dilek Hakkani-Tur, Dialogue Research in the Era of LLMs
+Jascha Sohl-Dickstein, Learned optimizers: why they’re the future, why they’re hard, and what they can
+do now
+
+Outstanding Paper Awards:
+●
+●
+
+Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching by , Jinwoo Kim,
+Seongwoong Cho, Chong Luo, Seunghoon Hong
+Rethinking the Expressive Power of GNNs via Graph Biconnectivity by Bohang Zhang, Shengjie Luo, Liwei
+Wang, Di He
+
+●
+●
+
+DreamFusion: Text-to-3D using 2D Diffusion by Ben Poole, Ajay Jain, Jonathan T. Barron, Ben Mildenhall
+Emergence of Maps in the Memories of Blind Navigation Agents by Erik Wijmans, Manolis Savva, Irfan
+Essa, Stefan Lee, Ari S. Morcos, Dhruv Batra
+
+Honorable Mention Paper Awards:
+●
+●
+
+●
+●
+●
+
+Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning by Zeyuan
+Allen-Zhu, Yuanzhi Li
+Mastering the Game of No-Press Diplomacy via Human-Regularized Reinforcement Learning and Planning
+by Anton Bakhtin, David J Wu, Adam Lerer, Jonathan Gray, Athul Paul Jacob, Gabriele Farina, Alexander H
+Miller, Noam Brown
+On the duality between contrastive and non-contrastive self-supervised learning by Quentin Garrido,
+Yubei Chen, Adrien Bardes, Laurent Najman, Yann LeCun
+Conditional Antibody Design as 3D Equivariant Graph Translation by Xiangzhe Kong, Wenbing Huang,
+Yang Liu
+Disentanglement with Biological Constraints: A Theory of Functional Cell Types by James C. R.
+Whittington, Will Dorrell, Surya Ganguli, Timothy Behrens
+
+Global Participation:
+●
+●
+●
+●
+
+3,758 participants spanning 73 countries
+2,015 in-person
+1,743 virtual
+152 volunteers (62 virtual, 90 in-person) contributed over 3,420 hours (that’s 4.75
+months)
+
+Past ICLR Locations and Participants:
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+2022: Virtual (Global) 5,200 participants from 81 countries
+2021: Virtual (Global) 6,300 participants from 64 countries
+2020: Virtual (Global) 5,600 participants from 76 countries
+2019: New Orleans (USA) 2,600 participants from 50 countries
+2018: Vancouver (Canada) 1,950 participants from 38 countries
+2017: Toulon (France)
+2016: San Juan (Puerto Rico)
+2015: San Diego (USA)
+2014: Banff (Canada)
+2013: Scottsdale (USA)
+
+Research Content:
+●
+●
+●
+●
+●
+●
+
+6 invited talks
+4 Outstanding Paper Award winners
+5 Honorable Mention Awards
+Record number of abstract submissions - 6,381
+4,938 submissions
+1,574 accepted papers
+
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+31% acceptance rate
+1500 more submissions, 500 more accepted compared to 2022
+247 all in-person presentations in 6 sessions 5-6 parallel tracks
+91 top 5% papers, 280 top 25% papers, 1203 posters accepted
+841 in-person Posters in 6 poster sessions
+4 in-person Socials
+21 workshops, Tinypaper workshops
+new in 2023 “Office Hours” with 15 senior researchers
+Affinity Groups: Kaggle@ICLR2023 with Zindi, Indaba X Rwanda
+
+Program Committee Statistics:
+●
+●
+●
+●
+●
+●
+●
+
+5,734 reviewers compared to 5,507 reviewers in 2022
+413 area chairs (similar to 2022)
+40 senior area chairs (2x from 2022)
+Every paper received at least 3 reviews
+Each reviewer was assigned an average of 3.5 papers to review
+Each AC was assigned an average of 9.8 papers to review
+Average paper score before/after the discussion period: 5.15 -> 5.44
+
+How to find highlighted papers:
+●
+●
+●
+
+Accepted papers are available: ICLR 2023 papers
+Most events will be live-streamed. Recordings will be publicly
+available about a month after ICLR.cc
+ICLR 2023 Blogposts Track
+
+###
+Media Contact:
+Becky Obbema
+Interprose, PR for ICLR
+press@iclr.cc
+
+

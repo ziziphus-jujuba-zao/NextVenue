@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ashg-2026
+sources:
+  - id: ashg-2026-home
+    url: https://ashgmeeting.ashg.org/
+    title: ASHG 2026 Annual Meeting
+    kind: other
+    fetched_at: 2026-09-25T15:56:24Z
+    http_status: 200
+    snapshot: 227bc3c2334e9ed6b100f8dfc1838b599d93a0da1fcfd07e0cc6affd5a743eb9
+  - id: ashg-2026-abstracts
+    url: https://ashgmeeting.ashg.org/programs/abstract-submissions/
+    title: ASHG 2026 Abstract Submissions
+    kind: cfp
+    fetched_at: 2026-09-25T15:56:26Z
+    http_status: 200
+    snapshot: b6bb095e0ac42029ca122b1f2174213c25b78e1739f050422bcd7e7ceea878f7
+  - id: ashg-future-meetings
+    url: https://www.ashg.org/meetings/future-past/
+    title: ASHG Future and Past Meetings
+    kind: other
+    fetched_at: 2026-09-25T15:56:34Z
+    http_status: 200
+    snapshot: 4ab1cc0ca8feeb9ef50a60ee41dfe23ad77082a5ef2ee21b8f05a9237ef67fc2

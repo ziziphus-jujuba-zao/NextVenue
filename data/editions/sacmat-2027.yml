@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sacmat-2027
+series: sacmat
+name: SACMAT 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/SACMAT
+  conf_id: sacmat27
+  link: https://www.sacmat.org/2027/
+  place: Durham, England, United Kingdom
+  date: July 19-21, 2027
+  timezone: AoE
+location:
+  city: Durham
+  country: United Kingdom
+  country_code: GB
+dates:
+  start: 2027-07-19
+  end: 2027-07-21
+milestones:
+  - type: paper
+    at: 2026-10-30T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: First Cycle
+  - type: paper
+    at: 2027-02-12T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Second Cycle
+  - type: conference
+    start: 2027-07-19
+    end: 2027-07-21
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

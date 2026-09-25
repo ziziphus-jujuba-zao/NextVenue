@@ -1,0 +1,315 @@
+{
+ "schema": 1,
+ "edition": "cvpr-2024",
+ "series": "cvpr",
+ "year": 2024,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 CVPR 2024 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/cvpr/cvpr2024"
+  ],
+  "retrieved_at": "2026-09-25T09:49:37Z"
+ },
+ "papers_used": 2715,
+ "official_accepted": {
+  "value": 2719,
+  "source_url": "https://www.computer.org/csdl/proceedings-article/cvpr/2024/530000z343/20hLmVNRbY4",
+  "quote": "CVPR 2024 received 11,532 valid paper submissions, a 26% increase from CVPR 2023. ... At the end of this process, 2,719 papers were accepted, for a 23.6% overall acceptance rate.",
+  "src": "cvpr-2024-front-matter",
+  "quote_check": "snapshot"
+ },
+ "coverage": 0.9985,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 554,
+   "share_pct": 20.4,
+   "prev": {
+    "year": 2023,
+    "count": 447,
+    "share_pct": 19.0,
+    "delta_pp": 1.4
+   },
+   "examples": [
+    "CausalPC: Improving the Robustness of Point Cloud Classification by Causal Effect Identification.",
+    "ICON: Incremental CONfidence for Joint Pose and Radiance Field Optimization.",
+    "VS: Reconstructing Clothed 3D Human from Single Image via Vertex Shift."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 322,
+   "share_pct": 11.9,
+   "prev": {
+    "year": 2023,
+    "count": 97,
+    "share_pct": 4.1,
+    "delta_pp": 7.8
+   },
+   "examples": [
+    "PointInfinity: Resolution-Invariant Point Diffusion Models.",
+    "In-Distribution Public Data Synthesis With Diffusion Models for Differentially Private Image Classification.",
+    "Learning Diffusion Texture Priors for Image Restoration."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 269,
+   "share_pct": 9.9,
+   "prev": {
+    "year": 2023,
+    "count": 167,
+    "share_pct": 7.1,
+    "delta_pp": 2.8
+   },
+   "examples": [
+    "Consistency and Uncertainty: Identifying Unreliable Responses From Black-Box Vision-Language Models for Selective Visual Question Answering.",
+    "PeVL: Pose-Enhanced Vision-Language Model for Fine-Grained Human Action Recognition.",
+    "Source-Free Domain Adaptation with Frozen Multimodal Foundation Model."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "video",
+   "label_zh": "视频",
+   "label_en": "Video",
+   "count": 249,
+   "share_pct": 9.2,
+   "prev": {
+    "year": 2023,
+    "count": 211,
+    "share_pct": 9.0,
+    "delta_pp": 0.2
+   },
+   "examples": [
+    "BIVDiff: A Training-Free Framework for General-Purpose Video Synthesis via Bridging Image and Video Diffusion Models.",
+    "Learning from One Continuous Video Stream.",
+    "What, When, and Where? Self-Supervised Spatio- Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 247,
+   "share_pct": 9.1,
+   "prev": {
+    "year": 2023,
+    "count": 126,
+    "share_pct": 5.4,
+    "delta_pp": 3.7
+   },
+   "examples": [
+    "BIVDiff: A Training-Free Framework for General-Purpose Video Synthesis via Bridging Image and Video Diffusion Models.",
+    "JeDi: Joint-Image Diffusion Models for Finetuning-Free Personalized Text-to-Image Generation.",
+    "Dysen-VDM: Empowering Dynamics-Aware Text-to-Video Diffusion with LLMs."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "segmentation",
+   "label_zh": "分割",
+   "label_en": "Segmentation",
+   "count": 208,
+   "share_pct": 7.7,
+   "prev": {
+    "year": 2023,
+    "count": 180,
+    "share_pct": 7.6,
+    "delta_pp": 0.1
+   },
+   "examples": [
+    "EAGLE: Eigen Aggregation Learning for Object-Centric Unsupervised Semantic Segmentation.",
+    "Diversified and Personalized Multi-Rater Medical Image Segmentation.",
+    "Cross-Domain Few-Shot Segmentation via Iterative Support-Query Correspondence Mining."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "human",
+   "label_zh": "姿态估计、人体动作与数字人",
+   "label_en": "Pose estimation, human motion & avatars",
+   "count": 173,
+   "share_pct": 6.4,
+   "prev": {
+    "year": 2023,
+    "count": 139,
+    "share_pct": 5.9,
+    "delta_pp": 0.5
+   },
+   "examples": [
+    "OakInk2 : A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion.",
+    "ICON: Incremental CONfidence for Joint Pose and Radiance Field Optimization.",
+    "FAR: Flexible, Accurate and Robust 6DoF Relative Camera Pose Estimation."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 158,
+   "share_pct": 5.8,
+   "prev": {
+    "year": 2023,
+    "count": 186,
+    "share_pct": 7.9,
+    "delta_pp": -2.1
+   },
+   "examples": [
+    "Point Transformer V3: Simpler, Faster, Stronger.",
+    "HomoFormer: Homogenized Transformer for Image Shadow Removal.",
+    "Unifying Top-Down and Bottom-Up Scanpath Prediction Using Transformers."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "open_world",
+   "label_zh": "零样本 / 小样本 / 开放词表",
+   "label_en": "Zero/few-shot & open-vocabulary",
+   "count": 148,
+   "share_pct": 5.5,
+   "prev": {
+    "year": 2023,
+    "count": 118,
+    "share_pct": 5.0,
+    "delta_pp": 0.5
+   },
+   "examples": [
+    "Exploring Orthogonality in Open World Object Detection.",
+    "Back to 3D: Few-Shot 3D Keypoint Detection with Back-Projected 2D Features.",
+    "Cross-Domain Few-Shot Segmentation via Iterative Support-Query Correspondence Mining."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 133,
+   "share_pct": 4.9,
+   "prev": {
+    "year": 2023,
+    "count": 148,
+    "share_pct": 6.3,
+    "delta_pp": -1.4
+   },
+   "low_precision": true,
+   "examples": [
+    "CausalPC: Improving the Robustness of Point Cloud Classification by Causal Effect Identification.",
+    "PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor.",
+    "FAR: Flexible, Accurate and Robust 6DoF Relative Camera Pose Estimation."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 127,
+   "share_pct": 4.7,
+   "prev": {
+    "year": 2023,
+    "count": 106,
+    "share_pct": 4.5,
+    "delta_pp": 0.2
+   },
+   "examples": [
+    "PeerAiD: Improving Adversarial Distillation from a Specialized Peer Tutor.",
+    "NEAT: Distilling 3D Wireframes from Neural Attraction Fields.",
+    "Sieve: Multimodal Dataset Pruning Using Image Captioning Models."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "gs_nerf",
+   "label_zh": "高斯泼溅 / NeRF",
+   "label_en": "Gaussian splatting / NeRF (neural rendering)",
+   "count": 119,
+   "share_pct": 4.4,
+   "prev": {
+    "year": 2023,
+    "count": 78,
+    "share_pct": 3.3,
+    "delta_pp": 1.1
+   },
+   "examples": [
+    "ICON: Incremental CONfidence for Joint Pose and Radiance Field Optimization.",
+    "Geometry Transfer for Stylizing Radiance Fields.",
+    "Geometry-aware Reconstruction and Fusion-refined Rendering for Generalizable Neural Radiance Fields."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 116,
+   "share_pct": 4.3,
+   "prev": {
+    "year": 2023,
+    "count": 96,
+    "share_pct": 4.1,
+    "delta_pp": 0.2
+   },
+   "low_precision": true,
+   "examples": [
+    "OakInk2 : A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion.",
+    "MSU-4S - The Michigan State University Four Seasons Dataset.",
+    "LiDAR-Net: A Real-Scanned 3D Point Cloud Dataset for Indoor Scenes."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "self_supervised",
+   "label_zh": "自监督 / 对比 / 表征学习",
+   "label_en": "Self-supervised / contrastive / representation learning",
+   "count": 104,
+   "share_pct": 3.8,
+   "prev": {
+    "year": 2023,
+    "count": 183,
+    "share_pct": 7.8,
+    "delta_pp": -4.0
+   },
+   "examples": [
+    "What, When, and Where? Self-Supervised Spatio- Temporal Grounding in Untrimmed Multi-Action Videos from Narrated Instructions.",
+    "Low-Res Leads the Way: Improving Generalization for Super-Resolution by Self-Supervised Learning.",
+    "Self-Supervised Facial Representation Learning with Facial Region Awareness."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "restoration",
+   "label_zh": "底层视觉（复原/超分）",
+   "label_en": "Low-level vision (restoration / super-resolution)",
+   "count": 101,
+   "share_pct": 3.7,
+   "prev": {
+    "year": 2023,
+    "count": 95,
+    "share_pct": 4.0,
+    "delta_pp": -0.3
+   },
+   "examples": [
+    "Learning Diffusion Texture Priors for Image Restoration.",
+    "Super-Resolution Reconstruction from Bayer-Pattern Spike Streams.",
+    "Low-Res Leads the Way: Improving Generalization for Super-Resolution by Self-Supervised Learning."
+   ]
+  }
+ ]
+}

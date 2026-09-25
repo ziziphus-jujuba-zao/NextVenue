@@ -1,0 +1,102 @@
+# ICRA 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: icra
+rows:
+  - year: 2020
+    track: main
+    status: none
+    reason: doubtful
+    checked_urls:
+      - https://ewh.ieee.org/soc/ras/conf/fullysponsored/icra/ICRA2020/www.icra2020.org/images/Press/Press_Kit_En.pdf
+    note_zh: 官方新闻稿的数字和 2019 年的决定邮件一字不差，疑为沿用，不显示
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: third_party
+    submissions: 4056
+    accepted: 1946
+    rate: 48
+    rate_text: 48.0%
+    rate_basis: stated
+    definition_zh: 含带 ICRA 选项的 RA-L 论文
+    source_url: https://staff.aist.go.jp/k.koide/evidence.html?id=icra2021
+    quote: "We received 4,056 submissions, a new record, from 59 countries/regions. Overall, 4,005 papers were reviewed: 2,766 for ICRA 2021 and 1,239 for the IEEE Robotics and Automation Letters (RA-L). From the very large number of high-quality papers we selected 1,946 for presentation, which represents an acceptance rate of 48.0%."
+    quote_check: manual
+    relay_zh: AIST 小出（K. Koide）页面转录的主办方决定邮件
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: third_party
+    submissions: 3313
+    accepted: 1428
+    rate: 43.1
+    rate_text: 43.1%
+    rate_basis: stated
+    definition_zh: 含带 ICRA 选项的 RA-L 论文
+    source_url: https://staff.aist.go.jp/k.koide/evidence.html?id=icra2022
+    quote: "We received 3,313 paper submissions from 66 countries/regions. Overall, 3,263 papers were reviewed: 2,105 for ICRA 2022 and 1,158 for the IEEE Robotics and Automation Letters (RA-L). From the very large number of high-quality papers we selected 1428 for presentation, which represents an acceptance rate of 43.1%."
+    quote_check: manual
+    relay_zh: AIST 小出（K. Koide）页面转录的主办方决定邮件
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: third_party
+    submissions: 3125
+    accepted: 1345
+    rate: 43.04
+    rate_text: 43.04%
+    rate_basis: stated
+    definition_zh: 会议论文
+    source_url: https://staff.aist.go.jp/k.koide/evidence.html?id=icra2023
+    quote: We received 3,125 paper submissions from 59 countries/regions. Of these, 1,345 have been selected for presentation at ICRA 2023, which represents an acceptance rate of 43.04%.
+    quote_check: manual
+    relay_zh: AIST 小出（K. Koide）页面转录的主办方决定邮件
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 3937
+    accepted: 1760
+    rate: 44.7
+    rate_text: 44.7%
+    rate_basis: stated
+    definition_zh: 会议论文；期刊转投另算
+    source_url: https://www.ieee-ras.org/images/AdCom_Meeting_Minutes/2024/APPROVED_AdCom_Meeting_Minutes__ICRA_2024_05172024pdf_1.pdf
+    quote: "Gave ICRA 2024 Statistics ○ 3937 submissions ○ 2337 papers in 285 sessions ○ Accepted conference papers: 1760 papers (acceptance rate is 44.7%) ○ RAS journal: 577"
+    src: icra-2024-adcom-minutes
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 4250
+    accepted: 1606
+    rate: 37.8
+    rate_text: 37.8%
+    rate_basis: computed
+    definition_zh: 会议论文；期刊转投另算
+    source_url: https://2025.ieee-icra.org/announcements/icra-2025-highlight-statistics/
+    quote: 4250 ICRA 2025 paper submissions ... 1606 papers accepted ... 503 journal papers transferred to ICRA 2025
+    src: icra-2025-highlight-statistics
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: third_party
+    submissions: 4947
+    accepted: 1882
+    rate: 38.04
+    rate_text: 38.04%
+    rate_basis: stated
+    definition_zh: 会议论文；期刊转投另算
+    source_url: https://staff.aist.go.jp/k.koide/evidence.html?id=icra2026
+    quote: "CONFERENCE STATISTICS: We received 4947 paper submissions from 86 countries. Of these, 1882 have been selected for presentation at ICRA 2026, which represents an acceptance rate of 38.04%"
+    quote_check: manual
+    relay_zh: AIST 小出（K. Koide）页面转录的主办方决定邮件
+    also:
+      - source_url: https://2026.ieee-icra.org/contribute/call-for-icra-2026-papers-now-accepting-submissions/
+        quote: We thank you for a record-breaking submission number of 5.088 papers for the upcoming ICRA 2026 Conference.
+        src: icra-2026-cfp
+        quote_check: snapshot
+        note_zh: 官网写的是截止时收到的篇数（审稿前）
+    checked: 2026-09-25

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ecs-2027-spring
+sources:
+  - id: ecs-2027-spring-deadlines
+    url: https://www.electrochem.org/251/deadlines
+    title: "251st ECS Meeting: Deadlines"
+    kind: dates
+    fetched_at: 2026-09-25T18:08:17Z
+    http_status: 200
+    snapshot: 837f2e4a0bfe774acc0145ab21b2e4200178ceebf01d6bd0082bc5a764be3341
+  - id: ecs-2027-spring-cfp
+    url: https://ecs.confex.com/ecs/251/cfp.cgi
+    title: "251st ECS Meeting: Call for Papers"
+    kind: cfp
+    fetched_at: 2026-09-25T18:08:50Z
+    http_status: 200
+    snapshot: 04db6291bf0c013a31c0c237fa9d8532b3a2d4d0995759e3054487ae3351d863

@@ -1,0 +1,34 @@
+# WWW（The Web Conference） 2022 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: www
+year: 2022
+kind: accepted_only
+precision: our_count
+track_zh: 研究赛道，按 track
+source_url: https://www2022.thewebconf.org/main-proceedings/
+quote_check: manual
+count_method_zh: 官网论文集页面各 track 小节的论文数（本应用计数）
+note_zh: 官方没公布各 track 的投稿数，所以没有各 track 录用率
+checked: 2026-09-25
+rows:
+  - area: Social Network Analysis and Graph Algorithms
+    accepted: 57
+  - area: User Modeling, Personalization and Accessibility
+    accepted: 57
+  - area: Web Mining and Content Analysis
+    accepted: 52
+  - area: Search
+    accepted: 31
+  - area: Semantics and Knowledge
+    accepted: 27
+  - area: Security, Privacy, and Trust
+    accepted: 25
+  - area: Web and Society
+    accepted: 24
+  - area: Economics, Monetization, and Online Markets
+    accepted: 18
+  - area: Systems and Infrastructure
+    accepted: 15
+  - area: Web of Things, Ubiquitous and Mobile Computing
+    accepted: 10
+  - area: Social Web
+    accepted: 7

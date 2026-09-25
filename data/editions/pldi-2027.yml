@@ -1,0 +1,63 @@
+id: pldi-2027
+series: pldi
+name: PLDI 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Atlanta, country: USA, country_code: US }
+dates: { start: 2027-06-05, end: 2027-06-11 }
+federated_with:
+  name: FCRC 2027
+  src: pldi-2027-home
+  quote: "PLDI 2027 is part of the Federated Computing Research Conference (FCRC), a week-long event that will bring together PLDI, ISCA, PADS, STOC, SPAA, SIGMETRICS, and other conferences and workshops."
+milestones:
+  - type: paper
+    at: 2026-11-12T23:59
+    tz: AoE
+    status: confirmed
+    src: pldi-2027-papers
+    quote: "Thu 12 Nov 2026 Submission deadline"
+    note_zh: 官网日期表写 “AoE (UTC-12h)”。
+  - type: author_response
+    start: 2027-02-16
+    end: 2027-02-18
+    tz: AoE
+    status: confirmed
+    src: pldi-2027-papers
+    quote: "Tue 16 - Thu 18 Feb 2027 Author response period"
+  - type: notification
+    label_zh: 出结果（有条件录用）
+    at: 2027-03-04
+    tz: AoE
+    status: confirmed
+    src: pldi-2027-papers
+    quote: "Thu 4 Mar 2027 Author notification"
+  - type: author_response
+    label_zh: 修改稿截止（有条件录用论文）
+    at: 2027-03-23T23:59
+    tz: AoE
+    status: confirmed
+    src: pldi-2027-papers
+    quote: "Tue 23 Mar 2027 Revision deadline"
+  - type: notification
+    label_zh: 正式录用通知
+    at: 2027-04-01
+    tz: AoE
+    status: confirmed
+    src: pldi-2027-papers
+    quote: "Thu 1 Apr 2027 Final acceptance notification"
+  - type: camera_ready
+    at: 2027-04-15T23:59
+    tz: AoE
+    status: confirmed
+    src: pldi-2027-papers
+    quote: "Thu 15 Apr 2027 Camera-ready deadline"
+  - type: conference
+    start: 2027-06-05
+    end: 2027-06-11
+    tz: America/New_York
+    status: confirmed
+    src: pldi-2027-home
+    quote: "PLDI 2027 will be held at the Hyatt Regency Atlanta in Atlanta, Georgia, USA, from June 5–11, 2027."
+last_checked: 2026-09-25
+note_zh: PLDI 2027 在 FCRC 2027（联合计算研究大会，同场还有 ISCA、STOC、SPAA、SIGMETRICS 等）内举办。截至 9/25 页面上只有日期表和双盲审稿 FAQ，征稿正文（页数等细则）还没贴出。

@@ -1,0 +1,95 @@
+# 加拿大：中国大陆普通护照赴加开会。格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。
+id: ca
+name_zh: 加拿大
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: required
+  visa_zh: 访客签证（TRV），以商务访客身份参会
+  conf: high
+  src: visa-ca-entry
+  # 页面先写"以下国家的公民需要访客签证"，再列国家名单；anchor 是那句说明，quote 是名单里的中国。
+  anchor: "you need a valid visitor visa and a valid passport to visit or transit through Canada"
+  quote: "China, People's Republic of"
+  note_zh: IRCC 入境要求页：名单内国家的公民访问或过境加拿大，都需要有效的访客签证和护照。
+apply:
+  - label_zh: 在线申请访客签证（IRCC）
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html
+fees:
+  - item: visa
+    amount: 100
+    currency: CAD
+    src: visa-ca-apply
+    quote: "Visitor visa processing fee Individual: $100"
+  - item: biometrics
+    amount: 85
+    currency: CAD
+    src: visa-ca-apply
+    quote: "Biometrics fee Individual: $85"
+facts:
+  - id: business_visitor
+    label_zh: 开会算商务访客
+    text_zh: 参加会议、大会或展会属于商务访客可以做的事，停留一般不超过 6 个月。
+    src: visa-ca-events
+    quote: "going to meetings, conferences, conventions or trade fairs"
+  - id: event_code
+    label_zh: 活动代码
+    text_zh: 如果会议在 IRCC 登记过，主办方会给一个活动代码（event code），填在签证申请表上。没有就不用填。
+    src: visa-ca-events
+    quote: "Check with your meeting, event or conference organizer to get an event code (if applicable)"
+  - id: biometrics
+    label_zh: 生物信息
+    text_zh: 多数情况下，递交申请后要去签证中心采集指纹和照片。
+    src: visa-ca-entry
+    quote: "In most cases, you need to give your fingerprints and photo (biometrics) after you apply for a visitor visa."
+lead:
+  kind: processing_time
+  official:
+    value: 35
+    unit: day
+    src: visa-ca-ptime
+    json_path: visitor-outside-canada.CN
+    json_value: "35 days"
+    note_zh: 在加拿大境外申请访客签证、申请人在中国的处理时间。
+  as_of:
+    date: 2026-09-22
+    src: visa-ca-ptime
+    json_path: visitor-outside-canada.lastupdated
+    json_value: "September 22, 2026"
+  includes:
+    - what: biometrics
+      src: visa-ca-ptime-tool
+      quote: "It also includes the time it takes to give your biometrics."
+  caveat:
+    src: visa-ca-ptime-tool
+    quote: "They're not a maximum or a guarantee."
+  app_buffer:
+    weeks: 3
+    basis: assumption
+    note_zh: 本应用的默认缓冲，用来准备材料、预约签证中心和寄回护照；官方 35 天加上它约 8 周。用户可以改。
+documents:
+  - item_zh: 入境时随身带：在整个停留期内有效的护照和有效的访客签证
+    src: visa-ca-events
+    quote: "a passport or travel document that is valid for your entire stay"
+  - item_zh: 入境时随身带：所在单位的支持信，以及加拿大邀请方（如会议主办方）的邀请信
+    src: visa-ca-events
+    quote: "letters of support from your parent company, and a letter of invitation from the Canadian host business"
+  - item_zh: 入境时随身带：足够支付在加停留和回程的资金证明
+    src: visa-ca-events
+    quote: "proof that you have enough money to cover both your stay in Canada and your return home"
+notices: []
+transit:
+  - item_zh: China Transit Program：持有效美国签证、经加拿大往返美国的中国公民，在指定机场、指定航班转机可以不办加拿大签证，须在到达后 24 小时内离开加拿大。
+    src: visa-ca-ctp
+    quote: "depart Canada within 24 hours of arrival"
+  - item_zh: 参加 China Transit Program 须持有效美国签证。
+    src: visa-ca-ctp
+    quote: "a valid U.S. visa"
+links:
+  - label_zh: 参加会议的商务访客须知
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/business/visitors-events-conferences.html
+  - label_zh: 处理时间查询
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html
+  - label_zh: China Transit Program
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/transit/without-visa/china-transit-eligibility.html
+note_zh: 官方处理时间不是上限，也不是保证。以 IRCC 最新页面为准。

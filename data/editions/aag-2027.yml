@@ -1,0 +1,31 @@
+id: aag-2027
+series: aag
+name: AAG 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: aag-2027-home
+  quote: "The AAG accepts all submitted abstracts and organized sessions for presentation. The registration fee must be paid prior to abstract submission."
+location: { city: New York, country: USA, country_code: US }
+dates: { start: 2027-02-08, end: 2027-02-12 }
+milestones:
+  - type: abstract
+    at: 2026-10-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aag-2027-home
+    quote: "October 15: Abstract submission deadline"
+    note_zh: 要先缴注册费才能投。官网没写时刻和时区，按北京时间当天 23:59 算。12/17 前没被排进分会的摘要会转为海报。
+  - type: conference
+    start: 2027-02-08
+    end: 2027-02-12
+    tz: America/New_York
+    status: confirmed
+    src: aag-2027-home
+    quote: "February 8, 2027, 8:30am Eastern Time (US and Canada) – February 12, 2027, 5:30pm Eastern Time (US and Canada)"
+    note_zh: 会场是纽约 Hilton Midtown。
+last_checked: 2026-09-25
+note_zh: AAG 接收所有摘要，所以没有"录用通知"；12/10 公布日程，12/17 是摘要和分会的最后修改日。注册费分三档（9/10 前、12/17 前、会前），线上注册不退款。官网提供签证邀请函模板。

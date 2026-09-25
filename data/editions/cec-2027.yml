@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: cec-2027
+series: cec
+name: IEEE CEC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/IEEE CEC
+  conf_id: cec2027
+  link: https://ieeecec.org/2027
+  place: Edinburgh, Scotland, UK
+  date: July 25-28, 2027
+  timezone: UTC-12
+location:
+  city: Edinburgh
+  country: UK
+  country_code: GB
+dates:
+  start: 2027-07-25
+  end: 2027-07-28
+milestones:
+  - type: paper
+    at: 2027-02-28T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2027-07-25
+    end: 2027-07-28
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,13 @@
+id: mrs-spring
+acronym: MRS Spring
+full_name: MRS Spring Meeting & Exhibit
+name_zh: 美国材料研究学会春季会议
+aliases:
+  - Materials Research Society Spring Meeting
+directions: [chem/materials]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国材料研究学会一年两次大会，春季会往届都在每年 4 月前后举办（秋季会见 mrs-fall）
+data_level: curated
+note_zh: 只收摘要，按专题分会（symposium）投。mrs.org 拒绝本项目的抓取程序，日期只能从 Internet Archive 的存档核对。

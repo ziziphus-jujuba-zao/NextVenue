@@ -1,0 +1,13 @@
+id: mm
+acronym: ACM MM
+full_name: ACM International Conference on Multimedia
+aliases: [ACM Multimedia, MM]
+directions: [cs/graphics, cs/cv]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/mm
+ccfddl: CG/ACM MM
+data_level: curated
+note_zh: ACM SIGMM 的旗舰会议。2027 年在香港，2028 年在伦敦（acmmm.org）。

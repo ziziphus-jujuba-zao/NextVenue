@@ -3,7 +3,7 @@ series: kdd
 name: KDD 2028
 year: 2028
 kind: conference
-topics: [dm, ml]
+data_level: curated
 derived_from: kdd-2027
 milestones:
   - type: abstract

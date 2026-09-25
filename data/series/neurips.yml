@@ -1,0 +1,12 @@
+id: neurips
+acronym: NeurIPS
+full_name: Conference on Neural Information Processing Systems
+aliases: [NIPS]
+directions: [cs/ml]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/nips
+ccfddl: AI/NeurIPS
+data_level: curated

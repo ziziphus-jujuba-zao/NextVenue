@@ -1,0 +1,67 @@
+SenSys 2027
+
+ * Homepage
+ * Calls
+   * Call for Papers
+
+ * Committees
+   * Organization
+   * Technical Program Committee
+   * TPC self-nomination
+
+SenSys 2027
+
+ACM/IEEE International Conference on
+Embedded Artificial Intelligence and Sensing Systems
+
+May 17–20, 2027 Boulder, CO, USA
+
+We are excited to announce the 2027 edition of the International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys).
+
+The goal of this new conference is to offer a single, top-ranked, flagship event for the research communities formerly revolving around SenSys, IPSN, and IoTDI, as well as a focal point for other communities in related fields. The original three conferences, now merged into SenSys 2027, have driven innovation across multiple disciplines, including sensor networks, embedded systems, mobile computing, wireless communication, signal processing, data science, and AI-driven applications. Nevertheless, the continued and increasing relevance of intelligent sensing systems in academia and industry demands a unified, high-impact forum acting as a catalyzer for advancing research at the intersection of sensing systems and embedded artificial intelligence. The new conference, sponsored jointly by ACM and IEEE, addresses exactly this need. SenSys will provide a comprehensive platform where researchers and industry professionals from different areas can converge to present state-of-the-art research, exchange novel ideas, address key challenges, and ultimately shape the future of this continuously expanding and interdisciplinary field.
+
+The submission site: https://sensys27.hotcrp.com/
+
+Important Dates
+
+Camera-Ready
+
+ * Deadline for Papers, Demos, and Posters
+   TBD, 23:59 AoE
+
+Call for Demos and Posters
+
+ * Notification of Acceptance
+   TBD, 23:59 AoE
+ * Submission Deadline
+   TBD, 23:59 AoE
+
+2nd Deadline Call for Papers
+
+ * Abstract Registration
+   Thursday, October 29, 2026, 23:59 AoE
+ * Full Paper Submission
+   Thursday, November 5, 2026, 23:59 AoE
+ * Early Notification
+   Thursday, December 17, 2026, 23:59 AoE
+ * Notification
+   Thursday, January 28, 2027, 23:59 AoE
+
+1st Deadline Call for Papers
+
+ * Abstract Registration
+   Friday, May 29, 2026, 23:59 AoE
+ * Paper Submission
+   Friday, June 5, 2026, 23:59 AoE
+ * Early Notification
+   Wednesday, July 17, 2026, 23:59 AoE
+ * Notification
+   Monday, August 31, 2026, 23:59 AoE
+
+TPC self-nomination
+
+ * Application deadline
+   Friday, May 15, 2026, 23:59 AoE
+
+© SenSys 2027: ACM/IEEE Conference on Embedded Artificial Intelligence and Sensing Systems
+Template by Xiaoying Riley

@@ -1,0 +1,11 @@
+id: uai
+acronym: UAI
+full_name: Conference on Uncertainty in Artificial Intelligence
+directions: [cs/ml]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/uai
+ccfddl: AI/UAI
+data_level: curated

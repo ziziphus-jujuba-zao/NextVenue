@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 // App wording layered over data/ when the app is built (scripts/app-data.ts).
 // data/ holds the verified cards; this file only changes how the phone app
@@ -110,7 +109,13 @@ export const MILESTONE_LABEL: Record<string, string> = {
 };
 
 /** Milestones whose date itself differs between official pages (see each note_zh). */
-export const DISPUTED = new Set(['arr-2026-10/reviewer_registration', 'arr-2026-10/meta_reviews']);
+export const DISPUTED = new Set([
+  'arr-2026-10/reviewer_registration',
+  'arr-2026-10/meta_reviews',
+  // WWW 2027: the CFP moved results to 12/21 and rebuttal to 12/21–31 on 2026-09-25; Important Dates still says 12/15 and 12/15–20.
+  'www-2027/reviews_out',
+  'www-2027/author_response',
+]);
 
 export interface Split {
   /** The card to split. */
@@ -257,6 +262,31 @@ export function bareAoeDays(text: string, refs: DateRef[], edition: string): str
   return out;
 }
 
+// ---------- quotation marks ----------
+
+/**
+ * A Chinese phrase in ASCII quotes ("有效期", "分配后换会场或报告人") reads
+ * as code on a phone: it becomes 「有效期」. English inside quotes (an
+ * official wording like "before Nov 04") keeps its quotes.
+ */
+export function cjkQuotes(text: string): string {
+  const parts = text.split('"');
+  // Pairs only: an odd number of marks is left as written.
+  if (parts.length < 3 || parts.length % 2 === 0) return text;
+  return parts
+    .map((p, i) => (i % 2 === 0 ? p : /[\u4e00-\u9fff]/.test(p) && !/[A-Za-z]/.test(p) ? `「${p}」` : `"${p}"`))
+    .join('');
+}
+
+/** Every `*_zh` string under `v`, with cjkQuotes applied. */
+function zhQuotes<T>(v: T): T {
+  if (Array.isArray(v)) return v.map(zhQuotes) as T;
+  if (!v || typeof v !== 'object') return v;
+  const out: Record<string, unknown> = {};
+  for (const [k, x] of Object.entries(v as Record<string, unknown>)) out[k] = typeof x === 'string' && k.endsWith('_zh') ? cjkQuotes(x) : zhQuotes(x);
+  return out as T;
+}
+
 // ---------- applying it ----------
 
 function edit(text: string | undefined, fixes: TextFix[], field: TextField): string | undefined {
@@ -288,9 +318,11 @@ export function staleCopy(data: AppData): string[] {
 export function applyCopy(data: AppData): AppData {
   const editions = data.editions.map((e) => ({
     ...e,
+    sites: zhQuotes(e.sites),
+    logistics: zhQuotes(e.logistics),
     milestones: e.milestones.map((m) => {
       const key = `${e.id}/${m.type}`;
-      return { ...m, label_zh: MILESTONE_LABEL[key] ?? m.label_zh, disputed: DISPUTED.has(key) || undefined };
+      return { ...m, label_zh: MILESTONE_LABEL[key] ?? m.label_zh, note_zh: m.note_zh === undefined ? undefined : cjkQuotes(m.note_zh), disputed: DISPUTED.has(key) || undefined };
     }),
   }));
   const refs = dateRefs(editions);
@@ -305,7 +337,7 @@ export function applyCopy(data: AppData): AppData {
       const fixes = r === base ? TEXT_FIXES.filter((f) => f.id === r.id) : [];
       const fix = (t: string | undefined, field: TextField) => {
         const s = edit(t, fixes, field);
-        return s === undefined ? undefined : beijingText(s, refs, r.edition, keep);
+        return s === undefined ? undefined : cjkQuotes(beijingText(s, refs, r.edition, keep));
       };
       rules.push({
         ...r,
@@ -318,7 +350,7 @@ export function applyCopy(data: AppData): AppData {
       });
     }
   }
-  return { ...data, editions, rules };
+  return { ...data, editions, rules, visa: zhQuotes(data.visa), china: zhQuotes(data.china) };
 }
 
 // ---------- checks (pnpm validate, tests) ----------

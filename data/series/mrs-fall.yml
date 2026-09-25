@@ -1,0 +1,13 @@
+id: mrs-fall
+acronym: MRS Fall
+full_name: MRS Fall Meeting & Exhibit
+name_zh: 美国材料研究学会秋季会议
+aliases:
+  - Materials Research Society Fall Meeting
+directions: [chem/materials]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国材料研究学会一年两次大会，秋季会往届都在每年 11 月底至 12 月初于波士顿举办（春季会见 mrs-spring）
+data_level: curated
+note_zh: 只收摘要，按专题分会投；常规摘要之后另有一轮"Breaking News"摘要。mrs.org 拒绝本项目的抓取程序，日期只能从 Internet Archive 的存档核对。

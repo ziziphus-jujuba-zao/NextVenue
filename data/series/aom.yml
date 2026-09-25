@@ -1,0 +1,14 @@
+id: aom
+acronym: AOM
+full_name: Academy of Management Annual Meeting
+name_zh: 美国管理学会年会
+aliases:
+  - AOM Annual Meeting
+  - Academy of Management
+directions: [soc/mgmt]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国管理学会年会，往届都在每年 7 月底至 8 月初举办
+data_level: curated
+note_zh: 投全文论文（匿名评审）、专题研讨（symposium）、PDW、海报等，按分部（Division/Interest Group）投。

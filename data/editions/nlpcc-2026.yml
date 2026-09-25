@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: nlpcc-2026
+series: nlpcc
+name: NLPCC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/NLPCC
+  conf_id: nlpcc2026
+  link: http://tcci.ccf.org.cn/conference/2026/
+  place: Macau, China
+  date: November 3-5, 2026
+  timezone: UTC+8
+location:
+  city: Macau
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-03
+  end: 2026-11-05
+milestones:
+  - type: paper
+    at: 2026-06-20T23:59
+    tz: UTC+8
+    status: confirmed
+  - type: conference
+    start: 2026-11-03
+    end: 2026-11-05
+    tz: UTC+8
+    status: confirmed
+last_checked: 2026-09-25

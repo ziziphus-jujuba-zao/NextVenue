@@ -1,0 +1,11 @@
+id: igarss
+acronym: IGARSS
+full_name: IEEE International Geoscience and Remote Sensing Symposium
+aliases:
+  - IEEE IGARSS
+directions: [eng/rs, earth/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 7 月
+data_level: curated

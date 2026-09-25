@@ -1,0 +1,154 @@
+CIKM 2024 Conference Report
+EDOARDO SERRA1 , FRANCESCA SPEZZANO1 and FRANCESCO GULLO2
+1
+Boise State University, USA
+2
+University of L’Aquila, Italy
+
+The 33rd ACM International Conference on Information and Knowledge Management (CIKM
+2024) was held in Boise, Idaho, USA, from October 21–25, 2024, marking its return as a fully
+in-person event after four years of virtual or hybrid formats. With over 900 attendees, CIKM 2024
+continued its tradition of bringing together researchers and practitioners in databases, information
+retrieval, knowledge management, and related fields such as data science, machine learning, and
+artificial intelligence. The conference featured five paper tracks, attracting 1,496 full research
+paper submissions and over 1,000 submissions across other categories, with an overall acceptance
+rate of 26%. The program included 12 tutorials, 10 workshops, three keynote talks, an Industry
+Day, a PhD Symposium, and an AnalytiCup competition. Keynote speakers addressed emerging
+challenges in AI, search engines, and outlier detection. The conference also recognized outstanding
+contributions with best paper awards, the Test of Time Award, and special acknowledgments for
+senior program committee members and reviewers. CIKM 2024 was made possible through the
+dedication of the organizing committee and other volunteers, support from industry partners, and
+sponsorship from SIGIR, SIGWEB, and the USA National Science Foundation, which provided
+student travel grants.
+
+DOI: 10.1145/3726831.3726832
+
+http://doi.acm.org/10.1145/3726831.3726832
+
+The 2024 ACM International Conference on Information and Knowledge Management
+(CIKM) was held for the first time in Boise, Idaho (USA), on October 21-25, 2024. Situated along the beautiful foothills of the Rocky Mountains, Boise, Idaho’s vibrant capital, is
+emerging as a hub for technological innovation, offering a dynamic setting for researchers
+and practitioners to explore new frontiers in information science. After four years of fully
+virtual or hybrid conference, CIKM 2024 was finally hosted again as a full physical conference (receiving more than 900 registrations) at the Boise Centre convention center in
+the heart of Boise downtown. CIKM 2024 is the 33rd running of the conference, which
+remains the only conference that focuses on the management of both structured and unstructured data, accepting research papers covering databases, information retrieval, and
+knowledge management sub-disciplines of Computer Science. CIKM 2024 also accepts
+papers from general areas of data science, machine learning, and artificial intelligence,
+covering both foundational work and applications. Like the last editions, this one also includes an Industry Day (a full-day event) and one AnalytiCup competition. Besides the
+presentations of all the accepted papers in the above tracks, the whole conference program
+includes 12 tutorials, 10 workshops, three keynote talks, and a PhD Symposium bringing
+SIGWEB Newsletter Winter 2025
+
+2
+
+·
+
+Serra, Spezzano, and Gullo
+
+together senior researchers with PhD students to discuss the exciting work of these earlycareer researchers who will contribute to shaping tomorrow’s research landscape. The
+Industry Day featured a keynote by Amir Gharib (Microsoft Security Research, USA) on
+“GraphWeaver: Billion-Scale Cybersecurity Incident Correlation” and 10 talks on how
+research of interest of the CIKM community is applied in an industrial setting. A record
+number of 19 students participated in the PhD Symposium to present their ongoing research, receive feedback from experienced researchers, and engage with peers at similar
+stages of their doctoral journey.
+CIKM 2024 continued to offer an outstanding technical program. Papers were solicited in
+five tracks: full research papers, short research papers, applied research papers, resource
+papers, and demonstration papers. The call for papers attracted submissions from all continents. In total, we received 1,496 full research papers, 527 short research papers, 316
+applied research papers, 76 resource papers, and 70 demo papers. These papers were submitted from 62 countries. Submissions were reviewed by a group of 1284 program committee (PC) members, whereas 282 senior PC members (SPC) were responsible for the
+meta-reviewing of the submissions across all tracks. This was followed by a discussion by
+the SPC/PC members, and final decisions were made considering the SPC metareviews, the
+PC discussions, and reviews. The full research track accepted 347 full papers (23% acceptance rate), whereas 141 papers (27%) were accepted as short research papers, 103 papers
+(33%) were accepted as applied research papers, 22 papers (29%) as resource papers and
+33 papers (47%) as demonstration papers. The overall acceptance rate is 26%.
+We had the honor to have hosted world-leading keynote speakers. The valuable and insightful talks from these international leaders will inspire new research frontiers:
+—Traversing the Journey of Data and AI: From Convergence to Translation, Nitesh
+Chawla (University of Notre Dame);
+—Is the Search Engine of the Future a Chatbot?, Suzan Verberne (Leiden University);
+—Ensembles for Outlier Detection and Evaluation, Charu C. Aggarwal (IBM T. J. Watson Research Center).
+CIKM 2024 has given a number of awards, including best paper and best runner-up in five
+different submission categories. The best papers from each category are listed below:
+—Best Full Paper (sponsored by Turing): Data Void Exploits: Tracking & Mitigation
+Strategies, by Miro Mannino, Junior Garcia, Reem Hazim, Azza Abouzied, and Paolo
+Papotti;
+—Best Student Full Paper (sponsored by Turing): Physics-guided Active Sample Reweighting for Urban Flow Prediction, by Wei Jiang, Tong Chen, Guanhua Ye, Wentao Zhang,
+Lizhen Cui, Zi Huang, and Hongzhi Yin;
+—Best Full Paper Runner Up: Revisiting Optimal Window Aggregation in Data Streams:
+The Prefix-Sum Approach, by Jose Martinez and Guillaume Raschia;
+—Best Applied Research Paper (sponsored by Turing): A Real-Time Adaptive MultiStream GPU System for Online Approximate Nearest Neighborhood Search, by Yiping
+Sun, Yang Shi, and Jiaolong Du;
+SIGWEB Newsletter Winter 2025
+
+CIKM’24 Conference Report
+
+·
+
+3
+
+—Best Student Applied Research Paper (sponsored by Turing): CLeAR: Robust Contrastive Learning of Intensity-Aware Representations for Anti-Money Laundering, by
+Shuaibin Huang, Yun Xiong, Yi Xie, and Tianyu Qiu;
+—Best Short Paper: GeoReasoner: Reasoning On Geospatially Grounded Context For
+Natural Language Understanding, by Yibo Yan and Joey Lee;
+—Best Resource Paper: pyPANTERA: A Python PAchage for Natural language obfuscaTion Enforcing pRivacy & Anonymization, by Francesco Luigi De Faveri, Guglielmo
+Faggioli, and Nicola Ferro;
+—Best Demo Paper: Introducing CausalBench: A Flexible Benchmark Framework for
+Casual Analysis and Machine Learning, by Ahmet Kaphic, Pratanu Mandal, Shu Wan,
+Paras Sheth, Abhinav Gorantla, Yoonhyuk Choi, K. Selcuk Candan, and Huan Liu.
+Besides the above awards, CIKM 2024 also gave the Test of Time Award to recognize
+an outstanding paper published 10 years ago in the proceedings of CIKM that had an
+important and sustained impact on this community. The CIKM 2024 Test of Time Award
+is given to Po-Sen Huang, Xiaodong He, Jianfeng Gao, Li Deng, Alex Acero, and Larry
+Heck for their paper “Learning deep structured semantic models for web search using
+clickthrough data,” published in CIKM 2013.
+Furthermore, we extend our special recognition to the following senior program committee members: Claudia Hauff, Giovanni Stilo, Gong Cheng, Hua Lu, Iadh Ounis, Ingmar Weber, Jianqiu Xu, Joel Mackenzie, Junhao Gan, Krisztian Balog, Ludovico Boratto,
+Philippe Cudre-Mauroux, Ruiming Tang, Shixun Huang, Udo Kruschwitz, Vanessa Murdock, Vito-Walter Annielli, Wagner Meira Jr., Xiaohui Yu, Yiu-Kai Ng, Yoelle Maarek,
+You Wu, Yuchen Li, and Yuyu Luo. Also, recognized the following colleagues as the
+Best Reviewers: Andrea D’Angelo, Boyu Ruan, Claudio Lucchese, David Tedjopurnomo,
+Giovanna Guerrini, Jiajun Xu, Julián Urbano, Junichi Tatemura, Karankumar Sabhnani,
+Ladislav Peska, Loulwah AlSumait, Miguel Couceiro, Nicola Tonellotto, Nicolas Travers,
+Oliver Karras, Qiang Huang, Susie Xi Rao, Tao Sun, Tuo Shi, Wenqi Zhang, Wenqing Lin,
+and Xiang Li.
+Organizing a conference such as CIKM requires the dedication and effort of many volunteers. We are grateful to all our outstanding colleagues for serving on the organization
+team and for generously contributing their time and energy. The conference would have
+been impossible to organize without their volunteer spirit. Throughout the entire period of
+conference organization, we have also benefited from advice and mentoring from all the
+members of the CIKM Steering Committee, especially the chair, Alistair Moffat. Alistair
+not only provided mentoring but also offered detailed help for the conference budget and
+multiple planning decisions, relating to the organization of a fully in person conference,
+after four years of virtual or hybrid editions. We are also grateful to last year’s CIKM 2023
+organizers, especially Ingo Frommholz, as well as CIKM 2022 organizers, Mohammad
+Al Hasan and Li Xiong, for providing us with useful advice on how to organize an event
+like CIKM. We sincerely appreciate the support of all our partners: Amazon (Diamond
+Partner), Turing (Platinum Partner and best paper awards’ supporter), Clearwater Analytics (Gold Partner), Boise State University, Google, PuppyGraph, and The Home Depot
+(Bronze Partners), and Mercari (Bronze Partner). We are also grateful to Boise State UniSIGWEB Newsletter Winter 2025
+
+4
+
+·
+
+Serra, Spezzano, and Gullo
+
+versity for providing us with time and resources to act as general chairs. A big thanks goes
+to the two ACM sponsors, SIGIR and SIGWEB, and the USA National Science Foundation
+(NSF). Their generous support enables us to provide travel awards to 33 students. Finally,
+we thank all members of Executivevents, our event management team, all the Boise Centre
+and Visit Boise staff, and student volunteers for taking care of the logistics of the CIKM
+2024 conference.
+
+Edoardo Serra is an associate professor at Boise State University and holds a joint appointment at Pacific Northwest National Laboratory in the Data Sciences and Machine Intelligence group. He earned his PhD in Systems
+and Computer Engineering from the University of Calabria in Italy in 2012. Before joining Boise State, Dr. Serra
+was a Postdoctoral Research Associate at the University of Maryland Institute for Advanced Computer Studies.
+His research is on AI and Data Science, with current interests focusing on Graph Representation Learning, AI
+Interpretability and Robustness, and the application of ML/AI in Cyber and National Security.
+Francesca Spezzano is an associate professor at Boise State University in the Computer Science department. She
+received her Ph.D. in Computer Engineering from the University of Calabria, Italy, in 2012. Before joining Boise
+State, Dr. Spezzano was a Postdoctoral Research Associate at the University of Maryland Institute for Advanced
+Computer Studies. Her research interests deal with social network analysis and mining with applications to
+misbehavior and misinformation detection and mitigation, information diffusion, and national security.
+Francesco Gullo is an associate professor of computer science at the University of L’Aquila (Italy), in the Department of Information Engineering, Computer Science, and Mathematics (DISIM). He received his PhD, in
+“Computer and Systems Engineering”, from the University of Calabria (Italy), in 2010. His research falls into the
+broad areas of artificial intelligence and data science, with emphasis on algorithmic aspects. His recent interests
+include graph machine learning, graph data management, natural language processing, and trustworthy AI.
+
+SIGWEB Newsletter Winter 2025
+
+

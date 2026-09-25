@@ -1,0 +1,60 @@
+id: mm-2027
+series: mm
+name: ACM MM 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: mm-2026
+location: { city: Hong Kong, country: China, country_code: HK }
+milestones:
+  - type: abstract
+    at: 2027-03-25T23:59
+    tz: AoE
+    status: estimated
+    src: mm-2026-cfp
+    quote: "Abstract submission: March 25th, 2026."
+    note_zh: ACM MM 2027 还没有公布日期，按 ACM MM 2026 的摘要截止 3/25 顺延。MM 2026 的作者名单在摘要截止后不能再改。
+  - type: paper
+    at: 2027-04-01T23:59
+    tz: AoE
+    status: estimated
+    src: mm-2026-cfp
+    quote: "Regular paper submission: April 1st, 2026."
+    note_zh: 按 ACM MM 2026 的正文截止 4/1 顺延；MM 2026 的截止时刻是 AoE 23:59（“The submission deadline is at 23:59 of the stated deadline date Anywhere on Earth (AoE).”）。
+  - type: author_response
+    label_zh: Rebuttal
+    at: 2027-06-04T23:59
+    tz: AoE
+    status: estimated
+    src: mm-2026-dates
+    quote: "Rebuttal 04-June"
+    note_zh: 按 ACM MM 2026 重要日期页的 rebuttal 截止 6/4 顺延；该页没写年份和时区，这里沿用 CFP 的 AoE。
+  - type: notification
+    at: 2027-07-09
+    tz: AoE
+    status: estimated
+    src: mm-2026-dates
+    quote: "Author Notification 09-July"
+    note_zh: '两处官方页面不一致：MM 2026 重要日期页写 7/9，CFP 写 7/7（“Notification to authors: July 7th, 2026.”）；结果类节点取较晚的 7/9 顺延。'
+  - type: camera_ready
+    at: 2027-08-06T23:59
+    tz: AoE
+    status: estimated
+    src: mm-2026-dates
+    quote: "Camera-Ready 06-August"
+    note_zh: 按 ACM MM 2026 的 camera-ready 截止 8/6 顺延。
+  - type: author_registration
+    at: 2027-08-31T23:59
+    tz: AoE
+    status: estimated
+    src: mm-2026-dates
+    quote: "Author Registration 31-August"
+    note_zh: 按 ACM MM 2026 的作者注册截止 8/31 顺延。
+  - type: conference
+    tz: Asia/Hong_Kong
+    status: tba
+    src: mm-2027-home
+    quote: "ACM MM 2027 will be in Hong Kong. Dates to be announced."
+    note_zh: 官网只公布了地点（香港），会期待定。
+last_checked: 2026-09-25
+note_zh: ACM MM 2027 在香港举办，会期和投稿日期都还没公布（acmmm.org 写“Dates to be announced”）。标“预计”的日期按 ACM MM 2026 主赛道顺延：摘要 3/25、正文 4/1、rebuttal 6/4、出结果 7/9、camera-ready 8/6、作者注册 8/31。MM 2026 在 11 月开会，MM 2027 会期如果不同，截止日期也会跟着变。

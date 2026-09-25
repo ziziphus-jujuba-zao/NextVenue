@@ -1,0 +1,272 @@
+Skip to content
+
+ * Home
+ * About
+   * Organizing Committee
+   * Program Committee
+   * Society Review Chairs
+   * History
+   * Code of Conduct
+ * Authors
+   * Important Dates
+   * Author Information
+ * Students
+   * Student Travel Grants
+   * Student Best Paper Award
+   * Student Events
+ * Travel
+   * Visa Information
+   * Hotel Accommodations
+   * Transportation
+   * Things to Do in Philadelphia
+ * Program
+   * Plenary Speakers
+   * Invited Sessions
+   * Tutorial Sessions
+   * Special Sessions
+   * Workshops
+   * Social Events
+ * Sponsors
+   * Invitation for Sponsors
+   * Sponsor List
+ * Outreach
+ * Registration
+   * Registration Information
+
+ * Call for Papers
+
+ * Home
+ * About
+   * Organizing Committee
+   * Program Committee
+   * Society Review Chairs
+   * History
+   * Code of Conduct
+ * Authors
+   * Important Dates
+   * Author Information
+ * Students
+   * Student Travel Grants
+   * Student Best Paper Award
+   * Student Events
+ * Travel
+   * Visa Information
+   * Hotel Accommodations
+   * Transportation
+   * Things to Do in Philadelphia
+ * Program
+   * Plenary Speakers
+   * Invited Sessions
+   * Tutorial Sessions
+   * Special Sessions
+   * Workshops
+   * Social Events
+ * Sponsors
+   * Invitation for Sponsors
+   * Sponsor List
+ * Outreach
+ * Registration
+   * Registration Information
+
+ *
+
+Your cart
+
+Author Information
+
+2027 American Control Conference
+
+Author Information
+
+All conference submissions must be made through PaperPlaza by the applicable deadline. Authors of accepted papers and posters are expected to attend ACC 2027 and present their work.
+
+Submit via PaperPlaza View Important Dates Author Support
+Submission System
+PaperPlaza
+Electronic submissions only
+Initial Paper Limit
+8 Pages
+Regular and invited papers
+Final Paper Limit
+6 + 2 Pages
+Two extra pages permitted for a fee
+Upload Format
+PDF Only
+Maximum file size: 2 MB
+
+Submission Categories
+
+ACC 2027 welcomes contributed papers and proposals for invited sessions, special sessions, tutorial sessions, and workshops. Select a category below for its requirements and contact information.
+
+Contributed Papers
+
+A contributed paper should provide a complete description of finished work. Accepted papers are limited to six pages in the conference proceedings at no extra charge; up to two additional pages are allowed for a per-page fee. ACC does not offer a separate short-paper format.
+
+Authors may alternatively submit a paper for publication in IEEE Control Systems Letters (L-CSS) and presentation at ACC. L-CSS submissions are strictly limited to six pages and joint submissions are accepted only through the L-CSS submission site.
+
+Presentation formats
+
+ * Traditional sessions: up to six papers, with a 15-minute presentation for each paper.
+ * Rapid interactive sessions: up to 20 papers, with a three-minute presentation followed by a 45-minute poster session.
+
+The presentation format assigned to each accepted paper will be announced after the final submission date, when the technical program is created.
+
+Invited Sessions
+
+Invited sessions should present a coherent technical theme and include contributions that collectively advance understanding of the selected topic. A session typically consists of five or six papers organized around a unifying theme. The proposal must be accompanied by the full versions of all papers, which are reviewed individually along with the overall proposal.
+
+A strong proposal should:
+
+ * Address a timely, well-defined theme in control theory, systems, or applications.
+ * Include technically connected but non-repetitive papers.
+ * Represent diverse viewpoints, institutions, methods, or application domains.
+ * Explain clearly why the topic matters to the ACC community.
+ * Identify organizers who can coordinate submission, review, and final presentations.
+
+Topics may span all areas of automatic control, including control theory, robotics and autonomy, cyber-physical systems, transportation, energy, biological and medical systems, aerospace, manufacturing, learning-enabled control, optimization, estimation, safety, resilience, and human-centered systems.
+
+Submit the proposal and all associated papers through PaperPlaza. L-CSS papers may be considered as ACC invited papers; the L-CSS submission deadline is September 23, 2026.
+
+Invited Session Guidance Documents
+
+ * Invited Session Proposal Guidance
+ * ACC 2027 L-CSS Invited Session Co-Submission Guidance
+
+Questions: Pingen Chen, Vice Chair for Invited Sessions, pchen23@utk.edu.
+
+Special Sessions
+
+Special sessions highlight emerging research directions, interdisciplinary topics, or areas of significant current interest. They typically include invited presentations, discussions, and/or panels; they do not include peer-reviewed papers published in the conference proceedings.
+
+A proposal should identify:
+
+ * The topic or topics to be covered.
+ * The motivation and relevance to the controls community.
+ * The names and affiliations of the invited speakers.
+
+Proposals must be submitted electronically through the ACC 2027 submission website and will be evaluated for technical merit, timeliness, coherence, and speaker qualifications.
+
+Questions: Kyriakos Vamvoudakis, Vice Chair for Special Sessions, kyriakos@gatech.edu.
+
+Tutorial Sessions
+
+ACC 2027 welcomes tutorials on all topics related to control systems, especially proposals at the intersections of control with artificial intelligence, neuroscience, social science, and finance.
+
+Examples of encouraged topics
+
+ * Large language models and their intersections with control and dynamical systems.
+ * Multi-agent AI systems and interactions.
+ * Safety, alignment, and governance of autonomous control systems.
+ * Applications of dynamics and control to societal challenges.
+
+Stage 1: Initial proposal
+
+The initial proposal should include:
+
+ * Tutorial title and purpose statement.
+ * Content description, learning outcomes, and prerequisites.
+ * Organizer and speaker information.
+ * A detailed timeline for the 1.5-hour session.
+ * The target audience.
+
+Stage 2: Tutorial paper
+
+Invited organizers must submit a tutorial paper of 4–18 pages in standard ACC format. It should offer comprehensive, pedagogically sound, technically accurate, and accessible coverage for the intended audience. Suggested components include motivation and scope, technical content, mathematical formulations and figures, literature review, examples, applications, conclusions, future directions, and open problems.
+
+Questions: Yorie Nakahira, Vice Chair for Tutorial Sessions, yorie@cmu.edu.
+
+Workshops
+
+ACC 2027 solicits half-day and full-day workshop proposals for Tuesday, July 6, 2027, preceding the main conference program on July 7–9, 2027. Workshops should emphasize emerging topics of particular interest to attendees. Proposals on novel control methods, control applications, and topics with strong tutorial value are encouraged.
+
+Each proposal should include:
+
+ 1. Workshop title.
+ 2. Description of the technical issues and the timeliness of the topic.
+ 3. Organizer names, affiliations, and contact information.
+ 4. Tentative speakers and agenda.
+ 5. Half-day or full-day duration.
+ 6. Estimated attendance and preferred room setting.
+ 7. A description of past versions, when applicable.
+
+Submit proposals through PaperPlaza. Questions: Gabor Orosz, Workshops Chair, orosz@umich.edu.
+
+Support for Authors
+
+Author Kits and Templates
+
+LaTeX style files, Microsoft Word templates, and example files are available through the conference submission site. Visit PaperPlaza and select “Support,” or go directly to the PaperPlaza support page.
+
+Manuscript Format
+
+Review and final manuscripts must be written in English and use the standard two-column ACC format. Uploads must be PDF files no larger than 2 MB.
+
+Review the page-size requirements before submission.
+
+Submission and Registration Policies
+
+Initial Submission
+
+ * Regular and invited papers are limited to eight pages.
+ * PaperPlaza will not accept manuscripts exceeding the page limit.
+ * Authors may revise and resubmit until the applicable deadline.
+ * No deadline extensions are foreseen.
+
+Final Manuscript
+
+ * Six pages are included at no extra charge.
+ * Final manuscripts may contain up to eight pages total.
+ * Each page beyond six incurs a USD 200 charge.
+
+Author Registration
+
+ * At least one listed author must register at the full member/non-member rate to upload the final manuscript.
+ * One registration may be used to upload up to four papers.
+ * Each additional paper attached to the same registration incurs a USD 200 charge.
+
+Reduced-Rate Registration
+
+ * Student and retiree registrations cannot be used to upload a final paper or final poster.
+ * Authors should submit early and confirm that their files pass the required PDF checks.
+
+Before uploading: confirm the page limit, file size, page dimensions, PDF compatibility, author-registration requirement, and applicable submission deadline.
+
+AACC AI Policies
+
+Ownership, Transparency, and Disclosure
+
+The use of large language model tools should be governed by ownership, transparency, and disclosure. Authors may use these tools in conducting research, but they remain fully responsible for all outputs, claims, and uses, and must preserve the reproducibility of the research.
+
+LLM tools must not be listed as authors or co-authors. Manuscripts that use such tools for research, composing or editing text, generating images or artwork, or producing synthetic data should explain how the tools were used and identify the specific tasks and portions of the work involved.
+
+Authors should disclose and cite the tools in the reference section. The same disclosure and proper referencing expectations apply when LLM tools are used to prepare posters or conference presentations.
+
+Contacts
+
+Contact the appropriate ACC 2027 committee member with questions about a submission category.
+
+Vice Chair – Invited Sessions
+Pingen Chen
+pchen23@utk.edu
+Vice Chair – Special Sessions
+Kyriakos Vamvoudakis
+kyriakos@gatech.edu
+Vice Chair – Tutorial Sessions
+Yorie Nakahira
+yorie@cmu.edu
+Workshops Chair
+Gabor Orosz
+orosz@umich.edu
+
+Ready to Submit?
+
+Review the applicable requirements and deadline, then submit your paper or proposal through PaperPlaza.
+
+Open PaperPlaza Check Important Dates
+
+ACC 2027. All rights reserved.
+
+A unique opportunity to participate in a Workshop on Opportunity Matching intended to synergize industry-academic collaboration
+
+Got it!
+Close Welcome Bar

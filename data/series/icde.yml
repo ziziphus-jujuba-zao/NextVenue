@@ -1,0 +1,13 @@
+id: icde
+acronym: ICDE
+full_name: IEEE International Conference on Data Engineering
+aliases: [IEEE ICDE]
+directions: [cs/db]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/icde
+ccfddl: DB/ICDE
+data_level: curated
+note_zh: 一年两轮投稿，每轮只有录用或拒稿，没有修改环节（ICDE 2027）。

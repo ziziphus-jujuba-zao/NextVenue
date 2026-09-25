@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: jsm-2027
+sources:
+  - id: jsm-2027-home
+    url: https://ww2.amstat.org/meetings/jsm/2027/index.cfm
+    title: JSM 2027
+    kind: other
+    fetched_at: 2026-09-25T16:09:35Z
+    http_status: 200
+    snapshot: da92cbf20bfbded47bbabe3e4ca5509ad5e479e6e2daa7cfec0a52254f9c8762
+  - id: jsm-meetings-page
+    url: https://www.amstat.org/meetings/joint-statistical-meetings
+    title: ASA Joint Statistical Meetings
+    kind: other
+    fetched_at: 2026-09-25T16:09:40Z
+    http_status: 200
+    snapshot: fdd3dc0e8b4ed979bc5bb4a50b96c7f0a6bc893fbe6797d0f2832371d8193782

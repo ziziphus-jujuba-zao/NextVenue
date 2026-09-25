@@ -1,0 +1,62 @@
+id: icme-2027
+series: icme
+name: ICME 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: icme-2026
+location: { city: Xiamen, country: China, country_code: CN }
+dates: { start: 2027-07-13, end: 2027-07-17 }
+milestones:
+  - type: paper
+    at: 2026-12-12T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: icme-2026-dates
+    quote: "Regular Paper Submissions (including Special Sessions and 12 December 2025 31 December 2025"
+    note_zh: ICME 2027 还没有公布投稿日期。ICME 2026 原定 12/12 截止，后来延到 12/31；这里按原定的 12/12 顺延（更保守）。ICME 2026 页面没写时区，ICME 2027 在厦门办，按北京时间算。
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2027-02-22
+    end: 2027-02-26T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: icme-2026-dates
+    quote: "Author rebuttal ends 26 February 2026"
+    note_zh: 按 ICME 2026 的 rebuttal 期 2/22–2/26 顺延（“Author rebuttal starts 22 February 2026”）。
+  - type: notification
+    at: 2027-03-13
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: icme-2026-dates
+    quote: "Regular Paper Acceptance notification 13 March 2026"
+    note_zh: 按 ICME 2026 的日期顺延。
+  - type: camera_ready
+    at: 2027-04-05T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: icme-2026-dates
+    quote: "Camera Ready submission 5 April 2026"
+    note_zh: 按 ICME 2026 的日期顺延。
+  - type: author_registration
+    at: 2027-04-25T23:59
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: icme-2026-dates
+    quote: "Author Registration deadline 25 April 2026"
+    note_zh: 按 ICME 2026 的日期顺延。
+  - type: conference
+    start: 2027-07-13
+    end: 2027-07-17
+    tz: Asia/Shanghai
+    status: confirmed
+    src: icme-2027-ieeecas
+    quote: "13 July 2027 – 17 July 2027"
+    note_zh: 取自主办学会之一 IEEE CAS 学会的会议页，地点厦门；ICME 2027 自己的网站还没上线。
+last_checked: 2026-09-25
+note_zh: ICME 2027 于 2027-07-13 至 17 在厦门举办（IEEE CAS 学会会议页）。投稿日期未公布，标“预计”的日期按 ICME 2026 顺延：正文 12/12（2026 年原定日期，后延到 12/31）、rebuttal 2/22–26、出结果 3/13、camera-ready 4/5、作者注册 4/25。会场在中国大陆，不需要签证。

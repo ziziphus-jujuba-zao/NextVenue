@@ -1,0 +1,39 @@
+id: pes-gm-2027
+series: pes-gm
+name: IEEE PES GM 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: San Francisco, country: USA, country_code: US }
+dates: { start: 2027-07-25, end: 2027-07-29 }
+submission_type: full_paper
+submission_evidence:
+  src: pes-gm-2027-cfp
+  quote: "Papers (maximum length five (5) pages) must be prepared in accordance with the procedures outlined in the PES Authors Kit"
+  note_zh: 全文最多 5 页。已录用的 PES Transactions 论文也可以申请在会上报告。
+milestones:
+  - type: paper
+    at: 2026-11-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: pes-gm-2027-cfp
+    quote: "All papers must be submitted by 10 November 2026."
+    note_zh: 投稿网站 2026-10-06 开放。官网只给日期、没写时区，按北京时间当天结束算。页面底部按钮还写着上一届的“Submissions close 17 November 2025”，以正文为准。
+  - type: notification
+    label_zh: 出结果（3 月中）
+    at: 2027-03-15
+    tz: America/Los_Angeles
+    status: estimated
+    src: pes-gm-2027-cfp
+    quote: "Authors will be advised via email of acceptance or rejection of the paper by mid March 2027."
+    note_zh: 预计。官网只写“3 月中”前通知，这里按 3/15 显示。需要修改的论文会更早通知。
+  - type: conference
+    start: 2027-07-25
+    end: 2027-07-29
+    tz: America/Los_Angeles
+    status: confirmed
+    src: pes-gm-2027-cfp
+    quote: "The 2027 IEEE Power & Energy Society General Meeting will be held 25–29 July 2027 in San Francisco, CA, USA."
+    note_zh: 至少一位作者注册并缴费；一份作者注册可以报告 2 篇。
+last_checked: 2026-09-25

@@ -1,0 +1,81 @@
+Message from Workshop Chairs
+Welcome to The 2020 IEEE/CVF Winter Conference on
+Computer Vision and Applications at Aspen, CO. WACV
+continues to be IEEE/CVF and PAMI-TC’s premier
+meeting on applications of computer vision, for
+researchers in our community to present their exciting
+advances in computer vision, pattern recognition,
+machine learning, robotics, and artificial intelligence in
+practice. With invited keynotes talks, oral and poster
+presentations, tutorials, workshops, demo and
+exhibitions, and an amiable social setting, this is a week
+that everyone will enjoy, not to mention skiing and
+snowboarding that many attendees would love.
+
+Out of the 379 accepted papers, 11 papers are shortlisted
+as best paper candidates per recommendation from the
+AC triplets. The final 5 best papers and honorable
+mentions are selected from these 11 papers through our
+award committee, which is composed of 6 senior
+researchers in our community. Best papers are
+presented in a single track award session, with each
+allocated 10 minutes for presentation and 2 minutes for
+question and answering. All other papers are allocated 3
+minutes for a short oral presentation followed by 1-hour
+poster presentation. To accommodate the growing
+number of papers and attendees, we run parallel oral
+and poster sessions. Also, to ensure the attendees have
+the opportunities to explore fun with the snow
+mountains, the main conference activities start in the
+early afternoon and last late in the evening.
+
+Following a similar accelerating multi-year trend,
+WACV2020 had a surge with a record number of 699 first
+round submissions and 397 second round submissions,
+which added to a total number of 1096 independent
+submissions. WACV has a unique 2 round review
+process, in which papers submitted in the first round
+have a chance to be revised and resubmitted for rereview. The program chairs were allowed to submit their
+papers to the conference. Reviews of their submissions
+are conducted offline by other program chairs, which
+avoided any potential conflict of interests.
+
+We would like to thank everyone involved in making
+WACV2020 a success. This includes the organizing
+committee, the area chairs, the reviewers, authors,
+demo session participants, donors, exhibitors, and
+everyone else without whom this meeting would not be
+possible. We also thank Nicole Finn and C to C Events for
+their organization of the logistics of the conference. Last
+but not least, we thank all of you for attending WACV
+and making it one of the top venues for applications in
+computer vision research in the world. We hope that you
+also have some time to explore the gorgeous snow
+mountains and skiing resort in Aspen during the
+conference. Enjoy WACV 2020!
+
+After 4 months of diligent work from the 45 area chairs
+and 647 reviewers, 379 papers are accepted through the
+first and second round review process. 151 papers in the
+first round are revised and resubmitted for re-review in
+the second round, out of which 118 were accepted. Most
+of the papers received 3 full reviews. In the rare case a
+paper only received 2 reviews, an area chair (AC) would
+chime in to conduct an offline review, which is factored
+in the consolidation report. The final acceptance
+decisions were made with AC triplets, in consultation
+with the program chairs. Following the best practice of
+our community, the program chairs did not place any
+restrictions on acceptance. The final acceptance rate is
+34.5%, which is trending lower compared with past
+WACV conferences.
+
+Gang Hua, Ming-Yu Liu, Vishal Patel, Walter Scheirer,
+and Ryan Farrell
+Program Co-Chairs
+Arun Ross, David Cox, and Scott McCloskey
+General Co-Chairs
+
+1
+
+

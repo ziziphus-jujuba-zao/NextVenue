@@ -1,0 +1,66 @@
+# 澳大利亚：中国大陆普通护照赴澳开会。格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。
+# 澳内务部（immi.homeaffairs.gov.au）的签证页、价格和全球处理时间都由脚本生成，快照里没有正文，
+# 所以费用和处理时间写 unverified，只给链接；要求和申请方式用中国领事服务网和澳驻华使馆页面的原文。
+id: au
+name_zh: 澳大利亚
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: required
+  visa_zh: 访客签证（600 类）商务访客细类
+  conf: high
+  src: visa-au-cs-mfa
+  quote: "中国公民来澳或过境澳前往第三国，应事先申请并办妥签证。网上流传的赴澳免签消息不实。"
+  note_zh: 开会走访客签证的商务访客细类（见"适用细类"一条）。
+apply:
+  - label_zh: 在 ImmiAccount 在线申请
+    url: https://online.immi.gov.au/lusc/login
+fees:
+  - item: visa
+    status: unverified
+    note_zh: 澳内务部的签证价格由脚本加载，本应用抓不到可核对的原文。请以内务部"Visa pricing estimator"为准。
+facts:
+  - id: stream
+    label_zh: 适用细类
+    text_zh: 商务访客细类用于短期商务访问，包括参加会议。递交申请和签证获批时，申请人都要在澳大利亚境外。
+    src: visa-au-embassy-visitor-streams
+    quote: "商务访客细类：赴澳进行短期商务访问。这包括参加会议、进行商务谈判或会谈。在递交签证申请及签证批准时，申请人应在澳大利亚境外。"
+    note_zh: 使馆这一页最近更新于 2018 年 9 月。
+  - id: apply_online
+    label_zh: 在线申请
+    text_zh: 访客签证必须通过 ImmiAccount 在线申请，每人单独递交。
+    src: visa-au-embassy-visitor
+    quote: "您必须通过ImmiAccount在线申请此签证。 想申请访客签证的每个人都必须递交各自的申请。"
+  - id: no_eta
+    label_zh: 不能办 ETA
+    text_zh: 中国护照不能申请电子旅行许可（ETA）。
+    src: visa-au-embassy-visitor
+    quote: "中华人民共和国护照持有人不能申请电子旅行许可（ETA）。"
+  - id: no_evisitor
+    label_zh: 不能办电子访客签证
+    text_zh: 中国护照不能申请电子访客签证（651 类）。
+    src: visa-au-embassy-visitor
+    quote: "中国护照持有人不能申请电子访客签证。"
+  - id: transit
+    label_zh: 过境也要签证
+    text_zh: 经澳大利亚过境去第三国，也要事先办好签证。
+    src: visa-au-cs-mfa
+    quote: "中国公民来澳或过境澳前往第三国，应事先申请并办妥签证。"
+lead:
+  status: unverified
+  note_zh: 澳内务部的全球签证处理时间由脚本生成，本应用抓不到可核对的原文，不做倒推。会议官网给了建议提前量时（例如 NeurIPS 2026 悉尼会场），按会议页面显示。
+documents:
+  status: tba
+  note_zh: 使馆网站上的商务访客材料清单是 2018 年的版本，本应用不收录；以 ImmiAccount 申请时列出的清单为准。
+notices: []
+transit: []
+links:
+  - label_zh: 访客签证（600 类）商务访客细类
+    url: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/business-visitor-stream
+  - label_zh: 全球签证处理时间
+    url: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/global-visa-processing-times
+  - label_zh: 签证价格估算
+    url: https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator
+  - label_zh: 澳大利亚驻华使馆 · 访客签证
+    url: https://china.embassy.gov.au/bjngchinese/dimacn31.html
+note_zh: 以澳大利亚内务部和驻华使领馆最新信息为准。

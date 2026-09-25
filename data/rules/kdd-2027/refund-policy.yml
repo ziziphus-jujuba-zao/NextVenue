@@ -1,0 +1,23 @@
+id: kdd-2027/refund-policy
+edition: kdd-2027
+family: refund
+question_zh: 取消注册能退多少钱？
+short_zh: 取消注册退款
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: notification
+  until: refund_cutoff
+summary_zh: 有条件。截止前取消可以全额退款，但要扣 50 美元手续费；截止后不退，缺席也不退。截止日期待公布。取消要写邮件到 registration@kdd.org。
+quotes:
+  - src: kdd-2027-faq
+    text: "Registrants may receive a full refund less a $50 processing fee until [exact date to be confirmed], 2027. No refunds will be granted after [exact date to be confirmed], 2027."
+  - src: kdd-2027-faq
+    text: "No-shows will not be refunded. Cancellation requests must be submitted in writing to registration@kdd.org."
+effect:
+  kind: refund
+  trigger: cancel
+  full_until: refund_cutoff
+  then: none
+last_checked: 2026-09-25

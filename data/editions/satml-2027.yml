@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: satml-2027
+series: satml
+name: SATML 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/SATML
+  conf_id: satml27
+  link: https://satml.org/
+  place: Reykjavik, Iceland
+  date: May 2027 (exact dates TBD)
+  timezone: UTC-12
+location:
+  city: Reykjavik
+  country: Iceland
+  country_code: IS
+milestones:
+  - type: abstract
+    at: 2026-09-22T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: paper
+    at: 2026-09-29T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    tz: UTC-12
+    status: tba
+last_checked: 2026-09-25

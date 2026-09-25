@@ -1,0 +1,124 @@
+Skip to yearly menu bar Skip to main content
+
+Main Navigation
+
+ * CVPR
+   * Code of Conduct
+
+     ----------------------------------------
+
+   * Create Profile
+
+     ----------------------------------------
+
+   * Privacy Policy
+
+     ----------------------------------------
+
+   * Contact CVPR
+
+     ----------------------------------------
+
+   * HELP/FAQ
+
+     ----------------------------------------
+
+   * Reset / Forgot Password
+ * My Stuff
+ * Reset Password
+
+Login
+ * Select Year: (2027)
+   * 2027
+
+     ----------------------------------------
+
+   * 2026
+
+     ----------------------------------------
+
+   * 2025
+
+     ----------------------------------------
+
+   * 2024
+
+     ----------------------------------------
+
+   * 2023
+ * Dates
+ * Calls
+   * Call for Papers
+ * Attend
+   * Code of Conduct / Privacy Policy
+ * Organization
+   * Organizing Committee
+
+     ----------------------------------------
+
+   * Program Committee
+
+CVPR 2026 Fields 16,000+ Paper Submissions on Technical Advances in AI
+
+One-quarter of papers accepted, addressing new research in agentic AI, multi-modal AI, spatial computing, AI for biology, and more
+
+NEW YORK, 26 May 2026 — Today, the Program Committee of the 2026 Conference on Computer Vision and Pattern Recognition (CVPR), one of the world’s leading artificial intelligence (AI) and computer vision research events, released the details of this year’s technical program. Co-sponsored by the IEEE Computer Society (CS) and the Computer Vision Foundation (CVF), CVPR 2026 drew a record number of paper submissions—16,092, a 24% increase over 2025. Through a rigorous peer-review process, about one-quarter were accepted to the program, resulting in 4,089 paper presentations.
+
+“CVPR submissions have more than doubled over the past five years, but the acceptance rate has remained highly competitive, consistently in the low-to-mid 20% range,” said Alexander G. Schwing,  Associate Professor, Electrical and Computer Engineering, University of Illinois Urbana-Champaign, Ill., U.S., CVPR 2026 Program Co-Chair. “While AI demand has fueled expansive research, CVPR remains one of the most selective and prestigious technical events in the field.”
+
+The Program Committee received the highest number of submissions in the areas of image and video synthesis and generation; vision, language, and reasoning; multi-modal learning; 3-D from multiview and sensors; and medical and biological vision and cell microscopy. Specifically, advances in embodied and agentic intelligence; computational imaging; visual security; and more delivered important results that will fuel continued research. A sample of accepted papers in these areas, which are also award candidates, include:
+
+ * NitroGen: An Open Foundation Model for Generalist Gaming Agents, A collaborative team including authors from NVIDIA, Stanford University, California Institute of Technology, University of Chicago, and the University of Texas at Austin, introduces NitroGen, “a vision-action foundation model for generalist gaming agents that is trained on 40,000 hours of gameplay videos across more than 1,000 games… and exhibits strong competence across diverse domains.”
+ * Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework, According to the latest findings from researchers at the Shenzhen Institutes of Advanced Technology, vivo BlueImage Lab, and Shenzhen University of Advanced Technology, “Existing mobile devices are constrained by compact optical designs, such as small apertures, which make it difficult to produce natural, optically realistic bokeh effects… Experimental results demonstrate that the proposed approach efficiently produces photorealistic bokeh effects, particularly on real-world low-resolution images, paving the way for future advancements.”
+ * Black-box Membership Inference Attacks against Fine-tuned Diffusion Models, Work from a pair of researchers at the University of Virginia proposes “the first reconstruction-based membership inference attack framework, tailored for recent diffusion models in the more stringent black-box access setting… … and considering four distinct attack scenarios and three types of attacks is capable of targeting any popular conditional generator model and achieving high precision.”
+ * R2Seg: Training-Free OOD Medical Tumor Segmentation via Anatomical Reasoning and Statistical Rejection, Authors from Carnegie Mellon University, the University of Cambridge, Zhejiang University, ETH Zurich, and the University of Illinois Urbana-Champaign present R2Seg, “a training-free framework for robust OOD tumor segmentation that operates via a two-stage Reason-and-Reject process… which substantially improves Dice, specificity, and sensitivity over strong baselines and the original foundation models.”
+
+“As fundamental concepts of computer vision permeate new applications, we’re seeing a rise in submitted research that corresponds with particular disciplines,” said Chen Change Loy, President's Chair Professor at the College of Computing and Data Science, Nanyang Technological University, Singapore, and CVPR 2026 Program Co-Chair. “For instance, while the emphasis in medical and biological vision and cell microscopy grew substantially this year, the work is in nascent stages and we expect this area, and others in applied computer vision techniques, to increase as technology addresses new challenges.”
+
+The full list of technical papers being presented can be found in the conference program. Paper abstracts and details will be available to all registered attendees.
+
+Year after year, CVPR’s technical program publishes some of the most cited papers in AI and computer vision, with past proceedings earning the number two spot in Google’s 2025 Scholar Metrics, outperforming other prestigious scientific journals. In addition, Research.com ranks CVPR as the top conference for Computer Science, Image Processing & Computer Vision, and Machine Learning & Artificial Intelligence.
+
+For more information about the CVPR 2026 technical program, please visit https://cvpr.thecvf.com/. To register for CVPR 2026 as a member of the press and/or request an interview, visit https://cvpr.thecvf.com/Conferences/2026/MediaPass or email media@computer.org.
+
+About CVPR 2026
+
+The Conference on Computer Vision and Pattern Recognition (CVPR) is the preeminent computer vision event for new research in support of artificial intelligence (AI), computer vision, multi-modal AI, wearable AI, novel AI architectures, spatial computing, agentic AI, AI for science, embodied AI and robotics, and much more. Sponsored by the IEEE Computer Society (CS) and the Computer Vision Foundation (CVF), CVPR delivers the important advances in computer vision and pattern recognition that are expanding the frontiers of computer vision and defining the next generation of intelligent, interactive technologies. With a first-in-class technical program, including tutorials and workshops, a leading-edge, immersive expo, and robust networking opportunities, CVPR, which is annually attended by more than 10,000 scientists and engineers from across the globe, creates a one-of-a-kind opportunity for networking, recruiting, inspiration, and motivation.
+
+CVPR 2026 takes place 3-7 June at Colorado Convention Center in Denver, Colo., U.S.A., and participants may also access sessions virtually. For more information about CVPR 2026, visit cvpr.thecvf.com.
+
+About the Computer Vision Foundation
+
+The Computer Vision Foundation (CVF) is a non-profit organization whose purpose is to foster and support research on all aspects of computer vision. Together with the IEEE Computer Society, it co-sponsors the two largest computer vision conferences, CVPR and the International Conference on Computer Vision (ICCV). Visit thecvf.com for more information.
+
+About the IEEE Computer Society
+
+Engaging computer engineers, scientists, academia, and industry professionals from all areas of computing, the IEEE Computer Society sets the standard of excellence and champions global advancements to benefit humanity.
+
+As the IEEE Computer Society celebrates its 80th anniversary in 2026, it continues to build on its rich legacy. Through conferences, publications, and programs that bring together computer science and engineering leaders at every stage of their careers, the IEEE Computer Society empowers, shapes, and guides the future of its 375,000+ community members, as well as the greater computing community, enabling new opportunities to better serve our world. Visit computer.org for more information.
+
+Successful Page Load
+
+Contact Us
+
+CVPR Help Desk
+
+Please contact us with questions about the following topics:
+
+Author - Paper Submission, Author - Open Review Issues, Author - Camera-Ready Paper, Registration - General, Registration - Cancellation, Childcare/Guests, Expo/Guests, Lodging, Visa Letter, Reviewer - Open Review Issues, Reviewer - General Issues, Area Chair Issues,
+
+Website and Invitation Letter Help
+
+Use the website help link for issues including login, inactive accounts, invitation letters papers not associated with a registration.
+
+Useful links
+
+   IEEE Computer Society
+   The Computer Vision Foundation
+
+----------------------------------------
+
+ * CVPR Proceedings
+ * Code of Conduct
+
+CVF Proceedings

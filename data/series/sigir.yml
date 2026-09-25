@@ -1,0 +1,11 @@
+id: sigir
+acronym: SIGIR
+full_name: International ACM SIGIR Conference on Research and Development in Information Retrieval
+directions: [cs/dm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/sigir
+ccfddl: DB/SIGIR
+data_level: curated

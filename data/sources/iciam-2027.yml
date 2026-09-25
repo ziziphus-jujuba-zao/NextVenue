@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iciam-2027
+sources:
+  - id: iciam-2027-call
+    url: https://iciam2027.org/call-for-abstracts/
+    title: ICIAM 2027 Call for Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T16:10:07Z
+    http_status: 200
+    snapshot: ee9d46b43d7a7a67a92293de9704408aaaab13bc30d632ccab6e7c1d7eebbbc7

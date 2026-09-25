@@ -1,0 +1,152 @@
+# 美国：中国大陆普通护照赴美开会。格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。
+# travel.state.gov 对抓取返回 403，快照取自同一国务院网站的 adoption.state.gov 镜像（data/sources/visa-us.yml 的 mirror_url）。
+# 美国驻华使领馆网站（china.usembassy-china.org.cn）对抓取返回 403，所以 EVUS 用 CBP 和联邦公报的原文，不用使领馆页面。
+id: us
+name_zh: 美国
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: required
+  visa_zh: B-1 商务签证（通常签发 B1/B2）
+  conf: high
+  src: visa-us-visitor
+  quote: "Attend a scientific, educational, professional, or business convention or conference"
+  note_zh: 国务院访客签证页列出的 B-1 用途之一。
+apply:
+  - label_zh: 填写 DS-160 申请表
+    url: https://ceac.state.gov/genniv/
+  - label_zh: 缴费并预约面谈
+    url: https://www.usvisascheduling.com/
+fees:
+  - item: visa
+    amount: 185
+    currency: USD
+    src: visa-us-fees
+    quote: "Non-petition-based nonimmigrant visa (except E): $185.00"
+    note_zh: 申请费，拒签不退。中国公民的 B 签证没有签发费（见"有效期"一条）。
+  - item: evus
+    amount: 30.75
+    currency: USD
+    src: visa-us-evus-fee-fy2026
+    quote: "Thus, the inflation-adjusted HR-1 EVUS fee for FY 2026 is $30.75"
+    note_zh: 已有 10 年签证的人每次登记或更新 EVUS 时交。2026-01-01 起按这个金额收；法律规定每个联邦财年随通胀调整，以 evus.gov 付款页为准。
+  - item: visa_integrity_fee
+    status: unverified
+    note_zh: 国务院签证费用页（2026-09-25 查）没有这一项，各使领馆是否收取没有官方原文。界面不显示金额。
+facts:
+  - id: validity
+    label_zh: 有效期
+    text_zh: 中国公民的 B-1 签证免签发费、多次入境、最长 120 个月（10 年）。
+    src: visa-us-reciprocity-china
+    quote: "B-1 None Multiple 120 Months"
+  - id: evus
+    label_zh: EVUS 登记
+    text_zh: 持 10 年期 B1/B2、B1 或 B2 签证的中国护照，赴美前必须有有效的 EVUS 登记。登记一般两年有效，换了新护照或新签证要重新登记。
+    src: visa-us-cbp-evus
+    quote: "EVUS enrollments are generally valid for two years or until the traveler obtains a new passport or visa, whichever comes first."
+  - id: interview
+    label_zh: 面谈
+    text_zh: 一般都要面谈。原签证是满期签发、签发时已满 18 岁、在到期后 12 个月内续签 B 签证的，可能免面谈；还要在国籍国或常住国申请、从未被拒签（或拒签已被克服）。签证官仍可以要求任何人面谈。
+    src: visa-us-interview-waiver
+    quote: "Applicants renewing a B-1, B-2, B1/B2 visa or Border Crossing Card/Foil (BBBCC/BBBCV for Mexican applicants) within 12 months of the prior visa's expiration when the prior visa was issued for full validity at the time of issuance and the applicant was at least 18 years old;"
+  - id: interview_case_by_case
+    label_zh: 面谈（例外）
+    text_zh: 即使符合免面谈条件，签证官也可以逐案要求面谈。
+    src: visa-us-interview-waiver
+    quote: "Consular officers may still require in-person interviews on a case-by-case basis for any reason."
+  - id: fingerprints
+    label_zh: 指纹
+    text_zh: 申请时要采集电子指纹，通常在面谈时采集。
+    src: visa-us-visitor
+    quote: "Ink-free, digital fingerprint scans are taken as part of the application process."
+  - id: administrative_processing
+    label_zh: 行政审查（221(g)）
+    text_zh: 面谈后如需行政审查，签证官会在面谈结束时告知。审查多长时间因个案而异，国务院没有公布时长，只提醒尽早申请。上面的预约等待时间不含行政审查。
+    src: visa-us-admin-processing
+    quote: "When administrative processing is required, the consular officer will inform the applicant at the end of the interview. The duration of the administrative processing will vary based on the individual circumstances of each case. Visa applicants are reminded to apply early for their visas, well in advance of the anticipated travel date."
+  - id: refusal_221g
+    label_zh: 221(g) 的含义
+    text_zh: 按 221(g) 拒签，指签证官认为申请人尚未证明符合签证条件；补交材料或行政审查结束后，签证官可能重新审理。
+    src: visa-us-admin-processing
+    quote: "A visa refusal under section 221(g) of the Immigration and Nationality Act (INA) means the applicant did not establish eligibility for a visa to the satisfaction of the consular officer"
+lead:
+  kind: appointment_wait
+  as_of:
+    date: 2026-09-17
+    src: visa-us-wait-times
+    quote: "Last updated: 17-SEP-2026"
+  unit:
+    src: visa-us-wait-times
+    quote: "We calculate months in 30-day increments and half months in 15-day increments."
+  posts:
+    # 表格列依次为：B1/B2 平均等待、B1/B2 下一个可约、F/M/J、H/L/O/P/Q、C/D。这里取第 2 列"下一个可约"。
+    - id: beijing
+      name_zh: 北京
+      months: 4.5
+      src: visa-us-wait-times
+      quote: "Beijing NA 4.5 Months"
+    - id: shanghai
+      name_zh: 上海
+      months: 3.5
+      src: visa-us-wait-times
+      quote: "Shanghai NA 3.5 Months"
+    - id: guangzhou
+      name_zh: 广州
+      months: 2
+      avg_months: 1.5
+      src: visa-us-wait-times
+      quote: "Guangzhou 1.5 Months 2 Months"
+    - id: shenyang
+      name_zh: 沈阳
+      months: 0.5
+      qualifier: lt
+      src: visa-us-wait-times
+      quote: "Shenyang NA < 0.5 Month"
+    - id: wuhan
+      name_zh: 武汉
+      months: 2
+      src: visa-us-wait-times
+      quote: "Wuhan NA 2 Months"
+  excludes:
+    - what: administrative_processing
+      src: visa-us-admin-processing
+      quote: "does not include time required for administrative processing"
+    - what: passport_return
+      src: visa-us-admin-processing
+      quote: "Processing wait time also does not include the time required to return the passport to applicants, by either courier services or the local mail system."
+documents:
+  - item_zh: 护照：有效期须超出在美停留期至少 6 个月（有国别协议的除外）
+    src: visa-us-visitor
+    quote: "Your passport must be valid for at least six months beyond your period of stay in the United States (unless exempt by country-specific agreements)."
+  - item_zh: DS-160 确认页
+    src: visa-us-visitor
+    quote: "Nonimmigrant Visa Application, Form DS-160 confirmation page."
+  - item_zh: 申请费缴费收据
+    src: visa-us-visitor
+    quote: "Application fee payment receipt, if you are required to pay before your interview."
+  - item_zh: 可能要求补充：出行目的、按时离美的意向、支付全部旅费的能力的证明
+    src: visa-us-visitor
+    quote: "Additional documents may be requested to establish if you are qualified."
+  - item_zh: 在职证明或家庭关系证明，可以用来说明出行目的和回国意向
+    src: visa-us-visitor
+    quote: "Evidence of your employment and/or your family ties may be sufficient to show the purpose of your trip and your intent to return to your home country."
+  - item_zh: 邀请函不是必需材料，也不是签发与否的考量因素
+    src: visa-us-visitor
+    quote: "A letter of invitation or Affidavit of Support is not needed to apply for a visitor visa. If you choose to bring a letter of invitation or Affidavit of Support to your interview, please remember it is not one of the factors used in determining whether to issue or deny the visa."
+notices: []
+transit:
+  - item_zh: 在美国转机也需要签证：过境（C）签证；已有有效 B 签证的，可能可以用它过境。
+    src: visa-us-transit
+    quote: "If you already have a valid visitor (B) visa, you may be able to use it to transit the United States."
+links:
+  - label_zh: 美国驻华使领馆 · 非移民签证
+    url: https://china.usembassy-china.org.cn/visas/nonimmigrant-visas/
+  - label_zh: 全球签证预约等待时间
+    url: https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html
+  - label_zh: 行政审查说明
+    url: https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/administrative-processing-information.html
+  - label_zh: 查询签证状态（CEAC）
+    url: https://ceac.state.gov/CEACStatTracker/Status.aspx
+  - label_zh: EVUS 登记
+    url: https://www.evus.gov/
+note_zh: 等待时间每月更新。预约类不倒推递交日，只拿官方等待时间和会期比较；行政审查和寄回护照的时间官方没有给出，本应用不估算。以使领馆最新通知为准。

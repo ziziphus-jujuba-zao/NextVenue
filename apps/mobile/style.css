@@ -1,5 +1,4 @@
-/* Copyright (c) 2026 Zayier Xie */
-/* SPDX-License-Identifier: MIT */
+/* Copyright (c) 2026 Zayier Xie. All rights reserved. */
 
 :root {
   color-scheme: light dark;
@@ -24,6 +23,9 @@
   --banner-fg: #545458;
   --active-bg: rgba(30, 127, 60, 0.12);
   --warn-bg: rgba(154, 90, 0, 0.09);
+  --hard-bg: rgba(200, 50, 43, 0.12);
+  /* The ✓ on a green done circle. */
+  --on-ok: #ffffff;
   --bar: rgba(249, 249, 251, 0.86);
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 12px rgba(0, 0, 0, 0.04);
   --a-allowed: #1e7f3c;
@@ -58,6 +60,8 @@
     --banner-fg: #98989f;
     --active-bg: rgba(74, 222, 128, 0.16);
     --warn-bg: rgba(255, 181, 71, 0.13);
+    --hard-bg: rgba(255, 122, 114, 0.18);
+    --on-ok: #1c1c1e;
     --bar: rgba(22, 22, 24, 0.84);
     --shadow: none;
     --a-allowed: #4ade80;
@@ -92,6 +96,8 @@
   --banner-fg: #98989f;
   --active-bg: rgba(74, 222, 128, 0.16);
   --warn-bg: rgba(255, 181, 71, 0.13);
+  --hard-bg: rgba(255, 122, 114, 0.18);
+  --on-ok: #1c1c1e;
   --bar: rgba(22, 22, 24, 0.84);
   --shadow: none;
   --a-allowed: #4ade80;
@@ -223,6 +229,13 @@ body.no-tabs .tabbar {
   font-size: 15px;
   margin-top: 8px;
 }
+/* A short phone (375×667): less air above the question and slimmer 学科 rows, so all nine show above 下一步. */
+@media (max-height: 740px) {
+  .welcome-head {
+    padding-top: calc(env(safe-area-inset-top) + 20px);
+    padding-bottom: 12px;
+  }
+}
 
 /* nav bar of pushed screens */
 .navbar {
@@ -340,6 +353,16 @@ body.no-tabs .tabbar {
   margin: 16px 16px 0;
   font-size: 15px;
   color: var(--text2);
+}
+.notice {
+  margin: 0 16px;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--text2);
+  font: 11px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 .fine {
   margin: 24px 32px 0;
@@ -845,6 +868,190 @@ h1 .tag {
   font-weight: 500;
 }
 
+/* 开会地点 (§3.4.1): the city in large type right under the name, then the days and the time difference. */
+.place-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 16px 0;
+  padding: 12px 16px;
+  min-height: 64px;
+  background: var(--card);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+a.place-card:active {
+  background: var(--press);
+}
+.place-card .main {
+  flex: 1;
+  min-width: 0;
+}
+.pl-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 8px;
+  row-gap: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.pl-name .pin-i {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+}
+/* The pin stays with the first line of the name; a long name wraps inside, between its cities. */
+.pl-lead {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+}
+.pl-lead .pin-i {
+  margin-top: 0.15em;
+}
+.pl-t {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.place-card.tba .pl-t {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--text2);
+}
+.place-card.tba .pin-i {
+  color: var(--text3);
+}
+/* Inline text: the time difference fills the rest of the line and wraps like a sentence, the days never break. */
+.pl-when {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+.pl-when .tag {
+  margin-left: 6px;
+}
+.pl-when .dot {
+  margin: 0 6px;
+  color: var(--text3);
+}
+.pl-bld {
+  margin-top: 2px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--text2);
+  overflow-wrap: anywhere;
+}
+/* The visa tag for a mainland passport: amber when something must be applied for, green when not. */
+.vchip {
+  flex: none;
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.vchip.vc-need,
+.vchip.vc-warn {
+  color: var(--a-conditional);
+  background: var(--warn-bg);
+}
+.vchip.vc-ok {
+  color: var(--a-allowed);
+  background: var(--active-bg);
+}
+/* The sheet: the place as its title, then one inset group per place. */
+.pl-h {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 8px;
+  row-gap: 4px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.pl-ht {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.pl-h .pin-i {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  color: var(--accent);
+}
+.pl-h .pl-lead {
+  gap: 8px;
+}
+.pl-sub {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--text2);
+  overflow-wrap: anywhere;
+}
+.pl-site {
+  margin: 24px 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sheet .pl-h + .group.inset {
+  margin-top: 16px;
+}
+/* 复制地址: a pill that is a 44px tap target. */
+.copy-b {
+  flex: none;
+  align-self: center;
+  min-height: 44px;
+  margin: -6px -4px -6px 0;
+  padding: 0 12px;
+  border-radius: 22px;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.copy-b:active {
+  background: var(--press);
+}
+/*
+ * A city at the end of a line that is dropped whole when there is no room
+ * ("· 西雅图"): a one-line box holding a zero-width space and the city as one
+ * unbreakable block, so the city wraps out of sight instead of being cut.
+ */
+.fit {
+  flex: 1 1 0;
+  min-width: 0;
+  display: block;
+  height: 1.4em;
+  overflow: hidden;
+  white-space: normal;
+  /* Cancels the line's 6px gap, so an empty box never pushes onto a new line. */
+  margin-left: -6px;
+  padding-left: 6px;
+}
+.fit > .fit-t {
+  display: inline-block;
+  white-space: nowrap;
+  color: var(--text2);
+}
+/* Beats the time line's own span rule (nowrap, ellipsis). */
+.row .s > span.fit:not(.csq) {
+  white-space: normal;
+  text-overflow: clip;
+}
+
 .seg {
   display: flex;
   margin: 24px 16px 4px;
@@ -1247,6 +1454,7 @@ h1 .tag {
 .alt:active {
   background: var(--press);
 }
+/* Stop order is neutral; blue numbers on the paper page are target priorities ("目标 1"). */
 .stop .num {
   flex: none;
   width: 28px;
@@ -1254,8 +1462,8 @@ h1 .tag {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: var(--btn-bg);
-  color: #fff;
+  background: var(--fill);
+  color: var(--text);
   font-size: 15px;
   font-weight: 700;
 }
@@ -1280,8 +1488,24 @@ h1 .tag {
 .stop .t .rk {
   font-weight: 400;
 }
-.stop .t .tag {
+.stop .t .tag,
+.stop .t .rk.tgt {
   align-self: center;
+}
+.stop .t .rk.tgt {
+  padding: 0 6px;
+  border-radius: 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+}
+/* The same target a year later: a second try, not a 4th venue. */
+.stop .t .rk.tgt.again {
+  background: var(--fill);
+  color: var(--text2);
+  font-weight: 500;
 }
 .stop .s {
   margin-top: 2px;
@@ -1570,24 +1794,27 @@ h1 .tag {
   border-radius: 3px;
   background: var(--chev);
 }
+/* ✕: a 44px button with the 30px circle drawn inside it. */
 .close {
   position: absolute;
-  top: 12px;
-  right: 16px;
-  width: 30px;
-  height: 30px;
+  top: 5px;
+  right: 9px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  background: var(--fill);
   color: var(--text2);
   display: grid;
   place-items: center;
 }
-.close::after {
+.close::before {
   content: "";
   position: absolute;
-  inset: -7px;
+  inset: 7px;
+  border-radius: 50%;
+  background: var(--fill);
 }
 .close svg {
+  position: relative;
   width: 12px;
   height: 12px;
 }
@@ -1651,7 +1878,6 @@ h1 .tag {
   margin-top: 16px;
   font-size: 16px;
   line-height: 1.65;
-  text-wrap: pretty;
 }
 .sheet .btn {
   margin-top: 24px;
@@ -1706,6 +1932,13 @@ details[open] summary .down {
 }
 .fold-body a {
   color: var(--accent);
+}
+.fold-body p a {
+  white-space: nowrap;
+}
+.row .t .sfx {
+  font-weight: 400;
+  color: var(--text2);
 }
 .fold-body figure + figure {
   margin-top: 8px;
@@ -1882,6 +2115,234 @@ figure a {
   font: 17px var(--font);
   outline: none;
 }
+/* 添加论文: "代号" as a label on the left of its field, like an iOS form row. */
+.row.field {
+  gap: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.row.field .k {
+  flex: none;
+  font-size: 17px;
+}
+.row.field .input {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+}
+
+/* ---------- 目标会议 picker (§9.7) ---------- */
+
+.pick-h {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 28px 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.pick-h span {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--text2);
+}
+/* 添加论文: 代号 and 方向 are two rows of one form group; 方向 opens its chips in place. */
+.row.dir-row .v {
+  flex: 1;
+  min-width: 0;
+  text-align: right;
+  font-size: 17px;
+  color: var(--text2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.row.dir-row .down {
+  flex: none;
+  width: 13px;
+  height: 8px;
+  color: var(--text3);
+  transition: transform 0.2s;
+}
+.row.dir-row.open .v {
+  color: var(--accent);
+}
+.row.dir-row.open .down {
+  transform: rotate(180deg);
+}
+.row.chips-row {
+  padding: 0 16px 12px;
+}
+.row.chips-row::before {
+  display: none;
+}
+.row.chips-row .chip:not(.on) {
+  background: var(--card);
+  border-color: var(--line);
+}
+.pick-h + .cap {
+  margin-top: 12px;
+}
+/* The line between 首选 and 备选 in 你感兴趣的会议: small, on the names' edge. */
+.row.tier-div {
+  min-height: 30px;
+  padding: 6px 16px 4px 56px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--text2);
+}
+.row.tier-div::before,
+.row.tier-div + .row::before {
+  left: 56px;
+}
+/* "ICLR 2028": the edition a new paper can still enter, lighter than the name. */
+.row .yr {
+  margin-left: 6px;
+  font-weight: 400;
+  color: var(--text2);
+}
+.row.tgt .rel {
+  font-size: 14px;
+}
+.row.tgt .chev {
+  margin-left: 0;
+}
+.row.tgt.on .rank {
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+/* The footer stays put under the scrolling list: count, picks by priority, button. */
+.sheet.has-foot .sheet-body {
+  padding-bottom: 24px;
+}
+.sheet-foot {
+  flex: none;
+  padding: 10px 16px calc(12px + env(safe-area-inset-bottom));
+  border-top: 0.5px solid var(--sep);
+  background: var(--sheet);
+}
+.sheet-foot .btn {
+  margin-top: 0;
+}
+.pick-foot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 24px;
+  font-size: 14px;
+  color: var(--text2);
+}
+/* The priority rule, kept in view under the picks; a 4th pick turns it red for a moment. */
+.pick-note {
+  margin: 0 0 8px;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--text2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pick-note.alert {
+  color: var(--a-not_allowed);
+  font-weight: 600;
+}
+.pick-foot .cnt {
+  flex: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+}
+.pick-foot .cnt b {
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.pick-foot .order {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.pick-foot .order b {
+  color: var(--accent);
+  font-weight: 700;
+}
+.toast.over-sheet {
+  z-index: 60;
+}
+
+/* Action sheet over a picker with unsaved changes: 放弃 / 继续编辑. */
+.as-wrap {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.as-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.as {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  display: grid;
+  gap: 8px;
+  padding: 0 8px calc(8px + env(safe-area-inset-bottom));
+}
+.as-group {
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--sheet);
+  text-align: center;
+}
+.as-t {
+  padding: 14px 16px 2px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text2);
+}
+.as-s {
+  padding: 0 16px 14px;
+  font-size: 13px;
+  color: var(--text2);
+}
+.as-b {
+  display: block;
+  width: 100%;
+  min-height: 56px;
+  text-align: center;
+  border-radius: 14px;
+  background: var(--sheet);
+  color: var(--accent);
+  font-size: 19px;
+}
+.as-group .as-b {
+  border-top: 0.5px solid var(--sep);
+  border-radius: 0;
+}
+.as-b.danger {
+  color: var(--a-not_allowed);
+}
+.as-b.cancel {
+  font-weight: 600;
+}
+.as-b:active {
+  background: var(--press);
+}
+/* Why a target is not on the route: the reason wraps under itself, not under "排不进". */
+.route-foot .unplaced {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
 .row.radio .tick {
   flex: none;
   width: 18px;
@@ -1894,6 +2355,807 @@ figure a {
 }
 .row.radio.on .t {
   font-weight: 600;
+}
+
+/* ---------- after acceptance (§10) ---------- */
+
+/* 录用了吗？ on the paper page: the one question, two answers, one quiet way out. */
+.ask {
+  margin: 16px 16px 0;
+  padding: 16px;
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+.ask-k {
+  font-size: 14px;
+  color: var(--text2);
+}
+.ask-k b {
+  font-weight: 600;
+  color: var(--text);
+}
+.ask-t {
+  margin-top: 4px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+/* 分到哪？ three sites in a row */
+.ask-b.sites {
+  gap: 8px;
+}
+.ask-b.sites .btn {
+  padding: 0 4px;
+}
+.ask-note {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text2);
+}
+.ask-b {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+.ask-b .btn {
+  flex: 1;
+}
+.btn.ghost {
+  background: var(--fill);
+  color: var(--accent);
+}
+.ask-later {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  margin-top: 4px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--text2);
+}
+
+/* 下一件事: the page's only card (styled like the 下一步 hero). */
+.task {
+  margin: 0 16px;
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.task-main {
+  display: block;
+  padding: 16px 16px 12px;
+}
+/* 下一步: whose card it is */
+.task-k {
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: var(--text2);
+}
+.task-k b {
+  font-weight: 600;
+  color: var(--text);
+}
+a.task.all-done {
+  display: block;
+}
+a.task-main:active {
+  background: var(--press);
+}
+.task .hero-k .tag {
+  flex: none;
+}
+.task .sfx,
+.step-h .sfx {
+  font-weight: 500;
+  color: var(--text2);
+}
+.task .when .lbl {
+  margin-left: 6px;
+}
+.task .when .hol {
+  color: var(--a-conditional);
+  font-size: 14px;
+  white-space: nowrap;
+}
+.task .when.sub {
+  margin-top: 2px;
+  font-size: 14px;
+  color: var(--text2);
+}
+.task .after {
+  margin-top: 12px;
+  padding-top: 12px;
+}
+.count b.late {
+  color: var(--a-not_allowed);
+}
+.task.is-late {
+  box-shadow: inset 0 0 0 1.5px var(--a-not_allowed);
+}
+.task-b {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px 16px;
+}
+.task-b .btn {
+  flex: 1;
+  height: 44px;
+}
+.btn-text {
+  flex: 1;
+  min-height: 44px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--accent);
+}
+.btn-text:active {
+  background: var(--press);
+}
+.task.all-done .task-main {
+  padding-bottom: 16px;
+}
+.task.all-done .hero-name {
+  color: var(--a-allowed);
+}
+
+/* Checklist rows: ○ / ✓ / red dot on the left (a button), the rest opens the step. */
+.row.step-row {
+  gap: 0;
+  padding: 0 0 0 4px;
+  align-items: stretch;
+}
+.row.step-row + .row.step-row::before {
+  left: 52px;
+}
+.ck {
+  flex: none;
+  width: 48px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.ck::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1.6px solid var(--text3);
+  box-sizing: border-box;
+  grid-area: 1 / 1;
+}
+.ck svg {
+  grid-area: 1 / 1;
+  width: 13px;
+  height: 13px;
+  color: var(--on-ok);
+  position: relative;
+}
+.is-done .ck::before {
+  border-color: var(--a-allowed);
+  background: var(--a-allowed);
+}
+.is-skip .ck::before {
+  border-style: dashed;
+  border-color: var(--text3);
+  background: none;
+}
+.is-late .ck::before {
+  border-color: var(--a-not_allowed);
+  background: radial-gradient(circle, var(--a-not_allowed) 0 4px, transparent 4.5px);
+}
+.step-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px 8px 0;
+}
+a.step-main:active {
+  background: var(--press);
+}
+.step-row .t .sfx {
+  font-weight: 400;
+  color: var(--text2);
+}
+.is-done .t {
+  color: var(--text2);
+}
+.row .s.sub2 {
+  margin-top: 0;
+  font-size: 13px;
+  color: var(--text2);
+}
+/* The small line under a step may wrap rather than lose its end. */
+.row .s.sub2,
+.row .s.sub2 > span:not(.tag):not(.csq) {
+  white-space: normal;
+  overflow: visible;
+}
+.rel.late {
+  color: var(--a-not_allowed);
+  font-weight: 600;
+}
+/* 已完成 N 项: a fold like the others (⌄ turns to ⌃) */
+.done-fold summary {
+  color: var(--text2);
+}
+.done-fold[open] summary {
+  border-bottom: 0.5px solid var(--sep);
+}
+/* 终稿、海报：待公布 — one quiet line, nothing to tap */
+.row.tba-line {
+  min-height: 44px;
+  padding-left: 52px;
+}
+.row.tba-line .t {
+  font-size: 15px;
+  color: var(--text2);
+}
+.row.step-row + .row.tba-line::before {
+  left: 52px;
+}
+
+/* one tag per row: only 硬性 stands out; the app's own dates stay grey (§4) */
+.tag.t-hard {
+  color: var(--a-not_allowed);
+  background: var(--hard-bg);
+  font-weight: 600;
+}
+.is-done .tag {
+  color: var(--text3);
+  background: var(--fill);
+}
+.tag.ok {
+  color: var(--a-allowed);
+  background: var(--active-bg);
+  font-weight: 600;
+}
+.row .t .tag.ok {
+  margin-left: 6px;
+  position: relative;
+  top: -2px;
+}
+
+/* title area: 已录用 · venue, then the trip line with ✎ */
+.large-head .sub.acc {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: var(--text);
+}
+.trip-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  margin: 0 0 -8px;
+  font-size: 15px;
+  color: var(--text2);
+}
+.trip-line span {
+  min-width: 0;
+}
+.pen-i {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  color: var(--accent);
+}
+.cal-banner {
+  width: calc(100% - 32px);
+  text-align: left;
+  color: var(--a-conditional);
+  background: var(--warn-bg);
+  font-weight: 500;
+}
+.ico20 {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+}
+.links .row .t {
+  color: var(--text);
+}
+.links .row + .row::before {
+  left: 48px;
+}
+.route-fold {
+  margin: 24px 16px 0;
+  background: var(--card);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.route-fold summary {
+  color: var(--text2);
+}
+.route-fold .route {
+  margin: 0 0 8px;
+  box-shadow: none;
+}
+.route-fold .route.empty {
+  margin: 0 16px 16px;
+}
+.nav-more {
+  position: absolute;
+  right: 4px;
+  bottom: 0;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+}
+.more-i {
+  width: 24px;
+  height: 24px;
+}
+
+/* detail pages: a label on the left, the value on the right */
+.row.info {
+  align-items: flex-start;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.row.info .ansv {
+  font-weight: 600;
+  margin-right: 4px;
+}
+.row.info .k {
+  flex: none;
+  width: 56px;
+  white-space: nowrap;
+  font-size: 16px;
+  color: var(--text2);
+}
+.row.info .v {
+  font-size: 16px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.row.info .ans,
+.row.info .chev,
+.row.info .ext {
+  align-self: center;
+}
+.ext {
+  flex: none;
+  font-size: 15px;
+  color: var(--accent);
+}
+.row .s.wrap.dim,
+.dim {
+  color: var(--text2);
+}
+.row.info .s.wrap {
+  font-size: 14px;
+  color: var(--text2);
+}
+.large-head h1 .h1-sub {
+  font-weight: 500;
+  color: var(--text2);
+  font-size: 22px;
+}
+/* 签证详情: the verdict is part of the title ("澳大利亚 · 需要签证"). */
+.large-head h1 .h1-sub.a-required {
+  color: var(--a-required);
+  font-weight: 700;
+}
+.large-head h1 .h1-sub.a-allowed {
+  color: var(--a-allowed);
+  font-weight: 700;
+}
+.cap-note.amber {
+  color: var(--a-conditional);
+}
+
+/* 签证详情 */
+.verdict {
+  margin: 8px 16px 0;
+}
+.verdict .big {
+  margin-top: 0;
+}
+.verdict .explain {
+  margin-top: 8px;
+}
+.src-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+  color: var(--accent);
+}
+.plan {
+  margin: 16px 16px 0;
+  padding: 16px;
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+.plan .k {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text2);
+}
+.plan .d {
+  margin: 4px 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.plan .d.dim {
+  font-size: 20px;
+}
+.plan .s {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text2);
+}
+.plan .s a {
+  color: var(--accent);
+}
+.plan .s.cond {
+  color: var(--a-conditional);
+  font-weight: 500;
+}
+.plan .s.late,
+.val.late {
+  color: var(--a-not_allowed);
+  font-weight: 600;
+}
+/* US interview waits: plain rows inside the card */
+.plain-rows {
+  margin: 4px -16px 4px 0;
+}
+.plain-rows .row {
+  min-height: 44px;
+  padding-left: 0;
+}
+.plain-rows .row + .row::before {
+  left: 0;
+}
+.group.inset {
+  background: var(--inset);
+}
+.group.tight .row {
+  min-height: 44px;
+}
+.page-folds {
+  margin: 24px 16px 0;
+  background: var(--card);
+}
+.cap-note {
+  margin: 8px 32px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text2);
+  text-wrap: pretty;
+}
+.cap-note.in {
+  margin: 8px 0 0;
+}
+.link-btn {
+  min-height: 44px;
+  color: var(--accent);
+  font-size: 13px;
+}
+.fine.stale {
+  color: var(--a-conditional);
+  font-weight: 600;
+}
+
+/* 出行设置 rows: label left, control right */
+.row.setting {
+  justify-content: space-between;
+  min-height: 52px;
+}
+.row.setting > .t {
+  flex: 1;
+  min-width: 0;
+}
+.row.setting select,
+.date-in {
+  flex: none;
+  max-width: 62%;
+  min-height: 36px;
+  padding: 0 4px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text2);
+  font: 17px var(--font);
+  text-align: right;
+  text-align-last: right;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.row.setting select {
+  padding-right: 18px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--text3) 50%), linear-gradient(135deg, var(--text3) 50%, transparent 50%);
+  background-position: calc(100% - 9px) 50%, calc(100% - 4px) 50%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+.date-in {
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+/* A date row: the value as text, the native input over the whole row (tap anywhere). */
+.date-v {
+  flex: none;
+  font-size: 17px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.date-v.dim {
+  color: var(--text3);
+}
+.date-in.over {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.date-in::-webkit-date-and-time-value {
+  text-align: right;
+}
+.switch {
+  flex: none;
+  position: relative;
+  width: 51px;
+  height: 31px;
+  margin: 0;
+  border-radius: 16px;
+  background: var(--fill);
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.switch::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+.switch:checked {
+  background: #34c759;
+}
+.switch:checked::after {
+  transform: translateX(20px);
+}
+.seg.mini {
+  flex: none;
+  margin: 0;
+  min-width: 168px;
+}
+.seg.mini button {
+  height: 32px;
+  font-size: 14px;
+  padding: 0 10px;
+}
+/* 44px to tap, 32px to see */
+.seg.mini button::after {
+  inset: -6px 0;
+}
+
+/* 步骤详情 sheet */
+.step-h {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.step-h .tag {
+  font-size: 13px;
+  line-height: 20px;
+}
+.sheet .count.mid {
+  margin-top: 8px;
+}
+.official-line {
+  margin-top: 4px;
+  padding-left: 24px;
+  font-size: 13px;
+  color: var(--text2);
+}
+.sheet .keytime {
+  margin-top: 12px;
+}
+.explain.cond {
+  color: var(--a-conditional);
+}
+.explain.cond a {
+  color: var(--accent);
+  white-space: nowrap;
+}
+.explain.dim {
+  color: var(--text2);
+}
+.explain + .explain {
+  margin-top: 8px;
+}
+.big-line {
+  margin-top: 12px;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.big-line b {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--a-required);
+  font-variant-numeric: tabular-nums;
+}
+.big-line.late {
+  color: var(--a-not_allowed);
+  font-weight: 700;
+}
+.opts {
+  margin: 8px 0 0;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.opts a {
+  color: var(--accent);
+}
+.id-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+  font-size: 15px;
+  color: var(--text2);
+}
+.prices {
+  margin-top: 12px;
+  padding: 4px 16px 12px;
+  background: var(--inset);
+  border-radius: 12px;
+}
+.price {
+  padding: 8px 0 0;
+}
+.price + .price {
+  border-top: 0.5px solid var(--sep);
+}
+.price .pl {
+  font-size: 15px;
+  font-weight: 600;
+}
+.price .pv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--text2);
+}
+.price .pv span {
+  white-space: nowrap;
+}
+.price .pv b {
+  font-size: 16px;
+  color: var(--text2);
+  font-weight: 600;
+}
+.price .pv .now,
+.price .pv .now b {
+  color: var(--text);
+}
+.price .pv i {
+  font-style: normal;
+  margin-left: 4px;
+  font-size: 12px;
+  color: var(--text3);
+}
+.prices.ref .ref-h {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 10px;
+  font-size: 13px;
+  color: var(--text2);
+}
+.price .src-link {
+  min-height: 44px;
+  font-size: 13px;
+}
+/* 作者注册: the facts behind the date, one per line */
+.facts {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.facts li + li {
+  margin-top: 6px;
+}
+.facts a {
+  color: var(--accent);
+}
+.facts .cond {
+  color: var(--a-conditional);
+}
+.cap.in {
+  margin: 16px 0 0;
+}
+.line-link {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 8px;
+  font-size: 15px;
+  color: var(--accent);
+}
+.sheet-lead {
+  margin: 0 16px 8px;
+  font-size: 15px;
+  color: var(--text2);
+}
+.sheet .hol {
+  color: var(--a-conditional);
+}
+.sheet .btn.ghost {
+  margin-top: 16px;
+  height: 44px;
+  font-size: 16px;
+}
+.sheet .two-btns .btn.ghost {
+  margin-top: 0;
+  height: 50px;
+  font-size: 17px;
+}
+.quote-card.warnq .k {
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--a-conditional);
+}
+.rules-in {
+  margin: 0 -16px;
+}
+.fold-body .group.inset.rules-in {
+  background: transparent;
+  border-radius: 0;
+}
+.two-btns {
+  display: flex;
+  gap: 12px;
+}
+.two-btns .btn {
+  flex: 1;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1911,4 +3173,1783 @@ figure a {
     border-left: 0.5px solid var(--sep);
     border-right: 0.5px solid var(--sep);
   }
+}
+
+/* 320px phones: a little more room for the day and its tag next to "7 个工作日". */
+@media (max-width: 340px) {
+  .step-row .step-main {
+    gap: 8px;
+  }
+  .step-row .rel {
+    font-size: 14px;
+  }
+}
+
+/* ---------- graphic timeline and past data (§11) ---------- */
+
+/*
+ * Lane colours: 8 slots, then a dark neutral (not the pale grey of past or
+ * disabled things). Every slot is at least 3:1 on the card in its mode, and
+ * neighbouring slots pass the colour-blind checks; each lane is its own
+ * labelled row, so colour is never the only way to tell venues apart.
+ * Today is drawn in the text colour, outside the palette; the phase bar
+ * is neutral (shapes carry the kind), so no lane colour means a phase.
+ */
+:root {
+  --lane0: #48484a;
+  --lane1: #2a78d6;
+  --lane2: #e2622c;
+  --lane3: #0d8f80;
+  --lane4: #a87500;
+  --lane5: #cf4f86;
+  --lane6: #1a7f1a;
+  --lane7: #4a3aa7;
+  --lane8: #d8403f;
+  --now: var(--text);
+  --ph-mark: var(--text);
+  --ph-reply: #636366;
+  --ph-wait: #d1d1d6;
+  --st-bar: #aeaeb2;
+  --st-latest: #0a66d8;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --lane0: #aeaeb2;
+    --lane1: #3987e5;
+    --lane2: #e0652f;
+    --lane3: #1ea08f;
+    --lane4: #c98500;
+    --lane5: #dd5c8b;
+    --lane6: #3aa33a;
+    --lane7: #9085e9;
+    --lane8: #e66767;
+    --ph-reply: #aeaeb2;
+    --ph-wait: #6e6e73;
+    --st-bar: #8e8e93;
+    --st-latest: #4a9cff;
+  }
+}
+:root[data-theme="dark"] {
+  --lane0: #aeaeb2;
+  --lane1: #3987e5;
+  --lane2: #e0652f;
+  --lane3: #1ea08f;
+  --lane4: #c98500;
+  --lane5: #dd5c8b;
+  --lane6: #3aa33a;
+  --lane7: #9085e9;
+  --lane8: #e66767;
+  --ph-reply: #aeaeb2;
+  --ph-wait: #6e6e73;
+  --st-bar: #8e8e93;
+  --st-latest: #4a9cff;
+}
+.c0 { --lc: var(--lane0); }
+.c1 { --lc: var(--lane1); }
+.c2 { --lc: var(--lane2); }
+.c3 { --lc: var(--lane3); }
+.c4 { --lc: var(--lane4); }
+.c5 { --lc: var(--lane5); }
+.c6 { --lc: var(--lane6); }
+.c7 { --lc: var(--lane7); }
+.c8 { --lc: var(--lane8); }
+.sw {
+  flex: none;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--lc);
+}
+h1 .sw {
+  width: 12px;
+  height: 12px;
+  margin-right: -2px;
+}
+
+/* 会议: 列表 | 时间线 */
+.seg.top-seg {
+  margin: 8px 16px 0;
+}
+.tl-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 20px;
+  margin: 20px 32px 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text2);
+}
+.tl-back {
+  flex: none;
+  margin: -12px -8px -12px 0;
+  padding: 12px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+}
+.tl-back[hidden] {
+  display: none;
+}
+/* No overflow clip here: the month header sticks to the page, which a clipping box would stop. */
+.tl-card {
+  --mpx: 40px;
+  margin: 0 16px;
+  background: var(--card);
+  border-radius: 12px;
+}
+/* The month header: sticks under the navigation bar while the page scrolls; follows the card sideways (main.ts). */
+.tl-head {
+  position: sticky;
+  top: calc(44px + env(safe-area-inset-top));
+  z-index: 6;
+  display: flex;
+  height: 36px;
+  border-radius: 12px 12px 0 0;
+  background: var(--card);
+  box-shadow: 0 0.5px 0 var(--sep);
+}
+.tl-corner {
+  flex: none;
+  width: var(--tl-name);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 5px 12px;
+  box-shadow: 0.5px 0 0 var(--sep);
+}
+.tl-yr {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+}
+.tl-hclip {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+.tl-months {
+  position: relative;
+  display: flex;
+  height: 100%;
+  will-change: transform;
+}
+.tl-m {
+  flex: none;
+  width: var(--mpx);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 5px 4px;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--text2);
+  box-shadow: inset 0.5px 0 0 var(--sep);
+  white-space: nowrap;
+}
+.tl-m .y {
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 600;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+}
+.tl-m.jan {
+  box-shadow: inset 1px 0 0 var(--line);
+}
+.tl-now-k {
+  position: absolute;
+  top: 3px;
+  transform: translateX(-50%);
+  padding: 0 3px;
+  border-radius: 4px;
+  background: var(--now);
+  color: var(--card);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  white-space: nowrap;
+}
+.tl-now-k.l {
+  transform: translateX(-1px);
+}
+/* The only sideways scroller: months snap (proximity); the page scrolls it vertically, so every lane is reachable. */
+.tl-scroll {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-radius: 0 0 12px 12px;
+  scroll-snap-type: x proximity;
+  scroll-padding-left: var(--tl-name);
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.tl-scroll::-webkit-scrollbar {
+  display: none;
+}
+.tl-grid {
+  position: relative;
+}
+/* Snap points, one per month, after the name column. */
+.tl-snaps {
+  display: flex;
+  height: 0;
+  padding-left: var(--tl-name);
+}
+.tl-snaps i {
+  flex: none;
+  width: var(--mpx);
+  scroll-snap-align: start;
+}
+.tl-lane {
+  display: flex;
+  height: 44px;
+}
+.tl-lane + .tl-lane {
+  box-shadow: inset 0 0.5px 0 var(--sep);
+}
+/* Venue name, and under it the next date that concerns the user ("明天 19:59", "约 5/5"). */
+.tl-name {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+  flex: none;
+  width: var(--tl-name);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4px 0 12px;
+  background: var(--card);
+  box-shadow: 0.5px 0 0 var(--sep);
+  white-space: nowrap;
+}
+/* The lane colour as a stripe at the name's left edge; the name itself stays in text colour. */
+.tl-name .sw {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 4px;
+  height: auto;
+  border-radius: 0 2px 2px 0;
+}
+.tl-name .nm {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.tl-name .tl-nx {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 11px;
+  line-height: 14px;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+}
+.tl-name .tl-nx.soon {
+  color: var(--accent);
+  font-weight: 600;
+}
+.tl-name:active {
+  background: var(--press);
+}
+.tl-track {
+  position: relative;
+  flex: none;
+  height: 44px;
+  background-image: linear-gradient(to right, var(--sep) 0.5px, transparent 0.5px);
+  background-size: var(--mpx) 100%;
+  cursor: pointer;
+}
+/*
+ * A bar does not clip with overflow:hidden (that would stop its label from
+ * sticking) and has no z-index (so the label can sit above today's line).
+ */
+.tl-bar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  overflow: clip;
+  border-radius: 4px;
+  background: var(--lc);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+/* The label: on the part still ahead, in text colour with a halo, and it stays beside the name column while its bar scrolls under it. */
+.tl-lb {
+  position: sticky;
+  left: 80px;
+  z-index: 3;
+  flex: none;
+  padding: 0 4px;
+  color: var(--text);
+  text-shadow: 0 0 2px var(--card), 0 0 2px var(--card), 0 0 1px var(--card);
+}
+.tl-bar .tl-past {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: var(--card);
+  opacity: 0.6;
+}
+/* 预计: 30% tint, 45° hatch, dashed edge. */
+.tl-bar.est {
+  background: none;
+  border: 1px dashed var(--lc);
+}
+.tl-bar.est::before,
+.tl-bar.est::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.tl-bar.est::before {
+  background: var(--lc);
+  opacity: 0.3;
+}
+.tl-bar.est::after {
+  background: repeating-linear-gradient(45deg, var(--lc) 0 1.5px, transparent 1.5px 5px);
+  opacity: 0.5;
+}
+.tl-bar.fade {
+  -webkit-mask-image: linear-gradient(to right, #000 55%, transparent);
+  mask-image: linear-gradient(to right, #000 55%, transparent);
+}
+.tl-pre-line {
+  position: absolute;
+  height: 2px;
+  background: var(--lc);
+}
+.tl-pre-line.est {
+  opacity: 0.6;
+}
+.tl-pre {
+  position: absolute;
+  z-index: 1;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid var(--lc);
+  background: var(--card);
+}
+.tl-pre.past {
+  opacity: 0.5;
+}
+/* Commitment (*ACL): a notch in the bar. */
+.tl-tick {
+  position: absolute;
+  z-index: 1;
+  width: 2px;
+  background: var(--card);
+}
+.tl-dot {
+  position: absolute;
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--lc);
+  box-shadow: 0 0 0 2px var(--card);
+}
+/* An estimated conference: a tinted dot with a dashed ring (hollow means 摘要或注册). */
+.tl-dot.est {
+  background: var(--card);
+  background: color-mix(in srgb, var(--lc) 30%, var(--card));
+  border: 1.5px dashed var(--lc);
+}
+.tl-dot.past {
+  opacity: 0.4;
+}
+.tl-now {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  width: 1.5px;
+  margin-left: -0.75px;
+  background: var(--now);
+  pointer-events: none;
+}
+.tl-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 10px 32px 0;
+  font-size: 12px;
+  color: var(--text2);
+}
+.tl-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--text2);
+}
+.tl-legend svg {
+  color: var(--text3);
+}
+@media (forced-colors: active) {
+  .tl-bar,
+  .tl-dot,
+  .tl-pre {
+    border: 1px solid CanvasText;
+  }
+  .tl-bar.est,
+  .tl-dot.est {
+    border-style: dashed;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tl-scroll {
+    scroll-behavior: auto;
+  }
+}
+
+/*
+ * The zoomed phase bar (§11.3), neutral: ▲ 交稿 and ◆ 公布 are shapes, ▇ 回复
+ * a dark band, ─ 等待 a light line, ▭ 开会 an outlined block. The next step
+ * is in the accent colour, past ones fade, estimates are hollow and dashed.
+ */
+.ph-card {
+  --cutw: 0px;
+  margin: 12px 16px 0;
+  padding: 10px 16px 12px;
+  background: var(--card);
+  border-radius: 12px;
+}
+.ph-card.cut {
+  --cutw: 72px;
+}
+.ph-ticks,
+.ph-row {
+  display: flex;
+}
+.ph-main {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+.ph-cut {
+  flex: none;
+  width: 16px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--text3);
+}
+.ph-conf {
+  position: relative;
+  flex: none;
+  width: 56px;
+}
+.ph-conf > .ph-l.ln0 {
+  top: 20px;
+}
+.ph-ticks {
+  height: 30px;
+}
+.ph-tk {
+  position: absolute;
+  top: 14px;
+  padding-left: 3px;
+  box-shadow: inset 1px 0 0 var(--line);
+  font-size: 11px;
+  line-height: 14px;
+  color: var(--text2);
+  white-space: nowrap;
+}
+.ph-tk.c {
+  left: 0;
+}
+.ph-now-k {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  padding: 0 3px;
+  border-radius: 4px;
+  background: var(--now);
+  color: var(--card);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13px;
+  white-space: nowrap;
+}
+.ph-body {
+  position: relative;
+}
+.ph-rt {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text2);
+  margin-top: 2px;
+}
+.ph-track {
+  position: relative;
+  height: 20px;
+}
+.ph-labels {
+  position: relative;
+  height: 34px;
+}
+.ph-row.rev .ph-track {
+  height: 16px;
+}
+.ph-base {
+  position: absolute;
+  top: 8px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--ph-wait);
+}
+.ph-pt {
+  position: absolute;
+  top: 3px;
+  width: 14px;
+  height: 14px;
+  margin-left: -7px;
+  color: var(--ph-mark);
+}
+.ph-pt svg,
+.sym svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.ph-pt svg path,
+.sym svg path {
+  fill: currentColor;
+  stroke: var(--card);
+  stroke-width: 1.5;
+  paint-order: stroke;
+}
+.ph-pt.est svg path,
+.sym.est svg path {
+  fill: var(--card);
+  stroke: currentColor;
+  stroke-dasharray: 2.4 1.6;
+}
+.ph-pt.next,
+.ph-band.next,
+.ph-l.next {
+  color: var(--accent);
+}
+.ph-l.next {
+  font-weight: 600;
+}
+.ph-band {
+  position: absolute;
+  top: 5px;
+  height: 10px;
+  border-radius: 2px;
+}
+.ph-band.k-reply {
+  background: var(--ph-reply);
+}
+.ph-band.k-reply.next {
+  background: var(--accent);
+}
+.ph-band.k-conf {
+  top: 4px;
+  height: 12px;
+  background: var(--fill);
+  box-shadow: inset 0 0 0 1.5px var(--text2);
+}
+.ph-band.est {
+  background: repeating-linear-gradient(45deg, var(--ph-reply) 0 1.5px, transparent 1.5px 4px);
+  box-shadow: inset 0 0 0 1px var(--ph-reply);
+}
+.ph-band.k-conf.est {
+  background: none;
+  box-shadow: none;
+  border: 1.5px dashed var(--text2);
+}
+.ph-pt.past,
+.ph-band.past {
+  opacity: 0.35;
+}
+.ph-l {
+  position: absolute;
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--text);
+  white-space: nowrap;
+}
+.ph-l.past {
+  color: var(--text3);
+}
+.ph-l.ln0 {
+  top: 0;
+}
+.ph-l.ln1 {
+  top: 17px;
+}
+.ph-l.c {
+  transform: translateX(-50%);
+}
+.ph-l.l {
+  transform: translateX(-6px);
+}
+.ph-l.r {
+  transform: translateX(calc(-100% + 6px));
+}
+/* 兼审稿: a dashed thin line, not the waiting line. */
+.ph-rev {
+  position: absolute;
+  top: 7px;
+  height: 0;
+  border-top: 2px dashed var(--text2);
+}
+.ph-rev.est {
+  opacity: 0.7;
+}
+.ph-rev.past {
+  opacity: 0.35;
+}
+.ph-rev-l {
+  position: absolute;
+  top: 0;
+  margin-left: 6px;
+  font-size: 11px;
+  line-height: 16px;
+  color: var(--text2);
+  white-space: nowrap;
+}
+/* Today, under the marks (drawn first) so the next deadline's ▲ stays whole. */
+.ph-now {
+  position: absolute;
+  top: -2px;
+  bottom: 30px;
+  width: 0;
+  border-left: 1.5px dashed var(--now);
+  opacity: 0.6;
+  pointer-events: none;
+}
+.ph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+  margin-top: 2px;
+  padding-top: 8px;
+  border-top: 0.5px solid var(--sep);
+  font-size: 12px;
+  color: var(--text2);
+}
+.ph-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+/* The phase symbol, in the legend and at the start of every list row. */
+.sym {
+  position: relative;
+  flex: none;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  color: var(--ph-mark);
+}
+.sym.k-submit svg,
+.sym.k-announce svg,
+.sym.k-next svg {
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+}
+.sym.k-next {
+  color: var(--accent);
+}
+.sym::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.sym.k-submit::before,
+.sym.k-announce::before,
+.sym.k-next::before {
+  content: none;
+}
+.sym.k-reply::before {
+  width: 12px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--ph-reply);
+}
+.sym.k-wait::before {
+  width: 12px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--ph-wait);
+}
+.sym.k-conf::before {
+  width: 12px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--fill);
+  box-shadow: inset 0 0 0 1.5px var(--text2);
+}
+.sym.k-rev::before {
+  width: 12px;
+  height: 0;
+  border-top: 2px dashed var(--text2);
+}
+.sym.k-reply.est::before {
+  background: repeating-linear-gradient(45deg, var(--ph-reply) 0 1.5px, transparent 1.5px 4px);
+  box-shadow: inset 0 0 0 1px var(--ph-reply);
+}
+.sym.k-conf.est::before {
+  background: none;
+  box-shadow: none;
+  border: 1.5px dashed var(--text2);
+}
+.sym.k-wait.est::before {
+  opacity: 0.6;
+}
+.timeline .row > .sym {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  margin-top: -7px;
+  z-index: 1;
+  background: var(--card);
+  box-shadow: 0 0 0 2px var(--card);
+}
+.timeline .next > .sym {
+  color: var(--accent);
+}
+.timeline .past > .sym {
+  opacity: 0.45;
+}
+/* A group whose steps are all past, folded: its line ends at the toggle. */
+.timeline:not(.show-past) .past-toggle:not(:has(~ .row:not(.past)))::after {
+  bottom: 50%;
+}
+
+/* 往年数据 (§11.4) */
+.st-card {
+  margin: 12px 16px 0;
+  padding: 12px 16px;
+  background: var(--card);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.h2-block + .st-card {
+  margin-top: 4px;
+}
+.st-h {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 30px;
+}
+.st-t {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.st-k {
+  flex: none;
+  font-size: 13px;
+  color: var(--text2);
+}
+.seg.st-seg {
+  flex: none;
+  margin: 0;
+  padding: 2px;
+  border-radius: 8px;
+  min-width: 0;
+}
+.seg.st-seg button {
+  flex: none;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.seg.st-seg button::after {
+  inset: -8px 0;
+}
+.seg.st-seg.years {
+  display: inline-flex;
+  margin-top: 6px;
+}
+.st-sub {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text2);
+}
+.st-none {
+  margin-top: 2px;
+  font-size: 14px;
+  color: var(--text2);
+}
+.st-foot {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text2);
+}
+.st-note {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text2);
+}
+.st-key {
+  flex: none;
+  width: 10px;
+  height: 12px;
+  border-radius: 2px;
+}
+.st-key.hatched,
+.st-bar.hatched {
+  background: repeating-linear-gradient(45deg, var(--st-bar) 0 2px, transparent 2px 5px);
+  box-shadow: inset 0 0 0 1px var(--st-bar);
+}
+.st-chart {
+  display: flex;
+  margin: 12px -6px 0;
+}
+.st-slot {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.st-bars {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  width: 100%;
+  height: 100px;
+  box-shadow: inset 0 -1px 0 var(--line);
+}
+.st-cell {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.st-cell:active {
+  background: var(--press);
+}
+.st-top {
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 13px;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.st-top.latest {
+  color: var(--st-latest);
+}
+.st-bar {
+  display: block;
+  flex: none;
+  width: 22px;
+  max-width: 76%;
+  border-radius: 3px 3px 0 0;
+  background: var(--st-bar);
+}
+.st-slot.multi .st-bar {
+  width: 11px;
+}
+.st-slot.multi .st-top {
+  font-size: 10px;
+}
+/* In a two-cycle year, a cell without a bar says why in its own column, upright. */
+.st-v {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  writing-mode: vertical-rl;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 1px;
+  color: var(--text2);
+  white-space: nowrap;
+}
+.st-bar.latest {
+  background: var(--st-latest);
+}
+.st-bar.hatched.latest {
+  background: repeating-linear-gradient(45deg, var(--st-latest) 0 2px, transparent 2px 5px);
+  box-shadow: inset 0 0 0 1px var(--st-latest);
+}
+.st-y {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+}
+.st-y.latest {
+  color: var(--text);
+  font-weight: 600;
+}
+.st-slot.empty .st-y {
+  color: var(--text3);
+}
+.st-u,
+.st-cyc {
+  font-size: 11px;
+  line-height: 14px;
+  color: var(--text2);
+  text-align: center;
+  white-space: nowrap;
+}
+/* Each cycle's name under its own cell. */
+.st-cyc {
+  display: flex;
+  gap: 2px;
+  width: 100%;
+}
+.st-cyc span {
+  flex: 1;
+  min-width: 0;
+}
+.st-sums,
+.st-card > .row {
+  margin: 10px -16px -12px;
+  box-shadow: inset 0 0.5px 0 var(--sep);
+}
+.st-sums .row {
+  min-height: 44px;
+}
+.st-sums .row .t,
+.st-card > .row .t {
+  font-size: 15px;
+}
+.st-sums .row .t b {
+  font-weight: 600;
+}
+.st-card > .row {
+  width: calc(100% + 32px);
+  min-height: 44px;
+}
+.st-card > .row .val {
+  font-size: 14px;
+}
+.st-card > .row .t {
+  color: var(--accent);
+}
+.st-card.flat {
+  margin-top: 8px;
+}
+/* 录用数量最多的 10 个主题 */
+.tp-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+}
+.tp {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 9px 0;
+  font-size: 15px;
+}
+.tp + .tp {
+  box-shadow: inset 0 0.5px 0 var(--sep);
+}
+.tp.tp-hd {
+  padding: 2px 0 4px;
+  font-size: 11px;
+  color: var(--text2);
+}
+.tp.tp-hd span {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text2);
+}
+.tp-r {
+  flex: none;
+  width: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+}
+.tp-n {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.35;
+}
+.tp-n sup {
+  margin-left: 1px;
+  color: var(--text2);
+  font-size: 12px;
+}
+.tp-c,
+.tp-s,
+.tp-d {
+  flex: none;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.tp-c {
+  width: 36px;
+  font-weight: 600;
+}
+.tp-s {
+  width: 44px;
+  font-size: 13px;
+  color: var(--text2);
+}
+.tp-d {
+  width: 48px;
+  font-size: 12px;
+  color: var(--text);
+}
+.tp-d small {
+  margin-left: 1px;
+  font-size: 10px;
+  color: var(--text2);
+}
+.tp-d.flat {
+  color: var(--text2);
+}
+/* 各领域 */
+.ar-list {
+  margin-top: 6px;
+}
+.ar {
+  padding: 8px 0 9px;
+}
+.ar + .ar {
+  box-shadow: inset 0 0.5px 0 var(--sep);
+}
+.ar-1 {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.ar-n {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.ar-n .tag {
+  margin-left: 6px;
+}
+.ar-v {
+  flex: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ar-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+.ar-c {
+  flex: none;
+  width: 104px;
+  text-align: right;
+  font-size: 12px;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ar-track {
+  position: relative;
+  flex: 1;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--fill);
+}
+.ar-track i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 2px;
+  background: var(--st-bar);
+}
+.ar-ref {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 1.5px;
+  margin-left: -0.75px;
+  background: var(--text);
+}
+.ar-refk {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text2);
+}
+.ar-ref-key {
+  width: 1.5px;
+  height: 12px;
+  background: var(--text);
+}
+.ar-rest {
+  padding-top: 8px;
+  box-shadow: inset 0 0.5px 0 var(--sep);
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text2);
+}
+.ar-sentence {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.45;
+}
+.src-q {
+  margin: 8px 0;
+  padding-left: 10px;
+  box-shadow: inset 2px 0 0 var(--line);
+  font-size: 14px;
+  color: var(--text2);
+}
+.st-card.src .btn {
+  margin-top: 12px;
+}
+.src-link {
+  display: block;
+  margin-top: 10px;
+  color: var(--accent);
+  font-size: 15px;
+}
+/* Source sheets */
+.stat-big {
+  flex-wrap: wrap;
+}
+.stat-big.none {
+  font-size: 28px;
+  color: var(--text2);
+}
+.tag.third {
+  color: var(--a-conditional);
+}
+.stat-counts {
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+ol.method,
+ul.method {
+  margin: 12px 0 16px;
+  padding-left: 20px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.method li + li {
+  margin-top: 8px;
+}
+.fold-body .ex {
+  font-size: 13px;
+  color: var(--text2);
+}
+.fold-body figcaption {
+  font-size: 13px;
+  color: var(--text2);
+  margin-top: 4px;
+}
+/* The route drawn small (§11.5) */
+.mini {
+  padding: 8px 16px 8px;
+  box-shadow: inset 0 -0.5px 0 var(--sep);
+}
+.mini-ticks {
+  display: flex;
+  height: 16px;
+  font-size: 11px;
+  line-height: 14px;
+  color: var(--text2);
+}
+.mini-sp {
+  flex: none;
+  width: 84px;
+}
+.mini-main {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+/* Only the labels on the axis are placed; the spacer before them stays in the row (else the axis starts 84px early). */
+.mini-ticks .mini-main span {
+  position: absolute;
+  top: 0;
+  padding-left: 2px;
+  box-shadow: inset 1px 0 0 var(--line);
+  white-space: nowrap;
+}
+.mini-ticks .now {
+  left: 0;
+  color: var(--text);
+  font-weight: 600;
+  box-shadow: inset 1.5px 0 0 var(--now);
+}
+.mini-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 28px;
+}
+.mini-row:active {
+  background: var(--press);
+}
+.mini-n {
+  flex: none;
+  width: 84px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.mini-n .num {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--fill);
+  color: var(--text2);
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+}
+.mini-row .mini-main {
+  height: 100%;
+  background-image: linear-gradient(var(--now), var(--now));
+  background-size: 1px 100%;
+  background-repeat: no-repeat;
+}
+.mini-bar {
+  position: absolute;
+  top: 50%;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 2px;
+  background: var(--lc);
+}
+.mini-bar.est {
+  background: repeating-linear-gradient(45deg, var(--lc) 0 1.5px, transparent 1.5px 4px);
+  box-shadow: inset 0 0 0 1px var(--lc);
+}
+.mini-line {
+  position: absolute;
+  top: 50%;
+  height: 1.5px;
+  margin-top: -0.75px;
+  background: var(--lc);
+  opacity: 0.7;
+}
+.mini-pre {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin: -3.5px 0 0 -3.5px;
+  border-radius: 50%;
+  border: 1.5px solid var(--lc);
+  background: var(--card);
+}
+.mini-warn {
+  position: absolute;
+  top: -1px;
+  z-index: 2;
+  transform: translateX(-50%);
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--a-conditional);
+}
+
+/* ---------- v0.6: 学科 → 方向, rank badges, venue search (§9.1, §12) ---------- */
+
+/* 学科 rows; an open one shows its direction chips under it. */
+.discs {
+  margin: 0 16px;
+  background: var(--card);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.disc + .disc {
+  box-shadow: inset 0 0.5px 0 var(--sep);
+}
+.disc-h {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 52px;
+  padding: 0 16px;
+  text-align: left;
+}
+.disc-h:active {
+  background: var(--press);
+}
+.disc-n {
+  flex: 1;
+  min-width: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+.disc-c {
+  flex: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent);
+}
+.disc-c.dim {
+  font-weight: 400;
+  color: var(--text3);
+}
+.disc-h .down {
+  flex: none;
+  width: 13px;
+  height: 8px;
+  color: var(--text3);
+  transition: transform 0.2s;
+}
+.disc.open .disc-h .down {
+  transform: rotate(180deg);
+}
+.chips.disc-chips {
+  margin: 0;
+  padding: 0 16px 16px;
+  gap: 8px;
+}
+.disc-chips .chip {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.disc-chips .chip:not(.on) {
+  background: var(--inset);
+  border-color: transparent;
+}
+.disc-chips .also-k {
+  flex-basis: 100%;
+  margin: 4px 0 -2px;
+  font-size: 13px;
+  color: var(--text2);
+}
+.discs.lg .disc-h {
+  min-height: 56px;
+}
+.discs.lg .disc-chips .chip {
+  min-height: 44px;
+  font-size: 16px;
+}
+/* A short phone (375×667): slimmer 学科 rows, so all nine show above 下一步 (still a 44px target). */
+@media (max-height: 740px) {
+  .discs.lg .disc-h {
+    min-height: 46px;
+  }
+}
+/* Inside a form row (添加论文, 投稿偏好) the picker sits flush in the group. */
+.row.chips-row .discs {
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
+  width: 100%;
+}
+.row.chips-row .disc-h {
+  padding: 0;
+  min-height: 44px;
+}
+.row.chips-row .chips.disc-chips {
+  padding: 0 0 12px;
+}
+.row.chips-row .disc-chips .chip:not(.on) {
+  background: var(--inset);
+  border-color: transparent;
+}
+.group.form {
+  margin-bottom: 8px;
+}
+
+/* Rank badges: small filled labels (a hairline alone was too faint, 1.5:1); in rows plain words, in a venue header buttons. */
+.rbs {
+  display: inline-flex;
+  flex: none;
+  gap: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.rb {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 0 5px;
+  border-radius: 4px;
+  background: var(--fill);
+  color: var(--tag-fg);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.sheet .rb {
+  background: var(--card);
+}
+button.rb:active {
+  background: var(--press);
+}
+/* Words a screen reader hears but the eye does not need (the full "CCF B（ETAPS 成员会）" behind "CCF B*"). */
+.vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.row .t .rbs .rb {
+  font-weight: 600;
+}
+.row .t .yr + .rbs {
+  margin-left: 6px;
+}
+.rbs.hd {
+  margin-left: 2px;
+  top: 0;
+  gap: 6px;
+}
+/* In a venue header each badge is a button that opens its lists: 44px to tap, drawn smaller. */
+.rbs.hd .rb {
+  position: relative;
+  font-size: 13px;
+  line-height: 22px;
+  padding: 0 8px;
+  border-radius: 6px;
+  color: var(--text);
+  cursor: pointer;
+}
+.rbs.hd .rb::after {
+  content: "";
+  position: absolute;
+  inset: -11px -4px;
+}
+.large-head .sub.sub-tags .tag.form {
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+.large-head .sub.fed {
+  margin-top: 6px;
+}
+.large-head .sub.fed a {
+  color: var(--accent);
+}
+/* The timeline's venue-name column (charts.ts positions the grid and today's line after it): wider on a large phone. */
+:root {
+  --tl-name: 76px;
+}
+@media (min-width: 414px) {
+  :root {
+    --tl-name: 92px;
+  }
+}
+
+/* 推荐目录 sheet: one card per label, the tapped list first. */
+.rkc {
+  margin-top: 16px;
+  padding: 12px 16px 14px;
+  border-radius: 12px;
+  background: var(--inset);
+}
+.rkc-h {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.rkc-t {
+  font-size: 22px;
+  font-weight: 700;
+}
+.rkc-cat {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--text2);
+}
+.rkc-name {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+.rkc-meta {
+  margin-top: 2px;
+  font-size: 13px;
+  color: var(--text2);
+}
+.rkc-note {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text);
+}
+.rkc-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 0;
+  font-size: 15px;
+  color: var(--accent);
+}
+.rkc-lic {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text2);
+}
+.rkc-more {
+  margin-top: 6px;
+}
+.rkc-more summary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  min-height: 32px;
+  padding: 0;
+  font-size: 13px;
+  color: var(--text2);
+  list-style: none;
+  cursor: pointer;
+}
+.rkc-more summary::-webkit-details-marker {
+  display: none;
+}
+.rkc-more summary .down {
+  width: 11px;
+  height: 7px;
+}
+.rkc-more[open] summary .down {
+  transform: rotate(180deg);
+}
+.rkc-more p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text2);
+}
+.rkc.up .rkc-t {
+  font-size: 17px;
+}
+
+/* Upstream venues: one grey line (page banner, milestone page, step sheets). */
+.up-note {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--text2);
+}
+.note.past-none {
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+/* Venue search: above a long list; typing redraws only the list. */
+.search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 16px 16px 0;
+  height: 40px;
+  padding: 0 8px 0 32px;
+  border-radius: 10px;
+  background: var(--fill);
+}
+.sheet .search-wrap {
+  margin: 12px 0 0;
+}
+/* Scrolled into view on focus: clear of the navigation bar and the sticky 首选 | 备选 switch. */
+.search-wrap {
+  scroll-margin-top: 112px;
+}
+.search-i {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  width: 16px;
+  height: 16px;
+  color: var(--text3);
+}
+.search {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font: 17px var(--font);
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.search::-webkit-search-cancel-button {
+  display: none;
+}
+.search::placeholder {
+  color: var(--text3);
+}
+.search-x {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  color: var(--text3);
+}
+.search-x svg {
+  width: 11px;
+  height: 11px;
+}
+.search-x[hidden] {
+  display: none;
+}
+
+/*
+ * A name with badges. What gives way, in order: the second name
+ * ("中国控制会议", ellipsis), then the second badge (hidden when the line is
+ * narrow: a container query, so a badge shows whole or not at all), then the
+ * name itself. The year and the first badge never shrink.
+ */
+.row .t.nb {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  container-type: inline-size;
+}
+.row .t.nb > .b {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* With a second name on the line, it alone gives way (a proportional share would cut "CCC" to "C…" by a fraction of a pixel); a long name stops at half the line. */
+.row .t.nb > .b:has(~ .nm2) {
+  flex-shrink: 0;
+  max-width: 50%;
+}
+.row .t.nb > .yr,
+.row .t.nb > .tag,
+.row .t.nb > .rbs {
+  flex: none;
+}
+.row .t.nb > .tag {
+  margin-left: 6px;
+}
+.row .t.nb > .rbs {
+  top: 0;
+}
+.row .t.nb > .nm2 {
+  flex: 0 1000 auto;
+  min-width: 0;
+  margin-left: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text2);
+}
+@container (max-width: 250px) {
+  .rbs .rb + .rb {
+    display: none;
+  }
+}
+/* A narrow line (320 wide) drops the 预计 tag before cutting the name to "N…": the line under it already says 约. */
+@container (max-width: 200px) {
+  .row .t.nb > .tag {
+    display: none;
+  }
+}
+@media (max-width: 340px) {
+  .row .t.nb > .nm2 {
+    display: none;
+  }
+}
+
+/* Direction chips: how many venues each lists; a direction with none yet is dimmed and says 暂未收录. */
+.chip .chip-n {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text2);
+  font-variant-numeric: tabular-nums;
+}
+.chip.on .chip-n {
+  color: rgba(255, 255, 255, 0.8);
+}
+.chip.empty:not(.on) {
+  color: var(--text3);
+}
+.chip.empty:not(.on) .chip-n {
+  font-size: 12px;
+  color: var(--text3);
+}
+.row.chips-row .disc-chips .chip {
+  min-height: 44px;
+}
+/* First run with nothing picked yet: one line instead of a card. */
+.pick-hint {
+  margin: 12px 32px 0;
+  font-size: 14px;
+  color: var(--text2);
+}
+/* "其他方向的会议" by 学科: an open 学科's caption closes it again. */
+.cap-btn {
+  padding: 12px 0 4px;
+  font: inherit;
+  color: inherit;
+}
+.rk-full {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--text2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* Typing in a venue search: the keyboard needs the room, so the fixed 下一步 / 开始 bar steps aside. */
+body:has(.search:focus) .bottom-bar {
+  display: none;
+}
+/* In a sheet the form group is the inset colour: chips there are card-coloured with a hairline. */
+.sheet .row.chips-row .disc-chips .chip:not(.on) {
+  background: var(--card);
+  border-color: var(--line);
 }

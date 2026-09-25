@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-ijcai
+sources:
+  - id: ijcai-2020-preface
+    url: https://www.ijcai.org/proceedings/2020/preface.pdf
+    title: IJCAI-PRICAI 2020 proceedings preface
+    kind: other
+    fetched_at: 2026-09-25T13:12:22Z
+    http_status: 200
+    snapshot: 53d63175e09c7ae2bd2c71bfd8b492a6a7df04da50325c4d940524432b73f104
+  - id: ijcai-2022-preface
+    url: https://www.ijcai.org/proceedings/2022/preface.pdf
+    title: IJCAI-ECAI 2022 proceedings preface
+    kind: other
+    fetched_at: 2026-09-25T13:12:24Z
+    http_status: 200
+    snapshot: 638736d1a8b0263442c6a91ab918c81f6eed4859104fd31a6866a9b4dd4a8aa4

@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ecce-2026
+sources:
+  - id: ecce-2026-home
+    url: https://www.ieee-ecce.org/2026/
+    title: IEEE ECCE 2026 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:37Z
+    http_status: 200
+    snapshot: d23ee24020ddc3fbe14245de1db26f25395bb5eea7eee6d7646ab1abac9f1ffa

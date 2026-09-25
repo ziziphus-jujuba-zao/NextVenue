@@ -1,0 +1,224 @@
+{
+ "schema": 1,
+ "edition": "neurips-2023",
+ "series": "neurips",
+ "year": 2023,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 NeurIPS 2023 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会；去掉了 Datasets & Benchmarks 和 Position 赛道的论文",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/nips/neurips2023"
+  ],
+  "retrieved_at": "2026-09-25T09:49:29Z"
+ },
+ "papers_used": 3218,
+ "official_accepted": {
+  "value": 3218,
+  "source_url": "https://media.neurips.cc/Conferences/NeurIPS2023/NeurIPS2023-Fact_Sheet.pdf",
+  "quote": "3,218 main conference track ... 12,343 main conference track ... Paper acceptance rate: ■ 26.1% main conference track",
+  "src": "neurips-2023-fact-sheet",
+  "quote_check": "snapshot"
+ },
+ "coverage": 1.0,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "theory_optim",
+   "label_zh": "优化与学习理论",
+   "label_en": "Optimisation & learning theory",
+   "count": 307,
+   "share_pct": 9.5,
+   "examples": [
+    "A Theoretical Analysis of Optimistic Proximal Policy Optimization in Linear Markov Decision Processes.",
+    "Aiming towards the minimizers: fast convergence of SGD for overparametrized problems.",
+    "Is RLHF More Difficult than Standard RL? A Theoretical Perspective."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 249,
+   "share_pct": 7.7,
+   "low_precision": true,
+   "examples": [
+    "Fed-FA: Theoretically Modeling Client Data Divergence for Federated Language Backdoor Defense.",
+    "Temporal Robustness against Data poisoning.",
+    "Robust Lipschitz Bandits to Adversarial Corruptions."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "rl",
+   "label_zh": "强化学习",
+   "label_en": "Reinforcement learning",
+   "count": 224,
+   "share_pct": 7.0,
+   "examples": [
+    "A Theoretical Analysis of Optimistic Proximal Policy Optimization in Linear Markov Decision Processes.",
+    "Is RLHF More Difficult than Standard RL? A Theoretical Perspective.",
+    "Pre-training Contextualized World Models with In-the-wild Videos for Reinforcement Learning."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 195,
+   "share_pct": 6.1,
+   "examples": [
+    "PreDiff: Precipitation Nowcasting with Latent Diffusion Models.",
+    "Dataset Diffusion: Diffusion-based Synthetic Data Generation for Pixel-Level Semantic Segmentation.",
+    "Diffusion Schrödinger Bridge Matching."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "graph",
+   "label_zh": "图学习 / GNN",
+   "label_en": "Graphs / GNNs",
+   "count": 178,
+   "share_pct": 5.5,
+   "examples": [
+    "Language Semantic Graph Guided Data-Efficient Learning.",
+    "Tailoring Self-Attention for Graph via Rooted Subtrees.",
+    "Towards Better Dynamic Graph Learning: New Architecture and Unified Library."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 134,
+   "share_pct": 4.2,
+   "examples": [
+    "Patch n' Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution.",
+    "Tailoring Self-Attention for Graph via Rooted Subtrees.",
+    "Uni3DETR: Unified 3D Detection Transformer."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 128,
+   "share_pct": 4.0,
+   "examples": [
+    "LEPARD: Learning Explicit Part Discovery for 3D Articulated Shape Reconstruction.",
+    "CP-SLAM: Collaborative Neural Point-based SLAM System.",
+    "Uni3DETR: Unified 3D Detection Transformer."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 128,
+   "share_pct": 4.0,
+   "examples": [
+    "Extensible Prompts for Language Models on Zero-shot Language Style Customization.",
+    "Jailbroken: How Does LLM Safety Training Fail?",
+    "How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "self_supervised",
+   "label_zh": "自监督 / 对比 / 表征学习",
+   "label_en": "Self-supervised / contrastive / representation learning",
+   "count": 118,
+   "share_pct": 3.7,
+   "examples": [
+    "Combating Representation Learning Disparity with Geometric Harmonization.",
+    "Efficient Policy Adaptation with Contrastive Prompt Ensemble for Embodied Agents.",
+    "Self-Supervised Reinforcement Learning that Transfers using Random Features."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "uncertainty",
+   "label_zh": "不确定性 / 校准 / 贝叶斯",
+   "label_en": "Uncertainty / calibration / Bayesian",
+   "count": 118,
+   "share_pct": 3.7,
+   "examples": [
+    "Dynamic Pricing and Learning with Bayesian Persuasion.",
+    "Calibrating \"Cheap Signals\" in Peer Review without a Prior.",
+    "Bayesian Learning of Optimal Policies in Markov Decision Processes with Countably Infinite State-Space."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 114,
+   "share_pct": 3.5,
+   "examples": [
+    "Fantastic Weights and How to Find Them: Where to Prune in Dynamic Sparse Training.",
+    "CQM: Curriculum Reinforcement Learning with a Quantized World Model.",
+    "Parameterizing Context: Unleashing the Power of Parameter-Efficient Fine-Tuning and In-Context Tuning for Continual Table Semantic Parsing."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 114,
+   "share_pct": 3.5,
+   "examples": [
+    "Visual Programming for Step-by-Step Text-to-Image Generation and Evaluation.",
+    "Cocktail: Mixing Multi-Modality Control for Text-Conditional Image Generation.",
+    "Improving Diffusion-Based Image Synthesis with Context Prediction."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 96,
+   "share_pct": 3.0,
+   "examples": [
+    "Exploring Question Decomposition for Zero-Shot VQA.",
+    "Parts of Speech-Grounded Subspaces in Vision-Language Models.",
+    "Intra-Modal Proxy Learning for Zero-Shot Visual Categorization with CLIP."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "causal",
+   "label_zh": "因果",
+   "label_en": "Causality",
+   "count": 83,
+   "share_pct": 2.6,
+   "examples": [
+    "Interpretable Reward Redistribution in Reinforcement Learning: A Causal Approach.",
+    "Budgeting Counterfactual for Offline RL.",
+    "Synthetic Combinations: A Causal Inference Framework for Combinatorial Interventions."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "privacy",
+   "label_zh": "隐私 / 机器遗忘",
+   "label_en": "Privacy / unlearning",
+   "count": 83,
+   "share_pct": 2.6,
+   "examples": [
+    "Initialization Matters: Privacy-Utility Analysis of Overparameterized Neural Networks.",
+    "Faster approximate subgraph counts with privacy.",
+    "Counting Distinct Elements Under Person-Level Differential Privacy."
+   ]
+  }
+ ]
+}

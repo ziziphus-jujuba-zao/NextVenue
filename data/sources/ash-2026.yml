@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ash-2026
+sources:
+  - id: ash-2026-home
+    url: https://www.hematology.org/meetings/annual-meeting
+    title: 68th ASH Annual Meeting and Exposition
+    kind: cfp
+    fetched_at: 2026-09-25T15:49:09Z
+    http_status: 200
+    snapshot: 54ad1ec2b8255ff9b7c62516439c561edda8403736832a54fae9807acaab06f2
+  - id: ash-2026-abstracts
+    url: https://www.hematology.org/meetings/annual-meeting/abstracts
+    title: ASH 2026 Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T15:50:03Z
+    http_status: 200
+    snapshot: b666addeb9ce2ca2864654813300d3577c3c715f425d579913f5e0cb857e3a6a

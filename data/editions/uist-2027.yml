@@ -1,0 +1,46 @@
+id: uist-2027
+series: uist
+name: UIST 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: uist-2026
+milestones:
+  - type: abstract
+    at: 2027-03-24T23:59
+    tz: AoE
+    status: estimated
+    src: uist-2026-cfp
+    quote: "Abstract due Tuesday, March 24th, 2026"
+    note_zh: UIST 2027 还没有公布日期（uist.acm.org/2027/ 返回 404）。按 UIST 2026 的摘要截止 3/24 顺延；2026 年摘要要交标题、摘要和作者名单，所有截止都是 AoE 23:59。
+  - type: paper
+    at: 2027-03-31T23:59
+    tz: AoE
+    status: estimated
+    src: uist-2026-cfp
+    quote: "Papers due (Paper PDF) Tuesday, March 31st, 2026"
+    note_zh: 按 UIST 2026 的正文截止 3/31 顺延；补充材料 2026 年晚 9 天（4/9）截止。
+  - type: reviews_out
+    at: 2027-05-28
+    tz: AoE
+    status: estimated
+    src: uist-2026-cfp
+    quote: "Initial reviews sent to authors Thursday, May 28th, 2026"
+    note_zh: 按 UIST 2026 的日期顺延。
+  - type: author_response
+    label_zh: Rebuttal
+    at: 2027-06-05T23:59
+    tz: AoE
+    status: estimated
+    src: uist-2026-cfp
+    quote: "Rebuttals due Friday, June 5th, 2026"
+    note_zh: 按 UIST 2026 的 rebuttal 截止 6/5 顺延。
+  - type: notification
+    at: 2027-06-27
+    tz: AoE
+    status: estimated
+    src: uist-2026-cfp
+    quote: "Decisions sent to authors (conditional accept or reject) Saturday, June 27th, 2026"
+    note_zh: 按 UIST 2026 的日期顺延。这一步是有条件录用或拒稿；2026 年的最终录用决定在 8/7。
+last_checked: 2026-09-25
+note_zh: UIST 2027 的会期、地点和投稿日期都未公布。标“预计”的日期按 UIST 2026 顺延：摘要 3/24、正文 3/31、审稿意见 5/28、rebuttal 6/5、出结果 6/27（AoE）。UIST 2026 在 2026-11-02 至 05 于底特律举行，论文已截止。

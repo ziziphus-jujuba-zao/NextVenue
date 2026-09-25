@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: srds
+acronym: SRDS
+full_name: IEEE International Symposium on Reliable Distributed Systems
+directions:
+  - cs/security
+dblp: conf/srds
+ccfddl: SC/SRDS
+data_level: upstream

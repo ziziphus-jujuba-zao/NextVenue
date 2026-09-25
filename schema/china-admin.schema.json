@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "china-admin.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "School and national rules for official travel abroad (data/china/admin.yml); examples only, never a template",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "last_checked",
+    "note_zh",
+    "items"
+  ],
+  "properties": {
+    "last_checked": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "note_zh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "org_zh",
+          "who",
+          "topic",
+          "text_zh",
+          "src"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+([_-][a-z0-9]+)*$"
+          },
+          "org_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "who": {
+            "enum": [
+              "student",
+              "staff",
+              "all"
+            ]
+          },
+          "topic": {
+            "enum": [
+              "approval_lead",
+              "stay_limit",
+              "online_approval",
+              "passport",
+              "post_trip",
+              "reimburse",
+              "funding",
+              "other"
+            ]
+          },
+          "text_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "n": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "unit": {
+            "enum": [
+              "day",
+              "workday",
+              "month"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "hard",
+              "advice"
+            ]
+          },
+          "issued": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "src": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 2
+          },
+          "json_path": {
+            "type": "string"
+          },
+          "json_value": {
+            "type": "string"
+          },
+          "anchor": {
+            "type": "string",
+            "minLength": 2
+          },
+          "note_zh": {
+            "type": "string"
+          }
+        },
+        "allOf": [
+          {
+            "anyOf": [
+              {
+                "required": [
+                  "quote"
+                ]
+              },
+              {
+                "required": [
+                  "json_path",
+                  "json_value"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

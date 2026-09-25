@@ -1,0 +1,133 @@
+Skip to main content
+ * Attending
+ * Schedule
+ * Workshops
+ * Organizers
+ * More Info
+
+   * At the conference
+
+   * Keynotes
+   * Henry Ford Museum Reception
+   * Things to Do on Your Own
+   * Accessibility
+   * Sustainability
+
+   * ----------------------------------------
+
+   * For authors
+
+   * Full CFP
+   * Author Guide
+   * Video Guide
+
+   * ----------------------------------------
+
+   * About UIST
+
+   * Announcements
+   * For Sponsors
+   * Logo & Branding
+   * UIST Archive
+ * Toggle theme
+   * Light
+   * Dark
+   * Auto
+
+UIST 2026
+
+November 2–5, 2026 · Detroit, MI USA · Renaissance Center
+Skip once Always skip
+Replay video
+
+Announcements
+
+ * UIST 2026 Papers: From Submission to Final Decisions Final paper decisions are out. 1,316 external reviewers and 158 committee members wrote 3,271 reviews and 1,120 meta reviews. The rebuttal changed scores for most papers above 2.5, and the PC meetings changed AC recommendations for 15.2% of papers.
+   September 2026
+
+   Final paper decisions are out. 1,316 external reviewers and 158 committee members wrote 3,271 reviews and 1,120 meta reviews. The rebuttal changed scores for most papers above 2.5, and the PC meetings changed AC recommendations for 15.2% of papers.
+
+   Read the full post
+ * Travel Scholarship Applications Open Applications are open for the UIST 2026 Travel Scholarship, which covers up to $1,000 toward travel, accommodation, meals, and registration for students and early-career researchers who would otherwise be unable to attend in person. Apply by September 15; results are announced September 22. See Travel Scholarships for the full eligibility criteria and what to submit.
+   August 2026
+
+   Applications are open for the UIST 2026 Travel Scholarship, which covers up to $1,000 toward travel, accommodation, meals, and registration for students and early-career researchers who would otherwise be unable to attend in person. Apply by September 15; results are announced September 22. See Travel Scholarships for the full eligibility criteria and what to submit.
+
+   UIST 2026 is offering Travel Scholarships to support students and early-career researchers who would otherwise be unable to attend the conference in person due to financial constraints. We are especially committed to increasing participation from people who are from historically underrepresented or marginalized groups in STEM, are based in regions or institutions with limited access to travel funding, or are attending UIST or an international HCI conference for the first time.
+
+   The scholarship covers up to $1,000. Depending on the awardee’s needs and ACM conditions, the funding can go toward flights or other travel expenses, accommodation and meals, and registration as needed. Recipients must register for the conference—this can be done after award notifications go out—and must attend in person and sign an attendance form at the registration desk. Reimbursement is processed after the conference by the ACM.
+
+   To apply, submit a CV/résumé and a one-page document covering your background, whether you have attended UIST or other HCI conferences before, why you want to attend UIST 2026, your financial need, and an approximate breakdown of your anticipated travel expenses. Materials are reviewed in confidence and shared only with the UIST 2026 Community and General Chairs.
+
+   Application deadline: September 15, 2026. Results will be announced on September 22, 2026. Apply via the application form, and see the Travel Scholarships section of the Attending page for the full details. Questions can go to the UIST Community Chairs at community2026@uist.org.
+
+ * Workshops Announced Eleven workshops have been accepted for UIST 2026! All are held on Monday, November 2 — five full-day, plus six half-day workshops split between morning and afternoon sessions — covering topics from flavor archives and agentic reimplementation to accessibility, haptics, and writing assistants. Browse the full lineup for times and add a workshop to your registration. No separate paper submission is required to take part.
+   August 2026
+
+   Eleven workshops have been accepted for UIST 2026! All are held on Monday, November 2 — five full-day, plus six half-day workshops split between morning and afternoon sessions — covering topics from flavor archives and agentic reimplementation to accessibility, haptics, and writing assistants. Browse the full lineup for times and add a workshop to your registration. No separate paper submission is required to take part.
+
+   We are excited to announce the eleven workshops that will take place at UIST 2026 on Monday, November 2:
+
+    * Bobapedia: A Workshop on Archiving Living Flavor Experiences (full-day)
+    * Cyber-Physical Systems for Accessibility and Ability Augmentation: Bridging Diverse Communities (full-day)
+    * Enriching Writing Ecosystems at The Fifth Workshop on Intelligent and Interactive Writing Assistants (full-day)
+    * Revibing HCI: Agentic Reimplementation as Community Practice (full-day)
+    * The World as a Canvas: Materializing Imagination through Prompting the Physical (full-day)
+    * The AI-Augmented Maker: Challenges and Opportunities in Designing Intelligence for Community-driven DIY Cultures (half-day, morning)
+    * Haptics beyond Vibration: Generative AI to Advance Multisensory Interfaces (half-day, morning)
+    * The Personalized Computer for the 21st Century (half-day, morning)
+    * Drawing on Materials and Processes: A Hands-on Workshop on Building Creative Tools with Grain Spaces (half-day, afternoon)
+    * Proxemics of Physical AI: Opportunities and Challenges of Augmenting Intimate, Personal, Social and Public Spaces (half-day, afternoon)
+    * Workshop on Augmenting Human Dexterity: From Multisensory Feedback and Motor Capabilities to Skill Acquisition (half-day, afternoon)
+
+   Full-day workshops run 9:00 AM–5:00 PM at the conference venue. Half-day workshops run either in the morning (9:00 AM–12:15 PM) or the afternoon (1:45–5:00 PM), and are held off-site at the University of Michigan Detroit Center in Midtown Detroit, a short QLine ride north of the venue. Room assignments will be announced closer to the conference.
+
+   Joining a workshop does not require a separate paper submission. UIST workshops work differently from those at many other HCI venues: organizers cannot require a position paper or any similar longer submission, and there is no expectation that you submit your own previously published work in order to take part. Where space is limited, a workshop may ask you to apply by answering a few open-ended questions with short answers, and that is the extent of what is asked of participants.
+
+   Workshop attendance requires a Full Conference + Workshop or Workshop Only registration—see the Attending page for details. If you have already registered, you can still add a workshop afterward by modifying your registration on the CVENT registration site. Spaces will be limited, so we encourage you to sign up early to secure your spot.
+
+See all announcements
+
+Registration
+
+Registration is open. Regular rates run through October 2; after that it is late/on-site pricing. A workshop can be added to an existing registration at any time.
+
+Register →
+
+Rates, childcare & visa support →
+
+Hotel
+
+A block of rooms is held at the Detroit Marriott at the Renaissance Center at the conference rate. The hotel is in the same building as the venue, and rooms go first come, first served — book early. The hotel booking cutoff is October 12.
+
+Book a room →
+
+Accommodation & getting to Detroit →
+
+Schedule at a Glance
+
+November 2–5, 2026 · Detroit Marriott at the Renaissance Center · tentative and subject to change
+
+Monday November 2 9:00 AM Doctoral Symposium · Full-Day Workshops 9:00 AM Half-Day Workshops (morning) 1:45 PM Half-Day Workshops (afternoon) 5:00 PM Welcome Reception Tuesday November 3 8:25 AM Opening Plenary 9:00 AM Visions 11:00 AM Papers #1 2:00 PM Papers #2 4:00 PM Papers #3 6:00 PM Posters & Demos Reception Wednesday November 4 9:00 AM Papers #4 11:00 AM Keynote: Pattie Maes & Ben Shneiderman 2:00 PM Papers #5 4:00 PM Lasting Impact 6:00 PM Reception at the Henry Ford Museum Thursday November 5 9:00 AM Papers #6 11:00 AM Papers #7 2:00 PM Papers #8 3:30 PM Keynote: Mark Ackerman 4:30 PM Closing Plenary
+
+Full Schedule →
+
+The ACM Symposium on User Interface Software and Technology (UIST) is the premier forum for innovations in human-computer interfaces. Sponsored by ACM SIGCHI and SIGGRAPH, UIST brings together people from diverse areas including graphical & web user interfaces, tangible & ubiquitous computing, virtual & augmented reality, multimedia, new input & output devices, human-centered AI, and CSCW.
+
+The intimate size and intensive program make UIST an ideal opportunity to exchange research results and ideas.
+
+Our Sponsors
+
+Platinum
+
+Gold
+
+Silver
+
+Student Innovation Contest Sponsor
+
+Doctoral Symposium Sponsor
+
+Interested in sponsoring UIST 2026? Check our Sponsor page or contact sponsorship2026@uist.org.
+
+© 2026 ACM SIGCHI. Logo/iconography designed by Shuhong Wang. Detroit photography from Visit Detroit. Please contact web chairs if you have any questions or suggestions about the website.

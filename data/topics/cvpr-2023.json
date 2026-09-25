@@ -1,0 +1,225 @@
+{
+ "schema": 1,
+ "edition": "cvpr-2023",
+ "series": "cvpr",
+ "year": 2023,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 CVPR 2023 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/cvpr/cvpr2023"
+  ],
+  "retrieved_at": "2026-09-25T09:49:35Z"
+ },
+ "papers_used": 2353,
+ "official_accepted": {
+  "value": 2359,
+  "source_url": "https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900z301/1POTbxllic8",
+  "quote": "CVPR 2023 received 9155 submissions, a 12% increase from the 8161 submissions to CVPR 2022. ... At the end of this process, 2359 papers were accepted (25.8% acceptance rate).",
+  "src": "cvpr-2023-front-matter",
+  "quote_check": "snapshot"
+ },
+ "coverage": 0.9975,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 447,
+   "share_pct": 19.0,
+   "examples": [
+    "Robust Dynamic Radiance Fields.",
+    "NeuDA: Neural Deformable Anchor for High-Fidelity Implicit Surface Reconstruction.",
+    "AligNeRF: High-Fidelity Neural Radiance Fields via Alignment-Aware Training."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "video",
+   "label_zh": "视频",
+   "label_en": "Video",
+   "count": 211,
+   "share_pct": 9.0,
+   "examples": [
+    "Efficient Semantic Segmentation by Altering Resolutions for Compressed Videos.",
+    "Hierarchical Temporal Transformer for 3D Hand Pose Estimation and Action Recognition from Egocentric RGB Videos.",
+    "ANetQA: A Large-scale Benchmark for Fine-grained Compositional Reasoning over Untrimmed Videos."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 186,
+   "share_pct": 7.9,
+   "examples": [
+    "Neighborhood Attention Transformer.",
+    "Hierarchical Temporal Transformer for 3D Hand Pose Estimation and Action Recognition from Egocentric RGB Videos.",
+    "Continual Detection Transformer for Incremental Object Detection."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "self_supervised",
+   "label_zh": "自监督 / 对比 / 表征学习",
+   "label_en": "Self-supervised / contrastive / representation learning",
+   "count": 183,
+   "share_pct": 7.8,
+   "examples": [
+    "CiCo: Domain-Aware Sign Language Retrieval via Cross-Lingual Contrastive Learning.",
+    "Masked Scene Contrast: A Scalable Framework for Unsupervised 3D Representation Learning.",
+    "Revisiting Multimodal Representation in Contrastive Learning: From Patch and Token Embeddings to Finite Discrete Tokens."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "segmentation",
+   "label_zh": "分割",
+   "label_en": "Segmentation",
+   "count": 180,
+   "share_pct": 7.6,
+   "examples": [
+    "Efficient Semantic Segmentation by Altering Resolutions for Compressed Videos.",
+    "Delivering Arbitrary-Modal Semantic Segmentation.",
+    "Content-aware Token Sharing for Efficient Semantic Segmentation with Vision Transformers."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 167,
+   "share_pct": 7.1,
+   "examples": [
+    "Q: How to Specialize Large Vision-Language Models to Data-Scarce VQA Tasks? A: Self-Train on Unlabeled Images!",
+    "Revisiting Multimodal Representation in Contrastive Learning: From Patch and Token Embeddings to Finite Discrete Tokens.",
+    "Towards All-in-One Pre-Training via Maximizing Multi-Modal Mutual Information."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 148,
+   "share_pct": 6.3,
+   "low_precision": true,
+   "examples": [
+    "Privacy-preserving Adversarial Facial Features.",
+    "Robust Dynamic Radiance Fields.",
+    "Towards Transferable Targeted Adversarial Examples."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "human",
+   "label_zh": "姿态估计、人体动作与数字人",
+   "label_en": "Pose estimation, human motion & avatars",
+   "count": 139,
+   "share_pct": 5.9,
+   "examples": [
+    "Object pop-up: Can we infer 3D objects and their poses from human interactions alone?",
+    "Hierarchical Temporal Transformer for 3D Hand Pose Estimation and Action Recognition from Egocentric RGB Videos.",
+    "POEM: Reconstructing Hand in a Point Embedded Multi-view Stereo."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "detection",
+   "label_zh": "目标检测",
+   "label_en": "Object detection",
+   "count": 132,
+   "share_pct": 5.6,
+   "examples": [
+    "Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection.",
+    "Continual Detection Transformer for Incremental Object Detection.",
+    "3D Video Object Detection with Learnable Object-Centric Global Optimization."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 126,
+   "share_pct": 5.4,
+   "examples": [
+    "NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models.",
+    "Inferring and Leveraging Parts from Object Shape for Improving Semantic Image Synthesis.",
+    "Graph Transformer GANs for Graph-Constrained House Generation."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "open_world",
+   "label_zh": "零样本 / 小样本 / 开放词表",
+   "label_en": "Zero/few-shot & open-vocabulary",
+   "count": 118,
+   "share_pct": 5.0,
+   "examples": [
+    "Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection.",
+    "Detecting Everything in the Open World: Towards Universal Object Detection.",
+    "Zero-Shot Text-to-Parameter Translation for Game Character Auto-Creation."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 106,
+   "share_pct": 4.5,
+   "examples": [
+    "Object-Aware Distillation Pyramid for Open-Vocabulary Object Detection.",
+    "Ultrahigh Resolution Image/Video Matting with Spatio-Temporal Sparsity.",
+    "LVQAC: Lattice Vector Quantization Coupled with Spatially Adaptive Companding for Efficient Learned Image Compression."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 97,
+   "share_pct": 4.1,
+   "examples": [
+    "NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models.",
+    "Lookahead Diffusion Probabilistic Models for Refining Mean Estimation.",
+    "RenderDiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 96,
+   "share_pct": 4.1,
+   "low_precision": true,
+   "examples": [
+    "Imagen Editor and EditBench: Advancing and Evaluating Text-Guided Image Inpainting.",
+    "ANetQA: A Large-scale Benchmark for Fine-grained Compositional Reasoning over Untrimmed Videos.",
+    "ShapeTalk: A Language Dataset and Framework for 3D Shape Edits and Deformations."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "restoration",
+   "label_zh": "底层视觉（复原/超分）",
+   "label_en": "Low-level vision (restoration / super-resolution)",
+   "count": 95,
+   "share_pct": 4.0,
+   "examples": [
+    "Imagen Editor and EditBench: Advancing and Evaluating Text-Guided Image Inpainting.",
+    "Learning Generative Structure Prior for Blind Text Image Super-resolution.",
+    "Deep Arbitrary-Scale Image Super-Resolution via Scale-Equivariance Pursuit."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sec-sc-2027
+series: sec-sc
+name: SEC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/SEC
+  conf_id: sec27
+  link: https://ifipsec.org/
+  place: Linköping, Sweden
+  date: TBD
+  timezone: AoE
+location:
+  city: Linköping
+  country: Sweden
+  country_code: SE
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    tz: AoE
+    status: tba
+last_checked: 2026-09-25

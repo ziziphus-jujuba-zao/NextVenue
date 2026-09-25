@@ -1,0 +1,47 @@
+General Information
+Conference Overview Conference Officers Program Committees
+Conference Program
+Call for Contributions
+Research Paper Workshop Proposals Tutorials
+Participant Information
+Dates & Guidelines
+Important Dates
+
+----------------------------------------
+
+Submission Guidelines
+Sponsorship
+Opportunities
+43rd IEEE International Conference on Data Engineering (ICDE) Copenhagen, Denmark - May 17 -21, 2027
+
+Important Dates
+
+** Notification dates are approximate.
+** All deadlines are 5:00 p.m. Pacific Time.
+
+Research Track Important Dates
+
+IEEE ICDE 2027 comprises two rounds of research track paper submissions. Each submission round provides an Accept/Reject notification without the option for revision
+
+                                          First Round          Second Round
+Submission due                            June 11, 2026        November 11, 2026
+Author Rebuttal Period                    August 8-15, 2026,   January 8-15, 2027
+Notification to authors (Accept/Reject)   September 10, 2026   February 10, 2027
+Camera-ready copy due                     October 10, 2026     March 10, 2027
+
+Other Tracks Important Dates
+
+Track                                  Submission due      Notification for authors (Accept/Reject)   Camera-ready due
+Tutorials                              November 20, 2026   December 18, 2026                          1 March, 2027
+Industry and Applications              TBD                 TBD                                        TBD
+Demonstrations                         TBD                 TBD                                        TBD
+Workshop Proposals                     October 15, 2026    November 1, 2026                           March 10, 2027
+TKDE Poster                            TBD                 TBD                                        TBD
+Ph.D. Symposium                        TBD                 TBD                                        TBD
+Data Engineering Future Technologies   TBD                 TBD                                        TBD
+
+For all submissions, please read the ICDE 2027 Submission Guidelines carefully.
+
+43rd IEEE International Conference on Data Engineering, Copenhagen, Denmark - May 17-21, 2027.
+© IEEE ICDE 2027. All rights reserved. Use of this website signifies your agreement to the IEEE Terms and Conditions.
+A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.

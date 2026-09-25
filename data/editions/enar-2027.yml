@@ -1,0 +1,36 @@
+id: enar-2027
+series: enar
+name: ENAR 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: enar-2027-contributed
+  quote: "The ENAR 2027 Spring Meeting abstract submission window for contributed submissions will open September 15, 2026."
+location: { city: Boston, country: USA, country_code: US }
+dates: { start: 2027-03-14, end: 2027-03-17 }
+milestones:
+  - type: abstract
+    at: 2026-10-29T23:59
+    tz: America/New_York
+    status: confirmed
+    src: enar-2027-contributed
+    quote: "The deadline for contributed abstract submissions is 11:59 pm ET, October 29, 2026."
+    note_zh: 9/15 开放；官网写明不接受任何延期。学生论文奖（Distinguished Student Paper Awards）的摘要更早，10/15 23:59 ET 截止。
+  - type: author_registration
+    label_zh: 注册缴费截止（否则摘要作废）
+    at: 2026-10-29T23:59
+    tz: America/New_York
+    status: confirmed
+    src: enar-2027-contributed
+    quote: "For Contributed Abstract submissions: If Meeting Registration and payment are not received by 11:59 PM ET October 29, 2026, your contributed abstract session could be invalidated."
+    note_zh: 和摘要同一天：投 contributed 摘要就要同时注册并付款。
+  - type: conference
+    start: 2027-03-14
+    end: 2027-03-17
+    tz: America/New_York
+    status: confirmed
+    src: enar-2027-home
+    quote: "Welcome to the ENAR 2027 Spring Meeting tto be held March 14–17, 2027, in Boston!"
+last_checked: 2026-09-25

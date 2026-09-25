@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: imece-2026
+sources:
+  - id: imece-2026-home
+    url: https://event.asme.org/IMECE
+    title: ASME IMECE 2026
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:39Z
+    http_status: 200
+    snapshot: 7b63a9d2aeeccb1f9094f1d32ceb49a40c100e1c22e277dd7358b5dea65267a5

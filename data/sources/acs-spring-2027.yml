@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: acs-spring-2027
+sources:
+  - id: acs-spring-2027-call
+    url: https://callforabstracts.acs.org/acsspring2027
+    title: ACS Spring 2027 Call for Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T16:04:16Z
+    http_status: 200
+    snapshot: fcc7a91124fc1310e1e417ed2da9df3096103cf22122084f0412e492fc6d3014
+  - id: acs-phys-division-home
+    url: https://phys-acs.org/
+    title: ACS Division of Physical Chemistry (PHYS) Home
+    kind: other
+    fetched_at: 2026-09-25T16:05:08Z
+    http_status: 200
+    snapshot: f46d1af09fcfff7692a7332feb96053ced10343cc8c237af519d7b3a37780ca8

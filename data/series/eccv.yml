@@ -1,0 +1,12 @@
+id: eccv
+acronym: ECCV
+full_name: European Conference on Computer Vision
+directions: [cs/cv, eng/av]
+periodicity:
+  cycle: biennial
+  parity: even
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/eccv
+ccfddl: AI/ECCV
+data_level: curated

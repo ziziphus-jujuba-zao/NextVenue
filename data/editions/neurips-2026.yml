@@ -1,0 +1,395 @@
+id: neurips-2026
+series: neurips
+name: NeurIPS 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Sydney / Atlanta / Paris, country: Australia / USA / France }
+dates: { start: 2026-12-06, end: 2026-12-13 }
+sites:
+  - id: sydney
+    city: Sydney
+    country_code: AU
+    tz: Australia/Sydney
+    venue:
+      name: ICC Sydney
+      address: tba
+      src: neurips-2026-venue
+      quote: "Sydney, Australia ICC Sydney"
+      note_zh: 官网没有给参会者的场馆地址。Venue Information 页写的 "Level 4, Exhibition Halls 5–7" 是展商展区，不是报告会场。
+  - id: atlanta
+    city: Atlanta
+    country_code: US
+    tz: America/New_York
+    venue:
+      name: Georgia World Congress Center
+      address: tba
+      src: neurips-2026-venue
+      quote: "Atlanta, GA Georgia World Congress Center"
+  - id: paris
+    city: Paris
+    country_code: FR
+    tz: Europe/Paris
+    venue:
+      name: Palais des Congrès de Paris
+      address: 2 Place de la Porte Maillot, Paris 17, France
+      src: neurips-2026-hotels
+      quote: "The main conference will take place from 9 to 11 December at the Paris Congress Center, 2 Place de la Porte Maillot, Paris 17, France"
+      note_zh: Venue Information 页写作 "Palais des Congrès de Paris"，Hotels 页写作 "Paris Congress Center"，是同一处。12/12–13 的 workshop 分在两处：这里和索邦大学 Jussieu 校区（4 place Jussieu, 75005 Paris）。
+milestones:
+  - type: abstract
+    at: 2026-05-04T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Paper Abstract Submission Deadline May 04 '26 (Anywhere on Earth)"
+  - type: paper
+    at: 2026-05-06T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Full Paper Submission Deadline May 06 '26 (Anywhere on Earth)"
+  - type: reviews_out
+    at: 2026-07-22
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Reviews Released to Authors Jul 22 '26 (Anywhere on Earth)"
+    note_zh: 官方只给日期、没给时刻。
+  - type: discussion
+    label_zh: 作者-审稿人-AC 讨论期
+    start: 2026-07-27
+    end: 2026-08-03
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Author + Reviewer + AC Discussion Period Ends Aug 03 '26 (Anywhere on Earth)"
+    note_zh: 开始是 "Author + Reviewer + AC Discussion Period Starts Jul 27 '26 (Anywhere on Earth)"。官方只给日期、没给时刻。
+  - type: meta_reviews
+    label_zh: 审稿人-AC 内部讨论
+    start: 2026-08-03
+    end: 2026-08-10
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Reviewer + AC Discussion Period Ends Aug 10 '26 (Anywhere on Earth)"
+  - type: notification
+    at: 2026-09-24
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Paper Author Notifications Sep 24 '26 (Anywhere on Earth)"
+    note_zh: '官方只给日期、没给时刻。CFP 写 "Author notification: September 24, 2026 AoE"。'
+  - type: site_preference
+    at: 2026-09-30T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Paper Presentation Site Preference Form Deadline Sep 30 '26 (Anywhere on Earth)"
+    note_zh: 北京时间 10/1 周四 19:59，在国庆假期里。指定报告作者和会场意向都在这张表里改；按官方博客，分配结束后报告人和会场都不能再改（见"分配后换会场或报告人"卡）。
+  - type: site_assignment
+    at: 2026-10-06T17:00
+    tz: UTC
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Paper Location Assignment Notifications Oct 06 '26 05:00 PM UTC"
+    note_zh: 北京时间 10/7 周三 01:00。会场满员时按随机方式分配，不保证第一志愿。
+  - type: financial_aid
+    label_zh: 资助（Financial Assistance）/ 志愿者申请截止
+    at: 2026-10-06T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-financial-assistance
+    quote: "Application deadline: 6 Oct 23:59 AoE"
+    note_zh: 北京时间 10/7 周三 19:59。资助和志愿者同一天截止；志愿者这次只招悉尼和亚特兰大，结果 "by 20 Oct 23:59 AoE" 公布。截止后所填会场不能再改（"YOUR LOCATION SELECTIONS ARE FINAL AFTER THE APPLICATION DEADLINE"）。
+  - type: financial_aid_result
+    label_zh: 资助结果公布
+    at: 2026-10-14T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-financial-assistance
+    quote: "Notification: by 14 Oct 23:59 AoE"
+    note_zh: 北京时间 10/15 周四 19:59 之前。官方建议不必等结果，先注册；获资助后退还注册费（见"申请资助时先注册"卡）。
+  - type: registration_open
+    site: sydney
+    at: 2026-09-03T13:00
+    tz: UTC
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Registration Open Sep 03 '26 01:00 PM UTC"
+    note_zh: 悉尼和亚特兰大在 neurips.cc 注册，同时开放（北京时间 9/3 21:00）。悉尼公众票已售罄，指定报告作者有保留名额。
+  - type: registration_open
+    site: atlanta
+    at: 2026-09-03T13:00
+    tz: UTC
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Registration Open Sep 03 '26 01:00 PM UTC"
+    note_zh: 北京时间 9/3 21:00。
+  - type: registration_open
+    site: paris
+    label_zh: 巴黎指定报告作者开始注册
+    at: 2026-10-07T00:00
+    tz: Europe/Paris
+    status: confirmed
+    src: neurips-2026-europe-home
+    quote: "Designated authors for Paris must register from 7 October to claim their reserved seat."
+    note_zh: 官方只写"from 7 October"，没写时刻，这里按巴黎当天 0 点记（北京时间 10/7 周三 06:00）。巴黎公众票已售罄，指定报告作者要自己去注册才能拿到保留名额。
+  - type: visa_refund_apply_by
+    at: 2026-10-20
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: neurips-2026-pricing
+    quote: "you applied for your visa by Oct. 20, 2026; and"
+    note_zh: 官方没写时区。递签日期按递签地记录，这里按北京时间当天算（比 AoE 早，更保守）。巴黎注册页写的是同一条件（"you applied for your visa by Oct. 20, 2026;"）。
+  - type: early_registration
+    site: sydney
+    at: 2026-10-30T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Early Registration Deadline Oct 30 '26 (Anywhere on Earth)"
+    note_zh: 北京时间 10/31 周六 19:59。Pricing 页另写 "Early pricing ends in on 2026-10-31 22:59 pacific time"，更晚；按最早的读法取 Dates 页。悉尼和亚特兰大线下票的价格官网没有以文字公布（见 logistics.fees）。
+  - type: early_registration
+    site: atlanta
+    at: 2026-10-30T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "Early Registration Deadline Oct 30 '26 (Anywhere on Earth)"
+    note_zh: 北京时间 10/31 周六 19:59。Pricing 页另写 "Early pricing ends in on 2026-10-31 22:59 pacific time"，更晚；按最早的读法取 Dates 页。
+  - type: early_registration
+    site: paris
+    at: 2026-10-30T23:59
+    tz: Europe/Paris
+    status: confirmed
+    src: neurips-2026-europe-home
+    quote: "Until October 30, 2026 (CET)"
+    note_zh: 北京时间 10/31 周六 06:59，比悉尼和亚特兰大早 13 小时。10/31 起是标准价（"From October 31, 2026 (CET)"）。
+  - type: refund_cutoff
+    site: sydney
+    at: 2026-11-03T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-pricing
+    quote: "Registrations canceled before Nov 04, 2026 AOE will receive a full refund."
+    note_zh: 北京时间 11/4 周三 19:59。Pricing 页写 "before Nov 04"，Dates 页写 "Last Chance for Registration Refund Nov 04 '26 (Anywhere on Earth)"，官方博客写 "until the deadline of Nov. 4"；按最早的读法取 11/3 23:59 AoE。之后 "Registrations cannot be canceled or refunded after this date."
+  - type: refund_cutoff
+    site: atlanta
+    at: 2026-11-03T23:59
+    tz: AoE
+    status: confirmed
+    src: neurips-2026-pricing
+    quote: "Registrations canceled before Nov 04, 2026 AOE will receive a full refund."
+    note_zh: 北京时间 11/4 周三 19:59。Dates 页写 "Last Chance for Registration Refund Nov 04 '26 (Anywhere on Earth)"；按最早的读法取 11/3 23:59 AoE。
+  - type: refund_cutoff
+    site: paris
+    at: 2026-11-04T23:59
+    tz: Europe/Paris
+    status: confirmed
+    src: neurips-2026-europe-home
+    quote: "Registrations canceled by Nov 4, 2026 CET will receive a full refund."
+    note_zh: 北京时间 11/5 周四 06:59。
+  - type: visa_refund_request_by
+    site: sydney
+    at: 2026-12-20
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: neurips-2026-pricing
+    quote: "within one week of the close of the meeting (i.e., by Dec. 20, 2026), and include documentation showing the date you applied for a visa."
+    note_zh: 官方没写时区，按北京时间当天算（更保守）。通过联系表单提交，附递签日期证明。
+  - type: visa_refund_request_by
+    site: atlanta
+    at: 2026-12-20
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: neurips-2026-pricing
+    quote: "within one week of the close of the meeting (i.e., by Dec. 20, 2026), and include documentation showing the date you applied for a visa."
+    note_zh: 官方没写时区，按北京时间当天算（更保守）。巴黎注册页有同样的转线上退差价条款，但没有写申请截止，所以巴黎没有这一项。
+  - type: author_registration
+    tz: AoE
+    status: tba
+    note_zh: 每篇论文的指定报告作者必须注册主会（见"到现场报告"卡），但注册截止日期没有公布。巴黎的指定作者 10/7 起注册；悉尼和亚特兰大的指定作者有保留名额。
+  - type: camera_ready
+    tz: AoE
+    status: tba
+    note_zh: Main Track Handbook 只写 "camera-ready papers will be due in advance of the conference"，Dates 页没有这一项。
+  - type: poster
+    tz: AoE
+    status: tba
+    note_zh: Poster Instructions 页写着 "This page has not yet been updated to 2026"；Handbook 写 poster 规格按会场另行公布。
+  - type: conference
+    site: sydney
+    label_zh: 悉尼：Expo 12/6，Tutorial 12/7，正会 12/8–10，Workshop 12/11–12
+    start: 2026-12-06
+    end: 2026-12-12
+    tz: Australia/Sydney
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "NeurIPS Sydney Dec 6th Expo Day Dec 7th Tutorial Day Dec 7th – 10th Exhibit Hall Open Dec 8th – 10th Main Conference Dec 11th & 12th Workshops & Competitions"
+  - type: conference
+    site: atlanta
+    label_zh: 亚特兰大：正会和 Tutorial 12/9，正会 12/10–11，Workshop 12/12–13
+    start: 2026-12-09
+    end: 2026-12-13
+    tz: America/New_York
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "NeurIPS Atlanta Dec 9th Main Conference + Tutorials Dec 9th – 12th Exhibit Hall Open Dec 10th & 11th Main Conference Dec 12th & 13th Workshops"
+  - type: conference
+    site: paris
+    label_zh: 巴黎：正会和 Tutorial 12/9–11，Workshop 12/12–13
+    start: 2026-12-09
+    end: 2026-12-13
+    tz: Europe/Paris
+    status: confirmed
+    src: neurips-2026-dates
+    quote: "NeurIPS Paris Dec 9th - 11th Main Conference + Tutorials Dec 9th – 11th Exhibit Hall Open Dec 12th & 13th Workshops"
+logistics:
+  fees:
+    - site: sydney
+      status: tba
+      checked_sources: [neurips-2026-pricing, neurips-2026-registration]
+      note_zh: Pricing 页的价格由页面脚本按所选身份现算，页面文字里没有金额，所以没有可核对的原文。悉尼正会和 workshop 的公众票已售罄，指定报告作者有保留名额。
+    - site: atlanta
+      status: tba
+      checked_sources: [neurips-2026-pricing, neurips-2026-registration]
+      note_zh: Pricing 页的价格由页面脚本按所选身份现算，页面文字里没有金额，所以没有可核对的原文。
+    - site: paris
+      currency: EUR
+      src: neurips-2026-europe-home
+      quote: "Until October 30, 2026 (CET) From October 31, 2026 (CET)"
+      note_zh: 价格含税。正会票（两种）满足作者注册要求；只买 workshop 票不算。
+      tiers:
+        - { id: early, until: early_registration }
+        - { id: standard }
+      rows:
+        - id: full_student
+          label_zh: 学生 · 正会+Tutorial+Workshop
+          for: [student]
+          member: none
+          covers_author: true
+          amounts: [380, 480]
+          quote: "Conference sessions, tutorials, workshops & competitions Student 380 € 480 € Academic 555 € 655 € Industrial 850 € 950 €"
+        - id: full_academic
+          label_zh: 学术 · 正会+Tutorial+Workshop
+          for: [academic]
+          member: none
+          covers_author: true
+          amounts: [555, 655]
+          quote: "Conference sessions, tutorials, workshops & competitions Student 380 € 480 € Academic 555 € 655 € Industrial 850 € 950 €"
+        - id: full_industry
+          label_zh: 工业 · 正会+Tutorial+Workshop
+          for: [industry]
+          member: none
+          covers_author: true
+          amounts: [850, 950]
+          quote: "Conference sessions, tutorials, workshops & competitions Student 380 € 480 € Academic 555 € 655 € Industrial 850 € 950 €"
+        - id: conf_student
+          label_zh: 学生 · 正会+Tutorial
+          for: [student]
+          member: none
+          covers_author: true
+          amounts: [250, 300]
+          quote: "Conference sessions & tutorials Student 250 € 300 € Academic 385 € 435 € Industrial 600 € 650 €"
+        - id: conf_academic
+          label_zh: 学术 · 正会+Tutorial
+          for: [academic]
+          member: none
+          covers_author: true
+          amounts: [385, 435]
+          quote: "Conference sessions & tutorials Student 250 € 300 € Academic 385 € 435 € Industrial 600 € 650 €"
+        - id: conf_industry
+          label_zh: 工业 · 正会+Tutorial
+          for: [industry]
+          member: none
+          covers_author: true
+          amounts: [600, 650]
+          quote: "Conference sessions & tutorials Student 250 € 300 € Academic 385 € 435 € Industrial 600 € 650 €"
+        - id: ws_student
+          label_zh: 学生 · 只含 Workshop
+          for: [student]
+          member: none
+          covers_author: false
+          amounts: [130, 180]
+          quote: "Workshops & competitions Student 130 € 180 € Academic 170 € 220 € Industrial 250 € 300 €"
+        - id: ws_academic
+          label_zh: 学术 · 只含 Workshop
+          for: [academic]
+          member: none
+          covers_author: false
+          amounts: [170, 220]
+          quote: "Workshops & competitions Student 130 € 180 € Academic 170 € 220 € Industrial 250 € 300 €"
+        - id: ws_industry
+          label_zh: 工业 · 只含 Workshop
+          for: [industry]
+          member: none
+          covers_author: false
+          amounts: [250, 300]
+          quote: "Workshops & competitions Student 130 € 180 € Academic 170 € 220 € Industrial 250 € 300 €"
+  coverage:
+    per: author
+    max_papers: null
+    rate: in_person
+    extra_zh: 注册主会才算，Virtual Only Pass 不算；学生作者用学生注册即可。每篇论文的指定报告作者在分配到的会场有一个保留名额。
+    src: neurips-2026-handbook
+    quote: "If that author is a student they only need a student registration. Finally, only one registration is needed even if the author has multiple accepted papers."
+  visa_letter:
+    after: paid_registration
+    how_zh: 悉尼和亚特兰大：先在 neurips.cc 买线下注册，再在官网生成邀请函；去美国的递签后要回到邀请函页填签证申请号。巴黎：在巴黎注册页付费注册时一并申请。会议结束后不再出函。
+    how_site_zh:
+      sydney: 先在 neurips.cc 买线下注册，再在官网签证页生成邀请函。会议结束后不再出函。
+      atlanta: 先在 neurips.cc 买线下注册，再在官网签证页生成邀请函；递签后回到邀请函页填签证申请号。会议结束后不再出函。
+      paris: 在巴黎注册页付清注册费时一并申请邀请函。会议结束后不再出函。
+    lead: tba
+    url: https://neurips.cc/Conferences/2026/Visa
+    src: neurips-2026-financial-assistance
+    quote: "Only registered participants can receive a Visa Invitation Letter. We cannot make exceptions to this policy."
+  visa_guidance:
+    - country_code: AU
+      weeks: [6, 8]
+      src: neurips-2026-visa
+      quote: "Attendees are strongly advised to apply at least 6 to 8 weeks prior to your intended date of travel."
+  aid:
+    - id: financial-assistance
+      name: NeurIPS 2026 Financial Assistance
+      covers_zh: 只补注册费和住宿（最多 7 晚）；机票、火车、市内交通、餐费都不补
+      url: https://neurips.cc/Conferences/2026/FinancialAssistance
+      src: neurips-2026-financial-assistance
+      quote: "Financial Assistance only covers registration and accommodation fees."
+    - id: volunteer
+      name: NeurIPS 2026 Volunteers (Sydney, Atlanta)
+      covers_zh: 先自费注册，做完两班（每班约 4 小时）后退还注册费；不含住宿。巴黎的志愿者申请之后另开
+      url: https://neurips.cc/Conferences/2026/FinancialAssistance
+      src: neurips-2026-financial-assistance
+      quote: "The registration will be refunded after you complete your shifts."
+  hotels:
+    status: tba
+    checked_sources: [neurips-2026-hotels]
+    note_zh: 悉尼和亚特兰大的协议价只能通过官方 Housing Portal 订，巴黎由 Revolugo 代订；官网没有列出协议酒店的截止日期。
+  sold_out:
+    - site: sydney
+      src: neurips-2026-registration
+      quote: "(Sold Out): Sydney Conference & Tutorials This session is sold out."
+    - site: sydney
+      src: neurips-2026-registration
+      quote: "(Sold Out): Sydney Workshops & Competitions This session is sold out."
+    - site: paris
+      src: neurips-2026-europe-home
+      quote: "All registrations (conference, tutorials, workshops and competitions) are now sold out."
+  poster:
+    status: tba
+    checked_sources: [neurips-2026-poster, neurips-2026-handbook]
+    note_zh: Poster Instructions 页还没更新到 2026；Handbook 写 poster 规格按会场另行公布。
+  links:
+    - { kind: registration, url: "https://neurips.cc/Register/view-registration" }
+    - { kind: registration, site: paris, url: "https://neurips-europe.cc/registration-78.php" }
+    - { kind: visa, url: "https://neurips.cc/Conferences/2026/Visa" }
+    - { kind: venue, url: "https://neurips.cc/Conferences/2026/VenueInformation" }
+    - { kind: hotels, url: "https://neurips.cc/Conferences/2026/Hotels" }
+    - { kind: aid, url: "https://neurips.cc/Conferences/2026/FinancialAssistance" }
+last_checked: 2026-09-25
+note_zh: 三地举办（悉尼、亚特兰大、巴黎）。每篇论文的指定报告作者按会场意向表分配会场，10/6 17:00 UTC 公布；分配后不能再换会场或报告人。Dates 页的快照记在 data/sources/neurips-2027.yml（id neurips-2026-dates），2026-09-25 重新抓取内容相同。

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: assa-2027
+sources:
+  - id: assa-2027-conference
+    url: https://www.aeaweb.org/conference/
+    title: 2027 ASSA Annual Meeting (AEA)
+    kind: other
+    fetched_at: 2026-09-25T16:19:58Z
+    http_status: 200
+    snapshot: c53de1d298a29f5e46ee4592c388dde73cc6cda7c049fa2625028231309db59a
+  - id: assa-future-meetings
+    url: https://www.aeaweb.org/conference/future-annual-meetings
+    title: AEA/ASSA Future Annual Meetings
+    kind: other
+    fetched_at: 2026-09-25T16:20:06Z
+    http_status: 200
+    snapshot: fca3e413d2c4e5f5bb04023ca795294fc4f308b47a4424ba710aae65ca1da236

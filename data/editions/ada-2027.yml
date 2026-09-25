@@ -1,0 +1,37 @@
+id: ada-2027
+series: ada
+name: ADA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Washington, country: USA, country_code: US }
+dates: { start: 2027-06-18, end: 2027-06-21 }
+milestones:
+  - type: abstract
+    start: 2026-09-28
+    end: 2027-01-05
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ada-2027-abstracts
+    quote: "Regular Abstract Submission September 28, 2026–January 5, 2027"
+    note_zh: 常规摘要 9/28 开放。官网这一页只写日期、没写时刻和时区，按北京时间当天结束算（更保守）。
+  - type: abstract
+    label_zh: 晚到摘要截止
+    start: 2027-01-25
+    end: 2027-03-08
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ada-2027-abstracts
+    quote: "Late Breaking Abstract Submission January 25, 2027–March 8, 2027"
+    note_zh: 晚到摘要（Late Breaking）这一轮。官网只写日期、没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-06-18
+    end: 2027-06-21
+    tz: America/New_York
+    status: confirmed
+    src: ada-2027-abstracts
+    quote: "Save the date for the 2027 Scientific Sessions of the American Diabetes Association® (ADA) in Washington, D.C., June 18–21, 2027 at the Walter E. Washington Convention Center."
+last_checked: 2026-09-25
+note_zh: 第 87 届，华盛顿 Walter E. Washington Convention Center。出结果和注册日期还没公布（注册 2027 年 1 月开放）。

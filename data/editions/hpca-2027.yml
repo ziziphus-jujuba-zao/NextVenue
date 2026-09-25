@@ -1,0 +1,35 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: hpca-2027
+series: hpca
+name: HPCA 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/HPCA
+  conf_id: hpca27
+  link: https://conf.researchr.org/home/hpca-2027
+  place: Salt Lake City, Utah
+  date: Jan 30-Feb 3, 2027
+  timezone: AoE
+location:
+  city: Salt Lake City
+dates:
+  start: 2027-01-30
+  end: 2027-02-03
+milestones:
+  - type: abstract
+    at: 2026-07-24T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-07-31T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-01-30
+    end: 2027-02-03
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

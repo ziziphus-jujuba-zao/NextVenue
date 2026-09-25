@@ -1,0 +1,11 @@
+id: iciam
+acronym: ICIAM
+full_name: International Congress on Industrial and Applied Mathematics
+name_zh: 国际工业与应用数学大会
+directions: [math/applied]
+periodicity:
+  cycle: quadrennial
+  basis: observed
+  note_zh: 四年一届：2015 北京、2019 瓦伦西亚、2023 东京、2027 海牙
+data_level: curated
+note_zh: 个人投海报摘要，或由 2–3 位组织者提小型专题（Mini Symposium）提案；每人只能投一项、只能做一个报告。

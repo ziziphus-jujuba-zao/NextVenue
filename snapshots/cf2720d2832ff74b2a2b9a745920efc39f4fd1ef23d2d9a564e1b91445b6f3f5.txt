@@ -1,0 +1,46 @@
+42st Annual International Conference on Machine Learning (ICML)
+13-20 July 2025
+
+Fact Sheet
+2025 Location: Vancouver Convention Center, Vancouver, Canada
+Registration numbers:
+Total: 8,000+ Virtual and in person attendees >95% in person
+2024 attendance and location: : Messe Wien Exhibition Congress Center, Vienna, Austria
+Total: 9,095 Virtual and in person attendees
+2025 Program
+: 5
+InvitedTalks:
+Workshops: 33
+Tutorials: 12
+Position Papers: 73
+Orals: 120
+Socials: 12
+Papers
+Main Track: 3260
+Acceptance Rate: 27%
+Senior Area Chairs and Area Chairs: 155, 1161
+Reviewers: 10943
+Invited Keynote Speakers
+Andreas Krause
+Anca Dragan
+Frauke Kreuter
+Pamela Sameulson
+Jon Kelinberg
+Affinity Groups Represented
+MusIML
+LatinX in AI
+New in ML
+WiML
+Queer in AI
+About the The International Conference on Machine Learning (ICML)
+The International Conference on Machine Learning (ICML) is the premier gathering of professionals
+dedicated to the advancement of the branch of artificial intelligence known as machine learning.
+ICML is globally renowned for presenting and publishing cutting-edge research on all aspects of
+machine learning used in closely related areas like artificial intelligence, statistics and data science,
+as well as important application areas such as machine vision, computational biology, speech
+recognition, and robotics. ICML is one of the fastest growing artificial intelligence conferences in the
+world. Participants at ICML span a wide range of backgrounds, from academic and industrial
+researchers, to entrepreneurs and engineers, to graduate students and postdocs.
+###
+
+

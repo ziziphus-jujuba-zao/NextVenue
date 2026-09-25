@@ -1,0 +1,10 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值（已按会议内容改过），名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: recomb
+acronym: RECOMB
+full_name: International Conference on Research inComputational Molecular Biology
+directions:
+  - cs/cross
+  - life/bioinfo
+dblp: conf/recomb
+ccfddl: MX/RECOMB
+data_level: upstream

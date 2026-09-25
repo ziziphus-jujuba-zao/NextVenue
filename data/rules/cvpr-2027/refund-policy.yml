@@ -1,0 +1,23 @@
+id: cvpr-2027/refund-policy
+edition: cvpr-2027
+family: refund
+question_zh: 取消注册能退款吗？
+short_zh: 取消注册退款
+answer: conditional
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: notification
+  until: refund_cutoff
+summary_zh: 2027 尚未公布，以下为 2026 规则：有条件。2026 年 5/13 11:59pm MT 前取消，扣 $65 手续费后退款；之后一律不退。注册人可以免费改名。
+quotes:
+  - src: cvpr-2026-pricing
+    text: "All cancellations will be subject to a $65 cancellation fee before May 13, 2026, 11:59pm MT. NO REFUNDS will be made after May 13, 2026."
+checked_sources: [cvpr-2027-pricing]
+effect:
+  kind: refund
+  trigger: cancel
+  full_until: refund_cutoff
+  then: none
+last_checked: 2026-09-25

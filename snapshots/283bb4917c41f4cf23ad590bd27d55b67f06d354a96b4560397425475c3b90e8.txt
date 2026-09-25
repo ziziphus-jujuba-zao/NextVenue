@@ -1,0 +1,92 @@
+Skip to main content
+
+Minisite Global
+
+ * IEEE.org
+ * IEEE Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+Minisite Utility
+
+ *
+ *
+
+Menu
+ * Authors
+   * Important Dates
+   * Call for Symposium Papers
+   * Call for Tutorial Proposals
+   * Call for Workshop Proposals
+   * Submission Guidelines
+ * Committees
+   * Organizing Committee
+   * Technical Program Committee
+   * Operations Committee
+   * Industry Forums and Exhibition Committee
+ * Program
+   * At a Glance
+ * Registration
+   * Registration Fees
+   * Event Policies
+   * Travel Grants
+ * Hotel & Travel
+   * Hotel & Travel Information
+   * Visa Information
+ * Patrons & Exhibitors
+ * About
+   * About Us
+   * Contact Us
+
+Search
+
+Breadcrumb
+
+ 1. Home
+ 2. Authors
+ 3. Submission Guidelines
+
+Submission Guidelines
+
+Important IEEE Policy Announcement
+
+The IEEE reserves the right to exclude a paper from distribution after the conference (including its removal from IEEE Xplore) if the paper is not presented at the conference.
+
+Papers are reviewed on the basis that they do not contain plagiarized material and have not been submitted to any other conference at the same time (double submission). These matters are taken very seriously, and the IEEE Communications Society will take action against any author who engages in either practice.
+
+PLEASE NOTE: To be published in the IEEE  ICC 2027 Conference Proceedings and to be eligible for publication in IEEE Xplore®, an author of an accepted paper is required to register for the conference at the FULL or LIMITED (member or non-member) rate, and the paper must be presented by an author of that paper at the conference unless the TPC Chair grants permission for a substitute presenter in advance of the event and who is qualified both to present and answer questions. Non-refundable registration fees must be paid prior to uploading the final IEEE formatted, publication-ready version of the paper. For authors with multiple accepted papers, one FULL or LIMITED registration is valid for up to 3 papers. Accepted and presented papers will be published in the IEEE ICC 2027 Conference Proceedings and submitted to IEEE Xplore®.
+
+During the initial paper submission process via EDAS, it is the author's responsibility to ensure that the author list and the paper title of the submitted pdf file are an exact match to the author list and paper title on the EDAS registration page. In particular, the EDAS registration page must include all co-authors, not just the submitting author. Failure to comply with this rule might result in your paper being withdrawn from the review process. Please be aware that the author list of an accepted paper can NOT be changed in the final manuscript. Only PDF files will be accepted for the review process, and all submissions must be done through EDAS.
+
+IMPORTANT: The page length limit for all initial submissions for review is SIX (6) printed pages (10-point font) and must be written in English. Initial submissions longer than SIX (6) pages will be rejected without review.
+
+All final submissions of accepted papers must be written in English with a maximum paper length of six (6) printed pages (10-point font), including figures. No more than two (2) additional printed pages (10-point font) may be included in final submissions, and the extra pages (the 7th and 8th pages) will incur an over-length page charge of US$100 for each page. All final papers must be submitted to the IEEE Conference eXpress website. Please refer to the acceptance letter for the instructions on how to upload final papers.
+
+You may also use one of the following templates for Microsoft Word: A4, US letter.
+
+Download standard IEEE conference templates (LaTeX format)
+
+If you have any questions regarding the submission of manuscripts, please contact one of the Technical Program Chairs of the Symposia to whom you are submitting a paper.
+
+IEEE Web Page on Plagiarism
+IEEE Web Page on Multiple Submissions
+
+ * Submit a Paper
+
+ * Program
+ * Hotel & Travel
+
+ * Contact
+
+© IEEE ICC 2027
+ *
+ *
+ *
+ *
+ *
+
+Footer Menu
+
+Accessibility Sitemap Contact & Support Home Nondiscrimination Policy IEEE Ethics Reporting IEEE Privacy Policy Terms
+© Copyright 2027 IEEE – All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.

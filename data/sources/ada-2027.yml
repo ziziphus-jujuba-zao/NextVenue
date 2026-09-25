@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ada-2027
+sources:
+  - id: ada-2027-abstracts
+    url: https://professional.diabetes.org/scientific-sessions/abstracts
+    title: "ADA 87th Scientific Sessions: Abstracts"
+    kind: dates
+    fetched_at: 2026-09-25T18:19:17Z
+    http_status: 200
+    snapshot: 2170890698052595f557a48b5bf386e81ca93bfb1968cff263144c18c1007596

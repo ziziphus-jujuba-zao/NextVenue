@@ -1,0 +1,22 @@
+id: wacv-2027/author-registration
+edition: wacv-2027
+family: presentation
+question_zh: 论文录用后必须有作者注册吗？用什么价？
+short_zh: 按线下全价注册
+answer: required
+verification: human
+conf: high
+applies:
+  from: notification
+  until: author_registration
+summary_zh: 必须。至少一位作者要按全价线下作者注册价（Author Registration）注册，不管用什么形式报告都一样；截止 11/2 AoE（北京时间 11/3 19:59）。到 11/17 还没有作者注册挂上的论文，不收入论文集。
+detail_zh: 2027 的注册价格和报告形式都还没公布。去不了现场能不能线上报告，见“去不了现场”一卡（上届规则）。
+quotes:
+  - src: wacv-2027-author-guidelines
+    text: "The authors agree that if the paper is accepted, at least one of the authors must register for the conference at the full, in-person Author Registration rate no matter the presentation format."
+  - src: wacv-2027-author-guidelines
+    text: "Conference registration deadline: November 2, 2026, AoE. Papers will be omitted from proceedings if an Author registration hasn't recorded a paper by November 17th."
+effect:
+  kind: requires
+  target: author_registration
+last_checked: 2026-09-25

@@ -1,0 +1,42 @@
+id: aps-dpp-2026
+series: aps-dpp
+name: APS DPP 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Chicago, country: USA, country_code: US }
+dates: { start: 2026-11-02, end: 2026-11-06 }
+milestones:
+  - type: abstract
+    at: 2026-07-28
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-dpp-2026-home
+    quote: "Abstract Submission Close July 28, 2026"
+    note_zh: 已截止。官网没写时区。
+  - type: early_registration
+    at: 2026-09-25
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-dpp-2026-home
+    quote: "Final Early Registration September 25, 2026"
+    note_zh: 官网没写时区，按北京时间当天结束算。
+  - type: refund_cutoff
+    at: 2026-10-19
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-dpp-2026-home
+    quote: "Registration Cancellation October 19, 2026"
+    note_zh: 官网没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2026-11-02
+    end: 2026-11-06
+    tz: America/Chicago
+    status: confirmed
+    src: aps-dpp-2026-home
+    quote: "November 2-6, 2026 • Chicago, Illinois, USA"
+last_checked: 2026-09-25
+note_zh: 第 68 届，与第 79 届 Gaseous Electronics Conference 合办，芝加哥 Hilton Chicago。没法到场的报告人有线上分会和按需海报。

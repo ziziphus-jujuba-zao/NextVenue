@@ -1,0 +1,22 @@
+id: www-2027/substitute-or-virtual
+edition: www-2027
+family: presentation
+question_zh: 作者去不了现场，能线上报告吗？
+short_zh: 线上报告
+answer: conditional
+verification: human
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: 有条件。被选为口头报告的论文，少数有严重出行困难的作者可能获准线上讲，名额不保证。海报能不能线上、能不能请人代讲，官方没写。不到场也要照常注册付费。
+quotes:
+  - src: www-2027-research-cfp
+    text: "Generally we expect oral presentations to be in-person, but may allow a few online presentations by authors with significant travel difficulties."
+  - src: www-2027-research-cfp
+    text: "This registration requirement applies universally, regardless of attendance or presentation mode."
+effect:
+  kind: fallback
+  substitute: unspecified
+  virtual: conditional
+last_checked: 2026-09-25

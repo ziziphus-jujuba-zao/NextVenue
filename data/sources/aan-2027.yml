@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aan-2027
+sources:
+  - id: aan-2027-abstracts
+    url: https://www.aan.com/events/annual-meeting/abstracts
+    title: 2027 AAN Annual Meeting Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T15:54:08Z
+    http_status: 200
+    snapshot: ab52ab8a924e86dd257f0ef0aa712e04cc8122d534cd4ca00a4bfd5d9d2ed8c2

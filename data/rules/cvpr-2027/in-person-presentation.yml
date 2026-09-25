@@ -1,0 +1,24 @@
+id: cvpr-2027/in-person-presentation
+edition: cvpr-2027
+family: presentation
+question_zh: 论文录用后必须有作者注册并到会报告吗？
+short_zh: 作者注册并报告
+answer: required
+verification: inherited
+inherited_from: cvpr-2026
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: 2027 尚未公布，以下为 2026 规则：必须。投稿时作者就承诺录用后至少一位作者注册并到会报告；每篇论文都要挂在一份作者（Author）注册下，线上注册不能覆盖论文。本人因故去不了现场的，可以线上参加，但仍要按线下作者注册付费（见"去不了时线上参加"卡）。
+detail_zh: 2026 年一份作者注册最多覆盖 3 篇论文（主会和 workshop 合计），第 4 篇起另开一份。
+quotes:
+  - src: cvpr-2026-author-guidelines
+    text: "Attendance responsibilities: The authors agree that if the paper is accepted, at least one of the authors will register for the conference and present the paper there."
+  - src: cvpr-2026-pricing
+    text: "Virtual registrations will not cover a paper submission - even workshop papers."
+checked_sources: [cvpr-2027-pricing, cvpr-2027-author-guidelines, cvpr-2027-cfp]
+effect:
+  kind: requires
+  target: author_registration
+last_checked: 2026-09-25

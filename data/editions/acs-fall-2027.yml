@@ -1,0 +1,24 @@
+id: acs-fall-2027
+series: acs-fall
+name: ACS Fall 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: San Diego, country: USA, country_code: US }
+dates: { start: 2027-08-22, end: 2027-08-26 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/New_York
+    src: acs-phys-division-home
+    quote: "Abstract submissions will open in Spring 2027."
+    note_zh: 官方只说 2027 年春季开放摘要提交，截止日未公布。
+  - type: conference
+    start: 2027-08-22
+    end: 2027-08-26
+    tz: America/Los_Angeles
+    status: confirmed
+    src: acs-phys-division-home
+    quote: "ACS Fall 2027| August 22-26, 2027 | San Diego, CA"
+    note_zh: 会期和城市取自 ACS 物理化学分会（PHYS）官网；acs.org 的会议页拦截抓取。
+last_checked: 2026-09-25

@@ -1,0 +1,69 @@
+CCDC 2027
+14-16 May
+
+ * Home
+ * Conference
+   * Committees
+   * Outstanding Youth Paper Award
+
+ * Programs
+   * Keynotes
+   * Distinguished Lectures
+   * Special Sessions
+
+ * Author Information
+   * First Submission
+
+ * Venue
+
+   * Local Attractions
+ * About
+   * History
+
+中文
+
+Manuscript Submission
+
+Submission requirement
+
+8 pages in the first submission are allowed for each paper, including figures. A maximum of 6 pages is permitted at the final submission for accepted paper, but each page in excess of 6 will incur an extra charge of 200 CNY.
+Discount is available for two papers with same first author
+
+How to Submit
+
+1. Prepare your full paper in PDF.
+2. Log in the online submission system http://cms.amss.ac.cn/ using your PIN and password.If you do not have an account (PIN) yet, please follow the instructions at the website http://cms.amss.ac.cn/ to get a new one. Please fill out all authors' PINs in the submission.
+3. Click "Author Center" of CCDC 2027.
+4. Select a submission type (see below about the submission types), click "submit a new contribution" to start the submission.
+
+Note on publication in the IEEE Xplore Digital Library
+
+Accepted papers written in English will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements，click here to see IEEE Xplore’s scope.
+
+Paper Templates
+
+Ms Word Format      Latex Format
+
+Submission Types
+
+Regular Paper Papers on all aspects of the theory and application of automatic control are invited in the form of regular paper.
+Invited Session Proposal The invited session organizers should send a proposal to secretary_ccdc@ise.neu.edu.cn first, after it is approved,please choose "Invited Session Proposal" in the submissionthen a session code will be assigned to the session, and all the corresponding authors of the papers involved in the session should be informed of the session code by the session organizers.
+Invited Session Paper An invited session paper must be submitted in the submission type "Invited Session Paper" with the correct session code.
+Position Paper It is set to encourage authors who just want to present new results of researches, a case study and so on at CCDC. Extended abstracts (800-1000words) must be submitted for review. Position Paper will be scheduled on the oral or poster sessions of CCDC and included in the proceedings，but not be sent to IEEE Xplore database.
+
+Organized by
+
+Locally Organized by
+
+Technically Co-Sponsored by
+
+LINKS
+Journal of Control and Decision (Chinese Series)
+Journal of Control and Decision (English Series)
++86-24-83675200
+secretary_ccdc@ise.neu.edu.cn
+Northeastern University, No. 11, Lane 3, Culture Road, Heping District, Shenyang City, Liaoning Province
+
+CCDC WeChat Official Account
+WeChat Official Account of Journal of Control and Decision
+Copyright ©2027 CCDC

@@ -1,0 +1,100 @@
+43rd Annual International Conference on Machine Learning (ICML), 6-11 July 2026
+
+Fact Sheet
+2026 Location: COEX Convention & Exhibition Center, Seoul, South Korea
+Registration numbers:
+In-person registration reached capacity ahead of the conference, the first time ICML general registration
+has sold out. These numbers are correct as of the opening of the conference (July 6th). Full numbers will
+be reported after the conference closes and may fluctuate.
+Total Attendance as of July 6th, 2026:
+In Person: 20,456
+Virtual: 2,333
+Past attendance and location:
+Year
+Location
+2025
+Vancouver, Canada / hybrid
+2024
+Vienna, Austria / hybrid
+2023
+Hawaii / hybrid
+2022
+Baltimore / hybrid
+2021
+Virtual
+2020
+Virtual
+2019
+Long Beach, CA
+2018
+Stockholm, Sweden
+2017
+Sydney, Australia
+
+Total Attendance
+8,000+
+9,095
+7,921
+7,103
+8,863
+10,806
+6,483
+5,019
+2,429
+
+Physical
+95%+
+—
+6,872
+4,893
+—
+—
+6,483
+5,019
+2,429
+
+Virtual
+—
+1,049
+2,210
+8,863
+10,806
+—
+—
+—
+
+2026 Program Highlights
+Workshops: 44
+Tutorials: 10
+Affinity Workshops: 4
+Papers
+Main conference track: 24,661
+submissions
+Accepted papers 6,552
+
+Invited Talks: 6
+Invited Keynote Speakers
+Pascale Fung
+Susan Athey
+Sham M. Kakade
+Aviv Regev
+Verena Rieser
+Arvind Narayanan
+
+Affinity Groups Represented
+Muslims in ML (MusIML)
+Women in Machine Learning (WiML)
+LatinX in AI
+GlobalSouthML
+About the The International Conference on Machine Learning (ICML)
+The International Conference on Machine Learning (ICML) is the premier gathering of professionals
+dedicated to the advancement of the branch of artificial intelligence known as machine learning. ICML is
+globally renowned for presenting and publishing cutting-edge research on all aspects of machine learning
+used in closely related areas like artificial intelligence, statistics and data science, as well as important
+application areas such as machine vision, computational biology, speech recognition, and robotics. ICML
+is one of the fastest growing artificial intelligence conferences in the world. Participants at ICML span a
+wide range of backgrounds, from academic and industrial researchers, to entrepreneurs and engineers, to
+graduate students and postdocs.
+###
+
+

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ccs-2027
+sources:
+  - id: ccs-2027-home
+    url: https://www.sigsac.org/ccs/CCS2027/
+    title: CCS 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: e62dfbfeb2bbffe6d1f318d0b938d2c1608554b5bab6a77dd5d2d166d2407ec5
+  - id: ccs-2026-cfp
+    url: https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html
+    title: CCS 2026 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:10Z
+    http_status: 200
+    snapshot: ab2486fbfa96e54fb5112ab0c432e9a9b63361e040c4b57eb3912d005a187376

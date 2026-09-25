@@ -1,0 +1,29 @@
+id: iclr-2027/visa-refund
+edition: iclr-2027
+family: refund
+question_zh: 拒签或签证没下来，注册费能退吗？
+short_zh: 拒签退注册费
+answer: conditional
+verification: human
+conf: medium
+applies:
+  from: notification
+  until: visa_refund_request_by
+summary_zh: 有条件。3/17 前已经递签、又因拒签或一直没有结果去不了的，退还注册费；要在会议结束后一周内申请，附递签日期和拒签的证明。取消截止前被拒签的，可以按普通取消全额退款，但取消截止日期还没公布。
+detail_zh: 这段写在 Pricing 页，页面其余日期（取消截止、早鸟截止）还是模板占位（"not found"），3/17 这个日期以后可能会改。递签日期请自己记好，申请退款时要用。
+quotes:
+  - src: iclr-2027-pricing
+    text: "If you applied for your visa before March 17, 2027, and you are unable to attend because your visa was denied or you have not received a response, we will refund your registration fees."
+  - src: iclr-2027-pricing
+    text: "Refund requests must be received within one week after the close of the meeting with documents showing when you applied for your visa and the visa denial."
+  - src: iclr-2027-pricing
+    text: "If your visa is denied before The date CancellationDeadline not found., you are eligible for cancellation and a full refund."
+effect:
+  kind: refund
+  trigger: visa_denied_or_pending
+  full_until: refund_cutoff
+  condition:
+    applied_by: visa_refund_apply_by
+  request_by: visa_refund_request_by
+  evidence: visa_application_date
+last_checked: 2026-09-25

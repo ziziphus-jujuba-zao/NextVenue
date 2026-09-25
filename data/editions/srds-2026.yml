@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: srds-2026
+series: srds
+name: SRDS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/SRDS
+  conf_id: srds26
+  link: https://srds-conference.org/
+  place: Rome, Italy
+  date: September 21-25, 2026
+  timezone: AoE
+location:
+  city: Rome
+  country: Italy
+  country_code: IT
+dates:
+  start: 2026-09-21
+  end: 2026-09-25
+milestones:
+  - type: paper
+    at: 2026-05-01T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Abstract Submission
+  - type: paper
+    at: 2026-05-08T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Full Paper Submission
+  - type: conference
+    start: 2026-09-21
+    end: 2026-09-25
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

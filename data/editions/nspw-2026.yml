@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: nspw-2026
+series: nspw
+name: NSPW 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/NSPW
+  conf_id: nspw26
+  link: https://www.nspw.org/2026
+  place: Victoria, BC, Canada
+  date: September 27-30, 2026
+  timezone: AoE
+location:
+  city: Victoria
+  country: Canada
+  country_code: CA
+dates:
+  start: 2026-09-27
+  end: 2026-09-30
+milestones:
+  - type: paper
+    at: 2026-04-30T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-09-27
+    end: 2026-09-30
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

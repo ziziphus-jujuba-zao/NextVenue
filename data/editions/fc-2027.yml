@@ -1,0 +1,30 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: fc-2027
+series: fc
+name: FC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/FC
+  conf_id: fc27
+  link: https://fc27.ifca.ai/
+  place: Barbados
+  date: February 8-12, 2027
+  timezone: UTC-12
+dates:
+  start: 2027-02-08
+  end: 2027-02-12
+milestones:
+  - type: paper
+    at: 2026-09-24T23:59
+    tz: UTC-12
+    status: confirmed
+    note_zh: "ccfddl: Submission deadline"
+  - type: conference
+    start: 2027-02-08
+    end: 2027-02-12
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

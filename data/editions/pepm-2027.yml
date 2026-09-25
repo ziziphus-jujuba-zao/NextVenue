@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: pepm-2027
+series: pepm
+name: PEPM 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/PEPM
+  conf_id: pepm27
+  link: https://popl27.sigplan.org/home/pepm-2027
+  place: Mexico City, Mexico
+  date: January 12, 2027
+  timezone: AoE
+location:
+  city: Mexico City
+  country: Mexico
+  country_code: MX
+dates:
+  start: 2027-01-12
+  end: 2027-01-12
+milestones:
+  - type: paper
+    at: 2026-10-23T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-01-12
+    end: 2027-01-12
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

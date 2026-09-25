@@ -1,0 +1,58 @@
+id: asplos-2027
+series: asplos
+name: ASPLOS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Heraklion, country: Greece, country_code: GR }
+dates: { start: 2027-04-11, end: 2027-04-15 }
+milestones:
+  - type: paper
+    label_zh: 第一轮（4 月轮）正文
+    at: 2026-04-15T23:59
+    tz: AoE
+    status: confirmed
+    src: asplos-2027-cfp
+    quote: "Full paper submission — April 15, 2026"
+    note_zh: 已截止。没有单独的摘要截止。
+  - type: notification
+    label_zh: 第一轮（4 月轮）出结果
+    at: 2026-07-27
+    tz: AoE
+    status: confirmed
+    src: asplos-2027-cfp
+    quote: "Notification — July 27, 2026"
+  - type: paper
+    label_zh: 第二轮（9 月轮）正文
+    at: 2026-09-09T23:59
+    tz: AoE
+    status: confirmed
+    src: asplos-2027-cfp
+    quote: "Full paper submission — September 9, 2026"
+    note_zh: 已截止。快速审稿或正式审稿被拒的论文不能投接下来的轮次；每位作者每轮最多 4 篇。
+  - type: author_response
+    label_zh: 第二轮（9 月轮）author response
+    start: 2026-12-01
+    end: 2026-12-04T23:59
+    tz: AoE
+    status: confirmed
+    src: asplos-2027-cfp
+    quote: "Author response — December 1 — December 4, 2026"
+    note_zh: 回复在 HotCRP 里以文本提交，审稿人不一定读超过 800 词的部分。
+  - type: notification
+    label_zh: 第二轮（9 月轮）出结果
+    at: 2026-12-21
+    tz: AoE
+    status: confirmed
+    src: asplos-2027-cfp
+    quote: "Notification — December 21, 2026"
+    note_zh: 除录用和拒稿外还有大修（Major Revision）：大修论文在 camera-ready 截止（出结果后 6 周）交修改稿。
+  - type: conference
+    start: 2027-04-11
+    end: 2027-04-15
+    tz: Europe/Athens
+    status: confirmed
+    src: asplos-2027-cfp
+    quote: "Heraklion, Crete, Greece ◆ April 11-15, 2027"
+last_checked: 2026-09-25
+note_zh: 两轮投稿（4 月轮、9 月轮）都已截止，所有日期按 AoE。9 月轮 12/1–4 author response，12/21 出结果。下一次投稿机会是 ASPLOS 2028 的 4 月轮（日期未公布）。会议 2027-04-11 至 15 在希腊克里特岛伊拉克利翁。

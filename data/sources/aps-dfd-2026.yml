@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aps-dfd-2026
+sources:
+  - id: aps-dfd-2026-about
+    url: https://dfd-meeting.aps.org/about/
+    title: "79th APS DFD Annual Meeting: About"
+    kind: dates
+    fetched_at: 2026-09-25T18:20:15Z
+    http_status: 200
+    snapshot: e81cb505816e0c4148d6ce59c3ab0751598742bcaeaa7b7c8a534f807b760a5a
+  - id: aps-dfd-2026-registration
+    url: https://dfd-meeting.aps.org/registration/
+    title: "79th APS DFD Annual Meeting: Registration"
+    kind: other
+    fetched_at: 2026-09-25T18:20:15Z
+    http_status: 200
+    snapshot: d55f9d33e2434242d972eee92e08ae27ab387135c418d8d15efc27147b66a0b2

@@ -1,0 +1,57 @@
+id: siggraph-2027
+series: siggraph
+name: SIGGRAPH 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: siggraph-2026
+location: { city: Anaheim, country: USA, country_code: US }
+dates: { start: 2027-08-08, end: 2027-08-12 }
+milestones:
+  - type: paper_registration
+    label_zh: 投稿表单截止（标题、摘要、全部作者）
+    at: 2027-01-15T22:00
+    tz: UTC
+    status: estimated
+    src: siggraph-2026-papers
+    quote: "Thursday, 15 January 2026: Submission form deadline"
+    note_zh: SIGGRAPH 2027 还没有公布技术论文日期，按 SIGGRAPH 2026 顺延。2026 年的截止时刻是 UTC 22:00（“All deadlines are 22:00 UTC/GMT unless otherwise noted.”），即北京时间次日 6:00；过了这一步不能再加作者，也不能新建投稿。
+  - type: paper
+    at: 2027-01-22T22:00
+    tz: UTC
+    status: estimated
+    src: siggraph-2026-papers
+    quote: "Thursday, 22 January 2026: Paper deadline"
+    note_zh: 按 SIGGRAPH 2026 顺延。2026 年可以先交 MD5 校验值，第二天（1/23）再上传文件，同一天所有作者要填好利益冲突。
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2027-03-05
+    end: 2027-03-12T22:00
+    tz: UTC
+    status: estimated
+    src: siggraph-2026-papers
+    quote: "Then, authors have until 12 March 2026, 22:00 UTC/GMT, to enter rebuttals"
+    note_zh: 按 SIGGRAPH 2026 顺延：3/5 放出审稿意见，3/12 UTC 22:00 前交 rebuttal（限 1,000 词）。
+  - type: notification
+    at: 2027-03-30
+    tz: UTC
+    status: estimated
+    src: siggraph-2026-papers
+    quote: "30 March 2026 Decisions announced"
+    note_zh: 按 SIGGRAPH 2026 顺延。结果是有条件录用或拒稿，有条件录用的论文还要经过修改和复审。
+  - type: camera_ready
+    at: 2027-05-06T22:00
+    tz: UTC
+    status: estimated
+    src: siggraph-2026-papers
+    quote: "6 May 2026 Final version deadline"
+    note_zh: 按 SIGGRAPH 2026 顺延；2026 年修改稿 4/29 先交复审。
+  - type: conference
+    start: 2027-08-08
+    end: 2027-08-12
+    tz: America/Los_Angeles
+    status: confirmed
+    src: siggraph-2026-press
+    quote: "taking place 8–12 August 2027 in Anaheim, California"
+last_checked: 2026-09-25
+note_zh: SIGGRAPH 2027 于 2027-08-08 至 12 在加州阿纳海姆举行（SIGGRAPH 2026 闭幕新闻稿）。s2027.siggraph.org 目前打不开，技术论文日期未公布；标“预计”的日期按 SIGGRAPH 2026 顺延：投稿表单 1/15、正文 1/22（UTC 22:00）、rebuttal 3/5–12、出结果 3/30、终稿 5/6。SIGGRAPH 2027 比 2026 年（7/19–23）晚约三周开会，实际截止可能稍晚。技术论文分期刊轨（ACM TOG）和会议轨，截止相同。

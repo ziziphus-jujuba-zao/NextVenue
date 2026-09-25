@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 import { describe, expect, it } from 'vitest';
 import { findQuote, formatIn, nearestMatch, normalizeForMatch, textFragmentUrl, toInstant } from '../src/index.ts';

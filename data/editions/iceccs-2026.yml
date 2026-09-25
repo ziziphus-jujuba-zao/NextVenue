@@ -1,0 +1,34 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: iceccs-2026
+series: iceccs
+name: ICECCS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/ICECCS
+  conf_id: iceccs26
+  link: https://formal-analysis.com/iceccs/2026/
+  place: Brisbane, Australia
+  date: November 23-24, 2026
+  timezone: AoE
+location:
+  city: Brisbane
+  country: Australia
+  country_code: AU
+dates:
+  start: 2026-11-23
+  end: 2026-11-24
+milestones:
+  - type: paper
+    at: 2026-07-20T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Abstract and full paper submission"
+  - type: conference
+    start: 2026-11-23
+    end: 2026-11-24
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

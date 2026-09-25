@@ -1,0 +1,11 @@
+id: iedm
+acronym: IEDM
+full_name: IEEE International Electron Devices Meeting
+aliases:
+  - IEEE IEDM
+directions: [eng/ic]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 12 月，旧金山
+data_level: curated

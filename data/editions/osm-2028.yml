@@ -1,0 +1,22 @@
+id: osm-2028
+series: osm
+name: OSM 2028
+year: 2028
+kind: conference
+data_level: curated
+location: { city: Vancouver, country: Canada, country_code: CA }
+dates: { start: 2028-02-27, end: 2028-03-03 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/Vancouver
+    note_zh: 摘要截止还没公布。
+  - type: conference
+    start: 2028-02-27
+    end: 2028-03-03
+    tz: America/Vancouver
+    status: confirmed
+    src: osm-2028-aslo-meetings
+    quote: "2028 Ocean Sciences Meeting FEBRUARY 27 - MARCH 3, 2028 Vancouver, British Columbia, CA"
+last_checked: 2026-09-25
+note_zh: 只核对到会期和城市（ASLO 的会议页）。

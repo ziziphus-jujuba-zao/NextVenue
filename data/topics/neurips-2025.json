@@ -1,0 +1,314 @@
+{
+ "schema": 1,
+ "edition": "neurips-2025",
+ "series": "neurips",
+ "year": 2025,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 NeurIPS 2025 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会；去掉了 Datasets & Benchmarks 和 Position 赛道的论文",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/nips/neurips2025"
+  ],
+  "retrieved_at": "2026-09-25T09:49:34Z"
+ },
+ "papers_used": 5286,
+ "official_accepted": {
+  "value": 5290,
+  "source_url": "https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/",
+  "quote": "The main track this year received 21,575 valid paper submissions, of which 5,290 were accepted. That is, the main track had an acceptance rate of 24.52%",
+  "src": "neurips-2025-pc-reflections",
+  "quote_check": "snapshot"
+ },
+ "coverage": 0.9992,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 704,
+   "share_pct": 13.3,
+   "prev": {
+    "year": 2024,
+    "count": 419,
+    "share_pct": 10.4,
+    "delta_pp": 2.9
+   },
+   "examples": [
+    "Linearization Explains Fine-Tuning in Large Language Models.",
+    "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning.",
+    "Physics of Language Models: Part 4.1, Architecture Design and the Magic of Canon Layers."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 408,
+   "share_pct": 7.7,
+   "prev": {
+    "year": 2024,
+    "count": 323,
+    "share_pct": 8.0,
+    "delta_pp": -0.3
+   },
+   "examples": [
+    "Mitigating Sexual Content Generation via Embedding Distortion in Text-conditioned Diffusion Models.",
+    "Where and How to Perturb: On the Design of Perturbation Guidance in Diffusion and Flow Models.",
+    "DiCo: Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 390,
+   "share_pct": 7.4,
+   "prev": {
+    "year": 2024,
+    "count": 185,
+    "share_pct": 4.6,
+    "delta_pp": 2.8
+   },
+   "examples": [
+    "Robustness in Both Domains: CLIP Needs a Robust Text Encoder.",
+    "OSKAR: Omnimodal Self-supervised Knowledge Abstraction and Representation.",
+    "MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "reasoning",
+   "label_zh": "推理（思维链/数学）",
+   "label_en": "Reasoning (CoT / math)",
+   "count": 350,
+   "share_pct": 6.6,
+   "prev": {
+    "year": 2024,
+    "count": 78,
+    "share_pct": 1.9,
+    "delta_pp": 4.7
+   },
+   "examples": [
+    "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness.",
+    "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning.",
+    "On the Bias of Next-Token Predictors Toward Systematically Inefficient Reasoning: A Shortest-Path Case Study."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "rl",
+   "label_zh": "强化学习",
+   "label_en": "Reinforcement learning",
+   "count": 331,
+   "share_pct": 6.3,
+   "prev": {
+    "year": 2024,
+    "count": 225,
+    "share_pct": 5.6,
+    "delta_pp": 0.7
+   },
+   "examples": [
+    "Consistently Simulating Human Personas with Multi-Turn Reinforcement Learning.",
+    "Sequential Monte Carlo for Policy Optimization in Continuous POMDPs.",
+    "Forecasting in Offline Reinforcement Learning for Non-stationary Environments."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "theory_optim",
+   "label_zh": "优化与学习理论",
+   "label_en": "Optimisation & learning theory",
+   "count": 328,
+   "share_pct": 6.2,
+   "prev": {
+    "year": 2024,
+    "count": 294,
+    "share_pct": 7.3,
+    "delta_pp": -1.1
+   },
+   "examples": [
+    "Balancing Gradient and Hessian Queries in Non-Convex Optimization.",
+    "Efficient PAC Learning for Realizable-Statistic Models via Convex Surrogates.",
+    "Quantitative convergence of trained neural networks to Gaussian processes."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 302,
+   "share_pct": 5.7,
+   "prev": {
+    "year": 2024,
+    "count": 247,
+    "share_pct": 6.1,
+    "delta_pp": -0.4
+   },
+   "low_precision": true,
+   "examples": [
+    "Robustness in Both Domains: CLIP Needs a Robust Text Encoder.",
+    "Efficient Algorithms for Robust and Partial Semi-Discrete Optimal Transport.",
+    "The Cost of Compression: Tight Quadratic Black-Box Attacks on Sketches for ℓ2 Norm Estimation."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 291,
+   "share_pct": 5.5,
+   "prev": {
+    "year": 2024,
+    "count": 232,
+    "share_pct": 5.7,
+    "delta_pp": -0.2
+   },
+   "examples": [
+    "Transformer brain encoders explain human high-level visual responses.",
+    "Linear Attention for Efficient Bidirectional Sequence Modeling.",
+    "Beyond Components: Singular Vector-Based Interpretability of Transformer Circuits."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 263,
+   "share_pct": 5.0,
+   "prev": {
+    "year": 2024,
+    "count": 217,
+    "share_pct": 5.4,
+    "delta_pp": -0.4
+   },
+   "examples": [
+    "WildCAT3D: Appearance-Aware Multi-View Diffusion in the Wild.",
+    "Spatially-aware Weights Tokenization for NeRF-Language Models.",
+    "Can NeRFs \"See\" without Cameras?"
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 263,
+   "share_pct": 5.0,
+   "prev": {
+    "year": 2024,
+    "count": 169,
+    "share_pct": 4.2,
+    "delta_pp": 0.8
+   },
+   "examples": [
+    "Generative Data Augmentation via Diffusion Distillation, Adversarial Alignment, and Importance Reweighting.",
+    "Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization.",
+    "Efficient Training of Minimal and Maximal Low-Rank Recurrent Neural Networks."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "graph",
+   "label_zh": "图学习 / GNN",
+   "label_en": "Graphs / GNNs",
+   "count": 240,
+   "share_pct": 4.5,
+   "prev": {
+    "year": 2024,
+    "count": 209,
+    "share_pct": 5.2,
+    "delta_pp": -0.7
+   },
+   "examples": [
+    "Semi-supervised Graph Anomaly Detection via Robust Homophily Learning.",
+    "Distance Adaptive Beam Search for Provably Accurate Graph-Based Nearest Neighbor Search.",
+    "Heterogeneous Graph Transformers for Simultaneous Mobile Multi-Robot Task Allocation and Scheduling under Temporal Constraints."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 204,
+   "share_pct": 3.9,
+   "prev": {
+    "year": 2024,
+    "count": 149,
+    "share_pct": 3.7,
+    "delta_pp": 0.2
+   },
+   "examples": [
+    "A Geometry-Aware Metric for Mode Collapse in Time Series Generative Models.",
+    "Image Super-Resolution with Guarantees via Conformalized Generative Models.",
+    "Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "safety_alignment",
+   "label_zh": "安全与对齐",
+   "label_en": "Safety & alignment",
+   "count": 196,
+   "share_pct": 3.7,
+   "prev": {
+    "year": 2024,
+    "count": 118,
+    "share_pct": 2.9,
+    "delta_pp": 0.8
+   },
+   "examples": [
+    "HMARL-CBF - Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems.",
+    "Meta-Learning Objectives for Preference Optimization.",
+    "KL-Regularized RLHF with Multiple Reference Models: Exact Solutions and Sample Complexity."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "video",
+   "label_zh": "视频",
+   "label_en": "Video",
+   "count": 190,
+   "share_pct": 3.6,
+   "prev": {
+    "year": 2024,
+    "count": 101,
+    "share_pct": 2.5,
+    "delta_pp": 1.1
+   },
+   "examples": [
+    "Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation.",
+    "Temporal Chain of Thought: Long-Video Understanding by Thinking in Frames.",
+    "Learning Skill-Attributes for Transferable Assessment in Video."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "agents",
+   "label_zh": "智能体",
+   "label_en": "Agents (LLM / RL / multi-agent)",
+   "count": 183,
+   "share_pct": 3.5,
+   "prev": {
+    "year": 2024,
+    "count": 88,
+    "share_pct": 2.2,
+    "delta_pp": 1.3
+   },
+   "examples": [
+    "SpecMAS: A Multi-Agent System for Self-Verifying System Generation via Formal Model Checking.",
+    "HMARL-CBF - Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems.",
+    "MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents."
+   ]
+  }
+ ]
+}

@@ -3,8 +3,8 @@ series: icra
 name: ICRA 2027
 year: 2027
 kind: conference
-topics: [robotics]
-location: { city: Seoul, country: South Korea }
+data_level: curated
+location: { city: Seoul, country: South Korea, country_code: KR }
 dates: { start: 2027-05-24, end: 2027-05-28 }
 milestones:
   - type: paper
@@ -30,13 +30,19 @@ milestones:
     src: icra-2027-cfp
     quote: "Notification of acceptance/rejection: January 31, 2027 (Sun)"
     note_zh: 官方只给日期、未给时刻；RAS 页面同为 31 January 2027。时区沿用 RAS 页面“All deadlines are 11:59 PM Pacific time”的约定。
+  - type: registration_open
+    tz: Asia/Seoul
+    status: tba
+    src: icra-2027-registration
+    quote: "Registration open: Beginning of February 2027"
+    note_zh: 注册页只写“2 月初”开放，没给具体日期；RAS 页面写“Registration & Housing Opens January 2027”。注册页还写明包括作者注册在内的详细日程以后公布（“Detailed registration schedules, including Author Registration, will be announced later.”）。
   - type: author_registration
     at: 2027-03-05
-    tz: America/Los_Angeles
+    tz: Asia/Seoul
     status: confirmed
     src: icra-2027-cfp
     quote: "Author registration deadline: March 5, 2027 (Fri)"
-    note_zh: 官方只给日期、未给时刻，时区沿用 Pacific time。
+    note_zh: 官方只给日期、没写时区。RAS 页面写截止按 Pacific time，但注册日期不在 RAS 页面上；这里按会场所在地首尔当天结束算，即北京时间 3/5 22:59，比按 Pacific time 早 16 小时，更保守。注册页写明付款到账后注册才算确认（“Registration can only be confirmed once payment is received.”）。
   - type: camera_ready
     at: 2027-03-06T23:59
     tz: America/Los_Angeles
@@ -44,13 +50,87 @@ milestones:
     src: icra-2027-dates
     quote: "Submission of final papers 6 March 2027"
     note_zh: '只有 RAS 页面写了终稿截止；ICRA 官网 CFP 只写 PaperPlaza 2/6 开放终稿提交（“Paperplaza opens for final submission: February 6, 2027”）。RAS 页面写明截止均为 11:59 PM Pacific time。'
+  - type: early_registration
+    at: 2027-03-31
+    tz: Asia/Seoul
+    status: confirmed
+    src: icra-2027-cfp
+    quote: "Early Registration deadline: March 31, 2027 (Wed)"
+    note_zh: 官方只给日期、没写时区，按首尔当天结束算（北京时间 3/31 22:59）。注册页的日程一栏仍写“Important Dates (TBD)”。
+  - type: refund_cutoff
+    label_zh: 取消退款截止（扣 50 美元手续费）
+    at: 2027-04-09
+    tz: Asia/Seoul
+    status: confirmed
+    src: icra-2027-registration
+    quote: "Written cancellation will only be accepted until 9 April 2027 for a full refund, less a USD 50 cancellation fee."
+    note_zh: 官方只给日期、没写时区，按首尔当天结束算（北京时间 4/9 22:59），比按 Pacific time 早 16 小时，更保守。全额退款也要扣 50 美元手续费；之后只有特殊情况才退。
+  - type: standard_registration
+    at: 2027-05-14
+    tz: Asia/Seoul
+    status: confirmed
+    src: icra-2027-cfp
+    quote: "Deadline Standard Registration deadline: May 14, 2027 (Fri)"
+    note_zh: 官方只给日期、没写时区，按首尔当天结束算。之后按现场价（On-Site）收费。
   - type: conference
+    label_zh: 正会 5/25–27，workshop 和 tutorial 5/24、5/28
     start: 2027-05-24
     end: 2027-05-28
     tz: Asia/Seoul
     status: confirmed
     src: icra-2027-cfp
     quote: "will take place in Seoul, Republic of Korea on May 24-28, 2027."
-    note_zh: 地点是首尔 Coex（官网首页）。
+    note_zh: 地点是首尔 Coex。正会和 workshop 的日期取自注册页的两张费用表（“REGISTRATION FEES (May 25-27, 2027)”“WORKSHOPS AND TUTORIALS FEES (May 24 and 28, 2027)”），两者要分别注册。
+logistics:
+  venue:
+    name: Coex – Convention & Exhibition Center
+    address: 513, Yeongdong-daero, Gangnam-gu, 06164 Seoul
+    src: icra-2027-venue
+    quote: "Address: Coex, 513, Yeongdong-daero, Gangnam-gu, 06164 Seoul"
+  fees:
+    - currency: USD
+      src: icra-2027-registration
+      quote: "REGISTRATION FEES (May 25-27, 2027)"
+      note_zh: 正会注册费（5/25–27）。workshop 和 tutorial（5/24、5/28）另行注册收费。学生类注册要在注册时选学生类别。
+      tiers:
+        - { id: early, until: early_registration }
+        - { id: standard, until: standard_registration }
+        - { id: onsite }
+      rows:
+        - { id: ras_member, label_zh: IEEE RAS 会员, for: [academic, industry], member: current, covers_author: true, amounts: [720, 1080, 1180], quote: "IEEE RAS Member $720 $1,080 $1,180" }
+        - { id: ieee_member, label_zh: IEEE 会员, for: [academic, industry], member: current, covers_author: true, amounts: [800, 1200, 1320], quote: "IEEE Member $800 $1,200 $1,320" }
+        - { id: non_member, label_zh: 非会员, for: [academic, industry], member: none, covers_author: true, amounts: [1100, 1500, 1700], quote: "Non-Member $1,100 $1,500 $1,700" }
+        - { id: ras_student, label_zh: IEEE RAS 学生会员, for: [student], member: current, covers_author: true, amounts: [420, 640, 690], quote: "IEEE RAS Student Member $420 $640 $690" }
+        - { id: ieee_student, label_zh: IEEE 学生会员, for: [student], member: current, covers_author: true, amounts: [450, 670, 720], quote: "IEEE Student Member $450 $670 $720" }
+        - { id: student_non_member, label_zh: 非会员学生, for: [student], member: none, covers_author: true, amounts: [550, 750, 800], quote: "Student Non-Member $550 $750 $800" }
+        - { id: virtual, label_zh: 线上, for: [student, academic, industry], member: none, covers_author: false, amounts: [200, 200, 200], quote: "Virtual Online $200 $200 $200", note_zh: 费用表里线上注册的“Paper Uploads”一栏是“-”，不能挂论文；ICRA 2027 也不能线上报告。 }
+  coverage:
+    per: author
+    max_papers: 1
+    rate: in_person
+    extra_zh: 费用表“Paper Uploads”一栏：学生类注册每份 1 篇；IEEE RAS 会员、IEEE 会员、非会员的全价注册每份 2 篇；线上注册不能挂论文。页面没有文字解释这一栏。
+    src: icra-2027-registration
+    quote: "IEEE RAS Student Member $420 $640 $690 O O O 1"
+    note_zh: '这里的 1 篇是本应用的取值（basis: assumption），不是官方对所有注册的规定：取学生类的数字，比较保守；页面也没有文字说明“Paper Uploads”就是一份注册能挂几篇。非学生全价注册的原文是“IEEE RAS Member $720 $1,080 $1,180 O TBD O O 2”，有多篇论文的先问主办方。'
+  visa_letter:
+    after: paid_registration
+    how_zh: 在线注册并付清全款后，就能下载签证邀请函。
+    lead: tba
+    url: https://2027.ieee-icra.org/attend/visa-information/
+    src: icra-2027-visa
+    quote: "Official letters of invitation for visa applications will be available to REGISTERED and PAID participants only."
+  aid:
+    status: tba
+    checked_sources: [icra-2027-registration, icra-2027-visa, icra-2027-home]
+    note_zh: 没有公布资助项目。签证页只写了邀请函和“congress-related travel support”的问题可以联系会务秘书处。
+  hotels:
+    status: tba
+    checked_sources: [icra-2027-travel, icra-2027-venue]
+    note_zh: 没有协议酒店信息。RAS 页面写“Registration & Housing Opens January 2027”。
+  poster: { status: tba, checked_sources: [icra-2027-cfp] }
+  links:
+    - { kind: registration, url: "https://2027.ieee-icra.org/attend/registration-information/" }
+    - { kind: visa, url: "https://2027.ieee-icra.org/attend/visa-information/" }
+    - { kind: venue, url: "https://2027.ieee-icra.org/attend/venue-conference-center/" }
 last_checked: 2026-09-25
-note_zh: 正文截止已过；出结果 2027-01-31。IEEE RAS 页面写明 ICRA 2027 所有截止均为 11:59 PM Pacific time。
+note_zh: 正文截止已过；出结果 2027-01-31。IEEE RAS 页面写明 ICRA 2027 所有截止均为 11:59 PM Pacific time；注册和退款日期不在 RAS 页面上，按首尔时间记。

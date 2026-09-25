@@ -1,0 +1,34 @@
+id: ica-2027
+series: ica
+name: ICA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Glasgow, country: UK, country_code: GB }
+dates: { start: 2027-06-03, end: 2027-06-07 }
+milestones:
+  - type: paper
+    at: 2026-11-02
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ica-2027-cfp
+    quote: "2 NOVEMBER 2026 Paper submission deadline"
+    note_zh: 9/1 开放提交。征稿启事只写日期、没写时刻和时区，按北京时间当天结束算（更保守）。
+  - type: notification
+    at: 2027-01-13
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ica-2027-cfp
+    quote: "13 JANUARY 2027 Acceptance notices"
+    note_zh: 官网只写日期、没写时区。
+  - type: conference
+    start: 2027-06-03
+    end: 2027-06-07
+    tz: Europe/London
+    status: confirmed
+    src: ica-2027-cfp
+    quote: "Glasgow, Scotland, UK | 3-7 JUNE 2027 77th Annual ICA Conference"
+last_checked: 2026-09-25
+note_zh: 第 77 届，格拉斯哥。官网会议页拒绝本项目的抓取程序（403），日期按征稿启事 PDF。

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aacr-2027
+sources:
+  - id: aacr-2027-key-dates
+    url: https://www.aacr.org/meeting/aacr-annual-meeting-2027/key-dates/
+    title: AACR Annual Meeting 2027 Key Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:50:38Z
+    http_status: 200
+    snapshot: c2695b84b9409423f27834fb016b4fe021b4f1489f592a6a8c9054fa998ccc18
+  - id: aacr-2027-abstracts
+    url: https://www.aacr.org/meeting/aacr-annual-meeting-2027/abstracts/
+    title: AACR Annual Meeting 2027 Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T15:50:58Z
+    http_status: 200
+    snapshot: 5eeebb2d9c65ee776933422954808c2ef7335bcf50ab21a331d19922cbffd288

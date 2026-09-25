@@ -1,0 +1,13 @@
+id: lics
+acronym: LICS
+full_name: ACM/IEEE Symposium on Logic in Computer Science
+aliases:
+  - IEEE Symposium on Logic in Computer Science
+directions: [cs/theory]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；FLoC 年（2022、2026）在 FLoC 内举办。
+dblp: conf/lics
+ccfddl: CT/LICS
+data_level: curated

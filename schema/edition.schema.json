@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "edition.schema.json",
-  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: MIT",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
   "title": "One edition of a venue (or one ARR cycle) and its timeline",
   "type": "object",
   "additionalProperties": false,
@@ -11,6 +11,7 @@
     "name",
     "year",
     "kind",
+    "data_level",
     "milestones",
     "last_checked"
   ],
@@ -37,20 +38,98 @@
         "arr_cycle"
       ]
     },
-    "topics": {
-      "type": "array",
-      "items": {
-        "enum": [
-          "ml",
-          "cv",
-          "nlp",
-          "robotics",
-          "dm",
-          "ai"
-        ]
-      },
-      "uniqueItems": true,
-      "description": "研究方向标签，用于按主题推荐会议"
+    "data_level": {
+      "enum": [
+        "curated",
+        "upstream"
+      ],
+      "description": "curated：本项目按官网原文整理，每条事实带 src + quote；upstream：scripts/import-ccfddl.ts 从 ccfddl（MIT）导入，界面标“上游”，从不当作已核对"
+    },
+    "submission_type": {
+      "enum": [
+        "full_paper",
+        "extended_abstract",
+        "abstract",
+        "mixed"
+      ],
+      "description": "投稿形式：全文 | 扩展摘要（2–4 页）| 只交摘要 | 多种赛道并存。没核实就不写"
+    },
+    "submission_evidence": {
+      "$ref": "#/definitions/evidence",
+      "description": "submission_type 的官网原文；curated 届次写了 submission_type 就必须有"
+    },
+    "federated_with": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "description": "这一届所在的联合会议（CPS-IoT Week、FCRC、ETAPS）",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "with": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "description": "同一联合会议里其他会的系列 id"
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "upstream": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "key",
+        "conf_id"
+      ],
+      "description": "data_level: upstream 的来源记录；原样保留 ccfddl 的写法",
+      "properties": {
+        "source": {
+          "const": "ccfddl"
+        },
+        "key": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}/.+$",
+          "description": "ccfddl 系列键 <sub>/<title>"
+        },
+        "conf_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "link": {
+          "type": "string"
+        },
+        "place": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "timezone": {
+          "type": "string"
+        }
+      }
     },
     "derived_from": {
       "type": "string",
@@ -65,7 +144,20 @@
         },
         "country": {
           "type": "string"
+        },
+        "country_code": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 两位字母，签证卡按它查 data/visa/countries.yml"
         }
+      }
+    },
+    "sites": {
+      "type": "array",
+      "minItems": 2,
+      "description": "只有同时在多地举办的届次才写",
+      "items": {
+        "$ref": "#/definitions/site"
       }
     },
     "dates": {
@@ -86,26 +178,6 @@
         }
       }
     },
-    "ranks": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "ccf": {
-          "enum": [
-            "A",
-            "B",
-            "C",
-            "N"
-          ]
-        },
-        "ccf_edition": {
-          "type": "integer"
-        },
-        "core": {
-          "type": "string"
-        }
-      }
-    },
     "milestones": {
       "type": "array",
       "items": {
@@ -118,25 +190,7 @@
         ],
         "properties": {
           "type": {
-            "enum": [
-              "abstract",
-              "paper_registration",
-              "paper",
-              "supplementary",
-              "profile_deadline",
-              "reviewer_registration",
-              "reviewing",
-              "phase1_notification",
-              "reviews_out",
-              "author_response",
-              "discussion",
-              "meta_reviews",
-              "commitment",
-              "notification",
-              "camera_ready",
-              "author_registration",
-              "conference"
-            ]
+            "$ref": "#/definitions/milestoneType"
           },
           "label_zh": {
             "type": "string"
@@ -153,12 +207,25 @@
           "tz": {
             "type": "string"
           },
+          "tz_assumed": {
+            "type": "boolean",
+            "description": "官方没写时区，tz 是本应用的假设（note_zh 写明按什么算）。界面写“没写时区”，不写“当地时间”。"
+          },
+          "tentative": {
+            "type": "boolean",
+            "description": "官网自己标了暂定（tentative）的日期：status 写 confirmed（这是官网写的日期，不是本应用推算），界面标“官网暂定”。"
+          },
           "status": {
             "enum": [
               "confirmed",
               "estimated",
               "tba"
             ]
+          },
+          "site": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "多会场届次中只适用于某一个会场的节点：sites[].id"
           },
           "src": {
             "type": "string"
@@ -195,6 +262,9 @@
         }
       }
     },
+    "logistics": {
+      "$ref": "#/definitions/logistics"
+    },
     "last_checked": {
       "type": "string",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
@@ -203,10 +273,1385 @@
       "type": "string"
     }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "data_level": {
+            "const": "upstream"
+          }
+        },
+        "required": [
+          "data_level"
+        ]
+      },
+      "then": {
+        "required": [
+          "upstream"
+        ],
+        "properties": {
+          "logistics": false,
+          "sites": false,
+          "submission_evidence": false,
+          "federated_with": false,
+          "derived_from": false
+        }
+      },
+      "else": {
+        "properties": {
+          "upstream": false
+        }
+      }
+    }
+  ],
   "definitions": {
     "local": {
       "type": "string",
       "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2})?$"
+    },
+    "milestoneType": {
+      "enum": [
+        "abstract",
+        "paper_registration",
+        "paper",
+        "supplementary",
+        "profile_deadline",
+        "reviewer_registration",
+        "reviewing",
+        "phase1_notification",
+        "reviews_out",
+        "author_response",
+        "discussion",
+        "meta_reviews",
+        "commitment",
+        "notification",
+        "camera_ready",
+        "author_registration",
+        "conference",
+        "site_preference",
+        "site_assignment",
+        "financial_aid",
+        "financial_aid_result",
+        "registration_open",
+        "early_registration",
+        "standard_registration",
+        "visa_letter",
+        "visa_refund_apply_by",
+        "refund_cutoff",
+        "visa_refund_request_by",
+        "presentation_format_final",
+        "poster"
+      ]
+    },
+    "tba": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "checked_sources"
+      ],
+      "properties": {
+        "status": {
+          "const": "tba"
+        },
+        "checked_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "venue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "address",
+        "src"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "address": {
+          "type": "string",
+          "minLength": 1,
+          "description": "街道地址；没公布写 tba"
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "required": [
+                "quote"
+              ]
+            },
+            {
+              "required": [
+                "json_path",
+                "json_value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "venueFact": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/venue"
+        },
+        {
+          "$ref": "#/definitions/tba"
+        }
+      ]
+    },
+    "site": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "city",
+        "country_code",
+        "tz"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "city": {
+          "type": "string",
+          "minLength": 1
+        },
+        "country_code": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "tz": {
+          "type": "string",
+          "minLength": 1
+        },
+        "venue": {
+          "$ref": "#/definitions/venueFact"
+        }
+      }
+    },
+    "feeRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "label_zh",
+        "for",
+        "member",
+        "covers_author",
+        "amounts"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+([_-][a-z0-9]+)*$"
+        },
+        "label_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "for": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "student",
+              "academic",
+              "industry"
+            ]
+          }
+        },
+        "member": {
+          "enum": [
+            "none",
+            "current",
+            "new"
+          ]
+        },
+        "covers_author": {
+          "type": "boolean"
+        },
+        "amounts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "tiers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+([_-][a-z0-9]+)*$"
+          }
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "feeTable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "currency",
+        "tiers",
+        "rows",
+        "src"
+      ],
+      "properties": {
+        "site": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "tiers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+([_-][a-z0-9]+)*$"
+              },
+              "until": {
+                "$ref": "#/definitions/milestoneType"
+              }
+            }
+          }
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/feeRow"
+          }
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "feeTableRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "currency",
+        "tiers",
+        "rows",
+        "src"
+      ],
+      "properties": {
+        "site": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "tiers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+([_-][a-z0-9]+)*$"
+              },
+              "until": {
+                "$ref": "#/definitions/milestoneType"
+              }
+            }
+          }
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/feeRow"
+          }
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "上一届的 edition id（同一系列）；界面标“上届”，不参与计算"
+        }
+      }
+    },
+    "feeFact": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/feeTable"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "checked_sources"
+          ],
+          "properties": {
+            "status": {
+              "const": "tba"
+            },
+            "checked_sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "note_zh": {
+              "type": "string"
+            },
+            "site": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            },
+            "reference": {
+              "$ref": "#/definitions/feeTableRef"
+            }
+          }
+        }
+      ]
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "per",
+        "src"
+      ],
+      "properties": {
+        "per": {
+          "enum": [
+            "author",
+            "paper",
+            "unspecified"
+          ]
+        },
+        "max_papers": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "rate": {
+          "enum": [
+            "any",
+            "in_person",
+            "non_student_in_person"
+          ]
+        },
+        "extra_zh": {
+          "type": "string"
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "required": [
+                "quote"
+              ]
+            },
+            {
+              "required": [
+                "json_path",
+                "json_value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "coverageRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "per",
+        "src"
+      ],
+      "properties": {
+        "per": {
+          "enum": [
+            "author",
+            "paper",
+            "unspecified"
+          ]
+        },
+        "max_papers": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "rate": {
+          "enum": [
+            "any",
+            "in_person",
+            "non_student_in_person"
+          ]
+        },
+        "extra_zh": {
+          "type": "string"
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "上一届的 edition id（同一系列）；界面标“上届”，不参与计算"
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "required": [
+                "quote"
+              ]
+            },
+            {
+              "required": [
+                "json_path",
+                "json_value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "coverageFact": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/coverage"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "checked_sources"
+          ],
+          "properties": {
+            "status": {
+              "const": "tba"
+            },
+            "checked_sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "note_zh": {
+              "type": "string"
+            },
+            "reference": {
+              "$ref": "#/definitions/coverageRef"
+            }
+          }
+        }
+      ]
+    },
+    "visaLetter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "after",
+        "how_zh",
+        "lead",
+        "url",
+        "src"
+      ],
+      "properties": {
+        "after": {
+          "enum": [
+            "paid_registration",
+            "registration",
+            "none"
+          ]
+        },
+        "how_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "how_site_zh": {
+          "type": "object",
+          "description": "多会场届次：每个会场各自的办法（键是 sites[].id），界面只显示这篇论文的会场",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "lead": {
+          "oneOf": [
+            {
+              "const": "tba"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "n",
+                "unit"
+              ],
+              "properties": {
+                "n": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "unit": {
+                  "enum": [
+                    "day",
+                    "business_day",
+                    "week"
+                  ]
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 2
+                }
+              }
+            }
+          ]
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "required": [
+                "quote"
+              ]
+            },
+            {
+              "required": [
+                "json_path",
+                "json_value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "visaLetterRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "after",
+        "how_zh",
+        "lead",
+        "url",
+        "src"
+      ],
+      "properties": {
+        "after": {
+          "enum": [
+            "paid_registration",
+            "registration",
+            "none"
+          ]
+        },
+        "how_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lead": {
+          "oneOf": [
+            {
+              "const": "tba"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "n",
+                "unit"
+              ],
+              "properties": {
+                "n": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "unit": {
+                  "enum": [
+                    "day",
+                    "business_day",
+                    "week"
+                  ]
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 2
+                }
+              }
+            }
+          ]
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "上一届的 edition id（同一系列）；界面标“上届”，不参与计算"
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "required": [
+                "quote"
+              ]
+            },
+            {
+              "required": [
+                "json_path",
+                "json_value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "visaLetterFact": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/visaLetter"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "checked_sources"
+          ],
+          "properties": {
+            "status": {
+              "const": "tba"
+            },
+            "checked_sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "note_zh": {
+              "type": "string"
+            },
+            "reference": {
+              "$ref": "#/definitions/visaLetterRef"
+            }
+          }
+        }
+      ]
+    },
+    "poster": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "size_zh",
+        "src"
+      ],
+      "properties": {
+        "size_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "required": [
+                "quote"
+              ]
+            },
+            {
+              "required": [
+                "json_path",
+                "json_value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "posterRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "size_zh",
+        "src"
+      ],
+      "properties": {
+        "size_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "json_path": {
+          "type": "string"
+        },
+        "json_value": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "上一届的 edition id（同一系列）；界面标“上届”，不参与计算"
+        }
+      },
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "required": [
+                "quote"
+              ]
+            },
+            {
+              "required": [
+                "json_path",
+                "json_value"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "posterFact": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/poster"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "checked_sources"
+          ],
+          "properties": {
+            "status": {
+              "const": "tba"
+            },
+            "checked_sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "note_zh": {
+              "type": "string"
+            },
+            "reference": {
+              "$ref": "#/definitions/posterRef"
+            }
+          }
+        }
+      ]
+    },
+    "logistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "录用后要用的数据。每一项：值 + src + quote，或 status: tba + checked_sources（可带 reference: 上一届的值）",
+      "properties": {
+        "venue": {
+          "$ref": "#/definitions/venueFact"
+        },
+        "fees": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/feeFact"
+          }
+        },
+        "coverage": {
+          "$ref": "#/definitions/coverageFact"
+        },
+        "visa_letter": {
+          "$ref": "#/definitions/visaLetterFact"
+        },
+        "visa_guidance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "country_code",
+              "weeks",
+              "src"
+            ],
+            "properties": {
+              "country_code": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}$"
+              },
+              "weeks": {
+                "oneOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  }
+                ]
+              },
+              "src": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 2
+              },
+              "json_path": {
+                "type": "string"
+              },
+              "json_value": {
+                "type": "string"
+              },
+              "anchor": {
+                "type": "string",
+                "minLength": 2
+              },
+              "note_zh": {
+                "type": "string"
+              }
+            },
+            "allOf": [
+              {
+                "anyOf": [
+                  {
+                    "required": [
+                      "quote"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "json_path",
+                      "json_value"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "aid": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "name",
+                  "url",
+                  "src"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9]+([_-][a-z0-9]+)*$"
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "covers_zh": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string",
+                    "pattern": "^https://"
+                  },
+                  "src": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "json_path": {
+                    "type": "string"
+                  },
+                  "json_value": {
+                    "type": "string"
+                  },
+                  "anchor": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "note_zh": {
+                    "type": "string"
+                  }
+                },
+                "allOf": [
+                  {
+                    "anyOf": [
+                      {
+                        "required": [
+                          "quote"
+                        ]
+                      },
+                      {
+                        "required": [
+                          "json_path",
+                          "json_value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "$ref": "#/definitions/tba"
+            }
+          ]
+        },
+        "hotels": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "name",
+                  "cutoff",
+                  "src"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "rate": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "amount",
+                      "currency"
+                    ],
+                    "properties": {
+                      "amount": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "currency": {
+                        "type": "string",
+                        "pattern": "^[A-Z]{3}$"
+                      }
+                    }
+                  },
+                  "cutoff": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "src": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "json_path": {
+                    "type": "string"
+                  },
+                  "json_value": {
+                    "type": "string"
+                  },
+                  "anchor": {
+                    "type": "string",
+                    "minLength": 2
+                  },
+                  "note_zh": {
+                    "type": "string"
+                  }
+                },
+                "allOf": [
+                  {
+                    "anyOf": [
+                      {
+                        "required": [
+                          "quote"
+                        ]
+                      },
+                      {
+                        "required": [
+                          "json_path",
+                          "json_value"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "$ref": "#/definitions/tba"
+            }
+          ]
+        },
+        "sold_out": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "src"
+            ],
+            "properties": {
+              "site": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              },
+              "src": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 2
+              },
+              "json_path": {
+                "type": "string"
+              },
+              "json_value": {
+                "type": "string"
+              },
+              "anchor": {
+                "type": "string",
+                "minLength": 2
+              },
+              "note_zh": {
+                "type": "string"
+              }
+            },
+            "allOf": [
+              {
+                "anyOf": [
+                  {
+                    "required": [
+                      "quote"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "json_path",
+                      "json_value"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "poster": {
+          "$ref": "#/definitions/posterFact"
+        },
+        "links": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind",
+              "url"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "registration",
+                  "visa",
+                  "venue",
+                  "hotels",
+                  "aid",
+                  "contact",
+                  "program"
+                ]
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              },
+              "site": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "src",
+        "quote"
+      ],
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "note_zh": {
+          "type": "string"
+        }
+      }
     }
   }
 }

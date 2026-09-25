@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iecon-2027
+sources:
+  - id: ies-conferences
+    url: https://www.ieee-ies.org/conferences
+    title: IEEE IES Conferences
+    kind: other
+    fetched_at: 2026-09-25T15:48:41Z
+    http_status: 200
+    snapshot: 7e6ecbb5e2b9ff96a86f8471c40d8470cd697f2f8bacf4c772c723d2a98dc537

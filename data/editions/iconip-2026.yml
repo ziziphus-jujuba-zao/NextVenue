@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: iconip-2026
+series: iconip
+name: ICONIP 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/ICONIP
+  conf_id: iconip2026
+  link: https://www.iconip2026.org/
+  place: Melbourne, Australia
+  date: November 23-27, 2026
+  timezone: UTC-12
+location:
+  city: Melbourne
+  country: Australia
+  country_code: AU
+dates:
+  start: 2026-11-23
+  end: 2026-11-27
+milestones:
+  - type: paper
+    at: 2026-05-31T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2026-11-23
+    end: 2026-11-27
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

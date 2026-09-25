@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-hk
+sources:
+  - id: visa-hk-nia-endorsement
+    url: https://s.nia.gov.cn/mps/bszy/wlgaot/sqgowl/201903/t20190313_1002.html
+    title: 国家移民管理局政务服务平台 · 往来港澳通行证和签注签发服务指南
+    kind: policy
+    fetched_at: 2026-09-25T11:07:10Z
+    http_status: 200
+    snapshot: 69dfd2b64255006b2e27d38c737b4a1dfe57e4aee0d4c47a9bcb53266a40704a

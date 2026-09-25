@@ -1,0 +1,35 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: miccai-2028
+series: miccai
+name: MICCAI 2028
+year: 2028
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/MICCAI
+  conf_id: miccai28
+  link: https://conferences.miccai.org/2028/en/
+  place: São Paulo, Brazil
+  date: Oct 16-20, 2028
+  timezone: UTC-8
+location:
+  city: São Paulo
+  country: Brazil
+  country_code: BR
+dates:
+  start: 2028-10-16
+  end: 2028-10-20
+milestones:
+  - type: abstract
+    tz: UTC-8
+    status: tba
+  - type: paper
+    tz: UTC-8
+    status: tba
+  - type: conference
+    start: 2028-10-16
+    end: 2028-10-20
+    tz: UTC-8
+    status: confirmed
+last_checked: 2026-09-25

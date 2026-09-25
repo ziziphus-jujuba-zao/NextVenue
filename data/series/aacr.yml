@@ -1,0 +1,12 @@
+id: aacr
+acronym: AACR
+full_name: American Association for Cancer Research Annual Meeting
+aliases:
+  - AACR Annual Meeting
+directions: [life/cellmol, med/oncology]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 4 月前后举办
+data_level: curated
+note_zh: 只收摘要（常规摘要一轮，另有晚到摘要和临床试验摘要一轮），录用摘要刊在 Cancer Research 增刊。

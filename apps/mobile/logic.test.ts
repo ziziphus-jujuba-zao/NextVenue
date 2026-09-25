@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 import { describe, expect, it } from 'vitest';
 import {
@@ -18,6 +17,7 @@ import {
   parseNow,
   pickHero,
   prettyEditionId,
+  seriesName,
   isUrgent,
   relativeText,
   ruleTimeLong,
@@ -25,6 +25,7 @@ import {
   splitReading,
   stripSummary,
   targetOf,
+  tbaMilestones,
   upcoming,
   upcomingRelative,
 } from './logic.ts';
@@ -120,8 +121,8 @@ describe('time formatting', () => {
 
 describe('estimates and years', () => {
   const est = (m: AppMilestone): AppMilestone => ({ ...m, status: 'estimated' });
-  it('shows an estimated date as "约 M/D", without a weekday or minute', () => {
-    expect(fmtMilestoneTime(est(paper))).toBe('约 9/26');
+  it('shows an estimated date as "约 M/D HH:mm" in Beijing time, without a weekday', () => {
+    expect(fmtMilestoneTime(est(paper))).toBe('约 9/26 19:59');
     expect(fmtMilestoneTime(est(discussion))).toBe('约 11/5–11/18');
   });
   it('counts an estimate in days, never hours', () => {
@@ -132,7 +133,7 @@ describe('estimates and years', () => {
   it('names the year of a day ten months or more away, once per range', () => {
     const next: AppMilestone = { ...paper, at_resolved: rt('2027-09-25T23:59', '2027-09-26T11:59:00Z', '2027-09-26 19:59') };
     expect(fmtMilestoneTime(next, NOW)).toBe('2027/9/26 周日 19:59');
-    expect(fmtMilestoneTime(est(next), NOW)).toBe('约 2027/9/26');
+    expect(fmtMilestoneTime(est(next), NOW)).toBe('约 2027/9/26 19:59');
     // Near days stay short; so does a day that just passed.
     expect(fmtMilestoneTime(paper, NOW)).toBe('9/26 周六 19:59');
     expect(fmtMilestoneTime(abstract, NOW)).toBe('9/19 周六 19:59');
@@ -186,6 +187,11 @@ describe('upcoming and the Today card', () => {
   it('drops past milestones and sorts the rest', () => {
     const items = upcoming([ed], NOW);
     expect(items.map((i) => i.milestone.type)).toEqual(['paper', 'reviews_out', 'discussion']);
+  });
+  it('leaves post-acceptance dates to the accepted paper', () => {
+    const early = { ...paper, type: 'early_registration' };
+    expect(upcoming([{ ...ed, milestones: [early, paper] }], NOW).map((i) => i.milestone.type)).toEqual(['paper']);
+    expect(tbaMilestones([{ ...ed, milestones: [{ ...early, status: 'tba' as const }] }])).toEqual([]);
   });
   it('prefers a deadline the author acts on over an announcement', () => {
     const items = upcoming([{ ...ed, milestones: [phase1, paper] }], NOW);
@@ -336,5 +342,16 @@ describe('names', () => {
     expect(prettyEditionId('cvpr-2026')).toBe('CVPR 2026');
     expect(prettyEditionId('aaai-26')).toBe('AAAI-26');
     expect(prettyEditionId('arr-2026-08')).toBe('ARR 2026 年 8 月轮');
+  });
+
+  it('names a series without its year, wherever the year sits', () => {
+    const e = (name: string) => ({ id: 'x', series: 'x', name, year: 2027, kind: 'conference', last_checked: '2026-09-25', milestones: [] }) as AppEdition;
+    expect(seriesName(e('NeurIPS 2027'))).toBe('NeurIPS');
+    expect(seriesName(e('AAAI-27'))).toBe('AAAI');
+    expect(seriesName(e('The Web Conference 2027 (WWW 2027)'))).toBe('WWW');
+    // VTC2027-Fall is VTC's, not a series called "VTC2027-Fall" (which read "VTC2027-Fall 2027" in rows).
+    expect(seriesName(e('VTC2027-Fall'))).toBe('VTC');
+    expect(seriesName(e('ECS 2027 Spring'))).toBe('ECS');
+    expect(seriesName(e('ASHRAE 2027 Winter Conference'))).toBe('ASHRAE');
   });
 });

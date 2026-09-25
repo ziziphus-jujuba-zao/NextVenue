@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: accv-2026
+series: accv
+name: ACCV 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/ACCV
+  conf_id: accv26
+  link: https://accv2026.org/
+  place: Osaka, Japan
+  date: December 14-18, 2026
+  timezone: UTC+0
+location:
+  city: Osaka
+  country: Japan
+  country_code: JP
+dates:
+  start: 2026-12-14
+  end: 2026-12-18
+milestones:
+  - type: abstract
+    at: 2026-07-03T23:59
+    tz: UTC
+    status: confirmed
+  - type: paper
+    at: 2026-07-05T23:59
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2026-12-14
+    end: 2026-12-18
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

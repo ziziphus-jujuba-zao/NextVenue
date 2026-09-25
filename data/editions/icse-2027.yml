@@ -1,0 +1,81 @@
+id: icse-2027
+series: icse
+name: ICSE 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Dublin, country: Ireland, country_code: IE }
+dates: { start: 2027-04-25, end: 2027-05-01 }
+milestones:
+  - type: abstract
+    at: 2026-06-23T23:59
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "(Mandatory) Abstract: June 23, 2026"
+  - type: paper
+    at: 2026-06-30T23:59
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "Submission: June 30, 2026"
+    note_zh: 已截止。ICSE 2027 只有这一轮投稿；正文限 10 页，另加 2 页参考文献。
+  - type: author_response
+    start: 2026-09-23
+    end: 2026-09-25T23:59
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "Author response period (3 days): September 23-25, 2026"
+  - type: phase1_notification
+    label_zh: 初审结果（录用 / 大修 / 拒稿）
+    at: 2026-10-20
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "Notification: October 20, 2026"
+  - type: author_response
+    label_zh: 大修稿截止（仅限 Major Revision）
+    at: 2026-11-17T23:59
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "Revision due: November 17, 2026"
+    note_zh: 大修论文要交修改稿、标出改动的版本和逐条回复；由原审稿人复审，修改稿可多 1 页。
+  - type: camera_ready
+    label_zh: camera-ready（直接录用的论文）
+    at: 2026-11-24T23:59
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "Camera-ready (of directly accepted papers): November 24, 2026"
+  - type: notification
+    label_zh: 终审结果（大修论文）
+    at: 2026-12-18
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "Final decision (of major revision papers): December 18, 2026"
+  - type: camera_ready
+    label_zh: camera-ready（大修后录用的论文）
+    at: 2027-01-25T23:59
+    tz: AoE
+    status: confirmed
+    src: icse-2027-research
+    quote: "Camera-ready (of accepted major revision papers): January 25, 2027"
+  - type: conference
+    start: 2027-04-25
+    end: 2027-05-01
+    tz: Europe/Dublin
+    status: confirmed
+    src: icse-2027-research
+    quote: "Sun 25 April - Sat 1 May 2027 Dublin, Ireland"
+    note_zh: 主会（core conference）是 4/28–30，其余几天是研讨会等附属活动。
+logistics:
+  venue:
+    name: The Convention Centre Dublin (CCD)
+    address: tba
+    src: icse-2027-home
+    quote: "Venue: The Convention Centre Dublin (CCD)"
+last_checked: 2026-09-25
+note_zh: 只有一轮投稿（2026-06-30 已截止），所有日期是 AoE 23:59:59。10/20 出初审结果：录用、大修或拒稿；大修论文 11/17 交修改稿，12/18 出终审结果。直接录用的论文 11/24 交 camera-ready。会议 2027-04-25 至 05-01 在都柏林，主会 4/28–30。

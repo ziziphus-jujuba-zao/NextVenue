@@ -1,0 +1,11 @@
+id: iclr
+acronym: ICLR
+full_name: International Conference on Learning Representations
+directions: [cs/ml]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/iclr
+ccfddl: AI/ICLR
+data_level: curated

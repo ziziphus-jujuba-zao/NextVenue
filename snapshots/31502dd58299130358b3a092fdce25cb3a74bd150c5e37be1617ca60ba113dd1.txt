@@ -1,0 +1,205 @@
+Technical Conference: 07 - 11 March 2027
+Exhibition: 09 - 11 March 2027
+Los Angeles Convention Center | Los Angeles, California, United States
+
+ * Log in
+
+ * Exhibitor Service Center
+ * For Media/Exhibitor PR
+
+Search
+
+Technical Conference: 07 - 11 March 2027
+Exhibition: 09 - 11 March 2027
+Los Angeles Convention Center | Los Angeles, California, United States
+
+Menu
+ * About
+ * Conference Programs
+ * Exhibition Programs
+ * Exhibit at OFC
+ * Hotel & Travel
+ * Registration
+ * Submit a Paper
+
+Home > Submit a Paper
+
+Submission Guidelines
+
+ * Author Timeline
+ * Topic Categories
+ * Submission Guidelines
+ * Dataset Paper Submissions
+ * Machine Learning Paper Submissions
+ * Demo Zone Submission Guidelines
+ * Awards and Prizes
+
+Questions regarding the paper submission and review process can be directed to the OFC program management staff at cstech@optica.org at any time.
+
+ * Requirements
+ * Peer Review
+ * Publish/Disseminate
+ * Mode of Presentation
+ * Postdeadline Papers
+
+Overview
+
+The OFC technical program is divided into 16 categories that cover the full breadth of component, system and network technologies relating to fiber optic communications. The categories also accommodate the full range of timescales from current deployment to long term research.
+
+Requirements
+
+35-word Abstract: Your abstract should be a brief summary of your paper topic. If your paper is accepted, your 35-word abstract will be included in the online program. Note that the same abstract should be included in the 3-page summary as highlighted in the style guide.
+
+3-page Summary: All contributed authors are required to submit a final summary of their work for publication in the OFC Technical Digest, via the Optica Publishing Group platform. Style guides are provided in a variety of different formats to support authors’ needs. All PDF submissions MUST contain the following items in order to be published:
+
+ 1. Complete title
+ 2. Complete listing of all authors and their affiliations
+ 3. Self-contained abstract, limited to 35-words (indexers such as Google Scholar will not index papers that do not contain abstracts)
+ 4. Appropriate copyright statement following the abstract. By default, the copyright statement will appear as YYYY [Year of the conference] The Author(s).
+ 5. Permission and attribution for any trademarked or copyright images. Note that images of people or images owned or trademarked by other entities (including, for example, well-known logos or cartoon characters) will also require official written permission.
+
+Category Selection: You will be asked to choose a sub-category within one of the main categories. Category descriptions can be found on the Topic Categories page.
+
+Copyright Agreement: The submission system incorporates an electronic copyright transfer agreement as part of your submission. No additional mailed documentation is required.
+
+Presentation Preference: The presentation options for contributed papers are “oral or poster acceptable” and “poster only”. The committee has the final say on presentation types, though every effort is made to honor authors’ choices. Note: Postdeadline papers are strictly oral.
+
+Adherence to the instructions for preparation of the abstract and summary is imperative. Failure to complete any of the preceding requirements may result in the rejection of a paper. NO CHANGES OR REVISIONS WILL BE ALLOWED AFTER THE SUBMISSION DEADLINE.  Proof your work before submitting. Emailed or faxed submissions will not be accommodated.
+
+A complete submission must be submitted via the online submission system in adherence with the style guide and by the published deadline.
+
+Registration and submission for technical sessions is open to all members of the scientific and technical community. It is incumbent on the authors to obtain appropriate approval to present their work to this international forum.
+
+Pre-Print Declaration
+OFC considers papers that have already been submitted to a “Pre-Print Server” or any other type of online archive to be published and restricts these papers from consideration.  During the submission process, the submitting authors will attest that the paper has not already been submitted to any form of pre-print process.
+
+Style Guide
+
+Style guides are provided in a variety of different formats to support authors’ needs. Style guides are the same for all Optica managed meetings. Be sure to confirm page count and paper size requirements for the meeting to which you are submitting. OFC papers are three pages.
+
+ * Download style guide in PDF.
+
+ * Download style guide in Word Doc.
+
+ * Download LaTeX style guide (Overleaf).  NOTE: The Optica LaTeX template can be retrieved from Overleaf for use in your personal TeX system or directly in Overleaf. Authoring in Overleaf is free, with add-on features such as online collaboration available for a fee.
+
+IMPORTANT! Please embed all fonts; use standard fonts when possible. Problems may occur if non-English font packages (for example, Japanese, Korean or Chinese fonts, etc.) are used in the body of your paper summary, as well as in all figures and tables. Characters in these fonts cannot be seen by reviewers. In the past, we have had particular trouble with MS-PGothic, MS-Gothic, and MS-Mincho.
+
+Proof your work before submitting. Changes or revisions are not accepted after the submission deadline.
+
+If you have any questions regarding the paper preparation process, please contact Optica program management staff at cstech@optica.org.
+
+Peer Review
+
+OFC submissions are high-quality technical papers that undergo a blinded peer-review conducted by the members of the Technical Program Committee. Papers will be reviewed by the experts within the subcommittee (SC) you choose unless they get recategorized by the Program Chairs. To determine which Track (D-, S- or N-) to submit to, please carefully review the descriptions in the list of topics and keep in mind the focus of each Track as outlined in their Titles. If you are unsure of which SC to choose, please select one that seems the closest. The Program Chairs review all submissions for correct SC categorization and make changes, if required.
+
+In general, D-Track evaluates papers studying the design, fabrication and characterization of Devices, Components and Fibers. Devices and PICs evaluated in a System should be submitted in S-Track in the appropriate SC. S-Track evaluates papers at the Subsystem and System level at the areas outlined in the SC Titles and the SC sub-bullets, while the N-Track focuses on the Networking and Service aspects of Networks and Systems. Papers related to Devices, Systems and Networks for Quantum Communications should be submitted in the Subcommittee Q (SC-Q). Commercially sensitive aspects can be omitted from submitted papers. However, the remaining content must have enough technical substance to meet OFC standards.
+
+Publish/Disseminate
+
+All technical information contained in the summary must be approved for public distribution by all controlling organizations prior to submission. OFC is a public forum for the exchange of information. For all reasonable questions (including technical detail), presenters are encouraged to have answers approved for distribution prior to the presentation. Authors not interested in discussing their work with attendees in a conference setting are encouraged to submit their work to other forums.
+
+Papers accepted for presentation during the OFC technical sessions will be published in the OFC Technical Digest and may be referenced by other publications. Papers appearing in the technical digest should not have been published previously in substantially the same form, and may not be published subsequently in substantially the same form in industry journals or other forums. In addition, summaries of those papers presented at the conference will also be made available on the Optica Publishing Group platform and IEEE Xplore after the conference.
+
+Mode of Presentation
+
+The program committee has scheduled both oral and poster sessions. The abstract and summary of both oral and poster papers are published in the same manner in the online program and the OFC Technical Digest. Within the electronic submission form, all authors will be asked for their presentation format preference.
+
+Oral Sessions
+
+The presentation times for oral sessions are as follows: contributed presentations are 15 minutes each, invited talks are 30 minutes, and tutorials are 60 minutes. Each presentation will have a break for questions during the last 2-5 minutes of the presentation.
+
+Poster Sessions
+
+Poster sessions are scheduled to provide an opportunity for selected papers to be presented in greater visual detail and should facilitate vivid discussions with attendees. For poster sessions, each author is provided an 8 foot high x 4 foot wide (244 cm x 122 cm) bulletin board on which to display a summary of the paper. Authors must remain in the vicinity of the bulletin board for the duration of the session (120 minutes) to answer questions. Note that poster presenters are not supplied with any audiovisual equipment.
+
+Postdeadline Papers
+
+Postdeadline papers will follow the same submission and review methods as contributed submissions. Postdeadline submissions are not an opportunity to submit a contributed paper after the published deadline, but are intended to provide those with late-breaking work an opportunity to submit that work for consideration. Postdeadline submissions should describe new and significant material in rapidly advancing areas. A limited number of postdeadline submissions will be selected for presentation, and only those papers judged to be truly excellent and compelling in their timeliness will be accepted.
+
+OFC®: Optical Fiber Communication Conference® and Exposition
+OFC and Optical Fiber Communication Conference are registered trademarks of Optica.
+
+Copyright © 2026 Privacy Policy | Event Policies and Terms | Code of Conduct | Cookie Notice
+
+Actions
+
+ * Submit a Paper
+ * Register
+ * Reserve Your Hotel
+ * Exhibit at OFC
+ * Contact Us
+
+Technical Conference
+
+ * Program
+ * Invited Speakers
+ * Conference Archives
+
+Exhibition
+
+ * Exhibitors and Floorplan
+
+ * Search
+ * About
+   Back
+
+   About
+
+    * Committee
+    * Archives
+    * Contact Us
+    * Event Policies & Terms
+
+ * Conference Programs
+   Back
+
+   Conference Programs
+
+    * Schedule at a Glance
+    * Invited & Tutorial Speakers
+    * Short Courses
+    * Special Events
+    * Symposia, Panels and Special Sessions
+    * Workshops
+
+ * Exhibition Programs
+ * Exhibit at OFC
+   Back
+
+   Exhibit at OFC
+
+    * Floor Plan and Exhibitors
+    * Sample Booth Budget
+    * Exhibit Pavilions
+    * Exhibitor Service Center
+
+ * Hotel & Travel
+   Back
+
+   Hotel & Travel
+
+    * About Los Angeles
+    * Travel & Transportation
+    * Travel Discounts
+    * Visa Information
+    * Sustainability at OFC
+
+ * Registration
+ * Submit a Paper
+   Back
+
+   Submit a Paper
+
+    * Author Timeline
+    * Topic Categories
+    * Submission Guidelines
+    * Dataset Paper Submissions
+    * Machine Learning Paper Submissions
+    * Demo Zone Submission Guidelines
+    * Awards and Prizes
+
+ * Exhibitor Service Center
+ * For Media/Exhibitor PR
+
+ * Login

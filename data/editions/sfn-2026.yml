@@ -1,0 +1,62 @@
+id: sfn-2026
+series: sfn
+name: Neuroscience 2026 (SfN 2026)
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: sfn-2026-abstracts
+  quote: "Abstract presentations are accepted into either poster or nanosymposium sessions. All abstract presenters also have the option to upload a virtual poster."
+location: { city: "Washington, D.C.", country: USA, country_code: US }
+dates: { start: 2026-11-14, end: 2026-11-18 }
+milestones:
+  - type: abstract
+    at: 2026-06-11T14:00
+    tz: America/New_York
+    status: confirmed
+    src: sfn-2026-dates
+    quote: "June 11 * Extended deadline for abstract submission, 2 p.m. EDT"
+  - type: abstract
+    label_zh: 晚到摘要（Late-Breaking）截止
+    start: 2026-09-08
+    end: 2026-09-15
+    tz: America/New_York
+    status: confirmed
+    src: sfn-2026-dates
+    quote: "September 15 * Late-breaking abstract submission closes"
+    note_zh: 9/8 开放，9/15 关闭；官网这一行没写具体时刻。
+  - type: early_registration
+    at: 2026-10-05T23:59
+    tz: America/New_York
+    status: confirmed
+    src: sfn-2026-dates
+    quote: "Deadline for online advance registration, 11:59 p.m. EDT"
+    note_zh: 10/6 零点起是现场价（regular registration），一直开到会议结束。
+  - type: refund_cutoff
+    label_zh: 取消注册可退款的最后一天
+    at: 2026-10-05
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: sfn-2026-dates
+    quote: "October 5 * Last day to cancel annual meeting registration and receive refund"
+    note_zh: 退款是否扣手续费见官网 Cancelation and Substitution Policy；这一天也是换人参会（substitution）的截止日。这一行没写时刻（同一天的提前注册截止写 11:59 p.m. EDT），按北京时间当天结束算，比按美东时间早 12 小时，更保守。
+  - type: presentation_format_final
+    label_zh: 改为只线上报告的截止
+    at: 2026-11-05
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: sfn-2026-dates
+    quote: "November 5 * Deadline for abstract presenters to switch from in-person to virtual-only presentation"
+    note_zh: 签证来不及时，在这天前可以从线下报告改为只线上报告。这一行没写时刻和时区，按北京时间当天结束算（更保守）。
+  - type: conference
+    start: 2026-11-14
+    end: 2026-11-18
+    tz: America/New_York
+    status: confirmed
+    src: sfn-2026-home
+    quote: "Dates: Saturday, November 14–Wednesday, November 18"
+last_checked: 2026-09-25
+note_zh: 会场是华盛顿的 Walter E. Washington Convention Center。常规摘要和晚到摘要都已截止；晚到摘要的结果 9 月下旬发给报告人。

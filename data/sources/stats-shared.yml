@@ -1,0 +1,12 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-shared
+sources:
+  - id: lixin4ever-readme
+    url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    mirror_url: https://raw.githubusercontent.com/lixin4ever/Conference-Acceptance-Rate/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    title: lixin4ever/Conference-Acceptance-Rate README (MIT; pinned commit 6297bb0)
+    kind: repo
+    fetched_at: 2026-09-25T13:11:15Z
+    http_status: 200
+    snapshot: 90e9d479ef5b00c5f1e4976d08b7bdf0497f2c7ca46ea3770ff43ac54ca8c73b
+    note_zh: 第三方数据集（MIT，见 NOTICE），未注明出处；快照取自同一提交的原始文件。

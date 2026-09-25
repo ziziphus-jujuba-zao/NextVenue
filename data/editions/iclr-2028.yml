@@ -3,11 +3,8 @@ series: iclr
 name: ICLR 2028
 year: 2028
 kind: conference
-topics: [ml, ai]
+data_level: curated
 derived_from: iclr-2027
-ranks:
-  ccf: A
-  ccf_edition: 7
 milestones:
   - type: abstract
     at: 2027-09-18T23:59

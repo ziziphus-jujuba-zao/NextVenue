@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: rsna-2026
+sources:
+  - id: rsna-2026-pricing
+    url: https://www.rsna.org/annual-meeting/attendee-resources/pricing-and-registration
+    title: RSNA 2026 Pricing and Registration
+    kind: other
+    fetched_at: 2026-09-25T15:54:36Z
+    http_status: 200
+    snapshot: bd5b4d601a07d6296cb34a38bedbbe8ff239a28503ceb323043c969607497d62
+  - id: rsna-2026-abstracts
+    url: https://www.rsna.org/annual-meeting/abstract-submission
+    title: RSNA 2026 Abstract Submission
+    kind: cfp
+    fetched_at: 2026-09-25T15:54:50Z
+    http_status: 200
+    snapshot: b4765ea2affdad1bda6e17f8249077126b3363c085211122ba45433a8e268b05
+  - id: rsna-future-meetings
+    url: https://www.rsna.org/annual-meeting/future-and-past-meetings
+    title: RSNA Future and Past Meetings
+    kind: other
+    fetched_at: 2026-09-25T15:54:51Z
+    http_status: 200
+    snapshot: 356f454b02908ddfa121501515afdd3e108ad5192a3ed29ac67a100c83e4737b

@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: issta-2026
+series: issta
+name: ISSTA 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/ISSTA
+  conf_id: issta26
+  link: https://conf.researchr.org/home/issta-2026
+  place: Oakland, California, United States
+  date: October 3-9, 2026
+  timezone: AoE
+location:
+  city: Oakland
+  country: United States
+  country_code: US
+dates:
+  start: 2026-10-03
+  end: 2026-10-09
+milestones:
+  - type: paper
+    at: 2026-01-29T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-10-03
+    end: 2026-10-09
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

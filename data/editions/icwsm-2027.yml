@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icwsm-2027
+series: icwsm
+name: ICWSM 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/ICWSM
+  conf_id: icwsm2027
+  link: https://www.icwsm.org/2027/
+  place: Edinburgh, Scotland
+  date: TBD
+  timezone: AoE
+location:
+  city: Edinburgh
+  country: Scotland
+  country_code: GB
+milestones:
+  - type: paper
+    at: 2026-05-15T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: 1st Full-paper Deadline
+  - type: paper
+    at: 2026-09-15T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: 2nd Full-paper Deadline
+  - type: paper
+    at: 2027-01-15T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: 3rd Full-paper Deadline
+  - type: conference
+    tz: AoE
+    status: tba
+last_checked: 2026-09-25

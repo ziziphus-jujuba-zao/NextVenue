@@ -3,8 +3,8 @@ series: aaai
 name: AAAI-27
 year: 2027
 kind: conference
-topics: [ai, ml]
-location: { city: Montréal, country: Canada }
+data_level: curated
+location: { city: Montréal, country: Canada, country_code: CA }
 dates: { start: 2027-02-16, end: 2027-02-23 }
 milestones:
   - type: abstract
@@ -62,7 +62,47 @@ milestones:
   - type: author_registration
     tz: AoE
     status: tba
-    note_zh: 官方要求至少一位作者注册并现场报告，否则论文不进论文集，但作者注册截止日期未在作者页面公布。
+    note_zh: 官方要求至少一位作者按线下价注册并现场报告，否则论文不进论文集，但作者页面和注册页都没有写作者注册截止日期。
+  - type: financial_aid
+    label_zh: 学生志愿者（Student Scholar Volunteer）申请
+    start: 2026-11-30T00:01
+    end: 2026-12-04T23:59
+    tz: America/Toronto
+    status: confirmed
+    src: aaai-27-ssv
+    quote: "Application Closes: December 4, 2026 – Closes at 11:59PM Eastern Time"
+    note_zh: '开放时间原文是 "Application Opens: November 30, 2026 – Opens at 12:01AM Eastern Time"，即北京时间 11/30 周一 13:01；截止是北京时间 12/5 周六 12:59。申请者须是 AAAI 会员；结果出来前不要注册（见"志愿者结果前注册"卡）。'
+  - type: financial_aid_result
+    label_zh: 学生志愿者结果
+    tz: America/Toronto
+    status: tba
+    note_zh: 官方没有公布志愿者结果的日期。
+  - type: early_registration
+    at: 2026-12-15T23:59
+    tz: America/Toronto
+    status: confirmed
+    src: aaai-27-registration
+    quote: "All deadlines are 11:59 PM EST Early On or before December 15, 2026"
+    note_zh: 北京时间 12/16 周三 12:59，也就是出结果后约两周。线上票同一天从早鸟价转为标准价。
+  - type: standard_registration
+    at: 2027-01-10T23:59
+    tz: America/Toronto
+    status: confirmed
+    src: aaai-27-registration
+    quote: "Standard By January 10, 2027 Late After January 10, 2027"
+    note_zh: 北京时间 1/11 周一 12:59，之后是 late 价。
+  - type: refund_cutoff
+    label_zh: 退款申请截止（每笔扣 $100 手续费）
+    at: 2027-01-10T23:59
+    tz: America/Toronto
+    status: confirmed
+    src: aaai-27-registration
+    quote: "The deadline for refund requests is January 10, 2027 at 11:59 PM EST."
+    note_zh: 北京时间 1/11 周一 12:59。要发邮件到 aaaireg@aaai.org 书面申请；每笔退款扣 $100 手续费（"A $100.00 processing fee will be assessed for all refunds."），所以不是全额。官方没有拒签退款的专门条款。
+  - type: poster
+    tz: America/Toronto
+    status: tba
+    note_zh: 注册页只写了 poster 场次（2/17–2/20 中午，Palais des congrès 2 层 220 厅），没有 poster 尺寸和提交截止。
   - type: conference
     start: 2027-02-16
     end: 2027-02-23
@@ -70,4 +110,136 @@ milestones:
     status: confirmed
     src: aaai-27-cfp
     quote: "February 16-23, 2027 AAAI-27 Conference"
-last_checked: 2026-09-24
+logistics:
+  venue:
+    name: Palais des congrès de Montréal
+    address: tba
+    src: aaai-27-accommodation
+    quote: "We are excited to welcome you to AAAI-27 at the Palais des congrès de Montréal!"
+  fees:
+    - currency: USD
+      src: aaai-27-registration
+      quote: "All deadlines are 11:59 PM EST Early On or before December 15, 2026 Standard By January 10, 2027 Late After January 10, 2027"
+      note_zh: 技术会议注册（含论文和 poster 场次、邀请报告、开幕招待会）。价格只有会员价：已是会员的选前两行；不是会员的选 Silver，含一年线上会员。workshop、tutorial 另外收费。
+      tiers:
+        - { id: early, until: early_registration }
+        - { id: standard, until: standard_registration }
+        - { id: late }
+      rows:
+        - id: member
+          label_zh: 在册会员
+          for: [academic, industry]
+          member: current
+          covers_author: true
+          amounts: [750, 995, 1250]
+          quote: "AAAI Member Technical $750 $995 $1250"
+        - id: student_member
+          label_zh: 在册学生会员
+          for: [student]
+          member: current
+          covers_author: true
+          amounts: [350, 475, 600]
+          quote: "AAAI Student Technical $350 $475 $600"
+        - id: silver
+          label_zh: 新入会或续会（含一年会员）
+          for: [academic, industry]
+          member: new
+          covers_author: true
+          amounts: [870, 1120, 1370]
+          quote: "AAAI Silver Technical $870 $1120 $1370"
+        - id: student_silver
+          label_zh: 学生新入会或续会（含一年会员）
+          for: [student]
+          member: new
+          covers_author: true
+          amounts: [390, 515, 640]
+          quote: "AAAI Student Silver Technical $390 $515 $640"
+    - currency: USD
+      src: aaai-27-registration
+      quote: "This rate is not for presenting authors."
+      note_zh: 线上票只有两档（"Standard After December 15, 2026"），不能用来满足作者注册要求。
+      tiers:
+        - { id: early, until: early_registration }
+        - { id: standard }
+      rows:
+        - id: virtual
+          label_zh: 线上
+          for: [academic, industry]
+          member: none
+          covers_author: false
+          amounts: [80, 120]
+          quote: "Virtual Regular $80 $120"
+        - id: virtual_student
+          label_zh: 线上学生
+          for: [student]
+          member: none
+          covers_author: false
+          amounts: [40, 60]
+          quote: "Virtual Student $40 $60"
+  coverage:
+    per: unspecified
+    rate: in_person
+    extra_zh: 官方只写每篇论文至少一位作者按线下价注册并现场报告，没写一份注册能覆盖几篇。有多篇论文的，建议直接问主办方。
+    src: aaai-27-registration
+    quote: "At least one author is required to register for the conference at the in-person rate and to present the paper in-person"
+  visa_letter:
+    after: paid_registration
+    how_zh: 付费注册后，用注册确认邮件里的链接申请邀请函；递交加拿大签证后，要把签证申请号（VAN）等信息报给 AAAI，怎么报写在邀请函邮件里。
+    lead: tba
+    url: https://aaai.org/conference/aaai/aaai-27/visa-letters-of-invitation/
+    src: aaai-27-visa-letters
+    quote: "AAAI will provide personalized invitation letters ONLY for paid conference registrants of AAAI-27."
+  aid:
+    - id: ssv
+      name: AAAI-27 Student Scholar Volunteer Program
+      covers_zh: 部分差旅补助；做志愿者的学生另有少量免费技术会议注册。申请者须是全日制学生和 AAAI 会员，并附导师推荐信
+      url: https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/
+      src: aaai-27-ssv
+      quote: "The Student Scholar Volunteer Program provides partial travel support for students who are:"
+  hotels:
+    - name: Le Westin Montréal
+      address: 270 Rue Saint-Antoine Ouest, Montréal, QC H2Y 0A3, Canada
+      rate: { amount: 239, currency: CAD }
+      cutoff: 2027-01-25
+      anchor: Le Westin Montréal
+      src: aaai-27-accommodation
+      quote: "Cutoff Date: January 25, 2027"
+      note_zh: 主酒店（Headquarter Hotel）。
+    - name: AC Hotel Old Montréal by Marriott
+      address: 445 Rue Saint-Jean-Baptiste, Montréal, QC H2Y 2Z7, Canada
+      rate: { amount: 229, currency: CAD }
+      cutoff: 2026-12-29
+      anchor: AC Hotel Old Montréal by Marriott
+      src: aaai-27-accommodation
+      quote: "Cutoff Date: December 29, 2026"
+    - name: DoubleTree by Hilton Montréal
+      address: 1255 Rue Jeanne-Mance, Montréal, QC H5B 1E5, Canada
+      rate: { amount: 245, currency: CAD }
+      cutoff: 2027-01-15
+      anchor: DoubleTree by Hilton Montréal
+      src: aaai-27-accommodation
+      quote: "Cutoff Date: January 15, 2027"
+    - name: Embassy Suites by Hilton Montréal
+      address: 208 Rue Saint-Antoine O, Montréal, QC H2Y 0A6, Canada
+      rate: { amount: 274, currency: CAD }
+      cutoff: 2027-01-15
+      anchor: Embassy Suites by Hilton Montréal
+      src: aaai-27-accommodation
+      quote: "Cutoff Date: January 15, 2027"
+    - name: Hampton Inn by Hilton Montréal Downtown
+      address: 985 Boul. Saint-Laurent, Montréal, QC H2Z 1J4, Canada
+      rate: { amount: 227, currency: CAD }
+      cutoff: 2027-01-15
+      anchor: Hampton Inn by Hilton Montréal Downtown
+      src: aaai-27-accommodation
+      quote: "Cutoff Date: January 15, 2027"
+  poster:
+    status: tba
+    checked_sources: [aaai-27-registration, aaai-27-cfp, aaai-27-publication-attendance]
+    note_zh: 注册页只写了 poster 场次的时间和地点，没有 poster 尺寸。
+  links:
+    - { kind: registration, url: "https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/" }
+    - { kind: visa, url: "https://aaai.org/conference/aaai/aaai-27/visa-letters-of-invitation/" }
+    - { kind: hotels, url: "https://aaai.org/conference/aaai/aaai-27/accommodation/" }
+    - { kind: aid, url: "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/" }
+last_checked: 2026-09-25

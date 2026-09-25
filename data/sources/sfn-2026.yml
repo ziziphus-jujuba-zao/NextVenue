@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: sfn-2026
+sources:
+  - id: sfn-2026-dates
+    url: https://www.sfn.org/meetings/neuroscience-2026/general-information/dates-and-deadlines
+    title: Neuroscience 2026 Dates and Deadlines
+    kind: dates
+    fetched_at: 2026-09-25T15:52:13Z
+    http_status: 200
+    snapshot: 57d682a5bba08e939eb6dac38efc19f5e66c59356a2e87798dc7a5e26f5e694b
+  - id: sfn-2026-home
+    url: https://www.sfn.org/meetings/neuroscience-2026
+    title: Neuroscience 2026 Home
+    kind: other
+    fetched_at: 2026-09-25T15:52:28Z
+    http_status: 200
+    snapshot: 450b264316c3d6dfbd5d57fb2111225d7a90decc3ecdc59cdb3ce63957358372
+  - id: sfn-2026-abstracts
+    url: https://www.sfn.org/meetings/neuroscience-2026/call-for-abstracts/presentation-formats
+    title: Neuroscience 2026 Presentation Formats
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:48Z
+    http_status: 200
+    snapshot: 2f5ed19e777a483893b45e87f60d3eb5b5cdca32efdadd9b7747a4a0ccee3be0

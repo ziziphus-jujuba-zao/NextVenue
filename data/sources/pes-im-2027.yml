@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: pes-im-2027
+sources:
+  - id: pes-im-2027-cfp
+    url: https://www.pes-im.org/2027-beijing/program/call-for-papers/
+    title: IEEE PES International Meeting 2027 Beijing Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:56:51Z
+    http_status: 200
+    snapshot: 80e2bbe6cb9cbe269769e0d30ecdabe5495064e1fcdd4d276f32d79ebd8a65c6

@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: oopsla-2026
+series: oopsla
+name: OOPSLA 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/OOPSLA
+  conf_id: oopsla26
+  link: https://conf.researchr.org/track/splash-2026/oopsla-2026
+  place: Oakland, California, United States
+  date: October 3-9, 2026
+  timezone: UTC-12
+location:
+  city: Oakland
+  country: United States
+  country_code: US
+dates:
+  start: 2026-10-03
+  end: 2026-10-09
+milestones:
+  - type: paper
+    at: 2025-10-10T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: Submission Deadline Round 1
+  - type: paper
+    at: 2026-03-17T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: Submission Deadline Round 2
+  - type: conference
+    start: 2026-10-03
+    end: 2026-10-09
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

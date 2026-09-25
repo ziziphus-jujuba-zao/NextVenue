@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: gecco-2027
+series: gecco
+name: GECCO 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/GECCO
+  conf_id: gecco27
+  link: https://gecco-2027.sigevo.org/HomePage
+  place: Kraków, Poland
+  date: July 12-16, 2027
+  timezone: AoE
+location:
+  city: Kraków
+  country: Poland
+  country_code: PL
+dates:
+  start: 2027-07-12
+  end: 2027-07-16
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-07-12
+    end: 2027-07-16
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,298 @@
+Skip to content
+ * Program
+   * At a Glance
+   * Full Program
+   * Video Recordings
+   * Accepted Papers
+   * Awards
+   * Competitions
+   * Doctoral Consortium
+   * D&I Activities
+   * IJCAI-26 Awards
+   * Industry Day
+   * Invited Talks
+   * Tutorials
+   * Outreach
+   * Workshops
+   * Calls (expired)
+     * Main Track CFP
+     * Special Track – AI4Tech
+     * Special Track – AI and Health
+     * Special Track – AI and Robotics
+     * Special Track – AI and Social Good
+     * Special Track – Human-Centred AI
+     * Survey Track
+     * Competitions And Challenges
+     * Demonstrations Track
+     * Doctoral Consortium
+     * Workshops
+     * Tutorials
+     * Early Career Spotlights
+     * D&I activities
+     * Call for Nominations: IJCAI-2026 Awards
+     * Grants & Volunteering
+       * Call For Grant Applications
+       * Call For Volunteers
+     * Join
+       * Call for PC Members
+       * Call for SPC Members
+ * FAQ
+   * Submissions FAQ
+   * Author’s Response FAQ
+   * Registration FAQ
+ * Attending
+   * Registration
+     * Registration Information
+     * Disclaimer
+     * Registration FAQ
+     * PPI Reviewer Benefits
+   * Social Events
+   * Travelling
+   * Venues
+   * Visa Information
+   * Hotel Booking
+ * Organization
+   * Conference Committee
+   * Program Committee
+   * Local Arrangements Committee
+   * Contact
+   * Press
+ * Sponsorship
+   * Sponsors
+   * Sponsorship Opportunities
+   * Exhibitors
+   * Exhibition Opportunities
+ * Video Recordings
+
+ * Program
+   * At a Glance
+   * Full Program
+   * Video Recordings
+   * Accepted Papers
+   * Awards
+   * Competitions
+   * Doctoral Consortium
+   * D&I Activities
+   * IJCAI-26 Awards
+   * Industry Day
+   * Invited Talks
+   * Tutorials
+   * Outreach
+   * Workshops
+   * Calls (expired)
+     * Main Track CFP
+     * Special Track – AI4Tech
+     * Special Track – AI and Health
+     * Special Track – AI and Robotics
+     * Special Track – AI and Social Good
+     * Special Track – Human-Centred AI
+     * Survey Track
+     * Competitions And Challenges
+     * Demonstrations Track
+     * Doctoral Consortium
+     * Workshops
+     * Tutorials
+     * Early Career Spotlights
+     * D&I activities
+     * Call for Nominations: IJCAI-2026 Awards
+     * Grants & Volunteering
+       * Call For Grant Applications
+       * Call For Volunteers
+     * Join
+       * Call for PC Members
+       * Call for SPC Members
+ * FAQ
+   * Submissions FAQ
+   * Author’s Response FAQ
+   * Registration FAQ
+ * Attending
+   * Registration
+     * Registration Information
+     * Disclaimer
+     * Registration FAQ
+     * PPI Reviewer Benefits
+   * Social Events
+   * Travelling
+   * Venues
+   * Visa Information
+   * Hotel Booking
+ * Organization
+   * Conference Committee
+   * Program Committee
+   * Local Arrangements Committee
+   * Contact
+   * Press
+ * Sponsorship
+   * Sponsors
+   * Sponsorship Opportunities
+   * Exhibitors
+   * Exhibition Opportunities
+ * Video Recordings
+
+REGISTRATION INFORMATION
+
+The IJCAI Organization is pleased to announce that registration for IJCAI-ECAI-26 is now open.
+** EARLY REGISTRATION CUT OFF: June 15, 2026, 23:59 pm AoE **
+
+Please read the following information carefully along with the
+Conference Info menu item in the registration system.
+
+Please have your credit card ready for payment! No other payment options are available.
+
+1) Deadlines:
+
+   Early registration: May 15 – June 15, 2026 (23:59 pm, AoE)
+   Late registration: June 16 – July 15, 2026 (23:59 pm, AoE)
+   Onsite registration: July 16 – August 21, 2026 (noon, CEST)
+
+2) General Information
+
+ * One regular delegate full registration or Student with Paper per each accepted paper is required. The registered author has to attend and present the paper. If more than one author attends, then each author must register separately. Should none of the authors be able to attend in Bremen, the paper will be removed from the Conference Proceedings! No virtual/hybrid options are available for any presentations.
+ * Should sole author/authors of the papers be student(s) only, they can apply to the Grants’ program to defer the cost and must register as Student with Paper: https://forms.gle/p76omDCtAvcBBdQh7
+ * Regular delegate full registration fee includes one opening reception  ticket, one banquet ticket and free tutorials.
+ * Student with Paper registration fee includes one opening reception ticket, one banquet ticket, one student reception ticket and free tutorials.
+ * Student only registration fee includes one opening reception ticket, one student reception ticket and free tutorials.
+ * Additional tickets for social events can be purchased at time of registration (see bottom of this page).
+ * Letter of Invitation for Visa (Schengen) can be obtained at time of registration. You can select and fill out the applicable visa form under “Options” in the registration system. Have your passport ready.Note that you can fill out the form only ONCE and you should only fill it out if you actually require a visa for Schengen.
+ * A letter of invitation for administrative purposes will be sent to each delegate together with registration confirmation.
+ * Workshop and/or tutorials only registrations DO NOT include ANY social events!
+
+Students
+
+ * Students will be required to upload proof of their student status at time of registration. Proof of status will be verified by   IJCAI. Only after the status verification is completed, the student   registration will become final!
+ * Student ID’s without clear dates of validity, webpage screenshots and unofficial records will NOT be accepted as proof! Validity of proof must overlap with conference dates. Students must be full-time students.
+ * Acceptable proof of student status MUST be clearly readable in English language, contain the name of the candidate and the dates of validity. Proof containing a verification code must not fail verification.
+ * PostDocs don’t qualify for student discount OR Volunteers’ Program!
+ * Students applying to the Volunteers’ program should not register and pay BEFORE the notificationfrom the Volunteers’ Chairs, UNLESS they are beneficiaries of the PPI initiative OR must register as student with Paper being either the only author attending and presenting it, otherwise processing fee of USD 150 shall apply!
+
+Register now:
+https://registration.ijcai.org
+
+For technical or registration questions, please contact: registration@ijcai.org
+
+3) Membership and Discounts
+
+IJCAI and EurAI members are entitled to discounted registration fees (by USD 50) for the main conference. PC and SPC members entitled to Gold, Silver or Bronze benefits from the PPI proceeds as described here https://2026.ijcai.org/ppi-reviewer-benefits-tier-definitions will receive personal invitations to register in accordance with their tiers and applicable discounts.
+
+EurAI members should please upload PDF proof of their membership at time of registration. Proof will be verified before the registration can be considered completed.
+
+IJCAI membership is available for an additional discounted fee of USD 100 for 3 yrs regular delegates or USD 50 for 3 yrs for students.
+
+Please note that PPI benefit applies only to the early main-conference registration fee (and not to optional additional items), cannot be combined with membership discounts, and is non-transferable… Any unused PPI funds will be carried over to support reviewers for future IJCAI editions.
+
+4) Fees
+
+MEMBERS MAIN CONFERENCE
+REGULAR
+Early                     U$ 980.00
+Late                      U$ 1,150.00
+On Site                   U$ 1,250.00
+STUDENTS
+Early – Student           U$ 500.00
+Late – Student            U$ 550.00
+On Site – Student         U$ 600.00
+
+All IJCAI and EurAI members are considered members!
+
+NON-MEMBERS MAIN CONFERENCE
+REGULAR
+Early                         U$ 1,030.00
+Late                          U$ 1,200.00
+On Site                       U$ 1,300.00
+STUDENTS
+Early – Student               U$ 550.00
+Late – Student                U$ 600.00
+On Site – Student             U$ 650.00
+
+WS/TUTORIAL/DC ONLY Fees
+
+WORKSHOP ONLY
+GENERAL Workshop Only
+Early
+1 day                   U$ 350.00
+2 days                  U$ 480.00
+3 days                  U$ 650.00
+Late
+1 day                   U$ 400.00
+2 days                  U$ 560.00
+3 days                  U$ 690.00
+On Site
+1 day                   U$ 450.00
+2 days                  U$ 590.00
+3 days                  U$ 710.00
+STUDENT Workshop Only
+Early Student
+1 day                   U$ 180.00
+2 days                  U$ 250.00
+3 days                  U$ 340.00
+Late Student
+1 day                   U$ 220.00
+2 days                  U$ 290.00
+3 days                  U$ 370.00
+On Site Student
+1 day                   U$ 280.00
+2 day                   U$ 350.00
+3 days                  U$ 420.00
+
+TUTORIAL ONLY
+GENERAL Tutorial Only
+Early
+1/2 day                 U$ 275.00
+1 day                   U$ 380.00
+2 days                  U$ 530.00
+3 days                  U$ 680.00
+Late
+1/2 day                 U$ 330.00
+1 day                   U$ 440.00
+2 days                  U$ 650.00
+3 days                  U$ 700.00
+On Site
+1/2 day                 U$ 380.00
+1 day                   U$ 480.00
+2 days                  U$ 700.00
+3 days                  U$ 750.00
+STUDENT Tutorial Only
+Early Student
+1/2 day                 U$ 165.00
+1 day                   U$ 220.00
+2 days                  U$ 300.00
+3 days                  U$ 380.00
+Late Student
+1/2 day                 U$ 220.00
+1 day                   U$ 275.00
+2 days                  U$ 325.00
+3 days                  U$ 400.00
+On Site Student
+1/2 day                 U$ 275.00
+1 day                   U$ 300.00
+2 days                  U$ 375.00
+3 days                  U$ 450.00
+
+5) Additional tickets available for purchase:
+
+Banquet ticket, Wednesday, August 19, 2026: U$ 150
+Reception ticket, Monday, August 17, 2026: U$ 120
+Student reception ticket, Thursday, August 20, 2026: U$ 90
+Industry Day, Wednesday, August 19, 2026: U$ 150
+
+6) Diversity and Inclusion
+
+Diversity and Inclusion Lunch (one lunch on Tuesday, August 18, 2026): USD 15
+
+Number of seats is limited, first come, first serve applies.
+
+5) Disclaimer
+
+Visit: https://2026.ijcai.org/disclaimer
+
+6) FAQ
+
+Visit: https://2026.ijcai.org/registration-faq
+
+7) Cancellation Policy
+
+Cancellations are possible until later registration deadline (July 15, 2026) for a processing fee of USD 150. No refund will be made for cancellations received after July 15, 2025 or to the registrants who fail to attend in person.
+
+ * IJCAI - International Joint Conferences on Artificial Intelligence
+
+Copyright © 2025 IJCAI

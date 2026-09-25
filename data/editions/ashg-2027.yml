@@ -1,0 +1,21 @@
+id: ashg-2027
+series: ashg
+name: ASHG 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Nashville, country: USA, country_code: US }
+dates: { start: 2027-10-26, end: 2027-10-30 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/Chicago
+    note_zh: 查过 ASHG 往届与未来会议页，2027 届的摘要征集还没公布。
+  - type: conference
+    start: 2027-10-26
+    end: 2027-10-30
+    tz: America/Chicago
+    status: confirmed
+    src: ashg-future-meetings
+    quote: "2027 Nashville, TN October 26-30"
+last_checked: 2026-09-25

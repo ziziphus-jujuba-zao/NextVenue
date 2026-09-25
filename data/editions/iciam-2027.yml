@@ -1,0 +1,62 @@
+id: iciam-2027
+series: iciam
+name: ICIAM 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: iciam-2027-call
+  quote: "To ensure broad participation, each participant is limited to submitting one proposal/abstract for the congress."
+  note_zh: 个人投海报摘要；小型专题录用后，报告人 2027 年 2 月底前再交摘要。
+location: { city: The Hague, country: Netherlands, country_code: NL }
+dates: { start: 2027-07-12, end: 2027-07-16 }
+milestones:
+  - type: abstract
+    label_zh: 海报摘要 / 小型专题提案截止
+    at: 2026-12-07T23:59
+    tz: Europe/Amsterdam
+    status: confirmed
+    src: iciam-2027-call
+    quote: "The deadline to submit an abstract is 7 December 2026 (23:59 CET)."
+    note_zh: 小型专题（Mini Symposium）提案也是 12/7 23:59 CET 截止。每人只能投一项。
+  - type: financial_aid
+    label_zh: 资助申请截止
+    at: 2026-12-07
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iciam-2027-call
+    quote: "Deadline Grant Application: 7 December 2026"
+    note_zh: 要先投了海报摘要或小型专题提案才能申请。这一行没写时刻和时区，按北京时间当天 23:59 算。
+  - type: notification
+    status: tba
+    tz: Europe/Amsterdam
+    src: iciam-2027-call
+    quote: "Decision and notification of acceptance / rejection of proposals is scheduled for mid January 2027."
+    note_zh: 官网只说 2027 年 1 月中旬，没有具体日期。
+  - type: early_registration
+    at: 2027-02-09
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iciam-2027-call
+    quote: "Deadline Early Bird Registration: 9 February 2027"
+    note_zh: 官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: standard_registration
+    at: 2027-06-14
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iciam-2027-call
+    quote: "Deadline Regular Registration: 14 June 2027"
+    note_zh: 官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: conference
+    start: 2027-07-12
+    end: 2027-07-16
+    tz: Europe/Amsterdam
+    status: confirmed
+    src: iciam-2027-call
+    quote: "12 - 16 July 2027 | The Hague | The Netherlands"
+last_checked: 2026-09-25
+note_zh: 第 11 届，荷兰海牙，申根签证。

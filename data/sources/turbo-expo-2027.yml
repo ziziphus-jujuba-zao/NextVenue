@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: turbo-expo-2027
+sources:
+  - id: turbo-expo-2027-home
+    url: https://event.asme.org/Turbo-Expo
+    title: ASME Turbo Expo 2027
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:39Z
+    http_status: 200
+    snapshot: 681a9954a634e329e34887b0899ebb6ddbe5b204e348166827a2bbdc956b61c7

@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: spaa-2027
+series: spaa
+name: SPAA 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/SPAA
+  conf_id: spaa27
+  link: https://spaa.acm.org/
+  place: Atlanta, GA, USA
+  date: June 5 - June 11, 2027
+  timezone: AoE
+location:
+  city: Atlanta
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-05
+  end: 2027-06-11
+milestones:
+  - type: abstract
+    at: 2026-09-18T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Cycle 1
+  - type: paper
+    at: 2026-09-25T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Cycle 1
+  - type: abstract
+    at: 2027-01-22T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Cycle 2
+  - type: paper
+    at: 2027-01-29T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Cycle 2
+  - type: conference
+    start: 2027-06-05
+    end: 2027-06-11
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,52 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-acl
+sources:
+  - id: acl-2020-front-matter
+    url: https://aclanthology.org/2020.acl-main.0.pdf
+    title: ACL 2020 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:13:56Z
+    http_status: 200
+    snapshot: 27c412907f350d2c7d25721d6fceb766f913d92ed17b5a7327969c2d2dbe0cc1
+  - id: acl-2021-front-matter
+    url: https://aclanthology.org/2021.acl-long.0.pdf
+    title: ACL-IJCNLP 2021 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:13:59Z
+    http_status: 200
+    snapshot: 60505f78db2698da907964161af25a887083dd3f6c679e9caa7481caa1e555c4
+  - id: acl-2022-front-matter
+    url: https://aclanthology.org/2022.acl-long.0.pdf
+    title: ACL 2022 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:02Z
+    http_status: 200
+    snapshot: 182956645ad9d68cd4f46308583113cffd33befe1dd0e6d1e02a69e0111d3bb4
+  - id: acl-2023-front-matter
+    url: https://aclanthology.org/2023.acl-long.0.pdf
+    title: ACL 2023 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:05Z
+    http_status: 200
+    snapshot: ecc10e65687af76089ca1d79203e9c1843f9a8532df8d06e6466f011742174a6
+  - id: acl-2024-front-matter
+    url: https://aclanthology.org/2024.acl-long.0.pdf
+    title: ACL 2024 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:11Z
+    http_status: 200
+    snapshot: e64ae1ac99fea03da11b905c43990bd1939e96d185a8b16d3accd6375212747f
+  - id: acl-2025-front-matter
+    url: https://aclanthology.org/2025.acl-long.0.pdf
+    title: ACL 2025 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:18Z
+    http_status: 200
+    snapshot: 256da3220c0db1cfdfd01bf94fba955531bb41cea09d1fc260cf34af847a4312
+  - id: acl-2026-front-matter
+    url: https://aclanthology.org/2026.acl-long.0.pdf
+    title: ACL 2026 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:24Z
+    http_status: 200
+    snapshot: 3d59aa9bc71ce77fd272ccdf199240ce94ddf087152001ef5e66da9001edaba2

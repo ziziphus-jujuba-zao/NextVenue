@@ -5,7 +5,7 @@ sources:
     url: https://kdd2027.kdd.org/research-track-call-for-papers/
     title: KDD 2027 Research Track Call for Papers
     kind: cfp
-    fetched_at: 2026-09-24T22:59:11Z
+    fetched_at: 2026-09-25T10:43:14Z
     http_status: 200
     snapshot: 18035a8b98e601af915ac934dbde29285655dcb94c51d65539eae5d6eebe1b3e
     note_zh: 只有第一轮（FAQ 叫 August Cycle）的日期：摘要 2026-07-19、正文 07-26、rebuttal 09-29–10-13、出结果 11-14，均为 AoE；2 月轮日期未公布。也用作 kdd-2028 第一轮的推算依据。
@@ -13,7 +13,7 @@ sources:
     url: https://kdd2027.kdd.org/
     title: KDD 2027 Home
     kind: other
-    fetched_at: 2026-09-24T22:59:39Z
+    fetched_at: 2026-09-25T10:43:14Z
     http_status: 200
     snapshot: 089181e992b4d3db8550a333abb1634499f95bcbb4be9df1663b7076a68ccba3
     note_zh: 会期 August 1–5, 2027，San Jose McEnery Convention Center。
@@ -21,15 +21,15 @@ sources:
     url: https://kdd2027.kdd.org/frequently-asked-questions/
     title: KDD 2027 FAQ
     kind: faq
-    fetched_at: 2026-09-24T22:59:39Z
+    fetched_at: 2026-09-25T10:43:14Z
     http_status: 200
     snapshot: 3b583c31f5a8a4125507441edac0a824cc6445b67635acd802f70ac282ef9bd1
-    note_zh: 2 月轮通知日期写 “[exact date to be confirmed], 2027”；说明第一轮 Reject 的稿件不能投 2 月轮，只有 Resubmit 稿件可以。
+    note_zh: 2 月轮通知日期写 “[exact date to be confirmed], 2027”；说明第一轮 Reject 的稿件不能投 2 月轮，只有 Resubmit 稿件可以。注册 FAQ：每篇论文一份非学生全价注册、不能线上报告、邀请函付清后 10 个工作日内发、退款扣 50 美元（日期待定）、拒签例外。
   - id: kdd-2026-research-cfp
     url: https://kdd2026.kdd.org/research-track-call-for-papers/
     title: KDD 2026 Research Track Call for Papers
     kind: cfp
-    fetched_at: 2026-09-24T22:59:40Z
+    fetched_at: 2026-09-25T10:43:15Z
     http_status: 200
     snapshot: db3b0f2231d7889c0ce187ff28dec9c295978b307e229f03e0e7a94a84ba3ff0
     note_zh: 上一届 CFP（含 Cycle 2，即 2026 年 2 月轮：摘要 2/1、正文 2/8、rebuttal 4/4–17、出结果 5/16、camera-ready 6/1），用于推算 kdd-2027 的 2 月轮。

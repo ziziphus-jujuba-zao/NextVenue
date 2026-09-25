@@ -1,0 +1,69 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-cvpr
+sources:
+  - id: cvpr-2021-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/cvpr/2021/450900z166/1yeJnpNlo0o
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1yeJnpNlo0o/pdf
+    title: "CVPR 2021 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:12:46Z
+    http_status: 200
+    snapshot: e49f7c37eacf0ff47fd284bd05575443234d8479b524ca0b0657b51c470c7a37
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: cvpr-2022-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/cvpr/2022/694600z223/1H1jihVGB1e
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1H1jihVGB1e/pdf
+    title: "CVPR 2022 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:12:48Z
+    http_status: 200
+    snapshot: 4649101ae39a39ad618877f99104a5b70686bc716c65b8e3b7ea0523644ddc77
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: cvpr-2023-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900z301/1POTbxllic8
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1POTbxllic8/pdf
+    title: "CVPR 2023 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:12:50Z
+    http_status: 200
+    snapshot: 94f867dd47ba749f9d2c8a328066afea19114f9bd61019f3b345b0c207d50cdf
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: cvpr-2024-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/cvpr/2024/530000z343/20hLmVNRbY4
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/20hLmVNRbY4/pdf
+    title: "CVPR 2024 proceedings: Message from the Program and General Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:12:52Z
+    http_status: 200
+    snapshot: 9b692b05d8f6696128276feb2a190c5c987db76ff237a46fcfac911733a353e6
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: cvpr-2025-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/cvpr/2025/436400z382/299bDhaj7A4
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/299bDhaj7A4/pdf
+    title: "CVPR 2025 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:12:54Z
+    http_status: 200
+    snapshot: e3dc8ad71dbcb3f69ed765060a6675ea9e0a890da0d80d157df5b36c74e82f8f
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: cvpr-2022-press-release
+    url: https://www.computer.org/press-room/2022-news/record-breaking-2022-cvpr
+    title: "IEEE Computer Society press release: record-breaking CVPR 2022"
+    kind: other
+    fetched_at: 2026-09-25T13:12:56Z
+    http_status: 200
+    snapshot: 0475752491ad8ba8c4725c935c1c8cd407d821a93ccdc040a18a0eef28063a38
+  - id: cvpr-2024-opening-slides
+    url: https://media.eventhosts.cc/Conferences/CVPR2024/OpeningRemarkSlides.pdf
+    title: CVPR 2024 opening remarks slides
+    kind: other
+    fetched_at: 2026-09-25T13:13:22Z
+    http_status: 200
+    snapshot: e41e613da737908fe7d3dd41b908fce59505d811adcaeed6b8299b25f2ed6d52
+  - id: cvpr-2026-technical-program
+    url: https://cvpr.thecvf.com/Conferences/2026/News/Technical_Program
+    title: "CVPR 2026 news: technical program"
+    kind: other
+    fetched_at: 2026-09-25T13:13:24Z
+    http_status: 200
+    snapshot: 4e92a799d1ac748d8d6585d1e553c99dc729a035bec14c28785fb50cb69fa874

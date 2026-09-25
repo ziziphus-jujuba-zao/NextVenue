@@ -1,0 +1,40 @@
+id: wcnc-2027
+series: wcnc
+name: WCNC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Panama City, country: Panama, country_code: PA }
+dates: { start: 2027-04-05, end: 2027-04-08 }
+milestones:
+  - type: paper
+    at: 2026-10-05
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: wcnc-2027-call-papers
+    quote: "Paper Submission Deadline 5 October 2026 Deadline Extended"
+    note_zh: 已延期到 10/5。官网只给日期、没写时区，按北京时间当天结束算，比按巴拿马时间早 13 小时，更保守。
+  - type: notification
+    at: 2027-01-15
+    tz: America/Panama
+    status: confirmed
+    src: wcnc-2027-call-papers
+    quote: "Acceptance Notification 15 January 2027"
+  - type: camera_ready
+    at: 2027-02-08
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: wcnc-2027-call-papers
+    quote: "Camera-Ready Papers 8 February 2027"
+    note_zh: 没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-04-05
+    end: 2027-04-08
+    tz: America/Panama
+    status: confirmed
+    src: wcnc-2027-home
+    quote: "Panama City, Panama 5 - 8 April 2027"
+    note_zh: 全部线下（“will be conducted in person”）。
+last_checked: 2026-09-25

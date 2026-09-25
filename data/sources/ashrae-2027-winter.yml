@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ashrae-2027-winter
+sources:
+  - id: ashrae-2027-winter-cfp
+    url: https://ashraem.confex.com/ashraem/w27/cfp.cgi
+    title: ASHRAE 2027 Winter Conference Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:45Z
+    http_status: 200
+    snapshot: 20b5d90c502f69c9d88ac7008f0025865c532d207617559605bf974863b3c574

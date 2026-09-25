@@ -1,0 +1,12 @@
+id: cav
+acronym: CAV
+full_name: International Conference on Computer-Aided Verification
+directions: [cs/theory, cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；FLoC 年（2022、2026）在 FLoC 内举办。
+dblp: conf/cav
+ccfddl: CT/CAV
+data_level: curated
+note_zh: 形式化验证的旗舰会议。2027 年不在 FLoC 内，单独在阿姆斯特丹举办（第 39 届）。

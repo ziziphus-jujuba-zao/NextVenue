@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: globecom-2026
+sources:
+  - id: globecom-2026-home
+    url: https://globecom2026.ieee-globecom.org/
+    title: IEEE GLOBECOM 2026 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:49:31Z
+    http_status: 200
+    snapshot: 0ee7d26f62d481643899bed46f9d725e5e926b1b6080c56fdf05192c333c7162
+  - id: globecom-2026-dates
+    url: https://globecom2026.ieee-globecom.org/authors/call-symposium-papers
+    title: IEEE GLOBECOM 2026 Call for Symposium Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:54:54Z
+    http_status: 200
+    snapshot: 0445ccffe5ba17b177e5e3fa12d94fff3d2fe45f294033a7670f483ebff3b513
+  - id: globecom-2026-registration
+    url: https://globecom2026.ieee-globecom.org/registration
+    title: IEEE GLOBECOM 2026 Registration
+    kind: other
+    fetched_at: 2026-09-25T15:54:55Z
+    http_status: 200
+    snapshot: 95c56413d4d588e01f1f828eab2c474a65c21d904631227bd7f658d244c23520

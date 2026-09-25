@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: interact-2027
+series: interact
+name: INTERACT 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/INTERACT
+  conf_id: interact27
+  link: https://interact2027.org/
+  place: Tallinn, Estonia
+  date: August 23-27, 2027
+  timezone: AoE
+location:
+  city: Tallinn
+  country: Estonia
+  country_code: EE
+dates:
+  start: 2027-08-23
+  end: 2027-08-27
+milestones:
+  - type: abstract
+    at: 2027-01-25T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2027-02-01T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-08-23
+    end: 2027-08-27
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

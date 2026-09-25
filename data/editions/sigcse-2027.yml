@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sigcse-2027
+series: sigcse
+name: SIGCSE 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/SIGCSE
+  conf_id: sigcse27
+  link: https://2027.sigcse-ts.acm.org/
+  place: Sacramento, California, USA
+  date: February 17-20, 2027
+  timezone: UTC-12
+location:
+  city: Sacramento
+  country: USA
+  country_code: US
+dates:
+  start: 2027-02-17
+  end: 2027-02-20
+milestones:
+  - type: abstract
+    at: 2026-06-26T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: paper
+    at: 2026-07-03T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2027-02-17
+    end: 2027-02-20
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

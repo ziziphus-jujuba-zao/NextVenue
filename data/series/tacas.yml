@@ -1,0 +1,11 @@
+id: tacas
+acronym: TACAS
+full_name: International Conference on Tools and Algorithms for the Construction and Analysis of Systems
+directions: [cs/theory, cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 每年作为 ETAPS 的成员会议举办（按 dblp 收录的往届年份）。
+dblp: conf/tacas
+data_level: curated
+note_zh: ETAPS 的成员会议。CCF 第七版没有单独列 TACAS，只列了联合会议 ETAPS（第 4 类 B）；ccfddl 也只收 ETAPS（见 etaps 系列），所以这里不写 ccfddl 键。

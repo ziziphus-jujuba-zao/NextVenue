@@ -1,0 +1,24 @@
+id: aaai-27/aid-register-timing
+edition: aaai-27
+family: registration
+question_zh: 申请了学生志愿者，结果出来前可以先注册吗？
+short_zh: 志愿者结果前注册
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: financial_aid
+  until: financial_aid_result
+summary_zh: 不要。申请 AAAI-27 学生志愿者项目的，在结果通知前注册会失去免费注册，而且结果邮件发出前注册的不退款。申请在北京时间 11/30 13:01 开放、12/5 12:59 截止，结果日期官方没写。
+detail_zh: 优惠注册截止是北京时间 12/16 12:59，结果可能晚于它。需要签证邀请函的，邀请函要先付费注册才能开。
+quotes:
+  - src: aaai-27-ssv
+    text: "Students applying to the AAAI-27 Student Scholar Volunteer Program SHOULD NOT register before notification of acceptance, otherwise you will forfeit their complementary registration."
+  - src: aaai-27-ssv
+    text: "No refunds will be provided for anyone who registers before the acceptance emails are sent."
+effect:
+  kind: hold
+  target: registration_nudge
+  while: aid_applied
+  until: financial_aid_result
+last_checked: 2026-09-25

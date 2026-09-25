@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-icra
+sources:
+  - id: icra-2024-adcom-minutes
+    url: https://www.ieee-ras.org/images/AdCom_Meeting_Minutes/2024/APPROVED_AdCom_Meeting_Minutes__ICRA_2024_05172024pdf_1.pdf
+    title: IEEE RAS AdCom meeting minutes, ICRA 2024 (2024-05-17)
+    kind: other
+    fetched_at: 2026-09-25T13:15:22Z
+    http_status: 200
+    snapshot: 51a4a5ff0229fd8deb8bee8dd02b02830f8df6dcdd13a57907a66dfcd25bd324
+  - id: icra-2025-highlight-statistics
+    url: https://2025.ieee-icra.org/announcements/icra-2025-highlight-statistics/
+    title: ICRA 2025 highlight statistics
+    kind: other
+    fetched_at: 2026-09-25T13:15:24Z
+    http_status: 200
+    snapshot: 347ba530f2990269ddc8756227470626b9bd29aeb49e3c6be13b2409fc66e274
+  - id: icra-2026-cfp
+    url: https://2026.ieee-icra.org/contribute/call-for-icra-2026-papers-now-accepting-submissions/
+    title: ICRA 2026 call for papers
+    kind: cfp
+    fetched_at: 2026-09-25T13:15:25Z
+    http_status: 200
+    snapshot: c965913f8ea0a8ab1d8dc7cf086845c2fd376d73aa1a2c213e32bc186133b3da

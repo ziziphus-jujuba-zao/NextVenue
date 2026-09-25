@@ -1,0 +1,22 @@
+Artificial Intelligence and Statistics 2027
+ * Home
+ * Key Dates
+ * Call for Papers
+ * Committee
+ * Past Meetings
+
+[edit]
+
+The 30th International Conference on Artificial Intelligence and Statistics (AISTATS) will be held in 2027 in Montréal, Canada.
+
+AISTATS is an interdisciplinary gathering of researchers at the intersection of artificial intelligence, machine learning, statistics, and related areas. The conference provides a forum for presenting and discussing new research in these fields. The conference invites submissions of original research, which are peer-reviewed, with accepted papers published in the archival Proceedings of Machine Learning Research (PMLR) series.
+
+In addition to the main conference program, AISTATS 2027 will, for the second time, feature a dedicated workshop day, providing a forum for focused discussion of emerging topics and research directions.
+
+For AISTATS 2027, the virtual conference website will serve as the primary source for up-to-date conference information and communication, including announcements and information for participants. This website provides general and archival information about the conference.
+
+General inquiries should be sent to aistats2027@gmail.com.
+
+This site last compiled Tue, 15 Sep 2026 17:35:47 +0000
+
+Github Account   Copyright © AISTATS 2026. All rights reserved.

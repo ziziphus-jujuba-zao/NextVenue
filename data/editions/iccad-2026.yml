@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: iccad-2026
+series: iccad
+name: ICCAD 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ICCAD
+  conf_id: iccad26
+  link: https://iccad.com/2026
+  place: San Jose, California, USA
+  date: November 8 - 12, 2026
+  timezone: UTC-12
+location:
+  city: San Jose
+  country: USA
+  country_code: US
+dates:
+  start: 2026-11-08
+  end: 2026-11-12
+milestones:
+  - type: abstract
+    at: 2026-04-07T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: paper
+    at: 2026-04-14T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2026-11-08
+    end: 2026-11-12
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

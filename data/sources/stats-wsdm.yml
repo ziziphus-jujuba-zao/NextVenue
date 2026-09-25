@@ -1,0 +1,46 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-wsdm
+sources:
+  - id: wsdm-2021-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3437963
+    mirror_url: https://web.archive.org/web/20220513091840id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3437963
+    title: WSDM 2021 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:17:07Z
+    http_status: 200
+    snapshot: 1ee9f161b0d7053989ea6f93fb1de8406281598f2cf9469d7d56a46539da9741
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: wsdm-2022-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3488560
+    mirror_url: https://web.archive.org/web/20220516073946id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3488560
+    title: WSDM 2022 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:17:11Z
+    http_status: 200
+    snapshot: 3483bdb3e22bb512134af88c2e1f678a2fdaa48f864493bbeef1454d654b8009
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: wsdm-2023-report
+    url: https://sigir.org/wp-content/uploads/2023/07/p08.pdf
+    title: Report on WSDM 2023 (SIGIR Forum 57(1))
+    kind: other
+    fetched_at: 2026-09-25T13:17:14Z
+    http_status: 200
+    snapshot: 1162ce90e7b447a5a79092a02f38a47bfde3297297ee0d4cde3fe3f47d1ffb6c
+  - id: wsdm-2024-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3616855
+    mirror_url: https://web.archive.org/web/20240310191404id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3616855
+    title: WSDM 2024 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:17:17Z
+    http_status: 200
+    snapshot: 92c95e775fef3d3debc20f2f690588b65e9d63f960eddde6cbd3ea0633027c4b
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: wsdm-2025-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3701551
+    mirror_url: https://web.archive.org/web/20251030095749id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3701551
+    title: WSDM 2025 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:17:20Z
+    http_status: 200
+    snapshot: 4cf0bae2a57933f332437c067acc460988e0036f96257135a36b585363708513
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。

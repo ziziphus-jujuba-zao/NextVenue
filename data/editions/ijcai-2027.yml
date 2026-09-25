@@ -3,9 +3,26 @@ series: ijcai
 name: IJCAI 2027
 year: 2027
 kind: conference
-topics: [ai, ml]
+data_level: curated
 derived_from: ijcai-2026
-location: { city: Kyoto, country: Japan }
+location: { city: Kyoto, country: Japan, country_code: JP }
+sites:
+  - id: kyoto
+    city: Kyoto
+    country_code: JP
+    tz: Asia/Tokyo
+    venue:
+      status: tba
+      checked_sources: [ijcai-2027-future-conferences, ijcai-2027-home]
+      note_zh: 只公布了城市，场馆没公布。
+  - id: hengqin
+    city: Hengqin
+    country_code: CN
+    tz: Asia/Shanghai
+    venue:
+      status: tba
+      checked_sources: [ijcai-2027-future-conferences, ijcai-2027-home]
+      note_zh: 只公布了城市（珠海横琴），场馆没公布。
 dates: { start: 2027-08-07, end: 2027-08-17 }
 milestones:
   - type: abstract
@@ -37,6 +54,7 @@ milestones:
     quote: "April 29th. Paper Notification"
     note_zh: 推算值：IJCAI-ECAI 2026 出结果为 2026-04-29，顺延一年。
   - type: conference
+    site: kyoto
     label_zh: 京都会场
     start: 2027-08-07
     end: 2027-08-13
@@ -46,6 +64,7 @@ milestones:
     quote: "The third IJCAI-27 will be held in Kyoto, Japan from August 7th until August 13th, 2027 and in Hengqin, China from August 15th until August 17th, 2027."
     note_zh: IJCAI 官网 Future Conferences 页公布：京都 8/7–13、横琴 8/15–17 两地举办。
   - type: conference
+    site: hengqin
     label_zh: 横琴会场
     start: 2027-08-15
     end: 2027-08-17
@@ -53,5 +72,46 @@ milestones:
     status: confirmed
     src: ijcai-2027-future-conferences
     quote: "The third IJCAI-27 will be held in Kyoto, Japan from August 7th until August 13th, 2027 and in Hengqin, China from August 15th until August 17th, 2027."
+logistics:
+  fees:
+    - status: tba
+      checked_sources: [ijcai-2027-home, ijcai-2027-future-conferences]
+      note_zh: 2027 会议网站还没公开（HTTP 401）。
+      reference:
+        from: ijcai-2026
+        currency: USD
+        src: ijcai-2026-registration
+        note_zh: IJCAI-ECAI 2026（不来梅）的正会注册费。IJCAI 和 EurAI 会员都算会员。按上届注册 FAQ，学生作者要让论文进论文集也得付 regular 全价（选 Student with Paper 类别）；学生价只给不挂论文的学生。上届早鸟价到 2026 年 6/15 23:59 AoE，晚注册到 7/15 23:59 AoE，之后是现场价。
+        tiers:
+          - { id: early }
+          - { id: late }
+          - { id: onsite }
+        rows:
+          - { id: member, label_zh: 会员（学生作者同价）, for: [student, academic, industry], member: current, covers_author: true, amounts: [980, 1150, 1250], quote: "REGULAR Early U$ 980.00 Late U$ 1,150.00 On Site U$ 1,250.00" }
+          - { id: non_member, label_zh: 非会员（学生作者同价）, for: [student, academic, industry], member: none, covers_author: true, amounts: [1030, 1200, 1300], quote: "REGULAR Early U$ 1,030.00 Late U$ 1,200.00 On Site U$ 1,300.00" }
+          - { id: member_student, label_zh: 会员学生（不挂论文）, for: [student], member: current, covers_author: false, amounts: [500, 550, 600], quote: "Early – Student U$ 500.00 Late – Student U$ 550.00 On Site – Student U$ 600.00" }
+          - { id: non_member_student, label_zh: 非会员学生（不挂论文）, for: [student], member: none, covers_author: false, amounts: [550, 600, 650], quote: "Early – Student U$ 550.00 Late – Student U$ 600.00 On Site – Student U$ 650.00" }
+  coverage:
+    status: tba
+    checked_sources: [ijcai-2027-home, ijcai-2027-future-conferences]
+    reference:
+      from: ijcai-2026
+      per: author
+      max_papers: null
+      rate: in_person
+      extra_zh: 一份 regular 注册或 Student with Paper 注册可以覆盖同一人的多篇论文；学生作者也要付 regular 全价。多位作者到场的，每人都要单独注册。注册不能转让。
+      src: ijcai-2026-registration-faq
+      quote: "One regular delegate registration fee OR student with paper fee covers multiple papers."
+  visa_letter:
+    status: tba
+    checked_sources: [ijcai-2027-home, ijcai-2027-future-conferences]
+    reference:
+      from: ijcai-2026
+      after: paid_registration
+      how_zh: 注册付费后，在注册系统的“Options”里填签证邀请函表格，只能填一次；随注册确认一起发的那封邀请函不能用来办签证。
+      lead: tba
+      url: https://2026.ijcai.org/registration-faq/
+      src: ijcai-2026-registration-faq
+      quote: "Letters are only issued to registrants who have already paid their fees."
 last_checked: 2026-09-25
-note_zh: 截稿和出结果按 IJCAI-ECAI 2026 官网主 track 日期顺延：摘要 1/12、正文 1/19、Phase I 通知 3/4、出结果 4/29（均为 23:59 AoE）。会期和地点是官方已公布的：京都 8/7–13、横琴 8/15–17（location 只写了京都）。2026-09-25 查询时 2027.ijcai.org 需要登录（HTTP 401），征稿尚未发布。
+note_zh: 截稿和出结果按 IJCAI-ECAI 2026 官网主 track 日期顺延：摘要 1/12、正文 1/19、Phase I 通知 3/4、出结果 4/29（均为 23:59 AoE）。会期和地点是官方已公布的：京都 8/7–13、横琴 8/15–17（两地分别写在 sites 里，location 写京都）。2026-09-25 查询时 2027.ijcai.org 需要登录（HTTP 401），征稿尚未发布。

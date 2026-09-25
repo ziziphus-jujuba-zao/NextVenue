@@ -1,0 +1,13 @@
+id: setac-europe
+acronym: SETAC Europe
+full_name: SETAC Europe Annual Meeting
+name_zh: 欧洲环境毒理与化学学会年会
+aliases:
+  - SETAC
+directions: [chem/env, earth/eco]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会欧洲分会年会，往届都在每年春季（4–5 月）举办
+data_level: curated
+note_zh: 生态毒理、环境化学、风险评估方向的年会，按摘要投稿。

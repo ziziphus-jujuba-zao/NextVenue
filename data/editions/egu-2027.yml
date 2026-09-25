@@ -1,0 +1,65 @@
+id: egu-2027
+series: egu
+name: EGU 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: egu-2027-deadlines
+  quote: "Start of call-for-abstracts and support application and request for letter of invitation for authors"
+location: { city: Vienna, country: Austria, country_code: AT }
+dates: { start: 2027-04-04, end: 2027-04-09 }
+milestones:
+  - type: financial_aid
+    label_zh: 参会资助（support）申请截止
+    at: 2026-12-01T13:00
+    tz: Europe/Vienna
+    status: confirmed
+    src: egu-2027-deadlines
+    quote: "01 Dec 2026, 13:00 CET Deadline for support applications"
+    note_zh: 比摘要截止早一个多月；10/28 起和摘要一起开放申请。
+  - type: financial_aid_result
+    at: 2027-01-11
+    tz: Europe/Vienna
+    status: confirmed
+    src: egu-2027-deadlines
+    quote: "11 Jan 2027 Outcome of support selection"
+  - type: abstract
+    at: 2027-01-12T13:00
+    tz: Europe/Vienna
+    status: confirmed
+    src: egu-2027-deadlines
+    quote: "12 Jan 2027, 13:00 CET Deadline for receipt of abstracts (also MAL)"
+    note_zh: 10/28 开放。北京时间 1/12 20:00。
+  - type: notification
+    start: 2027-02-04
+    end: 2027-02-05
+    tz: Europe/Vienna
+    status: confirmed
+    src: egu-2027-deadlines
+    quote: "04–05 Feb 2027 Letter of acceptance"
+  - type: visa_letter
+    label_zh: 邀请函申请截止
+    at: 2027-03-08T13:00
+    tz: UTC+2
+    status: confirmed
+    src: egu-2027-deadlines
+    quote: "08 Mar 2027, 13:00 CEST Deadline for Letter of invitation requests"
+    note_zh: 办申根签证要用；邀请函 10/28 起就可以申请，越早越好。官网写 CEST（UTC+2），但 3/8 维也纳还是冬令时（CET），这里照官网字面按 UTC+2 算，比当地时间早一小时。
+  - type: early_registration
+    at: 2027-03-08T13:00
+    tz: UTC+2
+    status: confirmed
+    src: egu-2027-deadlines
+    quote: "08 Mar 2027, 13:00 CEST Deadline for registering on reduced early rates and option"
+    note_zh: 官网写 CEST（UTC+2），3/8 维也纳实际是 CET；照官网字面按 UTC+2 算，更早一小时。
+  - type: conference
+    start: 2027-04-04
+    end: 2027-04-09
+    tz: Europe/Vienna
+    status: confirmed
+    src: egu-2027-deadlines
+    quote: "04–09 Apr 2027 European Geosciences Union – General Assembly"
+last_checked: 2026-09-25
+note_zh: 维也纳，线下与线上混合。奥地利属申根区。

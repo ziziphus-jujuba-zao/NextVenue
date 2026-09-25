@@ -1,0 +1,11 @@
+id: ecoop
+acronym: ECOOP
+full_name: European Conference on Object-Oriented Programming
+directions: [cs/se]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每年两轮投稿，论文集是 LIPIcs（开放获取）。
+dblp: conf/ecoop
+ccfddl: SE/ECOOP
+data_level: curated

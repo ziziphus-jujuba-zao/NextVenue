@@ -1,0 +1,200 @@
+Skip to content
+HSCC+ICCPS 2027
+HomeCall for PapersAuthorsDatesOrganizersProgram CommitteeProgramAwardsPoliciesHistoryRegistrationVenue
+
+Call for Papers
+
+Call for Papers
+
+HSCC+ICCPS 2027 invites original research on cyber-physical, hybrid, and autonomous systems across three coordinated tracks.
+
+Full call for papers
+
+The ACM/IEEE International Conference on Cyber-Physical and Autonomous Systems (HSCC+ICCPS) brings together researchers advancing the foundations, design, implementation, evaluation, and deployment of systems that combine computation with the physical world. The conference welcomes work spanning mathematical foundations, implemented cyber-physical systems, real-world applications, and trustworthy AI-enabled autonomy.
+
+The conference will be held as part of CPS-IoT Week 2027 in Boulder, Colorado, USA, from 17–20 May 2027.
+
+History and community
+
+The conference continues the traditions of the ACM International Conference on Hybrid Systems: Computation and Control (HSCC) and the ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS). In their predecessor lineages, 2027 corresponds to the 30th HSCC and the 18th ICCPS, respectively. Following the unified 2026 program, the communities come together in 2027 under the new conference name while retaining their intellectual breadth and their connections across computer science, control, engineering, and applications.
+
+Scope and tracks
+
+We invite original, high-quality research on cyber-physical, hybrid, and autonomous systems. The program is organized around three coordinated tracks: Foundations, Systems and Applications, and AI-enabled Autonomy. Work that bridges tracks is especially welcome.
+
+Authors should select every track that materially represents the paper's intellectual contribution, rather than choosing solely by application domain or by the presence of a particular technique. At least one track is required, and work spanning two or three tracks is welcome. The unified program committee will coordinate reviewing across the selected areas and may adjust a paper's classification for substantially better expert review after informing the authors.
+
+Foundations
+
+The Foundations track seeks fundamental advances in the modeling, analysis, design, and control of cyber-physical and hybrid systems. It welcomes theory, algorithms, and tools with rigorous guarantees, including computational work grounded in important applications.
+
+Topics include, but are not limited to:
+
+Models, logic, languages, and computation
+
+ * Algorithmic foundations for CPS
+ * Computational tools and complexity analysis
+ * Continuous-time and discrete-event models
+ * Formal methods
+ * Hybrid systems theory
+ * Logic and Automated Reasoning
+ * Mathematical foundations, computability and complexity
+ * Modeling paradigms
+ * Programming and specification languages
+ * Specification languages
+
+Analysis, synthesis, planning, and control
+
+ * Analysis, verification, validation, and testing methodologies
+ * Control Theory
+ * Differential games
+ * Formally verified AI, learning-enabled systems, and robotics
+ * High assurance techniques for CPS
+ * Network science and network-based control theory
+ * Nonlinear control theory
+ * Optimal control
+ * Planning
+ * Reachability analysis
+ * Stability analysis
+ * Temporal logic and runtime monitoring
+ * Theoretical foundations of safe autonomy
+ * Testing
+
+Systems and Applications
+
+The Systems and Applications track seeks advances whose primary contribution lies in system architecture, implementation, integration, experimental evaluation, deployment, or demonstrated impact in a physical setting. It welcomes research spanning platforms and applications, including industrial and government experience when the work offers a generalizable technical contribution.
+
+Topics include, but are not limited to:
+
+Architectures, platforms, and integration
+
+ * CPS architectures and platforms
+ * Human-machine and human-robot interaction
+ * Real-time, embedded, distributed, mobile, edge, and networked systems
+ * Sensing, actuation, and monitoring systems
+ * Software tools and platforms
+ * System integration and middleware for CPS
+
+Evaluation, deployment, security, and resilience
+
+ * Case studies
+ * Deployments and industrial applications
+ * Digital twins, benchmarks, and reproducible evaluations
+ * Real-world case studies and testbeds
+ * Security and privacy
+ * Security, privacy, and resilience design and implementations
+
+Application domains
+
+ * Aerospace and avionics
+ * Agriculture and environmental monitoring
+ * Automotive and transportation systems
+ * Energy and smart grid systems
+ * Healthcare and medical devices
+ * Manufacturing and Industry 4.0
+ * Medical Cyber-Physical Systems
+ * Power Systems
+ * Robotics and autonomous systems
+ * Smart cities and infrastructure
+
+AI-enabled Autonomy
+
+The AI-enabled Autonomy track is a major pillar of the conference. It welcomes researchers in artificial intelligence, machine learning, robotics, computer vision, control, and formal methods whose work advances autonomous or learning-enabled systems that sense, decide, and act in the physical world. The track values both new AI capabilities and credible evidence that those capabilities can operate safely, robustly, and responsibly in cyber-physical settings.
+
+Topics include, but are not limited to:
+
+AI, learning, perception, and decision making
+
+ * AI-based situational awareness and decision-making
+ * Data-driven modeling and analysis
+ * Decision making under uncertainty and risk-aware autonomy
+ * Explainable AI for safety-critical systems
+ * Foundation models and transformers for CPS
+ * Generative AI for cyber-physical systems
+ * Learning-based control and planning
+ * Multi-agent autonomy, human-AI interaction, and collective robotics
+ * Multimodal and vision-language models for cyber-physical systems and robotics
+ * Neurosymbolic approaches to autonomy
+ * Physics-informed machine learning
+ * Reinforcement and imitation learning for autonomous systems
+ * Robot learning, embodied AI, perception, localization, mapping, and scene understanding
+ * Safe learning and verification of AI-enabled CPS
+
+Trustworthy autonomous-systems design and assurance
+
+ * Assurance cases for AI-enabled CPS
+ * Design, verification, test, and maintenance of autonomous systems
+ * HW/SW architectures for dependable and resilient autonomous systems
+ * Mastering emergent and evolving behavior (goals, constraints, …)
+ * Functional safety and cybersecurity of autonomous systems
+ * Human Factors in Autonomy
+ * Runtime assurance, fault tolerance, and adversarial robustness for autonomous systems
+ * Models and HW/SW mechanisms for self-X capabilities
+ * Design processes for trustworthy autonomous systems
+
+Merely using an AI component does not require submission to this track. A paper whose central contribution is a new formal verification algorithm may fit Foundations, while a paper centered on an implemented system architecture or field deployment may fit Systems and Applications. Papers whose core contribution advances learning, perception, autonomous decision making, or the assurance of those capabilities are natural fits for AI-enabled Autonomy.
+
+Autonomous systems design across the program
+
+The design of trustworthy autonomous systems cuts across all three tracks. The detailed topics above include end-to-end design processes; verification, testing, deployment, and maintenance; dependable hardware/software architectures; self-adaptive mechanisms; management of emergent and evolving behavior; functional safety; and cybersecurity. Any 2027 relationship with the Autonomous Systems Design Initiative will be announced separately once its scope is agreed.
+
+Research-paper categories and publication
+
+This call covers three paper categories submitted to the three main tracks:
+
+ * Regular research papers: up to 10 pages, excluding references, for mature original research supported by a comprehensive evaluation.
+ * Short research papers: up to 6 pages, including references, for position papers or focused contributions.
+ * Tool papers: up to 6 pages, including references, describing a software, hardware, data, benchmark, or other research tool and its validation.
+
+Submissions must use the ACM two-column conference format. Accepted Regular, Short, and Tool papers in all three tracks will be published in the conference's ACM proceedings. Appendix and supplemental-material rules, rights and open-access terms, possible fees or waivers, final-version requirements, and presentation details will be provided separately.
+
+Posters and demonstrations are outside this call. A separate preliminary call describes their planned format and review process; its dates, submission portal, publication arrangements, presentation details, and logistics remain forthcoming.
+
+Submission and review
+
+Submissions must be in English and describe original work that is not published or under review elsewhere. Abstract registration is required by the announced abstract deadline; the complete paper PDF is final at the firm paper deadline, with no post-deadline PDF-update window. Authors will identify one or more applicable tracks at submission. Regular and Short papers use light double-anonymous review: author names and institutions must be omitted, and references to the authors' own related work must be written in the third person. Tool papers use single-anonymous review: author names and affiliations must be included and may be visible to reviewers. Reviewer identities remain confidential to authors in every category. Additional instructions on preprints, appendices, and supplemental material will be posted on the conference website.
+
+Papers will be evaluated by a coordinated program committee on:
+
+ * technical soundness and contribution;
+ * relevance to the selected track or tracks and the conference;
+ * clarity of presentation;
+ * significance and likely impact; and
+ * verifiability of claims.
+
+Authors of accepted Regular, Short, and Tool papers are eligible and encouraged, but not required, to submit supporting artifacts for separate repeatability evaluation. Tool papers are specifically encouraged to provide artifacts. The artifact process begins only after paper notification, and artifact packages do not need to be anonymized. Evaluator identities remain confidential to authors. The eligibility and package requirements are available on the conference website; badge terminology and the submission portal will be announced before that process opens.
+
+Submissions will be subject to the final conference policies and applicable ACM Publications Policies, including those on authorship, peer review, and research involving human participants and subjects. Conference-specific information on conflict handling, research ethics, responsible AI use, accessibility, conduct, appeals, attendance, and presentation will be posted with the relevant author, registration, and program instructions.
+
+Important dates
+
+The conference dates, mandatory abstract-registration deadline, firm paper deadline, author-response period, and paper-notification date are confirmed. Dates labeled tentative remain subject to coordination. Submission deadlines close at 23:59:59 Anywhere on Earth (AoE, UTC−12).
+
+ * Submission site opens: 22 September 2026
+ * Abstract registration: 29 October 2026
+ * Paper submission: 5 November 2026
+ * Author response: 11–15 January 2027
+ * Paper notification: 28 January 2027
+ * Artifact/repeatability submission: 18 February 2027 (tentative)
+ * Artifact/repeatability notification: 23 March 2027 (tentative)
+ * Camera-ready submission: 30 March 2027 (tentative)
+ * Conference in Boulder: 17–20 May 2027
+
+The HSCC+ICCPS 2027 submission site is hscc-iccps27.hotcrp.com. The site is open for paper submissions.
+
+Program chairs
+
+ * Foundations: Taylor T. Johnson, Vanderbilt University
+ * Systems and Applications: Jonathan Sprinkle, Vanderbilt University
+ * AI-enabled Autonomy: Mykel J. Kochenderfer, Stanford University
+
+Posters, demonstrations, and artifacts
+
+Posters and DemosRepeatability Evaluation
+HSCC+ICCPS 2027
+
+Official information for the 2027 ACM/IEEE International Conference on Cyber-Physical and Autonomous Systems, held with CPS-IoT Week in Boulder, Colorado.
+
+Follow HSCC on Facebook
+
+Privacy and support: Taylor T. JohnsonPC Invitation ServicePrivacy PolicyTerms of ServiceSubmission SiteCPS-IoT Week 2027Updated September 23, 2026

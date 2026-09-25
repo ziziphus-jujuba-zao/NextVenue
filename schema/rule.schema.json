@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "rule.schema.json",
-  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: MIT",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
   "title": "One rule card: a single question about one edition, answered with verbatim official quotes",
   "type": "object",
   "additionalProperties": false,
@@ -40,6 +40,8 @@
         "llm_policy",
         "format",
         "presentation",
+        "registration",
+        "refund",
         "resubmission",
         "other"
       ]
@@ -144,6 +146,7 @@
       "required": [
         "kind"
       ],
+      "description": "给排期引擎用。字段里写节点的地方一律写本届的 milestone type",
       "properties": {
         "kind": {
           "enum": [
@@ -151,10 +154,127 @@
             "cap",
             "exclusive",
             "withdraw",
-            "requires"
+            "requires",
+            "refund",
+            "hold",
+            "fallback"
+          ]
+        },
+        "target": {
+          "type": "string"
+        },
+        "before": {
+          "type": "string"
+        },
+        "trigger": {
+          "enum": [
+            "visa_denied_or_pending",
+            "visa_denied",
+            "cancel"
+          ]
+        },
+        "full_until": {
+          "$ref": "#/definitions/milestoneType"
+        },
+        "then": {
+          "enum": [
+            "virtual_difference",
+            "convert_virtual",
+            "partial",
+            "none"
+          ]
+        },
+        "condition": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "applied_by": {
+              "$ref": "#/definitions/milestoneType"
+            }
+          }
+        },
+        "request_by": {
+          "$ref": "#/definitions/milestoneType"
+        },
+        "evidence": {
+          "enum": [
+            "visa_application_date"
+          ]
+        },
+        "while": {
+          "enum": [
+            "aid_applied"
+          ]
+        },
+        "until": {
+          "$ref": "#/definitions/milestoneType"
+        },
+        "substitute": {
+          "enum": [
+            "allowed",
+            "not_allowed",
+            "conditional",
+            "contradictory",
+            "unspecified"
+          ]
+        },
+        "virtual": {
+          "enum": [
+            "allowed",
+            "not_allowed",
+            "conditional",
+            "contradictory",
+            "unspecified"
           ]
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "refund"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "trigger"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "hold"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "target",
+              "while",
+              "until"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "fallback"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "substitute",
+              "virtual"
+            ]
+          }
+        }
+      ]
     },
     "last_checked": {
       "type": "string",
@@ -243,7 +363,20 @@
         "notification",
         "camera_ready",
         "author_registration",
-        "conference"
+        "conference",
+        "site_preference",
+        "site_assignment",
+        "financial_aid",
+        "financial_aid_result",
+        "registration_open",
+        "early_registration",
+        "standard_registration",
+        "visa_letter",
+        "visa_refund_apply_by",
+        "refund_cutoff",
+        "visa_refund_request_by",
+        "presentation_format_final",
+        "poster"
       ]
     }
   }

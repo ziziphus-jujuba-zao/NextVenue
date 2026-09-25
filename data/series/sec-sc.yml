@@ -1,0 +1,9 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: sec-sc
+acronym: SEC
+full_name: IFIP International Information Security Conference
+directions:
+  - cs/security
+dblp: conf/sec
+ccfddl: SC/SEC
+data_level: upstream

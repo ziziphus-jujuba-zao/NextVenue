@@ -1,0 +1,11 @@
+id: eacl
+acronym: EACL
+full_name: Conference of the European Chapter of the Association for Computational Linguistics
+directions: [cs/nlp]
+periodicity:
+  cycle: irregular
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/eacl
+ccfddl: AI/EACL
+data_level: curated

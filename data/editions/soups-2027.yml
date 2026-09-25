@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: soups-2027
+series: soups
+name: SOUPS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/SOUPS
+  conf_id: soups27
+  link: https://www.usenix.org/conference/soups2027
+  place: Denver, Colorado, USA
+  date: August 8-10, 2027
+  timezone: AoE
+location:
+  city: Denver
+  country: USA
+  country_code: US
+dates:
+  start: 2027-08-08
+  end: 2027-08-10
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-08-08
+    end: 2027-08-10
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

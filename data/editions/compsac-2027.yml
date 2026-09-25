@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: compsac-2027
+series: compsac
+name: COMPSAC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/COMPSAC
+  conf_id: compsac27
+  link: https://ieeecompsac.computer.org/2027/
+  place: Tokyo, Japan
+  date: July 13-16, 2027
+  timezone: AoE
+location:
+  city: Tokyo
+  country: Japan
+  country_code: JP
+dates:
+  start: 2027-07-13
+  end: 2027-07-16
+milestones:
+  - type: paper
+    at: 2027-01-31T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-07-13
+    end: 2027-07-16
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

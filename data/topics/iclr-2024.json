@@ -1,0 +1,315 @@
+{
+ "schema": 1,
+ "edition": "iclr-2024",
+ "series": "iclr",
+ "year": 2024,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 ICLR 2024 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/iclr/iclr2024"
+  ],
+  "retrieved_at": "2026-09-25T09:49:27Z"
+ },
+ "papers_used": 2260,
+ "official_accepted": {
+  "value": 2260,
+  "source_url": "https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf",
+  "quote": "7262 submissions, 2260 accepted ... 31% acceptance rate (last year: 31%)",
+  "src": "iclr-2024-fact-sheet",
+  "quote_check": "snapshot"
+ },
+ "coverage": 1.0,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 281,
+   "share_pct": 12.4,
+   "prev": {
+    "year": 2023,
+    "count": 45,
+    "share_pct": 2.9,
+    "delta_pp": 9.5
+   },
+   "examples": [
+    "In-context Autoencoder for Context Compression in a Large Language Model.",
+    "Lemur: Integrating Large Language Models in Automated Program Verification.",
+    "Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 171,
+   "share_pct": 7.6,
+   "prev": {
+    "year": 2023,
+    "count": 54,
+    "share_pct": 3.4,
+    "delta_pp": 4.2
+   },
+   "examples": [
+    "Monte Carlo guided Denoising Diffusion models for Bayesian linear inverse problems.",
+    "Cameras as Rays: Pose Estimation via Ray Diffusion.",
+    "DreamClean: Restoring Clean Image Using Deep Diffusion Prior."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "rl",
+   "label_zh": "强化学习",
+   "label_en": "Reinforcement learning",
+   "count": 160,
+   "share_pct": 7.1,
+   "prev": {
+    "year": 2023,
+    "count": 116,
+    "share_pct": 7.4,
+    "delta_pp": -0.3
+   },
+   "examples": [
+    "Massively Scalable Inverse Reinforcement Learning in Google Maps.",
+    "Consciousness-Inspired Spatio-Temporal Abstractions for Better Generalization in Reinforcement Learning.",
+    "CrossQ: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 156,
+   "share_pct": 6.9,
+   "prev": {
+    "year": 2023,
+    "count": 109,
+    "share_pct": 6.9,
+    "delta_pp": 0.0
+   },
+   "low_precision": true,
+   "examples": [
+    "TD-MPC2: Scalable, Robust World Models for Continuous Control.",
+    "Robust Similarity Learning with Difference Alignment Regularization.",
+    "Towards Poisoning Fair Representations."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "graph",
+   "label_zh": "图学习 / GNN",
+   "label_en": "Graphs / GNNs",
+   "count": 132,
+   "share_pct": 5.8,
+   "prev": {
+    "year": 2023,
+    "count": 115,
+    "share_pct": 7.3,
+    "delta_pp": -1.5
+   },
+   "examples": [
+    "Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-to-Image Generation.",
+    "Towards Foundation Models for Knowledge Graph Reasoning.",
+    "Temporal Generalization Estimation in Evolving Graphs."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "theory_optim",
+   "label_zh": "优化与学习理论",
+   "label_en": "Optimisation & learning theory",
+   "count": 120,
+   "share_pct": 5.3,
+   "prev": {
+    "year": 2023,
+    "count": 91,
+    "share_pct": 5.8,
+    "delta_pp": -0.5
+   },
+   "examples": [
+    "Neuron-Enhanced AutoEncoder Matrix Completion and Collaborative Filtering: Theory and Practice.",
+    "On Differentially Private Federated Linear Contextual Bandits.",
+    "A Fast and Provable Algorithm for Sparse Phase Retrieval."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 116,
+   "share_pct": 5.1,
+   "prev": {
+    "year": 2023,
+    "count": 91,
+    "share_pct": 5.8,
+    "delta_pp": -0.7
+   },
+   "examples": [
+    "Chain of Thought Empowers Transformers to Solve Inherently Serial Problems.",
+    "AmortizedPeriod: Attention-based Amortized Inference for Periodicity Identification.",
+    "Data-independent Module-aware Pruning for Hierarchical Vision Transformers."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 109,
+   "share_pct": 4.8,
+   "prev": {
+    "year": 2023,
+    "count": 44,
+    "share_pct": 2.8,
+    "delta_pp": 2.0
+   },
+   "low_precision": true,
+   "examples": [
+    "FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling.",
+    "Learning Over Molecular Conformer Ensembles: Datasets and Benchmarks.",
+    "Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-to-Image Generation."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "self_supervised",
+   "label_zh": "自监督 / 对比 / 表征学习",
+   "label_en": "Self-supervised / contrastive / representation learning",
+   "count": 105,
+   "share_pct": 4.6,
+   "prev": {
+    "year": 2023,
+    "count": 116,
+    "share_pct": 7.4,
+    "delta_pp": -2.8
+   },
+   "examples": [
+    "NfgTransformer: Equivariant Representation Learning for Normal-form Games.",
+    "Towards Enhancing Time Series Contrastive Learning: A Dynamic Bad Pair Mining Approach.",
+    "Unconstrained Stochastic CCA: Unifying Multiview and Self-Supervised Learning."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 102,
+   "share_pct": 4.5,
+   "prev": {
+    "year": 2023,
+    "count": 69,
+    "share_pct": 4.4,
+    "delta_pp": 0.1
+   },
+   "examples": [
+    "In-context Autoencoder for Context Compression in a Large Language Model.",
+    "MEND: Meta Demonstration Distillation for Efficient and Effective In-Context Learning.",
+    "Candidate Label Set Pruning: A Data-centric Perspective for Deep Partial-label Learning."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 94,
+   "share_pct": 4.2,
+   "prev": {
+    "year": 2023,
+    "count": 47,
+    "share_pct": 3.0,
+    "delta_pp": 1.2
+   },
+   "examples": [
+    "Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-to-Image Generation.",
+    "Mega-TTS 2: Boosting Prompting Mechanisms for Zero-Shot Speech Synthesis.",
+    "AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 82,
+   "share_pct": 3.6,
+   "prev": {
+    "year": 2023,
+    "count": 52,
+    "share_pct": 3.3,
+    "delta_pp": 0.3
+   },
+   "examples": [
+    "Towards Category Unification of 3D Single Object Tracking on Point Clouds.",
+    "Neural SDF Flow for 3D Reconstruction of Dynamic Scenes.",
+    "MagicDrive: Street View Generation with Diverse 3D Geometry Control."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 82,
+   "share_pct": 3.6,
+   "prev": {
+    "year": 2023,
+    "count": 30,
+    "share_pct": 1.9,
+    "delta_pp": 1.7
+   },
+   "examples": [
+    "Demystifying CLIP Data.",
+    "LLMs Meet VLMs: Boost Open Vocabulary Object Detection with Fine-grained Descriptors.",
+    "Fine-tuning Multimodal LLMs to Follow Zero-shot Demonstrative Instructions."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "icl_prompting",
+   "label_zh": "上下文学习 / 提示",
+   "label_en": "In-context learning / prompting",
+   "count": 77,
+   "share_pct": 3.4,
+   "prev": {
+    "year": 2023,
+    "count": 29,
+    "share_pct": 1.8,
+    "delta_pp": 1.6
+   },
+   "examples": [
+    "In-context Autoencoder for Context Compression in a Large Language Model.",
+    "Mega-TTS 2: Boosting Prompting Mechanisms for Zero-Shot Speech Synthesis.",
+    "MEND: Meta Demonstration Distillation for Efficient and Effective In-Context Learning."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "finetuning",
+   "label_zh": "微调 / 参数高效 / 后训练",
+   "label_en": "Fine-tuning / PEFT / post-training",
+   "count": 75,
+   "share_pct": 3.3,
+   "prev": {
+    "year": 2023,
+    "count": 16,
+    "share_pct": 1.0,
+    "delta_pp": 2.3
+   },
+   "examples": [
+    "Dynamic Sparse No Training: Training-Free Fine-tuning for Sparse LLMs.",
+    "LLM-CXR: Instruction-Finetuned LLM for CXR Image Understanding and Generation.",
+    "When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method."
+   ]
+  }
+ ]
+}

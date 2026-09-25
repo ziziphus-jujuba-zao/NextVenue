@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: dis-2027
+series: dis
+name: DIS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/DIS
+  conf_id: dis27
+  link: https://dis.acm.org/2027/
+  place: Stockholm, Sweden
+  date: June 28 - July 2, 2027
+  timezone: AoE
+location:
+  city: Stockholm
+  country: Sweden
+  country_code: SE
+dates:
+  start: 2027-06-28
+  end: 2027-07-02
+milestones:
+  - type: abstract
+    at: 2027-01-11T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2027-01-18T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-06-28
+    end: 2027-07-02
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

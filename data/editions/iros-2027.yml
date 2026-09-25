@@ -3,7 +3,7 @@ series: iros
 name: IROS 2027
 year: 2027
 kind: conference
-topics: [robotics]
+data_level: curated
 derived_from: iros-2026
 location: { city: Florence, country: Italy }
 dates: { start: 2027-09-26, end: 2027-10-01 }

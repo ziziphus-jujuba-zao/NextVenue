@@ -1,0 +1,13 @@
+id: esc-congress
+acronym: ESC Congress
+full_name: European Society of Cardiology Congress
+aliases:
+  - ESC
+  - ESC Congress
+directions: [med/cardio]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 8 月底至 9 月初于欧洲城市举办
+data_level: curated
+note_zh: 欧洲心脏病学会年会，心血管方向规模最大的会之一。

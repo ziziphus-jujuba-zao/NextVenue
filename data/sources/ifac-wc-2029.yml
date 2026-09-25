@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ifac-wc-2029
+sources:
+  - id: ifac-2026-general-assembly
+    url: https://ifac-control.org/about-ifac/outcomes-of-the-2026-general-assembly/
+    title: "IFAC: Outcomes of the 2026 General Assembly"
+    kind: other
+    fetched_at: 2026-09-25T15:55:30Z
+    http_status: 200
+    snapshot: b3461a5ffdd418c57bb23d9dc5807493eb8aa5d4226bee9ea181c99a9e6a6a47

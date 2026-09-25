@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ispa-2026
+series: ispa
+name: ISPA 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ISPA
+  conf_id: ispa26
+  link: https://ieee-ai-for-science.org/2026/ispa/
+  place: Kuala Lumpur, Malaysia
+  date: December 27-30, 2026
+  timezone: AoE
+location:
+  city: Kuala Lumpur
+  country: Malaysia
+  country_code: MY
+dates:
+  start: 2026-12-27
+  end: 2026-12-30
+milestones:
+  - type: paper
+    at: 2026-09-30T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-12-27
+    end: 2026-12-30
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

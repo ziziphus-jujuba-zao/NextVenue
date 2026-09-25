@@ -1,0 +1,22 @@
+id: spa-conf-2027
+series: spa-conf
+name: SPA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Melbourne, country: Australia, country_code: AU }
+dates: { start: 2027-07-05, end: 2027-07-09 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: Australia/Melbourne
+    note_zh: 摘要截止还没公布。
+  - type: conference
+    start: 2027-07-05
+    end: 2027-07-09
+    tz: Australia/Melbourne
+    status: confirmed
+    src: spa-conf-2027-home
+    quote: "The 46th Conference on Stochastic Processes and their Applications (SPA) will be held in Melbourne, Australia, from the 5th to 9th July 2027."
+last_checked: 2026-09-25
+note_zh: 第 46 届，墨尔本，Monash University 主办。

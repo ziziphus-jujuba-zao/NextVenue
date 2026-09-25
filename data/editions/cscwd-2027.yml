@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: cscwd-2027
+series: cscwd
+name: CSCWD 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/CSCWD
+  conf_id: cscwd27
+  link: http://2027.cscwd.org
+  place: Brisbane, Australia
+  date: May 26-28, 2027
+  timezone: AoE
+location:
+  city: Brisbane
+  country: Australia
+  country_code: AU
+dates:
+  start: 2027-05-26
+  end: 2027-05-28
+milestones:
+  - type: paper
+    at: 2026-10-31T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-05-26
+    end: 2027-05-28
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

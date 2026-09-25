@@ -1,0 +1,12 @@
+id: iccv
+acronym: ICCV
+full_name: IEEE/CVF International Conference on Computer Vision
+directions: [cs/cv, eng/av]
+periodicity:
+  cycle: biennial
+  parity: odd
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/iccv
+ccfddl: AI/ICCV
+data_level: curated

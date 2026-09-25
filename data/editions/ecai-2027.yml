@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ecai-2027
+series: ecai
+name: ECAI 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/ECAI
+  conf_id: ecai27
+  link: https://ecai2027.org/
+  place: Athens, Greece
+  date: October 2-7, 2027
+  timezone: AoE
+location:
+  city: Athens
+  country: Greece
+  country_code: GR
+dates:
+  start: 2027-10-02
+  end: 2027-10-07
+milestones:
+  - type: paper
+    at: 2027-04-14T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-10-02
+    end: 2027-10-07
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "upstream-ccfddl.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "What scripts/import-ccfddl.ts last read from ccfddl (data/upstream/ccfddl.yml); written by the script only",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source", "repo", "license", "pin", "series"],
+  "properties": {
+    "source": { "const": "ccfddl" },
+    "repo": { "type": "string", "pattern": "^https://" },
+    "license": { "const": "MIT" },
+    "pin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "as_of", "sha256"],
+      "properties": {
+        "kind": { "enum": ["commit", "file", "url"] },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "url": { "type": "string" },
+        "as_of": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+      },
+      "if": { "properties": { "kind": { "const": "commit" } } },
+      "then": { "required": ["commit"] },
+      "else": { "required": ["url"] }
+    },
+    "series": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "series", "title", "description", "sub", "rank"],
+        "properties": {
+          "key": { "type": "string", "pattern": "^[A-Z]{2}/.+$" },
+          "series": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "sub": { "type": "string", "pattern": "^[A-Z]{2}$" },
+          "dblp": { "type": "string" },
+          "rank": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "ccf": { "type": "string" },
+              "core": { "type": "string" },
+              "thcpl": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+# EACL 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: eacl
+rows:
+  - year: 2021
+    track: main
+    status: official
+    submissions: 1400
+    accepted: 326
+    rate: 24.7
+    rate_text: 24.7%
+    rate_basis: stated
+    definition_zh: 主会；分母不明
+    source_url: https://www.aclweb.org/adminwiki/index.php/2021Q3_Reports:_EACL_2021
+    quote: EACL 2021 received 1,400 submissions, which required recruiting 1691 reviewers, 149 area chairs, and 34 senior area chairs. After the reviewing process, 326 papers were accepted, for an acceptance rate of 24.7 percent.
+    quote_check: manual
+    mismatch_zh: 官方写 24.7%，按官方数字算是 23.3%；两份官方材料都没说明分母
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 1166
+    accepted: 281
+    rate: 24.1
+    rate_text: 24.1%
+    rate_basis: stated
+    definition_zh: 主会；分母为出决定时仍在审的投稿（收到的更多）
+    source_url: https://aclanthology.org/2023.eacl-main.0.pdf
+    quote: In total, EACL 2023 received 1550 submissions [...] By the time we as the programme chairs made acceptance decisions, 1166 submissions were still active in the system. We kept the acceptance rate in line with previous *ACL conferences, resulting in 281 papers accepted to the main conference (24.1%), and 201 papers accepted to the Findings of EACL (17.2%), with the remaining 58.7% being rejected.
+    src: eacl-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: findings
+    status: official
+    submissions: 1166
+    accepted: 201
+    rate: 17.2
+    rate_text: 17.2%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2023.eacl-main.0.pdf
+    quote: By the time we as the programme chairs made acceptance decisions, 1166 submissions were still active in the system. ... resulting in 281 papers accepted to the main conference (24.1%), and 201 papers accepted to the Findings of EACL (17.2%), with the remaining 58.7% being rejected.
+    src: eacl-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 1114
+    accepted: 226
+    rate: 20.3
+    rate_text: 20.3%
+    rate_basis: stated
+    definition_zh: ARR；分母不含早期撤稿和桌拒
+    source_url: https://aclanthology.org/2024.eacl-long.0.pdf
+    quote: 474 papers then committed to EACL 2024, of which we accepted 226 to the main conference, and a further 163 to the Findings of the ACL. The pool of potential candidates as defined above numbered 1,114 papers, giving an overall acceptance rate of 20.3% to the main conference and 14.5% to Findings.
+    src: eacl-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: findings
+    status: official
+    submissions: 1114
+    accepted: 163
+    rate: 14.5
+    rate_text: 14.5%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2024.eacl-long.0.pdf
+    quote: 474 papers then committed to EACL 2024, of which we accepted 226 to the main conference, and a further 163 to the Findings of the ACL. The pool of potential candidates as defined above numbered 1,114 papers, giving an overall acceptance rate of 20.3% to the main conference and 14.5% to Findings.
+    src: eacl-2024-front-matter
+    quote_check: snapshot
+    mismatch_zh: 官方写 14.5%，按官方数字算是 14.6%
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 2200
+    accepted: 445
+    rate: 20.2
+    rate_text: 20.2%
+    rate_basis: stated
+    definition_zh: ARR（与 ACL 2026 共用 2025 年 10 月轮）
+    source_url: https://aclanthology.org/2026.eacl-long.0.pdf
+    quote: This yielded a total of 2,200 submissions, which we used as the basis for calculating acceptance rates. Following the review, 1,365 papers were committed to EACL. [...] In the end, 445 papers (20.2%) were selected for the EACL Main Conference, and 355 papers (16.1%) were selected for EACL Findings.
+    src: eacl-2026-front-matter
+    quote_check: snapshot
+    note_zh: 主席列出的分母组成加起来对不上 2,200，没有解释
+    checked: 2026-09-25
+  - year: 2026
+    track: findings
+    status: official
+    submissions: 2200
+    accepted: 355
+    rate: 16.1
+    rate_text: 16.1%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2026.eacl-long.0.pdf
+    quote: This yielded a total of 2,200 submissions, which we used as the basis for calculating acceptance rates. ... In the end, 445 papers (20.2%) were selected for the EACL Main Conference, and 355 papers (16.1%) were selected for EACL Findings.
+    src: eacl-2026-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+areas_none:
+  - years:
+      - 2024
+      - 2026
+    scope_zh: 论文集前言只有总数
+    checked: 2026-09-25
+    checked_urls:
+      - https://aclanthology.org/2024.eacl-long.0.pdf
+      - https://aclanthology.org/2026.eacl-long.0.pdf

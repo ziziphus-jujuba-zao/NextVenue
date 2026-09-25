@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: miccai-2027
+sources:
+  - id: miccai-2027-locations
+    url: https://miccai.org/2026/02/18/announcing-miccai-2027-and-miccai-2028-locations/
+    title: Announcing MICCAI 2027 and MICCAI 2028 Locations
+    kind: blog
+    fetched_at: 2026-09-25T15:45:53Z
+    http_status: 200
+    snapshot: 34f7926034224646ab1ea4d3474572ce160fada021c513627c51c4b2a5bea4f6
+  - id: miccai-2027-home
+    url: https://conferences.miccai.org/2027/en/
+    title: MICCAI 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:45:54Z
+    http_status: 200
+    snapshot: cb7fcf8cd2ab7bee8fce7cc7edc173dad044c4c533c08e083766138f356373cc
+  - id: miccai-2026-dates
+    url: https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html
+    title: MICCAI 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:45:55Z
+    http_status: 200
+    snapshot: deff391d32f92fd157262a6cf86a52d25a0b99b386f845282945baf87f0be30e

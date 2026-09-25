@@ -1,0 +1,14 @@
+id: sensys
+acronym: SenSys
+full_name: ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems
+aliases:
+  - ACM Conference on Embedded Networked Sensor Systems
+directions: [cs/net, cs/systems]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每届有两个投稿截止（上一年 5–6 月和 10–11 月）。
+dblp: conf/sensys
+ccfddl: NW/SenSys
+data_level: curated
+note_zh: 2026 年起 SenSys、IPSN、IoTDI 合并为一个会，沿用 SenSys 的缩写，全称改为 Embedded Artificial Intelligence and Sensing Systems。CCF 第七版仍按旧名列 SenSys（第 2 类 B），IPSN 另有一条（B）。近年在 CPS-IoT Week 内举办。

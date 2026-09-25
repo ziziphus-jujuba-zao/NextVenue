@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cac-2026
+sources:
+  - id: cac-2026-home
+    url: https://cac.org.cn/
+    title: CAC 2026 中国自动化大会
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:28Z
+    http_status: 200
+    snapshot: 29c7fefcd183ce46af41fc6d8f7f7c21650f06292366a6636b474b0f8334e795
+  - id: cac-2026-submission
+    url: https://cac.org.cn/article/type/4-1.html
+    title: CAC 2026 论文投稿
+    kind: cfp
+    fetched_at: 2026-09-25T15:56:01Z
+    http_status: 200
+    snapshot: ea062996143ed4dbc4cba2945c9fb25dbb4867dfe3aa4cb0b1e9eb0233a018c2

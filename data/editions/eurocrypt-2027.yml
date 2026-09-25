@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: eurocrypt-2027
+series: eurocrypt
+name: EUROCRYPT 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/EUROCRYPT
+  conf_id: eurocrypt27
+  link: https://eurocrypt.iacr.org/2027/
+  place: Eindhoven, Netherlands
+  date: April 11-15, 2027
+  timezone: AoE
+location:
+  city: Eindhoven
+  country: Netherlands
+  country_code: NL
+dates:
+  start: 2027-04-11
+  end: 2027-04-15
+milestones:
+  - type: paper
+    at: 2026-09-17T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-04-11
+    end: 2027-04-15
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

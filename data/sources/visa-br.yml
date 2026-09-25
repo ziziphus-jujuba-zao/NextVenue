@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-br
+sources:
+  - id: visa-br-embassy-beijing
+    url: https://www.gov.br/mre/pt-br/embaixada-pequim/setor-consular-2/novas-regras-de-visto-para-nacionais-chineses-4e2d56fd516c6c118d745df47b7e8bc165b089c4
+    title: 巴西驻华大使馆 · 中国公民赴巴签证新规
+    kind: policy
+    fetched_at: 2026-09-25T10:58:55Z
+    http_status: 200
+    snapshot: c1dc5e943ec6c6f6fc25c486d3ed86b8458330ea5d51dad5757c4d6fbbc47dd7
+  - id: visa-br-prc-embassy
+    url: https://br.china-embassy.gov.cn/lsfw/lqfw10/202605/t20260510_11907939.htm
+    title: 中国驻巴西大使馆 · 关于中国公民免签前往巴西的领事提醒（2026-05-10）
+    kind: policy
+    fetched_at: 2026-09-25T10:58:57Z
+    http_status: 200
+    snapshot: 3d16c82a5bf600152a69288859137f6ffcc3e0ce65388da2ee18c2d8aca263f3
+  - id: visa-br-cs-mfa
+    url: https://cs.mfa.gov.cn/zggmcg/ljmdd/nmz_657827/bx_657953/
+    title: 中国领事服务网 · 了解目的地：巴西
+    kind: policy
+    fetched_at: 2026-09-25T10:58:57Z
+    http_status: 200
+    snapshot: f17cec99e250fc064e4db4d8a381a1e429fab394542f7ee23fc0af582e5c27ca

@@ -1,0 +1,103 @@
+# WSDM 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: wsdm
+rows:
+  - year: 2020
+    track: main
+    status: third_party
+    submissions: 615
+    accepted: 91
+    rate: 14.8
+    rate_text: 14.8%
+    rate_basis: stated
+    definition_zh: 研究论文
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|WSDM'20 | 14.8% (91/615) | - |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 603
+    accepted: 112
+    rate: 18.6
+    rate_text: 18.6%
+    rate_basis: stated
+    definition_zh: 研究论文
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3437963
+    quote: The conference received a total of 603 submissions, the second highest number in the history of the WSDM conference series. [...] Of these, 112 were accepted for publication, with an acceptance rate of 18.6%.
+    src: wsdm-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 788
+    accepted: 160
+    rate: 20.5
+    rate_text: 20.5%
+    rate_basis: stated
+    definition_zh: 研究论文
+    source_url: https://sigir.org/wp-content/uploads/2023/07/p08.pdf
+    quote: Compared to the previous two years, WSDM 2022 with 788 submissions and acceptance rate of 20.5%
+    src: wsdm-2023-report
+    quote_check: snapshot
+    mismatch_zh: 官方写 20.5%，按 160/788 算是 20.3%
+    note_zh: 投稿数和录用率出自 WSDM 2023 组织者的报告，录用数出自 WSDM 2022 论文集前言
+    also:
+      - source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3488560
+        quote: 160 research papers
+        src: wsdm-2022-front-matter
+        quote_check: snapshot
+        note_zh: WSDM 2022 主席致辞里列出的研究论文篇数
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 690
+    accepted: 123
+    rate: 17.8
+    rate_text: 17.8%
+    rate_basis: stated
+    definition_zh: 研究论文
+    source_url: https://sigir.org/wp-content/uploads/2023/07/p08.pdf
+    quote: Overall, 123 papers were accepted out of 690 submissions, at the acceptance rate of 17.8%.
+    src: wsdm-2023-report
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: partial
+    accepted: 109
+    definition_zh: 研究论文
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3616855
+    quote: The core technical program continues WSDM's tradition of a single-track format, featuring 109 thought-provoking papers from both academic and industry experts.
+    src: wsdm-2024-front-matter
+    quote_check: snapshot
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 628
+    accepted: 106
+    rate: 16.9
+    rate_text: 16.9%
+    rate_basis: stated
+    definition_zh: 研究赛道；分母为全部原始投稿，含早期撤稿和桌拒
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3701551
+    quote: The WSDM 2025 research track received 628 paper submissions. 14 of these submissions were withdrawn within the first few days of the review period. Of the remaining submissions, 8 were desk-rejected [...] The remaining 606 submissions went through a rigorous review process. [...] We accepted 106 of the 628 original submissions, for an acceptance rate of 16.9%. One accepted paper was subsequently withdrawn, resulting in 105 papers in the proceedings.
+    src: wsdm-2025-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: none
+    reason: unlicensed_only
+    checked_urls:
+      - https://dl.acm.org/doi/proceedings/10.1145/3773966
+    note_zh: 只见于无许可证的聚合站；官方论文集前言没能取到
+    checked: 2026-09-25

@@ -5,22 +5,30 @@ sources:
     url: https://www2027.thewebconf.org/research-track-papers/
     title: The Web Conference 2027 Research Track Call for Papers
     kind: cfp
-    fetched_at: 2026-09-24T22:59:57Z
+    fetched_at: 2026-09-25T10:43:26Z
     http_status: 200
-    snapshot: d41de9a88fed4e1bcf27554b328194eb83b61344ca475a64ee4d504f9e48c5c4
-    note_zh: Research 与 Industry track 长文和短文的日期表；所有截止为 AoE。
+    snapshot: c47ffcc98db8bbf8a1d34c95542531e35fc0d96f749f96a081d4b5d9c22381d2
+    note_zh: Research 与 Industry track 的日期表；所有截止为 AoE。2026-09-25 改版：出审稿改为 21 December、rebuttal 改为 21–31 December，短文日期不再列出（Important Dates 页未同步）。另写注册规则（每篇一份非学生线下价注册、终稿截止前付清）、报告方式和 ACM Open APC。
   - id: www-2027-home
     url: https://www2027.thewebconf.org/
     title: The Web Conference 2027 Home
     kind: other
-    fetched_at: 2026-09-24T22:59:58Z
+    fetched_at: 2026-09-25T10:43:26Z
     http_status: 200
     snapshot: 7bfc3fd785e99039c2b5192c518a8c144f2c73e8fbe9abda029bb25f24b2e330
   - id: www-2027-dates
     url: https://www2027.thewebconf.org/important-dates/
     title: The Web Conference 2027 Important Dates
     kind: dates
-    fetched_at: 2026-09-24T23:00:12Z
+    fetched_at: 2026-09-25T10:43:26Z
     http_status: 200
     snapshot: 1bd6b2b5dde3f87eb997d7b76a71ef6c858a753c21fd9dacad2b8886fbb116fd
     note_zh: 与 CFP 一致；页首写 “All deadlines are 11:59 PM Anywhere on Earth (AoE) unless otherwise specified”。也用作 www-2028 的推算依据。
+  - id: www-2027-venues
+    url: https://www2027.thewebconf.org/attending/396-2/
+    title: The Web Conference 2027 Venues (Attending)
+    kind: other
+    fetched_at: 2026-09-25T10:43:26Z
+    http_status: 200
+    snapshot: 3438d62c177ebbc3f7ef3af8b8ffd8b30c4a9e06be10068f3fb49da41c31797c
+    note_zh: Venues 页现在是 ACM MM'25 留下的旧内容，不是 WWW 2027 的会场，不采用。

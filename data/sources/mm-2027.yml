@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: mm-2027
+sources:
+  - id: mm-2027-home
+    url: https://acmmm.org/
+    title: ACM Multimedia Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:32Z
+    http_status: 200
+    snapshot: ba850deab8b63fdcef9575a5f2a602007e0b58f04c6fa48044b5b219e70fe31f
+  - id: mm-2026-dates
+    url: https://2026.acmmm.org/site/important-dates.html
+    title: ACM MM 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:46:33Z
+    http_status: 200
+    snapshot: 00a96e00e7c703c26eaf3252cc88fe5abccf1c9da3ec40f2b5cbe52ab51d4a66
+  - id: mm-2026-cfp
+    url: https://2026.acmmm.org/site/cfp-guidelines.html
+    title: ACM MM 2026 Call for Papers and Guidelines
+    kind: cfp
+    fetched_at: 2026-09-25T15:55:21Z
+    http_status: 200
+    snapshot: ddfcf9e13092d9fe6cdc6cc64189be87d2591acd58ef3b4765277e5d9f358cf5

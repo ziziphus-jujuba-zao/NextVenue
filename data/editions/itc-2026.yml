@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: itc-2026
+series: itc
+name: ITC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ITC
+  conf_id: itc2026
+  link: https://www.itctestweek.org/
+  place: Grand Hyatt San Antonio Riverwalk, TX, USA
+  date: October 11-16, 2026
+  timezone: AoE
+location:
+  city: Grand Hyatt San Antonio Riverwalk
+  country: USA
+  country_code: US
+dates:
+  start: 2026-10-11
+  end: 2026-10-16
+milestones:
+  - type: abstract
+    at: 2026-03-20T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-04-24T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-10-11
+    end: 2026-10-16
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

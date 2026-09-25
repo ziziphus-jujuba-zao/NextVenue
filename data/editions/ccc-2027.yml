@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ccc-2027
+series: ccc
+name: CCC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CT/CCC
+  conf_id: ccc27
+  link: https://computationalcomplexity.org/
+  place: Seattle, Washington, USA
+  date: July 19-22, 2027
+  timezone: AoE
+location:
+  city: Seattle
+  country: USA
+  country_code: US
+dates:
+  start: 2027-07-19
+  end: 2027-07-22
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-07-19
+    end: 2027-07-22
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

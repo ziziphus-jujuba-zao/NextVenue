@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: mmsys-2027
+series: mmsys
+name: MMSys 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/MMSys
+  conf_id: mmsys27
+  link: https://2027.acmmmsys.org
+  place: Ghent, Belgium
+  date: March 30 - April 2, 2027
+  timezone: AoE
+location:
+  city: Ghent
+  country: Belgium
+  country_code: BE
+dates:
+  start: 2027-03-30
+  end: 2027-04-02
+milestones:
+  - type: abstract
+    at: 2026-09-17T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Research Track - First Round (extended)
+  - type: paper
+    at: 2026-09-17T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Research Track - First Round (extended)
+  - type: abstract
+    at: 2026-11-12T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Research Track - Second Round
+  - type: paper
+    at: 2026-11-19T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Research Track - Second Round
+  - type: conference
+    start: 2027-03-30
+    end: 2027-04-02
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

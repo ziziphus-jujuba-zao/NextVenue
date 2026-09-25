@@ -1,0 +1,61 @@
+id: hscc-2027
+series: hscc
+name: HSCC+ICCPS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Boulder, country: USA, country_code: US }
+dates: { start: 2027-05-17, end: 2027-05-20 }
+federated_with:
+  name: CPS-IoT Week 2027
+  url: https://cps-iot-week-2027.sigbed.org/
+  with: [rtas, sensys]
+  src: cps-iot-week-2027-home
+  quote: "It brings together three top conferences, HSCC+ICCPS, SenSys, and RTAS, multiple workshops, tutorials, and competitions."
+  note_zh: 三个会共用 11/5 的正文截止；会场是 Limelight Boulder。
+milestones:
+  - type: abstract
+    label_zh: 摘要注册截止（必须）
+    at: 2026-10-29T23:59
+    tz: AoE
+    status: confirmed
+    src: hscc-2027-cfp
+    quote: "Abstract registration: 29 October 2026"
+    note_zh: 官网写截止到 23:59:59 AoE（UTC−12）。摘要注册是必须的（“mandatory abstract-registration deadline”）。
+  - type: paper
+    at: 2026-11-05T23:59
+    tz: AoE
+    status: confirmed
+    src: hscc-2027-cfp
+    quote: "Paper submission: 5 November 2026"
+    note_zh: 截止即定稿，之后不能再更新 PDF（“no post-deadline PDF-update window”）。
+  - type: author_response
+    start: 2027-01-11
+    end: 2027-01-15
+    tz: AoE
+    status: confirmed
+    src: hscc-2027-cfp
+    quote: "Author response: 11–15 January 2027"
+  - type: notification
+    at: 2027-01-28
+    tz: AoE
+    status: confirmed
+    src: hscc-2027-cfp
+    quote: "Paper notification: 28 January 2027"
+  - type: camera_ready
+    at: 2027-03-30T23:59
+    tz: AoE
+    status: confirmed
+    tentative: true
+    src: hscc-2027-cfp
+    quote: "Camera-ready submission: 30 March 2027 (tentative)"
+    note_zh: 官网标注暂定（tentative），日期可能再改；不是本应用推算。CPS-IoT Week 2027 网站的日期表写终稿 3/30，没有标暂定。
+  - type: conference
+    start: 2027-05-17
+    end: 2027-05-20
+    tz: America/Denver
+    status: confirmed
+    src: hscc-2027-cfp
+    quote: "Conference in Boulder: 17–20 May 2027"
+last_checked: 2026-09-25
+note_zh: 2027 年起 HSCC（第 30 届）与 ICCPS（第 18 届）合并为一个会：一个程序委员会、一套 ACM 论文集、三个 track（Foundations、Systems and Applications、AI-enabled Autonomy）。常规论文 10 页（不含参考文献），短文和工具论文 6 页（含参考文献）；常规论文和短文轻度双盲，工具论文单盲。官网写明摘要、正文、作者回复、出结果和会期已确认，其余标 Tentative 的日期（artifact 评测 2/18、海报/demo 2/11、终稿 3/30）可能调整。hscc.acm.org/2027 和 iccps.acm.org/2027 都跳转到这个官网。

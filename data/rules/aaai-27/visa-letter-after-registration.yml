@@ -1,0 +1,23 @@
+id: aaai-27/visa-letter-after-registration
+edition: aaai-27
+family: registration
+question_zh: 签证邀请函要先付费注册才能开吗？
+short_zh: 先注册再开邀请函
+answer: required
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 必须先付费注册。邀请函只发给已付费的注册者，用注册确认邮件里的链接申请；递交加拿大签证后，还要把签证申请号（VAN）等信息报给 AAAI。
+detail_zh: 申请学生志愿者的人，官方要求结果出来前不要注册（见"志愿者结果前注册"卡），而邀请函又要先注册，需要签证的要自己权衡。AAAI 不能保证或干预签证结果。
+quotes:
+  - src: aaai-27-visa-letters
+    text: "AAAI will provide personalized invitation letters ONLY for paid conference registrants of AAAI-27."
+  - src: aaai-27-visa-letters
+    text: "You must provide your VAN and other visa application details to AAAI."
+effect:
+  kind: requires
+  target: paid_registration
+  before: visa_letter
+last_checked: 2026-09-25

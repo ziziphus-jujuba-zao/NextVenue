@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: raid-2026
+series: raid
+name: RAID 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/RAID
+  conf_id: raid26
+  link: https://raid2026.org
+  place: Lancaster, UK
+  date: October 11-14, 2026
+  timezone: AoE
+location:
+  city: Lancaster
+  country: UK
+  country_code: GB
+dates:
+  start: 2026-10-11
+  end: 2026-10-14
+milestones:
+  - type: paper
+    at: 2026-04-16T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-10-11
+    end: 2026-10-14
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

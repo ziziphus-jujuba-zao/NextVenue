@@ -1,0 +1,26 @@
+id: esmo-2027
+series: esmo
+name: ESMO 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: esmo-2026-abstracts
+  quote: "All accepted abstracts, will be published online in the ESMO Congress 2026 Abstract Book, a supplement to the official ESMO journal, Annals of Oncology."
+location: { city: Barcelona, country: Spain, country_code: ES }
+dates: { start: 2027-09-17, end: 2027-09-21 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: UTC+02:00
+    note_zh: 2027 届的摘要截止还没公布（2026 届是 5/12 21:00 CEST）。
+  - type: conference
+    start: 2027-09-17
+    end: 2027-09-21
+    tz: Europe/Madrid
+    status: confirmed
+    src: esmo-2027-home
+    quote: "Save the date for ESMO 2027, taking place in Barcelona, Spain, on 17-21 September 2027."
+last_checked: 2026-09-25
+note_zh: 会场是 Fira Barcelona Gran Via。只收摘要按 2026 届的征稿页（2027 届的征稿页还没出）。

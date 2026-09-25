@@ -1,0 +1,151 @@
+Call for Abstracts
+
+2027 Joint Mathematics Meetings (JMM 2027)
+
+Associate Secretary for AMS Program: Ben Lotto (lotto@vassar.edu)
+On-site Assistant Associate Secretary for AMS Program: Brian Boe (brian@math.uga.edu)
+
+Welcome.
+
+ * Final deadline for submissions is Tuesday, September 15, 2026.
+ * Final deadline for the PME poster session and PME contributed paper session is Tuesday, September 29, 2026.
+
+PLEASE NOTE: You will be required to sign in with your AMS account after clicking 'Begin a Submission.'  You do not have to be registered for the meeting at this time.
+
+Setting Up an AMS Web Account
+You do not have to be a member to have an AMS web account. It is free and is used for online business transactions with the AMS. The link to register for a web account or update a web account is here. You can also find it at the top right-hand corner on most AMS web pages under "Sign in." (See the AMS Home Page as an example.) Select "Register for a web account" to create an account or "Your account" to update it.  If you have just created your account or changed your password, wait about 15 or 20 minutes before submitting your abstract.
+
+Extra Information:
+
+ * You may present an unlimited amount of distinctively different abstracts in multiple special sessions.
+ * You are only allowed to present one contributed paper talk at an AMS Meeting.
+ * Undergraduate students are encouraged to submit abstracts to the PME (PI MU EPSILON) program
+   * The PME Poster Session and contributed paper deadline is September 29th, with a notification date in October.
+   * The PME Poster Session provides a venue for undergraduate students to deliver poster presentations based on original research; presentations that are purely expository in nature are not appropriate for these sessions. First-year graduate students are eligible to present if their research was completed while they were still undergraduates. High school students are eligible to present if their research was conducted under the supervision of a faculty member at a post-secondary institution. Presenters need not be members of any particular mathematics or honorary society. Questions regarding this session should be directed to Molly Moran, mmoran@coloradocollege.edu.
+ * The AWM Poster Session is a juried event. Participants must apply through MathPrograms.org before submitting an abstract. Deadline: August 15.
+
+Travel Grants:
+
+2027 JMM Travel Grant applications are open until October 17 for partial support to the JMM for graduate students.  Learn more about the guidelines, including grant amounts, deadlines, eligibility, and restrictions.   Apply today or share with your students!
+
+Steps And Instructions:
+
+There is a seven-step process to successfully submit your abstract. During the submission process, you will proceed through one step at a time, only able to advance to the next step once all required information has been entered.
+
+ * Steps are color coded in a bar along the top of your screen.
+ * Steps that are light grey with white text and a check mark are complete. You can go back to them at any time by clicking on the label.
+ * Please complete the full process for each abstract you are submitting.
+
+ 1. Programs
+
+    In the list below, find the program to which you would like to submit your abstract. Click 'Begin a Submission' for the program of your choice.
+
+ 2. Sessions
+
+    Each program may have a number of different sessions for which abstracts are being accepted. Please click on the 'Begin a Submission' button associated with the program you wish to participate in. The subsequent screen lists all session titles currently accepting submissions. If you aren't sure which session you wish to submit to, check the full scientific program. (New Site Coming Soon!)
+
+ 3. Subject
+
+     * Here is where you select the subject classification (MSC code) that best fits your abstract. There are three lists to choose from, which will assign a full 5- or 6- digit code.
+     * Select the most appropriate subject from the first list.
+     * A second list will display based on your first selection. Select the most appropriate item from the list.
+     * A third (and final) list will display based on your second selection. Choose the most appropriate item from that list.
+     * Click 'Save' at the bottom of the page.
+
+ 4. Title
+
+     * Title: Enter your title, using LaTeX markup if needed, the limit is 200 characters. Spaces and punctuation are counted. You will see your text conversion display on the page after a few seconds so you can preview the results.
+     * Submitter's Email: A link back to your submission will be sent to this email when you save the title step.
+     * You will be required to acknowledge or reply to several statements to successfully submit your abstract.
+
+ 5. Author
+
+     * Search by email or last name to see if the author you want to add is already in the database.
+     * If they are not, you will have the opportunity to add their information and add them to your submission.
+     * You must indicate who will be the presenting author. There is a limit of one presenter per paper; there is no limit on the number of co-authors for an abstract.
+     * You may indicate someone as the 'Corresponding' author, but this is not required. If no Corresponding author is selected, communications will go to the Presenting Author only.
+
+ 6. Enter Abstract Text
+
+     * Enter the text for your abstract, include any LaTeX markup if necessary.
+     * After a few seconds of typing (or a few seconds after you paste) your converted text will display for you to preview.
+     * You are limited to 2000 characters.
+
+ 7. Confirmation
+
+     * Here you can preview the information you have entered.
+     * When the 'Conclude Submission' button is clicked, an email will be sent to the Presenting Author's email AND the submitters email confirming receipt of the submission.
+     * Your abstract is *not* submitted until you click the 'Conclude Submission' button.
+     * You will still be able to edit your submission until the deadline.
+
+Notifications of Acceptance & Rejection will be sent in late October.
+
+Technical Support
+
+For email help in submitting an abstract, Contact Technical Support.
+
+Or call 401-334-0220 Monday - Friday, 8:30AM - 6PM Eastern.
+
+Please select the category for the program to which you would like to submit an abstract. If you are looking for a program that is not listed or are unsure to which program to submit, send email to meet@ams.org.
+
+Deadline for New Submissions: Tuesday, September 15, 2026 11:59PM Eastern Time.
+
+AMS (AMERICAN MATHEMATICAL SOCIETY)
+New Submissions Closed
+
+AMS CONTRIBUTED PAPER SESSION
+New Submissions Closed
+
+AIM (AMERICAN INSTITUTE OF MATHEMATICS)
+New Submissions Closed
+
+ASL (ASSOCIATION OF SYMBOLIC LOGIC)
+New Submissions Closed
+
+AWM (ASSOCIATION FOR WOMEN IN MATHEMATICS)
+New Submissions Closed
+
+COMAP (CONSORTIUM FOR MATHEMATICS AND ITS APPLICATIONS)
+New Submissions Closed
+
+CRM-PIMS-AARMS-FIELDS (CENTRE DE RECHERCHES MATHEMATICQUES/PACIFIC INSTITUTE FOR THE MATHEMATICAL SCIENCES/ATLANTIC ASSOCIATION FOR RESEARCH IN MATHEMATICAL SCIENCES/FIELDS INSTITUTE)
+New Submissions Closed
+
+ILAS (INTERNATIONAL LINEAR ALGEBRA SOCIETY)
+New Submissions Closed
+
+MAA (MATHEMATICAL ASSOCIATION OF AMERICA )
+New Submissions Closed
+
+NAM (NATIONAL ASSOCIATION OF MATHEMATICIANS)
+New Submissions Closed
+
+NSF (NATIONAL SCIENCE FOUNDATION)
+New Submissions Closed
+
+PMA (PRO MATHEMATICA ARTE)
+New Submissions Closed
+
+PME (PI MU EPSILON)
+
+SIAM (SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS)
+New Submissions Closed
+
+SLMATH (MSRI/SIMONS LAUFER MATHEMATICAL SCIENCES INSTITUTE)
+New Submissions Closed
+
+SPECTRA
+New Submissions Closed
+
+TPSE (TRANSFORMING POST-SECONDARY EDUCATION)
+New Submissions Closed
+
+View, Resume, Edit or Withdraw a Submission:
+
+If you have already submitted an abstract title you may log in below using the abstract id number and password already provided to you:
+
+Abstract ID#
+Password
+
+Forgotten ID and password?
+We will email it to you.

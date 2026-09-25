@@ -1,0 +1,31 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aps-summit-2027
+sources:
+  - id: aps-summit-2027-home
+    url: https://summit.aps.org/
+    title: APS Global Physics Summit 2027
+    kind: other
+    fetched_at: 2026-09-25T15:58:44Z
+    http_status: 200
+    snapshot: 19d909fd1e7e0c8299adbde5ad4550248195a7058f64bac43052d7a39ecfe533
+  - id: aps-summit-2027-abstracts
+    url: https://summit.aps.org/attend/abstracts
+    title: APS Global Physics Summit 2027 Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T15:58:52Z
+    http_status: 200
+    snapshot: 041b5941f90ff0301e24aade407270921ea10c1cb6651a40b8db29ac2f9fc02e
+  - id: aps-summit-2027-contributed
+    url: https://summit.aps.org/attend/abstracts/contributed
+    title: APS Global Physics Summit 2027 Contributed Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T15:59:02Z
+    http_status: 200
+    snapshot: 0b19c5035445af0bc4de0024af83eecb9e4028363070d3e71aa18e806e50c150
+  - id: aps-summit-2027-registration
+    url: https://summit.aps.org/attend/registration
+    title: APS Global Physics Summit 2027 Registration
+    kind: other
+    fetched_at: 2026-09-25T15:59:03Z
+    http_status: 200
+    snapshot: f3fc3a09ddcd4ae98218194b2928dcd8267d875d4a936712a912f1b995abba67

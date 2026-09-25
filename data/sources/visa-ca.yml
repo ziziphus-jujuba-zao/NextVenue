@@ -1,0 +1,45 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-ca
+sources:
+  - id: visa-ca-entry
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html
+    title: IRCC · Entry requirements by country or territory
+    kind: policy
+    fetched_at: 2026-09-25T10:58:03Z
+    http_status: 200
+    snapshot: 902dc07611f27223473fe819e2f9e1c22dbc491e674a6438f3c32c1be894a429
+  - id: visa-ca-apply
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html
+    title: "IRCC · Visitor visa: How to apply"
+    kind: form
+    fetched_at: 2026-09-25T10:58:07Z
+    http_status: 200
+    snapshot: 8f01694c2e72124276ec5b8feb015c2aec98272fec246f5019fc826e93808919
+  - id: visa-ca-events
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/business/visitors-events-conferences.html
+    title: "IRCC · Business visitors: meetings, events and conferences"
+    kind: policy
+    fetched_at: 2026-09-25T10:58:09Z
+    http_status: 200
+    snapshot: d3ed12fd4239bb051909e39cebe5ea49ad5e86a0e5239d777c625b42afbc9352
+  - id: visa-ca-ptime
+    url: https://www.canada.ca/content/dam/ircc/documents/json/data-ptime-en.json
+    title: IRCC · Processing times data (JSON behind the processing-times tool)
+    kind: other
+    fetched_at: 2026-09-25T10:58:13Z
+    http_status: 200
+    snapshot: af1d501ea247d4cb7fa5a999896ed628f876d629566e05383266ca17e92eaa7b
+  - id: visa-ca-ptime-tool
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html
+    title: IRCC · Check processing times
+    kind: other
+    fetched_at: 2026-09-25T10:58:15Z
+    http_status: 200
+    snapshot: f2fe334bdbc7b7926d2aff921d46fd6f9aa7a34835f4df6adee781556e569202
+  - id: visa-ca-ctp
+    url: https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/transit/without-visa/china-transit-eligibility.html
+    title: IRCC · China Transit Program eligibility
+    kind: policy
+    fetched_at: 2026-09-25T10:58:16Z
+    http_status: 200
+    snapshot: 3e3aa9d5c3672d9f9ca3aa34aba715667845501524de4d92fea19cc0e628f59b

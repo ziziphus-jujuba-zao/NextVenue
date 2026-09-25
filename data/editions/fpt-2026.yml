@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: fpt-2026
+series: fpt
+name: FPT 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/FPT
+  conf_id: fpt2026
+  link: https://fpt2026.uark.edu
+  place: Honolulu, Hawaii, USA
+  date: December 07 - December 10, 2026
+  timezone: AoE
+location:
+  city: Honolulu
+  country: USA
+  country_code: US
+dates:
+  start: 2026-12-07
+  end: 2026-12-10
+milestones:
+  - type: paper
+    at: 2026-06-19T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Title and Abstract Due (Conference Track)
+  - type: paper
+    at: 2026-06-19T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Submission Due (Conference Track)
+  - type: conference
+    start: 2026-12-07
+    end: 2026-12-10
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

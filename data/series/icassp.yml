@@ -1,0 +1,13 @@
+id: icassp
+acronym: ICASSP
+full_name: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+aliases: [IEEE ICASSP]
+directions: [cs/speech, eng/comm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/icassp
+ccfddl: CG/ICASSP
+data_level: curated
+note_zh: IEEE 信号处理学会（SPS）的旗舰会议，覆盖语音、音频、图像与通信信号处理；CCF 第七版列在第 7 类（图形学与多媒体）。

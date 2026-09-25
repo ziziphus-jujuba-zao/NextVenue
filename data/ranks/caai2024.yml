@@ -1,0 +1,1493 @@
+# 中国人工智能学会推荐国际学术会议和国际/国内期刊目录 · 国际学术会议部分 — 158 条。由 scripts/import-rank-list.ts 从官方 PDF 的逐条抽取稿生成；改动请重新生成，不要手改条目。
+# 许可：© 中国人工智能学会，没有公开许可。界面只显示等级和出处（目录名、版次、官方链接），不转载 PDF。
+id: caai2024
+label_zh: CAAI
+name_zh: 中国人工智能学会推荐国际学术会议和国际/国内期刊目录 · 国际学术会议部分
+name_en: CAAI Recommended International Conferences and International/Domestic Journals (conferences)
+issuer_zh: 中国人工智能学会
+issuer_en: Chinese Association for Artificial Intelligence (CAAI)
+kind: society
+edition: "2024"
+edition_zh: 2024 版
+released: 2024-08-24
+note_zh: 第一版（2024-01 征求意见稿）。截至 2026-09-25 没有找到更新的版本（未核实）。
+official_url: https://www.caai.cn/site/content/4024.html
+document:
+  url: https://cmsfiles.zhongkefu.com.cn/cmsrengongzhinengoss2025/Uploads/Download/2024-08-24/66c94462e9e47.pdf
+  sha256: d8d0af5add513fa7ad085d7d08512901c3d863d8c381d6f2348085c8d3f35587
+  pages: 27
+tiers:
+  - A
+  - B
+  - C
+tier_meaning_zh:
+  A: 该领域内最顶尖的学术会议或刊物
+  B: 在国际上广泛认可的重要学术会议或刊物
+  C: 国际学术界所认可的重要学术会议或刊物
+attach: series
+license:
+  display: tier_and_citation
+  note_zh: © 中国人工智能学会，没有公开许可。界面只显示等级和出处（目录名、版次、官方链接），不转载 PDF。
+disclaimer_zh: 本《目录》…并非旨在成为学术评价的单一标准，而是作为学会一个建议性的参考，仅供业界人士参考使用。
+categories:
+  - id: 人工智能基础与综合
+    name_zh: 人工智能基础与综合
+    name_en: AI Foundations & General
+  - id: 智能机器人与系统
+    name_zh: 智能机器人与系统
+    name_en: Intelligent Robots & Systems
+  - id: 智能芯片与计算系统
+    name_zh: 智能芯片与计算系统
+    name_en: Intelligent Chips & Computing Systems
+  - id: 机器学习
+    name_zh: 机器学习
+    name_en: Machine Learning
+  - id: 模式识别与计算机视觉
+    name_zh: 模式识别与计算机视觉
+    name_en: Pattern Recognition & Computer Vision
+  - id: 知识工程与数据挖掘
+    name_zh: 知识工程与数据挖掘
+    name_en: Knowledge Engineering & Data Mining
+  - id: 语言与语音处理
+    name_zh: 语言与语音处理
+    name_en: Language & Speech Processing
+  - id: 跨媒体智能与人机交互
+    name_zh: 跨媒体智能与人机交互
+    name_en: Cross-media Intelligence & HCI
+  - id: 人工智能交叉与应用
+    name_zh: 人工智能交叉与应用
+    name_en: AI Interdisciplinary & Applications
+  - id: 脑认知与类脑智能
+    name_zh: 脑认知与类脑智能
+    name_en: Brain Cognition & Brain-inspired Intelligence
+  - id: 人工智能伦理、安全与治理
+    name_zh: 人工智能伦理、安全与治理
+    name_en: AI Ethics, Safety & Governance
+verified:
+  date: 2026-09-25
+  method_zh: 从官方附件地址重新下载 PDF（sha256 与本文件一致），158 条按缩写和等级逐条核对。
+counts:
+  total: 158
+  by_tier:
+    A: 28
+    B: 49
+    C: 81
+entries:
+  - id: aaai
+    acronym: AAAI
+    full_name: AAAI Conference on Artificial Intelligence
+    tier: A
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:aaai
+      - name:aaai conference artificial intelligence
+      - dblp:conf/aaai
+  - id: cicai
+    acronym: CICAI
+    full_name: CAAI International Conference on Artificial Intelligence
+    tier: A
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:cicai
+      - name:caai international conference artificial intelligence
+      - dblp:conf/cicai
+  - id: uai
+    acronym: UAI
+    full_name: Conference on Uncertainty in Artificial Intelligence
+    tier: A
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:uai
+      - name:conference uncertainty artificial intelligence
+      - dblp:conf/uai
+  - id: ijcai
+    acronym: IJCAI
+    full_name: International Joint Conference on Artificial Intelligence
+    tier: A
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:ijcai
+      - name:international joint conference artificial intelligence
+      - dblp:conf/ijcai
+  - id: rss
+    acronym: RSS
+    full_name: "Robotics: Science and Systems"
+    tier: A
+    category: 智能机器人与系统
+    match_keys:
+      - acronym:rss
+      - name:robotics science systems
+      - dblp:conf/rss
+  - id: icra
+    acronym: ICRA
+    full_name: The International Conference on Robotics and Automation
+    tier: A
+    category: 智能机器人与系统
+    match_keys:
+      - acronym:icra
+      - name:international conference robotics automation
+      - dblp:conf/icra
+  - id: isca
+    acronym: ISCA
+    full_name: ACM/IEEE International Symposium on Computer Architecture
+    tier: A
+    category: 智能芯片与计算系统
+    match_keys:
+      - acronym:isca
+      - name:international symposium computer architecture
+      - dblp:conf/isca
+  - id: micro
+    acronym: MICRO
+    full_name: IEEE/ACM International Symposium on Microarchitecture
+    tier: A
+    category: 智能芯片与计算系统
+    match_keys:
+      - acronym:micro
+      - dblp:conf/micro
+  - id: colt
+    acronym: COLT
+    full_name: Conference on Learning Theory
+    tier: A
+    category: 机器学习
+    match_keys:
+      - acronym:colt
+      - name:conference learning theory
+      - dblp:conf/colt
+  - id: iclr
+    acronym: ICLR
+    full_name: International Conference on Learning Representations
+    tier: A
+    category: 机器学习
+    match_keys:
+      - acronym:iclr
+      - name:international conference learning representations
+      - dblp:conf/iclr
+  - id: icml
+    acronym: ICML
+    full_name: International Conference on Machine Learning
+    tier: A
+    category: 机器学习
+    match_keys:
+      - acronym:icml
+      - name:international conference machine learning
+      - dblp:conf/icml
+  - id: neurips
+    acronym: NeurIPS
+    full_name: Neural Information Processing Systems
+    tier: A
+    category: 机器学习
+    match_keys:
+      - acronym:neurips
+      - name:neural information processing systems
+      - dblp:conf/nips
+  - id: eccv
+    acronym: ECCV
+    full_name: European Conference on Computer Vision
+    tier: A
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:eccv
+      - name:european conference computer vision
+      - dblp:conf/eccv
+  - id: cvpr
+    acronym: CVPR
+    full_name: IEEE/CVF Computer Vision and Pattern Recognition Conference
+    tier: A
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:cvpr
+      - name:computer vision pattern recognition conference
+      - dblp:conf/cvpr
+  - id: iccv
+    acronym: ICCV
+    full_name: IEEE/CVF International Conference on Computer Vision
+    tier: A
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:iccv
+      - name:international conference computer vision
+      - dblp:conf/iccv
+  - id: sigkdd
+    acronym: SIGKDD
+    full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+    tier: A
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:sigkdd
+      - name:conference knowledge discovery data mining
+      - dblp:conf/kdd
+  - id: sigmod
+    acronym: SIGMOD
+    full_name: ACM SIGMOD Conference
+    tier: A
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:sigmod
+      - dblp:conf/sigmod
+  - id: icde
+    acronym: ICDE
+    full_name: IEEE International Conference on Data Engineering
+    tier: A
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:icde
+      - name:international conference data engineering
+      - dblp:conf/icde
+  - id: sigir
+    acronym: SIGIR
+    full_name: International ACM SIGIR Conference on Research and Development in Information Retrieval
+    tier: A
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:sigir
+      - name:international conference research development information retrieval
+      - dblp:conf/sigir
+  - id: vldb
+    acronym: VLDB
+    full_name: International Conference on Very Large Data Bases
+    tier: A
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:vldb
+      - name:international conference very large data bases
+      - dblp:conf/vldb
+  - id: www
+    acronym: WWW
+    full_name: ACM Web Conference (International Conference on World Wide Web)
+    tier: A
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:www
+      - dblp:conf/www
+  - id: acl
+    acronym: ACL
+    full_name: Annual Meeting of the Association for Computational Linguistics
+    tier: A
+    category: 语言与语音处理
+    match_keys:
+      - acronym:acl
+      - name:annual meeting association computational linguistics
+      - dblp:conf/acl
+  - id: emnlp
+    acronym: EMNLP
+    full_name: Conference on Empirical Methods in Natural Language Processing
+    tier: A
+    category: 语言与语音处理
+    match_keys:
+      - acronym:emnlp
+      - name:conference empirical methods natural language processing
+      - dblp:conf/emnlp
+  - id: chi
+    acronym: CHI
+    full_name: ACM Conference on Human Factors in Computing Systems
+    tier: A
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:chi
+      - name:conference human factors computing systems
+      - dblp:conf/chi
+  - id: mm
+    acronym: ACM MM
+    full_name: ACM International Conference on Multimedia
+    tier: A
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:mm
+      - dblp:conf/mm
+  - id: vr
+    acronym: VR
+    full_name: IEEE Conference on Virtual Reality and 3D User Interfaces
+    tier: A
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:vr
+      - name:conference virtual reality 3d user interfaces
+      - dblp:conf/vr
+  - id: siggraph
+    acronym: SIGGRAPH
+    full_name: ACM Special Interest Group on Computer Graphics
+    tier: A
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:siggraph
+      - name:special interest group computer graphics
+      - dblp:conf/siggraph
+  - id: vis
+    acronym: IEEE VIS
+    full_name: IEEE Visualization Conference
+    tier: A
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:vis
+      - dblp:conf/visualization
+  - id: embc
+    acronym: EMBC
+    full_name: Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+    tier: B
+    category: 人工智能交叉与应用
+    match_keys:
+      - acronym:embc
+      - name:annual international conference engineering medicine biology society
+      - dblp:conf/embc
+  - id: aied
+    acronym: AIED
+    full_name: International Conference on Artificial Intelligence in Education
+    tier: B
+    category: 人工智能交叉与应用
+    match_keys:
+      - acronym:aied
+      - name:international conference artificial intelligence education
+      - dblp:conf/aied
+  - id: bibm
+    acronym: BIBM
+    full_name: IEEE International Conference on Bioinformatics and Biomedicine
+    tier: B
+    category: 人工智能交叉与应用
+    match_keys:
+      - acronym:bibm
+      - name:international conference bioinformatics biomedicine
+      - dblp:conf/bibm
+  - id: ppsn
+    acronym: PPSN
+    full_name: Parallel Problem Solving from Nature
+    tier: B
+    category: 人工智能交叉与应用
+    match_keys:
+      - acronym:ppsn
+      - name:parallel problem solving from nature
+      - dblp:conf/ppsn
+  - id: ecai
+    acronym: ECAI
+    full_name: European Conference on Artificial Intelligence
+    tier: B
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:ecai
+      - name:european conference artificial intelligence
+      - dblp:conf/ecai
+  - id: aistats
+    acronym: AISTATS
+    full_name: International Conference on Artificial Intelligence and Statistics
+    tier: B
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:aistats
+      - name:international conference artificial intelligence statistics
+      - dblp:conf/aistats
+  - id: iros
+    acronym: IROS
+    full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
+    tier: B
+    category: 智能机器人与系统
+    match_keys:
+      - acronym:iros
+      - name:international conference intelligent robots systems
+      - dblp:conf/iros
+  - id: aamas
+    acronym: AAMAS
+    full_name: International Conference on Autonomous Agents and Multiagent Systems
+    tier: B
+    category: 智能机器人与系统
+    match_keys:
+      - acronym:aamas
+      - name:international conference autonomous agents multiagent systems
+      - dblp:conf/atal
+  - id: hotchips
+    acronym: HOT CHIPS
+    full_name: "Hot Chips: A Symposium on High Performance Chips"
+    tier: B
+    category: 智能芯片与计算系统
+    match_keys:
+      - acronym:hotchips
+      - name:hot chips symposium high performance chips
+      - dblp:conf/hotchips
+  - id: isscc
+    acronym: ISSCC
+    full_name: IEEE International Solid-State Circuits Conference
+    tier: B
+    category: 智能芯片与计算系统
+    match_keys:
+      - acronym:isscc
+      - name:international solid state circuits conference
+      - dblp:conf/isscc
+  - id: vlsic
+    acronym: VLSIC
+    full_name: Symposium on VLSI Technology and Circuits
+    tier: B
+    category: 智能芯片与计算系统
+    match_keys:
+      - acronym:vlsic
+      - name:symposium vlsi technology circuits
+      - dblp:conf/vlsic
+  - id: ecml
+    acronym: ECML
+    full_name: European Conference on Machine Learning
+    tier: B
+    category: 机器学习
+    match_keys:
+      - acronym:ecml
+      - name:european conference machine learning
+      - dblp:conf/ecml
+    note: CAAI lists ECML (机器学习, B) separately from ECML PKDD (知识工程与数据挖掘, B); the conference runs jointly as ECML PKDD, which CCF lists as ECML-PKDD (B).
+  - id: icpr
+    acronym: ICPR
+    full_name: International Conference on Pattern Recognition
+    tier: B
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icpr
+      - name:international conference pattern recognition
+      - dblp:conf/icpr
+  - id: icdar
+    acronym: ICDAR
+    full_name: International Conference on Document Analysis and Recognition
+    tier: B
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icdar
+      - name:international conference document analysis recognition
+      - dblp:conf/icdar
+  - id: wacv
+    acronym: WACV
+    full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+    tier: B
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:wacv
+      - name:winter conference applications computer vision
+      - dblp:conf/wacv
+  - id: recsys
+    acronym: RecSys
+    full_name: ACM Conference on Recommender Systems
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:recsys
+      - name:conference recommender systems
+      - dblp:conf/recsys
+  - id: cikm
+    acronym: CIKM
+    full_name: ACM International Conference on Information and Knowledge Management
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:cikm
+      - name:international conference information knowledge management
+      - dblp:conf/cikm
+  - id: wsdm
+    acronym: WSDM
+    full_name: ACM International Conference on Web Search and Data Mining
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:wsdm
+      - name:international conference web search data mining
+      - dblp:conf/wsdm
+  - id: pods
+    acronym: PODS
+    full_name: ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:pods
+      - name:symposium principles database systems
+      - dblp:conf/pods
+  - id: cidr
+    acronym: CIDR
+    full_name: Conference on Innovative Data Systems Research
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:cidr
+      - name:conference innovative data systems research
+      - dblp:conf/cidr
+  - id: dcc
+    acronym: DCC
+    full_name: Data Compression Conference
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:dcc
+      - name:data compression conference
+      - dblp:conf/dcc
+  - id: iswc
+    acronym: ISWC
+    full_name: IEEE International Semantic Web Conference
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:iswc
+      - name:international semantic web conference
+      - dblp:conf/semweb
+  - id: kr
+    acronym: KR
+    full_name: International Conference on Principles of Knowledge Representation and Reasoning
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:kr
+      - name:international conference principles knowledge representation reasoning
+      - dblp:conf/kr
+  - id: sdm
+    acronym: SDM
+    full_name: SIAM International Conference on Data Mining
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:sdm
+      - name:siam international conference data mining
+      - dblp:conf/sdm
+  - id: dasfaa
+    acronym: DASFAA
+    full_name: International Conference on Database Systems for Advanced Applications
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:dasfaa
+      - name:international conference database systems advanced applications
+      - dblp:conf/dasfaa
+  - id: icdt
+    acronym: ICDT
+    full_name: International Conference on Database Theory
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:icdt
+      - name:international conference database theory
+      - dblp:conf/icdt
+  - id: edbt
+    acronym: EDBT
+    full_name: International Conference on Extending Database Technology
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:edbt
+      - name:international conference extending database technology
+      - dblp:conf/edbt
+  - id: icdm
+    acronym: ICDM
+    full_name: IEEE International Conference on Data Mining
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:icdm
+      - name:international conference data mining
+      - dblp:conf/icdm
+  - id: ecmlpkdd
+    acronym: ECML PKDD
+    full_name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:ecmlpkdd
+      - name:european conference machine learning principles practice knowledge discovery databases
+      - dblp:conf/ecml
+      - dblp:conf/pkdd
+  - id: icwsm
+    acronym: ICWSM
+    full_name: The International AAAI Conference on Web and Social Media
+    tier: B
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:icwsm
+      - name:international aaai conference web social media
+      - dblp:conf/icwsm
+  - id: cogsci
+    acronym: CogSci
+    full_name: Annual Meeting of the Cognitive Science Society
+    tier: B
+    category: 脑认知与类脑智能
+    match_keys:
+      - acronym:cogsci
+      - name:annual meeting cognitive science society
+      - dblp:conf/cogsci
+  - id: coling
+    acronym: COLING
+    full_name: International Conference on Computational Linguistics
+    tier: B
+    category: 语言与语音处理
+    match_keys:
+      - acronym:coling
+      - name:international conference computational linguistics
+      - dblp:conf/coling
+  - id: naacl
+    acronym: NAACL
+    full_name: North American Chapter of the Association for Computational Linguistics
+    tier: B
+    category: 语言与语音处理
+    match_keys:
+      - acronym:naacl
+      - name:north american chapter association computational linguistics
+      - dblp:conf/naacl
+  - id: interspeech
+    acronym: INTERSPEECH
+    full_name: Conference of the International Speech Communication Association
+    tier: B
+    category: 语言与语音处理
+    match_keys:
+      - acronym:interspeech
+      - name:conference international speech communication association
+      - dblp:conf/interspeech
+  - id: icassp
+    acronym: ICASSP
+    full_name: IEEE International Conference on Acoustics, Speech and Signal Processing
+    tier: B
+    category: 语言与语音处理
+    match_keys:
+      - acronym:icassp
+      - name:international conference acoustics speech processing
+      - dblp:conf/icassp
+  - id: iui
+    acronym: IUI
+    full_name: ACM International Conference on Intelligent User Interfaces
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:iui
+      - name:international conference intelligent user interfaces
+      - dblp:conf/iui
+  - id: its
+    acronym: ITS
+    full_name: ACM International Conference on Interactive Tabletops and Surfaces
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:its
+      - name:international conference interactive tabletops surfaces
+      - dblp:conf/tabletop
+    note: "Acronym collision: not the ITS World Congress (intelligent transport). Match on full name."
+  - id: icme
+    acronym: ICME
+    full_name: IEEE International Conference on Multimedia & Expo
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:icme
+      - name:international conference multimedia expo
+      - dblp:conf/icmcs
+  - id: ismar
+    acronym: ISMAR
+    full_name: International Symposium on Mixed and Augmented Reality
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:ismar
+      - name:international symposium mixed augmented reality
+      - dblp:conf/ismar
+  - id: ecscw
+    acronym: ECSCW
+    full_name: European Conference on Computer Supported Cooperative Work
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:ecscw
+      - name:european conference computer supported cooperative work
+      - dblp:conf/ecscw
+  - id: haptics
+    acronym: HAPTICS
+    full_name: IEEE Haptics Symposium
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:haptics
+      - dblp:conf/haptics
+    note: IEEE Haptics Symposium; not the same as IEEE World Haptics Conference (CCF-C, CAAI-C as WHC).
+  - id: i3d
+    acronym: I3D
+    full_name: ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:i3d
+      - name:symposium interactive 3d graphics games
+      - dblp:conf/si3d
+  - id: sca
+    acronym: SCA
+    full_name: ACM SIGGRAPH/Eurographics Symposium on Computer Animation
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:sca
+      - name:eurographics symposium computer animation
+      - dblp:conf/sca
+  - id: eurographics
+    acronym: EUROGRAPHICS
+    full_name: Annual Conference of the European Association for Computer Graphics
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:eurographics
+      - name:annual conference european association computer graphics
+      - dblp:conf/eurographics
+  - id: eurovis
+    acronym: EuroVis
+    full_name: Eurographics Conference on Visualization
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:eurovis
+      - name:eurographics conference visualization
+      - dblp:conf/vissym
+  - id: sgp
+    acronym: SGP
+    full_name: Eurographics Symposium on Geometry Processing
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:sgp
+      - name:eurographics symposium geometry processing
+      - dblp:conf/sgp
+  - id: egsr
+    acronym: EGSR
+    full_name: Eurographics Symposium on Rendering
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:egsr
+      - name:eurographics symposium rendering
+      - dblp:conf/rt
+  - id: pg
+    acronym: PG
+    full_name: Pacific Conference on Computer Graphics and Applications
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:pg
+      - name:pacific conference computer graphics applications
+      - dblp:conf/pg
+  - id: spm
+    acronym: SPM
+    full_name: Symposium on Solid and Physical Modeling
+    tier: B
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:spm
+      - name:symposium solid physical modeling
+      - dblp:conf/sma
+  - id: smc
+    acronym: SMC
+    full_name: IEEE Conference on Systems, Man and Cybernetics
+    tier: C
+    category: 人工智能交叉与应用
+    match_keys:
+      - acronym:smc
+      - name:conference systems man cybernetics
+      - dblp:conf/smc
+  - id: igarss
+    acronym: IGARSS
+    full_name: IEEE International Geoscience and Remote Sensing Symposium
+    tier: C
+    category: 人工智能交叉与应用
+    match_keys:
+      - acronym:igarss
+      - name:international geoscience remote sensing symposium
+      - dblp:conf/igarss
+  - id: er
+    acronym: ER
+    full_name: International Conference on Conceptual Modeling
+    tier: C
+    category: 人工智能交叉与应用
+    match_keys:
+      - acronym:er
+      - name:international conference conceptual modeling
+      - dblp:conf/er
+  - id: aies
+    acronym: AIES
+    full_name: AAAI/ACM Conference on AI, Ethics, and Society
+    tier: C
+    category: 人工智能伦理、安全与治理
+    match_keys:
+      - acronym:aies
+      - name:aaai conference ai ethics society
+      - dblp:conf/aies
+  - id: aiesd
+    acronym: AIESD
+    full_name: International Conference on AI Ethics and Sustainable Development
+    tier: C
+    category: 人工智能伦理、安全与治理
+    match_keys:
+      - acronym:aiesd
+      - name:international conference ai ethics sustainable development
+  - id: ictai
+    acronym: ICTAI
+    full_name: IEEE International Conference on Tools with Artificial Intelligence
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:ictai
+      - name:international conference tools artificial intelligence
+      - dblp:conf/ictai
+  - id: icann
+    acronym: ICANN
+    full_name: International Conference on Artificial Neural Networks
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:icann
+      - name:international conference artificial neural networks
+      - dblp:conf/icann
+  - id: pricai
+    acronym: PRICAI
+    full_name: Pacific Rim International Conference on Artificial Intelligence
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:pricai
+      - name:pacific rim international conference artificial intelligence
+      - dblp:conf/pricai
+  - id: gecco
+    acronym: GECCO
+    full_name: Genetic and Evolutionary Computation Conference
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:gecco
+      - name:genetic evolutionary computation conference
+      - dblp:conf/gecco
+  - id: cec
+    acronym: CEC
+    full_name: IEEE Congress on Evolutionary Computation
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:cec
+      - name:congress evolutionary computation
+      - dblp:conf/cec
+  - id: iconip
+    acronym: ICONIP
+    full_name: International Conference on Neural Information Processing
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:iconip
+      - name:international conference neural information processing
+      - dblp:conf/iconip
+  - id: ijcnn
+    acronym: IJCNN
+    full_name: International Joint Conference on Neural Networks
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:ijcnn
+      - name:international joint conference neural networks
+      - dblp:conf/ijcnn
+  - id: icdsp
+    acronym: ICDSP
+    full_name: International Conference on Digital Signal Processing
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:icdsp
+      - name:international conference digital processing
+      - dblp:conf/icdsp
+  - id: icisci
+    acronym: ICISCI
+    full_name: IEEE International Conference on Intelligent Systems and Computational Intelligence
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:icisci
+      - name:international conference intelligent systems computational intelligence
+  - id: wcci
+    acronym: WCCI
+    full_name: IEEE World Congress on Computational Intelligence
+    tier: C
+    category: 人工智能基础与综合
+    match_keys:
+      - acronym:wcci
+      - name:world congress computational intelligence
+      - dblp:conf/wcci
+  - id: corl
+    acronym: CoRL
+    full_name: Conference on Robot Learning
+    tier: C
+    category: 智能机器人与系统
+    match_keys:
+      - acronym:corl
+      - name:conference robot learning
+      - dblp:conf/corl
+  - id: cyber
+    acronym: CYBER
+    full_name: IEEE International Conference on CYBER Technology in Automation, Control and Intelligent Systems
+    tier: C
+    category: 智能机器人与系统
+    match_keys:
+      - acronym:cyber
+      - name:international conference cyber technology automation control intelligent systems
+    note: No dblp link in source; official site given.
+  - id: asscc
+    acronym: A-SSCC
+    full_name: Asian Solid-State Circuits Conference
+    tier: C
+    category: 智能芯片与计算系统
+    match_keys:
+      - acronym:asscc
+      - name:asian solid state circuits conference
+      - dblp:conf/asscc
+  - id: hpca
+    acronym: HPCA
+    full_name: IEEE International Symposium on High-Performance Computer Architecture
+    tier: C
+    category: 智能芯片与计算系统
+    match_keys:
+      - acronym:hpca
+      - name:international symposium high performance computer architecture
+      - dblp:conf/hpca
+  - id: alt
+    acronym: ALT
+    full_name: Algorithmic Learning Theory
+    tier: C
+    category: 机器学习
+    match_keys:
+      - acronym:alt
+      - name:algorithmic learning theory
+      - dblp:conf/alt
+  - id: acml
+    acronym: ACML
+    full_name: Asian Conference on Machine Learning
+    tier: C
+    category: 机器学习
+    match_keys:
+      - acronym:acml
+      - name:asian conference machine learning
+      - dblp:conf/acml
+  - id: acivs
+    acronym: ACIVS
+    full_name: Advanced Concepts for Intelligent Vision Systems
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:acivs
+      - name:advanced concepts intelligent vision systems
+      - dblp:conf/acivs
+  - id: accv
+    acronym: ACCV
+    full_name: Asian Conference on Computer Vision
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:accv
+      - name:asian conference computer vision
+      - dblp:conf/accv
+  - id: acpr
+    acronym: ACPR
+    full_name: Asian Conference on Pattern Recognition
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:acpr
+      - name:asian conference pattern recognition
+      - dblp:conf/acpr
+  - id: bmvc
+    acronym: BMVC
+    full_name: British Machine Vision Conference
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:bmvc
+      - name:british machine vision conference
+      - dblp:conf/bmvc
+  - id: prcv
+    acronym: PRCV
+    full_name: Chinese Conference on Pattern Recognition and Computer Vision
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:prcv
+      - name:chinese conference pattern recognition computer vision
+      - dblp:conf/prcv
+  - id: fg
+    acronym: FG
+    full_name: IEEE International Conference on Automatic Face and Gesture Recognition
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:fg
+      - name:international conference automatic face gesture recognition
+      - dblp:conf/fgr
+  - id: iccp
+    acronym: ICCP
+    full_name: IEEE International Conference on Computational Photography
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:iccp
+      - name:international conference computational photography
+      - dblp:conf/iccp
+  - id: icip
+    acronym: ICIP
+    full_name: IEEE International Conference on Image Processing
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icip
+      - name:international conference image processing
+      - dblp:conf/icip
+  - id: 3dv
+    acronym: 3DV
+    full_name: International Conference on 3D Vision
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:3dv
+      - name:international conference 3d vision
+      - dblp:conf/3dim
+  - id: icvs
+    acronym: ICVS
+    full_name: International Conference on Computer Vision Systems
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icvs
+      - name:international conference computer vision systems
+      - dblp:conf/icvs
+  - id: visapp
+    acronym: VISAPP
+    full_name: International Conference on Computer Vision Theory and Applications
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:visapp
+      - name:international conference computer vision theory applications
+      - dblp:conf/visapp
+  - id: icfhr
+    acronym: ICFHR
+    full_name: International Conference on Frontiers in Handwriting Recognition
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icfhr
+      - name:international conference frontiers handwriting recognition
+      - dblp:conf/icfhr
+  - id: iciap
+    acronym: ICIAP
+    full_name: International Conference on Image Analysis and Processing
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:iciap
+      - name:international conference image analysis processing
+      - dblp:conf/iciap
+  - id: icmva
+    acronym: ICMVA
+    full_name: International Conference on Machine Vision and Applications
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icmva
+      - name:international conference machine vision applications
+      - dblp:conf/icmva
+  - id: icprai
+    acronym: ICPRAI
+    full_name: International Conference on Pattern Recognition and Artificial Intelligence
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icprai
+      - name:international conference pattern recognition artificial intelligence
+      - dblp:conf/icprai
+  - id: icpram
+    acronym: ICPRAM
+    full_name: International Conference on Pattern Recognition Application and Methods
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:icpram
+      - name:international conference pattern recognition application methods
+      - dblp:conf/icpram
+  - id: das
+    acronym: DAS
+    full_name: International Workshop on Document Analysis Systems
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:das
+      - name:international workshop document analysis systems
+      - dblp:conf/das
+  - id: ijcb
+    acronym: IJCB
+    full_name: International Joint Conference on Biometrics
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:ijcb
+      - dblp:conf/icb
+  - id: ssspr
+    acronym: S+SSPR
+    full_name: Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition and Structural and Syntactic Pattern Recognition
+    tier: C
+    category: 模式识别与计算机视觉
+    match_keys:
+      - acronym:ssspr
+      - name:joint iapr international workshops statistical techniques pattern recognition structural syntactic pattern recognition
+      - dblp:conf/sspr
+  - id: apweb
+    acronym: APWeb
+    full_name: Asia Pacific Web Conference
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:apweb
+      - name:asia pacific web conference
+      - dblp:conf/apweb
+  - id: ecir
+    acronym: ECIR
+    full_name: European Conference on Information Retrieval
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:ecir
+      - name:european conference information retrieval
+      - dblp:conf/ecir
+  - id: eswc
+    acronym: ESWC
+    full_name: Extended Semantic Web Conference
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:eswc
+      - name:extended semantic web conference
+      - dblp:conf/esws
+  - id: adma
+    acronym: ADMA
+    full_name: International Conference on Advanced Data Mining and Applications
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:adma
+      - name:international conference advanced data mining applications
+      - dblp:conf/adma
+  - id: ksem
+    acronym: KSEM
+    full_name: International conference on Knowledge Science, Engineering and Management
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:ksem
+      - name:international conference knowledge science engineering management
+      - dblp:conf/ksem
+  - id: mdm
+    acronym: MDM
+    full_name: International Conference on Mobile Data Management
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:mdm
+      - name:international conference mobile data management
+      - dblp:conf/mdm
+  - id: seke
+    acronym: SEKE
+    full_name: International Conference on Software Engineering and Knowledge Engineering
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:seke
+      - name:international conference software engineering knowledge engineering
+      - dblp:conf/seke
+  - id: ssdbm
+    acronym: SSDBM
+    full_name: International Conference on Scientific and Statistical Database Management
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:ssdbm
+      - name:international conference scientific statistical database management
+      - dblp:conf/ssdbm
+  - id: waim
+    acronym: WAIM
+    full_name: International Conference on Web Age Information Management
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:waim
+      - name:international conference web age information management
+      - dblp:conf/waim
+  - id: sstd
+    acronym: SSTD
+    full_name: International Symposium on Spatial and Temporal Databases
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:sstd
+      - name:international symposium spatial temporal databases
+      - dblp:conf/ssd
+  - id: webdb
+    acronym: WebDB
+    full_name: International Workshop on Web and Databases
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:webdb
+      - name:international workshop web databases
+      - dblp:conf/webdb
+  - id: pakdd
+    acronym: PAKDD
+    full_name: Pacific-Asia Conference on Knowledge Discovery and Data Mining
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:pakdd
+      - name:pacific asia conference knowledge discovery data mining
+      - dblp:conf/pakdd
+  - id: wise
+    acronym: WISE
+    full_name: Web Information Systems Engineering
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:wise
+      - name:web information systems engineering
+      - dblp:conf/wise
+  - id: dexa
+    acronym: DEXA
+    full_name: International Conference on Database and Expert System Applications
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:dexa
+      - name:international conference database expert system applications
+      - dblp:conf/dexa
+  - id: sigirap
+    acronym: SIGIR-AP
+    full_name: ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region
+    tier: C
+    category: 知识工程与数据挖掘
+    match_keys:
+      - acronym:sigirap
+      - name:conference research development information retrieval asia pacific region
+      - dblp:conf/sigir-ap
+  - id: nlpcc
+    acronym: NLPCC
+    full_name: CCF International Conference on Natural Language Processing and Chinese Computing
+    tier: C
+    category: 语言与语音处理
+    match_keys:
+      - acronym:nlpcc
+      - name:ccf international conference natural language processing chinese computing
+      - dblp:conf/nlpcc
+  - id: conll
+    acronym: CoNLL
+    full_name: Conference on Computational Natural Language Learning
+    tier: C
+    category: 语言与语音处理
+    match_keys:
+      - acronym:conll
+      - name:conference computational natural language learning
+      - dblp:conf/conll
+  - id: eacl
+    acronym: EACL
+    full_name: Conference of the European Chapter of the Association for Computational Linguistics
+    tier: C
+    category: 语言与语音处理
+    match_keys:
+      - acronym:eacl
+      - name:conference european chapter association computational linguistics
+      - dblp:conf/eacl
+  - id: aaclijcnlp
+    acronym: AACL/IJCNLP
+    full_name: Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics / International Joint Conference on Natural
+    tier: C
+    category: 语言与语音处理
+    match_keys:
+      - acronym:aaclijcnlp
+      - name:conference asia pacific chapter association computational linguistics international joint conference natural
+      - dblp:conf/acl
+    note: Full name truncated in source PDF after 'International Joint Conference on Natural' (i.e., ... Natural Language Processing).
+  - id: idc
+    acronym: IDC
+    full_name: ACM Interaction Design and Children
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:idc
+      - name:interaction design children
+      - dblp:conf/acmidc
+  - id: icmi
+    acronym: ICMI
+    full_name: ACM International Conference on Multimodal Interaction
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:icmi
+      - name:international conference multimodal interaction
+      - dblp:conf/icmi
+  - id: mmasia
+    acronym: MM Asia
+    full_name: ACM Multimedia Asia
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:mmasia
+      - name:multimedia asia
+      - dblp:conf/mmasia
+  - id: dis
+    acronym: DIS
+    full_name: ACM Designing Interactive Systems
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:dis
+      - name:designing interactive systems
+      - dblp:conf/acmdis
+  - id: gi
+    acronym: GI
+    full_name: Graphics Interface
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:gi
+      - name:graphics interface
+      - dblp:conf/graphicsinterface
+  - id: interact
+    acronym: INTERACT
+    full_name: IFIP TC13 Conference on Human-Computer Interaction
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:interact
+      - name:ifip tc13 conference human computer interaction
+      - dblp:conf/interact
+  - id: mmm
+    acronym: MMM
+    full_name: International Conference on Multimedia Modeling
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:mmm
+      - name:international conference multimedia modeling
+      - dblp:conf/mmm
+  - id: avi
+    acronym: AVI
+    full_name: International Working Conference on Advanced Visual Interfaces
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:avi
+      - name:international working conference advanced visual interfaces
+      - dblp:conf/avi
+  - id: vrst
+    acronym: VRST
+    full_name: ACM Symposium on Virtual Reality Software and Technology
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:vrst
+      - name:symposium virtual reality software technology
+      - dblp:conf/vrst
+  - id: whc
+    acronym: WHC
+    full_name: IEEE World Haptics Conference
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:whc
+      - name:world haptics conference
+      - dblp:conf/haptics
+  - id: assets
+    acronym: ASSETS
+    full_name: International ACM SIGACCESS Conference on Computers and Accessibility
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:assets
+      - name:international conference computers accessibility
+      - dblp:conf/assets
+  - id: vriphys
+    acronym: VRIPHYS
+    full_name: Virtual Reality Interactions and Physical Simulations
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:vriphys
+      - name:virtual reality interactions physical simulations
+      - dblp:conf/vriphys
+  - id: cvm
+    acronym: CVM
+    full_name: Computational Visual Media
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:cvm
+      - name:computational visual media
+      - dblp:conf/cvm
+  - id: cgi
+    acronym: CGI
+    full_name: Computer Graphics International
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:cgi
+      - name:computer graphics international
+      - dblp:conf/cgi
+  - id: gmp
+    acronym: GMP
+    full_name: Geometric Modeling and Processing
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:gmp
+      - name:geometric modeling processing
+      - dblp:conf/gmp
+  - id: pacificvis
+    acronym: PacificVis
+    full_name: IEEE Pacific Visualization Symposium
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:pacificvis
+      - name:pacific visualization symposium
+      - dblp:conf/pacificvis
+  - id: casa
+    acronym: CASA
+    full_name: International Conference on Computer Animation and Social Agents
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:casa
+      - name:international conference computer animation social agents
+      - dblp:conf/ca
+  - id: cadgraphics
+    acronym: CAD/Graphics
+    full_name: International Conference on Computer-Aided Design and Computer Graphics
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:cadgraphics
+      - name:international conference computer aided design computer graphics
+      - dblp:conf/cadgraphics
+  - id: icvrv
+    acronym: ICVRV
+    full_name: International Conference on Virtual Reality and Visualization
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:icvrv
+      - name:international conference virtual reality visualization
+    note: Removed from CCF in the 7th edition (was CCF-C).
+  - id: smi
+    acronym: SMI
+    full_name: Shape Modeling International
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:smi
+      - name:shape modeling international
+      - dblp:conf/smi
+  - id: uic
+    acronym: UIC
+    full_name: IEEE International Conference on Ubiquitous Intelligence and Computing
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:uic
+      - name:international conference ubiquitous intelligence computing
+      - dblp:conf/uic
+  - id: mobiquitous
+    acronym: MobiQuitous
+    full_name: "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services"
+    tier: C
+    category: 跨媒体智能与人机交互
+    match_keys:
+      - acronym:mobiquitous
+      - name:international conference mobile ubiquitous systems computing networking services
+      - dblp:conf/mobiquitous

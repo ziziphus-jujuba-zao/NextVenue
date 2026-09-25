@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: group-2027
+series: group
+name: GROUP 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/GROUP
+  conf_id: group27
+  link: https://group.acm.org/conferences/group27/
+  place: St Simons Island, Georgia, USA
+  date: January 10-13, 2027
+  timezone: AoE
+location:
+  city: St Simons Island
+  country: USA
+  country_code: US
+dates:
+  start: 2027-01-10
+  end: 2027-01-13
+milestones:
+  - type: abstract
+    at: 2025-07-08T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Full Paper First Wave Submissions
+  - type: paper
+    at: 2025-07-15T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Full Paper First Wave Submissions
+  - type: abstract
+    at: 2026-03-24T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Full Paper Second Wave Submissions (extended)
+  - type: paper
+    at: 2026-03-31T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Full Paper Second Wave Submissions (extended)
+  - type: conference
+    start: 2027-01-10
+    end: 2027-01-13
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

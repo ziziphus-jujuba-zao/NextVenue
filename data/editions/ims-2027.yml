@@ -1,0 +1,36 @@
+id: ims-2027
+series: ims
+name: IMS2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: San Antonio, country: USA, country_code: US }
+dates: { start: 2027-05-23, end: 2027-05-28 }
+milestones:
+  - type: paper
+    label_zh: RFSA 和 RFTT 分会
+    at: 2026-12-08
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ims-2027-author-tools
+    quote: "The RFSA and RFTT deadline is 8 December 2026."
+    note_zh: RFSA（射频系统与应用）和 RFTT（射频技术）两个分会的论文截止。官网只给日期、没写时区，按北京时间当天结束算。
+  - type: paper
+    label_zh: RFIC 分会
+    at: 2027-01-06
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ims-2027-author-tools
+    quote: "The RFIC paper submission deadline is 6 January 2027."
+    note_zh: 射频集成电路（RFIC）分会，5/23–25 开会。官网只给日期、没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-05-23
+    end: 2027-05-28
+    tz: America/Chicago
+    status: confirmed
+    src: ims-2027-home
+    quote: "23–28 May 2027 | San Antonio, Texas"
+    note_zh: 一周里先开 RFIC，再开 RFTT 和 RFSA，最后是 ARFTG；展会 5/25–27。
+last_checked: 2026-09-25

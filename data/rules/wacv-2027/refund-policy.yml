@@ -1,0 +1,20 @@
+id: wacv-2027/refund-policy
+edition: wacv-2027
+family: refund
+question_zh: 取消注册能退多少钱？
+short_zh: 取消注册退款
+answer: conditional
+verification: inherited
+inherited_from: wacv-2026
+conf: low
+applies:
+  from: notification
+  until: conference
+summary_zh: WACV 2027 还没公布，以下是 WACV 2026 的规则：截止前取消收 65 美元手续费，截止后不退；2026 年的截止是 1/20 美东时间 23:59。注册上的姓名可以免费改成别人。
+quotes:
+  - src: wacv-2026-pricing
+    text: "All cancellations will be subject to a $65 cancellation fee before January 20, 2026, 11:59pm Eastern. NO REFUNDS will be made after January 20."
+  - src: wacv-2026-pricing
+    text: "You are allowed to change the name on the registration without penalty"
+checked_sources: [wacv-2027-pricing, wacv-2027-author-guidelines]
+last_checked: 2026-09-25

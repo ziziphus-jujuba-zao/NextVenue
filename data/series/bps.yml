@@ -1,0 +1,13 @@
+id: bps
+acronym: BPS
+full_name: Biophysical Society Annual Meeting
+aliases:
+  - Biophysical Society
+  - BPS Annual Meeting
+directions: [life/biophys]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 2 月举办
+data_level: curated
+note_zh: 只收摘要（标题加正文不超过 300 词，不能有图），每篇都要一位缴了当年会费的会员担保；早摘要刊在 Biophysical Journal 增刊。

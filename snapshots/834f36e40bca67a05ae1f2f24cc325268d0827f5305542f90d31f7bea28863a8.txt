@@ -1,0 +1,127 @@
+* Politique d'accessibilité
+ * Aller au contenu
+ * Aller au menu
+
+Afficher / Cacher le menu
+ * Submission
+   * TIMELINE
+     * Submission Timeline
+   * CALL FOR PAPERS
+     * Call for Papers
+   * AUTHOR GUIDELINES
+     * Policies
+     * Submission Guidelines
+     * Rebuttal Instructions
+     * Author FAQs
+   * ICCV23 LIVE PLATFORM
+     * ICCV23 Live Platform
+   * SUGGESTED PRACTICES FOR AUTHORS
+     * Suggested Practices for Authors
+   * REVIEWER GUIDELINES
+     * Reviewing Timeline
+     * Reviewer Guidelines
+     * Ethics for Reviewing Papers
+     * Additional Tips for Writing Good Reviews
+     * CMT Instructions
+   * ETHICS GUIDELINES
+     * Ethics Guidelines
+   * WORKSHOPS PROPOSALS
+     * Workshops: Call for Proposals
+   * TUTORIALS PROPOSALS
+     * Tutorials: Call for Proposals
+   * DEMOS
+     * Demos: Call for Proposals
+   * DOCTORAL CONSORTIUM
+     * Call for Participation
+   * HUGGING FACE PAPER PAGES
+     * Hugging Face Paper pages
+ * Attendance
+   * VENUE
+     * Paris Convention Center
+   * HOW TO REACH
+     * Getting to the event by plane / car / public transport / taxi
+   * ACCESS TO THE LIVE PLATFORM
+     * Access to the Live Platform
+   * REGISTRATION
+   * ACCOMMODATION
+     * Hotels booking service
+   * CATERING
+     * Restaurants on-site
+     * Lunch boxes order
+   * DIVERSITY, EQUITY & INCLUSION
+     * Diversity, Equity & Inclusion
+   * CALL FOR STUDENT VOLUNTEER
+     * Call for Student Volunteer
+   * LOCAL PRINTING SERVICE
+ * Program
+   * CONFERENCE
+     * Online on August 29
+   * WORKSHOPS
+     * Workshops
+   * TUTORIALS
+     * Tutorials
+   * DEMOS
+     * Demonstrations
+   * KEYNOTE SPEAKERS
+     * Keynote Speakers
+   * OPENING SESSION
+     * Opening Session
+ * Sponsors & Expo
+   * EXHIBITORS & SPONSORS INFORMATION
+     * Meet with the leaders in Computer Vision and Machine Learning
+   * ICCV 2023 SPONSORS
+   * EXHIBITOR LIST & FLOOR PLAN
+     * Exhibitor List & Floor Plan
+   * FAQ
+     * FAQs
+ * ORGANIZERS
+   * ICCV 2023 People
+   * Area Chairs
+   * Outstanding Reviewers
+
+Program Overview
+
+ * 195 Oral nominations
+ * 2160 Accepted papers (all papers are posters)
+ * 8088 Papers assigned for review
+ * 8260 Papers submitted
+ * 26.15% Paper acceptance rate
+
+       DAY 1                      DAY 2           DAY 3
+830
+900    Opening remarks & awards   Orals x2        Orals x2
+930    Orals x2                   Orals x2        Orals x2
+1000   Orals x2                   Orals x2        Orals x2
+1030   Posters                    Posters         Posters
+1100   Posters                    Posters         Posters
+1130   Posters                    Posters         Posters
+1200   Posters                    Posters         Posters
+1230   LUNCH                      LUNCH           LUNCH
+100    LUNCH                      LUNCH           LUNCH
+130    Orals x2                   Keynote         Keynote
+200    Orals x2                   Keynote         Keynote
+230    Posters                    Posters         Posters
+300    Posters                    Posters         Posters
+330    Posters                    Posters         Posters
+400    Posters                    Posters         Posters
+430    Orals x2                   Orals x2        Orals x2
+500    Orals x2                   Orals x2        Orals x2
+530    Orals x2                   Orals x2        Orals x2
+600    Reception?                 PAMI TC
+630    Reception?                 PAMI TC
+700    Reception?
+730                               AC Reception?
+800                               AC Reception?
+830                               AC Reception?
+
+ * Facebook
+ * Twitter
+ * LinkedIn
+ * Youtube
+ * Instagram
+
+ * Twitter
+ * Weibo
+ * Legal
+ * Your data
+ * Photos galleries

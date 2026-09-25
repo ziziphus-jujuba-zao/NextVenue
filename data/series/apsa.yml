@@ -1,0 +1,13 @@
+id: apsa
+acronym: APSA
+full_name: American Political Science Association Annual Meeting & Exhibition
+name_zh: 美国政治学会年会
+aliases:
+  - APSA Annual Meeting
+directions: [soc/polisci]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国政治学会年会，往届都在每年 8 月底至 9 月初举办
+data_level: curated
+note_zh: 投论文提案或整场分会提案，按分部（division）评审，有拒稿。

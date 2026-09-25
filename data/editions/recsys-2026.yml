@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: recsys-2026
+series: recsys
+name: RecSys 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/RecSys
+  conf_id: recsys26
+  link: https://recsys.acm.org/recsys26
+  place: Minneapolis, Minnesota, USA
+  date: September 28 - October 2, 2026
+  timezone: AoE
+location:
+  city: Minneapolis
+  country: USA
+  country_code: US
+dates:
+  start: 2026-09-28
+  end: 2026-10-02
+milestones:
+  - type: abstract
+    at: 2026-04-14T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-04-21T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-09-28
+    end: 2026-10-02
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

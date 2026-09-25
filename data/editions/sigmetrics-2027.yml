@@ -1,0 +1,59 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sigmetrics-2027
+series: sigmetrics
+name: SIGMETRICS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/SIGMETRICS
+  conf_id: sigmetrics27
+  link: https://www.sigmetrics.org/sigmetrics2027/
+  place: Atlanta, Georgia, USA
+  date: June 7-11, 2027
+  timezone: AoE
+location:
+  city: Atlanta
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-07
+  end: 2027-06-11
+milestones:
+  - type: abstract
+    at: 2026-07-03T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: summer round
+  - type: paper
+    at: 2026-07-10T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: summer round
+  - type: abstract
+    at: 2026-10-02T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: fall round
+  - type: paper
+    at: 2026-10-09T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: fall round
+  - type: abstract
+    at: 2027-01-04T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: winter round
+  - type: paper
+    at: 2027-01-11T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: winter round
+  - type: conference
+    start: 2027-06-07
+    end: 2027-06-11
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

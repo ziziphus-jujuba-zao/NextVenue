@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: trb-2027
+sources:
+  - id: trb-2027-event
+    url: https://www.nationalacademies.org/events/887
+    title: TRB 106th Annual Meeting (National Academies event page)
+    kind: cfp
+    fetched_at: 2026-09-25T15:49:31Z
+    http_status: 200
+    snapshot: 79ce6eef601694819106e9209cb530c0d984ce62fc8accfcd7e536540c581a26
+  - id: trb-2027-paper-review
+    url: https://trb.secure-platform.com/a/page/TRBPaperReview
+    title: TRB Annual Meeting Paper Review
+    kind: author_guide
+    fetched_at: 2026-09-25T16:05:17Z
+    http_status: 200
+    snapshot: 105976a327697f8e3c2529bfc6f4c67724a50b6b79812bab8a6d04e907ae91a6

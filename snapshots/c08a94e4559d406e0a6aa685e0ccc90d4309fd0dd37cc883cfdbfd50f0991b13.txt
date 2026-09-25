@@ -1,0 +1,244 @@
+Skip to content
+ * Home
+ * About
+   * About the ECC
+   * Chairs & Committees
+ * Program
+   * Lunch Sessions
+   * Industry Program
+ * Submission
+   * Call for Papers
+   * Topics
+ * Registration
+ * Awards
+   * European Control Award
+   * Best Paper Award
+   * Best Student Paper
+   * European Systems & Control PhD Thesis Award
+ * Sponsors
+   * Become a Sponsor
+ * Visitors & Venue
+   * Conference Info
+   * Venue Info & Maps
+   * Travel to Brussels
+   * Accommodation
+   * City & Travel Info
+   * Visa & Travel Documents
+ * Contact
+
+ * Home
+ * About
+   * About the ECC
+   * Chairs & Committees
+ * Program
+   * Lunch Sessions
+   * Industry Program
+ * Submission
+   * Call for Papers
+   * Topics
+ * Registration
+ * Awards
+   * European Control Award
+   * Best Paper Award
+   * Best Student Paper
+   * European Systems & Control PhD Thesis Award
+ * Sponsors
+   * Become a Sponsor
+ * Visitors & Venue
+   * Conference Info
+   * Venue Info & Maps
+   * Travel to Brussels
+   * Accommodation
+   * City & Travel Info
+   * Visa & Travel Documents
+ * Contact
+
+13 - 16 July, 2027
+
+Brussels | Belgium
+
+Call for Papers
+
+We invite you to view the call for papers at the link below.
+
+The organizers invite you to submit:
+
+ * Contributed Papers
+ * Invited Session Proposals
+ * Invited Session Papers
+
+The submissions will be evaluated by the Conference Editorial Board and International Program Committee. During the review process all the people involved (Editorial Board, Committees, Associate Editors, anonymous reviewers) undertake to respect an implicit confidentiality pact on all contents of submitted papers of which they become aware.
+
+For all accepted papers, the authors will be asked to sign a copyright transfer on the contents of their paper(s). The accepted papers will be indexed and published on the IEEE Xplore digital library.
+
+Furthermore, we also welcome submission of:
+
+ * Pre-conference Workshop Proposals
+ * Tutorial Proposals
+ * Industry Abstracts
+
+that will complement the technical program by giving to all participants a view on the control-related challenges arising today from academia and industry.
+
+The submission of papers proposing recent advances of applied control research in industry applications is encouraged.
+
+Submission Deadlines:
+
+Submissions open
+
+September 1, 2026
+
+Submission deadline for invited session proposals
+
+October 31, 2026
+
+Submission deadline for papers and invited papers
+
+October 31, 2026
+
+Workshop proposals submission deadline
+
+January 31, 2027
+
+Industry abstracts submission deadline
+
+January 31, 2027
+
+Acceptance/Rejection notification
+
+March 5, 2027
+
+Final submissions deadline
+
+April 5, 2027
+
+Contributed Papers
+
+How to Submit Your Contribution
+
+All papers, invited session proposals, pre-conference workshop proposals and tutorial proposals must be submitted electronically through the PaperCept Conference Management System.
+
+Authors are advised to read PaperCept’s Getting Started Manual for Authors and PDF Compliance Guidelines carefully. Only PDF files will be accepted.
+
+Format Requirements
+
+Submissions that do not meet the format requirements will be rejected. We highly recommend using one of the ECCXX templates to prepare your submission. Templates and Resources are available for download for the following systems:
+
+ * MS Word
+ * LaTeX
+
+Paper format requirements.
+
+Language: English
+
+Paper Length: 6 pages (8 pages for review purposes only)
+
+Paper Size: US letter
+
+File Format: PDF
+
+Maximum File Size: 3MB
+
+For the purpose of review only, manuscripts up to eight (8) pages in the standard two-column ECC conference format will be considered. If accepted, the final manuscripts are limited to a length of six (6) pages. Accepted papers exceeding the normal length may be included in the proceedings upon payment of over-length page charges for each page in excess of six pages, up to a maximum of two additional pages.
+
+Invited Session Proposal
+
+Proposals are invited from participants who wish to organize invited sessions. An invited session comprises six thematically coherent papers. The session should be composed in order to achieve added value over the mere presentation of individual papers, by focusing for example on emerging challenges or different angles on established problems that one would not expect to see in a regular contributed paper session. Proposals for invited sessions must be submitted through the PaperCept Conference Management System.
+
+Proposals are limited to six (6) pages in the standard two-column ECC conference format and should contain a summary describing the motivation and relevance of the proposed session, as well as a short overview of the individual papers and how they fit into the overall theme. The invited session proposal have to be submitted before the invited papers of the session. Upon submission of the proposal the session organizer will receive a session code, which should be communicated to the authors of the invited papers for the submission of their contributions.
+
+We advise invited session organizers to submit their proposals at least one week before the conference deadline in order to allow sufficient time for the submission of the invited papers.
+
+All Invited sessions organisers are invited to discuss their plans with the Invited Sessions Chair.
+
+Invited Papers
+
+The six invited session papers must be submitted separately by their authors using the session code provided by the invited session organizer. Invited papers will undergo a review process similar to that of contributed papers. Therefore, they should be of comparable high quality and should abide by the same formatting and submission rules; in particular, brief abstracts or extended abstracts will most likely be rejected. Invited papers must be submitted through the PaperCept Conference Management System and must be formatted in accordance with the submission policy. For the purpose of review only, manuscripts up to eight (8) pages in the standard two-column ECC conference format will be considered. If accepted, the final manuscripts are limited to a length of six (6) pages. Accepted papers exceeding the normal length may be included in the proceedings upon payment of over-length page charges for each page in excess of six pages, up to a maximum of two additional pages. If an invited session is accepted but some of its constituent papers are rejected, the Program Committee reserves the right to replace the rejected invited papers with compatible contributed papers. Conversely, accepted invited papers from a rejected invited session will be included in regular contributed paper sessions.
+
+Pre-Conference Workshop Proposals
+
+Pre-conference Workshops will be held at the conference venue on Tuesday, July 13, 2027. Conference participants can attend pre-conference Workshops for an additional fee.
+
+Workshops present the latest advances, open issues and challenges on research areas of interest to the systems and control community and promote active participation and discussion among attendees.
+
+We particularly welcome proposals that cover material or use presentation formats that are not found within the main conference that increase the interest for the event, enhance interaction and discussion amongst participants, and make useful connections to fields outside of control.
+
+Interested organizers of Workshops should submit a brief proposal through the PaperCept Conference Management System. A proposal should include the title, list of instructors and their affiliations, an overview of the event (e.g., abstract, keywords, objectives, motivation, content, structure, and tentative program), and intended audience, as well as role and brief bio of each instructor. The proposal should also clarify the type and duration of the event (half-day or full-day).
+
+The Program Committee reserves the right to reject workshop proposals (based on content), or to cancel accepted proposals (due to low numbers of pre-registrations). In the event of a cancellation, the event fees will be refunded in full.
+
+Organizers of Workshops are kindly asked to contact the Workshop Chair before the submission of their proposal.
+
+Tutorial Proposals
+
+Tutorials will be scheduled during the days of the conference and organized in dedicated tracks.
+
+Tutorials involve formal presentation of the principles (e.g., theory, methodology, and tools) behind an established research area to enhance the knowledge and skills of the participants in that area.
+
+Organizers of Tutorial Sessions need to submit their proposal in PaperCept Conference Management System by the deadline for tutorial session proposal and they are encouraged to contact the Tutorial Session Chair prior to submission. A proposal should include the title, list of instructors and their affiliations, an overview of the event (e.g., abstract, keywords, objectives, motivation, content, structure, and tentative program), and intended audience, as well as role and brief bio of each speaker.
+
+Interested Tutorial organizers will receive a session CODE that they must communicate to the individual speakers of the tutorial session. All the individual speakers, by using the session CODE, must submit their talk title, abstract and 3 keywords (no full paper will be required, only the text of the abstract is needed).
+
+To be evaluated for acceptance a Tutorial Session must consist in Papercept of a submitted proposal and the associated (via the CODE) submitted talk proposals. If the titles and abstract of the tutorial talks are not submitted by the deadline, the Tutorial Session proposal cannot be accepted.
+
+If the session is accepted all the submitted abstracts will appear in the program provided that the speakers submit a final version of the abstracts.
+
+Industry Abstracts
+
+Industry Abstract submissions aim at offering the possibility for industry representatives to present results at the conference, while avoiding some of the hard constraints of the regular paper submission type. This allows for presentations of application- and industry-oriented contributions, and presentations of recent preliminary results.
+
+Specifics of Industry Abstracts submission
+
+ * Papers typically of 1 to 2 pages, with a 2 pages hard limit
+ * At least one of the authors should have an industry affiliation at the time of submission.
+ * Fast acceptance/rejection decision (ad hoc reviewing process)
+ * Not included in the ECC Proceedings and no Copyright transfer
+ * Presentations in dedicated sessions
+
+Exceptionally, some of the Industry Abstract based presentations shall be positioned in the program in regular type of sessions. This will be in particular the case for application-oriented Industry Abstract submissions that fall in the scope of Invited Sessions. The organizers of Invited Sessions who plan to attract such Industry Abstract contributions are invited to mention these in their Invited Session proposal.
+
+Industry Abstracts must be submitted through the PaperCept Conference Management System.
+
+Participants with an accepted industry abstract are required to register for the conference (with paper) and to complete their final upload within the deadline.
+
+The Program Committee reserves the right to reject tutorial proposals based on content.
+
+Resources
+
+PaperCept’s Getting Started Manual for Authors (3.54MB PDF)
+
+ECC PDF Compliance Guidelines
+
+MS Word Template (90 KB .doc)  Template Support
+
+LaTex Style File (198 KB .cls) Template Support
+
+Have Questions?
+ * ecc27@euca-ecc.org
+
+Follow us on X/Twitter
+ * @ECC_2027
+
+Download the App
+
+Get Conference4me from the Apple App Store or Google Play
+
+Speakers
+
+Guidelines for Presenters
+
+Organizers
+
+Guidelines for Chairs & Co-Chairs
+
+Guidelines for Workshop & Session Organizers
+
+Students
+
+Student Suport Programs
+
+Best Student Paper
+
+European Systems & Control PhD Thesis Award
+
+© Copyright 2026. European Control Association (EUCA) | Privacy Policy
+The ECC website uses cookies to give you the best user experience. By using our websites, you agree to the placement of these cookies. To learn more, read our Privacy Policy.  Accept

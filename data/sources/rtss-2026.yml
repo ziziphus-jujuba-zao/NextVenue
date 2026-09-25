@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: rtss-2026
+sources:
+  - id: rtss-2026-home
+    url: https://2026.rtss.org/
+    title: RTSS 2026 Home
+    kind: other
+    fetched_at: 2026-09-25T15:48:19Z
+    http_status: 200
+    snapshot: 4e5270b30d87603ad7609e669ff0bfd9dca56be9eb3e4c5353f6561a0d49e70c
+  - id: rtss-2026-dates
+    url: https://2026.rtss.org/submissions/dates/
+    title: RTSS 2026 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:48:19Z
+    http_status: 200
+    snapshot: e389e6d145e6a4d988dd8e9ef0a5425d0aefdec563986e9a9b62f109630577e8

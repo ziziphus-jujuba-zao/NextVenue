@@ -1,0 +1,209 @@
+Skip to content
+ * Program
+   * At a Glance
+   * Full Program
+   * Video Recordings
+   * Accepted Papers
+   * Awards
+   * Competitions
+   * Doctoral Consortium
+   * D&I Activities
+   * IJCAI-26 Awards
+   * Industry Day
+   * Invited Talks
+   * Tutorials
+   * Outreach
+   * Workshops
+   * Calls (expired)
+     * Main Track CFP
+     * Special Track – AI4Tech
+     * Special Track – AI and Health
+     * Special Track – AI and Robotics
+     * Special Track – AI and Social Good
+     * Special Track – Human-Centred AI
+     * Survey Track
+     * Competitions And Challenges
+     * Demonstrations Track
+     * Doctoral Consortium
+     * Workshops
+     * Tutorials
+     * Early Career Spotlights
+     * D&I activities
+     * Call for Nominations: IJCAI-2026 Awards
+     * Grants & Volunteering
+       * Call For Grant Applications
+       * Call For Volunteers
+     * Join
+       * Call for PC Members
+       * Call for SPC Members
+ * FAQ
+   * Submissions FAQ
+   * Author’s Response FAQ
+   * Registration FAQ
+ * Attending
+   * Registration
+     * Registration Information
+     * Disclaimer
+     * Registration FAQ
+     * PPI Reviewer Benefits
+   * Social Events
+   * Travelling
+   * Venues
+   * Visa Information
+   * Hotel Booking
+ * Organization
+   * Conference Committee
+   * Program Committee
+   * Local Arrangements Committee
+   * Contact
+   * Press
+ * Sponsorship
+   * Sponsors
+   * Sponsorship Opportunities
+   * Exhibitors
+   * Exhibition Opportunities
+ * Video Recordings
+
+ * Program
+   * At a Glance
+   * Full Program
+   * Video Recordings
+   * Accepted Papers
+   * Awards
+   * Competitions
+   * Doctoral Consortium
+   * D&I Activities
+   * IJCAI-26 Awards
+   * Industry Day
+   * Invited Talks
+   * Tutorials
+   * Outreach
+   * Workshops
+   * Calls (expired)
+     * Main Track CFP
+     * Special Track – AI4Tech
+     * Special Track – AI and Health
+     * Special Track – AI and Robotics
+     * Special Track – AI and Social Good
+     * Special Track – Human-Centred AI
+     * Survey Track
+     * Competitions And Challenges
+     * Demonstrations Track
+     * Doctoral Consortium
+     * Workshops
+     * Tutorials
+     * Early Career Spotlights
+     * D&I activities
+     * Call for Nominations: IJCAI-2026 Awards
+     * Grants & Volunteering
+       * Call For Grant Applications
+       * Call For Volunteers
+     * Join
+       * Call for PC Members
+       * Call for SPC Members
+ * FAQ
+   * Submissions FAQ
+   * Author’s Response FAQ
+   * Registration FAQ
+ * Attending
+   * Registration
+     * Registration Information
+     * Disclaimer
+     * Registration FAQ
+     * PPI Reviewer Benefits
+   * Social Events
+   * Travelling
+   * Venues
+   * Visa Information
+   * Hotel Booking
+ * Organization
+   * Conference Committee
+   * Program Committee
+   * Local Arrangements Committee
+   * Contact
+   * Press
+ * Sponsorship
+   * Sponsors
+   * Sponsorship Opportunities
+   * Exhibitors
+   * Exhibition Opportunities
+ * Video Recordings
+
+Registration FAQ
+
+R1. I have more than one accepted main conference paper. Do I need to pay registration fee for each one?
+
+No. One regular delegate registration fee OR student with paper fee covers multiple papers.
+
+R2. I am a student with an accepted main conference paper. Do I have to pay regular delegate registration fee for my paper to appear in the Proceedings?
+
+Yes. You should choose the student with Paper option though so you can enjoy the student reception as well. You can apply for a grant to defer the cost, however: https://2026.ijcai.org/call-for-grant-applications/
+
+R3. I cannot attend the conference and I already paid my registration fee. Can I transfer my registration to a colleague who will attend?
+
+No. Registration is not transferable. You have to attend and present the paper in-person.
+
+R4. I am a PPI beneficiary but cannot attend. Can I transfer the benefit to one of my colleagues/student?
+
+No, PPI benefits are non-transferable as aimed at recognizing personal contribution.
+
+R5. How can I receive an invitation letter for oral presentation at the conference?
+
+The letter will be sent to you automatically with registration confirmation. Note that this is NOT a visa letter and do not fill visa letter form for that purpose!
+
+R6. How can I receive a letter of invitation for Schengen Visa?
+
+By registering. You will then be able to tick a box and fill out the form that will generate an invitation letter once the registration is completed.
+Bear in mind that you can fill the form only once!
+
+R7. Can I have a letter of invitation for a visa before I register?
+
+No. Letters are only issued to registrants who have already paid their fees.
+
+R8. I am a student and my proof of student status fails verification. Why?
+
+Please read carefully the letter of rejection and read General Information 1.1. Students section under Registration/Register referring to proof of student status before you attempt to re-submit.
+
+R9. I am an IJCAI or EurAI member. Do I get a discount?
+
+Yes, each member pays Members’ Fee which is USD 50 less than non-member fee. Discount is applicable to all main conference registrations but not to PPI benefits.
+
+R10. I am neither IJCAI nor EurAI member. Can I become a member now?
+
+Yes, you can become an IJCAI member for an additional discounted fee of USD 100 for 3 years (instead of USD 150) or USD 50 for 3 years (instead of USD 75) as a student. EurAI membership is handled through EurAI directly. Obtaining membership now qualifies for the next 3 years of discounts on registration fees.
+
+R11. I am a PPI beneficiary and EurAI/IJCAI member, why is not USD 50 discount applied to my grand total registration fee on top of my PPI discount?
+
+PPI discount cannot be combined with membership discounts, and is non-transferable, as it is intended to recognize your personal contribution during the reviewing process.
+
+R12 . I am a journalist. How do I register for a press pass?
+
+Please write an email to registration@ijcai.org and provide your family name, first name and exact affiliation.
+
+R13 . I need to cancel my workshop only registration. Do I still have to pay U$ 150 fee?
+
+Yes, U$ 150 processing fee applies to any and all cancellations.
+
+R14 . I want to buy an extra IJCAI opening reception and banquet ticket. Where can I do that?
+
+Through the registration system
+
+R15 . When will my regular talk be?
+
+Regular talks will be scheduled between August 18 and August 21, 2026. The schedule will be available in July. If you have hard constraints, please write to the Program Chair: pcchair@2026.ijcai.org
+
+R16 . We would like to register a group of students/scientific staff members. Is that possible?
+
+No. Each person must register personally and separately for legal reasons
+
+R17 . I have a registration related question, who do I contact?
+
+registration@ijcai.org
+
+R18 .I am from India and my company requires a notice from IJCAI about not having a PE in India.
+
+IJCAI has no PE in India and will not issue other statements to this effect.
+
+ * IJCAI - International Joint Conferences on Artificial Intelligence
+
+Copyright © 2025 IJCAI

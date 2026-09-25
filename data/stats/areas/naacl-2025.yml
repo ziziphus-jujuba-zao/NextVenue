@@ -1,0 +1,17 @@
+# NAACL 2025 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: naacl
+year: 2025
+kind: theme_track
+precision: exact
+track_zh: 特别主题 track
+source_url: https://aclanthology.org/2025.naacl-long.0.pdf
+quote: We received 71 submissions to the special theme, of which 23 were accepted for presentation at the conference.
+src: naacl-2025-front-matter
+quote_check: snapshot
+note_zh: 官方只公布了特别主题 track，常规 track 没有分领域数字；录用率按官方数字计算。原文没说录用数是否含 Findings
+checked: 2026-09-25
+rows:
+  - area: "Special theme: NLP in a Multicultural World"
+    submissions: 71
+    accepted: 23
+    rate: 32.4

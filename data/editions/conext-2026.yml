@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: conext-2026
+series: conext
+name: CoNEXT 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/CoNEXT
+  conf_id: conext26
+  link: https://conferences.sigcomm.org/co-next/2026/#!/home
+  place: Utrecht, The Netherlands
+  date: December 7-10, 2026
+  timezone: AoE
+location:
+  city: Utrecht
+  country: The Netherlands
+  country_code: NL
+dates:
+  start: 2026-12-07
+  end: 2026-12-10
+milestones:
+  - type: abstract
+    at: 2025-12-05T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: December Cycle
+  - type: paper
+    at: 2025-12-12T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: December Cycle
+  - type: abstract
+    at: 2026-05-29T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: June Cycle
+  - type: paper
+    at: 2026-06-05T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: June Cycle
+  - type: conference
+    start: 2026-12-07
+    end: 2026-12-10
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

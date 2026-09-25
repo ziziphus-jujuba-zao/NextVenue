@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: fg-2027
+series: fg
+name: FG 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/FG
+  conf_id: fg27
+  link: https://fg2027.ieee-biometrics.org/
+  place: Marrakesh, Morocco
+  date: April 26-30, 2027
+  timezone: AoE
+location:
+  city: Marrakesh
+  country: Morocco
+  country_code: MA
+dates:
+  start: 2027-04-26
+  end: 2027-04-30
+milestones:
+  - type: abstract
+    at: 2026-10-09T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-10-16T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-04-26
+    end: 2027-04-30
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

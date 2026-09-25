@@ -1,0 +1,655 @@
+ICFP 2027
+Sun 26 September - Fri 1 October 2027 Nijmegen, Netherlands
+Toggle navigation
+ * Attending
+   * Venue: Van der Valk Hotel Nijmegen
+ * Tracks
+    * ICFP 2027
+    * ICFP Artifacts
+    * ICFP Papers
+ * Organization
+    * ICFP 2027 Committees
+    * Organizing Committee
+    * Track Committees
+    * Program Committee
+    * Contributors
+    * People Index
+ * Search
+ * Series
+   * Series
+   *
+   * ICFP 2027
+   * ICFP 2026
+   * ICFP 2025
+   * ICFP 2024
+   * ICFP 2023
+   * ICFP 2022
+   * ICFP 2021
+   * ICFP 2020
+   * ICFP 2019
+   * ICFP 2018
+   * ICFP 2017
+   * ICFP 2016
+
+ * Sign in
+ * Sign up
+
+ICFP 2027 (series) /
+
+ICFP Papers
+
+ * Call for Papers
+
+Call for Papers
+
+ * Submission Web Site: https://icfp27.hotcrp.com
+ * Submission Deadline: Thu. 25 February 2027 (AoE)
+ * Contact Info: icfp27chairs@googlegroups.com
+
+Double-blind review
+
+ * Reviews Released: Mon. 19 April 2027
+ * Author Response: Mon. 19 – Thu. 22 April 2027 (AoE)
+ * Notification of Conditional Acceptance: Fri. 07 May 2027 (AoE)
+ * Revised Papers: Tue. 01 June 2027 (AoE)
+ * Final Notification: Fri. 11 June 2027 (AoE)
+ * Camera Ready: Thu. 01 July 2027 (AoE)
+
+----------------------------------------
+
+PACMPL issue ICFP 2027 seeks original papers on the art and science of functional programming. Submissions are invited on all topics from principles to practice, from foundations to features, and from abstraction to application. The scope includes all languages that encourage functional programming, including both purely applicative and imperative languages, as well as languages with objects, concurrency, or parallelism. Topics of interest include (but are not limited to):
+
+ * Language Design: concurrency, parallelism, and distribution; modularity; components and composition; meta-programming; macros; pattern matching; type systems; type inference; dependent types; effect types; gradual types; refinement types; session types; interoperability; domain-specific languages; imperative programming; object-oriented programming; logic programming; probabilistic programming; reactive programming; generic programming; bidirectional programming; secure programming; AI programming.
+
+ * Implementation: abstract machines; virtual machines; interpretation; compilation; compile-time and run-time optimization; garbage collection and memory management; runtime systems; multi-threading; exploiting parallel hardware; interfaces to foreign functions, services, components, or low-level machine resources.
+
+ * Software Development Techniques: algorithms and data structures; design patterns; specification; verification; validation; proof assistants; debugging; testing; tracing; profiling; build systems; program synthesis.
+
+ * Analysis and Transformation: control flow; data flow; abstract interpretation; partial evaluation; program calculation.
+
+ * Foundations: formal semantics; lambda calculus; program equivalence; rewriting; type theory; logic; category theory; computational effects; continuations; control; state; names and binding; program verification.
+
+ * Applications: symbolic computing; formal methods and tools; systems programming; distributed systems and web programming; hardware design; databases; scientific and numerical computing; graphical user interfaces; graphics and multimedia; GPU programming; scripting; system administration; security; interactions with AI.
+
+ * Education: teaching introductory programming; mathematical proof; algebra.
+
+Submissions will be evaluated according to their relevance, correctness, significance, originality, and clarity. Each submission should explain its contributions in both general and technical terms, clearly identifying what has been accomplished, explaining why it is significant, and comparing it with previous work. The technical content should be accessible to a broad audience.
+
+PACMPL issue ICFP 2027 also welcomes submissions in two separate categories—Functional Pearls and Experience Reports—that must be marked as such when submitted and that need not report original research results. Detailed guidelines on both categories are given at the end of this call.
+
+In an effort to achieve a balanced, diverse program, each author may be listed as a (co)author on a maximum of four submissions.
+
+Authors who require financial support to attend the conference can apply for PAC funding http://www.sigplan.org/PAC/.
+
+The General Chair and PC Chair may not submit papers. Associate Chairs and other PC members (other than the PC Chair) may submit papers.
+
+Please contact the Program Chair if you have questions or are concerned about the appropriateness of a topic.
+
+Contact
+
+You can reach the Program Chair and Associate Chairs through this email:
+
+icfp27chairs@googlegroups.com
+
+Please use this address, not their personal email addresses, unless you think they are not getting your messages. Please allow 1–2 working days for a response before assuming they didn’t see your message, and longer right around deadlines. In your email, please mention the number of the paper you are writing about (if you have one). That makes it easier to track the context (and avoids ambiguity).
+
+Preparation of submissions
+
+The deadline for submissions is: Thursday, 25 Feb 2027 AoE https://www.timeanddate.com/time/zones/aoe This deadline will be strictly enforced.
+
+ * Formatting: Submissions must be in PDF format, printable in black and white on US Letter sized paper and interpretable by common PDF tools. All submissions must adhere to the “ACM Small” LaTeX template that is available from https://www.acm.org/publications/authors/submissions. Please download the latest version of the ACM style, and use numeric citation style. A suitable LaTeX header for submitted papers is:
+
+\documentclass[acmsmall,screen,anonymous,review]{acmart}
+
+See also PACMPL’s Information and Guidelines for Authors at https://pacmpl.acm.org/authors.cfm.
+
+ * Length: There is a limit of 25 pages for a full paper or Functional Pearl and 12 pages for an Experience Report; in either case, the bibliography and an optional clearly marked appendix will not be counted against these limits. Submissions that exceed the page limits or, for other reasons, do not meet the requirements for formatting, will be desk rejected.
+
+ * Submission: Submissions will be accepted at https://icfp27.hotcrp.com.
+
+ * Improved versions of a paper may be submitted at any point before the submission deadline using the same web interface.
+
+ * Authorship Policies: All submissions are expected to comply with the ACM Policies for Authorship that are detailed at https://www.acm.org/publications/authors/information-for-authors
+
+ * Republication Policies: Each submission must adhere to SIGPLAN’s republication policy, as explained on the web at http://www.sigplan.org/Resources/Policies/Republication.
+
+ * Appendix and Supplementary Material: Authors have the option to include a clearly marked appendix and/or to attach supplementary material to a submission, on the understanding that reviewers may choose not to look at such an appendix or supplementary material. Supplementary material may be uploaded as a separate PDF document or tarball. Any supplementary material must be uploaded at submission time, not by providing a URL in the paper that points to an external repository. All supplementary material must be anonymized.
+
+ * NEW for 2027: If mechanized proofs constitute a main contribution of a paper, authors should provide the proof scripts together with the paper (as anonymized supplementary material) at the time of submission so that reviewers can inspect them—regardless of whether they ultimately plan to submit the proofs for artifact evaluation. Authors are also strongly encouraged to make it clear in the paper which, if any, axioms are used. This is to allow reviewers to inspect the correspondence between the claims reported in the paper and their formalization. If authors fail to present the proofs of results claimed in the paper at the time of submission, they will not be permitted to present them at author response time.
+
+ * NEW For 2027: If AI tools were used in the process of creating code, proofs, data, tests, or other research artifacts, the paper should include a clearly identifiable AI Use section that describes which AI tools were used and how they were employed in the work. This is to follow new ACM requirements about AI use, including disclosure of AI tool use when describing research methodology. See below for more details.
+
+ * Authors are strongly encouraged to follow the SIGPLAN guidelines for Empirical Evaluation.
+
+Double-blind Submissions
+
+ICFP 2027 will use a full double-blind reviewing process. This means that identities of authors will not be made visible to reviewers until after conditional-acceptance decisions have been made, and then only for the conditionally-accepted papers. The use of full double-blind reviewing has several consequences for authors.
+
+ * Submissions: Authors must omit their names and institutions from their paper submissions. In addition, references to authors’ own prior work should be in the third person (e.g., not “We build on our previous work …” but rather “We build on the work of …”).
+
+ * Supplementary material: Authors must fully anonymize any supplementary material. Links to supplementary material on external web sites are not permitted.
+
+ * Author response: In responding to reviews, authors should not say anything that reveals their identity, since author identities will not be revealed to reviewers at that stage of the reviewing process.
+
+ * Dissemination of work under submission: Authors are welcome to disseminate their ideas and post draft versions of their paper(s) on their personal web site, institutional repository, or arXiv (reviewers will be asked to turn off arXiv notifications during the review period). But authors should not take steps that would almost certainly reveal their identities to members of the Program Committee, e.g., directly contacting PC members or publicizing the work on widely-visible social media or major mailing lists used by the community.
+
+The purpose of the above restrictions is to help the Program Committee come to a judgment about the paper without bias, not to make it impossible for them to discover the authors’ identities if they were to try. In particular, nothing should be done in the name of anonymity that weakens the quality of the submission. However, there are occasionally cases where adhering to the above restrictions is truly difficult or impossible for one reason or another. In such cases, the authors should contact the Program Chair to discuss the situation and how to handle it. The FAQ on Double-Blind Reviewing addresses many common scenarios and answers many common questions about this topic. But there remain many grey areas and trade-offs. If you have any doubts about how to interpret the double-blind rules or you encounter a complex case that is not clearly covered by the FAQ, please contact the Program Chair for guidance.
+
+Updated for 2027: ACM Policy on Authorship and AI use
+
+NOTE: The ACM Publications Board has recently updated the ACM Authorship Policy in several ways:
+
+ * Addressing the use of generative AI systems in the publications process
+ * Clarifying criteria for authorship and the responsibilities of authors
+ * Defining prohibited behavior, such as gift, ghost, or purchased authorship
+ * Providing a linked FAQ explaining the rationale for the policy and providing additional details
+
+By submitting your article to an ACM Publication, you are acknowledging that you and your co-authors are subject to all ACM Publications Policies, including ACM’s new Publications Policy on Research Involving Human Participants and Subjects. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy.
+
+Please ensure that you and your co-authors obtain an ORCID iD, so you can complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start and has made a commitment to collecting ORCID iDs from all of our published authors. ORCID iDs help improve author discoverability, ensuring proper attribution and contributing to ongoing community efforts around name normalization; your ORCID iD will help in these efforts.
+
+All submissions should comply with the new ACM policy on authorship.
+
+ACM Requirements with respect to AI use
+
+The revised ACM policy states (emphasis ours):
+
+----------------------------------------
+
+ 1. When using Artificial Intelligence to conduct research, including the design and methodology of the research project, creation and selection of data sources, designing experiments, generation and collection of data, coding, implementing models, running simulations, data analysis, testing, validating results, deploying software, archiving data and code for reproducibility, or any other aspects of the research lifecycle that are directly relevant to the conclusions of the research underlying the Work, the specific use(s) of AI tools must be described in detail in the methods section of the Work. This includes the creation of artifacts that are directly relevant to the conclusions of the research, such as code, datasets, and charts or figures that rely on the AI tools.
+
+ 2. When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI (as distinct from AI used in the conduct of the research itself, addressed in item 1 above).
+
+All named authors on an ACM submission will be held responsible and accountable for any problematic content contained in the submission regardless of the source of that problematic content:
+
+a. In the event content integrity issues stemming from the use of AI during authorship are identified prior to publication or posting in the ACM Digital Library, ACM reserves the right to reject submissions in their entirety and impose additional penalties.
+
+b. In the event content integrity issues stemming from the use of AI during authorship are identified after publication or posting in the ACM Digital Library, ACM reserves the right to retract the published Work in its entirety.
+
+----------------------------------------
+
+See the ACM Policy pages for full details.
+
+For ICFP 2027
+
+Since most ICFP papers do not contain an explicit “methods” section, if AI tools were used, the paper should instead include a clearly identifiable AI Use section.
+
+ * This section will be published as part of the paper (i.e., it is not supplementary material) and counts towards the page limit.
+
+ * It should explain the methodology, including which AI tools were used and in what capacity, in the same spirit of transparency and reproducibility that would be appropriate for other aspects of the research (such as the description of experimental evaluation or important details for a proof).
+
+ * In addition to the specific use cases enumerated by the ACM policy above—coding, testing, data collecting and analysis, etc.—other PL relevant AI use cases include: help with proofs, program translation, debugging, and the creation of tools or other research artifacts.
+
+ * An example “AI Use” section can be found as Section 9 (pg 22) of this paper.
+
+ * If you have questions about the AI use section, please contact the program chair.
+
+New for ICFP 2027: Reserve Reviewer Policy
+
+To prepare for the possibility of a higher volume of submissions, we are implementing the “reserve reviewer” policy introduced in OOPSLA’25: for each paper, at least one senior author must—unless exempt under the criteria below—register as a reserve reviewer. They must list their information on the submission form, and they must register themselves on TPMS. Failure to comply may result in desk-rejection.
+
+Instructions: Log into TPMS with the same email address as for your HotCRP account. The system will ask you to upload (or provide URLs for) 5-10 of your previous papers, to base your matching on. Uploading papers/URLs is pretty straightforward; there’s also a step-by-step video. You get to choose which papers you want to upload; these determine what papers you are most likely to be asked to review. So please go for both depth and breadth. In particular, please provide papers on topics for which you are a relatively rare expert.
+
+The goal of this policy is to uphold the high standard of reviews within the SIGPLAN community. To achieve this, we must ensure manageable review loads. High-quality reviews are one of the community’s greatest assets, playing a crucial role in elevating the quality of research for everyone.
+
+Our hope is that these reserve reviewers won’t be needed at all! They will only be called upon as ad hoc reviewers if our projections fall significantly short or if additional expert reviewers are needed. Even in that case, their review load will be far lighter than that of PC members, and we will do our best to assign papers that closely match expertise (hence the need for TPMS registration).
+
+We define “senior” authors as those who completed their PhD in 2022 or earlier. A paper is exempt from the reserve reviewer policy if:
+
+ * the paper has no senior authors,
+ * at least one senior author is already on the PC for this conference, or
+ * every senior author of the paper satisfies one or more of the following criteria:
+
+ * is new to SIGPLAN, meaning they have published fewer than 3 papers at major SIGPLAN conferences (PLDI, POPL, OOPSLA, ICFP);
+
+ * is chairing a major SIGPLAN conference in 2027-2028;
+
+ * has some other exceptional circumstance that didn’t prevent writing the paper but prevents doing any reviewing. This must be cleared at least three days before submission with the PC Chair.
+
+It is possible for one person to serve as the reserve reviewer for more than one paper. Please enter their information for each such paper (preferably identically). Note: an author may receive (proportionally) more review requests if they are listed as reserve reviewer on multiple papers.
+
+Review Process
+
+This section outlines the two-stage process with double-blind reviewing that will be used to select papers for PACMPL issue ICFP 2027.
+
+ICFP 2027 will have two Associate Chairs who will help the PC Chair monitor reviews, solicit external and reserve expert reviews for submissions when there is not enough expertise on the committee, and facilitate reviewer discussions.
+
+ 1. The first stage in the review process will assess submitted papers for relevance, correctness, significance, originality, and clarity.
+
+ * Author Response Period: Authors will have from the time reviews are released on Monday, 19 April 2027 until Thursday, 22 April 2027 AoE to read reviews and respond to them (a minimum of 96-hours).
+
+ * As a result of the review process, a set of papers will be conditionally accepted and all other papers will be rejected. Authors will be notified of these decisions on 07 May, 2027.
+
+ * Authors of conditionally-accepted papers will be provided with committee reviews along with a set of optional or mandatory revisions. The intent and expectation is that the mandatory revisions can feasibly be addressed within a couple of weeks.
+
+ 1. The second and final reviewing phase assesses whether the mandatory revisions have been adequately addressed by the authors and thereby determines the final accept/reject status of the paper.
+
+ * Revised submission By 01 June, 2027, the authors should provide a revised submission that makes the requested changes.
+
+ * The second submission should clearly identify how the mandatory revisions were addressed. To that end, the second submission must be accompanied by a cover letter mapping each mandatory revision request to specific parts of the paper, along with a PDF “diff” of the changes to the paper.
+
+ * The cover letter will facilitate a quick second review, allowing for confirmation of final acceptance within two weeks. Conversely, the absence of a cover letter will be grounds for the paper’s rejection.
+
+Information for Authors of Accepted Papers
+
+As a condition of acceptance, final versions of all papers must adhere to the ACM Small format. The page limit for the final versions of papers will be increased by two pages to help authors respond to reviewer comments and mandatory revisions: 27 pages plus bibliography for a regular paper or Functional Pearl, 14 pages plus bibliography for an Experience Report.
+
+Authors who require financial support to attend the conference can apply for PAC funding http://www.sigplan.org/PAC/.
+
+Artifact Evaluation
+
+Authors of papers that are conditionally accepted in the first phase of the review process will be encouraged (but not required) to submit supporting materials for Artifact Evaluation. These items will then be reviewed by an Artifact Evaluation Committee, separate from the Program Committee, whose task is to assess how the artifacts support the work described in the associated paper. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves. Authors of accepted papers will be encouraged to make the supporting materials publicly available upon publication of the papers, for example, by including them as “source materials” in the ACM Digital Library. An additional seal will mark papers whose artifacts are made available, as outlined in the ACM guidelines for artifact badging.
+
+Participation in Artifact Evaluation is voluntary and will not influence the final decision regarding paper acceptance.
+
+Publication
+
+The official publication date is the date the journal is made available in the ACM Digital Library. The journal issue and associated accepted papers accepted will be published no earlier than August 1, 2027. The official publication date affects the deadline for any patent filings related to published work.
+
+Important update on ACM’s open access publishing model for 2027 ACM Conferences!
+
+All ACM publications, including those from ACM-sponsored conferences, are 100% Open Access. Authors have two primary options for publishing Open Access articles with ACM: the ACM Open institutional model or by paying Article Processing Charges (APCs). With ~3,000 institutions already part of ACM Open, the majority of ACM-sponsored conference papers will not require APCs from authors or conferences (currently, around 76%).
+
+Authors from institutions not participating in ACM Open will need to pay an APC to publish their papers, unless they qualify for a financial or discretionary waiver. To find out whether an APC applies to your article, please consult the list of participating institutions in ACM Open and review the APC Waivers and Discounts Policy. Please keep in mind that waivers are rare and are granted based on specific criteria set by ACM.
+
+To support authors and institutions as they continue to adapt to ACM’s Open Access publishing model, the ACM Council has approved subsidized APC rates for calendar year 2027 allowing more time for institutions to join ACM Open. The subsidy will offer:
+
+ * $500 APC for ACM/SIG members
+ * $750 for non-members
+
+This represents a 29% discount off current APC list pricing, funded directly by ACM. Authors are encouraged to help advocate for their institutions to join ACM Open during this transition period.
+
+This temporary subsidized pricing will apply to all conferences scheduled for 2027.
+
+Special categories of papers
+
+In addition to research papers, PACMPL issue ICFP solicits two kinds of papers that do not require original research contributions: Functional Pearls, which are full papers, and Experience Reports, which are limited to half the length of a full paper. Authors submitting such papers should consider the following additional guidelines.
+
+Functional Pearls
+
+A Functional Pearl is an elegant essay about something related to functional programming. Examples include, but are not limited to:
+
+ * a new and thought-provoking way of looking at an old idea;
+ * an instructive example of program calculation or proof;
+ * a nifty presentation of an old or new data structure;
+ * an interesting application of functional programming techniques;
+ * a novel use or exposition of functional programming in the classroom.
+
+While pearls often demonstrate an idea through the development of a short program, there is no requirement or expectation that they do so. Thus, they encompass the notions of theoretical and educational pearls.
+
+Functional Pearls are valued as highly and judged as rigorously as ordinary papers, but using somewhat different criteria. In particular, a pearl is not required to report original research, but, it should be concise, instructive, and entertaining. A pearl is likely to be rejected if its readers get bored, if the material gets too complicated, if too much-specialized knowledge is needed, or if the writing is inelegant. The key to writing a good pearl is polishing.
+
+A submission that is intended to be treated as a pearl must be marked as such on the submission web page and should contain the words “Functional Pearl” somewhere in its title or subtitle. These steps will alert reviewers to use the appropriate evaluation criteria. Pearls will be combined with ordinary papers for the purpose of computing the conference’s acceptance rate.
+
+Experience Reports
+
+The purpose of an Experience Report is to describe the experience of using functional programming in practice, whether in industrial application, tool development, programming education, or any other area.
+
+Possible topics for an Experience Report include, but are not limited to:
+
+ * insights gained from real-world projects using functional programming;
+ * comparison of functional programming with conventional programming in the context of an industrial project or a university curriculum;
+ * project management, business, or legal issues encountered when using functional programming in a real-world project;
+ * curricular issues encountered when using functional programming in education;
+ * real-world constraints that created special challenges for an implementation of a functional language or for functional programming in general.
+
+An Experience Report is distinguished from a normal PACMPL issue ICFP paper by its title, by its length, and by the criteria used to evaluate it.
+
+Both in the papers and in any citations, the title of each accepted Experience Report must end with the words “(Experience Report)” in parentheses. The acceptance rate for Experience Reports will be computed and reported separately from the rate for ordinary papers.
+
+Experience Report submissions can be at most 12 pages long, excluding bibliography.
+
+Each accepted Experience Report will be presented at the conference, but depending on the number of Experience Reports and regular papers accepted, authors of Experience Reports may be asked to give shorter talks.
+
+Because the purpose of Experience Reports is to enable our community to understand the application of functional programming, an acceptable Experience Report need not add to the body of knowledge of the functional-programming community by presenting novel results or conclusions. It is sufficient if the report describes an illuminating experience with functional programming, or provides evidence for a clear thesis about the use of functional programming. The experience or thesis must be relevant to ICFP, but it need not be novel.
+
+The PC will accept or reject Experience Reports based on whether they judge the paper to illuminate some aspect of the use of functional programming. Anecdotal evidence will be acceptable provided it is well-argued and the author explains what efforts were made to gather as much evidence as possible. Typically, papers that show how functional programming was used are more convincing than papers that say only that functional programming was used. It can be especially effective to present comparisons of the situations before and after the experience described in the paper, but other kinds of evidence would also make sense, depending on context. Experience drawn from a single person’s experience may be sufficient, but more weight will be given to evidence drawn from the experience of groups of people.
+
+An Experience Report should be short and to the point. For an industrial project, it should make a claim about how well functional programming worked and why; for a pedagogy paper, it might make a claim about the suitability of a particular teaching style or educational exercise. Either way, it should produce evidence to substantiate the claim. If functional programming worked in this case in the same ways it has worked for others, the paper need only summarize the results — the main part of the paper should discuss how well it worked and in what context. Most readers will not want to know all the details of the experience and its implementation, but the paper should characterize it and its context well enough so that readers can judge to what degree this experience is relevant to their own circumstances. The paper should take care to highlight any unusual aspects; specifics about the experience are more valuable than generalities about functional programming.
+
+If the paper not only describes experience but also presents new technical results, or if the experience refutes cherished beliefs of the functional-programming community, it may be better to submit it as a full paper, which will be judged by the usual criteria of novelty, originality, and relevance. The Program Chair will be happy to advise on any concerns about which category to submit to.
+
+Questions? Use the ICFP Papers contact form.
+
+Important Dates AoE (UTC-12h)
+
+Thu 25 Feb 2027
+Submission deadline
+Mon 19 Apr 2027
+Reviews released
+Mon 19 - Thu 22 Apr 2027
+Author response
+Fri 7 May 2027
+Notification of conditional acceptance
+Tue 1 Jun 2027
+Revised papers
+Fri 11 Jun 2027
+Final notification
+Thu 1 Jul 2027
+Camera ready
+
+Submission Link
+https://icfp27.hotcrp.com
+Program Committee
+
+ * Steve ZdancewicProgram Chair
+
+   University of Pennsylvania
+
+   United States
+
+ * Éric TanterAssociate Chair
+
+   University of Chile
+
+   Chile
+
+ * Adrienne Lancelot
+
+   University of Bologna
+
+ * Alejandro Serrano
+
+   JetBrains
+
+   Netherlands
+
+ * Ambrus Kaposi
+
+   ELTE Eötvös Loránd University, Budapest, Hungary
+
+   Hungary
+
+ * Amr Sabry
+
+   Indiana University
+
+   United States
+
+ * Ana Bove
+
+   Chalmers University of Technology and University of Gothenburg
+
+   Sweden
+
+ * Andrew K. Hirsch
+
+   University at Buffalo, SUNY
+
+   United States
+
+ * Artjoms Šinkarovs
+
+   University of Southampton
+
+ * Atsushi Igarashi
+
+   Kyoto University
+
+   Japan
+
+ * Robert Harper
+
+   Carnegie Mellon University
+
+   United States
+
+ * Clément Aubert
+
+   Augusta University
+
+   United States
+
+ * Conor McBride
+
+   University of Strathclyde
+
+ * Delia Kesner
+
+   Université Paris Cité - CNRS - IRIF
+
+   France
+
+ * Duncan Paul Attard
+
+   University of Glasgow
+
+   United Kingdom
+
+ * Edwin Brady
+
+   University of St. Andrews
+
+   United Kingdom
+
+ * Elena Di Lavore
+
+   Tallinn University of Technology
+
+   Estonia
+
+ * François Pottier
+
+   Inria
+
+   France
+
+ * Gabriele Vanoni
+
+   IRIF, Université Paris Cité
+
+ * J. Garrett Morris
+
+   University of Iowa
+
+   United States
+
+ * Graham Hutton
+
+   University of Nottingham
+
+   United Kingdom
+
+ * Guido Martínez
+
+   Microsoft Research
+
+   United States
+
+ * Hsiang-Shang ‘Josh’ Ko
+
+   Institute of Information Science, Academia Sinica
+
+   Taiwan
+
+ * Jacques Garrigue
+
+   Nagoya University
+
+   Japan
+
+ * Jesper Cockx
+
+   Delft University of Technology
+
+   Netherlands
+
+ * Joseph Eremondi
+
+   University of Regina
+
+   Canada
+
+ * Lars Birkedal
+
+   Aarhus University
+
+   Denmark
+
+ * Léon Gondelman
+
+   Aalborg University, Denmark
+
+ * Lindsey Kuper
+
+   University of California, Santa Cruz
+
+   United States
+
+ * Lionel Parreaux
+
+   HKUST (The Hong Kong University of Science and Technology)
+
+   Hong Kong SAR China
+
+ * Luís Caires
+
+   Técnico Lisboa and INESC-ID
+
+ * Mário Pereira
+
+   NOVA LINCS & DI -- Nova School of Science and Technology
+
+   Portugal
+
+ * Matthew Flatt
+
+   University of Utah
+
+   United States
+
+ * Maximilian Doré
+
+   University of Oxford
+
+ * Meven Lennon-Bertrand
+
+   ENS Rennes
+
+   France
+
+ * Michael D. Adams
+
+   National University of Singapore
+
+   United States
+
+ * Michael Vollmer
+
+   University of Kent
+
+   United Kingdom
+
+ * Neel Krishnaswami
+
+   University of Cambridge
+
+   United Kingdom
+
+ * Nicolas Wu
+
+   Imperial College London
+
+   United Kingdom
+
+ * Olin Shivers
+
+   Northeastern University
+
+   United States
+
+ * Patricia Johann
+
+   Appalachian State University
+
+ * Patrick Bahr
+
+   IT University of Copenhagen
+
+   Denmark
+
+ * Philipp Schuster
+
+   University of Tübingen
+
+   Germany
+
+ * Ralf Hinze
+
+   RPTU Kaiserslautern-Landau
+
+ * Ronald Garcia
+
+   University of British Columbia
+
+   Canada
+
+ * Samantha Frohlich
+
+   University of Bristol
+
+   United Kingdom
+
+ * Sebastian Ullrich
+
+   Lean FRO
+
+   Germany
+
+ * Simon Fowler
+
+   University of Glasgow
+
+   United Kingdom
+
+ * Simon Peyton Jones
+
+   Epic Games
+
+   United Kingdom
+
+ * Son Ho
+
+   Microsoft Azure Research
+
+   France
+
+ * Stelios Tsampas
+
+   University of Southern Denmark
+
+   Denmark
+
+ * Tomas Petricek
+
+   Charles University
+
+   Czechia
+
+ * Zoe Paraskevopoulou
+
+   National Technical University of Athens
+
+   Greece
+
+xFri 25 Sep 17:48
+
+ICFP 2027
+
+contact form
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+ICFP Artifacts
+ICFP Papers
+
+Attending
+
+Venue: Van der Valk Hotel Nijmegen
+
+Sign Up

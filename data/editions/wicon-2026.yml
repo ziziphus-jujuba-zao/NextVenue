@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: wicon-2026
+series: wicon
+name: WiCON 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/WiCON
+  conf_id: wicon2026
+  link: https://wicon.eai-conferences.org/2026/
+  place: Bratislava, Slovakia
+  date: December 2-4, 2026
+  timezone: UTC+3
+location:
+  city: Bratislava
+  country: Slovakia
+  country_code: SK
+dates:
+  start: 2026-12-02
+  end: 2026-12-04
+milestones:
+  - type: paper
+    at: 2026-06-01T23:59
+    tz: UTC+3
+    status: confirmed
+  - type: conference
+    start: 2026-12-02
+    end: 2026-12-04
+    tz: UTC+3
+    status: confirmed
+last_checked: 2026-09-25

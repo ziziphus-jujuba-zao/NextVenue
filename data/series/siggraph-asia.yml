@@ -1,0 +1,13 @@
+id: siggraph-asia
+acronym: SIGGRAPH Asia
+full_name: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+aliases: [ACM SIGGRAPH ASIA, ACM SIGGRAPH Annual Conference in Asia]
+directions: [cs/graphics]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/siggrapha
+ccfddl: CG/ACM SIGGRAPH ASIA
+data_level: curated
+note_zh: 技术论文分期刊轨（发表在 ACM TOG）和会议轨。CCF 第七版会议目录没有单列 SIGGRAPH Asia，所以不显示 CCF 等级。

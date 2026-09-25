@@ -1,0 +1,11 @@
+id: spa-conf
+acronym: SPA
+full_name: Conference on Stochastic Processes and their Applications
+name_zh: 随机过程及其应用会议
+directions: [math/prob]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: Bernoulli Society 的年会，往届每年举办（Bernoulli-IMS 世界大会那年除外）
+data_level: curated
+note_zh: 概率与随机过程方向的主要年会。缩写和 CCF 的 SPAA 不同；系列 id 加了后缀，免得和以后的缩写撞名。

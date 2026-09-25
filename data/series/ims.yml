@@ -1,0 +1,12 @@
+id: ims
+acronym: IMS
+full_name: IEEE MTT-S International Microwave Symposium
+aliases:
+  - IEEE IMS
+directions: [eng/ic, eng/comm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 5–6 月，美国
+data_level: curated
+note_zh: 包括同一周举办的 RFIC、RFSA、RFTT 三个分会。与国际数理统计学会（Institute of Mathematical Statistics）的会撞缩写。

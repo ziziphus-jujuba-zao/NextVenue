@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: fast-2027
+series: fast
+name: FAST 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/FAST
+  conf_id: fast27
+  link: https://www.usenix.org/conference/fast27
+  place: Renton, WA, USA
+  date: FEBRUARY 23-25, 2027
+  timezone: AoE
+location:
+  city: Renton
+  country: USA
+  country_code: US
+dates:
+  start: 2027-02-23
+  end: 2027-02-25
+milestones:
+  - type: paper
+    at: 2026-03-17T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Spring deadline
+  - type: paper
+    at: 2026-09-15T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Fall deadline
+  - type: conference
+    start: 2027-02-23
+    end: 2027-02-25
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

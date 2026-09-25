@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icaps-2027
+series: icaps
+name: ICAPS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/ICAPS
+  conf_id: icaps27
+  link: https://icaps27.icaps-conference.org/
+  place: Columbia, SC, USA
+  date: June 27 - July 2, 2027
+  timezone: UTC-12
+location:
+  city: Columbia
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-27
+  end: 2027-07-02
+milestones:
+  - type: abstract
+    at: 2026-12-07T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: paper
+    at: 2026-12-14T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2027-06-27
+    end: 2027-07-02
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

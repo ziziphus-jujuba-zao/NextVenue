@@ -1,0 +1,22 @@
+id: nam-2027
+series: nam
+name: NAM 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Toronto, country: Canada, country_code: CA }
+dates: { start: 2027-06-13, end: 2027-06-18 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/Toronto
+    note_zh: NAM30 的摘要截止还没公布（NAM29 在会前约半年截止）。
+  - type: conference
+    start: 2027-06-13
+    end: 2027-06-18
+    tz: America/Toronto
+    status: confirmed
+    src: nam-2027-nacs-home
+    quote: "June 13–18, 2027 | Toronto, Canada"
+last_checked: 2026-09-25
+note_zh: 第 30 届（NAM30），会场是多伦多的 Sheraton Centre Toronto Hotel。

@@ -1,0 +1,76 @@
+id: aacr-2027
+series: aacr
+name: AACR 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: aacr-2027-abstracts
+  quote: "Authors must submit abstracts for presentation at the AACR Annual Meeting 2027 using the AACR Abstract Submission System, which will be available September 28, 2026."
+location: { city: Orlando, country: USA, country_code: US }
+dates: { start: 2027-04-02, end: 2027-04-07 }
+milestones:
+  - type: abstract
+    at: 2026-11-10T23:59
+    tz: America/New_York
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "November 10, 2026: Regular Abstract Submission Deadline (11:59 p.m. ET)"
+    note_zh: 9/28 开放提交。投稿时要填一位同意担保的 AACR 会员；从 2027 届起，每位合作者都要先有验证过的 myAACR 账号才能加进作者名单。
+  - type: financial_aid
+    label_zh: 学者奖（旅费资助）申请截止
+    at: 2026-11-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "November 10, 2026: Award Application Deadlines:"
+    note_zh: 这一天截止的是 Scholar-in-Training 等几类奖项；Early-Career 和 Faculty Scholar 两类是 11/24。奖项申请这一行没写时刻和时区（同一天的摘要截止写 11:59 p.m. ET），按北京时间当天结束算，更保守。
+  - type: registration_open
+    at: 2026-10-20
+    tz: America/New_York
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "October 20, 2026: Meeting Registration Opens"
+  - type: early_registration
+    at: 2026-12-07
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "December 7, 2026: Early Registration Deadline (lowest rates)"
+    note_zh: 官网只给日期、没写时区，按北京时间当天结束算（比按美东时间早 13 小时，更保守）。
+  - type: notification
+    at: 2026-12-21
+    tz: America/New_York
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "December 21, 2026: Regular Abstract Status Notifications Sent"
+  - type: abstract
+    label_zh: 晚到摘要截止
+    start: 2026-12-02
+    end: 2027-01-06T23:59
+    tz: America/New_York
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "January 6, 2027: Late-Breaking and Clinical Trials Abstract Submission Deadline (11:59 p.m. ET)"
+    note_zh: 晚到摘要和临床试验摘要这一轮，12/2 开放。只收晚到的重要结果和临床试验摘要，不是常规摘要的延期。
+  - type: standard_registration
+    label_zh: 提前注册截止（折扣价）
+    at: 2027-02-12
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "February 12, 2027: Advance Registration Deadline (discounted rates)"
+    note_zh: 官网只给日期、没写时区，按北京时间当天结束算（更保守）。
+  - type: conference
+    start: 2027-04-02
+    end: 2027-04-07
+    tz: America/New_York
+    status: confirmed
+    src: aacr-2027-key-dates
+    quote: "April 2 - 7, 2027"
+last_checked: 2026-09-25
+note_zh: 会场是奥兰多的 Orange County Convention Center。录用的海报和口头报告都必须现场报告，不能远程；本人去不了可以指定一位合作者代讲，否则要撤稿。

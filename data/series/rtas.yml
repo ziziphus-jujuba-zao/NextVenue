@@ -1,0 +1,11 @@
+id: rtas
+acronym: RTAS
+full_name: IEEE Real-Time and Embedded Technology and Applications Symposium
+directions: [cs/systems]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；每年 5 月在 CPS-IoT Week 内举办。
+dblp: conf/rtas
+ccfddl: DS/RTAS
+data_level: curated

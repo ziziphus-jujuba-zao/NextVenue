@@ -1,0 +1,47 @@
+id: ase-2027
+series: ase
+name: ASE 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: ase-2026
+milestones:
+  - type: paper
+    at: 2027-03-26T23:59
+    tz: AoE
+    status: estimated
+    src: ase-2026-research
+    quote: "Thu 26 Mar 2026 Paper Submission"
+    note_zh: ASE 2027 还没有官网（conf.researchr.org/home/ase-2027 返回 404）。按 ASE 2026 研究赛道的正文截止 3/26 顺延；ASE 2026 所有日期都是 AoE。
+  - type: phase1_notification
+    label_zh: 提前拒稿通知
+    at: 2027-05-25
+    tz: AoE
+    status: estimated
+    src: ase-2026-research
+    quote: "Mon 25 May 2026 Early Rejection Notification"
+    note_zh: 按 ASE 2026 的日期顺延。所有审稿人都给负分的论文在 rebuttal 前提前拒稿。
+  - type: author_response
+    start: 2027-05-25
+    end: 2027-05-27T23:59
+    tz: AoE
+    status: estimated
+    src: ase-2026-research
+    quote: "Mon 25 - Wed 27 May 2026 Author Response"
+    note_zh: 按 ASE 2026 的 author response 期 5/25–27 顺延。
+  - type: notification
+    at: 2027-06-18
+    tz: AoE
+    status: estimated
+    src: ase-2026-research
+    quote: "Thu 18 Jun 2026 Initial Notification"
+    note_zh: 按 ASE 2026 的初审结果日期顺延。ASE 2026 的大修论文 7/16 交修改稿、7/29 出结果。
+  - type: camera_ready
+    at: 2027-08-03T23:59
+    tz: AoE
+    status: estimated
+    src: ase-2026-research
+    quote: "Mon 3 Aug 2026 Camera-Ready Papers (all papers)"
+    note_zh: 按 ASE 2026 的日期顺延。
+last_checked: 2026-09-25
+note_zh: ASE 2027 还没有官网，会期、地点和投稿日期都未公布。标“预计”的日期按 ASE 2026 研究赛道顺延：正文 3/26、提前拒稿 5/25、author response 5/25–27、初审结果 6/18、camera-ready 8/3（AoE）。ASE 2026（2026-10-12 至 16，慕尼黑）的论文已截止。

@@ -1,0 +1,94 @@
+Important Dates
+
+Key submission and notification deadlines.
+
+Main Track
+
+Contribution Registration   25-March
+Contribution Submission     01-April
+Supplementary Submission    08-April
+Rebuttal                    04-June
+Author Notification         09-July
+Camera-Ready                06-August
+Author Registration         31-August
+
+Brave New Ideas
+
+Contribution Registration   25-March
+Contribution Submission     01-April
+Supplementary Submission    08-April
+Rebuttal                    28-May - 04-June
+Author Notification         09-July
+Camera-Ready                06-August
+Author Registration         31-August
+
+Datasets
+
+Contribution Registration   25-March
+Contribution Submission     01-April
+Supplementary Submission    08-April
+Rebuttal                    04-June
+Author Notification         09-July
+Camera-Ready                06-August
+Author Registration         31-August
+
+Workshops
+
+Proposal Submission       12-February
+Proposal Notification     05-March
+Contribution Submission   16-July
+Author Notification       06-August
+Camera-Ready              20-August
+Author Registration       31-August
+
+Grand Challenges
+
+Proposal Submission       12-February
+Proposal Notification     05-March
+Contribution Submission   28-May
+Author Notification       16-July
+Camera-Ready              06-August
+Author Registration       31-August
+
+Tutorials
+
+Contribution Submission   23-April
+Decision                  04-June
+Author Notification       04-June
+Camera-Ready              06-August
+Author Registration       31-August
+
+Interactive Art
+
+Contribution Submission   23-April
+Author Notification       04-June
+Camera-Ready              20-August
+Author Registration       31-August
+
+Doctoral Symposium
+
+Contribution Submission   23-April 06-May
+Author Notification       04-June
+Camera-Ready              20-August
+Author Registration       31-August
+
+Open Source
+
+Contribution Submission   28-May 10-June
+Author Notification       16-July
+Camera-Ready              06-August
+Author Registration       31-August
+
+Demo and Video
+
+Contribution Submission   11-June
+Author Notification       30-July
+Camera-Ready              20-August
+Author Registration       31-August
+
+Reproducibility
+
+Contribution Submission   23-April
+Author Notification       30-July
+Camera-Ready              3-September
+Author Registration       31-August

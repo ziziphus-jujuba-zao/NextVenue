@@ -1,0 +1,13 @@
+id: interspeech
+acronym: Interspeech
+full_name: Annual Conference of the International Speech Communication Association
+aliases: [INTERSPEECH, InterSpeech, Conference of the International Speech Communication Association]
+directions: [cs/speech]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/interspeech
+ccfddl: CG/InterSpeech
+data_level: curated
+note_zh: 国际语音通信协会（ISCA）的年会。

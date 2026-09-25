@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-colm
+sources:
+  - id: colm-2026-pc-blog-ai-papers
+    url: https://gregdurrett.github.io/colm2026-blog/ai-papers.html
+    title: "COLM 2026 program chairs' blog: AI submissions at COLM"
+    kind: blog
+    fetched_at: 2026-09-25T13:15:12Z
+    http_status: 200
+    snapshot: 058b1d6e0150737c405e7af21192cace56ce3e7327430292a997ee04c6bc628e

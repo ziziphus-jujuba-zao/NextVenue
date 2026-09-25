@@ -1,0 +1,45 @@
+id: iv-2027
+series: iv
+name: IEEE IV 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Perth, country: Australia, country_code: AU }
+dates: { start: 2027-06-15, end: 2027-06-18 }
+submission_type: full_paper
+submission_evidence:
+  src: iv-2027-authors
+  quote: "The expected length is 6 pages. A maximum of 8 pages is allowed (2 extra pages with additional page charges)."
+  note_zh: 双盲，投稿时要去掉作者姓名和单位，视频附件也要匿名。
+milestones:
+  - type: paper
+    at: 2026-11-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iv-2027-home
+    quote: "Conference Paper Submission Deadline: November 15, 2026"
+    note_zh: 投稿系统（PaperPlaza）已开放。官网只给日期、没写时区，按北京时间当天结束算。
+  - type: notification
+    at: 2027-01-15
+    tz: Australia/Perth
+    status: confirmed
+    src: iv-2027-home
+    quote: "Conference Paper Notification Date: January 15, 2027"
+  - type: camera_ready
+    at: 2027-02-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iv-2027-home
+    quote: "Conference Camera-ready Submission Date: February 01, 2027"
+    note_zh: 官网只给日期、没写时区。珀斯和北京同为 UTC+8，按北京时间当天结束算即可。
+  - type: conference
+    start: 2027-06-15
+    end: 2027-06-18
+    tz: Australia/Perth
+    status: confirmed
+    src: iv-2027-home
+    quote: "June 15 – 18, 2027 – Perth, Western Australia"
+    note_zh: 第 38 届 IEEE 智能车辆研讨会。workshop 论文截止 2027-02-01，产业论文 2027-03-15。
+last_checked: 2026-09-25

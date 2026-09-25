@@ -1,0 +1,53 @@
+id: goldschmidt-2027
+series: goldschmidt
+name: Goldschmidt 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: goldschmidt-2027-cfp
+  quote: "Each author may be the presenting author of only one standard abstract submitted to Themes 1 to 11."
+location: { city: Paris, country: France, country_code: FR }
+dates: { start: 2027-07-11, end: 2027-07-16 }
+milestones:
+  - type: financial_aid
+    label_zh: 资助申请截止
+    at: 2027-02-11
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: goldschmidt-2027-cfp
+    quote: "The deadline for grant applications is 11 February 2027."
+    note_zh: 资助随摘要一起申请，比摘要截止早两周。官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: abstract
+    at: 2027-02-25T23:59
+    tz: Europe/Paris
+    status: confirmed
+    src: goldschmidt-2027-cfp
+    quote: "The abstract submission deadline is 25 February 2027 (23:59 CET/UTC +1)."
+    note_zh: 北京时间 2/26 06:59。
+  - type: notification
+    status: tba
+    tz: Europe/Paris
+    src: goldschmidt-2027-cfp
+    quote: "Your abstract submission will be reviewed by Session Conveners after the Call for Abstracts deadline, and the presenting author will be informed of the status of the submission within 5 weeks."
+    note_zh: 官网只说截止后 5 周内通知报告人，没有具体日期。
+  - type: author_registration
+    label_zh: 报告人注册截止（逾期撤稿）
+    at: 2027-05-25
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: goldschmidt-2027-cfp
+    quote: "The presenting author of an abstract must register for the conference by the presenter registration deadline of 25 May 2027."
+    note_zh: 到期没付注册费，摘要从日程撤下，摘要费不退。官网没写时区，按北京时间算。
+  - type: conference
+    start: 2027-07-11
+    end: 2027-07-16
+    tz: Europe/Paris
+    status: confirmed
+    src: goldschmidt-eag-events
+    quote: "2027 Goldschmidt Conference 11-16 July 2027 • Paris, France"
+last_checked: 2026-09-25
+note_zh: 可以选择现场或远程报告。分会提案（call for sessions）10/15 截止，面向组织者。法国属申根区。

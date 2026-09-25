@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: mobilehci-2027
+series: mobilehci
+name: MobileHCI 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/MobileHCI
+  conf_id: mobilehci27
+  link: https://mobilehci.acm.org/2027/
+  place: Limassol, Cyprus
+  date: September 20-23, 2027
+  timezone: AoE
+location:
+  city: Limassol
+  country: Cyprus
+  country_code: CY
+dates:
+  start: 2027-09-20
+  end: 2027-09-23
+milestones:
+  - type: abstract
+    at: 2027-02-10T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2027-02-17T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-09-20
+    end: 2027-09-23
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

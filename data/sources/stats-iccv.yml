@@ -1,0 +1,19 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-iccv
+sources:
+  - id: iccv-2021-front-matter
+    url: https://www.computer.org/csdl/proceedings-article/iccv/2021/281200z166/1BmGpD8O0b6
+    mirror_url: https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1BmGpD8O0b6/pdf
+    title: "ICCV 2021 proceedings: Message from the General and Program Chairs"
+    kind: other
+    fetched_at: 2026-09-25T13:13:27Z
+    http_status: 200
+    snapshot: 2f8ff915663422837b6c02d954ceb25683b9dd9051a1bc979c211e2103839170
+    note_zh: IEEE CSDL 文章页是动态页面；快照取自同一网站的 PDF 下载接口。
+  - id: iccv-2023-program-overview
+    url: https://iccv2023.thecvf.com/program.overview-97.php
+    title: ICCV 2023 program overview
+    kind: other
+    fetched_at: 2026-09-25T13:13:28Z
+    http_status: 200
+    snapshot: 834f36e40bca67a05ae1f2f24cc325268d0827f5305542f90d31f7bea28863a8

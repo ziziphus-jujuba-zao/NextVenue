@@ -1,0 +1,13 @@
+id: aps-psych
+acronym: APS Convention
+full_name: Association for Psychological Science Annual Convention
+name_zh: 美国心理科学协会年会
+aliases:
+  - APS Annual Convention
+directions: [soc/psych]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 心理科学协会（APS）年会，往届都在每年 5 月底举办
+data_level: curated
+note_zh: 投海报、试点项目海报、教学海报或报告，所有报告都必须现场进行。不是美国物理学会（APS）的会议，也不是美国心理学会（APA）。

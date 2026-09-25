@@ -1,0 +1,38 @@
+id: mrs-fall-2026
+series: mrs-fall
+name: MRS Fall 2026
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: mrs-fall-2026-breaking-news
+  quote: "This second abstract submission period is designed for recent breakthroughs and late-developing results, especially those not ready during the initial Fall 2026 submission period."
+location: { city: Boston, country: USA, country_code: US }
+dates: { start: 2026-11-29, end: 2026-12-04 }
+milestones:
+  - type: abstract
+    label_zh: Breaking News 摘要截止
+    start: 2026-09-03T08:00
+    end: 2026-09-16T23:59
+    tz: America/New_York
+    status: confirmed
+    src: mrs-fall-2026-breaking-news
+    quote: "Submit by September 16, 2026 at 11:59 pm ET."
+    note_zh: 第二轮摘要，9/3 8:00 ET 开放；给常规摘要期之后才出结果的新工作。
+  - type: notification
+    status: tba
+    tz: America/New_York
+    src: mrs-fall-2026-breaking-news
+    quote: "Mid-October 2026 Confirmation emails are sent"
+    note_zh: 官网只说 10 月中旬发确认邮件，没有具体日期。
+  - type: conference
+    start: 2026-11-29
+    end: 2026-12-04
+    tz: America/New_York
+    status: confirmed
+    src: mrs-fall-2026-breaking-news
+    quote: "taking place November 29–December 4 in Boston, Massachusetts."
+    note_zh: 会场是 Hynes Convention Center 一带。
+last_checked: 2026-09-25
+note_zh: 常规摘要和 Breaking News 摘要都已截止。快照是 Internet Archive 2026-09-07 的存档，注册截止日没有核对到。

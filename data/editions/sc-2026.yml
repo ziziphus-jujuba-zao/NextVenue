@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: sc-2026
+series: sc
+name: SC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/SC
+  conf_id: sc26
+  link: https://sc26.supercomputing.org/
+  place: McCormick Place, Chicago, Illinois, USA
+  date: November 15-20, 2026
+  timezone: AoE
+location:
+  city: McCormick Place
+  country: USA
+  country_code: US
+dates:
+  start: 2026-11-15
+  end: 2026-11-20
+milestones:
+  - type: abstract
+    at: 2026-04-01T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-04-08T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-11-15
+    end: 2026-11-20
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

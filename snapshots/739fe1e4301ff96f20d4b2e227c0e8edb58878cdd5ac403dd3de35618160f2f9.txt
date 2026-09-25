@@ -1,0 +1,72 @@
+2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) | 978-1-6654-0915-5/22/$31.00 ©2022 IEEE | DOI: 10.1109/WACV51458.2022.00005
+
+Message from the General and Program Chairs
+Welcome to the 22nd edition of the Winter
+Conference on Applications of Computer Vision
+(WACV) 2022. WACV is the premier outlet for
+research advances in applications of computer vision
+technology. For the first time, WACV will be held as a
+hybrid event, with the in-person component at
+Waikoloa on the island of Hawaii. WACV in
+Snowmass Village, CO in March 2020 was the last
+major computer vision conference to be held in
+person prior to the pandemic and (at the time of this
+writing) WACV 2022 will be the first with a significant
+in-person component. After nearly two years away,
+we are very excited to bring together at least a small
+part of our community.
+We gratefully acknowledge the contributions of our
+corporate supporters: Amazon Science, Google,
+Kitware, MITRE, and Verisk. We are also fortunate to
+have three great keynote speakers: Kristen
+Grauman, Ahmed Elgammal, and Zhengyou Zhang.
+WACV 2022 spans five days, with a three-day, twotrack, main conference program in which authors will
+present each accepted paper as a short oral and a
+poster. Along with the paper presentations are
+activities including tutorials, workshops, a doctoral
+consortium, and social events.
+WACV 2022 continued to attract a large number of
+submissions, reaching 1172 this year, even in the
+uncertain covid era. After the diligent work from 88
+area chairs and 1487 reviewers, including those who
+helped in the last minutes as emergency reviewers,
+406 papers were accepted. The review process is
+multi-round and multi-track, which puts emphasis on
+either novel algorithmic components or vision
+systems for real-world applications. Each paper
+received at least 3 full reviews, and the acceptance
+decisions were made within AC triplets, and
+additional conflict-free panels were brought in when
+necessary. Following the best practices in the
+community, the chairs did not place any restrictions
+on acceptance, and the final acceptance rate is
+34.6%.
+
+We would like to thank everyone involved in making
+WACV 2022 a success, especially during the
+pandemic and with the hybrid mode. We wish to
+thank our Finance Chairs, Terry Boult and Ginger
+Boult, our Workshops Chairs, Vito Struc and Margrit
+Betke, our Tutorials Chair, Philippos Mordohai, our
+Doctoral Consortium Chair, Nathan Jacobs, our
+Publication Chair, Eric Mortensen, our Diversity,
+Equity, and Inclusion Chair, Georgia Gkioxari, and our
+Awards Committee Larry Davis, Jana Kosecka, Greg
+Mori, Jianbo Shi, and Tanveer Syeda-Mahmood. We
+want to give special thanks to Nicole Finn, who has
+kept WACV running smoothly for many years now.
+This year, in particular, with the ever-changing
+challenges due to the pandemic, her efforts have
+been quite invaluable.
+Last but not least, we thank all of you for attending
+WACV, either in person or virtually. We sincerely
+hope that you enjoy WACV 2022! Aloha!
+Kevin Bowyer, Gérard Medioni, Walter Scheirer
+General Co-Chairs
+Saket Anand, Ryan Farrell, Richard Souvenir,
+Catherine Zhao
+Program Co-Chairs
+
+xlv
+
+

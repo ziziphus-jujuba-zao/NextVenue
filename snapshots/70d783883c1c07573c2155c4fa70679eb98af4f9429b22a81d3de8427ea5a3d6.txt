@@ -1,0 +1,386 @@
+Microsoft ends support for Internet Explorer on June 16, 2022.
+We recommend using one of the browsers listed below.
+
+ * Microsoft Edge（Latest version）
+ * Mozilla Firefox（Latest version）
+ * Google Chrome（Latest version）
+ * Apple Safari（Latest version）
+
+Please contact your browser provider for download and installation instructions.
+
+ * Contact
+
+ * JAPANESE
+ * ENGLISH
+
+ * About NTT
+   Back to Menu Top About NTT Top
+    * About NTT Top
+    * Group Companies
+    * Business
+    * NTT Group's Core & Values
+    * History
+    * At a glance
+    * Brand
+    * Projects
+    * IOWN
+    * AI
+
+   Group Companies Top
+    * Alphabetical Index
+    * Affiliated Companies Index
+
+   Business Top
+    * Integrated ICT Business
+    * Global Solutions Business
+    * Regional Communications Business
+    * Others (Real Estate, Energy and Others)
+
+   close
+ * Newsroom
+   Back to Menu Top Newsroom Top
+    * Newsroom Top
+    * Press Release
+    * Topics
+    * Notice
+
+   close
+ * Investor Relations
+   Back to Menu Top Investor Relations Top
+    * Investor Relations Top
+    * Management Policy
+    * Financial Data
+    * Stock Information
+    * IR Library
+    * IR News
+    * IR Calendar
+    * FAQ
+    * Contact IR
+
+   Management Policy Top
+    * Message from the CEO
+    * Medium-Term Management Strategy
+    * Profiles
+    * Business Operation Plans
+    * Corporate Governance
+
+   Financial Data Top
+    * Financial Highlights
+    * Forecast Summary
+    * Information by Segment
+    * Number of Subscribers
+
+   Stock Information Top
+    * About NTT Stock
+    * Shareholder Return
+    * IR Calendar
+    * Shareholders' Meetings
+    * History
+    * Offering of Government-owned Shares
+    * Stock Price Information
+    * ADR Information
+    * Analyst Coverage
+    * Regulations
+    * Disclosure Policy
+    * Bonds & Ratings Information
+
+   IR Library Top
+    * Latest IR Information
+    * IR Events · Presentations
+    * IR Presentations
+    * Financial Results
+    * Securities Report
+    * Timely Disclosure
+    * Integrated Report/Annual Report
+
+   close
+ * R&D
+   Back to Menu Top R&D Top
+    * R&D Top
+    * News
+    * Interview
+    * About NTT R&D
+    * Organizational Structure of NTT R&D
+    * Location
+    * Contact R&D
+
+   close
+ * Disaster Countermeasures
+   Back to Menu Top Disaster Countermeasures Top
+    * Disaster Countermeasures Top
+    * Disaster Message Services
+    * NTT Group Disaster Countermeasures
+    * Report
+    * Operation Plan
+    * Request from NTT
+
+   Disaster Message Services Top
+    * 171 Disaster Emergency Message Dial
+    * Checking Safety Status during Disasters
+    * Web171 Disaster Message Board
+
+   NTT Group Disaster Countermeasures Top
+    * Securing Critical Communications
+    * Prompt Restoration of Communications Services
+    * Improving Network Reliability
+
+   Report Top
+    * Field Report
+    * Disaster Drills
+
+   close
+ * Sustainability
+   Back to Menu Top Sustainability Top
+    * Sustainability Top
+    * Message from Management
+    * Sustainability Management
+    * Materiality
+    * NTT's Sustainability Efforts
+    * Environment
+    * Society
+    * Governance
+    * ESG Data Library
+    * External Evaluations and Initiatives
+    * D&I at NTT
+    * Procurement at NTT
+    * Comment/inquiry
+    * NTT Group Basic Policy on Harassment by Customers
+
+   Sustainability Management Top
+    * NTT Group's Global Sustainability Charter
+    * Organization for Implementation
+    * Stakeholder Engagement
+
+   Environment Top
+    * Approach to Integrating TCFD and TNFD
+    * Environmental Management
+    * Decarbonization
+    * Recycling and Reducing Environmental Impact
+    * Biodiversity
+
+   Society Top
+    * Human Resources Strategy
+    * Autonomous Career Formation
+    * Diverse Work Styles
+    * Diversity & Inclusion
+    * Occupational Safety and Health Management
+    * Respect for human rights
+    * Supply Chain Management
+    * Providing Technology and Services
+    * Strengthening Information Security and Protection of Personal Information
+
+   Governance Top
+    * Corporate Governance
+    * Corporate Ethics and Compliance
+    * Risk Management
+    * Tax Policy
+    * Intellectual Property
+    * AI Governance
+
+   ESG Data Library Top
+    * Integrated Report
+    * Financial and Non-Financial Data
+    * Comparative Guidelines Table
+    * Independent Assurance Statement
+    * ESG Disclosure Policy
+    * Past NTT Group Sustainability Reports
+
+   NTT's Sustainability Efforts Top
+    * Sustainability Stories
+    * Highlighted Actions
+    * Sustainability Conference Archive
+
+   close
+ * Corporate
+   Back to Menu Top Corporate Top
+    * Corporate Top
+    * CEO Message
+    * CEO Press Conference
+    * Corporate Data
+    * Organization Chart
+    * Profiles
+    * Access
+    * Basic Policy on the Design of Internal Control Systems
+    * Compliance
+
+   close
+ * Careers
+   Back to Menu Top Careers Information Top
+    * Careers Information Top
+    * NTT Group Careers Information
+    * NTT R&D Careers Information
+
+   close
+ * NTT STORY
+   Back to Menu Top NTT STORY Top
+    * NTT STORY Top
+    * NTT STORY List
+    * NTT ATHLETE
+
+   close
+
+ * Contact
+ * JAPANESE
+
+Search by keyword
+
+ * TOP
+ * Topics
+ * Two papers from NTT Laboratories have been accepted for presentation at UAI 2026.
+
+August 14, 2026
+
+Information
+
+Two papers from NTT Laboratories have been accepted for presentation at UAI 2026.
+
+Two papers by researchers at NTT Laboratories have been accepted for presentation at UAI 2026, the 42nd Conference on Uncertainty in Artificial Intelligence, to be held in Amsterdam from August 17 to 21, 2026. UAI is one of the world’s premier international conferences for machine learning and artificial intelligence research that addresses uncertainty in prediction and inference. The conference is particularly recognized in the field of statistical causal inference, bringing together leading researchers from around the world and featuring a wide range of high-quality presentations, from foundational theoretical research to advanced studies that pave the way for future AI technologies. This year, UAI 2026 recorded an acceptance rate of 30.5% out of 1,087 submissions, underscoring its reputation as a highly selective, top-tier conference.
+
+Abbreviated names of the laboratories:
+CS: NTT Communication Science Laboratories
+
+■Fairness under Graph Uncertainty: Achieving Interventional Fairness with Cluster Causal Graphs
+
+Yoichi Chikahara, Research Scientist (CS)
+
+Machine learning is increasingly used to support decisions about individuals, such as whether to escalate an online customer inquiry to a human agent. In such settings, predictions must be not only accurate but also fair with respect to sensitive attributes such as gender and race. However, existing methods often require detailed causal graphs between variables. This requirement is difficult to satisfy in high-dimensional data with many variables, where errors in graph estimation can accumulate and weaken fairness guarantees. In this study, we propose a new machine learning technique for achieving fairness by leveraging cluster causal graphs, which represent causal relationships among groups of variables and can be estimated more easily from data than variable-level causal graphs. Experiments on synthetic and real-world datasets show that the proposed method achieves a better balance between fairness and predictive accuracy than existing approaches. Future extensions that incorporate domain knowledge about causal relationships are expected to help build decision-making systems that are both efficient and fair, without placing individuals at an unjust disadvantage.
+
+■MetaCaDI: A Meta-Learning Framework for Causal Discovery from Multiple Observational Datasets with Unknown Interventions
+
+Hans Jarett Ong (Nara Institute of Science and Technology), Yoichi Chikahara, Research Scientist (CS), Tomoharu Iwata, Senior Distinguished Researcher (CS)
+
+To understand complex real-world systems, such as large-scale cloud systems and drug response mechanisms, it is important to map not only the cause-and-effect relationships among variables (the causal graph) but also to identify which parts of the system are altered by external changes, known as interventions (e.g., faults or functional suppression), in each environment. However, collecting large amounts of controlled interventional data is often difficult, so these intervention targets must be identified from only a few observations. In this study, we propose MetaCaDI, a meta-learning-based causal inference framework that learns a shared causal structure across multiple environments and leverages this shared knowledge to identify unknown intervention targets in a completely new environment using only a tiny handful of data points. Experiments on synthetic datasets, including complex gene expression simulations, demonstrate that the proposed method substantially outperforms existing approaches. In the future, this technique is expected to support decision-making in data-scarce domains such as medicine, drug discovery, and large-scale system operations.
+
+Information is current as of the date of issue of the individual topics.
+Please be advised that information may be outdated after that point.
+
+Topics
+
+NTT STORY
+
+WEB media that thinks about the future with NTT
+
+ * September 15, 2026
+
+   [Report] Mirai School at "NTT Dream Kids 2026": A Hands-On Workshop Event Where Children Experience the Technology of the Future
+
+    * Education
+    * Entertainment
+    * Technology
+
+ * September 7, 2026
+
+   Can Science Keep Feeding the World?
+
+    * Technology
+
+ * August 31, 2026
+
+   Rethinking Fish Food
+
+    * Technology
+
+ * NTT Group’s Core & Values
+
+ * NTT R&D Website
+
+ * NTT Japan Rugby League One
+
+ * IOWN
+
+Group Companies
+ * TOP
+ * Topics
+ * Two papers from NTT Laboratories have been accepted for presentation at UAI 2026.
+
+ * * About NTT
+     * Group Companies
+     * Business
+     * NTT Group's Core & Values
+     * History
+     * At a glance
+     * Brand
+     * Projects
+     * IOWN
+     * AI
+   * News
+   * Global Business
+ * * Investor Relations
+     * IR News
+     * Message from the CEO
+     * Management Policy
+     * Financial Data
+     * Stock Information
+     * IR Library
+     * Disclaimer
+     * FAQ
+     * IR Mail News
+     * Contact IR
+ * * R&D
+     * News
+     * Interview
+     * About NTT R&D
+     * Organizational Structure of NTT R&D
+     * Location
+     * Contact R&D
+   * Disaster Countermeasures
+     * News
+     * 171 Disaster Emergency Message Dial
+     * Checking Safety Status during Disasters
+     * Web171 Disaster Message Board
+     * NTT Group Disaster Countermeasures
+     * Operation Plan
+     * Request from NTT
+ * * Sustainability
+     * Message from Management
+     * Sustainability Management
+     * Materiality
+     * NTT's Sustainability Efforts
+     * Environment
+     * Society
+     * Governance
+     * ESG Data Library
+     * External Evaluations and Initiatives
+     * D&I at NTT
+     * Procurement at NTT
+     * Comment/inquiry
+     * NTT Group Basic Policy on Harassment by Customers
+ * * Corporate
+     * CEO Message
+     * CEO Press Conference
+     * Corporate Data
+     * Organization Chart
+     * Profiles
+     * Access
+     * Basic Policy on the Design of Internal Control Systems
+     * Compliance
+   * Careers Information
+   * NTT STORY
+   * Contact
+
+ * About NTT
+ * News
+ * Investor Relations
+ * R&D
+ * Disaster Countermeasures
+ * Sustainability
+ * Corporate
+ * Careers Information
+ * NTT STORY
+ * Contact
+ * Global Business
+
+ *
+ *
+ *
+ *
+ *
+
+NTT Group Social Media Policy
+ * Privacy Policy
+ * NTT Group Information Security Policy
+ * Protection of Personal Information
+ * Copyright(c)
+ * Sitemap
+
+© NTT, Inc.

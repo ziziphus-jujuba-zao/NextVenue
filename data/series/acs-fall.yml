@@ -1,0 +1,14 @@
+id: acs-fall
+acronym: ACS Fall
+full_name: American Chemical Society Fall National Meeting & Expo
+name_zh: 美国化学会秋季年会
+aliases:
+  - ACS Fall Meeting
+  - ACS National Meeting (Fall)
+directions: [chem/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国化学会一年两次全国会，秋季会往届都在每年 8 月举办（春季会见 acs-spring）
+data_level: curated
+note_zh: 只收摘要，经 MAPS 系统按分会投，由各分会的程序主席决定是否接收。

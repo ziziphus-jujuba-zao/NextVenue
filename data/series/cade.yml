@@ -1,0 +1,16 @@
+id: cade
+acronym: CADE
+full_name: International Conference on Automated Deduction
+aliases:
+  - Conference on Automated Deduction
+  - The Conference on Automated Deduction
+directions: [cs/theory]
+periodicity:
+  cycle: biennial
+  parity: odd
+  basis: observed
+  note_zh: 奇数年单独举办 CADE；偶数年并入 IJCAR（IJCAR 在 ccfddl 里是另一个系列）。按 dblp 收录的往届年份。
+dblp: conf/cade
+ccfddl: CT/CADE
+data_level: curated
+note_zh: CADE-31（2027）与 FSCD 同地举办（FSCD-CADE 2027），论文集从这一届起改为 LIPIcs（开放获取）。CCF 第七版只列 CADE（第 6 类 B），没有 IJCAR 条目。

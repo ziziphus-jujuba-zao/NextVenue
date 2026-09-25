@@ -1,0 +1,213 @@
+POPL 2027
+Sun 10 - Sat 16 January 2027 Mexico City, Mexico
+Toggle navigation
+ * Attending
+   * Venue: Hilton Mexico City Reforma
+   * Supporting POPL
+   * Code of Conduct
+ * Tracks
+    * POPL 2027
+    * Artifact Evaluation
+    * POPL
+    * Student Research Competition
+    * Tutorials
+    * Workshops and Co-located Events
+
+    * Co-hosted Conferences
+    * CPP Certified Programs and Proofs
+    * VMCAI Verification, Model Checking & Abstract Interpretation
+    * Workshops
+    * FPBT Future of Property-based Testing
+    * FRIDA Formal Reasoning in Distributed Algorithms
+    * LAFI Languages for Inference
+    * PAgE Principles Of Agentic Engineering
+    * PEPM Partial Evaluation and Program Manipulation
+    * PLanQC Programming Languages for Quantum Computing
+    * PLMW @ POPL PL Mentoring Workshop
+    * PriSC Principles of Secure Compilation
+    * RocqPL Rocq for Programming Languages
+    * TPSA Theory and Practice of Static Analysis
+    * WAVE Workshop on Auto-active Verification
+ * Organization
+    * POPL 2027 Committees
+    * Organizing Committee
+    * AV Committee
+    * Student Volunteers
+    * Track Committees
+    * Artifact Evaluation
+    * POPL
+    * Student Research Competition
+    * Contributors
+    * People Index
+
+    * Co-hosted Conferences
+    * CPP Certified Programs and Proofs
+      * Organizing Committee
+      * Program Committee
+      * Steering Committee
+    * VMCAI Verification, Model Checking & Abstract Interpretation
+      * Organizing Committee
+      * Steering Committee
+      * Program Committee
+      * Artifact Evaluation Committee
+    * Workshops
+    * FPBT Future of Property-based Testing
+      * Organizing Committee
+      * Reviewers
+    * FRIDA Formal Reasoning in Distributed Algorithms
+      * Organizing Committee
+      * Program Committee
+    * LAFI Languages for Inference
+      * Organizing Committee
+      * Program Committee
+    * PAgE Principles Of Agentic Engineering
+      * Organizing Committee
+      * Program Committee
+    * PEPM Partial Evaluation and Program Manipulation
+      * Organizing Committee
+      * Program Committee
+    * PLanQC Programming Languages for Quantum Computing
+      * Organizing Committee
+      * Program Committee
+    * PLMW @ POPL PL Mentoring Workshop
+      * Organizing Committee
+      * Speakers
+      * Panelists
+    * PriSC Principles of Secure Compilation
+      * Program Committee
+    * RocqPL Rocq for Programming Languages
+      * Program Committee
+    * TPSA Theory and Practice of Static Analysis
+      * Organizing Committee
+      * Program Committee
+    * WAVE Workshop on Auto-active Verification
+      * Keynote Speaker
+      * Program Committee
+      * Program Committee Chairs
+      * Steering Committee
+ * Search
+ * Series
+   * Series
+   *
+   * POPL 2027
+   * POPL 2026
+   * POPL 2025
+   * POPL 2024
+   * POPL 2023
+   * POPL 2022
+   * POPL 2021
+   * POPL 2020
+   * POPL 2019
+   * POPL 2018
+   * POPL 2017
+   * POPL 2016
+
+ * Sign in
+ * Sign up
+
+ 1.
+ 2.
+ 3.
+ 4.
+
+Photo by Armando Solar-Lezama
+
+Monumento a la revolucion
+
+Monument a few blocks from the conference venue.
+
+Photo by Armando Solar-Lezama
+
+Palacio de Bellas Artes
+
+Acrosss the street from the conference venue
+
+Photo by Ricardo Solar-Lezama
+
+Alameda Central
+
+City park across the street from the conference hotel
+
+Photo by Armando Solar-Lezama
+
+Avenida 5 de Mayo
+
+POPL 2027
+
+The annual Symposium on Principles of Programming Languages is the premier forum for the discussion of all aspects of programming languages and programming systems. Our community has produced foundational ideas that have shaped computing for decades, including type systems, program synthesis, theorem proving, static analysis, and verified systems.
+
+The 2027 conference and associated workshops will take place in Mexico City at the Hilton Mexico City Reforma from January 10 to January 16.
+
+The symposium is sponsored by ACM SIGPLAN, in cooperation with ACM SIGACT and ACM SIGLOG.
+
+The paper deadline has passed, but you can still view the call for papers here. But the deadline for the call for tutorials is coming up very soon. We also encourage students to submit to the Student Research Competition whose deadline is also coming up soon.
+
+Companies and non-profits interested in supporting POPL should reach out to the POPL Industrial Relations Chairs.
+
+POPL 2027 Tracks
+Artifact Evaluation | POPL Research Papers | Student Research Competition | Tutorials | Workshops and Co-located Events
+Show all tracks
+Important Datesup till Fri 9 Oct 2026
+
+Fri 25 Sep 2026
+VMCAI Artifact Registration
+Wed 30 Sep 2026
+VMCAI Artifact Submission
+Wed 30 Sep 2026
+VMCAI Paper Submission
+Mon 5 Oct 2026
+POPL Author notification
+Wed 7 Oct 2026
+WAVE Submission Deadline
+Wed 7 Oct 2026
+Artifact Evaluation Artifact Registration Deadline
+Fri 9 Oct 2026
+Tutorials Submission Deadline
+Wed 23 Sep 2026
+VMCAI Paper Registration
+All important dates
+
+xFri 25 Sep 17:47
+
+POPL 2027
+
+contact form
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+Artifact Evaluation
+POPL
+Student Research Competition
+Tutorials
+Workshops and Co-located Events
+
+Co-hosted Conferences
+
+CPP 2027
+VMCAI 2027
+
+Workshops
+
+FPBT 2027
+FRIDA 2027
+LAFI 2027
+PAgE 2027
+PEPM 2027
+PLanQC 2027
+PLMW @ POPL 2027
+PriSC 2027
+RocqPL 2027
+TPSA 2027
+WAVE 2027
+
+Attending
+
+Venue: Hilton Mexico City Reforma
+Supporting POPL
+Code of Conduct
+Sign Up

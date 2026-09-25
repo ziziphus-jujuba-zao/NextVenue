@@ -1,0 +1,32 @@
+# WWW（The Web Conference） 2026 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: www
+year: 2026
+kind: accepted_only
+precision: our_count
+track_zh: 研究赛道，按 track
+source_url: https://www2026.thewebconf.org/accepted/research-tracks.html
+quote_check: manual
+count_method_zh: 官网研究赛道录用名单各 track 下的论文编号数（本应用计数）
+note_zh: 官方没公布各 track 的投稿数，所以没有各 track 录用率
+checked: 2026-09-25
+rows:
+  - area: User Modeling, Personalization and Recommendation
+    accepted: 110
+  - area: Graph Algorithms and Modeling for the Web
+    accepted: 99
+  - area: Security and Privacy
+    accepted: 88
+  - area: Semantics and Knowledge
+    accepted: 81
+  - area: Systems and Infrastructure for Web, Mobile, and Web of Things
+    accepted: 67
+  - area: Web Mining and Content Analysis
+    accepted: 66
+  - area: Search and Retrieval-Augmented AI
+    accepted: 60
+  - area: Social Networks and Social Media
+    accepted: 42
+  - area: Economics, Online Markets and Human Computation
+    accepted: 36
+  - area: Responsible Web
+    accepted: 27

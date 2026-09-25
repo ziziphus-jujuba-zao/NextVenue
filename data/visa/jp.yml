@@ -1,0 +1,61 @@
+# 日本：中国大陆普通护照赴日开会。格式见 schema/visa.schema.json 和 DATA_GUIDE §7.4。
+# 日本外务省和驻华使领馆网站对本应用的抓取一律返回 403，所以签证要求和办理方式用中国领事服务网的原文，
+# 费用、办理时间和材料清单写 unverified / tba，只给使馆链接。
+id: jp
+name_zh: 日本
+passport: cn_ordinary
+last_checked: 2026-09-25
+requirement:
+  answer: required
+  visa_zh: 短期停留签证
+  conditions_zh: 须通过日方指定的代办机构递交。
+  conf: high
+  src: visa-jp-cs-mfa
+  quote: "除港澳台同胞以外的中国公民访问日本，均需提前办理好日本签证。"
+apply:
+  - label_zh: 日本驻华使馆 · 短期商务等签证
+    url: https://www.cn.emb-japan.go.jp/itpr_zh/visa_tankishoyo.html
+fees:
+  - item: visa
+    status: unverified
+    note_zh: 日方页面对本应用返回 403，金额未能核对。以使领馆页面为准。
+facts:
+  - id: agencies
+    label_zh: 递交方式
+    text_zh: 持普通护照的申请人，签证手续都要通过日方指定的代办机构办理。
+    src: visa-jp-cs-mfa
+    quote: "其他申请人的签证手续均需通过日方指定的代办机构（可查询日本驻华使领馆网站）办理。"
+  - id: inviter
+    label_zh: 需要日方邀请
+    text_zh: 申办日本签证首先要有日本的邀请单位（人），材料要中日两边分头准备。开会的话，请会议主办方或日方合作者提前准备邀请材料。
+    src: visa-jp-cs-mfa
+    quote: "申办日本签证首先要求在日本有邀请单位（人）或在中国国内有组团单位。"
+  - id: evisa_tourism_only
+    label_zh: 电子签证
+    text_zh: JAPAN eVISA 网上申请页面列出的目的只有旅游（最长 90 天，不得从事有报酬的活动）。
+    src: visa-jp-evisa
+    quote: "Tourism (UP to 90days, Remunerated activities are not allowed)"
+  - id: biometrics_on_entry
+    label_zh: 入境采集指纹
+    text_zh: 入境时必须提供指纹和面部照片，否则会被拒绝入境。
+    src: visa-jp-cs-mfa
+    quote: "入境者有义务提供个人生物识别信息（指纹、面部照片），否则将被拒绝入境。"
+lead:
+  status: unverified
+  note_zh: 日方使领馆页面对本应用返回 403，办理时间未能核对，不做倒推。请看使馆页面，并留出日方准备邀请材料的时间。
+documents:
+  status: tba
+  note_zh: 日方使领馆页面对本应用返回 403，材料清单未能核对。请看使馆页面或咨询指定代办机构。
+notices:
+  - text_zh: 外交部和中国驻日本使领馆 2026-03-26 提醒中国公民近期避免前往日本。
+    date: 2026-03-26
+    url: https://cs.mfa.gov.cn/rdgz/202603/t20260326_11881693.shtml
+    src: visa-jp-mfa-advisory
+    quote: "外交部和中国驻日本使领馆郑重提醒中国公民近期避免前往日本"
+transit: []
+links:
+  - label_zh: 中国领事服务网 · 日本
+    url: https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/rb_647322/
+  - label_zh: JAPAN eVISA
+    url: https://www.evisa.mofa.go.jp/
+note_zh: 出行提醒可能影响校内审批，请先问学校。以日本驻华使领馆最新通知为准。

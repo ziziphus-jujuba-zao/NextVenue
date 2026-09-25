@@ -5,7 +5,7 @@ sources:
     url: https://wacv.thecvf.com/Conferences/2027/Dates
     title: WACV 2027 Dates
     kind: dates
-    fetched_at: 2026-09-24T23:02:54Z
+    fetched_at: 2026-09-25T10:43:19Z
     http_status: 200
     snapshot: d62969cc7c2d7d1879a226348f07d9f700d2b9e236e2ebd35e352b7d19eeadcd
     note_zh: 两轮投稿的完整日程，均注明 Anywhere on Earth。Round 1 出审稿与初步决定写 Aug 09，与 CFP 和作者指南的 August 7 不一致。
@@ -13,7 +13,7 @@ sources:
     url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
     title: WACV 2027 Call for Papers
     kind: cfp
-    fetched_at: 2026-09-24T23:02:55Z
+    fetched_at: 2026-09-25T10:43:19Z
     http_status: 200
     snapshot: 1279ffd78af51c88619853d13ea01c1fea650507d1790c52ab7f59b5ab1e4d0e
     note_zh: CFP 的 Deadlines 一节，注明 "All deadline dates are Anywhere on Earth"。Round 1 出审稿写 August 7th（Dates 页为 Aug 09）。
@@ -21,7 +21,7 @@ sources:
     url: https://wacv.thecvf.com/Conferences/2027/AuthorGuides
     title: WACV 2027 Author Guidelines
     kind: author_guide
-    fetched_at: 2026-09-24T23:02:56Z
+    fetched_at: 2026-09-25T10:43:19Z
     http_status: 200
     snapshot: 77556f2c59df17a26c29b891a461c36841735a239c86146e4b87d5d8b0eb8bab
     note_zh: 作者指南（页面路径是 AuthorGuides，AuthorGuidelines 为 404）：两轮审稿流程、Round 1 三种决定、作者注册截止 11/2。Round 1 出审稿同样写 August 7。
@@ -29,7 +29,31 @@ sources:
     url: https://wacv.thecvf.com/Conferences/2027
     title: WACV 2027 Home
     kind: other
-    fetched_at: 2026-09-24T23:02:57Z
+    fetched_at: 2026-09-25T10:43:19Z
     http_status: 200
     snapshot: 34e1f1cf1f84d28143000db6fd0b653ea3d4be3443b9b95e2781b55032c90352
     note_zh: 官网首页：地点 Disney Springs, Buena Vista, FL，会期 1/4–8（1/4–5 workshop，1/6–8 主会）。
+  - id: wacv-2027-pricing
+    url: https://wacv.thecvf.com/Conferences/2027/Pricing
+    title: WACV 2027 Pricing
+    kind: other
+    fetched_at: 2026-09-25T10:43:19Z
+    http_status: 200
+    snapshot: ae06e6a4a91d9c343f670f636e8f27af99aa4963be35ca91b5f7c7800f7893e8
+    note_zh: 价格页写“Pricing is not yet available for this conference”。
+  - id: wacv-2027-hotels
+    url: https://wacv.thecvf.com/Conferences/2027/Hotels
+    title: WACV 2027 Hotels
+    kind: other
+    fetched_at: 2026-09-25T10:43:20Z
+    http_status: 200
+    snapshot: ab7d998aabb2cbcc12a4dd1340ba05e68d5df1b528fc54cc84ef4756bb94aaab
+    note_zh: 酒店页：Hilton Orlando, Lake Buena Vista，会议价每晚 249 美元起，另加税和每晚 30 美元度假村费；没写预订截止日。
+  - id: wacv-2026-pricing
+    url: https://wacv.thecvf.com/Conferences/2026/Pricing2
+    title: WACV 2026 Registration Information (prior year)
+    kind: policy
+    fetched_at: 2026-09-25T10:43:20Z
+    http_status: 200
+    snapshot: 8ba086cc20c8c05c895fd16ba3b217e5394ff98781a7d9b17985c196513d3acd
+    note_zh: 上一届（WACV 2026）注册页，只作“上届参考”：作者注册价、每多挂一篇加收 550 美元、可线上参会但须按线下价注册、取消收 65 美元、注册后生成邀请函。

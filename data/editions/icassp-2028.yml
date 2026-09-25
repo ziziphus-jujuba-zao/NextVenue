@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icassp-2028
+series: icassp
+name: ICASSP 2028
+year: 2028
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/ICASSP
+  conf_id: icassp28
+  link: https://2028.ieeeicassp.org/
+  place: Tokyo, Japan
+  date: May 28-June 2, 2028
+  timezone: UTC-12
+location:
+  city: Tokyo
+  country: Japan
+  country_code: JP
+dates:
+  start: 2028-05-28
+  end: 2028-06-02
+milestones:
+  - type: paper
+    tz: UTC-12
+    status: tba
+  - type: conference
+    start: 2028-05-28
+    end: 2028-06-02
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

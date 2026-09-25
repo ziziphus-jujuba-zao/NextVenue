@@ -1,0 +1,11 @@
+id: aaai
+acronym: AAAI
+full_name: AAAI Conference on Artificial Intelligence
+directions: [cs/ml]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/aaai
+ccfddl: AI/AAAI
+data_level: curated

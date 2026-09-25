@@ -1,0 +1,17 @@
+id: icra-2027/visa-refund
+edition: icra-2027
+family: refund
+question_zh: 拒签或签证没下来，注册费能退吗？
+short_zh: 拒签退款
+answer: unspecified
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 官方没有规定。注册页只写了拿不到韩国签证时请联系主办方（邮箱见注册页）。4/9 前按普通取消可以退款，扣 50 美元手续费。
+quotes:
+  - src: icra-2027-registration
+    text: "In case of failure to obtain the appropriate visa to travel to Republic of Korea, please contact us"
+checked_sources: [icra-2027-registration, icra-2027-visa]
+last_checked: 2026-09-25

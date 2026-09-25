@@ -1,0 +1,318 @@
+* About ASHRAE
+ * Contact Us
+ * News
+
+2027 ASHRAE Winter Conference
+
+January 23 - 27, 2027 Chicago, Illinois USA
+
+Call for Programs
+
+2027 ASHRAE Winter Conference (January 23 - 27, 2027 | Chicago, Illinois, USA)
+
+Begin a Submission
+
+APPLICATION NOTES
+
+New Submissions Closed
+
+DEBATE
+
+New Submissions Closed
+
+1 moderator, 60-90 minutes, 3-6 participants, no individual presentations
+
+EXTENDED ABSTRACT
+
+New Submissions Closed
+
+FORUM
+
+New Submissions Closed
+
+1 moderator – 60 min, no presentations
+
+PANEL
+
+New Submissions Closed
+
+1 moderator, 60-90 minutes, 3-4 panelists, no individual presentations
+
+SEMINAR
+
+New Submissions Closed
+
+2-3 speakers - 60 min; 3-5 speakers – 90 min
+
+WORKSHOP
+
+New Submissions Closed
+
+One chair and two presenters (maximum).60-minute length only.30 minutes for presentations and 30 minutes for discussion.
+
+Why Publish with ASHRAE?
+
+ASHRAE authors enjoy benefits that include:
+
+- No publication charges
+
+- Interaction with other researchers
+
+- Reduced conference registration (75% off)
+
+- Conference papers and Extended Abstracts published in ASHRAE Transactions, which is cited in the Thomson Reuters Web of Knowledge Index of Scientific & Technical Proceedings, Index to Scientific Books and Current Contents Proceedings: Engineering, Technology, Applied Physics. Technical papers are also cited in SciVerse Scopus and COMPENDEX.
+
+- Conference Papers and Extended Abstracts assigned a DOI upon publication.
+
+- Authors of Technical Conference Papers published in ASHRAE Transactions may be invited to submit expanded papers for publication consideration in Science and Technology for the Built Environment (STBE), ASHRAE's journal for archival research.
+
+Speaker Registration Fee
+
+For the 2027 ASHRAE Annual Conference Speaker registration fees and policies will apply. Speakers will receive a 75% discount off the regular conference registration fee. Authors are required to attend the conference to present their papers in order for their papers to be published.
+
+The 2027 ASHRAE Winter Conference will take place January 23-January 27, 2027 in Chicago, Illinois.
+
+Contact Info
+
+Conference Chair: Li Song
+Email: lsong@ou.edu
+
+Staff Support
+For information on the technical program, special events, special sessions and general conference inquiries:
+
+Haley Booker-Lauridson
+Conference Programs Coordinator
+Email: hblauridson@ashrae.org
+
+Technical Support
+
+For technical problems or for help in submitting an abstract online, email Tech Support
+
+Tracks
+
+Track 1: Application Notes in Professional Practice
+
+Track Chair:
+
+Email:
+
+This track highlights variations on traditional individual presentations focused on the application of technology, design, and implementation. In addition to a short oral presentation, speakers must submit a 3–6‑page application brief intended to guide engineers and practitioners in future projects. Sessions will support the dissemination of lessons learned, best practices, and practical guidance throughout the HVAC&R industry. The Application Notes format also serves as valuable documentation for future collaboration and training.
+
+Track 2: Decarbonization Retrofits
+
+Track Chair: Kevin Brown
+
+Email: kevin@kbsquared.net
+
+Building decarbonization retrofits focus on reducing emissions from existing buildings through improvements, including control modifications, commissioning (could be retrocommissioning), system or equipment replacements, etc. Relevant topics include weatherization and pressurization, heat pumps and other high efficiency HVAC systems, renewable integration, and controls. Programs in this track will focus on implementation process, cost evaluation, performance, occupant impacts, and carbon savings across climates with emphasis on scalable retrofit strategies that lower energy use, improve comfort, and extend building lifespans.
+
+Track 3: Fundamentals and Applications
+
+Track Chair: Jon Cohen
+
+Email: jonjcohen1@gmail.com
+
+Fundamentals are the foundation for understanding applications in engineering. Key components of ASHRAE fundamentals include thermodynamics, psychrometrics, heat transfer and fluid flow. This track provides opportunities for papers and presentations of varying levels across a large topic base. Concepts, design elements and shared experiences for theoretical and applied concepts of HVAC&R design are included.
+
+Track 4: HVAC&R Systems and Equipment
+
+Track Chair: Richard GunpatAnuj Gupta
+
+Email: richard.gunpat@gmail.comanuj@design2occupancy.com
+
+HVAC&R Systems and Equipment are constantly evolving to address the changing requirements of the built environment. Papers and programs in this track focus on the development of new systems and equipment, novel applications of existing systems and equipment, improvements to existing systems and equipment and the proper application and operation of systems and equipment.
+
+Track 5: Nexus of Real and Artificial Intelligence
+
+Track Chair: Joshua Vasudevan
+
+Email: joshuavasudevan2011@gmail.com
+
+The nexus of real and artificial intelligence explores how human insight and AI‑enabled HVAC controls work together to elevate building operations. It considers how people and algorithms share decisions, learn from one another, and blend experiential knowledge with data‑centric modeling, machine learning, and automation to produce transparent, adaptive systems that improve performance and resilience. Particular attention is directed toward data‑center environments, building and campus design strategies, and power‑delivery systems.
+
+Track 6: Refrigeration and Refrigerants
+
+Track Chair: Anuj Gupta
+
+Email: anuj@design2occupancy.com
+
+Refrigeration systems generate and use cold for a range of processes, from food production and temperature-controlled storage to vaccine preservation, to long-term protection of fragile ancient inks of historic documents and others. Differences in technologies and equipment, performance, refrigerants, etc., may hide synergies from which both industrial and commercial systems might benefit.  Refrigeration systems and the refrigerants also have environmental impacts including direct and indirect GHG emissions.  Papers and programs in this track will focus on refrigeration systems of all types from process cooling to comfort cooling as well as best practices for refrigerants that are used in refrigeration systems.
+
+Track 7: Research Summit
+
+Track Chair: Haotian Liu
+
+Email: haotian.liu@okstate.edu
+
+Active research, and the exchange of those research findings, are critical to the development of our HVAC&R industry and built environment. This track invites researchers to share those results, including ASHRAE-sponsored research and research of interest to the ASHRAE community. Researchers are invited to present papers, extended abstracts, seminars, forums or participate in panel discussions. The Research Summit includes a partnership with ASHRAE's archival journal, Science and Technology for the Built Environment.
+
+Track 8: Residential HVAC Research and Demonstration
+
+Track Chair: Vinod Venugopal
+
+Email: vinodpvgopal@gmail.com
+
+Residential HVAC research focuses on improving heating, ventilation, and air conditioning systems in dwellings to enhance comfort, energy efficiency, and indoor environmental quality. It emphasizes advanced heat pumps, smart thermostats, low-carbon refrigerants, dual fuel systems, radiant heating and cooling and heat recovery for residential applications. This track invites studies analyzing energy consumption, peak demand, occupant comfort, cost, and reliability under real-world conditions. Field measurements, simulations, and occupant behavior research identify performance gaps between design and operation. The scope also includes grid integration and climate resilience, supporting technologies and policies that reduce emissions, lower utility bills, and deliver healthier, more comfortable homes across diverse climates and housing types.
+
+Track 9: Thermal Network Systems and Energy Storage
+
+Track Chair: Dennis Alejandro
+
+Email: denzjac@yahoo.com
+
+Thermal network system research investigates the modeling, design, and optimization of interconnected thermal components used to represent heat transfer and energy flows in buildings, industrial processes, and energy systems. Using network-based approaches, researchers simplify complex thermal behavior into nodes and links, enabling efficient simulation of heat storage. This track focuses on applications such as networked building energy modeling, district heating and cooling, and advanced control architecture. Emphasis is placed on accuracy, computational efficiency, parameter identification, and integration with control algorithms to improve energy efficiency, reliability, and system-level performance across varying operating conditions.
+
+Submission Process
+
+The website is now open for Seminar and Workshop Proposals. Please follow these steps:
+
+To begin, please choose the program type that you would like to submit a program proposal to: Seminar (1-2 presentations - 60 minutes in length; 3-5 presentations - 90 minutes in length) or Workshop (1 chair, 1-2 presentations; 60 minutes in length; 30 minutes reserved for discussion)
+
+Before beginning your submission, it may be a good idea to gather all the information that you will be required to submit.
+
+There are seven steps to the submission process:
+
+ 1. Track: You will be asked to choose which track you are submitting to.
+ 2. Session Description: Enter the title of the session. Also please provide a 100 word abstract. Please complete the rest of information, including TC sponsors (if any), estimate of the size of audience, etc.
+ 3. Additional Background and/or Scheduling Request for this session: Please provide any additional information that will be useful in describing the session that is being proposed. If you have any scheduling requests please state them here.
+ 4. People: Provide your name and contact information as the session organizer. Enter presenters by choosing the "Presenter" checkbox. You will need to enter the presentation title as well. Once a presenter has been entered, you will see the presentation title and presenter's name listed on the "People" step. Click on the icon in the Abstract text column to enter the abstract. Click on the author's name to add co-presenters and speaker bios.
+ 5. Objectives: Please include 4 Learning Objectives for the entire session (not required for Forums). The Learning Objectives should complete the statement, "After attending this session, the attendees will be able to..." All 4 Learning Objectives need to be addressed by the speakers. The Learning Objectives should use measurable verbs such as "Explain," "Describe," "Distinguish," "Design," "Apply," etc., such as the example below:
+    * Define Smart Grid functions, objectives and architecture
+    * Describe how the Smart Grid affects building operations
+    * Provide an overview of Smart Grid projects in North America
+    * Describe the federal policies and regulations promoting the Smart Grid
+ 6. Method of Assessment: Please include 10 questions and answers (in T/F, Yes/No, or multiple choice format only) for the entire session based on the Learning Objectives and what will be covered within the speakers' presentations (not required for Forums).
+ 7. Confirmation: When your submission is complete, click the "Conclude Submission" button. Note that you will still be able to make changes to your abstract up until the submission deadline.
+
+Seminars and Workshops are eligible for GBCI and AIA credits.
+
+The website is also open for Forum, Panel, and Debate Proposals. Please follow these steps:
+
+To begin, please choose the program type that you would like to submit a program proposal to: Forum (1 Moderator; 60 minutes in length), Debate (1 moderator; 60-90 minutes in length; 3-6 presenters; no individual presentations), or Panel (1 moderator; 3-4 panelists; 60-90 minutes in length).
+
+ 1. Track: You will be asked to choose which track you are submitting to.
+ 2. Session Description: Enter the title of the session. Also please provide a 100 word abstract. Please complete the rest of information, including TC sponsors (if any), estimate of the size of audience, etc.
+ 3. Additional Background and/or Scheduling Request for this session: Please provide any additional information that will be useful in describing the session that is being proposed. If you have any scheduling requests please state them here.
+ 4. People: Enter the name and contact information and select the appropriate role for all session participants.
+ 5. Confirmation: When your submission is complete, click the "Conclude Submission" button. Note that you will still be able to make changes to your abstract up until the submission deadline.
+
+Forums, Debates, and Panels are not eligible for GBCI and AIA credits.
+
+Panels, Debates, Workshops, and Seminars are recorded for the Virtual Conference.
+
+Publication Schedule
+
+This is the overall publication schedule for the 2027 ASHRAE Winter Conference. For specific details and questions regarding these dates, please contact the appropriate Track Chair.
+
+Wednesday May 27, 2026         Conference Paper Abstracts Due
+Monday June 17, 2026           Conference Paper Abstract Accept/Reject Notifications
+Wednesday September 2, 2026    Conference Papers Due - Submitted for Review
+Monday August 3, 2026          Debate, Panel, Seminar, Forum, Workshop Proposals Due
+Wednesday September 23, 2026   Conference Paper Abstract Accept/Revise/Reject Notifications
+Friday October 2, 2026         Debate, Panel, Seminar, Forum, Workshop Accept/Reject
+                               Notifications
+Wednesday October 7, 2026      Revised Conference Papers, Technical Papers Due
+Monday October 26, 2026        Conference Paper Accept/Reject Notifications
+
+Authors' Resources
+
+Sample Paper
+
+View a sample paper in PDF format.
+
+Templates
+
+Download the conference paper template in MS Word.
+
+Agreement to Publish
+
+Authors of approved Conference Paper abstracts are required to submit a signed Agreement to Publish form. A link will be in the acceptance letter to access and submit the form in electronic format.
+
+Description of Papers
+
+There are two types of paper presentations: Conference Paper and Technical Paper. Both must be submitted by their respective deadlines in order to be considered for presentation at the 2021 ASHRAE Virtual Winter Conference in , . Please note the submission process is different for each paper type.
+
+ 1. Conference Papers: two-step process - an abstract of the paper (400 words or less) is due for review by March 18, 2019. (Please select the "Submission Process" tab for more details and examples). The abstract must be approved prior to submitting the paper.
+
+    Conference papers are shorter than technical papers, undergo a less stringent review and can be prepared closer to the conferences. Unlike technical papers, abstracts of conference papers are submitted first for review. Upon acceptance of the abstract, papers are due July 8, 2019 and undergo a single-blind review and must be approved by two reviewers. Due to this shorter time frame for review as well as a single review cycle, Conference Papers being submitted should be considered "Final" by the author. "Final" means that it could be published on the internet the next day - which puts responsibility by the author to have quality checks prior to submitting. Conference papers can be a maximum of eight single-spaced pages in length. Papers are submitted in 'final' form using the template.
+
+    Guidelines for Authors of Approved Conference Paper Abstracts
+    Below are some guidelines to consider when preparing your Conference Paper. Please note that the guidelines are significant factors in determining the acceptance of your Conference Paper.
+
+    * Adherence to the template.
+
+      The Conference Paper template and paper sample are located on the Author's Resources tab for your reference. Per the conference paper template, please include an author's note at the bottom of page 1 of your manuscript.
+
+      1.  Author note with job title, affiliation, and address (city, state, country) must be given for each author in the following form:
+
+          > J.L. Doe is associate professor in the Department of Mechanical Engineering, Kansas State University, Manhattan. R.L. Roe is president at Consulting Engineers, Inc., Lawrence, Kans.
+
+      2.  Paper is no more than 8 single-spaced pages in length total (includes text, tables, figures, etc.)
+      3.  Non-commercial (paper does not focus on a single product -- proprietary or not.)
+      4.  Paper has not been previously published.
+      5.  Equations are accurate.
+      6.  Paper includes dual units (I-P and SI). Both text and tables require the addition of dual units.
+      7.  Technical merit, effectiveness of the manuscript (organization & writing), originality.
+      8.  Relevance to ASHRAE members.
+      9.  Acknowledgment of the work of others by reference.
+      10. Ready to be published.
+    * Additionally, your Conference Paper must be submitted as a PDF file, referencing your ID# as the file name.
+ 2. Technical Papers: full-length Technical Papers are due March 18, 2019, and must complete final review by August 9, 2019.
+    Technical papers are presented by authors at ASHRAE Winter and Annual conferences and then published in ASHRAE Transactions. Papers submitted for review must be both technically accurate and clearly written. Technical papers undergo a rigorous double-blind review and must be approved by three reviewers knowledgeable in the subject matter. Presentation is by poster or orally, if grouped into a session with related papers. Technical papers can be up to 30 double-spaced manuscript pages in length, including tables and charts, and a maximum of 12 figures (not counted in the page count).
+
+    Guidelines for Complete Submission of a Technical Paper for Review
+
+    To submit a full-length technical paper, go to http://mc.manuscriptcentral.com/ashrae. The following items are mandatory for submission:
+
+    1. When writing your Technical Paper manuscript, please follow the guidelines in the ASHRAE Authors Manual.
+    2. Upload a title page with complete authors' listing (Word format). The author's listing should be submitted as a separate file (Word format), and must include:
+       * Title of the paper
+       * Author names in desired order, principal author first, with (if applicable) ASHRAE membership grade, academic degrees at the doctoral level (e.g., Ph.D., D.Sc.), and professional certification (e.g., P.E., BEMP, BEAP, CPMP, HBDP, OPMP).
+       * Author note with job title, affiliation, and address (city, state, country) must be given for each author in the following form:
+
+         > J.L. Doe is associate professor in the Department of Mechanical Engineering, Kansas State University, Manhattan. R.L. Roe is president at Consulting Engineers, Inc., Lawrence, Kans.
+
+       * Complete contact information for the corresponding author, including mailing address, phone and fax numbers, and email address.
+    3. The paper has a maximum of 12 figures.
+    4. The length of the text including tables is a maximum of 15 single spaced pages (and figures can be extra.)
+    5. Upload your Agreement to Publish form(s) signed by every author.
+    6. Upload in Word format 2 Learning Objectives and 4 Question and Answers (select the file designation "not for review".)
+    7. Include dual units of measurements in tables and text (I-P and SI Units)
+
+Learning Objectives and Q&A
+
+ASHRAE submits its conference technical program for approval for NY PDHs, AIA Learning Units and GBCI LEED-AP continuing education credits. Among the requirements for approval are Learning Objectives and Questions and Answers for each of the sessions.
+
+Seminar and Workshop Session Chairs are required to submit 4 Learning Objectives and 10 Questions and Answers. These cover the entire seminar.
+
+Conference Paper and Technical Paper Authors are required to submit 2 Learning Objectives and 4 Question and Answers upon upload of the final paper.
+
+Q&A sets should be in multiple choice or true-false format. These questions will be used for quizzing in the Virtual Conference to provide virtual attendance certificates to Virtual Conference users.
+
+Following are examples of each:
+
+Learning Objectives: The Learning Objectives should complete the statement, "After attending this session, the attendees will be able to..." Learning Objectives need to be addressed by the speakers and should use measurable verbs such as "Explain," "Describe," "Distinguish," "Design," "Apply," etc., such as the example below:
+
+ 1. Define Smart Grid functions, objectives and architecture
+ 2. Describe how the Smart Grid affects building operations
+ 3. Provide an overview of Smart Grid projects in North America
+ 4. Describe the federal policies and regulations promoting the Smart Grid
+
+Method of Assessment (Q&A): Please include questions with answers based on the Learning Objectives and what will be covered within the Seminar.
+
+Example:
+
+ 1. Is 55F the desired coil leaving air temperature in Florida?
+    1. Yes
+    2. No
+ 2. True or false: You should use a humidifier in a Florida Lab.
+    1. True
+    2. False
+
+ * Contact Us
+ * Permissions
+ * Terms of Use
+ * Privacy Policy
+ * Careers
+ * Advertising
+ * Site Map

@@ -1,0 +1,35 @@
+2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) | 978-1-6654-4509-2/21/$31.00 ©2021 IEEE | DOI: 10.1109/CVPR46437.2021.01669
+
+Message from the General and Program Chairs
+Welcome to the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021) -- held
+virtually due to the covid-19 pandemic. CVPR continues to be one of the best venues for researchers in our
+community to present their most exciting advances in computer vision, pattern recognition, machine
+learning, robotics, and artificial intelligence. With paper presentations, tutorials, workshops, exhibitions,
+and several social events (many designed specifically for students), this is a week that everyone should
+enjoy.
+CVPR continued its rapid growth with a record number of 7093 submissions. The program chairs worked
+with 280 area chairs and almost 7500 reviewers to select 1661 papers. Each paper received at least 3 full
+reviews, and the acceptance decisions were made within virtual AC triplets. Following the best practice of
+our community, the program chairs did not place any restrictions on acceptance. The final acceptance rate
+is 23.6%, consistent with the high standard of past CVPR conferences.
+Out of these 1661 papers, 295 were designated as “orals”, but due to the virtual nature of the conference,
+all papers are presented in the same format: a 5-minute pre-recorded video supplemented with a virtual
+poster. Given the global nature of a virtual conference, attendees are given the opportunity to interact with
+authors either in an asynchronous chat or over a live video chat during their assigned session. Papers were
+grouped into 12 live sessions, distributed across multiple time zones, over the four days of the main
+conference. This year’s program also features 15 invited speakers with pre-recorded presentations who will
+interact with attendees in moderated panel discussions. Per PAMI-TC policy, program chairs did not submit
+papers, which allowed them to be free of conflict in the paper review process.
+We would like to thank everyone involved in making CVPR 2021 a success. This includes the organizing
+committee, workshop and tutorial organizers, area chairs, reviewers, authors, invited speakers, sponsors,
+exhibitors, and everyone else without whom this meeting would not be possible. We also thank Nicole Finn,
+Liz Ryan, and C to C Events for their organization of the logistics of the conference.
+Last but not least, we thank all of you for attending CVPR and making it one of the top venues for computer
+vision research in the world. Enjoy CVPR 2021!!
+
+Program Chairs: David Forsyth, Georgia Gkioxari, Tinne Tuytelaars, Ruigang Yang, Jingyi Yu
+General Chairs: Michael S. Brown, Rahul Sukthankar, Tieniu Tan, Lihi Zelnik
+
+clxvi
+
+

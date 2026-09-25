@@ -1,0 +1,21 @@
+id: neurips-2026/site-form-update
+edition: neurips-2026
+family: presentation
+question_zh: 会场意向表截止前，还能改会场意向和指定报告作者吗？
+short_zh: 截止前改意向和报告人
+answer: allowed
+verification: human
+conf: high
+applies:
+  from: notification
+  until: site_preference
+summary_zh: 可以。会场意向表由程序委员会和主办方的 EventHost 团队在出结果前发给所有作者，表里填指定报告作者和会场意向。出结果后，主办方给每篇论文的报告人定一个截止时间，截止前可以更新这张表；之后按表分配会场，满员时随机分配。
+detail_zh: 截止时间见 Dates 页的 "Paper Presentation Site Preference Form Deadline"（北京时间 10/1 周四 19:59）。分配结束后报告人和会场都不能再改（见"分配后换会场或报告人"卡）。
+quotes:
+  - src: neurips-2026-blog-multisite
+    text: "Prior to the acceptance announcements, the program chairs and our EventHost team will distribute a form to all authors to collect their preferred presenting locations."
+  - src: neurips-2026-blog-multisite
+    text: "Within this form, the authors will nominate one of the authors as the designated author to present, together with their preference of location and other details."
+  - src: neurips-2026-blog-multisite
+    text: "Shortly after paper decisions are announced, our team will set a deadline for each paper presenter to update the form if needed."
+last_checked: 2026-09-25

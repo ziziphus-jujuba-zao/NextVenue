@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: dai-2026
+series: dai
+name: DAI 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/DAI
+  conf_id: dai2026
+  link: https://www.adai.ai/dai/2026/index.html
+  place: Hong Kong, China
+  date: November 29-December 2, 2026
+  timezone: AoE
+location:
+  city: Hong Kong
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-29
+  end: 2026-12-02
+milestones:
+  - type: paper
+    at: 2026-08-03T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Research / Industry Track
+  - type: paper
+    at: 2026-08-10T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: AI Paper Track
+  - type: conference
+    start: 2026-11-29
+    end: 2026-12-02
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,125 @@
+# ICLR 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: iclr
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 2594
+    accepted: 687
+    rate: 26.5
+    rate_text: 26.5%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://iclr-conf.medium.com/ourhatata-the-reviewing-process-and-research-shaping-iclr-in-2020-ea9e53eb4c46
+    quote: "ICLR 2020 will have 687 accepted papers: ... This is a 26.5% acceptance rate, 687 out of 2594 papers."
+    src: iclr-2020-review-blog
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 2997
+    accepted: 860
+    rate: 28.7
+    rate_text: 28.7%
+    rate_basis: computed
+    definition_zh: 单一赛道
+    source_url: https://iclr-conf.medium.com/the-iclr-2021-reviewing-process-and-accepted-papers-7dc65002668e
+    quote: Out of the 2997 full submissions that were received, a total of 860 have been accepted for presentation at the conference.
+    src: iclr-2021-review-blog
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: partial
+    accepted: 1095
+    definition_zh: 单一赛道
+    source_url: https://iclr.cc/static/virtual/data/iclr-2022-orals-posters.json
+    quote_check: manual
+    count_method_zh: 官方会议数据里共有 1,095 个 Poster 活动，每篇录用论文一个（本应用计数）
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 4938
+    accepted: 1574
+    rate: 31
+    rate_text: 31%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://media.iclr.cc/Conferences/ICLR2023/ICLR2023-Fact_Sheet.pdf
+    quote: Record number of abstract submissions - 6,381 4,938 submissions 1,574 accepted papers ... 31% acceptance rate
+    src: iclr-2023-fact-sheet
+    quote_check: snapshot
+    mismatch_zh: 官方写 31%，按官方数字算是 31.9%（官方似乎是截断，不是四舍五入）
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 7262
+    accepted: 2260
+    rate: 31
+    rate_text: 31%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf
+    quote: "7262 submissions, 2260 accepted ... 31% acceptance rate (last year: 31%)"
+    src: iclr-2024-fact-sheet
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 11603
+    accepted: 3704
+    rate: 32
+    rate_text: 32%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://media.iclr.cc/Conferences/ICLR2025/ICLR2025_Fact_Sheet.pdf
+    quote: "11,603 submissions, 3704 accepted ... 32% acceptance rate (last year: 31%)"
+    src: iclr-2025-fact-sheet
+    quote_check: snapshot
+    also:
+      - source_url: https://x.com/iclr_conf/status/1882140455825297580
+        quote: We reviewed 11,565 submissions, with an overall acceptance rate of 32.08%.
+        quote_check: manual
+        note_zh: 出结果当天的说法，分母为进入审稿的投稿
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 19525
+    accepted: 5355
+    rate: 27.4
+    rate_text: 27.4%
+    rate_basis: stated
+    definition_zh: 单一赛道；分母为全部有效投稿，含后来撤稿和被桌拒的论文
+    source_url: https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/
+    quote: ICLR 2026 received 19,525 valid, format-compliant submissions. ... Of those decisions, 5,355 papers were accepted and 8,408 were rejected, representing an acceptance rate of 27.4%.
+    src: iclr-2026-review-retrospective
+    quote_check: snapshot
+    also:
+      - source_url: https://media.iclr.cc/Conferences/ICLR2026/ICLR2026_Fact_Sheet.pdf
+        quote: "19,525 submissions, 5357 accepted (11,603 submissions/3704 accepted in 2025) ... 27% acceptance rate (last year: 32%)"
+        src: iclr-2026-fact-sheet
+        quote_check: snapshot
+        note_zh: fact sheet 写的录用数是 5,357
+    checked: 2026-09-25
+areas_none:
+  - years:
+      - 2022
+      - 2023
+      - 2024
+      - 2025
+      - 2026
+    scope_zh: fact sheet、新闻稿和全部官方博客都只有总数
+    checked: 2026-09-25
+    checked_urls:
+      - https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf
+      - https://media.iclr.cc/Conferences/ICLR2025/ICLR2025_Fact_Sheet.pdf
+      - https://media.iclr.cc/Conferences/ICLR2026/ICLR2026_Fact_Sheet.pdf
+      - https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/
+      - https://blog.iclr.cc/wp-json/wp/v2/posts

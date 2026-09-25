@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icpads-2026
+series: icpads
+name: ICPADS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ICPADS
+  conf_id: icpads26
+  link: https://www.cloud-conf.net/icpads2026
+  place: Tokyo, Japan
+  date: November 22-26 2026
+  timezone: AoE
+location:
+  city: Tokyo
+  country: Japan
+  country_code: JP
+dates:
+  start: 2026-11-22
+  end: 2026-11-26
+milestones:
+  - type: paper
+    at: 2026-06-30T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-11-22
+    end: 2026-11-26
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

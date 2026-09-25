@@ -1,0 +1,11 @@
+id: imece
+acronym: IMECE
+full_name: ASME International Mechanical Engineering Congress and Exposition
+aliases:
+  - ASME IMECE
+directions: [eng/mech]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 11 月前后
+data_level: curated

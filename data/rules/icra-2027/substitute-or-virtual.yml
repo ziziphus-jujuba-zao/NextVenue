@@ -1,0 +1,24 @@
+id: icra-2027/substitute-or-virtual
+edition: icra-2027
+family: presentation
+question_zh: 作者去不了现场，能线上报告或请人代讲吗？
+short_zh: 线上报告
+answer: not_allowed
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 不能线上报告。能不能请论文作者以外的人代讲，官方没写；注册上的姓名可以免费改成别人。签证办不下来时，官方只写了请联系主办方。
+quotes:
+  - src: icra-2027-cfp
+    text: "There will be no option to present a paper online."
+  - src: icra-2027-registration
+    text: "The name on the registration can be changed without penalty."
+  - src: icra-2027-registration
+    text: "In case of failure to obtain the appropriate visa to travel to Republic of Korea, please contact us"
+effect:
+  kind: fallback
+  substitute: unspecified
+  virtual: not_allowed
+last_checked: 2026-09-25

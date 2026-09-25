@@ -1,0 +1,151 @@
+ECOOP 2027
+Mon 28 June - Fri 2 July 2027 Turin, Italy
+Toggle navigation
+ * Tracks
+    * ECOOP 2027
+    * Technical Papers
+    * Workshops
+
+    * Workshops
+    * DEBT Future Debugging Techniques
+    * PLF+PLAID Decentralized Local-First Software
+    * VORTEX Runtime Monitoring
+ * Organization
+    * ECOOP 2027 Committees
+    * Organizing Committee
+    * Track Committees
+    * Technical Papers
+    * Workshops
+    * Contributors
+    * People Index
+
+    * Workshops
+    * DEBT Future Debugging Techniques
+      * Organizing Committee
+      * Program Committee
+      * Steering Committee
+    * PLF+PLAID Decentralized Local-First Software
+      * Organizing Committee
+    * VORTEX Runtime Monitoring
+      * Organizing Committee
+ * Search
+ * Series
+   * Series
+   *
+   * ECOOP 2027
+   * ECOOP 2026
+   * ECOOP 2025
+   * ECOOP 2024
+   * ECOOP 2023
+   * ECOOP 2022
+   * ECOOP 2021
+   * ECOOP 2020
+   * ECOOP 2019
+   * ECOOP 2018
+   * ECOOP 2017
+   * ECOOP 2016
+   * ECOOP 2015
+   *
+   * 2014: Uppsala
+   * 2013: Montpellier
+   * 2012: Beijing
+   * 2011: Lancaster
+   * 2010: Maribor
+   * 2009: Genova
+   * 2008: Cyprus
+   * 2007: Berlin
+   * 2006: Nice
+   * 2005: Glasgow
+
+ * Sign in
+ * Sign up
+
+ 1.
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+
+Photo by Marco Saracco
+
+Turin
+
+Panorama at twilight
+
+Photo by Marco Saracco
+
+Turin
+
+Panorama at down
+
+Turin
+
+The River Po
+
+Turin
+
+The Royal Palace, as seen from Piazza Castello
+
+Turin
+
+Piazza Vittorio Veneto
+
+Turin
+
+The University of Turin’s Rectorate Building, as seen from Via Po
+
+ECOOP 2027
+
+ECOOP is Europe’s longest-standing annual Programming Languages conference, bringing together researchers, practitioners, and students to share their ideas and experiences in all topics related to programming languages, software development, systems and applications. ECOOP welcomes high quality research papers relating to these fields in a broad sense.
+
+ECOOP is committed to affordable open access publishing. Recent year’s publications have been published by Dagstuhl’s LIPIcs series under a Creative Commons CC-BY license where the authors retaintheir copyright. ECOOP articles have been published without open access publishing fee and can be accessed via a DOI. LIPIcs is indexed in DBLP, Google Scholar, Scopus and others.
+
+In 2027, ECOOP will be held in Turin (Italy) and be organized by the Department of Computer Science of the University of Turin and Synesthesia SB Srl.
+
+ECOOP 2027 Tracks
+Technical Papers | Workshops
+Show all tracks
+Important Datesup till Thu 8 Apr 2027
+
+Thu 19 Nov 2026
+Technical Papers Round 1 submissions
+Mon 11 - Fri 15 Jan 2027
+Technical Papers Round 1 Author response period
+Thu 28 Jan 2027
+Technical Papers Round 1 Notification
+Thu 11 Feb 2027
+Technical Papers Round 2 Submissions
+Mon 22 - Fri 26 Mar 2027
+Technical Papers Round 2 Author response period
+Thu 8 Apr 2027
+Technical Papers Round 2 Notification
+All important dates
+
+Supporters
+
+xFri 25 Sep 17:48
+
+ECOOP 2027
+
+contact form
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+Technical Papers
+Workshops
+
+Workshops
+
+DEBT 2027
+PLF+PLAID 2027
+VORTEX 2027
+
+Attending
+
+Sign Up

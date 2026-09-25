@@ -1,0 +1,1690 @@
+Register Now Skip to main content
+
+ * x-twitter
+ * linkedin
+ * youtube
+ * instagram
+ * flickr
+ * discord
+
+ * About
+   * Organizers
+   * Media
+   * Policies
+   * Past Forums
+   * Future SciTech Dates
+ * Advertise with AIAA
+
+search
+Menu
+ * Attend
+   * Registration
+   * Reasons to Attend
+   * Get Approval to Attend
+   * Hotel & Travel
+   * Tips for Travel Approval
+   * Information about Visas
+ * Program
+   * Forum Program
+   * Career Accelerator Program
+   * Courses and Workshops
+   * General FAQs
+ * Call for Content
+   * Call for Papers
+     * Student Paper Competitions
+     * Abstract Submission Process & Requirements
+   * Call for Sessions
+   * Technical Presenter Resources
+   * Organizer Resources
+ * Sponsor & Exhibit
+   * Expo Hall Hours
+ * Sign Up for Updates
+
+ * search
+
+Press enter to begin your search
+Close Search
+
+Call for Papers
+
+Presentations and papers can be an effective way to hone scientific and technical ideas, introduce your work to aerospace colleagues, and hone your research questions. Forum paper presentations typically consist of a written document and an oral presentation. Presenting at AIAA SciTech Forum is a great opportunity to gain valuable feedback from a community of scholars and for increasing your professional stature in aerospace engineering, research, and development.
+
+MANAGE SUBMISSIONSSTUDENT PAPER COMPETITIONS
+Home › Call for Content › Call for Papers
+
+Additional Resources
+
+ * Technical Presenter Resources
+ * Abstract Submission Process & Requirements
+
+Dates to Remember
+
+ * Abstract Submission Begins | 24 March 2026
+ * Abstract Submission Deadline | 21 May 2026, 8:00 p.m. ET
+ * Author Notifications | 24 August 2026
+ * Manuscript Deadline | 1 December 2026, 8:00 p.m. ET
+
+*Dates are subject to change.
+
+Adaptive Structures
+
+Please direct questions to:
+Marcias Martinez, University of Tennessee Space Institute
+Christina Harvey, UC Davis
+
+The Adaptive Structures Technical Committee solicits papers addressing intelligent, flexible systems that are responsive to ever-changing operational environments and/or tailored control stimuli. These sessions provide an active forum to discuss the latest breakthroughs in smart structures, the cutting edge in adaptive structure applications, and the recent advances in both new device technologies and basic engineering research exploration. Papers are invited in areas ranging broadly from basic research to applied technological design and development to integrated system and application demonstrations. Contributions from industry, government, and academia are all encouraged. Students presenting a paper are encouraged to demonstrate hardware operation. Students interested in participating in the paper competition are also reminded to select the Student Paper Competition option during abstract submission. General topic areas of interest are listed below. Please click Additional Details  for more information.
+
+ * Active and Passive Adaptive Concepts/Systems
+ * Adaptive Spacecraft Structures and Systems (Special-Joint SCS/AS)
+ * Adaptive Structures Concepts on UAVs
+ * Adaptive Structures in Wind Energy
+ * Advanced Manufacturing, Composites, Adaptive Structure Design & Rapid Prototyping (Special SCS/AS)
+ * Aircraft Load Alleviation and Control (Special)
+ * Design, Modeling, Simulation, and Optimization of Adaptive Structures/Materials
+ * Engineered Materials and Metamaterials with Adaptive Properties
+ * Metamaterials and Adaptive Structures for Flow Control (Special-Joint FD/SD)
+ * Morphing and/or Biomimetic Adaptive Structures/Materials
+ * Multifunctional Structures/Materials
+ * Physically and Mechanical Embodied Computing in Aerospace Systems (Special)
+ * Smart Sensors/Actuators Design
+ * Systems Enabled by Adaptive Structures
+ * Adaptive Structures – General
+
+Aeroacoustics
+
+Please direct questions to:
+Anupam Sharma, Iowa State University
+Jacqueline Huynh, University of California Irvine
+
+Technical papers are solicited that present original research in the areas of theoretical, computational, and experimental aeroacoustics. The program’s technical content will include topics that address the generation, propagation, and control of aerospace vehicle noise, as well as the effect of noise on structures and individuals. Studies in related areas, particularly potential interrelationship with non-aerospace industries, are also encouraged. This can include, but is not limited to, the application of aerospace noise suppression technologies in other industries, and non-aerospace research with potential application to the aerospace industry. 2026 AIAA/CEAS Aeroacoustics and 2027 SciTech Forum papers of superb technical quality, notable originality, and scholarly accuracy will be considered for the 2027 AIAA/CEAS Aeroacoustics Best Paper Award. Topics of specific interest include, but are not limited to:
+
+ * Acoustic / Fluid Dynamics Interactions
+ * Advanced Air Mobility Noise (joint AA/TF/EAT)
+ * Advanced Testing Techniques
+ * Airframe / High-Lift Noise
+ * Computational Aeroacoustics
+ * Duct Acoustics
+ * Flight Vehicle Community Noise
+ * General Acoustics
+ * Interior Noise / Structural Acoustics and Metamaterials
+ * Jet Aeroacoustics
+ * Propeller, Rotorcraft and Wind Turbine Noise
+ * Reduced-order Modeling and Machine Learning for Fluid Dynamics and Aeroacoustics (joint AA/FD)
+ * Turbomachinery and Core Noise
+ * Turbulence and Vortex Induced Noise Sources (joint AA/FD)
+
+Aerodynamic Measurement Technology
+
+Please direct questions to:
+Ellen Yi Chen Mazumdar, Georgia Institute of Technology
+Mirko Gamba, University of Michigan
+
+Papers are solicited on topics covering new developments and applications of aerodynamic measurement technologies for laboratory, ground-test, or flight-test conditions. Submissions are encouraged encompassing flows of all types (incompressible to hypersonic), thermodynamic conditions (non-reacting to combustion and plasma systems), spatial and temporal scales (from microns to meters and sub-Hz to MHz), and measurement approaches (from surface sensors & probes to laser-based imaging). Papers should emphasize advancements, innovations, and research challenges related to the measurement technique itself or its implementation rather than details of the fluid dynamic or structural problem of its application. Invited 20-minute oral-only presentations will also be accepted, for which authors should simply submit a 2-page abstract indicating at the top of the first page “oral-only (no paper) submission.” Specific topic areas of interest include, but are not limited to:
+
+ * Advancements in Planar, Volumetric, and/or High-Speed Imaging Techniques
+ * Error Analysis, Uncertainty Quantification, Artificial Intelligence, and Algorithm Development
+ * Flow Visualization and Characterization Techniques such as schlieren, BOS, Holography, and FLDI
+ * Joint Session (AMT/GT): Application of Novel Diagnostics in Ground Test Facilities
+ * Joint Session (AMT/PC): Application of Diagnostics in Combustion, Spray, and Propulsion Systems
+ * Joint Session (AMT/PDL): Advanced Diagnostics for Plasmas and Nonequilibrium Flows
+ * Joint Session (AMT/PGC): Diagnostics for Detonation Physics and Detonation Engines
+ * Measurements for Turbulence, Fluid-Structure Interactions, Boundary Layers, and Hypersonic Systems
+ * Novel Combustion & Propulsion System, Spray, Plasma, and Aerothermal Flow Diagnostics
+ * Novel Techniques, Sensors, Methodologies, Instrumentation, and Facilities
+ * Spectroscopic Techniques such as PLIF, CARS, LIBS, Raman Scattering, and Absorption Spectroscopy
+ * Surface Measurements such as PSP, TSP, Skin Friction, and Shear Stress Sensing
+ * Velocimetry Techniques such as PIV, PTV, MTV, DGV, and FLEET
+ * Other Topics Related to Aerodynamic Measurement Technology
+
+Aerospace Education
+
+Please direct questions to:
+Robert A. Frederick, Jr., University of Alabama-Huntsville
+Raymond LeBeau, Saint Louis University
+
+Aerospace engineering is both highly specialized and multi-disciplinary, challenging the aerospace education community to educate students that contribute to the broad needs of the profession either in industry or higher education. Papers as well as panel sessions are sought that address all aspects of aerospace education including courses, curriculum, course delivery methods, pedagogies, ABET Accreditation, inter-collegiate, government, and industry collaborations, and assessment methods. Of specific interest for SciTech 2027 is a joint session with Structures and Spacecraft Structures on educational activities and student design (such as the COSMIC Capstone Challenge) in In-Space Servicing, Assembly, and Manufacturing (ISAM). Another topic of interest for SciTech 2027 is a joint session with Design Engineering on Advances in Design Education, K-12 STEAM Initiatives, and Extended University Curricula. Submissions to these joint sessions should be identified by selecting the corresponding subtopic.
+
+ * Advances in Design Education, K-12 STEAM Initiatives, and Extended University Curricula (with DE)
+ * Autonomous Aerial Systems in Undergraduate Aerospace Education
+ * Best Practices for ABET Assessment and Curriculum Development
+ * Best Practices in Safety for Student Activities
+ * Better Preparation of Graduates for a Rapidly Evolving Work Environment
+ * Broader Innovative Collaboration of Industry, Government, and Academia in Engineering Education
+ * Curricula Addressing the Multidisciplinary Nature of Aerospace System Analysis and Design
+ * Educational Activities and Design in In-Space Servicing, Assembly, and Manufacturing (Joint DE/EDU)
+ * Implementing AI Courses, Projects, and Use Policies in Aerospace Education
+ * Initiatives in Aerospace Education Including Model Based Systems Engineering and Digital Engineering
+ * In-Space Servicing, Assembly and Manufacturing (ISAM) (joint STR/SCS/EDU)
+ * Novel Outreach Activities
+ * Undergraduate Educational Experiences in Space Exploration and Space Systems
+
+Aerospace Power Systems
+
+Please direct questions to:
+Jeremiah McNatt, NASA Glenn Research Center
+Levi Elston, AFRL
+Erik Brandon, NASA Jet Propulsion Laboratory
+
+Papers are sought on all aspects of Aerospace Power Systems, from the component and system level to mission applications. Discussions of study findings, results of practical applications, tests, simulations, short- and long-term performance, and new technology research, development and maturation efforts are encouraged. Power Generation (photovoltaic, nuclear, thermal), Energy Storage (batteries, capacitors, fuel cells, flywheels), and Power Management and Distribution are included in this area, for space and aviation applications. Power systems that support lunar architectures (including orbital platforms and surface systems), power technologies designed for extreme environments and deep space operations, and technologies that support high-speed/hypersonic vehicle power systems are especially encouraged. Specific topical areas are listed below. However, authors are encouraged to submit papers on other innovative concepts related to Aerospace Power Systems.
+
+ * Advanced Power Concepts (energy harvesting, in situ derived power, combined chemical heat/power)
+ * Approaches for Assessing and Evaluating Novel Power System Sizing and Applicability
+ * Approaches to Fault Tolerance in Power Systems
+ * Battery Management Systems and State-of-Charge Determination
+ * Design and Development of Power Technologies for Extreme Environments
+ * Design of Power Systems for Long Life/High Reliability in the Deep Space Environment
+ * Design, Fabrication and Performance of Aerospace Power System Components
+ * Energy Conversion Technologies (Cycles, Materials, Fluids) for Integrated Vehicle/Propulsion/Power
+ * Energy Storage Technologies for Aerospace Applications: Batteries, Capacitors, Novel Concepts
+ * Lunar Orbital and Surface Power Systems: Concepts, Applications, Technologies
+ * New Approaches for Testing and Validating Power Components and Systems
+ * Novel Power Converter Topologies/Designs and Power Architectures
+ * Nuclear and Radioisotope Power Systems for Planetary, Satellite, or Deep Space Applications
+ * Photovoltaic Power Generation Advancements from Solar Cells to Arrays
+ * Power Generation, Management, Control, and Distribution in Aerospace Environments
+ * Power System Operations and Lessons Learned
+ * Primary and Regenerative Fuel Cells
+ * Spacecraft Power System Design, Fabrication, Testing, and Experience
+ * Thermal-to-Electric Conversion (Thermoelectrics, Thermionics, Thermophotovoltaics, Thermoradiative)
+ * Wireless Power Transfer Systems and Components including Beamed Energy Systems
+ * Other Innovative Concepts and Topics in Aerospace Power Systems
+
+Aircraft Design
+
+Please direct questions to:
+Taylor Fazzini, Northrop Grumman Aerospace Systems
+Andy Bernhard, Lockheed Martin
+
+Papers are sought on all aspects of atmospheric flight vehicle design, including fixed and rotary wing, subsonic through hypersonic, micro air vehicles to very large aircraft, general aviation, urban/on-demand mobility, and manned or unmanned aircraft. Topics such as design methodologies and processes, design tools, design integration, technology developments, innovative designs, case studies, and design education are welcome. Design considerations such as environmental issues, energy optimization, noise reduction, electric aircraft systems, reducing manufacturing, operating, and life-cycle costs, etc. are also topics of interest. Please click Additional Details  for more information.
+
+ * Aerodynamic Design: Analysis, Methodologies, and Optimization (Joint ACD/APA/MDO)
+ * Aircraft Design Education
+ * Aircraft Design Tools, Automation (incl. AI/ML), Processes, and Frameworks
+ * Design For Reliability, Maintainability, Sustainability & Cost
+ * Electrified Aircraft Design (Fixed-Wing and Rotary-Wing Platforms) (Joint ACD/EAT)
+ * High-Speed Aircraft Design
+ * Multi-Disciplinary Design and Decision-Making under Uncertainty (Joint ACD/MDO/DE/NDA)
+ * Multifunctional and Multipurpose Air and Space Structural Design (Joint ACD/DE/MAT/STR)
+ * NASA AACES 2050 – JetZero/UIUC Hydrogen Blended Wing Body Aircraft Design (Joint ACD/EAT/TF/DE)
+ * Novel Configurations Design
+ * Performance, Mission, and Operational Design
+ * Short/Vertical Takeoff and Landing (STOL & VTOL) Design
+ * Unmanned and Autonomous Aircraft Design
+
+Applied Aerodynamics
+
+Please direct questions to:
+Andrew Voegele, The Aerospace Corporation
+Camli Badrya, University of California Davis
+Vilas Shinde, Mississippi State University
+
+Papers are solicited in the areas of theoretical, experimental, and computational approaches to aerodynamics applications. Relevant areas of interest include, but are not limited to, flight or ground vehicle aerodynamic design, analysis of wing/rotor/vehicle aerodynamic performance, methods for modeling aerodynamic bodies, and novel studies or technological applications related to aerodynamic applications. Authors are encouraged to submit work demonstrating technical quality and accuracy, clear relevance and importance to the field, and meaningful originality or advancement of knowledge in a clear and concise manner. Abstracts should support technical claims with appropriate data or references, identify and address key technical challenges, and reflect meaningful progress toward completion of the work, including results that demonstrate technical feasibility or validation of the approach. Submissions should follow established AIAA formatting and presentation standards. Specific areas of interest are listed below, but work in related areas is also encouraged.
+
+ * Aerodynamic Design: Analysis, Methodologies, and Optimization (joint APA/ACD/MDO)
+ * Aerodynamic Testing: Ground, Wind-Tunnel, and Flight Testing (Joint APA/GT/FT)
+ * Aerodynamics of Inlets and Nozzles (Joint APA/INSPI)
+ * Aero-Propulsive Interactions and Aerodynamics of Integrated Propeller Systems
+ * Aero-Structural Interactions
+ * Airfoil/Wing/Configuration Aerodynamics
+ * Applied Aeroelasticity and Aerodynamic-Structural Dynamics Interaction
+ * Applied Computational Fluid Dynamics
+ * CFD and HPC of Large-Scale Meshes for Applied Aerodynamics (MVCE/APA/CFD2030)
+ * CFD on Large-Scale Meshes for Applied Aerodynamics (Joint APA/CFD2030/MVCE)
+ * Flow Control: Methods and Applications (Joint APA/FD)
+ * Hypersonic Aerodynamics (Joint APA/FD)
+ * Hypersonic Boundary Layer Transition (Joint FIT/FD/APA)
+ * Low Speed, Low Reynolds Number & Bio-Inspired Aerodynamics
+ * MDO/Sensitivity Analysis with Aeroelasticity/Fluid-Structure Interaction (joint MDO/STR/SD/APA)
+ * Missile/Projectile/Munition Aerodynamics, Carriage & Store Separation
+ * Propeller/Rotorcraft/Wind Turbine Aerodynamics
+ * Special Session: Aeromechanics in Adverse Weather (Invited)
+ * Special Session: AI and Machine Learning for Vehicle Design and Optimization
+ * Special Session: AIAA CFD Transition Modeling and Prediction Workshop (Invited)
+ * Special Session: Applied Aerodynamics: State of the Art (Invited)
+ * Special Session: Applied Surrogate Modeling (Invited)
+ * Special Session: Drag Prediction Workshop 8 and Aeroelastic Prediction Workshop 4 (Joint APA/SDTC)
+ * Special Session: Drag Reducing Surfaces (Invited)
+ * Special Session: HLFC Technology and Prediction Methods (Joint APA/FD/FIT)
+ * Special Session: HPC Multi-Physics CREATE (Invited)
+ * Special Session: NASA AACES 2050 – JetZero/UIUC Hydrogen BWB Aircraft Design (joint ACD/TF/SUST/APA)
+ * Special Session: NATO STO AVT-390 – CFD Validation of Vortex-Dominated Missile Airflows (Invited)
+ * Special Session: Rotor-in-Hover Simulations (Invited)
+ * Supersonic Aerodynamics (Joint APA/SPSN)
+ * Transition Control and Applications (Joint FIT/FD/APA)
+ * Transonic Aerodynamics
+ * Turbulence and Transition Modeling for Aerodynamic Applications
+ * Unsteady Aerodynamics
+ * Visualization and Knowledge Extraction of Large Data Sets (Joint CFD2030/MVCE/CFD2030/APA)
+ * Other Topics in Applied Aerodynamics
+
+Atmospheric and Space Environments
+
+Please direct questions to:
+Frank D. Han,Missouri University of Science and Technology
+Sihong Yan, University of Central Florida
+
+Technical papers are being solicited on the space environment and its effects on spacecraft. All orbital environments are considered, including Low Earth Orbit (LEO), Polar Orbit (Polar), Medium Earth Orbit (MEO), Geosynchronous Earth Orbit (GEO), Interplanetary Space, and planetary environments. Submissions on the near-lunar and martian space environments are especially encouraged. Specific topical areas are listed below. Authors are encouraged to submit papers on other novel ideas and topics related to Space Environments.
+
+ * Atmospheric and Space Plasmas (Rarefied Plasma, Dusty Plasmas, Lightning, etc.) (joint ASE/PDL)
+ * Complex Effects of Combined Environmental Factors
+ * Environmental Effects on Spacecraft Material Properties
+ * Ground Testing of Space Environments and Effects
+ * Interplanetary Environments and Effects on Lunar and Martian Exploration (joint ASE/EXPL)
+ * On-Orbit Instrumentation and Data
+ * Simulation, Measurement, and Mitigation of Spacecraft Charging, Wakes, and Elecrostatic Discharge
+ * Space Environment Models with Big Data/AI/ML (joint MVCE/ASE)
+ * Space Weather Research, Operations, and R2O/O2R
+ * Other Topics in Space Environments
+
+Atmospheric Flight Mechanics
+
+Please direct questions to:
+Giusy Falcone, University of Michigan
+Hayden Dean, NASA Langley Research Center
+Chris Karlgaard, NASA Langley Research Center
+
+The Atmospheric Flight Mechanics Committee solicits papers related to atmospheric flight mechanics across all disciplines, including flight performance, flight and ground test, flying and handling qualities, and system identification. The topics can be from all flight regimes and missions including single vehicle / formation flight, gliding flight, powered flight, atmospheric reentry, and planetary aeroassist. The AFM TC encourages papers that consider all vehicle types and configurations, including conventional aircraft, rotorcraft, multirotor vehicles, urban air mobility concepts, vertical and short take-off aircraft, unmanned aerial vehicles, electric aircraft, biomimetic vehicles, hypersonic and aeroassist vehicles, launch vehicles, missiles, projectiles, and aerodynamic decelerators. Papers are also encouraged that discuss education in atmospheric flight mechanics, multidisciplinary efforts, and projects with international collaboration. Please click Additional Details  for more information.
+
+ * Aerodynamic Prediction Methods
+ * Aeroservoelasticity
+ * Aircraft Dynamics, Performance, Stability, and Control
+ * Handling Qualities and Flying Qualities
+ * Hypersonic and Spacecraft Flight Mechanics
+ * Invited Session: Entry, Descent, and Landing Special Sessions (Joint AFM / GNC TC)
+ * Launch Vehicle, Missile, and Projectile Flight Mechanics
+ * Special Session: Flight Test Techniques for Advanced Atmospheric Flight Mechanics
+ * Special Session: System Identification and Flight Test
+ * System Identification and Flight Test
+ * Unique Aircraft Configurations
+ * Unmanned and Optionally-Manned Aircraft Systems
+ * Other Topics in Atmospheric Flight Mechanics & Special Sessions
+
+CFD Vision 2030
+
+Please direct questions to:
+Daniel Livescu, Los Alamos National Laboratory
+Brent Pomeroy, NASA Langley Research Center
+
+CFD Vision 2030 was established to promote a community of practice engaged in developing methods, models, physical experiments, software, and hardware for revolutionary advances in computational simulation technologies for analysis, design, certification, and qualification of aerospace systems. The CFD2030 Vision report laid out a bold vision for future computational capabilities and their potential impact on aerospace engineering and design, and recommended the establishment of Grand Challenges (GCs) to drive CFD technology development. Since 2021, four GCs have been developed and published in key technical areas: high-lift aerodynamics (AIAA Paper 2021-0955), full engine simulation (2021-0956), CFD-in-the-loop for space vehicle design (2021-0957), and hypersonics (2024-0683). Under the CFD2030 topic, we are soliciting papers that address current efforts to advance CFD technology, to both highlight the current state-of-the-art and to help identify where technology advancements are needed to make significant progress towards achieving the GCs.
+
+ * CFD and HPC of Large-Scale Meshes for Applied Aerodynamics (Joint MVCE/APA/CFD2030)
+ * CFD Technology to Predict Aerodynamic Characteristics at the Edges of the Flight Envelope
+ * CFD Vision 2030: Survey of Progress Toward Achieving Grand Challenge Problems (by invitation only)
+ * Development of AI/ML for CFD Applications
+ * Development of High-Resolution Aerodynamic Databases Including Uncertainty Quantification (UQ)
+ * Development of Propulsion-Related Simulations Toward Full Engine Simulation
+ * Development of Testing Techniques or Datasets to Validate Hypersonic Multi-Disciplinary Analysis
+ * Development of Testing Techniques to Validate Coupled Aero/Structural Computational Analysis
+ * Visualization and Knowledge Extraction of Large Data Sets (Joint MVCE/APA/CFD2030)
+
+Computer Systems
+
+Please direct questions to:
+J Tanner Slagel, NASA Langley Research Center
+Ketan Dande, Rivian
+Julian Gutierrez, NASA Langley Research Center
+
+We invite submissions of original research papers addressing both theoretical and practical considerations related to cyber, computer, computation, and information processing techniques as they apply to aerospace systems and operations. Researchers are encouraged to present novel methodologies, cutting-edge technologies, and innovative solutions that enhance the efficiency, security, and reliability of aerospace computing. Topics of interest include artificial intelligence, cybersecurity, high-performance computing, embedded systems, cyber-physical systems, formal methods, and advanced data processing techniques tailored for aerospace applications. This forum provides a unique opportunity for professionals to showcase their work, engage in meaningful discussions, and contribute to shaping the future of aerospace technology.
+
+ * AI Processing Hardware for Aerospace Operations
+ * Cyber-Physical Systems
+ * Cybersecurity and Information Assurance
+ * Embedded and Energy-Efficient Computing
+ * Formal Verification and System Validation
+ * High-Performance Computing (HPC)
+ * Onboard AI Processing and Edge Computing (UAVs, satellites, space systems)
+ * Other Advanced Computational Techniques for Aerospace
+ * Secure and Fault-Tolerant Processing
+ * Vision and Sensor Processing
+
+Cybersecurity
+
+Please direct questions to:
+Krishna Sampigethaya, Embry-Riddle Aeronautical University
+Jarrett Iannotti, Lockheed Martin
+
+As aviation and space systems evolve to support next-generation transportation, exploration, and communication, cybersecurity remains a critical enabler of progress. From commercial and military aircraft to uncrewed aerial and advanced air mobility vehicles to planetary satellites, rovers, and deep-space missions, the increasing reliance on connectivity, automation, and AI introduces new vulnerabilities that adversaries seek to exploit. Securing these complex cyber-physical systems is essential to ensuring safety, resilience, and continued innovation in aviation and space. We invite research contributions on a wide range of topics on securing airborne, orbital, and planetary systems, including, but not limited to, the following topics.
+
+ * AI and machine learning applications in cyber defense and resilience
+ * Cyber frameworks and resilience strategies for future aviation and space operations
+ * Risk assessment and response strategies for emerging technologies
+ * Securing autonomous and intelligent systems
+ * Security architectures for next-generation networks and IoT
+ * Security for air and space traffic management and satellite operations
+ * Threat detection and mitigation techniques for cyber-physical systems
+
+Design Engineering
+
+Please direct questions to:
+Gregory L. Roth, Air Force Research Laboratory
+Ian Marks, Northrop Grumman
+
+Technical papers are solicited on design processes/methods, lifecycle design tools, human & organizational aspects of systems design, and design education in aerospace/related industries. Process-oriented papers focus on methods, architecture, and approaches from exploratory design through detailed design, manufacturing, and service. Education-oriented papers emphasize design in curriculum development, class content, or student design/build activities. Product-oriented papers capture innovative/distinctive concepts or demonstrate design efficiency improvement. Emerging technologies for collaborative design within global digital environments, mission effectiveness design, knowledge-based approaches, multidisciplinary, multifidelity design optimization, trustworthiness, decision making under uncertainty, innovative design processes, tools, and technologies applicable to aeronautics and astronautics are desired. Novel coverage of more traditional disciplines of structural design, mechanical design, geometric design, aerodynamic/flight performance design, and aircraft/spacecraft design are welcome. Cutting-edge approaches employing computational intelligence/creativity, human-machine teaming, cognitive aspects of design, AI/ML beyond surrogate modeling, model-based engineering, multifunctional or adaptive structures, leveraging novel energy sources, etc. are strongly encouraged. Please see Additional Details  for more information.
+
+ * Advanced manufacturing, composites, adaptive structure design & rapid prototyping (joint AS/DE/MAT)
+ * Advances in design education, K-12 STEAM initiatives, extended university curricula (joint DE/EDU)
+ * Computational intelligence, AI/ML/PIML assisted design, & knowledge-based approaches (joint DE/DGE)
+ * Creative design, emerging trends, new processes, novel aerospace applications (joint DE/HMT/SAT/TF)
+ * Design for system lifecycle, decommissioning, -ilities & effectiveness-based design (joint DE/SE/TF)
+ * Designing collaborative autonomous sys, multi-vehicle, swarming, & operator needs (joint DE/HMT/TF)
+ * Digital engineering/design for electrified aircraft, system models, & ecosystems (joint DE/DGE/EAT)
+ * Emerging design methods, tools, or processes, including model-based eng. & MBSE (joint DE/DGE/SE)
+ * Human, cognitive, team, and organizational aspects of the design process across the full lifecycle
+ * Integrating new technologies and emerging capabilities in systems design
+ * Multi-disciplinary holistic design and decision-making under uncertainty (NDA/MDO/DE/ACD)
+ * Multifunctional and multipurpose air and space structural design (joint ACD/DE/MAT/STR)
+ * Novel energy powertrains in air veh des – H2, nuclear, solar & atm radiation (joint EAT/DE/INPSI/TF)
+ * Novel systems, system of systems, and mission designs
+ * Special Session: Vision for next generation design methods, processes, tools, and technologies
+ * Trustworthiness and reliance in adopted intelligence/automation tools and processes (joint DE/SAT)
+ * V&V, uncertainty quantification, certification by analysis in digital environments (joint DGE/DE/NDA)
+ * Design Engineering – General
+
+Digital Avionics
+
+Please direct questions to:
+Evan Dill, NASA
+Maarten Uijt de Haag, Technical University of Berlin
+Bernd Korn, DLR
+
+Papers are sought on all aspects of digital avionics required for safe, secure and efficient operation of civilian and military aircraft in the national airspace system either manned or unmanned (e.g. aircraft, UAS and AAM). These aerial vehicles will require onboard (integrated) avionics systems and air traffic management systems to support their operation in the various airspaces. Areas of interest include avionics technologies to support:
+
+ * Advanced air mobility (AAM) and operation of aerial vehicles in challenging environments
+ * Autonomous systems, Autonomy and Human-Machine Interfaces
+ * Avionics technologies for safe and efficient vehicle operation in national airspace
+ * Communication, Navigation and Surveillance (CNS) systems for manned and unmanned aircraft systems
+ * Ensuring compliance of military aircraft in civilian airspace
+ * Flight critical systems
+ * In-time aviation safety management systems (IASMS)
+ * Operations of UAS and manned aicraft in the same airspace
+ * Performance-based operations in NextGen and SESAR including PBN
+ * Security and safety aspects of avionics systems
+ * Separation assurance systems: geofencing, detect and avoid, and collision avoidance
+ * Traffic management for manned (ATM) and unmanend aicraft systems (UTM, U-Space)
+
+Digital Engineering
+
+Please direct questions to:
+Mariel Cisneros, Northrop Grumman
+Kevin Pankow, Northrop Grumman
+Mat French, Northrop Grumman
+
+The concepts of the Digital Ecosystem, Digital System Model, Digital Thread, Digital Twin, Artificial Intelligence / Machine Learning, High Performance Computing and DevSecOps, are merging as a means to organize and control the data, models and other information in the model-based engineering (MBE) enterprise. Continuity across the life cycle emphasis espencially across a diverse supply chain. Together, these provide a means to digitally define, model, simulate, and manage a product system and all its associated engineering models and data for the use in an MBE. The Digital Engineering Integration Committee (DEIC) exists to help accelerate the integration of both new/emerging and existing digital capabilities for improving National competitiveness, security and operational readiness. The DEIC serves as a the ‘home’ for better integration of currently disparate digital activities (e.g. Digital Twin, Digital Thread, ICME, HPC, AI, VVUQ, etc.). The DEIC supports constitutent groups in AIAA for topics related to Digital Engineering. Through DEIC topics, AIAA members can employ in their home organizations methods to simplify maintenance and sustainment activities to reduce product costs, and help create environments to encourage the development of a digital culture.
+
+ * AI/ML assisted design techniques and breakthrough – collaborative methods (joint DE)
+ * Collaborative Autonomous Systems Platforms capable of learning and making decisions. (joint DE)
+ * Computational Resources for computational intellgience and Engineering (joint DE)
+ * DevOps & Agile System Development (emphasizing machine – to- machine Ops)
+ * Digital Airworthiness – Enhance the airworthiness certification process digitally
+ * Digital Ecosystem – Ecosystem, Architecture and Infrastructure (joint DE)
+ * Digital Thread for Supply Chain – Framework of authoritative data & information
+ * Digitally Enabled Operating Models – Realizing new agile ways of working (joint DE/SETC)
+ * Dynamic Mission Requirements with MBSE extensions (joint DE/SETC)
+ * Emerging processes to enable Industrial DevOps – for Cyber Physical Systems (joint DE/SETC)
+ * Hybrid-AI methods – combining ML and symbolic AI for systems adapt effectively (joint DE)
+ * Integration of Digital Thread & Digital Twin – Mathematical/algorithmic approaches
+ * Knowledge-Based Approaches – retention and reuse of engineering knowledge and data (joint DE)
+ * Model-Based engineering through standardized System Architecture Models (joint DE/SETC)
+ * Multi-disciplinary holistic design ascross the Digital Thread – enabling MDAO/Automation (joint DE)
+ * Proprietary Data & Data Rights – ASoT and proprietary data
+ * V&V Framework Differences – DE implications for managing consistency (joint DE)
+ * VVUQ (Validation, Verification, and Uncertainty Quantification) of Models (joint DE)
+
+Electric Propulsion
+
+Please direct questions to:
+Elaine Petro, Cornell University
+Alejandro Lopez Ortega, NASA Jet Propulsion Laboratory
+
+Papers are solicited on spacecraft electric propulsion (or related) technologies, systems, components, and support equipment, including both hardware and software. Topics of interest include missions/concepts, analysis, testing, modeling, applications, and fundamental physics that relate to spacecraft electric propulsion. Technologies of interest include, but is not limited to: flight systems, Hall thrusters, ion thrusters, power processing units, propellant management systems, gimbals, micropropulsion concepts, electrostatic thrusters, magnetoplasmadynamic thrusters, pulsed-plasma thrusters, pulse-inductive thrusters, electrothermal thrusters, electromagnetic thrusters, breakthrough/advanced electric propulsion, supporting diagnostics, and supporting analysis/simulation tools. In particular, papers are sought for dual-mode propulsion systems (systems with both electric and chemical modes), methods for reducing the size and mass of spacecraft electric propulsion systems, and application of machine learning and generative AI to the field of spacecraft electric propulsion.
+
+ * Advanced Materials for Electric Propulsion
+ * Air Breathing Electric Propulsion
+ * Applications of Machine Learning and generative AI to Electric Propulsion
+ * Cathodes
+ * CubeSat, SmallSat, and Micropropulsion Systems
+ * Dual Mode Propulsion (joint EPTC/LPTC)
+ * ECR and Electrodeless thrusters
+ * Electric Propulsion Flight Programs and Missions
+ * Electric Propulsion Modeling
+ * Electric Propulsion Thruster Plume and Spacecraft Interactions
+ * Electromagnetic Thrusters (Magnetoplasmadynamic, Pulsed Inductive)
+ * Electrospray / FEEP / Colloid Thrusters
+ * Facility Effects
+ * Flight System Performance and Lessons Learned
+ * Hall Thrusters
+ * Gridded Ion Thrusters
+ * Mission Design / Concept Studies
+ * On-Orbit Health Monitoring of Electric Propulsion Systems
+ * Power Processing Units for Electric Propulsion Applications
+ * Propellant Management for Electric Propulsion Applications
+ * Pulsed Plasma / Vacuum Arc Thrusters
+ * Other Topics in Electric Propulsion
+
+Electrified Aircraft Technology
+
+Please direct questions to:
+Matthew A. Clarke, University of Illinois Urbana-Champaign
+Francesco Salucci, Argonne National Laboratory
+
+The Electrified Aircraft Technology (EAT) Discipline Committee invites submissions of technical papers focused on the development, design, evaluation, and integration of electrified aircraft components and systems and their applications in aviation, including electric and hybrid-electric aircraft and sustainable aviation. We welcome contributions across disciplines, with an emphasis on emerging, enabling, and core technologies, advanced methodologies, and innovative concepts shaping the future of electrified aviation. Please click Topics of interest include, but are not limited to:
+
+ * Aircraft High-Voltage Power Distribution Systems and Energy Management
+ * Digital Engineering/Design for Electrified Aircraft, System Models, Digital Twins (joint DE/DGE/MST)
+ * Electrical Energy Conversion and Storage (batteries, fuel cell, solar, regenerative systems)
+ * Electrified Aircraft Design (fixed-wing & rotary-wing platforms) (joint ACD/VSTOL)
+ * Electrified Aircraft Design (fixed-wing & rotary-wing platforms) (joint ACD/VSTOL)
+ * Flight Testing of Electrified Aircraft (joint FT)
+ * Novel Energy Powertrains in Air Vehicle Dsgn. (H2, Nuclear & Atm Radiation) (joint DE/TF/INPSI/SUST)
+ * Power Electronics, Electric Machines, and Drives
+ * Propulsion, Power, and Thermal System Architecture and Integration
+ * Special Session: NASA AACES 2050 – JetZero/UIUC Hydrogen BWB Aircraft Design (joint ACD/TF/SUST/APA)
+ * Superconducting & Cryogenic Components and Systems
+ * System Dynamics, Modeling, and Control (joint MST)
+ * Testing, Validation, Safety, and Certification (joint FT)
+ * Thermal Management
+
+Energetic Components and Systems
+
+Please direct questions to:
+James Baglini, Raytheon
+Steve Seyler, Northrop Grumman
+
+Papers are solicited related to the development, demonstration, qualification and production of energetic formulations, propellant- or explosive-actuated mechanisms and gas generators used in aerospace, military aircraft, and commercial applications. Topics of interest include, but are not limited to: Energetic Manufacturing, Explosive Theory and Initiation, Cartridge Actuated Devices; Propellant Actuated Devices; Thrusters; Propellant and Explosive Compositions; Ballistic Analysis; Non-Pyrotechnic Mechanisms; Systems Integration; and Studies on Acceptance Criteria and Manufacture.
+
+ * Advanced Research of New Propellant and Explosive Formulations and Their Application
+ * Design, Testing and Acceptance of Space Mechanisms and Systems
+ * Detonation Theory and Initiation
+ * Energetic (Explosives, Propellants and Combustible) Component Heritage
+ * Energetic Component Development, Qualification, and Acceptance Testing
+ * Explosive and Propellant Compositions and Manufacturing Methods
+ * Explosive- or Propellant- Actuated Mechanisms and Systems
+ * Innovation in Failure Investigation and Analysis
+ * Physics of Interior Ballistics in Explosive, Propellant, Combustible Devices
+ * Other Topics in Energetic Components and Systems
+
+Flight Testing
+
+Please direct questions to:
+Jessica M. Peterson, University of Nevada – Reno
+Andrew Freeborn, US Air Force Test Pilot School
+Shawn Keshmiri, University of Kansas
+
+The Flight Testing Technical Committee invites papers on advances in testing aerospace vehicles and equipment in their natural environment. Submissions across research, development, acceptance, and operational testing should prioritize the “how” of the test focusing on methodology, safety, and execution. Key topics include new or novel classical flight test techniques; in-space testing and space domain evaluation; advances in instrumentation and high-fidelity data acquisition; and AI/ML integration in data analysis. The committee also seeks papers on testing vehicles with intelligent flight controls or autonomous systems; GNC techniques, including sensor performance and handling qualities; electrified aircraft and sustainable propulsion; and modeling and simulation (e.g., hardware-in-the-loop) as a flight test prerequisite. Innovative flight test education and training approaches are also encouraged. Papers must interpret broader impacts on the field and highlight lessons learned to benefit future test efforts. Submissions for live flight tests should include preliminary results. Scoring will be based on technical merit, clarity of lessons learned, and relevance to flight test science. Please click Additional Details for more information.
+
+ * Flight Test Techniques, Measurement Technologies, and Other Novel Approaches
+ * Flight Testing in the Educational Environment
+ * Special Session: Aerodynamic Testing: Ground, Wind-Tunnel, and Flight Testing (joint APA TC/GT TC)
+ * Special Session: Flight Test Techniques for Advanced Atmospheric Flight Mechanics (joint AFM TC)
+ * Special Session: Flight Testing Guidance, Navigation, and Control Systems (joint GNC TC)
+ * Special Session: Flight Testing of Electrified Aircraft (joint EAT TC)
+ * Special Session: Flight Testing of Uncrewed/Autonomous Systems (with UAS TC)
+ * Special Session: Flight Testing Systems with Intelligent Flight Controls (joint IS TC)
+ * Special Session: Space Domain Vehicle Test & Evaluation (with OPS TC)
+ * Special Session: System Identification and Flight Test (joint AFM TC)
+ * Special Session: Testing, Validation, Safety, and Certification (joint EAT TC)
+ * Testing Ground and Air-launched Missiles and Rockets
+ * Other Topics in Flight Testing
+
+Fluid Dynamics
+
+Please direct questions to:
+Koen Groot, University of Wyoming
+Puja Upadhyay, NASA Glenn Research Center
+
+Technical papers are solicited in the areas of experimental, theoretical, and computational fluid dynamics relevant to aerospace applications, with an emphasis on basic research and development. Applied research and advanced technology development topics will also be considered. Papers that present new insights into the flow physics, address emerging technologies, introduce innovative ideas and techniques, promote interdisciplinary and synergistic research activities, or integrate experimental, computational, and/or theoretical approaches are strongly encouraged. Authors should submit an extended abstract to the most appropriate topic below. Extended abstracts should consist of a comprehensive introduction, a description of the methodology, and preliminary results. Please click Additional Details for more information.
+
+ * AI/ML Assisted Geometry Modeling and Mesh Adaptation for CFD (Joint MVCE/FD)
+ * Bio-Inspired Flows
+ * CFD Methods and Applications
+ * Computational Electromagnetics for Aerospace Applications (Oral Only, Joint MVCE/FD)
+ * Control-Oriented Modeling of Fluid Flows
+ * Experimental Methods in Hypersonic Instability & Transition (Joint FIT/FD)
+ * Flow Control: Methods and Applications (Joint APA/FD)
+ * Fluid-Metamaterial Interactions (Joint SD/FD)
+ * Fluid-Structure Interaction (Joint SD/FD)
+ * Hypersonic Boundary Layer Transition (Joint FIT/FD/APA)
+ * Hypersonic Flows (Joint APA/FD)
+ * Mesh Adaptation and Non-Conformal Grids for CFD (Joint MVCE/FD)
+ * Modal Analysis and Deep Learning for Fluid Flows
+ * Multiphase Flows
+ * Plume-Surface Interaction
+ * RANS/LES/Hybrid Turbulence Modeling and Applications
+ * Reduced-Order Modeling and Machine Learning for Fluid Dynamics and Aeroacoustics (Joint AA/FD)
+ * Shock / Boundary Layer Interactions
+ * Special Session: Advances in High-Speed Fluid-Thermo-Structural Interaction (Joint SD/FD)
+ * Special Session: HLFC Technology and Prediction Methods (Joint APA/FD/FIT)
+ * Special Session: Quantum Computing for Fluid Dyanmics (Only by Invitation, Joint FD/NDA)
+ * Special Session: Utility of LLMs for Fluids (Only by Invitiation, Joint FD/MVCE)
+ * Surrogate Modeling and Mesh Adaptation for Multi-Physics Flow Systems (Joint MVCE/FD/NDA)
+ * Thermal Non-Equilibrium Effects on Transition (Joint FIT/FD)
+ * Transition Control and Application (Joint FIT/FD)
+ * Turbulence and Vortex Induced Noise Sources (Joint AA/FD)
+ * Turbulent Flows
+ * Uncertainty Quantification, Grid Quality & Error Estimation for Computational Physics (MVCE/FD/NDA)
+ * Verification Techniques in Computational Physics (Oral Only, FD/MVCE/NDA)
+ * Visualization of Experimental Flow Data (Joint MVCE/FD)
+ * Vortex Dynamics, Wing-Gust Interactions, and Low-Reynolds Number Flows
+ * Wall-Bounded and Free Shear Flows
+ * Other Topics in Fluid Dynamics
+
+Fluid Instability and Transition
+
+Please direct questions to:
+Eric Matlis, Embry-Riddle
+Sasidharan Nair, FAMU-FSU
+
+Technical papers are solicited in the areas experimental, theoretical and computational fluid dynamics with an emphasis on fluid instabilities and transition to turbulence. The topic includes both fundamental and applied research that seek answers to our critical understanding and/or address critical application needs. Papers that present new insights into instability and transition mechanisms, address emerging technologies, introduce innovative ideas and techniques, promote interdisciplinary research activities, or especially integrate experimental, theoretical and computational methods are highly encouraged. Authors should submit an extended abstract to the most appropriate topic listed below. Extended abstracts should consist of a comprehensive introduction that motivates the research, a detailed decription of the methodology, relevant figures, diagrams or flowcharts that aid in understanding the technical approach, some (preliminary) results of sufficient quality to be presented with little or no additional content, and finally, a description on what additional work might be required to finalize the manuscript with a time-line on when it is anticipated to be completed. A list of references used by the authors or relevant to the proposed manuscript must also be included.
+
+ * Experimental Methods in Hypersonic Instability and Transition (Joint FIT/FD/AMT)
+ * FIT Open Forum: Remembrance of Eli Reshotko
+ * Hypersonic Boundary Layer Transition (Joint FIT/FD/APA)
+ * Predictive Methods for Stability Analysis
+ * Shock-Boundary Layer Interactions and Induced Transition (Joint FIT/HSAPB)
+ * Special Session: HLFC Technology and Predition Methods (Joint APA/FD/FIT)
+ * Thermal Non-equilibrium Effects on Transition (Joint FIT/TP/FD)
+ * Transition Control and Applications (Joint FIT/FD/APA)
+ * Other Topics in Flow Instability and Transition
+
+Gas Turbine Engines
+
+Please direct questions to:
+Anthony Hazlett, GE Aerospace
+Raghu Kancherla, Cadence
+
+Papers are solicited relating to the advances in science, engineering, and technology of gas turbine engines for applications in propulsion, energy, and power. Papers concerning the efforts to develop sustainable gas turbine engine technology with advances in the areas of fuel technology, increased operational flexibility, reduced operating costs, reduced emissions and improved reliability are highly encouraged.Innovative methods and tool capability development utilizing the theoretical, analytical, experimental, computational and data-driven modeling using machine learning for fundamental understanding, engine design, analysis, and development will also be considered. Technical disciplines include aerodynamics, aeromechanics, thermodynamics, fluid mechanics, combustion, heat transfer, materials, structures and dynamics, manufacturing, data science, optimization, and controls. Primary areas of interest include but not limited to:
+
+ * Advanced Gas Turbine Engines and Cycles, and Gas Turbine Hybrids (Electric, Fuel Cell Systems etc.)
+ * Advanced Manufacturing Concepts for Gas Turbine Engines, Materials, and Coatings
+ * Advances in Exhaust Technologies (Ducts, Diffusers, Nozzles, and related systems)
+ * Combustors, Fuel Injectors, Alternative Fuels, Emissions, Fuel Flexible Combustion Systems
+ * Concepts and Design for Low Life/Single Use Turbine Engines
+ * Engine Controls, Instrumentation, Operability, and Propulsion Health Management/Diagnostics
+ * High-Fidelity Simulations, Data driven methods(AI/ML) and Validation Experiments
+ * High-Speed Low Pressure Turbines
+ * Model based systems engineering, digital tools and methods including digital twins
+ * Multidisciplinary Design, Analysis/Optimization of Engine Systems and Components  (joint GTE/MDAO)
+ * Rotordynamics, and Bearing/Seal Dynamics
+ * Secondary Air System & Sealing
+ * Structures and Dynamics, Stress and Vibration, Fatigue/fracture
+ * Turbomachinery 1: Aeromechanics, CFD (including method development), Data Driven Methods
+ * Turbomachinery 2: Fans/blowers, Axial/Centrifugal compressor design, BLI Tolerant Fans
+ * Turbomachinery 3: Turbines, Pumps, Turbochargers, Microturbines
+
+Gravity Dependent Science and Technology
+
+Please direct questions to:
+Álvaro Romero-Calvo, Georgia Institute of Technology
+Jeff Marchetta, The University of Memphis
+
+The Gravity Dependent Science and Technology Technical Committee solicits papers addressing original research in the fundamental and applied aspects of gravity-related (micro, low, reduced, and hypergravity) science and technology, with an emphasis on space processes in the physical, materials, and biological sciences and related disciplines.
+
+ * Combustion (joint PC/GDST)
+ * Emerging Technologies
+ * Fluid Mechanics
+ * Gravity-related Machines (drop towers to orbiting platforms)
+ * In-situ Resource Utilization
+ * Next-generation Suborbital Platforms
+ * Plant Research
+ * Propellant Management and Sloshing (joint LPTC/GDST)
+ * Space Biology
+ * Space Education
+ * Space Manufacturing and Materials Synthesis
+ * Space Medicine
+
+Ground Testing
+
+Please direct questions to:
+Ryan Callahan, Lockheed Martin
+Clark Pehrson, Sandia National Labs
+
+GTTC fosters collaboration between practitioners and researchers across the ground test research sector. The GTTC invites submissions covering all research and facility topics related to ground‑based testing, including wind tunnels, engine test cells, arc‑jet heaters, water channels, and environmental chambers across all speed regimes and scales. We welcome contributions that address any aspect of test planning, execution, data analysis, and test‑facility administration. Specific areas of interest include, but are not limited to the below. Please click Additional Details  for more information.
+
+ * Aerodynamic Testing: Ground, Wind-Tunnel, and Flight Testing (APA/FT/GT)
+ * Data Review and Assessment
+ * Facility Commissioning, Improvement, or Expansion
+ * Ground Test Special Sessions
+ * Improvements or Advancements in Model Design, Analysis, and Manufacturing
+ * Instrumentation & Measurement Techniques for Challenging Environments and Test Facilities (AMT/GT)
+ * Novel and Emerging Applications in Ground Testing
+ * Test Operation and Administration
+ * Test Techniques and Measurements
+
+Guidance, Navigation, and Control
+
+Please direct questions to:
+Jack W. Langelaan, Pennsylvania State University
+Raghvendra V. Collage, Worcester Polytechnic Institute
+Joshua W. Clemens, Lockheed Martin
+
+The Guidance, Navigation, and Control Technical Committee invites papers covering all aspects of guidance, navigation, and control (GNC) of aerospace systems. Papers should describe novel analytical techniques, applications, and technological developments in areas such as: the GNC of aircraft, spacecraft, launch vehicles, missiles, air and space robots, unmanned/autonomous systems, and other aerospace systems; in-flight system architecture and components; navigation, position and timing; sensors and data fusion; multidisciplinary control; uncertainty quantification for GNC performance analysis; and validation and verification. Paper selection for GNC will be based on a full draft manuscript of the proposed technical paper; abstracts will not be accepted. No exceptions will be made. Draft manuscripts and final papers must not exceed a total length of 25 pages, formatted in accordance with the AIAA SciTech manuscript template. If you are a graduate student and would like your paper to be considered for the GNC Graduate Student Paper Competition, then please see the eligibility and submission information within the supplemental information document. If you are interested in proposing an Invited Session for GNC, then please see the proposal submission criteria and timeline within the supplemental information document. Please click Additional Details for more information.
+
+ * Aircraft Guidance, Navigation, and Control
+ * Autonomy and Artificial Intelligence for Aerospace Vehicle Guidance, Navigation, and Control
+ * Command and Control (C2) of Complex Autonomous GNC Systems (joint GNC/IC2S)
+ * Control Theory for Aerospace Applications
+ * Distributed, Cooperative, and Multi-Vehicle Guidance, Navigation, and Control
+ * GNC Invited Sessions
+ * Guidance, Navigation and Control in Intelligent Systems (joint GNC/IS)
+ * Missile and Trans-Atmospheric Vehicle Guidance, Navigation, and Control
+ * Modeling and Simulation for Autonomous Guidance, Navigation and Control (joint GNC/MST)
+ * Motion Planning, Sensing, and Operations for Space Robotic Systems
+ * Navigation, Estimation, Sensing, and Tracking
+ * Spacecraft and Launch Guidance, Navigation, and Control
+ * Special Session: Energy aware autonomy for Aircraft Systems (joint IS/GNC)
+ * Special session: Flight testing Guidance, Navigation, and Control Systems (Joint FT/GNC)
+ * Special Session: Small Satellite Guidance, Navigation, and Control (joint GNC/SATS)
+ * Special Session: Spacecraft Jitter (joint GNC/SDM)
+
+High-Speed Air-Breathing Propulsion
+
+Please direct questions to:
+Suo Yang, University of Minnesota
+Bradley A. Ochs, Air Force Research Laboratory
+
+High-speed air-breathing propulsion technical committee solicits papers which address the design, analysis, optimization, testing, and evaluation of technologies and systems that enable supersonic and hypersonic air vehicle propulsion. The key technology areas include but are not limited to ramjet, scramjet, and combined cycle engines, inlets, isolators, combustion chambers, nozzles, and other enabler components, the design methods and optimization, thermodynamic analysis, the measurement techniques and numerical methods facilitating the interpretation of the physics observed within High-Speed propulsion systems as well as materials, structures and manufacturing methods aiming at construction of the engines.
+
+ * Artificial Intelligence (AI) in High-Speed Air-Breathing Propulsion
+ * Engine Component Materials, Structures and Manufacturing
+ * Ground or Flight Tests on High-Speed Propulsion Systems
+ * High Fidelity Combustion Modeling for High-Speed Propulsion (joint HSABP/PC)
+ * High-Speed Inlets, Isolators and Nozzles (joint HSABP/INPSI)
+ * Instrumentation, Diagnostics, Test Methods for High-Speed Air-Breathing Propulsion (joint HSABP/AMT)
+ * Numerical Analysis of Scramjet Engines
+ * Scramjet and Alternative High-Speed Engine Design, Thermodynamics and Optimization
+ * Shock-Boundary Layer Interactions and Induced Transition (joint HSABP/FIT)
+ * Solid Fuel Ramjets and Scramjets
+ * Other Topics in High-Speed Air-Breathing Propulsion
+
+History
+
+Please direct questions to:
+Timothy Takahashi, Arizona State University (retired)
+Becca Lublin, Cornell University
+
+Papers are solicited that explore historical aspects of aerospace engineering including how they relate to current and/or future challenges. Papers may adress the technical, ethical, political, legal and/or societal dimensions of aerospace history. Submissions are encouraged from at all levels of study and practice.
+
+ * Aerospace Public Policy and other Legal Issues (Fixed Wing, Powered Lift and Space Applications)
+ * Aircraft Certification and other Legal Issues
+ * Case Studies relevant to Current or Future Programs
+ * Commecialization of Space (access and presence)
+ * Contributions of Historically Marginalized Groups to Aerospace
+ * History of Fundamental Research in Aerospace (Lab to Flight)
+ * History of the AIAA (national, regional and/or local chapters)
+ * International Perspectives and Contributions to Aerospace History
+ * Interplay between Science Fiction, the Aerospace Industry and the Public Imagination
+ * Other Topics in History
+
+Human Machine Teaming
+
+Please direct questions to:
+Mehrnaz Sabet, Cornell University
+
+Submissions are sought that address theoretical, analytical, simulated, experimental, or implementation results related to aerospace applications for advances in human machine teaming where the paper can focus on one of three genernal elements: the human, the machine, and interactions and interdependencies between them.  Concepts regarding human physiology, psychology, human factors, cognitive models, and human performance that support aspects of human machine teaming are of interest. Additionally, concepts regarding artificial intelligence, explainable AI (xAI),  machine learning, modeling, feature engineering (e.g., biosignal processing), and human-machine interfaces, which support the mapping of the human to the machine, the interaction with the machine, elucidates trust, and other facets of the human machine system are all topic areas of focus. Concepts and systems of interest include civilian, military, and commercial aerospace systems.
+
+ * Biosensor Design
+ * Biosensor Fusion
+ * Biosignal Processing
+ * Cognitive Modeling
+ * Creative Design, Emerging Trends, New Processes, Novel Aerospace Applications (joint DE/HMT/SAT/TF)
+ * Decision Support Analytics and Tools
+ * Designing Collaborative Autonomous Sys, Multi-Vehicle, Swarming, & Operator Needs (joint DE/HMT/TF)
+ * Human Autonomy Function Allocation
+ * Human Factors
+ * Human Machine Interaction (HMI)
+ * Human Performance
+ * Human Physiology and Medicine within Aerospace Applications
+ * Human Psycho-Physiology in Aerospace Applications
+ * Machine Learning and AI/xAI for HMT
+ * Non-Traditional and Innovative HMI Interfaces
+ * Trust and Trustworthiness in Cyper Physical (Human) Systems
+
+Hybrid Rockets
+
+Please direct questions to:
+Trevor Elliott, University of Tennessee at Chattanooga
+Joseph Majdalani, Auburn University
+
+This topic involves experimental, theoretical, and numerical work in all areas related to design, novel fuel chemistry, enhancement of fuel and oxidizer performance and internal geometry requirements for liquid, solid, and gaseous fueled Hybrid and Bi-Propellant Rocket Systems for stable operation.
+
+ * Advanced Manufacturing Techniques and Contemporary Materials
+ * AI and Machine Learning Applications for Hybrid Rockets
+ * Combustion Stability, Combustion Dynamics, Mixing, Motor Performance, and Related Issues
+ * Descriptions of Current Programs – their Objectives and Progress to Date
+ * Design and Development of Novel Hybrid Rocket Motor Concepts
+ * Development and Evaluation of Novel Oxidizer and Fuel Formulations and Combinations
+ * Educational STEM Initiatives for Hybrid Propulsion Systems
+ * Fuel Characterization, Visualization, and Controls for Hybrid Propulsion Systems
+ * Green Propulsion Systems: Design and Application
+ * Injector Designs and Effect on Engine Performance and Stability
+ * Internal Ballistics Modeling including Predictive Capability
+ * Oxidizer Vaporization, Heat Transfer, Species Evolution, and Mixing of Oxidizer and Fuel Species
+
+Hypersonics
+
+Please direct questions to:
+Samuel Chen, Johns Hopkins University Applied Physics Lab
+Nick DiZinno, New York University
+
+The AIAA HyTASP Technical Committee is soliciting papers on topics related to all aspects of hypersonic systems and technologies with their related aerospace applications for aviation and space flight. Contributions based on analytical, numerical, and/or experimental studies are welcomed as are timely survey and review articles.
+
+ * Aerodynamics and Flight Dynamics Systems
+ * Computational Methods
+ * Emerging Disciplines in Hypersonics
+ * Experimental Methods
+ * Guidance, Navigation, and Control Systems
+ * High-Temperature Material Testing for Hypersonics (Joint TP/HyTASP)
+ * Hypersonics History
+ * Materials and Structures for Vehicles and all Subsystems
+ * Missions and Vehicles
+ * Operational Systems Aspects
+ * Propulsion Components
+ * Propulsion Systems
+ * Thermal Management Systems for Vehicles and all Subsystems
+
+Information and Command and Control Systems
+
+Please direct questions to:
+Ali Raz, George Mason University
+Jayant Ramakrishnan, Bastion Technologies
+Carolyn Eady, Johns Hopkins University Applied Physics Laboratory
+Ryan Hilliard, Air Force Research Lab
+
+Information and Command and Control Systems (IC2S) provide end-to-end and System of Systems solutions for decision making via integration of distributed and heterogeneous sets of systems, resources, processes, and policies. IC2S applications are seen in a variety of domains, including both military and commercial applications. For example, in a military context, IC2S may provide operations personnel, warfighters, and decision makers with a common operating picture (COP) of the battlefield, decision aids and synchronization mechanisms. Similarly, in a commercial context, IC2S enables management of air transportation systems, urban air mobility, or establish space situational awareness by tracking satellites and debris.
+
+Papers are sought that explore new insights, approaches and capabilities across system of systems, situational awareness, AI/ML integration, human-machine teaming, command and control systems, unmanned systems (UAS) with distributed operations, counter unmanned systems (C-UAS), with particular interest in papers examining the future of command and control. The TC is also looking for cross-cutting disciplines such as GN&C and C2 areas. Additional areas of interest include but are not limited to:
+
+ * Applications of AI/ML in Distributed Systems and System of Systems
+ * Autonomy and Human-Machine Teaming with Distributed Systems and System of Systems
+ * C2 for Extreme Time Pressure Environments (e.g., Hypersonics, Cyber Attack/Defense)
+ * C2 for Operating Complex Satellite Constellations
+ * C2 Resilience/C2 in Degraded or Disadvantaged Environments
+ * Digital Engineering and Digital Transformation for Distributed Operations
+ * GN&C Areas and Their Applicability to C2
+ * Modeling and Simulation of C2 and System of Systems
+ * Multi-Domain Operations: Integrating Air, Space, Ground, Sea and Cyber Operations
+ * Situational Awareness and Visualization to Inform C2
+ * The Future of C2: Drivers and Considerations
+ * Other Topics in Information and Command and Control Systems
+
+Inlets, Nozzles, and Propulsion Systems Integration
+
+Please direct questions to:
+Darrell Crowe, University of Dayton
+Daniel Castro, Lockheed Martin Aeronautics
+
+Integration of advanced and innovative propulsion systems, especially inlets, nozzles and thrust reverser systems, has received renewed interest in recent years owing to increased integration requirements for airframe concepts, engine technologies, and system level requirements. More efficient propulsion system designs and technology are being investigated that allow gains in air-breathing aircraft performance and operability. In addition to inlets and exhausts, there is interest in secondary systems and thermal systems that enable new propulsive capabilities and increased system performance.
+
+ * Aerodynamics of Inlets and Nozzles (joint with APA)
+ * Boundary Layer Ingesting Inlet Design, Integration, and Performance
+ * Electrified Aircraft and Systems
+ * Fan Intake interactions (joint with GTE)
+ * Inlet/Exhaust System Design, Integration, Performance, and/or Operability
+ * Inlets and Nozzles for High-Speed Systems (joint with HSAB)
+ * Integration of Hydrogen Propulsion and Cryogenic Systems
+ * Integration of Secondary Power Systems and Impact on Performance
+ * Maintenance, Repair & Overhaul Technologies, Health Monitoring and Prognostics
+ * Optimization of Propulsion System Design and Integration
+ * Power/Thermal Management Systems Integration
+ * Propulsion System Integration for High-Speed Propulsion Applications (joint with HSABP)
+ * S-Duct Inlet Design and Fan Distortion Effects
+ * Supersonic Inlet Design, Integration, and Performance
+ * System Integration for Hybrid Electric Propulsion
+ * Technologies and Integration for Sustainable Aviation
+ * Unducted Fan and Propeller Design, Performance, and Analysis
+ * Other Topics in Inlets, Nozzles, and Propulsion Systems Integration
+
+Intelligent Systems
+
+Please direct questions to:
+K. Merve Dogan, Embry Riddle Aeronautical University
+Tim McLain, Brigham Young University
+
+Submissions are sought in all areas of application of Intelligent System (IS) technologies and methods to aerospace systems, the verification and validation of these systems, and the education of AIAA membership in the use of IS technologies in aerospace and other technical disciplines. Systems of interest include both military and commercial aerospace systems and those ground systems that are part of test, development, or operations of aerospace systems. Technologies that enable autonomy (i.e. safe and reliable operation with minimal or no human intervention) as well as collaborative human-machine teaming in complex aerospace systems/subsystems are of interest. These include, but are not limited to: autonomous and expert systems; discrete planning/scheduling algorithms; intelligent data/image processing, learning, and adaptation techniques; data fusion and reasoning; and knowledge engineering. The application of such technologies to problems that highlight advanced air mobility, certification, carbon emissions/sustainability, space traffic management, and cislunar operations are of particular interest. Please click Additional Details  for more information. Topics of interest include, but are not limited to:
+
+ * Adaptive and Intelligent Control Systems
+ * Autonomy
+ * Energy Aware Autonomy for Aircraft Systems [Joint with GNC]
+ * Flight Testing Systems with Intelligent Flight Controls  [Joint with FT]
+ * Formal Methods in Aerospace Engineering
+ * Guidance, Navigation and Control in Intelligent Systems [Joint with GNC]
+ * Human – Automation Interaction
+ * Learning, Reasoning, and Data Driven Systems
+ * Probabilistic and Rule-Based Systems
+ * Sensor Fusion and Systems Health Management (SHM)
+ * Space Trusted Autonomy
+ * Other Topics in Intelligent Systems
+
+Liquid Propulsion
+
+Please direct questions to:
+Shae Williams, Moog
+Jason Hartwig, NASA Glenn
+Matt Quinlan, University of Colorado, Colorado Springs
+
+Papers are sought from all areas related to liquid rocket propulsion, including component and system level technologies, new concepts and applications, novel or enabling manufacturing technologies, storable and cryogenic propellant applications, related research and development programs, associated test facilities, modeling approaches, and sustainability and economic impacts. Topics of interest include, but are not limited to:
+
+ * Additive Manufacturing and Materials for Application to Liquid Propulsion Systems (Joint LPTC/MAT)
+ * Chemical/Electric Dual-Mode Propulsion (joint LPTC/EPTC)
+ * Cryogenic Propellant Application for Vehicles, Ground Use, and In-Situ Utilization
+ * Current and Historical Lessons Learned in Liquid Propulsion Development and Operation
+ * Gravity Dependent Design, Analysis, and Testing for Liquid Propellants (joint LPTC/GDSTTC)
+ * Green and Novel Propellant Studies, Development, Test and Applications
+ * Liquid fueled Rotating Detonating Engines (joint LPTC/PGCTC)
+ * Liquid Propulsion Component Design, Analysis, Testing, and Operation
+ * Liquid Propulsion System Design, Analysis, Testing and Operation
+ * Modeling and Simulation of Liquid Propulsion Systems, Components, and Processes
+ * Propellant Management, Storage, and Feed System Design, Analysis and Testing
+ * Propellant Transfer and In-Space Refueling
+ * Sustainability, Economics, and Certification Concerns for Launch Vehicles and Propulsion Systems
+ * Test Facilities and Advanced Diagnostic Techniques for Liquid Propulsion Systems
+ * Other Topics in Liquid Propulsion
+
+Materials
+
+Please direct questions to:
+Yumeng Li, University of Illinois at Urbana Champaign
+Paul Davidson, Florida State University
+
+The TC seeks papers related to cutting-edge research and development of aerospace materials. Submissions are encouraged in topic areas such as modeling, synthesis, processing, testing, and characterization. Applications may include, but are not limited to, structural and nonstructural, multifunctional, adaptive, bio-inspired and renewable materials, coatings, and thin films. Special focus areas include microstructure characterization, manufacturing process models, material property models, novel experimental methods, inspection, maintenance, and environmental impact. Papers on experimental and analytical methods that lead to understanding of mechanical performance, environmental sensitivity, fatigue and fracture, time- and rate-dependent behavior, durability, damage tolerance, aging, and in-service performance are included. Joint sessions will be held on topics such as AI/ML for materials, structures and optimization. Please click on the Additional Details  for more information on session topics.
+
+ * AI/ML for Materials, Structures and Optimization (with STR and MDO)
+ * Bioinspired Materials and Structures
+ * Fatigue and fracture
+ * Materials for Additive Manufacturing
+ * Materials for Extreme Environments
+ * Materials for High-rate Manufacturing
+ * Microstructure Characterization and Modeling
+ * Multifunctional Materials for Aerospace
+ * Multiscale modeling
+ * Nanostructured materials
+ * Testing and Characterization of Materials
+ * Thermoplastic Composites
+ * Uncertainty Quantification for AM and Composite Material Characterization (With NDA)
+ * Materials – General
+
+Meshing, Visualization, and Computational Environments
+
+Please direct questions to:
+Mohammed Kamel, Aramco Americas
+Lubos Brieda, California Polytechnic State University
+
+Technical papers and panels are solicited in all areas of Geometry Modeling, Meshing, Visualization, and Computational Environments, including CAE and AI/ML workflows, I/O and data formats, software and hardware architectures, cloud computing, pre- and post-processing, numerical methods, and computational solvers. We encourage contributions that present innovative methodologies, mature technologies, identified gaps and improvement opportunities, current challenges, and interdisciplinary or collaborative efforts.
+
+For technical papers, extended abstracts must include: a thorough literature review, detailed methodology, preliminary results, and clear objectives for completion (for ongoing work).
+
+For panels, please email a one-paragraph abstract and the list of confirmed panelists to the Technical Discipline Chair and Deputy Chair prior to submission to the Call for Sessions.
+
+Technical presentations are by invitation only and must be coordinated in advance. Students are strongly encouraged to participate in the MVCE Student Paper Competition. While specific topics of interest are listed below, related contributions are welcome.
+
+ * AI/ML-Assisted Geometry Modeling and Mesh Adaptation for CFD (MVCE/FD)
+ * CFD and HPC of Large-Scale Meshes for Applied Aerodynamics (MVCE/APA/CFD2030)
+ * Computational Electromagnetics for Aerospace Applications (Oral Only, MVCE/FD)
+ * Geometry Capturing, Modeling, and Representation
+ * Geometry Modeling and Meshing for MDO (MVCE/MDO)
+ * High-Order Mesh Adaptation and Moving/Deforming Meshes
+ * HPC and Computational Environments for CAE and AI/ML Workflows
+ * Mesh Adaptation and Non-Conformal Grids for CFD (MVCE/FD)
+ * Mesh Generation Methods and Overset Meshes
+ * Sizing, Shape, and Topology Optimization (MDO/STR/MVCE)
+ * Special Session: Utility of LLMs for Fluids (Only by Invitation, FD/MVCE)
+ * Surrogate Modeling and Adaptive Meshing for Multi-Physics Flow Systems (MVCE/FD/NDA)
+ * Uncertainty Quantification, Grid Quality & Error Estimation for Computational Physics (MVCE/FD/NDA)
+ * Verification Techniques in Computational Physics (Oral Only, FD/MVCE/NDA)
+ * Visualization and Knowledge Extraction of Large Data Sets (MVCE/APA/CFD2030)
+ * Visualization of Experimental Flow Data (MVCE/FD)
+ * Other Topics in Meshing, Visualization, and Computational Environments
+
+Modeling and Simulation Technologies
+
+Please direct questions to:
+Steve Walstrom, Lockheed Martin Aeronautics
+Jennifer Klenka, Lockheed Martin Aeronautics
+
+The scope of the Modeling and Simulation (M&S) Technologies discipline encompasses modeling and simulation (M&S) of aerospace vehicles in a system or system of systems context (e.g., flight simulators, airspace simulations, space operations simulations, systems analysis). A paper that solely covers M&S methods for a single engineering discipline like structures or applied aerodynamics should be submitted to that discipline. Each submission will be reviewed by at least three members of the Modeling and Simulation Technical Committee. Authors submitting extended abstracts are encouraged to include as many details about their work as possible to help reviewers make informed evaluations. At each conference, members of the Modeling and Simulation Technical Committee sit in the audience and judge all presentations as the first step of their selection of a best paper at the conference. The papers associated with the best presentations in each session will be evaluated further. The best overall paper will be awarded at the conference the following year. A student paper competition will also be held. Please click Additional Details  for more information.
+
+ * Adapting New Technology to Modeling and Simulation Infrastructure for Aerospace
+ * Design, Development, Testing, and Validation of X-in-the-Loop Simulation and LVC
+ * Human Factors, Perception, and Cueing
+ * Model and Simulation Integration
+ * Modeling and Simulation for Aerospace Cybersecurity
+ * Modeling and Simulation for Autonomous Guidance, Navigation and Control (joint GNC/MST)
+ * Modeling and Simulation for Certification and Qualification
+ * Modeling and Simulation of Air Vehicle Dynamics, Systems, and Environments
+ * Modeling and Simulation of Space Vehicle Dynamics, Systems, and Environments
+ * Simulation of Air Traffic Management (ATM)
+ * Simulation-Based Software Development and Verification
+ * Simulator Hardware and Facilities
+ * Other Modeling and Simulation Topics
+
+Multidisciplinary Design Optimization
+
+Please direct questions to:
+Alexander Carrere, Boeing
+Antonio De La Garza, Lockheed Martin
+
+The Multidisciplinary Design Optimization (MDO) Technical Committee has brought together industry practitioners, government employees, and academics to present and discuss the latest developments in multidisciplinary design, analysis, and optimization for decades.
+Multidisciplinary optimization has been successfully carried out for problems ranging from the design of individual components to complex systems. Additionally, theoretical advances, from new optimization algorithms to approaches for robust and reliability-based design are playing an ever-growing role in this rapidly evolving field. With the emergence of digital transformation, engineering and artificial intelligence, MDO is becoming ever more pertinent in generating innovative designs to achieve unprecedented levels of performance.
+
+Technical papers are sought in areas related to the development and application of numerical optimization, design with uncertainties, multi-fidelity analysis methods, machine learning and artificial intelligence approaches to single and multidisciplinary design optimization
+
+Please click Additional Details  for more information.
+
+ * Aerodynamic Design: Analysis, Methodologies, and Optimization (joint APA/ACD/MDO)
+ * AI/ML in Structures, Materials, and Optimization (joint STR/MAT/MDO)
+ * Emerging Methods, Algorithms, and Software Development in MDO
+ * Geometry Modeling and Meshing for MDO (joint MVCE/MDO)
+ * Large Language Models and Agents for MDO
+ * Machine Learning and Optimization
+ * MDO Beyond Aerodynamics and Structures
+ * MDO Beyond Aerodynamics and Structures
+ * MDO in Aircraft and Spacecraft Design (joint ACD/MDO)
+ * MDO/Sensitivity Analysis with Aeroelasticity/Fluid-Structure Interaction (joint MDO/STR/APA)
+ * Model Order Reduction and Surrogate Modeling (joint NDA/MDO)
+ * Multi-disciplinary Design and Decision-Making Under Uncertainty (NDA/MDO/DE/ACD)
+ * Physics-Informed Machine Learning (joint MDO/NDA)
+ * Sizing, Shape, and Topology Optimization (joint MDO/STR/MVCE)
+ * Solving Inverse Problems in Engineering
+ * Special Session: A Vision for Next Generation MDO
+ * Special Session: MDO Benchmarks for Aircraft Design
+ * Special Session: Technology Transfer in Emerging MDO Methods and Software
+ * Multidisciplinary Design Optimization – General
+
+Nuclear and Future Flight Propulsion
+
+Please direct questions to:
+Demir Erkiralp,University of Illinois Urbana-Champaign
+Stephanie Thomas, Princeton Satellite Systems
+
+Papers should address approaches for nuclear-powered rocketry and alternative, physics-based propulsion systems. Relevant topics include all aspects of nuclear thermal rocket (NTR) design, testing, and utilization as well as innovative or emerging concepts for fusion-based, antimatter or hybrid space systems. “Future Flight” topics include concepts for both near- and far-term propulsion architectures that require significant advancements in physics and propulsion science. Applications of space-time manipulation, gravity modification, electromagnetic coupling, particle/quantum physics, relativistic assessments or fluidic continua are valid for this area. Future Flight papers should be well-founded in theory and clearly identify a propulsion application. Any performance comparisons must include uncertainty bands. Session categories include:
+
+ * Advanced Physics, Quantum Mechanics, and Gravitational Models
+ * Analysis of Missions Enabled by Nuclear or Future Propulsion
+ * Fusion, Alternative Nuclear, and Antimatter Concepts
+ * Nuclear Thermal Propulsion: Engine Modeling
+ * Nuclear Thermal Propulsion: Fuels and Materials
+ * Nuclear Thermal Propulsion: Testing and Programmatics
+
+Plasmadynamics and Lasers
+
+Please direct questions to:
+Caroline Winters, National Physical Laboratory
+Arthur Dogariu, Texas A&M University
+Gabe Xu, University of Alabama in Huntsville
+
+Papers are solicited describing experimental, computational, theoretical, or applied research and development in the areas of plasmadynamics and lasers with application to aeronautics, astronautics, and energy. Works focusing on fundamentals of plasma dynamics and kinetics, as well as femtosecond and short-pulsed laser physics, are especially encouraged. Efforts combining contemporary theoretical/computational analyses with experimental verification/validation and which represent notable advancements in the aerospace sciences are especially encouraged. Special consideration will be given to works reporting milestone R&D and/or engineering achievements related to aerospace system application of plasma and laser technologies. Survey papers on the current state of the art and historical perspectives are also desired. Topics of interest include but are not limited to:
+
+ * Aero-Optics and Atmospheric Optical Turbulence
+ * Atmospheric and Space Plasmas
+ * Computational Methods for Plasmas and Lasers
+ * Diagnostics for Plasmas and Nonequilibrium Flows Joint Session (AMT/PDL)
+ * Hypersonics and Entry Flow Plasmas
+ * Plasma and Laser Physics (Dynamics and Kinetics)
+ * Plasma and Laser-Based Propulsion
+ * Plasma-Assisted Aerodynamics
+ * Plasma-Assisted Ignition and Combustion
+ * Other Topics in Plasmas and Lasers
+
+Pressure Gain Combustion
+
+Please direct questions to:
+Daniel Pineda, The University of Texas at San Antonio
+James Braun, North Carolina State University
+
+Papers are sought that are focused on the development and application of Pressure Gain Combustion (PGC) for propulsion and power generation systems. PGC includes both deflagration and detonation combustion modes and is broadly defined as a fundamentally unsteady process whereby gas expansion during heat release is constrained, causing a rise in stagnation pressure and allowing work extraction through expansion to the initial pressure. Examples of PGC include — but are not limited to — resonant pulse combustion (PC), pulse detonation combustion / engine (PDC / PDE), rotating detonation combustion / engine (RDC / RDE), internal wave rotor combustion (WRC), and constant volume combustion (CVC). Relevant research topics include fundamental research but emphasize applied technologies, with the following subtopics:
+
+ * Combustor Operability, Optimization, and Performance with Liquid and Gaseous Fuels
+ * Component and Subsystem Design and Evaluation
+ * Computational Modeling, Simulation, and Validation
+ * Diagnostics for the Study of Fundamental and Applied Detonation Physics Joint Session (AMT/PGC)
+ * Fundamental Investigation of Pressure Gain Combustion Concepts
+ * Inlets and Nozzles for Pressure Gain Combustion Systems (INPSI/PGC)
+ * System Integration and Applications
+ * Thermal Management
+
+Propellants and Combustion
+
+Please direct questions to:
+Xinyu Zhao, University of Connecticut
+Claresta Dennis, NAWCWD
+
+Papers are sought that describe experimental, numerical, theoretical, and/or applied results in all areas of combustion relevant to propulsion and energy generation in aerospace systems. Submissions are encouraged from academia, government, and industry. Topics of interest include but are not limited to:
+
+ * Additive Manufacturing in Combustion Applications
+ * Advanced Combustion, Propellants, and Combustor Concepts
+ * Combustion and the Environment
+ * Combustion Chemistry
+ * Combustion Diagnostics
+ * Combustion Dynamics and Instabilities
+ * Combustion Modeling and Simulation
+ * Data-driven approaches for Combustion
+ * Detonations, Explosions, and Supersonic Combustion
+ * Fuels, Propellants, and Energetic Materials
+ * Laminar and Turbulent Flames
+ * Machine Learning for Combustion
+ * Micro-Scale Combustion
+ * Rocket and Air-Breathing Combustion
+ * Spray and Droplet Combustion
+ * Other Topics in Propellants and Combustion
+
+Sensor Systems and Information Fusion
+
+Please direct questions to:
+Justin Kauffman, Virginia Tech
+Anaiya Reliford, Howard University
+
+Papers are sought that address theoretical, analytical, simulated, experimental, or implementation results related to aerospace applications for sensor systems, information and sensor fusion, and autonomous sensing resource management. Advances in the fusion of sensor networks, cooperative sensing, autonomy, and multi-system collaboration are of particular interest. Concepts regarding Artificial Intelligence/Machine Learning and Joint All Domain Operations (JADO) are of interest as well. Additionally, advanced sensors (neuromorphic, quantum, etc.), sensors for situational awareness, and new sensor designs and/or sensor hardware are encouraged topic focus areas.
+
+ * Advanced Sensor Data Processing Techniques
+ * Applications of Sensor and Information Fusion
+ * Artificial Intelligence/Machine Learning
+ * Autonomy and/or Collaboration
+ * Cyber Fusion
+ * Developing Trust in Autonomous Systems
+ * Fusion or Integration of Networked Sensors or Systems
+ * Human Interface with Complex or Autonomous Systems
+ * Identification, Situation Awareness, and Sensemaking
+ * Joint All Domain Operations (JADO)
+ * Multi-Sensor Field/Flight Experiment Planning, Implementation, and Analyses
+ * Neuromorphic and Quantum Sensors
+ * New Sensor Designs and Hardware
+ * Novel Sensors for Aerospace Applications
+ * Sensor Systems for Space Applications
+ * Sensor/Resource Management
+ * Sensors for Harsh Environments
+ * Sensors for Situational Awareness
+ * UAV Sensors and Sensing Systems
+
+Small Satellites
+
+Please direct questions to:
+James Cutler, University of Michigan
+Po-Hao Adam Huang, University of Arkansas
+
+We invite submissions on all aspects of small satellite (~500 kg and smaller) systems (SATS), including subsystem design, construction, operations, as well as education and workforce development. Papers will be selected based on a full draft manuscript or a detailed extended abstract, both formatted according to AIAA guidelines.
+
+Selection will be based on the maturity of the work, with an emphasis on relevant technical details. To facilitate a thorough review process, we encourage draft papers and extended abstracts to be as complete as possible.
+
+Submissions are welcomed from academia, government, and industry. Topics of interest include, but are not limited to:
+
+ * Results from Prior Missions
+ * Small Satellite Education, Workforce Development and Public Outreach
+ * Small Satellite Communications
+ * Small Satellite Constellations
+ * Small Satellite Guidance, Navigation and Control (joint GNC/SATS)
+ * Small Satellite Novel Technologies
+ * Small Satellite Propulsion
+ * Small Satellite Software, Autonomy, and Operations
+ * Small Satellites Sensors and Payloads
+ * Upcoming Missions
+
+Society and Aerospace Technology
+
+Please direct questions to:
+John Hays, Retired
+Christian Yeara
+
+The Society and Aerospace Technology Outreach Committee (SAT OC) is soliciting papers that examine the societal benefits of aerospace technologies/products, as well as the relationship between aerospace and society, culture, and the arts.
+
+ * Astrosociology
+ * Emerging Trends, New Processes, Novel Aerospace Applications (joint DE/HMT/SAT/TF)
+ * Energy, Environment and Sustainability in the Context of Aerospace Technology and Products
+ * Ethics in Aerospace
+ * Impacts of Mis- and Disinformation and Approaches to Counter Deceptive Practice
+ * Planetary Defense
+ * Popular Culture Influences from Aerospace Technology
+ * Societal Consequences and Issues from Aerospace Technology and Policy
+ * Societal Institutions, Governance, and Group Dynamics in Isolated Communities
+ * Societal, Public, and Popular Culture Influence on Aerospace Technology and Policy
+ * Trustworthiness and Reliance in Adopted Intelligence/Automation Tools and Processes (joint SAT/DE)
+ * Other Topics in Society and Aerospace Technology
+
+Software
+
+Please direct questions to:
+Ronnie Killough, Southwest Research Institute
+Ashok Prajapati, NASA GSFC
+
+The software landscape in aerospace is rapidly evolving – driven by advances in autonomy, artificial intelligence (AI), architectures and rapid advances in drones and other unmanned technologies. SciTech 2027 invites researchers and practitioners from academia, industry, and government to share groundbreaking work at the intersection of aerospace and computer science. In addition to technical papers, we encourage proposals for special sessions and talks that highlight significant aerospace software programs, important and interesting historical topics in aerospace software, lessons learned, and major industry/government initiatives. Topics of interest are listed below; although, additional topics of interest to aerospace software research and practice are also encouraged, and of particular interest are submissions that span multiple topics.
+
+ * Agile, DevOps, and DevSecOps Software Processes
+ * AI-Augmented Software Development, Including Large Language Models
+ * Formal verification of Autonomous Systems
+ * Lessons Learned from Software Development for Aerospace Projects
+ * Low Code/No Code use in Aerospace Software Development
+ * Mission-Specific Software Designs and Architectures
+ * Organizational Innovations in Aerospace Software Development
+ * Quantum Software Engineering for Aerospace Applications
+ * Runtime Monitoring and Assurance for AI and Autonomy
+ * Safe and Certifiable Parallelization of Multicore Processors and System on Chip Features
+ * Safety-Oriented Programming Languages (e.g. Rust)
+ * Simulation and Synthetic Data Engineering
+ * Software Engineering Practices for AI/ML in Aerospace Systems
+ * Usage and Needs of Aerospace Software Standards
+
+Solid Rockets
+
+Please direct questions to:
+Wes Ryan, NASA
+Gaurav Sharma, Kennesaw State University
+
+Soliciting papers that capture state-of-the-art, emerging developments and shifting trends in solid rocket propulsion. Areas of interest include unique design concepts, digital engineering/model-based approaches, novel material development, advanced manufacturing and inspection workflows, unique modeling approaches, component and system-level testing, data-driven analysis/validation methods, environmental impacts, STEM initiatives, and university capabilities. All abstracts will be evaluated by qualified individuals from industry, academia, or government.
+
+ * AI/Digital Engineering/Model-Based Systems Engineering
+ * Ballistic Prediction/Performance Assessment
+ * Combustion Stability
+ * Design Approaches/Innovations/Optimization
+ * Historical Motor Programs/Lessons Learned
+ * Manufacturing, Inspection, Disposal, and Decommissioning
+ * Modeling and Simulation Advancements
+ * New Development Programs/Status
+ * Propellant Characterization
+ * University Capabilities/Competitions/Initiatives
+
+Space Automation and Robotics
+
+Please direct questions to:
+Jacob Martin, NASA Langley Research Center
+Angel Flores-Abad, University of Texas El Paso
+
+The Space Automation and Robotics Technical Committee (SARTC) is soliciting papers on automation and robotics for in-space program applications. These sessions provide a forum for researchers in the field to come together to discuss the latest advancements in space robotics. Academia, industry, and government are all highly encouraged to contribute. Papers on a wide range of space automation and robotics (SAR) areas are welcomed, including but not limited to, design, development, fabrication, testing, application, and operation of SAR systems and components, consideration of SAR technology development needs, and human-machine interfaces. SAR will continue to carve out a specific SAR session to allow work in Space Automation and Robotics to converge into a single space, for more fruitful discussions, therefore non-robotics applications that benefit or use space automation or robotics are also encouraged.
+
+ * Current and Upcoming Space Robotics Missions
+ * Experimental Testing of Space Robotics Research and Development Hardware
+ * Ground-based Verification and Validation (V&V) of Space Robotic Systems
+ * Human-Automated Systems Interaction and Collaboration
+ * In-Space and On-Orbit Assembly Robotics
+ * In-Space and On-Orbit Manufacturing Robotics
+ * In-Space and On-Orbit Servicing Robotics
+ * Machine Learning and AI for Space Robotics and Automation
+ * New Initiatives for Commercialization of In-Space and On-Orbit Servicing, Assembly and Manufacturing
+ * Novel Technologies for Transforming Space Robotics and Automation Applications
+ * Teleoperation Technologies of Space Robotic Systems
+ * Other Topics in Space Automation and Robotics
+
+Space Exploration
+
+Please direct questions to:
+Surendra P. Sharma, NASA Ames Research Center
+Narayanan R Ramachandran, Amentum Space Exploration Division
+
+The Space Exploration track serves as the focal point for promoting awareness and advancement of space exploration, and to disseminate relevant information on leading-edge, current, new, emerging space exploration programs, general knowledge and awareness of exploration systems, technological needs and gaps, applications identification and activities, inter-disciplinary and inter-agency interactions, and national & international space policy matters and challenges. Papers are solicited describing the following activities: 1) ongoing experimental, computational and theoretical, or applied research, 2) activities related to the current and future technological needs, 3) planning, policy matters and Implementation ideas, in the technical disciplines relevant to Space exploration and sustaining the human presence in Cis-Lunar space and beyond. Please follow this link for Additional Details . Topics of interest include, but are not limited to:
+
+ * Accelerating the Space Economy-Building InSpace Infrastructure, and related opportunities
+ * Artificial Intelligence, Robotics, and Autonomy for Space Exploration
+ * Commercial Space
+ * Enabling Technologies for Space Exploration
+ * Flight Systems
+ * History as Applied to Modern Spaceflight
+ * Humans in Space Logistics, Medical issues, Bio-Research, Radiation, Artifical Gravity, ECLSS
+ * Impact of Space Endeavors on Earth’s Climate
+ * In-Space Infrastructure
+ * International Partnerships
+ * Lessons Learned from Previous Human Exploration
+ * Life Sciences and Human Systems Integration
+ * Longer Duration Space Missions (50+ years)
+ * Lunar Exploration
+ * Mission Architectures
+ * National Science Priorities
+ * Planetary Defense
+ * Space Nuclear Propusion
+ * Space Policy
+ * Using ISS and Terrestrial Analogs for Exploration
+ * Other Topics in Space Exploration
+
+Space Logistics
+
+Please direct questions to:
+Hao Chen, Stevens Institute of Technology
+Paul Grogan, Arizona State University
+
+Space Logistics focuses on enabling safe, affordable, and routine spacefaring operations throughout the central solar system. Space logistics is defined as the theory and practice of driving space system design for operability and supportability, and of managing the flow of materiel, services, and information needed throughout a space system lifecycle. Papers are solicited describing innovative logistical architectures, optimization tools, operations reserach methods, physical or information interface standards, and related system concepts to support future mission planning and improved public understanding.
+
+ * Advanced Space Logistics Infrastructures
+ * Logistics for In-space Servicing, Assembly, and Manufacturing (ISAM)
+ * Spaceport Ground Processing and Launch Logistics
+ * Space Logistics Campaign Planning: Methods, Modeling, Simulation, and Cost Analysis Tools
+ * Surface Exploration Logistics: Outpost Management and Provisioning, In-Situ Resource Logistics
+ * Other Topics in Space Logistics
+
+Space Operations and Support
+
+Please direct questions to:
+Keon Walters, Johns Hopkins University Applied Physics Laboratory
+
+The Space Operations and Support (OPS) Technical Committee (TC) is seeking papers to advance the practice of operating space missions, from mission concept through execution and sustainment. The OPS TC accepts work spanning crewed and uncrewed missions, single spacecraft to large constellations, and from LEO to cislunar and planetary regimes. Submitted abstracts should be in an operational context and demonstrate measurable impact, risk reduction, and/or lessons learned. Please click Additional Details  for more information.
+
+ * Mission Operations Engineering & Readiness
+ * Flight Dynamics Operations
+ * Ground Segment & Mission Control Operations
+ * Operations Automation & Decision Support
+ * Safety & Space Traffic Coordination
+ * Data Operations & Mission Product Pipelines
+ * Beyond-LEO/Cislunar/ Planetary Operations
+ * Special Session: Space Domain Vehicle Test & Evaluation (joint OPS/TF)
+
+Spacecraft Structures
+
+Please direct questions to:
+Fabien Royer, Cornell University
+Harsh Bhundiya, University of Maryland
+
+Spacecraft Structures provides an opportunity to discuss recent research findings, newly proposed concepts, and applied demonstrations emerging from spacecraft technology. The Spacecraft Structures Technical Committee is focused on the unique challenges associated with structural systems that operate in a space environment. This discipline is specifically focused on the challenges of design, analysis, fabrication, and testing of those lightweight structural systems that must be ground tested in a simulated zero-gravity condition, and are subjected to launch loads, deployment loads, and the space environment. Papers are invited in a broad range of areas from academia, government, and industry.
+
+ * Adaptive Spacecraft Structures and Systems (joint SCS/AS)
+ * Design Methods, Tools and Processes in support of Spacecraft Structures
+ * High Strain Composite Materials and Structures
+ * In-Space Servicing, Assembly and Manufacturing (ISAM) (joint STR/SCS/EDU)
+ * Lightweight and Inflatable Space Structures
+ * Solar Sails, Solar Shields, and Other Membrane Structures
+ * Spacecraft Antennas, Reflectors, and Other Optical Apertures
+ * Spacecraft Booms and Trusses
+ * Spacecraft Structures Test, Analysis, and Correlation
+ * Spacecraft Structures – General
+
+Structural Dynamics
+
+Please direct questions to:
+Abdessattar Abdelkefi, New Mexico State University
+Joel Sills, NASA Engineering and Safety Center
+
+The field of structural dynamics covers the study of response, stability, control, and adaptation of aerospace structures exposed to a wide variety of external and internal dynamic excitations. Such excitations can arise from the coupling of multiple disciplines such as aerodynamics, thermodynamics, acoustics, control, and flight mechanics; interactions among multiple components such as wings, rotors, pylons, airframe, engines, and drive systems; and high intensity external disturbances such as gusts, acoustics, shocks, impact, or thermally-induced loads in the vehicle operational environments. Papers are invited that report on fundamental understandings of such phenomena, development of new analytical, computational, and experimental methods for their prediction and analysis, and innovative methodologies for the design, development, and deployment of advanced technology of structures and components that exploit or mitigate them. Several special sessions are offered this year, please see Additional Details .
+
+ * Advances in AI/ML for Space Structures, Loads, and Structual Dynamics (Joint SD/SCS)
+ * Advances in High-Speed Fluid-Thermo-Structural Interaction (Joint SD/FD)
+ * Aero-, Servo-, Thermo-Elastic Phenomena
+ * Aeroelastic Problems of Hypersonic Vehicles
+ * Aeroelastic Problems of Small UAVs
+ * Aeroelastic Problems of Vertical Lift Vehicles
+ * AFRL SSC High-Speed FSI Computational and Experimental Test Compaings (Special Session)
+ * Aircraft Load Alleviation and Control (Joint AS/SD)
+ * Computer Methods, High Performance Computing, and Reduced-Order Modeling
+ * Dynamic Loads, Response, and Stability of Aerospace Vehicles
+ * Fatigue Loads, Spectrum Generation, and Testing (Joint STR/SD)
+ * Finite Element Modeling, Meshing, and Substructuring
+ * Fluid-Metamaterial Interactions (Joint SD/FD)
+ * Fluid-Structure Interaction (Joint SD/FD)
+ * Flutter and Limit-Cycle Oscillations
+ * International Computational and Experimental Test Compaings (Special Session)
+ * Machine Learning in Structural Dynamics and Aeroelasticity
+ * Nonlinear Dynamics of Flexible Multibody Systems, Contact, and Constraints
+ * Sensitivity Analysis with Aeroelasticity/Fluid-Structure Interaction (Joint MDO/STR/SD/APA)
+ * Space Jitter (Joint SD/GNC)
+ * Structural Dynamics of Engines and Drives
+ * Structural Dynamics of Lauch Vehicles and Spacecraft
+ * Structural Health Monitoring and HUMS
+ * Testing Methodologies for Structural Dynamics and Aeroelasticity
+ * Uncertainty Quantification for Acoustics and Structural Dynamics (Joint SD/NDA)
+ * Vibration and Vibroacoustic Control, Energy Harvesting, and Damping
+ * Whirl Flutter Testing and Prediction
+ * Structural Dynamics – General
+
+Structures
+
+Please direct questions to:
+Sean Taylor, Gulfstream Aerospace Corporation
+Vivian Johnson, Lockheed Martin Corporation
+
+The current goal of the Structures Technical Committee is to advance science and technology related to the design, analysis, computer modeling, optimization, manufacturing, and testing of aircraft, spacecraft, and launch vehicle applications. Technical paper topics may include the latest developments in both traditional and innovative structural concepts applied to a variety of platforms and mission requirements; structural testing ranging from coupons to full vehicles; structural materials that include metallic alloys, ceramics, and composites; and manufacturing techniques that range from traditional machining, composite fabrication, and additive manufacturing techniques. Topics may also include refinement and improvement of current approaches to structural repair, damage initiation/growth, durability/damage tolerance, fatigue, fracture, and stability. The Structures Technical Discipline welcomes papers exploring advances in structural applications, best practices, and historical lessons learned in the 2027 Call for Papers. Papers on related topics in structures not explicitly mentioned are also strongly encouraged.  Please see Additional Details  for more information.
+
+ * Air and Space Structural Design, Analysis, Test
+ * Buckling and Stability of Air and Space Structures
+ * Advanced Structural Computational Techniques
+ * Fatigue, Fracture, and Impact Damage of Structures
+ * Multifunctional Air and Space Structures
+ * Additive Structures and Advanced Manufacturing Techniques
+ * Structural Health Monitoring, Joints, Repairs, and Non-Destructive Evaluation
+ * Composites
+ * UQ and Risk Analysis in Structures (Joint with NDA)
+ * In-Space Servicing, Assembly, and Manufacturing (ISAM) (Joint with SCS/EDU)
+ * AI/ML in Structures, Materials, and Optimization (Joint with MDO)
+ * Structural Optimization Application for Air and Space (Joint with MDO/MAT)
+ * Fatigue Loads, Spectrum Generation, and Testing (Joint with SD)
+ * Sizing, Shape, and Topology Optimization (Joint with MDO/MVCE)
+ * MDO/Sensitivity Analysis with Aeroelasticity/Fluid-Structure Interaction (Joint with MDO/SD)
+ * Honor Session for Dr. Scott Norwood
+ * Structures – General
+
+Supersonics
+
+Please direct questions to:
+Sahil Patel, Boom Supersonic
+Darcy Allison, Aduril
+Lori Ozoroski, NASA
+
+Technical sessions for supersonics research is sponsored by the Supersonics Integration and Outreach Committee. Innovative research contributions related to the application of high-speed flight including flight regimes beyond typical supersonic speeds. Research results are solicited within topic areas related to high speed flight (including hypersonics). These include, but are not limited to:
+
+ * Aerodynamic Performance
+ * Aeroeslasticity
+ * Air-Traffic Management/Integration
+ * Conceptual Design Methods
+ * Engine Design and Integration
+ * Environmental Impact
+ * Ground and Flight Testing
+ * Hypersonics
+ * Low-Boom Design
+ * Manufacturing
+ * Market Study
+ * Modeling and Simulation
+ * Policy
+ * Structures
+ * Supersonic Aerodynamics (Joint APA/SPSN)
+ * Other Topics in Supersonics
+
+Survivability
+
+Please direct questions to:
+Beldon Lin, Lockheed Martin Aeronautics
+Savas Mavridis, Northrop Grumman
+
+The survivability discipline covers the capability of an aircraft or spacecraft system to avoid or withstand a hostile environment, man-made or otherwise. As part of the systems engineering process, survivability is affected by many other engineering disciplines, including materials (e.g., space debris protection, additive manufacturing for faster repairs), structures (e.g., damage tolerance, crashworthiness), flight controls (e.g., self-repairing flight controls), aerodynamics (maneuverability/agility), and propulsion (e.g., stealth). The Survivability Technical Committee (SURTC) is seeking papers that highlight current and state-of-the-art research and development of technologies and concepts to improve design, analysis, modeling, optimization, health monitoring, and/or testing for survivability. The SURTC is also looking for game changers that revolutionize the discipline in areas such as digital technologies to enable survivability testing and assessment of systems against kinetic and non-kinetic threats. Digital technologies include models, simulations, and digital twin capabilities. Special and joint sessions will be held on Survivable Structures and Materials for Survivability.
+
+ * Air Vehicle Survivability
+ * Cyber Survivability for Aerospace systems
+ * Digital Technologies for Survivability Testing and Evaluation
+ * Loss Driven Systems Engineering considerations for Survivability
+ * Materials for Survivability (joint SUR/MAT)
+ * Space Vehicle Survivability (e.g., orbital debris, extreme environments)
+ * Survivability against Non-kinetic Threats (e.g., directed energy, cyber)
+ * Survivability informed Design Optimization
+ * Survivable Structures (joint SUR/STR)
+ * Survivability – General
+
+Sustainability
+
+Please direct questions to:
+Trek Abdel-Salam, East Carolina University
+Nicole Viola, Politecnico Di Torino
+
+The need to foster sustainability across the aerospace industry is becoming increasingly recognized, owing to the inability of conducting business-as-usual in perpetuity. Achieving this goal will require significant developments in aerospace technologies and systems, climate and natural sciences, operational strategies, policy and regulation, supply chain and infrastructure, as well as other related areas. Papers are requested that advance the state of understanding and application in engineering, policy, society, economics, and the environment in relation to aerospace vehicles and operations.
+
+ * Aerospace Vehicle Emission (CO2 and non-CO2) Impacts on the Biosphere
+ * Aerospace Vehicle End-of-Life, Recycling, Repurposing, or Reuse
+ * Atmospheric interaction and Climate Impact of Launchers and Re-Entry Vehicles
+ * Business/Economic Benefits and Challenges of Aerospace Systems
+ * Design for Sustainability (vehicle, system, or operations)
+ * Eco-Design for Future Space Missions and Systems
+ * Launch and Re-Entry Vehicles’ Emissions
+ * Life Cycle and Technoeconomic Analysis of Aerospace Vehicle Operations
+ * Military Sustainability and System Sustainment
+ * Novel Aerospace Vehicle Technologies, Systems, and Concept of Operations
+ * Novel Power and Energy Systems for Sustainability
+ * Policy and Regulatory Impacts on Aerospace Sustainability
+ * Social Sustainability Impacts of Aerospace
+ * Other Topics in Sustainable Aviation
+ * Other Topics in Sustainable Space
+
+Systems Engineering
+
+Please direct questions to:
+Hanumanthrao (Rao) Kannan, University of Alabama in Huntsville
+John Gebhard, Rolls-Royce North America
+
+The Systems Engineering Technical Discipline invites papers that advance the theory, methods, and practice of systems engineering across aerospace and defense applications. Contributions are sought that deepen our understanding of how complex engineered systems are conceived, designed, verified, and sustained, with particular emphasis on work that bridges foundational rigor and practical impact. Papers grounded in mathematical frameworks and computational approaches are especially encouraged, as are empirical studies that yield generalizable insight. Topics span the full breadth of systems engineering, including system architecture and design theory, verification and validation, digital twin development, model-based methods, the convergence of artificial intelligence and systems engineering (both AI4SE and SE4AI), and sociotechnical integration. Contributions addressing space systems, hypersonic vehicles, and the emerging commercial space economy are of particular interest. All paper types are welcome, from theoretical developments and computational studies to controlled experiments and case studies with analytical depth. Abstracts will be evaluated by qualified reviewers from industry, academia, and government.
+
+ * AI for Systems Engineering (AI4SE) and Machine Learning Methods
+ * Analytical Case Studies and Lessons Learned
+ * Digital Twin Theory, Methods, and Tools for Development
+ * Mathematical Foundations of Systems Engineering
+ * Model-Based Systems Engineering and Digital Engineering
+ * Reliability, Resilience, Robustness, Assurance, and System Security
+ * Sociotechnical Systems and Human-System Integration
+ * System Architecture, Design, and Trade Space Exploration
+ * System-of-Systems, Complexity, and Emergent Behavior
+ * Systems Engineering Education, Pedagogy, and Research
+ * Systems Engineering for AI-Enabled Systems (SE4AI)
+ * Systems Engineering for Space, Cislunar, and Hypersonic Applications
+ * Systems Engineering Processes, Standards, and Lifecycle Engineering
+ * Systems Engineering Theory, Epistemology, and Ontology
+ * Systems Safety
+ * Verification, Validation, and Uncertainty Quantification
+ * Systems Engineering – General
+
+Terrestrial Energy
+
+Please direct questions to:
+Eldad Avital, Queen Mary University of London
+Liwei Zhang, University of Texas at Arlington
+Bhupendra Khandelwal, University of Alabama
+Santosh Shanbhogue, Massachusetts Institute of Technology
+
+Technical papers are sought that address research, technology development, and the implementation of energy and power production as well as propulsion systems for both aerospace and terrestrial applications.
+
+ * Advances in Renewable Energy (wind, solar, tidal, wave, geothermal and others)
+ * Alternative Fuels, Novel Pathways, and Novel Combustion Concepts
+ * Artificial Intelligence/Machine Learning in Energy Systems
+ * Carbon Capture, Sequestration, Storage, Utilisation and Sustainability
+ * Certification of Fuels
+ * Clean Fuel, Heat, Power, Added Value Products from Waste and Other Sources (Solar and Wind etc.)
+ * Combined Heat and Power with Ultra-Low Emission of Pollutants
+ * Combustors, Micro-Combustors, Turbines, Advanced Cycles & Designs
+ * Energy Storage, Management and Green Infrastructure
+ * Fire, Super-Critical Combustion
+ * Hybrid Power/Propulsion Concepts, Modelling and Systems
+ * Hydrogen, Ammonia, and other Hydrogen Carrier Fuels and the Powered Systems
+ * Nuclear Energy (Fission and Fusion)
+ * Policy, Environmental, and Historical Perspectives of Fossil/Renewable-Fuel Power Technologies
+ * Pollution and Chemical Kinetics, CO2 Use for Fuels and Value Added Products
+ * Techno-economic Analysis for Decarbonised Terrestrial Energy Systems
+ * Other Topics in Terrestrial Energy
+
+Thermophysics
+
+Please direct questions to:
+Savio Poovathingal, University of Kentucky
+Mark Alston, Advanced Textile Industries , Indiana
+Maitreyee Sharma Priyadarshini, Virginia Tech
+
+The AIAA Thermophysics Technical Committee is soliciting papers on topics related to all aspects of thermal energy and heat transfer along with their related aerospace applications for aviation and space flight. Contributions based on analytical, numerical, and/or experimental studies are welcomed as are timely survey and review articles. Please contact on of the three Technical Chairs listed above if you would like to help organize a special session.
+
+ * Ablation: Modeling, Experiments, and Applications
+ * Advanced Thermal Management Technology Development and Validation
+ * Aerothermodynamics and Thermal Protection Systems
+ * Air Quality and Comfort in Stationary and Mobile Confined Spaces
+ * Application of Local or Global Optimization Techniques in Modeling of Heat Transfer Applications
+ * CFD of Nonequilibrium Flow Physics
+ * Computational Modeling of Heat Pipes
+ * Cryogenics and Extreme Environments
+ * Emerging Investigators in Thermophysics (by invitation only)
+ * Emerging Thermal Technologies: 3D Printing, Oscillating Heat Pipes, Thermionics, and Other Areas
+ * Fundamentals of Ice Formation and De-Icing
+ * Heat and Mass Transfer for Natural and Stationary or Mobile Built Environments
+ * Heat Transfer Enhancement and Energy Harvesting
+ * Heat Transfer in Chemically Reacting, Explosive, UV and Corrosive Medium, Multicomponent Plasma
+ * Heat Transfer in Cooling, Heating, and Power Generation Systems
+ * High-temperature material testing for hypersonics (Joint TP/HyTASP)
+ * Inverse Analysis Methods in Computational Heat Transfer
+ * Methods and Effects of the Urban Heat Island
+ * Mini-, Micro-, Nano-, and Multi-Scale Heat Transfer
+ * Multiphase, Droplets, Jets, Sprays, Heat Pipes, and Two-Phase Heat Transfer
+ * Nonequilibrium Flow Physics
+ * Nonequilibrium Hypersonic Aerothermodynamics: Celebrating Chul Park’s Legacy (by invitation only)
+ * Novel Computational Methods for Inverse Analysis and Optimization in Computational Heat Transfer
+ * Spacecraft Thermal Control and Thermophysics in Spacecraft Applications
+ * Special Session: KRUPS Hypersonic Flight Program (by invitation only)
+ * Theoretical and Computational Heat Transfer: Conduction, Convection, Radiation, and Phase Change
+ * Thermal Analysis of Industrial Equipment and Systems Operating under Extreme Process Conditions
+ * Thermal Management and Thermal Control: Applications, Best Practices, and Lessons Learned
+ * Transport Properties and Thermophysical Properties
+ * Verification, Validation, and Uncertainty Quantification
+
+Transformational Flight
+
+Please direct questions to:
+Nat Blaesser, NASA
+Virginia Stouffer, Transformational Technologies
+
+Technical papers are requested relating to advanced vehicle concepts for vertical lift or fixed wing vehicles operating in established or emerging markets. Papers can also analyze aviation market studies, novel propulsion (energy source or propulsor configuration) integration and component technologies, piloted/autonomous/self-flying aircraft, simplified aircraft/vehicle operation, distributed propulsion.
+
+ * Aeroacoustics of Advanced Air Mobility Aircraft/Operations (joint AA)
+ * Air Traffic Management for Advanced /Transformational Aircraft Concepts (joint UAS)
+ * Autonomous Vehicle Operations, and Simplified Vehicle Operations (joint DA/UAS)
+ * Creative design, emerging trends, new processes, novel aerospace applications (joint DE/HMT/SAT/TF)
+ * Design for system lifecycle needs including -ilities & effectiveness-based design (joint DE/SE/TF)
+ * Design, Analysis, and CONOPS of Advanced Air Mobility Vehicles (joint ACD/EAT/VSTOL)
+ * Electric, Cryogenic, and Hybrid Propulsion Components and Integration Technologies (joint EATS)
+ * Energy Infrastructure and Sustainability Considerations (joint Sustainability)
+ * Ground and Flight Test of Advanced Air Mobility Vehicles/Concepts (joint FT)
+ * Novel-Powered Aircraft: Design, Safety, and Operations (joint EATS)
+ * Urban, Regional, and On-Demand Air Mobility, Emergent Aviation Market Studies
+ * Vehicle Concepts for Flight on Other Planets (joint VSTOL)
+ * Wing In Ground Effect and Sea-Based Aircraft Design and Operations
+
+Uncertainty Quantification
+
+Please direct questions to:
+Anirban Chaudhuri, Oden Institute for Computational Engineering and Sciences
+Erin DeCarlo, Southwest Research Institute
+
+Uncertainty Quantification (UQ) (previously, Non-Deterministic Approaches (NDA)) conference encompass methods and technologies for understanding, quantifying, and managing uncertainty in the design, manufacturing, testing, and operation of aerospace systems. These approaches integrate computational, experimental, and data-driven techniques to characterize and propagate uncertainty through complex, multidisciplinary systems; enable design and optimization under uncertainty; and assess system reliability and risk. The conference welcomes advances in uncertainty quantification, verification and validation, risk analysis, probabilistic surrogate modeling, digital twins and digital threads, AI/ML-enabled uncertainty methods, and decision-making under uncertainty. Contributions spanning foundational methodological developments, novel algorithms, and high-impact aerospace applications are encouraged. The UQ conference serves as a premier forum for researchers, practitioners, and industry leaders to exchange advances in theory, algorithms, and real-world implementation of uncertainty quantification and management across aerospace. Student submissions are welcome and encouraged for the Southwest Research Institute Student Paper Award in Uncertainty Quantification (with an award of $500 and a certificate). Please click Additional Details for more information. Topics of interest include:
+
+ * Bayesian Methods for Uncertainty Quantification
+ * Certification by Analysis Challenge Problem (CFD2030/APA/UQ)
+ * Model order reduction and surrogate modeling (UQ/MDO)
+ * Multi-disciplinary design and decision-making under uncertainty (UQ/MDO/DE/ACD)
+ * Multifidelity Methods for Uncertainty Quantification and Decision-Making
+ * Physics-Informed Machine Learning (MDO/UQ)
+ * Risk and Reliability Analysis
+ * Special Session: Quantum Computing for Fluid Dynamics (only by invitation, FD/UQ/MST)
+ * Surrogate Modeling and Adaptive Meshing for Multi-Physics Flow Systems (MVCE/FD/UQ)
+ * Uncertainty Quantification and Management in Aerospace – General
+ * Uncertainty Quantification and Risk Analysis in Structures (UQ/STR)
+ * Uncertainty Quantification for AM and Composite Material Characterization (UQ/MAT)
+ * Uncertainty Quantification in GNC (UQ/GNC)
+ * Uncertainty Quantification, Grid Quality, & Error Estimation for Computational Physics (MVCE/FD/UQ)
+ * V&V and Uncertainty Quantification in Digital Twins/Threads, and Digital Eng. (DGE/DE/UQ)
+ * Verification Techniques in Computational Physics (oral only FD/MVCE/UQ)
+
+Uncrewed and Autonomous Systems
+
+Please direct questions to:
+Srikanth Gururajan, Saint Louis University
+Anaiya Reliford, Howard University
+
+Integration of technical and operational areas enabling uncrewed systems domain. Areas include autonomous, automated, and intelligent systems, and remote operations. Composing domains include design (SW/HW/Data), machine intelligence, CONOPs (e.g., AAM), operational aspects, certification, and regulation. The focus of the submissions must be on the underlying principles, models, algorithms, and governing equations.
+
+ * Air Traffic Management for Advanced Aircraft Concepts (joint Transformational Flight TC)
+ * Autonomous Mission Management Concepts & Technologies
+ * Autonomous Systems and Capabilities for Uncrewed, Deep Space Missions
+ * Autonomous Task and System Integration
+ * Autonomy for Advanced Air Mobility Systems
+ * Certification Concepts for Increasingly Autonomous Systems
+ * Flight Testing of Uncrewed/Autonomous Systems (joint Flight Testing TC)
+ * Machine Intelligence and Software defined Hardware
+ * Novel Concepts and Applications for Uncrewed/Autonomous Systems
+ * Optimizing the Human Crew-Machine Relationship
+ * Routine Autonomous Multi-Vehicle Operations
+ * Sensors and Data Systems for Uncrewed/Autonomous Systems
+ * Systems Design and Optimization for Uncrewed/Autonomous System
+
+Vertical/Short Take-Off and Landing (V/STOL) Aircraft Systems
+
+Please direct questions to:
+Mahdis Bisheban, University of Calgary
+Mohan Paniker, Wisk Aero
+Jielong Cai, Worcester Polytechnic Institute
+Geoffrey Jeram, U.S. Army DEVCOM
+
+The Vertical / Short Takeoff and Landing Technical Committee (V/STOL TC) invites authors from industry, academia, or government to present technical or scientific papers covering advances in science, technology, and operation of V/STOL aircraft and their requirements, applications, business, and governance. The V/STOL TC accepts extended abstracts with a length between 1000 and 2500 words, submitted in PDF digital file format. Abstracts of the intended paper should present the background and status of their endeavor (ex. research or project), including sample figures or illustrations, and a summary of significant conclusions. The TC will evaluate the abstracts by their significance, originality, technical quality, and prospect of successful completion & presentation.
+
+*** Students must select the “Student Paper Competition” presentation type during the electronic submission process. ***
+
+The V/STOL TC seeks papers supporting V/STOL advances (as above) and gives special attention to the following topics:
+
+ * Advances in V/STOL flight control laws, handling qualities, and Pilot/User-Vehicle Interfaces
+ * Breaking developments in V/STOL-enabling Arts, Sciences, and Technologies
+ * Case studies of successful V/STOL commercial applications
+ * Current & historical V/STOL Technology Overviews, Program updates, and business case studies
+ * Electrified Aircraft Design (fixed-wing & rotary-wing platforms)
+ * Heavy through Ultra-Heavy V/STOL lift solutions (>20,000 kg payload)
+ * Programs and Policies toward a V/STOL-enabling industrial base
+ * V/STOL in modern airspace management and airworthiness certification
+ * Vertiport architecture considerations, designs, lessons, viability
+
+Wind Energy
+
+Please direct questions to:
+Todd Griffith, University of Texas at Dallas
+Taeseong Kim, Technical University of Denmark
+
+Papers are solicited for the AIAA Wind Energy Symposium covering a broad range of topics related to onshore and offshore wind turbine and wind farm technology. Technical areas of interest include aerodynamics, acoustics, aeroelasticity, structural dynamics, fatigue and extreme loads, design, performance optimization and control, uncertainty quantification, atmospheric inflow, innovative concepts, materials, manufacturing, testing, sensors, health monitoring, reliability, floating wind turbines, transition to turbulence modeling and experiments, wind farm design, and wind farm control. There will also be joint sessions including with Non-Deterministic Approaches (e.g., for uncertainty quantification). Individuals with expertise in these areas are encouraged to submit to these sessions.
+
+ * Active Flow Control, Active Load Control
+ * Aeroelasticity, Structural Dynamics, and Loads Prediction
+ * Atmospheric Physics and Inflow
+ * Blade Aerodynamics and Aeroacoustics
+ * Blade Structural Mechanics, Materials, Manufacturing, and Structural Testing
+ * Field Testing of Wind Energy Systems
+ * Innovations and Novel Concepts
+ * Machine Learning in Wind Energy Applications
+ * Offshore Wind Technology (shallow water and floating)
+ * Optimization and Control at Turbine and Plant Level
+ * Uncertainty Analysis Advancements for Wind Energy Applications
+ * Wake Physics, Modeling, and Experimentation
+ * Wind Turbine/Rotorcraft/Propeller Multi-Physics Modeling Approaches
+
+GOLD SPONSOR
+
+SPONSORS
+
+CORPORATE PARTNERS
+
+Premier Sponsor
+
+Sponsors
+
+The American Institute of Aeronautics and Astronautics (AIAA) is the largest and most prestigious community of aerospace professionals in the world. AIAA exists to help aerospace professionals and their organizations succeed across government, industry, and academia.
+
+ABOUT THIS SITE
+
+Sitemap
+Privacy Policy
+Policies
+
+© 2026 SCITECH
+
+ * x-twitter
+ * linkedin
+ * youtube
+ * instagram
+ * flickr
+ * discord
+
+Close Menu
+ * Attend
+   * Registration
+   * Reasons to Attend
+   * Get Approval to Attend
+   * Hotel & Travel
+   * Tips for Travel Approval
+   * Information about Visas
+ * Program
+   * Forum Program
+   * Career Accelerator Program
+   * Courses and Workshops
+   * General FAQs
+ * Call for Content
+   * Call for Papers
+     * Student Paper Competitions
+     * Abstract Submission Process & Requirements
+   * Call for Sessions
+   * Technical Presenter Resources
+   * Organizer Resources
+ * Sponsor & Exhibit
+   * Expo Hall Hours
+ * Sign Up for Updates
+
+ * About
+   * Organizers
+   * Media
+   * Policies
+   * Past Forums
+   * Future SciTech Dates
+ * Advertise with AIAA
+
+ *
+ *
+ *
+ *
+ *
+ *

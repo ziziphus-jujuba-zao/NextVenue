@@ -1,0 +1,80 @@
+# NeurIPS 2024 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: neurips
+year: 2024
+kind: submissions_only
+precision: chart_read
+track_zh: 主会，按审稿分配时的领域
+tolerance:
+  count: 10
+source_url: https://blog.neurips.cc/2024/12/12/neurips-2024-experiment-on-improving-the-paper-reviewer-assignment/
+quote: We also compared the statistics across different subject areas.
+src: neurips-2024-assignment-experiment
+quote_check: snapshot
+figure_urls:
+  - https://blog.neurips.cc/wp-content/uploads/papers_by_subject_area.png
+gap_note_zh: 图上各领域合计约 15,650 篇，官方主会投稿 15,671 篇
+note_zh: 官方只画了各领域投稿数，没有录用数，所以没有各领域录用率
+checked: 2026-09-25
+rows:
+  - area: Machine Vision
+    submissions: 2305
+  - area: Natural Language Processing
+    submissions: 1035
+  - area: Reinforcement Learning
+    submissions: 990
+  - area: Generative Models
+    submissions: 830
+  - area: Deep Learning Architectures
+    submissions: 765
+  - area: Safety In Machine Learning
+    submissions: 755
+  - area: Optimization
+    submissions: 720
+  - area: Other
+    submissions: 715
+  - area: Diffusion Based Models
+    submissions: 700
+  - area: Machine Learning For Other Sciences And Fields
+    submissions: 680
+  - area: Learning Theory
+    submissions: 670
+  - area: Graph Neural Networks
+    submissions: 570
+  - area: Interpretability And Explainability
+    submissions: 515
+  - area: Optimization For Deep Networks
+    submissions: 490
+  - area: Probabilistic Methods
+    submissions: 425
+  - area: Machine Learning For Physical Sciences
+    submissions: 390
+  - area: Neuroscience And Cognitive Science
+    submissions: 390
+  - area: Machine Learning For Healthcare
+    submissions: 385
+  - area: Privacy
+    submissions: 365
+  - area: Causal Inference
+    submissions: 275
+  - area: Online Learning
+    submissions: 230
+  - area: Bandits
+    submissions: 210
+  - area: Fairness
+    submissions: 190
+  - area: Evaluation
+    submissions: 190
+  - area: Algorithmic Game Theory
+    submissions: 170
+  - area: Robotics
+    submissions: 145
+  - area: Infrastructure
+    submissions: 135
+  - area: Human-AI Interaction
+    submissions: 115
+  - area: Speech And Audio
+    submissions: 105
+  - area: Machine Learning For Social Sciences
+    submissions: 105
+  - area: Active Learning
+    submissions: 80

@@ -1,0 +1,95 @@
+id: sp-2027
+series: sp
+name: IEEE S&P 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Montreal, country: Canada, country_code: CA }
+dates: { start: 2027-05-17, end: 2027-05-19 }
+milestones:
+  - type: paper
+    label_zh: 第一轮正文
+    at: 2026-06-11T23:59
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Paper submission deadline: June 11, 2026"
+    note_zh: 已截止；摘要注册是 6/4。
+  - type: notification
+    label_zh: 第一轮出结果
+    at: 2026-09-11
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Acceptance notification: September 11, 2026"
+  - type: camera_ready
+    label_zh: 第一轮 camera-ready
+    at: 2026-10-16T23:59
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Camera-ready deadline: October 16, 2026"
+    note_zh: '录用论文先在 10/2 交给 shepherd（“Submission to shepherd: October 2, 2026”）。'
+  - type: abstract
+    label_zh: 第二轮摘要注册
+    at: 2026-11-10T23:59
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Abstract registration deadline: November 10, 2026"
+    note_zh: 摘要注册要交完整摘要、全部作者（含 ORCID）和利益冲突；之后标题、摘要和作者名单都不能改。
+  - type: paper
+    label_zh: 第二轮正文
+    at: 2026-11-17T23:59
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Paper submission deadline: November 17, 2026"
+    note_zh: 第一轮被拒的论文要等一年才能再投 S&P，不能投第二轮。
+  - type: phase1_notification
+    label_zh: 第二轮提前拒稿通知
+    at: 2027-01-18
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Early-reject notification: January 18, 2027"
+  - type: author_response
+    label_zh: 第二轮 rebuttal
+    start: 2027-02-11
+    end: 2027-02-16T23:59
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Rebuttal text due: February 16, 2027"
+    note_zh: '2/11 发审稿意见（“Reviews released: February 11, 2027”），2/16 交 rebuttal；被安排交互式 rebuttal 的论文 2/17–2/26 与审稿人交流，并在 2/26 前交修改稿。'
+  - type: notification
+    label_zh: 第二轮出结果
+    at: 2027-03-05
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Acceptance notification: March 5, 2027"
+  - type: camera_ready
+    label_zh: 第二轮 camera-ready
+    at: 2027-04-08T23:59
+    tz: AoE
+    status: confirmed
+    src: sp-2027-cfp
+    quote: "Camera-ready deadline: April 8, 2027"
+    note_zh: '录用论文先在 3/26 交给 shepherd（“Submission to shepherd: March 26, 2027”）。'
+  - type: conference
+    start: 2027-05-17
+    end: 2027-05-19
+    tz: America/Toronto
+    status: confirmed
+    src: sp-2027-home
+    quote: "The Symposium will be held on May 17-19, 2027, and the Security and Privacy Workshops will be held on May 20, 2027."
+    note_zh: 主会 5/17–19，研讨会 5/20，都在蒙特利尔 Le Centre Sheraton Montreal Hotel。
+logistics:
+  venue:
+    name: Le Centre Sheraton Montreal Hotel
+    address: tba
+    src: sp-2027-home
+    quote: "Both events will be in Montreal, Canada at Le Centre Sheraton Montreal Hotel."
+last_checked: 2026-09-25
+note_zh: 两轮投稿，所有截止都是 AoE 23:59:59。第一轮已出结果；第二轮摘要注册 2026-11-10、正文 11/17、提前拒稿 2027-01-18、rebuttal 2/16、出结果 3/5。第一轮被拒的论文要等一年才能再投。

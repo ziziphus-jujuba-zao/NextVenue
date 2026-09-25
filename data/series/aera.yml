@@ -1,0 +1,13 @@
+id: aera
+acronym: AERA
+full_name: American Educational Research Association Annual Meeting
+name_zh: 美国教育研究协会年会
+aliases:
+  - AERA Annual Meeting
+directions: [soc/edu]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国教育研究协会年会，往届都在每年 4 月举办
+data_level: curated
+note_zh: 投不超过 2,000 词的论文稿（匿名评审）或整场分会提案，真有拒稿；也可以投线上论文。

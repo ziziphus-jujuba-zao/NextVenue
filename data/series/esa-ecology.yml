@@ -1,0 +1,13 @@
+id: esa-ecology
+acronym: ESA
+full_name: Ecological Society of America Annual Meeting
+name_zh: 美国生态学会年会
+aliases:
+  - ESA Annual Meeting
+directions: [earth/eco]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 7–8 月举办
+data_level: curated
+note_zh: 生态学方向规模最大的年会之一。缩写和算法会议 ESA（European Symposium on Algorithms）相同，系列 id 加了后缀。

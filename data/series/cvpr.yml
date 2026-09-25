@@ -1,0 +1,12 @@
+id: cvpr
+acronym: CVPR
+full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+aliases: [IEEE/CVF Computer Vision and Pattern Recognition Conference]
+directions: [cs/cv, eng/av]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/cvpr
+ccfddl: AI/CVPR
+data_level: curated

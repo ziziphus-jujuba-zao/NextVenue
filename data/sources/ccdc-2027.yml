@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ccdc-2027
+sources:
+  - id: ccdc-2027-home
+    url: http://www.ccdc.neu.edu.cn/
+    title: CCDC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:44Z
+    http_status: 200
+    snapshot: 272734c88618e9ae79ac64fceef9ea00614964c1a20308c8cf24fc6ffe59f83a
+  - id: ccdc-2027-first-submission
+    url: http://www.ccdc.neu.edu.cn/firstSubmit/list.htm
+    title: CCDC 2027 First Submission
+    kind: author_guide
+    fetched_at: 2026-09-25T15:48:33Z
+    http_status: 200
+    snapshot: de11225e2486f0cc08239560249fef21dd2fafe99e7761f3c5d0a6059e6e75d6

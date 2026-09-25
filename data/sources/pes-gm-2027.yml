@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: pes-gm-2027
+sources:
+  - id: pes-gm-2027-cfp
+    url: https://pes-gm.org/2027-san-francisco/2027-call-for-papers/
+    title: IEEE PES GM 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:38Z
+    http_status: 200
+    snapshot: d5bec6dfc021d35e931c955ed51541d84c45671514f234d318b7fdb8595695e3

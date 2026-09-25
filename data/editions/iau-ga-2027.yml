@@ -1,0 +1,75 @@
+id: iau-ga-2027
+series: iau-ga
+name: IAU GA 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: iau-ga-2027-home
+  quote: "January 15th, 2027 (23.59 CET) – Talks/Posters abstracts submission deadline"
+location: { city: Rome, country: Italy, country_code: IT }
+dates: { start: 2027-08-10, end: 2027-08-19 }
+milestones:
+  - type: abstract
+    at: 2027-01-15T23:59
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "January 15th, 2027 (23.59 CET) – Talks/Posters abstracts submission deadline"
+    note_zh: 摘要系统 2026 年 9 月初开放。
+  - type: financial_aid
+    label_zh: IAU 资助申请截止
+    at: 2027-01-15T23:59
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "January 15th, 2027 (23.59 CET) – Grants application deadline"
+  - type: notification
+    at: 2027-02-15
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "February 15th, 2027 – Notification of abstract acceptance"
+  - type: author_registration
+    at: 2027-03-05T23:59
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "March 5th, 2027 (23.59 CET) – Authors registration deadline"
+  - type: early_registration
+    at: 2027-03-05T23:59
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "March 5th, 2027 (23.59 CET) – Early bird deadline"
+  - type: financial_aid_result
+    at: 2027-04-30
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "April 30th, 2027 – Grants acceptance notification"
+  - type: abstract
+    label_zh: 晚到海报摘要截止
+    at: 2027-06-16T23:59
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "June 16th, 2027 (23.59 CET) – Late Posters deadline"
+    note_zh: 官网写"CET"，但 6 月罗马实行夏令时（CEST），这里按罗马当地时间算，比字面的 CET 早一小时。只收海报；6/27 通知结果。
+  - type: standard_registration
+    at: 2027-06-30T23:59
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "June 30th, 2027 (23.59 CET) – Regular registration deadline"
+    note_zh: 7/1 起是晚注册价，7/21 截止，之后只能现场注册。官网写"CET"，6 月罗马是夏令时，这里按当地时间算，比字面早一小时。
+  - type: conference
+    start: 2027-08-10
+    end: 2027-08-19
+    tz: Europe/Rome
+    status: confirmed
+    src: iau-ga-2027-home
+    quote: "August 10th – 19th 2027 – Auditorium Parco della Musica, Rome, Italy"
+last_checked: 2026-09-25
+note_zh: 第 33 届 IAU 大会，罗马 Auditorium Parco della Musica。意大利属申根区。

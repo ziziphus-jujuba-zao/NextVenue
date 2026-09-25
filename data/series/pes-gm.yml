@@ -1,0 +1,12 @@
+id: pes-gm
+acronym: IEEE PES GM
+full_name: "IEEE Power & Energy Society General Meeting"
+aliases:
+  - PES GM
+  - IEEE PES General Meeting
+directions: [eng/power]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 7 月，北美
+data_level: curated

@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: iiswc-2026
+series: iiswc
+name: IISWC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/IISWC
+  conf_id: iiswc2026
+  link: https://iiswc.org/iiswc2026/
+  place: Boulder, USA
+  date: September 27-29, 2026
+  timezone: UTC
+location:
+  city: Boulder
+  country: USA
+  country_code: US
+dates:
+  start: 2026-09-27
+  end: 2026-09-29
+milestones:
+  - type: paper
+    at: 2026-05-14T00:00
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2026-09-27
+    end: 2026-09-29
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,12 @@
+id: www
+acronym: WWW
+full_name: The Web Conference
+aliases: [International World Wide Web Conference]
+directions: [cs/dm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/www
+ccfddl: MX/WWW
+data_level: curated

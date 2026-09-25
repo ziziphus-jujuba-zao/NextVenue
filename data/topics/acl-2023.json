@@ -1,0 +1,226 @@
+{
+ "schema": 1,
+ "edition": "acl-2023",
+ "series": "acl",
+ "year": 2023,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 ACL 2023 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会长文和短文；Findings、demo、industry、学生研讨会不算",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/acl/acl2023-1",
+   "https://dblp.org/db/conf/acl/acl2023-2"
+  ],
+  "retrieved_at": "2026-09-25T09:49:41Z"
+ },
+ "papers_used": 1074,
+ "official_accepted": {
+  "value": 1074,
+  "source_url": "https://aclanthology.org/2023.acl-long.0.pdf",
+  "quote": "In total, we considered 4864 (3872 long and 992 short) papers [...] We accepted 910 (23.50%) long and 164 (16.53%) short papers for the main conference [...] To sum long and short papers, ACL 2023 accepted 1074 (22.08%) papers for the conference and 901 (40.60% including the papers for the main conference) papers for Findings.",
+  "src": "acl-2023-front-matter",
+  "quote_check": "snapshot"
+ },
+ "coverage": 1.0,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "multilingual",
+   "label_zh": "多语言 / 机器翻译",
+   "label_en": "Multilingual / machine translation",
+   "count": 155,
+   "share_pct": 14.4,
+   "examples": [
+    "XSemPLR: Cross-Lingual Semantic Parsing in Multiple Natural Languages and Meaning Representations.",
+    "Back to Patterns: Efficient Japanese Morphological Analysis with Feature-Sequence Trie.",
+    "Scene Graph as Pivoting: Inference-time Image-free Unsupervised Multimodal Machine Translation with Visual Scene Hallucination."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 144,
+   "share_pct": 13.4,
+   "examples": [
+    "Gradient-based Intra-attention Pruning on Pre-trained Language Models.",
+    "Exploring the Capacity of Pretrained Language Models for Reasoning about Actions and Change.",
+    "APOLLO: A Simple Approach for Adaptive Pretraining of Language Models for Logical Reasoning."
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "benchmark",
+   "label_zh": "基准、数据集与评测",
+   "label_en": "Benchmarks, datasets & evaluation",
+   "count": 133,
+   "share_pct": 12.4,
+   "low_precision": true,
+   "examples": [
+    "A Weakly Supervised Classifier and Dataset of White Supremacist Language.",
+    "UniSumm and SummZoo: Unified Model and Diverse Benchmark for Few-Shot Summarization.",
+    "Revisiting Cross-Lingual Summarization: A Corpus-based Study and A New Benchmark with Improved Annotation."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "knowledge_ie",
+   "label_zh": "知识图谱 / 信息抽取",
+   "label_en": "Knowledge graphs / information extraction",
+   "count": 87,
+   "share_pct": 8.1,
+   "examples": [
+    "DiffusionNER: Boundary Diffusion for Named Entity Recognition.",
+    "An Embarrassingly Easy but Strong Baseline for Nested Named Entity Recognition.",
+    "UTC-IE: A Unified Token-pair Classification Architecture for Information Extraction."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "dialogue",
+   "label_zh": "对话系统",
+   "label_en": "Dialogue / conversational",
+   "count": 82,
+   "share_pct": 7.6,
+   "examples": [
+    "Supervised Adversarial Contrastive Learning for Emotion Recognition in Conversations.",
+    "Modeling User Satisfaction Dynamics in Dialogue via Hawkes Process.",
+    "Reference Matters: Benchmarking Factual Error Correction for Dialogue Summarization with Fine-grained Evaluation Framework."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "icl_prompting",
+   "label_zh": "上下文学习 / 提示",
+   "label_en": "In-context learning / prompting",
+   "count": 64,
+   "share_pct": 6.0,
+   "examples": [
+    "Reasoning Implicit Sentiment with Chain-of-Thought Prompting.",
+    "MVP-Tuning: Multi-View Knowledge Retrieval with Prompt Tuning for Commonsense Reasoning.",
+    "PromptNER: Prompt Locating and Typing for Named Entity Recognition."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 64,
+   "share_pct": 6.0,
+   "examples": [
+    "Scene Graph as Pivoting: Inference-time Image-free Unsupervised Multimodal Machine Translation with Visual Scene Hallucination.",
+    "MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering.",
+    "End-to-end Knowledge Retrieval with Multi-modal Queries."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "reasoning",
+   "label_zh": "推理（思维链/数学）",
+   "label_en": "Reasoning (CoT / math)",
+   "count": 64,
+   "share_pct": 6.0,
+   "examples": [
+    "CHEER: Centrality-aware High-order Event Reasoning Network for Document-level Event Causality Identification.",
+    "Exploring the Capacity of Pretrained Language Models for Reasoning about Actions and Change.",
+    "Reasoning Implicit Sentiment with Chain-of-Thought Prompting."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "qa",
+   "label_zh": "问答",
+   "label_en": "Question answering",
+   "count": 62,
+   "share_pct": 5.8,
+   "examples": [
+    "CREPE: Open-Domain Question Answering with False Presuppositions.",
+    "Task-Aware Specialization for Efficient and Robust Dense Retrieval for Open-Domain Question Answering.",
+    "Query Refinement Prompts for Closed-Book Long-Form QA."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "open_world",
+   "label_zh": "零样本 / 小样本 / 开放词表",
+   "label_en": "Zero/few-shot & open-vocabulary",
+   "count": 58,
+   "share_pct": 5.4,
+   "examples": [
+    "UniSumm and SummZoo: Unified Model and Diverse Benchmark for Few-Shot Summarization.",
+    "Code4Struct: Code Generation for Few-Shot Event Structure Prediction.",
+    "LM-CPPF: Paraphrasing-Guided Data Augmentation for Contrastive Prompt-Based Few-Shot Fine-Tuning."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 54,
+   "share_pct": 5.0,
+   "low_precision": true,
+   "examples": [
+    "Supervised Adversarial Contrastive Learning for Emotion Recognition in Conversations.",
+    "Task-Aware Specialization for Efficient and Robust Dense Retrieval for Open-Domain Question Answering.",
+    "ReCode: Robustness Evaluation of Code Generation Models."
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "finetuning",
+   "label_zh": "微调 / 参数高效 / 后训练",
+   "label_en": "Fine-tuning / PEFT / post-training",
+   "count": 47,
+   "share_pct": 4.4,
+   "examples": [
+    "MVP-Tuning: Multi-View Knowledge Retrieval with Prompt Tuning for Commonsense Reasoning.",
+    "Prefix Propagation: Parameter-Efficient Tuning for Long Sequences.",
+    "LM-CPPF: Paraphrasing-Guided Data Augmentation for Contrastive Prompt-Based Few-Shot Fine-Tuning."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "graph",
+   "label_zh": "图学习 / GNN",
+   "label_en": "Graphs / GNNs",
+   "count": 45,
+   "share_pct": 4.2,
+   "examples": [
+    "Scene Graph as Pivoting: Inference-time Image-free Unsupervised Multimodal Machine Translation with Visual Scene Hallucination.",
+    "An AMR-based Link Prediction Approach for Document-level Event Argument Extraction.",
+    "To Copy Rather Than Memorize: A Vertical Learning Paradigm for Knowledge Graph Completion."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "self_supervised",
+   "label_zh": "自监督 / 对比 / 表征学习",
+   "label_en": "Self-supervised / contrastive / representation learning",
+   "count": 43,
+   "share_pct": 4.0,
+   "examples": [
+    "Supervised Adversarial Contrastive Learning for Emotion Recognition in Conversations.",
+    "Improving Self-training for Cross-lingual Named Entity Recognition with Contrastive and Prototype Learning.",
+    "ManagerTower: Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 42,
+   "share_pct": 3.9,
+   "examples": [
+    "Gradient-based Intra-attention Pruning on Pre-trained Language Models.",
+    "Hybrid Transducer and Attention based Encoder-Decoder Modeling for Speech-to-Text Tasks.",
+    "Span-Selective Linear Attention Transformers for Effective and Robust Schema-Guided Dialogue State Tracking."
+   ]
+  }
+ ]
+}

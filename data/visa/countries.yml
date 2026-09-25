@@ -1,0 +1,79 @@
+# 会场所在地（edition 的 location.country_code、sites[].country_code，或从 ccfddl 地名读出的国家，ISO 3166-1 两位字母）→ 签证文件 data/visa/<id>.yml。
+# 只是路由表：要不要签证、怎么办，写在各签证文件里，每条带官方原文。
+# none：中国大陆公民不需要签证（会场在中国大陆）。
+# 数据里出现的每个会场国家都要在这里有一行（curated 和 ccfddl 届次都算，pnpm validate 检查）。
+# 签证文件还没写的，先写将来的文件 id（例如 GB: uk）：签证卡显示"未收录"，只给会议官网的签证页链接；validate 列出这些 id 提醒补文件。
+# 申根国家一律指向 schengen（validate 按申根成员名单检查），新加入的会场国家不会因为没路由而丢掉签证标签。
+
+# 北美、中南美
+US: us
+CA: ca
+MX: mx
+PA: pa
+BB: bb
+BR: br
+AR: ar
+CL: cl
+
+# 中国（港澳台单列：港澳用通行证和签注，台湾用往来台湾通行证和入台许可）
+CN: none
+HK: hk
+MO: mo
+TW: tw
+
+# 亚洲
+JP: jp
+KR: kr
+SG: sg
+MY: my
+TH: th
+VN: vn
+KH: kh
+ID: id
+IN: in
+QA: qa
+TR: tr
+CY: cy
+
+# 大洋洲
+AU: au
+NZ: nz
+
+# 欧洲：申根区以外
+GB: uk
+IE: ie
+
+# 欧洲：申根区（29 国，2025-01-01 起含保加利亚、罗马尼亚全面加入）
+AT: schengen
+BE: schengen
+BG: schengen
+CH: schengen
+CZ: schengen
+DE: schengen
+DK: schengen
+EE: schengen
+ES: schengen
+FI: schengen
+FR: schengen
+GR: schengen
+HR: schengen
+HU: schengen
+IS: schengen
+IT: schengen
+LI: schengen
+LT: schengen
+LU: schengen
+LV: schengen
+MT: schengen
+NL: schengen
+NO: schengen
+PL: schengen
+PT: schengen
+RO: schengen
+SE: schengen
+SI: schengen
+SK: schengen
+
+# 非洲
+MA: ma
+ZA: za

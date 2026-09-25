@@ -1,0 +1,171 @@
+Skip to main content
+
+ACM Multimedia
+
+The flagship ACM SIGMM conference on multimedia
+
+ * Home
+ * Past Editions
+ * Call for Bidding 2029
+
+Next Conference
+
+ACM MM 2026 · Rio de Janeiro
+
+November 10–14, 2026
+
+2026.acmmm.org
+Coming up
+MM 2027 Hong Kong
+MM 2028 London
+
+Announcements
+
+ * Jun 2026
+   NEW Call for Bidding for ACM Multimedia 2029 is now open.
+ * Apr 2026
+   New Bidding Policy Document has been published. See details in the Bylaws and Policies section.
+ * Jan 2026
+   ACM Multimedia topics have been updated. See details in the About section.
+
+ * Jan 2026
+   New Desk-Rejection and Award Policies have been approved. See details in the Bylaws and Policies section.
+ * Nov 2025
+   ACM MM 2028 will be in London.
+ * Nov 2025
+   ACM MM 2027 will be in Hong Kong. Dates to be announced.
+
+▶ Show older announcements
+
+About ACM Multimedia
+
+Since its launch in 1993, ACM Multimedia (ACM MM) has been the premier international conference for multimedia research, innovation, and applications. It brings together researchers, practitioners, artists, and industry leaders to present and discuss advances in multimedia systems, content understanding, user experience, and emerging applications.
+
+The conference program is organized around a broad set of topics that reflect both foundational research areas and emerging directions in multimedia. The current topics of interest, approved by the Steering Committee, include (in alphabetical order):
+
+ * Art and Culture
+ * Data Systems Management and Indexing
+ * Embodied and Immersive Multimedia
+ * Emotional and Social Signals
+ * Interactions and Quality of Experience
+ * Multimedia Applications
+ * Multimedia Generative and Foundation Models
+ * Multimedia Interpretability and Explainability
+ * Multimedia and Language
+ * Multimedia Search and Recommendation
+ * Multimedia Reasoning
+ * Multimodal Fusion
+ * New Forms of Media Content
+ * Responsible Multimedia
+ * Summarization, Analytics, and Storytelling
+ * Transport and Delivery
+
+A detailed description of these topics is available in the ACM Multimedia Topics of Interest document.
+
+The conference also features technical sessions, tutorials, panels, and an interactive art exhibit, fostering dialogue between scientific innovation and creative exploration in art and cultural heritage.
+
+Steering Committee
+
+The ACM Multimedia Steering Committee provides long-term guidance for the conference series and oversees the selection of future hosts and general chairs.
+
+ * Chair: Silvia Rossi (CWI, NL)
+ * Abdulmotaleb El Saddik (University of Ottawa, Canada) – SIGMM representative
+ * Elisa Ricci (University of Trento, Italy) – SIGMM representative
+ * Vincent Oria (NJIT, USA) – SIGMM representative
+ * Cathal Gurrinn (Dublin City University, Ireland) – ACMMM'25 representative
+ * Qin Jin (Renmin University, China) – ACMMM'26 representative
+ * Zi (Helen) Huang (University of Queensland, Australia) – ACMMM'27 representative
+ * Dong Xu (University of Hong Kong, Hong Kong) – ACMMM'28 representative
+ * Xavier Alameda-Pineda (Inria, France) – Member at large
+ * Joao Magalhães (Universidade Nova de Lisboa, Portugal) – Member at large
+ * Laura Toni (UCL, UK) – Member at large
+ * Marco Bertini (University of Florence, Italy) – Member at large
+
+For inquiries related to the ACM Multimedia conference series, please contact:
+acm-multimedia-steering-committee [AT] googlegroups.com
+
+Advisory Board:
+
+ * Alan Smeaton (Dublin City University)
+ * Arnold Smeulders (University of Amsterdam)
+ * Klara Nahrstedt (University of Illinois)
+ * Yong Rui (Lenovo group)
+
+Bylaws and Policies
+
+This section contains the bylaws and official policies approved by the Steering Committee. These documents describe the rules and procedures that guide the organization of the conference, including the recently approved Desk-Reject and Award Policies.
+
+ * ACM Multimedia Bylaws (PDF) (last update: June, 2026)
+ * NEW ACM Multimedia Topics of Interest (PDF) (approved December, 2025)
+ * NEW Desk-Rejection Policy (PDF) (approved December, 2025)
+ * NEW Award Policy (PDF) (approved December, 2025)
+ * NEW Bidding Policy (PDF) (approved February, 2026)
+
+A summary of the December 2025 Steering Committee voting outcomes is available here (PDF).
+
+Past Editions
+
+ACM MM 2025
+
+Dublin, Ireland
+
+ACM MM 2024
+
+Melbourne, Australia
+
+ACM MM 2023
+
+Ottawa, Canada
+
+ACM MM 2022
+
+Lisbon, Portugal
+
+ACM MM 2021
+
+Chengdu, China
+
+ACM MM 2020
+
+Seattle, United States (Virtual)
+
+ACM MM 2019
+
+Nice, France
+
+See all previous editions and proceedings.
+
+Research Track Statistics
+
+Chart not available. Full data is provided in the table below.
+
+Show full data table
+
+Year   Submitted*   Accepted   Acceptance Ratio
+2025   5,330        1250       23.45%
+2024   4,385        1150       26.20%
+2023   3072         902        29.36%
+2022   2,472        691        27.95%
+2021   1,942        542        27.90%
+2020   1,698        474        27.90%
+2019   936          252        26.92%
+2018   757          209        27.61%
+2017   684          189        27.63%
+2016   650          179        27.54%
+2015   638          173        27.12%
+2014   665          172        25.86%
+2013   513          124        24.17%
+2012   738          194        26.29%
+2011   666          178        26.73%
+2010   974          ~250       ~26.00%
+2009   674          153        22.70%
+2008   516          136        26.36%
+2007   553          127        22.97%
+2006   470          114        24.26%
+2005   512          108        21.09%
+
+* Papers underwent review process.
+
+Last updated on by Silvia Rossi (CWI).
+© ACM Multimedia
+Inspired from a theme by BootstrapMade (Carousel)

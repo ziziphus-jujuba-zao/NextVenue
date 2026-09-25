@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ecce-2027
+sources:
+  - id: pels-conference-schedule
+    url: https://www.ieee-pels.org/conferences/conference-schedule/
+    title: IEEE PELS Conference Schedule
+    kind: other
+    fetched_at: 2026-09-25T15:52:37Z
+    http_status: 200
+    snapshot: 063527804f1efabb02a9afcddf3edb4df7217943a8d857106e9af50bc7585f17

@@ -1,0 +1,18 @@
+# ACL 2026 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: acl
+year: 2026
+kind: theme_track
+precision: exact
+track_zh: 特别主题 track
+source_url: https://aclanthology.org/2026.acl-long.0.pdf
+quote: We received 124 submissions to the special theme track during the review phase. Among these, 29 papers were accepted to the main conference and a further 27 to the Findings of ACL 2026.
+src: acl-2026-front-matter
+quote_check: snapshot
+note_zh: 官方只公布了特别主题 track，常规 track 没有分领域数字；录用率按官方数字计算
+checked: 2026-09-25
+rows:
+  - area: "Special Theme: Explainability of NLP Models"
+    submissions: 124
+    accepted: 29
+    rate: 23.4
+    findings_accepted: 27

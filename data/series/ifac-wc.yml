@@ -1,0 +1,13 @@
+id: ifac-wc
+acronym: IFAC World Congress
+full_name: IFAC World Congress
+name_zh: 国际自动控制联合会世界大会
+aliases:
+  - World Congress of the International Federation of Automatic Control
+  - IFAC WC
+directions: [eng/control]
+periodicity:
+  cycle: triennial
+  basis: observed
+  note_zh: 按往届举办年份：2023 横滨、2026 釜山；IFAC 2026 全体大会公布 2029 阿姆斯特丹、2032 檀香山
+data_level: curated

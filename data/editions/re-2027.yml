@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: re-2027
+series: re
+name: RE 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/RE
+  conf_id: re27
+  link: https://conf.researchr.org/home/RE-2027
+  place: Milan, Italy
+  date: August 23-27, 2027
+  timezone: AoE
+location:
+  city: Milan
+  country: Italy
+  country_code: IT
+dates:
+  start: 2027-08-23
+  end: 2027-08-27
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-08-23
+    end: 2027-08-27
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

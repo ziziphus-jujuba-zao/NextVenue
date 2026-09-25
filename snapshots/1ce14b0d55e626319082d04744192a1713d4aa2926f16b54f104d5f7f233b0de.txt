@@ -1,0 +1,324 @@
+top of page
+
+BORDEAUX - FRANCE
+
+6-9 JUNE 2027
+
+Mail
+CONTACT
+KEEP ME UPDATED!
+ * Home
+ * Conference
+
+    * Promotional Items
+
+ * Committee
+ * Call for Papers
+
+    * Call for Technical Contributions
+    * Call for Papers
+    * Call for Special Sessions
+    * Call for Tutorials
+    * Call for live Demonstrations
+
+ * Submission
+ * OJCAS Special Session
+ * Exhibitors & Sponsors
+
+    * Become our Exhibitor/Sponsor
+
+ * Info
+
+    * Bordeaux
+    * Venue
+
+CALL FOR PAPERS
+
+CALL FOR TECHNICAL CONTRIBUTIONS
+
+The IEEE International Symposium on Circuits and Systems (ISCAS) is the flagship conference of the IEEE Circuits and Systems Society and the world’s premier forum for researchers working on the theory, design, and implementation of circuits and systems.
+
+ISCAS 2027 will be held in Bordeaux, France, from June 6 to 9, 2027, and will feature a technical program including regular papers, special sessions, tutorials, and live demonstrations, along with oral and poster presentations, workshops, and emerging topic discussions.
+
+SCOPE OF CONTRIBUTIONS
+
+Submissions are invited in all areas of Circuits and Systems, including but not limited to:
+
+ * Analog and Mixed-Signal Circuits and Systems
+
+ * Digital Integrated Circuits and Systems
+
+ * Power and Energy Circuits and Systems
+
+ * Sensory Circuits and Systems
+
+ * Nonlinear Systems and Circuit Theory
+
+ * Digital Signal Processing
+
+ * Multimedia Systems and Applications
+
+ * Communications Circuits and Systems
+
+ * Biomedical Circuits and Systems
+
+ * Neural Networks and Neuromorphic Engineering
+
+ * High-Performance Computing for AI
+
+ * Circuits and Systems for Quantum Computing
+
+ * Beyond CMOS: Nanoelectronics and Heterogeneous Integration
+
+ * Education in Circuits and Systems
+
+TYPES OF CONTRIBUTIONS
+
+ * Regular Papers: original research contributions to the state-of-the-art in circuits and systems.
+
+ * Special Sessions: proposals focusing on emerging, interdisciplinary, or high-impact topics that complement the regular program. Accepted sessions will include peer-reviewed papers.
+
+ * Tutorials: short course or half-day educational sessions covering emerging trends or established techniques of practical and industrial relevance.
+
+ * Live Demonstrations: interactive demonstrations of working systems (hardware and/or software), allowing attendees to directly experience and engage with the presented technologies.
+
+IMPORTANT DATES
+
+ 1. Special Session Proposal Deadline: September 22, 2026 (extended from September 11, 2026)
+
+ 2. Regular Paper Submission Deadline: October 13, 2026
+
+ 3. Tutorial Proposal Deadline: October 13, 2026
+
+ 4. Live Demonstration Submission Deadline: October 13, 2026
+
+ 5. Author Notification: January 11, 2027
+
+ 6. Final Paper Submission: January 27, 2027
+
+PUBLICATION
+
+Accepted papers will be included in the ISCAS 2027 Proceedings and submitted to IEEE Xplore. Selected papers will be invited for journal extensions in leading IEEE CAS publications.
+
+CALL FOR PAPERS
+
+The IEEE International Symposium on Circuits and Systems (ISCAS) is the flagship conference of the IEEE Circuits and Systems Society and the world’s premier forum for researchers in the active fields of theory, design and implementation of circuits and systems. ISCAS 2027 will be held in Bordeaux, France, from June 6 to 9, 2027.
+
+ISCAS 2027 will include technical oral lectures and poster sessions, special sessions, tutorials, live demonstrations and workshops on emerging topics, covering various topics in circuits and systems.
+
+Collecting contributions in areas of Circuits and Systems, including but not limited to:
+
+ * Analog and Mixed Signal Circuits and Systems
+
+ * Digital Integrated Circuits and Systems
+
+ * Power and Energy Circuits and Systems
+
+ * Sensory Circuits and Systems
+
+ * Nonlinear Systems and Circuit Theory
+
+ * Digital Signal Processing
+
+ * Multimedia Systems and Applications
+
+ * Communications Circuits and Systems
+
+ * Biomedical Circuits and Systems
+
+ * Neural Networks and Neuromorphic Engineering
+
+ * High-performance Computing for AI
+
+ * Circuits and Systems for Quantum Computing
+
+ * Beyond CMOS: Nanoelectronics and Heterogeneous Integration
+
+ * Education in Circuits and Systems
+
+IMPORTANT DATES
+
+ 1. Special session proposal submission: September 11, 2026
+
+ 2. Tutorial proposal submission deadline: October 13, 2026
+
+ 3. Live demo submission deadline: October 13, 2026
+
+ 4. Regular paper submission deadline: October 13, 2026
+
+ 5. Author notification: January 11, 2027
+
+ 6. Final paper submission: January 27, 2027
+
+Selected papers will be invited for possible publication in the IEEE Transactions on Circuits and Systems I: Regular Papers, IEEE Transactions on Circuits and Systems II: Express Briefs, IEEE Transactions on Biomedical Circuits and Systems, IEEE Open Journal of Circuits and Systems, IEEE Transactions on Circuits and Systems for Artificial Intelligence, or IEEE Transactions on Very Large Scale Integration Systems.
+
+click here to submit a Regular Paper
+
+CALL FOR SPECIAL SESSIONS
+
+The Organizing Committee of ISCAS 2027 invites proposals for Special Sessions to be held during the conference in Bordeaux, France, June 6–9, 2027.
+
+Special sessions aim to complement the regular technical program by highlighting emerging topics or innovative applications of established methodologies. Proposals should address timely, compelling, and high-impact areas of research. While proposals in all areas of Circuits and Systems are welcome, we particularly encourage topics aligned with interdisciplinary and multidisciplinary research.
+
+Proposals outside these themes that address challenging open problems or novel applications are also encouraged. All papers in special sessions will undergo the same peer-review process as regular submissions.
+
+Proposal should include the following information (3 pages max.):
+
+ 1. Title and abstract: A title and a concise abstract that conveys the session’s topic and scope.
+
+ 2. Rationale: Explain why the topic is novel and timely, describe its relevance to the ISCAS community.
+
+ 3. Proposed speakers: Provide a list of all talks, speakers, and co-authors (in each associated paper). Technical sessions are normally expected to have 5 papers. In exceptional cases (e.g., invited industrial speakers or extended presentations), you may propose a session with fewer papers or a double-time slot.
+
+ 4. Short biographies: Provide a short bio-sketch of the session proposers.
+
+IMPORTANT DATES
+
+ 1. Special Sessions proposal submit deadline: September 22, 2026 (extended from September 11, 2026)
+
+ 2. Special Sessions proposal acceptance notification: October 1, 2026
+
+ 3. Paper Submission: October 22, 2026
+
+click here to submit a Special Session Proposal
+
+CALL FOR TUTORIALS
+
+The IEEE International Symposium on Circuits and Systems (ISCAS) is the flagship conference of the IEEE Circuits and Systems Society and the world’s premier forum for researchers in the active fields of theory, design and implementation of circuits and systems. ISCAS 2027 will be held in Bordeaux, France, from June 6 to 9, 2027.
+
+Participation in tutorials and technical meetings is an excellent opportunity for lifelong learning, and ISCAS 2027 is committed to supporting professional development. Suitable tutorial topics range from emerging research areas to established techniques of practical and industrial relevance within the scope of the Circuits and Systems Society.
+
+TUTORIAL PROPOSALS SUBMISSION GUIDELINES
+
+Tutorial proposals should be submitted through the online submission form.
+
+The proposal should provide sufficient information for the Tutorial Chairs to evaluate the relevance, quality, and expected impact of the tutorial.
+
+Tutorials can take the form of short courses (1h30) or half-day courses (3h) and will take place on Sunday, June 6.
+
+REQUIRED INFORMATION
+
+ * Tutorial Title and Abstract Provide a concise title and an abstract that clearly describes the tutorial topic, scope, and objectives.
+
+ * Motivation and Expected Impact Explain why the topic is important to the Circuits and Systems community and why it is timely for ISCAS attendees. Describe the expected benefits and learning outcomes for participants.
+
+ * Tutorial Outline Provide a syllabus or outline of the tutorial, including the main topics to be covered and the approximate allocation of time across sections.
+
+ * Speakers List all speakers and their affiliations. For tutorials with multiple speakers, clearly indicate each speaker's role and the sections they will present.
+
+ * Short Biography Provide a short professional biography for the main speaker (and optionally for additional speakers), highlighting expertise, qualifications, and relevant track record in the proposed topic area.
+
+EVALUATION CRITERIA
+
+Tutorial proposals will be evaluated based on:
+
+ * Technical quality and relevance to the ISCAS community.
+
+ * Timeliness and potential impact of the topic.
+
+ * Educational value and expected benefit for attendees.
+
+ * Expertise and experience of the speakers.
+
+ * Clarity and completeness of the proposed tutorial structure.
+
+Invitation for Journal or Magazine Article
+
+The relevant and impactful tutorials may be invited to submit a paper version to a CAS journal, including IEEE TCAS-I, TCAS-II, OJCAS or JETCAS.
+
+IMPORTANT DATES
+
+ 1. Tutorial Proposal Submission Deadline: October 13, 2026
+
+ 2. Tutorial Proposal Acceptance Notification: November 9, 2026
+
+ 3. Submission of Final Tutorial Slides: May 1, 2027
+
+click here to submit a Tutorial Proposal
+
+CALL FOR LIVE DEMONSTRATIONS
+
+The IEEE ISCAS 2027 Organizing Committee invites proposals for Live Demonstrations to be held during the conference. The live demonstrations will be carried out in presentation booths with ample space to set up a working system, whether it is interactive software on a laptop, a hardware setup, or a system acquiring signals from a human. Conference attendees are invited to experience the demonstrations directly, interact with them, and challenge them. The Committee will recognize one demonstration as the ISCAS Best Live Demonstration Award.
+
+ONE-PAGE DEMO DESCRIPTION
+
+Authors are invited to submit a one-page demo description through the online paper submission system, using the same page formatting as for regular ISCAS papers. The one-page demo description needs to be based on either an already published paper (as a demo for the first time) or a new paper submitted to ISCAS 2027. During submission, authors should select “Live Demonstrations” as the Primary Track and an appropriate topical subtrack as the Secondary Track.
+
+The one-page demo description must contain the following information:
+
+ 1. Demonstration Title and Reference: The title must begin with “Live Demonstration:”. If based on an already published paper, include at least one reference (URL highly recommended). If based on a new paper submitted to ISCAS 2027, include the submission ID.
+
+ 2. Demonstration Setup: Describe the equipment you will bring to ISCAS 2027. Include a photograph and/or screenshot. Only a power plug, a table, and a display stand will be provided. Demonstrators are responsible for transporting their equipment. Indicate any special requirements.
+
+ 3. Visitor Experience: Explain how visitors will experience and interact with the demonstration, what they will learn, and how it reveals the essence of your work.
+
+ 4. Optional Video: For the initial submission only, authors may include an optional link (max 5 minutes) to a video about their demo. This does not substitute for the live demo.
+
+IMPORTANT DATES
+
+ 1. Live demo submission deadline: October 13, 2026
+
+ 2. Live demo acceptance notification: January 11, 2027
+
+ 3. Final Submission: February 27, 2027
+
+Strict no-show policy: Any accepted live demonstration must be presented at the conference. No-shows will not result in an IEEE Xplore publication.
+
+There will be NO further extensions.
+
+click here to submit a Live Demo
+2027 IEEE International Symposium on Circuits and Systems (ISCAS)
+ *
+
+IEEE Home
+IEEE Sitemap/More Sites
+IEEE Contact & Support
+IEEE Accessibility Statement
+IEEE Nondiscrimination Policy
+IEEE Ethics Reporting
+IEEE Privacy Policy
+
+REGISTRATION
+
+SECRETARIAT
+
+ADERA
+
+Cité de la Photonique
+
+Bâtiment GIENAH
+
+11 avenue de Canteranne | CS60040
+
+33608 PESSAC CEDEX
+
+www.adera.fr
+
++33 05 56 15 11 51
+
+iscas2027@adera.fr
+
+ORGANIZING
+
+SECRETARIAT
+
+SISTEMA CONGRESSI s.r.l.
+
+Via Niccolò Tommaseo 68
+
+35131 Padova, Italy
+
+Ph: +39 049 651699
+
+www.sistemacongressi.com
+
+iscas2027@sistemacongressi.com
+
+© Copyright 2026 IEEE - All rights reserved. Use of this website signifies your agreement to the IEEE Terms and Conditions .
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+
+This site is created, maintained, and managed by Sistema Congressi s.r.l.
+
+Please feel free to contact us for any assistance.
+
+bottom of page

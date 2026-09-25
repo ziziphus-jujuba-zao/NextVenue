@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: pods-2027
+series: pods
+name: PODS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/PODS
+  conf_id: pods27
+  link: https://2027.sigmod.org/
+  place: Huntington Beach, California, USA
+  date: June 13-19, 2027
+  timezone: AoE
+location:
+  city: Huntington Beach
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-13
+  end: 2027-06-19
+milestones:
+  - type: abstract
+    at: 2026-05-23T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: First Submission Cycle
+  - type: paper
+    at: 2026-05-30T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: First Submission Cycle
+  - type: abstract
+    at: 2026-12-03T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Second Submission Cycle
+  - type: paper
+    at: 2026-12-10T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Second Submission Cycle
+  - type: conference
+    start: 2027-06-13
+    end: 2027-06-19
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

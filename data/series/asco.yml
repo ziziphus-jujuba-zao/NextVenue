@@ -1,0 +1,12 @@
+id: asco
+acronym: ASCO
+full_name: American Society of Clinical Oncology Annual Meeting
+aliases:
+  - ASCO Annual Meeting
+directions: [med/oncology]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 5 月底至 6 月初于芝加哥 McCormick Place 举办
+data_level: curated
+note_zh: 临床肿瘤年会，只收摘要。asco.org 拒绝本项目的抓取程序，日期只能从 Internet Archive 的存档核对。

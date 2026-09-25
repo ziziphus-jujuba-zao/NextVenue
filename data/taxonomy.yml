@@ -1,0 +1,225 @@
+# 学科 → 方向（两级）。方向 id 写成 <学科>/<方向>，例如 cs/ml、eng/control。
+# 一个系列可以挂多个方向（data/series/<id>.yml 的 directions，主方向在前）：
+# HSCC+ICCPS 同时在 cs/theory 和 eng/control 下。
+# 学科和方向都按"规模大的在前"排；计算机是主线，放第一。
+# legacy：v0.3 edition.topics 的旧值，App 的方向选择器仍按它们工作（迁移前的数据和本机存储不受影响）。
+# category_directions：目录类别 → 新系列的默认方向（导入脚本建系列文件时用；之后以系列文件为准）。
+version: 1
+note_zh: >-
+  由调研稿 disciplines/taxonomy.yml 与 engineering_priority.md 合并：原"电子信息"学科并入"工程"
+  （通信、电路与芯片、EDA、控制），信号处理并入计算机"语音与信号"；理论计算机从数学移到计算机"理论与形式化"；
+  遥感归工程，地学保留"地理"；医学按复核稿补了"呼吸"。
+disciplines:
+  - id: cs
+    name_zh: 计算机
+    name_en: Computer Science
+    see_also: [eng/eda, eng/comm]
+    directions:
+      - id: cs/ml
+        name_zh: 机器学习与人工智能
+        name_en: Machine Learning & AI
+        short_zh: 机器学习
+        legacy: [ml, ai]
+      - id: cs/cv
+        name_zh: 计算机视觉
+        name_en: Computer Vision
+        short_zh: 计算机视觉
+        legacy: [cv]
+      - id: cs/nlp
+        name_zh: 自然语言处理
+        name_en: Natural Language Processing
+        short_zh: NLP
+        legacy: [nlp]
+      - id: cs/robotics
+        name_zh: 机器人
+        name_en: Robotics
+        legacy: [robotics]
+      - id: cs/dm
+        name_zh: 数据挖掘与信息检索
+        name_en: Data Mining & Information Retrieval
+        short_zh: 数据挖掘
+        legacy: [dm]
+      - id: cs/systems
+        name_zh: 系统与体系结构
+        name_en: Systems & Architecture
+        short_zh: 系统
+        note_zh: 含体系结构、并行与分布、存储、操作系统、高性能计算
+      - id: cs/net
+        name_zh: 网络
+        name_en: Networking
+      - id: cs/security
+        name_zh: 安全
+        name_en: Security & Privacy
+      - id: cs/se
+        name_zh: 软件工程与程序语言
+        name_en: Software Engineering & Programming Languages
+        short_zh: 软件与PL
+      - id: cs/db
+        name_zh: 数据库
+        name_en: Databases
+      - id: cs/theory
+        name_zh: 理论与形式化
+        name_en: Theory & Formal Methods
+        short_zh: 理论与形式化
+        note_zh: 含算法与复杂性、逻辑、形式化验证、混成系统
+      - id: cs/graphics
+        name_zh: 图形与多媒体
+        name_en: Graphics & Multimedia
+        short_zh: 图形多媒体
+      - id: cs/hci
+        name_zh: 人机交互
+        name_en: Human-Computer Interaction
+        short_zh: 人机交互
+        note_zh: 含普适计算
+      - id: cs/speech
+        name_zh: 语音与信号
+        name_en: Speech & Signal Processing
+        short_zh: 语音信号
+      - id: cs/cross
+        name_zh: 交叉学科
+        name_en: Interdisciplinary
+        note_zh: CCF 第 10 类"交叉/综合/新兴"：生物信息、计算经济、区块链等
+  - id: eng
+    name_zh: 工程
+    name_en: Engineering
+    see_also: [cs/robotics, cs/speech]
+    directions:
+      - id: eng/control
+        name_zh: 控制与自动化
+        name_en: Control & Automation
+        short_zh: 控制
+      - id: eng/transport
+        name_zh: 交通与智能交通
+        name_en: Transportation & ITS
+        short_zh: 交通
+      - id: eng/av
+        name_zh: 自动驾驶与智能车
+        name_en: Autonomous Driving & Intelligent Vehicles
+        short_zh: 自动驾驶
+      - id: eng/power
+        name_zh: 能源与电力
+        name_en: Power & Energy
+        short_zh: 能源电力
+        note_zh: 含电力电子、核能
+      - id: eng/aero
+        name_zh: 航空航天
+        name_en: Aerospace
+      - id: eng/mech
+        name_zh: 机械与制造
+        name_en: Mechanical & Manufacturing
+        short_zh: 机械制造
+      - id: eng/civil
+        name_zh: 土木与建筑
+        name_en: Civil & Building
+        short_zh: 土木建筑
+      - id: eng/comm
+        name_zh: 通信
+        name_en: Communications
+      - id: eng/ic
+        name_zh: 电路与芯片
+        name_en: Circuits & Chips
+        short_zh: 电路芯片
+        note_zh: 含器件、射频微波与天线
+      - id: eng/eda
+        name_zh: EDA
+        name_en: Electronic Design Automation
+      - id: eng/bme
+        name_zh: 生物医学工程
+        name_en: Biomedical Engineering
+        short_zh: 生物医学工程
+      - id: eng/rs
+        name_zh: 遥感
+        name_en: Remote Sensing
+  - id: phys
+    name_zh: 物理与天文
+    name_en: Physics & Astronomy
+    directions:
+      - { id: phys/general, name_zh: 综合物理与凝聚态, name_en: General & Condensed Matter, short_zh: 综合物理 }
+      - { id: phys/optics, name_zh: 光学与光子学, name_en: Optics & Photonics, short_zh: 光学 }
+      - { id: phys/astro, name_zh: 天文与天体物理, name_en: Astronomy & Astrophysics, short_zh: 天文 }
+      - { id: phys/hep, name_zh: 粒子与核物理, name_en: Particle & Nuclear Physics, short_zh: 粒子核物理 }
+      - { id: phys/plasma, name_zh: 等离子体与聚变, name_en: Plasma & Fusion, short_zh: 等离子体 }
+      - { id: phys/fluids, name_zh: 流体力学, name_en: Fluid Dynamics }
+  - id: chem
+    name_zh: 化学与材料
+    name_en: Chemistry & Materials
+    directions:
+      - { id: chem/general, name_zh: 综合化学, name_en: General Chemistry }
+      - { id: chem/materials, name_zh: 材料科学, name_en: Materials Science, short_zh: 材料 }
+      - { id: chem/chemeng, name_zh: 化学工程, name_en: Chemical Engineering, short_zh: 化工 }
+      - { id: chem/analytical, name_zh: 分析化学与质谱, name_en: Analytical Chemistry & Mass Spectrometry, short_zh: 分析化学 }
+      - { id: chem/electrochem, name_zh: 电化学与能源化学, name_en: Electrochemistry & Energy, short_zh: 电化学 }
+      - { id: chem/catalysis, name_zh: 催化, name_en: Catalysis }
+      - { id: chem/env, name_zh: 环境化学, name_en: Environmental Chemistry }
+  - id: life
+    name_zh: 生命科学
+    name_en: Life Sciences
+    see_also: [cs/cross]
+    directions:
+      - { id: life/neuro, name_zh: 神经科学, name_en: Neuroscience }
+      - { id: life/cellmol, name_zh: 细胞、分子与肿瘤生物学, name_en: 'Cell, Molecular & Cancer Biology', short_zh: 细胞分子 }
+      - { id: life/genetics, name_zh: 遗传与基因组, name_en: Genetics & Genomics, short_zh: 遗传基因组 }
+      - { id: life/bioinfo, name_zh: 生物信息与计算生物, name_en: Bioinformatics & Computational Biology, short_zh: 生物信息 }
+      - { id: life/immuno, name_zh: 免疫与微生物, name_en: Immunology & Microbiology, short_zh: 免疫微生物 }
+      - { id: life/biophys, name_zh: 生物物理与结构生物, name_en: Biophysics & Structural Biology, short_zh: 生物物理 }
+  - id: med
+    name_zh: 医学
+    name_en: Medicine
+    see_also: [eng/bme]
+    directions:
+      - { id: med/oncology, name_zh: 肿瘤, name_en: Oncology }
+      - { id: med/cardio, name_zh: 心血管, name_en: Cardiology }
+      - { id: med/imaging, name_zh: 医学影像, name_en: Medical Imaging }
+      - { id: med/neurology, name_zh: 神经病学与痴呆, name_en: Neurology & Dementia, short_zh: 神经病学 }
+      - { id: med/hematology, name_zh: 血液, name_en: Hematology }
+      - { id: med/metabolic, name_zh: 内分泌、代谢与消化, name_en: 'Endocrinology, Metabolism & GI', short_zh: 内分泌代谢 }
+      - { id: med/respiratory, name_zh: 呼吸, name_en: Respiratory Medicine }
+      - { id: med/public-health, name_zh: 公共卫生, name_en: Public Health }
+  - id: math
+    name_zh: 数学与统计
+    name_en: Mathematics & Statistics
+    see_also: [cs/theory]
+    note_zh: 理论计算机（STOC、FOCS、SODA）在 cs/theory。
+    directions:
+      - { id: math/general, name_zh: 综合数学, name_en: General Mathematics }
+      - { id: math/applied, name_zh: 应用与计算数学, name_en: Applied & Computational Mathematics, short_zh: 应用计算数学 }
+      - { id: math/stats, name_zh: 统计与生物统计, name_en: Statistics & Biostatistics, short_zh: 统计 }
+      - { id: math/prob, name_zh: 概率, name_en: Probability }
+      - { id: math/opt, name_zh: 优化与运筹, name_en: Optimization & Operations Research, short_zh: 优化运筹 }
+  - id: earth
+    name_zh: 地球与环境
+    name_en: Earth & Environment
+    see_also: [eng/rs]
+    directions:
+      - { id: earth/general, name_zh: 综合地球科学, name_en: General Geosciences, short_zh: 综合地学 }
+      - { id: earth/atmos, name_zh: 大气与气候, name_en: Atmosphere & Climate }
+      - { id: earth/geology, name_zh: 地质、地球化学与勘探, name_en: 'Geology, Geochemistry & Exploration', short_zh: 地质 }
+      - { id: earth/ocean, name_zh: 海洋与水科学, name_en: Ocean & Aquatic Sciences, short_zh: 海洋 }
+      - { id: earth/geog, name_zh: 地理, name_en: Geography }
+      - { id: earth/eco, name_zh: 生态与环境, name_en: Ecology & Environment }
+  - id: soc
+    name_zh: 社会科学与经济管理
+    name_en: Social Sciences, Economics & Management
+    directions:
+      - { id: soc/econ, name_zh: 经济与金融, name_en: Economics & Finance, short_zh: 经济金融 }
+      - { id: soc/mgmt, name_zh: 管理, name_en: Management }
+      - { id: soc/psych, name_zh: 心理与认知, name_en: Psychology & Cognitive Science, short_zh: 心理 }
+      - { id: soc/edu, name_zh: 教育, name_en: Education }
+      - { id: soc/polisci, name_zh: 政治与国际关系, name_en: Political Science & International Relations, short_zh: 政治 }
+      - { id: soc/comm, name_zh: 传播与新闻, name_en: Communication & Journalism, short_zh: 传播 }
+      - { id: soc/sociology, name_zh: 社会学, name_en: Sociology }
+
+# CCF 第七版的 10 个类别 → 默认方向。ccfddl 的 sub 代码与这 10 类一一对应。
+# 第 5 类把数据库和数据挖掘放在一起：默认给 cs/db，KDD、SIGIR、WSDM 这类在系列文件里改成 cs/dm。
+# 第 7 类里的 ICASSP、INTERSPEECH 在系列文件里改成 cs/speech；第 8 类里的视觉、NLP 会改成 cs/cv、cs/nlp。
+category_directions:
+  - { list: ccf7, category: '1', ccfddl_sub: DS, directions: [cs/systems] }
+  - { list: ccf7, category: '2', ccfddl_sub: NW, directions: [cs/net] }
+  - { list: ccf7, category: '3', ccfddl_sub: SC, directions: [cs/security] }
+  - { list: ccf7, category: '4', ccfddl_sub: SE, directions: [cs/se] }
+  - { list: ccf7, category: '5', ccfddl_sub: DB, directions: [cs/db], note_zh: 数据挖掘、检索类改 cs/dm }
+  - { list: ccf7, category: '6', ccfddl_sub: CT, directions: [cs/theory] }
+  - { list: ccf7, category: '7', ccfddl_sub: CG, directions: [cs/graphics], note_zh: 语音类改 cs/speech }
+  - { list: ccf7, category: '8', ccfddl_sub: AI, directions: [cs/ml], note_zh: 视觉类改 cs/cv，语言类改 cs/nlp }
+  - { list: ccf7, category: '9', ccfddl_sub: HI, directions: [cs/hci] }
+  - { list: ccf7, category: '10', ccfddl_sub: MX, directions: [cs/cross] }

@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ease-2027
+series: ease
+name: EASE 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/EASE
+  conf_id: ease27
+  link: https://conf.researchr.org/home/ease-2027
+  place: Hanoi, Vietnam
+  date: June 15 - 18, 2027
+  timezone: AoE
+location:
+  city: Hanoi
+  country: Vietnam
+  country_code: VN
+dates:
+  start: 2027-06-15
+  end: 2027-06-18
+milestones:
+  - type: abstract
+    at: 2027-01-15T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Research Papers"
+  - type: paper
+    at: 2027-01-22T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Research Papers"
+  - type: conference
+    start: 2027-06-15
+    end: 2027-06-18
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,39 @@
+id: acs-spring-2027
+series: acs-spring
+name: ACS Spring 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: acs-spring-2027-call
+  quote: "ACS Spring 2027: Call for Abstracts"
+  note_zh: 经 MAPS 系统按分会投摘要。
+location: { city: New Orleans, country: USA, country_code: US }
+dates: { start: 2027-03-21, end: 2027-03-25 }
+milestones:
+  - type: abstract
+    at: 2026-09-28T23:59
+    tz: America/New_York
+    status: confirmed
+    src: acs-spring-2027-call
+    quote: "[PHYS] Division of Physical Chemistry 2026-09-28"
+    note_zh: 征稿页列出的 40 个分会和委员会都是 9/28 截止。页面写"Submission deadlines are at 11:59 EST on the day posted"：9 月美东实行夏令时，这里按美东当地时间 23:59（EDT）算，比字面的 EST 早一小时；北京时间 9/29 11:59。
+  - type: notification
+    status: tba
+    tz: America/New_York
+    note_zh: 征稿页没写发结果的日期，由各分会程序主席决定。
+  - type: early_registration
+    status: tba
+    tz: America/New_York
+    note_zh: acs.org 的会议页拒绝本项目的抓取程序，注册日期没能核对。
+  - type: conference
+    start: 2027-03-21
+    end: 2027-03-25
+    tz: America/Chicago
+    status: confirmed
+    src: acs-phys-division-home
+    quote: "ACS Spring 2027 | March 21-25, 2027 | New Orleans, LA"
+    note_zh: 会期和城市取自 ACS 物理化学分会（PHYS）官网；acs.org 的会议页拦截抓取。
+last_checked: 2026-09-25
+note_zh: 线下加线上（digital）。只投摘要，不交全文。

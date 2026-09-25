@@ -1,0 +1,56 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-iclr
+sources:
+  - id: iclr-2020-review-blog
+    url: https://iclr-conf.medium.com/ourhatata-the-reviewing-process-and-research-shaping-iclr-in-2020-ea9e53eb4c46
+    mirror_url: https://web.archive.org/web/20250819183725id_/https://iclr-conf.medium.com/ourhatata-the-reviewing-process-and-research-shaping-iclr-in-2020-ea9e53eb4c46
+    title: The reviewing process and research shaping ICLR in 2020 (ICLR blog)
+    kind: blog
+    fetched_at: 2026-09-25T13:11:56Z
+    http_status: 200
+    snapshot: 0410d2ec9b742e7f60362ec383ee559253ed23e8646fdb393c996ffebf2e488e
+    note_zh: Medium 拒绝脚本抓取（403）；快照取自 Wayback Machine 存档的同一页面。
+  - id: iclr-2021-review-blog
+    url: https://iclr-conf.medium.com/the-iclr-2021-reviewing-process-and-accepted-papers-7dc65002668e
+    mirror_url: https://web.archive.org/web/20250910171648id_/https://iclr-conf.medium.com/the-iclr-2021-reviewing-process-and-accepted-papers-7dc65002668e
+    title: The ICLR 2021 reviewing process and accepted papers (ICLR blog)
+    kind: blog
+    fetched_at: 2026-09-25T13:11:58Z
+    http_status: 200
+    snapshot: e6fcd3dc0b9e4686a033cdafbda0733626d90d6ce93ea670549c6b905ca4bead
+    note_zh: Medium 拒绝脚本抓取（403）；快照取自 Wayback Machine 存档的同一页面。
+  - id: iclr-2023-fact-sheet
+    url: https://media.iclr.cc/Conferences/ICLR2023/ICLR2023-Fact_Sheet.pdf
+    title: ICLR 2023 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:12:01Z
+    http_status: 200
+    snapshot: 0bd7b26c84681a201007f5d842bcd78ea4bd42913e0aec739e20fee25b3943a2
+  - id: iclr-2024-fact-sheet
+    url: https://media.iclr.cc/Conferences/ICLR2024/ICLR2024-Fact_Sheet.pdf
+    title: ICLR 2024 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:12:03Z
+    http_status: 200
+    snapshot: f569ad2e183fd3f14745838c4553085deb42f531b567357c5e89850647c59714
+  - id: iclr-2025-fact-sheet
+    url: https://media.iclr.cc/Conferences/ICLR2025/ICLR2025_Fact_Sheet.pdf
+    title: ICLR 2025 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:12:06Z
+    http_status: 200
+    snapshot: a1e4115fef0c2f041f53b6d4d1f8b3440093fa68243d9f821ee536d47a98635b
+  - id: iclr-2026-fact-sheet
+    url: https://media.iclr.cc/Conferences/ICLR2026/ICLR2026_Fact_Sheet.pdf
+    title: ICLR 2026 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:12:08Z
+    http_status: 200
+    snapshot: e5e4ae0df2cc9ebb62bc2d7a5c1f3ddd5f4bf9da7c58144f57dc2be921d22bd4
+  - id: iclr-2026-review-retrospective
+    url: https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/
+    title: A retrospective on the ICLR 2026 review process (ICLR blog)
+    kind: blog
+    fetched_at: 2026-09-25T13:12:10Z
+    http_status: 200
+    snapshot: 7903259479657914f6376c5b3954d6563a5f4f5310e4331caeb15d15d724703c

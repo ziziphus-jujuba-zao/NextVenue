@@ -1,0 +1,13 @@
+id: wcnc
+acronym: WCNC
+full_name: IEEE Wireless Communications and Networking Conference
+aliases:
+  - IEEE WCNC
+directions: [eng/comm, cs/net]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 3–4 月
+dblp: conf/wcnc
+ccfddl: NW/WCNC
+data_level: curated

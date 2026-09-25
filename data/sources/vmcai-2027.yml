@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: vmcai-2027
+sources:
+  - id: vmcai-2027-home
+    url: https://conf.researchr.org/home/VMCAI-2027
+    title: VMCAI 2027 Home
+    kind: dates
+    fetched_at: 2026-09-25T15:47:57Z
+    http_status: 200
+    snapshot: c306b019fc9fc0e5e0ca29a22e0dfc2badbc60cda3bb0b36c35e41698bcca810

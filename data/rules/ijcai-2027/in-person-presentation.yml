@@ -1,0 +1,23 @@
+id: ijcai-2027/in-person-presentation
+edition: ijcai-2027
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？
+short_zh: 到现场报告
+answer: required
+verification: inherited
+inherited_from: ijcai-2026
+conf: low
+applies:
+  from: notification
+  until: conference
+summary_zh: IJCAI-27 还没公布，以下是 IJCAI-ECAI 2026 的规则：每篇录用论文要有一份全价注册或 Student with Paper 注册，注册的作者必须到场报告；没有作者到场的论文从论文集中移除，没有线上或混合报告。注册不能转给别人。
+detail_zh: IJCAI-27 分京都（8/7–13）和横琴（8/15–17）两地举办。论文在哪一地报告、在横琴报告是否满足到场要求，官方还没说。
+quotes:
+  - src: ijcai-2026-registration
+    text: "One regular delegate full registration or Student with Paper per each accepted paper is required. The registered author has to attend and present the paper."
+  - src: ijcai-2026-registration
+    text: "Should none of the authors be able to attend in Bremen, the paper will be removed from the Conference Proceedings! No virtual/hybrid options are available for any presentations."
+  - src: ijcai-2026-registration-faq
+    text: "Registration is not transferable. You have to attend and present the paper in-person."
+checked_sources: [ijcai-2027-home, ijcai-2027-future-conferences]
+last_checked: 2026-09-25

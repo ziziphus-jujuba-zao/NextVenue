@@ -1,0 +1,18 @@
+# EMNLP 2025 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: emnlp
+year: 2025
+kind: theme_track
+precision: exact
+track_zh: 特别主题 track
+source_url: https://aclanthology.org/2025.emnlp-main.0.pdf
+quote: We received 100 submissions to the theme track during the commitment phase. Among these, 41 papers were accepted to the main conference and a further 32 to Findings of EMNLP.
+src: emnlp-2025-front-matter
+quote_check: snapshot
+note_zh: 官方只公布了特别主题 track，常规 track 没有分领域数字；录用率按官方数字计算。这一年按承诺阶段计数（论文已审完），和其他年份不可比
+checked: 2026-09-25
+rows:
+  - area: "Special Theme: Advancing our Reach – Interdisciplinary Recontextualization of NLP"
+    submissions: 100
+    accepted: 41
+    rate: 41
+    findings_accepted: 32

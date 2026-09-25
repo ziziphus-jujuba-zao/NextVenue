@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: slt-2026
+series: slt
+name: SLT 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/SLT
+  conf_id: slt26
+  link: https://attend.ieee.org/slt-2026/
+  place: Palermo, Sicily, Italy
+  date: December 13-16, 2026
+  timezone: AoE
+location:
+  city: Palermo
+  country: Italy
+  country_code: IT
+dates:
+  start: 2026-12-13
+  end: 2026-12-16
+milestones:
+  - type: paper
+    at: 2026-06-17T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-12-13
+    end: 2026-12-16
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

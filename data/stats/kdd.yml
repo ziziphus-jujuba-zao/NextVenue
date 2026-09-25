@@ -1,0 +1,135 @@
+# KDD 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: kdd
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 1279
+    accepted: 217
+    rate: 16.96
+    rate_text: 16.96%
+    rate_basis: stated
+    definition_zh: 研究赛道；应用数据科学（ADS）赛道另算
+    source_url: https://sites.cs.ucsb.edu/~xyan/KDD23-ResearchTrack-Banquet-Talk.pdf
+    quote: "Research Track Statistics | # Submissions # Accepted Acceptance Rate | 2020 1279 217 16.96%"
+    src: kdd-2023-research-track-talk
+    quote_check: snapshot
+    note_zh: 数字出自 KDD 2023 研究赛道程序主席幻灯片里的历年表格
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 1541
+    accepted: 239
+    rate: 15.5
+    rate_text: 15.5%
+    rate_basis: computed
+    definition_zh: 研究赛道；应用数据科学（ADS）赛道另算
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3447548
+    quote: The Research Track received 1541 submissions out of which 239 were finally accepted for presentation at the conference.
+    src: kdd-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 1665
+    accepted: 254
+    rate: 15.25
+    rate_text: 15.25%
+    rate_basis: stated
+    definition_zh: 研究赛道；应用数据科学（ADS）赛道另算
+    source_url: https://sites.cs.ucsb.edu/~xyan/KDD23-ResearchTrack-Banquet-Talk.pdf
+    quote: 2022 1665 254 15.25%
+    src: kdd-2023-research-track-talk
+    quote_check: snapshot
+    note_zh: 数字出自 KDD 2023 研究赛道程序主席幻灯片里的历年表格
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 1416
+    accepted: 313
+    rate: 22.1
+    rate_text: 22.1%
+    rate_basis: computed
+    definition_zh: 研究赛道；应用数据科学（ADS）赛道另算
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3580305
+    quote: We received 1416 papers in the Research Track and 725 papers in the ADS (Applied Data Science) Track and we accepted 313 and 184 respectively.
+    src: kdd-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 2046
+    accepted: 411
+    rate: 20.1
+    rate_text: 20.1%
+    rate_basis: computed
+    definition_zh: 研究赛道；应用数据科学（ADS）赛道另算
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3637528
+    quote: We received 2046 papers in the Research Track and 738 papers in the ADS (Applied Data Science) Track and we accepted 411 and 151 respectively.
+    src: kdd-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: cycle1
+    track_zh: 8 月轮
+    status: official
+    submissions: 967
+    accepted: 187
+    rate: 19
+    rate_text: 19%
+    rate_basis: stated
+    definition_zh: 研究赛道第一轮（2024 年 8 月截止），含上一届“修改再投”的论文
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3690624
+    quote: We received 967 submissions in the Research Track and 316 submissions in the ADS (Applied Data Science) Track. [...] For KDD 2025 August Cycle, the Research Track has an acceptance rate of 19% for all papers, and 43% considering only resubmission papers.
+    src: kdd-2025-v1-front-matter
+    quote_check: snapshot
+    count_method_zh: 官网论文列表 August Cycle 研究赛道共 187 篇（本应用计数）
+    count_url: https://kdd.org/kdd2025/research-track-papers-2/
+    checked: 2026-09-25
+  - year: 2025
+    track: cycle2
+    track_zh: 2 月轮
+    status: partial
+    accepted: 365
+    definition_zh: 研究赛道第二轮（2025 年 2 月截止）
+    source_url: https://kdd.org/kdd2025/research-track-papers-2/
+    quote_check: manual
+    count_method_zh: 官网论文列表 February Cycle 研究赛道共 365 篇（本应用计数）
+    note_zh: 官方没公布这一轮的投稿数
+    checked: 2026-09-25
+  - year: 2026
+    track: cycle1
+    track_zh: 7 月轮
+    status: partial
+    accepted: 183
+    definition_zh: 研究赛道第一轮（2025 年 7 月截止）
+    source_url: https://kdd2026.kdd.org/papers/
+    quote_check: manual
+    count_method_zh: 官网论文列表 July Cycle 研究赛道共 183 篇（本应用计数）
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25
+  - year: 2026
+    track: cycle2
+    track_zh: 2 月轮
+    status: partial
+    accepted: 604
+    definition_zh: 研究赛道第二轮（2026 年 2 月截止）
+    source_url: https://kdd2026.kdd.org/papers/
+    quote_check: manual
+    count_method_zh: 官网论文列表 February Cycle 研究赛道共 604 篇（本应用计数）
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25
+areas_none:
+  - years:
+      - 2024
+      - 2025
+      - 2026
+    scope_zh: 论文集前言只有各赛道总数
+    checked: 2026-09-25
+    checked_urls:
+      - https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3637528

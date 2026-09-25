@@ -1,0 +1,52 @@
+id: ecs-2027-spring
+series: ecs
+name: ECS 2027 Spring
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: ecs-2027-spring-cfp
+  quote: "The length of your abstract text must be 750 words or less."
+location: { city: Washington, country: USA, country_code: US }
+dates: { start: 2027-05-30, end: 2027-06-03 }
+milestones:
+  - type: abstract
+    at: 2026-12-04T23:59
+    tz: America/New_York
+    status: confirmed
+    src: ecs-2027-spring-cfp
+    quote: "Abstracts are due no later than Friday, December 4, 2026 at 11:59 PM Eastern Standard Time."
+    note_zh: 8 月起开放提交，按分会场（symposium）投。作者名单和顺序在截止后不能再改。
+  - type: notification
+    at: 2027-02-15
+    tz: America/New_York
+    status: confirmed
+    src: ecs-2027-spring-deadlines
+    quote: "Notification to presenting authors of abstract acceptance or February 15, 2027"
+  - type: financial_aid
+    label_zh: 旅费资助申请截止
+    at: 2027-03-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ecs-2027-spring-deadlines
+    quote: "Travel Grant application due date March 1, 2027"
+    note_zh: 12/4 开放申请。官网只写日期、没写时区，按北京时间当天结束算（更保守）。
+  - type: early_registration
+    at: 2027-05-03
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ecs-2027-spring-deadlines
+    quote: "Early registration February – May 3, 2027"
+    note_zh: 注册 2 月开放，优惠价到 5/3；协议酒店也是 5/3 截止（订满为止）。官网没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-05-30
+    end: 2027-06-03
+    tz: America/New_York
+    status: confirmed
+    src: ecs-2027-spring-deadlines
+    quote: "251st ECS Meeting | Washington, DC US | May 30–June 3, 2027"
+last_checked: 2026-09-25
+note_zh: 第 251 届 ECS Meeting。会场是华盛顿的 Walter E. Washington Convention Center 和 Marriott Marquis。口头报告必须到现场，用英语。

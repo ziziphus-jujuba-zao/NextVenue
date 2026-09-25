@@ -1,0 +1,31 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: interspeech-2027
+sources:
+  - id: interspeech-2027-home
+    url: https://interspeech2027.org/
+    title: Interspeech 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:45:52Z
+    http_status: 200
+    snapshot: 3fa4f4a6a9aff6cc2914c073a2f1bd3f9715b2620840b4e719fa932852bb761e
+  - id: interspeech-2027-isca
+    url: https://isca-speech.org/Upcoming-Interspeech
+    title: ISCA Upcoming Interspeech
+    kind: other
+    fetched_at: 2026-09-25T15:45:53Z
+    http_status: 200
+    snapshot: d902d4adaeb762ecc01cf20653b77d12ceaf48b59ff50f59e762b54da14b12f1
+  - id: interspeech-2027-dates
+    url: https://interspeech2027.org/for_authors/key_dates/
+    title: Interspeech 2027 Key Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:55:21Z
+    http_status: 200
+    snapshot: d2f31b236624fcc0ce10ad27f8549bbf23f4c0c7a97d57352cef579c2ad22747
+  - id: interspeech-2027-venue
+    url: https://interspeech2027.org/destination/venue/
+    title: Interspeech 2027 Venue
+    kind: other
+    fetched_at: 2026-09-25T15:55:22Z
+    http_status: 200
+    snapshot: af14e302a9606c06536e363ae54b65c29e5ab9c72f979bb3126d36ccc9ac7b4e

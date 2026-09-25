@@ -1,0 +1,62 @@
+id: esmo-2026
+series: esmo
+name: ESMO 2026
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: esmo-2026-abstracts
+  quote: "All accepted abstracts, will be published online in the ESMO Congress 2026 Abstract Book, a supplement to the official ESMO journal, Annals of Oncology."
+location: { city: Madrid, country: Spain, country_code: ES }
+dates: { start: 2026-10-23, end: 2026-10-27 }
+milestones:
+  - type: abstract
+    at: 2026-05-12T21:00
+    tz: UTC+02:00
+    status: confirmed
+    src: esmo-2026-abstracts
+    quote: "Abstracts 12 May 2026, 21:00 CEST"
+    note_zh: 常规摘要、Trials in Progress 和"打算投晚到摘要"的占位都在这一天截止。
+  - type: notification
+    start: 2026-07-08
+    end: 2026-07-10
+    tz: UTC+02:00
+    status: confirmed
+    src: esmo-2026-abstracts
+    quote: "Outcome notifications of regular abstracts and \"intent to submit LBA\" placeholders are expected to be made available to first authors and submitters between 8 and 10 July 2026."
+    note_zh: 官网写"预计"在这三天里发给第一作者和提交人。
+  - type: early_registration
+    at: 2026-07-22
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: esmo-2026-registration
+    quote: "Early registration Late registration Full registration (21% Spanish VAT included) until 22 July 2026"
+    note_zh: 注册费表只写日期、没写时区，按北京时间当天结束算（更保守）。
+  - type: abstract
+    label_zh: 晚到摘要（LBA）截止
+    at: 2026-09-08T21:00
+    tz: UTC+02:00
+    status: confirmed
+    src: esmo-2026-abstracts
+    quote: "Late-breaking abstracts 8 September 2026, 21:00 CEST"
+    note_zh: 只收前瞻性临床试验等重大新结果；官网写明这不是常规摘要的延期。要在 5/12 前先交占位。
+  - type: author_registration
+    label_zh: 报告人注册截止
+    at: 2026-09-30
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: esmo-2026-abstracts
+    quote: "The presenting author or the designated replacement presenter must be registered by 30 September 2026."
+    note_zh: 所有录用形式（含 ePoster）都要注册；到期没注册，摘要从会议日程和摘要集里撤掉。官网没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2026-10-23
+    end: 2026-10-27
+    tz: Europe/Madrid
+    status: confirmed
+    src: esmo-2026-registration
+    quote: "The ESMO Congress 2026 will take place from 23 to 27 October 2026 in Madrid, Spain"
+last_checked: 2026-09-25
+note_zh: 2026 届的摘要征集（含晚到摘要）已经关闭。海报要现场报告；ePoster 不要求到场。

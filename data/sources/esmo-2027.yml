@@ -1,0 +1,11 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: esmo-2027
+sources:
+  - id: esmo-2027-home
+    url: https://www.esmo.org/meeting-calendar/esmo-congress-2027
+    embedded: true
+    title: ESMO Congress 2027
+    kind: other
+    fetched_at: 2026-09-25T17:43:19Z
+    http_status: 200
+    snapshot: ffa0006f6d88b11c5d4095ca58c5d26dab652d4de8f9c2782b0b65a4261b568e

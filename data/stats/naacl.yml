@@ -1,0 +1,104 @@
+# NAACL 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: naacl
+rows:
+  - year: 2021
+    track: main
+    status: official
+    submissions: 1797
+    accepted: 477
+    rate: 26
+    rate_text: 26%
+    rate_basis: stated
+    definition_zh: 主会；分母为全部投稿
+    source_url: https://aclanthology.org/2021.naacl-main.0.pdf
+    quote: NAACL-HLT 2021 received 1797 submissions–a record for our conference! We accepted 477 papers, including 350 long and 127 short, for an overall acceptance rate of 26%. The acceptance rate for long papers was higher than short papers (28% vs. 23%)
+    src: naacl-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 2103
+    accepted: 442
+    rate: 21.96
+    rate_text: 21.96%
+    rate_basis: stated
+    definition_zh: ARR 两轮投稿加特别主题投稿
+    source_url: https://aclanthology.org/2022.naacl-main.0.pdf
+    quote: The ACL Rolling Review received 196 submissions in December and 1897 in January, which were the two submission deadlines between the ACL and NAACL commitment deadlines. Of these 2103 submissions, 56% (1073) were committed to NAACL 2022 for the senior program committee to make an acceptance decision. We accepted a total of 442 papers (358 long papers and 84 short papers), representing 21.96% of papers submitted to ARR in December and January and to the NAACL special theme, and 41.19% of papers committed to NAACL (including the special theme papers).
+    src: naacl-2022-front-matter
+    quote_check: snapshot
+    mismatch_zh: 官方写 21.96%，按官方数字算是 21.0%；主席没有说明分母
+    checked: 2026-09-25
+  - year: 2022
+    track: findings
+    status: official
+    submissions: 2103
+    accepted: 209
+    rate: 9.9
+    rate_text: 9.9%
+    rate_basis: computed
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2022.naacl-main.0.pdf
+    quote: "Of these 2103 submissions, 56% (1073) were committed to NAACL 2022 ... Additionally, 209 submissions (183 long and 26 short) were accepted for publications in the “Findings of ACL: NAACL 2022” (or Findings for short)"
+    src: naacl-2022-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 2434
+    accepted: 565
+    rate: 23.2
+    rate_text: 23.2%
+    rate_basis: stated
+    definition_zh: ARR；分母不含早期撤稿和桌拒
+    source_url: https://aclanthology.org/2024.naacl-long.0.pdf
+    quote: "So in total, the denominator for acceptance rate calculation is 2328 + 17 + 89 = 2434. Among these, 1140 papers were officially committed to NAACL, and 565 were accepted. The acceptance rate for Main Conference papers is therefore: 565 / 2434 = 23.2"
+    src: naacl-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: findings
+    status: official
+    submissions: 2434
+    accepted: 304
+    rate: 12.5
+    rate_text: 12.5%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2024.naacl-long.0.pdf
+    quote: Findings papers are those which are not accepted at the Main Conference, but nevertheless have been judged worthy of publication as solid work with sufficient substance, quality and novelty. The next 304 / 2434 = 12.5
+    src: naacl-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 3099
+    accepted: 719
+    rate: 22
+    rate_text: 22%
+    rate_basis: estimate
+    definition_zh: ARR 2024 年 10 月轮里打算投 NAACL 的论文（主席估算）
+    source_url: https://aclanthology.org/2025.naacl-long.0.pdf
+    quote: Of the 3,185 papers submitted to the October ARR cycle, we estimate that 3,099 intended to submit to NAACL. Based on this information, we estimate that 22% of papers submitted to the October cycle and intended for NAACL were accepted to the main conference, and another 15% were accepted to Findings, bringing the total estimated acceptance rate for papers accepted to be presented at the conference (Main + Findings) to 37%. Out of the 1,647 papers committed to NAACL with ARR reviews, 719 were accepted to the main conference, and 477 were accepted to Findings.
+    src: naacl-2025-front-matter
+    quote_check: snapshot
+    mismatch_zh: 主席说分母本身是估算；按官方数字算是 23.2%
+    checked: 2026-09-25
+  - year: 2025
+    track: findings
+    status: official
+    submissions: 3099
+    accepted: 477
+    rate: 15
+    rate_text: 15%
+    rate_basis: estimate
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2025.naacl-long.0.pdf
+    quote: Of the 3,185 papers submitted to the October ARR cycle, we estimate that 3,099 intended to submit to NAACL. Based on this information, we estimate that 22% of papers submitted to the October cycle and intended for NAACL were accepted to the main conference, and another 15% were accepted to Findings [...] 719 were accepted to the main conference, and 477 were accepted to Findings.
+    src: naacl-2025-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25

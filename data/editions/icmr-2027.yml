@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icmr-2027
+series: icmr
+name: ICMR 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/ICMR
+  conf_id: icmr27
+  link: https://www.icmr2027.org/
+  place: Singapore
+  date: June 7-10, 2027
+  timezone: UTC-12
+location:
+  city: Singapore
+  country: Singapore
+  country_code: SG
+dates:
+  start: 2027-06-07
+  end: 2027-06-10
+milestones:
+  - type: paper
+    at: 2027-01-31T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2027-06-07
+    end: 2027-06-10
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

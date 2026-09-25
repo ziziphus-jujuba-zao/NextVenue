@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-uai
+sources:
+  - id: uai-2021-pc-preface
+    url: https://proceedings.mlr.press/v161/campos21a/campos21a.pdf
+    title: UAI 2021 program chairs' preface (PMLR v161)
+    kind: other
+    fetched_at: 2026-09-25T13:12:38Z
+    http_status: 200
+    snapshot: ccfb627dbe1c593dd5a054a280b72bc94a723dc1abfece036c26cc7df2f1346a
+  - id: uai-2024-pc-preface
+    url: https://raw.githubusercontent.com/mlresearch/v244/main/assets/kiyavash24a/kiyavash24a.pdf
+    title: UAI 2024 program chairs' preface (PMLR v244)
+    kind: other
+    fetched_at: 2026-09-25T13:18:28Z
+    http_status: 200
+    snapshot: 207f7e7fd66b4b6c395d732f2d810909142db48de01a76ea90d0161153338a2b
+  - id: uai-2026-ntt-news
+    url: https://www.group.ntt/en/topics/2026/08/14/uai2026.html
+    title: "NTT news: UAI 2026 (third party)"
+    kind: blog
+    fetched_at: 2026-09-25T13:12:43Z
+    http_status: 200
+    snapshot: 70d783883c1c07573c2155c4fa70679eb98af4f9429b22a81d3de8427ea5a3d6

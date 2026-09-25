@@ -1,0 +1,82 @@
+id: sensys-2027
+series: sensys
+name: SenSys 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Boulder, country: USA, country_code: US }
+dates: { start: 2027-05-17, end: 2027-05-20 }
+federated_with:
+  name: CPS-IoT Week 2027
+  url: https://cps-iot-week-2027.sigbed.org/
+  with: [hscc, rtas]
+  src: sensys-2027-cfp
+  quote: "We are pleased to announce SenSys 2027: The International Conference on Embedded Artificial Intelligence and Sensing Systems, co-located with CPS-IoT Week."
+milestones:
+  # 第二轮（2nd deadline）放在前面：第一轮已经结束，按类型找节点的地方（规则卡、链接）指向还能投的这一轮。
+  - type: abstract
+    label_zh: 第二轮摘要注册截止
+    at: 2026-10-29T23:59
+    tz: AoE
+    status: confirmed
+    src: sensys-2027-cfp
+    quote: "Abstract registration deadline: Thursday, October 29, 2026 (AoE)"
+  - type: paper
+    label_zh: 第二轮正文截止
+    at: 2026-11-05T23:59
+    tz: AoE
+    status: confirmed
+    src: sensys-2027-cfp
+    quote: "Paper submission deadline: Thursday, November 5, 2026 (AoE)"
+    note_zh: 第一轮被拒的稿件要大幅修改，并在文末附不超过 4 页的 “Response to Reviewers”，否则直接拒稿。
+  - type: phase1_notification
+    label_zh: 第二轮早期拒稿通知
+    at: 2026-12-17
+    tz: AoE
+    status: confirmed
+    src: sensys-2027-cfp
+    quote: "Early notification: Thursday, December 17, 2026"
+    note_zh: 审稿人一致认为该拒的稿件在这天提前通知。日期表里没有作者回复（rebuttal）环节。
+  - type: notification
+    label_zh: 第二轮出结果
+    at: 2027-01-28
+    tz: AoE
+    status: confirmed
+    src: sensys-2027-cfp
+    quote: "Review results notification: Thursday, January 28, 2027"
+  - type: camera_ready
+    tz: AoE
+    status: tba
+    src: sensys-2027-home
+    quote: "TBD, 23:59 AoE"
+    note_zh: 官网写待定。每篇录用论文要在终稿截止前有一份非学生全价注册。
+  - type: conference
+    start: 2027-05-17
+    end: 2027-05-20
+    tz: America/Denver
+    status: confirmed
+    src: sensys-2027-home
+    quote: "May 17–20, 2027 Boulder, CO, USA"
+  - type: abstract
+    label_zh: 第一轮摘要注册截止
+    at: 2026-05-29T23:59
+    tz: AoE
+    status: confirmed
+    src: sensys-2027-cfp
+    quote: "Abstract registration deadline: Friday, May 29, 2026 (AoE)"
+  - type: paper
+    label_zh: 第一轮正文截止
+    at: 2026-06-05T23:59
+    tz: AoE
+    status: confirmed
+    src: sensys-2027-cfp
+    quote: "Paper submission deadline: Friday, June 5, 2026 (AoE)"
+  - type: notification
+    label_zh: 第一轮出结果
+    at: 2026-08-31
+    tz: AoE
+    status: confirmed
+    src: sensys-2027-cfp
+    quote: "Review results notification: Monday, August 31, 2026"
+last_checked: 2026-09-25
+note_zh: SenSys 2027 每届两个投稿截止，每轮独立审稿。第一轮（2026 年 5–6 月）已经结束；第二轮摘要 10/29、正文 11/5（23:59 AoE），与 HSCC+ICCPS、RTAS 同在 CPS-IoT Week 2027。全文最长 12 页、短文（愿景、经验等）6 页，参考文献和附录不限页数；双盲。2026 年起 SenSys、IPSN、IoTDI 合并为这一个会。

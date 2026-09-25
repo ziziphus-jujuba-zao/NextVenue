@@ -3,7 +3,7 @@ series: aaai
 name: AAAI-28
 year: 2028
 kind: conference
-topics: [ai, ml]
+data_level: curated
 derived_from: aaai-27
 milestones:
   - type: abstract

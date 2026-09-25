@@ -1,0 +1,41 @@
+id: imece-2026
+series: imece
+name: IMECE 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Vancouver, country: Canada, country_code: CA }
+dates: { start: 2026-11-08, end: 2026-11-12 }
+milestones:
+  - type: abstract
+    at: 2026-03-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: imece-2026-home
+    quote: "March 10, 2026 Abstract Submission"
+    note_zh: 已截止。
+  - type: notification
+    at: 2026-06-23
+    tz: America/Vancouver
+    status: confirmed
+    src: imece-2026-home
+    quote: "June 23, 2026 Paper Acceptance Notification"
+  - type: camera_ready
+    at: 2026-08-11
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: imece-2026-home
+    quote: "August 11, 2026 Final Paper Submission"
+    note_zh: 已截止。
+  - type: conference
+    start: 2026-11-08
+    end: 2026-11-12
+    tz: America/Vancouver
+    status: confirmed
+    src: imece-2026-home
+    quote: "Conference: November 8-12, 2026"
+    note_zh: 会场是温哥华会议中心，展会 11/9–11。
+last_checked: 2026-09-25
+note_zh: 投稿已截止，只剩开会。IMECE 2027 的地点和日期还没公布，往年摘要在 3 月截止。

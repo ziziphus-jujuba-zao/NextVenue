@@ -3,7 +3,7 @@ series: cvpr
 name: CVPR 2028
 year: 2028
 kind: conference
-topics: [cv]
+data_level: curated
 derived_from: cvpr-2027
 milestones:
   - type: paper_registration

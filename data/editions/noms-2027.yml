@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: noms-2027
+series: noms
+name: NOMS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/NOMS
+  conf_id: noms27
+  link: https://noms2027.ieee-noms.org/
+  place: Montreal, Canada
+  date: May 10-14, 2027
+  timezone: AoE
+location:
+  city: Montreal
+  country: Canada
+  country_code: CA
+dates:
+  start: 2027-05-10
+  end: 2027-05-14
+milestones:
+  - type: paper
+    at: 2026-11-09T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-05-10
+    end: 2027-05-14
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

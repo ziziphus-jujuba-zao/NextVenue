@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-corl
+sources:
+  - id: corl-2024-home
+    url: https://2024.corl.org/
+    title: CoRL 2024 homepage
+    kind: other
+    fetched_at: 2026-09-25T13:16:00Z
+    http_status: 200
+    snapshot: 364b3c117aa155ebc59ddc38eeb83f9f7f40316df199fb20ec33bc91e9478a96

@@ -1,0 +1,115 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: china-admin
+sources:
+  - id: china-admin-sjtu-seiee
+    url: https://www.seiee.sjtu.edu.cn/xzzx_bszn_gjjl/3700.html
+    title: 上海交通大学电子信息与电气工程学院 · 学生因公出国（境）办理指南
+    kind: policy
+    fetched_at: 2026-09-25T10:21:52Z
+    http_status: 200
+    snapshot: 037a49f625a4dce910792663b586fb992c45b24de0ba435a26b417c99b4653a1
+  - id: china-admin-sjtu-me-faq
+    url: https://me.sjtu.edu.cn/xgcg-faq.html
+    title: 上海交通大学机械与动力工程学院 · 因公出国（境）常见问题
+    kind: faq
+    fetched_at: 2026-09-25T10:21:54Z
+    http_status: 200
+    snapshot: c791ffa47fcec96d0c5cdda42885ab471c8a39c0d23e048933a46468a4a9b75e
+  - id: china-admin-sustech
+    url: https://global.sustech.edu.cn/business_category/guidelines
+    title: 南方科技大学国际合作部 · 因公出国（境）办事指南
+    kind: policy
+    fetched_at: 2026-09-25T10:21:56Z
+    http_status: 200
+    snapshot: 7441601c1619b3f8bfa786f80dbd5dd7976600647c3057893613f59f6822bf75
+  - id: china-admin-zju-grs
+    url: http://www.grs.zju.edu.cn/2023/1116/c62987a2930416/page.htm
+    title: 浙江大学研究生院 · 研究生因公出国（境）审批
+    kind: policy
+    fetched_at: 2026-09-25T10:21:58Z
+    http_status: 200
+    snapshot: 4ada983a39b2167e7772feb0a3b8e54ef04a3462d322eef96c497b1d17b19731
+  - id: china-admin-pku-student
+    url: https://www.oir.pku.edu.cn/info/1044/1161.htm
+    title: 北京大学国际合作部 · 学生因公出国（境）说明
+    kind: policy
+    fetched_at: 2026-09-25T10:22:00Z
+    http_status: 200
+    snapshot: 6c8bf089ffbfe390229471c1e211bf0374198dd9f4e2fa70c26a13d46f9eb738
+  - id: china-admin-fin-2013-516
+    url: https://www.gov.cn/gongbao/content/2014/content_2654527.htm
+    title: 财政部 外交部 因公临时出国经费管理办法（财行〔2013〕516号）
+    kind: policy
+    fetched_at: 2026-09-25T10:22:01Z
+    http_status: 200
+    snapshot: a7524531e64ffc6fe481c6ca6f6ed2a534be77eaf8365421a341efe6a967933f
+  - id: china-admin-pku-time-limits
+    url: https://www.oir.pku.edu.cn/info/1036/3976.htm
+    title: 北京大学国际合作部 · 因公临时出国（境）手续办理时限说明（2018-07-10）
+    kind: policy
+    fetched_at: 2026-09-25T10:59:09Z
+    http_status: 200
+    snapshot: f0af7a6ec89b6af4c1af06060ed668a49c49f2440ec7c0bc689d6daa1d2bd102
+  - id: china-admin-pku-staff
+    url: https://www.oir.pku.edu.cn/info/1044/3724.htm
+    title: 北京大学国际合作部 · 教职工因公临时出国（境）办理说明（2023年2月修订）
+    kind: policy
+    fetched_at: 2026-09-25T10:59:10Z
+    http_status: 200
+    snapshot: d2dd7106c9943e74b8c327598d9a25618ce1cb2718410c6c28463c1b343af584
+  - id: china-admin-zju-cmm-staff
+    url: http://www.cmm.zju.edu.cn/2025/0527/c55168a3055573/pagem.htm
+    title: 浙江大学医学院 · 2025版教职工因公临时出国（境）办理全流程说明
+    kind: policy
+    fetched_at: 2026-09-25T10:59:11Z
+    http_status: 200
+    snapshot: e4929d40582121e87c8245db2aeee7ce035aec7363ddb7e45b60797165d2b0fb
+  - id: china-admin-tsinghua-sist-fund
+    url: https://www.sist.tsinghua.edu.cn/info/1123/2535.htm
+    title: 清华大学信息学院 · 学生出席国际会议专项基金（登峰基金）申请指南（2025-05-29）
+    kind: policy
+    fetched_at: 2026-09-25T10:59:12Z
+    http_status: 200
+    snapshot: 2dd62cb312e1e0697e9dbe23d3ddb03c72183aa2c3570079f0fa8408ee43a34b
+  - id: china-admin-tsinghua-phd-fund
+    url: https://www.tsinghua.edu.cn/jxjywj/2026qinghuadaxueboshishengpeiyangjijinshishixize.pdf
+    title: 清华大学研究生院 · 清华大学博士生培养基金实施细则（2026年1月19日修订）
+    kind: policy
+    fetched_at: 2026-09-25T10:59:13Z
+    http_status: 200
+    snapshot: 809ad1b8a76bd9a41b64c12cab142db18979eab71455e0e4def40890153aa89d
+  - id: china-admin-sjtu-gs-fund
+    url: https://www.gs.sjtu.edu.cn/post/detail/Z3MxNTIw
+    title: 上海交通大学研究生院 · 研究生参加国际学术会议资助
+    kind: policy
+    fetched_at: 2026-09-25T10:59:15Z
+    http_status: 200
+    snapshot: dc817055ad6160f3ccffbe7350a478222eb61bc34e8e22ceacb83f2468b4e5f7
+  - id: china-admin-seu-grad
+    url: https://ic.seu.edu.cn/2025/0227/c47777a519624/page.htm
+    title: 东南大学国际合作处 · 研究生境外参加国际会议办理流程（2025-02-27）
+    kind: policy
+    fetched_at: 2026-09-25T10:59:17Z
+    http_status: 200
+    snapshot: 9815e60452c303ea445d1ea8c39a1c4a9a0f85bb28e9d8877a800e647b1217b9
+  - id: china-admin-sysu-fx
+    url: https://iaccounting.sysu.edu.cn/bxbd/1.%20%E6%8A%A5%E9%94%80%E5%B8%B8%E8%AF%86/7/1.html?v=414
+    title: 中山大学财务与国资管理处 · 外币折算汇率标准
+    kind: policy
+    fetched_at: 2026-09-25T10:59:18Z
+    http_status: 200
+    snapshot: 7c2e9a7e11a030ba7f7070eb3927d4683e10900c2f3c3c5d9274f43818b9e442
+  - id: china-admin-mfa-official-passport
+    url: https://cs.mfa.gov.cn/zggmcg/hz/hzjj_660445/201405/t20140530_939518.shtml
+    title: 中国领事服务网 · 中国因公出国管理体制及因公护照介绍
+    kind: policy
+    fetched_at: 2026-09-25T10:59:19Z
+    http_status: 200
+    snapshot: 68bbfd9bfae2901ff104a811981e25ec503c32ba34a7d56a81738d65dad3a6fe
+  - id: china-admin-nia-passport
+    url: https://s.nia.gov.cn/mps/bszy/gmcrg/slpthz/201903/t20190313_1011.html
+    title: 国家移民管理局政务服务平台 · 普通护照签发
+    kind: policy
+    fetched_at: 2026-09-25T10:59:21Z
+    http_status: 200
+    snapshot: c97cd4f54cc843f006fbf58ca07e9d99063d20563eaf92dbb54414f8117d33ba

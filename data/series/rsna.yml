@@ -1,0 +1,12 @@
+id: rsna
+acronym: RSNA
+full_name: Radiological Society of North America Scientific Assembly and Annual Meeting
+aliases:
+  - RSNA Annual Meeting
+directions: [med/imaging]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会，往届都在每年 11 月底至 12 月初于芝加哥 McCormick Place 举办
+data_level: curated
+note_zh: 只收摘要，分科学（science）和教育（education）两类，双盲同行评审。

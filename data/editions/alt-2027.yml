@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: alt-2027
+series: alt
+name: ALT 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/ALT
+  conf_id: alt2027
+  link: https://algorithmiclearningtheory.org/alt2027/
+  place: Leiden, Netherlands
+  date: March 9-12, 2027
+  timezone: AoE
+location:
+  city: Leiden
+  country: Netherlands
+  country_code: NL
+dates:
+  start: 2027-03-09
+  end: 2027-03-12
+milestones:
+  - type: paper
+    at: 2026-10-12T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-03-09
+    end: 2027-03-12
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

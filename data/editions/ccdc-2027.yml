@@ -1,0 +1,54 @@
+id: ccdc-2027
+series: ccdc
+name: CCDC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Changsha, country: China, country_code: CN }
+dates: { start: 2027-05-14, end: 2027-05-16 }
+submission_type: full_paper
+submission_evidence:
+  src: ccdc-2027-first-submission
+  quote: "8 pages in the first submission are allowed for each paper, including figures."
+  note_zh: 录用后最多 6 页，超出每页 200 元。另有只交 800–1000 词扩展摘要的 Position Paper（不进 IEEE Xplore）。
+milestones:
+  - type: paper
+    at: 2026-10-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ccdc-2027-home
+    quote: "Deadline for Full Paper Submission 31 October 2026"
+    note_zh: 官网没写时区和时刻，按北京时间当天结束算。在 cms.amss.ac.cn 提交。
+  - type: notification
+    at: 2027-02-10
+    tz: Asia/Shanghai
+    status: confirmed
+    src: ccdc-2027-home
+    quote: "Notification of Acceptance/Rejection 10 February 2027"
+  - type: camera_ready
+    at: 2027-03-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ccdc-2027-home
+    quote: "Deadline for Camera Ready Manuscript Submission 15 March 2027"
+    note_zh: 官网没写时区，按北京时间算。
+  - type: early_registration
+    label_zh: 提前注册截止
+    at: 2027-03-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ccdc-2027-home
+    quote: "Deadline for Advance Registration 15 March 2027"
+    note_zh: 官网写的是 Advance Registration；注册费和作者注册要求还没公布。没写时区，按北京时间算。
+  - type: conference
+    start: 2027-05-14
+    end: 2027-05-16
+    tz: Asia/Shanghai
+    status: confirmed
+    src: ccdc-2027-home
+    quote: "The 39th Chinese Control and Decision Conference (CCDC 2027) will be held from May 14th to 16th, 2027 in Changsha, China."
+    note_zh: 东北大学主办，中南大学、湖南大学、国防科技大学承办。IEEE CSS 会议列表写 5/13–16，多算了会前一天。
+last_checked: 2026-09-25

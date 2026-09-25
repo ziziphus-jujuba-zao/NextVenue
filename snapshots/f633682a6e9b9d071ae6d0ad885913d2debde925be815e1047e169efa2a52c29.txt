@@ -1,0 +1,404 @@
+CALL FOR CONTRIBUTIONS OPENS 22 OCTOBER 2026 CALL FOR DEMONSTRATIONS OPENS 22 OCTOBER 2026 CALL FOR CONTRIBUTIONS OPENS 22 OCTOBER 2026 CALL FOR DEMONSTRATIONS OPENS 22 OCTOBER 2026 CALL FOR CONTRIBUTIONS OPENS 22 OCTOBER 2026 CALL FOR DEMONSTRATIONS OPENS 22 OCTOBER 2026 CALL FOR CONTRIBUTIONS OPENS 22 OCTOBER 2026 CALL FOR DEMONSTRATIONS OPENS 22 OCTOBER 2026 CALL FOR CONTRIBUTIONS OPENS 22 OCTOBER 2026 CALL FOR DEMONSTRATIONS OPENS 22 OCTOBER 2026
+Main Menu
+ * CongressMore about: Congress
+   * Home
+   * About ITS Congresses
+   * Host Region
+   * Practical Information
+   * ITS Hall of Fame
+   * Meet the organisers and hosts
+ * ProgrammeMore about: Programme
+   * Technical Programme
+   * Theme & Topics
+   * PAAG
+   * Welcome Letters
+ * ExhibitionMore about: Exhibition
+   * Exhibit
+   * Exhibitors
+ * PartnershipMore about: Partnership
+   * Partnership Opportunities
+   * Development Advisors
+ * Demonstrations
+ * Media & PressMore about: Media & Press
+   * Latest News
+   * Our Media Partners
+ * Exhibit or partner
+ * Register your interest
+
+25–29 October 2027 · NEC Birmingham
+
+Connect Ideas
+Transform Transport
+
+Join the global leaders, innovators, policymakers and researchers shaping intelligent transport
+
+Register your interest
+Exhibit or partner
+Congress in a Nutshell
+
+Background Video
+
+15000International participants
+
+600+Speakers
+
+350+Exhibitors
+
+200Programme sessions
+
+100+Countries represented
+
+Heading / Copy
+
+• Cities
+
+The Congress
+
+• Operators
+
+• Start-ups
+
+One Congress
+The Whole
+Mobility Ecosystem
+
+• Industry
+
+• Policy
+
+Policy, industry, cities and academia. Road, rail, air and sea. The ITS World Congress brings the whole intelligent transport ecosystem together in one place, for five days in Birmingham.
+
+• Academia
+
+Since 1994, across three continents
+
+The 33rd ITS World Congress
+
+Thirty-three editions across three continents, from Paris in 1994 to Birmingham in 2027. Each Congress gathers the global intelligent transport community to share what works, turning three decades of ideas into the systems that keep the world's cities and roads moving.
+
+Discover the Congress
+
+Find your path
+
+What brings you to the ITS World Congress?
+
+I want to exhibit
+
+Meet the policymakers, cities and authorities deploying the technology you build.
+
+Explore exhibiting
+
+I want to become a partner
+
+Put your organisation at the centre of the global mobility conversation, in front of the people who make deployment decisions.
+
+Explore partnership
+
+I want to follow the programme
+
+Keynotes, expert panels and technical sessions across the mobility agenda.
+
+Explore the programme
+
+I want to discover the host region
+
+The UK's first Future Transport Zone: political leadership and real-world deployment.
+
+Discover the host region
+
+The host region
+
+UK: A Global Transport Leader
+
+The United Kingdom is one of the world's leading centres for intelligent transport, where government, industry and academia develop, test and deploy new mobility at scale. From connected and automated vehicles to digital infrastructure and cleaner public transport, delegates see real-world deployment, not just hear about it.
+
+Discover the host region
+
+ITS World Congress Birmingham
+
+{"id":24,"form_id":3,"category":"category-1","name":"Co-created Sesison.png","path":"images\/ITS WCB 2027\/gallery\/Co-created Sesison.png","url":"https:\/\/www.2027.itsworldcongress.com\/images\/ITS%20WCB%202027\/gallery\/Co-created%20Sesison.png","thumbnail_url":"\/images\/bagallery\/gallery-3\/thumbnail\/category-1\/Co-created Sesison.png","title":"","short":"","alt":"","description":"","link":"","video":"","settings":null,"likes":0,"imageId":"12","target":"blank","lightboxUrl":"","watermark_name":"54008777839_0e9fdeab2a_k.webp","hideInAll":0,"suffix":""}
+
+{"id":60,"form_id":3,"category":"category-1","name":"54552519687_a9c111d9d6_k.jpg","path":"images\/ITS WCB 2027\/gallery\/54552519687_a9c111d9d6_k.jpg","url":"https:\/\/www.2027.itsworldcongress.com\/images\/ITS WCB 2027\/gallery\/54552519687_a9c111d9d6_k.jpg","thumbnail_url":"\/images\/bagallery\/gallery-3\/thumbnail\/category-1\/54552519687_a9c111d9d6_k.jpg","title":"","short":"","alt":"","description":"","link":"","video":"","settings":null,"likes":0,"imageId":"18","target":"blank","lightboxUrl":"","watermark_name":"54552519687_a9c111d9d6_k.jpg","hideInAll":0,"suffix":""}
+
+{"id":53,"form_id":3,"category":"category-1","name":"image-box-4.webp","path":"images\/ITS WCB 2027\/gallery\/image-box-4.webp","url":"https:\/\/www.2027.itsworldcongress.com\/images\/ITS WCB 2027\/gallery\/image-box-4.webp","thumbnail_url":"\/images\/bagallery\/gallery-3\/thumbnail\/category-1\/image-box-4.webp","title":"","short":"","alt":"","description":"","link":"","video":"","settings":null,"likes":0,"imageId":"17","target":"blank","lightboxUrl":"","watermark_name":"image-box-4.webp","hideInAll":0,"suffix":""}
+
+{"id":27,"form_id":3,"category":"category-1","name":"Image box 3.jpg","path":"images\/ITS WCB 2027\/gallery\/Image box 3.jpg","url":"https:\/\/www.2027.itsworldcongress.com\/images\/ITS%20WCB%202027\/gallery\/Image%20box%203.jpg","thumbnail_url":"\/images\/bagallery\/gallery-3\/thumbnail\/category-1\/Image box 3.jpg","title":"","short":"","alt":"","description":"","link":"","video":"","settings":null,"likes":0,"imageId":"15","target":"blank","lightboxUrl":"","watermark_name":"birmingham-library-of-birmingham.webp","hideInAll":0,"suffix":""}
+
+{"id":23,"form_id":3,"category":"category-1","name":"54553572454_d5ecb5b1bb_k.jpg","path":"images\/ITS WCB 2027\/gallery\/54553572454_d5ecb5b1bb_k.jpg","url":"https:\/\/www.2027.itsworldcongress.com\/images\/ITS%20WCB%202027\/gallery\/54553572454_d5ecb5b1bb_k.jpg","thumbnail_url":"\/images\/bagallery\/gallery-3\/thumbnail\/category-1\/54553572454_d5ecb5b1bb_k.jpg","title":"","short":"","alt":"","description":"","link":"","video":"","settings":null,"likes":0,"imageId":"11","target":"blank","lightboxUrl":"","watermark_name":"53999861498_4969a46414_k.webp","hideInAll":0,"suffix":""}
+
+{"id":28,"form_id":3,"category":"category-1","name":"55255026374_1477ec9864_k.jpg","path":"images\/ITS WCB 2027\/gallery\/55255026374_1477ec9864_k.jpg","url":"https:\/\/www.2027.itsworldcongress.com\/images\/ITS%20WCB%202027\/gallery\/55255026374_1477ec9864_k.jpg","thumbnail_url":"\/images\/bagallery\/gallery-3\/thumbnail\/category-1\/55255026374_1477ec9864_k.jpg","title":"","short":"","alt":"","description":"","link":"","video":"","settings":null,"likes":0,"imageId":"16","target":"blank","lightboxUrl":"","watermark_name":"birmingham-selfridges-bullring.webp","hideInAll":0,"suffix":""}
+
+Open now
+
+Exhibit and Partner at the Global Stage for Transport Technology
+
+Exhibition and partnership opportunities for Birmingham 2027 are open. Position your organisation at the centre of the global mobility conversation, in front of the public authorities and industry leaders who make deployment decisions.
+
+Explore exhibiting
+Request the brochure
+
+Programme
+
+The Programme is Taking Shape
+
+Four topics, one agenda
+
+Hundreds of sessions, organised around four main topics that cut across the whole programme.
+
+Explore Theme & Topics
+
+Trustworthy and resilient systems
+
+Safe, secure and dependable transport that people and cities can rely on.
+
+Next-generation ITS
+
+AI, automation and advanced connectivity across road, rail, air and sea.
+
+Connected and integrated services
+
+Joined-up data, systems and modes, so journeys flow as one.
+
+Deploying ITS at scale
+
+Turning proven innovation into everyday reality, from pilot to full rollout.
+
+The Call for Contributions runs from 22 October 2026 – 22 January 2027.
+Register your interest to be first to hear when the full programme and Call for Contributions go live.
+
+Register your interest
+
+ITS Arena
+
+The Deployment Stage Returns
+
+The ITS Arena is where deployment stories are told: cities, operators and industry on stage with the systems they actually run. The Arena returns to Birmingham at the heart of the exhibition floor.
+
+Testimonials
+
+What are people saying about ITS World Congress?
+
+Jurgis Vilčinskas, Deputy Head of Delegation, European Union Delegation to Türkiye
+
+Events like the ITS European Congress are key because they turn policy into implementation. They bring together public authorities, industry and financiers to align standards and regulations, accelerate deployment of smart and green mobility solutions and generate concrete, investable projects.
+
+Jurgis Vilčinskas
+
+Deputy Head of Delegation
+
+European Union Delegation to Türkiye
+
+Ms. Hanne Nettum Breivic, CEO, ITS Norway
+
+In my view, the key contribution of events like the ITS Congresses lies in their unique ability to bring the entire mobility ecosystem together to accelerate real-world progress. These Congresses create a rare meeting point where policymakers, industry leaders, researchers, technology developers and city representatives can align on priorities and collectively shape the future of transport.
+
+Ms. Hanne Nettum Breivic
+
+CEO
+
+ITS Norway
+
+Dr. Axel Volkery Head of Unit Research and Innovation, DG Move, European Commission
+
+These Congresses have been very important in two ways: First, they have helped us understand the needs of the sector when we were in the process of thinking and preparing for the revision of the directive. And now they are of course helping us to communicate with the sector on the changes we made and how to implement them.
+
+Dr Axel Volkery
+
+Head of Unit
+
+Research and Innovation, DG MOVE, European Commission
+
+Darren CapesHead of Road Infrastructure Technology, Department for Transport
+
+Paula ClaytonsmithChief Executive, Local Council Roads Innovation Group
+
+Max SugarmanChief Executive, ITS UK
+
+Development Advisors
+
+Shaped by the Sector
+
+The Congress programme is co-created with steering groups spanning technology, infrastructure, automotive, public transport and research, alongside Transport for West Midlands, ITS UK and the UK Government.
+
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+
+News
+
+Featured News
+
+ * Information18 September 2026
+
+   Organiser and host meet to prepare for the 2027 ITS World Congress in Birmingham
+
+   Read More
+
+ * Information17 September 2026
+
+   Host announces new leadership support to strengthen delivery of ITS World Congress 2027
+
+   Read More
+
+ * Information18 August 2026
+
+   ERTICO announces topics for ITS World Congress 2027
+
+   Read More
+
+All news
+
+The exhibition
+
+The Race for Space is On
+
+The following companies have already secured their space on the exhibition floor.
+
+Exhibiting at ITS World Congresses
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+
+Join the exhibition See our exhibitors
+
+Stay in the loop
+
+Sign up to learn more
+
+Be first to hear about the programme, speakers, registration and commercial opportunities in Birmingham.
+
+Subscribe
+
+* indicates required
+Email Address *
+First Name
+Last Name
+Organisation
+Opt in
+ * I confirm that I would like to receive emails regarding the ITS Congresses
+
+I am interested in
+ * Commercial Opportunities
+ * Technical Programme
+ * High-level Programme
+
+Marketing Permissions
+
+The ITS Congresses will use the information you provide on this form to be in touch with you and to provide congress updates and marketing. We will only contact you via email.
+
+Email
+
+You can change your mind at any time by clicking the unsubscribe link in the footer of any email you receive from us or by contacting us at congresspr@mail.ertico.com. We will treat your information with respect. For more information on our privacy practices please visit our website. By clicking below, you agree that we may process your information in accordance with these terms.
+
+We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.
+
+Learn more about Mailchimp's privacy practices.
+
+Organised by:
+
+Co-organised by:
+
+In collaboration with:
+
+In partnership with:
+
+Hosted by:
+
+Supported by:
+
+Get in touch
+
+Commercial Partnership & Exhibition
+salescongress@mail.ertico.com
+
+Programme
+speakersITS@mail.ertico.com
+
+Marketing & Communications
+congresspr@mail.ertico.com
+
+Stay in touch
+
+Sign up to our newsletter
+
+ *
+
+ *
+
+ *
+
+© 2026 ERTICO – ITS Europe. All rights reserved.
+
+ * Privacy Policy
+ * Cookie notice
+
+Event Website By
+
+ *
+
+ *
+
+ *
+
+Close
+ * CongressMore about: Congress
+   * Home
+   * About ITS Congresses
+   * Host Region
+   * Practical Information
+   * ITS Hall of Fame
+   * Meet the organisers and hosts
+ * ProgrammeMore about: Programme
+   * Technical Programme
+   * Theme & Topics
+   * PAAG
+   * Welcome Letters
+ * ExhibitionMore about: Exhibition
+   * Exhibit
+   * Exhibitors
+ * PartnershipMore about: Partnership
+   * Partnership Opportunities
+   * Development Advisors
+ * Demonstrations
+ * Media & PressMore about: Media & Press
+   * Latest News
+   * Our Media Partners
+ * Exhibit or partner
+ * Register your interest
+
+ *
+
+ *
+
+ *

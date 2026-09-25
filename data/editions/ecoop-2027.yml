@@ -1,0 +1,68 @@
+id: ecoop-2027
+series: ecoop
+name: ECOOP 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Turin, country: Italy, country_code: IT }
+dates: { start: 2027-06-28, end: 2027-07-02 }
+milestones:
+  - type: paper
+    label_zh: 第一轮正文截止
+    at: 2026-11-19T23:59
+    tz: AoE
+    status: confirmed
+    src: ecoop-2027-papers
+    quote: "Thu 19 Nov 2026 Round 1 submissions"
+    note_zh: 官网日期表写 “AoE (UTC-12h)”。
+  - type: author_response
+    label_zh: 第一轮作者回复
+    start: 2027-01-11
+    end: 2027-01-15
+    tz: AoE
+    status: confirmed
+    src: ecoop-2027-papers
+    quote: "Mon 11 - Fri 15 Jan 2027 Round 1 Author response period"
+  - type: notification
+    label_zh: 第一轮出结果
+    at: 2027-01-28
+    tz: AoE
+    status: confirmed
+    src: ecoop-2027-papers
+    quote: "Thu 28 Jan 2027 Round 1 Notification"
+    note_zh: 结果分录用、拒稿、要求修改三种。修改稿可以投之后任一轮；被拒的稿件如果和原稿差别不大，投紧接着的下一轮可能被直接拒稿。
+  - type: paper
+    label_zh: 第二轮正文截止
+    at: 2027-02-11T23:59
+    tz: AoE
+    status: confirmed
+    src: ecoop-2027-papers
+    quote: "Thu 11 Feb 2027 Round 2 Submissions"
+  - type: author_response
+    label_zh: 第二轮作者回复
+    start: 2027-03-22
+    end: 2027-03-26
+    tz: AoE
+    status: confirmed
+    src: ecoop-2027-papers
+    quote: "Mon 22 - Fri 26 Mar 2027 Round 2 Author response period"
+  - type: notification
+    label_zh: 第二轮出结果
+    at: 2027-04-08
+    tz: AoE
+    status: confirmed
+    src: ecoop-2027-papers
+    quote: "Thu 8 Apr 2027 Round 2 Notification"
+  - type: camera_ready
+    tz: AoE
+    status: tba
+    note_zh: 官网还没公布终稿截止。终稿最多 25 页（LIPIcs 格式，不含参考文献）。
+  - type: conference
+    start: 2027-06-28
+    end: 2027-07-02
+    tz: Europe/Rome
+    status: confirmed
+    src: ecoop-2027-home
+    quote: "Mon 28 June - Fri 2 July 2027 Turin, Italy"
+last_checked: 2026-09-25
+note_zh: ECOOP 2027 两轮投稿，双盲审稿，投稿不限页数，论文集是 LIPIcs（开放获取）。投稿量远超预期时，每篇投稿可能要有一位作者参与审稿。

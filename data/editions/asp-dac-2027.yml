@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: asp-dac-2027
+series: asp-dac
+name: ASP-DAC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ASP-DAC
+  conf_id: aspdac27
+  link: https://www.aspdac.com/aspdac2027/
+  place: Hitotsubashi Hall, Tokyo, Japan
+  date: Jan 25-28, 2027
+  timezone: AoE
+location:
+  city: Hitotsubashi Hall
+  country: Japan
+  country_code: JP
+dates:
+  start: 2027-01-25
+  end: 2027-01-28
+milestones:
+  - type: abstract
+    at: 2026-07-11T17:00
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-07-18T17:00
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-01-25
+    end: 2027-01-28
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

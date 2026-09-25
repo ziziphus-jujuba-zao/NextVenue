@@ -1,0 +1,44 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: mobicom-2026
+series: mobicom
+name: MobiCom 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: NW/MobiCom
+  conf_id: mobicom26
+  link: https://sigmobile.org/mobicom/2026/
+  place: Austin, Texas, USA
+  date: November, 2026
+  timezone: AoE
+location:
+  city: Austin
+  country: USA
+  country_code: US
+milestones:
+  - type: abstract
+    at: 2025-08-27T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Summer Deadlines
+  - type: paper
+    at: 2025-09-03T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Summer Deadlines
+  - type: abstract
+    at: 2026-03-06T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Winter Deadlines
+  - type: paper
+    at: 2026-03-13T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Winter Deadlines
+  - type: conference
+    tz: AoE
+    status: tba
+last_checked: 2026-09-25

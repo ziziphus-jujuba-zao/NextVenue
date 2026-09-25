@@ -3,7 +3,7 @@ series: emnlp
 name: EMNLP 2027
 year: 2027
 kind: conference
-topics: [nlp]
+data_level: curated
 derived_from: emnlp-2026
 milestones:
   - type: paper

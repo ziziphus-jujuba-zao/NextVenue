@@ -1,0 +1,109 @@
+# NeurIPS 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: neurips
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 9467
+    accepted: 1900
+    rate: 20.1
+    rate_text: 20.1%
+    rate_basis: computed
+    definition_zh: 主会；分母为正文投稿（摘要投稿更多）
+    source_url: https://neuripsconf.medium.com/what-we-learned-from-neurips-2020-reviewing-process-e24549eea38f
+    quote: We received 12115 abstract submissions, which resulted in 9467 full paper submissions. ... we have accepted exactly 1900 papers, including 105 oral presentations and 280 spotlight presentations.
+    src: neurips-2020-pc-blog
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 9122
+    accepted: 2334
+    rate: 25.6
+    rate_text: 25.6%
+    rate_basis: stated
+    definition_zh: 主会；Datasets & Benchmarks 赛道另算
+    source_url: https://media.neurips.cc/Conferences/NeurIPS2022/NeurIPS_2022_Fact_Sheet.pdf
+    quote: "2021 Program stats for comparison: ... 2,334 papers accepted ● 9,122 paper submissions ● 11,292 abstract submissions ● 25.6 % paper acceptance"
+    src: neurips-2022-fact-sheet
+    quote_check: snapshot
+    note_zh: 数字出自 NeurIPS 2022 fact sheet 里的“2021 年对比”一栏
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: partial
+    accepted: 2672
+    definition_zh: 主会
+    source_url: https://blog.neurips.cc/2022/11/22/getting-ready-for-neurips-3-2022-conference-highlights/
+    quote: The main conference has 2,672 accepted papers
+    src: neurips-2022-conference-highlights
+    quote_check: snapshot
+    note_zh: 官方没公布主会投稿数；2022 年 fact sheet 的投稿数和录用率前后对不上，不采用
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 12343
+    accepted: 3218
+    rate: 26.1
+    rate_text: 26.1%
+    rate_basis: stated
+    definition_zh: 主会；Datasets & Benchmarks 赛道另算
+    source_url: https://media.neurips.cc/Conferences/NeurIPS2023/NeurIPS2023-Fact_Sheet.pdf
+    quote: "3,218 main conference track ... 12,343 main conference track ... Paper acceptance rate: ■ 26.1% main conference track"
+    src: neurips-2023-fact-sheet
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 15671
+    accepted: 4037
+    rate: 25.8
+    rate_text: 25.8%
+    rate_basis: stated
+    definition_zh: 主会；Datasets & Benchmarks 赛道另算
+    source_url: https://media.neurips.cc/Conferences/NeurIPS2024/NeurIPS2024-Fact_Sheet.pdf
+    quote: "4,037 main conference track ... 15,671 main conference track ... Paper acceptance rate: ■ 25.8% main conference track"
+    src: neurips-2024-fact-sheet
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 21575
+    accepted: 5290
+    rate: 24.52
+    rate_text: 24.52%
+    rate_basis: stated
+    definition_zh: 主会；分母为有效投稿；Datasets & Benchmarks、Position 赛道另算
+    source_url: https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/
+    quote: The main track this year received 21,575 valid paper submissions, of which 5,290 were accepted. That is, the main track had an acceptance rate of 24.52%
+    src: neurips-2025-pc-reflections
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: none
+    reason: unpublished
+    decided: 2026-09-24
+    checked_urls:
+      - https://blog.neurips.cc/
+      - https://neurips.cc/Conferences/2026/FactSheet
+    note_zh: 9/24 已出结果，官方还没公布投稿数和录用数
+    checked: 2026-09-25
+areas_none:
+  - years:
+      - 2021
+      - 2022
+      - 2023
+      - 2025
+    scope_zh: 官方博客和 fact sheet 都没有各领域录用数据（2024 年只有各领域投稿数）
+    checked: 2026-09-25
+    checked_urls:
+      - https://blog.neurips.cc/wp-json/wp/v2/posts
+      - https://media.neurips.cc/Conferences/NeurIPS2024/NeurIPS2024-Fact_Sheet.pdf
+      - https://media.neurips.cc/Conferences/NeurIPS2025/press/NeurIPS2025-Fact_Sheet.pdf
+      - https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/

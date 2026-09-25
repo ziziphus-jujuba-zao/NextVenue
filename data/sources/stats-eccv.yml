@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-eccv
+sources:
+  - id: eccv-2022-program-guide
+    url: https://eccv2022.ecva.net/files/2021/12/ECCV_2022_MainConference_ProgramGuide_Final_full.pdf
+    title: ECCV 2022 main conference program guide
+    kind: other
+    fetched_at: 2026-09-25T13:13:33Z
+    http_status: 200
+    snapshot: 554919db63cae961fd40e5c83e85cd7364013e9c59fd986f7ca5dc9d84d25e7a
+  - id: eccv-2024-opening-slides
+    url: https://eccv2024.ecva.net/media/eccv-2024/Slides/2822.pdf
+    title: ECCV 2024 opening session slides
+    kind: other
+    fetched_at: 2026-09-25T13:13:37Z
+    http_status: 200
+    snapshot: 3d75c9155b43244d9155ad6b7e2a66dba570ba4f69b0ba32243348232db3bc93

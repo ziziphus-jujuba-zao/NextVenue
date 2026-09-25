@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: atva-2026
+series: atva
+name: ATVA 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/ATVA
+  conf_id: atva26
+  link: https://conf.researchr.org/track/aplas-atva-2026/atva-2026
+  place: Hong Kong SAR, China
+  date: December 1-4, 2026
+  timezone: AoE
+location:
+  city: Hong Kong SAR
+  country: China
+  country_code: CN
+dates:
+  start: 2026-12-01
+  end: 2026-12-04
+milestones:
+  - type: abstract
+    at: 2026-05-19T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-05-21T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-12-01
+    end: 2026-12-04
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

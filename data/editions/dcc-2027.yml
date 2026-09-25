@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: dcc-2027
+series: dcc
+name: DCC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/DCC
+  conf_id: dcc2027
+  link: https://datacompressionconference.org/
+  place: Snowbird, Utah, United States
+  date: March 23-26, 2027
+  timezone: PT
+location:
+  city: Snowbird
+  country: United States
+  country_code: US
+dates:
+  start: 2027-03-23
+  end: 2027-03-26
+milestones:
+  - type: paper
+    at: 2026-10-02T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+  - type: conference
+    start: 2027-03-23
+    end: 2027-03-26
+    tz: America/Los_Angeles
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ncmmsc-2026
+series: ncmmsc
+name: NCMMSC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/NCMMSC
+  conf_id: ncmmsc26
+  link: https://www.ncmmsc.org.cn/
+  place: Hengqin, China
+  date: Nov 5-8, 2026
+  timezone: UTC+8
+location:
+  city: Hengqin
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-05
+  end: 2026-11-08
+milestones:
+  - type: paper
+    at: 2026-07-05T23:59
+    tz: UTC+8
+    status: confirmed
+  - type: conference
+    start: 2026-11-05
+    end: 2026-11-08
+    tz: UTC+8
+    status: confirmed
+last_checked: 2026-09-25

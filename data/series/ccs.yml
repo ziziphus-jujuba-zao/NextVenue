@@ -1,0 +1,13 @@
+id: ccs
+acronym: CCS
+full_name: ACM Conference on Computer and Communications Security
+aliases: [ACM CCS]
+directions: [cs/security]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/ccs
+ccfddl: SC/CCS
+data_level: curated
+note_zh: 一年两轮投稿（Cycle A、Cycle B）；有小修（Minor revision）环节。

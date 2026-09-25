@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: emsoft-2026
+sources:
+  - id: emsoft-2026-cfp
+    url: https://esweek.org/emsoft_cfp/
+    title: EMSOFT 2026 Call for Papers (ESWEEK 2026)
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:21Z
+    http_status: 200
+    snapshot: c6b9d76253a5996514e2664e2a5cff124851c7a08033bd5aef9dcc53d1e9d7f5
+  - id: esweek-2026-home
+    url: https://esweek.org/
+    title: ESWEEK 2026 Home
+    kind: other
+    fetched_at: 2026-09-25T15:48:22Z
+    http_status: 200
+    snapshot: 7c1a9f2845ba2f89f0ba94210c7e50d9e8b852c40ff8e3876593a1b1b2abc451
+  - id: emsoft-2026-home
+    url: https://esweek.org/emsoft/
+    title: EMSOFT 2026 (ESWEEK 2026)
+    kind: other
+    fetched_at: 2026-09-25T15:48:24Z
+    http_status: 200
+    snapshot: 4bc8cde7d0e7d81bbed80071b3f1588ec563b570904c15e6532185b490e0826a

@@ -1,0 +1,33 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-aaai
+sources:
+  - id: aaai-2021-pc-paper
+    url: https://arxiv.org/abs/2202.12273
+    mirror_url: https://arxiv.org/pdf/2202.12273
+    title: "Leyton-Brown, Mausam et al.: Matching papers and reviewers at large conferences (AAAI-21 program chairs, arXiv)"
+    kind: other
+    fetched_at: 2026-09-25T13:12:12Z
+    http_status: 200
+    snapshot: cb7527479bd9164c504230e6dbd46b71142d09a1d99a53786a0b53277d1e50f2
+    note_zh: 快照取自同一论文的 arXiv PDF。
+  - id: aaai-2025-riken-news
+    url: https://aip.riken.jp/news/202412_aaai25/
+    title: "RIKEN AIP news: AAAI-25 accepted papers (third party)"
+    kind: blog
+    fetched_at: 2026-09-25T13:12:14Z
+    http_status: 200
+    snapshot: e36c8543d3b0bf08b83a5d9c0bae25e91b3db55cf7494246ac70948da1e45c3b
+  - id: aaai-2026-opening-ceremony
+    url: https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf
+    title: AAAI-26 Opening Ceremony slides
+    kind: other
+    fetched_at: 2026-09-25T13:12:16Z
+    http_status: 200
+    snapshot: e391a09b8018a386468bc2da606f6021b132695c493d73a2cdc3dc5008afe7e3
+  - id: aaai-2026-proceedings-issue
+    url: https://ojs.aaai.org/index.php/AAAI/issue/view/683
+    title: Proceedings of the AAAI Conference on Artificial Intelligence, AAAI-26 (issue page with preface)
+    kind: other
+    fetched_at: 2026-09-25T13:12:18Z
+    http_status: 200
+    snapshot: 126593426cd57c20e66e30676abc8fb105e7439b260199a4bf8a72a46e43e7c9

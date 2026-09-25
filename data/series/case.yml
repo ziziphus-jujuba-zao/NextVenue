@@ -1,0 +1,11 @@
+id: case
+acronym: CASE
+full_name: IEEE International Conference on Automation Science and Engineering
+aliases:
+  - IEEE CASE
+directions: [eng/control, cs/robotics]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 8 月前后
+data_level: curated

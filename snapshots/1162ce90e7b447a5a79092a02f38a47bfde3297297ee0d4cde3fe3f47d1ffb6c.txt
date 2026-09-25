@@ -1,0 +1,223 @@
+EVENT REPORT
+
+Report on the 16th ACM International
+Conference on Web Search and Data Mining
+(WSDM 2023)
+Hady W. Lauw
+
+Tat-Seng Chua
+
+Luo Si
+
+Singapore Management University
+Singapore
+
+National University of Singapore
+Singapore
+
+Salesforce
+USA
+
+hadywlauw@smu.edu.sg
+
+dcscts@nus.edu.sg
+
+lsi@salesforce.com
+
+Evimaria Terzi
+
+Panayiotis Tsaparas
+
+Andrew Tomkins
+
+Boston University
+USA
+
+University of Ioannina
+Greece
+
+Google
+USA
+
+evimaria@bu.edu
+
+tsap@uoi.gr
+
+atomkins@gmail.com
+
+Abstract
+The 16th ACM International Conference on Web Search and Data Mining (WSDM 2023)
+was held in Singapore. It was held as in-person conference that also featured rich virtual
+elements. This brief report provides an overview of WSDM 2023 with organization and
+program details and statistics from Conference Chairs and Program Committee Chairs, as
+well as a message from the WSDM Steering Committee Chair.
+Date: 27 February–3 March 2023.
+Website: https://www.wsdm-conference.org/2023.
+
+1
+
+Introduction
+
+WSDM (pronounced ”wisdom”) is one of the premier conferences on web-inspired research involving search and data mining. WSDM publishes original, high-quality papers related to search
+and data mining on the Web and the Social Web, with an emphasis on practical yet principled
+novel models of search and data mining, algorithm design and analysis, economic implications,
+and in-depth experimental analysis of accuracy and performance.
+After the previous two years of virtual conferences, the 2023 edition was an in-person conference, and we were excited to meet many colleagues face-to-face again. Meanwhile, we still
+supported rich virtual elements via Whova and Zoom to accommodate attendees that might have
+faced travel restrictions or financial inadequacies as many parts of the world were in the process
+of opening up as the organizational effort was underway.
+The full conference took place over 5 days, featuring a rich and wide-ranging program. The
+first day saw the presentation of 10 tutorials, as well as the Industry Day. The middle 3-day
+ACM SIGIR Forum
+
+1
+
+Vol. 57 No. 1 – June 2023
+
+Figure 1. Geographic Distribution of Submissions and Acceptances
+
+technical program followed the tradition of WSDM of primarily single-track presentations. Each
+main day was opened with a keynote talk by a renowned speaker:
+• Ya-Qin Zhang (Tsinghua University) on “Towards Autonomous Driving”
+• Maarten de Rijke (University of Amsterdam) on “Beyond-Accuracy Goals, Again”
+• Rosie Jones (Spotify) on “Learning to Understand Audio and Multimodal Content”
+The final day featured workshops, doctoral consortium, Smart City Day, WSDM Cup Day. In
+addition, we featured the the first-ever ideation challenge held at WSDM.
+
+2
+
+Program
+
+Overall, 123 papers were accepted out of 690 submissions, at the acceptance rate of 17.8%. Compared to the previous two years, WSDM 2022 with 788 submissions and acceptance rate of 20.5%
+and WSDM 2021 with 603 submissions and 18.6% acceptance rate, WSDM 2023 maintained comparable numbers of submissions and acceptance rates. We looked at the distribution of submitted
+as well as accepted papers by the country domain of the corresponding authors, as shown in
+Figure 1. The top five leading countries in terms of number of submissions were China, United
+States, Australia, South Korea and India. The top five leading countries in terms of number of
+accepted papers were China, United States, Australia, India and Singapore.
+To illustrate the dominant subject areas, Figure 2 shows a word cloud of the title words of
+accepted papers. Some of the major keywords include recommendation, retrieval, ranking, which
+reflect the traditional areas of interest of the SIGIR community, including the WSDM conference.
+Out of the 123 research papers, 52 were presented across 9 oral sessions as follows: 1) Social Issues in Data Mining; 2) Recommender Systems I; 3) Graph Neural Networks; 4) Best of
+WSDM 2023; 5) Recommender Systems II; 6) Learning; 7) Graph Mining; 8) Recommendation
+and Learning; 9) Language Models and Text Mining.
+ACM SIGIR Forum
+
+2
+
+Vol. 57 No. 1 – June 2023
+
+Figure 2. Word Cloud from Titles of Accepted Papers
+
+In particular, the “Best of WSDM 2023” featured in-person presentations by the best paper
+candidates [Pougué-Biyong et al., 2023; Zhang et al., 2023; Cai et al., 2023; Xuan et al., 2023] as
+well as the video presentation by the Test of Time Award [Backstrom and Leskovec, 2011].
+The other 71 research papers were presented as posters during the poster reception. There
+were also two half-day demo sessions that ran parallel to the oral sessions.
+Some tutorials on Day 1 were on topics relevant to retrieval, including trustworthy algorithmic
+ranking systems, proactive conversational agents, and AutoML for deep recommender systems.
+The WSDM Cup featured a number of competitions on IR topics. Baidu sponsored challenges
+on unbiased learning to rank and pre-training for Web search. In turn, University of Waterloo
+held competitions on multilingual information retrieval along two tracks, namely known languages
+and surprise languages. The last challenge held by Toloka was on visual question answering. The
+finalists presented their winning solutions on Day 5 of the conference during the WSDM Cup Day.
+Further details of the papers and other interesting works can be found in the proceedings1
+[Chua et al., 2023]. The talks (including the keynotes) can be found on ACM’s YouTube channel2 .
+
+3
+
+Hybrid Mode
+
+The conference was run in a two-way hybrid mode, allowing both remote presentations and virtual
+attendance. The major events such as keynote talks, oral sessions, workshops, tutorials were livestreamed in real time via Zoom. We also accommodated remote presentations, 46% or the oral
+presentations and 39% of the posters respectively.
+1
+2
+
+https://www.wsdm-conference.org/2023/program/acm-proceedings
+https://www.youtube.com/playlist?list=PLn0nrSd4xjjaL3eKbJfrBuwm97ynTQzLJ
+
+ACM SIGIR Forum
+
+3
+
+Vol. 57 No. 1 – June 2023
+
+Figure 3. Geographic Distribution of Attendees
+
+Considering all participants, including authors, registrants, sponsor representatives, volunteers,
+as well as complimentary registrations provided to invited speakers, panellists, and key committee
+members, the conference involved altogether 471 attendees, out of which 344 (73%) were present
+in person and 127 (27%) virtually. Figure 3 shows the geographic distribution of attendees.
+The overall fraction of students was about 40% of attendees. These include 9 student presenters supported by the SIGIR Student Travel Grant Program, 10 US-based student registrants
+supported by NSF Student Travel Awards. Moreover, there were 14 students from economically
+developing countries (Vietnam, India, Brazil, Morocco) attending virtually, supported by SIGWEB Fair Access Student Participation Awards.
+
+4
+
+Call for Bids for Future Conferences
+
+The WSDM conference series retained a robust participation through the virtual conferences of
+2021 and 2022, and it has been wonderful to see the high levels of in-person participation and
+engagement in the 2023 conference in Singapore. For 2024, the conference will be back in the
+Americas, in our first Latin American location: Mérida, Mexico. We are currently taking bids for
+WSDM 2025 in Europe, and WSDM 2026 in the Americas. See the Call for Bids3 for details, or
+feel free to get in touch with the Steering Committee at wsdm-sc@googlegroups.com.
+
+Acknowledgments
+We are immensely grateful to the many researchers and volunteers who have shaped the conference. In particular, we thank the authors and presenters, as well as those who helped us craft a
+compelling program including the Program Committee, Senior Program Committee, Best Paper
+Award Committee, and Test of Time Award Committee.
+3
+
+https://www.wsdm-conference.org/calls.php
+
+ACM SIGIR Forum
+
+4
+
+Vol. 57 No. 1 – June 2023
+
+We also acknowledge the role of ACM and the four SIGs, namely SIGIR, SIGKDD, SIGMOD,
+and SIGWEB that sponsor the WSDM conference series, as well as the WSDM Steering Committee
+that provides guidance at all stages of the conference organization.
+We are also grateful to the sponsors for their support: Huawei, Amazon Science, TikTok,
+Baidu, Etsy, and Google. We thank SIGIR, the National Science Foundation, and SIGWEB for
+their support for student participation. We also acknowledge Singapore Management University
+for institutional and organizational support, as well as Singapore Tourism Board for their support.
+
+References
+Lars Backstrom and Jure Leskovec. Supervised random walks: Predicting and recommending
+links in social networks. In Proceedings of the Fourth ACM International Conference on Web
+Search and Data Mining, WSDM ’11, page 635–644, New York, NY, USA, 2011. Association
+for Computing Machinery. ISBN 9781450304931. doi: 10.1145/1935826.1935914. URL
+https://doi.org/10.1145/1935826.1935914.
+Tianchi Cai, Jiyan Jiang, Wenpeng Zhang, Shiji Zhou, Xierui Song, Li Yu, Lihong Gu, Xiaodong
+Zeng, Jinjie Gu, and Guannan Zhang. Marketing budget allocation with offline constrained deep
+reinforcement learning. In Proceedings of the Sixteenth ACM International Conference on Web
+Search and Data Mining, WSDM ’23, page 186–194, New York, NY, USA, 2023. Association
+for Computing Machinery. ISBN 9781450394079. doi: 10.1145/3539597.3570486. URL
+https://doi.org/10.1145/3539597.3570486.
+Tat-Seng Chua, Hady W. Lauw, Luo Si, Evimaria Terzi, and Panayiotis Tsaparas, editors. WSDM
+’23: Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining, New York, NY, USA, 2023. Association for Computing Machinery. ISBN 9781450394079.
+John Pougué-Biyong, Akshay Gupta, Aria Haghighi, and Ahmed El-Kishky. Learning stance
+embeddings from signed social graphs. In Proceedings of the Sixteenth ACM International
+Conference on Web Search and Data Mining, WSDM ’23, page 177–185, New York, NY, USA,
+2023. Association for Computing Machinery. ISBN 9781450394079. doi: 10.1145/3539597.3570
+401. URL https://doi.org/10.1145/3539597.3570401.
+Hongrui Xuan, Yi Liu, Bohan Li, and Hongzhi Yin. Knowledge enhancement for contrastive
+multi-behavior recommendation. In Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining, WSDM ’23, page 195–203, New York, NY, USA, 2023.
+Association for Computing Machinery. ISBN 9781450394079. doi: 10.1145/3539597.3570386.
+URL https://doi.org/10.1145/3539597.3570386.
+Peiyan Zhang, Jiayan Guo, Chaozhuo Li, Yueqi Xie, Jae Boum Kim, Yan Zhang, Xing Xie,
+Haohan Wang, and Sunghun Kim. Efficiently leveraging multi-level user intent for session-based
+recommendation via atten-mixer network. In Proceedings of the Sixteenth ACM International
+Conference on Web Search and Data Mining, WSDM ’23, page 168–176, New York, NY, USA,
+2023. Association for Computing Machinery. ISBN 9781450394079. doi: 10.1145/3539597.3570
+445. URL https://doi.org/10.1145/3539597.3570445.
+ACM SIGIR Forum
+
+5
+
+Vol. 57 No. 1 – June 2023
+
+

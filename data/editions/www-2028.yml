@@ -3,7 +3,7 @@ series: www
 name: The Web Conference 2028 (WWW 2028)
 year: 2028
 kind: conference
-topics: [dm]
+data_level: curated
 derived_from: www-2027
 milestones:
   - type: abstract

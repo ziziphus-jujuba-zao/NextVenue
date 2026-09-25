@@ -3,7 +3,7 @@ series: aistats
 name: AISTATS 2028
 year: 2028
 kind: conference
-topics: [ml, ai]
+data_level: curated
 derived_from: aistats-2027
 milestones:
   - type: abstract

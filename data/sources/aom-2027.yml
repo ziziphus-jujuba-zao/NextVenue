@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aom-2027
+sources:
+  - id: aom-annual-meeting
+    url: https://aom.org/events/annual-meeting
+    title: AOM Annual Meeting
+    kind: other
+    fetched_at: 2026-09-25T16:19:09Z
+    http_status: 200
+    snapshot: 5ac2877cf47883f873592a6a4e0edabd08cfabe85dc84b5dd75679f395e8347e
+  - id: aom-2026-submitting
+    url: https://www.aom.org/events/annual-meeting/submitting/
+    title: "AOM 2026 Annual Meeting: Submitting"
+    kind: cfp
+    fetched_at: 2026-09-25T16:19:34Z
+    http_status: 200
+    snapshot: 4aa038a7a410e0068e6f7f643fbf73e7f85614e38404e8cf343c5038ff068623

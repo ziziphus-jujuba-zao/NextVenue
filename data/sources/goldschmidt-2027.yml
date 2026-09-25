@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: goldschmidt-2027
+sources:
+  - id: goldschmidt-2027-cfp
+    url: https://conf.goldschmidt.info/goldschmidt/2027/cfp.cgi
+    title: Goldschmidt 2027 Call for Abstracts
+    kind: cfp
+    fetched_at: 2026-09-25T16:16:21Z
+    http_status: 200
+    snapshot: 2e056fd7723f83ce59211985921fe2677a460588fd35566fbe44e86d1d219bf6
+  - id: goldschmidt-2027-cfs
+    url: https://conf.goldschmidt.info/goldschmidt/2027/cfs.cgi
+    title: Goldschmidt 2027 Call for Sessions
+    kind: cfp
+    fetched_at: 2026-09-25T16:17:10Z
+    http_status: 200
+    snapshot: eea984f5d2468f97dc24f9928f0b87476a71b2f4af0a0ff8043747313eda1ead
+  - id: goldschmidt-eag-events
+    url: https://www.eag.org/events/goldschmidt/
+    title: Goldschmidt Conference (European Association of Geochemistry)
+    kind: other
+    fetched_at: 2026-09-25T16:17:47Z
+    http_status: 200
+    snapshot: cd5a6ed6b8fe8f289e1e18ec1b295e201e09d3def0ad96d2f1e6407c80b8d090

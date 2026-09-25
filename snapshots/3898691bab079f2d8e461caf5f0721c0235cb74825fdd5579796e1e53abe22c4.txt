@@ -1,0 +1,113 @@
+41st Annual International Conference on Machine Learning (ICML)
+21-27 July 2024
+
+Fact Sheet
+2024 Location: Messe Wien Exhibition Congress Center, Vienna, Austria
+Registration numbers:
+● Total: 9,095 Virtual and in person attendees
+Past attendance and location:
+Year
+Location
+
+Total Attendance
+
+Physical
+
+Virtual
+
+2023
+
+Hawaii/ hybrid
+
+7,921
+
+6,872
+
+1,049
+
+2022
+
+Baltimore/ hybrid
+
+7,103
+
+4,893
+
+2,210
+
+2021
+
+Virtual
+
+8,863
+
+2020
+
+Virtual
+
+10,806
+
+2019
+
+Long Beach, CA
+
+6,483
+
+2018
+
+Stockholm
+
+5,019
+
+2017
+
+Sydney, Australia
+
+2,429
+
+2025 Location: Vancouver Canada
+2024 Program:
+●
+●
+●
+●
+●
+●
+●
+●
+
+Invited Talks: 6
+Workshops: 30
+Tutorials:12
+New Starting This Year! Position Papers: 75
+Orals: 144
+Socials: 10
+Affinity Group Workshops: 3
+Papers
+○ main conference track: Over 2600
+○ acceptance rate: 27.5%
+○ Reviewers: 7474
+○ Area Chairs: 492
+○ Senior Area Chairs: 97
+
+●
+
+Invited Keynote Speakers
+○ Soumith Chintala
+○ Lucilla Siolo
+○ Chelsea Finn
+○ Javier Duarte
+○ Vukosi Maivate
+○ Lucia Magis-Weinberg
+
+●
+
+Affinity Groups Represented
+○ LatinX in AI (https://www.latinxinai.org/events)
+○ Queer in AI (https://www.queerinai.com/
+○ Women in Machine Learning (https://wimlworkshop.org/)
+○ Dis{Ability} https://www.queerinai.com/icml-2024
+
+###
+
+

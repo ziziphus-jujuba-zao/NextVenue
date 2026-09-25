@@ -1,0 +1,8 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值，名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: ifip-wg-11-9
+acronym: IFIP WG 11.9
+full_name: IFIP WG 11.9 International Conference on Digital Forensics
+directions:
+  - cs/security
+ccfddl: SC/IFIP WG 11.9
+data_level: upstream

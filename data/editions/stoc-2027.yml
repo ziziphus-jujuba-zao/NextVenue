@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: stoc-2027
+series: stoc
+name: STOC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CT/STOC
+  conf_id: stoc27
+  link: https://acm-stoc.org/stoc2027/
+  place: Atlanta, Georgia, USA
+  date: June 6-11, 2027
+  timezone: UTC-12
+location:
+  city: Atlanta
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-06
+  end: 2027-06-11
+milestones:
+  - type: paper
+    at: 2026-11-02T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2027-06-06
+    end: 2027-06-11
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,54 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-neurips
+sources:
+  - id: neurips-2020-pc-blog
+    url: https://neuripsconf.medium.com/what-we-learned-from-neurips-2020-reviewing-process-e24549eea38f
+    mirror_url: https://web.archive.org/web/20260101045110id_/https://neuripsconf.medium.com/what-we-learned-from-neurips-2020-reviewing-process-e24549eea38f
+    title: What we learned from NeurIPS 2020 reviewing process (NeurIPS blog)
+    kind: blog
+    fetched_at: 2026-09-25T13:11:17Z
+    http_status: 200
+    snapshot: 74589b8916cf6e0337037b096058efa28d3e341aa3396b086da300c1c4b6ff7d
+    note_zh: Medium 拒绝脚本抓取（403）；快照取自 Wayback Machine 存档的同一页面。
+  - id: neurips-2022-fact-sheet
+    url: https://media.neurips.cc/Conferences/NeurIPS2022/NeurIPS_2022_Fact_Sheet.pdf
+    title: NeurIPS 2022 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:11:20Z
+    http_status: 200
+    snapshot: e9765030e6d359e7fd231bb59600febc8e9a6f626000abbd75df4009afb49d57
+  - id: neurips-2022-conference-highlights
+    url: https://blog.neurips.cc/2022/11/22/getting-ready-for-neurips-3-2022-conference-highlights/
+    title: "Getting ready for NeurIPS (3): 2022 conference highlights (NeurIPS blog)"
+    kind: blog
+    fetched_at: 2026-09-25T13:11:21Z
+    http_status: 200
+    snapshot: 87fa760d4d2cf531aec66c132bc1b227e0c01319c77f40908385b3ec0404994b
+  - id: neurips-2023-fact-sheet
+    url: https://media.neurips.cc/Conferences/NeurIPS2023/NeurIPS2023-Fact_Sheet.pdf
+    title: NeurIPS 2023 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:11:25Z
+    http_status: 200
+    snapshot: 37ac3dd5cee927d2d76d7dfc4c44c373d5006a3ef1106cef64a08af258056a2d
+  - id: neurips-2024-fact-sheet
+    url: https://media.neurips.cc/Conferences/NeurIPS2024/NeurIPS2024-Fact_Sheet.pdf
+    title: NeurIPS 2024 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:11:39Z
+    http_status: 200
+    snapshot: a5cab8b8517a7d17231b6d53386633840d49ddf3da515eb995371d34035f8da9
+  - id: neurips-2024-assignment-experiment
+    url: https://blog.neurips.cc/2024/12/12/neurips-2024-experiment-on-improving-the-paper-reviewer-assignment/
+    title: NeurIPS 2024 experiment on improving the paper-reviewer assignment (NeurIPS blog)
+    kind: blog
+    fetched_at: 2026-09-25T13:11:41Z
+    http_status: 200
+    snapshot: 57ded867f6bc1068d6d1da0c5de6709627250b7d36496d0e983870f548c70788
+  - id: neurips-2025-pc-reflections
+    url: https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/
+    title: Reflections on the 2025 review process from the Program Committee Chairs (NeurIPS blog)
+    kind: blog
+    fetched_at: 2026-09-25T13:11:42Z
+    http_status: 200
+    snapshot: 42d2a10af6645c1d76363ac9e89016280fc138b652ba5c3e88f1b6178d1df63d

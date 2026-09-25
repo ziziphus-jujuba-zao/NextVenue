@@ -1,0 +1,29 @@
+* Skip to primary navigation
+ * Skip to content
+ * Skip to footer
+
+ * Calls
+ * Program
+ * Registration
+ * Venue
+ * Sponsors
+ * Committees
+ * FAQ
+
+Toggle menu
+
+Toggle menu
+
+Venue
+
+On this page
+
+Coming soon!
+
+ * Follow:
+ * Twitter
+ * Bluesky
+ * GitHub
+ * Feed
+
+© 2026 NAACL. Powered by Jekyll & Minimal Mistakes.

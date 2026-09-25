@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: saner-2027
+series: saner
+name: SANER 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/SANER
+  conf_id: saner2027
+  link: https://conf.researchr.org/home/saner-2027
+  place: Richmond, Virginia, United States
+  date: March 9-12, 2027
+  timezone: AoE
+location:
+  city: Richmond
+  country: United States
+  country_code: US
+dates:
+  start: 2027-03-09
+  end: 2027-03-12
+milestones:
+  - type: abstract
+    at: 2026-09-21T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Research Track Paper submission deadline"
+  - type: paper
+    at: 2026-09-25T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Research Track Paper submission deadline"
+  - type: conference
+    start: 2027-03-09
+    end: 2027-03-12
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

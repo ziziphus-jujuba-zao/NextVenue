@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: etaps-2027
+sources:
+  - id: etaps-2027-cfp
+    url: https://etaps.org/2027/cfp/
+    title: ETAPS 2027 Joint Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:55Z
+    http_status: 200
+    snapshot: d393baff96cc51e3b1fec3f5c7ac72721a50ac882b56fee6d5c8ec84dfea887a
+  - id: etaps-2027-home
+    url: https://etaps.org/2027/
+    title: ETAPS 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:47:56Z
+    http_status: 200
+    snapshot: 965baffbf5bddbddf2e12ac67a1037d7804aa3d1433a014b75d80f8f3ffe32db

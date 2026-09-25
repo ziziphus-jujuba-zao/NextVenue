@@ -1,0 +1,31 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: esann-2027
+series: esann
+name: ESANN 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/ESANN
+  conf_id: esann27
+  link: https://www.esann.org/
+  place: Bruges, Belgium and Online
+  date: April 21 - 23, 2027
+  timezone: UTC-8
+location:
+  city: Bruges
+dates:
+  start: 2027-04-21
+  end: 2027-04-23
+milestones:
+  - type: paper
+    at: 2026-11-18T23:59
+    tz: UTC-8
+    status: confirmed
+  - type: conference
+    start: 2027-04-21
+    end: 2027-04-23
+    tz: UTC-8
+    status: confirmed
+last_checked: 2026-09-25

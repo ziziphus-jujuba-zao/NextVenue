@@ -1,0 +1,67 @@
+id: ccs-2027
+series: ccs
+name: CCS 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: ccs-2026
+location: { city: Atlanta, country: USA, country_code: US }
+dates: { start: 2027-10-11, end: 2027-10-15 }
+milestones:
+  - type: abstract
+    label_zh: 第一轮（Cycle A）摘要
+    at: 2027-01-07T23:59
+    tz: AoE
+    status: estimated
+    src: ccs-2026-cfp
+    quote: "Jan 7, 2026 (Mandatory: all papers must have an abstract submitted by this date)"
+    note_zh: CCS 2027 官网写“Coming Soon”，还没有征稿。按 CCS 2026 第一轮的摘要截止 1/7 顺延；CCS 2026 所有截止都是 AoE 23:59。
+  - type: paper
+    label_zh: 第一轮（Cycle A）正文
+    at: 2027-01-14T23:59
+    tz: AoE
+    status: estimated
+    src: ccs-2026-cfp
+    quote: "Full paper submission deadline Jan 14, 2026"
+    note_zh: 按 CCS 2026 第一轮的正文截止 1/14 顺延。
+  - type: notification
+    label_zh: 第一轮（Cycle A）出结果
+    at: 2027-04-09
+    tz: AoE
+    status: estimated
+    src: ccs-2026-cfp
+    quote: "Author notification Apr 9, 2026"
+    note_zh: 按 CCS 2026 第一轮的日期顺延。CCS 2026 规定第一轮被拒的论文不能投第二轮。
+  - type: abstract
+    label_zh: 第二轮（Cycle B）摘要
+    at: 2027-04-22T23:59
+    tz: AoE
+    status: estimated
+    src: ccs-2026-cfp
+    quote: "Apr 22, 2026 (Mandatory: all papers must have a title, an abstract submitted and a track selected by this date)"
+    note_zh: 按 CCS 2026 第二轮的摘要截止 4/22 顺延。
+  - type: paper
+    label_zh: 第二轮（Cycle B）正文
+    at: 2027-04-29T23:59
+    tz: AoE
+    status: estimated
+    src: ccs-2026-cfp
+    quote: "Full paper submission deadline Apr 29, 2026"
+    note_zh: 按 CCS 2026 第二轮的正文截止 4/29 顺延。
+  - type: notification
+    label_zh: 第二轮（Cycle B）出结果
+    at: 2027-07-17
+    tz: AoE
+    status: estimated
+    src: ccs-2026-cfp
+    quote: "Author notification July 17, 2026"
+    note_zh: 按 CCS 2026 第二轮的日期顺延。
+  - type: conference
+    start: 2027-10-11
+    end: 2027-10-15
+    tz: America/New_York
+    status: confirmed
+    src: ccs-2027-home
+    quote: "October 11-15, 2027 Atlanta, USA"
+last_checked: 2026-09-25
+note_zh: 会期和地点已由官网确认（2027-10-11 至 15，亚特兰大），征稿还没发布。标“预计”的日期按 CCS 2026 两轮顺延：第一轮摘要 1/7、正文 1/14、出结果 4/9；第二轮摘要 4/22、正文 4/29、出结果 7/17。CCS 2027 比 2026 年（11 月）早一个月开会，第二轮日期可能提前。

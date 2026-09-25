@@ -1,0 +1,117 @@
+RTSS 2026
+Important Dates
+Conference
+RTSS Call for Papers RTSS Submission Rules Artifact Evaluation Submissions Artifact Evaluation Criteria Artifact Preparation Guidelines Brief Presentations Submissions RTSS@Work Demo Submissions
+Hot Topics Day
+Call for Proposals GAIRS 2026 OPERA 2026
+Program
+Local information
+Registration Visa Information Venue & Accommodation
+Organizers Transparency Archive
+
+RTSS 2026
+
+47th IEEE Symposium on Real-Time Systems
+
+----------------------------------------
+
+Active Deadlines
+Brief Presentation Submission:
+   September 14, 2026
+Camera-Ready:
+   September 16, 2026
+RTSS@Work Submission:
+   September 30, 2026
+All important dates
+Event
+Hot Topic Day:
+   December 8, 2026
+Conference:
+   December 9-11, 2026
+
+Aug 5, 2026
+
+The brief presentations call for submissions is also available. Submissions are due on September 14, with authors receiving their notifications on October 1.
+
+----------------------------------------
+
+Aug 3, 2026
+
+The reviewing process is nearly completed. The program committee has done a very thorough work and carefully reviewed the 350 received submissions. Ultimately the decision was to accept 32 papers and conditionally accept 18 papers. The list of (all accepted and conditionally accepted) papers is published under the accepted papers tab. While the conditionally accepted papers are entering into the shepherding process, the chairs would like to thank everybody involved in the reviewing process: from the PC members to external reviewers, and to our shepherds, everybody has done and is doing a fantastic job to ensure that we have a very strong program for RTSS 2026.
+
+We would also like to point you to the hot topics day page, that contains a call for proposals that are due on August 21. In general, check out the important dates page to know which deadlines are currently active.
+
+----------------------------------------
+
+Jul 18, 2026
+
+Artifact Evaluation Information Now Available
+
+As the rebuttal period comes to a close and the program committee is hard at work evaluating the record number of submissions, we are pleased to share information about the RTSS 2026 Artifact Evaluation (AE) process.
+
+The artifact submission deadline is August 21, 2026.
+
+To help authors prepare, we have published two dedicated pages: Evaluation Criteria and Artifact Preparation. If your artifact requires special hardware, commercial tools, or other atypical arrangements, please contact the Artifact Evaluation Chair as soon as possible.
+
+----------------------------------------
+
+May 29, 2026
+
+Record Number of Submissions and Update on the RTSS 2026 Review Process
+
+RTSS 2026 received a record number of 350 submissions after removing duplicates and papers that did not comply with double-anonymous or formatting requirements. We are grateful for the strong interest in the conference, which reflects the continued vitality and growth of the real-time systems community.
+
+Given the unusually large submission pool, and after discussion with the IEEE Technical Committee on Real-Time Systems, RTSS 2026 will use a staged review process to preserve the quality, fairness, and rigor expected by the RTSS community.
+
+The review process will proceed as follows:
+
+ 1. Stage 1: Initial review Each paper will receive two reviews. Papers that will receive only negative reviews in Stage 1 will not proceed further, and will receive an early-reject decision together with their two Stage 1 reviews.
+
+ 2. Stage 2: Additional review Papers that receive at least one non-negative review in Stage 1 will receive two additional reviews, for a total of four reviews. Authors will be informed at the start of Stage 2 that their paper will receive additional reviews.
+
+ 3. Stage 3: Rebuttal Papers that proceed to Stage 2 will have the opportunity to submit a rebuttal addressing all four reviews. After the rebuttal period, the Program Committee will meet to discuss submissions and make acceptance decisions collectively.
+
+Authors will be informed of the outcome of Stage 1 on June 24, when they will be notified whether their paper will proceed to the rebuttal stage or receive an early-reject decision. Note that this is an exception to the standard review process, due to the need to ensure reviewing quality despite the large increase in submissions.
+
+The Program Committee is now working carefully to select the strongest and most interesting program possible. We look forward to welcoming the community to Yokohama this December for an exciting RTSS 2026 program.
+
+----------------------------------------
+
+May 25, 2026
+
+After the abstract deadline, we reviewed the submissions in HotCRP and withdrew those that contained only placeholder text rather than a substantive abstract. The abstract submission count now stands at 445. The paper submission deadline is tomorrow, Anywhere on Earth. We wish all authors who are putting the final touches on their papers the very best of luck. We look forward to working with a strong set of submissions and engaging our program committee in building the RTSS 2026 program.
+
+----------------------------------------
+
+April 10, 2026
+
+Due to several requests, we have decided to split the submission deadline into two parts:
+
+ * an abstract submission deadline on Thursday, May 21, 2026 (anywhere on Earth), and
+ * a paper submission deadline on Tuesday, May 26, 2026 (anywhere on Earth).
+
+You can only submit a paper if you have registered an abstract before the submission deadline.
+
+For authors of ESWEEK 2026 submissions that are currently under review in the first round: you are allowed to tentatively submit an abstract, but then withdraw in case your paper advances to the second round in ESWEEK 2026.
+
+----------------------------------------
+
+December 5, 2025
+
+RTSS’26 will take place in Yokohama, Japan. Check out the call for papers and start planning your submissions!
+
+Paper submission deadline: Thursday, May 21, 2026 (anywhere on Earth)
+
+ * General Chair: Shinpei Kato
+ * Program Chair: Martina Maggio
+ * Local Organization Chair: Takuya Azumi
+
+We are looking forward to welcoming you in Japan.
+
+----------------------------------------
+
+Sponsors
+
+Gold Sponsor
+Silver Sponsor
+© RTSS 2026 - 47th IEEE Real-Time Systems Symposium. - Imprint | Data Protection

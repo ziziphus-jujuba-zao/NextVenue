@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aps-dpp-2026
+sources:
+  - id: aps-dpp-2026-home
+    url: https://engage.aps.org/dpp/meetings/annual-meeting
+    title: 68th APS DPP Annual Meeting
+    kind: dates
+    fetched_at: 2026-09-25T18:20:16Z
+    http_status: 200
+    snapshot: 37808ebd3bb129a9ea37c1b554aab3d6e33e5b4c15b626eb1f903430e50698ef

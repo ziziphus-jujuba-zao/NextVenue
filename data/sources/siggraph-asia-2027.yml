@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: siggraph-asia-2027
+sources:
+  - id: siggraph-asia-2027-announce
+    url: https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/
+    title: SIGGRAPH Asia 2027
+    kind: other
+    fetched_at: 2026-09-25T15:46:33Z
+    http_status: 200
+    snapshot: f9894c70d7c909d66fe3cf41edc6ce0c614c5e88cd912b1a0f43216f67201c98
+  - id: siggraph-asia-2026-papers
+    url: https://asia.siggraph.org/2026/submissions/technical-papers/
+    title: SIGGRAPH Asia 2026 Technical Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:34Z
+    http_status: 200
+    snapshot: 1eb41b791b04f75315d7335ac5fc300a984181b5b97aaf46f5aef7f0eaf832e3

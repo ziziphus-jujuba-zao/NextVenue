@@ -1,0 +1,34 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: hicss-2027
+series: hicss
+name: HICSS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/HICSS
+  conf_id: hicss27
+  link: https://hicss.hawaii.edu/
+  place: Big Island, Hawaii, USA
+  date: January 5-8, 2027
+  timezone: UTC-10
+location:
+  city: Big Island
+  country: USA
+  country_code: US
+dates:
+  start: 2027-01-05
+  end: 2027-01-08
+milestones:
+  - type: paper
+    at: 2026-06-15T23:59
+    tz: UTC-10
+    status: confirmed
+    note_zh: "ccfddl: Paper Submission Deadline"
+  - type: conference
+    start: 2027-01-05
+    end: 2027-01-08
+    tz: UTC-10
+    status: confirmed
+last_checked: 2026-09-25

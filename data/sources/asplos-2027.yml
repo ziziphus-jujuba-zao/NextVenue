@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: asplos-2027
+sources:
+  - id: asplos-2027-cfp
+    url: https://www.asplos-conference.org/asplos2027/cfp/
+    title: ASPLOS 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:32Z
+    http_status: 200
+    snapshot: c08379423d541cb8c6b37610a30d400887d353f663391c1da53dfbee68b3e966
+  - id: asplos-2027-home
+    url: https://www.asplos-conference.org/asplos2027/
+    title: ASPLOS 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:33Z
+    http_status: 200
+    snapshot: 433502b5183a4c5f161adfe9c86d27dc31b2e918cf01cbc056315c6e67d232d7

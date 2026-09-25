@@ -1,0 +1,27 @@
+id: ecce-2026
+series: ecce
+name: ECCE 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Vancouver, country: Canada, country_code: CA }
+dates: { start: 2026-10-04, end: 2026-10-08 }
+milestones:
+  - type: paper
+    label_zh: 论文 digest 截止
+    at: 2026-03-13
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ecce-2026-home
+    quote: "Call for Papers Proposal Deadline: 03.13.2026 Submissions Closed"
+    note_zh: 已截止。
+  - type: conference
+    start: 2026-10-04
+    end: 2026-10-08
+    tz: America/Vancouver
+    status: confirmed
+    src: ecce-2026-home
+    quote: "will be held in Vancouver, British Columbia, Canada| October 04 – 08, 2026."
+last_checked: 2026-09-25
+note_zh: 投稿已截止，只剩开会（10/4–8）。ECCE 2027 在美国普罗维登斯，见 ecce-2027。

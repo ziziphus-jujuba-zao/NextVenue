@@ -1,0 +1,15 @@
+id: assa
+acronym: ASSA
+full_name: Allied Social Science Associations Annual Meeting
+name_zh: 美国经济学会联合年会
+aliases:
+  - AEA Annual Meeting
+  - ASSA/AEA Annual Meeting
+directions: [soc/econ]
+periodicity:
+  cycle: annual
+  basis: official
+  src: assa-future-meetings
+  quote: "The AEA, in conjunction with 66 associations in related disciplines, holds a three-day meeting each January to present papers on general economic subjects."
+data_level: curated
+note_zh: 美国经济学会（AEA）联合 60 多个学会举办。AEA 的论文提案要经评审、录取率低，其他成员学会（如 AFA）各自征稿、截止日不同。

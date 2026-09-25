@@ -1,0 +1,9 @@
+id: acc
+acronym: ACC
+full_name: American Control Conference
+directions: [eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 5–7 月，美国
+data_level: curated

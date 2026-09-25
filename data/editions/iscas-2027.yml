@@ -1,0 +1,40 @@
+id: iscas-2027
+series: iscas
+name: ISCAS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Bordeaux, country: France, country_code: FR }
+dates: { start: 2027-06-06, end: 2027-06-09 }
+milestones:
+  - type: paper
+    at: 2026-10-13
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iscas-2027-cfp
+    quote: "2. Regular Paper Submission Deadline: October 13, 2026"
+    note_zh: '常规论文截止。special session 论文是 10/22（“3. Paper Submission: October 22, 2026”），live demo 和 tutorial 提案也是 10/13。官网只给日期、没写时区，按北京时间当天结束算。'
+  - type: notification
+    at: 2027-01-11
+    tz: Europe/Paris
+    status: confirmed
+    src: iscas-2027-cfp
+    quote: "5. Author Notification: January 11, 2027"
+  - type: camera_ready
+    at: 2027-01-27
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: iscas-2027-cfp
+    quote: "6. Final Paper Submission: January 27, 2027"
+    note_zh: 没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-06-06
+    end: 2027-06-09
+    tz: Europe/Paris
+    status: confirmed
+    src: iscas-2027-cfp
+    quote: "ISCAS 2027 will be held in Bordeaux, France, from June 6 to 9, 2027"
+    note_zh: tutorial 在 6/6（周日）。
+last_checked: 2026-09-25

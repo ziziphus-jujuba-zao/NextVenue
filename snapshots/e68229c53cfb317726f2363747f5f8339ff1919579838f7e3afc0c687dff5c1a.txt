@@ -1,0 +1,272 @@
+Skip to main content
+
+Minisite Global
+
+ * IEEE.org
+ * IEEE Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+Minisite Utility
+
+ *
+ *
+
+Menu
+ * Authors
+   * Important Dates
+   * Call for Symposium Papers
+   * Call for Tutorial Proposals
+   * Call for Workshop Proposals
+   * Submission Guidelines
+ * Committees
+   * Organizing Committee
+   * Technical Program Committee
+   * Operations Committee
+   * Industry Forums and Exhibition Committee
+ * Program
+   * At a Glance
+ * Registration
+   * Registration Fees
+   * Event Policies
+   * Travel Grants
+ * Hotel & Travel
+   * Hotel & Travel Information
+   * Visa Information
+ * Patrons & Exhibitors
+ * About
+   * About Us
+   * Contact Us
+
+Search
+
+Breadcrumb
+
+ 1. Home
+ 2. Authors
+ 3. Call for Symposium Papers
+
+Call for Symposium Papers
+
+Important Dates
+
+Paper Submission Deadline
+2 October 2026
+Notification of Acceptance
+15 January 2027
+Camera-Ready Papers Due
+19 February 2027
+
+The 2027 IEEE International Conference on Communications (ICC 2027) will be held in Washington DC, USA from May 30 to June 3, 2027, with the theme of “Confluence of Communications and AI.” This flagship conference of the IEEE Communications Society will feature a comprehensive high quality technical program including 12 symposia, 13 tracks of Selected Areas in Communications and a variety of tutorials and workshops. IEEE ICC 2027 will also include an attractive industry program aimed at practitioners, with keynotes and panels from prominent research, industry and government leaders, business and industry panels, and technological exhibits. This conference will be fully in-person.
+
+IEEE ICC 2027 will include Spotlight sessions. Designed to amplify high-impact research, these sessions will feature a selection of papers that are considered of highest interest and quality, including the best paper award candidates. Submit your latest work for a chance to be featured among the top research and compete for a spotlight paper and best paper award. IEEE ICC 2027 will also include Invited talks. Gain exclusive insights from global pioneers as they deliver high-impact, 30-minute talks on the future of their fields.
+
+CFP_ICC_2027
+
+TECHNICAL SYMPOSIA
+
+Original technical papers are sought in the following areas (All papers for technical symposia must be submitted via EDAS by clicking  the "EDAS" of each track.):
+
+Cognitive Radio and AI-Enabled Networks (EDAS)
+
+ * Yulei Wu, University of Bristol, UK, y.l.wu@bristol.ac.uk
+ * Ning Lu, Queen’s University, Canada, ning.lu@queensu.ca
+
+ICC 2027 CFP CRAIN
+
+Communication and Information System Security (EDAS)
+
+ * Yingying Chen, Rutgers University, USA,  yingying.chen@rutgers.edu
+ * Junqing Zhang, University of Liverpool, UK, junqing.zhang@liverpool.ac.uk
+ * Nashid Shahriar, University of Regina, Canada, nashid.shahriar@uregina.ca
+ * Yili Jiang, Georgia State University, USA, yjiang27@gsu.edu
+
+ICC 2027 CFP CISS
+
+Communication QoS, Reliability, and Modeling (EDAS)
+
+ * Keshav Sood, Deakin University, Australia, Keshav.sood@deakin.edu.au
+ * Kohei Shiomoto, Tokyo City University, Japan, shiomoto@tcu.ac.jp
+ * Jonathan Rodriguez, Instituto de Telecomunicações, Portugal, jonathan@av.it.pt
+
+ICC 2027 CFP CQRM
+
+Communication Software and Multimedia (EDAS)
+
+ * Luigi Atzori, University of Cagliari, Italy, l.atzori@unica.it
+ * Marco Savi, University of Milano-Bicocca, Italy, marco.savi@unimib.it
+
+ICC 2027 CFP CSM
+
+Communication Theory (EDAS)
+
+ * Chenhao Qi, Southeast University, China, qch@seu.edu.cn
+ * Aydin Sezgin, Ruhr University Bochum, Germany, aydin.sezgin@rub.de
+ * Cong Shen, Virginia University, USA, cong@virginia.edu
+
+ICC 2027 CFP CT
+
+Green Communication Systems and Networks (EDAS)
+
+ * Emad Alsusa, University of Manchester, UK, e.alsusa@manchester.ac.uk
+ * Meng Li, Beijing University of Technology, China, limeng720@bjut.edu.cn
+
+ICC 2027 CFP GCSN
+
+IoT & Sensor Networks (EDAS)
+
+ * Swades De, Indian Institute of Technology Delhi, India, swadesd@iitd.ac.in
+ * Fengxiao Tang, Central South University, China, tangfengxiao@csu.edu.cn
+ * Xun Shao, Toyohashi University of Technology, Japan, shao.xun.ls@tut.jp
+ * Kapal Dev, Munster Technological University, Ireland, kapal.dev@ieee.org
+
+ICC 2027 CFP IOT
+
+Mobile & Wireless Networks Symposium (EDAS)
+
+ * Danda B. Rawat, Howard University, USA, db.rawat@ieee.org
+ * Changsheng You, Southern University of Science and Technology, China, youcs@sustech.edu.cn
+ * Akram Hakiri, University of Pau & Pays de l’Adour, France, akram.hakiri@univ-pau.fr
+ * Lina Zhu, Xidian University, China, lnzhu@xidian.edu.cn
+
+ICC 2027 CFP MWN
+
+Next-Generation Networking and Internet (EDAS)
+
+ * Yuan Wu, University of Macau, Macao SAR, China, yuanwu@um.edu.mo
+ * Vo Nguyen Quoc Bao, Van Lang University, Vietnam, bao.vnq@vlu.edu.vn
+ * Qiang Ye, Dalhousie University, Canada, qye@cs.dal.ca
+
+ICC 2027 CFP NGNI
+
+Optical Networks and Systems (EDAS)
+
+ * Mauro Biagi, University of Rome “La Sapienza”, Italy, mauro.biagi@uniroma1.it
+ * Jerzy Domżał, University of Krakow, Poland, jdomzal@agh.edu.pl
+
+ICC 2027 CFP ONS
+
+Signal Processing for Communications (EDAS)
+
+ * David J. Love, Purdue University, USA, djlove@purdue.edu
+ * Besma Smida, University of Illinois Chicago, USA, smida@uic.edu
+ *  Namyoon Lee, POSTECH, South Korea, nylee@postech.ac.kr
+
+ICC 2027 CFP SPC
+
+Wireless Communications (EDAS)
+
+ * Dongfang Xu, Nanjing University of Aeronautics and Astronautics, China, xudongfang@nuaa.edu.cn
+ * Stefania Bartoletti, University of Rome Tor Vergata, Italy, stefania.bartoletti@uniroma2.it
+ * Telex M. N. Ngatched, McMaster University, Canada, ngatchet@mcmaster.ca
+ * Borja Genoves Guzman, Universidad Carlos III de Madrid, Spain, bgenoves@ing.uc3m.es
+
+ICC 2027 CFP WC
+
+SELECTED AREAS IN COMMUNICATIONS
+
+All papers for SAC must be submitted via EDAS by clicking the "EDAS" of each track.
+
+SAC: Aerial Communications (EDAS)
+
+ * Toktam Mahmoodi, King’s College London, UK, toktam.mahmoodi@kcl.ac.uk
+
+ICC 2027 CFP SAC_AC
+
+SAC: Big Data  (EDAS)
+
+ * Brij B. Gupta, Asia University, Taiwan, bbgupta@asia.edu.tw
+
+ICC 2027 CFP SAC_BD
+
+SAC: Cloud/Edge Computing, Networking and Storage  (EDAS)
+
+ * Alessio Botta, University of Napoli Federico II, Italy, a.botta@unina.it
+
+ * Liang Xiao, Xiamen University, China, lxiao@xmu.edu.cn
+
+ICC 2027 CFP SAC_CCNS
+
+SAC: E-Health (EDAS)
+
+ * Marco Martalò, University of Cagliari, Italy, marco.martalo@unica.it
+
+ICC 2027 CFP SAC_EH
+
+SAC: Integrated Sensing and Communication (EDAS)
+
+ * Junil Choi, KAIST, South Korea, junil@kaist.ac.kr
+
+ * Shuowen Zhang, The Hong Kong Polytechnic University, China, shuowen.zhang@polyu.edu.hk
+
+ICC 2027 CFP SAC_ISAC
+
+SAC: Machine Learning for Communications and Networking  (EDAS)
+
+ * Youyang Qu, Data61, CSIRO, Australia, youyang.qu@data61.csiro.au
+ * Melike Erol-Kantarci, University of Ottawa, Canada, melike.erolkantarci@uottawa.ca
+
+ICC 2027 CFP SAC_MLCN
+
+SAC: Molecular, Biological, and Multi-Scale Communications (EDAS)
+
+ * Murat Kuscu, Koç University, Turkey, mkuscu@ku.edu.tr
+
+ICC 2027 CFP SAC_MBMS
+
+SAC: Next Generation Multiple Access (EDAS)
+
+ * Zhiguo Ding, Nanyang Technological University, Singapore, zhiguo.ding@ntu.edu.sg
+
+ICC 2027 CFP SAC_NGMA
+
+SAC: Quantum Communications & Information Technology (EDAS)
+
+ * Marcello Caleffi, University of Naples Federico II, Italy, marcello.caleffi@unina.it
+
+ICC 2027 CFP SAC_QCIT
+
+SAC:Reconfigurable Intelligent Surfaces and Flexible-Antenna Technologies (EDAS)
+
+ * Yuanwei Liu, The University of Hong Kong, Hong Kong, yuanwei@hku.hk
+
+ICC 2027 CFP SAC_RIS
+
+SAC: Satellite & Space Communications (EDAS)
+
+ * Gunes Karabulut Kurt, Polytechnique Montreal, Canada, gunes.kurt@polymtl.ca
+ * Peng Hu, University of Manitoba, Canada, Peng.Hu@umanitoba.ca
+
+ICC 2027 CFP SAC_SSC
+
+SAC: Smart Grid Communications (EDAS)
+
+ * Sabita Maharjan, University of Oslo, Norway, sabita@ifi.uio.no
+
+ICC 2027 CFP SAC_SGC
+
+SAC: Social Networks (EDAS)
+
+ * Charalampos Z. Patrikakis, University of West Attica, GR, bpatr@uniwa.gr
+
+ICC 2027 CFP SAC_SN
+
+ * Submit a Paper
+
+ * Program
+ * Hotel & Travel
+
+ * Contact
+
+© IEEE ICC 2027
+ *
+ *
+ *
+ *
+ *
+
+Footer Menu
+
+Accessibility Sitemap Contact & Support Home Nondiscrimination Policy IEEE Ethics Reporting IEEE Privacy Policy Terms
+© Copyright 2027 IEEE – All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.

@@ -1,0 +1,40 @@
+id: itsc-2027
+series: itsc
+name: ITSC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Boston, country: USA, country_code: US }
+dates: { start: 2027-09-21, end: 2027-09-24 }
+milestones:
+  - type: paper
+    at: 2027-03-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: itsc-2027-home
+    quote: "Submission deadline for Regular & Special Session papers: March 1, 2027"
+    note_zh: '投稿系统 2026-12-01 开放（“Submissions open: December 1, 2026”）。官网只给日期、没写时区，按北京时间当天结束算。'
+  - type: notification
+    at: 2027-05-01
+    tz: America/New_York
+    status: confirmed
+    src: itsc-2027-home
+    quote: "Notification of Acceptance: May 1, 2027"
+  - type: camera_ready
+    at: 2027-05-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: itsc-2027-home
+    quote: "Final paper submission deadline: May 31, 2027"
+    note_zh: 官网只给日期、没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-09-21
+    end: 2027-09-24
+    tz: America/New_York
+    status: confirmed
+    src: itsc-2027-home
+    quote: "September 21 – 24, 2027 – Boston, USA"
+    note_zh: 第 30 届，回到 1997 年首届 ITSC 的举办地波士顿；有一天会前 workshop 和 tutorial。
+last_checked: 2026-09-25

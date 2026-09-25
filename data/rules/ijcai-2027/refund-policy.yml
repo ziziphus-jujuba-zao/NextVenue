@@ -1,0 +1,21 @@
+id: ijcai-2027/refund-policy
+edition: ijcai-2027
+family: refund
+question_zh: 取消注册能退多少钱？
+short_zh: 取消注册退款
+answer: conditional
+verification: inherited
+inherited_from: ijcai-2026
+conf: low
+applies:
+  from: notification
+  until: conference
+summary_zh: IJCAI-27 还没公布，以下是 IJCAI-ECAI 2026 的规则：晚注册截止（2026 年是 7/15）前可以取消，收 150 美元手续费；之后取消不退，没到场的也不退。上届的注册页、注册 FAQ 和签证页都没有拒签退款条款。
+detail_zh: 上届原文把之后不退的日期写成了“July 15, 2025”，按上下文应为 2026 年。
+quotes:
+  - src: ijcai-2026-registration
+    text: "Cancellations are possible until later registration deadline (July 15, 2026) for a processing fee of USD 150. No refund will be made for cancellations received after July 15, 2025 or to the registrants who fail to attend in person."
+  - src: ijcai-2026-registration-faq
+    text: "Yes, U$ 150 processing fee applies to any and all cancellations."
+checked_sources: [ijcai-2027-home, ijcai-2027-future-conferences, ijcai-2026-registration-faq, ijcai-2026-visa]
+last_checked: 2026-09-25

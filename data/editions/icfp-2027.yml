@@ -1,0 +1,65 @@
+id: icfp-2027
+series: icfp
+name: ICFP 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Nijmegen, country: Netherlands, country_code: NL }
+dates: { start: 2027-09-26, end: 2027-10-01 }
+milestones:
+  - type: paper
+    at: 2027-02-25T23:59
+    tz: AoE
+    status: confirmed
+    src: icfp-2027-papers
+    quote: "Submission Deadline: Thu. 25 February 2027 (AoE)"
+  - type: reviews_out
+    at: 2027-04-19
+    tz: AoE
+    status: confirmed
+    src: icfp-2027-papers
+    quote: "Reviews Released: Mon. 19 April 2027"
+  - type: author_response
+    start: 2027-04-19
+    end: 2027-04-22T23:59
+    tz: AoE
+    status: confirmed
+    src: icfp-2027-papers
+    quote: "Author Response: Mon. 19 – Thu. 22 April 2027 (AoE)"
+  - type: notification
+    label_zh: 有条件录用通知
+    at: 2027-05-07
+    tz: AoE
+    status: confirmed
+    src: icfp-2027-papers
+    quote: "Notification of Conditional Acceptance: Fri. 07 May 2027 (AoE)"
+  - type: author_response
+    label_zh: 修改稿截止（有条件录用论文）
+    at: 2027-06-01T23:59
+    tz: AoE
+    status: confirmed
+    src: icfp-2027-papers
+    quote: "Revised Papers: Tue. 01 June 2027 (AoE)"
+  - type: notification
+    label_zh: 正式录用通知
+    at: 2027-06-11
+    tz: AoE
+    status: confirmed
+    src: icfp-2027-papers
+    quote: "Final Notification: Fri. 11 June 2027 (AoE)"
+  - type: camera_ready
+    at: 2027-07-01T23:59
+    tz: AoE
+    status: confirmed
+    src: icfp-2027-papers
+    quote: "Camera Ready: Thu. 01 July 2027 (AoE)"
+  - type: conference
+    start: 2027-09-26
+    end: 2027-10-01
+    tz: Europe/Amsterdam
+    status: confirmed
+    src: icfp-2027-home
+    quote: "Sun 26 September - Fri 1 October 2027 Nijmegen, Netherlands"
+    note_zh: 会场是 Van der Valk Hotel Nijmegen，含同期活动。
+last_checked: 2026-09-25
+note_zh: ICFP 2027 论文发表在 PACMPL 期刊的 ICFP 期。录用分两步：先有条件录用，交修改稿后再正式录用。2027 年新要求：机械化证明是主要贡献的论文，投稿时要附上证明脚本。

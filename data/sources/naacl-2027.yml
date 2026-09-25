@@ -5,15 +5,39 @@ sources:
     url: https://2027.naacl.org/calls/main_conference_papers/
     title: NAACL 2027 Call for Main Conference Papers
     kind: cfp
-    note_zh: "与 arr-2026-10-naacl-2027-cfp 为同一页面、同一快照。页面写所有截止均为 AoE；meta-review 写 December 18，ARR 日期页写 December 17。"
-    fetched_at: 2026-09-24T23:02:19Z
+    note_zh: 与 arr-2026-10-naacl-2027-cfp 为同一页面、同一快照。页面写所有截止均为 AoE；meta-review 写 December 18，ARR 日期页写 December 17。
+    fetched_at: 2026-09-25T10:43:21Z
     http_status: 200
     snapshot: 57db3b1930c41536075f74c02c23953932982121f9b220cc3de3b43c8bd0333f
   - id: naacl-2027-home
     url: https://2027.naacl.org/
     title: NAACL 2027 Home
     kind: other
-    note_zh: "地点旧金山、会期 6/1–5；Important Dates 只列 ARR 投稿截止 October 12, 2026。"
-    fetched_at: 2026-09-24T23:02:20Z
+    note_zh: 地点旧金山、会期 6/1–5；Important Dates 只列 ARR 投稿截止 October 12, 2026。
+    fetched_at: 2026-09-25T10:43:21Z
     http_status: 200
     snapshot: b150aa0541028b8f57c7dbb7f6add8ca19dd1a7890c1c528f4f1f880fda30433
+  - id: naacl-2027-registration
+    url: https://2027.naacl.org/registration/
+    title: NAACL 2027 Registration
+    kind: other
+    fetched_at: 2026-09-25T10:43:21Z
+    http_status: 200
+    snapshot: 4f47877d8ebb61415db5a29f920d53a43eb7261a2f50e89cde280a4251e27e1b
+    note_zh: 注册页写“Coming soon!”。
+  - id: naacl-2027-faq
+    url: https://2027.naacl.org/faq/
+    title: NAACL 2027 FAQ
+    kind: faq
+    fetched_at: 2026-09-25T10:43:21Z
+    http_status: 200
+    snapshot: f7e959c3ba5989f1dae184c938c0b8d65b1219f60eca70b94871d6e4e2a74c78
+    note_zh: FAQ 页：注册部分写“Coming soon!”；另有 NAACL 与 COLING 共用 ARR 轮次的 commit 说明。
+  - id: naacl-2027-venue
+    url: https://2027.naacl.org/venue/
+    title: NAACL 2027 Venue
+    kind: other
+    fetched_at: 2026-09-25T10:43:21Z
+    http_status: 200
+    snapshot: d9b3d0fb7da0b3e512eb751b26460110eacdcc36900a42173069a01f686d3d2e
+    note_zh: 场馆页写“Coming soon!”。

@@ -1,0 +1,91 @@
+Message from the General and Program Chairs
+The paper review process had two tracks: Applications and Algorithms.
+While papers in both tracks were expected to include original, novel,
+high-quality contributions, papers in the Applications track did not
+necessarily require algorithmic novelty. About 77.3% of papers were
+submitted to the Algorithms track, and 22.7% were submitted to the
+Applications track. The acceptance rates across the two tracks were
+similar: 41.7% for Algorithms and 40.9% for Applications.
+
+2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) | 979-8-3503-1892-0/24/$31.00 ©2024 IEEE | DOI: 10.1109/WACV57701.2024.00005
+
+Welcome to Waikoloa, on the island of Hawaiʻi, the home of the Winter
+Conference on Applications of Computer Vision (WACV) for four of the
+last six years! As the premier venue for research advances in applications
+of computer vision, our meeting continues to grow along with the
+interest and advances in AI and computer vision. For WACV 2024, we
+have incorporated some new features and made some changes from
+previous iterations to accommodate this growth. We hope that you enjoy
+the meeting and find time to enjoy the island.
+
+We gratefully acknowledge the contributions of our corporate
+supporters: Meta, Adobe, Amazon Science, Kolena, Kitware, Google
+Research, IO Industries, and Grainger. We would also like to thank
+everyone involved in making WACV a success, including Diversity,
+Equity, and Inclusion (DEI) Chairs Rana Hanocka and Anh Nguyen,
+Doctoral Consortium Chair Enrique Dunn, Finance Chair Nathaniel
+Blanchard, Publication Chair Eric Mortensen, Publicity Chairs Abby
+Stylianou and Boqing Gong, Tutorials Chairs Vitor Albiero and Shayok
+Chakraborty, Workflow Chair Sascha Hornauer, Workshop Chairs YZ
+Yezhou Yang and Mathew Monfort, Demo Chairs Brian Clipp and
+Emanuela Marasco, Industry/Government Relations Chairs Nathan
+Jacobs and Karl Ricanek, Ombudsperson Michael Brown, and Awards
+Committee members Walter Scheirer, Angela Dai, Zhe Lin and Erik
+Learned-Miller. We are grateful to our three keynote speakers, Dima
+Damen, Lihi Zelnik-Manor, and Gerard Medioni. Special thanks go to our
+Conference Producer Nicole Finn, who has kept WACV running smoothly
+for many years. Finally, thanks to all of you for attending WACV and
+making it a success!
+
+WACV 2024 consists of a three-day main conference program followed
+by two days of workshops and tutorials. Following WACV tradition, each
+day of the main conference starts in the afternoon, includes a keynote
+presentation, and attendees engage in poster sessions after dinner. This
+year, we have added a new panel on Innovation in Computer Vision and
+a fireside (better yet, oceanside) chat for the Saturday keynote talk.
+WACV also joins the ranks of the major vision conferences with Ralph
+Anzarouth from Computer Vision News delivering a daily magazine with
+updates and highlights from the proceedings. On Saturday evening, the
+conference culminates with a luau.
+We continue to attract a large number of submissions, reaching a record
+2,042 valid submissions – around 30% more than WACV 2023. To handle
+this record number of submissions, we relied on 190 Area Chairs and
+1,841 reviewers. We are especially grateful to the reviewers who were
+willing to conduct last-minute emergency reviews, ensuring that all
+papers received at least 3 reviews. The reviewing process was doubleblind and followed best practices to avoid conflicts of interest. After
+receiving the reviews, the Area Chairs made decisions in groups of two,
+so that each paper was considered by multiple reviewers and multiple
+Area Chairs.
+
+Aloha!
+
+We continued the WACV tradition of a two-round submission process. By
+the Round 1 deadline in mid-June, we received 817 valid paper
+submissions. Of these, 91 were accepted, and the remaining were invited
+to be revised and resubmitted to Round 2, along with a rebuttal. Of the
+revised papers, 282 were accepted and 276 rejected, while the remaining
+168 were withdrawn. The overall acceptance rate for Round 1 was
+therefore 45.6%. Authors could also submit new papers directly to Round
+2, which had a deadline in late August. We received 1,226 valid
+submissions in Round 2 of which 473 (38.6%) were accepted. Overall,
+across both rounds WACV received a total of 2,043 paper submissions
+and accepted a total of 846 papers, for an overall acceptance rate of
+41.4%. These statistics illustrate how WACV’s innovative two-round
+submission process allows authors to incorporate reviewer feedback to
+improve their papers (in Round 1), leading to a higher acceptance rate, as
+well as receiving quick feedback for Round 2.
+
+Program Chairs:
+
+Kosta Derpanis, Hilde Kuehne, Subhransu Maji,
+Vlad Morariu
+
+General Chairs:
+
+Richard Souvenir, Tal Hassner, Luisa Verdoliva
+
+Thank you to the WACV 2024 Platinum donor
+
+vi
+
+

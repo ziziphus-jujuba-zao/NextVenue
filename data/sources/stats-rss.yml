@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-rss
+sources:
+  - id: rss-foundation-conferences
+    url: https://roboticsfoundation.org/conferences/
+    title: "Robotics: Science and Systems Foundation: past conferences"
+    kind: other
+    fetched_at: 2026-09-25T13:16:04Z
+    http_status: 200
+    snapshot: a3cb29f0e65af0ca26d248b0f480eda8fc2abc1e6aa1de3c6721d218dd6fcd73

@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icdcs-2027
+series: icdcs
+name: ICDCS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/ICDCS
+  conf_id: icdcs27
+  link: https://icdcs2027.icdcs.org/
+  place: Melbourne, Australia
+  date: July 5-8, 2027
+  timezone: AoE
+location:
+  city: Melbourne
+  country: Australia
+  country_code: AU
+dates:
+  start: 2027-07-05
+  end: 2027-07-08
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-07-05
+    end: 2027-07-08
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,1291 @@
+WELCOME TO THE
+
+40th AAAI Conference on
+Artificial Intelligence
+Opening Ceremony
+Sven Koenig
+University of California, Irvine
+General Chair
+
+Odest Chadwicke Jenkins
+University of Michigan
+Program Co-Chair
+
+Matthew E. Taylor
+University of Alberta
+Program Co-Chair
+
+Eric Eaton
+University of Pennsylvania
+Associate General Chair
+
+Thanks to the AAAI-26 Sponsors
+
+General Chairs’ Summary
+
+Sven Koenig
+Univ. of California, Irvine, USA
+General Chair
+
+Eric Eaton
+Univ. of Pennsylvania, USA
+Associate General Chair
+
+Celebrations
+
+AAAI is in Asia
+for the first time!
+https://sg.theasianparent.com/welcome-2024-with-a-bang-dont-miss-the-spectacular-heartland-fireworks-display-in-these-7-locations
+
+Celebrations
+
+The AAAI conference turns 40!
+
+Celebrations
+
+Richard Sutton and Andrew Barto
+won the Turing Award in 2024!
+For developing the conceptual and algorithmic foundations
+of reinforcement learning
+
+Celebrations
+
+Edward Feigenbaum,
+who received the Turing Award in 1994,
+celebrated his 90th Birthday
+on January 20!
+
+Learn about all areas of AI!
+
+Have fun and meet new people!
+
+AAAI 2026 at a Glance
+
+2 days
+tutorials
+interdisciplinary bridge program
+doctoral consortium
+undergraduate consortium
+
+Use the Whova app to view details of the schedule
+
+2 days
+workshops
+
+Co-Located Events
+
+IAAI
+
+Annual Conference on
+Innovative Applications of AI
+• Interactive industry sessions
+• Demonstration program
+
+EAAI
+
+Symposium on
+Educational Advances in AI
+
+What’s Notable this Year (1)
+• First-time attendees orientation (11am today in the plenary room)
+• Special tracks
+
+• AI alignment
+• AI for social impact
+• Emerging trends in AI
+• Senior member presentations (summary talks, blue sky idea talks, bridge talks)
+
+• Special events
+
+• Research spotlights from the host country
+• Presidential panel on the future of AI
+• Ed Feigenbaum 90th birthday celebration
+• Richard Sutton and Andrew Barto Turing award celebration
+
+• Vibrant expo
+• Community participation: Vote for your favorite poster! Post on social media: #AAAI26!
+
+What’s Notable this Year (2)
+• Community activities
+
+• Teacher and Students: Building in AI
+• Empowering Global South AI Talent: Bridging Gaps for Underrepresented Researchers
+• Applied Generative AI & Industry: Demos & Discussions from the Field
+• How to Do AI Research That Matters
+• From Lab to Learning: Translating AI & Robotics Research into K-12 Outreach
+• Ethics of Example: Raising AI through Everyday Interactions
+• Bias in Multimodel AI: Representation, Risk, and Repair
+• AI in Peer Review
+• AIHub presents: Science communication for AI
+
+Student Events
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Student reception (meet and greet with AAAI fellows)
+Student abstract and poster program
+AAAI/ACM SIGAI job fair
+AAAI/ACM SIGAI doctoral consortium
+Undergraduate consortium
+undergraduate consortium
+Student game night
+Student program: How to Do AI Research that Matters
+Lunch meetups for students who want to meet other students
+Distinguished mentor lunches
+Daily photo contest
+
+doctoral consortium
+
+Press and Social Media
+• AAAI blog (blog.aaai.org)
+• Press booth (Expo floor)
+• Talking Machines podcast
+
+AAAI Code of Conduct
+• AAAI is dedicated to providing a respectful and inclusive conference
+experience for everyone.
+• Abusive, racist, sexist, homophobic, intimidating, harassing, or
+threatening behavior towards any other event participant or directed
+at any organizer, student volunteer, sponsor, conference staff, or
+locals will not be tolerated.
+• If you experience any issues, report them to the AAAI staff at the
+information booth near registration.
+
+Errata (Paper Corrections)
+• We ask authors who become aware of mistakes in their published
+papers to submit errata (which will be appended to the paper in the
+AAAI digital library).
+• The AAAI Publication Committee (chair: Anthony Cohn) can provide
+authors with more information: ec-pub-comm@aaai.org.
+
+JAIR Sustainability
+• The Journal of Artificial Intelligence Research (JAIR) does not charge
+fees for access, nor for authors; the journal is funded solely by
+donations/grants and is managed by volunteers.
+• To ensure the journal's long-term sustainability and raise its profile in
+the global community, JAIR has launched a one-time campaign to
+establish an “endowment.”
+• JAIR (editors-in-chief: Christopher Beck, Edith Elkind, Mykel
+Kochenderfer) is happy to meet with interested individuals and
+organizations. If you want to donate, go to aiaccess.org/sustainability.
+
+Thanks to the AAAI-26 Sponsors
+
+The conference is officially open!
+
+Enjoy!
+
+Program Chairs’ Summary
+
+Chad Jenkins
+University of Michigan, USA
+
+Matthew Taylor
+University of Alberta, Canada
+
+Welcome to the largest AI conference
+(by number of submissions)
+
+AAAI-26
+30,948 total submissions
+
+AAAI-25
+15,532 total submissions
+
+July 24
+
+AAAI-26 Program Committee
+~ 26,000 Program Committee Members
+~ 2,000 Senior Program Committee
+~ 500 Area Chairs
+
+AAAI-26 Organizing Committee
+
+General Chair
+
+Associate General Chair
+
+Sven
+Koenig
+
+Eric
+Eaton
+
+Program Chairs
+
+Organizing Committee
+Chad
+Jenkins
+
+Matthew
+Taylor
+
+AAAI-26 Program Team
+Program Chairs
+
+Organizing Committee
+
+Chad
+Jenkins
+
+Matthew
+Taylor
+
+Bo An
+
+Associate Program Chairs
+
+Joydeep
+Biswas
+
+David
+Crandall
+
+Matthew
+Lease
+
+Gautham
+Vasan
+
+Arthur Zhang
+
+Kiri
+Wagstaff
+
+Workflow Chairs
+
+Zichao Hu
+
+Erich Merrill
+
+Anthony
+Opipari
+
+Adam
+Parker
+
+Shelia
+Schoepp
+
+Haoran Zhang
+
+AAAI-26 Organizing Committee
+AI Alignment Chairs
+
+Dylan
+HadfieldMenell
+
+Bridge Chair
+
+Nadia
+Figueroa
+
+Lindsay
+Sanneman
+
+AI for Social Impact Chairs
+
+Andrew
+Perrault
+
+Sarath
+Sreedharan
+
+Demonstration Chairs
+
+Shirin
+Sohrabi
+
+Sarath
+Sreedharan
+
+Daniel
+Sheldon
+
+Community Activities Chairs
+
+Roberto MartínMartín
+
+Maru
+Cabrera
+
+AAAI-26 Organizing Committee
+Doctoral Consortium Co-Chairs
+
+Jasper
+Lee
+
+Roland Yap
+Hock Chuan
+
+Student Abstract Chairs
+
+New Faculty Highlights Chairs
+
+Michael
+Albert
+
+Noa Agmon
+
+Tom
+Williams
+
+Yuhong
+Guo
+
+Serdar
+Kadioglu
+
+Eren
+Kurshan
+
+Narges
+Norouzi
+
+Lisa Zhang
+
+Ethics Chairs
+
+IAAI-26 Conference Co-Chairs
+
+Sean
+McGregor
+
+EAAI-26 Conference Co-Chairs
+
+Jan R.
+Seyler,
+
+Jae Hong
+Park
+
+Matthew
+Gombolay
+
+Cynthia
+Matuszek
+
+Dylan
+Shell
+
+AAAI-26 Organizing Committee
+Sponshorship Chairs
+
+Senior Members Track Chairs
+
+Jana
+Doppa
+
+Kate Larson
+
+Tutorial and Lab Forum Chairs
+
+Michael
+Katz
+
+Nicholas
+Mattei
+
+Xuelong Li
+
+Tongliang
+Liu
+
+Soujanya
+Poria
+
+Undergraduate Consortium Co-Chairs
+
+Wenbin
+Zhang
+
+Jason
+Grant
+
+Volunteer
+Coordinators
+
+Victor
+Khaustov
+
+Alexander
+Matyasko
+
+Sun Zhu
+
+Workshops Chairs
+
+Ariel
+Felner
+
+Nadin
+Kokciyan
+
+Jiaoyang
+Li
+
+AAAI-26 Organizing Committee
+Emerging Trends in AI Chairs
+
+Award Chairs
+
+Matthew
+Guzdial
+
+Exhibit Chairs
+
+Shuicheng
+Yan
+
+Xiaoli Li
+
+Reid
+Simmons
+
+Reuth
+Mirsky
+
+Journal Track Chairs
+
+K. Brent Venable
+
+Zhen Zeng
+
+Harold
+Soh
+
+William
+Yeoh
+
+Mentoring Lunch Chair
+
+Maria Chang
+
+AAAI-26 Organizing Committee
+Outreach Chair
+
+Pradeep Varakantham
+
+Press Liason
+
+Toby Walsh
+
+Student Activities Chairs
+
+Hau Chan
+
+Social Media and Publicity Chairs
+
+Hadi Hosseini
+
+Xinrun Wang
+
+Job Fair Chairs
+
+Hau
+Chan
+
+Ng Teck
+Khim
+
+Lirong Xia
+
+Gautam Kamath
+
+Special Thanks to the AAAI Staff
+
+Meredith Ellison
+Executive Director
+
+Chesley Grove
+Director of Operations
+
+Ashley Short
+Program Manager
+
+Ida Camacho
+Publications Manager
+
+Kelly Gallagher
+Operations Coordinator
+
+Casey Jones
+Event Coordinator
+
+Invited Plenary Talks
+Thursday, January 22
+8:30AM – 9:25AM
+
+Welcome, Opening Remarks, AAAI Awards, and
+Conference Awards
+
+2:00PM – 2:55PM
+
+AAAI Invited Talk
+Peter Stone
+From How to learn to What to learn in Multiagent
+Systems and Robotics
+
+5:35PM – 6:30PM
+
+AAAI Invited Talk
+Bowen Zhou
+Quest of AI towards Specializable Generalist:
+From Reasoning to Scientific Discovery,
+
+Friday, January 23
+8:30AM – 9:25AM
+
+AAAI Invited Talk
+Daniel Whiteson
+Fundamental physics and science communication
+
+2:00PM – 2:55PM
+
+AAAI Invited Talk
+Yolanda Gil
+From Workflows to Water Coolers: AI That Can Navigate Human Nature,
+
+4:30PM – 5:30PM
+
+Presidential Panel
+Stephen Smith,
+Current AAAI President
+The Future of AI
+Panelists: Raj Reddy, AAAI President (1987-1989), Eric Horvitz, AAAI President
+(2007-2009) Manuela Veloso, AAAI President (2012-2014) Bart Selman, AAAI
+President (2020-2022), Moderator:
+
+5:35PM – 6:30PM
+
+AAAI Invited Talk
+Katerina Fragkiadaki
+Towards Embodied Agents that See, Simulate, and Reason,
+
+Invited Plenary Talks
+Saturday, January 24
+
+Sunday, January 25
+
+8:30AM – 9:25AM
+
+8:30AM – 9:25AM
+
+AAAI Invited Talk
+Isabelle Guyon - Rescheduled
+
+Patrick Henry Winston Outstanding Educator Award
+Alan Mackworth and David Poole
+The Essence of Intelligence is Appropriate Action (not
+thinking, reasoning, learning or language) and other things
+every student of AI should know
+
+2:00PM – 2:55PM
+AAAI / IAAI Invited Talk
+Ece Kamar
+Navigating the AI Horizon: Promises, Perils, and the Power of
+Collaboration
+
+4:30PM – 6:30PM
+Robert S. Engelmore Memorial Lecture Award
+Ashok Goel
+AI for Reskilling, Upskilling, and Workforce Development,
+AAAI Invited Talk
+Professor Edward Feigenbaum: A Tribute to and Lecture by a
+Pioneer of AI on his 90th Birthday
+
+2:00PM – 2:55PM
+AAAI Invited Talk
+Derek Haoyang Li
+Small Data: A New Paradigm for the Next Generation of AI
+
+Invited Plenary Talks
+Thursday, January 22
+9:30AM-9:50AM | Peridot 204
+
+Antoine Bordes
+
+AAAI-26 Classic Paper Award Talk
+Antoine Bordes
+From Symbolic Facts to Generative AI: The Enduring Legacy of a Classic Paper on Knowledge Embeddings,
+
+Thursday, January 22
+9:30AM-10:30AM | Topaz Concourse
+
+Thom Badings
+
+AAAI/ACM SIGAI Doctoral Dissertation Talk
+Sarah Alyami, Continuous Sign Language Recognition: Dataset Development and Novel Frameworks
+Thom Badings, Robust Verification of Stochastic Systems: Guarantees in the Presence of Uncertainty
+Brian Zhang, New Solution Concepts and Algorithms for Equilibrium Computation and Learning in Extensive-Form Games and
+Beyond
+
+Saturday, January 24
+9:30AM-10:10AM | Topaz Concourse
+AAAI-26 Classic Paper Award Talk
+
+Brian Zhang
+
+Social Events
+
+Weslie
+Khoo
+
+Organizing social events for attendees
+● Karaoke
+● Singapore River cruises
+● Walking tours
+
+Program
+
+Review Process
+
+AAAI-26 Timing & Topics
+
+Authors per Country
+China
+18453
+United States
+3051
+Korea, Republic of
+1072
+Singapore
+952
+United Kingdom
+918
+Hong Kong
+820
+Australia
+722
+India
+535
+Germany
+497
+Japan
+426
+Canada
+408
+France
+291
+Italy
+234
+United Arab Emirates 179
+Israel
+170
+
+2-Phase Review Process
+Phase 1
+● At least 2 human reviews
+● LLM review
+● SPC, AC makes recommendations
+● Promotion in cases of uncertainty
+Phase 2
+● At least 3 human reviews (most papers had 4+)
+● SPC, AC makes recommendations
+
+AAAI-26 AI Review Pilot Program
+Key question: Can AI tools assist in the scientific peer review process?
+Process:
+● One additional, clearly labelled AI-generated review in phase 1
+● No scores or recommendations by AI review
+● No human replaced in the review process
+● Reviewers (after submitting their own) SPCs, and ACs could view the AI review
+Technical Details:
+● AI review generated by custom, multi-stage process
+● Process included structured conversion including math & tables
+● Tool use included code interpreter, literature search
+● Base LLM: OpenAI GPT5, with Zero Data Retention
+
+Were LLMs useful?
+Overall AI Reviews Would be Useful
+in Future Peer Review Process
+
+Overall AAAI26 AI Reviews Were Useful
+
+Author mean:
+
+Author mean:
+
++0.33
+Reviewer mean:
++0.36
+
+-2
+
+Strongly
+Disagree
+
+Joydeep
+Biswas
+
++0.56
+Reviewer mean:
++0.53
+
+-1
+
+0
+
++1
+
+Disagree
+
+Neutral
+
+Agree
+
+Gautham
+Vasan
+
++2
+
+Strongly
+Agree
+
+Shelia
+Schoepp
+
+-2
+
+Strongly
+Disagree
+
+Anthony
+Opipari
+
+-1
+
+0
+
++1
+
+Disagree
+
+Neutral
+
+Agree
+
+Arthur Zhang
+
++2
+
+Strongly
+Agree
+
+Zichao Hu
+
+Were the reviews thorough?
+Paper Accepted
+
+Paper Rejected
+
+Dual Submissions
+156 dual submissions rejected
+● Abstract & title similarity
+● LLM check
+● 3 humans verify
+
+Kiri
+Wagstaff
+
+Main Track Acceptance Rate
+
+Overall acceptance
+rate ~17.5%
+
+ICYMI
+scholar-inbox.com
+Saturday: Community Meeting
+● Sustainability
+● Review Process Integrity
+● …
+Sunday: AI In Reviewing
+● Best practices for LLMs
+● Paper matching
+● …
+
+AAAI-26 Conference Awards
+January 22, 2026
+
+Outstanding Paper Award
+Title: Model Change for Description Logic Concepts
+Authors: Ana Ozaki, Jandson S Ribeiro
+Sponsored by:
+
+Outstanding Paper Award
+Title: Causal Structure Learning for Dynamical
+Systems with Theoretical Score Analysis
+
+Authors: Nicholas Tagliapietra, Katharina
+Ensinger, Christoph Zimmer, Osman Mian
+Sponsored by:
+
+Outstanding Paper Award
+Title: ReconVLA: Reconstructive Vision-Language-Action
+Model as Effective Robot Perceiver
+
+Authors: Wenxuan Song, Ziyang Zhou, Han Zhao,
+Jiayi Chen, Pengxiang Ding, Haodong Yan, Yuxin
+Huang, Feilong Tang, Donglin Wang, Haoang Li
+Sponsored by:
+
+Outstanding Paper Award
+Title: High-Pass Matters: Theoretical Insights and
+
+Sheaflet-Based Design for Hypergraph Neural Networks
+
+Authors: Ming Li, Yujie Fang, Dongrui Shen, Han
+
+Feng, Xiaosheng Zhuang, Kelin Xia, Pietro Lio
+Sponsored by:
+
+Outstanding Paper Award
+Title: LLM2CLIP: Powerful Language Model Unlocks Richer
+Cross-Modality Representation
+Authors: Weiquan Huang, Aoqi Wu, Yifan Yang, Xufang
+Luo, Yuqing Yang, Usman Naseem, Chunyu Wang, Qi Dai,
+Xiyang Dai, Dongdong Chen, Chong Luo, Lili Qiu, Liang Hu
+Sponsored by:
+
+Outstanding Paper Award:
+AISI Track
+Title: PlantTraitNet: An Uncertainty-Aware Multimodal Framework
+
+for Global-Scale Plant Trait Inference from Citizen Science Data
+
+Authors: Ayushi Sharma, Johanna Trost, Daniel Lusk, Johannes
+
+Dollinger, Julian Schrader, Christian Rossi, Javier Lopatin, Etienne
+Laliberté, Simon Haberstroh, Jana Eichel, Daniel Mederer, Jose
+Miguel Cerda-Paredes, Shyam S. Phartyal, Lisa-Maricia Schwarz,
+Anja Linstädter, Maria Conceição Caldeira, Teja Kattenborn
+
+Outstanding Paper Award:
+AISI Track
+Title: Generalizable Slum Detection from Satellite
+Imagery with Mixture-of-Experts
+
+Authors: Sumin Lee, Sungwon Park, Jeasurk Yang,
+Jihee Kim, Meeyoung Cha
+
+AAAI Awards
+January 22, 2026
+
+AAAI Awards
+2026 AAAI Classic Paper Award
+2026 AAAI/ACM SIGAI Doctoral Dissertation Awards
+2026 AAAI Senior Members
+2026 AAAI Distinguished Service Award
+2026 AAAI Fellows
+2026 Robert S. Engelmore Memorial Lecture Award
+2026 AAAI/EAAI Patrick Henry Winston Outstanding Educator Award
+2026 AAAI Award for Artificial Intelligence for the Benefit of Humanity
+
+2026 AAAI Classic
+Paper Award
+Presented by:
+Francesca Rossi
+IBM Research
+AAAI Past President and Awards Chair
+
+Most influential papers
+from AAAI 2011, the
+Twenty-Fifth
+Conference on Artificial
+Intelligence, held in
+San Francisco,
+California, USA
+
+2026 AAAI Classic
+Paper Award
+Antoine Bordes, Jason Weston,
+Ronan Collobert, Yoshua Bengio
+“Learning Structured
+Embeddings of Knowledge
+Bases”
+
+Twenty-Fifth Conference on
+Artificial Intelligence
+August 7–11, 2011
+San Francisco, California, USA
+
+2026 AAAI Classic
+Paper Award
+Stefanie Tellex, Thomas Kollar, Steven
+Dickerson, Matthew Walter, Ashis Banerjee,
+Seth Teller, Nicholas Roy
+“Understanding Natural Language
+Commands for Robotic Navigation and
+Mobile Manipulation”
+
+Twenty-Fifth Conference on
+Artificial Intelligence
+August 7–11, 2011
+San Francisco, California, USA
+
+2026 AAAI/ACM SIGAI
+Doctoral Dissertation
+Awards
+Presented by:
+Francesca Rossi
+IBM Research
+AAAI Past President and Awards Chair
+
+Joint AAAI/ACM SIGAI
+Doctoral Dissertation
+Award to recognize and
+encourage superior
+research and writing by
+doctoral candidates in
+artificial intelligence.
+
+2026 AAAI/ACM SIGAI
+Doctoral Dissertation
+Award
+Akari Asai
+University of Washington
+
+2026 AAAI/ACM SIGAI
+Doctoral Dissertation
+Award
+Noah Golowich
+Massachusetts Institute of
+Technology
+
+2026 AAAI/ACM SIGAI
+Doctoral Dissertation
+Award Honorable Mention
+Sarah Alyami
+King Fahd University of
+Petroleum and Minerals
+
+2026 AAAI/ACM SIGAI
+Doctoral Dissertation
+Award Honorable Mention
+Thom Badings
+Radboud University
+
+2026 AAAI/ACM SIGAI
+Doctoral Dissertation
+Award Honorable Mention
+Brian Hu Zhang
+Carnegie Mellon University
+
+2026 AAAI Senior
+Members
+Presented by:
+
+Francesca Rossi
+IBM Research
+
+AAAI Past President and Awards Chair
+
+Recognize AAAI
+members who have
+achieved significant
+accomplishments
+within the field of
+artificial intelligence.
+
+2026 AAAI Senior
+Members
+Pascal Bercher
+Australian National University,
+Australia
+
+2026 AAAI Senior
+Members
+Joydeep Biswas
+University of Texas at Austin, USA
+
+2026 AAAI Senior
+Members
+Pin-Yu Chen
+IBM Research, USA
+
+2026 AAAI Senior
+Members
+Amitava Das
+Anuradha and Prashanth
+Palakurthi Centre for Artificial
+Intelligence Research, India
+
+2026 AAAI Senior
+Members
+Hady Lauw
+Singapore Management University,
+Singapore
+
+2026 AAAI Senior
+Members
+Sheng Li
+University of Virginia, USA
+
+2026 AAAI Senior
+Members
+Sijia Liu
+Michigan State University, USA
+
+2026 AAAI Senior
+Members
+Vishal Patel
+Johns Hopkins University, USA
+
+2026 AAAI Senior
+Members
+Dongjin Song
+University of Connecticut, USA
+
+2026 AAAI Senior
+Members
+Ching-Huei Tsou
+IBM Research, USA
+
+2026 AAAI Senior
+Members
+Yang Yu
+Nanjing University, China
+
+2026 AAAI
+Distinguished Service
+Award
+Presented by:
+Francesca Rossi
+IBM Research
+AAAI Past President and Awards Chair
+
+Recognizes
+extraordinary
+service to the AI
+community
+
+2026 AAAI
+Distinguished Service
+Award
+David E. Smith
+PS Research
+For outstanding contributions and sustained service to
+the Association for the Advancement of Artificial
+Intelligence, both in supporting and improving its
+internal processes and in overall management of its
+financial assets.
+
+2026 AAAI Fellow
+Presented by:
+Francesca Rossi
+IBM Research
+AAAI Past President and Awards Chair
+
+Honors a small
+percentage of the
+AAAI membership
+for significant,
+sustained
+contributions to the
+field of artificial
+intelligence and
+unusual distinction in
+the profession.
+
+2026 AAAI Fellow
+Bo An
+Nanyang Technological University,
+Singapore
+For significant contributions to multi-agent
+systems.
+
+2026 AAAI Fellow
+Elias Bareinboim
+Columbia University, USA
+For significant contributions to the
+foundations of the modern theory of causal
+artificial intelligence and its applications.
+
+2026 AAAI Fellow
+Roman Barták
+Charles University, Czech Republic
+For significant contributions to the
+development and application of constraintbased planning and scheduling techniques
+and for his sustained education efforts in
+constraint programming
+
+2026 AAAI Fellow
+Tanya Berger-Wolf
+The Ohio State University, USA
+For significant contributions to advancing AI
+for nature, from science to impact in
+biodiversity and conservation.
+
+2026 AAAI Fellow
+Sanmay Das
+Virginia Tech, USA
+For development of multiagent interaction
+mechanisms and learning techniques in the
+public interest, and for leadership service to
+the profession.
+
+2026 AAAI Fellow
+Alan Fern
+Oregon State University, USA
+For significant contributions to automated
+planning, reinforcement learning, and
+pioneering sim-to-real reinforcement
+learning paradigm for humanoid robots.
+
+2026 AAAI Fellow
+Irwin King
+The Chinese University of Hong Kong,
+Hong Kong
+For significant contributions to the theory
+and applications of machine learning in
+social computing.
+
+2026 AAAI Fellow
+Yan Liu
+University of Southern California, USA
+For significant contributions to machine
+learning and development of widely
+recognized models for time series and
+spatiotemporal data analysis.
+
+2026 AAAI Fellow
+Nathan Sturtevant
+University of Alberta, Canada
+For significant contributions to the theory
+and algorithms of heuristic search,
+pathfinding, and games, as well as
+benchmarks and educational resources for
+these areas.
+
+2026 AAAI Fellow
+Qi Tian
+Guangming Laboratory, China
+For significant contributions to the broad AI
+community including computer vision,
+multimedia, and AI for scientific computing.
+
+2026 AAAI Fellow
+Francesca Toni
+Imperial College London, UK
+For significant contributions to the field of
+computational argumentation and its use
+towards explainable AI.
+
+2026 AAAI Fellow
+Ingmar Weber
+Saarland University, Germany
+For significant contributions to AI for Social
+Good and the application of AI to
+computational social science.
+
+2026
+Robert S. Engelmore
+Memorial Lecture
+Award
+Presented by:
+Francesca Rossi
+IBM Research
+
+This annual keynote
+lecture will be presented at
+the IAAI conference in
+honor of Dr. Robert S.
+Engelmore's extraordinary
+service to AAAI, AI
+Magazine, and the AI
+applications community,
+and his contributions to
+applied AI.
+
+2026 AAAI
+Robert S. Engelmore
+Memorial Lecture Award
+Ashok Goel
+Georgia Institute of Technology, USA
+For pioneering research contributions to
+biologically inspired design, case-based
+reasoning and applications of AI in virtual
+teaching, as well as for your extensive
+contributions to AAAI, including your service
+as Editor in Chief of AI Magazine.
+
+2026 AAAI/EAAI Patrick
+Henry Winston Outstanding
+Educator Award
+Presented by:
+Francesca Rossi
+IBM Research
+
+Recognize
+contributions to AI
+education that
+provide long-lasting
+benefits to the AI
+community.
+
+2026 AAAI/EAAI Patrick
+Henry Winston Outstanding
+Educator Award
+Alan Mackworth
+
+University of British Columbia, Canada
+
+&
+
+David Poole
+
+University of British Columbia, Canada
+For creating resources that make high-quality AI
+education accessible to students worldwide, including
+a freely available textbook, open source Python code,
+and web-based teaching tools
+
+2026 AI for Humanity
+Award
+Presented by:
+Francesca Rossi
+AI for Humanity Award Committee Chair
+
+Recognizes positive
+impacts of artificial
+intelligence to
+protect, enhance,
+and improve human
+life in meaningful
+ways with long-lived
+effects.
+Financial support for the award is provided
+by Squirrel Ai Learning
+
+2026 AI for Humanity
+Award
+Shakir Mohamed
+Google Deepmind , UK
+For significant contributions to maximizing social
+benefit by empowering communities worldwide to
+learn, contribute, debate, and shape how AI is
+used.
+
+Congratulations to all!
+2026 AAAI Classic Paper Award
+2026 AAAI/ACM SIGAI Doctoral Dissertation Awards
+2026 AAAI Senior Members
+2026 AAAI Distinguished Service Award
+2026 AAAI Fellows
+2026 Robert S. Engelmore Memorial Lecture Award
+2026 AAAI/EAAI Patrick Henry Winston Outstanding Educator Award
+2026 Feigenbaum Prize
+2026 AAAI Award for Artificial Intelligence for the Benefit of Humanity
+
+Thank You! Enjoy AAAI-26!
+AAAI-26 Sponsors
+
+

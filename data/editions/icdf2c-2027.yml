@@ -1,0 +1,34 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: icdf2c-2027
+series: icdf2c
+name: ICDF2C 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/ICDF2C
+  conf_id: icdf2c27
+  link: https://icdf2c.eai-conferences.org/2027/
+  place: New York, USA
+  date: June 25-27, 2027
+  timezone: UTC-12
+location:
+  city: New York
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-25
+  end: 2027-06-27
+milestones:
+  - type: paper
+    at: 2026-12-15T23:59
+    tz: UTC-12
+    status: confirmed
+    note_zh: "ccfddl: Full Paper Submission deadline"
+  - type: conference
+    start: 2027-06-25
+    end: 2027-06-27
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

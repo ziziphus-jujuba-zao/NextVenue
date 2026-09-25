@@ -3,7 +3,7 @@ series: wacv
 name: WACV 2028
 year: 2028
 kind: conference
-topics: [cv]
+data_level: curated
 derived_from: wacv-2027
 milestones:
   - type: paper_registration

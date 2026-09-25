@@ -1,0 +1,13 @@
+id: infocom
+acronym: INFOCOM
+full_name: IEEE International Conference on Computer Communications
+aliases: [IEEE INFOCOM]
+directions: [cs/net, eng/comm]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/infocom
+ccfddl: NW/INFOCOM
+data_level: curated
+note_zh: IEEE 通信学会（ComSoc）的网络会议。

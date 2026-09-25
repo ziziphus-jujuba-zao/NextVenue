@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: focs-2026
+series: focs
+name: FOCS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CT/FOCS
+  conf_id: focs26
+  link: https://sanjeevkhanna.org/FOCS2026_CFP.html
+  place: New York City, NY, USA
+  date: November 8-11, 2026
+  timezone: UTC
+location:
+  city: New York City
+  country: USA
+  country_code: US
+dates:
+  start: 2026-11-08
+  end: 2026-11-11
+milestones:
+  - type: paper
+    at: 2026-04-01T21:00
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2026-11-08
+    end: 2026-11-11
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

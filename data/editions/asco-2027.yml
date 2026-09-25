@@ -1,0 +1,27 @@
+id: asco-2027
+series: asco
+name: ASCO 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Chicago, country: USA, country_code: US }
+dates: { start: 2027-06-04, end: 2027-06-08 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/New_York
+    note_zh: 官网 Dates to Know 页拒绝本项目的抓取程序（403），Internet Archive 的存档也是 403，摘要截止日没能存快照核对。请直接看 asco.org 的 Dates to Know。
+  - type: early_registration
+    status: tba
+    tz: America/Chicago
+    note_zh: 同上，注册日期没能核对。
+  - type: conference
+    start: 2027-06-04
+    end: 2027-06-08
+    tz: America/Chicago
+    status: confirmed
+    src: asco-2027-home
+    quote: "June 4 - 8, 2027"
+    note_zh: 会场 McCormick Place，芝加哥。
+last_checked: 2026-09-25
+note_zh: 只核对到会期和地点（Internet Archive 2026-08-22 存档的 ASCO 年会首页）。摘要和注册的日期都要直接看官网。

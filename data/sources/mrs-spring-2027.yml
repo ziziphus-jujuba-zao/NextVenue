@@ -1,0 +1,12 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: mrs-spring-2027
+sources:
+  - id: mrs-spring-2027-home
+    url: https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit
+    mirror_url: https://web.archive.org/web/20260710091934id_/https://www.mrs.org/meetings-events/annual-meetings/2027-mrs-spring-meeting-exhibit
+    title: 2027 MRS Spring Meeting & Exhibit (Internet Archive copy)
+    kind: other
+    fetched_at: 2026-09-25T16:06:43Z
+    http_status: 200
+    snapshot: 73d74196d643e92d16e12de607d88bc191e513b474209a72a69848fa96d6ce92
+    note_zh: mrs.org 拒绝本项目的抓取程序（HTTP 403），快照取自 Internet Archive 存下的同一页面。

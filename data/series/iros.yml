@@ -1,0 +1,11 @@
+id: iros
+acronym: IROS
+full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
+directions: [cs/robotics]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/iros
+ccfddl: AI/IROS
+data_level: curated

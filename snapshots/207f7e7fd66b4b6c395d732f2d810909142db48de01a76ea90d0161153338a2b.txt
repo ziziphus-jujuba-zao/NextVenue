@@ -1,0 +1,1153 @@
+Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence
+Preface
+
+Negar Kiyavash1
+1
+
+Joris M. Mooij2
+
+College of Management of Technology, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland
+2
+Korteweg–de Vries Institute, University of Amsterdam, Amsterdam, Netherlands
+
+UAI 2024
+
+were held. A conference banquet followed the town hall
+meeting.
+
+Introduction The Conference on Uncertainty in Artificial
+Intelligence (UAI) is one of the premier international conferences on research related to knowledge representation,
+learning, and reasoning in the presence of uncertainty. UAI
+is supported by the Association for Uncertainty in Artificial
+Intelligence (AUAI).
+
+We were glad to have had the following keynote speakers:
+• Nicolò Cesa-Bianchi, Università degli Studi di Milano
+and Politecnico di Milano, Italy
+• Dominik Janzing, Amazon Research, Germany
+
+The 40th edition of the conference (UAI 2024) took place
+from July 15 to 19, 2024. It was held at the Universitat
+Pompeu Fabra, Barcelona, Spain.
+
+• Vanessa Didelez, Leibniz Institute for Prevention Research and Epidemiology - BIPS, Bremen, Germany
+All accepted papers had a poster. Oral talks were allocated
+20 minutes for presentation and 4 minutes for Q&A with
+the author (also accommodating questions from online participants). Spotlight talks lasted 3 minutes.
+
+Accepted papers and reviewing We received 744 full
+submissions, of which 29 were desk-rejected and 95 were
+withdrawn, and 200 were ultimately accepted. This volume
+features all accepted papers. The program committee consisted of two chairs, 92 senior (area chairs) and 733 regular
+members. All submitted papers had at least three reviews,
+and the large majority (92%) had four or five. The reviewing process was double-blind. The authors could provide
+a rebuttal to the reviews and there was a discussion phase.
+The senior members rated the reviews and ultimately 50
+reviewers were nominated by area chairs as “top reviewer".
+
+On July 15, there were five tutorials (two times two in parallel and one single-track):
+• Tutorial 1: An Introduction to Performative Prediction
+• Tutorial 2: Causal Graphical Methods For Handling
+Nonignorable Missing Data
+• Tutorial 3: Distribution-Free Predictive Uncertainty
+Quantification: Strengths and Limits of Conformal Prediction
+
+On-line participation We allowed for online participation. Online participants could both access and present oral
+and spotlight presentations via Zoom. Gather was used for
+poster presentations.
+
+• Tutorial 4: Geometric Probabilistic Models
+• Tutorial 5: Recent Advances of Statistical Reinforcement Learning
+
+Participants There were 439 registrations (391 in-person,
+48 online) from at least 36 countries. Nearly half of these
+were student registrations.
+
+On July 19, there were three workshops in parallel:
+
+The program The main program took place from July 16
+to 18. Each day’s program was single-track, and was composed of a keynote talk and two oral sessions, each featuring
+three or four paper presentations. Days 1 and 3 of the conference also included a poster session and a spotlight session.
+On day 2 a hybrid poster session and town hall meeting
+
+• Workshop 1: Causal Inference
+• Workshop 2: Causal Inference for Time Series Data
+• Workshop 3: Tractable Probabilistic Modeling: Models
+We Trust
+
+i
+
+Outstanding paper awards
+have received an award:
+
+Publicity Chairs
+
+The following two papers
+
+• Philip Boeken, University of Amsterdam, NL
+• Murat Kocaoglu, Purdue University, US
+
+• Outstanding paper:
+– “Approximate Bayesian Computation with Path
+Signatures”, by Joel Dyer, Patrick Cannon, and
+Sebastian M. Schmon
+
+Publication Chairs
+• Ioan Gabriel Bucur, Radboud University Nijmegen, NL
+• Thijs van Ommen, Utrecht University, NL
+
+• Outstanding student paper:
+
+Scientific Integrity Chairs
+
+– “Learning Accurate and Interpretable Decision
+Trees”, by Maria Florina Balcan and Dravyansh
+Sharma
+
+• Ankur Ankan, Radboud University Nijmegen, NL
+• Mathias Drton, Technische Universität München, DE
+Diversity & Inclusion Chair
+
+Organizing Committee
+
+• Negar Kiyavash, École Polytechnique Fédérale de Lausanne, CH
+
+The main organizing committee consisted of the following
+people:
+
+Online Chairs
+General Chairs
+
+• Rohit Bhattacharya, Williams College, US
+• Sadegh Khorasani, École Polytechnique Fédérale de
+Lausanne, CH
+• Bo Li, University of Chicago, US
+• Tan Nguyen, National University of Singapore, SG
+
+• Robin Evans, University of Oxford, UK
+• Ilya Shpitser, Johns Hopkins University, US
+Program Chairs
+• Negar Kiyavash, École Polytechnique Fédérale de Lausanne, CH
+
+Program Committee Without the volunteers in the program committee, the conference would not have been possible. We are extremely grateful for the efforts of all its
+members. The senior members of the program committee
+are listed in Table 1. The regular members of the program
+committee are listed in Table 2, where top reviewers’ names
+are in bold.
+
+• Joris Mooij, University of Amsterdam, NL
+Local Arrangements Chairs
+• Robert Castelo, Universitat Pompeu Fabra, ES
+• Vicenç Gomez, Universitat Pompeu Fabra, ES
+Sponsorship Chairs
+
+Acknowledgements
+
+• Alexander d’Amour, Google Brain, US
+We sincerely thank everyone who contributed to UAI 2024,
+including the authors of submitted papers, the members of
+the organizing committee and the program committee, the
+workshop organizers, the participants, the AUAI board, and
+our sponsors.
+
+• Bryon Aragam, University of Chicago, US
+Workshop Chairs
+• Jalal Etesami, Technische Universität München, DE
+• Meisam Razaviyay, University of Southern California,
+US
+
+Sponsors
+
+• Mats Stensrud, École Polytechnique Fédérale de Lausanne, CH
+Tutorial Chairs
+• AmirEmad Ghassami, Boston University, US
+• Niao He, ETH Zurich, CH
+Workflow Chairs
+• Sina Akbari, École Polytechnique Fédérale de Lausanne, CH
+• Saber Salehkaleybar, Leiden University, NL
+ii
+
+Table 1: The senior members of the program committee.
+Branislav Kveton, Dominik Janzing
+Aadirupa Saha
+Marco Zaffalon
+AmirEmad Ghassami
+Giulia Fanti, Kun Zhang, Peter Spirtes
+Kevin Xu
+Liangxiao Jiang
+John Paisley
+Florent Krzakala, Matthias Grossglauser, Patrick Thiran
+Ryan Cotterell
+Bo Dai, Vidya Muthukumar
+Craig Boutilier
+Tim Genewein
+Ruichu Cai
+Bo Han
+Lam Nguyen
+Simon de Givry
+Christopher Quinn
+Eric Nalisnick, Yaoyao Liu
+Arthur Choi
+Jaesik Choi
+Marc Tommasi
+Zoltan Szabo
+David Rügamer
+Emre Kiciman
+Manuel Gomez Rodriguez
+Zhi-hua Zhou
+Hanwang Zhang
+Taro Watanabe
+Daniel Cullina
+Murat Kocaoglu, Ruqi Zhang, Yexiang Xue
+Johannes Textor, Tom Claassen
+Qiang Ji
+Anastasios Kyrillidis
+Shohei Shimizu
+Georgios Arvanitidis
+Uri Shalit
+Robert Peharz
+Jalal Etesami
+Edoardo Airoldi
+Nevin Zhang
+Alessio Benavoli
+Longbo Huang
+Robert Castelo
+Sebastien Destercke
+Omar Rivasplata, Ricardo Silva
+Christian Naesseth, Sara Magliacane, Wilker Aziz
+James Cussens
+Lin Yang
+Biwei Huang
+Yang Liu
+Jose Hernandez
+Mladen Kolar
+Niklas Pfister
+Fengxiang He
+Arto Klami, Mikko Koivisto, Teemu Roos
+S. Rasoul Etesami
+Kaiqing Zhang
+
+Amazon
+Apple
+Artificialy
+Boston University
+Carnegie Mellon University
+Case Western Reserve University
+China University of Geosciences
+Columbia University
+École Polytechnique Fédérale de Lausanne
+ETH Zurich
+Georgia Institute of Technology
+Google
+Google DeepMind
+Guangdong University of Technology
+Hong Kong Baptist University
+IBM Research, Thomas J. Watson Research Center
+INRAE, Toulouse
+Iowa State University
+Johns Hopkins University
+Kennesaw State University
+Korea Advanced Institute of Science and Technology
+Lille University
+London School of Economics
+Ludwig-Maximilians-Universität München
+Microsoft
+MPI-SWS
+Nanjing University
+Nanyang Technological University
+Nara Institute of Science and Technology, Japan
+Pennsylvania State University
+Purdue University
+Radboud University Nijmegen
+Rensselaer Polytechnic Institute
+Rice University
+Shiga University
+Technical University of Denmark
+Technion
+Technische Universität Graz
+Technische Universität München
+Temple University
+The Hong Kong University of Science and Technology
+Trinity College, Dublin
+Tsinghua University
+Universitat Pompeu Fabra
+Université de technologie de Compiègne
+University College London
+University of Amsterdam
+University of Bristol
+University of California, Los Angeles
+University of California, San Diego
+University of California, Santa Cruz
+University of Cambridge
+University of Chicago
+University of Copenhagen
+University of Edinburgh
+University of Helsinki
+University of Illinois Urbana-Champaign
+University of Maryland, College Park
+
+iii
+
+Table 1: The senior members of the program committee — continued.
+Mingming Gong
+Lei Ying
+Ju Sun
+Hamed Hassani
+Marco Valtorta
+Meisam Razaviyayn
+Fabio Ramos, Tongliang Liu
+Nicholas Ruozzi
+Linbo Wang, Piotr Zwiernik
+Sebastian Tschiatschek
+Alex Luedtke, Emilija Perkovic, Thomas Richardson
+Pascal Poupart
+Nghia Hoang
+Rohit Bhattacharya
+Amin Karbasi
+
+University of Melbourne
+University of Michigan, Ann Arbor
+University of Minnesota, Twin Cities
+University of Pennsylvania
+University of South Carolina
+University of Southern California
+University of Sydney
+University of Texas, Dallas
+University of Toronto
+University of Vienna
+University of Washington
+University of Waterloo
+Washington State University
+Williams College
+Yale University
+
+Table 2: The members of the program committee (top reviewers in bold).
+Andres R Masegosa
+Ayush Bharti, Jussi Rintanen, Markus Heinonen,
+Martin Trapp, Ville Hyvönen
+Churn-Jung Liau
+David Arbour, Raghavendra Addanki
+Laure Sansonnet
+Shanshan Zhao
+Stefan Edelkamp
+Alejandro Molina, Christian Bock, Gaurush Hiranandani,
+Meet P. Vadera, Suhas Vijaykumar, Xiang Lyu
+Maher Nouiehed
+Mohammad Ali Javidian
+Hongwei Jin
+Yingzhen Yang, YooJung Choi
+Ivan Oseledets
+Elizabeth Sklar
+Dino Oglic
+Jesse Cranney
+Ziwei Fan
+Onn Shehory
+Antonio Khalil Moretti
+Feng Xie, Yan Zeng
+Jinpeng Chen
+Junzhong Ji
+Robert Moskovitch
+Muhammed O. Sayin
+Martin Boldt
+Melih Barsbey
+Michal Moshkovitz
+Aldo Pacchiano
+Andrew H. Song, Jason Poulos
+Matej Cief
+Chen Dun, Xiangtai Li, Yingxiang Yang
+Burak Varıcı, Haoyue Dai, Ignavier Ng, Joseph Ramsey,
+Kwanghee Choi, Shaoan Xie, Shuran Zheng, Wei Dong,
+Weiran Lin, William Herlands, William Zhi, Xiangchen Song,
+Xueying Zhan, Yewen Fan, Yujia Zheng, Zeyu Tang
+Jing Ma, Mohammadreza Nemati
+Fredrik D. Johansson
+
+Aalborg University
+Aalto University
+Academia Sinica
+Adobe Systems
+AgroParisTech
+AI Business, Alibaba Group
+AIC FEL CTU Prague
+Amazon
+American University of Beirut
+Appalachian State University
+Argonne National Laboratory
+Arizona State University
+Artificial Intelligence Research Institute
+Association for the Advancement of Artificial Intelligence
+AstraZeneca UK
+Australian National University
+AWS AI
+Bar-Ilan University
+Barnard College
+Beijing Technology and Business University
+Beijing University of Post and Telecommunication
+Beijing University of Technology
+Ben-Gurion University of the Negev
+Bilkent University
+Blekinge Institute of Technology
+Bogazici University
+Bosch Center for AI
+Boston University
+Brigham and Women’s Hospital, Harvard Medical School
+Brno University of Technology
+ByteDance Inc.
+Carnegie Mellon University
+
+Case Western Reserve University
+Chalmers University of Technology
+
+iv
+
+Table 2: The members of the program committee (top reviewers in bold) — continued.
+Daniel Chicharro
+Emilie Devijver
+Dimitrios Myrisiotis
+Augustin Chaintreau, Luhuan Wu, Shalmali Joshi, Wei Zhang
+Anton Rask Lundborg, Luigi Gresele, Myrto Limnios,
+Zehao Su
+Grace Deng, Joerg Stoye
+Frederic M Koriche, Salem Benferhat
+Rafael Oliveira, Ziqi Xu
+Mayank Goswami
+Mitsuki Sakamoto
+Jirka Vomlel, Vaclav Kratochvil
+Alessandro Antonucci, Dario Azzimonti, Marco Scutari
+Misha Glazunov
+Paul Weng
+Ali Hasan, Pan Xu, Ricardo Henao, Rui Wang
+Matthias Troffaes
+Menghan Wang
+Bruno Loureiro
+Paul Mangold
+Amir Mohammad Abouei, Anthony Bardou, Aryo Lotfi,
+Boi Faltings, Fateme Jamshidi, Guillaume Dalle,
+Guillaume Obozinski, Klim Kireev, Lucas Clarté,
+Maximilien Dreveton, Patrick Thiran, Saeed Masiha,
+Simon Roburin, Suryanarayana Sankagiri, Yaroslav Kivva,
+Yatin Dandi
+Alexander Mey, Arthur Van Camp, Frank Röttger,
+Wouter M. Kouw
+Teja Kanchinadam
+Razieh Nabi
+Alexandre Letard
+Clara Meister, Christoph Schultheiss, Michael Law
+Alessandro Lazaric
+Wenbin Zhang
+Shibo Li
+Nico Piatkowski
+Yufei Gu
+Vishal Sharma
+Hiroaki Sasaki
+Shou Matsumoto
+Guanghui Wang, Haotian Sun, Kai Wang, Yuqin Yang
+Tom Hochsprung, Oana-Iuliana Popescu
+Diego Mesquita
+Ezequiel Smucler
+Aparna R Joshi, Jhonatan Oliveira, Kun Jin, Peizhao Li,
+Umang Gupta
+Jincheng Mei
+Yuqing Du, Zun Li
+Amr Ahmed, Rahul Jain
+Jakub Truszkowski
+Abdel-Illah Mouaddib, Nadjet Bourdache
+Boyan Xu, Jie Qiao, Wei Chen
+Yao Shu
+Zhixin Li
+Manh Cuong Dao, Phi Le Nguyen
+Eran Malach, Hanlin Zhang, Hsin-Yu Lai, Lingkai Kong,
+Yang Hu
+Orna Kupferman
+
+City, University of London
+CNRS
+CNRS@CREATE LTD.
+Columbia University
+Copenhagen University
+Cornell University
+CRIL, Université d’Artois
+CSIRO
+CUNY Queens College
+CyberAgent, Inc.
+Czech Academy of Sciences
+Dalle Molle Institute for Artificial Intelligence (IDSIA)
+Delft University of Technology
+Duke Kunshan University
+Duke University
+Durham University
+eBay
+École Normale Supérieure de Paris
+École Polytechnique
+École Polytechnique Fédérale de Lausanne
+
+Eindhoven University of Technology
+Elevance Health, Inc.
+Emory University
+ESAIP
+ETH Zurich
+Facebook
+Florida International University
+Florida State University
+Fraunhofer IAIS
+Fudan University
+Fujitsu Research and Development Center Co. Ltd.
+Future University Hakodate
+George Mason University
+Georgia Institute of Technology
+German Aerospace Center, Institute of Data Science
+Getulio Vargas Foundation
+Glovo
+Google
+Google Brain
+Google DeepMind
+Google Research
+Göteborg University
+GREYC, Université de Caen Basse Normandie
+Guangdong University of Technology
+Guangming Lab
+Guangxi Normal University
+Hanoi University of Science and Technology
+Harvard University
+Hebrew University of Jerusalem
+
+v
+
+Table 2: The members of the program committee (top reviewers in bold) — continued.
+Yiming Tang
+Paul Swoboda
+Benjamin Quost, Hénoïk Willot, Khaled Belahcène,
+Loïc Adam
+Jun Fan, Yonggang Zhang
+Shuang Qiu
+Shengyu Zhu
+Xiaosen Wang, Xueyan Niu
+Kun He, Yichen Yang
+Elliot Nelson, Kanthi K. Sarpatwar, Michal Ozery-Flato,
+Naoki Abe, Radu Marinescu, Tian Gao
+Shiau Hong Lim
+Giuseppe Manco
+Aswin Suresh
+Rameshwar Pratap, Shantanu Das
+Washim Uddin Mondal
+Abhishek Ghose
+Shweta Jain
+Dongruo Zhou
+George Katsirelos
+Régis Sabbadin
+Arnaud Descours, Debabrota Basu, Diviyan Kalainathan,
+Jan Ramon, Konstantin Avrachenkov, Mickael Binois
+Mohamed Maouche
+Charles Assaad
+
+Hefei University of Technology
+Heinrich-Heine University Düsseldorf
+Heudiasyc, Université de technologie de Compiègne
+Hong Kong Baptist University
+Hong Kong University of Science and Technology
+Huawei Noah’s Ark Lab
+Huawei Technologies Ltd.
+Huazhong University of Science and Technology
+IBM
+IBM Research
+ICAR-CNR
+Independent Consultant
+Indian Institute of Technology, Hyderabad
+Indian Institute of Technology, Kanpur
+Indian Institute of Technology, Madras
+Indian Institute of Technology, Ropar
+Indiana University
+INRAE
+INRAE, Toulouse
+INRIA
+INRIA, Lyon
+Inserm, Sorbonne Université, Institut Pierre Louis
+d’Épidémiologie et de Santé Publique
+Institut Supérieur de Gestion
+Institut Supérieur de Gestion de Tunis
+Institute of North Electronic Equipment, Beijing
+Institute of Science and Technology, Austria
+Institute of Software Technology, TU Graz
+Intellicode, South Korea
+Intelligent Network Management
+Iowa State University
+
+Nahla Ben Amor
+Zied Elouedi
+Jian Zhao
+Vladimir Kolmogorov
+Johannes Peter Wallner
+Seungjin Choi
+Feng Liu
+Chunlin Li, Daoping Wu, Guanyu Nie, Hebi Li,
+Tianxiang Gao
+Andrea Campagner
+Vincent Mai
+Hélène Fargier, Romain Guillaume, Joao Marques-Silva
+Umberto Straccia
+Vamsi K. Potluru
+Limin Wang
+Drew Prinster, Jacob Morris Chen, Jaron J.R. Lee, Ju He,
+Roy Adams, Wufei Ma
+Shiqi Liu
+Jiho Noh, Xinyue Zhang
+Fares Fourati, Zhongyi Han
+David Watson
+Won Jo
+Alexander Kravberg, Borja Rodríguez Gálvez
+Pedro Zuidberg Dos Martires, Vincent Derkinderen
+Danil Kuzin, Leandro Soriano Marcolino
+Oliver Urs Lenz
+Olivier Goudet
+Jose Peña
+Pierre-Henri Wuillemin
+Paul Honeine
+Weizhi Li
+Dennis Frauen, Ludwig Bothmann, Thomas Nagler
+
+IRCCS Ospedale Galeazzi Sant’Ambrogio
+IREQ - Hydro Quebec Research Center
+IRIT, CNRS
+ISTI-CNR
+J.P. Morgan Chase
+Jilin University, China
+Johns Hopkins University
+Johns Hopkins University, Whiting School of Engineering
+Kennesaw State University
+King Abdullah University of Science and Technology
+King’s College London, University of London
+Korea Advanced Institute of Science and Technology
+KTH Royal Institute of Technology, Stockholm
+KU Leuven
+Lancaster University
+Leiden University
+LERIA - Université d’Angers
+Linköping University
+LIP6, UMR 7606 Sorbonne University
+LITIS, Université de Rouen Normandie, France
+Los Alamos National Laboratory
+Ludwig-Maximilians-Universität München
+
+vi
+
+Table 2: The members of the program committee (top reviewers in bold) — continued.
+Xuhui Fan
+Thanapon Noraset
+Dylan Hadfield-Menell, Hao He, Liu Ziyin, Rahul Singh,
+Wang Zhang
+Jakob Zeitler
+Julius von Kügelgen, Yaxi Hu
+Deeksha Sinha
+Karen Ullrich
+Aditya Mate, Daman Arora, Dongge Han, Siwei Wang,
+Supriyo Ghosh, Swati Sharma
+Junbo Li, Zijian Li
+Chang Wei Tan, Van Nguyen
+Jing Peng
+Goran Radanovic, Nina L. Corvelo Benz
+Shenglei Chen
+Jing Wang, Lan-Zhe Guo, Long-Fei Li, Lue Tao, Ming Li,
+Muheng Li, Shao-Qun Zhang, Tian Xu, Wen Jie Li,
+Yan-Feng Xie, Yang Yu, Yibo Wang, Yu-Feng Li, Yu-Hu Yan,
+Yu-Yang Qian
+Xiuyi Jia
+Beier Zhu, Jiequan Cui, Tan Wang, Zhongqi Yue, Zihao Li
+Robert A. Morris
+Dianxi Shi, Xingchen Hu
+Mohit Rajpal, Thanh Vinh Vo, Tuan-Duy H. Nguyen,
+Xiaobo Xia, Ziwei Xu
+Siyeong Lee
+Lu Feng
+Francesco Alesiani, Daniel Onoro Rubio
+Tran Cao Son
+Yoav Wald
+Aliaksandr Hubin
+Akanksha Atrey, Alonso Silva, Antti Koskela
+Liubov Tupikina
+Anthony Sicilia, Junxiang Chen
+Piyush Tagade
+Zach Wood-Doughty
+Yoichi Chikahara
+Anqi Li, Jiaming Song, Xianchao Wu
+Adam Eck
+Arjen Hommersom
+Robert E. Tillman
+Gaurav Dixit, Weng-Keen Wong
+Martin Gubri
+Yangbo He
+Jinghui Chen
+Adele H Ribeiro
+Daijin Kim
+Kunpeng Liu
+Minh Hoang, Sihui Dai
+Bolian Li, Kenneth Lee, Md Masudur Rahman,
+Md Musfiqur Rahman, Md Nasim, Muhammad Qasim Elahi,
+Nianqiao Ju, Patrick Pynadath, Qinbo Bai, Rajiv Khanna,
+Shanyun Gao, Shu Hu, Trevor Bonjour,
+Vishnu Pandi Chellapandi, Yonghan Jung, Zaiwei Chen,
+Zihan Zhou, Ziwei Jiang, Ziyi Wang
+Anthony Constantinou
+
+vii
+
+Macquarie University
+Mahidol University
+Massachusetts Institute of Technology
+Matterhorn Studio
+Max Planck Institute for Intelligent Systems
+Meta
+Meta AI
+Microsoft
+Mohamed bin Zayed University of Artificial Intelligence
+Monash University
+Montclair State University
+MPI-SWS
+Nanjing Audit University
+Nanjing University
+
+Nanjing University of Science and Technology
+Nanyang Technological University
+NASA Ames Research Center
+National University of Defense Technology
+National University of Singapore
+Naver Labs
+NEC Laboratories China
+NEC Laboratories Europe
+New Mexico State University
+New York University
+NMBU
+Nokia Bell Labs
+Nokia Networks GmbH
+Northeastern University
+NorthVolt AB
+Northwestern University
+NTT
+NVIDIA
+Oberlin College
+Open University of the Netherlands
+Optum AI Labs
+Oregon State University
+Parameter Lab
+Peking University
+Pennsylvania State University
+Phillips-Universität Marburg
+Pohang University of Science and Technology
+Portland State University
+Princeton University
+Purdue University
+
+Queen Mary University of London
+
+Table 2: The members of the program committee (top reviewers in bold) — continued.
+Ankur Ankan, Inge Wortel, Ioan Gabriel Bucur,
+Jan Schering, Johan Kwisthout, Mihaela Mihaylova,
+Mirthe Maria Van Diepen, Parisa Naseri,
+Twan van Laarhoven, Yuliya Shapovalova
+Kejun He, Wei Li
+Alex Gittens, Ali Tajer, Hanjing Wang, Naiyu Yin
+Mohammad Emtiyaz Khan
+Mark Bartlett, Nirmalie Wiratunga
+Nicolò Colombo
+Muhammad Bilal Zafar
+Wenjia Zhang
+Joost-Pieter Katoen
+Joao Paulo Papa
+Gunhee Kim, Sanghack Lee
+Haopeng Chen, Jiangchao Yao, Ke Xu, Shikui Tu,
+Xiaoming Duan
+Xin Liu
+Wei Wei
+Hamid Beigy
+Thong Pham
+Dexun Li
+Xin Yang
+Yue Gao
+Jing Wang, Jing Zhang, Min-Ling Zhang
+Wei Deng
+Athanasios Vlontzos
+Debarun Bhattacharjya, Hadi Elzayn, Han Wu,
+Mayee F Chen, Sanath Kumar Krishnamurthy
+Isabelle Bichindaritz
+Zhipeng Huang
+Kaiyu Song
+Simon Dirmeier
+Jyrki Nummenmaa
+François R J Cornet, Hrittik Roy, Ignacio Peis,
+Mikkel Jordahn, Pablo Moreno-Muñoz
+Jonas Wahl, Simon Bing, Urmi Ninad, Wiebke Günther
+Zhongjie Yu
+Bernhard C Geiger
+Daniele Tramontano, David Strieder, Kirtan Padh,
+Konstantin Göbler, Larkin Liu, Leander Girrbach
+Vaidyanathan Peruvemba Ramaswamy, Franz Wotawa
+Bowen Lei, Wenjing Chen
+Dongeun Lee
+Yongqiang Chen
+Jing Dong, Shuang Li, Zhongxiang Dai
+Cong Chen
+Pan Hui, Weiyan Xie
+Baijiong Lin
+Akifumi Okuno
+Jia Liu
+Ihsen Alouani, Jesus Martinez del Rincon
+Erdun Gao
+Houston Warren, Suqin Yuan, Yongcheng Jing
+Sahil Sidheekh, Shivvrat Arya
+Yuexia Zhang
+Haruo Hosoya, Yu-Jie Zhang
+Leonard Poon
+
+Radboud University Nijmegen
+
+Renmin University of China
+Rensselaer Polytechnic Institute
+RIKEN Center for Advanced Intelligence Project
+Robert Gordon University
+Royal Holloway, University of London
+Ruhr-Universität Bochum
+Rutgers University
+RWTH Aachen University
+Sao Paulo State University
+Seoul National University
+Shanghai Jiao Tong University
+ShanghaiTech University
+Shanxi University
+Sharif University of Technology
+Shiga University
+Singapore Management University
+Snap Inc.
+Snowflake
+Southeast University, China
+Southwestern University of Finance and Economics
+Spotify
+Stanford University
+State University of New York at Oswego
+Suffolk University
+Sun Yat-sen University
+Swiss Data Science Center
+Tampere University
+Technical University of Denmark
+Technische Universität Berlin
+Technische Universität Darmstadt
+Technische Universität Graz
+Technische Universität München
+Technische Universität Wien
+Texas A&M University - College Station
+Texas A&M University - Commerce
+The Chinese University of Hong Kong
+The Chinese University of Hong Kong, Shenzhen
+The City University of New York
+The Hong Kong University of Science and Technology
+The Hong Kong University of Science and Technology
+(Guangzhou)
+The Institute of Statistical Mathematics, Japan
+The Ohio State University
+The Queen’s University Belfast
+The University of Adelaide
+The University of Sydney
+The University of Texas at Dallas
+The University of Texas at San Antonio
+The University of Tokyo
+Thomson Reuters
+
+viii
+
+Table 2: The members of the program committee (top reviewers in bold) — continued.
+Praveen Narayanan
+Jiashuo Liu, Naiqi Li, Pihe Hu, Shuai Li, Weihao Xia,
+Wenjie Li, Yue Gao, Yue He
+Enrique Miranda, Ignacio Montes
+Iñaki Inza
+Javier Larrosa
+Ángel Aso-Mollar, Eva Onaindia
+Marcelo Finger
+Evandro de Barros Costa
+Daniel R. Figueiredo
+Christine W. Bang
+Gherardo Varando
+Ralf Möller
+Christian T Brownlees, Jack Jewson, Lorenzo Cappello,
+Paul Rognon-Vael, Vicenç Gómez
+Maciej Liskiewicz
+Andrea G. B. Tettamanzi
+Marc Legeay
+Matthew James Vowels
+Christine Sinoquet
+Christophe Denis
+Thomas Mortier
+Andrea Visentin, Barry O’Sullivan, Hoang D. Nguyen
+Leonard Henckel
+Ben Deaner, Hai Wang, James Briant, Jialin Yu,
+Martin Ferianc, Mirco Musolesi, Nicola Gnecco,
+Victory Idowu
+Ehsan Futuhi, Hongming Zhang, Ke Sun, Lili Mou,
+Nidhi Hegde, Tianpei Yang, Zixin Zhong
+Danru Xu, David Ruhe, Dharmesh Tailor, Leon Lang,
+Masoud Mansoury, Mátyás Schubert, Philip Boeken,
+Philip Versteeg, Rajeev Verma, Ronald de Haan,
+Samuele Papa, Sander Beckers, Sourbh Bhadane,
+Wenzhe Yin, Yongtuo Liu
+Frank-Michael Schleif
+Donato Malerba
+Pekka Parviainen
+Andrea Agiollo, Andrea Omicini, Michele Lombardi
+Laurent Simon
+Bingshan Hu, Johnny Xi, Sadegh Mahdavi
+Gianluigi Greco
+Mohammed Adnan
+Benjamin Plaut
+Xin Liu
+Bobak Pezeshki, Gavin Kerrigan, Sakshi Agarwal,
+Tianbing Xu
+Jiafan He, Namjoon Suh, Poorva Garg, Roshni Iyer,
+Shuang Wu, Xiaofeng Lin, Yizuo Chen, Yujia Shen, Zhe Zeng
+Fivos Kalogiannis, Har Simrat Singh, Jacob Imola,
+Xinyue Wang, Yi Hao
+Jayanth Yetukuri
+Francisco Vargas, Marcin B. Tomczak, Sébastien Bratières
+M. Julia Flores
+Amrit Singh Bedi
+Boxin Zhao, Christian Cianfarani, Wenxin Ding
+Esther Rolf
+Ying Zhou
+Jeffrey Adams
+
+Torc Robotics
+Tsinghua University
+Universidad de Oviedo
+Universidad del País Vasco
+Universidad Politécnica de Cataluna
+Universidad Politècnica de València
+Universidade de São Paulo
+Universidade Federal de Alagoas
+Universidade Federal do Rio de Janeiro
+Universität Bremen
+Universitat de Valencia
+Universität Hamburg
+Universitat Pompeu Fabra
+Universität zu Lübeck
+Université Côte d’Azur
+Université d’Angers
+Université de Lausanne
+Université de Nantes
+Université Paris-Est
+Universiteit Gent
+University College Cork
+University College Dublin
+University College London
+
+University of Alberta
+University of Amsterdam
+
+University of Applied Sciences Würzburg-Schweinfurt
+University of Bari
+University of Bergen
+University of Bologna
+University of Bordeaux
+University of British Columbia
+University of Calabria
+University of Calgary / Vector Institute
+University of California, Berkeley
+University of California, Davis
+University of California, Irvine
+University of California, Los Angeles
+University of California, San Diego
+University of California, Santa Cruz
+University of Cambridge
+University of Castilla - La Mancha
+University of Central Florida
+University of Chicago
+University of Colorado at Boulder
+University of Connecticut
+University of Copenhagen
+
+ix
+
+Table 2: The members of the program committee (top reviewers in bold) — continued.
+Sofia Triantafillou
+Nikolay Malkin, Xin Du
+Decui Liang
+Damiano Azzolini, Elena Bellodi, Riccardo Zese
+Alin Dobra
+Stephane Marchand-Maillet
+Rosanna Turrisi
+Ayesha Ali
+Arto Klami, Bernardo Williams, Elias Jääsaari,
+Indre Zliobaite, Jeremias Berg, Juha Harviainen,
+Nasrulloh Ratu Bagus Satrio Loka, Petrus Mikkola
+Yunwen Lei
+Mikhail Mekhedkin Meskhi
+Abhishek Kumar Umrawal, Bin Hu, Cong Xie, Eyal Amir,
+Haohan Wang, Rohan Deb, Runxiang Cheng, Tiancheng Qin,
+Yihan Du
+Ragib Ahsan, Zhongkai Wen, Zishun Yu
+Santtu Henrik Tikka
+Michele Caprio
+Xiangyu Liu, Zhenyi Wang
+Xutong Liu
+Aoqi Zuo, Feng Liu
+Alexander Rodríguez, Fan Bu, Lai Wei, Zixian Yang
+Juliette Achddou
+Fabio Stella, Rafael Peñaloza
+Hengkang Wang, Taihui Li
+Bryan Andrews, Erich Kummerfeld, Gaoxiang Luo,
+Yash Travadi
+Nicolas Gillis
+Bibek Upadhayay
+Krishna C Kalagarla
+Patrick Lederer
+Weijia Zhang
+Chao Lan, Yiting Cao
+Thanh Hong Nguyen
+Johan Pensar
+David Parker, Gabriel Santos, Michael Benedikt
+Alberto Roverato
+Buyun Liang, Duc Nguyen, Georgy Noarov,
+Guilherme Duarte, Huan He, Ira Globus-Harris,
+Shayan Kiyani
+Elena Stanghellini
+Riccardo Massidda, Salvatore Ruggieri
+Eric Strobl, Jungtaek Kim, Shengyu Chen, Tianjiao Chu
+Jaime S Cardoso
+Vincenzo Auletta
+Hu Ding, Tian Qin
+Gunwoong Park
+Michael Thomas Smith
+Lin Liu
+Dhruva Kartik, Erdem Biyik, Kallirroi Georgila,
+Pierluigi Nuzzo, Xinwei Zhang, Yinbin Han, Zeman Li,
+Zijun Cui
+Melih Kandemir, Yi-Shan Wu
+Lu Yin
+Kim Bente, Muyang Li, Runnan Chen, Xiu-Chuan Li, Yu Yao,
+Zhuo Huang, Ziming Hong
+Junyu Xuan, Maoying Qiao, Zhen Fang
+
+University of Crete
+University of Edinburgh
+University of Electronic Science and Technology of China
+University of Ferrara
+University of Florida
+University of Geneva, Switzerland
+University of Genova
+University of Guelph
+University of Helsinki
+
+University of Hong Kong
+University of Houston
+University of Illinois Urbana-Champaign
+
+University of Illinois, Chicago
+University of Jyväskylä
+University of Manchester
+University of Maryland, College Park
+University of Massachusetts at Amherst
+University of Melbourne
+University of Michigan, Ann Arbor
+University of Milan
+University of Milan-Bicocca
+University of Minnesota, Minneapolis
+University of Minnesota, Twin Cities
+University of Mons
+University of New Haven
+University of New Mexico
+University of New South Wales
+University of Newcastle
+University of Oklahoma
+University of Oregon
+University of Oslo
+University of Oxford
+University of Padua
+University of Pennsylvania
+
+University of Perugia
+University of Pisa
+University of Pittsburgh
+University of Porto
+University of Salerno
+University of Science and Technology of China
+University of Seoul
+University of Sheffield
+University of South Australia
+University of Southern California
+
+University of Southern Denmark
+University of Surrey
+University of Sydney
+University of Technology Sydney
+
+x
+
+Table 2: The members of the program committee (top reviewers in bold) — continued.
+Ngoc Mai Tran, Soumyajit Gupta
+Rohith Peddi, Yapeng Tian
+Vladik Kreinovich
+Hengchao Chen, Paulius Dilkas, Roger Baker Grosse,
+Yaqi Shi
+Paolo Morettin
+Konstantin Genin, Ralf Eggeling
+Shaocong Ma, Wai Yin Lam
+Simon Rittel
+Arshdeep Sekhon, Zhe Wang
+Xingyu Zhao
+Conor Mayo-Wilson, Liyao Gao, Wenyu Chen, Zhaoqi Li
+Ahmad Rashid
+Daniel J Lizotte
+Subhojyoti Mukherjee, Zheyang Xiong
+Niklas Wahlström
+Massimo Poesio, Thijs van Ommen
+Taylor T Johnson, Tianshu Bao
+Diederik M Roijers
+Hang Thi-Thuy Le
+Sixie Yu
+Avikalp Srivastava, Khaled S. Refaat
+Dongmo Zhang
+Tanya Braun
+Lucas Kook
+Badong Chen, Jihua Zhu, Xiangyong Cao
+Yunlong Liu
+Cheng Deng, Dawei Zhou, Ziyu Guan
+Fangting Zhou
+Sung-Bae Cho
+Kun Yue, Liang Duan
+Hao Zou
+Junhong Lin, Kun Kuang, Tongtian Zhu, Yao-Xiang Ding
+Huan Zhang
+
+University of Texas, Austin
+University of Texas, Dallas
+University of Texas, El Paso
+University of Toronto
+University of Trento
+University of Tübingen
+University of Utah
+University of Vienna
+University of Virginia
+University of Warwick
+University of Washington
+University of Waterloo
+University of Western Ontario
+University of Wisconsin, Madison
+Uppsala University
+Utrecht University
+Vanderbilt University
+Vrije Universiteit Brussel
+Washington State University
+Washington University, St. Louis
+Waymo LLC
+Western Sydney University
+Westfälische Wilhelms-Universität Münster
+Wirtschaftsuniversität Wien
+Xi’an Jiaotong University
+Xiamen University
+Xidian University
+Yale University
+Yonsei University
+Yunnan University
+ZGC Laboratory, China
+Zhejiang University
+Zhengzhou University
+
+xi
+
+

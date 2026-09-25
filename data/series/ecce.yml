@@ -1,0 +1,11 @@
+id: ecce
+acronym: ECCE
+full_name: IEEE Energy Conversion Congress and Exposition
+aliases:
+  - IEEE ECCE
+directions: [eng/power]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 9–10 月，北美
+data_level: curated

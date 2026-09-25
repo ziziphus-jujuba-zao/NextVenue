@@ -1,0 +1,51 @@
+Message from the General and Program Chairs
+
+2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) | 978-1-6654-6946-3/22/$31.00 ©2022 IEEE | DOI: 10.1109/CVPR52688.2022.00005
+
+Welcome to the 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition in New Orleans, LA.
+CVPR continues to be IEEE/CVF’s and PAMI-TC’s premier and flagship annual meeting on computer vision, giving
+researchers in our community the opportunity to present their exciting advances in computer vision, pattern
+recognition, machine learning, robotics, and artificial intelligence, in theory and/or practice. With invited keynote
+talks, oral and poster presentations, tutorials, workshops, demos and exhibitions, as well as an amiable social setting,
+we have an exciting program planned for this week. Moreover, this year marks the first hybrid CVPR that you may
+once again join physically since the COVID-19 pandemic.
+If you are able to join the physical conference, we very much hope you will enjoy your visit to New Orleans, after
+spending such a long period in social distancing. If you are not able to join the physical conference, we invite you to
+attend the virtual part of CVPR 2022, which will take place online the week following the physical conference. The
+virtual conference will run in a similar fashion as the past three virtual CVPRs and provide a full coverage of the
+technical papers. We hope you will enjoy it as well if you cannot travel to New Orleans. Our hearts go out to everyone
+who has been affected by this pandemic, directly or indirectly.
+Following an accelerating multi-year trend, CVPR 2022 experienced another surge with a record number of 8161
+submissions, amounting to a 15% increase from the 7093 submissions to CVPR 2021. After 3.5 months of diligent
+work from the 300+ area chairs and 6427 reviewers (including 1723 emergency reviewers), 2063 papers have been
+accepted through a rigorous review process, leading to an overall acceptance rate of 25.28%. Each paper received at
+least 3 reviews, followed by an author rebuttal phase and discussion phase among ACs, working in triplet groups, and
+assigned reviewers. The final paper decisions were recommended by the AC triplets and approved by the program
+chairs. Following the tradition of CVPR, the PCs did not pre-set any acceptance cap. The resulting acceptance rate
+reflects the community consensus, and is very well aligned with past CVPRs.
+Out of the 2064 accepted papers, 342 papers have been selected for oral presentation and the remaining 1721 for poster
+presentations. 34 papers have been shortlisted as best paper award candidates. The final best papers and honorable
+mentions will be selected from these 34 papers by an independent award committee appointed by the program chairs,
+which is composed of senior researchers from our community. The award committee is led by an award committee
+chair appointed by the program chairs, who moderates the selection process.
+Best papers will be presented in a single-track award session at the beginning of the main conference, each being
+allocated 8-10 minutes for presentation (depending on the final number of awards that will be issued) and 2 minutes
+for questions. All oral papers have been allocated 5 minutes for a short oral presentation. Each oral paper has also
+been assigned with a poster slot, to be presented together with the poster papers in a 2.5-hour poster session. To
+accommodate the growing number of papers and attendees, we scheduled three parallel oral sessions as in the last
+physical CVPRs and a portion of the poster sessions will partly overlap with the oral sessions.
+We would like to thank everyone involved in making CVPR 2022 a success. This includes the organizing committee,
+the area chairs, the reviewers, authors, demo session participants, donors, exhibitors, and everyone else without whom
+this meeting would not be possible. We also thank Nicole Finn and C to C Events for their organization of the logistics
+of the conference. Last but not least, we thank all of you for attending CVPR 2022 and making it one of the top venues
+for computer vision research in the world. We hope that you also have some time to explore gorgeous New Orleans
+during the conference. Enjoy CVPR 2022 and we look forward to meeting you in person!
+
+Program Chairs
+Kristin Dana, Gang Hua, Stefan Roth, Dimitris Samaras, and Richa Singh
+General Chairs
+Rama Chellappa, Jiri Matas, Long Quan, and Mubarak Shah
+
+ccxxiii
+
+

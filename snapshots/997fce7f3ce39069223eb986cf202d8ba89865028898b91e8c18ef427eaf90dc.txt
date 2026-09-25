@@ -1,0 +1,50 @@
+* Accessibility Policy
+ * Skip to content
+ * Go to menu
+
+Afficher / Cacher le menu
+ * Contact
+
+ * Back to neurips.cc
+ * Registration
+
+Registration
+
+Before starting
+
+ * An active NeurIPS.cc account is required.
+ * Please enter below the email address currently associated with your neurips.cc account. If you had merged accounts previously on neurips.cc and input an email address associated with a merged account, we will associate your registration to your current neurips.cc email.
+ * Only one registration is allowed: Paris, Atlanta, or Sydney.
+ * Once this preliminary step has been completed, a time-limited access link will be sent to your neurips.cc account email address from neuripsparis2026@dakini-pco.com.
+ * If you do not receive the email, please check your spam folder.
+ * You have 30 minutes to complete your registration. After this time, your session will automatically expire.
+
+ Each new request for an access link cancels the previous request.
+
+Starting your registrationEmail address* :
+
+* mandatory field
+
+Personal Data and Privacy
+
+Personal data is collected and processed by Dakini PCO to manage your request and provide the services related to your registration. Your personal data is processed by Dakini PCO’s internal team and, where necessary, by service providers responsible for the operation and maintenance of the website (see Legal Notices). These service providers are authorized to access your personal data only to the extent necessary to perform their services and are required to comply with applicable data protection, security, and confidentiality requirements.
+
+Your personal data may be shared with neurips.cc (NeurIPS Foundation) for the purposes of processing your registration and participation in NeurIPS 2026.
+
+Dakini PCO retains your personal data for no longer than is necessary to fulfil the purposes for which it was collected. After this period, your personal data may be archived where necessary to comply with Dakini PCO’s legal obligations or securely deleted.
+
+International data transfers
+
+For the purposes described above, the following personal data will be transferred to and/or accessed by the NeurIPS Foundation in the United States: your first name, last name, email address, country of residence, and registration details.
+
+Dakini PCO will ensure that such transfers are carried out in accordance with applicable data protection regulations and are subject to appropriate safeguards, where required.
+
+In accordance with applicable data protection regulations, you have the right to access your personal data, request its rectification or erasure, request restriction of its processing and, where applicable, object to its processing or to exercise your right to data portability.
+
+If you wish to exercise any of these rights or have any questions regarding the processing of your personal data, please submit your request via the contact form.
+
+You also have the right to lodge a complaint with the competent data protection supervisory authority, including the CNIL in France.
+
+ * Contact
+ * Legals
+ * Personal data

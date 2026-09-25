@@ -1,0 +1,13 @@
+id: asms
+acronym: ASMS
+full_name: ASMS Conference on Mass Spectrometry and Allied Topics
+name_zh: 美国质谱学会年会
+aliases:
+  - American Society for Mass Spectrometry Annual Conference
+directions: [chem/analytical]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国质谱学会年会，往届都在每年 6 月初举办
+data_level: curated
+note_zh: 只收摘要（海报或口头），录用后每个报告还要上传会议文集文件（proceedings）。

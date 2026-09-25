@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: cgi-2027
+series: cgi
+name: CGI 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/CGI
+  conf_id: cgi27
+  link: https://cgs-network.org/cgi27/
+  place: Cairns, Australia
+  date: July 5-9, 2027
+  timezone: UTC
+location:
+  city: Cairns
+  country: Australia
+  country_code: AU
+dates:
+  start: 2027-07-05
+  end: 2027-07-09
+milestones:
+  - type: paper
+    at: 2027-02-28T23:59
+    tz: UTC
+    status: confirmed
+    label_zh: "First Track: Call for papers with final publication in The Visual Computer Journal"
+  - type: paper
+    at: 2027-04-20T23:59
+    tz: UTC
+    status: confirmed
+    label_zh: "Second Track: Call for papers with final publication in LNCS Book published by Springer"
+  - type: conference
+    start: 2027-07-05
+    end: 2027-07-09
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

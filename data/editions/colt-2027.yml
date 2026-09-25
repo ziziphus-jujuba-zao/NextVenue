@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: colt-2027
+series: colt
+name: COLT 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/COLT
+  conf_id: colt27
+  link: https://learningtheory.org/colt2027/
+  place: Tokyo, Japan
+  date: June 28 - July 2, 2027
+  timezone: AoE
+location:
+  city: Tokyo
+  country: Japan
+  country_code: JP
+dates:
+  start: 2027-06-28
+  end: 2027-07-02
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-06-28
+    end: 2027-07-02
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,0 +1,17 @@
+id: iclr-2027/in-person-presentation
+edition: iclr-2027
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？能线上报告或请人代讲吗？
+short_zh: 到现场报告
+answer: unspecified
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 官方未规定。2027 作者指南只要求每篇录用论文至少一位作者持 "Conference and Workshops" 注册，没写是否必须到现场报告，也没写能否线上报告或请人代讲。注册页（Pricing）还是模板，Visa 和资助页面目前 404。
+quotes:
+  - src: iclr-2027-author-guidelines
+    text: 'Yes, if you have an accepted paper, one of the authors of your paper must have a "Conference and Workshops" registration.'
+checked_sources: [iclr-2027-author-guidelines, iclr-2027-home, iclr-2027-dates, iclr-2027-pricing, iclr-2027-cfp]
+last_checked: 2026-09-25

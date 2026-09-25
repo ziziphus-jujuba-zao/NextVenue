@@ -1,0 +1,46 @@
+id: aiaa-aviation-2027
+series: aiaa-aviation
+name: AIAA AVIATION 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: San Diego, country: USA, country_code: US }
+dates: { start: 2027-06-07, end: 2027-06-11 }
+milestones:
+  - type: abstract
+    at: 2026-11-12T20:00
+    tz: America/New_York
+    status: confirmed
+    src: aiaa-aviation-2027-cfp
+    quote: "Abstract Submission Deadline | 12 November 2026, 8:00 p.m. ET, USA"
+    note_zh: 9/15 已开放投稿。多数技术委员会按扩展摘要评审，各委员会要求不同，投稿前看所投方向的说明。美国东部时间晚 8 点截止，即北京时间 11/13 09:00。
+  - type: notification
+    at: 2027-02-08
+    tz: America/New_York
+    status: confirmed
+    src: aiaa-aviation-2027-cfp
+    quote: "Author Notifications | 8 February 2027"
+  - type: camera_ready
+    label_zh: 终稿截止
+    at: 2027-05-04T20:00
+    tz: America/New_York
+    status: confirmed
+    src: aiaa-aviation-2027-cfp
+    quote: "Manuscript Deadline | 4 May 2027, 8:00 p.m. ET, USA"
+  - type: early_registration
+    at: 2027-05-10
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aiaa-aviation-2027-cfp
+    quote: "Early Bird Registration Deadline | 10 May 2027"
+    note_zh: 官方只给日期、没写时刻和时区（同页其他截止写美东时间晚 8 点），按北京时间当天结束算，比按美国时间早，更保守。
+  - type: conference
+    start: 2027-06-07
+    end: 2027-06-11
+    tz: America/Los_Angeles
+    status: confirmed
+    src: aiaa-aviation-future-dates
+    quote: "AIAA AVIATION Forum 2027 7–11 June 2027 San Diego, CA"
+last_checked: 2026-09-25
+note_zh: 航空航天方向涉及出口管制，美国签证审查可能较长。

@@ -1,0 +1,14 @@
+id: acs-spring
+acronym: ACS Spring
+full_name: American Chemical Society Spring National Meeting & Expo
+name_zh: 美国化学会春季年会
+aliases:
+  - ACS Spring Meeting
+  - ACS National Meeting (Spring)
+directions: [chem/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国化学会一年两次全国会，春季会往届都在每年 3 月举办（秋季会见 acs-fall）
+data_level: curated
+note_zh: 只收摘要，经 MAPS 系统按分会（division）投，由各分会的程序主席决定是否接收；有线上报告方式。

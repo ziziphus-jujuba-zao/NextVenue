@@ -1,0 +1,12 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ams-2027
+sources:
+  - id: ams-2027-dates
+    url: https://annual.ametsoc.org/2027/about/important-dates-overall-timeline/
+    mirror_url: https://web.archive.org/web/20260820193337id_/https://annual.ametsoc.org/2027/about/important-dates-overall-timeline/
+    title: 107th AMS Annual Meeting Important Dates (Internet Archive copy)
+    kind: dates
+    fetched_at: 2026-09-25T16:15:17Z
+    http_status: 200
+    snapshot: 9165981e780877de4f5bd3e0f458e141652538925577d1c42667820ea5e2f69f
+    note_zh: annual.ametsoc.org 拒绝本项目的抓取程序（HTTP 403），快照取自 Internet Archive 2026-08-20 存下的同一页面。

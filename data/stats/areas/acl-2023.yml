@@ -1,0 +1,125 @@
+# ACL 2023 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: acl
+year: 2023
+kind: rates
+precision: exact
+track_zh: 主会，直投论文，按投稿时选的 track
+source_url: https://aclanthology.org/2023.acl-long.0.pdf
+page_zh: 论文集前言第 xli 页，表 1
+quote: "Table 1: Number of submissions and acceptance rates per track for direct and ARR submissions to ACL’23."
+src: acl-2023-front-matter
+quote_check: snapshot
+total:
+  label_zh: 直投合计
+  submissions: 4559
+  rate: 20.73
+  findings_rate: 18.36
+  quote: Total 4559 20.73 18.36 305 42.30 20.98
+gap_note_zh: 表里 26 个 track 合计 3,693 篇，比合计行的 4,559 篇少，原文没有说明差额
+note_zh: 直投口径；经 ARR 承诺的论文另算，录用率高得多，不能和直投比。表格以 CC BY 4.0 转载（ACL Anthology）
+checked: 2026-09-25
+rows:
+  - area: Computational Social Science and Cultural Analytics
+    submissions: 113
+    rate: 22.12
+    findings_rate: 19.47
+  - area: Dialogue and Interactive Systems
+    submissions: 269
+    rate: 24.54
+    findings_rate: 15.24
+  - area: Discourse and Pragmatics
+    submissions: 52
+    rate: 21.15
+    findings_rate: 34.62
+  - area: Ethics and NLP
+    submissions: 54
+    rate: 22.22
+    findings_rate: 31.48
+  - area: Generation
+    submissions: 175
+    rate: 25.71
+    findings_rate: 20.57
+  - area: Information Extraction
+    submissions: 279
+    rate: 25.45
+    findings_rate: 16.13
+  - area: Information Retrieval and Text Mining
+    submissions: 94
+    rate: 14.89
+    findings_rate: 21.28
+  - area: Interpretability and Analysis of Models for NLP
+    submissions: 189
+    rate: 24.34
+    findings_rate: 28.04
+  - area: Language Grounding to Vision, Robotics, and Beyond
+    submissions: 147
+    rate: 24.49
+    findings_rate: 21.77
+  - area: Large Language Models
+    submissions: 252
+    rate: 28.17
+    findings_rate: 21.03
+  - area: Linguistic Diversity
+    submissions: 18
+    rate: 27.78
+    findings_rate: 22.22
+  - area: Linguistic Theories, Cog. Modeling & Psycholinguistics
+    submissions: 38
+    rate: 23.68
+    findings_rate: 23.68
+  - area: Machine Learning for NLP
+    submissions: 313
+    rate: 21.09
+    findings_rate: 23.32
+  - area: Machine Translation
+    submissions: 198
+    rate: 25.25
+    findings_rate: 18.18
+  - area: Multilingualism and Cross-Lingual NLP
+    submissions: 85
+    rate: 20
+    findings_rate: 30.59
+  - area: NLP Applications
+    submissions: 354
+    rate: 22.88
+    findings_rate: 19.77
+  - area: Phonology, Morphology, and Word Segmentation
+    submissions: 21
+    rate: 28.57
+    findings_rate: 19.05
+  - area: Question Answering
+    submissions: 197
+    rate: 18.78
+    findings_rate: 18.78
+  - area: Resources and Evaluation
+    submissions: 213
+    rate: 28.17
+    findings_rate: 19.72
+  - area: "Semantics: Lexical"
+    submissions: 54
+    rate: 25.93
+    findings_rate: 25.93
+  - area: "Semantics: Sentence-level Semantics"
+    submissions: 81
+    rate: 27.16
+    findings_rate: 11.11
+  - area: Sentiment Analysis, Stylistic Analysis, Arg. Mining
+    submissions: 107
+    rate: 17.76
+    findings_rate: 30.84
+  - area: Speech and Multimodality
+    submissions: 72
+    rate: 27.78
+    findings_rate: 36.11
+  - area: Summarization
+    submissions: 139
+    rate: 23.02
+    findings_rate: 21.58
+  - area: "Syntax: Tagging, Chunking, and Parsing"
+    submissions: 69
+    rate: 23.19
+    findings_rate: 21.74
+  - area: "Theme: Reality Check"
+    submissions: 110
+    rate: 26.36
+    findings_rate: 30.91

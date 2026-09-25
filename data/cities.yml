@@ -1,0 +1,307 @@
+# 城市中文名：会议页的地点块、会议列表和投稿路线用它。格式见 schema/cities.schema.json 和 DATA_GUIDE §10。
+#
+# - name：数据里的英文写法（curated 届次的 location.city、sites[].city，或 ccfddl place 按逗号拆开后的一段）。
+#   aliases：别的写法（不带重音、本地名、旧称）。比较时不分大小写，不看重音、句点和逗号。
+# - name_zh：通行的中文译名。country_code：ISO 3166-1 两位字母，中文名在下面的 countries 里。
+# - tz：城市的 IANA 时区，用来算会期那几天当地比北京快或慢几小时。ccfddl 的届次只有截止日期的时区（多是 AoE），
+#   没有会场时区，所以时差按这里的 tz 算；curated 届次的会期时区必须和这里一致（pnpm validate 检查）。
+# - 同名城市按国家区分：数据写了国家时，只认国家对得上的那一个（写 China 的港澳台地名也算对得上）。
+# - region: true：这个名字也是州名（Washington、New York），只在 place 的第一段才当城市。
+# - state：美国同名城市多，place 里城市后面跟着州名时，州名要在这个列表里（"Columbia, SC"）。
+# - 新届次的城市不在这里时，pnpm validate 报错：加一行；实在不是城市（只有地区名）的，写进最后的 unknown。
+
+countries:
+  # 北美、中南美
+  US: 美国
+  CA: 加拿大
+  MX: 墨西哥
+  PA: 巴拿马
+  CR: 哥斯达黎加
+  BB: 巴巴多斯
+  BR: 巴西
+  AR: 阿根廷
+  CL: 智利
+  CO: 哥伦比亚
+  PE: 秘鲁
+  UY: 乌拉圭
+  # 中国（港澳台单列，签证和出入境证件不同）
+  CN: 中国
+  HK: 中国香港
+  MO: 中国澳门
+  TW: 中国台湾
+  # 亚洲
+  JP: 日本
+  KR: 韩国
+  SG: 新加坡
+  MY: 马来西亚
+  TH: 泰国
+  VN: 越南
+  KH: 柬埔寨
+  ID: 印度尼西亚
+  PH: 菲律宾
+  IN: 印度
+  PK: 巴基斯坦
+  BD: 孟加拉国
+  LK: 斯里兰卡
+  NP: 尼泊尔
+  KZ: 哈萨克斯坦
+  AE: 阿联酋
+  QA: 卡塔尔
+  SA: 沙特阿拉伯
+  JO: 约旦
+  IL: 以色列
+  TR: 土耳其
+  CY: 塞浦路斯
+  # 大洋洲
+  AU: 澳大利亚
+  NZ: 新西兰
+  # 欧洲
+  GB: 英国
+  IE: 爱尔兰
+  FR: 法国
+  DE: 德国
+  IT: 意大利
+  ES: 西班牙
+  PT: 葡萄牙
+  NL: 荷兰
+  BE: 比利时
+  LU: 卢森堡
+  CH: 瑞士
+  AT: 奥地利
+  DK: 丹麦
+  SE: 瑞典
+  NO: 挪威
+  FI: 芬兰
+  IS: 冰岛
+  PL: 波兰
+  CZ: 捷克
+  SK: 斯洛伐克
+  HU: 匈牙利
+  SI: 斯洛文尼亚
+  HR: 克罗地亚
+  RS: 塞尔维亚
+  RO: 罗马尼亚
+  BG: 保加利亚
+  GR: 希腊
+  MT: 马耳他
+  EE: 爱沙尼亚
+  LV: 拉脱维亚
+  LT: 立陶宛
+  # 非洲
+  EG: 埃及
+  MA: 摩洛哥
+  TN: 突尼斯
+  ZA: 南非
+  KE: 肯尼亚
+  NG: 尼日利亚
+  RW: 卢旺达
+
+cities:
+  # ---------- 美国 ----------
+  - { name: Seattle, name_zh: 西雅图, country_code: US, tz: America/Los_Angeles }
+  - { name: Bellevue, name_zh: 贝尔维尤, country_code: US, tz: America/Los_Angeles, state: [WA, Washington] }
+  - { name: Renton, name_zh: 伦顿, country_code: US, tz: America/Los_Angeles }
+  - { name: San Francisco, name_zh: 旧金山, country_code: US, tz: America/Los_Angeles }
+  - { name: Oakland, name_zh: 奥克兰, country_code: US, tz: America/Los_Angeles }
+  - { name: San Jose, name_zh: 圣何塞, country_code: US, tz: America/Los_Angeles }
+  - { name: Santa Clara, name_zh: 圣克拉拉, country_code: US, tz: America/Los_Angeles }
+  - { name: Monterey, name_zh: 蒙特雷, country_code: US, tz: America/Los_Angeles }
+  - { name: Sacramento, name_zh: 萨克拉门托, country_code: US, tz: America/Los_Angeles }
+  - { name: Los Angeles, name_zh: 洛杉矶, country_code: US, tz: America/Los_Angeles }
+  - { name: Anaheim, name_zh: 阿纳海姆, country_code: US, tz: America/Los_Angeles }
+  - { name: Huntington Beach, name_zh: 亨廷顿比奇, country_code: US, tz: America/Los_Angeles }
+  - { name: Irvine, name_zh: 尔湾, country_code: US, tz: America/Los_Angeles }
+  - { name: Riverside, name_zh: 里弗赛德, country_code: US, tz: America/Los_Angeles, state: [CA, California] }
+  - { name: San Diego, name_zh: 圣迭戈, country_code: US, tz: America/Los_Angeles }
+  - { name: Denver, name_zh: 丹佛, country_code: US, tz: America/Denver }
+  - { name: Boulder, name_zh: 博尔德, country_code: US, tz: America/Denver }
+  - { name: Fort Collins, name_zh: 柯林斯堡, country_code: US, tz: America/Denver }
+  - { name: Salt Lake City, name_zh: 盐湖城, country_code: US, tz: America/Denver }
+  - { name: Snowbird, name_zh: 雪鸟, country_code: US, tz: America/Denver }
+  - { name: Phoenix, name_zh: 菲尼克斯, country_code: US, tz: America/Phoenix }
+  - { name: Tempe, name_zh: 坦佩, country_code: US, tz: America/Phoenix }
+  - { name: Chicago, name_zh: 芝加哥, country_code: US, tz: America/Chicago }
+  - { name: Minneapolis, name_zh: 明尼阿波利斯, country_code: US, tz: America/Chicago }
+  - { name: Austin, name_zh: 奥斯汀, country_code: US, tz: America/Chicago }
+  - { name: Dallas, name_zh: 达拉斯, country_code: US, tz: America/Chicago }
+  - { name: Dallas-Fort Worth, name_zh: 达拉斯-沃思堡, country_code: US, tz: America/Chicago, aliases: [DFW] }
+  - { name: Houston, name_zh: 休斯敦, country_code: US, tz: America/Chicago }
+  - { name: San Antonio, name_zh: 圣安东尼奥, country_code: US, tz: America/Chicago }
+  - { name: New Orleans, name_zh: 新奥尔良, country_code: US, tz: America/Chicago }
+  - { name: Nashville, name_zh: 纳什维尔, country_code: US, tz: America/Chicago }
+  - { name: Detroit, name_zh: 底特律, country_code: US, tz: America/Detroit }
+  - { name: Atlanta, name_zh: 亚特兰大, country_code: US, tz: America/New_York }
+  - { name: St Simons Island, name_zh: 圣西蒙斯岛, country_code: US, tz: America/New_York, aliases: [Saint Simons Island] }
+  - { name: Columbia, name_zh: 哥伦比亚, country_code: US, tz: America/New_York, state: [SC, South Carolina] }
+  - { name: Orlando, name_zh: 奥兰多, country_code: US, tz: America/New_York }
+  - { name: Boca Raton, name_zh: 博卡拉顿, country_code: US, tz: America/New_York, aliases: [Boca Raton FL] }
+  - { name: Washington, name_zh: 华盛顿, country_code: US, tz: America/New_York, region: true, aliases: ["Washington, D.C.", Washington DC] }
+  - { name: Alexandria, name_zh: 亚历山德里亚, country_code: US, tz: America/New_York, state: [VA, Virginia] }
+  - { name: Richmond, name_zh: 里士满, country_code: US, tz: America/New_York, state: [VA, Virginia] }
+  - { name: Baltimore, name_zh: 巴尔的摩, country_code: US, tz: America/New_York }
+  - { name: Philadelphia, name_zh: 费城, country_code: US, tz: America/New_York }
+  - { name: Pittsburgh, name_zh: 匹兹堡, country_code: US, tz: America/New_York }
+  - { name: New York, name_zh: 纽约, country_code: US, tz: America/New_York, region: true, aliases: [New York City, NYC] }
+  - { name: Providence, name_zh: 普罗维登斯, country_code: US, tz: America/New_York }
+  - { name: Boston, name_zh: 波士顿, country_code: US, tz: America/New_York }
+  - { name: Honolulu, name_zh: 檀香山, country_code: US, tz: Pacific/Honolulu }
+  - { name: Big Island, name_zh: 夏威夷岛, country_code: US, tz: Pacific/Honolulu, aliases: [Hawaii Island, Island of Hawaii] }
+
+  # ---------- 加拿大 ----------
+  - { name: Vancouver, name_zh: 温哥华, country_code: CA, tz: America/Vancouver }
+  - { name: Victoria, name_zh: 维多利亚, country_code: CA, tz: America/Vancouver, region: true, state: [BC, British Columbia] }
+  - { name: Calgary, name_zh: 卡尔加里, country_code: CA, tz: America/Edmonton }
+  - { name: Winnipeg, name_zh: 温尼伯, country_code: CA, tz: America/Winnipeg }
+  - { name: Toronto, name_zh: 多伦多, country_code: CA, tz: America/Toronto }
+  - { name: Kingston, name_zh: 金斯顿, country_code: CA, tz: America/Toronto }
+  - { name: Montréal, name_zh: 蒙特利尔, country_code: CA, tz: America/Toronto }
+
+  # ---------- 中南美 ----------
+  - { name: Mexico City, name_zh: 墨西哥城, country_code: MX, tz: America/Mexico_City, aliases: [Ciudad de México, CDMX] }
+  - { name: Cancún, name_zh: 坎昆, country_code: MX, tz: America/Cancun }
+  - { name: Panama City, name_zh: 巴拿马城, country_code: PA, tz: America/Panama }
+  - { name: Rio de Janeiro, name_zh: 里约热内卢, country_code: BR, tz: America/Sao_Paulo }
+  - { name: São Paulo, name_zh: 圣保罗, country_code: BR, tz: America/Sao_Paulo }
+  - { name: Buenos Aires, name_zh: 布宜诺斯艾利斯, country_code: AR, tz: America/Argentina/Buenos_Aires }
+  - { name: Valparaíso, name_zh: 瓦尔帕莱索, country_code: CL, tz: America/Santiago }
+
+  # ---------- 中国 ----------
+  - { name: Beijing, name_zh: 北京, country_code: CN, tz: Asia/Shanghai }
+  - { name: Shanghai, name_zh: 上海, country_code: CN, tz: Asia/Shanghai }
+  - { name: Shenzhen, name_zh: 深圳, country_code: CN, tz: Asia/Shanghai }
+  - { name: Guangzhou, name_zh: 广州, country_code: CN, tz: Asia/Shanghai }
+  - { name: Zhuhai, name_zh: 珠海, country_code: CN, tz: Asia/Shanghai }
+  - { name: Hengqin, name_zh: 横琴, country_code: CN, tz: Asia/Shanghai }
+  - { name: Hangzhou, name_zh: 杭州, country_code: CN, tz: Asia/Shanghai }
+  - { name: Haining, name_zh: 海宁, country_code: CN, tz: Asia/Shanghai }
+  - { name: Ningbo, name_zh: 宁波, country_code: CN, tz: Asia/Shanghai }
+  - { name: Hefei, name_zh: 合肥, country_code: CN, tz: Asia/Shanghai }
+  - { name: Changsha, name_zh: 长沙, country_code: CN, tz: Asia/Shanghai }
+  - { name: Shenyang, name_zh: 沈阳, country_code: CN, tz: Asia/Shanghai }
+  - { name: Xiamen, name_zh: 厦门, country_code: CN, tz: Asia/Shanghai }
+  - { name: Luoyang, name_zh: 洛阳, country_code: CN, tz: Asia/Shanghai }
+  - { name: Hong Kong, name_zh: 香港, country_code: HK, tz: Asia/Hong_Kong, aliases: [Hong Kong SAR, HKSAR] }
+  - { name: Macau, name_zh: 澳门, country_code: MO, tz: Asia/Macau, aliases: [Macao, Macao SAR, Macau SAR] }
+  - { name: Taipa, name_zh: 氹仔, country_code: MO, tz: Asia/Macau }
+  - { name: Taipei, name_zh: 台北, country_code: TW, tz: Asia/Taipei }
+  - { name: Hsinchu, name_zh: 新竹, country_code: TW, tz: Asia/Taipei }
+
+  # ---------- 亚洲其他 ----------
+  - { name: Tokyo, name_zh: 东京, country_code: JP, tz: Asia/Tokyo }
+  - { name: Yokohama, name_zh: 横滨, country_code: JP, tz: Asia/Tokyo }
+  - { name: Kyoto, name_zh: 京都, country_code: JP, tz: Asia/Tokyo }
+  - { name: Osaka, name_zh: 大阪, country_code: JP, tz: Asia/Tokyo }
+  - { name: Fukui, name_zh: 福井, country_code: JP, tz: Asia/Tokyo }
+  - { name: Aizuwakamatsu, name_zh: 会津若松, country_code: JP, tz: Asia/Tokyo, aliases: [Aizu-Wakamatsu] }
+  - { name: Seoul, name_zh: 首尔, country_code: KR, tz: Asia/Seoul }
+  - { name: Busan, name_zh: 釜山, country_code: KR, tz: Asia/Seoul }
+  - { name: Gangneung, name_zh: 江陵, country_code: KR, tz: Asia/Seoul }
+  - { name: Singapore, name_zh: 新加坡, country_code: SG, tz: Asia/Singapore }
+  - { name: Kuala Lumpur, name_zh: 吉隆坡, country_code: MY, tz: Asia/Kuala_Lumpur }
+  - { name: Bangkok, name_zh: 曼谷, country_code: TH, tz: Asia/Bangkok }
+  - { name: Hanoi, name_zh: 河内, country_code: VN, tz: Asia/Ho_Chi_Minh, aliases: [Ha Noi] }
+  - { name: Ho Chi Minh City, name_zh: 胡志明市, country_code: VN, tz: Asia/Ho_Chi_Minh, aliases: [Saigon] }
+  - { name: Siem Reap, name_zh: 暹粒, country_code: KH, tz: Asia/Phnom_Penh }
+  - { name: Bali, name_zh: 巴厘岛, country_code: ID, tz: Asia/Makassar }
+  - { name: Bengaluru, name_zh: 班加罗尔, country_code: IN, tz: Asia/Kolkata, aliases: [Bangalore] }
+  - { name: New Delhi, name_zh: 新德里, country_code: IN, tz: Asia/Kolkata }
+  - { name: Goa, name_zh: 果阿, country_code: IN, tz: Asia/Kolkata }
+  - { name: Doha, name_zh: 多哈, country_code: QA, tz: Asia/Qatar }
+  - { name: Antalya, name_zh: 安塔利亚, country_code: TR, tz: Europe/Istanbul }
+  - { name: Limassol, name_zh: 利马索尔, country_code: CY, tz: Asia/Nicosia }
+
+  # ---------- 大洋洲 ----------
+  - { name: Sydney, name_zh: 悉尼, country_code: AU, tz: Australia/Sydney }
+  - { name: Melbourne, name_zh: 墨尔本, country_code: AU, tz: Australia/Melbourne }
+  - { name: Brisbane, name_zh: 布里斯班, country_code: AU, tz: Australia/Brisbane }
+  - { name: Cairns, name_zh: 凯恩斯, country_code: AU, tz: Australia/Brisbane }
+  - { name: Perth, name_zh: 珀斯, country_code: AU, tz: Australia/Perth }
+  - { name: Auckland, name_zh: 奥克兰, country_code: NZ, tz: Pacific/Auckland }
+  - { name: Wellington, name_zh: 惠灵顿, country_code: NZ, tz: Pacific/Auckland }
+
+  # ---------- 英国、爱尔兰 ----------
+  - { name: London, name_zh: 伦敦, country_code: GB, tz: Europe/London }
+  - { name: Egham, name_zh: 埃格姆, country_code: GB, tz: Europe/London }
+  - { name: Southampton, name_zh: 南安普敦, country_code: GB, tz: Europe/London }
+  - { name: Exeter, name_zh: 埃克塞特, country_code: GB, tz: Europe/London }
+  - { name: Birmingham, name_zh: 伯明翰, country_code: GB, tz: Europe/London }
+  - { name: Lancaster, name_zh: 兰开斯特, country_code: GB, tz: Europe/London }
+  - { name: Durham, name_zh: 达勒姆, country_code: GB, tz: Europe/London }
+  - { name: Edinburgh, name_zh: 爱丁堡, country_code: GB, tz: Europe/London }
+  - { name: Glasgow, name_zh: 格拉斯哥, country_code: GB, tz: Europe/London }
+  - { name: Dublin, name_zh: 都柏林, country_code: IE, tz: Europe/Dublin }
+
+  # ---------- 欧洲大陆 ----------
+  - { name: Paris, name_zh: 巴黎, country_code: FR, tz: Europe/Paris }
+  - { name: Lille, name_zh: 里尔, country_code: FR, tz: Europe/Paris }
+  - { name: Rennes, name_zh: 雷恩, country_code: FR, tz: Europe/Paris }
+  - { name: Bordeaux, name_zh: 波尔多, country_code: FR, tz: Europe/Paris }
+  - { name: Strasbourg, name_zh: 斯特拉斯堡, country_code: FR, tz: Europe/Paris }
+  - { name: Berlin, name_zh: 柏林, country_code: DE, tz: Europe/Berlin }
+  - { name: Hamburg, name_zh: 汉堡, country_code: DE, tz: Europe/Berlin }
+  - { name: Munich, name_zh: 慕尼黑, country_code: DE, tz: Europe/Berlin, aliases: [München] }
+  - { name: Dresden, name_zh: 德累斯顿, country_code: DE, tz: Europe/Berlin }
+  - { name: Karlsruhe, name_zh: 卡尔斯鲁厄, country_code: DE, tz: Europe/Berlin }
+  - { name: Darmstadt, name_zh: 达姆施塔特, country_code: DE, tz: Europe/Berlin }
+  - { name: Mainz, name_zh: 美因茨, country_code: DE, tz: Europe/Berlin }
+  - { name: Burghausen, name_zh: 布格豪森, country_code: DE, tz: Europe/Berlin }
+  - { name: Rome, name_zh: 罗马, country_code: IT, tz: Europe/Rome, aliases: [Roma] }
+  - { name: Milan, name_zh: 米兰, country_code: IT, tz: Europe/Rome, aliases: [Milano] }
+  - { name: Turin, name_zh: 都灵, country_code: IT, tz: Europe/Rome, aliases: [Torino] }
+  - { name: Florence, name_zh: 佛罗伦萨, country_code: IT, tz: Europe/Rome, aliases: [Firenze] }
+  - { name: Venice, name_zh: 威尼斯, country_code: IT, tz: Europe/Rome, aliases: [Venezia] }
+  - { name: Naples, name_zh: 那不勒斯, country_code: IT, tz: Europe/Rome, aliases: [Napoli] }
+  - { name: Palermo, name_zh: 巴勒莫, country_code: IT, tz: Europe/Rome }
+  - { name: Bari, name_zh: 巴里, country_code: IT, tz: Europe/Rome }
+  - { name: Lucca, name_zh: 卢卡, country_code: IT, tz: Europe/Rome }
+  - { name: Sorrento, name_zh: 索伦托, country_code: IT, tz: Europe/Rome }
+  - { name: Madrid, name_zh: 马德里, country_code: ES, tz: Europe/Madrid }
+  - { name: Barcelona, name_zh: 巴塞罗那, country_code: ES, tz: Europe/Madrid }
+  - { name: Seville, name_zh: 塞维利亚, country_code: ES, tz: Europe/Madrid, aliases: [Sevilla] }
+  - { name: Málaga, name_zh: 马拉加, country_code: ES, tz: Europe/Madrid }
+  - { name: San Sebastián, name_zh: 圣塞瓦斯蒂安, country_code: ES, tz: Europe/Madrid, aliases: [Donostia] }
+  - { name: Tarragona, name_zh: 塔拉戈纳, country_code: ES, tz: Europe/Madrid }
+  - { name: Lisbon, name_zh: 里斯本, country_code: PT, tz: Europe/Lisbon, aliases: [Lisboa] }
+  - { name: Porto, name_zh: 波尔图, country_code: PT, tz: Europe/Lisbon }
+  - { name: Coimbra, name_zh: 科英布拉, country_code: PT, tz: Europe/Lisbon }
+  - { name: Amsterdam, name_zh: 阿姆斯特丹, country_code: NL, tz: Europe/Amsterdam }
+  - { name: The Hague, name_zh: 海牙, country_code: NL, tz: Europe/Amsterdam, aliases: [Hague, Den Haag] }
+  - { name: Delft, name_zh: 代尔夫特, country_code: NL, tz: Europe/Amsterdam }
+  - { name: Leiden, name_zh: 莱顿, country_code: NL, tz: Europe/Amsterdam }
+  - { name: Utrecht, name_zh: 乌得勒支, country_code: NL, tz: Europe/Amsterdam }
+  - { name: Eindhoven, name_zh: 埃因霍温, country_code: NL, tz: Europe/Amsterdam }
+  - { name: Maastricht, name_zh: 马斯特里赫特, country_code: NL, tz: Europe/Amsterdam }
+  - { name: Nijmegen, name_zh: 奈梅亨, country_code: NL, tz: Europe/Amsterdam }
+  - { name: Brussels, name_zh: 布鲁塞尔, country_code: BE, tz: Europe/Brussels, aliases: [Bruxelles, Brussel] }
+  - { name: Ghent, name_zh: 根特, country_code: BE, tz: Europe/Brussels, aliases: [Gent] }
+  - { name: Bruges, name_zh: 布鲁日, country_code: BE, tz: Europe/Brussels, aliases: [Brugge] }
+  - { name: Luxembourg, name_zh: 卢森堡, country_code: LU, tz: Europe/Luxembourg }
+  - { name: Geneva, name_zh: 日内瓦, country_code: CH, tz: Europe/Zurich, aliases: [Genève] }
+  - { name: Lausanne, name_zh: 洛桑, country_code: CH, tz: Europe/Zurich }
+  - { name: Basel, name_zh: 巴塞尔, country_code: CH, tz: Europe/Zurich }
+  - { name: Vienna, name_zh: 维也纳, country_code: AT, tz: Europe/Vienna, aliases: [Wien] }
+  - { name: Copenhagen, name_zh: 哥本哈根, country_code: DK, tz: Europe/Copenhagen }
+  - { name: Stockholm, name_zh: 斯德哥尔摩, country_code: SE, tz: Europe/Stockholm }
+  - { name: Linköping, name_zh: 林雪平, country_code: SE, tz: Europe/Stockholm }
+  - { name: Helsinki, name_zh: 赫尔辛基, country_code: FI, tz: Europe/Helsinki }
+  - { name: Reykjavík, name_zh: 雷克雅未克, country_code: IS, tz: Atlantic/Reykjavik }
+  - { name: Kraków, name_zh: 克拉科夫, country_code: PL, tz: Europe/Warsaw, aliases: [Cracow] }
+  - { name: Poznań, name_zh: 波兹南, country_code: PL, tz: Europe/Warsaw }
+  - { name: Łódź, name_zh: 罗兹, country_code: PL, tz: Europe/Warsaw, aliases: [Lodz] }
+  - { name: Prague, name_zh: 布拉格, country_code: CZ, tz: Europe/Prague, aliases: [Praha] }
+  - { name: Bratislava, name_zh: 布拉迪斯拉发, country_code: SK, tz: Europe/Bratislava }
+  - { name: Budapest, name_zh: 布达佩斯, country_code: HU, tz: Europe/Budapest }
+  - { name: Athens, name_zh: 雅典, country_code: GR, tz: Europe/Athens }
+  - { name: Thessaloniki, name_zh: 塞萨洛尼基, country_code: GR, tz: Europe/Athens }
+  - { name: Heraklion, name_zh: 伊拉克利翁, country_code: GR, tz: Europe/Athens, aliases: [Iraklion] }
+  - { name: Tallinn, name_zh: 塔林, country_code: EE, tz: Europe/Tallinn }
+
+  # ---------- 非洲 ----------
+  - { name: Cape Town, name_zh: 开普敦, country_code: ZA, tz: Africa/Johannesburg }
+  - { name: Marrakesh, name_zh: 马拉喀什, country_code: MA, tz: Africa/Casablanca, aliases: [Marrakech] }
+  - { name: Rabat, name_zh: 拉巴特, country_code: MA, tz: Africa/Casablanca }
+
+# 数据里出现、但读不出城市的地名（ccfddl 只写了国家或地区）：页面只写国家或地区，不写城市。
+unknown:
+  - Taiwan
+  - Barbados

@@ -3,8 +3,8 @@ series: www
 name: The Web Conference 2027 (WWW 2027)
 year: 2027
 kind: conference
-topics: [dm]
-location: { city: Dublin, country: Ireland }
+data_level: curated
+location: { city: Dublin, country: Ireland, country_code: IE }
 dates: { start: 2027-05-10, end: 2027-05-14 }
 milestones:
   - type: abstract
@@ -21,21 +21,21 @@ milestones:
     src: www-2027-research-cfp
     quote: "Full Paper Submission Deadline 25 October 2026"
   - type: reviews_out
-    at: 2026-12-15
+    at: 2026-12-21
     tz: AoE
     status: confirmed
     src: www-2027-research-cfp
-    quote: "Results Release 15 December 2026"
-    note_zh: 官方只给日期、未给时刻。
+    quote: "Results Release 21 December 2026"
+    note_zh: 官方只给日期、未给时刻。两页不一致：CFP（2026-09-25 查到已改）写 21 December；Important Dates 页仍写“Result Release 15 December 2026”。结果类节点按规则取较晚的 12/21。
   - type: author_response
     label_zh: Rebuttal
-    start: 2026-12-15
-    end: 2026-12-20T23:59
+    start: 2026-12-21
+    end: 2026-12-31T23:59
     tz: AoE
     status: confirmed
     src: www-2027-research-cfp
-    quote: "Research & Industry Track Paper Rebuttal Period 15-20 December 2026"
-    note_zh: 官方只给日期；CFP 写明作者只能单次回复，不与审稿人来回讨论。
+    quote: "Research & Industry Track Paper Rebuttal Period 21-31 December 2026"
+    note_zh: 官方只给日期；CFP 写明作者只能单次回复，不与审稿人来回讨论。两页不一致：CFP（2026-09-25 查到已改）写 21–31 December；Important Dates 页仍写“Rebuttal Period 15-20 December 2026”。rebuttal 要等审稿出来才能写，审稿按较晚的 12/21 记，所以这里跟随 CFP。以官网最新通知为准。
   - type: notification
     at: 2027-01-04
     tz: AoE
@@ -49,6 +49,13 @@ milestones:
     status: confirmed
     src: www-2027-research-cfp
     quote: "Research & Industry Track Paper Final Version Deadline 31 January 2027"
+  - type: author_registration
+    at: 2027-01-31T23:59
+    tz: AoE
+    status: confirmed
+    src: www-2027-research-cfp
+    quote: "payment of which must be completed by the camera-ready deadline"
+    note_zh: 每篇录用论文要有一份单独的注册（非学生线下价），在终稿截止（1/31 AoE，北京时间 2/1 19:59）前付清。
   - type: conference
     start: 2027-05-10
     end: 2027-05-14
@@ -56,5 +63,31 @@ milestones:
     status: confirmed
     src: www-2027-research-cfp
     quote: "ACM Web Conference in Dublin 10-14 May 2027"
+logistics:
+  venue:
+    status: tba
+    checked_sources: [www-2027-venues, www-2027-home]
+    note_zh: 官网 Venues 页现在是 ACM MM'25 留下的旧内容（写的是 ACM MM'25 的会场），不采用；WWW 2027 的场馆没公布。
+  fees:
+    - status: tba
+      checked_sources: [www-2027-home, www-2027-research-cfp]
+      note_zh: 还没有注册页（/registration/ 返回 404）。
+  coverage:
+    per: paper
+    rate: non_student_in_person
+    extra_zh: 两篇论文就要两份注册，作者重叠也一样。须是 Full Conference（5 天）或 Main Conference（3 天）注册，按非学生线下价，在终稿截止（1/31）前付清；不管到不到场、用什么形式报告都适用。
+    src: www-2027-research-cfp
+    quote: "every accepted paper must be covered by a distinct conference registration, e.g., two papers require two registrations, even if they have overlapping authors."
+  visa_letter:
+    status: tba
+    checked_sources: [www-2027-home, www-2027-venues]
+    note_zh: 还没有签证页（/visa/ 返回 404）。
+  hotels:
+    status: tba
+    checked_sources: [www-2027-venues]
+  poster:
+    status: tba
+    checked_sources: [www-2027-research-cfp]
+    note_zh: CFP 写所有论文都要在现场准备海报，电子版放在 Whova 上；海报尺寸没公布。
 last_checked: 2026-09-25
-note_zh: 这里是 Research 与 Industry track 长文的时间线。短文另有日程：摘要 2026-11-09、正文 11-16、出结果 2027-01-04（同一 CFP 页）。
+note_zh: 这里是 Research 与 Industry track 长文的时间线。短文另有日程：摘要 2026-11-09、正文 11-16、出结果 2027-01-04（Important Dates 页；2026-09-25 改版后的 CFP 页不再列短文日期）。

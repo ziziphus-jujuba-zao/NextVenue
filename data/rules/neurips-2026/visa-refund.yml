@@ -1,0 +1,34 @@
+id: neurips-2026/visa-refund
+edition: neurips-2026
+family: refund
+question_zh: 拒签或签证没下来，注册费能退吗？
+short_zh: 拒签退注册费
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: notification
+  until: visa_refund_request_by
+summary_zh: 有条件。全额退款截止前被拒签，按普通取消全额退款。截止之后，要同时满足两条才能把注册转为线上、退还线下与线上的差价：一是 10/20 前已经递签，二是被拒签或一直没有结果。悉尼和亚特兰大的注册要在 12/20 前通过联系表单申请，并附递签日期的证明。
+detail_zh: 巴黎注册页写的是同一条件，时间按 CET（Nov 4 前被拒签可全退，From Nov 5 起转线上退差价），但没有写申请截止。递签日期请自己记好，申请退款时要用。
+quotes:
+  - src: neurips-2026-pricing
+    text: "If your visa is denied before Nov 04, 2026 AOE, you may use the standard cancellation policy detailed above to cancel and refund your registration in full."
+  - src: neurips-2026-pricing
+    text: "After Nov 04, 2026 AOE, your full conference registration can be converted to a virtual registration and the difference in cost between the in-person and virtual registration can be refunded if both of the following conditions are satisfied:"
+  - src: neurips-2026-pricing
+    text: "you applied for your visa by Oct. 20, 2026; and"
+  - src: neurips-2026-pricing
+    text: "you are unable to attend the conference in person because your visa was denied or you have not received a response."
+  - src: neurips-2026-pricing
+    text: "To request such a refund, you must submit a request using our contact form within one week of the close of the meeting (i.e., by Dec. 20, 2026), and include documentation showing the date you applied for a visa."
+effect:
+  kind: refund
+  trigger: visa_denied_or_pending
+  full_until: refund_cutoff
+  then: virtual_difference
+  condition:
+    applied_by: visa_refund_apply_by
+  request_by: visa_refund_request_by
+  evidence: visa_application_date
+last_checked: 2026-09-25

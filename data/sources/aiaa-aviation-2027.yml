@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aiaa-aviation-2027
+sources:
+  - id: aiaa-aviation-2027-cfp
+    url: https://aviation.aiaa.org/call-for-content/call-for-papers/
+    title: AIAA AVIATION Forum 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T16:07:37Z
+    http_status: 200
+    snapshot: 07e3832144b0075ad213bbe0c852f3431f0c1c9650af3d176fdd352d05f7802a
+  - id: aiaa-aviation-2027-home
+    url: https://aviation.aiaa.org/
+    title: AIAA AVIATION Forum 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T16:07:38Z
+    http_status: 200
+    snapshot: 54623adc207dbaa4a9f653c91b6e7fa02979ac674820bea4c39d505006d08d78
+  - id: aiaa-aviation-future-dates
+    url: https://aviation.aiaa.org/about/future-aviation-dates/
+    title: AIAA AVIATION Forum Future Dates
+    kind: other
+    fetched_at: 2026-09-25T16:08:01Z
+    http_status: 200
+    snapshot: 5faafaad216c10608701609c036bbb1c6ee9850faa6b755e07ab5e136ed944ae

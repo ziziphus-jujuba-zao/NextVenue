@@ -1,0 +1,14 @@
+id: cps-fall
+acronym: CPS 秋季会
+full_name: Chinese Physical Society Fall Meeting
+name_zh: 中国物理学会秋季学术会议
+aliases:
+  - CPS Fall Meeting
+  - 物理秋季会
+directions: [phys/general]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 中国物理学会每年秋季举办，承办单位和城市每年轮换
+data_level: curated
+note_zh: 中国物理学会的年度综合学术会议，按专业分 20 多个分会场，有邀请报告、口头报告和墙报。

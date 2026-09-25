@@ -1,0 +1,19 @@
+id: photonics-west-2027
+series: photonics-west
+name: SPIE Photonics West 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: San Francisco, country: USA, country_code: US }
+dates: { start: 2027-01-30, end: 2027-02-04 }
+milestones:
+  - type: conference
+    start: 2027-01-30
+    end: 2027-02-04
+    tz: America/Los_Angeles
+    status: confirmed
+    src: photonics-west-2027-home
+    quote: "Conferences and Courses: 30 January–4 February"
+    note_zh: 展会（Photonics West Exhibition）2/2–2/4，BiOS Expo 1/30–31。
+last_checked: 2026-09-25
+note_zh: 常规摘要已截止，官网首页写"Still accepting post-deadline abstracts!"（仍收迟交摘要）。录用通知、稿件截止等日期在 SPIE 的 Presenters 页，spie.org 拦截本项目的抓取程序、存档里也没有，所以未收录，请直接看官网。

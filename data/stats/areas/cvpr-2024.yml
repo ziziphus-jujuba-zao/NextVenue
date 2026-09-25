@@ -1,0 +1,167 @@
+# CVPR 2024 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: cvpr
+year: 2024
+kind: rates
+precision: chart_read
+track_zh: 主会，按作者自选的主领域
+tolerance:
+  count: 2
+  pct: 0.5
+source_url: https://media.eventhosts.cc/Conferences/CVPR2024/OpeningRemarkSlides.pdf
+page_zh: 开幕式幻灯片第 27 页
+quote: Submissions and decisions, by primary topic
+src: cvpr-2024-opening-slides
+quote_check: snapshot
+total:
+  label_zh: 全会
+  submissions: 11532
+  accepted: 2719
+  rate: 23.6
+gap_note_zh: 图上各领域合计 11,288 篇投稿、2,716 篇录用，比官方总数少，可能没算撤稿和桌拒的论文
+note_zh: 数字从开幕式幻灯片的柱状图上量出，写「约」
+checked: 2026-09-25
+rows:
+  - area: Image and video synthesis and generation
+    submissions: 1062
+    accepted: 329
+    rate: 30.8
+  - area: 3D from multi-view and sensors
+    submissions: 855
+    accepted: 276
+    rate: 32.1
+  - area: "Humans: face, body, pose, gesture, movement"
+    submissions: 692
+    accepted: 202
+    rate: 28.9
+  - area: Transfer, meta, low-shot, continual learning
+    submissions: 650
+    accepted: 123
+    rate: 18.7
+  - area: "Recognition: categorization, detection, retrieval"
+    submissions: 630
+    accepted: 127
+    rate: 20
+  - area: Low-level vision
+    submissions: 601
+    accepted: 131
+    rate: 21.5
+  - area: Deep learning architectures and techniques
+    submissions: 508
+    accepted: 69
+    rate: 13.3
+  - area: Vision, language, and reasoning
+    submissions: 496
+    accepted: 152
+    rate: 30.4
+  - area: Multi-modal learning
+    submissions: 447
+    accepted: 110
+    rate: 24.4
+  - area: Medical and biological vision, cell microscopy
+    submissions: 427
+    accepted: 66
+    rate: 15.3
+  - area: Segmentation, grouping and shape analysis
+    submissions: 416
+    accepted: 107
+    rate: 25.5
+  - area: Adversarial attack and defense
+    submissions: 366
+    accepted: 59
+    rate: 15.8
+  - area: Datasets and evaluation
+    submissions: 358
+    accepted: 95
+    rate: 26.4
+  - area: Autonomous driving
+    submissions: 339
+    accepted: 87
+    rate: 25.5
+  - area: "Video: action and event understanding"
+    submissions: 324
+    accepted: 78
+    rate: 23.9
+  - area: Self-supervised or unsupervised learning
+    submissions: 320
+    accepted: 49
+    rate: 15.1
+  - area: 3D from single images
+    submissions: 305
+    accepted: 106
+    rate: 34.6
+  - area: Vision applications and systems
+    submissions: 258
+    accepted: 44
+    rate: 16.8
+  - area: Efficient and scalable vision
+    submissions: 241
+    accepted: 51
+    rate: 20.8
+  - area: Computational imaging
+    submissions: 220
+    accepted: 53
+    rate: 23.9
+  - area: Scene analysis and understanding
+    submissions: 217
+    accepted: 56
+    rate: 25.7
+  - area: Transparency, fairness, privacy, ethics
+    submissions: 209
+    accepted: 49
+    rate: 23.2
+  - area: "Video: low-level analysis, motion, tracking"
+    submissions: 183
+    accepted: 38
+    rate: 20.5
+  - area: Vision + graphics
+    submissions: 159
+    accepted: 56
+    rate: 35.3
+  - area: Explainable computer vision
+    submissions: 148
+    accepted: 23
+    rate: 15.3
+  - area: Robotics
+    submissions: 117
+    accepted: 29
+    rate: 24.7
+  - area: Photogrammetry and remote sensing
+    submissions: 114
+    accepted: 19
+    rate: 16.5
+  - area: Computer vision for social good
+    submissions: 94
+    accepted: 12
+    rate: 12.6
+  - area: Machine learning (other than deep learning)
+    submissions: 94
+    accepted: 16
+    rate: 17
+  - area: Others
+    submissions: 84
+    accepted: 14
+    rate: 16.5
+  - area: "Embodied vision: active agents, simulation"
+    submissions: 75
+    accepted: 27
+    rate: 35.8
+  - area: Computer vision theory
+    submissions: 74
+    accepted: 11
+    rate: 14.8
+  - area: Biometrics
+    submissions: 68
+    accepted: 15
+    rate: 21.8
+  - area: Document analysis and understanding
+    submissions: 61
+    accepted: 14
+    rate: 22.5
+  - area: Optimization methods (other than deep learning)
+    submissions: 40
+    accepted: 6
+    rate: 15.1
+  - area: Physics-based vision and shape-from-X
+    submissions: 36
+    accepted: 17
+    rate: 47.1

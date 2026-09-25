@@ -1,0 +1,13 @@
+id: goldschmidt
+acronym: Goldschmidt
+full_name: Goldschmidt Conference
+name_zh: 戈尔德施密特国际地球化学大会
+aliases:
+  - Goldschmidt Geochemistry Conference
+directions: [earth/geology]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 欧洲地球化学协会（EAG）和地球化学学会（GS）合办，往届都在每年 7 月举办
+data_level: curated
+note_zh: 只收摘要，每篇摘要收 100 欧元不退的费用（第 12 主题免费），每人只能做一篇常规报告。

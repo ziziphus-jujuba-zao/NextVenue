@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: cpal-2027
+series: cpal
+name: CPAL 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/CPAL
+  conf_id: cpal27
+  link: https://cpal.cc/
+  place: Tokyo, Japan
+  date: March 23-26, 2027
+  timezone: AoE
+location:
+  city: Tokyo
+  country: Japan
+  country_code: JP
+dates:
+  start: 2027-03-23
+  end: 2027-03-26
+milestones:
+  - type: abstract
+    at: 2026-11-23T23:59
+    tz: AoE
+    status: confirmed
+  - type: paper
+    at: 2026-12-05T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2027-03-23
+    end: 2027-03-26
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

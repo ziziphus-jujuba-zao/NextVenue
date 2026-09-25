@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ecoop-2027
+sources:
+  - id: ecoop-2027-papers
+    url: https://2027.ecoop.org/track/ecoop-2027-technical-papers
+    title: ECOOP 2027 Technical Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:07Z
+    http_status: 200
+    snapshot: 1a302e202e2ee8f819400b7210a4f17145afee238f5dc2dd7da64b6d8ce290ba
+  - id: ecoop-2027-home
+    url: https://2027.ecoop.org/
+    title: ECOOP 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:48:08Z
+    http_status: 200
+    snapshot: d37afcdaa8f19d48b4e109392936ca2567687b5d1752f1ce7f763d6c24f7d8eb

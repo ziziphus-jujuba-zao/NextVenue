@@ -1,0 +1,55 @@
+id: ecr-2027
+series: ecr
+name: ECR 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: ecr-2027-abstract-submission
+  quote: "The abstract body is limited to 280 words."
+location: { city: Vienna, country: Austria, country_code: AT }
+dates: { start: 2027-03-03, end: 2027-03-07 }
+milestones:
+  - type: abstract
+    start: 2026-08-03
+    end: 2026-09-30T23:59
+    tz: Europe/Vienna
+    status: confirmed
+    src: ecr-2027-abstract-submission
+    quote: "The abstract submission is open from August 3 to September 30, 2026 (23:59 CEST)."
+    note_zh: 口头、海报和学生报告都在这一轮投。
+  - type: notification
+    status: tba
+    tz: Europe/Vienna
+    src: ecr-2027-abstract-submission
+    quote: "Decision notifications (acceptance or rejection, and final presentation format) will only be emailed to the presenting author (not the submitting author or co-authors) in December 2026."
+    note_zh: 官网只说 2026 年 12 月发结果（含最终报告形式），只发给报告人，没有具体日期。
+  - type: abstract
+    label_zh: 晚到摘要（Late Breaking）
+    start: 2026-12-16
+    end: 2027-01-11
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ecr-2027-congress
+    quote: "December 16 – January 11 Late Breaking Abstract submission"
+    note_zh: 官网时间线只写了日期，没写时区和具体时刻，按北京时间当天 23:59 算。
+  - type: early_registration
+    label_zh: 报告人会员优惠注册截止
+    at: 2026-12-17
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: ecr-2027-abstract-submission
+    quote: "This offer will only be available if registration is finalised by December 17, 2026, and only applies to the presenting author (not first or any other authors)."
+    note_zh: 只针对 8/31 前已是 ESR 会员的录用摘要报告人（EUR 400）。官网没写时区，按北京时间算。
+  - type: conference
+    start: 2027-03-03
+    end: 2027-03-07
+    tz: Europe/Vienna
+    status: confirmed
+    src: ecr-2027-congress
+    quote: "March 3 – 7, 2027 ECR 2027"
+last_checked: 2026-09-25
+note_zh: 摘要 9/30 23:59 CEST 截止（北京时间 10/1 05:59）。录用摘要的报告人必须有有效注册才能报告或展示海报；ESR 不退已付的注册费。

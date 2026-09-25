@@ -1,0 +1,34 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ijcnlp-2026
+series: ijcnlp
+name: IJCNLP 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/IJCNLP
+  conf_id: ijcnlp2026
+  link: https://2026.aaclnet.org/
+  place: Hengqin, Zhuhai, China
+  date: Nov 6-10, 2026
+  timezone: UTC-12
+location:
+  city: Hengqin
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-06
+  end: 2026-11-10
+milestones:
+  - type: paper
+    at: 2026-05-25T23:59
+    tz: UTC-12
+    status: confirmed
+    note_zh: "ccfddl: ARR Submission; commitment deadline: 2026-08-07; second-round commitment: 2026-08-25; AACL-IJCNLP 2026 (the 5th AACL & 15th IJCNLP)"
+  - type: conference
+    start: 2026-11-06
+    end: 2026-11-10
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

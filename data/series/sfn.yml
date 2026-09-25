@@ -1,0 +1,13 @@
+id: sfn
+acronym: SfN
+full_name: Society for Neuroscience Annual Meeting
+aliases:
+  - Neuroscience
+  - SfN Annual Meeting
+directions: [life/neuro]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会（会名写作 Neuroscience 20xx），往届都在每年 10–11 月举办
+data_level: curated
+note_zh: 只收摘要，分海报和 nanosymposium（短报告）；所有报告人还可以上传线上海报，开会前一段时间内可以从线下改为只线上报告。

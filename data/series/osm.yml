@@ -1,0 +1,12 @@
+id: osm
+acronym: OSM
+full_name: Ocean Sciences Meeting
+name_zh: 海洋科学大会
+directions: [earth/ocean, earth/eco]
+periodicity:
+  cycle: biennial
+  parity: even
+  basis: observed
+  note_zh: AGU、ASLO、TOS 联合主办，往届都在偶数年 2–3 月举办（奇数年是 ASLO 水科学大会）
+data_level: curated
+note_zh: 海洋科学规模最大的大会。

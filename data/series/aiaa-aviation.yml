@@ -1,0 +1,9 @@
+id: aiaa-aviation
+acronym: AIAA AVIATION
+full_name: AIAA AVIATION Forum
+directions: [eng/aero]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 6 月前后，美国
+data_level: curated

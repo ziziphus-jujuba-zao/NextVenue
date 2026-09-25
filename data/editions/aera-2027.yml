@@ -1,0 +1,45 @@
+id: aera-2027
+series: aera
+name: AERA 2027
+year: 2027
+kind: conference
+data_level: curated
+submission_type: extended_abstract
+submission_evidence:
+  src: aera-2027-call
+  quote: "2,000 words or fewer for paper upload."
+  note_zh: 另有 120 词摘要；稿件不能有作者信息，匿名评审。
+location: { city: Toronto, country: Canada, country_code: CA }
+dates: { start: 2027-04-14, end: 2027-04-18 }
+milestones:
+  - type: paper
+    label_zh: 论文与分会提案截止
+    at: 2026-07-24T23:59
+    tz: America/Los_Angeles
+    status: confirmed
+    src: aera-2027-call
+    quote: "What is the deadline for 2027 Annual Meeting submissions? July 24, 2026, at 11:59 PM Pacific Time."
+  - type: notification
+    at: 2026-11-06
+    tz: America/Los_Angeles
+    status: confirmed
+    src: aera-annual-meeting
+    quote: "2027 AERA Annual Meeting Notifications to be Sent November 6"
+  - type: author_registration
+    label_zh: 报告人注册截止（早鸟价，逾期除名）
+    at: 2027-02-12
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aera-2027-call
+    quote: "presenting authors must register by or before February 12, 2027 (the Early Bird registration deadline) to be retained as presenting authors."
+    note_zh: 这一天也是早鸟注册截止；没注册的报告人会从日程中除名。官网没写时刻和时区，按北京时间当天 23:59 算。初步日程 1/15 前公布。
+  - type: conference
+    start: 2027-04-14
+    end: 2027-04-18
+    tz: America/Toronto
+    status: confirmed
+    src: aera-2027-call
+    quote: "Wednesday, April 14 – Sunday, April 18, 2027"
+last_checked: 2026-09-25
+note_zh: 投稿 7/24 已截止，11/6 出结果。多伦多，要办加拿大访客签证（TRV）；投稿时可以选择线上论文（virtual paper）。

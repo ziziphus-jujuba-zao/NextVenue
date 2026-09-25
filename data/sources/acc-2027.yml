@@ -1,0 +1,31 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: acc-2027
+sources:
+  - id: acc-2027-home
+    url: https://acc2027.a2c2.org/
+    title: ACC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:21Z
+    http_status: 200
+    snapshot: 89bdd5e757f7d7f6d144e5429cb1fcdb58a01d7b18cec1b5ac2af27bcd837e80
+  - id: acc-2027-cfp
+    url: https://acc2027.a2c2.org/wp-content/uploads/2025/10/ACC_2027_CFP-2025-10-17.pdf
+    title: ACC 2027 Call for Papers (PDF)
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:32Z
+    http_status: 200
+    snapshot: cf3c4bc512c673fc6e353a6d14263cb3db309ab4a7e3a95c3c947a5e42b065f7
+  - id: acc-2027-dates
+    url: https://acc2027.a2c2.org/important-dates/
+    title: ACC 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:46:32Z
+    http_status: 200
+    snapshot: c7a2d3285b9e91dd5e58c169aecc840cbfce99a646673f8e2a9a2582a2580b25
+  - id: acc-2027-author-info
+    url: https://acc2027.a2c2.org/author-information/
+    title: ACC 2027 Author Information
+    kind: author_guide
+    fetched_at: 2026-09-25T15:46:33Z
+    http_status: 200
+    snapshot: 407d33bf6b1e83423b625eb1ae69cccae5946baf37bd231a3bbecdad5715044a

@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-jp
+sources:
+  - id: visa-jp-cs-mfa
+    url: https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/rb_647322/
+    title: 中国领事服务网 · 了解目的地：日本
+    kind: policy
+    fetched_at: 2026-09-25T10:58:50Z
+    http_status: 200
+    snapshot: c9cc68e3d52f9353ba8f27829649de6986bdc82e6b4bb4fdad404919828c0212
+  - id: visa-jp-mfa-advisory
+    url: https://cs.mfa.gov.cn/rdgz/202603/t20260326_11881693.shtml
+    title: 中国领事服务网 · 提醒中国公民近期避免前往日本（2026-03-26）
+    kind: policy
+    fetched_at: 2026-09-25T10:58:51Z
+    http_status: 200
+    snapshot: aae90c1a6bc596c411896b1875e25811581a68ff2f81a8957204af3eb873b78c
+  - id: visa-jp-evisa
+    url: https://www.evisa.mofa.go.jp/
+    title: Ministry of Foreign Affairs of Japan · JAPAN eVISA
+    kind: form
+    fetched_at: 2026-09-25T10:58:52Z
+    http_status: 200
+    snapshot: f7f01de611037ff04e2412221a3c9f0b91f76e0e449f6b28b5c9d13d1a800d48

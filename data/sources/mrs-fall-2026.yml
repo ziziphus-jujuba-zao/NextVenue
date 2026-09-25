@@ -1,0 +1,12 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: mrs-fall-2026
+sources:
+  - id: mrs-fall-2026-breaking-news
+    url: https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts
+    mirror_url: https://web.archive.org/web/20260907011115id_/https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-fall-meeting/call-for-abstracts
+    title: 2026 MRS Fall Meeting Call for Abstracts - Breaking News (Internet Archive copy)
+    kind: cfp
+    fetched_at: 2026-09-25T16:07:20Z
+    http_status: 200
+    snapshot: 9dbb8103434246ed039f4219f16295022374030b14b58b26e1943a64620bc9bd
+    note_zh: mrs.org 拒绝本项目的抓取程序（HTTP 403），快照取自 Internet Archive 存下的同一页面。

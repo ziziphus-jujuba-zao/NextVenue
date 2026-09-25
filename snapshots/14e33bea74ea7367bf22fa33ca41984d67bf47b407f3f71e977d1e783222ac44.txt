@@ -1,0 +1,674 @@
+* Facebook
+ * Twitter
+ * Instagram
+
+ * COVID-19 Q&A
+ * Press
+ * FAQ
+
+ * Organization
+   * Organizing Committee
+   * Advisory Committee
+   * Local Organizing Committee
+   * IROS@35 Committee
+   * IROS Conference Paper Review Board
+   * RA-Letters Editorial Board
+   * Senior Program Committee
+   * Stop COVID-Spread Countermeasure Committee
+ * Contributing
+   * Instruction for Presentation at IROS2022
+   * Instruction for Session Chair at IROS2022
+   * In-person and On-line Presentation Instructions
+   * Call for Contributions (Closed)
+     * Call for Papers (Closed)
+     * Call for Robot Competition Proposal (Closed)
+     * Call for Robot Competition Sponsors (Closed)
+     * Call for Workshops and Tutorials (Closed)
+     * Call for Special Session Proposals (Closed)
+     * Call for Sponsors and Exhibitors
+     * Call for Late Breaking Results Posters (Closed)
+     * Call for Award Nomination
+     * SICE SIYA-IROS2022 Awards
+     * Final Paper Submission Instructions (Finished)
+     * Presentation Video and Graphical Abstract Uploading
+   * Logo & Template
+ * Sponsors
+ * Program
+   * Program at Glance
+   * Conference Digest (Web Ver.)
+   * Special Lecture
+   * Plenary Speakers
+   * Keynote Speakers
+   * IROS 35th Anniversary Forum
+   * Special Forum
+     * Women in Engineering Forum
+     * Industrial Form
+     * Ethics Forum
+     * Big Challenge Forum
+   * Workshops and Tutorials
+   * Competition
+   * Exhibition
+   * IROS TV
+ * Registration & Visa
+   * Registration
+   * Visa (including ERFS)
+ * Activity
+   * Society Events
+   * Technical Tour
+   * Lab Visit
+   * Ikebana Workshop
+   * “Shodo” Calligraphy Workshop
+   * “Wadaiko” & “Hanabi” Shows
+   * “Sado” Ceremony
+ * Local-info
+   * Venue
+   * Local Transportation
+   * Restaurants
+   * Tourist Attractions in Kyoto
+   * Kyoto
+   * Transportation & Accommodation
+   * Travel
+   * Travel Award
+ * FAQ
+ * COVID-19 & Health
+   * SC2 Committee
+   * Health and Safety
+   * Special Lecture
+   * For the attention of IROS2022 onsite participants
+   * COVID-19 Q&A for attending IROS2022 Onsite
+   * PCR/Antigen Testing at Airports in Japan
+   * Flowchart of response to infection
+ * Search
+ * Menu Menu
+
+ * Organization
+   * Organizing Committee
+   * Advisory Committee
+   * Local Organizing Committee
+   * IROS@35 Committee
+   * IROS Conference Paper Review Board
+   * RA-Letters Editorial Board
+   * Senior Program Committee
+   * Stop COVID-Spread Countermeasure Committee
+ * Contributing
+   * Instruction for Presentation at IROS2022
+   * Instruction for Session Chair at IROS2022
+   * In-person and On-line Presentation Instructions
+   * Call for Contributions (Closed)
+     * Call for Papers (Closed)
+     * Call for Robot Competition Proposal (Closed)
+     * Call for Robot Competition Sponsors (Closed)
+     * Call for Workshops and Tutorials (Closed)
+     * Call for Special Session Proposals (Closed)
+     * Call for Sponsors and Exhibitors
+     * Call for Late Breaking Results Posters (Closed)
+     * Call for Award Nomination
+     * SICE SIYA-IROS2022 Awards
+     * Final Paper Submission Instructions (Finished)
+     * Presentation Video and Graphical Abstract Uploading
+   * Logo & Template
+ * Sponsors
+ * Program
+   * Program at Glance
+   * Conference Digest (Web Ver.)
+   * Special Lecture
+   * Plenary Speakers
+   * Keynote Speakers
+   * IROS 35th Anniversary Forum
+   * Special Forum
+     * Women in Engineering Forum
+     * Industrial Form
+     * Ethics Forum
+     * Big Challenge Forum
+   * Workshops and Tutorials
+   * Competition
+   * Exhibition
+   * IROS TV
+ * Registration & Visa
+   * Registration
+   * Visa (including ERFS)
+ * Activity
+   * Society Events
+   * Technical Tour
+   * Lab Visit
+   * Ikebana Workshop
+   * “Shodo” Calligraphy Workshop
+   * “Wadaiko” & “Hanabi” Shows
+   * “Sado” Ceremony
+ * Local-info
+   * Venue
+   * Local Transportation
+   * Restaurants
+   * Tourist Attractions in Kyoto
+   * Kyoto
+   * Transportation & Accommodation
+   * Travel
+   * Travel Award
+ * FAQ
+ * COVID-19 & Health
+   * SC2 Committee
+   * Health and Safety
+   * Special Lecture
+   * For the attention of IROS2022 onsite participants
+   * COVID-19 Q&A for attending IROS2022 Onsite
+   * PCR/Antigen Testing at Airports in Japan
+   * Flowchart of response to infection
+
+IROS 2022
+
+Kyoto
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+
+October 23-27, 2022, Kyoto International Conference Center, Japan
+
+IROS 2022
+
+Kyoto
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+
+October 23-27, 2022, Kyoto International Conference Center, Japan
+
+IROS 2022
+
+Kyoto
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+
+October 23-27, 2022, Kyoto International Conference Center, Japan
+
+IROS 2022
+
+Kyoto
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+
+October 23-27, 2022, Kyoto International Conference Center, Japan
+
+IROS 2022
+
+Kyoto
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+
+October 23-27, 2022, Kyoto International Conference Center, Japan
+
+IROS 2022
+
+Kyoto
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+
+October 23-27, 2022, Kyoto International Conference Center, Japan
+
+IROS 2022
+
+Kyoto
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+
+October 23-27, 2022, Kyoto International Conference Center, Japan
+
+Information of Award Winners
+Photographs Taken at The Venue
+Photographs Taken at The Venue 2
+Photo Album of “Shodo” Calligraphy Workshop
+
+Thanks Letter
+
+Dear IROS 2022 attendees,
+
+Thank you for your contribution and participation in making IROS 2022 a successful and memorable conference held at The Kyoto International Conference Center, Kyoto, Japan, on October 23-27, 2022.
+
+We hope you enjoyed technical excellence and innovation, also local culture workshops and activities. With the theme of “Embodied AI for a Symbiotic Society,” over 3,800 on-site participants (along with 873 online participants), more than half of whom are students and younger researchers, attended the IROS 2022 conference. It was a great pleasure to see the IROS community come together and grows successfully after two years of online meetings. Our heartfelt thanks go out to all of you for understanding and cooperation with covid-negative testing requirements. With your help, I believe all of you feel more comfortable, healthier, and safer and enjoy fruitful discussions with the minimum fare of infection.
+
+Thank you again for your contributions and staunch support. Photos and videos taken at the conference will be uploaded to the conference website shortly.
+
+We hope to see you all again in Detroit at IROS 2023.
+
+Best regards,
+
+Organizing Committee
+IROS 2022
+
+Important Notices for Onsite Participants
+
+COVID-19 Q&A for attending IROS2022 Onsite
+Attentions of Onsite Participants
+PCR/Antigen Testing at Airports in Japan
+Flowchart of response to infection
+Instruction for Presentation
+Instruction for Session Chair
+
+For Online Participants
+
+INFOVAYA
+IROS2022 Conference Digest (Web Ver.)
+
+IROS2022 proc. has opened on INFOVAYA from Oct. 20.
+Whole proc. downloading service will be provided after the conference.
+
+The registration for on-line participation was reopened on Oct 21th.
+
+FAQ (Frequently Asked Questions)
+
+~Embodied AI for a Symbiotic Society~
+
+The 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2022) will be held on October 23–27, 2022 in The Kyoto International Conference Center, Kyoto, Japan. The IROS is one of the largest and most impacting robotics research conferences worldwide. It provides an international forum for the international robotics research community to explore the frontier of science and technology in intelligent robots and smart machines. The theme of IROS 2022 is “Embodied AI for a Symbiotic Society’’. In addition to technical sessions and multi-media presentations, IROS conferences also hold panel discussions, forums, workshops, tutorials, exhibits, and technical tours to enrich the fruitful discussions among conference attendees.
+
+News
+
+The IROS 2022 Organizing Committee received the Distinguished Service Award from the Robotics Society of Japan (RSJ)!
+
+News
+Read more
+September 18, 2023
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2023/09/rsj_award01-scaled.jpg?fit=1794%2C2560&ssl=1 2560 1794 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2023-09-18 02:12:422023-09-18 09:06:42The IROS 2022 Organizing Committee received the Distinguished Service Award from the Robotics Society of Japan (RSJ)!
+
+The IROS 2022 summaries have been published in web articles.
+
+News
+Read more
+April 23, 2023
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2023/04/IROS2022-01.jpg?fit=1200%2C900&ssl=1 900 1200 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2023-04-23 03:10:152023-04-23 03:14:49The IROS 2022 summaries have been published in web articles.
+
+Free Access to IROS OnDemand through June 30, 2023!
+
+News
+Read more
+February 28, 2023
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2023/02/iros_ondemand.jpg?fit=1715%2C858&ssl=1 858 1715 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2023-02-28 09:49:532023-02-28 09:49:54Free Access to IROS OnDemand through June 30, 2023!
+
+IROS 2022 has been posted to the IEEE Xplore
+
+News
+Read more
+December 28, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/11/DSC02407-scaled.jpg?fit=2560%2C1707&ssl=1 1707 2560 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-12-28 02:39:452022-12-28 02:42:31IROS 2022 has been posted to the IEEE Xplore
+
+Photographs Taken at The Venue 2
+
+News
+Read more
+December 20, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/11/859_7087-scaled.jpg?fit=2560%2C1707&ssl=1 1707 2560 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-12-20 12:21:412022-12-20 12:26:10Photographs Taken at The Venue 2
+
+Photographs Taken at The Venue
+
+News
+Read more
+November 1, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/11/859_7087-scaled.jpg?fit=2560%2C1707&ssl=1 1707 2560 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-11-01 04:34:572022-11-07 09:48:34Photographs Taken at The Venue
+
+Lost & Found
+
+News
+Read more
+October 31, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/10/IROSLOST_s.png?fit=1061%2C1896&ssl=1 1896 1061 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-10-31 10:40:002022-10-31 10:41:27Lost & Found
+
+Award Winners
+
+News
+Read more
+October 30, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/10/iros_award.jpg?fit=2048%2C1365&ssl=1 1365 2048 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-10-30 09:50:242022-12-20 10:54:33Award Winners
+
+COVID-19 Q&A for attending IROS2022 Onsite
+
+News
+Read more
+October 14, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/10/COVID_QAs-1.png?fit=5779%2C4334&ssl=1 4334 5779 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-10-14 10:03:052022-10-14 11:18:51COVID-19 Q&A for attending IROS2022 Onsite
+PreviousNext
+
+The IROS 2022 Organizing Committee received the Distinguished Service Award from the Robotics Society of Japan (RSJ)!
+
+News
+Read more
+September 18, 2023
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2023/09/rsj_award01-scaled.jpg?fit=1794%2C2560&ssl=1 2560 1794 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2023-09-18 02:12:422023-09-18 09:06:42The IROS 2022 Organizing Committee received the Distinguished Service Award from the Robotics Society of Japan (RSJ)!
+
+The IROS 2022 summaries have been published in web articles.
+
+News
+Read more
+April 23, 2023
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2023/04/IROS2022-01.jpg?fit=1200%2C900&ssl=1 900 1200 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2023-04-23 03:10:152023-04-23 03:14:49The IROS 2022 summaries have been published in web articles.
+
+Free Access to IROS OnDemand through June 30, 2023!
+
+News
+Read more
+February 28, 2023
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2023/02/iros_ondemand.jpg?fit=1715%2C858&ssl=1 858 1715 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2023-02-28 09:49:532023-02-28 09:49:54Free Access to IROS OnDemand through June 30, 2023!
+
+IROS 2022 has been posted to the IEEE Xplore
+
+News
+Read more
+December 28, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/11/DSC02407-scaled.jpg?fit=2560%2C1707&ssl=1 1707 2560 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-12-28 02:39:452022-12-28 02:42:31IROS 2022 has been posted to the IEEE Xplore
+
+Photographs Taken at The Venue 2
+
+News
+Read more
+December 20, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/11/859_7087-scaled.jpg?fit=2560%2C1707&ssl=1 1707 2560 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-12-20 12:21:412022-12-20 12:26:10Photographs Taken at The Venue 2
+
+Photographs Taken at The Venue
+
+News
+Read more
+November 1, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/11/859_7087-scaled.jpg?fit=2560%2C1707&ssl=1 1707 2560 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-11-01 04:34:572022-11-07 09:48:34Photographs Taken at The Venue
+
+Lost & Found
+
+News
+Read more
+October 31, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/10/IROSLOST_s.png?fit=1061%2C1896&ssl=1 1896 1061 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-10-31 10:40:002022-10-31 10:41:27Lost & Found
+
+Award Winners
+
+News
+Read more
+October 30, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/10/iros_award.jpg?fit=2048%2C1365&ssl=1 1365 2048 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-10-30 09:50:242022-12-20 10:54:33Award Winners
+
+COVID-19 Q&A for attending IROS2022 Onsite
+
+News
+Read more
+October 14, 2022
+https://i0.wp.com/iros2022.org/cms/wp-content/uploads/2022/10/COVID_QAs-1.png?fit=5779%2C4334&ssl=1 4334 5779 E-media chair https://iros2022.org/cms/wp-content/uploads/2022/07/iros2022_logo_top4.png E-media chair2022-10-14 10:03:052022-10-14 11:18:51COVID-19 Q&A for attending IROS2022 Onsite
+PreviousNext
+
+COVID-19 Information and Resources
+
+https://corona.go.jp/en/dashboard/
+
+https://graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/japan/
+
+Welcome Message from the Conference Chairs
+
+We are honored to host the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2022) in Kyoto, Japan.
+
+As one of the flagship conferences of the robotics community, IROS has always brought together the world’s top scientists and researchers and most essential enterprises to share ideas and advances in the field. Many innovative researches and developments in intelligent robots and systems have historically been presented at the IROS conference, and IROS 2022, in the 35th-anniversary event of its history, aims to move robotics technology one step further in the theme “Embodied AI for Symbiotic Society.” IROS 2022 provides an international forum for the global robotics community to explore the frontier of science and technology in intelligent robots and systems.
+
+Kyoto, founded in 794, has flourished as the capital of Japan for over a millennium. The city has preserved its refined culture, historical sites, and innumerable Shinto shrines and Buddhist temples, continuing to fascinate visitors worldwide. Kyoto has always been a center of culture and technological innovation in the city’s long history, where 47 universities, numerous research institutions, and forward-thinking corporations proudly uphold Kyoto’s tradition of innovation on the world stage. Holding IROS 2022 in Kyoto reflects a fantastic confluence between the rapid growth in the field, the best services to our society, and the SDGs.
+
+The IROS 2022 organizing committee will make every effort to make this event fruitful and memorable, even though we are still suffering from the COVID-19 pandemic and under unprecedented and challenging circumstances.
+
+We cordially invite you to IROS 2022 and welcome you to Kyoto, a historical, cultural, and innovative city in the post-pandemic era.
+
+General Chair: Shugen Ma
+
+As one of the flagship conferences of the robotics community, IROS has always brought together the world’s robotics scientists, researchers, students, and key enterprises to share ideas and advances in the field. Much innovative research and development in intelligent robots and systems have historically been presented at the IROS conference. IROS 2022, in the 35th-anniversary event of its history, aims to move robotics technology one step further with the theme “Embodied AI for Symbiotic Society” by providing an international forum for the global robotics community to explore the frontier of science and technology in intelligent robots and systems.
+
+The IROS 2022 host city, Kyoto, founded in 794, has flourished as the capital of Japan for over a millennium. The city has preserved its refined culture, historical sites, and innumerable Shinto shrines and Buddhist temples, continuing to fascinate visitors worldwide. Kyoto has always been a center of culture and technological innovation in the city’s long history, where 47 universities, numerous research institutions, and forward-thinking corporations proudly uphold Kyoto’s tradition of innovation on the world stage. Holding IROS 2022 in Kyoto reflects a fantastic confluence between the rapid growth in the field, the best services to our society, and the SDGs (the Sustainable Development Goals).
+
+For this year’s IROS conference, we received a total of 3579 paper submissions, including 2288 regular paper submissions and 1291 submissions to Robotics and Automation Letters (RA-L) with the IROS option, from 57 countries and regions. Upon a careful review of the papers, 1716 papers were accepted into the IROS program representing an acceptance rate of 47.9%. In addition, 128 abstract-only submissions for late-breaking results posters and 80 workshop and tutorial submissions were submitted. The final program shall include 1765 papers, including 49 papers from Journal publications of TRO, TASE, and RAM, for oral presentation in 205 technical sessions over three days, 124 late-breaking results posters, and 43 workshops and tutorials.
+
+The IROS 2022 technical program is anchored by three plenary talks and fifteen keynote presentations on topics focusing on the conference theme and representing the latest in intelligent robotics and systems research. To celebrate 35 years of IROS conferences by highlighting some significant contributions, two plenary speeches on the philosophy of “Robot Research and Development” and two keynotes on “Future Autonomous Systems” and “Assistive and Social Robots” will also be provided by world-recognized pioneers in the field. We believe and wish IROS has years to succeed in our mission to deliver benefits to the scientific and engineering communities and society at large.
+
+Affected by the COVID-19 pandemic, the IROS 2020 and 2021 were successfully held online, so we have not gathered in person for two years. We recognize the importance and value of the onsite meetings, which bring us together to meet physically, especially for newcomers to the IROS community. The IROS 2022 organizing committee then decided to hold the IROS as a traditional in-person conference. Virtual attendance will also be an option for those who have travel restrictions by their organization or do not feel comfortable participating in large gatherings, with the recognition that the conference cannot be experienced fully while remote. We will strive to make the in-person event fruitful and memorable while following safety precautions as warranted.
+
+On behalf of the organizing committee, we cordially welcome you to IROS 2022 and let us meet in Kyoto to explore a historical, cultural, and innovative city while we share and celebrate the latest developments in the robotics community.
+
+General Chair: Shugen Ma, Ritsumeikan University, Japan
+
+Program Chair: Yasushi Nakauchi, University of Tsukuba, Japan
+
+As one of the flagship conferences of the robotics community, IROS has always brought together the world’s robotics scientists, researchers, students, and key enterprises to share ideas and advances in the field. Much innovative research and development in intelligent robots and systems have historically been presented at the IROS conference. IROS 2022, in the 35th-anniversary event of its history, aims to move robotics technology one step further with the theme “Embodied AI for Symbiotic Society” by providing an international forum for the global robotics community to explore the frontier of science and technology in intelligent robots and systems.
+
+The IROS 2022 host city, Kyoto, founded in 794, has flourished as the capital of Japan for over a millennium. The city has preserved its refined culture, historical sites, and innumerable Shinto shrines and Buddhist temples, continuing to fascinate visitors worldwide. Kyoto has always been a center of culture and technological innovation in the city’s long history, where 47 universities, numerous research institutions, and forward-thinking corporations proudly uphold Kyoto’s tradition of innovation on the world stage. Holding IROS 2022 in Kyoto reflects a fantastic confluence between the rapid growth in the field, the best services to our society, and the SDGs (the Sustainable Development Goals).
+
+For this year’s IROS conference, we received a total of 3579 paper submissions, including 2288 regular paper submissions and 1291 submissions to Robotics and Automation Letters (RA-L) with the IROS option, from 57 countries and regions. Upon a careful review of the papers, 1716 papers were accepted into the IROS program representing an acceptance rate of 47.9%. In addition, 128 abstract-only submissions for late-breaking results posters and 80 workshop and tutorial submissions were submitted. The final program shall include 1765 papers, including 49 papers from Journal publications of TRO, TASE, and RAM, for oral presentation in 205 technical sessions over three days, 124 late-breaking results posters, and 43 workshops and tutorials.
+
+The IROS 2022 technical program is anchored by three plenary talks and fifteen keynote presentations on topics focusing on the conference theme and representing the latest in intelligent robotics and systems research. To celebrate 35 years of IROS conferences by highlighting some significant contributions, two plenary speeches on the philosophy of “Robot Research and Development” and two keynotes on “Future Autonomous Systems” and “Assistive and Social Robots” will also be provided by world-recognized pioneers in the field. We believe and wish IROS has years to succeed in our mission to deliver benefits to the scientific and engineering communities and society at large.
+
+Affected by the COVID-19 pandemic, the IROS 2020 and 2021 were successfully held online, so we have not gathered in person for two years. We recognize the importance and value of the onsite meetings, which bring us together to meet physically, especially for newcomers to the IROS community. The IROS 2022 organizing committee then decided to hold the IROS as a traditional in-person conference. Virtual attendance will also be an option for those who have travel restrictions by their organization or do not feel comfortable participating in large gatherings, with the recognition that the conference cannot be experienced fully while remote. We will strive to make the in-person event fruitful and memorable while following safety precautions as warranted.
+
+On behalf of the organizing committee, we cordially welcome you to IROS 2022 and let us meet in Kyoto to explore a historical, cultural, and innovative city while we share and celebrate the latest developments in the robotics community.
+
+General Chair: Shugen Ma, Ritsumeikan University, Japan
+
+Program Chair: Yasushi Nakauchi, University of Tsukuba, Japan
+
+IROS 2022 in Kyoto by JNTO
+
+About Kyoto
+
+IROS TV
+
+Promotion Video
+
+Important Dates
+
+ * Jan. 21, 2022
+
+   Deadline of RC (Robot Competition) Proposal
+
+   Deadline of Special Session Proposals
+
+ * Jan. 31, 2022
+
+   Notification of Special Session Acceptance
+
+   Jan. 31, 2022
+
+ * Feb. 13, 2022
+
+   Notification of RC (Robot Competition) Acceptance
+
+ * Feb. 24, 2022
+
+   Deadline for RA-Letter with IROS Option Submission
+
+   Feb. 24, 2022
+
+ * Mar. 1, 2022
+
+   Deadline for Paper Submission
+
+ * Mar. 15, 2022
+
+   Workshop/Tutorial Proposals
+
+   Mar. 15, 2022
+
+ * Apr. 22, 2022
+
+   Notification of Workshop/Tutorial Acceptance
+
+ * Jun. 10, 2022:
+
+   Deadline of RC (Robot Competition) Sponsors
+
+   Deadline for Sponsor/Exhibitor Application
+
+   Jun. 10, 2022:
+
+ * Jun. 30, 2022
+
+   Notification of Paper Acceptance
+
+ * Jul. 31, 2022
+
+   Deadline for Final Paper Submission
+
+   Jul. 31, 2022
+
+ * Jan. 21, 2022
+
+   Deadline of RC (Robot Competition) Proposal
+
+   Deadline of Special Session Proposals
+
+ * Jan. 31, 2022
+
+   Notification of Special Session Acceptance
+
+   Jan. 31, 2022
+
+ * Feb. 13, 2022
+
+   Notification of RC (Robot Competition) Acceptance
+
+ * Feb. 24, 2022
+
+   Deadline for RA-Letter with IROS Option Submission
+
+   Feb. 24, 2022
+
+ * Mar. 1, 2022
+
+   Deadline for Paper Submission
+
+ * Mar. 15, 2022
+
+   Workshop/Tutorial Proposals
+
+   Mar. 15, 2022
+
+ * Apr. 22, 2022
+
+   Notification of Workshop/Tutorial Acceptance
+
+ * Jun. 10, 2022:
+
+   Deadline of RC (Robot Competition) Sponsors
+
+   Deadline for Sponsor/Exhibitor Application
+
+   Jun. 10, 2022:
+
+ * Jun. 30, 2022
+
+   Notification of Paper Acceptance
+
+ * Jul. 31, 2022
+
+   Deadline for Final Paper Submission
+
+   Jul. 31, 2022
+
+All Deadlines are 23:59 PST
+
+Update History
+
+Oct. 21, 2022: Instruction for Session Chair at IROS2022 and Instruction for Presentation at IROS2022 are now open.
+
+Oct. 20, 2022: Exhibition is now open.
+
+Oct. 16, 2022: Society Events is now open.
+
+Oct. 4, 2022: “Wadaiko” & “Hanabi” Shows is now open.
+
+Oct. 3, 2022: “Shodo” Calligraphy Workshop is now open.
+
+Sept. 27, 2022: Ethics Forum is now open.
+
+Sept. 27, 2022: Big Challenge Forum is now open.
+
+Sept. 24, 2022: Technical Tour is now open.
+
+Sept. 21, 2022: Industrial Forum is now open.
+
+Sept. 16, 2022: Ikebana Workshop is now open.
+
+Sept. 8, 2022: Women in Engineering Forum is now open.
+
+Sept. 8, 2022: In-person and On-line Presentation Instructions is now open.
+
+Aug. 8, 2022: Presentation Video and Graphical Abstract Uploading is now open.
+
+July 25, 2022: Press is now open.
+
+July 15, 2022: IROS Student and Developing Countries Travel Award is now open.
+
+July 13, 2022: Special Lecture (COVID-19 & Health) is now open.
+
+July 5, 2022: Final Paper Submission Instructions is now open.
+
+July 5, 2022: SICE SIYA-IROS2022 Awards is now open.
+
+July 5, 2022: Workshops and Tutorials is now open.
+
+Jun 27, 2022: Call for Late Breaking Results Posters is now open.
+
+Jun 14, 2022: Call for Award Nomination is now open.
+
+Jun 10, 2022: Lab Visit and Sponsors are now open.
+
+Jun 1, 2022: IROS 35th Anniversary Forum is now open.
+
+May 26, 2022: Keynote Speakers is now open.
+
+May 17, 2022: Registration is now open.
+
+May 6, 2022: IROS 35th Anniversary is now open.
+
+Mar. 3, 2022: Tourist Attractions in Kyoto is now open.
+
+Mar. 3, 2022: Competition is now open.
+
+Feb. 20, 2022: FAQ is now open.
+
+Feb. 20, 2022: Health is now open.
+
+Feb. 15, 2022: IEEE RAS CARES (Committee to Aid Reporting on Misconduct) has been established.
+
+Jan. 25, 2022: Application for Robot Competition Proposal was closed.
+
+Jan. 25, 2022: Deadline for Robot Competition Sponsors was extended from Jan. 21 to Jun. 10, 2022,
+
+Jan. 7, 2022: Information on the RA-L in Call for Papers has been updated.
+
+Oct. 26, 2021: Call for Papers is now open.
+
+Oct. 13, 2021: Plenary Speakers is now open.
+
+Oct. 4, 2021: Call for Special Session Proposals is now open.
+
+Sept. 30, 2021: Call for Workshops and Tutorials is now open.
+
+Sept. 28, 2021: Transportation & Accommodation is now open.
+
+Sept. 27, 2021: Travel Information is now open.
+
+Sept. 26, 2021: Call for Robot Competition Sponsors, Call for Robot Competition Proposal, and Call for Sponsors and Exhibitors are now open.
+
+Facebook
+
+Twitter
+
+Tweets by 2022Iros
+
+Call for Papers
+
+Download
+
+Sponsors
+
+12345678910
+© Copyright - IROS 2022
+ * Facebook
+ * Twitter
+ * Instagram
+
+ * Organization
+ * Contributing
+ * Sponsors
+ * Program
+ * Registration & Visa
+ * Activity
+ * Local-info
+ * FAQ
+ * COVID-19 & Health
+
+Scroll to top

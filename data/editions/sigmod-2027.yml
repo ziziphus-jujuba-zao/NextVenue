@@ -1,0 +1,62 @@
+id: sigmod-2027
+series: sigmod
+name: SIGMOD 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Huntington Beach, country: USA, country_code: US }
+dates: { start: 2027-06-13, end: 2027-06-19 }
+milestones:
+  - type: abstract
+    label_zh: 第 4 轮摘要与利益冲突声明
+    at: 2026-10-10T23:59
+    tz: AoE
+    status: confirmed
+    src: sigmod-2027-dates
+    quote: "October 10, 2026: Abstract Submission and Declaration of COIs"
+    note_zh: 研究论文一年四轮，这是 SIGMOD 2027 的最后一轮；第 1–3 轮已截止。所有截止都是 AoE 23:59。
+  - type: paper
+    label_zh: 第 4 轮正文
+    at: 2026-10-17T23:59
+    tz: AoE
+    status: confirmed
+    src: sigmod-2027-dates
+    quote: "October 17, 2026: Paper Submission"
+  - type: author_response
+    label_zh: 第 4 轮作者反馈（author feedback）
+    start: 2026-12-10
+    end: 2026-12-17T23:59
+    tz: AoE
+    status: confirmed
+    src: sigmod-2027-dates
+    quote: "December 10 - 17, 2026: Author feedback phase"
+  - type: phase1_notification
+    label_zh: 第 4 轮初审结果（录用 / 修改 / 拒稿）
+    at: 2027-01-19
+    tz: AoE
+    status: confirmed
+    src: sigmod-2027-dates
+    quote: "January 19, 2027: Notification of accept/reject/revision"
+  - type: author_response
+    label_zh: 第 4 轮修改稿截止（仅限 revision）
+    at: 2027-02-19T23:59
+    tz: AoE
+    status: confirmed
+    src: sigmod-2027-dates
+    quote: "February 19, 2027: Revised paper submission"
+  - type: notification
+    label_zh: 第 4 轮终审结果
+    at: 2027-03-12
+    tz: AoE
+    status: confirmed
+    src: sigmod-2027-dates
+    quote: "March 12, 2027: Final notification of accept/reject"
+  - type: conference
+    start: 2027-06-13
+    end: 2027-06-19
+    tz: America/Los_Angeles
+    status: confirmed
+    src: sigmod-2027-home
+    quote: "Welcome to the home of the 2027 ACM SIGMOD/PODS Conference, to be held at Huntington Beach, California, United States, on June 13 - June 19, 2027."
+last_checked: 2026-09-25
+note_zh: SIGMOD 2027 研究论文分四轮投稿，这里只列还能投的第 4 轮：摘要 2026-10-10、正文 10/17（AoE），12/10–17 作者反馈，2027-01-19 出初审结果，修改稿 2/19，3/12 出终审结果。第 3 轮（2026-07-17 已截止）10/19 出初审结果、12/12 出终审结果。会议 2027-06-13 至 19 在加州亨廷顿比奇。

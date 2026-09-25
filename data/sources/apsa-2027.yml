@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: apsa-2027
+sources:
+  - id: apsa-2027-home
+    url: https://connect.apsanet.org/apsa2027/
+    title: APSA 2027 Annual Meeting
+    kind: other
+    fetched_at: 2026-09-25T16:20:38Z
+    http_status: 200
+    snapshot: 3ffaa5bfc1fad510f98ac643e6ecb2fd74987d87dc30a19e6f71e9eea9cfa9d2
+  - id: apsa-2027-call
+    url: https://connect.apsanet.org/apsa2027/call-for-proposals/
+    title: APSA 2027 Call for Proposals
+    kind: cfp
+    fetched_at: 2026-09-25T16:20:58Z
+    http_status: 200
+    snapshot: cf5695f01aea26dbd8bf588734e4b9017e82b8513678fbdcdfd616d763ca78e2

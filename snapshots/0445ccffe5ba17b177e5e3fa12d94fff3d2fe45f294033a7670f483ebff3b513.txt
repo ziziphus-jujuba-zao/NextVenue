@@ -1,0 +1,316 @@
+Skip to main content
+
+Minisite Global
+
+ * IEEE.org
+ * IEEE Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+Minisite Utility
+
+ *
+ *
+
+Menu
+ * Authors
+   * Important Dates
+   * Instructions For Final Camera-Ready Manuscripts
+   * Call for Workshop Papers
+   * Call for Symposium Papers
+   * Call for Tutorial Proposals
+   * Call for Workshop Proposals
+   * Call for Industry Presentations Proposals
+   * Call for Industry Panel Proposals
+   * Call for Industry Demo Proposals
+   * Call for Industry Podium Pitch Proposals
+   * Call for Research Collaboration Pitch Proposals
+   * Submission Guidelines
+ * Committees
+   * Organizing Committee
+   * Technical Program Committee
+   * Operations Committee
+   * Industry Forums and Exhibition Committee
+   * Advisory Committee
+ * Program
+   * At a Glance
+   * Keynotes
+   * Tutorials
+   * Workshops
+   * Four Minute Thesis (4MT) Competition
+   * Social Programme
+ * Registration
+   * Registration Fees
+   * Registration Policies
+   * Transfer/Substitution Policy
+   * Travel Grants
+   * Event Conduct
+ * Hotel & Travel
+   * Hotel & Travel Information
+   * Visa Information
+   * Hotel Booking Information
+   * IEEE ComSoc Child Care Grant
+ * Patrons & Exhibitors
+ * About
+   * About Us
+   * Contact Us
+
+Search
+
+Breadcrumb
+
+ 1. Home
+ 2. Authors
+ 3. Call for Symposium Papers
+
+Call for Symposium Papers
+
+Important Dates
+
+Deadline for Paper Submission
+3 May 2026
+Firm Deadline!
+Notification Date
+1 August 2026
+Final Paper Upload and Registration Deadline (NEW)
+8 September 2026
+
+The 2026 IEEE Global Communications Conference (GLOBECOM) will be held in the vibrant city of Macau, China from 7 to 11 December 2026. Themed “Communications, Innovation, Inspiration, Intelligence”, this flagship conference of IEEE Communications society will feature a comprehensive high-quality technical program including 12 Symposia and 13 SAC Tracks, and a number of Tutorials and Workshops. IEEE GLOBECOM 2026 will also include an attractive Industry Forum & Exhibition Program with Keynotes from prominent research and industry leaders, business and industry panels, and vendor exhibits.
+
+Download the Call of Submission
+
+TECHNICAL SYMPOSIA
+
+Original technical papers are sought in the following areas (All papers for technical symposia must be submitted via EDAS by clicking  the "EDAS" of each track.):
+
+Cognitive Radio and AI-Enabled Networks (EDAS)
+
+ * Fatemeh Afghah (Clemson University, USA)
+
+ * Shuoyao Wang (Shenzhen University, China)
+
+CFP-CRAEN
+
+Communication and Information System Security (EDAS)
+
+ * Shui Yu  (University of Technology Sydney, Australia)
+
+ * Shengjie Xu (University of Arizona, USA)
+
+ * Yanming Gong (Texas A&M University, USA)
+
+ * Deepak Mishra (University of New South Wales (UNSW) Sydney, Australia)
+
+CFP-CISS
+
+Communication QoS, Reliability and Modeling (EDAS)
+
+ * Eiji Oki (Kyoto University, Japan)
+
+ * Petros Spachos (University of Guelph, Canada)
+
+ * Zheng Shi (Jinan University, China)
+
+CFP-CQRM
+
+Communication Software and Multimedia (EDAS)
+
+ * Abd-Elhamid M. Taha (Alfaisal University, Saudi Arabia)
+
+ * Panagiotis Papadimitriou (University of Macedonia, Greece)
+
+CFP-CSM
+
+Communication Theory (EDAS)
+
+ * Mark Flanagan (University College Dublin, Ireland)
+
+ * Hei Victor Cheng (Aarhus University, Denmark)
+
+ * Melda Yuksel (Middle East Technical University, Turkey)
+
+CFP-CT
+
+Green Communications Systems and Networks (EDAS)
+
+ * Ender Ayanoglu (University of California, Irvine, USA)
+
+ * Zhaolong Ning (Chongqing University of Posts and Telecommunications, China)
+
+CFP-GCSN
+
+IoT and Sensor Networks (EDAS)
+
+ * Eric Renault (University Gustave Eiffel, France)
+
+ * M. Fatima Domingues (Khalifa University of Science and Technology, UAE)
+
+ * Noura Aljeri (Kuwait University, Kuwait)
+
+ * Lu Bai (Queen's University Belfast, UK)
+
+CFP-IoTSN
+
+Mobile and Wireless Networks (EDAS)
+
+ * Mohammed Atiquzzaman (University of Oklahoma, USA)
+
+ * Qiang Ye (Dalhousie University, Canada)
+
+ * Nikolaos Pappas (Linköping University, Sweden)
+
+CFP-MWN
+
+Next-Generation Networking and Internet (EDAS)
+
+ * Dola Saha (University at Albany, SUNY, USA)
+
+ * Biao Han (National University of Defense Technology, China)
+
+ * Giang Nguyen (Dresden University of Technology, Germany)
+
+CFP-NGNI
+
+Optical Networks and Systems (EDAS)
+
+ * Fen Zhou (University of Avignon, France)
+
+ * Abdelmoula Bekkali (Centre Tecnologic de Telecomunicacions de Catalunya, Spain)
+
+CFP-ONS
+
+Signal Processing for Communications (EDAS)
+
+ * Xiangyun Zhou (Australian National University, Australia)
+
+ * Li You (Southeast University, China)
+
+ * Taejoon Kim (Arizona State University, USA)
+
+CFP-SPC
+
+Wireless Communications (EDAS)
+
+ * Ioannis Krikidis (University of Cyprus, Cyprus)
+
+ * Han Hu (Beijing Institute of Technology, China)
+
+ * Shu Sun (Shanghai Jiao Tong University, China)
+
+ * Jemin Lee (Yonsei University, Korea)
+
+CFP-WC
+
+SELECTED AREAS IN COMMUNICATIONS
+
+All papers for SAC must be submitted via EDAS by clicking  the "EDAS" of each track.
+
+SAC: Aerial Communications (EDAS)
+
+ * Fabrizio Granelli (University of Trento, Italy)
+
+ * Ismail Guvenc (North Carolina State University, USA)
+
+CFP-SAC-AC
+
+SAC: Big Data (EDAS)
+
+ * Qiang (John) Ye (University of Calgary, Canada)
+
+CFP-SAC-BD
+
+SAC: Cloud Computing and Networking (EDAS)
+
+ * Hacène Fouchal (Université de Reims Champagne-Ardenne, France)
+
+ * Ling Liu (Chinese Academy of Sciences, China)
+
+CFP-SAC-CCN
+
+SAC: E-Health (EDAS)
+
+ * Igor Bisio (University of Genoa, Italy)
+
+CFP-SAC-eHealth
+
+SAC: Integrated Sensing and Communication (EDAS)
+
+ * Hong Ren (Southeast University, China)
+
+ * Marwa Chafii (NYU Abu Dhabi, UAE)
+
+CFP-SAC-ISC
+
+SAC: Machine Learning for Communications and Networking (EDAS)
+
+ * José Mairton Barros da Silva Júnior (Uppsala University, Sweden)
+
+ * Hoang Dinh  (University of Technology Sydney, Australia)
+
+CFP-SAC-MLCN
+
+SAC: Molecular, Biological, and Multi-Scale Communications (EDAS)
+
+ * Jorge Torres Gómez (Technische Universität Berlin, Germany)
+
+CFP-SAC-MBMC
+
+SAC: Quantum Communications and Information Technology (EDAS)
+
+ * Ivan B. Djordjevic (Florida State University, USA)
+
+CFP-SAC-QCIT
+
+SAC: Reconfigurable Intelligent Surfaces and Smart Environments (EDAS)
+
+ * Andrea Abrardo (University of Siena, Italy)
+
+CFP-SAC-RISSE
+
+SAC: Satellite and Space Communications (EDAS)
+
+ * Hongliang Zhang (Peking University, China)
+
+ * Aryan Kaushik (OUF Innovative, UK, and RakFort, Ireland)
+
+CFP-SAC-SSC
+
+SAC: Smart Grid Communications (EDAS)
+
+ * Daisuke Mashima (Singapore University of Technology and Design, Singapore)
+
+CFP-SAC-SGC
+
+SAC: Social Networks (EDAS)
+
+ * Barbara Guidi (University of Pisa, Italy)
+
+CFP-SAC-SN
+
+SAC: Next Generation Multiple Access (EDAS)
+
+ * Wei Chen (Beijing Jiaotong University, China)
+
+CFP-SAC-NGMA
+
+ * Submit a Paper
+
+ * Program
+ * Committees
+ * Hotel & Travel
+
+ * About
+ * Contact
+
+© IEEE GLOBECOM 2026
+ *
+ *
+ *
+ *
+ *
+
+Footer Menu
+
+Accessibility Sitemap Contact & Support Home Nondiscrimination Policy IEEE Ethics Reporting IEEE Privacy Policy Terms
+© Copyright 2026 IEEE – All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.

@@ -1,0 +1,44 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: edbt-2027
+series: edbt
+name: EDBT 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DB/EDBT
+  conf_id: edbt27
+  link: https://edbticdt2027.github.io/
+  place: Lille, France
+  date: April 6-9, 2027
+  timezone: AoE
+location:
+  city: Lille
+  country: France
+  country_code: FR
+dates:
+  start: 2027-04-06
+  end: 2027-04-09
+milestones:
+  - type: paper
+    at: 2026-02-04T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Round 1
+  - type: paper
+    at: 2026-06-10T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Round 2
+  - type: paper
+    at: 2026-10-07T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Round 3
+  - type: conference
+    start: 2027-04-06
+    end: 2027-04-09
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

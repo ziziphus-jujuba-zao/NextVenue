@@ -1,0 +1,112 @@
+id: oopsla-2027
+series: oopsla
+name: OOPSLA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Prague, country: Czechia, country_code: CZ }
+dates: { start: 2027-10-10, end: 2027-10-15 }
+federated_with:
+  name: SPLASH 2027
+  url: https://2027.splashcon.org/
+  src: oopsla-2027-cfp
+  quote: "Papers accepted in either round will be published in the 2027 volume of PACMPL(OOPSLA) and invited to present in-person at the SPLASH conference in 2027."
+milestones:
+  - type: paper
+    label_zh: 第一轮正文截止
+    at: 2026-10-14T23:59
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Wed 14 Oct 2026 Submission (Round 1)"
+    note_zh: 新稿件两轮都可以投。第一轮被拒的稿件不能再投第二轮（只限同一年，可以投 OOPSLA 2028 第一轮）。
+  - type: author_response
+    label_zh: 第一轮作者回复
+    start: 2026-12-01
+    end: 2026-12-05
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Tue 1 - Sat 5 Dec 2026 Author Response (Round 1)"
+  - type: notification
+    label_zh: 第一轮出结果
+    at: 2026-12-18
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 18 Dec 2026 Author Notification (Round 1)"
+    note_zh: 结果分 Accept、Reject、Minor Revision、Major Revision 四种。Minor Revision 可以在本轮修改稿截止前交修改稿；Major Revision 要等下一轮。
+  - type: author_response
+    label_zh: 第一轮修改稿截止（Minor Revision）
+    at: 2027-01-22T23:59
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 22 Jan 2027 Revision submission (Round 1)"
+  - type: notification
+    label_zh: 第一轮修改稿结果
+    at: 2027-02-12
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 12 Feb 2027 Author Notification (Round 1)"
+  - type: camera_ready
+    label_zh: 第一轮终稿
+    at: 2027-03-05T23:59
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 5 Mar 2027 Camera Ready (Round 1)"
+  - type: paper
+    label_zh: 第二轮正文截止
+    at: 2027-04-07T23:59
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Wed 7 Apr 2027 Submission (Round 2)"
+  - type: author_response
+    label_zh: 第二轮作者回复
+    start: 2027-06-15
+    end: 2027-06-19
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Tue 15 - Sat 19 Jun 2027 Author Response (Round 2)"
+  - type: notification
+    label_zh: 第二轮出结果
+    at: 2027-07-02
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 2 Jul 2027 Author Notification (Round 2)"
+  - type: author_response
+    label_zh: 第二轮修改稿截止（Minor Revision）
+    at: 2027-07-30T23:59
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 30 Jul 2027 Revision submission (Round 2)"
+  - type: notification
+    label_zh: 第二轮修改稿结果
+    at: 2027-08-13
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 13 Aug 2027 Author Notification (Round 2)"
+  - type: camera_ready
+    label_zh: 第二轮终稿
+    at: 2027-08-27T23:59
+    tz: AoE
+    status: confirmed
+    src: oopsla-2027-cfp
+    quote: "Fri 27 Aug 2027 Camera Ready (Round 2)"
+  - type: conference
+    start: 2027-10-10
+    end: 2027-10-15
+    tz: Europe/Prague
+    status: confirmed
+    src: splash-2027-home
+    quote: "Sun 10 - Fri 15 October 2027 Prague, Czechia"
+    note_zh: SPLASH 2027 会期，会场是 Diplomat Hotel Prague。不能远程报告。
+last_checked: 2026-09-25
+note_zh: OOPSLA 2027 两轮投稿，录用论文发表在 PACMPL(OOPSLA) 2027 卷，在 SPLASH 2027（布拉格）上线下报告。官网日期表写 “AoE (UTC-12h)”，所有截止都不延期。每篇投稿至少一位作者要登记为 Reserve Reviewer（后备审稿人）。

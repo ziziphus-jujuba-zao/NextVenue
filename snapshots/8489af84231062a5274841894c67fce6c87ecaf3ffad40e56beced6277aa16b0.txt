@@ -1,0 +1,467 @@
+EVENT REPORT
+
+Report on the 30th The Web Conference 2021
+(TheWebConf2021)
+Aljaž Košmerlj
+Artificial Intelligence Laboratory
+Jožef Stefan Institute
+aljaz.kosmerlj@ijs.si
+
+Marko Grobelnik
+Artificial Intelligence Laboratory
+Jožef Stefan Institute
+marko.grobelnik@ijs.si
+
+Jure Leskovec
+Computer Science Department
+Stanford University
+jure@cs.stanford.edu
+Abstract
+The Web Conference (TheWebConf2021) is the premier conputer science conference on the
+state of the Web and its related areas. It covers the Web from a wide spectrum of aspects,
+including technical areas of artificial intelligence, security, privacy, knowledge representation,
+mobile computing as well as social sciences, economics, policy, accessibility and others. The
+year 2021 marked the 30th edition that was organised in Ljubljana, Slovenia, but took place
+fully online due to the COVID-19 pandemic.
+
+1
+
+Introduction
+
+The Web Conference is focused on understanding the current state and the evolution of the Web
+through the lens of computer science, computational social science, economics, policy, and many
+other disciplines. The year 2021 marks the 30th edition of the conference which was to take place
+in Ljubljana, Slovenia. Unfortunately, due to the COVID-19 pandemic, the conference had to be
+moved online.
+The main conference took place from April 19th to 23rd and was preceded by a whole week
+of workshops and tutorials from April 12th to 16th. Additionaly, this year was the first time a
+pre-conference event with five keynote talks was organised before the conference on April 1st and
+was open for free attendance.
+
+ACM SIGIR Forum
+
+1
+
+Vol. 55 No. 1 - June 2021
+
+The conference organising committee consisted of:
+General Chairs:
+• Jure Leskovec, Stanford University
+• Marko Grobelnik, Jožef Stefan Institute
+
+Developers Track Chairs:
+• Andreas Harth, University of ErlangenNuremberg
+• Dan Brickley, Google
+
+Program Committee:
+• Leila Zia, Wikimedia Foundation
+• Jie Tang, Tsinghua University
+• Marc Najork, Google
+
+Diversity & Inclusion Chair:
+• MunMun De Choudhury, Georgia Tech
+PhD Symposium Chairs:
+• Gregoris Mentzas, National Technical University of Athens
+• Dunja Mladenić, Jožef Stefan Institute
+• Rudi Studer, Karlsruhe Institute of Technology
+
+Local Organizing Committee:
+• Aljaž Košmerlj, Jožef Stefan Institute
+• Marija Komatar, Pitea
+Local Volunteers Chair:
+• Lovro Šubelj, University of Ljubljana
+
+Student Scholarship Chairs:
+• Srijan Kumar, GaTech
+• Shobeir Fakhraei, Amazon
+• Ben Steichen, Cal Poly Pomona
+
+Tutorials Track Chairs (hands-on):
+• Bob West, EPFL
+• Marinka Žitnik, Harvard
+Tutorials Track Chairs (lecture):
+• Smriti Bhagat, Facebook
+• Paul Groth, University of Amsterdam
+
+2
+
+Workshop Track Chairs:
+• Julian McAuley, UC San Diego
+• Karthik Subbian, Amazon
+
+Sponsorship & Networking Chairs:
+• Mark Minevich, Going Global Ventures
+• Balaji Krishnapuram, Pinterest
+• Yang Yang, Zhejiang University
+• James Shanahan, UC Berkeley
+
+Demos Track Chairs:
+• James Hodson, AI for good
+• Janez Brank, Jožef Stefan Institute
+
+Communications & Social Media Chairs:
+• Peng Zhang, Zhipu.AI
+• Rayid Ghani, Carnegie Mellon University
+
+Panels Chairs:
+• Ricardo Baeza Yates, NTENT & Northeastern University
+• Emine Yilmaz, University College London
+
+Proceedings Chairs:
+• Luca Aiello, Nokia Bell labs
+• Meeyoung Cha, KAIST
+
+Papers
+
+For its main research paper track The Web Conference seeks submissions that describe in-depth
+studies to improve our understanding of the Web and its impact, introduce technical and sociotechnical advances that enhance and expand Web platforms and technologies, and make strides
+in democratizing access to Web information and knowledge.
+
+ACM SIGIR Forum
+
+2
+
+Vol. 55 No. 1 - June 2021
+
+In the 2021 conference the specific topics of interest were highlighted in 12 research tracks listed
+in Table 1 along with the number of accepted submissions per track. Each paper was limited to
+maximum 12 pages and if accepted had a 15-minute presentation.
+Track Name
+Crowdsourcing and Human Computation
+Economics and Monetization
+Search
+Security, Privacy, and Trust
+Semantics and Knowledge
+Social Network Analysis and Graph Algorithms
+Systems and Infrastructure
+User experience and Accessibility
+User Modeling and Personalization
+Web and Society
+Web Mining and Content Analysis
+Web of Things, Ubiquitous, and Mobile Computing
+
+Nr. of Submissions
+43
+68
+120
+152
+144
+305
+54
+14
+259
+161
+288
+93
+
+Table 1: TheWebConf2021 research tracks and their respective numbers of submitted papers.
+In total, the program committee (PC) received 1,736 submissions of which 355 (20.5%) were
+accepted. The papers review process was coordinated and performed by 3 PC heads, 28 track
+chairs, 171 senior PC members, 1000 PC members and 743 additional reviewers.
+Proceedings The conference proceedings have been published by ACM. Their release has
+been delayed due to additional organisational strain because of the COVID-19 pandemic and the
+publication was finalized in early June 2021. The proceedings are split into the main volume
+[pro, 2021], containing the word from the organisers and the papers from the main track, and the
+companion proceedings [com, 2021], containing the contributions from workshops, tutorials and
+other tracks.
+
+3
+
+Tutorials and Workshops
+
+A broad program of tutorials and workshops was a priority for the organising committee and a
+whole week before the main conference (April 12-16) was dedicated to them. A special emphasis
+was given on making a portion of the tutorials hands-on, with the attendees actively participating
+and gaining practical experience. Overall, there were 23 tutorials (Table 2) and 25 workshops
+(Table 3)1 .
+
+1
+
+For full descriptions and authors see: https://www2021.thewebconf.org/program/workshops/ and https:
+//www2021.thewebconf.org/program/tutorials/
+
+ACM SIGIR Forum
+
+3
+
+Vol. 55 No. 1 - June 2021
+
+#
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+Tutorial Title
+SWApi: SPARQL Endpoints and Web API
+Information extraction from social media: A hands-on tutorial on tasks, data, & open source
+tools
+Neural Structured Learning: Training Neural Networks with Structured Signals
+Recommender Systems through the Lens of Decision Theory
+Building an Efficient Text Classifier from the Ground Up
+Introduction to Deep Learning with PyTorch
+Deep Recommender System: Fundamentals and Advances
+Scaling out NLP Applications to 100+ Languages
+Learning from Comparisons
+Bias Issues and Solutions in Recommender System
+Uplift Modeling: from Causal Inference to Personalization
+Advanced Deep Graph Learning: Deeper, Faster, Robuster, Unsupervised
+Graph Mining and Multi-Relational Learning: Tools and Applications
+Going for Speed: Full-Stack Performance Engineering in Modern Web-Based Applications
+Responsible AI in Industry: Practical Challenges and Lessons Learned
+Exploring Biomedical Web Resources Using Shell Scripting
+Large Scale Graph Mining: Visualization, Exploration, and Analysis
+PyNetworkshop: Analyzing the Structure of Networks in Python - The Essentials, Signed
+Networks, and Network Optimization
+Improving Web Ranking with Human-in-the-Loop: Methodology, Scalability, Evaluation
+Flatland: Multi-Agent Reinforcement Learning on Trains
+Conversational Artificial Intelligence: Can Your AI Beat the Turing Test?
+Machine Learning-Driven Ad Blocking: From Data Collection to Deployment
+Learning from Graphs: From Mathematical Principles to Practical Tools
+
+Table 2: The list of tutorials.
+
+ACM SIGIR Forum
+
+4
+
+Vol. 55 No. 1 - June 2021
+
+#
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+
+Workshop Title
+11th Temporal Web Analytics Workshop (TempWeb)
+7th WebAndTheCity – Web Intelligence and Resilience in Smart Cities
+Third Workshop on Fairness, Accountability, Transparency, Ethics and Society on the Web
+(FATES 2021)
+CLEOPATRA’2021: The 2nd International Workshop on Cross-lingual Event-centric Open
+Analytics
+Data-efficient Machine Learning for Web Applications (DeMaL)
+1st International Workshop on Scientific Knowledge Representation, Discovery, and Assessment
+(Sci-K)
+The 1st International Workshop on Deep Learning for the Web of Things
+First International Workshop on the Efficiency of Modern Datacenters (EMDC)
+The 9th International Workshop on Natural Language Processing for Social Media (SocialNLP
+2021)
+2nd Workshop on Deep Reinforcement Learning for Knowledge Discovery
+The International Workshop on Semantics-enabled Biomedical Literature Analytics (SeBiLAn)
+8th Wiki Workshop
+The First Workshop on Financial Technology on the Web
+Beyond Facts: 1st International Workshop on Knowledge Graphs for Online Discourse Analysis
+Workshop Data Science for Social Good
+First International Workshop on News Recommendation and Intelligence
+NLP Beyond Text - 2nd Edition Workshop Proposal
+Workshop on Misinformation Integrity in Social Networks
+LocWeb 2021 at The Web Conference 2021
+Workshop on Multilingual Search
+International Workshop on AI in Health: Transferring and Integrating Knowledge for Better
+Health
+KMEcommerce: Knowledge Management in E-Commerce Workshop 2020
+Workshop Proposal: Graph Learning Benchmarks (GLB 2021)
+The International Workshop on Self-Supervised Learning for the Web (S2L@WWW 2021)
+The 3rd Innovation Workshop on Transforming Big Data into Actionable Knowledge (BiDAW)
+
+Table 3: The list of workshops.
+
+ACM SIGIR Forum
+
+5
+
+Vol. 55 No. 1 - June 2021
+
+4
+
+Special Tracks and Panels
+
+The conference hosted three special tracks covering specialized topics:
+Web of Health: Organised by Tim Althoff (University of Washington) and Emre Kiciman
+(Microsoft Research), it covered topics in health and medicine which are increasingly searched
+for and tracked online, and their relevant content is often delivered via digital means. The track
+explored new opportunities to improve our health and the delivery of medicine and strengthen the
+connection between healthcare and web research communities.
+Future of the Web: Organised by Evgeniy Gabrilovich (Google), this track hosted a series of
+keynote talks regarding the trends and technologies that will mark the future development of the
+web. It explored both the look forward with respect to the technical and conceptual progress of
+the web as well as the societal impacts of web technologies.
+Web4All: Organised by Silvia Rodrı́guez (University of Geneva) and Ted Drake (Intuit), this
+special track deals with all aspects of web accessibility. Exploring factors such as health, disability,
+culture, age, income, language and many others. This edition focused on the impacts of extreme
+events, such as the recent COVID-19, which can drastically change the way we interact with each
+other and with everything that surrounds us and web technology can play a crucial role in such
+circumstances.
+The conference also hosted two panels:
+Ethics & Fairness on the Web: Moderated by Ricardo Baeza-Yates (Institute for Experiential
+AI, Northeastern University) and including:
+• Jeanna Matthews - Professor, Department of Computer Science, Clarkson University
+• Gregor Strojin - Chair of Ad Hoc Committee on Artificial Intelligence at Council of Europe
+• Nisha Talagala - CEO and Founder at AIClub World
+Conversational Systems on the Web: Moderated by Emine Yilmaz (University College
+London & Amazon) and including:
+• Eugene Agichtein - Professor, Emory University and Amazon Scholar, Amazon
+• Julia Kiseleva - Senior Researcher, Microsoft
+• Mark Sanderson - Professor, RMIT University
+• Idan Szpektor - Staff Research Scientist and Manager, Google
+
+ACM SIGIR Forum
+
+6
+
+Vol. 55 No. 1 - June 2021
+
+5
+
+Keynotes
+
+The conference held a broad program of keynotes starting with the pre-conference event on April
+1st, 2021, which served as a warm-up for the main conference. The pre-conference talks were:
+• Evelyne Viegas (Microsoft Research): Challenges in Machine Learning – Designing high
+impact competitions for the benefit of society
+• Denny Vrandečić (Wikimedia Foundation): Towards knowledge equity: A world where everyone can share in the sum of all knowledge
+• Marko Grobelnik (Jožef Stefan Institute): Cross-lingual Global Media Monitoring
+• Stan Matwin (Dalhousie University): Artificial Intelligence for People Emotion Detection
+During COVID-19 Social Isolation
+• Jure Leskovec (Stanford University): Mobility network models of COVID-19 explain inequities and inform reopening
+During the main conference the keynotes (split between morning and afternoon sessions were):
+• Verica Trstenjak (University of Ljubljana & SFU Vienna): Human rights in the Digital Era
+• Fausto Giunchiglia (University of Trento): Diversity, Bias, Online Social Relations and
+Related Issues
+• Anju Kambadur (Bloomberg LP): Knowledge Graphs & Natural Language in Finance
+• Lada Adamic (Facebook): The Geography of Social Ties
+• Yejin Choi (University of Washington): Commonsense Intelligence: Cracking the Longstanding Challenge in AI
+• Estevam Hruschka (Megagon Labs): Implications and Explanations in User-Generated Data
+• Elena Simperl (King’s College London): The Web of Data: How are we Doing so Far?
+• Krysta Svore (Microsoft Research): Enabling the Quantum Revolution — Pioneering Advances to Achieve Quantum Computing and Impact at Scale
+• Ganesh Mani (Carnegie Mellon): AI Grand Challenges: Past, Present and Future (See
+Keynote section of this journal issue)
+
+6
+
+Awards
+
+The program committee selected the best paper and the best student paper amongst all the published submissions. The selection process was led by the best paper award chairs, Kira Radinsky
+(Technion & Diagnostic Robotics) and Ahmed H. Awadallah (Microsoft Research), and chose the
+following papers:
+ACM SIGIR Forum
+
+7
+
+Vol. 55 No. 1 - June 2021
+
+• Best Paper Award: Towards Facilitating Empathic Conversations in Online Mental
+Health Support: A Reinforcement Learning Approach [Sharma et al., 2021], by authors:
+Ashish Sharma, Inna Lin, Adam Miner, David Atkins and Tim Althoff.
+• Best Student Paper Award: ConceptGuide: Supporting Online Video Learning with
+Concept Map-based Recommendation of Learning Path [Tang et al., 2021], by authors:
+Chien-Lin Tang, Jingxian Liao, Hao-Chuan Wang, Ching-Ying Sung and Wen-Chieh Lin.
+In the scope of The Web Conference IW3C2 also awards the Seoul Test of Time Award.
+This year, the 7th award was given to a paper from the 2011 edition of the conference titled:
+Information Credibility on Twitter [Castillo et al., 2011], by authors: Carlos Castillo, Marcelo
+Mendoza and Barbara Poblete.
+The organising committee takes this opportunity to congratulate all the authors of the winning
+papers again on their excellent work.
+
+7
+
+Organisation
+
+The conference took place fully online due to the restrictions and circumstances arising from
+the COVID-19 pandemic. The MiTeam platform2 was used for all the sessions including the
+tutorials, workshops and panels. Selected keynotes were also streamed publicly via Youtube. All
+the conference activity was recorded totalling at over 550 hours of program. The recodings will
+be made available on the Videolectures.net platform3 except in rare cases where author consent
+was not given.
+Over all the events the conference was attended by 2,843 participants (this includes the free
+pre-conference event) with over 2,400 more viewing the public Youtube streams. There were 918
+registered participants from 62 countries of which 37% were students. With the kind support of
+our sponsors, especially Web4Good and NSF, we were able to cover registration costs with student
+scholarships for 188 students.
+The conference would not be possible without the kind support of our sponsors: Microsoft
+research, Huavei, Amazon Science, Facebook, Pinterest, Finvolution, Megagon Labs, Google,
+Bloomberg Yahoo Research, Pošta Slovenije, Qlector, EventRegistry, NSF, The Web Conference,
+and Outbrain. Key support was also extended by our participating instututions: IW3C2, Jožef
+Stefan Institute, Stanford University, IRCAI, and Videolectures.net.
+Lastly, the conference chairs would like to thank the local and global community as well as
+our families and friends for all the support given during organisation. Though your contributions
+may not be explicitly mentioned in the document, we could not have done it without you.
+
+2
+3
+
+https://miteam.eu/
+http://videolectures.net/www2021_Ljubljana/
+
+ACM SIGIR Forum
+
+8
+
+Vol. 55 No. 1 - June 2021
+
+References
+WWW ’21: Companion Proceedings of the Web Conference 2021, New York, NY, USA, 2021.
+Association for Computing Machinery. ISBN 9781450383134.
+WWW ’21: Proceedings of the Web Conference 2021, New York, NY, USA, 2021. Association for
+Computing Machinery. ISBN 9781450383127.
+Carlos Castillo, Marcelo Mendoza, and Barbara Poblete. Information credibility on twitter. In
+Proceedings of the 20th International Conference on World Wide Web, WWW ’11, page 675–684,
+New York, USA, 2011. ACM. ISBN 9781450306324. doi: 10.1145/1963405.1963500. URL
+https://doi.org/10.1145/1963405.1963500.
+Ashish Sharma, Inna W. Lin, Adam S. Miner, David C. Atkins, and Tim Althoff. Towards
+facilitating empathic conversations in online mental health support: A reinforcement learning
+approach. In Proceedings of the Web Conference 2021, WWW ’21, page 194–205, New York,
+NY, USA, 2021. Association for Computing Machinery. ISBN 9781450383127. doi: 10.1145/
+3442381.3450097. URL https://doi.org/10.1145/3442381.3450097.
+Chien-Lin Tang, Jingxian Liao, Hao-Chuan Wang, Ching-Ying Sung, and Wen-Chieh Lin. Conceptguide: Supporting online video learning with concept map-based recommendation of learning path. In Proceedings of the Web Conference 2021, WWW ’21, page 2757–2768, New
+York, NY, USA, 2021. Association for Computing Machinery. ISBN 9781450383127. doi:
+10.1145/3442381.3449808. URL https://doi.org/10.1145/3442381.3449808.
+
+ACM SIGIR Forum
+
+9
+
+Vol. 55 No. 1 - June 2021
+
+

@@ -1,0 +1,10 @@
+id: ashrae
+acronym: ASHRAE
+full_name: ASHRAE Winter Conference and Annual Conference
+directions: [eng/civil, eng/power]
+periodicity:
+  cycle: twice_yearly
+  basis: observed
+  note_zh: 按往届举办年份：每年冬季会（1–2 月）和年会（6 月）各一次
+data_level: curated
+note_zh: 美国采暖、制冷与空调工程师学会的两次年度会议；届次 id 写 ashrae-<年>-winter、ashrae-<年>-annual。

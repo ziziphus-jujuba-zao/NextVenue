@@ -1,0 +1,166 @@
+Skip to main content
+
+Minisite Global
+
+ * IEEE.org
+ * IEEE Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+Minisite Utility
+
+ *
+ *
+
+Menu
+ * Authors
+   * Important Dates
+   * Call for Papers
+   * Submission Guidelines [Main Conference]
+ * Committees
+ * Program
+   * At a Glance
+ * Registration
+   * Registration Fees
+ * Hotel & Travel
+   * Hotel & Travel Information
+ * Sponsor
+   * Sponsor Opportunities
+ * About
+   * About Us
+   * Contact Us
+ * TPC Meeting
+   * INFOCOM Distinguished Lecture Series
+   * TPC Meeting Program and Logistics
+
+Search
+
+Breadcrumb
+
+ 1. Home
+ 2. Authors
+ 3. Call for Papers
+
+Call for Papers
+
+IEEE INFOCOM 2027 is scheduled to take place in Hawaii, USA during May 24-27, 2027. This event will be conducted in person, allowing attendees to fully immerse themselves in the conference experience.
+
+IEEE INFOCOM is a top-ranked conference on networking by the IEEE Communications Society. IEEE INFOCOM 2027 solicits research papers describing significant and innovative research contributions to the field of computer and data communications networks. We invite submissions on a wide range of research topics, spanning both theoretical and systems research. Topics include, but are not limited to:
+
+ * Artificial Intelligence/Machine Learning (AI/ML) for networking
+ * AI/ML ethics for networking
+ * Agentic communication and networking
+ * Blockchain and payment channel networks
+ * Cellular systems (including 6G, O-RAN, and beyond)
+ * Challenging network environments (e.g., underwater, underground)
+ * Cloud computing/mobile cloud computing
+ * Cross-layer design
+ * Cyber-physical network systems
+ * Datacenter and industrial networking
+ * Digital twin and world models for communication and networks
+ * Dynamic spectrum sharing
+ * Edge and fog computing/networking
+ * Extremely high-frequency communications (mmWave/THz)
+ * Fault tolerance, reliability, and survivability
+ * Foundation models for communication and networks
+ * Full-duplex communication networks
+ * Goal-oriented/semantic communications
+ * Green networks
+ * Human-machine interactions in future networks
+ * Information-centric networking
+ * Interference management and mitigation
+ * Internet architectures
+ * Internet of Things
+ * Large-scale MIMO-based networking
+ * Localization and location-based services
+ * Medium access control
+ * Mobile sensing and applications
+ * Mobility management and models
+ * Multimedia networking
+ * Network economics and pricing
+ * Network management
+ * Network measurement and analysis
+ * Networking for AI/ML
+ * Network observability/telemetry/ monitoring
+ * Network security and privacy (including zero-trust security)
+ * Network support for extended reality (XR/VR/AR/MR)
+ * Network virtualization and slicing
+ * Networked autonomous aerial/ terrestrial/underwater systems
+ * Non-terrestrial networks/Satellite aerial networks
+ * Online social networks
+ * Optical networks
+ * Quality-of-service and resource management
+ * Quantum networking
+ * Radio Frequency Identification (RFID) and Near-Field Communications (NFC)
+ * Router and switch design
+ * Routing and multicast
+ * Scaling laws and fundamental limits
+ * Software-defined networking (SDN)/ Programmable switches
+ * Tactile Internet
+ * Testbeds, experimentations, and experimental platforms
+ * Ultra-Reliable Low-Latency Communications (URLLC)
+ * Vehicular networks
+ * Visible light communications (VLC)
+ * Web applications and content distribution
+ * Wireless networks
+
+IMPORTANT DATES
+
+Abstract Due: Friday, 24 July 2026 (11:59 p.m. AOE)
+
+Full Paper Due: Friday, 31 July 2026 (11:59 p.m. AOE)
+
+Early-Reject Notification: Friday, 9 October 2026
+
+Acceptance Notification: Tuesday, 8 December 2026
+
+Accepted and presented papers will be published in the IEEE INFOCOM 2027 Conference Proceedings and IEEE Xplore®. More information, full details of submission instructions and requirements for authors are available at https://infocom2027.ieee-infocom.org/.
+
+TECHNICAL PROGRAM CHAIRS
+
+Bo Ji (Virginia Tech, USA)
+
+Ben Liang (University of Toronto, Canada)
+
+TECHNICAL PROGRAM VICE-CHAIR FOR INFORMATION SYSTEMS
+
+Ruozhou Yu (North Carolina State Univ., USA)
+
+Submit a Paper
+
+Important Dates
+
+Abstract Due
+24 July 2026
+Full Paper Due
+31 July 2026
+Early-Reject Notification
+9 October 2026
+Acceptance Notification
+8 December 2026
+
+ * Submit a Paper
+
+ * Program
+ * Committees
+ * Hotel & Travel
+
+Call For
+
+ * Technical Papers
+
+ * About
+ * Contact
+
+© IEEE INFOCOM 2027
+ *
+ *
+ *
+ *
+ *
+
+Footer Menu
+
+Accessibility Sitemap Contact & Support Home Nondiscrimination Policy IEEE Ethics Reporting IEEE Privacy Policy Terms
+© Copyright 2027 IEEE – All rights reserved. A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.

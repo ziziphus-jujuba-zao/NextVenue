@@ -3,7 +3,7 @@ series: cikm
 name: CIKM 2027
 year: 2027
 kind: conference
-topics: [dm]
+data_level: curated
 derived_from: cikm-2026
 location: { city: Sydney, country: Australia }
 milestones:

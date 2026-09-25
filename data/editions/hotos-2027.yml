@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: hotos-2027
+series: hotos
+name: HotOS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/HotOS
+  conf_id: hotos27
+  link: https://sigops.org/s/conferences/hotos/2027/
+  place: Burghausen, Bavaria, Germany
+  date: May 24-26, 2027
+  timezone: AoE
+location:
+  city: Burghausen
+  country: Germany
+  country_code: DE
+dates:
+  start: 2027-05-24
+  end: 2027-05-26
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-05-24
+    end: 2027-05-26
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

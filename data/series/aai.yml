@@ -1,0 +1,15 @@
+id: aai
+acronym: IMMUNOLOGY
+full_name: American Association of Immunologists Annual Meeting
+name_zh: 美国免疫学家协会年会
+aliases:
+  - AAI
+  - AAI Annual Meeting
+  - IMMUNOLOGY2027
+directions: [life/immuno]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 学会年会（会名 IMMUNOLOGY + 年份），往届都在每年 4–5 月举办
+data_level: curated
+note_zh: 免疫学方向规模最大的年会之一，按摘要投稿（27 个主题）。

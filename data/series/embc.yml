@@ -1,0 +1,11 @@
+id: embc
+acronym: EMBC
+full_name: Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+aliases:
+  - IEEE EMBC
+directions: [eng/bme]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 7 月
+data_level: curated

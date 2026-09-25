@@ -1,0 +1,65 @@
+Message from the Program and General Chairs
+
+2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) | 979-8-3503-5300-6/24/$31.00 ©2024 IEEE | DOI: 10.1109/CVPR52733.2024.00005
+
+CVPR 2024
+
+Welcome to the 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition in
+Seattle, Washington! CVPR is the premier and flagship annual meeting of IEEE/CVF and PAMITC, where researchers in our community present their latest advances in computer vision, pattern
+recognition, machine learning, robotics, and artificial intelligence, both in theory and practice. Our
+program includes invited keynotes, oral and poster presentations, panels, tutorials, workshops,
+demos, exhibitions, and social events, all aimed at providing attendees with an exciting and
+enriching experience. CVPR 2024 is primarily an in-person conference, but for those who are
+unable to join us physically, we are pleased to offer a virtual component that will provide access
+to conference papers, posters, videos, and talks.
+CVPR 2024 received 11,532 valid paper submissions, a 26% increase from CVPR 2023. The
+review process was managed by the 6 Program Co-Chairs, 24 Senior Area Chairs, and 477 Area
+Chairs. During the review phase, each paper received at least 3 reviews from a pool of 9,872
+reviewers. As in prior years, after receiving these initial reviews, authors had the opportunity to
+submit a rebuttal to the reviews. The process concluded with discussion among reviewers and ACs,
+finalizing of reviews, and ACs working in triplets to make final accept/reject decisions for each
+paper. At the end of this process, 2,719 papers were accepted, for a 23.6% overall acceptance rate.
+In keeping with the CVPR tradition, the PCs did not pre-define any target acceptance rate or
+number of papers to be accepted; the resulting acceptance rate reflects the community consensus,
+and is consistent with past CVPRs.
+All of the 2,719 accepted papers were invited to present posters at CVPR. In addition, 90 (3.3%)
+papers were selected to be presented as oral talks, based on nominations from Area Chairs, and
+324 (11.9%) were selected by ACs to be “highlights” because of their high quality and potential
+impact. The highlights are flagged with a special annotation in the program. ACs nominated 24
+papers to be best paper award candidates, from which a committee convened by the PCs selected
+the award winners. The award winners will be announced during the conference.
+CVPR 2024 brings back the tradition of oral presentations in a three-track configuration.
+Nevertheless, we kept many of the innovations of CVPR 2023, including single-track panel
+discussions, “highlights” to indicate top-rated papers, the use of OpenReview for paper submission
+and management, and the role of Senior Area Chair to help oversee the review process.
+We would like to thank everyone involved in making CVPR 2024 a success. This includes the
+organizing committee, the Senior Area Chairs, Area Chairs, and reviewers, the authors, the demo
+session participants, and the donors and exhibitors. David Forsyth’s service as Senior Advisor to
+the Program Chairs was incredibly helpful. We also thank Nicole Finn and her C to C Events team
+for organizing the conference logistics, Lee Campbell and the Event Hosts team for their work on
+the website and virtual platform, Mike Weil and Hall Erickson for handling sponsorships and the
+exhibition, and Luba Elliot as our inaugural AI Art Coordinator. Last but not least, we thank all
+of you for attending CVPR 2024 and making it one of the top venues for computer vision research
+in the world. We hope that you also have some time to explore Seattle during the conference.
+
+cccxliii
+
+Enjoy CVPR 2024. We look forward to meeting you in person!
+Ali Farhadi, University of Washington
+David Crandall, Indiana University
+Imari Sato, National Institute of Informatics
+Jianxin Wu, Nanjing University
+Robert Pless, George Washington University
+Zeynep Akata, University of Tübingen
+CVPR 2024 Program Chairs
+
+Octavia Camps, Northeastern University
+Ramin Zabih, Cornell
+Rita Cucchiara, University of Modena and Reggio Emilia
+Sudeep Sarkar, University of South Florida
+Walter Scheirer, University of Notre Dame
+CVPR 2024 General Chairs
+
+cccxliv
+
+

@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: fm-2027
+series: fm
+name: FM 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/FM
+  conf_id: fm27
+  link: https://www.fmeurope.org/feature/upcoming_conferences/
+  place: Athens, Greece
+  date: October 18-22, 2027
+  timezone: AoE
+location:
+  city: Athens
+  country: Greece
+  country_code: GR
+dates:
+  start: 2027-10-18
+  end: 2027-10-22
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-10-18
+    end: 2027-10-22
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

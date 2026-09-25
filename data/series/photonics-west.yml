@@ -1,0 +1,13 @@
+id: photonics-west
+acronym: Photonics West
+full_name: SPIE Photonics West
+aliases:
+  - SPIE Photonics West
+  - SPIE PW
+directions: [phys/optics]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: SPIE 年会，往届都在每年 1 月底至 2 月初于旧金山 Moscone Center 举办
+data_level: curated
+note_zh: 包括 BiOS、LASE、OPTO 等多个分会；投摘要，录用后按分会要求交会议论文（manuscript）。

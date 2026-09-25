@@ -1,0 +1,32 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: idc-2027
+series: idc
+name: IDC 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/IDC
+  conf_id: idc27
+  link: https://idc.acm.org/2027/
+  place: Seattle, Washington, USA
+  date: June 21-24, 2027
+  timezone: AoE
+location:
+  city: Seattle
+  country: USA
+  country_code: US
+dates:
+  start: 2027-06-21
+  end: 2027-06-24
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+  - type: conference
+    start: 2027-06-21
+    end: 2027-06-24
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

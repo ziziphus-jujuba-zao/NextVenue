@@ -1,0 +1,12 @@
+id: cvpr-2027/visa-refund
+edition: cvpr-2027
+family: refund
+question_zh: 拒签或签证没下来，注册费能退吗？
+short_zh: 拒签退注册费
+answer: unspecified
+verification: human
+conf: high
+summary_zh: 官方没说。2027 注册页还没有内容（"Pricing is not yet available"），Visa 页 404；2026 注册页也没有拒签退款的专门条款，只有普通取消（扣 $65）。2026 年去不了现场的可以按线下价注册后线上参加（见"去不了时线上参加"卡）。
+quotes: []
+checked_sources: [cvpr-2027-pricing, cvpr-2027-visa, cvpr-2026-pricing]
+last_checked: 2026-09-25

@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: pdcat-2026
+series: pdcat
+name: PDCAT 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: DS/PDCAT
+  conf_id: pdcat2026
+  link: https://www.pd-cat.org/2026/
+  place: Changsha, China
+  date: December 4-6, 2026
+  timezone: AoE
+location:
+  city: Changsha
+  country: China
+  country_code: CN
+dates:
+  start: 2026-12-04
+  end: 2026-12-06
+milestones:
+  - type: paper
+    at: 2026-09-21T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: First Cycle
+  - type: paper
+    at: 2026-10-20T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Second Cycle
+  - type: conference
+    start: 2026-12-04
+    end: 2026-12-06
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

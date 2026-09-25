@@ -1,0 +1,45 @@
+id: icc-2027
+series: icc
+name: ICC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: "Washington, D.C.", country: USA, country_code: US }
+dates: { start: 2027-05-30, end: 2027-06-03 }
+submission_type: full_paper
+submission_evidence:
+  src: icc-2027-submission-guidelines
+  quote: "IMPORTANT: The page length limit for all initial submissions for review is SIX (6) printed pages (10-point font) and must be written in English."
+  note_zh: 录用后最多 6 页，另可加 2 页，每页 100 美元。在 EDAS 提交；录用后作者名单不能再改。
+milestones:
+  - type: paper
+    at: 2026-10-02
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: icc-2027-call-papers
+    quote: "Paper Submission Deadline 2 October 2026"
+    note_zh: 官网只给日期、没写时刻和时区，按北京时间当天结束算，比按华盛顿时间早 12 小时，更保守（ccfddl 按 UTC-4 记）。
+  - type: notification
+    at: 2027-01-15
+    tz: America/New_York
+    status: confirmed
+    src: icc-2027-call-papers
+    quote: "Notification of Acceptance 15 January 2027"
+  - type: camera_ready
+    at: 2027-02-19
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: icc-2027-call-papers
+    quote: "Camera-Ready Papers Due 19 February 2027"
+    note_zh: 上传终稿前必须先付清注册费（不退）；一份全价或 LIMITED 注册最多挂 3 篇。没写时区，按北京时间当天结束算。
+  - type: conference
+    start: 2027-05-30
+    end: 2027-06-03
+    tz: America/New_York
+    status: confirmed
+    src: icc-2027-call-papers
+    quote: "will be held in Washington DC, USA from May 30 to June 3, 2027"
+    note_zh: 全部线下（“This conference will be fully in-person.”）。
+last_checked: 2026-09-25

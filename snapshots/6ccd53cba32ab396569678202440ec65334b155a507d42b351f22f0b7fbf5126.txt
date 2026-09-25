@@ -1,0 +1,281 @@
+0
+Skip to Content
+
+Call for Papers
+Call for Papers Overview
+Topics of Interest
+Paper Submission
+Figures
+Open Science Badges
+Industry & Demo Sessions
+Late Breaking News
+Students
+Registration
+Registration Overview
+Program
+Program Overview
+Conference Timetable
+Tutorials
+Forums
+Short Course
+Exhibition
+Student Research Preview
+Demonstration Sessions
+Special Events
+Circuit Insights
+IEEE SSCS Women in Circuits
+IEEE SSCS Young Professionals
+About
+About Overview
+Press Kit
+Participate in the ISSCC Book Display
+Committees
+Technical Committees
+IEEE SSCS Information
+Ordering Publications
+FAQ for First-Time Attendees
+Future Conferences
+Past Conferences
+ISSCC’s First 70
+SHOP ISSCC
+News
+ISSCC News Coverage
+Trends
+Videos
+Award Winners
+Contacts
+SHOP
+Open Menu Close Menu
+
+Call for Papers
+Call for Papers Overview
+Topics of Interest
+Paper Submission
+Figures
+Open Science Badges
+Industry & Demo Sessions
+Late Breaking News
+Students
+Registration
+Registration Overview
+Program
+Program Overview
+Conference Timetable
+Tutorials
+Forums
+Short Course
+Exhibition
+Student Research Preview
+Demonstration Sessions
+Special Events
+Circuit Insights
+IEEE SSCS Women in Circuits
+IEEE SSCS Young Professionals
+About
+About Overview
+Press Kit
+Participate in the ISSCC Book Display
+Committees
+Technical Committees
+IEEE SSCS Information
+Ordering Publications
+FAQ for First-Time Attendees
+Future Conferences
+Past Conferences
+ISSCC’s First 70
+SHOP ISSCC
+News
+ISSCC News Coverage
+Trends
+Videos
+Award Winners
+Contacts
+SHOP
+Open Menu Close Menu
+
+Folder: Call for Papers
+Back
+Call for Papers Overview
+Topics of Interest
+Paper Submission
+Figures
+Open Science Badges
+Industry & Demo Sessions
+Late Breaking News
+Students
+Folder: Registration
+Back
+Registration Overview
+Folder: Program
+Back
+Program Overview
+Conference Timetable
+Tutorials
+Forums
+Short Course
+Exhibition
+Student Research Preview
+Demonstration Sessions
+Special Events
+Circuit Insights
+IEEE SSCS Women in Circuits
+IEEE SSCS Young Professionals
+Folder: About
+Back
+About Overview
+Press Kit
+Participate in the ISSCC Book Display
+Committees
+Technical Committees
+IEEE SSCS Information
+Ordering Publications
+FAQ for First-Time Attendees
+Future Conferences
+Past Conferences
+ISSCC’s First 70
+SHOP ISSCC
+Folder: News
+Back
+ISSCC News Coverage
+Trends
+Videos
+Award Winners
+Contacts
+
+SHOP
+
+----------------------------------------
+
+In this Section: Overview & Updates | Topics of Interest | Paper Submission | Figures | Open Science Badges | Industry & Demo Sessions | Late Breaking News
+
+----------------------------------------
+
+Paper Submission
+
+The Submissions Website is now closed. Submit at submissions.mirasmart.com/ISSCC2027. Everything you need to prepare and submit a paper is on this page.
+
+Resources
+
+Downloadable templates and documents for your submission:
+
+ISSCC Paper-Review Criteria: Innovation & Significance
+
+Draft Sample Manuscript PDF
+
+Figure Template Word · template
+
+Sample Abstract PDF
+
+Writing a Good ISSCC Paper PDF
+
+Author Instructions & FAQ PDF
+
+Call for Papers flyer PDF
+
+To submit, go to the Submissions Website. To check your figures, use the Figure Density Check.
+
+How to prepare & submit
+
+Submit two items for review: (1) an informative, quantitative Abstract; (2) a Draft Manuscript including figures for the Digest of Technical Papers. During submission you will suggest a subcommittee (by subject area); ISSCC may reassign it to ensure the best review quality. Begin the electronic submission process early. You can return and modify your submission as needed. Complete the Submission Questionnaire along with your title, abstract, and any supplementary material.
+
+Title
+
+Concise (target ≤ 12-14 words), clearly describing the topic. Include at most one or two key metrics; if multiple metrics appear they must be mutually consistent.
+
+Abstract
+
+Uploaded to the Submissions Website; must not exceed 500 characters including spaces. Factual and quantitative, with specific measured data. Promotional claims (“new”, “advanced”, “novel”, “high-performance”, “high-speed”) are not acceptable in the Title or Abstract. See the Sample Abstract.
+
+Manuscript
+
+Two PDFs. The text is limited to five pages, single-column double-spaced, 12pt Arial Narrow, with fewer than 11,000 characters including spaces (excluding the title, references, and author/affiliation/acknowledgement placeholders). The figures are at most two pages using the Figure Template (six slots per page). See the Draft Sample Manuscript.
+
+Figures NEW
+
+Figure readability is important. Your figures must remain legible in print and should not be overloaded. Run the ISSCC Figure Density Check to get figure-density guidance before submitting, and confirm at submission that you have done so.
+
+The first seven figures (including a die photo) must be referred to in the text; tables must be included as figures. Up to three optional supplementary figures (Fig. S1/S2/S3) may be added for reviewers only, not part of the final manuscript and not referred to in the text. See the Figures page for full figure rules and the density-check tool.
+
+References
+
+Up to 30 references, entered individually on the Submissions Website (not in the manuscript text). Provide the URL for all published references. Reference all related work, including your own. Failure to reference your own related work may result in rejection of a conditionally accepted paper during the Pre-Publication Check. Do not cite patents (these can be added to the final digest version if accepted). Papers exceeding the length limit are immediately rejected.
+
+Double-blind review
+
+ISSCC uses a double-blind review: the identities of both authors and reviewers are withheld, removing any bias (positive or negative) arising from personal knowledge of the authors or their affiliations. As a requirement of the process, authors must not include any information in their submission that could reveal their identity or affiliation. Manuscripts that are not properly anonymized will not be considered for review. The review process also includes a software-based plagiarism check.
+
+To anonymize your submission:
+
+ * Eliminate author names, contact information, affiliations, and publicly known product names from the entire manuscript, including PDF metadata, logos on die photos, and logos on printed-circuit-board photos. If your paper is accepted, this information is added back to the final digest version.
+
+ * Cite all relevant prior work, including your own, in the third person (e.g., “The design in [1] demonstrates…”; do not use “my” or “our”). For your published prior work, provide the reference normally, including author names. For your unpublished prior work, the Submissions Website will anonymize the reference as “Details withheld in accordance with the double-blind-review process,” and you must upload that paper as supplementary material.
+
+ * Do not cite patents, and eliminate acknowledgments and references to funding sources. If accepted, these can be added to the final digest version.
+
+ * Do not contact Program Committee members outside your own organization to solicit input on your manuscript. The ISSCC Website lists current Program Committee members so you can avoid undesired contact. Notifying them of your submission is a direct violation of the policy and results in immediate rejection.
+
+ * The identity of authors is known only to the Program Chair, Program Vice Chair, and Subcommittee Chairs; you may contact them with questions. For help with your manuscript, consult Writing a Good ISSCC Paper, or ask a Subcommittee Chair to identify someone outside the subcommittee to provide input.
+
+Submissions with a clear blind-review violation are penalized during Paper Selection, affecting acceptance, awards, and the JSSC Special Issue invitation. Authors are notified by October 21, 2026; a submission may be accepted as a regular paper (25 min; 20 min presentation) or a short paper (15 min; 12 min presentation), both held to the same standards.
+
+Pre-publication policy
+
+ISSCC cannot accept papers whose key innovative ideas and results have already been disclosed to the public. Considered pre-publication: publicly available data containing substantial technical information (articles, manuals, data sheets, trade journals, application notes, conferences, press releases); some previously, publicly copyrighted material; material with a pending publication decision; material accepted for publication elsewhere; material on a public website at any time up to the first day of the next ISSCC. Not considered pre-publication: author copies on preprint servers (e.g., arXiv.org); preliminary datasheets/product announcements with no technical details; limited-attendance workshops with no retrievable proceedings; advance-program or IEEE press information after release; information under NDA; final Master’s/Ph.D. theses in open repositories (a thesis published for profit is an exception); grant reports in open repositories; published patents and applications. Authors must disclose all material that may fall into the pre-publication category; a final Pre-Publication Check (names revealed) is applied after Paper Selection, and ISSCC may withdraw any submission that violates the policy.
+
+Supplementary material
+
+As part of your submission, you must disclose all material that falls under the Pre-Publication category. This includes datasheets and any related prior work (published or unpublished) not listed as a reference, as well as unpublished prior work referenced in the manuscript. Submit these as supplementary material; they should not be anonymized and are checked only after Paper Selection.
+
+Open Science Badges NEW
+
+ISSCC 2027 introduces voluntary Open Science Badges to recognize authors who share the artifacts behind their paper. Two badges are available, Open Design (design source files such as RTL, netlists, or executable models) and Open Data (measurement data and, where applicable, test scripts, bench configurations, or channel models). They increase your paper’s visibility and impact. Participation is optional; the repository link is hidden during blind review and badges are assigned after acceptance. Opt in at submission by checking the badge box and entering your public repository URL (hidden from reviewers, so blind review is preserved). See the full Open Science Badges Author Guidelines for examples, README guidance, and FAQ.
+
+Acceptable terminology
+
+We encourage authors to replace historical terms that some may find objectionable with the alternatives listed on the Acceptable Terminology page. Technical editors will request substitutions for questionable terms in accepted manuscripts.
+
+Confidentiality
+
+Will my submitted manuscript be held in confidentiality? This question is most commonly asked in regard to pending patent protection. We do have confidentiality procedures for submitted manuscripts. However, a competent review of your manuscript requires that it be seen by a limited number of reviewers, some of whom you may regard as competitors. ISSCC recommends that you seek any needed patent protection before submitting your paper. This is a legal question and we are not attorneys. If further discussion of our confidentiality procedures is needed, we recommend you or your patent attorney contact our Conference Chair.
+
+Author Instructions & FAQ
+
+The double-blind review, pre-publication, figure, and reference rules above together form the ISSCC 2027 Author Instructions. The same content is available as a downloadable PDF. Common questions:
+
+Do I have to use the figure density tool? Yes. Run the ISSCC Figure Density Check before submitting and confirm at submission that you have. Your figures must stay legible in print and should not be overloaded.
+
+What are the Open Science Badges? Two voluntary badges (Open Design, Open Data) that recognize sharing the artifacts behind your paper. They are optional and do not affect paper selection, see the Open Science Badges, Author Guidelines.
+
+What is the character limit for my manuscript? 11,000 characters including spaces, but excluding the title, references, and author/affiliation/acknowledgement placeholders.
+
+Should I label subfigures (a, b, c, …)? No. Do not use subfigure labels.
+
+Do I have to provide a chip photo for Fig. 7? It is up to you how you order the figures. It is most common to provide a chip photo as the last figure (Fig. 7).
+
+Can I contact Program Committee members of another subcommittee for advice? No. You may not contact any current Program Committee member outside your organization about your submission. Notifying them of your submission is a direct violation and results in immediate rejection.
+
+Can I reuse figures from a previous publication? Avoid the direct reuse of figures that create an obvious, identifiable link to your prior work, as this violates the double-blind-review principle.
+
+May I use special non-English characters? Use only plain Roman characters and Greek characters (math symbols).
+
+Is it OK to have a logo in my chip/PCB photo? No. All logos, even generic ones, must be covered up, as shown in the sample manuscript. If accepted, the cover-up can be removed for the final digest version.
+
+Deadline
+
+Due to review-timing constraints, submissions must be received by Wednesday, September 9, 2026 · 3:00 PM EDT (19:00 GMT) to be considered by the Program Committee.
+
+Call for Papers l Students l Registration l Program l About l News/Media l Contact
+
+Sponsored by IEEE and SSCS, the International Solid-State Circuits Conference – ISSCC – is the foremost global forum for presentation of advances in solid-state circuits and systems-on-a-chip. The Conference offers a unique opportunity for engineers working at the cutting edge of IC design and application to maintain technical currency, and to network with leading experts.
+
+Notifications & Policies l Accessibility | Nondiscrimination Policy | IEEE Ethics Reporting | IEEE Privacy Policy | Terms
+
+ISSCC
+
+185 Lakeside Drive
+Lewes, DE 19958 USA
+TEL: 240-687-1765
+FAX: 301/527-0994
+EMAIL ISSCC
+
+© Copyright 2027 IEEE - All rights reserved. A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.

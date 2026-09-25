@@ -1,0 +1,31 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: bps-2027
+sources:
+  - id: bps-2027-abstracts
+    url: https://www.biophysics.org/2027meeting/abstracts/submission-guidelines
+    title: BPS2027 Abstract Submission Guidelines
+    kind: cfp
+    fetched_at: 2026-09-25T15:58:11Z
+    http_status: 200
+    snapshot: 6ef82ac9fb36c8cce4eea051e8c470820be5691b04f961f6383a5d1347495554
+  - id: bps-2027-home
+    url: https://www.biophysics.org/2027meeting
+    title: BPS2027 71st Annual Meeting
+    kind: other
+    fetched_at: 2026-09-25T15:57:46Z
+    http_status: 200
+    snapshot: cf53cf71bc168dcb3460072f68b94394209376111d1ad4754039e68889cc1906
+  - id: bps-2027-registration
+    url: https://www.biophysics.org/2027meeting/registration
+    title: BPS2027 Registration
+    kind: other
+    fetched_at: 2026-09-25T15:57:59Z
+    http_status: 200
+    snapshot: 0e6eb27132fc3340c803f51d29f989bb818c1ec4c45da0e0df71a8f5c29e5a10
+  - id: bps-2027-general-info
+    url: https://www.biophysics.org/2027meeting/general-info
+    title: BPS2027 General Information
+    kind: other
+    fetched_at: 2026-09-25T15:58:26Z
+    http_status: 200
+    snapshot: 9757a46f7e67ace8ee664f904405446b40f210c1aa9460db772b940abdc35ff3

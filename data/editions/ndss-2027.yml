@@ -1,0 +1,81 @@
+id: ndss-2027
+series: ndss
+name: NDSS 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Seoul, country: South Korea, country_code: KR }
+dates: { start: 2027-03-22, end: 2027-03-26 }
+milestones:
+  - type: paper
+    label_zh: 第一轮（夏季轮）正文
+    at: 2026-05-06T23:59
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Wed, 6 May 2026: Paper submission deadline"
+    note_zh: 已截止。
+  - type: notification
+    label_zh: 第一轮（夏季轮）出结果
+    at: 2026-07-29
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Wed, 29 July 2026 (tentative): Author notification"
+    note_zh: 官网标“tentative”。大修论文 8/31 交修改稿、9/16 出结果。
+  - type: camera_ready
+    label_zh: 第一轮（夏季轮）camera-ready
+    at: 2026-09-30T23:59
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Wed, 30 September 2026: Camera Ready deadline"
+  - type: paper
+    label_zh: 第二轮（秋季轮）正文
+    at: 2026-08-19T23:59
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Wed, 19 August 2026: Paper submission deadline"
+    note_zh: 已截止。夏季轮被拒的论文如与秋季轮投稿大量重叠，会被直接拒稿。
+  - type: phase1_notification
+    label_zh: 第二轮（秋季轮）提前拒稿 / 进入第二阶段通知
+    at: 2026-10-16
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Fri, 16 October 2026: Round 2 notification"
+    note_zh: 同时发第一阶段审稿意见；没被提前拒的论文进入第二阶段审稿。
+  - type: author_response
+    label_zh: 第二轮（秋季轮）rebuttal
+    start: 2026-11-11
+    end: 2026-11-13T23:59
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Wed, 11 to Fri, 13 November 2026: Author rebuttal"
+    note_zh: '之后到 11/18 与审稿人交互讨论（“Wed, 11 to Wed, 18 November 2026: Interactive discussion”）。'
+  - type: notification
+    label_zh: 第二轮（秋季轮）出结果
+    at: 2026-11-24
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Tue, 24 November 2026: Author notification"
+    note_zh: '大修论文 12/22 交修改稿（“Tue, 22 December 2026: Resubmission of Major Revision papers, Minor Revision decision”），2027-01-11 出大修结果。'
+  - type: camera_ready
+    label_zh: 第二轮（秋季轮）camera-ready
+    at: 2027-02-01T23:59
+    tz: AoE
+    status: confirmed
+    src: ndss-2027-cfp
+    quote: "Mon, 1 February 2027: Camera Ready deadline"
+  - type: conference
+    start: 2027-03-22
+    end: 2027-03-26
+    tz: Asia/Seoul
+    status: confirmed
+    src: ndss-2027-home
+    quote: "The Network and Distributed System Security (NDSS) Symposium 2027 will take place from 22 to 26 March 2027, in Seoul, Republic of Korea."
+last_checked: 2026-09-25
+note_zh: 两轮投稿（夏季轮、秋季轮）都已截止，所有截止都是 AoE。秋季轮 10/16 发第一阶段结果，11/11–13 rebuttal，11/24 出结果，2027-02-01 交 camera-ready。每位作者每轮最多署名 6 篇。会议 2027-03-22 至 26 在首尔举行。

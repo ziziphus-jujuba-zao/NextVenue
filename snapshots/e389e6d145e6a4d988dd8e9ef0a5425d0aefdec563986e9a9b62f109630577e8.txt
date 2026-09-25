@@ -1,0 +1,53 @@
+RTSS 2026
+Important Dates
+Conference
+RTSS Call for Papers RTSS Submission Rules Artifact Evaluation Submissions Artifact Evaluation Criteria Artifact Preparation Guidelines Brief Presentations Submissions RTSS@Work Demo Submissions
+Hot Topics Day
+Call for Proposals GAIRS 2026 OPERA 2026
+Program
+Local information
+Registration Visa Information Venue & Accommodation
+Organizers Transparency Archive
+
+Important Dates
+
+47th IEEE Symposium on Real-Time Systems
+
+----------------------------------------
+
+All deadlines are anywhere on Earth (AoE). All dates are for 2026.
+
+● Main Conference ● Shepherding ● Artifact Evaluation ● Brief Presentation ● Hot topics Day ● RTSS@Work ● Event
+
+    Event                             Track                   Date
+✓   Abstract Submission Deadline      ● Main Conference       May 21 (firm)
+✓   Paper Submission Deadline         ● Main Conference       May 26 (firm)
+✓   Author Response Period            ● Main Conference       July 13–17
+✓   Notification                      ● Main Conference       July 25
+✓   Instructions to Authors           ● Shepherding           August 1
+✓   Artifact Submission Deadline      ● Artifact Evaluation   August 21
+✓   HTD Proposals Due                 ● Hot Topics Day        August 21
+✓   Revised Draft Due                 ● Shepherding           August 23
+✓   HTD Notifications                 ● Hot Topics Day        August 28
+✓   Final Revision Due                ● Shepherding           September 6
+✓   BP Submission Deadline            ● Brief Presentation    September 14
+✓   Final Accept/Reject Decision      ● Shepherding           September 15
+★   Camera-Ready Deadline             ● Main Conference       September 16
+    Artifact Notification             ● Artifact Evaluation   September 24
+★   RTSS@Work Submission Deadline     ● RTSS@Work             September 30
+    BP Notification                   ● Brief Presentation    October 1
+    BP Camera-Ready Deadline          ● Brief Presentation    October 8
+    RTSS@Work Notification            ● RTSS@Work             October 9
+★   GAIRS Submission Deadline         ● Hot Topics Day        October 9
+★   OPERA Submission Deadline         ● Hot Topics Day        October 9
+    RTSS@Work Camera-Ready Deadline   ● RTSS@Work             October 16
+    GAIRS Notification                ● Hot Topics Day        October 23
+    OPERA Notification                ● Hot Topics Day        October 23
+    Hot Topic Day                     ● Event                 December 8
+    Conference                        ● Event                 December 9–11
+
+✓ past    ★ currently open
+
+The shepherding dates apply to conditionally accepted papers.
+
+© RTSS 2026 - 47th IEEE Real-Time Systems Symposium. - Imprint | Data Protection

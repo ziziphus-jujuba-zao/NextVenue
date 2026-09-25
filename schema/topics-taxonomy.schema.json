@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "topics-taxonomy.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Curated topic map used to count topics in accepted-paper titles (data/topics/taxonomy.json)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["method_version", "topics"],
+  "properties": {
+    "method_version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "note_zh": { "type": "string" },
+    "low_precision": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+      "description": "抽查误配较多的主题 id"
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label_zh", "label_en", "patterns"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "label_zh": { "type": "string", "minLength": 1 },
+          "label_en": { "type": "string", "minLength": 1 },
+          "patterns": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+id: cps-fall-2026
+series: cps-fall
+name: 中国物理学会秋季学术会议 2026
+year: 2026
+kind: conference
+data_level: curated
+location: { city: Changsha, country: China, country_code: CN }
+dates: { start: 2026-10-22, end: 2026-10-25 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: Asia/Shanghai
+    note_zh: 会议网站（31huiyi 平台）是纯脚本页面，本项目抓不到正文；学会首页和中南大学的通知都没写摘要或报名截止日。请在学会首页的"报名"入口查看。
+  - type: conference
+    start: 2026-10-22
+    end: 2026-10-25
+    tz: Asia/Shanghai
+    status: confirmed
+    src: cps-fall-2026-csu
+    quote: "（2026秋季学术会议将于10月22~25日召开）"
+    note_zh: 承办方中南大学的新闻写 10/22–25；中国物理学会首页的会议列表写 2026-10-23，可能 10/22 是报到日，以正式通知为准。
+last_checked: 2026-09-25
+note_zh: 中国物理学会主办、中南大学承办，在中南大学岳麓山校区。国内会议，不需要签证，走学校国内差旅审批。

@@ -1,0 +1,24 @@
+id: neurips-2026/in-person-presentation
+edition: neurips-2026
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？
+short_zh: 到现场报告
+answer: required
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 必须。每篇录用论文至少要有一位作者注册主会，并在官方会场（悉尼、亚特兰大或巴黎）现场报告；只买 Virtual Only Pass 不算。没有作者注册并现场报告的，主办方保留撤销录用的权利；oral 缺席的可能被降为 poster。
+detail_zh: 学生作者用学生注册即可；一位作者有多篇录用论文只需一份注册。每篇论文的指定报告作者在分配到的会场有一个保留名额，其他合作者按公众票注册（悉尼和巴黎的公众票已售罄）。
+quotes:
+  - src: neurips-2026-handbook
+    text: "At least one author of each accepted paper must register for the main conference. A ‘Virtual Only Pass’ is not sufficient."
+  - src: neurips-2026-handbook
+    text: "We reserve the right to revoke accepted publication status if no authors registered and presented the paper in the conference in person in our official locations."
+  - src: neurips-2026-handbook
+    text: "For no-shows at orals, we also reserve the right to downgrade them to poster status and/or revoke their accepted status entirely."
+effect:
+  kind: requires
+  target: in_person_presentation
+last_checked: 2026-09-25

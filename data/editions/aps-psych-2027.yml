@@ -1,0 +1,64 @@
+id: aps-psych-2027
+series: aps-psych
+name: APS Annual Convention 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Seattle, country: USA, country_code: US }
+dates: { start: 2027-05-27, end: 2027-05-30 }
+milestones:
+  - type: abstract
+    label_zh: 投稿截止
+    start: 2026-10-15
+    end: 2026-12-01T17:00
+    tz: America/New_York
+    status: confirmed
+    src: aps-psych-2027-call
+    quote: "Submission Deadline Tuesday, December 1, 2026 at 5:00 PM ET (22:00 UTC)"
+    note_zh: 10/15 开放（海报、报告等各类投稿）。北京时间 12/2 06:00。
+  - type: registration_open
+    at: 2026-11-02
+    tz: America/New_York
+    status: confirmed
+    src: aps-psych-2027-call
+    quote: "Registration Opens Monday, November 2, 2026"
+  - type: financial_aid
+    label_zh: 资助申请截止
+    at: 2026-12-12T17:00
+    tz: America/New_York
+    status: confirmed
+    src: aps-psych-2027-call
+    quote: "Financial Assistance Deadline Wednesday, December 12, 2026 at 5:00 PM ET (22:00 UTC)"
+    note_zh: 官网写"周三"，但 2026-12-12 是周六；这里按日期算。10/15 开放申请。
+  - type: notification
+    status: tba
+    tz: America/New_York
+    src: aps-psych-2027-call
+    quote: "Review Decision Notifications Early February 2027"
+    note_zh: 官网只说 2027 年 2 月初出评审结果，2 月下旬发排程，没有具体日期。
+  - type: early_registration
+    at: 2027-04-15
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-psych-2027-call
+    quote: "Early-Bird Registration Deadline Thursday, April 15, 2027"
+    note_zh: 官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: author_registration
+    label_zh: 报告人注册截止
+    at: 2027-05-06
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: aps-psych-2027-call
+    quote: "Presenter Registration Deadline Thursday, May 6, 2027"
+    note_zh: 官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: conference
+    start: 2027-05-27
+    end: 2027-05-30
+    tz: America/Los_Angeles
+    status: confirmed
+    src: aps-psych-2027-home
+    quote: "Mark your calendar for the 2027 APS Annual Convention in Seattle, Washington, May 27-30, 2027!"
+last_checked: 2026-09-25
+note_zh: 所有形式的报告都必须在西雅图现场进行，不能线上。

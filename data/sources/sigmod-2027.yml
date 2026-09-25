@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: sigmod-2027
+sources:
+  - id: sigmod-2027-dates
+    url: https://2027.sigmod.org/calls_papers_important_dates.shtml
+    title: SIGMOD 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:46:32Z
+    http_status: 200
+    snapshot: 008e5fce583649d078494fb217bc18c8d5f4b91018781315ba783ab64c20c3eb
+  - id: sigmod-2027-home
+    url: https://2027.sigmod.org/
+    title: SIGMOD 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:33Z
+    http_status: 200
+    snapshot: 81c51ed6a3a4fe8da4a9a58474252c3887b97778df57be26957a66d5f6561898

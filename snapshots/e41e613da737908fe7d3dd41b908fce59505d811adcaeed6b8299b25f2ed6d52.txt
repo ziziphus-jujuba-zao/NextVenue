@@ -1,0 +1,1009 @@
+Welcome to CVPR 2024
+
+Advisor to
+the PCs
+
+General Chairs
+
+Walter Scheirer
+Notre Dame
+
+Octavia Camps
+Northeastern
+
+Ramin Zabih
+Cornell / Google
+
+Rita Cucchiara
+U. Modena
+
+Sudeep Sarkar
+USF
+
+David Forsyth
+UIUC
+
+David Crandall
+Indiana U.
+
+Jianxin Wu
+Nanjing U.
+
+Robert Pless
+George Washington
+U.
+
+Imari Sato
+National Institute of
+Informatics
+
+Program Chairs
+
+Zeynep Akata
+U. Tübingen
+
+Ali Farhadi
+U. Washington /
+Allen Institute for AI
+
+Technical Chair
+
+Yoshitomo
+Matsubara
+
+Finance Chair
+
+Workshop Chairs
+
+Gerard Medioni
+
+Luisa Verdoliva
+
+Tutorial Chairs
+
+Vito Struc
+
+Luba Elliott
+
+Andrew Owens
+
+Abhinav
+Shrivastava
+
+Antitza
+Dantcheva
+
+Shu Kong
+
+Sathya Aakur
+
+Diversity, Equity and Inclusion Chairs
+
+Katarina Doctor
+
+AI Art Curator
+
+Demo Chairs
+
+Shuran Song
+
+CJ Taylor
+
+Sara Beery
+
+Accessibility Chair
+
+Publicity Chairs
+
+Danna Gurari
+
+Kosta Derpanis
+
+Abby
+Stylianou
+
+Adriana
+Kovashka
+
+Tamara Berg
+
+Roni Sengupta
+
+Mike King
+
+Publications Chair
+
+Boqing Gong
+
+Shenghua
+Gao
+
+Jia-Bin Huang
+
+Eric Mortensen
+
+Doctoral Consortium Chairs
+
+Aparna Bharati
+
+Nathan Jacobs
+
+Local Chairs
+
+Ranjay Krishna
+
+Ira KemelmacherShlizerman
+
+Conference Ombuds
+
+Derek Hoiem
+
+Angjoo Kanazawa
+
+Corporate Relations Chairs
+
+Brian Clipp
+
+Website Chair
+
+Victor Fragoso
+
+Mauricio Pamplona Segundo
+
+Virtual Platform Chair
+
+Social Activities Chairs
+
+Vitor Albiero
+
+Yale Song
+
+Web Developer
+
+Lee Campbell
+
+Giovanni Maria
+Farinella
+
+Andreas Geiger
+
+Conference Producer
+
+Nicole Finn
+
+Workflow Chair
+
+Sherry Xue
+
+Event Program Manager
+
+Carmen Saliba
+
+Seattle Convention Center
+
+See the maps in the back of your program
+guide and follow the stickers:
+
+Sponsors and Expo
+Thank you for your support!
+CVPR 2024 Expo (Exhibit Hall Summit)
+●
+
+121 leading organizations
+
+●
+
+22,100 sq. ft.
+
+●
+
+Companies from across the globe
+
+●
+
+Organized by Hall-Erickson, Inc.
+
+Attendance
+
+*As of 6/12
+
+CVPR 2024: ~12,000 Attendees from 76 Countries / Regions
+
+United States 5074
+Canada 352
+Mexico 16
+Puerto Rico 1
+
+Brazil 27
+Colombia 11
+Ecuador 7
+Peru 6
+Argentina 4
+Chile 2
+Costa Rica 1
+Jamaica 1
+
+Germany 377
+United Kingdom 330
+Switzerland 171
+France 141
+Italy 118
+Netherlands 64
+Spain 60
+Sweden 56
+Belgium 34
+Denmark 33
+Austria 23
+Czech Republic 22
+Turkey 18
+Norway 13
+Ireland 12
+Greece 11
+Ethiopia 69
+Nigeria 9
+Senegal 3
+Rwanda 2
+Burkina Faso 1
+
+Finland 16
+Poland 15
+Hungary 9
+Portugal 9
+Slovenia 9
+Luxembourg 8
+Portugal 9
+Serbia 4
+Croatia 3
+Estonia 3
+Romania 3
+Albania 1
+Slovakia 1
+
+Burundi 1
+Cameroon 1
+Ghana 1
+Mauritius 1
+
+Australia 125
+New Zealand 8
+
+China 1511
+South Korea 775
+Japan 347
+Singapore 171
+Hong Kong 134
+Israel 117
+India 110
+Taiwan 83
+United Arab Emirates 40
+Saudi Arabia 35
+Viet Nam 22
+Qatar 6
+Thailand 6
+Armenia 3
+Bangladesh 3
+Afghanistan 2
+Iran 2
+Macau 2
+Kazakhstan 1
+Malaysia 1
+Pakistan 1
+
+*As of 6/12
+
+Diversity, Equity and Inclusion Chairs
+
+DEI Initiatives
+Shuran Song
+
+CJ Taylor
+
+Sara Beery
+
+Adriana
+Kovashka
+
+Tamara Berg
+
+Roni Sengupta
+
+Mike King
+
+Travel Support for Attendees
+●
+●
+●
+●
+
+$200K allocated by the IEEE Computer Society and CVF for DEI Initiative
+807 Applicants
+181 Travel Scholarships
+296 Registration Waivers
+
+Website Accessibility
+●
+●
+
+Ongoing audit of CVPR website
+Improvements to support future CVPRs and related ML
+conferences
+
+Accessibility Chair
+
+Danna Gurari
+
+Social Activities Chairs
+
+Social Program
+Socialization a key part of the conference experience
+●
+
+Community driven socials
+
+Vitor Albiero
+
+○
+
+Challenges / Opportunities for ECRs in Fast Paced AI
+
+○
+
+How to Balance Research Interests and Academic Tasks
+
+○
+
+Diversity and Inclusion for Everyone
+
+○
+
+How to Know Your True Market Value as an AI Researcher
+
+○
+
+CV Entrepreneurship — Founders, Freelancers & Friends
+
+Yale Song
+
+All attendees were invited to register for these events but they are
+limited to those who received confirmation (show this at the door)
+
+●
+
+Musical performances at conference reception (June 20
+7-9pm, Summit Ballroom)
+
+Giovanni Maria
+Farinella
+
+Student Activities
+Doctoral Consortium (Thurs. 11:30am)
+●
+●
+●
+●
+
+Opportunity for recent grads/close-to-complete PhD
+students to interact with experienced researchers
+Two-to-one matching of students to mentors
+Discuss career plans and research
+36 students
+
+Speed Mentoring (Thurs. 12pm)
+●
+●
+●
+
+Open call was issued to all students
+Informal small-group discussions with senior
+faculty and industry leaders
+108 students
+
+Doctoral Consortium Chairs
+
+Aparna Bharati
+
+Nathan Jacobs
+
+Social Activities Chairs
+
+Vitor Albiero
+
+Yale Song
+
+Giovanni Maria
+Farinella
+
+Social Media
+●
+
+●
+
+Regular posts to Twitter/X
+(@CVPR) and Weibo
+(https://weibo.com/u/7778156717)
+News of Twitter’s death greatly
+exaggerated…
+○
+
+Lots of community dialogue!
+
+Publicity Chairs
+
+Kosta Derpanis
+
+Abby
+Stylianou
+
+Boqing Gong
+
+Shenghua
+Gao
+
+Jia-Bin Huang
+
+Workshop Chairs
+
+Workshops and Tutorials
+● 123 workshops
+Luisa Verdoliva
+
+Andrew Owens
+
+○ 29 Thematic Tracks
+
+● 24 Tutorials
+
+Abhinav
+Shrivastava
+
+Tutorial Chairs
+
+Vito Struc
+
+Katarina Doctor
+
+Antitza
+Dantcheva
+
+Demos
+
+Demo Chairs
+
+● 52 Demos (Arch 4CDE)
+○ Session 1: Weds. 10:30am - 6:45pm
+○ Session 2: Thurs. 10:30am - 6:45pm
+○ Session 3: Fri. 10:30am - 6:45pm
+
+Shu Kong
+
+Sathya Aakur
+
+AI Art Curator
+
+Art Gallery
+The gallery will be on view between 10.30am and 6.45pm between Weds. and Fri. in
+Arch 4CDE
+Immersive Art Experience in 4F when expo talks are not scheduled
+
+Luba Elliott
+
+Check out the CVPR Virtual Gallery: https://thecvf-art.com/
+
+Special Art Sessions:
+Weds.
+●
+●
+
+11am Gallery Tour with Curator and Artists
+5pm Gallery Tour with Curator and Artists
+
+Thurs.
+●
+●
+●
+
+11am Gallery Tour with Curator and Artists
+1:30pm Panel Discussion with Tom White, Varvara
+Guljajeva, Valdemar Danry, Avijit Ghosh and Luba Elliott
+5pm Gallery Tour with Curator and Artists
+
+Fri.
+●
+Credit: Valdemar Danry x Cenk Güzelis
+
+11am Gallery Tour with Curator and Artists
+Credit: Jessica Tucker
+
+CVPR 2024 Conference T-Shirt
+Our AI artists for this year’s shirt:
+
+Aaron Park
+
+Daniel Geng
+
+Andrew Owens
+
+“Factorized Diffusion: Perceptual Illusions by
+Noise Decomposition”
+
+Remember to pick your shirt up
+in the Expo Hall!
+
+https://dangeng.github.io/factorized_diffusion
+
+Housekeeping Notes
+● Posters can be picked up at the POSTER DISTRIBUTION
+CENTER in the back of 4E.
+● Please hold on to your badge! We are not able to reprint
+them under any circumstances.
+● Guests are not allowed to attend any event. All attendees
+must have on a badge to attend any part of CVPR.
+● Accessibility questions? Check out our FAQ:
+https://cvpr.thecvf.com/Conferences/2024/Accessibility
+● Be kind to the event staff and each other
+
+David Forsyth
+UIUC
+
+Linda Shapiro
+UW (Onsite)
+
+Derek Hoiem
+UIUC (Onsite)
+
+Angjoo Kanazawa
+Berkeley
+
+Program
+
+New records: 11,532 submissions, 2,719 accepted papers!
+
+26% growth!!
+
+35,691 registered authors!
+
+Program Chairs
+
+Zeynep Akata
+U. Tübingen
+
+Ali Farhadi
+U. Washington /
+Allen Institute for AI
+
+Senior Advisor
+to the PCs
+
+David Crandall
+Indiana U.
+
+Technical Chair
+
+Jianxin Wu
+Nanjing U.
+
+Yoshitomo Matsubara
+Spiffy AI
+
+Imari Sato
+National Institute of
+Informatics
+
+Senior Area Chairs
+Alex Schwing
+Alexei A Efros
+Aniruddha Kembhavi
+Anthony Hoogs
+Aude Oliva
+Bernard Ghanem
+Bharath Hariharan
+Bohyung Han
+
+David Forsyth
+UIUC
+
+Robert Pless
+George Washington
+U.
+
+Fernando De la Torre
+Jingdong Wang
+Jingyi Yu
+Juan Carlos Niebles
+Kyoung Mu Lee
+Nathan Jacobs
+Pascal Fua
+Philipp Kraehenbuehl
+
+Phillip Isola
+Richard Souvenir
+Roozbeh Mottaghi
+Ruigang Yang
+Sing Bing Kang
+Srinivasa Narasimhan
+Tal Hassner
+Yoichi Sato
+
+Area Chairs (n=477)
+Aayush Bansal, Abby Stylianou, Abhinav Shrivastava, Abhishek Gupta, Adam Czajka, Adam Kortylewski, Adriana Kovashka, Aishwarya Agrawal, Akihiro Sugimoto, Alejandro F. Frangi, Alexander C. Berg, Alexander T Toshev,
+Alexandre Alahi, Alimoor Reza, Alireza Fathi, Aljosa Osep, Ameesh Makadia, Amir Zamir, Andre Araujo, Andrea Tagliasacchi, Andrew Owens, Angel X Chang, Angela Yao, Anh Tuan Tran, Animesh Garg, Anna Rohrbach, Anpei
+Chen, Anurag Arnab, Arsha Nagrani, Arun Mallya, Asako Kanezaki, Ashok Veeraraghavan, Aswin C. Sankaranarayanan, Baoyuan Wu, Bastian Leibe, Ben Mildenhall, Bin Fan, Bing Su, Binh-Son Hua, Björn Ommer, Bo Chen, Bolei
+Zhou, Boqing Gong, Boxin Shi, Boyi Li, Brendan Tran Morris, Bruce Allen Maxwell, Bryan A. Plummer, Bryan Morse, Bumsub Ham, Carl Doersch, Carl Vondrick, Chang Xu, Chao Ma, Chao-Yuan Wu, Chaowei Xiao, Charless
+Fowlkes, Chen Change Loy, Chen Sun, Chen Wang, Chengjiang Long, Chenliang Xu, Chenyou Fan, Chetan Arora, Chong Luo, Christian Rupprecht, Christopher Clark, Christopher Funk, Chuang Gan, Chuhang Zou, Chunyu
+Wang, Cihang Xie, Cornelia Fermuller, Cristian Canton Ferrer, Cuiling Lan, Cuong V. Nguyen, Dahun Kim, Dan Xu, Danna Gurari, David B. Lindell, David Fouhey, David Novotny, Deng-Ping Fan, Devis Tuia, Di He, Di Huang,
+Diane Larlus, Dim Papadopoulos, Dima Damen, Dimosthenis Karatzas, Dinesh Jayaraman, Dingwen Zhang, Dong Chen, Dong Xu, Dongfang Liu, Eddy Ilg, Elisa Ricci, Emily Morgan Hand, Enrique Dunn, Eshed Ohn-Bar, Evan
+Shelhamer, Evangelos Kalogerakis, Fahad Khan, Fartash Faghri, Fatma Guney, Federico Tombari, Feng Lu, Francesc Moreno-Noguer, Gang Yu, Gedas Bertasius, Georgia Gkioxari, Georgios Pavlakos, Georgios Tzimiropoulos,
+Gim Hee Lee, Giovanni Maria Farinella, Gordon Wetzstein, Guanbin Li, Guansong Pang, Gül Varol, Guosheng Lin, Guoyu Lu, Hadi Pouransari, Hae-Gon Jeon, Hajime Nagahara, Hamid Rezatofighi, Han-Jia Ye, Hanbyul Joo, Hao
+Chen, Hao Dong, Henghui Ding, Hengshuang Zhao, Hideki Nakayama, Hilde Kuehne, Hirokatsu Kataoka, Hiroshi Kawasaki, Hong Chang, Hong Xuan, Hongyang Li, Hossein Rahmani, Hsin-Ying Lee, Hu Han, Huaizu Jiang, Hui
+Ji, Huijuan Xu, Huiwen Chang, Hung-Yu Tseng, Hyun Soo Park, Hyunjung Shim, Hyunwoo J. Kim, Iacopo Masi, Ioannis Gkioulekas, Ishan Misra, Ishani Chakraborty, Jaesik Park, James Hays, Jason J Corso, Jasper Uijlings,
+Jean-Francois Lalonde, Jeany Son, Jiahuan Zhou, Jiajun Wu, Jian Wang, Jianfei Cai, Jiankang Deng, Jianwen Xie, Jimei Yang, Jingya Wang, Jinwei Gu, Joao P Barreto, Jonathan T. Barron, Jong Chul Ye, Jonghyun Choi, Jordi
+Pont-Tuset, Joseph Tighe, Judy Hoffman, Jufeng Yang, Jun Liu, Jun-Yan Zhu, Jungseock Joo, Junseok Kwon, Junsong Yuan, Kai Han, Kaiyang Zhou, Kannappan Palaniappan, Karteek Alahari, Katerina Fragkiadaki, Keiji Yanai,
+Ken Sakurada, Kevin J Liang, Khoa Luu, Kiana Ehsani, Kihyuk Sohn, Kris M. Kitani, Kristin Dana, Kwang In Kim, Kwang Moo Yi, Lam M. Nguyen, Lamberto Ballan, Laura Leal-Taixé, Laurent Kneip, Le Lu, Lei Wang, Leif Kobbelt,
+Li Erran Li, Li Fuxin, Li Yi, Li Zhang, Liang Lin, Liang Zheng, Liang-Chieh Chen, Limin Wang, Lingjie Liu, Lingxi Xie, Linjie Yang, Liwei Wang, Long Chen, Lourdes Agapito, Lu Jiang, Lu Sheng, Lu Yuan, Luca Weihs, M. Salman
+Asif, Mahdi S. Hosseini, Mang Ye, Manohar Paluri, Manolis Savva, Marcello Pelillo, Marco Lorenzi, Marcus Rohrbach, Margret Keuper, Maria Vakalopoulou, Mark Yatskar, Massimiliano Mancini, Matej Kristan, Matt Feiszli, Matthew
+Brown, Matthew O'Toole, Matthieu Cord, Mehrdad Farajtabar, Miaomiao Liu, Michael Maire, Michael Wray, Mike Zheng Shou, Min H. Kim, Min Sun, Mingkui Tan, Mingsheng Long, Mingze Xu, Minh Hoai, Minjie Cai, Minsu Cho,
+Mohamed Elhoseiny, Mohit Gupta, Mohsen Ali, Muhammad Haris Khan, Negar Rostamzadeh, Neill D. F. Campbell, Nianyi Li, Niloy Mitra, Ning Yu, Noah Snavely, Norimichi Ukita, Nuno Vasconcelos, Oana-Maria Camburu, Oisin
+Mac Aodha, Oliver Wang, Oncel Tuzel, Pablo Arbelaez, Paolo Favaro, Pascal Mettes, Paul Hongsuck Seo, Pedro Morgado, PENG WANG, Peter Hedman, Peter Vincent Gehler, Peter Wonka, Peyman Milanfar, Philippos
+Mordohai, Ping Hu, Ping Luo, Piotr Bojanowski, Piotr Koniusz, Pratul P. Srinivasan, Praveen Krishnan, Qi Dai, Qi Wu, Qian Yu, Qifeng Chen, Qilong Wang, Qixing Huang, Rafal Mantiuk, Raffay Hamid, Rahaf Aljundi, Ran He, Rana
+Hanocka, Ranjay Krishna, Ravi Ramamoorthi, Raymond A. Yeh, Rei Kawakami, Richard Zhang, Robby T. Tan, Rohit Girdhar, Roman Pflugfelder, Ryoma Bise, Sai-Kit Yeung, Salman Khan, Sanjeev Jagannatha Koppal, Sara
+Beery, Sarah Adel Bargal, Sareh Rowlands, Sathyanarayanan N. Aakur, Satoshi Tsutsui, Saurabh Gupta, Saurabh Singh, Scott McCloskey, Scott Workman, Seong Joon Oh, Ser-Nam Lim, Sergey Tulyakov, Seunghoon Hong,
+Seungryong Kim, Seungyong Lee, Shalini De Mello, Shang-Hong Lai, Shanshan Zhang, Shaohui Lin, Sharon X Huang, Shayok Chakraborty, Shenghua Gao, Shenlong Wang, Shijian Lu, Shin'ichi Satoh, Shizhe Chen, Shohei
+Nobuhara, Shubham Tulsiani, Shuicheng YAN, Siavash Arjomand Bigdeli, Siyu Tang, Song Bai, Srinath Sridhar, Stefan Lee, Stefano Mattoccia, Stella X. Yu, Stephan Alaniz, Stephan Richter, Stephen James, Stratis Gavves,
+Subhashini Venugopalan, Suha Kwak, Tae Hyun Kim, Tae-Hyun Oh, Tae-Kyun Kim, Taesung Park, Taesup Moon, Takayuki Okatani, Tanmay Gupta, Tat-Jen Cham, Tat-Jun Chin, Tatsuya Harada, Thibaut Durand, Thomas Kipf,
+Tian Han, Tianfan Xue, Ting Yao, Ting Zhang, Tinne Tuytelaars, Todd Zickler, Tolga Birdal, Tony Tung, Toshihiko Yamasaki, Tsung-Yi Lin, Tushar Nagarajan, Ulugbek S. Kamilov, Unnat Jain, Varun Jampani, Venkatesh Babu
+Radhakrishnan, Viktoriia Sharmanska, Vincent Lepetit, Vincent Sitzmann, Vishal M. Patel, Vítor Albiero, Vittorio Murino, Vlad I Morariu, Wangmeng Zuo, Waqas Sultani, Wei Liu, Wei Yang, Wei-Chih Hung, Wei-Chiu Ma, Weihong
+Deng, Weisong Shi, Wen Li, Wenguan Wang, Wenqi Ren, William Robson Schwartz, Xi Peng, Xiangyu Xu, Xiangyu Yue, Xiaoguang Han, Xiaojuan Qi, Xiaoming Liu, Xiaowei Zhou, Xiaoyu Wang, Xihui Liu, Xin Wang, Xin Yang,
+Xin Yu, Xingang Pan, Xinggang Wang, Xinlei Chen, Xiu-Shen Wei, Xueting Li, Xuming He, Xun Cao, Yale Song, Yan Huang, Yan Zhang, Yanchao Yang, Yang Song, Yang Wang, Yang You, Yannis Kalantidis, Yaoyao Liu, Yasushi
+Makihara, Yebin Liu, Yedid Hoshen, Yen-Yu Lin, Yezhou Yang, Yi Wu, Yi-Hsuan Tsai, Yi-Ting Chen, Yibing Song, Yifei Huang, Yijun Li, Yin Li, Ying Fu, Ying Wu, Yinghuan Shi, Yingli Tian, Yinqiang Zheng, Yisen Wang, Yiyi Liao,
+Yonatan Bisk, Yong Jae Lee, Yosi Keller, Yu Cheng, Yu Kong, Yu Li, Yu Wu, Yu-Chuan Su, Yu-Xiong Wang, Yuandong Tian, Yuchao Dai, Yuki M Asano, Yulun Zhang, Yumin Suh, Yunchao Wei, Yung-Yu Chuang, Yunzhu Li, Yusuke
+Sugano, Yuyin Zhou, Zaid Harchaoui, Zhangyang Wang, Zhaowei Cai, Zhaoxiang Zhang, Zhe Gan, Zheng Zhang, Zhengming Ding, Zhengqi Li, Zhirong Wu, Zhizhong Han, Zhun Zhong, Ziwei Liu, Zongwei Zhou, Zsolt Kira,
+Zuxuan Wu, Zuzana Kukelova
+
+Reviewers (n=9,872)
+
+Outstanding Reviewers
+Aadarsh Sahoo, Aaron Walsman, Abhinav Shukla, Adnan Qayyum, Adrian Lopez, Adrian Penate-Sanchez, Ahmed Taha, Alessio Xompero,
+Alexander Hermans, Alexandros Haliassos, Alvaro Budria, Amine Bourki, Ana C Murillo, Anastasia Antsiferova, Andrea Conti, Andrew Brown,
+Anh-Quan Cao, Anil Usumezbas, Anna Kukleva, Arjun Karpur, Armin Hadzic, Ashish Ramayee Asokan, Assia Benbihi, Ayush Jain, Ayush Saraf,
+Benjamin Busam, Bicheng Xu, Bingliang Jiao, Bumsoo Kim, Carlo Masone, Carlos Rodriguez-Pardo, Changqing Zhang, Chenglin Yang, Chengze
+Miaomiao Li, Cheston Tan, Chiao An Yang, Chi Xu, Chunghyun Park, Cristian Rodriguez-Opazo, Dahyun Kang, Daqi Liu, Davide Cozzolino,
+David Fan, Da-Wei Zhou, Despoina Paschalidou, Di Hu, Dominique Ginhac, Donald G. Dansereau, Dongbo Min, Dong-Jun Han, Effrosyni
+Mavroudi, Elisavet Konstantina, Stathopoulou, Evangelos Kazakos, Fabio Tosi, Faisal Z Qureshi, Forrester Cole, Francis Engelmann, Francois
+Rameau, Fuyong Xing, Ganesh Subramanian Iyer, Gilles Puy, Ginger Delmas, Goutam Bhat, Guoli Jia, Gurumurthy Swaminathan, Hakan Bilen,
+Hanchen Xie, Hannah Kerner, Haomin Liu, Hao Zhu, Hawook Jeong, Hazel Doughty, Hermann Blum, Hongwei Bran Li, Huan Wang, Hui Liang,
+Inhwan Bae, Ioannis Papoutsis, Iro Laina, Ishan Rajendrakumar Dave, Jaeyoo Park, Jan Eric Lenssen, Jangwon Lee, Jaskirat Singh, Jens
+Behley, Jiangpeng He, Jianyi Wang, Jieji Ren, Jihyong Oh, Jingkang Yang, Jingyuan Yang, Joe Mathai, Joerg Stueckler, Jonghee Kim, Juan
+Camilo Perez, Julian Straub, Junhwa Hur, Jun Xiao, Junyao Hu, Kevin Qinghong Lin, Khang Truong Giang, Kiru Park, Konda Reddy Mopuri,
+Kongming Liang, Konstantinos Batsos, Kumar Ashutosh, Lin Geng Foo, Lin Zhu, Luisa Verdoliva, M. Saquib Sarfraz, M. Usman Rafique,
+Mahmoud Afifi, Mannat Singh, Martin R. Oswald, Matteo Poggi, Matthew Joseph Leotta, Mattia Savardi, Mayu Otani, Michaël Gharbi, Michael S.
+Brown, Michael Weinmann, Michel Antunes, Ming Jiang, Mohamed E. Hussein, Mohammad Reza, Hosseinzadeh Taher, Monica Hernandez, Mo
+Zhou, Nan Pu, Nicholas Kolkin, Paola Cascante-Bonilla, Patrick Ebel, Paul-Edouard Sarlin, Philipp Lindenberger, Qiang Xu, Qian Zheng, Qize
+Yang, Renato Martins, Reuben Tan, Riccardo Volpi, Richard Newcombe, Ruicong Liu, Ruihan Gao, Saihui Hou, Samaneh Azadi, Satwik Kottur,
+Satya Krishna Gorti, Shuhong Zheng, Shu Zhang, Shyamal Buch, Siamul Karim Khan, Sima Behpour, Simon Stepputtis, Siyan Dong, Sourav
+Garg, Spencer Whitehead, Stefan Leutenegger, Stefano Berretti, Sunghoon Im, Swathikiran Sudhakaran, Terrance E. Boult, Thomas Hummel,
+Toby Perrett, Torsten Sattler, Touqeer Ahmad, Valerio Cambareri, Vishaal Udandarao, Volker Rodehorst, Williem, Wojciech Zielonka, Wonwoong
+Cho, Xiang An, Xiang Li, Xiangyu He, Xiaohan Zhang, Xingyi Zhou, Xiongwei Wu, Yanbin Liu, Yankai Jiang, Yannick Hold-Geoffroy, Yi Dong,
+Yihua Zhang, Yinan Zhao, Yongzhen Huang, Yuanhao Cai, Yuesong Wang, Yu-Lun Liu, Yunqi Miao, Yunze Man, Yurui Zhu, Yusuke Matsui,
+Yu-Wei Chao, Yuyu Guo, Zan Gojcic, Zerong Zheng, Zheheng Jiang, Zhekun Luo, Zheng Chen, Zhibin Liao, Zhicheng Zhang, Zhihe Lu, Zhou Yu
+
+Paper decisions
+●
+●
+●
+●
+●
+
+Each paper received 3 reviews and a meta-review from
+an Area Chair.
+Decisions made within triplets of ACs.
+We decided to bring back orals, but also keep the
+CVPR 2023 innovation of “highlighted” posters
+Orals and highlight candidates collected from the ACs
+Overall acceptance rate: 23.6%
+○
+○
+○
+
+90 (3.3%) of papers are Orals+posters
+324 (11.9%) of papers are “highlights” posters, with
+special annotation in the program
+2,305 additional posters
+
+Submissions and decisions, by primary topic
+
+Wednesday
+
+Thursday
+
+Friday
+
+8:30 AM Opening
+Orals
+1A Low-level vision
+9:00 AM 1B Vision and Graphics
+1C Humans: Face, body, pose, gesture,
+movement
+
+Orals
+3A 3D from single view
+3B Vision, Language, and Reasoning
+3C Medical and Physics-based vision
+
+Orals
+5A Datasets and evaluation
+5B 3D from multiview and sensors
+5C Low-shot, self-supervised, semi-supervised
+learning
+
+10:30 AM Posters
+
+Posters
+
+Posters
+
+12:00 PM Lunch
+
+Lunch
+
+Lunch
+
+Orals
+Orals
+4A Autonomous navigation & egocentric
+2A Image & Video Synthesis
+1:00 PM
+vision
+2B Deep learning architectures & techniques
+4B 3D Vision
+2C 3D from multiview and sensors
+4C Action and motion
+
+Orals
+6A Low-level vision and remote sensing
+6B Image & Video Synthesis
+6C Multi-modal learning
+
+2:45 PM
+
+Keynote
+Joshua Bongard
+
+Keynote
+David Baker
+
+Keynote
+Sofia Crespo
+
+4:00 PM
+
+Panel
+Societal opportunities and challenges of AI
+
+PAMI-TC Meeting
+
+Panel
+CVPR: Past, Present, and Future
+
+5:15 PM Posters
+
+Posters
+
+Posters
+
+7:00 PM
+
+Reception and Music
+
+Keynotes
+Wednesday 2:45pm
+
+Thursday 2:45pm
+
+Friday 2:45pm
+
+Joshua Bongard
+
+David Baker
+
+Sofia Crespo
+
+Veinott Professor of Computer
+Science, University of Vermont
+“The Tip and the Iceberg: Deep
+Learning and Embodiment”
+
+Professor of Biochemistry,
+University of Washington
+“Design of New Protein Functions Using
+Deep Learning”
+
+Artist
+“Entanglements, Exploring Artificial
+Biodiversity”
+
+Panels
+Societal opportunities and challenges of AI
+
+CVPR: Past, Present, and Future
+
+Wednesday 4:00pm
+
+Friday 4:00pm
+
+Nicole Decari
+
+Oren Etzioni
+
+Peter Lee
+
+Director of AI & Society
+Allen Institute for AI
+
+Founder
+Truemedia.org
+
+President
+Microsoft Research
+
+Fei-Fei Li
+
+Matt McIlwain
+
+Hadi Partovi
+
+Cordelia Schmid
+
+Ranjay Krishna
+
+Sequoia Professor
+Stanford University
+
+Managing Director
+Madrona Ventures
+
+CEO
+Code.org
+
+Research Director, INRIA
+and Google
+
+Assistant Professor
+Univ of Washington
+
+Kiana Ehsani
+
+Dima Damen
+
+Senior Research ScientistProfessor, Univ of Bristol and
+Allen Institute for AI
+Google DeepMind
+
+PAMI TC Meeting
+4pm Thursday in Summit Flex Hall ABC
+Motions will be discussed!
+
+Expo Track Keynotes
+Wednesday 1:15pm
+
+Thursday 10:30am
+
+Friday 9:00am
+
+Swami Sivasubramanian
+
+Andrea Gagliano
+
+Ece Kamar
+
+Vice President of AI & Data,
+AWS
+“Computer vision at scale: Driving
+customer innovation and industry
+adoption”
+
+Senior Director of AI/ML,
+Getty Images
+“Today’s Pictures, Tomorrow’s Training
+Data: The Synergy Between Human
+Creativity and AI”
+
+Managing Director,
+Microsoft Research AI Frontiers Lab
+“Phase Transition in AI: Opportunities and
+Gaps Towards Making AI Real”
+
+Awards
+
+Best Paper Awards
+●
+●
+
+24 best paper award candidates were nominated by
+the Area Chairs, marked in the program
+From the candidates, 10 papers were selected for an
+award by the Program Chairs
+○
+○
+○
+○
+
+●
+
+4 Best Student Paper Runners-Up
+2 Best Student Papers
+2 Best Paper Runners-Up
+2 Best Papers
+
+We’ll present certificates to the award winners at the
+PAMI-TC meeting on Thursday
+
+Best Student Paper Runner-Ups
+
+Best Student Paper Runner-Ups
+
+Best Student Paper Runner-Ups
+
+Best Student Paper Runner-Ups
+
+Best Student Papers
+
+Best Student Papers
+
+Best Paper Runners-Up
+
+Best Paper Runners-Up
+
+Best Papers
+
+Best Papers
+
+PAMI TC Award Process
+●
+
+PAMITC Awards committee: R. Zabih & T. Tuytelaars (chairs), D.
+Forsyth, W. Freeman, R. Hartley, T. Kanade, J. Malik, G. Medioni, C.
+Schmid, A. Zisserman
+
+●
+
+Conflicts of interest policy adapted from NSF guidelines
+
+●
+
+Voting system allows mild conflicts not to count positively or negatively
+
+2024 PAMI TC Awards Committees
+Longuet-Higgins Prize
+R. Hartley (chair), P. Perona, J. Shi
+
+Young Researcher Award
+R. Zabih & T. Tuytelaars (chairs), K. Kutulakos, C. Liu, N. Paragios, M. Pollefeys
+
+Thomas Huang Memorial Prize
+G. Medioni (chair), M. Black, R. Chellappa, A. Fitzgibbon, D. Fleet, E. Grimson,
+R. Hartley, K.M. Lee, C. Schmid, H. Shi
+
+Longuet-Higgins Prize
+Rich Feature Hierarchies for Accurate Object
+Detection and Semantic Segmentation
+Ross Girshick, Jeff Donahue, Trevor Darrell and
+Jitendra Malik
+
+Young Researcher Award
+(Honorable Mention)
+
+Katie Bouman
+
+Young Researcher Award
+
+Angjoo Kanazawa
+
+Carl Vondrick
+
+Thomas Huang Memorial Prize
+
+Andrea Vedaldi
+
+We Wish You a Wonderful CVPR
+
+

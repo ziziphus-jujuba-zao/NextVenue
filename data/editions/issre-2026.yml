@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: issre-2026
+series: issre
+name: ISSRE 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SE/ISSRE
+  conf_id: issre26
+  link: https://cyprusconferences.org/issre2026/
+  place: Limassol, Cyprus
+  date: October 20-23, 2026
+  timezone: AoE
+location:
+  city: Limassol
+  country: Cyprus
+  country_code: CY
+dates:
+  start: 2026-10-20
+  end: 2026-10-23
+milestones:
+  - type: abstract
+    at: 2026-04-24T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Extended Research Track deadlines"
+  - type: paper
+    at: 2026-04-24T23:59
+    tz: AoE
+    status: confirmed
+    note_zh: "ccfddl: Extended Research Track deadlines"
+  - type: conference
+    start: 2026-10-20
+    end: 2026-10-23
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

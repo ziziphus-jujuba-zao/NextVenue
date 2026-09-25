@@ -1,0 +1,62 @@
+id: cav-2027
+series: cav
+name: CAV 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Amsterdam, country: Netherlands, country_code: NL }
+dates: { start: 2027-07-19, end: 2027-07-23 }
+milestones:
+  - type: paper
+    at: 2027-01-20T23:59
+    tz: AoE
+    status: confirmed
+    src: cav-2027-cfp
+    quote: "Submission Deadline Wednesday, January 20, 2027, 23:59 AoE"
+    note_zh: 没有单独的摘要截止。每位作者最多投 5 篇（三类论文合计）。
+  - type: phase1_notification
+    label_zh: 早期拒稿通知
+    at: 2027-03-04
+    tz: AoE
+    status: confirmed
+    src: cav-2027-cfp
+    quote: "Early rejection notification Thu, 4 Mar 2027"
+    note_zh: 两阶段审稿：第一阶段每篇两份审稿，支持不够的论文在这一天提前拒稿；进入第二阶段的论文再加两份审稿，并可以 rebuttal。
+  - type: supplementary
+    label_zh: 工具论文 artifact 注册
+    at: 2027-03-08
+    tz: AoE
+    status: confirmed
+    src: cav-2027-cfp
+    quote: "Artifact registration (tool papers) Mon, 8 Mar 2027"
+    note_zh: 工具论文必须通过 artifact 评测才能录用（官网提醒今年工具论文的要求和 artifact 注册与 CAV 2026 不同）；其他论文的 artifact 注册在 4/26，自愿参加。
+  - type: author_response
+    start: 2027-04-05
+    end: 2027-04-08
+    tz: AoE
+    status: confirmed
+    src: cav-2027-cfp
+    quote: "Author response period Mon, 5 – Thu, 8 Apr 2027"
+    note_zh: 只有进入第二阶段的论文有作者回复。
+  - type: notification
+    at: 2027-04-23
+    tz: AoE
+    status: confirmed
+    src: cav-2027-cfp
+    quote: "Author notification Fri, 23 Apr 2027"
+  - type: camera_ready
+    at: 2027-05-18T23:59
+    tz: AoE
+    status: confirmed
+    src: cav-2027-cfp
+    quote: "Camera-ready deadline Tue, 18 May 2027"
+  - type: conference
+    start: 2027-07-19
+    end: 2027-07-23
+    tz: Europe/Amsterdam
+    status: confirmed
+    src: cav-2027-cfp
+    quote: "Conference (including workshops) Mon, 19 – Fri, 23 Jul 2027, Amsterdam"
+    note_zh: 7/19–20 是 workshop，主会 7/21–23。会场是 KIT（原皇家热带研究所）。
+last_checked: 2026-09-25
+note_zh: 第 39 届 CAV，第一次在荷兰举办；2027 年不在 FLoC 内。常规论文和工具论文投稿不超过 18 页，应用/工业/案例论文不超过 10 页；常规论文双盲，工具和应用论文单盲。官网写明所有截止都是 23:59 AoE。

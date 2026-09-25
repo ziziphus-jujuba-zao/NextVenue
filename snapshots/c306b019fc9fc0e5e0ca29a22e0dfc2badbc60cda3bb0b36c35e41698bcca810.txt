@@ -1,0 +1,719 @@
+VMCAI 2027
+Mon 11 - Tue 12 January 2027 Mexico City, Mexico
+co-located with POPL 2027
+Toggle navigation
+ * Attending
+   * Venue: Hilton Mexico City Reforma
+ * Track/Call
+ * Organization
+    * VMCAI 2027 Committees
+    * Track Committees
+    * Organizing Committee
+    * Steering Committee
+    * Program Committee
+    * Artifact Evaluation Committee
+    * Contributors
+    * People Index
+ * Search
+ * Series
+   * Series
+   *
+   * VMCAI 2027
+   * VMCAI 2026
+   * VMCAI 2025
+   * VMCAI 2024
+   * VMCAI 2023
+   * VMCAI 2022
+   * VMCAI 2021
+   * VMCAI 2020
+   * VMCAI 2019
+   * VMCAI 2018
+   * VMCAI 2017
+   * VMCAI
+
+ * Sign in
+ * Sign up
+
+POPL 2027 (series) / VMCAI 2027 (series) /
+
+28th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2027)VMCAI 2027
+
+ * About
+ * Call for Artifacts
+ * Call for Papers
+
+Welcome to the website of the 28th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2027).
+
+VMCAI provides a forum for researchers from the communities of Verification, Model Checking, and Abstract Interpretation, facilitating interaction, cross-fertilization, and advancement of hybrid methods that combine these and related areas. VMCAI 2027 will be the 28th edition in the series. VMCAI 2027 will take place during January 11-12, 2027 as a physical (in-person) event in Mexico City, Mexico, co-located with POPL 2027.
+
+Sponsorship
+
+VMCAI is welcoming diamond, silver and bronze sponsors.
+
+Invited Speakers
+
+TBA
+
+Cezara Drăgoi
+
+TBA
+
+Isabella Mastroeni
+
+Call for Papers
+
+VMCAI provides a forum for researchers from the communities of Verification, Model Checking, and Abstract Interpretation, facilitating interaction, cross-fertilization, and advancement of hybrid methods that combine these and related areas. VMCAI 2027 will be the 28th edition in the series.
+
+VMCAI 2027 will take place on January 11–12, 2027 as a physical (in-person) event in Mexico City, Mexico, co-located with POPL 2027. For each accepted paper, at least one author is required to register for the conference and present the paper in person.
+
+List of Topics
+
+The program will consist of refereed research papers as well as invited talks. Research contributions may report new results, experimental evaluations, and comparisons of existing techniques.
+
+Topics include, but are not limited to:
+
+ * program verification
+ * model checking
+ * abstract interpretation
+ * abstract domains
+ * program synthesis
+ * static analysis
+ * type systems
+ * deductive methods
+ * program logics
+ * first-order theories
+ * decision procedures
+ * interpolation
+ * Horn clause solving
+ * program certification
+ * separation logic
+ * probabilistic programming and analysis
+ * error diagnosis
+ * detection of bugs and security vulnerabilities
+ * program transformations
+ * hybrid and cyber-physical systems
+ * concurrent and distributed systems
+ * verification for quantum computation
+ * analysis of numerical properties
+ * analysis of smart contracts
+ * analysis of neural networks
+ * case studies on all of the above topics
+
+Submission Guidelines
+
+Submissions must follow the Springer LNCS format. Please refer to Springer’s author instructions and templates.
+
+Submission is via EasyChair.
+
+All accepted papers will be published in Springer’s Lecture Notes in Computer Science (LNCS) series. The corresponding author of each accepted paper must complete and sign a License-to-Publish form when submitting the camera-ready version.
+
+Paper Categories
+
+Category         Page limit*
+Regular papers   20 pages
+Tool papers      12 pages
+Case studies     20 pages
+
+*Page limits exclude references.
+
+Regular Papers
+
+Regular papers should clearly identify and justify an advance in the field of verification, abstract interpretation, or model checking. Where applicable, they should be supported by experimental validation.
+
+Regular papers should contain original research and sufficient detail to assess the merits and relevance of the contribution. They will be evaluated on the basis of a combination of correctness, technical depth, significance, novelty, clarity, and elegance.
+
+Tool Papers
+
+Tool papers should present a new tool, a new tool component, or novel extensions to an existing tool. They should provide a short description of the theoretical foundations with relevant citations and emphasize design and implementation concerns, including software architecture and core data structures.
+
+A tool paper should give a clear account of the tool’s functionality, discuss its practical capabilities with reference to the type and size of problems it can handle, describe experience with realistic case studies, and, where applicable, provide a rigorous experimental evaluation.
+
+Papers presenting extensions to existing tools should clearly focus on the improvements or extensions with respect to previously published versions, preferably substantiated by data on enhancements in terms of resources and capabilities.
+
+Authors are strongly encouraged to make their tools publicly available and submit an artifact.
+
+Case Studies
+
+Case studies are expected to describe the use of verification, model checking, and abstract interpretation techniques in new application domains or industrial settings.
+
+Papers in this category do not necessarily need to present original research results but are expected to contain novel applications of formal methods techniques as well as an evaluation of these techniques in the chosen application domain.
+
+Such papers are encouraged to discuss the unique challenges of transferring research ideas to a real-world setting and reflect on lessons learned from this technology transfer experience. Shorter case study papers are also welcome.
+
+Review Process
+
+Regular paper submissions will undergo a double-blind review process.
+
+Authors submitting regular papers should ensure that their manuscripts are properly anonymized.
+
+Artifacts
+
+VMCAI 2027 offers authors the option to submit an artifact alongside their paper. Artifacts include any additional material that substantiates the claims made in the paper and, ideally, enables the reported results to be fully reproducible.
+
+Artifact evaluation is conducted alongside the paper review, and its outcome may influence the final acceptance decision.
+
+Authors of tool papers are strongly encouraged to make their tools publicly available and submit an artifact.
+
+Additional Information
+
+ * References do not count toward the page limit.
+ * Authors may include a clearly marked appendix after the references. Appendices are not subject to the page limit, but reviewers are not required to read them.
+ * Simultaneous submissions to other conferences with proceedings, or submissions of material that has already been published elsewhere, are not permitted.
+
+Call for Artifacts
+
+VMCAI 2027 makes available the option to submit an artifact along with a paper. Artifacts are any additional material that substantiates the claims made in the paper, and ideally makes them fully replicable. For some papers, these artifacts are as important as the paper itself because they provide crucial evidence for the quality of the results. The goal of artifact evaluation is twofold. On the one hand, we want to encourage authors to provide more substantial evidence to their papers and to reward those who create artifacts. On the other hand, we want to simplify the independent replication of results presented in the paper and to ease future comparison with existing approaches.
+
+Artifacts of interest include (but are not limited to):
+
+ * Software, Tools, or Frameworks
+ * Data sets
+ * Test suites
+ * Machine checkable proofs
+ * Any combination of them
+ * Any other artifact described in the paper
+
+Artifact submission is optional, but highly encouraged. A successfully evaluated artifact can increase your chance of being accepted since the evaluation result of your artifact is taken into account during paper discussion.
+
+Artifact evaluation is single blind, artifacts should not be anonymized.
+
+Badges
+
+We award three types of badges, following the ACM guidelines:
+
+ * Available for artifacts that are publicly available under a DOI, e.g., on Zenodo or figshare. (GitHub, Google Drive, etc. do not qualify.)
+ * Functional for artifacts that are successfully evaluated by the AEC as exercisable and consistent with the paper’s claims. (This badge can be awarded even if the available badge is not.)
+ * Reusable for available and functional artifacts that excel in quality and additionally provide careful documentation to allow for future repurposing.
+
+Important Dates AoE (UTC-12)
+
+The artifact evaluation will be done in parallel with the evaluation of the submitted paper. Since VMCAI has a tight schedule, we ask authors who intend to submit their artifact to register it in advance, so that the smoke test phase may begin immediately on the artifact submission deadline. The registration amounts to creating the submission in EasyChair.
+
+What                                     When
+Artifact registration                    September 18, 2026 September 25, 2026
+Artifact submission deadline             September 23, 2026 September 30, 2026
+Artifact smoke test phase notification   September 29, 2026 October 6, 2026
+Artifact end of response period          October 2, 2026 October 9, 2026
+Artifact notification                    November 6, 2026
+
+Each artifact will be reviewed by at least two members of the artifact evaluation committee. Reviewers will read the paper and explore the artifact to evaluate how well it supports the claims and results of the paper. The evaluation is based on the following questions.
+
+ * Is the artifact consistent with the paper and the claims made by the paper?
+ * Are the results of the paper replicable through the artifact?
+ * Is the artifact complete, i.e., how many of the results of the paper are replicable?
+ * Is the artifact well-documented?
+ * Is the artifact easy to use?
+
+The artifact evaluation is performed in the following two phases.
+
+ * In the smoke test phase, reviewers will download the artifact, read the instructions, set up the artifact on their machines, and attempt to run the provided smoke tests (see below for Submission contents). In this phase, reviewers will look for setup problems (e.g., corrupted or missing files, crashes on simple examples, etc.), and inform the authors about any detected problems. If problems are encountered, the authors will only get 3 days to respond to the reviews and possibly update the artifact. Since this fixing period is rather short, we highly recommend the authors to test their artifact thoroughly before sending the submission, possibly on different machines.
+ * In the full review phase, reviewers will read the paper and try to reproduce any experiments and evaluate the artifact w.r.t. the questions detailed above.
+
+Artifact Registration
+
+Registration page: https://easychair.org/conferences/?conf=vmcai2027 (Choose the option to submit to the artifact evaluation track).
+
+An artifact registration consists of:
+
+ * a title and abstract that summarizes the artifact and explains its relation to the paper,
+ * the title artifact-NN-XX where XX is the title of your paper and NN is the paper’s submission number in Easychair,
+ * the .pdf file of the submitted paper,
+ * the expected resource requirements (RAM, number of cores, CPU frequency, external connectivity, etc.), estimated time for testing the artifact, any assumption on the users’ architecture (x86 or ARM), and needed licences.
+ * the badges you will apply for.
+
+Artifact bidding and assignment to reviewers will be based on these data: please make sure you mention all resource requirements and assumptions about the user’s machine. You don’t need to provide a URL or a SHA256 checksum during artifact registration: the page will be editable until the artifact submission deadline.
+
+Artifact Submission
+
+Submission page (same as registration): https://easychair.org/conferences/?conf=vmcai2027
+
+An artifact submission consists of an artifact registration extended with:
+
+ * the URL (preferably a DOI) from which a .zip or .tar.gz archive file containing the artifact can be downloaded,
+ * the SHA256 checksum of the archive file.
+
+The URL must point to independent services, such as Zenodo and figshare, to help protect the anonymity of the reviewers. Zenodo provides a Concept DOI (a DOI that automatically resolves to the latest version of the artifact): do not provide it; instead, provide the DOI for the specific submitted version.
+
+You can generate the checksum using the following command-line tools:
+
+ * Linux: sha256sum <file>
+ * Windows: CertUtil -hashfile <file> SHA256
+ * MacOS: shasum -a 256 <file>
+
+Submission Contents
+
+Your artifact archive file must contain the following:
+
+ 1. The main artifact, i.e., data, software, libraries, scripts, etc. required to replicate the results of your paper.
+
+    * The preferred way to provide your artifact is as a Docker image. See below for further packaging guidelines. We recommend you provide easy to use scripts for the user to reproduce and analyze the results, i.e., scripts to run tools with the intended configuration and scripts to visualize their outcome as tables/plots. The review will be single blind. Please make sure that you do not (accidentally) expose the identity of the reviewers (e.g., through analytics, logging).
+
+ 2. The logs from your experiments (optional).
+
+    * We encourage you to include the logs from your experiments in a way that the reviewers can run the provided analysis scripts on them to help identify potential issues. If the full set of logs is too large, providing a representative subset is also acceptable.
+
+ 3. A LICENSE file.
+
+    * Your license needs to allow the artifact evaluation committee members to download and evaluate the artifact, e.g., use, execute, and modify the artifact for the purpose of artifact evaluation.
+
+ 4. A README file that introduces the artifact and guides the user through the replication of your results. Ideally, it should include the following parts:
+
+    * Smoke test: this is a Getting Started Guide detailing how to set up the artifact and prepare the environment for replicating the results from the paper. You should provide clear instructions that allow installation and rudimentary testing (i.e., in such a way that technical difficulties would pop up) in as little time as possible (ideally minutes), together with the expected outcome of such rudimentary testing (to know whether it was successful). Especially in this phase, clarity is essential: the provided instructions should be followed by any computer science graduate with a working knowledge of the command line. Do not assume any expertise in your field or on Docker artifacts. You should expect that only this part is executed by the reviewers in the smoke test phase. Note that for issues not caught during such a phase, you will not be able to respond.
+    * Full review: this part contains step-by-step instructions for replicating the results from the paper.
+      * Please document which claims or results of the paper can be replicated with the artifact and how (e.g., which experiment must be performed). Please also explain which claims and results cannot be replicated and why.
+      * Describe in detail the steps needed to replicate the results in the paper. To simplify the reviewing process, we recommend providing evaluation scripts (where possible).
+      * Precisely state the resource requirements (RAM, number of cores, CPU frequency, etc.), which you used to test your artifact.
+      * Provide a rough estimate of the time needed to run the experiments.
+      * Explain how to read the outputs and logs produced.
+      * For tasks that require a large amount of resources (hardware or time), we recommend you to provide the option to replicate a subset of the results with reasonably modest resource and time limits, e.g., within 8 hours on a reasonable personal computer equipped with 16 GB of RAM. In this case, please also include a script to replicate only a subset of the results.
+    * Requested Badges (optional): a summary listing the requested badges and their justifications by referencing the relevant parts in the README.
+
+Note: the README file must (also) be provided outside the image, to allow opening it in the host machine and copy-and-paste of command lines for running the scripts.
+
+Artifact Packaging Guidelines
+
+The preferred way to package your artifact is a Docker image. This is to ensure that your artifact can be executed independently of the host operating system. To ensure that reviewers can run your artifact on both x86 (e.g. AMD and Intel processors) and newer ARM (e.g., Apple Silicon) without ISE emulation, we recommend you submit two pre-compiled Docker images, one for x86 and one for ARM platforms.
+
+Note: if you provide only one image, the reviewers may need to resort to emulation, which will significantly impair performance. If this is the case, you should clearly mark the preferred architecture in the resource requirements field of your submission.
+
+Below is a quick start guide for producing Docker images provided you have an adequate Dockerfile to generate your artifact. Please refer to the official Docker documentation, in particular the one for cross-compilation for further details and troubleshooting.
+
+To create and export a Docker image native to your platform, you can do:
+
+docker build . -t <artifact-name>:latest
+docker save -o <artifact-name>_<your_arch>.tar <artifact-name>:latest
+
+For cross-compilation, Docker version 19.03 or newer provides buildx on most platforms. First, create a new cross-compile builder:
+
+docker buildx create --name mybuilder --driver docker-container --bootstrap
+docker buildx use mybuilder
+
+Then, cross-compile and export a Docker image:
+
+docker buildx build --platform linux/<other_arch> -t <artifact-name>:latest --load .
+docker save -o <artifact-name>_<other_arch>.tar <artifact-name>:latest
+
+We recommend that you compress the resulting Docker images to reduce the overall size of your artifact. Please use a compression that is compatible with Docker load, i.e., either .gz or .xz.
+
+Note: providing a Dockerfile alone is not sufficient to obtain the Available badge. You should provide the pre-compiled images. Nevertheless, we recommend you to include the used Dockerfile in the submission, as it is a precious resource to assess the artifact’s reusability.
+
+Virtual Machines
+
+We discourage packaging artifacts as virtual machine images as they are tricky to run under different architectures. However, should you be unable to use Docker, we will accept virtual machines compatible with VirtualBox. If this is the case, you should clearly indicate the use of a virtual machine image and the platform it is intended for in the resource requirements field of your submission.
+
+Hint: If the visual output (e.g. figures and tables) or GUI of your artifact is usable via a web browser, then you do not necessarily need a virtual machine. Instead, you may expose a HTTP port from the Docker container to the host (e.g. with Python’s built-in http.server module) and instruct the users to visualize it with a web browser on the host machine.
+
+If you are not able to prepare the artifact as neither a Docker image nor a Virtual Machine, please contact AE chairs early for an alternative arrangement. An example of such a situation is when you cannot package licensed software.
+
+Contacts
+
+ * Anna Becchi
+ * Simmo Saan
+
+Important Dates AoE (UTC-12h)
+
+Fri 25 Sep 2026
+Artifact Registration
+Wed 30 Sep 2026
+Artifact Submission
+Wed 30 Sep 2026
+Paper Submission
+Fri 6 Nov 2026
+Notification
+Fri 20 Nov 2026
+Camera Ready
+Wed 23 Sep 2026
+Paper Registration
+
+Submission Link
+https://easychair.org/conferences/?conf=vmcai2027
+Organizing Committee
+
+ * Dominik KlumppCo-chair
+
+   LIX, CNRS, Ecole Polytechnique
+
+   France
+
+ * Caterina UrbanCo-chair
+
+   Inria - École Normale Supérieure
+
+   France
+
+Steering Committee
+
+ * Viktor Kunčak
+
+   EPFL, Switzerland
+
+   Switzerland
+
+ * Andreas Podelski
+
+   University of Freiburg
+
+   Germany
+
+ * Sriram Sankaranarayanan
+
+   University of Colorado, Boulder
+
+   United States
+
+ * Lenore Zuck
+
+   UIC
+
+   United States
+
+Program Committee
+
+ * Erika Abraham
+
+   RWTH Aachen University
+
+   Germany
+
+ * Haniel Barbosa
+
+   Universidade Federal de Minas Gerais
+
+   Brazil
+
+ * Franck Cassez
+
+   Macquarie University, Australia
+
+ * Valentina Castiglioni
+
+   Eindhoven University of Technology
+
+   Netherlands
+
+ * Giovanna Kobus Conrado
+
+   Aarhus University
+
+   Denmark
+
+ * Marco Eilers
+
+   ETH Zurich
+
+   Switzerland
+
+ * Constantin Enea
+
+   LIX, CNRS, Ecole Polytechnique
+
+ * Gidon Ernst
+
+   LMU Munich
+
+   Germany
+
+ * Grigory Fedyukovich
+
+   Florida State University
+
+   United States
+
+ * Alberto Griggio
+
+   Fondazione Bruno Kessler
+
+   Italy
+
+ * Lucie Guillou
+
+ * Guangyu Hu
+
+   Huawei Hong Kong Research Center
+
+   Hong Kong SAR China
+
+ * Anastasia Isychev
+
+   University of Sydney
+
+   Australia
+
+ * Taylor T Johnson
+
+   Vanderbilt University
+
+   United States
+
+ * John C. Kolesar
+
+   Amazon Web Services
+
+   United States
+
+ * Eric Koskinen
+
+   Stevens Institute of Technology
+
+   United States
+
+ * Benedikt Maderbacher
+
+   CISPA Helmholtz Center for Information Security
+
+   Germany
+
+ * Raphaël Monat
+
+   Inria and University of Lille
+
+   France
+
+ * Sergio Mover
+
+   École Polytechnique
+
+   France
+
+ * Charlie Murphy
+
+   Montana State University
+
+   United States
+
+ * Suha Orhun Mutluergil
+
+   Sabanci University, Turkey
+
+ * Srinidhi Nagendra
+
+   AMD Research
+
+   India
+
+ * Jorge A. Navas
+
+   Amazon Web Services
+
+   United States
+
+ * Rodrigo Otoni
+
+   University of Groningen
+
+   Netherlands
+
+ * Andreas Podelski
+
+   University of Freiburg
+
+   Germany
+
+ * Xavier Rival
+
+   Inria - CNRS - Ecole Normale Superieure de Paris - PSL University
+
+   France
+
+ * Sriram Sankaranarayanan
+
+   University of Colorado, Boulder
+
+   United States
+
+ * Michael Schwarz
+
+   National University of Singapore
+
+   Singapore
+
+ * Julien Signoles
+
+   Université Paris-Saclay, CEA, List
+
+   France
+
+ * Tom van Dijk
+
+   University of Twente
+
+   Netherlands
+
+ * Vesal Vojdani
+
+   University of Tartu
+
+   Estonia
+
+ * Emily Yu
+
+   Leiden University
+
+   Netherlands
+
+ * Nengkun Yu
+
+   Stony Brook University
+
+   United States
+
+ * Enea Zaffanella
+
+   University of Parma
+
+   Italy
+
+ * Minjian Zhang
+
+Artifact Evaluation Committee
+
+ * Anna BecchiCo-chair
+
+   Università della Svizzera italiana (USI)
+
+   Switzerland
+
+ * Simmo SaanCo-chair
+
+   University of Tartu, Estonia
+
+   Estonia
+
+ * Kalmer Apinis
+
+   University of Tartu, Estonia
+
+ * Nicola Assolini
+
+   Quantinuum
+
+   Italy
+
+ * Alberto Bombardelli
+
+   Kyoto University, Japan
+
+   Japan
+
+ * Laura Canaia
+
+   University of Verona
+
+   Italy
+
+ * Danaël Carbonneau
+
+   LIP6, Sorbonne Université
+
+   France
+
+ * Marco Ciccalè
+
+   Universidad Politécnica de Madrid (UPM) and IMDEA Software Institute
+
+   Spain
+
+ * Manuel Di Agostino
+
+   University of Parma, Italy
+
+   Italy
+
+ * Greta Dolcetti
+
+   Ca’ Foscari University of Venice
+
+   Italy
+
+ * Alexandra Graß
+
+ * Michal Hečko
+
+   Brno University of Technology
+
+   Czechia
+
+ * Marek Jankola
+
+   LMU Munich
+
+   Slovakia
+
+ * Chris Johannsen
+
+ * Faezeh Labbaf
+
+   University of Lugano
+
+   Switzerland
+
+ * Fabrizio Leopardi
+
+   University of Lugano
+
+   Switzerland
+
+ * Dorian Lesbre
+
+   Université Paris-Saclay - CEA LIST
+
+   France
+
+ * Naïm Moussaoui Remil
+
+   Inria Paris, ENS Paris
+
+ * Jevgēnijs Protopopovs
+
+ * Diletta Rigo
+
+   Dipartimento di Matematica, University of Padova, Italy
+
+   Italy
+
+ * Frank Schüssele
+
+   University of Freiburg
+
+   Germany
+
+ * Yusen Su
+
+   University of Waterloo; Black Duck Software
+
+   Canada
+
+ * Andy S. Tatman
+
+   University of Groningen
+
+   Netherlands
+
+ * Zsófia Ádám
+
+   Department of Measurement and Information Systems, Budapest University of Technology and Economics
+
+   Hungary
+
+ * Adéla Štěpková
+
+   Masaryk University
+
+xFri 25 Sep 17:47
+
+VMCAI 2027
+
+----------------------------------------
+
+using conf.researchr.org (v1.76.1)
+Support page
+
+Tracks
+
+VMCAI 2027
+
+Attending
+
+Venue: Hilton Mexico City Reforma
+
+Sign Up

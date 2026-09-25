@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: isscc-2027
+sources:
+  - id: isscc-2027-home
+    url: https://www.isscc.org/
+    title: ISSCC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:49:30Z
+    http_status: 200
+    snapshot: 2ee8a6c7ff907b1983848001956990a91aa28961e8378f71f43273be89d4e92c
+  - id: isscc-2027-paper-submission
+    url: https://www.isscc.org/paper-submission-26
+    title: ISSCC 2027 Paper Submission
+    kind: author_guide
+    fetched_at: 2026-09-25T15:50:36Z
+    http_status: 200
+    snapshot: 6ccd53cba32ab396569678202440ec65334b155a507d42b351f22f0b7fbf5126

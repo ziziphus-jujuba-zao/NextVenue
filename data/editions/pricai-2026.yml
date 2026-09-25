@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: pricai-2026
+series: pricai
+name: PRICAI 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/PRICAI
+  conf_id: pricai2026
+  link: https://2026.pricai.org/
+  place: Guangzhou, China
+  date: Nov 17-20, 2026
+  timezone: UTC-12
+location:
+  city: Guangzhou
+  country: China
+  country_code: CN
+dates:
+  start: 2026-11-17
+  end: 2026-11-20
+milestones:
+  - type: paper
+    at: 2026-06-27T23:59
+    tz: UTC-12
+    status: confirmed
+  - type: conference
+    start: 2026-11-17
+    end: 2026-11-20
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

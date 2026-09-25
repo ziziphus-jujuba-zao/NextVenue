@@ -1,0 +1,11 @@
+id: acl
+acronym: ACL
+full_name: Annual Meeting of the Association for Computational Linguistics
+directions: [cs/nlp]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/acl
+ccfddl: AI/ACL
+data_level: curated

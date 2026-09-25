@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: igarss-2027
+sources:
+  - id: igarss-2027-dates
+    url: https://2027.ieeeigarss.org/important_dates.php
+    title: IGARSS 2027 Important Dates
+    kind: dates
+    fetched_at: 2026-09-25T15:52:38Z
+    http_status: 200
+    snapshot: fd3d2f0ea944595c4439858270c7e4b5abb6c90344a10fc8fef628187dbcf32d

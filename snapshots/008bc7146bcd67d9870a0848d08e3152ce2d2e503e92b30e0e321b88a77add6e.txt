@@ -1,0 +1,1141 @@
+Findings
+
+Findings of the Association for
+Computational Linguistics
+
+Findings of ACL: EMNLP 2020
+
+16 – 20 November, 2020
+
+c 2020 The Association for Computational Linguistics
+
+Order copies of this and other ACL proceedings from:
+Association for Computational Linguistics (ACL)
+209 N. Eighth Street
+Stroudsburg, PA 18360
+USA
+Tel: +1-570-476-8006
+Fax: +1-570-476-0860
+acl@aclweb.org
+ISBN 978-1-952148-90-3
+
+ii
+
+Preface by the Program Committee Co-Chairs
+Welcome to the very first volume of Findings of ACL, a new publication designed to operate as a
+“companion” to conferences in the ACL stable. This first volume, Findings of ACL: EMNLP 2020
+comprises papers selected from those submitted to EMNLP 2020 which were not selected to appear at
+the main conference. Despite this, the Programme Committee recognised the value of these submissions,
+and deemed them to be strong work, worthy of publication.
+Papers published in Findings count as full publications, however they are not assigned a presentation slot
+in the conference, but rather are published purely online in a separate volume in the ACL Anthology.
+There are a number of motivations for this new publication, from allowing timely work to be published
+quickly, to being more accepting of solid work, and helping to manage the increasing reviewing burden
+on the community.
+This new publication option allowed us to accept many more worthy papers that would have otherwise
+been rejected from EMNLP. From the 3,359 submissions reviewed for EMNLP, a total of 752 were
+accepted to the main conference, and a further 520 papers were accepted to Findings. The papers
+accepted to Findings equates to 15.5% of the reviewed papers, giving an aggregate acceptance rate for
+EMNLP and Findings of 37.9%. We requested that authors withdraw their Findings papers if they
+preferred to resubmit their work to subsequent conferences. After withdrawals, 447 papers remained, of
+which 332 were long papers, and 115 short.
+Papers were accepted to Findings based on their reviews and AC assessments, particularly whether
+reviewers found merit in the ideas and approaches, and found no fundamental issues in terms of the
+work’s motivation, theory, experimentation, analysis and ethical considerations. Where there was broad
+agreement of the robustness of the work, but the papers would otherwise have been rejected from
+EMNLP, instead these papers were accepted into Findings. Judgements as to the suitability of a paper to
+Findings was decided by the Senior Areas Chairs (SACs) and Programme Chairs (PCs), initially through
+SACs proposing a large suite of borderline papers and a cutoff for acceptance to the main conference.
+Final decisions were made for the main conference before considering papers for Findings. We are
+confident that this procedure did not disadvantage particular papers, or classes of papers. Instead it gave
+authors a publication option for papers that would otherwise have been rejected, and based on the fact
+that 86% of papers accepted to Findings were not withdrawn, there is clear community support for the
+endeavour.
+We appreciate that Findings may have an effect on the EMNLP workshops through removing from
+circulation some papers that would have been submitted to these venues. For this reason we have
+provided a mechanism for authors of Findings papers to present their work at a workshop as a nonarchival presentation. This was done as a match-making service between authors of Findings papers and
+workshops, resulting in 139 Findings papers being assigned workshop presentations.
+The reviewing process for Findings is largely the same as for the main conference, and accordingly we
+wish to thank all involved in EMNLP 2020 for their efforts, as detailed in the Preface to the Proceedings
+of EMNLP 2020. We would like to specifically thank:
+• Tim Baldwin, the architect of Findings, and all the members of the ACL Reviewing Committee
+who helped to refine the proposal;
+• SACs for making paper recommendation decisions for Findings;
+• Jing Li and Lemao Liu, the Publication Chairs responsible for Findings papers;
+• The workshop chairs, Jackie Cheung and Lonneke van der Plas, and the coordinators of the many
+iii Findings authors to present their work;
+workshops, who helped in providing a venue for
+
+• The many participants in the ACL 2020 Reviewing meeting, and others who provided their
+constructive feedback on this publication.
+We hope that Findings will continue to serve as a companion to future conferences, and become an
+important venue for excellent, widely-read, and highly cited work in NLP.
+
+EMNLP 2020 Program Co-Chairs
+Trevor Cohn, University of Melbourne, Australia
+Yulan He, University of Warwick, UK
+Yang Liu, Amazon – Alexa AI, USA
+
+iv
+
+Table of Contents
+Fully Quantized Transformer for Machine Translation
+Gabriele Prato, Ella Charlaix and Mehdi Rezagholizadeh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Summarizing Chinese Medical Answer with Graph Convolution Networks and Question-focused Dual
+Attention
+Ningyu Zhang, Shumin Deng, Juan Li, xi chen, Wei Zhang and Huajun Chen . . . . . . . . . . . . . . . . . 15
+Stay Hungry, Stay Focused: Generating Informative and Specific Questions in Information-Seeking Conversations
+Peng Qi, Yuhao Zhang and Christopher D. Manning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences
+Boon Peng Yap, Andrew Koh and Eng Siong Chng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+Adversarial Text Generation via Sequence Contrast Discrimination
+Ke Wang and Xiaojun Wan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+GRACE: Gradient Harmonized and Cascaded Labeling for Aspect-based Sentiment Analysis
+Huaishao Luo, Lei Ji, Tianrui Li, Daxin Jiang and Nan Duan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+Reducing Sentiment Bias in Language Models via Counterfactual Evaluation
+Po-Sen Huang, Huan Zhang, Ray Jiang, Robert Stanforth, Johannes Welbl, Jack Rae, Vishal Maini,
+Dani Yogatama and Pushmeet Kohli . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+Improving Text Understanding via Deep Syntax-Semantics Communication
+Hao Fei, Yafeng Ren and Donghong Ji . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+GRUEN for Evaluating Linguistic Quality of Generated Text
+Wanzheng Zhu and Suma Bhat . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94
+A Greedy Bit-flip Training Algorithm for Binarized Knowledge Graph Embeddings
+Katsuhiko Hayashi, Koki Kishimoto and Masashi Shimbo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 109
+Difference-aware Knowledge Selection for Knowledge-grounded Conversation Generation
+Chujie Zheng, Yunbo Cao, Daxin Jiang and Minlie Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+An Attentive Recurrent Model for Incremental Prediction of Sentence-final Verbs
+Wenyan Li, Alvin Grissom II and Jordan Boyd-Graber . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126
+Transformer-GCRF: Recovering Chinese Dropped Pronouns with General Conditional Random Fields
+Jingxuan Yang, Kerui Xu, Jun Xu, Si Li, Sheng GAO, Jun Guo, Ji-Rong Wen and Nianwen Xue137
+Neural Speed Reading Audited
+Anders Søgaard . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 148
+Converting the Point of View of Messages Spoken to Virtual Assistants
+Gunhee Lee, Vera Zu, Sai Srujana Buddi, Dennis Liang, Purva Kulkarni and Jack FitzGerald . . 154
+Robustness to Modification with Shared Words in Paraphrase Identification
+Zhouxing Shi and Minlie Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 164
+
+v
+
+Few-shot Natural Language Generation for Task-Oriented Dialog
+Baolin Peng, Chenguang Zhu, Chunyuan Li, Xiujun Li, Jinchao Li, Michael Zeng and Jianfeng Gao
+172
+Mimic and Conquer: Heterogeneous Tree Structure Distillation for Syntactic NLP
+Hao Fei, Yafeng Ren and Donghong Ji . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+A Hierarchical Network for Abstractive Meeting Summarization with Cross-Domain Pretraining
+Chenguang Zhu, Ruochen Xu, Michael Zeng and Xuedong Huang . . . . . . . . . . . . . . . . . . . . . . . . . . 194
+Active Testing: An Unbiased Evaluation Method for Distantly Supervised Relation Extraction
+Pengshuai Li, Xinsong Zhang, Weijia Jia and Wei Zhao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204
+Semantic Matching for Sequence-to-Sequence Learning
+Ruiyi Zhang, Changyou Chen, Xinyuan Zhang, Ke Bai and Lawrence Carin . . . . . . . . . . . . . . . . . 212
+How Decoding Strategies Affect the Verifiability of Generated Text
+Luca Massarelli, Fabio Petroni, Aleksandra Piktus, Myle Ott, Tim Rocktäschel, Vassilis Plachouras,
+Fabrizio Silvestri and Sebastian Riedel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 223
+Minimize Exposure Bias of Seq2Seq Models in Joint Entity and Relation Extraction
+Ranran Haoran Zhang, Qianying Liu, Aysa Xuemo Fan, Heng Ji, Daojian Zeng, Fei Cheng, Daisuke
+Kawahara and Sadao Kurohashi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 236
+Gradient-based Analysis of NLP Models is Manipulable
+Junlin Wang, Jens Tuyls, Eric Wallace and Sameer Singh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 247
+Pretrain-KGE: Learning Knowledge Representation from Pretrained Language Models
+Zhiyuan Zhang, Xiaoqian Liu, Yi Zhang, Qi Su, Xu SUN and Bin He . . . . . . . . . . . . . . . . . . . . . . . 259
+A Self-Refinement Strategy for Noise Reduction in Grammatical Error Correction
+Masato Mita, Shun Kiyono, Masahiro Kaneko, Jun Suzuki and Kentaro Inui . . . . . . . . . . . . . . . . . 267
+Understanding tables with intermediate pre-training
+Julian Eisenschlos, Syrine Krichene and Thomas Müller . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 281
+Enhance Robustness of Sequence Labelling with Masked Adversarial Training
+Luoxin Chen, Xinyue Liu, Weitong Ruan and Jianhua Lu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 297
+Multilingual Argument Mining: Datasets and Analysis
+Orith Toledo-Ronen, Matan Orbach, Yonatan Bilu, Artem Spector and Noam Slonim . . . . . . . . . 303
+Improving Grammatical Error Correction with Machine Translation Pairs
+Wangchunshu Zhou, Tao Ge, Chang Mu, Ke Xu, Furu Wei and Ming Zhou . . . . . . . . . . . . . . . . . . 318
+Machines Getting with the Program: Understanding Intent Arguments of Non-Canonical Directives
+Won Ik Cho, Youngki Moon, Sangwhan Moon, Seok Min Kim and Nam Soo Kim . . . . . . . . . . . 329
+The RELX Dataset and Matching the Multilingual Blanks for Cross-Lingual Relation Classification
+Abdullatif Köksal and Arzucan Özgür . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 340
+Control, Generate, Augment: A Scalable Framework for Multi-Attribute Text Generation
+Giuseppe Russo, Nora Hollenstein, Claudiu Cristian Musat and Ce Zhang . . . . . . . . . . . . . . . . . . . 351
+Open-Ended Visual Question Answering by Multi-Modal Domain Adaptation
+Yiming Xu, Lin Chen, Zhongwei Cheng, Lixin Duan and Jiebo Luo . . . . . . . . . . . . . . . . . . . . . . . . 367
+vi
+
+Dual Low-Rank Multimodal Fusion
+Tao Jin, Siyu Huang, Yingming Li and Zhongfei Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 377
+Contextual Modulation for Relation-Level Metaphor Identification
+Omnia Zayed, John P. McCrae and Paul Buitelaar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 388
+Context-aware Stand-alone Neural Spelling Correction
+Xiangci Li, Hairong Liu and Liang Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 407
+A Novel Workflow for Accurately and Efficiently Crowdsourcing Predicate Senses and Argument Labels
+Youxuan Jiang, Huaiyu Zhu, Jonathan K. Kummerfeld, Yunyao Li and Walter Lasecki . . . . . . . . 415
+KorNLI and KorSTS: New Benchmark Datasets for Korean Natural Language Understanding
+Jiyeon Ham, Yo Joong Choe, Kyubyong Park, Ilji Choi and Hyungjoon Soh . . . . . . . . . . . . . . . . . 422
+Dialogue Generation on Infrequent Sentence Functions via Structured Meta-Learning
+Yifan Gao, Piji Li, Wei Bi, Xiaojiang Liu, Michael Lyu and Irwin King . . . . . . . . . . . . . . . . . . . . . 431
+Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning
+Zhaojiang Lin, Andrea Madotto and Pascale Fung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 441
+A Fully Hyperbolic Neural Model for Hierarchical Multi-Class Classification
+Federico López and Michael Strube . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 460
+Claim Check-Worthiness Detection as Positive Unlabelled Learning
+Dustin Wright and Isabelle Augenstein . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 476
+ConceptBert: Concept-Aware Representation for Visual Question Answering
+François Gardères, Maryam Ziaeefard, baptiste abeloos and Freddy Lecue . . . . . . . . . . . . . . . . . . 489
+Bootstrapping a Crosslingual Semantic Parser
+Tom Sherborne, Yumo Xu and Mirella Lapata . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499
+Revisiting Representation Degeneration Problem in Language Modeling
+Zhong Zhang, Chongming Gao, Cong Xu, Rui Miao, Qinli Yang and Junming Shao . . . . . . . . . . 518
+The workweek is the best time to start a family – A Study of GPT-2 Based Claim Generation
+Shai Gretz, Yonatan Bilu, Edo Cohen-Karlik and Noam Slonim . . . . . . . . . . . . . . . . . . . . . . . . . . . . 528
+Dynamic Data Selection for Curriculum Learning via Ability Estimation
+John P. Lalor and hong yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 545
+Fixed Encoder Self-Attention Patterns in Transformer-Based Machine Translation
+Alessandro Raganato, Yves Scherrer and Jörg Tiedemann . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 556
+ZEST: Zero-shot Learning from Text Descriptions using Textual Similarity and Visual Summarization
+Tzuf Paz-Argaman, Reut Tsarfaty, Gal Chechik and Yuval Atzmon . . . . . . . . . . . . . . . . . . . . . . . . . 569
+Few-Shot Multi-Hop Relation Reasoning over Knowledge Bases
+Chuxu Zhang, Lu Yu, Mandana Saebi, Meng Jiang and Nitesh Chawla . . . . . . . . . . . . . . . . . . . . . . 580
+A structure-enhanced graph convolutional network for sentiment analysis
+Fanyu Meng, Junlan Feng, danping yin, Si Chen and Min Hu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 586
+PBoS: Probabilistic Bag-of-Subwords for Generalizing Word Embedding
+Zhao Jinman, Shawn Zhong, Xiaomin Zhang and Yingyu Liang . . . . . . . . . . . . . . . . . . . . . . . . . . . . 596
+vii
+
+Interpretable Entity Representations through Large-Scale Typing
+Yasumasa Onoe and Greg Durrett . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 612
+Empirical Studies of Institutional Federated Learning For Natural Language Processing
+Xinghua Zhu, Jianzong Wang, Zhenhou Hong and Jing Xiao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 625
+NeuReduce: Reducing Mixed Boolean-Arithmetic Expressions by Recurrent Neural Network
+Weijie Feng, Binbin Liu, Dongpeng Xu, Qilong Zheng and Yun Xu . . . . . . . . . . . . . . . . . . . . . . . . . 635
+From Language to Language-ish: How Brain-Like is an LSTM’s Representation of Nonsensical Language Stimuli?
+Maryam Hashemzadeh, Greta Kaufeld, Martha White, Andrea E. Martin and Alona Fyshe . . . . 645
+Revisiting Pre-Trained Models for Chinese Natural Language Processing
+Yiming Cui, Wanxiang Che, Ting Liu, Bing Qin, Shijin Wang and Guoping Hu . . . . . . . . . . . . . . 657
+Cascaded Semantic and Positional Self-Attention Network for Document Classification
+Juyong Jiang, Jie Zhang and Kai Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 669
+Toward Recognizing More Entity Types in NER: An Efficient Implementation using Only Entity Lexicons
+Minlong Peng, Ruotian Ma, Qi Zhang, Lujun Zhao, Mengxi Wei, Changlong Sun and Xuanjing
+Huang. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .678
+From Disjoint Sets to Parallel Data to Train Seq2Seq Models for Sentiment Transfer
+Paulo Cavalin, Marisa Vasconcelos, Marcelo Grave, Claudio Pinhanez and Victor Henrique Alves
+Ribeiro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 689
+Learning to Stop: A Simple yet Effective Approach to Urban Vision-Language Navigation
+Jiannan Xiang, Xin Wang and William Yang Wang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 699
+Document Ranking with a Pretrained Sequence-to-Sequence Model
+Rodrigo Nogueira, Zhiying Jiang, Ronak Pradeep and Jimmy Lin . . . . . . . . . . . . . . . . . . . . . . . . . . 708
+Pruning Redundant Mappings in Transformer Models via Spectral-Normalized Identity Prior
+Zi Lin, Jeremiah Liu, Zi Yang, Nan Hua and Dan Roth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 719
+Rethinking Self-Attention: Towards Interpretability in Neural Parsing
+Khalil Mrini, Franck Dernoncourt, Quan Hung Tran, Trung Bui, Walter Chang and Ndapa Nakashole . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 731
+PolicyQA: A Reading Comprehension Dataset for Privacy Policies
+Wasi Ahmad, Jianfeng Chi, Yuan Tian and Kai-Wei Chang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 743
+A Linguistic Analysis of Visually Grounded Dialogues Based on Spatial Expressions
+Takuma Udagawa, Takato Yamazaki and Akiko Aizawa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 750
+Efficient Context and Schema Fusion Networks for Multi-Domain Dialogue State Tracking
+Su Zhu, Jieyu Li, Lu Chen and Kai Yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 766
+Syntactic and Semantic-driven Learning for Open Information Extraction
+Jialong Tang, Yaojie Lu, Hongyu Lin, Xianpei Han, Le Sun, Xinyan Xiao and Hua Wu . . . . . . . 782
+Group-wise Contrastive Learning for Neural Dialogue Generation
+Hengyi Cai, Hongshen Chen, Yonghao Song, zhuoye Ding, Yongjun Bao, Weipeng Yan and Xiaofang Zhao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 793
+viii
+
+E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT
+Nina Poerner, Ulli Waltinger and Hinrich Schütze . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 803
+A Multi-task Learning Framework for Opinion Triplet Extraction
+Chen Zhang, Qiuchi Li, Dawei Song and benyou wang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 819
+Event Extraction as Multi-turn Question Answering
+Fayuan Li, Weihua Peng, Yuguang Chen, Quan Wang, Lu Pan, Yajuan Lyu and Yong Zhu . . . . 829
+Improving QA Generalization by Concurrent Modeling of Multiple Biases
+Mingzhu Wu, Nafise Sadat Moosavi, Andreas Rücklé and Iryna Gurevych . . . . . . . . . . . . . . . . . . 839
+Actor-Double-Critic: Incorporating Model-Based Critic for Task-Oriented Dialogue Systems
+Yen-chen Wu, Bo-Hsiang Tseng and Milica Gasic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 854
+Controlled Hallucinations: Learning to Generate Faithfully from Noisy Data
+Katja Filippova . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 864
+Sequential Span Classification with Neural Semi-Markov CRFs for Biomedical Abstracts
+Kosuke Yamada, Tsutomu Hirao, Ryohei Sasano, Koichi Takeda and Masaaki Nagata . . . . . . . . 871
+Where to Submit? Helping Researchers to Choose the Right Venue
+Konstantin Kobs, Tobias Koopmann, Albin Zehe, David Fernes, Philipp Krop and Andreas Hotho
+878
+AirConcierge: Generating Task-Oriented Dialogue via Efficient Large-Scale Knowledge Retrieval
+Chieh-Yang Chen, Pei-Hsin Wang, Shih-Chieh Chang, Da-Cheng Juan, Wei Wei and Jia-Yu Pan
+884
+DocStruct: A Multimodal Method to Extract Hierarchy Structure in Document for General Form Understanding
+Zilong Wang, Mingjie Zhan, xuebo liu and ding liang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 898
+Pretrained Language Models for Dialogue Generation with Multiple Input Sources
+Yu Cao, Wei Bi, Meng Fang and Dacheng Tao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 909
+A Study in Improving BLEU Reference Coverage with Diverse Automatic Paraphrasing
+Rachel Bawden, Biao Zhang, Lisa Yankovskaya, Andre Tättar and Matt Post . . . . . . . . . . . . . . . . 918
+Cross-lingual Alignment Methods for Multilingual BERT: A Comparative Study
+Saurabh Kulshreshtha, Jose Luis Redondo Garcia and Ching-Yun Chang . . . . . . . . . . . . . . . . . . . . 933
+Hybrid Emoji-Based Masked Language Models for Zero-Shot Abusive Language Detection
+Michele Corazza, Stefano Menini, Elena Cabrio, Sara Tonelli and Serena Villata . . . . . . . . . . . . . 943
+SeNsER: Learning Cross-Building Sensor Metadata Tagger
+Yang Jiao, Jiacheng Li, Jiaman Wu, Dezhi Hong, Rajesh Gupta and Jingbo Shang . . . . . . . . . . . . 950
+Persian Ezafe Recognition Using Transformers and Its Role in Part-Of-Speech Tagging
+Ehsan Doostmohammadi, Minoo Nassajian and Adel Rahimi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 961
+Scene Graph Modification Based on Natural Language Commands
+Xuanli He, Quan Hung Tran, Gholamreza Haffari, Walter Chang, Zhe Lin, Trung Bui, Franck
+Dernoncourt and Nhan Dam . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 972
+
+ix
+
+LiMiT: The Literal Motion in Text Dataset
+Irene Manotas, Ngoc Phuoc An Vo and Vadim Sheinin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 991
+Transition-based Parsing with Stack-Transformers
+Ramón Fernandez Astudillo, Miguel Ballesteros, Tahira Naseem, Austin Blodgett and Radu Florian
+1001
+Generative Data Augmentation for Commonsense Reasoning
+Yiben Yang, Chaitanya Malaviya, Jared Fernandez, Swabha Swayamdipta, Ronan Le Bras, Ji-Ping
+Wang, Chandra Bhagavatula, Yejin Choi and Doug Downey . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1008
+HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data
+Wenhu Chen, Hanwen Zha, Zhiyu Chen, Wenhan Xiong, Hong Wang and William Yang Wang1026
+PhoBERT: Pre-trained language models for Vietnamese
+Dat Quoc Nguyen and Anh Tuan Nguyen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1037
+ESTeR: Combining Word Co-occurrences and Word Associations for Unsupervised Emotion Detection
+Sujatha Das Gollapalli, Polina Rozenshtein and See-Kiong Ng . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1043
+Make Templates Smarter: A Template Based Data2Text System Powered by Text Stitch Model
+Bingfeng Luo, Zuo Bai, Kunfeng Lai and Jianping Shen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1057
+GCDST: A Graph-based and Copy-augmented Multi-domain Dialogue State Tracking
+Peng Wu, Bowei Zou, Ridong Jiang and AiTi Aw . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1063
+Incorporating Stylistic Lexical Preferences in Generative Language Models
+Hrituraj Singh, Gaurav Verma and Balaji Vasan Srinivasan. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1074
+Why do you think that? Exploring Faithful Sentence-Level Rationales Without Supervision
+Max Glockner, Ivan Habernal and Iryna Gurevych . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1080
+Semi-Supervised Learning for Video Captioning
+Ke Lin, Zhuoxin Gan and Liwei WANG . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1096
+Multiˆ2OIE: Multilingual Open Information Extraction Based on Multi-Head Attention with BERT
+Youngbin Ro, Yukyung Lee and Pilsung Kang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1107
+LGPSolver - Solving Logic Grid Puzzles Automatically
+Elgun Jabrayilzade and Selma Tekir . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1118
+Using the Past Knowledge to Improve Sentiment Classification
+Qi Qin, Wenpeng Hu and Bing Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1124
+High-order Semantic Role Labeling
+Zuchao Li, Hai Zhao, Rui Wang and Kevin Parnow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1134
+Undersensitivity in Neural Reading Comprehension
+Johannes Welbl, Pasquale Minervini, Max Bartolo, Pontus Stenetorp and Sebastian Riedel . . . 1152
+HyperText: Endowing FastText with Hyperbolic Geometry
+Yudong Zhu, Di Zhou, Jinghui Xiao, Xin Jiang, Xiao Chen and Qun Liu . . . . . . . . . . . . . . . . . . . 1166
+AutoETER: Automated Entity Type Representation for Knowledge Graph Embedding
+Guanglin Niu, Bo Li, Yongfei Zhang, Shiliang Pu and Jingyang Li . . . . . . . . . . . . . . . . . . . . . . . . 1172
+
+x
+
+Learning Robust and Multilingual Speech Representations
+Kazuya Kawakami, Luyu Wang, Chris Dyer, Phil Blunsom and Aaron van den Oord . . . . . . . . 1182
+FQuAD: French Question Answering Dataset
+Martin D’Hoffschmidt, Wacim Belblidia, Quentin Heinrich, Tom Brendlé and Maxime Vidal 1193
+Dynamic Semantic Matching and Aggregation Network for Few-shot Intent Detection
+Hoang Nguyen, Chenwei Zhang, Congying Xia and Philip Yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1209
+Quantifying the Contextualization of Word Representations with Semantic Class Probing
+Mengjie Zhao, Philipp Dufter, Yadollah Yaghoobzadeh and Hinrich Schütze . . . . . . . . . . . . . . . 1219
+Learning to Generate Clinically Coherent Chest X-Ray Reports
+Justin Lovelace and Bobak Mortazavi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1235
+FELIX: Flexible Text Editing Through Tagging and Insertion
+Jonathan Mallinson, Aliaksei Severyn, Eric Malmi and Guillermo Garrido . . . . . . . . . . . . . . . . . 1244
+What Can We Do to Improve Peer Review in NLP?
+Anna Rogers and Isabelle Augenstein . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1256
+Unsupervised Relation Extraction from Language Models using Constrained Cloze Completion
+Ankur Goswami, Akshata Bhat, Hadar Ohana and Theodoros Rekatsinas . . . . . . . . . . . . . . . . . . 1263
+Biomedical Event Extraction with Hierarchical Knowledge Graphs
+Kung-Hsiang Huang, Mu Yang and Nanyun Peng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1277
+Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo
+Approach
+Maosen Zhang, Nan Jiang, Lei Li and Yexiang Xue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1286
+Examining the Ordering of Rhetorical Strategies in Persuasive Requests
+Omar Shaikh, Jiaao Chen, Jon Saad-Falcon, Polo Chau and Diyi Yang . . . . . . . . . . . . . . . . . . . . . 1299
+Evaluating Models’ Local Decision Boundaries via Contrast Sets
+Matt Gardner, Yoav Artzi, Victoria Basmov, Jonathan Berant, Ben Bogin, Sihao Chen, Pradeep
+Dasigi, Dheeru Dua, Yanai Elazar, Ananth Gottumukkala, Nitish Gupta, Hannaneh Hajishirzi, Gabriel
+Ilharco, Daniel Khashabi, Kevin Lin, Jiangming Liu, Nelson F. Liu, Phoebe Mulcaire, Qiang Ning,
+Sameer Singh, Noah A. Smith, Sanjay Subramanian, Reut Tsarfaty, Eric Wallace, Ally Zhang and Ben
+Zhou . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1307
+Parsing with Multilingual BERT, a Small Corpus, and a Small Treebank
+Ethan C. Chau, Lucy H. Lin and Noah A. Smith . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1324
+OptSLA: an Optimization-Based Approach for Sequential Label Aggregation
+Nasim Sabetpour, Adithya Kulkarni and Qi Li . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1335
+Optimizing Word Segmentation for Downstream Task
+Tatsuya Hiraoka, Sho Takase, Kei Uchiumi, Atsushi Keyaki and Naoaki Okazaki . . . . . . . . . . . 1341
+Dynamically Updating Event Representations for Temporal Relation Classification with Multi-category
+Learning
+Fei Cheng, Masayuki Asahara, Ichiro Kobayashi and Sadao Kurohashi . . . . . . . . . . . . . . . . . . . . 1352
+A Compare Aggregate Transformer for Understanding Document-grounded Dialogue
+Longxuan Ma, Wei-Nan Zhang, runxin sun and Ting Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1358
+xi
+
+TextHide: Tackling Data Privacy in Language Understanding Tasks
+Yangsibo Huang, Zhao Song, Danqi Chen, Kai Li and Sanjeev Arora . . . . . . . . . . . . . . . . . . . . . . 1368
+Modeling Intra and Inter-modality Incongruity for Multi-Modal Sarcasm Detection
+Hongliang Pan, Zheng Lin, Peng Fu, Yatao Qi and Weiping Wang . . . . . . . . . . . . . . . . . . . . . . . . . 1383
+Investigating Transferability in Pretrained Language Models
+Alex Tamkin, Trisha Singh, Davide Giovanardi and Noah Goodman . . . . . . . . . . . . . . . . . . . . . . . 1393
+Improving Knowledge-Aware Dialogue Response Generation by Using Human-Written Prototype Dialogues
+Sixing Wu, Ying Li, Dawei Zhang and Zhonghai Wu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1402
+Filtering before Iteratively Referring for Knowledge-Grounded Response Selection in Retrieval-Based
+Chatbots
+Jia-Chen Gu, Zhenhua Ling, Quan Liu, Zhigang Chen and Xiaodan Zhu . . . . . . . . . . . . . . . . . . . 1412
+Privacy-Preserving News Recommendation Model Learning
+Tao Qi, Fangzhao Wu, Chuhan Wu, Yongfeng Huang and Xing Xie. . . . . . . . . . . . . . . . . . . . . . . .1423
+exBERT: Extending Pre-trained Models with Domain-specific Vocabulary Under Constrained Training
+Resources
+Wen Tai, H. T. Kung, Xin Dong, Marcus Comiter and Chang-Fu Kuo . . . . . . . . . . . . . . . . . . . . . . 1433
+Balancing via Generation for Multi-Class Text Classification Improvement
+Naama Tepper, Esther Goldbraich, Naama Zwerdling, George Kour, Ateret Anaby Tavor and Boaz
+Carmeli . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1440
+Conditional Neural Generation using Sub-Aspect Functions for Extractive News Summarization
+Zhengyuan Liu, Ke Shi and Nancy Chen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1453
+Research Replication Prediction Using Weakly Supervised Learning
+Tianyi Luo, xingyu li, Hainan Wang and Yang Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1464
+Open Domain Question Answering based on Text Enhanced Knowledge Graph with Hyperedge Infusion
+Jiale Han, Bo Cheng and Xu Wang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1475
+Inexpensive Domain Adaptation of Pretrained Language Models: Case Studies on Biomedical NER and
+Covid-19 QA
+Nina Poerner, Ulli Waltinger and Hinrich Schütze. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1482
+Semantically Driven Sentence Fusion: Modeling and Evaluation
+Eyal Ben-David, Orgad Keller, Eric Malmi, Idan Szpektor and Roi Reichart . . . . . . . . . . . . . . . . 1491
+Pseudo-Bidirectional Decoding for Local Sequence Transduction
+Wangchunshu Zhou, Tao Ge and Ke Xu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1506
+Predicting Responses to Psychological Questionnaires from Participants’ Social Media Posts and Question Text Embeddings
+Huy Vu, Suhaib Abdurahman, Sudeep Bhatia and Lyle Ungar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1512
+Will it Unblend?
+Yuval Pinter, Cassandra L. Jacobs and Jacob Eisenstein . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1525
+
+xii
+
+CodeBERT: A Pre-Trained Model for Programming and Natural Languages
+Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou,
+Bing Qin, Ting Liu, Daxin Jiang and Ming Zhou . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1536
+StyleDGPT: Stylized Response Generation with Pre-trained Language Models
+Ze Yang, wei wu, Can Xu, Xinnian Liang, jiaqi bai, Liran Wang, Wei Wang and Zhoujun Li . 1548
+Enhancing Automated Essay Scoring Performance via Fine-tuning Pre-trained Language Models with
+Combination of Regression and Ranking
+Ruosong Yang, Jiannong Cao, Zhiyuan Wen, Youzheng Wu and Xiaodong He . . . . . . . . . . . . . . 1560
+Neural Dialogue State Tracking with Temporally Expressive Networks
+Junfan Chen, Richong Zhang, Yongyi Mao and Jie Xu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1570
+Inferring about fraudulent collusion risk on Brazilian public works contracts in official texts using a
+Bi-LSTM approach
+MARCOS LIMA, Roberta Silva, Felipe Lopes de Souza Mendes, Leonardo R. de Carvalho, Aleteia
+Araujo and Flavio de Barros Vidal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1580
+Data-to-Text Generation with Style Imitation
+Shuai Lin, Wentao Wang, Zichao Yang, Xiaodan Liang, Frank F. Xu, Eric Xing and Zhiting Hu
+1589
+Teaching Machine Comprehension with Compositional Explanations
+Qinyuan Ye, Xiao Huang, Elizabeth Boschee and Xiang Ren . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1599
+A Knowledge-Driven Approach to Classifying Object and Attribute Coreferences in Opinion Mining
+Jiahua Chen, Shuai Wang, Sahisnu Mazumder and Bing Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1616
+SimAlign: High Quality Word Alignments Without Parallel Training Data Using Static and Contextualized Embeddings
+Masoud Jalili Sabet, Philipp Dufter, François Yvon and Hinrich Schütze . . . . . . . . . . . . . . . . . . . 1627
+TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification
+Francesco Barbieri, Jose Camacho-Collados, Luis Espinosa Anke and Leonardo Neves . . . . . . 1644
+Octa: Omissions and Conflicts in Target-Aspect Sentiment Analysis
+Zhe Zhang, Chung-Wei Hang and Munindar Singh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1651
+On the Language Neutrality of Pre-trained Multilingual Representations
+Jindřich Libovický, Rudolf Rosa and Alexander Fraser . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1663
+Cost-effective Selection of Pretraining Data: A Case Study of Pretraining BERT on Social Media
+Xiang Dai, Sarvnaz Karimi, Ben Hachey and Cecile Paris . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1675
+TopicBERT for Energy Efficient Document Classification
+Yatin Chaudhary, Pankaj Gupta, Khushbu Saxena, Vivek Kulkarni, Thomas Runkler and Hinrich
+Schütze . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1682
+Improving Constituency Parsing with Span Attention
+Yuanhe Tian, Yan Song, Fei Xia and Tong Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1691
+RecoBERT: A Catalog Language Model for Text-Based Recommendations
+Itzik Malkiel, Oren Barkan, Avi Caciularu, Noam Razin, Ori Katz and Noam Koenigstein . . . 1704
+
+xiii
+
+Multi-Agent Mutual Learning at Sentence-Level and Token-Level for Neural Machine Translation
+Baohao Liao, Yingbo Gao and Hermann Ney . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1715
+DomBERT: Domain-oriented Language Model for Aspect-based Sentiment Analysis
+Hu Xu, Bing Liu, Lei Shu and Philip Yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1725
+RMM: A Recursive Mental Model for Dialogue Navigation
+Homero Roman Roman, Yonatan Bisk, Jesse Thomason, Asli Celikyilmaz and Jianfeng Gao . 1732
+Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts
+across Text Corpora
+Hancheng Cao, Mengjie Cheng, Zhepeng Cen, Daniel McFarland and Xiang Ren . . . . . . . . . . . 1746
+Recurrent Inference in Text Editing
+Ning Shi, Ziheng Zeng, Haotian Zhang and Yichen Gong . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1758
+An Empirical Exploration of Local Ordering Pre-training for Structured Prediction
+Zhisong Zhang, Xiang Kong, Lori Levin and Eduard Hovy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1770
+Unsupervised Extractive Summarization by Pre-training Hierarchical Transformers
+Shusheng Xu, Xingxing Zhang, Yi Wu, Furu Wei and Ming Zhou . . . . . . . . . . . . . . . . . . . . . . . . . 1784
+Active Learning Approaches to Enhancing Neural Machine Translation
+Yuekai Zhao, Haoran Zhang, Shuchang Zhou and Zhihua Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . 1796
+AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling
+Libo Qin, Xiao Xu, Wanxiang Che and Ting Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1807
+Continual Learning Long Short Term Memory
+Xin Guo, Yu Tian, Qinghan Xue, Panos Lampropoulos, steven eliuk, Kenneth Barner and Xiaolong
+wang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1817
+CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning
+Bill Yuchen Lin, Wangchunshu Zhou, Ming Shen, Pei Zhou, Chandra Bhagavatula, Yejin Choi and
+Xiang Ren . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1823
+Constrained Decoding for Computationally Efficient Named Entity Recognition Taggers
+Brian Lester, Daniel Pressel, Amy Hemmeter, Sagnik Ray Choudhury and Srinivas Bangalore1841
+On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries
+Tianze Shi, Chen Zhao, Jordan Boyd-Graber, Hal Daumé III and Lillian Lee . . . . . . . . . . . . . . . 1849
+TED: A Pretrained Unsupervised Summarization Model with Theme Modeling and Denoising
+Ziyi Yang, Chenguang Zhu, Robert Gmyr, Michael Zeng, Xuedong Huang and Eric Darve . . . 1865
+Improving End-to-End Bangla Speech Recognition with Semi-supervised Training
+Nafis Sadeq, Nafis Tahmid Chowdhury, Farhan Tanvir Utshaw, Shafayat Ahmed and Muhammad
+Abdullah Adnan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1875
+No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures
+Chaitanya Ahuja, Dong Won Lee, Ryo Ishii and Louis-Philippe Morency . . . . . . . . . . . . . . . . . . 1884
+UNIFIEDQA: Crossing Format Boundaries with a Single QA System
+Daniel Khashabi, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark and
+Hannaneh Hajishirzi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1896
+xiv
+
+Robust and Interpretable Grounding of Spatial References with Relation Networks
+Tsung-Yen Yang, Andrew Lan and Karthik Narasimhan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1908
+Pragmatic Issue-Sensitive Image Captioning
+Allen Nie, Reuben Cohn-Gordon and Christopher Potts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1924
+PTUM: Pre-training User Model from Unlabeled User Behaviors via Self-supervision
+Chuhan Wu, Fangzhao Wu, Tao Qi, Jianxun Lian, Yongfeng Huang and Xing Xie . . . . . . . . . . . 1939
+Adversarial Subword Regularization for Robust Neural Machine Translation
+Jungsoo Park, Mujeen Sung, Jinhyuk Lee and Jaewoo Kang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1945
+Learning Visual-Semantic Embeddings for Reporting Abnormal Findings on Chest X-rays
+Jianmo Ni, Chun-Nan Hsu, Amilcare Gentili and Julian McAuley . . . . . . . . . . . . . . . . . . . . . . . . . 1954
+SynET: Synonym Expansion using Transitivity
+Jiale Yu, Yongliang Shen, Xinyin Ma, Chenghao Jia, Chen Chen and Weiming Lu . . . . . . . . . . 1961
+Scheduled DropHead: A Regularization Method for Transformer Models
+Wangchunshu Zhou, Tao Ge, Furu Wei, Ming Zhou and Ke Xu . . . . . . . . . . . . . . . . . . . . . . . . . . . 1971
+Multi-Turn Dialogue Generation in E-Commerce Platform with the Context of Historical Dialogue
+WeiSheng Zhang, Kaisong Song, Yangyang Kang, Zhongqing Wang, Changlong Sun, Xiaozhong
+Liu, Shoushan Li, Min Zhang and Luo Si . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1981
+Automatically Identifying Gender Issues in Machine Translation using Perturbations
+Hila Gonen and Kellie Webster . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1991
+Ruler: Data Programming by Demonstration for Document Labeling
+Sara Evensen, Chang Ge and Cagatay Demiralp . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1996
+Dual Reconstruction: a Unifying Objective for Semi-Supervised Neural Machine Translation
+Weijia Xu, Xing Niu and Marine Carpuat . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2006
+Focus-Constrained Attention Mechanism for CVAE-based Response Generation
+Zhi Cui, Yanran Li, Jiayi ZHANG, Jianwei Cui, Chen Wei and Bin Wang . . . . . . . . . . . . . . . . . . 2021
+Chunk-based Chinese Spelling Check with Global Optimization
+Zuyi Bao, Chen Li and Rui Wang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2031
+Multi-pretraining for Large-scale Text Classification
+Kang-Min Kim, Bumsu Hyeon, Yeachan Kim, Jun-Hyung Park and SangKeun Lee . . . . . . . . . 2041
+End-to-End Speech Recognition and Disfluency Removal
+Paria Jamshid Lou and Mark Johnson . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2051
+Characterizing the Value of Information in Medical Notes
+Chao-Chun Hsu, Shantanu Karnwal, Sendhil Mullainathan, Ziad Obermeyer and Chenhao Tan2062
+KLearn: Background Knowledge Inference from Summarization Data
+Maxime Peyrard and Robert West . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2073
+Extracting Chemical-Protein Interactions via Calibrated Deep Neural Network and Self-training
+Dongha Choi and Hyunju Lee . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2086
+
+xv
+
+Logic2Text: High-Fidelity Natural Language Generation from Logical Forms
+Zhiyu Chen, Wenhu Chen, Hanwen Zha, Xiyou Zhou, Yunkai Zhang, Sairam Sundaresan and
+William Yang Wang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2096
+MedICaT: A Dataset of Medical Images, Captions, and Textual References
+Sanjay Subramanian, Lucy Lu Wang, Ben Bogin, Sachin Mehta, Madeleine van Zuylen, Sravanthi
+Parasa, Sameer Singh, Matt Gardner and Hannaneh Hajishirzi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2112
+TSDG: Content-aware Neural Response Generation with Two-stage Decoding Process
+Junsheng Kong, Zhicheng Zhong, Yi Cai, Xin Wu and Da Ren . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2121
+Unsupervised Cross-Lingual Adaptation of Dependency Parsers Using CRF Autoencoders
+Zhao Li and Kewei Tu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2127
+Diversify Question Generation with Continuous Content Selectors and Question Type Modeling
+Zhen Wang, Siwei Rao, Jie Zhang, Zhen Qin, Guangjian Tian and Jun Wang . . . . . . . . . . . . . . . 2134
+Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages
+Wilhelmina Nekoto, Vukosi Marivate, Tshinondiwa Matsila, Timi Fasubaa, Taiwo Fagbohungbe,
+Solomon Oluwole Akinola, Shamsuddeen Muhammad, Salomon KABONGO KABENAMUALU, Salomey Osei, Freshia Sackey, Rubungo Andre Niyongabo, Ricky Macharm, Perez Ogayo, Orevaoghene
+Ahia, Musie Meressa Berhe, Mofetoluwa Adeyemi, Masabata Mokgesi-Selinga, Lawrence Okegbemi,
+Laura Martinus, Kolawole Tajudeen, Kevin Degila, Kelechi Ogueji, Kathleen Siminyu, Julia Kreutzer,
+Jason Webster, Jamiil Toure Ali, Jade Abbott, Iroro Orife, Ignatius Ezeani, Idris Abdulkadir Dangana,
+Herman Kamper, Hady Elsahar, Goodness Duru, ghollah kioko, Murhabazi Espoir, Elan van Biljon,
+Daniel Whitenack, Christopher Onyefuluchi, Chris Chinenye Emezue, Bonaventure F. P. Dossou, Blessing Sibanda, Blessing Bassey, Ayodele Olabiyi, Arshath Ramkilowan, Alp Öktem, Adewale Akinfaderin
+and Abdallah Bashir . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2144
+ConveRT: Efficient and Accurate Conversational Representations from Transformers
+Matthew Henderson, Iñigo Casanueva, Nikola Mrkšić, Pei-Hao Su, Tsung-Hsien Wen and Ivan
+Vulić . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2161
+Computer Assisted Translation with Neural Quality Estimation and Automatic Post-Editing
+Ke Wang, Jiayi Wang, Niyu Ge, Yangbin Shi, Yu Zhao and Kai Fan . . . . . . . . . . . . . . . . . . . . . . . 2175
+Zero-Shot Rationalization by Multi-Task Transfer Learning from Question Answering
+Po-Nien Kung, Tse-Hsuan Yang, Yi-Cheng Chen, Sheng-Siang Yin and Yun-Nung Chen . . . . 2187
+The Role of Reentrancies in Abstract Meaning Representation Parsing
+Marco Damonte, Ida Szubert, Shay B. Cohen and Mark Steedman . . . . . . . . . . . . . . . . . . . . . . . . . 2198
+Cross-Lingual Suicidal-Oriented Word Embedding toward Suicide Prevention
+Daeun Lee, Soyoung Park, Jiwon Kang, Daejin Choi and Jinyoung Han . . . . . . . . . . . . . . . . . . . . 2208
+Service-oriented Text-to-SQL Parsing
+Wangsu Hu and Jilei Tian . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2218
+Reinforcement Learning with Imbalanced Dataset for Data-to-Text Medical Report Generation
+Toru Nishino, Ryota Ozaki, Yohei Momoki, Tomoki Taniguchi, Ryuji Kano, Norihisa Nakano, Yuki
+Tagawa, Motoki Taniguchi, Tomoko Ohkuma and keigo nakamura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2223
+Reducing Quantity Hallucinations in Abstractive Summarization
+Zheng Zhao, Shay B. Cohen and Bonnie Webber . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2237
+
+xvi
+
+Rethinking Topic Modelling: From Document-Space to Term-Space
+Magnus Sahlgren . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2250
+Sparse and Decorrelated Representations for Stable Zero-shot NMT
+Bokyung Son and Sungwon Lyu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2260
+A Semi-supervised Approach to Generate the Code-Mixed Text using Pre-trained Encoder and Transfer
+Learning
+Deepak Gupta, Asif Ekbal and Pushpak Bhattacharyya . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2267
+BERT-MK: Integrating Graph Contextualized Knowledge into Pre-trained Language Models
+Bin He, Di Zhou, Jinghui Xiao, Xin Jiang, Qun Liu, Nicholas Jing Yuan and Tong Xu . . . . . . . 2281
+Recursive Top-Down Production for Sentence Generation with Latent Trees
+Shawn Tan, Yikang Shen, Alessandro Sordoni, Aaron Courville and Timothy J. O’Donnell . . 2291
+Guided Dialogue Policy Learning without Adversarial Learning in the Loop
+Ziming Li, Sungjin Lee, Baolin Peng, Jinchao Li, Julia Kiseleva, Maarten de Rijke, Shahin Shayandeh and Jianfeng Gao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2308
+MultiDM-GCN: Aspect-guided Response Generation in Multi-domain Multi-modal Dialogue System using Graph Convolutional Network
+Mauajama Firdaus, NIDHI THAKUR and Asif Ekbal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2318
+Edge-Enhanced Graph Convolution Networks for Event Detection with Syntactic Relation
+Shiyao Cui, Bowen Yu, Tingwen Liu, Zhenyu Zhang, Xuebin Wang and Jinqiao Shi . . . . . . . . 2329
+Semi-supervised Formality Style Transfer using Language Model Discriminator and Mutual Information
+Maximization
+Kunal Chawla and Diyi Yang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2340
+Differentially Private Representation for NLP: Formal Guarantee and An Empirical Study on Privacy
+and Fairness
+Lingjuan Lyu, Xuanli He and Yitong Li . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2355
+Helpful or Hierarchical? Predicting the Communicative Strategies of Chat Participants, and their Impact
+on Success
+Farzana Rashid, Tommaso Fornaciari, Dirk Hovy, Eduardo Blanco and Fernando Vega-Redondo
+2366
+Learning Knowledge Bases with Parameters for Task-Oriented Dialogue Systems
+Andrea Madotto, Samuel Cahyawijaya, Genta Indra Winata, Yan Xu, Zihan Liu, Zhaojiang Lin and
+Pascale Fung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2372
+Adapting Open Domain Fact Extraction and Verification to COVID-FACT through In-Domain Language
+Modeling
+Zhenghao Liu, Chenyan Xiong, Zhuyun Dai, Si Sun, Maosong Sun and Zhiyuan Liu . . . . . . . . 2395
+ProphetNet: Predicting Future N-gram for Sequence-to-SequencePre-training
+Weizhen Qi, Yu Yan, Yeyun Gong, Dayiheng Liu, Nan Duan, Jiusheng Chen, Ruofei Zhang and
+Ming Zhou . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2401
+DivGAN: Towards Diverse Paraphrase Generation via Diversified Generative Adversarial Network
+Yue Cao and Xiaojun Wan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2411
+
+xvii
+
+Plug-and-Play Conversational Models
+Andrea Madotto, Etsuko Ishii, Zhaojiang Lin, Sumanth Dathathri and Pascale Fung . . . . . . . . . 2422
+Event-Driven Learning of Systematic Behaviours in Stock Markets
+Xianchao Wu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2434
+Learning Improvised Chatbots from Adversarial Modifications of Natural Language Feedback
+Makesh Narsimhan Sreedhar, Kun Ni and Siva Reddy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2445
+Adapting Coreference Resolution to Twitter Conversations
+Berfin Aktaş, Veronika Solopova, Annalena Kohnert and Manfred Stede . . . . . . . . . . . . . . . . . . . 2454
+On Romanization for Model Transfer Between Scripts in Neural Machine Translation
+Chantal Amrhein and Rico Sennrich . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2461
+COSMIC: COmmonSense knowledge for eMotion Identification in Conversations
+Deepanway Ghosal, Navonil Majumder, Alexander Gelbukh, Rada Mihalcea and Soujanya Poria
+2470
+Improving Compositional Generalization in Semantic Parsing
+Inbar Oren, Jonathan Herzig, Nitish Gupta, Matt Gardner and Jonathan Berant . . . . . . . . . . . . . 2482
+Answer Span Correction in Machine Reading Comprehension
+Revanth Gangi Reddy, Md Arafat Sultan, Efsun Sarioglu Kayi, Rong Zhang, Vittorio Castelli and
+Avi Sil . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2496
+On the Interplay Between Fine-tuning and Sentence-level Probing for Linguistic Knowledge in Pretrained Transformers
+Marius Mosbach, Anna Khokhlova, Michael A. Hedderich and Dietrich Klakow . . . . . . . . . . . . 2502
+Zero-shot Entity Linking with Efficient Long Range Sequence Modeling
+Zonghai Yao, Liangliang Cao and Huapu Pan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2517
+How Does Context Matter? On the Robustness of Event Detection with Context-Selective Mask Generalization
+Jian Liu, Yubo Chen, Kang Liu, Yantao Jia and Zhicheng Sheng . . . . . . . . . . . . . . . . . . . . . . . . . . 2523
+Adaptive Feature Selection for End-to-End Speech Translation
+Biao Zhang, Ivan Titov, Barry Haddow and Rico Sennrich . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2533
+Abstractive Multi-Document Summarization via Joint Learning with Single-Document Summarization
+Hanqi Jin and Xiaojun Wan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2545
+Blockwise Self-Attention for Long Document Understanding
+Jiezhong Qiu, Hao Ma, Omer Levy, Wen-tau Yih, Sinong Wang and Jie Tang . . . . . . . . . . . . . . . 2555
+Unsupervised Few-Bits Semantic Hashing with Implicit Topics Modeling
+Fanghua Ye, Jarana Manotumruksa and Emine Yilmaz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2566
+Grid Tagging Scheme for Aspect-oriented Fine-grained Opinion Extraction
+Zhen Wu, Chengcan Ying, Fei Zhao, Zhifang Fan, Xinyu Dai and Rui Xia . . . . . . . . . . . . . . . . . 2576
+Learning Numeral Embedding
+Chengyue Jiang, Zhonglin Nian, Kaihao Guo, Shanbo Chu, Yinggong Zhao, Libin Shen and Kewei
+Tu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2586
+xviii
+
+An Investigation of Potential Function Designs for Neural CRF
+Zechuan Hu, Yong Jiang, Nguyen Bach, Tao Wang, Zhongqiang Huang, Fei Huang and Kewei Tu
+2600
+Fast End-to-end Coreference Resolution for Korean
+Cheoneum Park, Jamin Shin, Sungjoon Park, Joonho Lim and Changki Lee . . . . . . . . . . . . . . . . 2610
+Toward Stance-based Personas for Opinionated Dialogues
+Thomas Scialom, Serra Sinem Tekiroğlu, Jacopo Staiano and Marco Guerini . . . . . . . . . . . . . . . 2625
+Hierarchical Pre-training for Sequence Labelling in Spoken Dialog
+Emile Chapuis, Pierre Colombo, Matteo Manica, Matthieu Labeau and Chloé Clavel . . . . . . . . 2636
+Extending Multilingual BERT to Low-Resource Languages
+Zihan Wang, Karthikeyan K, Stephen Mayhew and Dan Roth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2649
+Out-of-Sample Representation Learning for Knowledge Graphs
+Marjan Albooyeh, Rishab Goel and Seyed Mehran Kazemi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2657
+Fine-Grained Grounding for Multimodal Speech Recognition
+Tejas Srinivasan, Ramon Sanabria, Florian Metze and Desmond Elliott . . . . . . . . . . . . . . . . . . . . 2667
+Unsupervised Expressive Rules Provide Explainability and Assist Human Experts Grasping New Domains
+Eyal Shnarch, Leshem Choshen, Guy Moshkowich, Ranit Aharonov and Noam Slonim. . . . . .2678
+Textual Supervision for Visually Grounded Spoken Language Understanding
+Bertrand Higy, Desmond Elliott and Grzegorz Chrupała . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2698
+Universal Dependencies According to BERT: Both More Specific and More General
+Tomasz Limisiewicz, David Mareček and Rudolf Rosa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2710
+Visual Objects As Context: Exploiting Visual Objects for Lexical Entailment
+Masayasu Muraoka, Tetsuya Nasukawa and Bishwaranjan Bhattacharjee . . . . . . . . . . . . . . . . . . . 2723
+Learning to Plan and Realize Separately for Open-Ended Dialogue Systems
+Sashank Santhanam, Zhuo Cheng, Brodie Mather, Bonnie Dorr, Archna Bhatia, Bryanna Hebenstreit, Alan Zemel, Adam Dalton, Tomek Strzalkowski and Samira Shaikh . . . . . . . . . . . . . . . . . . . . . . 2736
+Be Different to Be Better! A Benchmark to Leverage the Complementarity of Language and Vision
+Sandro Pezzelle, Claudio Greco, Greta Gandolfi, Eleonora Gualdoni and Raffaella Bernardi . 2751
+Cross-Lingual Training of Neural Models for Document Ranking
+Peng Shi, He Bai and Jimmy Lin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2768
+Improving Word Embedding Factorization for Compression Using Distilled Nonlinear Neural Decomposition
+Vasileios Lioutas, Ahmad Rashid, Krtin Kumar, Md. Akmal Haidar and Mehdi Rezagholizadeh
+2774
+PharmMT: A Neural Machine Translation Approach to Simplify Prescription Directions
+Jiazhao Li, Corey Lester, Xinyan Zhao, Yuting Ding, Yun Jiang and V.G.Vinod Vydiswaran . 2785
+LSTMs Compose—and Learn—Bottom-Up
+Naomi Saphra and Adam Lopez . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2797
+xix
+
+Natural Language Rationales with Full-Stack Visual Reasoning: From Pixels to Semantic Frames to
+Commonsense Graphs
+Ana Marasović, Chandra Bhagavatula, Jae sung Park, Ronan Le Bras, Noah A. Smith and Yejin
+Choi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2810
+Corpora Evaluation and System Bias Detection in Multi-document Summarization
+Alvin Dey, Tanya Chowdhury, Yash Kumar and Tanmoy Chakraborty . . . . . . . . . . . . . . . . . . . . . . 2830
+Graph-to-Tree Neural Networks for Learning Structured Input-Output Translation with Applications to
+Semantic Parsing and Math Word Problem
+Shucheng Li, Lingfei Wu, Shiwei Feng, Fangli Xu, Fengyuan Xu and Sheng Zhong . . . . . . . . . 2841
+Target Conditioning for One-to-Many Generation
+marie-anne lachaux, Armand Joulin and Guillaume Lample . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2853
+Can Pre-training help VQA with Lexical Variations?
+Shailza Jolly and Shubham Kapoor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2863
+FENAS: Flexible and Expressive Neural Architecture Search
+Ramakanth Pasunuru and Mohit Bansal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2869
+Inferring symmetry in natural language
+Chelsea Tanchip, Lei Yu, Aotao Xu and Yang Xu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2877
+A Concise Model for Multi-Criteria Chinese Word Segmentation with Transformer Encoder
+Xipeng Qiu, Hengzhi Pei, Hang Yan and Xuanjing Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2887
+LEGAL-BERT: The Muppets straight out of Law School
+Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, Nikolaos Aletras and Ion Androutsopoulos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2898
+Enhancing Content Planning for Table-to-Text Generation with Data Understanding and Verification
+Heng Gong, Wei Bi, Xiaocheng Feng, Bing Qin, Xiaojiang Liu and Ting Liu . . . . . . . . . . . . . . . 2905
+Contextual Text Style Transfer
+Yu Cheng, Zhe Gan, Yizhe Zhang, Oussama Elachqar, Dianqi Li and Jingjing Liu . . . . . . . . . . 2915
+DiPair: Fast and Accurate Distillation for Trillion-Scale Text Matching and Pair Modeling
+Jiecao Chen, Liu Yang, Karthik Raman, Michael Bendersky, Jung-Jung Yeh, Yun Zhou, Marc
+Najork, Danyang Cai and Ehsan Emadzadeh . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2925
+Cross-Lingual Dependency Parsing by POS-Guided Word Reordering
+Lu Liu, Yi Zhou, Jianhan Xu, Xiaoqing Zheng, Kai-Wei Chang and Xuanjing Huang . . . . . . . . 2938
+Assessing Robustness of Text Classification through Maximal Safe Radius Computation
+Emanuele La Malfa, Min Wu, Luca Laurenti, Benjie Wang, Anthony Hartshorn and Marta Kwiatkowska
+2949
+Social Commonsense Reasoning with Multi-Head Knowledge Attention
+Debjit Paul and Anette Frank . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2969
+TurnGPT: a Transformer-based Language Model for Predicting Turn-taking in Spoken Dialog
+Erik Ekstedt and Gabriel Skantze . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2981
+A little goes a long way: Improving toxic language classification despite data scarcity
+Mika Juuti, Tommi Gröndahl, Adrian Flanagan and N. Asokan . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2991
+xx
+
+An Instance Level Approach for Shallow Semantic Parsing in Scientific Procedural Text
+Daivik Swarup, Ahsaas Bajaj, Sheshera Mysore, Tim O’Gorman, Rajarshi Das and Andrew McCallum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3010
+General Purpose Text Embeddings from Pre-trained Language Models for Scalable Inference
+Jingfei Du, Myle Ott, Haoran Li, Xing Zhou and Veselin Stoyanov . . . . . . . . . . . . . . . . . . . . . . . . 3018
+Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles
+Christopher Clark, Mark Yatskar and Luke Zettlemoyer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3031
+Learning to Generalize for Sequential Decision Making
+Xusen Yin, Ralph Weischedel and Jonathan May . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3046
+Effective Crowd-Annotation of Participants, Interventions, and Outcomes in the Text of Clinical Trial
+Reports
+Markus Zlabinger, Marta Sabou, Sebastian Hofstätter and Allan Hanbury . . . . . . . . . . . . . . . . . . 3064
+Adversarial Grammatical Error Correction
+Vipul Raheja and Dimitris Alikaniotis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3075
+On Long-Tailed Phenomena in Neural Machine Translation
+Vikas Raunak, Siddharth Dalmia, Vivek Gupta and Florian Metze . . . . . . . . . . . . . . . . . . . . . . . . . 3088
+Knowing What You Know: Calibrating Dialogue Belief State Distributions via Ensembles
+Carel van Niekerk, Michael Heck, Christian Geishauser, Hsien-chin Lin, Nurul Lubis, Marco
+Moresi and Milica Gasic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3096
+Domain Adversarial Fine-Tuning as an Effective Regularizer
+Giorgos Vernikos, Katerina Margatina, Alexandra Chronopoulou and Ion Androutsopoulos . . 3103
+CLAR: A Cross-Lingual Argument Regularizer for Semantic Role Labeling
+Ishan Jindal, Yunyao Li, Siddhartha Brahma and Huaiyu Zhu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3113
+Neutralizing Gender Bias in Word Embeddings with Latent Disentanglement and Counterfactual Generation
+Seungjae Shin, Kyungwoo Song, JoonHo Jang, Hyemi Kim, Weonyoung Joo and Il-Chul Moon
+3126
+Towards Domain-Independent Text Structuring Trainable on Large Discourse Treebanks
+Grigorii Guz and Giuseppe Carenini . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3141
+Data Annealing for Informal Language Understanding Tasks
+Jing Gu and Zhou Yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3153
+A Multilingual View of Unsupervised Machine Translation
+Xavier Garcia, Pierre Foret, Thibault Sellam and Ankur Parikh . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3160
+An Evaluation Method for Diachronic Word Sense Induction
+Ashjan Alsulaimani, Erwan Moreau and Carl Vogel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3171
+Integrating Task Specific Information into Pretrained Language Models for Low Resource Fine Tuning
+Rui Wang, Shijing Si, Guoyin Wang, Lei Zhang, Lawrence Carin and Ricardo Henao . . . . . . . 3181
+Efficient Transformer-based Large Scale Language Representations using Hardware-friendly Block Structured Pruning
+Bingbing Li, Zhenglun Kong, Tianyun Zhang, Ji Li, Zhengang Li, Hang Liu and Caiwen Ding3187
+xxi
+
+KoBE: Knowledge-Based Machine Translation Evaluation
+Zorik Gekhman, Roee Aharoni, Genady Beryozkin, Markus Freitag and Wolfgang Macherey 3200
+Pushing the Limits of AMR Parsing with Self-Learning
+Young-Suk Lee, Ramón Fernandez Astudillo, Tahira Naseem, Revanth Gangi Reddy, Radu Florian
+and Salim Roukos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3208
+Towards Zero-Shot Conditional Summarization with Adaptive Multi-Task Fine-Tuning
+Travis Goodwin, Max Savery and Dina Demner-Fushman . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3215
+Multilingual Knowledge Graph Completion via Ensemble Knowledge Transfer
+Xuelu Chen, Muhao Chen, Changjun Fan, Ankith Uppunda, Yizhou Sun and Carlo Zaniolo . . 3227
+Towards Controllable Biases in Language Generation
+Emily Sheng, Kai-Wei Chang, Prem Natarajan and Nanyun Peng . . . . . . . . . . . . . . . . . . . . . . . . . . 3239
+RobBERT: a Dutch RoBERTa-based Language Model
+Pieter Delobelle, Thomas Winters and Bettina Berendt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3255
+Regularization of Distinct Strategies for Unsupervised Question Generation
+Junmo Kang, Giwon Hong, Haritz Puerto San Roman and Sung-Hyon Myaeng . . . . . . . . . . . . . 3266
+Graph-to-Graph Transformer for Transition-based Dependency Parsing
+Alireza Mohammadshahi and James Henderson . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3278
+WER we are and WER we think we are
+Piotr Szymański, Piotr Żelasko, Mikolaj Morzy, Adrian Szymczak, Marzena Żyła-Hoppe, Joanna
+Banaszczak, Lukasz Augustyniak, Jan Mizgajski and Yishay Carmiel . . . . . . . . . . . . . . . . . . . . . . . . . . 3290
+DeSMOG: Detecting Stance in Media On Global Warming
+Yiwei Luo, Dallas Card and Dan Jurafsky . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3296
+A Novel Challenge Set for Hebrew Morphological Disambiguation and Diacritics Restoration
+Avi Shmidman, Joshua Guedalia, Shaltiel Shmidman, Moshe Koppel and Reut Tsarfaty . . . . . 3316
+Improve Transformer Models with Better Relative Position Embeddings
+zhiheng huang, Davis Liang, Peng Xu and Bing Xiang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3327
+A Sentiment-Controllable Topic-to-Essay Generator with Topic Knowledge Graph
+Lin Qiao, Jianhao Yan, Fandong Meng, Zhendong Yang and Jie Zhou . . . . . . . . . . . . . . . . . . . . . . 3336
+What-if I ask you to explain: Explaining the effects of perturbations in procedural text
+Dheeraj Rajagopal, Niket Tandon, Peter Clark, Bhavana Dalvi and Eduard Hovy . . . . . . . . . . . . 3345
+RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models
+Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi and Noah A. Smith . . . . . . . . . 3356
+Improving Event Duration Prediction via Time-aware Pre-training
+Zonglin Yang, Xinya Du, Alexander Rush and Claire Cardie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3370
+Composed Variational Natural Language Generation for Few-shot Intents
+Congying Xia, Caiming Xiong, Philip Yu and Richard Socher . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3379
+Literature Retrieval for Precision Medicine with Neural Matching and Faceted Summarization
+Jiho Noh and Ramakanth Kavuluru . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3389
+
+xxii
+
+On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks
+Stephen Mussmann, Robin Jia and Percy Liang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3400
+A Dual-Attention Network for Joint Named Entity Recognition and Sentence Classification of Adverse
+Drug Events
+Susmitha Wunnava, Xiao Qin, Tabassum Kakar, Xiangnan Kong and Elke Rundensteiner . . . . 3414
+BERT-kNN: Adding a kNN Search Component to Pretrained Language Models for Better QA
+Nora Kassner and Hinrich Schütze . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3424
+Identifying Spurious Correlations for Robust Text Classification
+Zhao Wang and Aron Culotta . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3431
+HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification
+Yichen Jiang, Shikha Bordia, ZHENG ZHONG, Charles Dognin, Maneesh Singh and Mohit Bansal
+3441
+Continual Learning for Natural Language Generation in Task-oriented Dialog Systems
+Fei Mi, Liangwei Chen, Mengjie Zhao, Minlie Huang and Boi Faltings . . . . . . . . . . . . . . . . . . . . 3461
+UNQOVERing Stereotyping Biases via Underspecified Questions
+Tao Li, Daniel Khashabi, Tushar Khot, Ashish Sabharwal and Vivek Srikumar . . . . . . . . . . . . . . 3475
+A Semantics-based Approach to Disclosure Classification in User-Generated Online Content
+Chandan Akiti, Anna squicciarini and Sarah Rajtmajer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3490
+Mining Knowledge for Natural Language Inference from Wikipedia Categories
+Mingda Chen, Zewei Chu, Karl Stratos and Kevin Gimpel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3500
+OCNLI: Original Chinese Natural Language Inference
+Hai Hu, Kyle Richardson, Liang Xu, Lu Li, Sandra Kübler and Lawrence Moss . . . . . . . . . . . . 3512
+Margin-aware Unsupervised Domain Adaptation for Cross-lingual Text Labeling
+Dejiao Zhang, Ramesh Nallapati, Henghui Zhu, Feng Nan, Cicero Nogueira dos Santos, Kathleen
+McKeown and Bing Xiang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3527
+Rethinking Supervised Learning and Reinforcement Learning in Task-Oriented Dialogue Systems
+Ziming Li, Julia Kiseleva and Maarten de Rijke . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3537
+What do we expect from Multiple-choice QA Systems?
+Krunal Shah, Nitish Gupta and Dan Roth . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3547
+Resource-Enhanced Neural Model for Event Argument Extraction
+Jie Ma, Shuai Wang, Rishita Anubhai, Miguel Ballesteros and Yaser Al-Onaizan . . . . . . . . . . . 3554
+Improving Target-side Lexical Transfer in Multilingual Neural Machine Translation
+Luyu Gao, Xinyi Wang and Graham Neubig . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3560
+Accurate polyglot semantic parsing with DAG grammars
+Federico Fancellu, Ákos Kádár, Ran Zhang and Afsaneh Fazly . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3567
+Approximation of Response Knowledge Retrieval in Knowledge-grounded Dialogue Generation
+Wen Zheng, Natasa Milic-Frayling and Ke Zhou . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3581
+Evaluating Factuality in Generation with Dependency-level Entailment
+Tanya Goyal and Greg Durrett . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3592
+xxiii
+
+Cross-Lingual Text Classification with Minimal Resources by Transferring a Sparse Teacher
+Giannis Karamanolakis, Daniel Hsu and Luis Gravano . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3604
+A Multi-Persona Chatbot for Hotline Counselor Training
+Orianna Demasi, Yu Li and Zhou Yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3623
+Narrative Text Generation with a Latent Discrete Plan
+Harsh Jhamtani and Taylor Berg-Kirkpatrick . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3637
+Graph Transformer Networks with Syntactic and Semantic Structures for Event Argument Extraction
+Amir Pouran Ben Veyseh, Tuan Ngo Nguyen and Thien Huu Nguyen . . . . . . . . . . . . . . . . . . . . . . 3651
+The Box is in the Pen: Evaluating Commonsense Reasoning in Neural Machine Translation
+Jie He, Tao Wang, Deyi Xiong and Qun Liu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3662
+Using Visual Feature Space as a Pivot Across Languages
+Ziyan Yang, Leticia Pinto-Alva, Franck Dernoncourt and Vicente Ordonez . . . . . . . . . . . . . . . . . 3673
+CDEvalSumm: An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems
+Yiran Chen, Pengfei Liu, Ming Zhong, Zi-Yi Dou, Danqing Wang, Xipeng Qiu and Xuanjing Huang
+3679
+Attending to Long-Distance Document Context for Sequence Labeling
+Matthew Jörke, Jon Gillick, Matthew Sims and David Bamman . . . . . . . . . . . . . . . . . . . . . . . . . . . 3692
+Global Bootstrapping Neural Network for Entity Set Expansion
+Lingyong Yan, Xianpei Han, Ben He and Le Sun . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3705
+Document Classification for COVID-19 Literature
+Bernal Jimenez Gutierrez, Jucheng Zeng, Dongdong Zhang, Ping Zhang and Yu Su . . . . . . . . . 3715
+Adversarial Augmentation Policy Search for Domain and Cross-Lingual Generalization in Reading Comprehension
+Adyasha Maharana and Mohit Bansal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3723
+Denoising Multi-Source Weak Supervision for Neural Text Classification
+Wendi Ren, Yinghao Li, Hanting Su, David Kartchner, Cassie Mitchell and Chao Zhang . . . . . 3739
+Dr. Summarize: Global Summarization of Medical Dialogue by Exploiting Local Structures.
+Anirudh Joshi, Namit Katariya, Xavier Amatriain and Anitha Kannan . . . . . . . . . . . . . . . . . . . . . 3755
+Generating Accurate Electronic Health Assessment from Medical Graph
+Zhichao Yang and hong yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3764
+Do Models of Mental Health Based on Social Media Data Generalize?
+Keith Harrigian, Carlos Aguirre and Mark Dredze . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3774
+Context Analysis for Pre-trained Masked Language Models
+Yi-An Lai, Garima Lalwani and Yi Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3789
+Controllable Text Generation with Focused Variation
+Lei Shu, Alexandros Papangelis, Yi-Chia Wang, Gokhan Tur, Hu Xu, Zhaleh Feizollahi, Bing Liu
+and Piero Molino . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3805
+
+xxiv
+
+Modeling Preconditions in Text with a Crowd-sourced Dataset
+Heeyoung Kwon, Mahnaz Koupaee, Pratyush Singh, Gargi Sawhney, Anmol Shukla, Keerthi Kumar Kallur, Nathanael Chambers and Niranjan Balasubramanian . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3818
+Reevaluating Adversarial Examples in Natural Language
+John Morris, Eli Lifland, Jack Lanchantin, Yangfeng Ji and Yanjun Qi . . . . . . . . . . . . . . . . . . . . . 3829
+Question Answering with Long Multiple-Span Answers
+Ming Zhu, Aman Ahuja, Da-Cheng Juan, Wei Wei and Chandan K Reddy . . . . . . . . . . . . . . . . . 3840
+Inserting Information Bottlenecks for Attribution in Transformers
+Zhiying Jiang, Raphael Tang, Ji Xin and Jimmy Lin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3850
+Event-Related Bias Removal for Real-time Disaster Events
+SALVADOR MEDINA MAZA, Evangelia Spiliopoulou, Eduard Hovy and Alexander Hauptmann
+3858
+It’s not a Non-Issue: Negation as a Source of Error in Machine Translation
+Md Mosharaf Hossain, Antonios Anastasopoulos, Eduardo Blanco and Alexis Palmer . . . . . . . 3869
+Incremental Text-to-Speech Synthesis with Prefix-to-Prefix Framework
+Mingbo Ma, Baigong Zheng, Kaibo Liu, Renjie Zheng, Hairong Liu, Kainan Peng, Kenneth Church
+and Liang Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3886
+Joint Turn and Dialogue level User Satisfaction Estimation on Multi-Domain Conversations
+Praveen Kumar Bodigutla, Aditya Tiwari, Spyros Matsoukas, Josep Valls-Vargas and Lazaros Polymenakos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3897
+ArraMon: A Joint Navigation-Assembly Instruction Interpretation Task in Dynamic Environments
+Hyounghun Kim, Abhaysinh Zala, Graham Burri, Hao Tan and Mohit Bansal . . . . . . . . . . . . . . 3910
+Fluent and Low-latency Simultaneous Speech-to-Speech Translation with Self-adaptive Training
+Renjie Zheng, Mingbo Ma, Baigong Zheng, Kaibo Liu, Jiahong Yuan, Kenneth Church and Liang
+Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3928
+Towards Context-Aware Code Comment Generation
+Xiaohan Yu, Quzhe Huang, Zheng Wang, Yansong Feng and Dongyan Zhao . . . . . . . . . . . . . . . 3938
+MCMH: Learning Multi-Chain Multi-Hop Rules for Knowledge Graph Reasoning
+Lu Zhang, Mo Yu, Tian Gao and yue yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3948
+Finding the Optimal Vocabulary Size for Neural Machine Translation
+Thamme Gowda and Jonathan May . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3955
+Weakly- and Semi-supervised Evidence Extraction
+Danish Pruthi, Bhuwan Dhingra, Graham Neubig and Zachary C. Lipton . . . . . . . . . . . . . . . . . . . 3965
+Making Information Seeking Easier: An Improved Pipeline for Conversational Search
+Vaibhav Kumar and Jamie Callan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3971
+Generalizable and Explainable Dialogue Generation via Explicit Action Learning
+Xinting Huang, Jianzhong Qi, Yu Sun and Rui Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3981
+More Embeddings, Better Sequence Labelers?
+Xinyu Wang, Yong Jiang, Nguyen Bach, Tao Wang, Zhongqiang Huang, Fei Huang and Kewei Tu
+3992
+xxv
+
+NLP Service APIs and Models for Efficient Registration of New Clients
+Sahil Shah, Vihari Piratla, Soumen Chakrabarti and Sunita Sarawagi . . . . . . . . . . . . . . . . . . . . . . . 4007
+Effects of Naturalistic Variation in Goal-Oriented Dialog
+Jatin Ganhotra, Robert Moore, Sachindra Joshi and Kahini Wadhawan . . . . . . . . . . . . . . . . . . . . . 4013
+Determining Event Outcomes: The Case of #fail
+Srikala Murugan, Dhivya Chinnappa and Eduardo Blanco . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4021
+WikiLingua: A New Benchmark Dataset for Cross-Lingual Abstractive Summarization
+Faisal Ladhak, Esin Durmus, Claire Cardie and Kathleen McKeown . . . . . . . . . . . . . . . . . . . . . . . 4034
+Adversarial Training for Code Retrieval with Question-Description Relevance Regularization
+Jie Zhao and Huan Sun . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4049
+Large Product Key Memory for Pretrained Language Models
+Gyuwan Kim and Tae Hwan Jung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4060
+Temporal Reasoning in Natural Language Inference
+Siddharth Vashishtha, Adam Poliak, Yash Kumar Lal, Benjamin Van Durme and Aaron Steven
+White . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4070
+A Pilot Study of Text-to-SQL Semantic Parsing for Vietnamese
+Anh Tuan Nguyen, Mai Hoang Dao and Dat Quoc Nguyen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4079
+STANDER: An Expert-Annotated Dataset for News Stance Detection and Evidence Retrieval
+Costanza Conforti, Jakob Berndt, Mohammad Taher Pilehvar, Chryssi Giannitsarou, Flavio Toxvaerd and Nigel Collier . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4086
+An Empirical Methodology for Detecting and Prioritizing Needs during Crisis Events
+M. Janina Sarol, Ly Dinh, Rezvaneh Rezapour, Chieh-Li Chin, Pingjing Yang and Jana Diesner
+4102
+SupMMD: A Sentence Importance Model for Extractive Summarization using Maximum Mean Discrepancy
+Umanga Bista, Alexander Mathews, Aditya Menon and Lexing Xie . . . . . . . . . . . . . . . . . . . . . . . 4108
+Towards Low-Resource Semi-Supervised Dialogue Generation with Meta-Learning
+Yi Huang, Junlan Feng, Shuo Ma, Xiaoyu Du and Xiaoting Wu . . . . . . . . . . . . . . . . . . . . . . . . . . . 4123
+Connecting the Dots: A Knowledgeable Path Generator for Commonsense Question Answering
+Peifeng Wang, Nanyun Peng, Filip Ilievski, Pedro Szekely and Xiang Ren . . . . . . . . . . . . . . . . . 4129
+No Answer is Better Than Wrong Answer: A Reflection Model for Document Level Machine Reading
+Comprehension
+Xuguang Wang, Linjun Shou, Ming Gong, Nan Duan and Daxin Jiang . . . . . . . . . . . . . . . . . . . . . 4141
+Reference Language based Unsupervised Neural Machine Translation
+Zuchao Li, Hai Zhao, Rui Wang, Masao Utiyama and Eiichiro Sumita . . . . . . . . . . . . . . . . . . . . . 4151
+TinyBERT: Distilling BERT for Natural Language Understanding
+Xiaoqi Jiao, Yichun Yin, Lifeng Shang, Xin Jiang, Xiao Chen, Linlin Li, Fang Wang and Qun Liu
+4163
+Poison Attacks against Text Datasets with Conditional Adversarially Regularized Autoencoder
+Alvin Chan, Yi Tay, Yew-Soon Ong and Aston Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4175
+xxvi
+
+#Turki$hTweets: A Benchmark Dataset for Turkish Text Correction
+Asiye Tuba Koksal, Ozge Bozal, Emre Yürekli and Gizem Gezici . . . . . . . . . . . . . . . . . . . . . . . . . 4190
+Assessing Human-Parity in Machine Translation on the Segment Level
+Yvette Graham, Christian Federmann, Maria Eskevich and Barry Haddow . . . . . . . . . . . . . . . . . 4199
+Multichannel Generative Language Model: Learning All Possible Factorizations Within and Across
+Channels
+Harris Chan, Jamie Kiros and William Chan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4208
+Factorized Transformer for Multi-Domain Neural Machine Translation
+Yongchao Deng, Hongfei Yu, Heng Yu, Xiangyu Duan and Weihua Luo . . . . . . . . . . . . . . . . . . . 4221
+Improving Named Entity Recognition with Attentive Ensemble of Syntactic Information
+Yuyang Nie, Yuanhe Tian, Yan Song, Xiang Ao and Xiang Wan . . . . . . . . . . . . . . . . . . . . . . . . . . . 4231
+Query-Key Normalization for Transformers
+Alex Henry, Prudhvi Raj Dachapally, Shubham Shantaram Pawar and Yuxuan Chen . . . . . . . . . 4246
+Contract Discovery: Dataset and a Few-Shot Semantic Retrieval Challenge with Competitive Baselines
+Łukasz Borchmann, Dawid Wisniewski, Andrzej Gretkowski, Izabela Kosmala, Dawid Jurkiewicz,
+Łukasz Szałkiewicz, Gabriela Pałka, Karol Kaczmarek, Agnieszka Kaliska and Filip Graliński . . . . 4254
+Vocabulary Adaptation for Domain Adaptation in Neural Machine Translation
+Shoetsu Sato, Jin Sakuma, Naoki Yoshinaga, Masashi Toyoda and Masaru Kitsuregawa . . . . . 4269
+A Shared-Private Representation Model with Coarse-to-Fine Extraction for Target Sentiment Analysis
+Peiqin Lin and Meng Yang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4280
+Detecting Media Bias in News Articles using Gaussian Bias Distributions
+Wei-Fan Chen, Khalid Al Khatib, Benno Stein and Henning Wachsmuth . . . . . . . . . . . . . . . . . . . 4290
+How Can Self-Attention Networks Recognize Dyck-n Languages?
+Javid Ebrahimi, Dhruv Gelda and Wei Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4301
+Training Flexible Depth Model by Multi-Task Learning for Neural Machine Translation
+Qiang Wang, Tong Xiao and Jingbo Zhu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4307
+Looking inside Noun Compounds: Unsupervised Prepositional and Free Paraphrasing
+Girishkumar Ponkiya, Rudra Murthy, Pushpak Bhattacharyya and Girish Palshikar . . . . . . . . . . 4313
+The birth of Romanian BERT
+Stefan Dumitrescu, Andrei-Marius Avram and Sampo Pyysalo . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4324
+BERT for Monolingual and Cross-Lingual Reverse Dictionary
+Hang Yan, Xiaonan Li, Xipeng Qiu and bocao deng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4329
+What’s so special about BERT’s layers? A closer look at the NLP pipeline in monolingual and multilingual models
+Wietse de Vries, Andreas van Cranenburgh and Malvina Nissim . . . . . . . . . . . . . . . . . . . . . . . . . . 4339
+Leakage-Adjusted Simulatability: Can Models Generate Non-Trivial Explanations of Their Behavior in
+Natural Language?
+Peter Hase, Shiyue Zhang, Harry Xie and Mohit Bansal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4351
+
+xxvii
+
+A Pointer Network Architecture for Joint Morphological Segmentation and Tagging
+Amit Seker and Reut Tsarfaty. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4368
+Beyond Language: Learning Commonsense from Images for Reasoning
+Wanqing Cui, Yanyan Lan, Liang Pang, Jiafeng Guo and Xueqi Cheng. . . . . . . . . . . . . . . . . . . . .4379
+A BERT-based Distractor Generation Scheme with Multi-tasking and Negative Answer Training Strategies.
+Ho-Lam Chung, Ying-Hong Chan and Yao-Chung Fan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4390
+How Effective is Task-Agnostic Data Augmentation for Pretrained Transformers?
+Shayne Longpre, Yu Wang and Chris DuBois . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4401
+Visually-Grounded Planning without Vision: Language Models Infer Detailed Plans from High-level
+Instructions
+Peter Jansen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4412
+Consistent Response Generation with Controlled Specificity
+Junya Takayama and Yuki Arase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4418
+Internal and external pressures on language emergence: least effort, object constancy and frequency
+Diana Rodríguez Luna, Edoardo Maria Ponti, Dieuwke Hupkes and Elia Bruni . . . . . . . . . . . . . 4428
+Parsing All: Syntax and Semantics, Dependencies and Spans
+Junru Zhou, Zuchao Li and Hai Zhao . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4438
+LIMIT-BERT : Linguistics Informed Multi-Task BERT
+Junru Zhou, Zhuosheng Zhang, Hai Zhao and Shuailiang Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . 4450
+Improving Limited Labeled Dialogue State Tracking with Self-Supervision
+Chien-Sheng Wu, Steven C.H. Hoi and Caiming Xiong . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4462
+On the Branching Bias of Syntax Extracted from Pre-trained Language Models
+Huayang Li, Lemao Liu, Guoping Huang and Shuming Shi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4473
+The Pragmatics behind Politics: Modelling Metaphor, Framing and Emotion in Political Discourse
+Pere-Lluís Huguet Cabot, Verna Dankers, David Abadi, Agneta Fischer and Ekaterina Shutova4479
+SMRT Chatbots: Improving Non-Task-Oriented Dialog with Simulated Multiple Reference Training
+Huda Khayrallah and João Sedoc . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4489
+PrivNet: Safeguarding Private Attributes in Transfer Learning for Recommendation
+Guangneng Hu and Qiang Yang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4506
+Learning to Learn to Disambiguate: Meta-Learning for Few-Shot Word Sense Disambiguation
+Nithin Holla, Pushkar Mishra, Helen Yannakoudakis and Ekaterina Shutova . . . . . . . . . . . . . . . . 4517
+An Empirical Investigation of Beam-Aware Training in Supertagging
+Renato Negrinho, Matthew R. Gormley and Geoff Gordon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4534
+Improving Aspect-based Sentiment Analysis with Gated Graph Convolutional Networks and Syntaxbased Regulation
+Amir Pouran Ben Veyseh, Nasim Nouri, Franck Dernoncourt, Quan Hung Tran, Dejing Dou and
+Thien Huu Nguyen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4543
+
+xxviii
+
+Decoding Language Spatial Relations to 2D Spatial Arrangements
+Gorjan Radevski, Guillem Collell, Marie-Francine Moens and Tinne Tuytelaars . . . . . . . . . . . . 4549
+The Dots Have Their Values: Exploiting the Node-Edge Connections in Graph-based Neural Models for
+Document-level Relation Extraction
+Hieu Minh Tran, Minh Trung Nguyen and Thien Huu Nguyen . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4561
+Why and when should you pool? Analyzing Pooling in Recurrent Architectures
+Pratyush Maini, Keshav Kolluru, Danish Pruthi and . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4568
+Structural and Functional Decomposition for Personality Image Captioning in a Communication Game
+Minh Thu Nguyen, Duy Phung, Minh Hoai and Thien Huu Nguyen . . . . . . . . . . . . . . . . . . . . . . . 4587
+Long Document Ranking with Query-Directed Sparse Transformer
+Jyun-Yu Jiang, Chenyan Xiong, Chia-Jung Lee and Wei Wang . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4594
+Visuo-Linguistic Question Answering (VLQA) Challenge
+Shailaja Keyur Sampat, Yezhou Yang and Chitta Baral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4606
+Byte Pair Encoding is Suboptimal for Language Model Pretraining
+Kaj Bostrom and Greg Durrett . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4617
+Exploring BERT’s Sensitivity to Lexical Cues using Tests from Semantic Priming
+Kanishka Misra, Allyson Ettinger and Julia Rayz . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4625
+Multi-hop Question Generation with Graph Convolutional Network
+Dan Su, Yan Xu, Wenliang Dai, Ziwei Ji, Tiezheng Yu and Pascale Fung . . . . . . . . . . . . . . . . . . . 4636
+MMFT-BERT: Multimodal Fusion Transformer with BERT Encodings for Visual Question Answering
+Aisha Urooj, Amir Mazaheri, Niels Da vitoria lobo and Mubarak Shah . . . . . . . . . . . . . . . . . . . . 4648
+Thinking Like a Skeptic: Defeasible Inference in Natural Language
+Rachel Rudinger, Vered Shwartz, Jena D. Hwang, Chandra Bhagavatula, Maxwell Forbes, Ronan
+Le Bras, Noah A. Smith and Yejin Choi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4661
+Guiding Attention for Self-Supervised Learning with Transformers
+Ameet Deshpande and Karthik Narasimhan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4676
+Language-Conditioned Feature Pyramids for Visual Selection Tasks
+Taichi Iki and Akiko Aizawa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4687
+Learning to Classify Events from Human Needs Category Descriptions
+Haibo Ding and Zhe Feng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4698
+Automatic Term Name Generation for Gene Ontology: Task and Dataset
+Yanjian Zhang, Qin Chen, Yiteng Zhang, Zhongyu Wei, Yixu Gao, Jiajie Peng, Zengfeng Huang,
+Weijian Sun and Xuanjing Huang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4705
+Compressing Transformer-Based Semantic Parsing Models using Compositional Code Embeddings
+Prafull Prakash, Saurabh Kumar Shashidhar, Wenlong Zhao, Subendhu Rongali, Haidar Khan and
+Michael Kayser . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4711
+BERT-QE: Contextualized Query Expansion for Document Re-ranking
+Zhi Zheng, Kai Hui, Ben He, Xianpei Han, Le Sun and Andrew Yates . . . . . . . . . . . . . . . . . . . . . 4718
+
+xxix
+
+ZEN: Pre-training Chinese Text Encoder Enhanced by N-gram Representations
+Shizhe Diao, Jiaxin Bai, Yan Song, Tong Zhang and Yonggang Wang . . . . . . . . . . . . . . . . . . . . . . 4729
+Finding Friends and Flipping Frenemies: Automatic Paraphrase Dataset Augmentation Using Graph
+Theory
+Hannah Chen, Yangfeng Ji and David Evans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4741
+Probabilistic Case-based Reasoning for
+Open-World Knowledge Graph Completion
+Rajarshi Das, Ameya Godbole, Nicholas Monath, Manzil Zaheer and Andrew McCallum . . . . 4752
+TLDR: Extreme Summarization of Scientific Documents
+Isabel Cachola, Kyle Lo, Arman Cohan and Daniel Weld . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4766
+Tri-Train: Automatic Pre-Fine Tuning between Pre-Training and Fine-Tuning for SciNER
+Qingkai Zeng, Wenhao Yu, Mengxia Yu, Tianwen Jiang, Tim Weninger and Meng Jiang . . . . . 4778
+Hierarchical Region Learning for Nested Named Entity Recognition
+Xinwei Long, Shuzi Niu and Yucheng Li . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4788
+Understanding User Resistance Strategies in Persuasive Conversations
+Youzhi Tian, Weiyan Shi, Chen Li and Zhou Yu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4794
+On the Sub-layer Functionalities of Transformer Decoder
+Yilin Yang, Longyue Wang, Shuming Shi, Prasad Tadepalli, Stefan Lee and Zhaopeng Tu . . . 4799
+Extremely Low Bit Transformer Quantization for On-Device Neural Machine Translation
+Insoo Chung, Byeongwook Kim, Yoonjung Choi, Se Jung Kwon, Yongkweon Jeon, Baeseong Park,
+Sangha Kim and Dongsoo Lee . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4812
+Robust Backed-off Estimation of Out-of-Vocabulary Embeddings
+Nobukazu Fukuda, Naoki Yoshinaga and Masaru Kitsuregawa . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4827
+Exploiting Unsupervised Data for Emotion Recognition in Conversations
+Wenxiang Jiao, Michael Lyu and Irwin King . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4839
+Tensorized Embedding Layers
+Oleksii Hrinchuk, Valentin Khrulkov, Leyla Mirvakhabova, Elena Orlova and Ivan Oseledets 4847
+Speaker or Listener? The Role of a Dialog Agent
+Yafei Liu, Hongjin Qian, Hengpeng Xu and Jinmao Wei . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4861
+Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing
+Xi Victoria Lin, Richard Socher and Caiming Xiong . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4870
+Do Language Embeddings capture Scales?
+Xikun Zhang, Deepak Ramachandran, Ian Tenney, Yanai Elazar and Dan Roth . . . . . . . . . . . . . 4889
+Paraphrasing vs Coreferring: Two Sides of the Same Coin
+Yehudit Meged, Avi Caciularu, Vered Shwartz and Ido Dagan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4897
+Active Sentence Learning by Adversarial Uncertainty Sampling in Discrete Space
+Dongyu Ru, Jiangtao Feng, Lin Qiu, Hao Zhou, Mingxuan Wang, Weinan Zhang, Yong Yu and Lei
+Li . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4908
+
+xxx
+
+Coming to Terms: Automatic Formation of Neologisms in Hebrew
+Moran Mizrahi, Stav Yardeni Seelig and Dafna Shahaf . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4918
+Dual Inference for Improving Language Understanding and Generation
+Shang-Yu Su, Yung-Sung Chuang and Yun-Nung Chen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4930
+Joint Intent Detection and Entity Linking on Spatial Domain Queries
+lei zhang, Runze Wang, Jingbo Zhou, Jingsong Yu, Zhenhua Ling and Hui Xiong . . . . . . . . . . . 4937
+IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language
+Models for Indian Languages
+Divyanshu Kakwani, Anoop Kunchukuttan, Satish Golla, Gokul N.C., Avik Bhattacharyya, Mitesh
+M. Khapra and Pratyush Kumar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4948
+Weakly-Supervised Modeling of Contextualized Event Embedding for Discourse Relations
+I-Ta Lee, Maria Leonor Pacheco and Dan Goldwasser . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4962
+Enhancing Generalization in Natural Language Inference by Syntax
+Qi He, Han Wang and Yue Zhang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4973
+
+xxxi
+
+

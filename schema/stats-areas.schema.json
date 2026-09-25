@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "stats-areas.schema.json",
+  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "title": "Official per-area statistics for one edition (data/stats/areas/<series>-<year>.yml)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["series", "year", "kind", "precision", "track_zh", "source_url", "quote_check", "checked", "rows"],
+  "properties": {
+    "series": { "type": "string", "pattern": "^[a-z0-9]+$" },
+    "year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+    "kind": {
+      "enum": ["rates", "rate_only", "submissions_only", "accepted_only", "share_of_accepted", "theme_track"],
+      "description": "rates：各领域投稿、录用、录用率；rate_only：只有录用率；submissions_only / accepted_only：只有篇数，没有录用率；share_of_accepted：占录用论文的比例；theme_track：*ACL 特别主题 track 一行"
+    },
+    "precision": {
+      "enum": ["exact", "chart_read", "our_count"],
+      "description": "exact：官方文字或表格；chart_read：从官方图表上量出，界面写“约”；our_count：本应用在官网名单上数的"
+    },
+    "track_zh": { "type": "string", "minLength": 2 },
+    "tolerance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "count": { "type": "integer", "minimum": 1 },
+        "pct": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "names_mapped": { "const": true, "description": "领域全名是本应用对照补的（官方只有缩写）" },
+    "source_url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "quote": { "type": "string", "minLength": 3, "maxLength": 700 },
+    "page_zh": { "type": "string", "minLength": 1, "description": "图表或表格在原文的位置，例如“第 27 页幻灯片”" },
+    "src": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "quote_check": { "enum": ["snapshot", "manual"] },
+    "figure_urls": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri", "pattern": "^https?://" },
+      "description": "官方原图，只链接，不复制"
+    },
+    "count_method_zh": { "type": "string", "minLength": 4 },
+    "total": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "全会（或全赛道）数字，画参考线用",
+      "properties": {
+        "label_zh": { "type": "string", "minLength": 2, "maxLength": 8, "description": "参考线的名字：全会、直投合计、研究赛道合计" },
+        "submissions": { "type": "integer", "minimum": 1 },
+        "accepted": { "type": "integer", "minimum": 1 },
+        "rate": { "type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 100 },
+        "findings_rate": { "type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 100 },
+        "quote": { "type": "string", "minLength": 3 }
+      }
+    },
+    "gap_note_zh": { "type": "string", "minLength": 4 },
+    "note_zh": { "type": "string", "minLength": 2 },
+    "checked": { "type": "string", "format": "date" },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["area"],
+        "properties": {
+          "area": { "type": "string", "minLength": 2, "description": "官方原名（英文，投稿时选的名字）" },
+          "label_on_source": { "type": "string", "minLength": 1 },
+          "submissions": { "type": "integer", "minimum": 1 },
+          "accepted": { "type": "integer", "minimum": 0 },
+          "rate": { "type": "number", "minimum": 0, "maximum": 100 },
+          "findings_accepted": { "type": "integer", "minimum": 0 },
+          "findings_rate": { "type": "number", "minimum": 0, "maximum": 100 },
+          "share_pct": { "type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 100 },
+          "quote": { "type": "string", "minLength": 3, "description": "这一行在原表里的单元格，用 | 分隔" }
+        }
+      }
+    }
+  },
+  "allOf": [
+    { "if": { "properties": { "precision": { "const": "chart_read" } } }, "then": { "required": ["tolerance"] } },
+    { "anyOf": [{ "required": ["quote"] }, { "required": ["count_method_zh"] }] },
+    { "if": { "properties": { "precision": { "const": "our_count" } } }, "then": { "required": ["count_method_zh"] } },
+    { "if": { "properties": { "quote_check": { "const": "snapshot" } } }, "then": { "required": ["src"] } }
+  ]
+}

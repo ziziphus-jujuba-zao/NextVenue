@@ -1,0 +1,13 @@
+id: aag
+acronym: AAG
+full_name: American Association of Geographers Annual Meeting
+name_zh: 美国地理学家协会年会
+aliases:
+  - AAG Annual Meeting
+directions: [earth/geog]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 美国地理学家协会年会，往届都在每年 2–4 月举办，城市每年轮换
+data_level: curated
+note_zh: 收所有摘要和组织好的分会；要先缴注册费才能投摘要，每人只能投一篇报告摘要。

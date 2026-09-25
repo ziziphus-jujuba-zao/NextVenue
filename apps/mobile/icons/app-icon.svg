@@ -1,16 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <!-- Copyright (c) 2026 Zayier Xie -->
-  <!-- SPDX-License-Identifier: MIT -->
-  <!-- Full-bleed square: the source for the PNG home-screen icons (the OS rounds the corners). -->
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2F86F0"/>
-      <stop offset="1" stop-color="#0A5CC4"/>
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" fill="url(#g)"/>
-  <path d="M112 256H262" stroke="#fff" stroke-opacity=".55" stroke-width="34" stroke-linecap="round"/>
-  <circle cx="152" cy="256" r="28" fill="#fff" fill-opacity=".55"/>
-  <circle cx="336" cy="256" r="76" fill="none" stroke="#fff" stroke-width="34"/>
-  <circle cx="336" cy="256" r="28" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Copyright (c) 2026 Zayier Xie. All rights reserved. -->
+  <!-- NextVenue（投稿下一站） app icon: a paper headed to its next venue. Full-bleed master; platforms apply their own corner mask. -->
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2E8BFF"/><stop offset="1" stop-color="#0A4FC4"/></linearGradient></defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <g id="mark"><path d="M196 214 H484 L584 314 V752 H196 Z" fill="#fff"/><path d="M484 214 V314 H584" fill="#CFE1FF"/><path d="M266 412 H514 M266 492 H514 M266 572 H424" stroke="#A9C6F2" stroke-width="34" stroke-linecap="round"/><path d="M740 836 C740 836 612 712 612 600 A128 128 0 1 1 868 600 C868 712 740 836 740 836 Z" fill="#FFC53D" stroke="#0B56C9" stroke-width="28" stroke-linejoin="round"/><circle cx="740" cy="596" r="50" fill="#0B56C9"/></g>
 </svg>

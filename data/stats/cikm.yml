@@ -1,0 +1,92 @@
+# CIKM 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: cikm
+rows:
+  - year: 2020
+    track: main
+    status: third_party
+    submissions: 920
+    accepted: 193
+    rate: 21
+    rate_text: 21.0%
+    rate_basis: stated
+    definition_zh: 长文；短文另算
+    source_url: https://github.com/lixin4ever/Conference-Acceptance-Rate/blob/6297bb0529e55cec67707f5fc7c22f5a97a865f7/README.md
+    quote: "|CIKM'20 | 21.0% (193/920) | 25.9% (103/397) |"
+    src: lixin4ever-readme
+    quote_check: snapshot
+    relay_zh: 第三方数据集 lixin4ever/Conference-Acceptance-Rate（MIT），未注明出处
+    dataset: lixin4ever
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 1251
+    accepted: 271
+    rate: 21.7
+    rate_text: 21.7%
+    rate_basis: stated
+    definition_zh: 长文赛道；其他赛道另算
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3459637
+    quote: The Full Paper Track received 1,251 submissions, of which 271 were accepted (21.7% acceptance rate).
+    src: cikm-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: none
+    reason: unlicensed_only
+    checked_urls:
+      - https://dl.acm.org/doi/proceedings/10.1145/3511808
+    note_zh: 只见于无许可证的聚合站；官方论文集前言没能取到
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 1472
+    accepted: 354
+    rate: 24
+    rate_text: 24%
+    rate_basis: stated
+    definition_zh: 长文；其他赛道另算
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3583780
+    quote: Track Submissions Accepted Acceptance Rate Long/Full Papers 1472 354 24% ... The full research track accepted 354 full papers (24% acceptance rate)
+    src: cikm-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 1496
+    accepted: 347
+    rate: 23
+    rate_text: 23%
+    rate_basis: stated
+    definition_zh: 长文
+    source_url: https://fgullo.github.io/files/papers/SIGWEBNewsl25.pdf
+    quote: In total, we received 1,496 full research papers [...] The full research track accepted 347 full papers (23% acceptance rate)
+    src: cikm-2024-sigweb-report
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 1627
+    accepted: 443
+    rate: 27
+    rate_text: 27%
+    rate_basis: stated
+    definition_zh: 长文
+    source_url: https://sigir.org/wp-content/uploads/2026/02/p18.pdf
+    quote: In total, we have received 1,627 submissions of full research papers [...] The full research paper track accepted 443 full papers (27% acceptance rate)
+    src: cikm-2025-report
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: none
+    reason: unlicensed_only
+    checked_urls:
+      - https://cikm2026.diag.uniroma1.it/
+    note_zh: 只见于无许可证的聚合站；官网还没有录用名单
+    checked: 2026-09-25

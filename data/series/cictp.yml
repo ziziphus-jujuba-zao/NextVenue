@@ -1,0 +1,10 @@
+id: cictp
+acronym: CICTP
+full_name: COTA International Conference of Transportation Professionals
+directions: [eng/transport]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 7 月前后，国内
+data_level: curated
+note_zh: 海外华人交通协会（COTA）主办，论文进 ASCE 会议论文集。

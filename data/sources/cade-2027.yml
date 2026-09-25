@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: cade-2027
+sources:
+  - id: cade-2027-cfp
+    url: https://fscd-cade.science.ru.nl/calls/papers-cade
+    title: CADE-31 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:09Z
+    http_status: 200
+    snapshot: 388301ae72d57550df4b95f80585a6abfeaed1ab8a6a492a4269f583132915e4
+  - id: fscd-cade-2027-home
+    url: https://fscd-cade.science.ru.nl/
+    title: FSCD-CADE 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:48:10Z
+    http_status: 200
+    snapshot: f04ab0a44dc47d3487b0016d93dc1a058d1df7b30bdbc8413a212b6e3f95d3a6

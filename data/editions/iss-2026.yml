@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: iss-2026
+series: iss
+name: ISS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: HI/ISS
+  conf_id: iss26
+  link: https://iss.acm.org/2026/
+  place: Turin, Italy
+  date: November 23-26, 2026
+  timezone: AoE
+location:
+  city: Turin
+  country: Italy
+  country_code: IT
+dates:
+  start: 2026-11-23
+  end: 2026-11-26
+milestones:
+  - type: paper
+    at: 2025-03-14T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: First round 2025
+  - type: paper
+    at: 2025-07-25T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Second round 2025
+  - type: paper
+    at: 2026-02-12T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Winter round
+  - type: paper
+    at: 2026-07-22T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Summer round
+  - type: conference
+    start: 2026-11-23
+    end: 2026-11-26
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

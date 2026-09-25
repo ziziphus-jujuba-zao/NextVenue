@@ -1,0 +1,37 @@
+# WWW（The Web Conference） 2021 官方分领域数据。字段见 docs/DATA_GUIDE.md 第 8 节。
+series: www
+year: 2021
+kind: submissions_only
+precision: exact
+track_zh: 研究赛道，按 track
+source_url: https://sigir.org/wp-content/uploads/2021/09/p13.pdf
+quote: "Table 1: TheWebConf2021 research tracks and their respective numbers of submitted papers."
+src: www-2021-sigir-forum-report
+quote_check: snapshot
+gap_note_zh: 表里各 track 合计 1,701 篇，报告的总投稿数是 1,736 篇
+checked: 2026-09-25
+rows:
+  - area: Social Network Analysis and Graph Algorithms
+    submissions: 305
+  - area: Web Mining and Content Analysis
+    submissions: 288
+  - area: User Modeling and Personalization
+    submissions: 259
+  - area: Web and Society
+    submissions: 161
+  - area: Security, Privacy, and Trust
+    submissions: 152
+  - area: Semantics and Knowledge
+    submissions: 144
+  - area: Search
+    submissions: 120
+  - area: Web of Things, Ubiquitous, and Mobile Computing
+    submissions: 93
+  - area: Economics and Monetization
+    submissions: 68
+  - area: Systems and Infrastructure
+    submissions: 54
+  - area: Crowdsourcing and Human Computation
+    submissions: 43
+  - area: User experience and Accessibility
+    submissions: 14

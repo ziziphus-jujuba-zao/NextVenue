@@ -1,0 +1,9 @@
+id: ecc
+acronym: ECC
+full_name: European Control Conference
+directions: [eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 6–7 月，欧洲
+data_level: curated

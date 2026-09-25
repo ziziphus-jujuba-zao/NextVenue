@@ -1,0 +1,11 @@
+id: isscc
+acronym: ISSCC
+full_name: IEEE International Solid-State Circuits Conference
+aliases:
+  - IEEE ISSCC
+directions: [eng/ic]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 2 月，旧金山
+data_level: curated

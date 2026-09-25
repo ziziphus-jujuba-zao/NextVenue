@@ -1,0 +1,10 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl 建立。方向按 CCF 类别给的默认值（已按会议内容改过），名称取 ccfddl 的写法；可以手改，导入不会覆盖。
+id: bibm
+acronym: BIBM
+full_name: IEEE International Conference on Bioinformatics and Biomedicine
+directions:
+  - cs/cross
+  - life/bioinfo
+dblp: conf/bibm
+ccfddl: MX/BIBM
+data_level: upstream

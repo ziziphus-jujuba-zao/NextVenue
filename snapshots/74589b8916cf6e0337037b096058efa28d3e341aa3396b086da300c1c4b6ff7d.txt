@@ -1,0 +1,145 @@
+Sitemap
+
+Open in app
+
+Sign up
+
+Sign in
+
+Write
+Search
+
+Sign up
+
+Sign in
+
+What we learned from NeurIPS 2020 reviewing process
+
+Neural Information Processing Systems Conference
+
+8 min read
+·
+Oct 16, 2020
+
+--
+
+3
+
+Listen
+
+Share
+
+Hsuan-Tien Lin, Maria Florina Balcan, Raia Hadsell and Marc’Aurelio Ranzato
+
+NeurIPS 2020 Program Chairs
+
+Now that the reviewing period is over, we would like to share with you some statistics and insights about the reviewing process we used this year.
+
+We received 12115 abstract submissions, which resulted in 9467 full paper submissions. Compared to 2019, the number of submissions increased by 40%, which is very similar to the growth from 2018 to 2019.
+
+After more than three months of hard work from our reviewers, area chairs and senior area chairs (thank you, all!!), we have accepted exactly 1900 papers, including 105 oral presentations and 280 spotlight presentations. Below, you can see how submissions are distributed across primary subject areas and a comparison to the past two years:
+
+Press enter or click to view image in full size
+
+Note that this year we introduced “Social Aspects of Machine Learning”, with topics like fairness and privacy. Such papers were included under Algorithms in the previous years. The three most popular areas continue to be: “Algorithms”, “Deep Learning” and “Applications”, but the latter two have seen a decline in the number of submissions.
+
+Next, we compare the acceptance rate in each subject area:
+
+Press enter or click to view image in full size
+
+We observe that “Theory” and “Neuroscience” continue to have much higher acceptance rates. “Applications” and “Data, Challenges, Implementations, and Software” had the lowest acceptance rates this year.
+
+We also had a special call for COVID-19 related submissions, this year. We received about 40 papers on this topic, and ended up accepting 1 for oral presentation, 4 for spotlight presentation, and 4 for poster presentation. The COVID-19 acceptance rate was about 24%, slightly higher than the overall rate of 20%.
+
+Of course, the major challenge we faced was handling such a large number of submissions. We would need to recruit 7100 reviewers to provide 3 reviews per paper and an average reviewing load of 4 papers per reviewer! Next, we describe how we handled this daunting task.
+
+First, we invited 64 senior area chairs, 480 area chairs, and 4969 reviewers. Reviewers were selected by inviting high performing reviewers from NeurIPS 2019, as well as from other machine-learning conferences and domain-specific conferences and workshops (CVPR, EMNLP, health care workshops, etc.). For several months prior to our submission deadline, we worked hard to persuade all members of the program committee to update/create their TPMS and OpenReview profiles, as these resources are crucial to producing good assignments of papers to reviewers.
+
+Even though 4969 reviewers is a huge number, it is not nearly enough to get the job done. We therefore asked submitting authors to review papers. From the pool of submitting authors, we selected 1778 additional reviewers. The screening criteria were a) they had to have a profile with either TPMS or OpenReview, b) they had to have reviewed for a top-tier ML conference at least once, c) they had to have bid on at least 10 papers, and d) they had to have published at least one paper as first co-author at a top tier machine-learning conference.
+
+An obvious question to ask is whether there are any differences in the quality of the reviews provided by the two sets of reviewers, the invited reviewers versus the reviewers originating from the author pool. A natural way to measure this is by using the ratings that Area Chairs assign to reviews: 1=fails to meet expectations, 2=meets expectations, 3=exceeds expectations. These are usually used to determine which reviewers to invite in the following years and which reviewers to grant free registration. If we use associate to each reviewer the average of the ratings of all the reviews they have written, we observe that invited reviewers are only marginally better than author reviewers, suggesting that we did not sacrifice too much quality by inviting these additional reviewers.
+
+Press enter or click to view image in full size
+
+Interestingly, we found that the self-declared level of experience did not necessarily correlate with the quality of the reviews, as rated by the area chairs. In the plot below, we can see that the most experienced reviewers (who have reviewed for top-level ML conferences more than 10 times) did not receive the highest ratings, proportionally. In fact it is the opposite: Reviewers who received the highest ratings were more likely to be newcomers to the field, particularly those who never reviewed for NeurIPS but had reviewed already for other venues.
+
+Press enter or click to view image in full size
+
+After assignment, 80% of the papers were assigned 4 reviewers, which greatly helped to ensure that there were at least three reviews per paper by the author-notification deadline (only 5 papers had fewer than three reviews by that time). In total, we received a total of 31,000 reviews, contributed by 7062 reviewers!
+
+In addition to recruiting authors to review, we also decreased the reviewing load by adding a summary rejection phase prior to assigning papers to reviewers. During this phase, area chairs and senior area chairs went over papers assigned to them to flag submissions they were confident would not be accepted.
+
+We summarily rejected 1097 submissions by the end of June. Area chairs varied in the number of papers rejected without review, with 82 area chairs not recommending any rejections at this stage. To assess the quality of this phase of the reviewing process, we randomly selected 100 papers marked for rejection and sent them through the regular review process by assigning them to a different area chair and senior area chair. By the end of the regular review process, 94% of these papers were rejected, indicating a false positive rate of 6%.
+
+Overall, summary rejection had mixed results. The false positive rate was not high, but the number of papers that were rejected (~11%) is still rather low considering that area chairs and senior area chairs spent three weeks on this task. Some authors whose submission got summarily rejected also felt that they were not provided with a sufficient rationale for the decision. A positive outcome was that area chairs became familiar with their papers during the summary reject phase and this anecdotally resulted in more efficient, higher quality reviewing and meta-reviewing during the other phases.
+
+This year, we required authors to include a broader impact statement in their submission. We did not reject any papers on the grounds that they failed to meet this requirement. However, we will strictly require that this section be included in the camera-ready version of the accepted papers. As you can see from the histogram of the number of words in this section, about 9% of the submission did not have such a section, and most submissions had a section with about 100 words.
+
+Press enter or click to view image in full size
+
+We appointed an ethics advisor and invited a pool of 22 ethics reviewers (listed here) with expertise in fields such as AI policy, fairness and transparency, and ethics and machine learning. Reviewers could flag papers for ethical concerns, such as submissions with undue risk of harm or methods that might increase unfair bias through improper use of data, etc. Papers that received strong technical reviews yet were flagged for ethical reasons were assessed by the pool of ethics reviewers.
+
+Thirteen papers met these criteria and received ethics reviews. Only four papers were rejected because of ethical considerations, after a thorough assessment that included the original technical reviewers, the area chair, the senior area chair and also the program chairs. Seven papers flagged for ethical concerns were conditionally accepted, meaning that the final decision is pending the assessment of the area chair once the camera ready version is submitted. Some of these papers require a thorough revision of the broader impact section to include a clearer discussion of potential risks and mitigations, and others require changes to the submission such as the removal of problematic datasets. Overall, we believe that the ethics review was a successful and important addition to the review process. Though only a small fraction of papers received detailed ethical assessments, the issues they presented were important and complex and deserved the extended consideration. In addition, we were very happy with the high quality of the assessments offered by the ethics reviewers, and the area chairs and senior area chairs also appreciated the additional feedback.
+
+There are a few other changes we made to help make the review process even better. For instance, we enabled area chairs to email authors during the discussion period to resolve questions that arose after the official rebuttal period. In total, 604 emails were sent by Area Chairs to authors to further clarify aspects of their submission after their rebuttal. The general feedback from both authors and area chairs have been positive on this, suggesting that it may be useful to open up a communication channel with the authors throughout the review process, similarly to the OpenReview platform.
+
+Another change was to let authors disclose any potential resubmission information, which was useful to provide context as to what revisions were made since the last rejection. This information was accessible to Area Chairs and Senior Area Chairs after the summary rejection phase. About 30% of the submissions we received were declared to be resubmissions.
+
+Finally, we let authors gain access to reviews during the discussion period. This was done to increase transparency of the review process and to let authors get access to the latest scores on their paper, as these were useful to determine whether a submission would qualify for AAAI “fast track” review process.
+
+We conclude with some basic statistics. First, we compare the meta-review lengths of NeurIPS 2019 and 2020. As shown in the plot below, meta-review lengths were longer this year, possibly because area chairs were more engaged in the review process from the very beginning since they had to lead the summary-rejection process.
+
+Press enter or click to view image in full size
+
+This pattern is consistent with the length of the internal discussion threads among area chairs and reviewers. As the figure below shows, we had longer discussions this year than last year.
+
+Press enter or click to view image in full size
+
+Summary:
+
+ * NeurIPS submissions continued to grow at a steady annual rate of 40%.
+ * Summary rejection did not yield a very high false positive rate, but did not eliminate a lot of submissions either.
+ * Inviting authors to review has proven a very effective way to scale up the review process.
+ * Very few papers were flagged for ethical concerns. We had a dedicated process to handle such cases, which provided authors with additional feedback from experts in ethics and machine learning.
+ * Communication with authors during the discussion phase helped resolve some difficult cases.
+
+We have a fantastic program this year, and we hope to see you all soon in December.
+
+Stay safe and healthy!
+
+--
+
+--
+
+3
+
+Written by Neural Information Processing Systems Conference
+
+3.3K followers
+·0 following
+
+Tweets sent to this account are not actively monitored. To contact us please go to http://neurips.cc/Help/Contact
+
+Responses (3)
+
+See all responses
+
+Help
+
+Status
+
+About
+
+Careers
+
+Press
+
+Blog
+
+Privacy
+
+Rules
+
+Terms
+
+Text to speech

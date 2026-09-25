@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: fse-se-2027
+sources:
+  - id: fse-se-2027-papers
+    url: https://conf.researchr.org/track/fse-2027/fse-2027-papers
+    title: FSE 2027 Research Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: 15cc1a26f0aedc647df42ecc74d30390046db0b462deed5d7c8cec31ca5e1cbc
+  - id: fse-se-2027-home
+    url: https://conf.researchr.org/home/fse-2027
+    title: FSE 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: 74b6d4afe2318e0c9728e0b977050658f6ab87ac7615db9e4c0cc9f5966fed10

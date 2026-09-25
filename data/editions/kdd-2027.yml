@@ -3,9 +3,9 @@ series: kdd
 name: KDD 2027
 year: 2027
 kind: conference
-topics: [dm, ml]
+data_level: curated
 derived_from: kdd-2026
-location: { city: San Jose, country: USA }
+location: { city: San Jose, country: USA, country_code: US }
 dates: { start: 2027-08-01, end: 2027-08-05 }
 milestones:
   - type: abstract
@@ -23,7 +23,7 @@ milestones:
     src: kdd-2026-research-cfp
     note_zh: 按 KDD 2026 第二轮官网日期 2026-02-08 顺延。
   - type: author_response
-    label_zh: 2 月轮 rebuttal
+    label_zh: 2 月轮（第二轮）rebuttal
     start: 2027-04-04
     end: 2027-04-17T23:59
     tz: AoE
@@ -31,14 +31,14 @@ milestones:
     src: kdd-2026-research-cfp
     note_zh: 按 KDD 2026 第二轮官网 rebuttal 期 2026-04-04–04-17 顺延。同一页面第一轮 CFP 末尾的“anticipated dates”写的是 Apr 4-18，这里按第二轮 CFP 正文的 Apr 4-17（截止类取较早者）。
   - type: notification
-    label_zh: 2 月轮出结果
+    label_zh: 2 月轮（第二轮）出结果
     at: 2027-05-16
     tz: AoE
     status: estimated
     src: kdd-2026-research-cfp
     note_zh: 按 KDD 2026 第二轮官网日期 2026-05-16 顺延。KDD 2027 FAQ 对 2 月轮通知日只写“[exact date to be confirmed], 2027”。
   - type: camera_ready
-    label_zh: 2 月轮 camera-ready
+    label_zh: 2 月轮（第二轮）camera-ready
     at: 2027-06-01T23:59
     tz: AoE
     status: estimated
@@ -52,5 +52,76 @@ milestones:
     src: kdd-2027-home
     quote: "August 1–5, 2027"
     note_zh: 官网首页写会期 8/1–5、地点 San Jose McEnery Convention Center；两轮录用论文同场报告（FAQ）。
+  - type: author_registration
+    tz: America/Los_Angeles
+    status: tba
+    src: kdd-2027-faq
+    quote: "the payment for such registration must be completed by the registration deadline ([exact date to be confirmed], 2027)."
+    note_zh: 每篇录用论文都要有一份按非学生线下价的全会注册，并在注册截止前付清；截止日期待公布。FAQ 对两轮录用论文只写了这一个注册截止。
+  - type: refund_cutoff
+    tz: America/Los_Angeles
+    status: tba
+    src: kdd-2027-faq
+    quote: "Registrants may receive a full refund less a $50 processing fee until [exact date to be confirmed], 2027."
+    note_zh: 退款截止日期待公布；之后不退款，拒签的例外（见规则卡“拒签退款”）。
+  # First cycle (官网 FAQ: August Cycle). Listed after the 2 月轮 on purpose: rule cards and
+  # links that look a step up by type ("paper", "abstract") keep pointing at the 2 月轮.
+  - type: abstract
+    label_zh: 第一轮摘要截止
+    at: 2026-07-19T23:59
+    tz: AoE
+    status: confirmed
+    src: kdd-2027-research-cfp
+    quote: "Abstract Deadline: July 19, 2026"
+  - type: paper
+    label_zh: 第一轮正文截止
+    at: 2026-07-26T23:59
+    tz: AoE
+    status: confirmed
+    src: kdd-2027-research-cfp
+    quote: "Paper Deadline: July 26, 2026"
+  - type: author_response
+    label_zh: 第一轮 rebuttal
+    start: 2026-09-29
+    end: 2026-10-13T23:59
+    tz: AoE
+    status: confirmed
+    src: kdd-2027-research-cfp
+    quote: "Author Rebuttal Period: September 29-October 13, 2026"
+  - type: notification
+    label_zh: 第一轮出结果
+    at: 2026-11-14
+    tz: AoE
+    status: confirmed
+    src: kdd-2027-research-cfp
+    quote: "Notification: November 14, 2026"
+logistics:
+  venue:
+    name: San Jose McEnery Convention Center
+    address: tba
+    src: kdd-2027-home
+    quote: "San Jose McEnery Convention Center"
+  fees:
+    - status: tba
+      checked_sources: [kdd-2027-faq, kdd-2027-home]
+      note_zh: 注册页还没上线：官网菜单里的“Registration”是空链接。FAQ 写了一位同伴的 guest pass 是 250 美元，其他价格没公布。
+  coverage:
+    per: paper
+    rate: non_student_in_person
+    extra_zh: 两篇论文就要两份注册，作者重叠也一样；同一个人不要重复注册，另一篇要由那篇论文的其他作者注册。须按非学生线下价，学生作者也一样；CFP 写必须是 Full Conference（5 天）注册，FAQ 写 full 或 main conference 注册都可以。不管到不到场、用什么形式报告都适用。
+    src: kdd-2027-faq
+    quote: "For every accepted paper, there needs to be one unique full conference registration. Do not register multiple times—instead, someone else from your other accepted papers must register."
+  visa_letter:
+    after: paid_registration
+    how_zh: 注册时勾选需要签证邀请函并填好所需信息；注册费付清后，10 个工作日内用邮件发出。
+    lead: { n: 10, unit: business_day, quote: "a visa support letter will be sent by email within 10 business days" }
+    url: https://kdd2027.kdd.org/frequently-asked-questions/
+    src: kdd-2027-faq
+    quote: "Registration must be paid in full before a visa support letter can be issued."
+  hotels:
+    status: tba
+    checked_sources: [kdd-2027-home, kdd-2027-faq]
+    note_zh: 官网菜单里的“Hotel Information”还是空链接。
+  poster: { status: tba, checked_sources: [kdd-2027-research-cfp, kdd-2027-faq] }
 last_checked: 2026-09-25
-note_zh: 这条只收录 Research Track 的 2 月轮（第二轮）。第一轮（官网 FAQ 叫 August Cycle）摘要 2026-07-19、正文 2026-07-26、rebuttal 2026-09-29–10-13、出结果 2026-11-14，已截止。KDD 2027 官网目前只有第一轮的征稿，2 月轮日期未公布，按 KDD 2026 第二轮官网日期顺延：摘要 2/1、正文 2/8、rebuttal 4/4–4/17、出结果 5/16、camera-ready 6/1，均为 AoE。FAQ 写明第一轮被 Reject 的稿件不能投 2 月轮（要等 KDD 2028 第一轮），只有得到 Resubmit 的稿件能以修改稿投 2 月轮；新稿件两轮都可以投。按 KDD 2027 CFP 对上一轮的同类规定类推，2 月轮被 Reject 的稿件也不能投紧接着的 KDD 2028 第一轮（见 kdd-2028）。
+note_zh: 这条收录 Research Track 的两轮。第一轮（官网 FAQ 叫 August Cycle）摘要 2026-07-19、正文 2026-07-26、rebuttal 2026-09-29–10-13、出结果 2026-11-14，均为 AoE，取自 KDD 2027 CFP。KDD 2027 官网目前只有第一轮的征稿，2 月轮（第二轮）日期未公布，按 KDD 2026 第二轮官网日期顺延：摘要 2/1、正文 2/8、rebuttal 4/4–4/17、出结果 5/16、camera-ready 6/1，均为 AoE。FAQ 写明第一轮被 Reject 的稿件不能投 2 月轮（要等 KDD 2028 第一轮），只有得到 Resubmit 的稿件能以修改稿投 2 月轮；新稿件两轮都可以投。按 KDD 2027 CFP 对上一轮的同类规定类推，2 月轮被 Reject 的稿件也不能投紧接着的 KDD 2028 第一轮（见 kdd-2028）。FAQ 的注册、退款和邀请函规则没有按轮次区分。

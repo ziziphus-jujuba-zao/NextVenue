@@ -1,0 +1,92 @@
+# SIGIR 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: sigir
+rows:
+  - year: 2020
+    track: main
+    status: partial
+    rate: 27
+    rate_text: 27%
+    rate_basis: stated
+    definition_zh: 长文
+    source_url: https://sigir.org/wp-content/uploads/2020/12/p02.pdf
+    quote: "Vanessa Murdock (program co-chair of SIGIR 2020): this concern was addressed by a higher acceptance rate (27%)"
+    src: sigir-2020-business-meeting
+    quote_check: snapshot
+    note_zh: 官方只给了录用率
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 720
+    accepted: 151
+    rate: 20.9
+    rate_text: 20.9%
+    rate_basis: stated
+    definition_zh: 长文；分母为有效投稿
+    source_url: https://sigir.org/wp-content/uploads/2022/02/p08.pdf
+    quote: Valid submissions | Accepted | Acceptance rate (%) ... Full papers | 720 | 151 | 20.9
+    quote_check: manual
+    note_zh: 数字在报告的表格图片里，人工读取
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: partial
+    rate: 20
+    rate_text: 20%
+    rate_basis: stated
+    definition_zh: 长文
+    source_url: https://sigir.org/wp-content/uploads/2023/01/p02.pdf
+    quote: Acceptance rates were 20% for full research papers, and 25% across all tracks.
+    src: sigir-2022-business-meeting
+    quote_check: snapshot
+    note_zh: 官方只给了录用率
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 822
+    accepted: 165
+    rate: 20.07
+    rate_text: 20.07%
+    rate_basis: stated
+    definition_zh: 长文；分母为有效投稿
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3539618
+    quote: Valid Submissions Accepted Acceptance Rate Full Papers ... 822 ... 165 ... 20.07%
+    src: sigir-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 791
+    accepted: 160
+    rate: 20
+    rate_text: 20%
+    rate_basis: stated
+    definition_zh: 长文；分母为有效投稿
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3626772
+    quote: "Track #Valid Submissions # Accepted Acceptance Rate | Full Papers 791 160 20%"
+    src: sigir-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: partial
+    accepted: 239
+    definition_zh: 长文
+    source_url: https://sigir2025.dei.unipd.it/accepted-papers.html
+    quote_check: manual
+    count_method_zh: 官网录用名单长文共 239 篇（本应用计数）
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: partial
+    accepted: 234
+    definition_zh: 长文
+    source_url: https://sigir2026.org/en-AU/pages/program/accepted-papers
+    quote: Full research papers (234 accepted)
+    quote_check: manual
+    note_zh: 官方没公布投稿数
+    checked: 2026-09-25

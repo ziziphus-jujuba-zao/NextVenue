@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: aiaa-scitech-2027
+sources:
+  - id: aiaa-scitech-2027-cfp
+    url: https://scitech.aiaa.org/call-for-content/call-for-papers
+    title: AIAA SciTech 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:52:38Z
+    http_status: 200
+    snapshot: 21d6aa0e00a9a0b5e8015b83ad4dd645ae540626d97059e62441d817cd02ca8c
+  - id: aiaa-scitech-2027-hotel-travel
+    url: https://scitech.aiaa.org/hotel-travel/
+    title: AIAA SciTech 2027 Hotel & Travel
+    kind: other
+    fetched_at: 2026-09-25T15:53:20Z
+    http_status: 200
+    snapshot: c54bf637f50bf0e026de8a42278b305d3819d6f60268bff61207abb839e59640
+  - id: aiaa-scitech-2027-home
+    url: https://scitech.aiaa.org/
+    title: AIAA SciTech Forum 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T16:05:17Z
+    http_status: 200
+    snapshot: b36ad8e9f0e258dca74fa5263df2d66bf381a17c9e7641483539731a8d5f1615

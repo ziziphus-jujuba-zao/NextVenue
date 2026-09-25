@@ -1,0 +1,11 @@
+id: naacl
+acronym: NAACL
+full_name: Annual Conference of the North American Chapter of the Association for Computational Linguistics
+directions: [cs/nlp]
+periodicity:
+  cycle: irregular
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/naacl
+ccfddl: AI/NAACL
+data_level: curated

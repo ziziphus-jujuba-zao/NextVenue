@@ -3,7 +3,7 @@ series: corl
 name: CoRL 2027
 year: 2027
 kind: conference
-topics: [robotics, ml]
+data_level: curated
 derived_from: corl-2026
 milestones:
   - type: abstract

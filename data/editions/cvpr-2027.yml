@@ -3,15 +3,14 @@ series: cvpr
 name: CVPR 2027
 year: 2027
 kind: conference
-topics: [cv]
+data_level: curated
 location:
   city: Seattle
   country: USA
+  country_code: US
 dates:
   start: 2027-06-20
   end: 2027-06-25
-ranks:
-  ccf: A
 milestones:
   - type: paper_registration
     at: 2026-11-10T23:59
@@ -60,6 +59,18 @@ milestones:
     status: confirmed
     src: cvpr-2027-dates
     quote: "Final Decisions Feb 25 '27 (Anywhere on Earth)"
+  - type: camera_ready
+    tz: AoE
+    status: tba
+    note_zh: 2027 Dates 页没有 camera-ready 截止。
+  - type: early_registration
+    tz: America/Los_Angeles
+    status: tba
+    note_zh: 2027 注册页写 "Pricing is not yet available for this conference"。上届参考：CVPR 2026 早鸟价到 4/23 11:59 PM（官方写 Mountain Time）。
+  - type: refund_cutoff
+    tz: America/Los_Angeles
+    status: tba
+    note_zh: 2027 未公布。上届参考：CVPR 2026 在 2026 年 5/13 11:59pm MT 前取消扣 $65 手续费，之后不退。
   - type: conference
     start: 2027-06-20
     end: 2027-06-25
@@ -68,4 +79,79 @@ milestones:
     src: cvpr-2027-home
     quote: "June 20–25, 2027"
     note_zh: 官网首页写会期 6/20–25、地点西雅图；Dates 页细分为 6/20–21 workshop 和 tutorial、6/22–25 主会。
-last_checked: 2026-09-24
+logistics:
+  venue:
+    status: tba
+    checked_sources: [cvpr-2027-home, cvpr-2027-dates]
+    note_zh: 官网只写 "Seattle WA"，会场没有公布。
+  fees:
+    - status: tba
+      checked_sources: [cvpr-2027-pricing]
+      note_zh: 2027 注册页写 "Pricing is not yet available for this conference"。
+      reference:
+        from: cvpr-2026
+        currency: USD
+        src: cvpr-2026-pricing
+        note_zh: CVPR 2026 的作者（Author）/ Full Passport 注册价。早鸟价到 2026 年 4/23（官方写 11:59 PM Mountain Time），之后是标准价。论文只能挂在作者注册下，线上注册不能覆盖论文。
+        tiers:
+          - { id: early }
+          - { id: standard }
+        rows:
+          - id: member
+            label_zh: IEEE / CVF 会员
+            for: [academic, industry]
+            member: current
+            covers_author: true
+            amounts: [750, 950]
+            quote: "IEEE / CVF Member Passport $750 $950"
+          - id: non_member
+            label_zh: 非会员
+            for: [academic, industry]
+            member: none
+            covers_author: true
+            amounts: [900, 1200]
+            quote: "Non-Member Passport $900 $1,200"
+          - id: student_member
+            label_zh: 学生 IEEE / CVF 会员
+            for: [student]
+            member: current
+            covers_author: true
+            amounts: [525, 675]
+            quote: "Student IEEE / CVF member Passport $525 $675"
+          - id: student_non_member
+            label_zh: 学生非会员
+            for: [student]
+            member: none
+            covers_author: true
+            amounts: [625, 810]
+            quote: "Non-Member Student Passport $625 $810"
+  coverage:
+    status: tba
+    checked_sources: [cvpr-2027-pricing]
+    reference:
+      from: cvpr-2026
+      per: author
+      max_papers: 3
+      rate: in_person
+      extra_zh: 主会和 workshop 论文都算；第 4 篇起要另开一份注册。线上注册不能覆盖论文。
+      src: cvpr-2026-pricing
+      quote: "One registration may cover up to three papers inclusive of main conference or workshop papers."
+  visa_letter:
+    status: tba
+    checked_sources: [cvpr-2027-visa, cvpr-2027-pricing]
+    note_zh: 2027 Visa 页 404。
+    reference:
+      from: cvpr-2026
+      after: registration
+      how_zh: 注册后 5 分钟内收到邮件，按邮件说明在官网生成邀请函；官网不保存护照号和生日。
+      lead: tba
+      url: https://cvpr.thecvf.com/Conferences/2026/Pricing2
+      src: cvpr-2026-pricing
+      quote: "After you have registered, you should receive an email within 5 minutes with instructions on how to get an invitation letter."
+  hotels:
+    status: tba
+    checked_sources: [cvpr-2027-home]
+  poster:
+    status: tba
+    checked_sources: [cvpr-2027-home, cvpr-2027-dates]
+last_checked: 2026-09-25

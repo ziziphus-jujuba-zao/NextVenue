@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: itsc-2027
+sources:
+  - id: itsc-2027-home
+    url: https://ieee-itsc.org/2027/
+    title: IEEE ITSC 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:46Z
+    http_status: 200
+    snapshot: 235a79b88dfc7ae14c080134af241642c9ca53b595d929fa985e5a9e6a2d22e6
+  - id: itsc-2027-authors
+    url: https://ieee-itsc.org/2027/contributions/information-for-authors/
+    title: IEEE ITSC 2027 Information for Authors
+    kind: author_guide
+    fetched_at: 2026-09-25T16:00:16Z
+    http_status: 200
+    snapshot: 1a6240e60a6d6770b3cb935919f384b966327d7849f0436a8c5f6af777e03c35

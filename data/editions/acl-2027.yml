@@ -3,7 +3,7 @@ series: acl
 name: ACL 2027
 year: 2027
 kind: conference
-topics: [nlp]
+data_level: curated
 derived_from: acl-2026
 location: { city: Kyoto, country: Japan }
 dates: { start: 2027-08-17, end: 2027-08-22 }
@@ -16,6 +16,15 @@ milestones:
     src: acl-2027-arr-dates
     quote: "ACL 2027 January, 2027"
     note_zh: ARR 日期页把 ACL 2027 的最后一轮 ARR 投稿写为 January, 2027（未给具体日期），即 ARR 2027 年 1 月轮；具体日期按 ACL 2026 官网的 January 5, 2026 顺延。ACL 2027 官网写所有截止为 AoE。ACL 2026 CFP 写当年可投 ARR 2025 年 10 月轮和 2026 年 1 月轮，更早轮次已拿到审稿和 meta-review 的稿件也可 commit；2027 是否同样接受 2026 年 10 月轮未公布。
+  - type: author_response
+    label_zh: ARR 作者回复期（2027 年 1 月轮）
+    start: 2027-02-17
+    end: 2027-02-23
+    tz: AoE
+    status: estimated
+    src: acl-2027-arr-dates
+    quote: "October 2026 October 12 October 14 November 16 November 24-November 30 December 17 December 20"
+    note_zh: ARR 日期页已不列 2026 年 1 月轮，也还没列 2027 年 1 月轮；按同页 10 周制 2026 年 10 月轮的间隔推算（投稿 10/12，作者回复 11/24–11/30，即投稿后第 43–49 天），对 ACL 2027 预计的 1/5 投稿截止得 2/17–2/23。以 ARR 公布的日期为准。
   - type: meta_reviews
     at: 2027-03-10
     tz: AoE
@@ -53,4 +62,4 @@ milestones:
     quote: "The 65th Annual Meeting of the Association for Computational Linguistics (ACL 2027) will take place in Kyoto, Japan from August 17–22, 2027."
     note_zh: 会期和地点已由官网公布；首页 Important Dates 中的 “Overall conference” 仍写 TBA。
 last_checked: 2026-09-25
-note_zh: 按 ACL 2026 官网日期顺延：ARR 投稿 1/5、meta-review 3/10、commit 3/14、出结果 4/4、camera-ready 4/19。对应 ARR 2027 年 1 月轮（ARR 日期页写 ACL 2027 的最后投稿轮为 January, 2027，commit 日期空白）。2026-09-25 时 ACL 2027 官网 Important Dates 全部 TBA，CFP 页只有 “Coming soon!”；会期和地点已确认。
+note_zh: 按 ACL 2026 官网日期顺延：ARR 投稿 1/5、作者回复 2/17–2/23（按 ARR 10 周制的间隔推算）、meta-review 3/10、commit 3/14、出结果 4/4、camera-ready 4/19。对应 ARR 2027 年 1 月轮（ARR 日期页写 ACL 2027 的最后投稿轮为 January, 2027，commit 日期空白）。2026-09-25 时 ACL 2027 官网 Important Dates 全部 TBA，CFP 页只有 “Coming soon!”；会期和地点已确认。

@@ -1,0 +1,11 @@
+id: isbi
+acronym: ISBI
+full_name: IEEE International Symposium on Biomedical Imaging
+aliases:
+  - IEEE ISBI
+directions: [eng/bme, med/imaging]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年春季
+data_level: curated

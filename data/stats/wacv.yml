@@ -1,0 +1,98 @@
+# WACV 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: wacv
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 1096
+    accepted: 379
+    rate: 34.5
+    rate_text: 34.5%
+    rate_basis: stated
+    definition_zh: 两轮合计；第一轮的论文可以修改后第二轮再审，和只审一轮的会不可比
+    source_url: https://www.computer.org/csdl/proceedings-article/wacv/2020/09093501/1jPbmWXRfgs
+    quote: WACV2020 had a surge with a record number of 699 first round submissions and 397 second round submissions, which added to a total number of 1096 independent submissions. ... 379 papers are accepted through the first and second round review process. 151 papers in the first round are revised and resubmitted for re-review in the second round, out of which 118 were accepted. ... The final acceptance rate is 34.5%
+    src: wacv-2020-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: partial
+    accepted: 406
+    definition_zh: 主会
+    source_url: https://openaccess.thecvf.com/WACV2021
+    quote_check: manual
+    count_method_zh: CVF Open Access 上 WACV 2021 主会论文共 406 篇（本应用计数）
+    note_zh: 官方没公布投稿数和录用率
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 1172
+    accepted: 406
+    rate: 34.6
+    rate_text: 34.6%
+    rate_basis: stated
+    definition_zh: 多轮合计
+    source_url: https://www.computer.org/csdl/proceedings-article/wacv/2022/091500z045/1B13oqe9kfS
+    quote: WACV 2022 continued to attract a large number of submissions, reaching 1172 this year, even in the uncertain covid era. After the diligent work from 88 area chairs and 1487 reviewers, including those who helped in the last minutes as emergency reviewers, 406 papers were accepted. ... the final acceptance rate is 34.6%.
+    src: wacv-2022-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 1577
+    accepted: 641
+    rate: 40.6
+    rate_text: 40.6%
+    rate_basis: stated
+    definition_zh: 两轮合计；第一轮的论文可以修改后第二轮再审，和只审一轮的会不可比
+    source_url: https://www.computer.org/csdl/proceedings-article/wacv/2023/934600z068/1KxVuRUI6Xu
+    quote: Overall, across both rounds, WACV 2023 received a total of 1,577 paper submissions and accepted a total of 641 papers, for an overall acceptance rate of 40.6%.
+    src: wacv-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 2043
+    accepted: 846
+    rate: 41.4
+    rate_text: 41.4%
+    rate_basis: stated
+    definition_zh: 两轮合计；第一轮的论文可以修改后第二轮再审，和只审一轮的会不可比
+    source_url: https://www.computer.org/csdl/proceedings-article/wacv/2024/189200z006/1W0eSH2EGm4
+    quote: Overall, across both rounds WACV received a total of 2,043 paper submissions and accepted a total of 846 papers, for an overall acceptance rate of 41.4%.
+    src: wacv-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 2458
+    accepted: 930
+    rate: 37.8
+    rate_text: 37.8%
+    rate_basis: stated
+    definition_zh: 两轮合计；第一轮的论文可以修改后第二轮再审，和只审一轮的会不可比
+    source_url: https://www.computer.org/csdl/proceedings-article/wacv/2025/108300z114/25KmtPcj0B2
+    quote: Overall, across both rounds WACV received a total of 2,458 paper submissions and accepted a total of 930 papers, for an overall acceptance rate of 37.8%.
+    src: wacv-2025-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 2550
+    accepted: 832
+    rate: 33
+    rate_text: 33%
+    rate_basis: stated
+    definition_zh: 两轮合计；第一轮的论文可以修改后第二轮再审，和只审一轮的会不可比
+    source_url: https://www.computer.org/csdl/proceedings-article/wacv/2026/551100z104/2ggPvkblMis
+    quote: Overall, across both rounds WACV received a total of 2,550 paper submissions and accepted a total of 832 papers, for an overall acceptance rate of 33%.
+    src: wacv-2026-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25

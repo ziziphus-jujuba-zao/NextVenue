@@ -1,0 +1,150 @@
+CALL FOR PAPERS
+The 2027 American Control Conference (ACC) will be held Wednesday
+through Friday, July 7-9, 2027 in Philadelphia. The pre-conference
+workshops will be held Monday through Tuesday, July 5-6, 2027.
+Philadelphia, the birthplace of American democracy, offers an inspiring backdrop
+for our conference. This historic yet vibrant city invites you to explore the life and
+legacy of Benjamin Franklin, visit landmarks like the Liberty Bell and Independence
+Hall, and enjoy access to world-class museums, theaters, and a thriving arts and
+culture scene. One of America’s most iconic cities with its walkable downtown and
+rich intellectual heritage, Philadelphia combines centuries of tradition with a dynamic,
+modern spirit, ideal for academic exchange and professional networking.
+ACC is the annual conference of the American Automatic Control Council (AACC), the
+U.S. national member organization of the International Federation for Automatic Control
+(IFAC). National and international society co-sponsors of ACC include the American
+Institute of Aeronautics and Astronautics (AIAA), American Institute of Chemical
+Engineers (AIChE), American Society of Civil Engineers (ASCE), American Society
+of Mechanical Engineers (ASME), IEEE Control Systems Society (IEEE-CSS), Institute
+for Operations Research and the Management Sciences (INFORMS), International
+Society of Automation (ISA), Society for Modeling & Simulation International (SCS),
+and Society for Industrial & Applied Mathematics (SIAM).
+
+ORGANIZING COMMITTEE
+GENERAL CHAIR
+Rajesh Rajamani
+(U of Minnesota)
+rajamani@umn.edu
+
+PROGRAM CHAIR
+Junmin Wang
+(UT Austin)
+jwang@austin.utexas.edu
+FINANCE CHAIR
+Yan Gu (Purdue)
+yangu@purdue.edu
+LOCAL
+ARRANGEMENTS CHAIR
+Changliu Liu
+(Carnegie Mellon)
+cliu6@andrew.cmu.edu
+REGISTRATION CHAIR
+Shan Hu (Iowa State)
+shanhu@iastate.edu
+VICE CHAIR FOR
+INDUSTRY & APPS
+Eric H. Tseng
+(UT Arlington)
+hongtei.tseng@uta.edu
+VICE CHAIR FOR
+INVITED SESSIONS
+Pingen Chen
+( U of Tennessee, Knoxville)
+pchen@tntech.edu
+STUDENT
+AWARDS CHAIR
+Afef Fekih
+(U of Louisiana)
+afef.fekih@louisiana.edu
+
+PUBLICATIONS CHAIR
+Jason Siegel
+(U of Michigan)
+siegeljb@umich.edu
+VICE CHAIR FOR
+SPECIAL SESSIONS
+Kyriakos Vamvoudakis
+(Georgia Tech)
+Kyriakos@gatech.edu
+VICE CHAIR FOR
+TUTORIAL SESSIONS
+Yorie Nakahira
+(Carnegie Mellon)
+ynakahir@andrew.cmu.edu
+VICE CHAIR FOR
+STUDENT AFFAIRS
+Ryan Caverly
+(U of Minnesota)
+rcaverly@umn.edu
+PUBLICITY/
+SOCIAL MEDIA CHAIR
+Huazhen Fang
+(Michigan State University)
+hfang@msu.edu
+EXHIBITS CHAIR
+
+Shaunak Bopardikar
+(Michigan State)
+shaunak@msu.edu
+
+WORKSHOPS CHAIR
+Gabor Orosz
+(U of Michigan)
+orosz@umich.edu
+
+The 2027 ACC technical program will comprise several types of presentations in regular
+and invited sessions, tutorial sessions, and special sessions along with workshops and
+exhibits. For contributed and invited papers, authors may be invited to present to a
+larger audience in a rapid-interactive (RI) format. Submissions are encouraged in all
+areas of the theory and practice of automatic control.
+Contributed Papers: ACC Papers are invited in the form of regular manuscripts
+(allotted 6 proceedings pages and up to 8 pages with additional page charges).
+Submissions to L-CSS have the option for presentation at ACC (note: L-CSS papers
+have a strict 6 page limit). Papers must conform to the submission policies, detailed on
+the conference and journal web pages. All manuscripts should be written in English, be
+in 2-column format, and meet strict page limits.
+Invited Sessions: Invited sessions consist of 6 papers presenting a unifying theme
+from diverse perspectives. Proposals should include a list of potential papers
+and clearly describe the motivation and relevance of the session. A full version of
+each paper in the invited session must be submitted by the manuscript deadline and
+will be reviewed independently. Specific details on the submission process are on
+the conference website.
+Tutorial Sessions: Tutorial sessions are a special category of invited sessions
+organized to provide an introduction to a topic of interest. The format is structured
+around a main tutorial paper and talk to bring the participants up to speed,
+followed by several presentations (with or without papers of up to 6 pages each) to
+give a picture of the state of the art. Tutorial sessions involving strong industry and
+academic collaboration are highly encouraged.
+Special Sessions: Special sessions offer a venue for creating awareness of, and
+providing exposure to emerging research areas, research and funding opportunities,
+and other topics of broad interest to attendees. History and industry-sponsored sessions
+also fall into this category.
+Workshops: Workshops to be held prior to the conference are solicited on all related
+topics. Proposals addressing novel control methodologies, emerging applications, and
+workshops with strong tutorial value are encouraged.
+Exhibits: Exhibitors are invited to showcase, demonstrate and market control-related
+publications, software tools, educational products, services, and jobs. Exhibits are
+open throughout the conference to all attendees of ACC.
+All papers and session and workshop proposals must be submitted through the
+conference submission website. Submissions must conform to the policy found at
+the conference website: https://acc2027.a2c2.org/
+
+IMPORTANT DATES
+L-CSS
+SUBMISSION
+SEPTEMBER 11, 2026
+
+ACC MANUSCRIPT
+SUBMISSION
+SEPTEMBER 25, 2026
+
+ACCEPTANCE-REJECTION
+NOTIFICATION
+JANUARY 22, 2027
+
+acc2027.a2c2.org
+
+FINAL
+MANUSCRIPTS DUE
+MARCH 12, 2027
+
+

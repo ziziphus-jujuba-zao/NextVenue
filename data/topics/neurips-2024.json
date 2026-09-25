@@ -1,0 +1,314 @@
+{
+ "schema": 1,
+ "edition": "neurips-2024",
+ "series": "neurips",
+ "year": 2024,
+ "method_version": "0.1.0",
+ "citation_zh": "来源：dblp 收录的 NeurIPS 2024 录用论文标题（CC0），NextVenue 按关键词归类统计（方法 v0.1.0，一篇论文可计入多个主题）",
+ "scope_zh": "主会；去掉了 Datasets & Benchmarks 和 Position 赛道的论文",
+ "source": {
+  "name": "dblp",
+  "license": "CC0 1.0",
+  "tocs": [
+   "https://dblp.org/db/conf/nips/neurips2024"
+  ],
+  "retrieved_at": "2026-09-25T09:49:32Z"
+ },
+ "papers_used": 4035,
+ "official_accepted": {
+  "value": 4037,
+  "source_url": "https://media.neurips.cc/Conferences/NeurIPS2024/NeurIPS2024-Fact_Sheet.pdf",
+  "quote": "4,037 main conference track ... 15,671 main conference track ... Paper acceptance rate: ■ 25.8% main conference track",
+  "src": "neurips-2024-fact-sheet",
+  "quote_check": "snapshot"
+ },
+ "coverage": 0.9995,
+ "topics": [
+  {
+   "rank": 1,
+   "id": "llm",
+   "label_zh": "大语言模型",
+   "label_en": "LLMs / language models",
+   "count": 419,
+   "share_pct": 10.4,
+   "prev": {
+    "year": 2023,
+    "count": 128,
+    "share_pct": 4.0,
+    "delta_pp": 6.4
+   },
+   "examples": [
+    "Discovering Preference Optimization Algorithms with and for Large Language Models.",
+    "SocraticLM: Exploring Socratic Personalized Teaching with Large Language Models.",
+    "Thought of Search: Planning with Language Models Through The Lens of Efficiency."
+   ]
+  },
+  {
+   "rank": 2,
+   "id": "diffusion",
+   "label_zh": "扩散模型 / 流匹配",
+   "label_en": "Diffusion / flow-matching models",
+   "count": 323,
+   "share_pct": 8.0,
+   "prev": {
+    "year": 2023,
+    "count": 195,
+    "share_pct": 6.1,
+    "delta_pp": 1.9
+   },
+   "examples": [
+    "Rethinking the Diffusion Models for Missing Data Imputation: A Gradient Flow Perspective.",
+    "Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction.",
+    "How to Continually Adapt Text-to-Image Diffusion Models for Flexible Customization?"
+   ]
+  },
+  {
+   "rank": 3,
+   "id": "theory_optim",
+   "label_zh": "优化与学习理论",
+   "label_en": "Optimisation & learning theory",
+   "count": 294,
+   "share_pct": 7.3,
+   "prev": {
+    "year": 2023,
+    "count": 307,
+    "share_pct": 9.5,
+    "delta_pp": -2.2
+   },
+   "examples": [
+    "DOPPLER: Differentially Private Optimizers with Low-pass Filter for Privacy Noise Reduction.",
+    "Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction.",
+    "Fast Last-Iterate Convergence of Learning in Games Requires Forgetful Algorithms."
+   ]
+  },
+  {
+   "rank": 4,
+   "id": "robustness",
+   "label_zh": "鲁棒性与对抗攻击",
+   "label_en": "Robustness & adversarial attacks",
+   "count": 247,
+   "share_pct": 6.1,
+   "prev": {
+    "year": 2023,
+    "count": 249,
+    "share_pct": 7.7,
+    "delta_pp": -1.6
+   },
+   "low_precision": true,
+   "examples": [
+    "Are Your Models Still Fair? Fairness Attacks on Graph Neural Networks via Node Injections.",
+    "Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction.",
+    "AdaNovo: Towards Robust \\emph{De Novo} Peptide Sequencing in Proteomics against Data Biases."
+   ]
+  },
+  {
+   "rank": 5,
+   "id": "transformer",
+   "label_zh": "Transformer / 注意力",
+   "label_en": "Transformers / attention",
+   "count": 232,
+   "share_pct": 5.7,
+   "prev": {
+    "year": 2023,
+    "count": 134,
+    "share_pct": 4.2,
+    "delta_pp": 1.5
+   },
+   "examples": [
+    "Faster Neighborhood Attention: Reducing the O(n^2) Cost of Self Attention at the Threadblock Level.",
+    "Rethinking Transformer for Long Contextual Histopathology Whole Slide Image Analysis.",
+    "Context and Geometry Aware Voxel Transformer for Semantic Scene Completion."
+   ]
+  },
+  {
+   "rank": 6,
+   "id": "rl",
+   "label_zh": "强化学习",
+   "label_en": "Reinforcement learning",
+   "count": 225,
+   "share_pct": 5.6,
+   "prev": {
+    "year": 2023,
+    "count": 224,
+    "share_pct": 7.0,
+    "delta_pp": -1.4
+   },
+   "examples": [
+    "Reinforcement Learning Policy as Macro Regulator Rather than Macro Placer.",
+    "Near-Minimax-Optimal Distributional Reinforcement Learning with a Generative Model.",
+    "Provable Partially Observable Reinforcement Learning with Privileged Information."
+   ]
+  },
+  {
+   "rank": 7,
+   "id": "3d",
+   "label_zh": "3D 视觉（NeRF/高斯泼溅/点云）",
+   "label_en": "3D vision (NeRF / Gaussian splatting / point clouds)",
+   "count": 217,
+   "share_pct": 5.4,
+   "prev": {
+    "year": 2023,
+    "count": 128,
+    "share_pct": 4.0,
+    "delta_pp": 1.4
+   },
+   "examples": [
+    "Unlearnable 3D Point Clouds: Class-wise Transformation Is All You Need.",
+    "Vidu4D: Single Generated Video to High-Fidelity 4D Reconstruction with Dynamic Gaussian Surfels.",
+    "MotionGS: Exploring Explicit Motion Guidance for Deformable 3D Gaussian Splatting."
+   ]
+  },
+  {
+   "rank": 8,
+   "id": "graph",
+   "label_zh": "图学习 / GNN",
+   "label_en": "Graphs / GNNs",
+   "count": 209,
+   "share_pct": 5.2,
+   "prev": {
+    "year": 2023,
+    "count": 178,
+    "share_pct": 5.5,
+    "delta_pp": -0.3
+   },
+   "examples": [
+    "Are Your Models Still Fair? Fairness Attacks on Graph Neural Networks via Node Injections.",
+    "Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction.",
+    "ARC: A Generalist Graph Anomaly Detector with In-Context Learning."
+   ]
+  },
+  {
+   "rank": 9,
+   "id": "multimodal",
+   "label_zh": "多模态 / 视觉-语言",
+   "label_en": "Multimodal / vision-language",
+   "count": 185,
+   "share_pct": 4.6,
+   "prev": {
+    "year": 2023,
+    "count": 96,
+    "share_pct": 3.0,
+    "delta_pp": 1.6
+   },
+   "examples": [
+    "What Factors Affect Multi-Modal In-Context Learning? An In-Depth Exploration.",
+    "Aggregate-and-Adapt Natural Language Prompts for Downstream Generalization of CLIP.",
+    "Homology Consistency Constrained Efficient Tuning for Vision-Language Models."
+   ]
+  },
+  {
+   "rank": 10,
+   "id": "efficiency",
+   "label_zh": "高效化（量化/剪枝/蒸馏/KV 缓存）",
+   "label_en": "Efficiency (quantisation / pruning / distillation / KV cache)",
+   "count": 169,
+   "share_pct": 4.2,
+   "prev": {
+    "year": 2023,
+    "count": 114,
+    "share_pct": 3.5,
+    "delta_pp": 0.7
+   },
+   "examples": [
+    "BMRS: Bayesian Model Reduction for Structured Pruning.",
+    "Exploring Token Pruning in Vision State Space Models.",
+    "Motion Consistency Model: Accelerating Video Diffusion with Disentangled Motion-Appearance Distillation."
+   ]
+  },
+  {
+   "rank": 11,
+   "id": "generation",
+   "label_zh": "图像/视频/3D 生成与编辑",
+   "label_en": "Image / video / 3D generation & editing",
+   "count": 149,
+   "share_pct": 3.7,
+   "prev": {
+    "year": 2023,
+    "count": 114,
+    "share_pct": 3.5,
+    "delta_pp": 0.2
+   },
+   "examples": [
+    "Image Understanding Makes for A Good Tokenizer for Image Generation.",
+    "MoGenTS: Motion Generation based on Spatial-Temporal Joint Modeling.",
+    "How to Continually Adapt Text-to-Image Diffusion Models for Flexible Customization?"
+   ]
+  },
+  {
+   "rank": 12,
+   "id": "icl_prompting",
+   "label_zh": "上下文学习 / 提示",
+   "label_en": "In-context learning / prompting",
+   "count": 122,
+   "share_pct": 3.0,
+   "prev": {
+    "year": 2023,
+    "count": 75,
+    "share_pct": 2.3,
+    "delta_pp": 0.7
+   },
+   "examples": [
+    "What Factors Affect Multi-Modal In-Context Learning? An In-Depth Exploration.",
+    "Prompt Tuning Strikes Back: Customizing Foundation Models with Low-Rank Prompt Adaptation.",
+    "Towards Global Optimal Visual In-Context Learning Prompt Selection."
+   ]
+  },
+  {
+   "rank": 13,
+   "id": "uncertainty",
+   "label_zh": "不确定性 / 校准 / 贝叶斯",
+   "label_en": "Uncertainty / calibration / Bayesian",
+   "count": 119,
+   "share_pct": 2.9,
+   "prev": {
+    "year": 2023,
+    "count": 118,
+    "share_pct": 3.7,
+    "delta_pp": -0.8
+   },
+   "examples": [
+    "BMRS: Bayesian Model Reduction for Structured Pruning.",
+    "Bayesian Adaptive Calibration and Optimal Design.",
+    "Bayesian Strategic Classification."
+   ]
+  },
+  {
+   "rank": 14,
+   "id": "safety_alignment",
+   "label_zh": "安全与对齐",
+   "label_en": "Safety & alignment",
+   "count": 118,
+   "share_pct": 2.9,
+   "prev": {
+    "year": 2023,
+    "count": 33,
+    "share_pct": 1.0,
+    "delta_pp": 1.9
+   },
+   "examples": [
+    "Discovering Preference Optimization Algorithms with and for Large Language Models.",
+    "SimPO: Simple Preference Optimization with a Reference-Free Reward.",
+    "Verified Safe Reinforcement Learning for Neural Network Dynamic Models."
+   ]
+  },
+  {
+   "rank": 15,
+   "id": "finetuning",
+   "label_zh": "微调 / 参数高效 / 后训练",
+   "label_en": "Fine-tuning / PEFT / post-training",
+   "count": 108,
+   "share_pct": 2.7,
+   "prev": {
+    "year": 2023,
+    "count": 50,
+    "share_pct": 1.6,
+    "delta_pp": 1.1
+   },
+   "examples": [
+    "Prompt Tuning Strikes Back: Customizing Foundation Models with Low-Rank Prompt Adaptation.",
+    "Improving Visual Prompt Tuning by Gaussian Neighborhood Minimization for Long-Tailed Visual Recognition.",
+    "The Importance of Online Data: Understanding Preference Fine-tuning via Coverage."
+   ]
+  }
+ ]
+}

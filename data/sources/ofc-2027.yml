@@ -1,0 +1,24 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ofc-2027
+sources:
+  - id: ofc-2027-author-timeline
+    url: https://www.ofcconference.org/submit-a-paper/author-timeline/
+    title: OFC 2027 Author Timeline
+    kind: dates
+    fetched_at: 2026-09-25T16:01:57Z
+    http_status: 200
+    snapshot: 8786d0a5a7970b3123e69526b3ff2ad9e59c60717f8b07fa347f0843c9c7f73b
+  - id: ofc-2027-submit
+    url: https://www.ofcconference.org/submit-a-paper/
+    title: OFC 2027 Submit a Paper
+    kind: cfp
+    fetched_at: 2026-09-25T16:02:03Z
+    http_status: 200
+    snapshot: 9bedbcedd9028135a4a2e99792e82e44a7a5094c7bb9ed99537565f4939cfee5
+  - id: ofc-2027-guidelines
+    url: https://www.ofcconference.org/submit-a-paper/submission-guidelines/
+    title: OFC 2027 Submission Guidelines
+    kind: author_guide
+    fetched_at: 2026-09-25T16:02:14Z
+    http_status: 200
+    snapshot: 31502dd58299130358b3a092fdce25cb3a74bd150c5e37be1617ca60ba113dd1

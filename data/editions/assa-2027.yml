@@ -1,0 +1,35 @@
+id: assa-2027
+series: assa
+name: ASSA 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: "Washington, D.C.", country: USA, country_code: US }
+dates: { start: 2027-01-03, end: 2027-01-05 }
+milestones:
+  - type: paper
+    label_zh: AEA 个人论文提案截止
+    at: 2026-04-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: assa-2027-conference
+    quote: "The deadline for individual paper proposals was April 1, 2026, and the deadline for complete session proposals was April 15, 2026."
+    note_zh: 已截止；整场分会提案是 4/15。官网没写时刻和时区。
+  - type: early_registration
+    at: 2026-12-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: assa-2027-conference
+    quote: "Early Registration (ends Dec. 1)"
+    note_zh: 注册和订房已开放。官网没写时刻和时区，按北京时间当天 23:59 算。
+  - type: conference
+    start: 2027-01-03
+    end: 2027-01-05
+    tz: America/New_York
+    status: confirmed
+    src: assa-2027-conference
+    quote: "The 2027 Annual Meeting will be held on January 3–5, 2027 (Sunday, Monday, Tuesday) in Washington, DC."
+last_checked: 2026-09-25
+note_zh: 主会场酒店是 Marriott Marquis Washington, DC。

@@ -1,0 +1,39 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: fse-2027
+series: fse
+name: FSE 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/FSE
+  conf_id: iacr-fse27
+  link: https://fse.iacr.org/2027/
+  place: Maastricht, Netherlands
+  date: May 24-28, 2027
+  timezone: UTC-12
+location:
+  city: Maastricht
+  country: Netherlands
+  country_code: NL
+dates:
+  start: 2027-05-24
+  end: 2027-05-28
+milestones:
+  - type: paper
+    at: 2026-09-01T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: ToSC, Volume 2026, Issue 4 Submission deadline
+  - type: paper
+    at: 2026-12-01T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: ToSC, Volume 2027, Issue 1 Submission deadline
+  - type: conference
+    start: 2027-05-24
+    end: 2027-05-28
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

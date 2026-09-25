@@ -1,0 +1,28 @@
+id: aom-2027
+series: aom
+name: AOM 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: aom-2026
+location: { city: Vienna, country: Austria, country_code: AT }
+dates: { start: 2027-07-30, end: 2027-08-03 }
+milestones:
+  - type: paper
+    label_zh: 论文与提案投稿截止
+    at: 2027-01-13
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: aom-2026-submitting
+    quote: "The Submission Center for the 2026 Annual Meeting will open early December 2025. The submission deadline is 13 January 2026."
+    note_zh: 预计。2027 届征稿还没发布，按 AOM 2026 的投稿截止 2026-01-13 顺延一年；按往年规律投稿系统 12 月初开放。时刻未知，按北京时间当天 23:59 算。
+  - type: conference
+    start: 2027-07-30
+    end: 2027-08-03
+    tz: Europe/Vienna
+    status: confirmed
+    src: aom-annual-meeting
+    quote: "AOM 2027 | 30 July – 3 August 2027 | Vienna, Austria"
+last_checked: 2026-09-25
+note_zh: 在维也纳举办（申根签证）。投稿截止是按 2026 届推算的，12 月投稿系统开放后以官网为准。

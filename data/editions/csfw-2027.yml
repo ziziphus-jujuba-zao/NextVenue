@@ -1,0 +1,44 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: csfw-2027
+series: csfw
+name: CSFW 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/CSFW
+  conf_id: csfw27
+  link: https://www.ieee-security.org/TC/CSF2027/
+  place: Tokyo, Japan
+  date: September 13-17, 2027
+  timezone: UTC-12
+location:
+  city: Tokyo
+  country: Japan
+  country_code: JP
+dates:
+  start: 2027-09-13
+  end: 2027-09-17
+milestones:
+  - type: paper
+    at: 2026-08-03T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: Summer
+  - type: paper
+    at: 2026-10-15T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: Fall
+  - type: paper
+    at: 2027-01-28T23:59
+    tz: UTC-12
+    status: confirmed
+    label_zh: Winter
+  - type: conference
+    start: 2027-09-13
+    end: 2027-09-17
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

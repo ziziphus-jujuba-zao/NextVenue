@@ -1,0 +1,12 @@
+id: icfp
+acronym: ICFP
+full_name: ACM SIGPLAN International Conference on Functional Programming
+directions: [cs/se, cs/theory]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份；论文发表在 PACMPL 期刊的 ICFP 期。
+dblp: conf/icfp
+ccfddl: SE/ICFP
+data_level: curated
+note_zh: CCF 第七版和 ccfddl 都把全称印成 “Function Programming”，会议官网的写法是 “Functional Programming”。

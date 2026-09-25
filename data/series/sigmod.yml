@@ -1,0 +1,13 @@
+id: sigmod
+acronym: SIGMOD
+full_name: ACM SIGMOD International Conference on Management of Data
+aliases: [ACM SIGMOD, ACM Conference on Management of Data, SIGMOD/PODS]
+directions: [cs/db]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按 dblp 收录的往届举办年份
+dblp: conf/sigmod
+ccfddl: DB/SIGMOD
+data_level: curated
+note_zh: 研究论文一年四轮投稿，每轮有修改环节（SIGMOD 2027）。

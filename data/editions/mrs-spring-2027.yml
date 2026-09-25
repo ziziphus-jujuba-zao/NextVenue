@@ -1,0 +1,22 @@
+id: mrs-spring-2027
+series: mrs-spring
+name: MRS Spring 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Seattle, country: USA, country_code: US }
+dates: { start: 2027-04-05, end: 2027-04-09 }
+milestones:
+  - type: abstract
+    status: tba
+    tz: America/New_York
+    note_zh: mrs.org 拒绝本项目的抓取程序（403），Internet Archive 里的会议页是 7 月的旧版，还没有摘要截止日，所以没能核对。请直接看 MRS 官网的 Call for Abstracts。
+  - type: conference
+    start: 2027-04-05
+    end: 2027-04-09
+    tz: America/Los_Angeles
+    status: confirmed
+    src: mrs-spring-2027-home
+    quote: "from April 5-9, 2027, researchers working in seemingly unrelated fields will gather in Seattle, Washington"
+    note_zh: 会场是 Seattle Convention Center 的 Summit 楼和 Hyatt Regency Seattle。
+last_checked: 2026-09-25

@@ -1,0 +1,30 @@
+id: rsna-2026
+series: rsna
+name: RSNA 2026
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: rsna-2026-abstracts
+  quote: "RSNA accepts abstract submissions in two categories: science and education."
+location: { city: Chicago, country: USA, country_code: US }
+dates: { start: 2026-11-29, end: 2026-12-03 }
+milestones:
+  - type: early_registration
+    at: 2026-10-01
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: rsna-2026-pricing
+    quote: "Please note: Rates will increase by $100 on Oct. 2."
+    note_zh: 官网写 10/2 起各类注册费涨 $100，所以优惠价到 10/1；没写时区，按北京时间当天 23:59 算。
+  - type: conference
+    start: 2026-11-29
+    end: 2026-12-03
+    tz: America/Chicago
+    status: confirmed
+    src: rsna-2026-pricing
+    quote: "We’re looking forward to seeing you in Chicago from Nov. 29 – Dec. 3 for RSNA 2026!"
+last_checked: 2026-09-25
+note_zh: 2026 届的摘要征集（含 Cutting-Edge Research 晚到轮）已经关闭。展会在 McCormick Place，只开到 12/2。

@@ -1,0 +1,38 @@
+id: cdc-2027
+series: cdc
+name: CDC 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Lisbon, country: Portugal, country_code: PT }
+dates: { start: 2027-12-14, end: 2027-12-17 }
+milestones:
+  - type: paper
+    at: 2027-03-31
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: confirmed
+    src: cdc-2027-home
+    quote: "Initial Submissions (CDC only) March 31, 2027"
+    note_zh: 只投 CDC 的初稿截止。走 L-CSS + CDC 联合投稿的截止更早，是 3/17（“Initial Submissions (L-CSS + CDC) March 17, 2027”）。投稿系统 2027-01-08 开放。官网只给日期、没写时区，按北京时间当天结束算。
+  - type: notification
+    at: 2027-07-15
+    tz: Europe/Lisbon
+    status: confirmed
+    src: cdc-2027-home
+    quote: "Decision Notification July 15, 2027"
+  - type: registration_open
+    at: 2027-07-30
+    tz: Europe/Lisbon
+    status: confirmed
+    src: cdc-2027-home
+    quote: "Registration Site Opens July 30, 2027"
+  - type: conference
+    start: 2027-12-14
+    end: 2027-12-17
+    tz: Europe/Lisbon
+    status: confirmed
+    src: cdc-2027-home
+    quote: "December 14 - 17, 2027 | Lisboa, Portugal"
+    note_zh: 会场是里斯本会议中心（Lisbon Congress Center）。
+last_checked: 2026-09-25

@@ -3,7 +3,7 @@ series: wsdm
 name: WSDM 2027
 year: 2027
 kind: conference
-topics: [dm]
+data_level: curated
 location: { city: Hong Kong, country: China }
 dates: { start: 2027-02-15, end: 2027-02-19 }
 milestones:

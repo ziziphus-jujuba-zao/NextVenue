@@ -1,0 +1,11 @@
+id: cdc
+acronym: CDC
+full_name: IEEE Conference on Decision and Control
+aliases:
+  - IEEE CDC
+directions: [eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 12 月
+data_level: curated

@@ -3,7 +3,7 @@ series: icra
 name: ICRA 2028
 year: 2028
 kind: conference
-topics: [robotics]
+data_level: curated
 derived_from: icra-2027
 location: { city: Rio de Janeiro, country: Brazil }
 dates: { start: 2028-05-15, end: 2028-05-19 }

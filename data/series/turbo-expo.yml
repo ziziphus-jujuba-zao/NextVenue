@@ -1,0 +1,11 @@
+id: turbo-expo
+acronym: Turbo Expo
+full_name: ASME Turbo Expo
+aliases:
+  - ASME Turbo Expo
+directions: [eng/mech, eng/aero, eng/power]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 6 月前后
+data_level: curated

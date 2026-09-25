@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: icfp-2027
+sources:
+  - id: icfp-2027-papers
+    url: https://icfp27.sigplan.org/track/icfp-2027-icfp-papers
+    title: ICFP 2027 Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:08Z
+    http_status: 200
+    snapshot: 21d4155fb6985949ab0ba1ec435309734f8f400fd19e31ea200e281b0fbe1267
+  - id: icfp-2027-home
+    url: https://icfp27.sigplan.org/
+    title: ICFP 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:48:09Z
+    http_status: 200
+    snapshot: c4f52329bb01f10734e20a0acd945d0fa7463a87bca234292b9aa922b339018d

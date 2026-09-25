@@ -1,0 +1,24 @@
+id: icra-2027/in-person-presentation
+edition: icra-2027
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？
+short_zh: 到现场报告
+answer: required
+verification: human
+conf: high
+applies:
+  from: notification
+  until: conference
+summary_zh: 必须。ICRA 2027 只在首尔现场举办，不能线上报告；没有人到现场报告的论文按缺席（no-show）处理，报告会被跳过。另外至少要保留一位作者的注册，论文才会出版。
+detail_zh: 作者注册截止 3/5（官方只给日期）。注册上的姓名可以免费更换。线上注册不能挂论文（费用表“Paper Uploads”一栏为“-”）。
+quotes:
+  - src: icra-2027-cfp
+    text: "ICRA 2027 will be an on-site conference. There will be no option to present a paper online."
+  - src: icra-2027-cfp
+    text: "If there is no on-site presenter, the paper will be considered as no-show and skipped."
+  - src: icra-2027-registration
+    text: "Please note, you need to retain the registration of at least one author to make sure your ICRA paper will be published."
+effect:
+  kind: requires
+  target: in_person_presentation
+last_checked: 2026-09-25

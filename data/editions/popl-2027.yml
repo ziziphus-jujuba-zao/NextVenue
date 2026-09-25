@@ -1,0 +1,60 @@
+id: popl-2027
+series: popl
+name: POPL 2027
+year: 2027
+kind: conference
+data_level: curated
+location: { city: Mexico City, country: Mexico, country_code: MX }
+dates: { start: 2027-01-10, end: 2027-01-16 }
+milestones:
+  - type: paper
+    at: 2026-07-09T23:59
+    tz: AoE
+    status: confirmed
+    src: popl-2027-papers
+    quote: "The submission deadline is 11:59PM July 9, 2026 anywhere on earth"
+    note_zh: 没有摘要截止（“There is no abstract deadline.”）。
+  - type: author_response
+    start: 2026-09-07
+    end: 2026-09-10
+    tz: AoE
+    status: confirmed
+    src: popl-2027-papers
+    quote: "Mon 7 - Thu 10 Sep 2026 Author response period"
+  - type: notification
+    label_zh: 出结果（有条件录用）
+    at: 2026-10-05
+    tz: AoE
+    status: confirmed
+    src: popl-2027-papers
+    quote: "Mon 5 Oct 2026 Author notification"
+    note_zh: 所有录用论文先是有条件录用，要按审稿人要求提交修改稿，审稿人确认后才正式录用。
+  - type: author_response
+    label_zh: 修改稿截止（有条件录用论文）
+    at: 2026-10-26T23:59
+    tz: AoE
+    status: confirmed
+    src: popl-2027-papers
+    quote: "Mon 26 Oct 2026 Revision deadline"
+  - type: notification
+    label_zh: 正式录用通知
+    at: 2026-11-09
+    tz: AoE
+    status: confirmed
+    src: popl-2027-papers
+    quote: "Mon 9 Nov 2026 Final acceptance notification"
+  - type: camera_ready
+    at: 2026-11-20T23:59
+    tz: AoE
+    status: confirmed
+    src: popl-2027-papers
+    quote: "Fri 20 Nov 2026 Camera ready deadline"
+  - type: conference
+    start: 2027-01-10
+    end: 2027-01-16
+    tz: America/Mexico_City
+    status: confirmed
+    src: popl-2027-home
+    quote: "The 2027 conference and associated workshops will take place in Mexico City at the Hilton Mexico City Reforma from January 10 to January 16."
+last_checked: 2026-09-25
+note_zh: 投稿已截止（2026-07-09），正在审稿；下一次能投的是 POPL 2028（官网未公布）。论文发表在 PACMPL 期刊的 POPL 期，录用作者受邀（不强制）到会报告。官网日期表写 “AoE (UTC-12h)”。

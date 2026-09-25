@@ -1,0 +1,12 @@
+id: vtc
+acronym: VTC
+full_name: IEEE Vehicular Technology Conference
+aliases:
+  - IEEE VTC
+directions: [eng/comm, eng/av]
+periodicity:
+  cycle: twice_yearly
+  basis: observed
+  note_zh: 按往届举办年份：每年春季（约 6 月）、秋季（约 9 月）各一届
+data_level: curated
+note_zh: 一年两届，届次 id 写 vtc-<年>-spring、vtc-<年>-fall。

@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: dac-2027
+sources:
+  - id: dac-2027-research-manuscripts
+    url: https://dac.com/2027/program/research-manuscript-submissions
+    title: DAC 2027 Research Manuscript Submissions
+    kind: cfp
+    fetched_at: 2026-09-25T15:48:28Z
+    http_status: 200
+    snapshot: f700c3152a7cd9ac3c7acd8acf258f8ed632a25c944d29aa43f89d157ccf2a6a
+  - id: dac-2027-home
+    url: https://dac.com/2027
+    title: DAC 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:50:18Z
+    http_status: 200
+    snapshot: a780897ab963da7622e83851a8539aa99aa8753e5969d335bd4cbb451b158dc5

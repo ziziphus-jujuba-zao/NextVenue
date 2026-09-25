@@ -1,0 +1,31 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-naacl
+sources:
+  - id: naacl-2021-front-matter
+    url: https://aclanthology.org/2021.naacl-main.0.pdf
+    title: NAACL-HLT 2021 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:50Z
+    http_status: 200
+    snapshot: a200d8c17c457540c01e5a3fd172c0a43acc706103c52fb313d353fb04a7d2f3
+  - id: naacl-2022-front-matter
+    url: https://aclanthology.org/2022.naacl-main.0.pdf
+    title: NAACL 2022 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:53Z
+    http_status: 200
+    snapshot: d808ad24a915dc8c8aad24fe006f985d0d8fe30744d5452ebc0ab6071f216ab8
+  - id: naacl-2024-front-matter
+    url: https://aclanthology.org/2024.naacl-long.0.pdf
+    title: NAACL 2024 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:56Z
+    http_status: 200
+    snapshot: d03f8328afd08c03d7851614629ecd52bf7165c254542b41d741442d39a27eb8
+  - id: naacl-2025-front-matter
+    url: https://aclanthology.org/2025.naacl-long.0.pdf
+    title: NAACL 2025 proceedings front matter
+    kind: other
+    fetched_at: 2026-09-25T13:14:58Z
+    http_status: 200
+    snapshot: 4fea30462b38e4acd4e3f551af1a41af7120b51525e6ee4de307d43b9abe37f5

@@ -1,0 +1,63 @@
+id: siggraph-asia-2027
+series: siggraph-asia
+name: SIGGRAPH Asia 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: siggraph-asia-2026
+location: { city: Tokyo, country: Japan, country_code: JP }
+dates: { start: 2027-11-30, end: 2027-12-03 }
+milestones:
+  - type: paper_registration
+    label_zh: 投稿表单截止（标题、摘要、全部作者）
+    at: 2027-05-05T23:59
+    tz: AoE
+    status: estimated
+    src: siggraph-asia-2026-papers
+    quote: "Tuesday, 5 May 2026: Submission form deadline"
+    note_zh: SIGGRAPH Asia 2027 还没有公布技术论文日期，按 SIGGRAPH Asia 2026 顺延；2026 年所有截止都是 AoE 23:59。过了这一步不能再加作者，也不能新建投稿。
+  - type: paper
+    at: 2027-05-12T23:59
+    tz: AoE
+    status: estimated
+    src: siggraph-asia-2026-papers
+    quote: "Tuesday, 12 May 2026: Paper deadline"
+    note_zh: 按 SIGGRAPH Asia 2026 顺延；2026 年可以先交 MD5 校验值，第二天（5/13）再上传文件。
+  - type: author_response
+    label_zh: Rebuttal
+    start: 2027-06-29
+    end: 2027-07-03T23:59
+    tz: AoE
+    status: estimated
+    src: siggraph-asia-2026-papers
+    quote: "Friday, 3 July 2026 Rebuttals Due"
+    note_zh: 按 SIGGRAPH Asia 2026 顺延：6/29 放出审稿意见（“Monday, 29 June 2026 Reviews Available for Authors & Rebuttal Begins”），7/3 交 rebuttal。
+  - type: notification
+    at: 2027-07-19
+    tz: AoE
+    status: estimated
+    src: siggraph-asia-2026-papers
+    quote: "Sunday, 19 July 2026 Decisions announced"
+    note_zh: 按 SIGGRAPH Asia 2026 顺延。
+  - type: camera_ready
+    at: 2027-09-03T23:59
+    tz: AoE
+    status: estimated
+    src: siggraph-asia-2026-papers
+    quote: "Thursday, 3 September 2026 Final Version Deadline"
+    note_zh: 按 SIGGRAPH Asia 2026 顺延；2026 年修改稿 8/28 先交复审。
+  - type: conference
+    start: 2027-11-30
+    end: 2027-12-03
+    tz: Asia/Tokyo
+    status: confirmed
+    src: siggraph-asia-2027-announce
+    quote: "30 November – 3 December 2027 | Tokyo International Forum, Tokyo, Japan"
+logistics:
+  venue:
+    name: Tokyo International Forum
+    address: tba
+    src: siggraph-asia-2027-announce
+    quote: "30 November – 3 December 2027 | Tokyo International Forum, Tokyo, Japan"
+last_checked: 2026-09-25
+note_zh: SIGGRAPH Asia 2027 于 2027-11-30 至 12-03 在东京国际论坛举行（SIGGRAPH Asia 官网公告）。技术论文日期未公布，标“预计”的日期按 SIGGRAPH Asia 2026 顺延：投稿表单 5/5、正文 5/12、rebuttal 6/29–7/3、出结果 7/19、终稿 9/3（AoE）。技术论文分期刊轨（ACM TOG）和会议轨，截止相同。

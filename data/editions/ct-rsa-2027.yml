@@ -1,0 +1,34 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ct-rsa-2027
+series: ct-rsa
+name: CT-RSA 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/CT-RSA
+  conf_id: ct-rsa27
+  link: https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/
+  place: San Francisco, California, USA
+  date: April 5-8, 2027
+  timezone: UTC-12
+location:
+  city: San Francisco
+  country: USA
+  country_code: US
+dates:
+  start: 2027-04-05
+  end: 2027-04-08
+milestones:
+  - type: paper
+    at: 2026-10-22T23:59
+    tz: UTC-12
+    status: confirmed
+    note_zh: "ccfddl: Paper submission deadline"
+  - type: conference
+    start: 2027-04-05
+    end: 2027-04-08
+    tz: UTC-12
+    status: confirmed
+last_checked: 2026-09-25

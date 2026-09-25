@@ -3,7 +3,7 @@ series: iccv
 name: ICCV 2027
 year: 2027
 kind: conference
-topics: [cv]
+data_level: curated
 derived_from: iccv-2025
 location: { city: Hong Kong, country: China }
 dates: { start: 2027-10-02, end: 2027-10-08 }

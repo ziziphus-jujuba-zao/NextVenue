@@ -1,0 +1,29 @@
+id: ashg-2026
+series: ashg
+name: ASHG 2026
+year: 2026
+kind: conference
+data_level: curated
+submission_type: abstract
+submission_evidence:
+  src: ashg-2026-abstracts
+  quote: "An individual may submit and present only one abstract."
+location: { city: Montréal, country: Canada, country_code: CA }
+dates: { start: 2026-10-20, end: 2026-10-24 }
+milestones:
+  - type: early_registration
+    at: 2026-09-15
+    tz: America/Toronto
+    status: confirmed
+    src: ashg-2026-home
+    quote: "Advance Registration Closes on September 15"
+    note_zh: 截止的只是优惠价（advance），常规注册仍开放。
+  - type: conference
+    start: 2026-10-20
+    end: 2026-10-24
+    tz: America/Toronto
+    status: confirmed
+    src: ashg-future-meetings
+    quote: "2026 Montreal, Canada October 20-24"
+last_checked: 2026-09-25
+note_zh: 会场是 Palais des Congrès de Montréal。摘要和晚到摘要都已截止；录用摘要的投稿人必须确认并缴注册费，否则可能被撤下。去加拿大要办访客签证（TRV）。

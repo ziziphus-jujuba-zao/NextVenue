@@ -1,0 +1,235 @@
+Call for Sessions
+
+Goldschmidt 2027 Conference
+
+Instructions
+
+Please read the instructions below before submitting.
+
+Session proposal and description
+
+Please make your session broad enough to attract at least 25-30 abstract submissions.
+
+ * Prepare a session description of less than 250 words, and a short title for your proposal.
+ * Review the Program and select the most suitable theme for your session. In the submission form, you can also indicate if the content is likely to be relevant to other themes.
+ * Should the topic of two or more session proposals overlap, merges are a possibility.
+
+Guidelines for sessions in honor
+
+Sessions in honor may be submitted but should adhere to the following guidelines:
+
+ * The session should be broad enough to attract at least 25-30 abstract submissions.
+ * It should have a title typical for the theme and aim to attract general submissions rather than submissions only from associates of the honoree.
+ * The conveners should encourage submissions from scientists at all career stages.
+ * Poster or talk decisions should be based on scientific criteria rather than association with the honoree.
+ * The conveners need to uphold the commitment to increasing diversity and inclusion at Goldschmidt.
+ * Please note that the name of the honoree will appear in brackets after the title of the session.
+
+Conveners
+
+The EAG and GS are committed to increasing diversity and inclusion at Goldschmidt conferences, and we particularly invite submitters to form diverse and inclusive teams of conveners.
+
+ * Each session proposal should have two conveners listed. Sessions with one convener are extremely unlikely to be accepted. Further names can be added if the session is accepted.
+ * Convener names should only be entered if they have given their permission.
+
+Potential presenters / speakers
+
+Provide the names of up to four potential presenters at your session. These names are requested simply to help define the subject area(s) your session seeks to cover.
+
+Potential presenters MUST NOT be contacted in advance; their details will not be publicly available on the site and they will not be contacted by the organizers.
+
+DO NOT offer invited or keynote speaker positions at this stage. Potential keynote speaker names will be requested once a session is accepted into the conference program. Their keynote status will be confirmed only if the session receives at least 25 abstract submissions.
+
+Process after submission
+
+After you submit your proposal
+
+ * The theme chairs of your session will be notified of your submission.
+ * You and the conveners listed in the submission will also receive an email confirming that your submission has been received. If you do not receive the email, please first check your junk folder then contact the technical support helpdesk at goldschmidt@confex.com. Please do not resubmit the session proposal.
+ * Your session proposal (title, description, and convener list) will be listed on the website during call for sessions.
+ * You can edit your proposal any time up until the deadline of 15 October.
+
+After the deadline of 15 October
+
+ * The Theme Chairs and the Science Committee will review the full list of session proposals submitted after the deadline.
+ * Your session will be either accepted, merged with other similar or overlapping sessions, or rejected if it is not possible to include it in the program. If your theme chairs contact you to propose a merger, please work with them and the other conveners to confirm the new session details as soon as possible.
+ * The review process will take at least four weeks. Conveners will then be notified of the outcome of their session proposal. Conveners of accepted or merged sessions may then be asked to finalise the session description and title to ensure the sessions listed in the program cover the entire theme description.
+
+Begin a submission to the following:
+
+01 | THEME 01: FROM DUST TO PLANETS
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+Observations of planetary objects across a range of scales – from gas and dust grains to pebbles, planet-carved gaps, and nascent planets – are growing in frequency and quality thanks to development of new instruments for both space- and ground-based observations, as well as technological advances in analytical capabilities. This theme aims to bring together observational, experimental, analytical, and theoretical studies that constrain and advance our understanding of planet formation, both in our Solar System and beyond. We aim to foster sessions including, but not limited to, the physics and chemistry of protoplanetary disks; isotopic anomalies and chronological constraints on Solar System evolution from meteorites and returned samples; accretion, differentiation, and the interior evolution of planetary bodies; experimental studies at high pressure and temperature; the composition and evolution of planetary surfaces and atmospheres, including insights from recent and upcoming missions; and observations and modelling of exoplanetary systems.
+
+Keywords: Disks, Planets, Meteorites, Accretion, Differentiation, Exoplanet, Atmosphere, Mission
+
+Time remaining to complete submissions:
+
+02 | THEME 02: DEEP EARTH
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+Earth’s interior has undergone a radical transformation from the time of planetary accretion to the present day. Understanding this long-term evolution is critical, as Earth’s deep interior governs global evolution, driving everything from magnetic field generation to surface-shaping tectonics and volcanism. Unraveling the complex mechanisms of the interior requires a united front across geophysics, geochemistry, petrology, geodynamics, and mineral physics. Further, recent advances in observations, experimental techniques, and computational modeling are reshaping our view of the interior. This theme invites sessions that probe internal chemical and physical processes across all scales. We welcome contributions focusing on early differentiation, the evolution of deep reservoirs, the vital exchange of energy and material between planetary layers and any studies that bridge traditional boundaries to track the formation and evolution of Earth’s planetary interior.
+
+Keywords: deep earth, interior evolution, differentiation, planetary accretion, core-mantle, mantle convection, geodynamics, high temperature geochemistry, mineral physics, experimental petrology
+
+Time remaining to complete submissions:
+
+03 | THEME 03: LITHOSPHERE
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+The lithosphere forms the interface between Earth’s surface and the convecting mantle, and is key to understanding plate tectonics, seismicity, volcanism, orogenesis, and Earth’s habitability. In this theme, we invite contributions that address the present-day structure, composition and dynamics of the lithosphere, as well as its formation and evolution through geological time. In particular, we encourage contributions that use geochemistry to investigate: (1) the Early Earth, (2) products and processes of subduction, (3) crustal evolution, metamorphism and orogenesis, (4) fluids, fluid-rock interaction and serpentinization in the oceanic and continental lithosphere, (5) methods and applications of lithospheric geo/thermo/petrochronology, and (6) interaction and mass transfer between the lithosphere and deeper Earth. We encourage specialised and multidisciplinary sessions that address these topics through studies of natural samples, geochemistry, petrology, geophysics, laboratory experiments and numerical modeling.
+
+Keywords: continental and oceanic lithosphere, crustal evolution, subduction, orogenesis, fluid-rock interaction, serpentinization, geochronology, metamorphism, deformation
+
+Time remaining to complete submissions:
+
+04 | THEME 04: MAGMAS AND VOLCANOES
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+Magmatic processes and volcanism modulate the history of Earth and rocky planetary bodies. Magmas build the crust and feed economic deposits vital for civilization. Volcanoes are key transport agents between the Earth’s interior and its exterior reservoirs, and eruptions pose major natural hazards. Humanity has long been fascinated by volcanoes but also impacted by the catastrophic loss of life and disruption of human infrastructure. Studies of magmatic and volcanic systems, their impact as natural hazards, and their links with the accumulation of metals that are critical for the green energy transition, benefit from multi-disciplinary approaches. We encourage sessions proposals that integrate geology, petrology, volcanology, geochemistry, and geophysics, in addition to written and oral histories. We welcome session proposals that apply field observations, laboratory experiments, textural constraints, geochemical analyses from bulk to microanalytical techniques, and novel computation methods, to investigate plutonic and volcanic processes, their interconnection, and their effects on Earth and other planetary bodies.
+
+Keywords: magma, volcano, natural hazard, volcano monitoring, volatile transfer, petrology, microanalysis, thermodynamic modelling, timescales
+
+Time remaining to complete submissions:
+
+05 | THEME 05: RESOURCES AND ENERGY
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+Meeting the global dual challenge of advancing net-zero climate targets and sustainably scaling critical mineral, industrial mineral, and geologic energy supplies demands fundamental advances in understanding of geochemical cycling, and element mobilization, fractionation, and enrichment across natural geological and human-engineered systems. This theme unifies sessions spanning the full lifecycle of mineral and energy resources—from the genetic processes that form energy and metal ore deposits, resource exploration and responsible extraction, to low-carbon utilization, waste remediation, and long-term subsurface storage stewardship—with cross-cutting links to climate mitigation and sustainable development agendas.
+We invite contributions covering all mineral and geo-energy resources, with targeted focus on critical and strategic metals essential for modern technology, hydrogen production and storage, nuclear energy resources, and carbon removal and sequestration technologies. Core geochemical mechanisms governing element mobilization, secondary enrichment, preservation, and commodity recoverability are central to this theme’s scope. We welcome field, experimental, isotopic, thermodynamic, and data-driven modeling studies that unravel magmatic, sedimentary, hydrothermal, metamorphic, and supergene processes responsible for resource formation and preservation across all spatial and geological scales, both continental and marine.
+
+Key topical subfields include fluid–rock interactions in natural aquifers, ore systems and engineered subsurface formations; geochemical controls on metal leaching, separation, and concentration; geometallurgy; geothermal resource genesis and exploitation; natural hydrogen, helium, and other subsurface liquid and gaseous energy reservoirs; geological carbon capture, utilization and storage (CCS/CCUS). Nuclear geochemistry is also strongly encouraged.
+
+Keywords: critical minerals, industrial minerals, ore systems, energy resources, hydrogen, helium, nuclear energy, geometallurgy, carbon capture, geothermal resources
+
+Time remaining to complete submissions:
+
+06 | THEME 06: ANALYTICAL AND COMPUTATIONAL FRONTIERS
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+Analytical and computational techniques supply the data and interpretative frameworks that allow exploration of complex natural systems. Advances in such techniques, including the improvement of existing geochemical tools, new applications, and technological innovations, are crucial to developing the geoscience toolbox necessary to answer questions over a range of time and size scales and to predict chemical and physical processes and their past and future impacts. We encourage disciplinary and interdisciplinary sessions that showcase research at the forefront of analytical and computational approaches, including both fundamental and applied research. Sessions should focus on method development, application, and scientific outcomes across all sub-disciplines of Earth and planetary sciences. These can include – but are not limited to – elemental and isotopic characterization of natural systems in terrestrial and extraterrestrial environments, physico-chemical investigations of in-situ processes and laboratory experiments, numerical simulations from the atomic to the mesoscale, and petrological and geochemical modeling of rock-melt systems. Studies detailing advancements in integrating data resources, data processing, innovate use of AI tools and approaches to scaling-up observations are also welcome.
+
+Keywords: mass spectrometry, method development, numerical simulations, petrological modeling, geochemical modeling, data processing, artificial intelligence, molecular isotopes
+
+Time remaining to complete submissions:
+
+07 | THEME 07: LIFE-EARTH INTERACTIONS
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+Biological and abiotic processes together drive the cycling of elements across Earth’s geosphere, biosphere, cryosphere, hydrosphere, and atmosphere. In turn, these interconnected biogeochemical cycles have profoundly influenced the evolution and functioning of the biosphere throughout Earth’s history. This theme invites sessions that explore the dynamic interactions and co-evolution of life and the environment across geological timescales, including processes operating in the present day. We welcome contributions addressing the origin and evolution of metabolic pathways and biogeochemical cycles, as well as the roles of biological, geological, astronomical, and chemical processes in shaping Earth’s long-term habitability and major evolutionary transitions. Topics may include, but are not limited to, the oxygenation of Earth’s surface, global glaciations, mass radiations and extinction events, and other pivotal episodes in Earth system evolution. The theme also encompasses the reciprocal relationships between climate and life, including the influence of climate on ecosystems as well as the use of biological archives to reconstruct past climates and environmental change. We encourage sessions spanning a broad range of disciplines—including geomicrobiology, biogeochemistry, paleobiology, geobiology, Earth system science, and astrobiology—and employing diverse methodological approaches, from numerical modelling and laboratory experiments to field investigations of ancient environments and their modern analogues.
+
+Keywords: Biogeochemistry, environmental microbiology, geobiology, modern environments, paleoenvironments, biological archives, life-climate interactions, planetary habitability
+
+Time remaining to complete submissions:
+
+08 | THEME 08: EARTH SURFACE PROCESSES
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+This theme focuses on Earth surface processes and their interactions with other aspects of the Earth system such as climate and tectonic evolution; we specifically aim to integrate disciplinary perspectives across (bio-)geochemistry, geomorphology, hydrology, and paleoclimate. We encourage contributions related to landscape evolution and weathering within the Critical Zone and across the land-ocean aquatic continuum, as well as the rates and impacts of erosion, transport, and deposition on elemental cycles across spatiotemporal scales. Solicited topics could include geochemical responses to river network, coastal and landscape evolution, soil erosion, sediment fluxes, and glacial and permafrost dynamics. We welcome sessions that include both natural and anthropogenic links with elemental cycles across spatial and temporal scales. We encourage sessions focused on physical-chemical-biological feedbacks, including how vegetation shifts, wildfire, and land use affect Earth surface processes. Sessions may address enhanced weathering, isotopic systematics and fluxes, biomarkers and other organic tracers, or sedimentological records of past Earth systems changes, as well research related to using paleoclimates and paleo-records as analogues for the present and future. The theme encompasses the development and application of tools used to decipher the (bio-)geochemical processes that shape and transform the Earth landscape, environment, and climate at all space and time scales. Contributions can be based on modern observations from individual sites; comparative, multi-scale studies; process-based field or laboratory experiments; sedimentological proxy records of surface and/or deeper Earth processes; or modelling frameworks spanning local to global scales and deep time to the present.
+
+Keywords: paleo-climate (land records), weathering, long-term C cycle, speleothems, critical zone, biomarkers in sedimentary archives
+
+Time remaining to complete submissions:
+
+09 | THEME 09: OCEANS AND ATMOSPHERE
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+The ocean and atmosphere form a tightly coupled system that regulates Earth's climate through the exchange and cycling of chemical elements, nutrients, gases, and particles. Geochemical approaches provide powerful tools for tracing these interactions, quantifying biogeochemical fluxes, and reconstructing environmental and climate change across timescales ranging from seasons to millennia to over geological time.
+
+We invite submissions for sessions spanning modern observations, process-based investigations, experimental approaches, and reconstructions of past environmental change. Topics may include physical and chemical oceanography, glaciology, paleoceanography, isotope geochemistry, ocean–atmosphere biogeochemical cycling, atmospheric transport, and paleoclimate reconstructions from marine and ice core archives. We also encourage interdisciplinary research that integrates geochemical proxies, observational datasets, and numerical modeling (broadly defined) to investigate climate variability, ocean circulation, ice–ocean interactions, carbon and nutrient cycling, and feedbacks within the Earth System.
+
+Contributions exploring the transport and cycling of particles, nutrients, contaminants, aerosols, trace elements, and greenhouse gases across the ocean–atmosphere interface are also welcome, as are studies that improve our understanding of the processes linking the ocean, atmosphere, and cryosphere from local to global scales. By bringing together researchers working across these disciplines, this theme aims to foster dialogue on the mechanisms driving environmental change over a range of timescales and the insights that both modern observations and geological archives provide for understanding past, present, and future trajectories.
+
+Keywords: ocean–atmosphere coupling, biogeochemical cycling, paleoclimate reconstructions, cryosphere interactions, Earth system feedbacks, oceanography, isotope (bio)geochemistry, numerical modeling, aerosol & particle transport, blue carbon
+
+Time remaining to complete submissions:
+
+10 | THEME 10: TERRESTRIAL AND FRESHWATER ENVIRONMENTS
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+This theme explores the biogeochemical, mineralogical, hydrological, and ecological processes that shape terrestrial and freshwater systems, from soils, sediments, and rivers to lakes, wetlands, and glaciers, across spatial and temporal scales. We focus on processes occurring at critical interfaces (air-water, mineral-water, mineral-microbe, water-soil-plant etc.) where molecular-scale interactions dictate large-scale phenomena like ecosystem resilience, water quality, and soil health. We invite session proposals that bridge scales and disciplines, exploring the complex interplay of biotic and abiotic reactions in natural and engineered systems. Topics of interest include, but are not limited to 1) mechanisms and processes spanning molecular to field scales, including redox dynamics and mineral transformations, 2) rhizosphere and soil–plant–microbe interactions and their biogeochemical consequences, 3) element mobility across scales, 4) geochemical impacts of climate-induced stressors such as thawing permafrost, wildfires, extreme hydrological events, and sea level rise, 5) organic matter dynamics in terrestrial and aquatic systems, 6) advanced analytical approaches for field and laboratory studies, including high-resolution spectroscopy and isotope tracing, 7) advanced computation and modeling approaches, including surface complexation modeling, reactive transport modeling, applications of artificial intelligence in terrestrial and fresh water environments.
+
+Keywords: biogeochemistry, interfaces, redox processes, inorganic geochemistry, organic geochemistry, soils, sediments, lakes, rivers, glaciers, groundwater, wetlands
+
+Time remaining to complete submissions:
+
+11 | THEME 11: ENVIRONMENTAL AND HUMAN HEALTH
+
+Deadline for Submissions: Thursday, 15 October 2026
+
+New Submissions Open
+
+The environmental geochemistry and health theme includes studies of natural and anthropogenic geochemical processes that affect human and ecological health. Broadly, topics include how the movement and transformation of chemical elements and synthetic toxicants in the environment affect the composition of air, water, and soil, and exposures in the biosphere. We welcome cross scale studies that span molecular level experimental work to global scale cycling focused on better understand how natural and xenobiotic substances impact health. Fundamental research may include understanding elemental cycles, concentration variations, isotopes, and element speciation across all environmental spheres. Applied research may focus on the impact of elemental cycles on health. We welcome contributions from all related fields. Key research areas include, but are not limited to, developing chemical speciation methods, creating stable/radioisotope tracers, studying biological influences on geochemical cycles, and modeling these cycles. Applied research covers environmental issues, climate change, and their health impacts, such as contaminant behavior (e.g., heavy metals, synthetic organic substances, radionuclides) in water, soil, and air; toxic substance removal, useful element recovery; nutrient bioavailability, and health effects of exposure to metals, metalloids, and organic pollutants. By integrating geochemical data with health studies, this theme aims to develop strategies for managing environmental risks, promoting better health through improved environmental quality, and contributing to effective interventions and policies.
+
+Keywords: biogeochemistry, isotope geochemistry and ecology, contaminants, heavy metals, metalloids, radionuclides, synthetic organic substances, bioaccumulation, medical geology, public health
+
+Time remaining to complete submissions:
+
+12 | THEME 12: BEYOND THE SCIENCE: POLICY, ENGAGEMENT AND IMPACT
+
+Deadline for Submissions:
+
+New Submissions Open
+
+Our societies face pressing environmental and economic challenges that demand sustainable solutions on both local and global scales. Uncovering the geochemical pathways that govern elemental and pollutant dynamics, natural resources, and planetary dynamics enables us to translate scientific insights into practical policy and action. However, turning those insights into real-world impact requires an open, diverse, equitable, and inclusive scientific community. To that end, this cross-cutting theme explores the societal impact of geochemistry and includes the following topics:
+
+ * Putting knowledge into action: academic-industry-government partnerships
+ * Novel approaches in geochemistry education
+ * Managing the digital frontier: open data and AI
+ * Equity and inclusion in geosciences
+
+An important outcome for this theme is a clear demonstration of the broad and essential role that geochemistry plays in society, to inspire researchers to integrate social context for greater real-world impact and to broaden representation within the field and build an inclusive community.
+
+Keywords: Open Data, Accessibility, Publication, Dissemination, Communication, Outreach, Education, Equity and Inclusion, Communities, Industry, Government, Policy, Societal Solutions, Impact
+
+Time remaining to complete submissions:
+
+View, Resume, Edit or Withdraw a Submission:
+
+If you have already submitted a session proposal you may log in below using the submission id number and password already provided to you:
+
+Submission ID# Password
+
+Forgotten ID and password?
+We will email it to you.
+
+ * Contact Us
+ * Goldschmidt Archive
+ * Code of Conduct
+ * Dates & Deadlines
+ * Privacy
+
+Goldschmidt® is a registered trademark of the European Association of Geochemistry and of the Geochemical Society
+
+Banner photo credit: Paris Je t’aime – Office du Tourisme

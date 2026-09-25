@@ -1,0 +1,88 @@
+# WWW（The Web Conference） 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: www
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 1129
+    accepted: 219
+    rate: 19
+    rate_text: 19%
+    rate_basis: stated
+    definition_zh: 研究赛道长文；短文另算
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3366423
+    quote: We accepted 219 (19%) of the 1129 full papers and 97 (24%) of the 397 short papers submitted to the research tracks
+    src: www-2020-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 1736
+    accepted: 355
+    rate: 20.5
+    rate_text: 20.5%
+    rate_basis: stated
+    definition_zh: 研究赛道
+    source_url: https://sigir.org/wp-content/uploads/2021/09/p13.pdf
+    quote: In total, the program committee (PC) received 1,736 submissions of which 355 (20.5%) were accepted.
+    src: www-2021-sigir-forum-report
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: partial
+    accepted: 323
+    definition_zh: 研究赛道
+    source_url: https://www2022.thewebconf.org/main-proceedings/
+    quote_check: manual
+    count_method_zh: 官网论文集页面研究赛道各节合计 323 篇（本应用计数）
+    note_zh: 官方投稿数没能从原始出处核实，不显示
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 1900
+    accepted: 365
+    rate: 19.2
+    rate_text: 19.2%
+    rate_basis: stated
+    definition_zh: 研究赛道；分母含桌拒的论文
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3543507
+    quote: The call for papers attracted 1900 submissions, a 4% increase from last year. Track chairs considered that 117 papers were out of scope for their track and for the conference, and those papers received a "desk reject" notification. After the reviewing process, 365 papers were accepted (19.2%)
+    src: www-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 2008
+    accepted: 405
+    rate: 20.2
+    rate_text: 20.2%
+    rate_basis: stated
+    definition_zh: 研究赛道
+    source_url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3589334
+    quote: The call for papers attracted 2008 submissions, a 6.2% increase from last year. After the reviewing process, 405 papers were accepted (20.2%)
+    src: www-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: none
+    reason: unlicensed_only
+    checked_urls:
+      - https://dl.acm.org/doi/proceedings/10.1145/3696410
+    note_zh: 只见于无许可证的聚合站；官方论文集前言没能取到
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: partial
+    accepted: 676
+    definition_zh: 研究赛道
+    source_url: https://www2026.thewebconf.org/accepted/research-tracks.html
+    quote_check: manual
+    count_method_zh: 官网研究赛道录用名单共 676 篇（本应用按论文编号计数）
+    note_zh: 官方投稿数没能从原始出处核实，不显示
+    checked: 2026-09-25

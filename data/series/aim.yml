@@ -1,0 +1,11 @@
+id: aim
+acronym: AIM
+full_name: IEEE/ASME International Conference on Advanced Intelligent Mechatronics
+aliases:
+  - IEEE AIM
+directions: [cs/robotics, eng/mech, eng/control]
+periodicity:
+  cycle: annual
+  basis: observed
+  note_zh: 按往届举办年份：每年 7 月前后
+data_level: curated

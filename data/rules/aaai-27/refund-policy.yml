@@ -1,0 +1,23 @@
+id: aaai-27/refund-policy
+edition: aaai-27
+family: refund
+question_zh: 取消注册能退款吗？
+short_zh: 取消注册退款
+answer: conditional
+verification: human
+conf: high
+applies:
+  from: notification
+  until: refund_cutoff
+summary_zh: 有条件。北京时间 1/11 12:59 前发邮件书面申请可以退款，每笔扣 $100 手续费；之后不再受理退款申请。
+quotes:
+  - src: aaai-27-registration
+    text: "The deadline for refund requests is January 10, 2027 at 11:59 PM EST. All refund requests must be made in writing to aaaireg@aaai.org."
+  - src: aaai-27-registration
+    text: "A $100.00 processing fee will be assessed for all refunds."
+effect:
+  kind: refund
+  trigger: cancel
+  full_until: refund_cutoff
+  then: none
+last_checked: 2026-09-25

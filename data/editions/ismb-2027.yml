@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ismb-2027
+series: ismb
+name: ISMB 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/ISMB
+  conf_id: ismb27
+  link: https://www.iscb.org/ismbeccb2027/
+  place: Copenhagen, Denmark
+  date: July 18-22, 2027
+  timezone: AoE
+location:
+  city: Copenhagen
+  country: Denmark
+  country_code: DK
+dates:
+  start: 2027-07-18
+  end: 2027-07-22
+milestones:
+  - type: paper
+    tz: AoE
+    status: tba
+    note_zh: "ccfddl: Proceedings"
+  - type: conference
+    start: 2027-07-18
+    end: 2027-07-22
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

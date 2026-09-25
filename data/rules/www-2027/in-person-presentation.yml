@@ -1,0 +1,24 @@
+id: www-2027/in-person-presentation
+edition: www-2027
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？
+short_zh: 到现场报告
+answer: required
+verification: human
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: 应该到现场（官方用词是 should）。每篇录用论文都应在会上报告：所有论文都要在现场准备海报，被选为口头报告的一般也要到场，少数有严重出行困难的可能允许线上讲。不到场会怎样，官方没写。
+detail_zh: 注册是另一回事：每篇论文都要一份单独的非学生线下价注册，1/31 前付清，不管到不到场都要（见清单里的作者注册一步）。
+quotes:
+  - src: www-2027-research-cfp
+    text: "Every accepted paper should be presented at the conference."
+  - src: www-2027-research-cfp
+    text: "All papers will be asked to produce a poster on-site."
+  - src: www-2027-research-cfp
+    text: "Generally we expect oral presentations to be in-person, but may allow a few online presentations by authors with significant travel difficulties."
+effect:
+  kind: requires
+  target: in_person_presentation
+last_checked: 2026-09-25

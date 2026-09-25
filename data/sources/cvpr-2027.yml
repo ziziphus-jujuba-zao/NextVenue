@@ -61,3 +61,26 @@ sources:
     http_status: 200
     snapshot: b5a7ccc59aeac0e6490f370d46e9c71aa75fd0f661648655b67504f9c5825d4d
     note_zh: 会议地点（Seattle WA）和会期。
+  - id: cvpr-2027-pricing
+    url: https://cvpr.thecvf.com/Conferences/2027/Pricing
+    title: CVPR 2027 Registration Pricing
+    kind: policy
+    fetched_at: 2026-09-25T10:41:49Z
+    http_status: 200
+    snapshot: 2137567e1c66618e33ce4e81fad48b26cef1db21ddd014ced0e1f11a47caf20e
+    note_zh: '2026-09-25 页面写 "Pricing is not yet available for this conference"。'
+  - id: cvpr-2026-pricing
+    url: https://cvpr.thecvf.com/Conferences/2026/Pricing2
+    title: CVPR 2026 Registration Pricing (Pricing2)
+    kind: policy
+    fetched_at: 2026-09-25T10:41:50Z
+    http_status: 200
+    snapshot: 6704d53bfbbc0868dd2983aea21d0b9b599b3fed60f33a77bfe43cfcb928b32e
+    note_zh: '上一届注册页，只用作 2027 未公布时的上届参考（价格、一份注册覆盖几篇、取消、邀请函、线上参加）。'
+  - id: cvpr-2027-visa
+    url: https://cvpr.thecvf.com/Conferences/2027/Visa
+    title: CVPR 2027 Visa Information
+    kind: other
+    fetched_at: 2026-09-25T10:41:51Z
+    http_status: 404
+    note_zh: '2026-09-25 为 404，签证页尚未发布。'

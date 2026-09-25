@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: ndss-2027
+sources:
+  - id: ndss-2027-cfp
+    url: https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
+    title: NDSS 2027 Call for Papers
+    kind: cfp
+    fetched_at: 2026-09-25T15:46:09Z
+    http_status: 200
+    snapshot: c0756d6f313aa8eb97000293712812998fac0fcaa900f8c00eb3ba059122ba3f
+  - id: ndss-2027-home
+    url: https://www.ndss-symposium.org/ndss2027/
+    title: NDSS 2027 Home
+    kind: other
+    fetched_at: 2026-09-25T15:46:10Z
+    http_status: 200
+    snapshot: 43b3b73e2c0562f8775d6c60c58bddf86af413bc4fcd2ef8ffce2e5575fa20a5

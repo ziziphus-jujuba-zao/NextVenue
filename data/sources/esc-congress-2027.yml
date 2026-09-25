@@ -1,0 +1,10 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: esc-congress-2027
+sources:
+  - id: esc-congress-2027-future-destinations
+    url: https://www.escardio.org/events/congresses/esc-congress/future-destinations/
+    title: "ESC Congress: Future destinations"
+    kind: other
+    fetched_at: 2026-09-25T17:44:07Z
+    http_status: 200
+    snapshot: cbcaf5ac0a9aec4c5fbcaa01cd99769cc402dde5dd2721fe881f3c9f09377dc2

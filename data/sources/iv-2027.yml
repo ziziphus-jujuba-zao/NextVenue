@@ -1,0 +1,17 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: iv-2027
+sources:
+  - id: iv-2027-home
+    url: https://ieee-iv.org/2027/
+    title: IEEE IV 2027 Home
+    kind: cfp
+    fetched_at: 2026-09-25T15:47:45Z
+    http_status: 200
+    snapshot: 076e5611aa66a6f1c78120e0260f1d517793a8f58e8f6d7a543bc9cc45d11521
+  - id: iv-2027-authors
+    url: https://ieee-iv.org/2027/contributions/information-for-authors/
+    title: IEEE IV 2027 Information for Authors
+    kind: author_guide
+    fetched_at: 2026-09-25T16:00:16Z
+    http_status: 200
+    snapshot: 0be4bf12172cec4d2d1a09ea201320605b1a63498f977a1070b25ef4c4384b82

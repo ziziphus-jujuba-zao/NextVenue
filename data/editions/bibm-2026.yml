@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: bibm-2026
+series: bibm
+name: BIBM 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: MX/BIBM
+  conf_id: bibm26
+  link: https://ieeebibm.org/BIBM2026/
+  place: Dallas, USA
+  date: Dec 1-4, 2026
+  timezone: UTC-5
+location:
+  city: Dallas
+  country: USA
+  country_code: US
+dates:
+  start: 2026-12-01
+  end: 2026-12-04
+milestones:
+  - type: paper
+    at: 2026-07-05T17:00
+    tz: UTC-5
+    status: confirmed
+  - type: conference
+    start: 2026-12-01
+    end: 2026-12-04
+    tz: UTC-5
+    status: confirmed
+last_checked: 2026-09-25

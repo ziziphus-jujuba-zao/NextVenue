@@ -1,0 +1,38 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-icml
+sources:
+  - id: icml-2020-vinai-overview
+    url: https://www.vinai.io/an-overview-of-icml-2020s-publications/
+    title: An overview of ICML 2020's publications (VinAI blog, third party)
+    kind: blog
+    fetched_at: 2026-09-25T13:11:44Z
+    http_status: 200
+    snapshot: 7006ead4d94bc2d3ca890e4b6703a54fd9bb924ca6f5a9bfa45809ed84127baf
+  - id: icml-2021-riken-news
+    url: https://aip.riken.jp/news/202105_icml/
+    title: "RIKEN AIP news: ICML 2021 accepted papers (third party)"
+    kind: blog
+    fetched_at: 2026-09-25T13:11:47Z
+    http_status: 200
+    snapshot: f80526895231f2eb25b6ddd4424798134e56a9e4888c8dba25c634595f30c670
+  - id: icml-2024-fact-sheet
+    url: https://media.icml.cc/Conferences/ICML2024/ICML2024_Fact_Sheet.pdf
+    title: ICML 2024 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:11:50Z
+    http_status: 200
+    snapshot: 3898691bab079f2d8e461caf5f0721c0235cb74825fdd5579796e1e53abe22c4
+  - id: icml-2025-fact-sheet
+    url: https://media.icml.cc/Conferences/ICML2025/ICML2025_Fact_Sheet.pdf
+    title: ICML 2025 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:11:52Z
+    http_status: 200
+    snapshot: cf2720d2832ff74b2a2b9a745920efc39f4fd1ef23d2d9a564e1b91445b6f3f5
+  - id: icml-2026-fact-sheet
+    url: https://media.icml.cc/Conferences/ICML2026/ICML2026_Fact_Sheet.pdf
+    title: ICML 2026 Fact Sheet
+    kind: other
+    fetched_at: 2026-09-25T13:11:54Z
+    http_status: 200
+    snapshot: 2026c89465ce473d2987ddde45e3c4d4440646dcbff7bdb69095edf3dc317785

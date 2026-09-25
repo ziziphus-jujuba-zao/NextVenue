@@ -1,0 +1,124 @@
+Sitemap
+
+Open in app
+
+Sign up
+
+Sign in
+
+Write
+
+Sign up
+
+Sign in
+
+#OurHatata: The Reviewing Process and Research Shaping ICLR in 2020
+
+ICLR
+
+7 min read
+·
+Dec 20, 2019
+
+--
+
+Listen
+
+Share
+
+By ICLR2020 Programme Chairs: Shakir Mohamed (DeepMind), senior programme chair; Dawn Song (Univ. of Berkeley), programme co-chair; Kyunghyun Cho (New York University & Facebook AI Research), programme co-chair; Martha White (Univ. of Alberta & Alberta Machine Intelligence Institute), programme co-chair
+
+Once, in the land of the priests of Axum¹, one who would become amongst the world’s great philosophers was born. Zera Yacob’s work is amongst the first we learn of in Africana philosophy, and whose ideas and thinking are as important to modern philosophy as that of his contemporary Rene Descartes, although this recognition remains relatively unknown. Zera Yacob’s great work was collected in his Hatata, the Inquiry (or analysis; ሓተታ in Ge’ez, the classical language of Ethiopia).
+
+This is part of the scene that our 8th International Conference on Learning Representations (ICLR) enters in 2020. Together, we travel to Addis Ababa and to Ethiopia, to seek new opportunities to strengthen our science, and to engage with our communities across the world. As always, our community’s best work was submitted for inclusion in the proceedings of ICLR2020, and this post summarises the reviewing and selection process, and its outcomes. As your programme chairs, we are humbled to have had a hand in shaping this first inquiry in a new decade of machine learning research; proud to have shaped what will in 2020 become #OurHatata: Our inquiry into the principles and practice of machine learning and artificial intelligence.
+
+Press enter or click to view image in full size
+
+Word cloud using titles of accepted papers
+
+Overall Outcomes
+
+Our community continues to send its best work to ICLR, and unfortunately we cannot accept every paper that is submitted. We congratulate the authors of accepted papers, and to those who we could not accommodate, we wish you success in your ongoing research.
+
+ICLR 2020 will have 687 accepted papers:
+
+ * This is a 26.5% acceptance rate, 687 out of 2594 papers.
+ * As usual all accepted papers will be presented as posters.
+ * 23% of accepted papers will have an oral presentation: 108 papers as 4 min spotlights, and 48 papers with longer 10 min talks.
+
+The review process was mostly unchanged from the previous year, with two adjustments: we disallowed public comments mid-way through the discussion period to allow the authors and reviewers to have a clear scope of what points are under discussion, and we had an explicit week for substitute and emergency reviewing. Most of our changes were in the structure of conference programme.
+
+Rating system: To help make more clear decisions, the rating system this year was simplified to remove the option of assigning a neutral rating: we only had options for reject, weak reject, weak accept and accept.
+
+Numerical values needed to be assigned to these rating, to produce an average score, though the recommendations themselves were more important than the number. The scores were asymmetric, at 1, 3, 6 and 8, for a reason. For an Accept, we had a concern that a reviewer would be loathe to give a 10: you might want the paper accepted, but it doesn’t mean it deserves a score of 10. We did not want to dissuade reviewers from strongly stating “Accept”. Further, the larger gap between 3 and 6 forces there to be a bigger distinction between Weak Reject and Weak Accept, to provide more commitment to a recommendation and avoid neutrality. Though somewhat atypical, the resulting averages were meaningful for guiding decisions.
+
+Challenges and Improvements
+
+Continuing the trend from previous years, we saw the number of submissions to the conference continue to grow significantly, seen inn the figure below. This creates an increasingly difficult task of building large reviewer pools with broad levels of experience. We were lucky this year to have been supported by 119 Area Chairs and 2200 Reviewers. The size of this programme committee was not as large as we would have preferred, and placed a higher reviewer burden than was hoped for. Our Area Chairs were phenomenal! They each had 20 papers, and went above and beyond in making decisions. The quality of accepted papers is high, due to their diligence.
+
+Number of ICLR submissions over time
+
+📦 Archival nature of OpenReview: Part of submitting to ICLR is to recognise that it is also an archival system, and that once a paper is submitted it will eventually become de-anomymised (either when it is withdrawn, desk-rejected, or a final decision is made), and cannot be removed. There seemed to be a misunderstanding or under-appreciation of this principle, and we received many requests to remove submissions, or in a few extreme cases, submitters attempting to circumvent this policy by replacing information with blank pdfs. Choosing to submit to ICLR is to accept this archival policy, and is something that will need clearer communication in the future.
+
+🚢 Dual submissions and withdrawals: We desk rejected a small number of papers (less than 20) for violations of the dual submission policy. We also experienced a large number of withdrawals this year, e.g., due to proximity and overlap with other conference deadlines, or incompatibility with the anonymity policies of other conferences like ACL. This is counter-productive since it expends the energy of many reviewers whose efforts could have been used in other ways. Part of our future planning is to consider ways of discouraging this outcome.
+
+📝 Your feedback: Our processes and tools have to constantly adapt to the rapid pace of growth and change. Please help us improve our processes by leaving your feedback on the ICLR process and on the OpenReview tool using this form.
+
+Our Conference in Ethiopia
+
+👀 Programme preview: We have an exciting programme planned. This year we have a separate day for workshops that will take place the day before the conference starts, so that the energy of the conversations generated during the workshops can carry on into the week. We have 8 truly incredible speakers who will teach us much, and that reflect all facets of our community. To increase the visibility of papers during the conference, 1 in every 4 accepted papers will have a spotlight or longer talk, and will use our time together to recognise each other’s work and contributions. We will share more details in the new year.
+
+💉 Vaccines and health: You may need travel vaccinations, depending on where in Ethiopia you will travel. If you will be travelling to Addis Ababa only, there is no risk of malaria and Zika virus. Malaria and Zika virus are spread through mosquitoes in areas below 2000m. Please see the health advisory for your country for specific guidance, e.g, the advisories issued by the WHO, and ones we were able to find for US, UK, Canada, India. Travel insurance is recommended.
+
+🔒 General safety: The conference is held in the Bole area of Addis Ababa and is a safe area. Addis Ababa is home to the African Union commission and hosts many large conferences and events, so the city is highly-experienced in ensuring the safety of high-level delegates. Through co-operation with the government, there will be heightened police patrols in the area to give more peace of mind. The Millennium hall also has excellent security practices in place as part of their standard practice, which include inspecting vehicles entering and leaving, and detectors for unsafe items. There will be a special government endorsed letter that attendees can use for additional safety and a special government hotline. We also have access to our own ICLR hotline if there are any concerns or breaches of the code of conduct, which can always be used.
+
+🏳️‍🌈 LGBTQ+ inclusion: The safety of the members of our queer machine learning community has been an active discussion over recent months. Ethiopia has strict anti-gay laws, with homosexual acts punishable by up to 15 years in prison. According to Article 629 of the Ethiopian Criminal Code, this applies to both nationals and foreigners. There has been a great deal of activity from people across our community to inform and help navigate this reality. A comprehensive safety guide to aid the decision-making on attendance by our queer members was created by the QueerInAI community group, and can be found on our the diversity page of the website. There have been active conversations with LGBTQ activists and groups in Ethiopia to understand their challenges and lived experiences. If there is more we can do, we will do our best to do so. Wherever we host our conferences in the world, we will face major challenges such as this. Our solidarity with, and commitment to creating an inclusive and global machine community will see us confront such situations in the future, and we will continue to take the steps we can to support our communities wherever they are.
+
+🇪🇹 Off to Ethiopia: Zera Yacob’s story is just one part of Ethiopia’s rich history we can engage with; there is much more to discover, from the ancient texts of the Kabra Negast, the All-African Peoples’ Conference and the foundations of pan-Africanism, to the modern home of the African Union commission. Today, Ethiopia has a technology community that grows stronger every day, and a fun Ethiopian language NLP group @ethionlp to look out for. There is much for us to learn from, and in turn to support.
+
+🐾 Next steps: We will now shift our attention to selecting the two best paper awards, creating the presentation timetable, and working with our organising teams to get the conference ready. Our blog posts in the new year will reveal the set of keynotes speakers, discuss the process for selecting the best paper awards, do a more detailed analysis of the review outcomes, share more ways to meet with each other during the conference, and summarise the exciting workshops to look out for.
+
+We thank the entire machine learning community for entrusting us with the leadership of ICLR and can’t wait to meet everyone in Ethiopia next year. #ICLR2020 #OurHatata 🌍
+
+— Shakir, Dawn, Kyunghyun, Martha
+
+¹ Zera Yacob was born in 1599, and this is also the first line of his Hatata.
+
+Ethiopia
+Machine Learning
+Artificial Intelligence
+Deep Learning
+Iclr2020
+
+--
+
+--
+
+Written by ICLR
+
+697 followers
+·1 following
+
+International Conference on Learning Representations
+
+No responses yet
+
+Help
+
+Status
+
+About
+
+Careers
+
+Press
+
+Blog
+
+Privacy
+
+Rules
+
+Terms
+
+Text to speech

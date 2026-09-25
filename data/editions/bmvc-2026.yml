@@ -1,0 +1,37 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: bmvc-2026
+series: bmvc
+name: BMVC 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/BMVC
+  conf_id: bmvc26
+  link: https://bmvc2026.bmva.org/
+  place: Lancaster, UK
+  date: November 23-26, 2026
+  timezone: UTC+0
+location:
+  city: Lancaster
+  country: UK
+  country_code: GB
+dates:
+  start: 2026-11-23
+  end: 2026-11-26
+milestones:
+  - type: abstract
+    at: 2026-05-22T23:59
+    tz: UTC
+    status: confirmed
+  - type: paper
+    at: 2026-05-29T23:59
+    tz: UTC
+    status: confirmed
+  - type: conference
+    start: 2026-11-23
+    end: 2026-11-26
+    tz: UTC
+    status: confirmed
+last_checked: 2026-09-25

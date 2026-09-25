@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: pacificvis-2027
+series: pacificvis
+name: PacificVis 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: CG/PacificVis
+  conf_id: pacificvis27
+  link: https://pacificvis2027.github.io/
+  place: Busan, South Korea
+  date: April 19-22, 2027
+  timezone: AoE
+location:
+  city: Busan
+  country: South Korea
+  country_code: KR
+dates:
+  start: 2027-04-19
+  end: 2027-04-22
+milestones:
+  - type: abstract
+    at: 2026-09-01T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: TVCG journal track
+  - type: paper
+    at: 2026-09-08T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: TVCG journal track
+  - type: abstract
+    at: 2026-11-02T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Conference track
+  - type: paper
+    at: 2026-11-09T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Conference track
+  - type: conference
+    start: 2027-04-19
+    end: 2027-04-22
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

@@ -1,21 +1,26 @@
-MIT License
+Copyright (c) 2026 Zayier Xie. All rights reserved.
 
-Copyright (c) 2026 Zayier Xie
+NextVenue（投稿下一站）
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The source code, the data written for this project, the interface design,
+icons, screenshots and documentation in this repository are proprietary and
+confidential. No licence is granted. Without prior written permission from the
+copyright holder you may not copy, modify, distribute, publish, sublicense,
+sell, host or mirror any part of this repository, create derivative works from
+it, or use it to build a competing product.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Third-party material in this repository stays under its own licence; see
+NOTICE. Official quotes and page snapshots belong to their respective
+conferences and organizers; see DATA_LICENSE.md.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+版权所有 (c) 2026 Zayier Xie，保留所有权利。
+
+本仓库中的源代码、本项目自己整理和编写的数据、界面设计、图标、截图和文档均为
+专有内容，不授予任何许可。未经版权人书面许可，不得复制、修改、分发、发布、
+转授权、出售、托管或镜像其中任何部分，不得据此制作衍生作品，也不得用于开发
+竞争产品。
+
+第三方材料按各自的许可证使用，见 NOTICE。官网原文引用和官网快照的版权归各会议
+和主办方所有，见 DATA_LICENSE.md。
+
+Contact / 联系：zayierxie@gmail.com

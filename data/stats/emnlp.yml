@@ -1,0 +1,183 @@
+# EMNLP 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: emnlp
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 3359
+    accepted: 752
+    rate: 22.4
+    rate_text: 22.4%
+    rate_basis: stated
+    definition_zh: 主会；分母为送审论文（去掉撤稿和桌拒）
+    source_url: https://aclanthology.org/2020.emnlp-main.0.pdf
+    quote: We received a record number of 3,677 submissions. ... 3,359 submissions were sent out for review. ... Reviewed Accepted Acceptance Rate ... Total 3,359 752 22.4%
+    src: emnlp-2020-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2020
+    track: findings
+    status: official
+    submissions: 3359
+    accepted: 520
+    rate: 15.5
+    rate_text: 15.5%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2020.findings-emnlp.0.pdf
+    quote: From the 3,359 submissions reviewed for EMNLP, a total of 752 were accepted to the main conference, and a further 520 papers were accepted to Findings. The papers accepted to Findings equates to 15.5% of the reviewed papers, giving an aggregate acceptance rate for EMNLP and Findings of 37.9%.
+    src: emnlp-2020-findings-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 3600
+    accepted: 840
+    rate: 23.3
+    rate_text: 23.3%
+    rate_basis: stated
+    definition_zh: 主会；分母为送审论文（去掉撤稿和桌拒）
+    source_url: https://aclanthology.org/2021.emnlp-main.0.pdf
+    quote: EMNLP 2021 has received 3,717 full paper submissions, the largest number to date. After excluding papers withdrawn by the authors, and desk rejecting papers which violated the anonymity policy, the multiple submission policy, or the formatting requirements, we were left with 3,600 submissions to be sent out for review. ... 840 submissions were accepted to the main conference. ... Total 3,600 315 525 23.3%
+    src: emnlp-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: findings
+    status: official
+    submissions: 3600
+    accepted: 419
+    rate: 11.6
+    rate_text: 11.6%
+    rate_basis: stated
+    definition_zh: Findings（接受邀请的篇数）；分母同主会
+    source_url: https://aclanthology.org/2021.emnlp-main.0.pdf
+    quote: After the review process, 445 papers were invited to be included in the Findings. 26 papers declined the offer, leading to 419 papers to be published in the Findings. ... Acceptance Rate (Findings) ... Total 3,600 315 525 23.3% 419 11.6%
+    src: emnlp-2021-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 4190
+    accepted: 829
+    rate: 20
+    rate_text: 20%
+    rate_basis: stated
+    definition_zh: 主会；分母为全部投稿，含 ARR 承诺和桌拒
+    source_url: https://aclanthology.org/2022.emnlp-main.0.pdf
+    quote: EMNLP 2022 received 4190 full paper submissions, the largest number to date. This number includes 275 ARR papers that were committed to EMNLP ... 225 papers were desk rejected ... and accepted 829 papers to the main conference. ... Total 4190 175 654 20%
+    src: emnlp-2022-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: findings
+    status: official
+    submissions: 4190
+    accepted: 549
+    rate: 13
+    rate_text: 13%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2022.emnlp-main.0.pdf
+    quote: we also accepted 549 papers for "Findings of EMNLP". ... Total 4190 175 654 20% 549 13%
+    src: emnlp-2022-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 4909
+    accepted: 1047
+    rate: 21.3
+    rate_text: 21.3%
+    rate_basis: stated
+    definition_zh: 主会；分母为全部投稿，含 ARR 承诺和桌拒
+    source_url: https://aclanthology.org/2023.emnlp-main.0.pdf
+    quote: EMNLP 2023 received 4,909 full paper submissions, the largest number to date. This number includes 134 ARR papers that were committed to EMNLP ... Total 4,909 1,047 21.3%
+    src: emnlp-2023-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: findings
+    status: official
+    submissions: 4909
+    accepted: 1060
+    rate: 21.6
+    rate_text: 21.6%
+    rate_basis: computed
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2023.emnlp-main.0.pdf
+    quote: We also accepted 1,060 papers for "Findings of EMNLP". ... Total 4,909 1,047 21.3% 1,060 42.9%
+    src: emnlp-2023-front-matter
+    quote_check: snapshot
+    note_zh: 官方只写了主会加 Findings 的累计比例，这里的 Findings 比例按官方数字计算
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 6105
+    accepted: 1271
+    rate: 20.8
+    rate_text: 20.8%
+    rate_basis: stated
+    definition_zh: ARR；分母不含早期撤稿和桌拒
+    source_url: https://aclanthology.org/2024.emnlp-main.0.pdf
+    quote: "In total, the denominator for acceptance rate calculation is 6395 − 70 − 220 = 6105. The acceptance rate for Main Conference papers is therefore: 1271/6105 = 20.8%."
+    src: emnlp-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: findings
+    status: official
+    submissions: 6105
+    accepted: 1029
+    rate: 16.9
+    rate_text: 16.9%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2024.emnlp-main.0.pdf
+    quote: The next 1029/6105 = 16.9% of papers were accepted to EMNLP Findings.
+    src: emnlp-2024-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 8174
+    accepted: 1811
+    rate: 22.16
+    rate_text: 22.16%
+    rate_basis: stated
+    definition_zh: ARR；分母含早期撤稿和桌拒（和 2024 年口径不同）
+    source_url: https://aclanthology.org/2025.emnlp-main.0.pdf
+    quote: "Among these submissions, 778 were withdrawn before receiving three reviews, and 670 were deskrejected. These are still counted in the denominator. The acceptance rate for Main Conference papers is therefore: 1811/8174 = 22.16%."
+    src: emnlp-2025-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2025
+    track: findings
+    status: official
+    submissions: 8174
+    accepted: 1417
+    rate: 17.34
+    rate_text: 17.34%
+    rate_basis: stated
+    definition_zh: Findings；分母同主会
+    source_url: https://aclanthology.org/2025.emnlp-main.0.pdf
+    quote: The next 1417/8174 = 17.34% of papers were accepted to EMNLP Findings.
+    src: emnlp-2025-front-matter
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2026
+    track: main_and_findings
+    status: partial
+    accepted: 5252
+    definition_zh: 主会和 Findings 合计
+    source_url: https://bsky.app/profile/emnlpmeeting.bsky.social/post/3mtvc6uyjfk2q
+    quote: "✨ We are thrilled to announce that 5,252 papers have been accepted to #EMNLP2026 ✨ This includes over 2,700 main conference papers and over 2,500 papers in findings!"
+    quote_check: manual
+    note_zh: 官方只给了主会（2,700 余篇）和 Findings（2,500 余篇）各自的约数，没有投稿数；5,252 是两者合计，不能当主会录用数看
+    checked: 2026-09-25

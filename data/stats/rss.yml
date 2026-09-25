@@ -1,0 +1,100 @@
+# RSS 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: rss
+rows:
+  - year: 2020
+    track: main
+    status: official
+    submissions: 321
+    accepted: 103
+    rate: 32
+    rate_text: 32%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://roboticsfoundation.org/conferences/
+    quote: "Robotics: Science and Systems XVI | July 12 – July 16, 2020 • Held Virtually | 321 Submissions | 103 Accepted | 32% Acceptance"
+    src: rss-foundation-conferences
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: official
+    submissions: 282
+    accepted: 92
+    rate: 32.6
+    rate_text: 32.6%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://roboticsfoundation.org/conferences/
+    quote: "Robotics: Science and Systems XVII | July 12–16, 2021 • Held Virtually | 282 Submissions | 92 Accepted | 32.6% Acceptance"
+    src: rss-foundation-conferences
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: official
+    submissions: 232
+    accepted: 74
+    rate: 31.8
+    rate_text: 31.8%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://roboticsfoundation.org/conferences/
+    quote: "Robotics: Science and Systems XVIII | June 27 - July 01, 2022 • Columbia University, New York City, NY, USA | 232 Submissions | 74 Accepted | 31.8% Acceptance"
+    src: rss-foundation-conferences
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: official
+    submissions: 333
+    accepted: 112
+    rate: 33.6
+    rate_text: 33.6%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://roboticsfoundation.org/conferences/
+    quote: "Robotics: Science and Systems XIX | July 10– July 14, 2023 • Daegu Exhibition and Convention Center, Daegu, Republic of Korea | 333 Submissions | 112 Accepted | 33.6% Acceptance"
+    src: rss-foundation-conferences
+    quote_check: snapshot
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: official
+    submissions: 423
+    accepted: 135
+    rate: 29.5
+    rate_text: 29.5%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://roboticsfoundation.org/conferences/
+    quote: "Robotics: Science and Systems XIXI | July 15–July 19, 2024 • TU Delft, Netherlands | 423 Submissions | 135 Accepted | 29.5% Acceptance"
+    src: rss-foundation-conferences
+    quote_check: snapshot
+    mismatch_zh: 官网写 29.5%，按官网自己的数字算是 31.9%
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: official
+    submissions: 594
+    accepted: 163
+    rate: 28.4
+    rate_text: 28.4%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://roboticsfoundation.org/conferences/
+    quote: "Robotics: Science and Systems XIXII | June 21–June 25, 2025 • University of Southern California, Los Angeles, USA | 594 Submissions | 163 Accepted | 28.4% Acceptance"
+    src: rss-foundation-conferences
+    quote_check: snapshot
+    mismatch_zh: 官网写 28.4%，按官网自己的数字算是 27.4%
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: partial
+    accepted: 210
+    definition_zh: 单一赛道
+    source_url: https://roboticsconference.org/2026/program/papers/
+    quote_check: manual
+    count_method_zh: 官网录用论文表共 210 行（本应用计数）
+    note_zh: 官方还没公布投稿数
+    checked: 2026-09-25

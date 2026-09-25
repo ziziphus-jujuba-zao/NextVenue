@@ -1,0 +1,161 @@
+* IEEE.org
+ * IEEE CS Standards
+ * Career Center
+ * About Us
+ * Subscribe to Newsletter
+
+0
+
+Sign In
+ * MEMBERSHIP
+ * CONFERENCES
+ * PUBLICATIONS
+ * EDUCATION & CAREER
+ * VOLUNTEER
+ * ABOUT
+ *
+ * Join Us
+
+0
+
+Sign up for our newsletter
+
+IEEE COMPUTER SOCIETY
+About UsBoard of GovernorsNewslettersPress RoomIEEE Support CenterContact Us
+COMPUTING RESOURCES
+Career CenterCourses & CertificationsWebinarsPodcastsTech NewsMembership
+BUSINESS SOLUTIONS
+Corporate PartnershipsConference Sponsorships & ExhibitsAdvertisingRecruitingDigital Library Institutional Subscriptions
+DIGITAL LIBRARY
+MagazinesJournalsConference ProceedingsVideo LibraryLibrarian Resources
+COMMUNITY RESOURCES
+GovernanceConference OrganizersAuthorsChaptersCommunities
+POLICIES
+PrivacyAccessibility StatementIEEE Nondiscrimination PolicyIEEE Ethics ReportingXML Sitemap
+
+Copyright 2026 IEEE - All rights reserved. A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+
+ * Home
+ * /Press Room
+ * /2022 News
+
+ * Home
+ * /Press Room
+ * /2022 News
+
+Record-breaking 2022 CVPR
+
+Advancing the frontiers of computer vision research, technologies, and solutions
+
+Los Alamitos, California – 01 July 2022 - 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), the largest gathering of professionals from across the world and from every aspect of the computer vision, machine learning (ML), and artificial intelligence (AI) industries, successfully concluded this week, breaking records with over 10,250 conference registrants and 2000 technical papers presented.
+
+Computer vision is a field of AI that enables computers and systems to derive meaningful information from digital images, videos, and other visual inputs — and take actions or make recommendations based on that information. CVPR 2022 convened the brightest minds in the field for a week-long program of papers, keynotes, workshops, tutorials, posters, virtual learning, and discussion, and showcased the advancement of computer vision on a global scale.
+
+CVPR’s annual conference covered an extensive range of computer vision, AI, and ML topics and applications; the top five research categories at CVPR 2022 ranked by the number of papers accepted this year are:
+
+Recognition: detection, categorization, retrieval
+
+Image and video synthesis and generation
+
+3D from multi-view and sensors
+
+Low level vision
+
+Vision + language.
+
+CVPR 2022 experienced a record number of paper submissions - 8,161 - of which only 2,064 were accepted at the conference.
+
+CVPR annually recognizes such research through its best papers awards, and the event is internationally known for its prestigious awards program. From this year’s 33 finalists selected from the 2,064 accepted papers, the Awards Committee presented the following awards:
+
+Best Paper Award
+
+Learning to Solve Hard Minimal Problems
+
+Authors: Petr Hruby, Timothy Duff, Anton Leykin, and Tomas Pajdla
+
+Best Paper Honorable Mention
+
+Dual-Shutter Optical Vibration Sensing
+
+Authors: Mark Sheinin, Dorian Chan, Matthew O'Toole, Srinivasa Narasimhan
+
+Best Student Paper Award
+
+EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation
+
+Authors: Hansheng Chen, Pichao Wang, Fan Wang, Wei Tian, Lu Xiong, Hao Li
+
+Best Student Paper Honorable Mention­­
+
+Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields
+
+Authors: Dor Verbin, Peter Hedman, Ben Mildenhall, Todd Zickler, Jonathan Barron, Pratul Srinivasan
+
+The event’s exhibit hall packed with 137 exhibitors provided an abundance of advancements to explore and included companies noted for their AI programs such as Apple, Meta, Microsoft, and TikTok, as well as autonomous driving companies like Argo AI, Tesla, cruise, and Zoox.
+
+Exhibitor highlights include:
+
+Unity Computer Vision showcased “Digital Humans for Computer Vision” - a proprietary digital human generator was developed that contains highly-parametric and simulation-ready 3D human assets.
+
+Tesla brought the Tesla Cybertruck prototype to CVPR for attendees to inspect up-close.
+
+Zoox, the autonomous robotaxi company bought by Amazon, showcased its purpose-built vehicle for the first time at the conference - guests were able to envision the future of transportation by sitting inside.
+
+At the Meta booth, attendees met with researchers actively exploring the latest machine learning techniques for application to various areas of machine perception.
+
+The CVPR 2022 keynote speaker lineup included the following high-profile industry leaders:
+
+Josh Tennenbaum – Professor, Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology (MIT), presented “Learning to See the Human Way”
+
+Xuedong Huang – Technical Fellow, Chief Technology Officer Azure AI, presented “Toward Integrative AI with Computer Vision”
+
+Kavita Bala – Dean, Ann S. Bowers College of Computing and Information Science, Cornell University, presented “Understanding Visual Appearance from Micron to Global Scale.”
+
+A panel session covering “Embodied Computer Vision,” featured Martial Hebert, Carnegie Mellon University, as the moderator, with panelists that included Kristen Grauman, University of Texas, Austin, and Meta AI; Nicholas Roy, Zoox, and MIT; and Michael Ryoo, Stonybrook University and Google.
+
+The 2023 CVPR event will take place in Vancouver, from June 17 to 23, 2023.
+
+About CVPR
+
+The Computer Vision and Pattern Recognition Conference (CVPR)  is the premier annual computer vision and pattern recognition conference. With first-in-class technical content, the main program, tutorials, workshops, a leading-edge expo, and attended by more than 7,500 people annually, CVPR creates a one-of-a-kind opportunity for networking, recruiting, inspiration, and motivation.
+
+About the IEEE Computer Society
+
+The IEEE Computer Society is the world’s home for computer science, engineering, and technology. A global leader in providing access to computer science research, analysis, and information, the IEEE Computer Society offers a comprehensive array of unmatched products, services, and opportunities for individuals at all stages of their professional careers. Known as the premier organization that empowers the people who drive technology, the IEEE Computer Society offers international conferences, peer-reviewed publications, a unique digital library, and training programs.
+
+About the Computer Vision Foundation
+
+The Computer Vision Foundation is a non-profit organization whose purpose is to foster and support research on all aspects of computer vision. Together with the IEEE Computer Society, it co-sponsors the two largest computer vision conferences: CVPR and the International Conference on Computer Vision (ICCV).
+
+LATEST NEWS
+
+Why Data Archival Has Become a Strategic Imperative for Enterprise SaaS
+
+Search and Retrieval Now the Key Differentiator for AI Products
+
+IEEE Computer Society Partners with theIPregistry.org to Streamline IP Authentication for Digital Library Subscribers
+
+IEEE CS and ACM Announce 2026 George Michael Memorial HPC Fellowship Recipients
+
+Can AI Save Science?
+Read Next
+
+Why Data Archival Has Become a Strategic Imperative for Enterprise SaaS
+
+Search and Retrieval Now the Key Differentiator for AI Products
+
+IEEE Computer Society Partners with theIPregistry.org to Streamline IP Authentication for Digital Library Subscribers
+
+IEEE CS and ACM Announce 2026 George Michael Memorial HPC Fellowship Recipients
+
+Can AI Save Science?
+
+Scaling Relational Databases in the Era of Artificial Intelligence—Q&A With Vinodkrishna Gopalan
+
+How to Train and Retain Top Software Engineering Talent
+
+The Shaw Prize in Computer Science: Nominations Now Open
+
+Get the latest news and technology trends for computing professionals with ComputingEdge
+
+Sign up for our newsletter

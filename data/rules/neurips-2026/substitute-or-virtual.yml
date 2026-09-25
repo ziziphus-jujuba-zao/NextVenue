@@ -1,0 +1,28 @@
+id: neurips-2026/substitute-or-virtual
+edition: neurips-2026
+family: presentation
+question_zh: 作者去不了现场时，能请别人代讲或线上报告吗？
+short_zh: 去不了时代讲或线上
+answer: contradictory
+verification: human
+conf: medium
+applies:
+  from: site_assignment
+  until: conference
+summary_zh: 代讲的说法不一致，本应用不替你选：作者手册说有严重的特殊情况时可以找人替你报告，多会场注册说明说会场分配结束后不能再换报告人。线上报告不行：只买 Virtual Only Pass 不满足作者注册要求，没有作者到官方会场现场报告的论文可能被撤销录用。
+detail_zh: 签证来不及时，先看"拒签退注册费"卡：按时递签的，被拒签或没结果可以把注册转为线上并退差价，但这不改变现场报告的要求。
+quotes:
+  - src: neurips-2026-handbook
+    text: "If serious extenuating circumstances prevent authors from attending, then you may find someone who can present your paper in your place."
+    reading_zh: 按作者手册：有严重的特殊情况时，可以找人替你报告。
+  - src: neurips-2026-blog-multisite
+    text: "Please note that due to the massive scale and operational complexity of NeurIPS, no changes to the presenting author or poster location will be permitted once allocations are finalized."
+    reading_zh: 按多会场注册说明：分配结束后报告人和 poster 会场都不能再改，找人代讲就是换报告人。
+  - src: neurips-2026-handbook
+    text: "Each accepted poster must be presented either at the main NeurIPS conference site or a satellite site, if satellite sites exist."
+    reading_zh: 线上：poster 必须在主会场或卫星会场现场展示，没有线上报告。
+effect:
+  kind: fallback
+  substitute: contradictory
+  virtual: not_allowed
+last_checked: 2026-09-25

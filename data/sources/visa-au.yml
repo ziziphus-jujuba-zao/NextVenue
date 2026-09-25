@@ -1,0 +1,25 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-au
+sources:
+  - id: visa-au-cs-mfa
+    url: https://cs.mfa.gov.cn/zggmcg/ljmdd/dyz_658636/adly_658638/
+    title: 中国领事服务网 · 了解目的地：澳大利亚
+    kind: policy
+    fetched_at: 2026-09-25T10:58:17Z
+    http_status: 200
+    snapshot: dc8a1834ec7dea9ac8acced82797cd567371969d9e95e83ad8dff84fb6acad54
+  - id: visa-au-embassy-visitor
+    url: https://china.embassy.gov.au/bjngchinese/dimacn31.html
+    title: 澳大利亚驻华大使馆 · 访客签证
+    kind: policy
+    fetched_at: 2026-09-25T10:58:20Z
+    http_status: 200
+    snapshot: 3bc261ed3612a974de59e31e26996a65cd0b5b424b67f0fc2edacb9db4171f09
+  - id: visa-au-embassy-visitor-streams
+    url: https://china.embassy.gov.au/bjngchinese/dimacn3211.html
+    title: 澳大利亚驻华大使馆 · 访客签证（600类别）简介
+    kind: policy
+    fetched_at: 2026-09-25T11:02:26Z
+    http_status: 200
+    snapshot: 859acf814f8197749067ca46559e3c8abe400ca0f0b69816fede7ebbef9291ad
+    note_zh: 页面最近更新于 2018 年 9 月。

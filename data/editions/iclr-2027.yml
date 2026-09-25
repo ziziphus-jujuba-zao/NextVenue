@@ -3,16 +3,14 @@ series: iclr
 name: ICLR 2027
 year: 2027
 kind: conference
-topics: [ml, ai]
+data_level: curated
 location:
   city: San Francisco
   country: USA
+  country_code: US
 dates:
   start: 2027-04-26
   end: 2027-04-30
-ranks:
-  ccf: A
-  ccf_edition: 7
 milestones:
   - type: abstract
     at: 2026-09-18T23:59
@@ -67,6 +65,36 @@ milestones:
     src: iclr-2027-dates
     quote: "Final Decisions Dec 16 '26"
     note_zh: Dates 页这一项只有日期、没写时区；CFP 写明 “all times are UTC-12h”，故记为 AoE。当天几点发布官方没写。
+  - type: camera_ready
+    tz: AoE
+    status: tba
+    note_zh: 作者指南只写 "An email with instructions for uploading camera-ready submissions will go out mid-February 2027."，没有给截止日期。
+  - type: author_registration
+    tz: AoE
+    status: tba
+    note_zh: 作者指南要求每篇录用论文至少一位作者持 "Conference and Workshops" 注册，但没写注册截止日期；Pricing 页还是模板。
+  - type: early_registration
+    tz: America/Los_Angeles
+    status: tba
+    note_zh: 'Pricing 页写 "Early pricing ends in Date not found: EarlyRegistrationDeadline on pacific time."，还是模板占位。'
+  - type: refund_cutoff
+    tz: America/Los_Angeles
+    status: tba
+    note_zh: Pricing 页写 "Registrations canceled before The date CancellationDeadline not found."，取消截止还没填。
+  - type: visa_refund_apply_by
+    at: 2027-03-16
+    tz: Asia/Shanghai
+    status: confirmed
+    src: iclr-2027-pricing
+    quote: "If you applied for your visa before March 17, 2027"
+    note_zh: 官方写 "before March 17"，即最晚 3/16 递签；没写时区，按北京时间当天算（更保守）。这段写在 Pricing 页，页面其余日期还是模板占位，这个日期以后可能会改。
+  - type: visa_refund_request_by
+    at: 2027-05-05
+    tz: Asia/Shanghai
+    status: estimated
+    src: iclr-2027-pricing
+    quote: "Refund requests must be received within one week after the close of the meeting"
+    note_zh: '本应用推算（basis: assumption）。官方只写"会议结束后一周内"，没给日期：按正会 4/28 结束算是 5/5，按 workshop 4/30 结束算是 5/7，取较早的 5/5；没写时区，按北京时间当天算（更保守）。'
   - type: conference
     label_zh: 正会 4/26–28，workshop 4/29–30
     start: 2027-04-26
@@ -76,5 +104,35 @@ milestones:
     src: iclr-2027-home
     quote: "April 26-30, 2027"
     note_zh: Dates 页写正会 "April 26 - 28"、workshop "April 29 - 30"，但同页仍有 "(location and dates to be announced)" 字样。
-last_checked: 2026-09-24
+logistics:
+  venue:
+    status: tba
+    checked_sources: [iclr-2027-home, iclr-2027-dates, iclr-2027-openreview-venue]
+    note_zh: 主页写 "Venue information will be posted here"；OpenReview 的会议信息写 "San Francisco, CA, USA"。
+  fees:
+    - status: tba
+      checked_sources: [iclr-2027-pricing]
+      note_zh: Pricing 页没有价格，取消截止和早鸟截止都还是模板占位（"not found"）。
+  coverage:
+    per: author
+    max_papers: null
+    extra_zh: 须是 "Conference and Workshops" 注册；学生作者用学生注册即可。是否必须到现场官方没写。
+    src: iclr-2027-author-guidelines
+    quote: "If the author is a student they only need a student registration. If an author has multiple papers they only need one registration."
+  visa_letter:
+    status: tba
+    checked_sources: [iclr-2027-visa, iclr-2027-pricing]
+    note_zh: Visa 页 404。
+  aid:
+    status: tba
+    checked_sources: [iclr-2027-financial-assistance]
+    note_zh: Financial Assistance 页 404。
+  hotels:
+    status: tba
+    checked_sources: [iclr-2027-home]
+    note_zh: 主页写协议酒店只能通过官方 Housing Portal 订，Portal 在会前六个月发布。
+  poster:
+    status: tba
+    checked_sources: [iclr-2027-author-guidelines, iclr-2027-home]
+last_checked: 2026-09-25
 note_zh: 地点：OpenReview 会议主页写 "San Francisco, CA, USA"；iclr.cc 主页只写 "California"，Dates 页仍写 "location and dates to be announced"。

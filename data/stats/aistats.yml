@@ -1,0 +1,79 @@
+# AISTATS 往年录用数据（主会或主赛道）。字段见 docs/DATA_GUIDE.md 第 8 节。
+# 每个数字都带 source_url 和原句；quote_check: snapshot 的原句由 pnpm check:quotes 在快照里逐段核对。
+series: aistats
+rows:
+  - year: 2020
+    track: main
+    status: partial
+    accepted: 423
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v108/
+    quote_check: manual
+    count_method_zh: PMLR v108 论文集共列出 423 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2021
+    track: main
+    status: partial
+    accepted: 455
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v130/
+    quote_check: manual
+    count_method_zh: PMLR v130 论文集共列出 455 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2022
+    track: main
+    status: partial
+    accepted: 492
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v151/
+    quote_check: manual
+    count_method_zh: PMLR v151 论文集共列出 492 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2023
+    track: main
+    status: partial
+    accepted: 496
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v206/
+    quote_check: manual
+    count_method_zh: PMLR v206 论文集共列出 496 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2024
+    track: main
+    status: partial
+    accepted: 547
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v238/
+    quote_check: manual
+    count_method_zh: PMLR v238 论文集共列出 547 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2025
+    track: main
+    status: partial
+    accepted: 583
+    definition_zh: 单一赛道
+    source_url: https://proceedings.mlr.press/v258/
+    quote_check: manual
+    count_method_zh: PMLR v258 论文集共列出 583 篇（本应用计数）
+    note_zh: 官方没公布投稿数（只有第三方数据）
+    checked: 2026-09-25
+  - year: 2026
+    track: main
+    status: official
+    submissions: 2102
+    accepted: 590
+    rate: 28
+    rate_text: 28%
+    rate_basis: stated
+    definition_zh: 单一赛道
+    source_url: https://www.linkedin.com/posts/asolin_aistats2026-tangier-morocco-activity-7424831733768044544-DjfS
+    quote: International Conference on Artificial Intelligence and Statistics 2026 received 2102 submissions, of which 590 (28%) were accepted after careful review
+    src: aistats-2026-pc-post
+    quote_check: snapshot
+    note_zh: 程序主席本人发布
+    checked: 2026-09-25

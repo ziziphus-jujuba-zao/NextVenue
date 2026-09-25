@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: iros-2026
+series: iros
+name: IROS 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/IROS
+  conf_id: iros26
+  link: https://2026.ieee-iros.org/
+  place: Pittsburgh, PA, USA
+  date: September 27 - October 1, 2026
+  timezone: UTC-8
+location:
+  city: Pittsburgh
+  country: USA
+  country_code: US
+dates:
+  start: 2026-09-27
+  end: 2026-10-01
+milestones:
+  - type: paper
+    at: 2026-03-02T23:59
+    tz: UTC-8
+    status: confirmed
+  - type: conference
+    start: 2026-09-27
+    end: 2026-10-01
+    tz: UTC-8
+    status: confirmed
+last_checked: 2026-09-25

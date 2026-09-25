@@ -1,0 +1,36 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: stats-cikm
+sources:
+  - id: cikm-2021-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3459637
+    mirror_url: https://web.archive.org/web/20211101185958id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3459637
+    title: CIKM 2021 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:17:23Z
+    http_status: 200
+    snapshot: 7afe4ea3ecddf400ee6b953311d7f5d9a77f4ee59515e173c117526c14edcf03
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: cikm-2023-front-matter
+    url: https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3583780
+    mirror_url: https://web.archive.org/web/20241206014015id_/https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3583780
+    title: CIKM 2023 proceedings front matter (ACM DL)
+    kind: other
+    fetched_at: 2026-09-25T13:17:26Z
+    http_status: 200
+    snapshot: 4b11a969798bd85f1d888c599acbc2471e67e9274a7840fae2b62fced4802d37
+    note_zh: dl.acm.org 拒绝脚本抓取；快照取自 Wayback Machine 存档的同一 PDF。
+  - id: cikm-2024-sigweb-report
+    url: https://fgullo.github.io/files/papers/SIGWEBNewsl25.pdf
+    title: CIKM 2024 conference report (ACM SIGWEB Newsletter; copy on a general chair's site)
+    kind: other
+    fetched_at: 2026-09-25T13:17:28Z
+    http_status: 200
+    snapshot: a54e7a2816ae5243555669a8f76df4dd0b5edacac7180d45a6eaca58cae900cf
+    note_zh: 组织者在 ACM SIGWEB Newsletter 上的报告，文件放在大会主席的个人主页上。
+  - id: cikm-2025-report
+    url: https://sigir.org/wp-content/uploads/2026/02/p18.pdf
+    title: Report on CIKM 2025 (SIGIR Forum 59(2))
+    kind: other
+    fetched_at: 2026-09-25T13:17:30Z
+    http_status: 200
+    snapshot: 585f3a6ef8779c9842be332758b0d3822244834d4e589ea57235464ae9b6f40c

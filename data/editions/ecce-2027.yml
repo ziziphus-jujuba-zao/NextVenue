@@ -1,0 +1,28 @@
+id: ecce-2027
+series: ecce
+name: ECCE 2027
+year: 2027
+kind: conference
+data_level: curated
+derived_from: ecce-2026
+location: { city: Providence, country: USA, country_code: US }
+dates: { start: 2027-09-12, end: 2027-09-17 }
+milestones:
+  - type: paper
+    label_zh: 论文 digest 截止
+    at: 2027-03-13
+    tz: Asia/Shanghai
+    tz_assumed: true
+    status: estimated
+    src: ecce-2026-home
+    quote: "Call for Papers Proposal Deadline: 03.13.2026"
+    note_zh: 预计。ECCE 2027 官网还没有征文，按 ECCE 2026 的 digest 截止 2026-03-13 顺延一年。
+  - type: conference
+    start: 2027-09-12
+    end: 2027-09-17
+    tz: America/New_York
+    status: confirmed
+    src: pels-conference-schedule
+    quote: "2027 IEEE Energy Conversion Congress & Exposition (ECCE) 12 – 17 September Providence, Rhode Island, USA"
+    note_zh: 取自 IEEE 电力电子学会（PELS）的会议日程表。
+last_checked: 2026-09-25

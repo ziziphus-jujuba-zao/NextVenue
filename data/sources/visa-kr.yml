@@ -1,0 +1,33 @@
+# Managed by `pnpm snapshot`. Edit titles/notes freely; fetched_at, http_status and snapshot are rewritten on refresh.
+edition: visa-kr
+sources:
+  - id: visa-kr-cs-mfa
+    url: https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/hg_646516/
+    title: 中国领事服务网 · 了解目的地：韩国
+    kind: policy
+    fetched_at: 2026-09-25T10:58:20Z
+    http_status: 200
+    snapshot: d5f25094a3b68207c21d737910222791a249cf666eb9309194144cb7a3e8c0ea
+  - id: visa-kr-types
+    url: https://www.visaforkorea-bj.com/upload/%E7%AD%BE%E8%AF%81%E7%A7%8D%E7%B1%BB%E5%8F%8A%E6%89%80%E9%9C%80%E6%9D%90%E6%96%99(260819).pdf
+    title: 韩国驻华大使馆领事部 · 签证种类及所需材料（2026年8月，签证申请中心转载）
+    kind: policy
+    fetched_at: 2026-09-25T10:58:28Z
+    http_status: 200
+    snapshot: 93350b5b2f58ce63ff4e0192375d25c98f1a70dddbeceaf64bfacd896e8d4a7b
+    note_zh: 韩国驻华大使馆领事部 2026 年 8 月的文件，使馆网站的下载链接要求浏览器验证，快照取自使馆指定的北京签证申请中心转载的同一文件。
+  - id: visa-kr-kvac-fees
+    url: https://www.visaforkorea-bj.com/info/service
+    title: 大韩民国签证申请中心（北京）· 代理手续费
+    kind: policy
+    fetched_at: 2026-09-25T10:58:30Z
+    http_status: 200
+    snapshot: cec063b8024ca0380c8d1a6333f11431b1370f707d2e522ec8f16bd0d07d9aa4
+  - id: visa-kr-shanghai-procedure
+    url: https://overseas.mofa.go.kr/cn-shanghai-zh/brd/m_492/view.do?seq=760727&multi_itm_seq=0&itm_seq_1=0&itm_seq_2=0
+    title: 大韩民国驻上海总领事馆 · 签证申请流程
+    kind: policy
+    fetched_at: 2026-09-25T10:58:40Z
+    http_status: 200
+    snapshot: 1ff8ee113598397eaa5dd1e0401c09f797bcfed05d494f76dadb9fe9479f403a
+    note_zh: 页面发布于 2019-07-13。

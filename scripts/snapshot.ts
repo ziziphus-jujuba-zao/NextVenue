@@ -1,5 +1,4 @@
-// Copyright (c) 2026 Zayier Xie
-// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Zayier Xie. All rights reserved.
 
 // Fetch official pages, store a text snapshot, and record it as a source.
 //
@@ -8,17 +7,26 @@
 //       --url https://iclr.cc/Conferences/2027/AuthorGuidelines
 //   pnpm snapshot refresh [--edition iclr-2027] [--id <source-id>]
 //
+// When the official page refuses our fetcher (e.g. HTTP 403), add
+// --mirror-url <same publisher's copy>: `url` stays the official address and
+// the snapshot is taken from the mirror. PDFs need `pdftotext` (poppler).
+// A page whose body is drawn by JavaScript from a payload in the page itself
+// (Nuxt, Next: esmo.org) takes --embedded: the snapshot then also holds the
+// text of the HTML strings in that payload (`embedded: true` in the source).
+//
 // Snapshots are content-addressed (snapshots/<sha256>.txt), so an old
 // snapshot that a rule card was checked against is never overwritten.
 
+import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { convert } from 'html-to-text';
 import { parse, stringify } from 'yaml';
 import type { Source, SourceFile, SourceKind } from '@nextvenue/core';
-import { findQuote, loadRepoData, readSnapshot } from '@nextvenue/core';
+import { checkEvidence, checkQuoteParts, collectEvidence, findQuote, loadRepoData, readSnapshot, statsQuotes } from '@nextvenue/core';
 import { ROOT, green, parseArgs, red, yellow } from './lib.ts';
 
 const USER_AGENT =
@@ -26,6 +34,10 @@ const USER_AGENT =
 const KINDS: SourceKind[] = ['cfp', 'author_guide', 'dates', 'faq', 'policy', 'blog', 'form', 'repo', 'other'];
 
 export function htmlToSnapshotText(html: string): string {
+  // Some CMS pages (gov.cn) close </html> after an included header and carry
+  // on with the article; the parser would stop there. Both end tags are
+  // optional in HTML, so drop them.
+  html = html.replace(/<\/(?:body|html)\s*>/gi, '');
   const text = convert(html, {
     wordwrap: false,
     selectors: [
@@ -54,16 +66,76 @@ export function htmlToSnapshotText(html: string): string {
   );
 }
 
-async function fetchText(url: string): Promise<{ status: number; text: string | null }> {
+/**
+ * The text of a JavaScript-built page's own payload: every HTML string in its
+ * inline data scripts (Nuxt's and Next's JSON, window.__NUXT__), decoded and turned into
+ * text the way a page is. Only strings that hold markup and some words are
+ * kept (ids, class names and URLs are not text a quote can come from).
+ */
+export function embeddedText(html: string): string {
+  const parts: string[] = [];
+  for (const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) {
+    const body = m[2] ?? '';
+    if (!/application\/json/i.test(m[1] ?? '') && !/__NUXT__|__NEXT_DATA__/.test(body)) continue;
+    for (const lit of body.matchAll(/"((?:[^"\\\n]|\\.)*)"/g)) {
+      let s: string;
+      try {
+        s = JSON.parse(`"${lit[1]}"`) as string;
+      } catch {
+        continue;
+      }
+      if (/<[a-z][^>]*>/i.test(s) && /[A-Za-z\u3400-\u9fff]{3,}\s+\S+/.test(s.replace(/<[^>]*>/g, ' '))) parts.push(s);
+    }
+  }
+  return parts.length ? htmlToSnapshotText(`<div>${parts.join('</div><div>')}</div>`) : '';
+}
+
+/** The page's charset from the Content-Type header or a <meta> tag; UTF-8 when neither says. */
+export function charsetOf(contentType: string, head: Uint8Array): string {
+  const fromHeader = /charset=["']?([\w-]+)/i.exec(contentType)?.[1];
+  if (fromHeader) return fromHeader.toLowerCase();
+  const ascii = new TextDecoder('latin1').decode(head.subarray(0, 4096));
+  return (/<meta[^>]+charset=["']?([\w-]+)/i.exec(ascii)?.[1] ?? 'utf-8').toLowerCase();
+}
+
+function pdfToText(bytes: Uint8Array): string {
+  const dir = mkdtempSync(join(tmpdir(), 'nextvenue-pdf-'));
+  try {
+    const file = join(dir, 'page.pdf');
+    writeFileSync(file, bytes);
+    return execFileSync('pdftotext', ['-enc', 'UTF-8', file, '-'], { encoding: 'utf8', maxBuffer: 64 << 20 });
+  } catch (e) {
+    throw new Error(`PDF snapshot needs pdftotext (poppler): ${(e as Error).message}`);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+async function fetchText(url: string, embedded = false): Promise<{ status: number; text: string | null }> {
   const res = await fetch(url, {
     headers: { 'user-agent': USER_AGENT, accept: 'text/html,text/plain,text/markdown;q=0.9,*/*;q=0.5' },
     redirect: 'follow',
   });
   if (!res.ok) return { status: res.status, text: null };
   const type = res.headers.get('content-type') ?? '';
-  const body = await res.text();
-  if (type.includes('pdf')) throw new Error(`${url} is a PDF; PDF snapshots are not supported yet`);
-  const text = type.includes('html') || /^\s*<(!doctype|html)/i.test(body) ? htmlToSnapshotText(body) : body;
+  const bytes = new Uint8Array(await res.arrayBuffer());
+  // Compare bytes: some Node versions return a Buffer from a latin1 TextDecoder, which never equals a string.
+  if (type.includes('pdf') || String.fromCharCode(...bytes.subarray(0, 5)) === '%PDF-') {
+    return { status: res.status, text: pdfToText(bytes) };
+  }
+  let body: string;
+  try {
+    body = new TextDecoder(charsetOf(type, bytes)).decode(bytes);
+  } catch {
+    body = new TextDecoder('utf-8').decode(bytes);
+  }
+  const isHtml = type.includes('html') || /^\s*<(!doctype|html)/i.test(body);
+  let text = isHtml ? htmlToSnapshotText(body) : body;
+  if (isHtml && embedded) {
+    const more = embeddedText(body);
+    if (!more) throw new Error('--embedded: the page carries no HTML payload in its scripts');
+    text = `${text}\n--- page payload (text the page draws with JavaScript) ---\n\n${more}`;
+  }
   return { status: res.status, text };
 }
 
@@ -93,7 +165,7 @@ function writeSourceFile(sf: SourceFile): void {
 }
 
 async function snapshotSource(src: Source): Promise<Source> {
-  const { status, text } = await fetchText(src.url);
+  const { status, text } = await fetchText(src.mirror_url ?? src.url, src.embedded === true);
   const next: Source = { ...src, fetched_at: new Date().toISOString().replace(/\.\d{3}Z$/, 'Z'), http_status: status };
   if (text) next.snapshot = storeSnapshot(text);
   else delete next.snapshot;
@@ -115,6 +187,30 @@ function reportQuoteDrift(sourceIds: Set<string>): number {
       }
     }
   }
+  // Quotes in editions (milestones, logistics), visa and China files. Anchors
+  // are left to check:quotes, which knows the sibling items.
+  const files = [...data.editions, ...data.visa, ...data.holidays, ...(data.chinaAdmin ? [data.chinaAdmin] : [])];
+  for (const { file, value } of files) {
+    for (const ref of collectEvidence(value)) {
+      if (!ref.src || !sourceIds.has(ref.src)) continue;
+      const src = data.sources.get(ref.src);
+      const text = src ? readSnapshot(ROOT, src) : null;
+      if (!text || checkEvidence({ ...ref, anchor: undefined }, text)) {
+        missing++;
+        console.log(yellow(`  quote no longer found: ${file} ${ref.path} ← ${ref.src}`));
+      }
+    }
+  }
+  // Statistics quotes (data/stats, data/stats/areas, data/topics).
+  for (const q of statsQuotes(data.stats, data.areas, data.topics)) {
+    if (!sourceIds.has(q.src)) continue;
+    const src = data.sources.get(q.src);
+    const text = src ? readSnapshot(ROOT, src) : null;
+    if (!text || checkQuoteParts(q.quote, text)) {
+      missing++;
+      console.log(yellow(`  quote no longer found: ${q.file} ${q.where} ← ${q.src}`));
+    }
+  }
   return missing;
 }
 
@@ -125,14 +221,17 @@ async function main() {
   if (cmd === 'add') {
     const { edition, id, url, kind, title } = args;
     if ([edition, id, url, kind, title].some((v) => typeof v !== 'string')) {
-      throw new Error('usage: pnpm snapshot add --edition E --id ID --url URL --kind KIND --title TITLE');
+      throw new Error('usage: pnpm snapshot add --edition E --id ID --url URL --kind KIND --title TITLE [--mirror-url URL] [--embedded]');
     }
     if (!KINDS.includes(kind as SourceKind)) throw new Error(`--kind must be one of ${KINDS.join(', ')}`);
     const sf = readSourceFile(edition as string);
     const existing = sf.sources.findIndex((s) => s.id === id);
+    const mirror = args['mirror-url'];
     const base: Source = {
       id: id as string,
       url: url as string,
+      ...(typeof mirror === 'string' ? { mirror_url: mirror } : {}),
+      ...(args.embedded ? { embedded: true } : {}),
       title: title as string,
       kind: kind as SourceKind,
       fetched_at: '',

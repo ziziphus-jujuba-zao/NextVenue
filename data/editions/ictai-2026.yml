@@ -1,0 +1,33 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: ictai-2026
+series: ictai
+name: ICTAI 2026
+year: 2026
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: AI/ICTAI
+  conf_id: ictai26
+  link: https://ictai.computer.org/2026/
+  place: Boca Raton FL, USA
+  date: November 02-04, 2026
+  timezone: AoE
+location:
+  city: Boca Raton FL
+  country: USA
+  country_code: US
+dates:
+  start: 2026-11-02
+  end: 2026-11-04
+milestones:
+  - type: paper
+    at: 2026-07-21T23:59
+    tz: AoE
+    status: confirmed
+  - type: conference
+    start: 2026-11-02
+    end: 2026-11-04
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25

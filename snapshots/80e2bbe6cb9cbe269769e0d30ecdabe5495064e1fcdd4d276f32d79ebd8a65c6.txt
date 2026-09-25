@@ -1,0 +1,190 @@
+Skip to content
+ * IEEE.org
+ * IEEEB Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+ * IEEE.org
+ * IEEEB Xplore Digital Library
+ * IEEE Standards
+ * IEEE Spectrum
+ * More Sites
+
+IEEE PES Website
+Join IEEE
+Search
+
+ * 2026 IEEE PES IM
+   * 2026 Photo Gallery
+ * About
+   * LOC Organizing Committee
+ * Register Now
+ * Program
+   * Program-at-a-Glance
+   * Call for Papers
+   * Call for Panels
+   * Call for Tutorials
+ * Location
+   * Visit Beijing
+
+Call for Papers
+
+As a flagship international conference of the IEEE Power & Energy Society held outside North America, the PES International Meeting (IM) brings together world leading researchers, engineers, industry executives, system operators, policy makers and journal editors. Under the theme “AI-Empowered Low-Carbon Energy Transition,” PES IM 2027 will provide a high-level international platform for presenting cutting-edge research, exchanging industrial experience, and exploring global collaboration in power and energy systems. Editors-in-Chief and senior editors of IEEE Transactions will also be invited to participate, offering attendees valuable opportunities for academic exchange and engagement with the broader research community. The conference welcomes high-quality submissions on original research, methodological innovations, field applications, industrial practices, and emerging perspectives that contribute to a secure, reliable, economical, and low-carbon energy future.
+
+The 2nd IEEE Power & Energy Society International Meeting (PES IM) will be held at the China National Convention Center in Beijing, China, from 10 to 13 January 2027. Prospective authors are invited to submit full papers on, but not limited to, the topics listed below. Accepted and presented papers will be submitted for inclusion in IEEE Xplore and for indexing by Ei Compendex and Scopus, subject to the review and indexing processes of the respective databases.
+
+Transactions Paper Presentations
+
+An author of an accepted PES Transactions paper who is interested in presenting it at the 2027 PES International Meeting can submit the paper’s abstract and/or the full paper, to the online submission and review site by the deadlines listed above. The appropriate Technical Committee Program Member will review the submission. The author will be notified of the decision by email. Please note: The author must follow the steps on the review site. The full paper will not be published in the Conference Proceedings. Do not upload the full paper as its own submission. It must be uploaded along with the abstract so there will be only one conference paper number.) Accepted Transactions papers that will be presented at the 2027 PES International Meeting will have their abstracts published in the Conference Proceedings.
+
+Important Dates and Submission
+
+26 Jun 2026
+
+26 Jun 2026
+
+Submission site opens
+
+Submit Your Paper Here
+30 Sep 2026
+
+30 Sep 2026
+
+Full paper submission deadline
+
+15 Oct 2026
+
+15 Oct 2026
+
+Notification of provisional acceptance
+
+15 Nov 2026
+
+15 Nov 2026
+
+Final paper submission deadline
+
+30 Nov 2026
+
+30 Nov 2026
+
+Notification of final acceptance
+
+Technical Scope and Topics of Interest
+
+AI-Empowered Power System Planning, Operation, Control and Protection
+
+ * AI-based power forecasting, scenario generation and uncertainty quantification
+ * Verifiable, trustworthy and physics-informed AI for safety-critical power system applications
+ * AI-assisted transmission, distribution and generation expansion planning
+ * Learning-optimization methods for power system operation
+ * AI-assisted state estimation, topology identification, event analysis and anomaly detection
+ * AI-enabled relay protection, adaptive protection, fault location and emergency control
+
+Large Models, Foundation Models, and Intelligent Agents for Power Systems
+
+ * Large models, foundation models, and domain-specific vertical models for power and energy systems
+ * LLM applications in dispatch, operation and maintenance, planning, regulation and market analysis
+ * Agentic decision-making, multi-agent coordination and autonomous power system operation
+ * LLM-based operator assistants, copilots, decision-support systems and human-machine collaboration
+ * Large-model-assisted fault analysis, emergency response, outage management and resilience enhancement
+ * AI agents for power system simulation, modeling, optimization, code generation and workflow automation
+ * Safety, explainability, reliability, hallucination mitigation and human oversight of large-model systems
+
+Electricity Markets, Carbon Markets, Energy Economics and Energy Policy Low-carbon electricity, capacity, ancillary service and flexibility markets
+
+ * Pricing, locational marginal pricing, congestion management and transmission rights
+ * Coordination of electricity and carbon markets, carbon pricing, carbon accounting and emissions constraints
+ * Market participation of distributed energy resources, virtual power plants, storage and demand response
+ * AI-enabled bidding, trading, forecasting, risk management and strategy analysis
+ * Market behavior modeling, game theory, mechanism design and regulatory incentives
+ * Energy equity, affordability and social welfare analysis
+ * Interregional trading, green power trading, renewable energy certificates and carbon credits
+
+Stability, Resilience, Reliability, Cybersecurity and Climate Adaptation
+
+ * Power electronics, converter-dominated grids, grid-forming control and inverter-based resources
+ * Stability analysis and control of low-inertia, renewable-rich power systems
+ * Power system resilience under extreme weather, natural disasters and climate change
+ * Reliability modeling, adequacy assessment and risk evaluation
+ * Cybersecurity, intrusion detection, false-data injection detection and cyber-physical system protection
+ * Climate-adaptive grid design, weather-informed planning and asset hardening strategies
+
+AI-Empowered Design, Operation and Diagnosis of Power Equipment
+
+ * AI-assisted design of power electronics, wide-bandgap devices and converter systems
+ * Intelligent design and optimization of high-voltage equipment, transformers and cables
+ * Digital twins, health assessment, degradation modeling and lifetime prediction of power equipment
+ * Data-driven fault diagnosis, defect detection, predictive maintenance and condition monitoring
+
+Digitalization, Data Infrastructure, Simulation Platforms and Standards
+
+ * Power system digital twins, online simulation and real-time decision-making platforms
+ * Open datasets, benchmark systems, model validation and reproducibility frameworks
+ * High-performance computing, cloud-edge collaboration, co-simulation and real-time simulation
+ * AI deployment, edge intelligence, embedded intelligent control and engineering implementation
+ * Privacy-preserving computing, federated learning, secure data sharing and data governance
+ * Standards, interoperability, communication protocols, compliance and certification
+ * Data quality, missing data recovery, anomaly handling, provenance and traceability
+
+Renewable Integration, Distributed Energy Resources, Storage and Electrification
+
+ * Grid integration of wind, solar, hydro, geothermal and other low-carbon energy resources
+ * Planning, operation, and control of distributed energy resources, virtual power plants and microgrids
+ * Energy storage modeling, sizing, degradation-aware operation and market participation
+ * Electric vehicles, charging infrastructure, vehicle-to-grid services and electrified transportation systems
+ * Demand response, flexible loads, prosumers, aggregators and transactive energy systems
+ * Coordination of transmission and distribution systems under high renewable penetration
+
+Low-Carbon Multi-Energy Systems, Sector Coupling and Emerging Technologies
+
+ * Integrated electricity, gas, heat, hydrogen and transportation energy systems
+ * Sector coupling, power-to-X, hydrogen production, storage, transport and utilization
+ * Low-carbon energy hubs, industrial parks, ports, campuses and urban energy systems
+ * Coordinated planning and operation of multi-energy systems under uncertainty
+ * Carbon capture, utilization and storage in power and industrial energy systems
+ * Lifecycle emissions assessment, carbon footprint modeling and low-carbon technology pathways
+
+SUBMIT YOUR PAPER HERE
+
+Submission and Publication Information
+
+ * All submissions will be reviewed by the Technical Program Committee. Acceptance decisions will be communicated to authors by email.
+ * Papers must be prepared in accordance with the procedures and formatting requirements outlined in the IEEE PES Authors Kit
+ * Full papers must be submitted through the online submission and review site. The maximum paper length is five pages.
+ * Submissions should present original, unpublished work that is not under review elsewhere at the time of submission.
+
+For questions regarding paper submission, please contact [email protected]
+
+Travel Note: Please check the List of Countries Covered by Unilateral Visa Exemption Policies to China (Updated 26/02/17)
+
+ * Europe (35 countries): Andorra, Austria, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Luxembourg, Malta, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Russian Federation, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom of Great Britain and Northern Ireland
+ * Oceania (2 countries): Australia, New Zealand
+ * Asia (7 countries): Bahrain, Brunei Darussalam, Japan, Kuwait, Oman, Republic of Korea, Saudi Arabia
+ * Americas (6 countries): Argentina, Brazil, Canada, Chile, Peru, Uruguay
+
+Connect with IEEE PES International Meeting! Follow us on social media.
+
+Join IEEE PES
+ * Home
+ * More Sites
+ * Contact & Support
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms
+ * Feedback
+
+ * Home
+ * More Sites
+ * Contact & Support
+ * Accessibility
+ * Nondiscrimination Policy
+ * IEEE Ethics Reporting
+ * IEEE Privacy Policy
+ * Terms
+ * Feedback
+
+© Copyright 2026 IEEE — All rights reserved. A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.

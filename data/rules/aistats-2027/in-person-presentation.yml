@@ -1,0 +1,24 @@
+id: aistats-2027/in-person-presentation
+edition: aistats-2027
+family: presentation
+question_zh: 论文录用后必须有作者到现场报告吗？
+short_zh: 到现场报告
+answer: required
+verification: human
+conf: medium
+applies:
+  from: notification
+  until: conference
+summary_zh: 必须（官方用词是 should）。会议在蒙特利尔线下举办，每篇录用论文至少要有一位作者打算注册并到会报告；遇到出行紧急情况或签证问题可以申请例外。所有录用论文都以海报形式报告，其中一部分另做口头报告。
+detail_zh: 例外怎么申请、批了以后怎么报告，官方没写。注册费和注册截止都还没公布。
+quotes:
+  - src: aistats-2027-cfp
+    text: "Accepted papers will be presented at the conference to be held in person in Montreal, CANADA, on May 3–6, 2027."
+  - src: aistats-2027-cfp
+    text: "At least one author of each accepted paper should intend to register and present the work at the conference. Exceptions may be granted in case of travel emergencies or visa issues."
+  - src: aistats-2027-cfp
+    text: "All accepted papers will be presented at the Conference as posters, with a subset being presented as talks"
+effect:
+  kind: requires
+  target: in_person_presentation
+last_checked: 2026-09-25

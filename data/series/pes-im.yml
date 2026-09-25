@@ -1,0 +1,11 @@
+id: pes-im
+acronym: IEEE PES IM
+full_name: "IEEE Power & Energy Society International Meeting"
+aliases:
+  - PES IM
+directions: [eng/power]
+periodicity:
+  cycle: irregular
+  basis: observed
+  note_zh: 2026 年起举办，2027 年为第 2 届；周期还看不出来
+data_level: curated

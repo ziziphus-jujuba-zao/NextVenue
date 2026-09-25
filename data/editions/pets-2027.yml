@@ -1,0 +1,49 @@
+# 由 scripts/import-ccfddl.ts 从 ccfddl（MIT）生成，data_level: upstream。要人工核对：改成 curated，删掉 upstream，每个日期补 src + quote。
+id: pets-2027
+series: pets
+name: PETS 2027
+year: 2027
+kind: conference
+data_level: upstream
+upstream:
+  source: ccfddl
+  key: SC/PETS
+  conf_id: pets27
+  link: https://petsymposium.org/cfp27.php
+  place: Delft, The Netherlands
+  date: July 19-24, 2027
+  timezone: AoE
+location:
+  city: Delft
+  country: The Netherlands
+  country_code: NL
+dates:
+  start: 2027-07-19
+  end: 2027-07-24
+milestones:
+  - type: paper
+    at: 2026-05-31T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Issue 1 Paper Submission Deadline
+  - type: paper
+    at: 2026-08-31T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Issue 2 Paper Submission Deadline
+  - type: paper
+    at: 2026-11-30T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Issue 3 Paper Submission Deadline
+  - type: paper
+    at: 2027-02-28T23:59
+    tz: AoE
+    status: confirmed
+    label_zh: Issue 4 Paper Submission Deadline
+  - type: conference
+    start: 2027-07-19
+    end: 2027-07-24
+    tz: AoE
+    status: confirmed
+last_checked: 2026-09-25
