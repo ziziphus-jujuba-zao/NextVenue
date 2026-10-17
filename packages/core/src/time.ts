@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Deadline time handling. Venues publish deadlines in AoE (UTC-12), fixed
 // offsets, or a named zone such as Pacific Time; users need them as an exact

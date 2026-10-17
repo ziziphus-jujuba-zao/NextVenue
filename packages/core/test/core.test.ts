@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 import { describe, expect, it } from 'vitest';
 import { findQuote, formatIn, nearestMatch, normalizeForMatch, textFragmentUrl, toInstant } from '../src/index.ts';

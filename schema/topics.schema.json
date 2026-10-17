@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "topics.schema.json",
-  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: AGPL-3.0-or-later",
   "title": "Top topics among one edition's accepted papers, from dblp titles (data/topics/<series>-<year>.json, written by scripts/topics/dblp_topics.py)",
   "description": "按录用篇数排的主题，是本应用的估算。故意不允许任何录用率字段：dblp 只有录用的论文。",
   "type": "object",

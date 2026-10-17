@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Import ccfddl (github.com/ccfddl/ccf-deadlines, MIT) as upstream data:
 // one upstream series file per new ccfddl series, one upstream edition per

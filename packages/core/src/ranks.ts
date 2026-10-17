@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Rank labels (CCF, CAA, CAAI, 科协; CORE and THCPL as ccfddl carries them)
 // for our series. A label is never guessed: it comes from an explicit link in

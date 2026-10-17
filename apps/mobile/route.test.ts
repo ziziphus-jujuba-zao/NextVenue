@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The submission route (docs/MOBILE_SPEC.md §9.5) on editions copied from
 // data/editions as of 2026-09-25, so the cases stay realistic but do not

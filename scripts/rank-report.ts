@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // What the rank matching decided and what it could not: labels per series,
 // ambiguous and unconfirmed matches, entries several series claim, ccfddl's

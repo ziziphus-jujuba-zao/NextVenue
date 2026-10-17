@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Past acceptance statistics (data/stats/<series>.yml), official per-area
 // statistics (data/stats/areas/<series>-<year>.yml) and top topics among

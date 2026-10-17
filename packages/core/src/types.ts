@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Mirrors schema/*.schema.json. The JSON Schemas are the source of truth for
 // validation; these types exist so code reading the data is checked.

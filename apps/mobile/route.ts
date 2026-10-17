@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Submission preferences and the submission route (docs/MOBILE_SPEC.md §9):
 // research directions, the venue series a user ranks as 首选 / 备选, which

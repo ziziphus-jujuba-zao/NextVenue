@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Markup for the graphic timeline and past data (docs/MOBILE_SPEC.md §11):
 // the overview lanes, the zoomed phase bar, the acceptance-rate bars, the top

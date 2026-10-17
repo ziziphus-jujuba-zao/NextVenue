@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "visa.schema.json",
-  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: AGPL-3.0-or-later",
   "title": "Visa guidance for one destination regime (data/visa/<id>.yml), for one passport type",
   "type": "object",
   "additionalProperties": false,

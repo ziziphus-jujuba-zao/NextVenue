@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Chinese working days, for school travel approval ("至少提前 40 个工作日").
 // A working day is Monday to Friday, minus the days off in the State

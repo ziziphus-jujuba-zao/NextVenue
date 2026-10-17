@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The graphic timeline (docs/MOBILE_SPEC.md §11.2, §11.3, §11.5): the month
 // axis and today's line, lane order, bars and row packing, colour slots, the

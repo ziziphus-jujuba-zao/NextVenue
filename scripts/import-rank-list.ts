@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Convert a machine-readable extract of an official recommendation list into
 // data/ranks/<list>.yml: the list's name, edition, release date, official

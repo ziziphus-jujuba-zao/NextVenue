@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Rank badges (docs/MOBILE_SPEC.md §12.2): at most two, from the Chinese
 // lists only, the list that matters for the direction first; the sheet

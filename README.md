@@ -6,7 +6,7 @@
 
 *Submission deadlines and rules for academic conferences across disciplines, computer science first; every date and answer backed by a verbatim official quote. Dates imported from [ccfddl](https://ccfddl.com/) (MIT) are marked unchecked until verified against the venue.*
 
-> 状态：v0.0，数据正在录入（首批 ICLR 2027、CVPR 2027、AAAI-27、ARR 2026 年 10 月轮）。仅供决策参考，以官网为准。
+> 状态：早期版本。已收录 509 个会议系列、419 届（其中 251 届来自 ccfddl、标"未核对"），12 届会议共 94 张规则卡。仅供决策参考，以官网为准。
 
 ## 这个项目要做什么
 
@@ -41,6 +41,8 @@ pnpm import:ccfddl --commit <sha> --dry-run   # 从 ccfddl（MIT）导入上游�
 
 最有用的贡献是规则卡：从官网原文出发，写一个问题、一个答案、一段逐字引文。格式和流程见 [docs/DATA_GUIDE.md](docs/DATA_GUIDE.md)。发现卡片错误，请提 issue 并附官网原文链接。
 
+提交 PR 即表示：你有权提交这些内容；同意代码按 AGPL-3.0-or-later、数据按 CC BY-SA 4.0 授权；并同意维护者可以把你的贡献以其他许可证再授权（例如用于微信小程序版）。
+
 ## 文档
 
 | 文件 | 内容 |
@@ -60,4 +62,12 @@ Zayier Xie（[@ziziphus-jujuba-zao](https://github.com/ziziphus-jujuba-zao)）
 
 ## 许可
 
-闭源，保留所有权利（见 [LICENSE](LICENSE)）。本项目自有数据同样保留所有权利（见 [DATA_LICENSE.md](DATA_LICENSE.md)）。引用的官方原文和官网快照版权归各会议所有，仅作引用。用到的第三方数据及其许可证见 [NOTICE](NOTICE)，App 里在「我的 → 版权与第三方数据」。
+代码按 [AGPL-3.0-or-later](LICENSE) 开源：可以自由使用、修改和分发，但修改后的版本（包括做成网站或 App 给别人用）必须同样以 AGPL 公开源代码。本项目自己整理的数据（规则卡、说明等）按 [CC BY-SA 4.0](DATA_LICENSE.md) 授权，转载请署名并以相同许可证共享。“投稿下一站”“NextVenue”名称和图标不在授权范围内，fork 请换用自己的名称和图标（见 [NOTICE](NOTICE)）。
+
+引用的官方原文和 `snapshots/` 下的官网快照版权归各会议所有，仅作引用和校验，主办方要求删除的 72 小时内处理。用到的第三方数据及其许可证见 [NOTICE](NOTICE)，App 里在「我的 → 版权与第三方数据」。
+
+## In English
+
+NextVenue answers two questions for researchers: where can this paper go next, and when does each route close? It covers academic conferences across disciplines, computer science first, and every date and rule answer is backed by a verbatim quote from the official site; CI checks each quote against a saved snapshot of the page. Papers, reviews and plans stay on your own device.
+
+Code: AGPL-3.0-or-later. Own data: CC BY-SA 4.0. The NextVenue name and icon are not licensed. Issues and pull requests are welcome; please link the official page for any rule correction.

@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // After acceptance (docs/MOBILE_SPEC.md §10): when to ask "录用了吗？", the
 // checklist of an accepted paper (出发前 / 在外 / 回国后), which step the

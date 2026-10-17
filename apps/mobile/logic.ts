@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Pure logic for the mobile app: time formatting, relative time, which
 // milestone comes next, and how rules attach to milestones. No DOM here, so

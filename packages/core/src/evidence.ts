@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Evidence inside edition logistics, visa files and China files: any object
 // with a `quote` (or `json_path` + `json_value`) is checked against the

@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The ccfddl import plan: new series and editions come in as upstream,
 // curated editions are never touched, a second run writes nothing, and a

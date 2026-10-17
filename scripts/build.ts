@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Build dist/bundle.json (the data every client downloads in one piece, so no
 // request reveals which venue a user cares about) and the desktop rules page

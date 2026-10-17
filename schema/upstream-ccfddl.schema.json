@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "upstream-ccfddl.schema.json",
-  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: AGPL-3.0-or-later",
   "title": "What scripts/import-ccfddl.ts last read from ccfddl (data/upstream/ccfddl.yml); written by the script only",
   "type": "object",
   "additionalProperties": false,

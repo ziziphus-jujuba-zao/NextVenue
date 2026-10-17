@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Every quote must occur verbatim, after normalization, in the snapshot of
 // the source it cites: rule cards, and every `quote` in editions (milestones,

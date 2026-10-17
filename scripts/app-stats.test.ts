@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The graphic timeline and past data (docs/MOBILE_SPEC.md §11.8) on the
 // data the app ships, 2026-09-25 21:00 Beijing: lane order and bars for the

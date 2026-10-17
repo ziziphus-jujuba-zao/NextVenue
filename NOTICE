@@ -1,9 +1,13 @@
 NextVenue (投稿下一站)
-Copyright (c) 2026 Zayier Xie. All rights reserved.
+Copyright (c) 2026 Zayier Xie
 
-NextVenue and its own data are proprietary (LICENSE, DATA_LICENSE.md). It also
-contains third-party data, listed below with the licence each one is used
-under; that data stays under its own licence.
+NextVenue's code is licensed under the GNU Affero General Public License,
+version 3 or later (LICENSE), and the data it writes itself under CC BY-SA 4.0
+(DATA_LICENSE.md). The names "NextVenue" and "投稿下一站" and the app icon are
+not licensed under either: a fork or a hosted copy must use its own name and
+icon (AGPL-3.0 section 7(e)). It also contains third-party data, listed below
+with the licence each one is used under; that data stays under its own
+licence.
 
 ------------------------------------------------------------------------------
 1. lixin4ever/Conference-Acceptance-Rate (MIT)

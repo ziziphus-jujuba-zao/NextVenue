@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // App wording layered over data/ when the app is built (scripts/app-data.ts).
 // data/ holds the verified cards; this file only changes how the phone app

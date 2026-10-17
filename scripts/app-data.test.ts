@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The app's wording (apps/mobile/copy.ts) against the real data: overrides
 // still match, list labels read as "[label]？[answer]", and the answers a

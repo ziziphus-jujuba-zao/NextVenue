@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Chinese city names (data/cities.yml) and reading ccfddl's free-text place:
 // every edition's city resolves or is listed as unknown, the owner's list of

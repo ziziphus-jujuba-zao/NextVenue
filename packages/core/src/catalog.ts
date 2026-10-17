@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The venue catalog around the editions: series files (data/series/),
 // the discipline → direction taxonomy (data/taxonomy.yml), the rank lists

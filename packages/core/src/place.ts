@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Where an edition is held, in Chinese. data/cities.yml maps the English
 // city names in the data (a curated edition's location.city, a site's city,

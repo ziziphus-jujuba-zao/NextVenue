@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Static rules site (v0.0): one page, rendered at build time, no tracking.
 import type { Bundle, BundleEdition, BundleMilestone, BundleRule } from './bundle.ts';
@@ -267,7 +268,7 @@ footer.bottom{color:var(--muted);font-size:13px;padding-top:40px;padding-bottom:
 </main>
 <footer class="bottom">
   <p>共 ${bundle.rules.length} 张规则卡，${editions.length} 个会议。数据 bundle <span class="mono">${esc(bundle.bundle_hash.slice(0, 12))}</span>，构建于 ${esc(date(bundle.built_at))}。本页不做任何访问统计。</p>
-  <p>NextVenue ／ 投稿下一站 · © 2026 Zayier Xie · 代码 MIT。本项目自有数据以 CC BY 4.0 发布；引用的官方原文版权归各会议所有，仅作引用。发现错误？请在 <a href="https://github.com/ziziphus-jujuba-zao/NextVenue/issues">GitHub</a> 提 issue，并附官网原文。</p>
+  <p>NextVenue ／ 投稿下一站 · © 2026 Zayier Xie · 代码按 AGPL-3.0 开源，本项目自有数据按 CC BY-SA 4.0 授权；引用的官方原文版权归各会议所有，仅作引用。发现错误？请在 <a href="https://github.com/ziziphus-jujuba-zao/NextVenue/issues">GitHub</a> 提 issue，并附官网原文。</p>
 </footer>
 <script>
 (() => {

@@ -7,7 +7,7 @@
 
 ## 1. 产品定位
 
-NextVenue（投稿下一站）是一个闭源、本地优先（local-first）的"投稿作战室"，代码放在私有 GitHub 仓库。
+NextVenue（投稿下一站）是一个开源（AGPL-3.0）、本地优先（local-first）的"投稿作战室"，代码放在公开的 GitHub 仓库。
 
 **公共层**是一份 data-as-code 的会议数据库，覆盖 CS/AI/NLP/CV/robotics 主要会议：
 - 每一届的完整时间线：摘要、正文、Phase-1、rebuttal/讨论、通知、camera-ready、录用后作者注册。ARR/KDD/WACV 这类多轮会议按"每一轮"记录。
@@ -425,7 +425,7 @@ NextVenue/
 ├── .github/workflows/             # validate, sync-upstream, watch(scheduled), build, deploy
 ├── docs/                          # DATA_SOURCES, PRIVACY, MODERATION, CONTRIBUTING
 ├── CODEOWNERS                     # per-venue maintainers
-└── LICENSE（保留所有权利）  DATA_LICENSE  NOTICE
+└── LICENSE（AGPL-3.0）  DATA_LICENSE（CC BY-SA 4.0）  NOTICE
 # snapshots live on orphan branch `snapshots`
 ```
 
@@ -446,7 +446,7 @@ NextVenue/
   - 手机端用 Capacitor 8.5.2 包装，加本地通知；
   - 同步用 Evolu 做端到端加密，或者只提供加密导出文件；
   - 微信小程序需要一个做过 ICP 备案的国内镜像。
-- **许可：** 闭源，代码和自有数据都保留所有权利（2026-09-25 决定）；保留上游的 MIT 等声明，并在 App 里展示。
+- **许可：** 开源，代码 AGPL-3.0-or-later，自有数据 CC BY-SA 4.0，名称和图标不授权（2026-10-17 决定，取代 9/25 的闭源决定）；保留上游的 MIT 等声明，并在 App 里展示。
 
 ## 8. 路线图
 

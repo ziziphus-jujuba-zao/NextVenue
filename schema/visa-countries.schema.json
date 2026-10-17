@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "visa-countries.schema.json",
-  "$comment": "Copyright (c) 2026 Zayier Xie. All rights reserved.",
+  "$comment": "Copyright (c) 2026 Zayier Xie. SPDX-License-Identifier: AGPL-3.0-or-later",
   "title": "Country (ISO 3166-1 alpha-2) → visa regime file (data/visa/<id>.yml); none = no visa needed",
   "type": "object",
   "additionalProperties": false,

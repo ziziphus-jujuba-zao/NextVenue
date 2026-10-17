@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The slim data the mobile app ships inline: only the fields its screens
 // read, with the app's wording (apps/mobile/copy.ts) applied on top.

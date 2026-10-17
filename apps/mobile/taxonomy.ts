@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // 学科 → 方向 (data/taxonomy.yml) as the pickers use it: the two-level
 // direction picker, which venues a choice of directions lists, how a list

@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // NextVenue mobile app: hash router, screens, bottom sheets and local state.
 // Data is inlined in the page (#nv-data); the app makes no network requests.
@@ -1977,16 +1978,20 @@ const THIRD_PARTY: { name: string; what: string; license: string; href: string }
   { name: 'dblp', what: '主题排名用到的录用论文标题', license: 'CC0', href: 'https://dblp.org/' },
 ];
 
+/** Where the source is: AGPL-3.0 §13 asks a hosted copy to offer it to its users. */
+const SOURCE_URL = 'https://github.com/ziziphus-jujuba-zao/NextVenue';
+
 /**
- * 版权与第三方数据: the app and its own data are proprietary; the open data it
- * reuses keeps its own licence, and NOTICE (inlined at build) ships with it as
- * MIT and CC BY require.
+ * 版权与第三方数据: the code is AGPL and its own data CC BY-SA, with a link to
+ * the source; the open data it reuses keeps its own licence, and NOTICE
+ * (inlined at build) ships with it as MIT and CC BY require.
  */
 function screenLegal(): View {
   return {
     title: '版权与第三方数据',
     tab: 'me',
-    body: html`<header class="large-head"><h1>版权与第三方数据</h1><p class="sub">© 2026 Zayier Xie，保留所有权利。本应用的界面设计、代码和自己整理的数据，未经书面许可不得复制、转载、镜像或批量抓取。</p></header>
+    body: html`<header class="large-head"><h1>版权与第三方数据</h1><p class="sub">© 2026 Zayier Xie。代码按 AGPL-3.0 开源，自己整理的数据按 CC BY-SA 4.0 授权；“投稿下一站”“NextVenue”名称和图标不在授权范围内。</p></header>
+      ${group(html`<a class="row two" href="${SOURCE_URL}" target="_blank" rel="noopener"><div class="main"><div class="t">源代码</div><div class="s wrap"><span>GitHub 公开仓库</span></div></div><span class="val">AGPL-3.0 ↗</span></a>`)}
       ${cap('用到的第三方数据，按各自的许可证使用')}
       ${group(
         THIRD_PARTY.map(

@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Screenshots of the built app at real phone sizes, via headless Chrome's
 // DevTools protocol (Node built-ins only). Plain `chrome --screenshot` cannot
@@ -117,7 +118,7 @@ const PLACE_PAPER = { id: 'p1', name: '论文 A', dirs: ['cs/cv'], targets: ['cv
 const OPEN_PLACE: (string | number)[] = ['a.place-card', 700];
 
 const SHOTS: Shot[] = [
-  // 版权与第三方数据 under 我的 (closed source; NOTICE ships with the app), and 我的 itself.
+  // 版权与第三方数据 under 我的 (AGPL source link; NOTICE ships with the app), and 我的 itself.
   { name: 'v8-01-me', hash: '/me', query: PLACE_Q, ua: IPHONE_UA },
   { name: 'v8-02-legal', hash: '/me/legal', query: PLACE_Q, ua: IPHONE_UA },
   { name: 'v8-03-legal-dark', hash: '/me/legal', query: PLACE_Q, ua: IPHONE_UA, scheme: 'dark', full: true },

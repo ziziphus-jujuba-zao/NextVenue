@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Regenerate the app's PNG icons from the SVGs in apps/mobile/icons with
 // rsvg-convert (brew install librsvg). The PNGs are committed, so CI and

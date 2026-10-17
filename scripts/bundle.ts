@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // The bundle every client downloads in one piece: data/ with times resolved
 // to UTC and Beijing, and quotes linked to their sources. Each edition gets

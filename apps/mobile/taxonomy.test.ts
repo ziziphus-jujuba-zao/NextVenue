@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // 学科 → 方向 as the pickers use it (docs/MOBILE_SPEC.md §9.1): which
 // venues a choice of directions lists, how the list is grouped by 学科, and

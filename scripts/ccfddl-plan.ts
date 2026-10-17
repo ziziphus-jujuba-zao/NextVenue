@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // What an import from ccfddl would write, computed without touching files, so
 // the import is testable and idempotent: the same ccfddl data and the same

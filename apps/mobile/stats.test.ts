@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Past data on the zoomed venue page (docs/MOBILE_SPEC.md §11.4): which bar
 // and words each acceptance row gets, the chart's slots and scale, the top

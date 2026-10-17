@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-  <!-- Copyright (c) 2026 Zayier Xie. All rights reserved. -->
+  <!-- Copyright (c) 2026 Zayier Xie. All rights reserved. The NextVenue / 投稿下一站 name and icon are not licensed under the AGPL; see NOTICE. -->
   <!-- NextVenue（投稿下一站） app icon: a paper headed to its next venue. Maskable: mark scaled into the 80% safe zone. -->
   <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2E8BFF"/><stop offset="1" stop-color="#0A4FC4"/></linearGradient></defs>
   <rect width="1024" height="1024" fill="url(#bg)"/>

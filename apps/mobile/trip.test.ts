@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // After acceptance (docs/MOBILE_SPEC.md §10) on the real data: the NeurIPS
 // 2026 checklist of the spec's example, the school-approval date in Chinese

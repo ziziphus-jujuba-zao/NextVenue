@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Two kinds of venue the lists treat differently (docs/MOBILE_SPEC.md §12):
 // abstract-only meetings (submission_type abstract: AACR, SfN, EGU), whose

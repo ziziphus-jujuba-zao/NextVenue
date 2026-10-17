@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Rank badges next to venue names (docs/MOBILE_SPEC.md §12.2): which of an
 // edition's labels to show, in which order, and in what words. Labels come

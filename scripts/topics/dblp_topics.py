@@ -1,4 +1,5 @@
-# Copyright (c) 2026 Zayier Xie. All rights reserved.
+# Copyright (c) 2026 Zayier Xie
+# SPDX-License-Identifier: AGPL-3.0-or-later
 """Top topics among a venue's ACCEPTED papers, counted from the paper titles that dblp lists.
 
 Python 3 standard library only. Not run in CI: CI only validates the JSON it writes

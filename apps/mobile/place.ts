@@ -1,4 +1,5 @@
-// Copyright (c) 2026 Zayier Xie. All rights reserved.
+// Copyright (c) 2026 Zayier Xie
+// SPDX-License-Identifier: AGPL-3.0-or-later
 
 // Where a venue is held, as the venue page shows it (docs/MOBILE_SPEC.md
 // §3.4.1): the city and country in Chinese, the days and how far the local

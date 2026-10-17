@@ -5,7 +5,7 @@
   "type": "module",
   "description": "NextVenue（投稿下一站）: submission deadlines, rules and routes for academic conferences across disciplines, computer science first — every answer backed by a verbatim official quote.",
   "author": "Zayier Xie <zayierxie@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "AGPL-3.0-or-later",
   "engines": {
     "node": ">=20"
   },
