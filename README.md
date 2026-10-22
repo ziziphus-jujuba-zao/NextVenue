@@ -2,6 +2,8 @@
 
 **被拒之后下一站投哪？每条投稿路线什么时候关闭？每个答案都附官方原文。**
 
+**在线使用：<https://ziziphus-jujuba-zao.github.io/NextVenue/>**（手机浏览器打开即可，不用注册；可「添加到主屏幕」当 App 用，离线也能打开）
+
 覆盖各学科的学术会议，计算机为主：工程（控制、交通、自动驾驶……）、医学、生命、物理、化学、数学、地学、社科都有，CCF 目录里的每个会议都能搜到，会议名旁标出 CCF / CAAI / 科协目录等级（照录目录原文，带版次和出处）。App 告诉你下一个截止是什么、之后还能改什么；规则卡回答"摘要截止后还能加作者吗？撤稿会不会公开？CVPR 注册算不算投稿？"。每个日期和每张卡都逐字引用官网原句，点链接直达官网高亮位置，CI 会校验原文确实存在于我们保存的官网快照中。
 
 *Submission deadlines and rules for academic conferences across disciplines, computer science first; every date and answer backed by a verbatim official quote. Dates imported from [ccfddl](https://ccfddl.com/) (MIT) are marked unchecked until verified against the venue.*
@@ -69,5 +71,7 @@ Zayier Xie（[@ziziphus-jujuba-zao](https://github.com/ziziphus-jujuba-zao)）
 ## In English
 
 NextVenue answers two questions for researchers: where can this paper go next, and when does each route close? It covers academic conferences across disciplines, computer science first, and every date and rule answer is backed by a verbatim quote from the official site; CI checks each quote against a saved snapshot of the page. Papers, reviews and plans stay on your own device.
+
+Try it in your browser: <https://ziziphus-jujuba-zao.github.io/NextVenue/> (no account; add it to your home screen to use it as an app).
 
 Code: AGPL-3.0-or-later. Own data: CC BY-SA 4.0. The NextVenue name and icon are not licensed. Issues and pull requests are welcome; please link the official page for any rule correction.

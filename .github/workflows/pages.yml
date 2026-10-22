@@ -3,8 +3,11 @@
 
 name: pages
 
-# Manual only: the site is not published yet. Run it by hand once hosting is set.
+# Publishes the app to https://ziziphus-jujuba-zao.github.io/NextVenue/ on every
+# push to main; it can also be run by hand.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:

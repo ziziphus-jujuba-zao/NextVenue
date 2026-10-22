@@ -1,6 +1,6 @@
 # 开源发布 · 小红书（2026-10）
 
-配图：`dist/launch/2026-10-open-source/xiaohongshu/01.png`–`07.png`（3:4，按顺序上传；本地生成，不进仓库）。数据截至 2026-10-17：509 个会议系列、419 届、94 张规则卡、1633 条原文。发布前请确认这几个数字和 `pnpm validate`、`pnpm check:quotes` 的输出一致。
+配图：`dist/launch/2026-10-open-source/xiaohongshu/01.png`–`07.png`（3:4，按顺序上传；本地生成，不进仓库）。截图为 2026-10-22（第 5 张为 9/25 的演示数据），数据截至 2026-10-22：509 个会议系列、419 届、94 张规则卡、1633 条原文。发布前请确认这几个数字和 `pnpm validate`、`pnpm check:quotes` 的输出一致。小红书正文里的链接点不开，读者要复制到浏览器；可以把链接也放进置顶评论或简介。
 
 ---
 
@@ -23,7 +23,9 @@ NeurIPS、AAAI 刚出结果，被拒的论文得马上决定转投哪儿😮‍�
 
 目前收录 509 个会议系列、419 届；ICLR、CVPR、AAAI、ARR、NeurIPS 等 12 届会议有 94 张规则卡，1633 条官网原文逐字核对过。论文和计划只存在你自己手机上，不用注册，不收集任何数据。
 
-代码 AGPL-3.0 开源，GitHub 搜 NextVenue（ziziphus-jujuba-zao/NextVenue）。现在还是早期版本，网页版和小程序在路上，会写代码的同学可以先 clone 下来本地跑。欢迎提 issue、一起补规则卡～
+👉 手机浏览器打开 ziziphus-jujuba-zao.github.io/NextVenue 就能用，可以「添加到主屏幕」当 App 用；微信小程序在路上。
+
+代码 AGPL-3.0 开源，GitHub 搜 NextVenue。还是早期版本，欢迎提 issue、一起补规则卡～
 
 你最想看哪个会议的规则？评论区告诉我👇
 

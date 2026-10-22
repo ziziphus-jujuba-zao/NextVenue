@@ -1,6 +1,6 @@
 # Open-source launch · X thread (2026-10)
 
-Images: `dist/launch/2026-10-open-source/x/` (generated locally, not in the repo). Attach `1-hero.png` to post 1, `2-route.png` to post 2, `3-rule.png` to post 3 and `5-venue.png` to post 5. Every post fits the 280-character limit. Numbers as of 2026-10-17: 509 series, 419 editions, 1,633 quotes.
+Images: `dist/launch/2026-10-open-source/x/` (generated locally, not in the repo). Attach `1-hero.png` to post 1, `2-route.png` to post 2, `3-rule.png` to post 3 and `5-venue.png` to post 5. Every post fits the 280-character limit. Numbers as of 2026-10-22: 509 series, 419 editions, 1,633 quotes.
 
 ---
 
@@ -38,6 +38,7 @@ The UI and rule summaries are in Chinese for now; the quotes stay in the origina
 
 Code AGPL-3.0, data CC BY-SA 4.0. It's early, so issues and PRs are very welcome, especially rule cards for venues you know well.
 
-https://github.com/ziziphus-jujuba-zao/NextVenue
+Try it: https://ziziphus-jujuba-zao.github.io/NextVenue/
+Code: https://github.com/ziziphus-jujuba-zao/NextVenue
 
 Not affiliated with any conference. Always double-check the official site.
